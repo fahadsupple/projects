@@ -1,0 +1,76 @@
+SPELLING MISTAKES FINDER — PROJECT INSTRUCTIONS
+================================================
+All instructions below are saved in the exact words shared by the user.
+
+---
+
+AUDIT INSTRUCTIONS (from memory — full ruleset)
+------------------------------------------------
+
+What to crawl:
+- Fetch sitemap.xml, sitemap_index.xml, page-sitemap.xml, post-sitemap.xml to find all pages
+- Also collect internal links from every page to catch pages missing from sitemap
+- Crawl EVERY unique page found
+
+What to check on each page:
+Check ALL of the following for errors, not just visible body text:
+- Body text (paragraphs, headings H1–H6, lists, button labels)
+- <title> tag
+- <meta name="description"> tag
+- <meta name="keywords"> tag
+- Open Graph tags: og:title, og:description, og:site_name
+- Twitter card tags: twitter:title, twitter:description
+- Alt text on images
+- Anchor/link text
+
+Error types to find:
+a) Spelling mistakes — Australian English required:
+   - "colour/honour/behaviour" not "color/honor/behavior"
+   - "analyse/organise/realise/specialise/minimise" not "analyze/organize/realize/specialize/minimize"
+   - "licence" (noun) vs "license" (verb)
+   - "centre/theatre" not "center/theater"
+   - "metre" not "meter" (measurement)
+   - "travelling/cancelled" not "traveling/canceled"
+b) Grammar errors — wrong verb form, subject-verb disagreement, incomplete sentences, "a" vs "an"
+c) Punctuation errors — missing apostrophes in possessives, missing hyphens in compound adjectives before nouns, double periods, missing commas after "however"
+d) Wrong content — copy-paste errors, wrong suburb/location in headings, wrong phone number, wrong meta from another page/business
+e) Duplicate text — labels or headings appearing twice in succession
+f) Redundancy — e.g. "Over 100+" (both "over" and "+" mean more than)
+
+What to IGNORE:
+- Suburb names, city names, street names
+- Brand names, company names, product names
+- URLs, email addresses, phone numbers (unless clearly wrong like in Wrong Content)
+- Technical jargon specific to the industry
+
+Company name consistency check:
+Always check for company name inconsistency as part of every audit:
+- Determine the correct/official company name from homepage, About page, logo alt text, footer
+- Check for: different spellings, wrong capitalisation, split words (e.g. "load star" vs "Loadstar"), missing letters (e.g. "Loadstar Trailer" vs "Loadstar Trailers"), wrong vowels (e.g. "Lodestar"), lowercase brand names, generic logo alt text (e.g. alt="Logo" instead of the company name)
+- Check ALL locations: body text, H1–H6, meta description, og:title, og:description, title tag, footer, nav, alt text on logo images, breadcrumbs
+- Flag parent company / trading-as confusion where readers won't understand the relationship
+- Use the orange "Company Name" badge type for these issues
+
+Output / HTML file:
+- Save one HTML file per project/site
+- Filename = the domain name (e.g. loadstartraile.wpenginepowered.com.html)
+- Save in the working directory: /home/invoi/fahad_projects/spelling-mistakes-finder/
+- Stats strip MUST include "Total URLs crawled" as the FIRST stat card (not "Pages crawled")
+- Table columns: Page URL (clickable link), Location (Meta Description / H2 Heading / Body text / og:title / etc.), Word/Phrase Found (with context snippet), Correct AU English, Comment, Type (badge)
+- Include colour-coded badges: Typo (red), Grammar (yellow), US English (blue), Wrong content (purple), Punctuation (green), Company Name (orange)
+- Wrong text highlighted red (monospace), correct text highlighted green (monospace)
+- When updating an existing HTML file for a site, also rename/recreate it with the domain as the filename if it was previously saved with a different name
+
+---
+
+VERIFYING COMPLETION (user instruction — exact words)
+------------------------------------------------------
+
+"If I ask you to check if everything is done properly and if all URLs are covered, start by crawling the number of URLs and see if all URLs were covered. If they were not, find the list of URLs that were not done and then check all issues on those URLs. In the output HTML file, instead of changing what you have already added, at the bottom, mention the additional URL results with appropriate headings so we don't have to go through the whole thing again. This is a global rule - update your memory."
+
+---
+
+SAVING INSTRUCTIONS (user instruction — exact words)
+-----------------------------------------------------
+
+"Also, For each project/skill - add a text file in the folder and add all instructions in that text file that i share with you in the exact same words - the ones that will become part of your skillset. Keep it saved there so we can refer to it whenever needed. Do this automatically every time you are asked to update global or project based rules. For global rules, make another file where you can add things."

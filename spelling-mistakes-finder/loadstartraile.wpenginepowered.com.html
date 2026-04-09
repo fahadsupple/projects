@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spelling &amp; Content Audit – loadstartraile.wpenginepowered.com</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f6fa; color: #222; }
+  header { background: #1a1a2e; color: #fff; padding: 28px 36px 22px; }
+  header h1 { font-size: 1.45rem; font-weight: 700; margin-bottom: 4px; }
+  header p { font-size: 0.85rem; color: #aab; }
+
+  .stats { display: flex; flex-wrap: wrap; gap: 14px; padding: 22px 36px; background: #fff; border-bottom: 1px solid #e0e0e0; }
+  .stat { background: #f0f4ff; border-radius: 10px; padding: 14px 22px; min-width: 140px; text-align: center; }
+  .stat .num { font-size: 2rem; font-weight: 800; color: #2563eb; line-height: 1; }
+  .stat .lbl { font-size: 0.75rem; color: #555; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .container { padding: 28px 36px; }
+  h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: 16px; color: #1a1a2e; }
+
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); font-size: 0.84rem; }
+  thead tr { background: #1a1a2e; color: #fff; }
+  th { padding: 11px 13px; text-align: left; font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+  td { padding: 10px 13px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) { background: #fafbff; }
+  tr:hover { background: #f0f4ff; }
+
+  .url { color: #2563eb; text-decoration: none; font-size: 0.78rem; word-break: break-all; }
+  .url:hover { text-decoration: underline; }
+
+  .wrong { background: #fde8e8; color: #b91c1c; font-family: monospace; padding: 1px 5px; border-radius: 3px; font-size: 0.82rem; }
+  .right { background: #dcfce7; color: #15803d; font-family: monospace; padding: 1px 5px; border-radius: 3px; font-size: 0.82rem; }
+
+  .badge { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+  .b-typo    { background: #fee2e2; color: #b91c1c; }
+  .b-grammar { background: #fef9c3; color: #854d0e; }
+  .b-us      { background: #dbeafe; color: #1d4ed8; }
+  .b-wrong   { background: #ede9fe; color: #6d28d9; }
+  .b-punct   { background: #dcfce7; color: #15803d; }
+  .b-company { background: #ffedd5; color: #c2410c; }
+
+  .loc { font-size: 0.78rem; color: #555; white-space: nowrap; }
+  .section-label { background: #e8eaf6; }
+  .section-label td { padding: 8px 13px; font-weight: 700; font-size: 0.8rem; color: #3730a3; text-transform: uppercase; letter-spacing: 0.06em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Spelling &amp; Content Audit — loadstartraile.wpenginepowered.com</h1>
+  <p>Audited 26 March 2026 &nbsp;|&nbsp; Australian English standard &nbsp;|&nbsp; All pages, products, categories, meta &amp; alt text checked</p>
+</header>
+
+<!-- STATS STRIP -->
+<div class="stats">
+  <div class="stat"><div class="num">111</div><div class="lbl">Total URLs crawled</div></div>
+  <div class="stat"><div class="num">46</div><div class="lbl">Errors found</div></div>
+  <div class="stat"><div class="num">14</div><div class="lbl">Typos</div></div>
+  <div class="stat"><div class="num">13</div><div class="lbl">Grammar</div></div>
+  <div class="stat"><div class="num">8</div><div class="lbl">US English</div></div>
+  <div class="stat"><div class="num">6</div><div class="lbl">Wrong Content</div></div>
+  <div class="stat"><div class="num">4</div><div class="lbl">Punctuation</div></div>
+  <div class="stat"><div class="num">1</div><div class="lbl">Company Name</div></div>
+</div>
+
+<div class="container">
+<h2>Official company name confirmed: <strong>Loadstar Trailers</strong></h2>
+
+<table>
+<thead>
+  <tr>
+    <th>#</th>
+    <th>Page URL</th>
+    <th>Location</th>
+    <th>Found (wrong)</th>
+    <th>Correct AU English</th>
+    <th>Comment</th>
+    <th>Type</th>
+  </tr>
+</thead>
+<tbody>
+
+<!-- HOMEPAGE -->
+<tr class="section-label"><td colspan="7">Homepage</td></tr>
+
+<tr>
+  <td>1</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/" target="_blank">loadstartraile.wpenginepowered.com/</a></td>
+  <td class="loc">Alt text (image)</td>
+  <td><span class="wrong">Immediate Availablity</span></td>
+  <td><span class="right">Immediate Availability</span></td>
+  <td>Missing letter 'i' in "Availability".</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>2</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/" target="_blank">loadstartraile.wpenginepowered.com/</a></td>
+  <td class="loc">Alt text (image)</td>
+  <td><span class="wrong">Tailer Sales Perth</span></td>
+  <td><span class="right">Trailer Sales Perth</span></td>
+  <td>Missing 'r' — "Tailer" should be "Trailer".</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>3</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/" target="_blank">loadstartraile.wpenginepowered.com/</a></td>
+  <td class="loc">Alt text (image)</td>
+  <td><span class="wrong">Tradesmen Trailers</span></td>
+  <td><span class="right">Tradesman Trailers</span></td>
+  <td>"Tradesmen" is the plural noun form; "Tradesman" is the product-adjective used consistently throughout the site (category page, product names, navigation). Wrong form in alt text.</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<!-- ABOUT -->
+<tr class="section-label"><td colspan="7">About Page</td></tr>
+
+<tr>
+  <td>4</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/about/" target="_blank">loadstartraile.wpenginepowered.com/about/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">high quality box trailers</span></td>
+  <td><span class="right">high-quality box trailers</span></td>
+  <td>Compound adjective before a noun requires a hyphen: "high-quality".</td>
+  <td><span class="badge b-punct">Punctuation</span></td>
+</tr>
+
+<tr>
+  <td>5</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/about/" target="_blank">loadstartraile.wpenginepowered.com/about/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">Sold with 12 months license</span></td>
+  <td><span class="right">Sold with a 12-month licence</span></td>
+  <td>"License" is the US English noun; AU English noun is "licence". Also "12 months license" needs either a hyphen ("12-month") or possessive apostrophe ("12 months'"). This error recurs on many product/category pages — see also items 12, 13, 29, 32, 34, 36, 38.</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<!-- TRAILERS PAGE -->
+<tr class="section-label"><td colspan="7">Trailers Page</td></tr>
+
+<tr>
+  <td>6</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailers/" target="_blank">loadstartraile.wpenginepowered.com/trailers/</a></td>
+  <td class="loc">Meta Description</td>
+  <td><span class="wrong">60+ years experience</span></td>
+  <td><span class="right">60+ years' experience</span></td>
+  <td>Missing possessive apostrophe — should be "years' experience" (the experience belonging to those years).</td>
+  <td><span class="badge b-punct">Punctuation</span></td>
+</tr>
+
+<tr>
+  <td>7</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailers/" target="_blank">loadstartraile.wpenginepowered.com/trailers/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">camper, and tradesmen models</span></td>
+  <td><span class="right">camper, and tradesman models</span></td>
+  <td>"Tradesmen" is the plural noun for tradesperson; the product adjective is "Tradesman". Same boilerplate error on /areas-we-serve/welshpool/ and /areas-we-serve/canning-vale/ — see item 20.</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<!-- TRAILER HIRE -->
+<tr class="section-label"><td colspan="7">Trailer Hire Page</td></tr>
+
+<tr>
+  <td>8</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-hire/" target="_blank">loadstartraile.wpenginepowered.com/trailer-hire/</a></td>
+  <td class="loc">Meta Description</td>
+  <td><span class="wrong">A list of our suppliers across the Western Australian region. From Albany to Kalgoorlie you can find the quality of Loadstar Trailers helping out Western Australians.</span></td>
+  <td><span class="right">A description of the Trailer Hire service — available trailers, pricing, and booking details.</span></td>
+  <td>The meta description belongs to a completely different page (a supplier/dealer locator). This is a clear copy-paste error. The page is about hiring trailers; the meta describes a regional supplier network. Search engines will show the wrong snippet for this page.</td>
+  <td><span class="badge b-wrong">Wrong Content</span></td>
+</tr>
+
+<tr>
+  <td>9</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-hire/" target="_blank">loadstartraile.wpenginepowered.com/trailer-hire/</a></td>
+  <td class="loc">H1 Heading</td>
+  <td><span class="wrong">Loadstar Trailer Hire</span></td>
+  <td><span class="right">Loadstar Trailers – Trailer Hire</span></td>
+  <td>The official company name is "Loadstar Trailers" (plural). The H1 drops the 's', presenting the company name incorrectly.</td>
+  <td><span class="badge b-company">Company Name</span></td>
+</tr>
+
+<tr>
+  <td>10</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-hire/" target="_blank">loadstartraile.wpenginepowered.com/trailer-hire/</a></td>
+  <td class="loc">H3 / CTA Heading</td>
+  <td><span class="wrong">Get Your Trailer Repairs Quote</span></td>
+  <td><span class="right">Get Your Trailer Hire Quote</span></td>
+  <td>On the Trailer Hire page the main CTA says "Trailer Repairs Quote" — wrong service. The same mismatch also appears on the Car Trailers page (/trailers/car-trailers/) and Custom Trailers page (/trailers/custom-trailers/). Appears to be a sitewide template error on non-repairs pages.</td>
+  <td><span class="badge b-wrong">Wrong Content</span></td>
+</tr>
+
+<!-- SITEWIDE -->
+<tr class="section-label"><td colspan="7">Sitewide — appears on every page</td></tr>
+
+<tr>
+  <td>11</td>
+  <td><em style="font-size:0.78rem">All pages — hero/banner tagline</em></td>
+  <td class="loc">Body text / Banner</td>
+  <td><span class="wrong">…designed for performance, Premium custom trailers, parts and service.</span></td>
+  <td><span class="right">…designed for performance, premium custom trailers, parts and service.</span></td>
+  <td>"Premium" is capitalised mid-sentence after a comma as though it starts a new sentence — it does not. Should be lowercase "premium". This tagline appears on every single page of the site.</td>
+  <td><span class="badge b-punct">Punctuation</span></td>
+</tr>
+
+<!-- CATEGORY PAGES -->
+<tr class="section-label"><td colspan="7">Category Pages</td></tr>
+
+<tr>
+  <td>12</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/6-ft-single/" target="_blank">…/categories/6-ft-single/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">New trailers come with 12 months license</span></td>
+  <td><span class="right">New trailers come with a 12-month licence</span></td>
+  <td>"License" (noun) → AU English "licence". "12 months license" also needs a hyphen or possessive apostrophe.</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>13</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/7-ft-single/" target="_blank">…/categories/7-ft-single/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">All new trailers sold include 12 months license</span></td>
+  <td><span class="right">All new trailers sold include a 12-month licence</span></td>
+  <td>Same "license" → "licence" issue.</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>14</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/8ft-single/" target="_blank">…/categories/8ft-single/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">All products build by Loadstar Trailers conform to all Australian Design Rules</span></td>
+  <td><span class="right">All products built by Loadstar Trailers conform to all Australian Design Rules</span></td>
+  <td>"Build" → "built" — wrong verb form (past participle required after "products").</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>15</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/flat-top/" target="_blank">…/categories/flat-top/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">Loadstar Trailers now has Australian made flat top trailer which can be custom built</span></td>
+  <td><span class="right">Loadstar Trailers now has an Australian-made flat top trailer which can be custom built</span></td>
+  <td>Two errors: (1) missing article "an" before "Australian"; (2) "Australian made" should be hyphenated as a compound adjective: "Australian-made".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>16</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/flat-top/" target="_blank">…/categories/flat-top/</a></td>
+  <td class="loc">Body text (product card)</td>
+  <td><span class="wrong">Our flat top trailers are suitable for plant and equipment movement due to its flat base.</span></td>
+  <td><span class="right">due to their flat base.</span></td>
+  <td>Subject–verb disagreement: "trailers" (plural) does not agree with "its" (singular). Should be "their". Same error on /product/8x6ft-flat-top-trailer/ — same copy — see item 26.</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>17</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/luggage/" target="_blank">…/categories/luggage/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">All trailers use a fully welded together to make the trailer more water proof and stronger</span></td>
+  <td><span class="right">All trailers are fully welded together to make the trailer more waterproof and stronger</span></td>
+  <td>Two errors: (1) "use a fully welded together" is grammatically broken — should be "are fully welded together"; (2) "water proof" should be one word: "waterproof".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>18</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/camper/" target="_blank">…/categories/camper/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">a starting price of $3400.00 You can also have</span></td>
+  <td><span class="right">a starting price of $3400.00. You can also have</span></td>
+  <td>Missing full stop (period) at the end of the sentence before "You can also have".</td>
+  <td><span class="badge b-punct">Punctuation</span></td>
+</tr>
+
+<tr>
+  <td>19</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/categories/camper/" target="_blank">…/categories/camper/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">the Loadstar unit is a great value for money</span></td>
+  <td><span class="right">the Loadstar unit is great value for money</span></td>
+  <td>"A great value for money" is non-standard. The correct AU English idiom is "great value for money" — no article "a".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<!-- AREAS WE SERVE -->
+<tr class="section-label"><td colspan="7">Areas We Serve Pages</td></tr>
+
+<tr>
+  <td>20</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/areas-we-serve/welshpool/" target="_blank">…/areas-we-serve/welshpool/</a> &amp; <a class="url" href="https://loadstartraile.wpenginepowered.com/areas-we-serve/canning-vale/" target="_blank">…/canning-vale/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">box, flat top, off-road, camper, and tradesmen models</span></td>
+  <td><span class="right">tradesman models</span></td>
+  <td>"Tradesmen" is the plural noun for tradesperson; "Tradesman" is the product adjective. Identical boilerplate text appears on both the Welshpool and Canning Vale area pages.</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>21</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/areas-we-serve/forrestfield/" target="_blank">…/areas-we-serve/forrestfield/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">Full 12-month license included</span></td>
+  <td><span class="right">Full 12-month licence included</span></td>
+  <td>"License" (noun) → AU English noun is "licence".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<!-- TRAILER REPAIRS LOCATION PAGES -->
+<tr class="section-label"><td colspan="7">Trailer Repairs Location Pages</td></tr>
+
+<tr>
+  <td>22</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-repairs-canning-vale/" target="_blank">…/trailer-repairs-canning-vale/</a></td>
+  <td class="loc">Body text</td>
+  <td><span class="wrong">Our maintenance programmed include:</span></td>
+  <td><span class="right">Our maintenance programme includes:</span></td>
+  <td>Two errors: (1) "programmed" is the past-tense verb "to program" — the correct noun is "programme" (AU English); (2) subject–verb disagreement: "programme" (singular) requires "includes".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>23</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-repairs-forrestfield/" target="_blank">…/trailer-repairs-forrestfield/</a></td>
+  <td class="loc">H2 Heading</td>
+  <td><span class="wrong">The Specialists Heavy-Duty Trailer Repair Near Forrestfield</span></td>
+  <td><span class="right">The Specialists in Heavy-Duty Trailer Repair Near Forrestfield</span></td>
+  <td>Missing preposition "in" after "Specialists". As written the heading is grammatically incomplete.</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>24</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/trailer-repairs-wangara/" target="_blank">…/trailer-repairs-wangara/</a></td>
+  <td class="loc">Meta Description</td>
+  <td><span class="wrong">Call 08 9451 5858</span></td>
+  <td><span class="right">Call (08) 9249 8898 (Malaga) or (08) 9355 2244 (Welshpool)</span></td>
+  <td>The phone number 08 9451 5858 does not appear anywhere else on the site. All other pages list (08) 9249 8898 (Malaga) and (08) 9355 2244 (Welshpool). Appears to be an old or incorrect number left in this page's meta description.</td>
+  <td><span class="badge b-wrong">Wrong Content</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — TRADESMAN -->
+<tr class="section-label"><td colspan="7">Product Pages — Tradesman Trailers</td></tr>
+
+<tr>
+  <td>25</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/7x4ft-deep-sided-tradesman/" target="_blank">…/product/7x4ft-deep-sided-tradesman/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">The trailer is build stronger and is higher inside than most standard tradesman trailers.</span></td>
+  <td><span class="right">The trailer is built stronger</span></td>
+  <td>"Build" → "built" — wrong verb form (past participle required after "is").</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — FLAT TOP -->
+<tr class="section-label"><td colspan="7">Product Pages — Flat Top Trailers</td></tr>
+
+<tr>
+  <td>26</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x6ft-flat-top-trailer/" target="_blank">…/product/8x6ft-flat-top-trailer/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">Our flat top trailers are suitable for plant and equipment movement due to its flat base.</span></td>
+  <td><span class="right">due to their flat base.</span></td>
+  <td>Plural "trailers" with singular pronoun "its" — should be "their".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>27</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">this trailer can easily take a pay load of 1.2 tonne</span></td>
+  <td><span class="right">a payload of 1.2 tonne</span></td>
+  <td>"Pay load" → "payload" (one word).</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>28</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Mechanical over ride brakes to the front axle</span></td>
+  <td><span class="right">Mechanical override brakes to the front axle</span></td>
+  <td>"Over ride" → "override" (one word). Same error on /product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/ and /product/8x5ft-galvanised-tandem-trailer-with-brakes/ — see items 31, 37.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>29</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked-with-cage/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Includes 12 months license</span></td>
+  <td><span class="right">Includes a 12-month licence</span></td>
+  <td>"License" (noun) → AU English "licence".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>30</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">take a pay load of 1.1 tonne … a pay load of 1100 kg</span></td>
+  <td><span class="right">a payload of 1.1 tonne … a payload of 1100 kg</span></td>
+  <td>"Pay load" → "payload". Error appears twice in the same description.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>31</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Mechanical over ride brakes to front axle</span></td>
+  <td><span class="right">Mechanical override brakes to front axle</span></td>
+  <td>"Over ride" → "override".</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>32</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/" target="_blank">…/product/9x6ft-onroad-tipping-flat-top-2-tonne-braked/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Includes 12 months license</span></td>
+  <td><span class="right">Includes a 12-month licence</span></td>
+  <td>"License" → "licence".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>33</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/14-x-7-3-5-tonne-flat-top-trailer/" target="_blank">…/product/14-x-7-3-5-tonne-flat-top-trailer/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Dual electric break away brakes</span></td>
+  <td><span class="right">Dual electric breakaway brakes</span></td>
+  <td>"Break away" (two words) → "breakaway" (one word). Same error on the 12x7 Tipping Flat Top — see item 35.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>34</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/14-x-7-3-5-tonne-flat-top-trailer/" target="_blank">…/product/14-x-7-3-5-tonne-flat-top-trailer/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">12 months license</span></td>
+  <td><span class="right">12-month licence</span></td>
+  <td>"License" → "licence".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>35</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/12x7-3-tonne-tipping-flat-top-with-sides/" target="_blank">…/product/12x7-3-tonne-tipping-flat-top-with-sides/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Dual Electric Break Away brakes</span></td>
+  <td><span class="right">Dual electric breakaway brakes</span></td>
+  <td>"Break Away" → "breakaway". Also inconsistently capitalised ("Electric Break Away" vs lowercase on the 14x7 page).</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>36</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/12x7-3-tonne-tipping-flat-top-with-sides/" target="_blank">…/product/12x7-3-tonne-tipping-flat-top-with-sides/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">12 month license included</span></td>
+  <td><span class="right">12-month licence included</span></td>
+  <td>"License" → "licence". Also "12 month" needs hyphen before noun: "12-month".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — GALVANISED -->
+<tr class="section-label"><td colspan="7">Product Pages — Galvanised Trailers</td></tr>
+
+<tr>
+  <td>37</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-galvanised-tandem-trailer-with-brakes/" target="_blank">…/product/8x5ft-galvanised-tandem-trailer-with-brakes/</a></td>
+  <td class="loc">Body text / Specifications</td>
+  <td><span class="wrong">Mechanical over ride brakes to the front axle</span></td>
+  <td><span class="right">Mechanical override brakes to the front axle</span></td>
+  <td>"Over ride" → "override".</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>38</td>
+  <td><em style="font-size:0.78rem">Multiple galvanised &amp; box product pages — see note</em></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Includes 12 months license</span></td>
+  <td><span class="right">Includes a 12-month licence</span></td>
+  <td>"License" (noun) → AU English "licence". Confirmed on: 7x4ft Galvanised with 900mm Cage, 7x5 Galvanised Single Axle, 8x5 Galvanised Single Axle, 10x5 Galvanised Tandem (with cage &amp; without), 7x4ft 12-inch City Trailer with 900mm Cage, and 8x5ft 4 Leaf Slipper City Trailer. Fix the shared product template to use "licence".</td>
+  <td><span class="badge b-us">US English</span></td>
+</tr>
+
+<tr>
+  <td>39</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/10-x-6-galvanised-tandem-trailer-with-brakes-and-900-cage/" target="_blank">…/product/10-x-6-galvanised-tandem-trailer-with-brakes-and-900-cage/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">over engineered with heavier than needed chassis</span></td>
+  <td><span class="right">over-engineered with heavier-than-needed chassis</span></td>
+  <td>"Over engineered" → "over-engineered" (hyphenated compound). "Heavier than needed" as a compound adjective before a noun should also be hyphenated: "heavier-than-needed chassis".</td>
+  <td><span class="badge b-punct">Punctuation</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — CAMPER -->
+<tr class="section-label"><td colspan="7">Product Pages — Camper Trailers</td></tr>
+
+<tr>
+  <td>40</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/7x4ft-camper-trailer/" target="_blank">…/product/7x4ft-camper-trailer/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">6 lf double army wrap springs</span></td>
+  <td><span class="right">6-leaf double army wrap springs</span></td>
+  <td>"lf" is a truncated typo for "leaf" — should be written in full.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<tr>
+  <td>41</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/7x4ft-camper-trailer/" target="_blank">…/product/7x4ft-camper-trailer/</a></td>
+  <td class="loc">Specifications</td>
+  <td><span class="wrong">Hammerfinish top coat</span></td>
+  <td><span class="right">Hammer finish top coat</span></td>
+  <td>Missing space between "Hammer" and "finish". Every other product page spells this correctly as two words.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — TANDEM TRAILERS -->
+<tr class="section-label"><td colspan="7">Product Pages — Tandem Trailers</td></tr>
+
+<tr>
+  <td>42</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-5-leaf-rocker-trailer-heavy-duty/" target="_blank">…/product/8x5ft-5-leaf-rocker-trailer-heavy-duty/</a></td>
+  <td class="loc">Image alt text</td>
+  <td><span class="wrong">8x5ft 5 Leaf Slipper Trailer (Heavy Duty)</span></td>
+  <td><span class="right">8x5ft 5 Leaf Rocker Trailer (Heavy Duty)</span></td>
+  <td>The primary product image alt text says "Slipper Trailer" but this page is the "Rocker Trailer". Slipper and rocker are different spring types — the wrong product name is in the alt text.</td>
+  <td><span class="badge b-wrong">Wrong Content</span></td>
+</tr>
+
+<tr>
+  <td>43</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-5-leaf-rocker-trailer-heavy-duty/" target="_blank">…/product/8x5ft-5-leaf-rocker-trailer-heavy-duty/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">Another basic 8x5ft tandem axle trailer for the country.</span></td>
+  <td><span class="right">Remove "Another basic" — use a positive descriptive opening.</span></td>
+  <td>"Another basic" is dismissive copy for a product being sold. All other product pages use positive, descriptive openers. This phrasing undercuts the product and is inconsistent with the rest of the site.</td>
+  <td><span class="badge b-wrong">Wrong Content</span></td>
+</tr>
+
+<tr>
+  <td>44</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-7-leaf-rocker-trailer-super/" target="_blank">…/product/8x5ft-7-leaf-rocker-trailer-super/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">deeper sides and stronger built suspension and frame</span></td>
+  <td><span class="right">deeper sides and more strongly built suspension and frame</span></td>
+  <td>"Stronger built" is non-standard English — should be "more strongly built" or simply "stronger suspension and frame".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<tr>
+  <td>45</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-7-leaf-rocker-trailer-galvanised/" target="_blank">…/product/8x5ft-7-leaf-rocker-trailer-galvanised/</a></td>
+  <td class="loc">Body text / Product Description</td>
+  <td><span class="wrong">deeper sides and strong built suspension and frame make it built to last</span></td>
+  <td><span class="right">deeper sides and strongly built suspension and frame make it built to last</span></td>
+  <td>"Strong built" is non-standard — should be "strongly built".</td>
+  <td><span class="badge b-grammar">Grammar</span></td>
+</tr>
+
+<!-- PRODUCT PAGES — CITY/BOX TRAILERS -->
+<tr class="section-label"><td colspan="7">Product Pages — City &amp; Box Trailers</td></tr>
+
+<tr>
+  <td>46</td>
+  <td><a class="url" href="https://loadstartraile.wpenginepowered.com/product/8x5ft-4-leaf-slipper-city-trailer/" target="_blank">…/product/8x5ft-4-leaf-slipper-city-trailer/</a></td>
+  <td class="loc">Page Title &amp; H1</td>
+  <td><span class="wrong">8x5ft 4 Leaf slipper City Trailer</span></td>
+  <td><span class="right">8x5ft 4 Leaf Slipper City Trailer</span></td>
+  <td>"slipper" is lowercase while every other equivalent product title capitalises it (e.g. "5 Leaf Slipper Trailer", "4 Leaf Slipper City Trailer" as listed in categories). Inconsistent capitalisation in both the page &lt;title&gt; tag and H1.</td>
+  <td><span class="badge b-typo">Typo</span></td>
+</tr>
+
+</tbody>
+</table>
+
+<p style="margin-top: 20px; font-size: 0.8rem; color: #555;">
+  <strong>Key:</strong>&nbsp;
+  <span class="badge b-typo">Typo</span> spelling/capitalisation error &nbsp;
+  <span class="badge b-grammar">Grammar</span> wrong word form or agreement &nbsp;
+  <span class="badge b-us">US English</span> non-AU spelling &nbsp;
+  <span class="badge b-wrong">Wrong Content</span> incorrect or misplaced copy &nbsp;
+  <span class="badge b-punct">Punctuation</span> missing/wrong punctuation &nbsp;
+  <span class="badge b-company">Company Name</span> brand name used incorrectly
+</p>
+</div>
+
+</body>
+</html>

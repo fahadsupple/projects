@@ -1,0 +1,257 @@
+INTERNAL LINKING — PROJECT INSTRUCTIONS
+=========================================
+All instructions below are drawn from confirmed training rules established across
+all internal linking sessions. Maintained in sync with memory .md files.
+
+Working directory: /home/invoi/fahad_projects/internal linking/
+Crawler script:    /home/invoi/fahad_projects/internal linking/crawl_internal_links.py
+Project files:     /home/invoi/fahad_projects/internal linking/Projects/{domain}.txt
+
+---
+
+EXECUTION RULE
+--------------
+
+Do not ask for permission between steps. Execute the entire workflow autonomously.
+Do NOT skip the crawler or site: query — these are mandatory for every request.
+Do NOT propose links from pages you haven't fetched and read.
+Always show your work — the user should see the audit data and Google query results,
+not just the final links.
+
+---
+
+MASTER WORKFLOW (follow in exact order for every request)
+----------------------------------------------------------
+
+STEP 1 — Determine Company Location & Service Area
+  - Check About, Contact, Services, footer pages (in parallel)
+  - Record: physical location, service area description, how they refer to themselves
+  - Needed for anchor text writing (Step 6) and geo-located search (Step 3)
+
+STEP 2 — Run Existing Link Audit (Crawler)
+  - Run: python3 "/home/invoi/fahad_projects/internal linking/crawl_internal_links.py" "<target_url>"
+  - Record: navigational (sitewide) links vs contextual (in-content) links
+  - Determine how many NEW links are needed:
+      0 contextual     → 5–9 new links
+      1–2 contextual   → add 3–7 more
+      3–5 contextual   → add 2–4 more
+      6–9 contextual   → add 1–3 more
+      10–15 contextual → only for new content
+      16+              → none needed, tell the user and STOP
+  - Show user: nav link count, contextual count, which pages already link, anchor texts
+
+STEP 3 — Run Google Site: Query
+  - Use Serper.dev API (NOT WebSearch — WebSearch cannot geo-locate)
+  - API key: 969f16d911a33be0379f155c7385481a0767c285
+  - Call format:
+      curl -s -X POST "https://google.serper.dev/search" \
+        -H "X-API-KEY: 969f16d911a33be0379f155c7385481a0767c285" \
+        -H "Content-Type: application/json" \
+        -d '{"q": "site:domain.com keyword", "gl": "au", "location": "City, State, Australia", "num": 20}'
+  - Prioritise: Top 3–5 results = HIGH, 6–10 = MEDIUM, 11+ = LOW
+  - Skip pages that already link to the target (from Step 2 crawler data)
+  - If target page ranks #1 — others are cannibalization candidates, prioritise them
+
+STEP 4 — Fetch Content of Source Pages
+  - WordPress: try WP REST API first (posts: /wp-json/wp/v2/posts?slug=X, pages: /wp-json/wp/v2/pages?slug=X)
+  - Non-WP: use curl or WebFetch
+  - Read FULL content — find existing internal links, best paragraph for insertion
+  - DO NOT propose a link on a page whose content you haven't read
+
+STEP 5 — Select Link Placement Paragraphs
+  - Pick paragraph that most naturally discusses the target topic
+  - Prefer first 2/3 of article (Reasonable Surfer model)
+  - Avoid: headings (H1–H6), paragraphs with 2+ existing links, existing <a> tags, intros
+  - Run the 7-point quality check: genuine reader value, contextual relevance, clear
+    purpose, descriptive anchor, natural flow, SEO support, appropriate quantity
+
+STEP 6 — Write Anchor Text & Surrounding Sentences
+  Location keywords — SAFE patterns (imply service coverage):
+    "electrical services in Blaxland", "servicing Blaxland", "Blaxland" (neutral)
+  Location keywords — UNSAFE patterns (imply physical presence — AVOID):
+    "our Blaxland team", "local electrician in Blaxland", "Blaxland electricians"
+  All keywords:
+    - 2–5 words, partial-match preferred over exact-match
+    - Never: "click here", "learn more", "read more"
+    - No single anchor type should exceed 40% of all recommendations
+    - Each recommendation must use a different anchor text variation
+  Surrounding sentence must reference the broader service region, not just one suburb.
+  Read the full paragraph before writing — match the site's tone, style, AU English.
+
+STEP 7 — Compose Output (4 required sections)
+  Section 1: Existing Link Audit Report (nav links, contextual links, how many more needed)
+  Section 2: Google Site Query Results (which pages ranked and why they were prioritised)
+  Section 3: Individual Link Recommendations — for each link:
+      Page: full URL
+      Find this text: exact current HTML paragraph (FULL paragraph, not a snippet)
+      Replace with: exact modified HTML with link inserted + full absolute URL in href
+  Section 4: Summary Table (page, anchor text, type, priority source) + anchor diversity breakdown
+
+STEP 8 — Final Validation Checklist
+  Before presenting results, verify every recommendation:
+  - Anchor text does NOT misrepresent company location
+  - Anchor text is NOT inside a heading or existing link
+  - Source page does NOT already link to target page
+  - "Find this text" HTML is the REAL content from the page (not made up)
+  - Full absolute URL is used in href
+  - Inserted sentence reads naturally — not forced or awkward
+  - Anchor text variety — no single type exceeds 40% of total
+  - Total recommended links aligns with the audit (don't over-link)
+  - No .md files created for project output
+
+STEP 9 — Save to Project File
+  - File: /home/invoi/fahad_projects/internal linking/Projects/{domain}.txt
+  - Check if file exists — if yes, read it first, then append
+  - Check for conflicts (same source page already used for a different keyword)
+  - File is DEVELOPER HANDOFF ONLY — contains: request header, page URL, Find, Replace With
+  - NO audit data, no site: query, no anchor types, no summaries in the project file
+  - Results also go in chat (full detail) — both must be kept in sync
+
+---
+
+CORE INTERNAL LINKING RULES
+-----------------------------
+
+QUANTITY
+  - 2–5 contextual links per 1,000 words; 4–5 links per article is the sweet spot
+  - Maximum 7 links for 3,000+ word pieces; keep total page links under 150
+
+ANCHOR TEXT
+  - Descriptive, keyword-rich, 2–5 words
+  - Mix types: exact-match, partial-match, branded, compound, semantic
+  - NEVER: "click here", "learn more", "this article", or vague anchors
+  - NEVER: same anchor text pointing to different pages (cannibalization)
+  - Warn at 40% concentration in any single anchor category (LOOM rule)
+
+PLACEMENT
+  - Body paragraphs = primary placement zone
+  - First 1/3 of article: 1.5x priority weight; last 1/3: 0.5x weight
+  - NEVER place inside H1–H6, inside existing <a> tags, inside code blocks, intro paragraphs (except for pillar links)
+
+TOPIC CLUSTER / HUB-AND-SPOKE
+  - Pillar pages link DOWN to all cluster articles
+  - Cluster articles link UP to their parent pillar (mandatory "one link up" rule)
+  - Keep ALL important pages within 3 clicks of homepage
+
+MONEY PAGES
+  - Money pages should RECEIVE many internal links but NOT leak equity to non-conversion pages
+  - Base boost: +0.50 scoring; deficit boost: +0.25; leakage penalty: -0.30
+
+ORPHAN PAGES
+  - Every page must have at least one incoming internal link
+  - Orphan pages get bonus priority for receiving new links
+
+CONTENT QUALITY (CRITICAL)
+  - Any inserted text must read as if it was part of the original — not bolted on
+  - Read the FULL paragraph and surrounding paragraphs before writing any insertion
+  - Match the site's tone, writing style, sentence patterns, and AU English
+  - If no natural insertion point exists, do NOT force it — find a different paragraph
+
+PROHIBITED
+  - Forced/unnatural link placement
+  - Excessive links in a single paragraph
+  - Identical anchor text on multiple pages pointing to different targets
+  - Links that interrupt reading flow
+  - Linking to irrelevant content
+
+---
+
+PROJECT FILE FORMAT (developer handoff)
+-----------------------------------------
+
+File: /home/invoi/fahad_projects/internal linking/Projects/{domain}.txt
+
+--- REQUEST: {keyword} | {target URL} | {date} ---
+
+Link 1 of X
+Page: {full URL}
+Find:
+{exact content — no <p> tags, just inner text and <a> tags}
+Replace With:
+{exact modified content — no <p> tags}
+
+Link 2 of X
+...
+
+Rules:
+- "Find:" and "Replace With:" labels are on their own line; content starts on the NEXT line
+- Never include <p> tags, metadata, anchor types, or reasoning
+- Append new --- REQUEST --- sections for new keywords on the same site
+- Mark implemented links as [IMPLEMENTED], removed as [REMOVED {date}: reason]
+- Mark updated entries as [UPDATED {date}: what changed]
+
+---
+
+OUTPUT FORMAT RULES
+--------------------
+
+- Output results in chat AND save to project .txt file — both, always
+- NEVER create .md files per project/keyword (only memory/training files are .md)
+- ALWAYS use full absolute URLs in href attributes
+- ALWAYS show the FULL paragraph in Find/Replace — not just the sentence being changed
+- ALWAYS show WHY each page was chosen (Google rank or topical relevance)
+- If no additional links are needed, say so clearly with data
+
+---
+
+LOCATION KEYWORD ANCHOR TEXT — CRITICAL RULES
+----------------------------------------------
+
+Before writing any anchor text for a location keyword:
+1. Find company's actual physical location (About, Contact, footer)
+2. Find their stated service area (Areas/Locations page)
+
+SAFE anchor text patterns:
+  "electrical services in Blaxland", "servicing Blaxland", "Blaxland" (neutral),
+  "electrician near Blaxland", "serving Blaxland and surrounding areas"
+
+UNSAFE anchor text patterns — AVOID:
+  "our Blaxland electricians" (implies staff stationed there)
+  "local electrician in Blaxland" (implies locally based)
+  "electrician team in Blaxland" (implies team is based there)
+
+Surrounding sentence must use: "We service...", "including...", "across...", "covering..."
+NOT: "Our team in...", "Our office in..."
+
+Always reference the broader service region alongside the suburb.
+
+---
+
+SERPER.DEV API REFERENCE
+--------------------------
+
+API Key: 969f16d911a33be0379f155c7385481a0767c285
+Use for: all Google site: queries with geo-targeting
+Free tier: 2,500 queries
+
+curl -s -X POST "https://google.serper.dev/search" \
+  -H "X-API-KEY: 969f16d911a33be0379f155c7385481a0767c285" \
+  -H "Content-Type: application/json" \
+  -d '{"q": "site:domain.com keyword", "gl": "au", "location": "Melbourne, Victoria, Australia", "num": 20}'
+
+Key params: q (query), gl (au), location (city-level), num (use 20)
+Default location: company location, or Melbourne if unspecified.
+
+---
+
+VERIFYING COMPLETION (global rule — exact words)
+-------------------------------------------------
+
+"If I ask you to check if everything is done properly and if all URLs are covered,
+start by crawling the number of URLs and see if all URLs were covered. If they were
+not, find the list of URLs that were not done and then check all issues on those
+URLs. In the output HTML file, instead of changing what you have already added, at
+the bottom, mention the additional URL results with appropriate headings so we don't
+have to go through the whole thing again. This is a global rule - update your memory."
+
+---
+
+SAVING INSTRUCTIONS (global rule — exact words)
+------------------------------------------------
+
+"Also, For each project/skill - add a text file in the folder and add all
+instructions in that text file that i share with you in the exact same words - the
+ones that will become part of your skillset. Keep it saved there so we can refer to
+it whenever needed. Do this automatically every time you are asked to update global
+or project based rules. For global rules, make another file where you can add things."
+

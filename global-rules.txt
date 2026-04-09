@@ -1,0 +1,78 @@
+GLOBAL RULES
+============
+All instructions below are saved in the exact words shared by the user, or drawn
+from confirmed training rules established across all projects.
+
+---
+
+VERIFYING COMPLETION
+--------------------
+
+"If I ask you to check if everything is done properly and if all URLs are covered,
+start by crawling the number of URLs and see if all URLs were covered. If they were
+not, find the list of URLs that were not done and then check all issues on those
+URLs. In the output HTML file, instead of changing what you have already added, at
+the bottom, mention the additional URL results with appropriate headings so we don't
+have to go through the whole thing again. This is a global rule - update your memory."
+
+---
+
+SAVING INSTRUCTIONS TO TEXT FILES
+-----------------------------------
+
+"Also, For each project/skill - add a text file in the folder and add all
+instructions in that text file that i share with you in the exact same words - the
+ones that will become part of your skillset. Keep it saved there so we can refer to
+it whenever needed. Do this automatically every time you are asked to update global
+or project based rules. For global rules, make another file where you can add things."
+
+File locations:
+- Global rules: /home/invoi/fahad_projects/global-rules.txt
+- Project rules: one .txt file per project folder (e.g. project-instructions.txt)
+- Also maintain corresponding .md memory files so rules persist across conversations.
+
+---
+
+EXECUTE AUTONOMOUSLY — NO PERMISSION PROMPTS
+---------------------------------------------
+
+(Established during internal linking training)
+
+Do not ask for permission every time — just go ahead and do whatever is needed to
+get the work done. Execute file reads, writes, edits, searches, web fetches, and
+tool calls without prompting for confirmation. Only pause for truly destructive or
+irreversible actions (like deleting important files or pushing to production).
+
+---
+
+AUSTRALIAN ENGLISH — DEFAULT FOR ALL PROJECTS
+----------------------------------------------
+
+(Applies across all projects — spelling audit, internal linking, content writing)
+
+Always use Australian English spelling in all written output, inserted copy, and
+generated content:
+- "colour/honour/behaviour" not "color/honor/behavior"
+- "analyse/organise/realise/specialise/minimise" not "analyze/organize/realize/specialize/minimize"
+- "licence" (noun) vs "license" (verb)
+- "centre/theatre" not "center/theater"
+- "metre" not "meter" (measurement)
+- "travelling/cancelled" not "traveling/canceled"
+- "programme" not "program" (unless referring to software)
+
+---
+
+MAINTAINING BOTH .MD AND .TXT FILES
+-------------------------------------
+
+"can you add to global-rules.txt whatever global rules we have discussed so far
+through any projects. also update txt file across all projects that we have discussed
+so far. pls maintain both .md and txt files."
+
+Every rule must exist in TWO places:
+1. The .txt file in the project folder (plain-text, human-readable reference)
+2. The .md memory file in /home/invoi/.claude/projects/.../memory/ (persists across
+   conversations, loaded automatically)
+
+Both must be kept in sync. When a rule is updated, update both locations.
+

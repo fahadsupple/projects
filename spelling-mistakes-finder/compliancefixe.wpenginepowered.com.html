@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spelling & Content Errors — compliancefixe.wpenginepowered.com</title>
+  <style>
+    /* ── Reset & base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 14px;
+      background: #f4f6f9;
+      color: #222;
+      padding: 32px 24px;
+    }
+
+    /* ── Page header ── */
+    header {
+      max-width: 1300px;
+      margin: 0 auto 28px;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    header p {
+      margin-top: 6px;
+      color: #555;
+      font-size: 13px;
+    }
+    header a { color: #3b5bdb; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+
+    /* ── Stats strip ── */
+    .stats {
+      max-width: 1300px;
+      margin: 0 auto 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .stat-card {
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+      padding: 14px 22px;
+      min-width: 150px;
+    }
+    .stat-card .num { font-size: 28px; font-weight: 700; color: #3b5bdb; }
+    .stat-card .lbl { font-size: 12px; color: #777; margin-top: 2px; }
+
+    /* ── Legend ── */
+    .legend {
+      max-width: 1300px;
+      margin: 0 auto 18px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 11px;
+    }
+    .badge-typo        { background: #ffe3e3; color: #c92a2a; }
+    .badge-grammar     { background: #fff3bf; color: #7d5a00; }
+    .badge-us-en       { background: #d0ebff; color: #1864ab; }
+    .badge-content     { background: #f3d9fa; color: #6741d9; }
+    .badge-punctuation { background: #d3f9d8; color: #2b7a0b; }
+    .badge-company     { background: #ffe8cc; color: #d9480f; }
+
+    /* ── Doc vs Site comparison section ── */
+    .section-divider {
+      max-width: 1300px;
+      margin: 40px auto 20px;
+      border-top: 2px solid #dee2e6;
+      padding-top: 28px;
+    }
+    .section-divider h2 { font-size: 18px; font-weight: 700; color: #1a1a2e; }
+    .section-divider p  { margin-top: 6px; font-size: 13px; color: #555; }
+    .badge-missing { background: #ffd6d6; color: #a61c00; }
+    .badge-differs { background: #fce8b2; color: #7d5a00; }
+    .badge-extra   { background: #b7e1cd; color: #0d652d; }
+    .doc-text  { background: #fff8e1; border-left: 3px solid #f0a500; padding: 4px 8px; border-radius: 3px; font-size: 12px; font-style: italic; }
+    .site-text { background: #e8f5e9; border-left: 3px solid #2e7d32; padding: 4px 8px; border-radius: 3px; font-size: 12px; font-style: italic; }
+
+    /* ── Table wrapper ── */
+    .table-wrap {
+      max-width: 1300px;
+      margin: 0 auto;
+      overflow-x: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    thead tr {
+      background: #1a1a2e;
+      color: #fff;
+    }
+    thead th {
+      text-align: left;
+      padding: 13px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    tbody tr { border-bottom: 1px solid #f0f0f0; }
+    tbody tr:hover { background: #f8f9ff; }
+
+    td {
+      padding: 11px 14px;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    /* Column widths */
+    .col-num   { width: 42px; color: #aaa; font-size: 12px; text-align: center; }
+    .col-url   { min-width: 220px; max-width: 280px; }
+    .col-loc   { width: 120px; }
+    .col-word  { min-width: 160px; }
+    .col-correct { min-width: 160px; }
+    .col-comment { min-width: 260px; }
+
+    .page-url {
+      color: #3b5bdb;
+      text-decoration: none;
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .page-url:hover { text-decoration: underline; }
+
+    .wrong { background: #ffe3e3; color: #c92a2a; padding: 1px 6px; border-radius: 4px; font-family: monospace; font-size: 13px; }
+    .right  { background: #d3f9d8; color: #2b7a0b; padding: 1px 6px; border-radius: 4px; font-family: monospace; font-size: 13px; }
+
+    .context {
+      font-size: 11px;
+      color: #777;
+      margin-top: 4px;
+      font-style: italic;
+    }
+
+    .loc-tag {
+      display: inline-block;
+      background: #edf2ff;
+      color: #3b5bdb;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    footer {
+      max-width: 1300px;
+      margin: 24px auto 0;
+      font-size: 12px;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Spelling &amp; Content Error Report</h1>
+  <p>
+    Site: <a href="https://compliancefixe.wpenginepowered.com/" target="_blank">https://compliancefixe.wpenginepowered.com/</a>
+    &nbsp;|&nbsp; Audit standard: <strong>Australian English (AU)</strong>
+    &nbsp;|&nbsp; Suburb names excluded from spell-check
+  </p>
+</header>
+
+<!-- Stats strip -->
+<div class="stats">
+  <div class="stat-card"><div class="num">62</div><div class="lbl">Total URLs crawled</div></div>
+  <div class="stat-card"><div class="num">26</div><div class="lbl">Total issues found</div></div>
+  <div class="stat-card"><div class="num">16+</div><div class="lbl">Pages affected</div></div>
+  <div class="stat-card"><div class="num">5</div><div class="lbl">Meta / OG issues</div></div>
+</div>
+
+<!-- Legend -->
+<div class="legend">
+  <span>Error types:</span>
+  <span class="badge badge-typo">Typo</span>
+  <span class="badge badge-grammar">Grammar</span>
+  <span class="badge badge-us-en">US English</span>
+  <span class="badge badge-content">Wrong content</span>
+  <span class="badge badge-punctuation">Punctuation</span>
+  <span class="badge badge-company">Company Name</span>
+</div>
+
+<!-- Main table -->
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-url">Page URL</th>
+        <th class="col-loc">Location</th>
+        <th class="col-word">Word / Phrase Found</th>
+        <th class="col-correct">Correct AU English</th>
+        <th class="col-comment">Comment</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- ── Row 1 ── -->
+      <tr>
+        <td class="col-num">1</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/footscray/" target="_blank">/footscray/</a>
+        </td>
+        <td><span class="loc-tag">H2 Heading</span></td>
+        <td>
+          <span class="wrong">Footscary</span>
+          <div class="context">"Gas Compliance Checks for Footscary Properties"</div>
+        </td>
+        <td><span class="right">Footscray</span></td>
+        <td>Suburb name is misspelled as "Footscary" in the H2 subheading. It is spelled correctly everywhere else on the same page — appears to be a one-off typo.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+
+      <!-- ── Row 2 ── -->
+      <tr>
+        <td class="col-num">2</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/contact/" target="_blank">/contact/</a>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">concrete makeover in Melbourne</span>
+          <div class="context">"Ready for a concrete makeover in Melbourne? Contact us today to book your free on-site quote for resurfacing, epoxy flooring, and polished concrete."</div>
+        </td>
+        <td><span class="right">Replace with description about Compliance Fixer's services</span></td>
+        <td>The meta description belongs to an unrelated concrete/flooring business. It appears to have been pasted from a different site entirely. This will also harm SEO for this page.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+
+      <!-- ── Row 3 ── -->
+      <tr>
+        <td class="col-num">3</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/sunshine/" target="_blank">/sunshine/</a>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">compliant..</span>
+          <div class="context">"…keeping your property compliant.. Fixed pricing…"</div>
+        </td>
+        <td><span class="right">compliant.</span></td>
+        <td>Double period (..) used at the end of the sentence. Only a single full stop is needed.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 4 ── -->
+      <tr>
+        <td class="col-num">4</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/sunshine/" target="_blank">/sunshine/</a>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">Licensed and registered keeping</span>
+          <div class="context">"Licensed and registered keeping your property compliant.."</div>
+        </td>
+        <td><span class="right">Licensed and registered technicians keeping</span></td>
+        <td>Sentence fragment — the subject noun ("technicians") is missing, making the clause grammatically incomplete.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 5 ── -->
+      <tr>
+        <td class="col-num">5</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/sunshine/" target="_blank">/sunshine/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">our a gas compliance technician</span>
+          <div class="context">"On the day of your rental safety check, our a gas compliance technician will provide:"</div>
+        </td>
+        <td><span class="right">our gas compliance technician</span></td>
+        <td>Spurious article "a" inserted between "our" and "gas", making the phrase ungrammatical. Likely a copy-edit artefact.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+
+      <!-- ── Row 6 ── -->
+      <tr>
+        <td class="col-num">6</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/brunswick/" target="_blank">/brunswick/</a>
+        </td>
+        <td><span class="loc-tag">H2 Heading</span></td>
+        <td>
+          <span class="wrong">Reservoir Area</span>
+          <div class="context">"Electrical Safety Checks in the Reservoir Area"</div>
+        </td>
+        <td><span class="right">Brunswick Area</span></td>
+        <td>Copy-paste error — the H2 heading references "Reservoir Area" on the Brunswick page. All other headings and body copy on this page correctly say "Brunswick". The Reservoir heading was never updated after being copied from the Reservoir location page.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+
+      <!-- ── Row 7 ── -->
+      <tr>
+        <td class="col-num">7</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/blind-cord-anchor-installations/" target="_blank">/blind-cord-anchor-installations/</a>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">Make sure child safety compliance</span>
+          <div class="context">"Make sure child safety compliance with fixed pricing, expert technicians, and audit-ready certification."</div>
+        </td>
+        <td><span class="right">Ensure child safety compliance</span></td>
+        <td>"Make sure" is used here as if it were a transitive verb meaning "ensure/guarantee", which is grammatically incorrect. "Ensure child safety compliance" is the correct construction. "Make sure" requires a clause (e.g., "make sure that X is compliant") — it cannot directly take a noun phrase as its object.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 8 ── -->
+      <tr>
+        <td class="col-num">8</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/areas-we-serve/" target="_blank">/areas-we-serve/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">parents home</span>
+          <div class="context">"We treat your home like we'd treat our parents home, with respect…"</div>
+        </td>
+        <td><span class="right">parents' home</span></td>
+        <td>Missing possessive apostrophe. "parents' home" (home belonging to the parents) requires an apostrophe after the plural "parents".</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 9 ── -->
+      <tr>
+        <td class="col-num">9</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/smoke-alarm-check/" target="_blank">/smoke-alarm-check/</a>
+          <div class="context" style="margin-top:4px">(and multiple other service pages)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">Over 100+ years</span>
+          <div class="context">"Over 100+ years of combined industry experience"</div>
+        </td>
+        <td><span class="right">Over 100 years <em>or</em> 100+ years</span></td>
+        <td>Redundancy: "Over" and "+" (plus) both mean "more than". Using both is repetitive. Choose one: either "Over 100 years" or "100+ years" — not both combined.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 10 ── -->
+      <tr>
+        <td class="col-num">10</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/smoke-alarm-check/" target="_blank">/smoke-alarm-check/</a>
+          <div class="context" style="margin-top:4px">(and multiple suburb pages)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">Melbourne based inspectors</span>
+          <div class="context">"Our Melbourne based inspectors are available to conduct certified compliance checks…"</div>
+        </td>
+        <td><span class="right">Melbourne-based inspectors</span></td>
+        <td>Missing hyphen. When a compound adjective precedes a noun, it must be hyphenated. "Melbourne-based" is the correct form before "inspectors".</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 11 ── -->
+      <tr>
+        <td class="col-num">11</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/dandenong/" target="_blank">/dandenong/</a>
+        </td>
+        <td><span class="loc-tag">H2 Heading</span></td>
+        <td>
+          <span class="wrong">Audit Ready Rental Safety Checks</span>
+          <div class="context">H2: "Audit Ready Rental Safety Checks in Dandenong" (body uses "audit-ready")</div>
+        </td>
+        <td><span class="right">Audit-Ready Rental Safety Checks</span></td>
+        <td>Inconsistent hyphenation. "Audit-ready" is used correctly as a hyphenated compound adjective throughout body text on this page, but the H2 heading drops the hyphen. Compound adjectives before a noun require a hyphen.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 12 ── -->
+      <tr>
+        <td class="col-num">12</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/gas-appliance-installations/" target="_blank">/gas-appliance-installations/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">make sure proper gas line connections</span>
+          <div class="context">"…conduct pressure testing, check ventilation requirements, and make sure proper gas line connections."</div>
+        </td>
+        <td><span class="right">ensure proper gas line connections</span></td>
+        <td>"Make sure" requires a subordinate clause (e.g., "make sure that gas line connections are correct"). Used here with a direct noun phrase, it is grammatically incomplete. Replace with "ensure" which correctly takes a noun phrase as its object.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 13 ── -->
+      <tr>
+        <td class="col-num">13</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/smoke-alarm-relocations/" target="_blank">/smoke-alarm-relocations/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">to achieve every alarm providing peak protection</span>
+          <div class="context">"…follow strict Australian Standards (AS 3786) and Victorian regulations to achieve every alarm providing peak protection"</div>
+        </td>
+        <td><span class="right">to ensure every alarm provides peak protection</span></td>
+        <td>Grammatically awkward construction. "Achieve every alarm providing" is not standard English. The intended meaning is "ensure every alarm provides peak protection".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 14 ── -->
+      <tr>
+        <td class="col-num">14</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/gas-line-replacements-upgrades/" target="_blank">/gas-line-replacements-upgrades/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">One-Stop Compliance Shop, One-Stop Compliance Shop:</span>
+          <div class="context">Section label appears twice in immediate succession before its description</div>
+        </td>
+        <td><span class="right">One-Stop Compliance Shop:</span></td>
+        <td>Duplicate text error — the label "One-Stop Compliance Shop" appears twice consecutively, indicating a copy-paste or template error where the label was not removed after being duplicated.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+
+      <!-- ── Row 15 ── -->
+      <tr>
+        <td class="col-num">15</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/carnegie/" target="_blank">/carnegie/</a>
+          <div class="context" style="margin-top:4px">(and multiple suburb pages)</div>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">make sure rental compliance</span>
+          <div class="context">"Licensed and registered inspectors make sure rental compliance with Victorian standards."</div>
+        </td>
+        <td><span class="right">ensure rental compliance</span></td>
+        <td>Grammatically incorrect — "make sure" cannot directly take a noun phrase ("rental compliance") as its object in standard Australian English. "Ensure rental compliance with Victorian standards" is the correct phrasing. Appears across multiple suburb page meta descriptions.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 16 ── -->
+      <tr>
+        <td class="col-num">16</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/berwick/" target="_blank">/berwick/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">there's no ifs, ands or buts</span>
+          <div class="context">"…there's no ifs, ands or buts when it comes to safety and compliance."</div>
+        </td>
+        <td><span class="right">there's no ifs, ands, or buts</span></td>
+        <td>Missing Oxford comma before "or" in a three-item list. Australian style guides (including Style Manual) recommend the Oxford (serial) comma for clarity in lists of three or more items.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 17 ── -->
+      <tr>
+        <td class="col-num">17</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/coburg/" target="_blank">/coburg/</a>
+          <div class="context" style="margin-top:4px">(and multiple suburb pages)</div>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">make sure your rental property meets</span>
+          <div class="context">"Licensed and registered technicians make sure your rental property meets Victorian standards."</div>
+        </td>
+        <td><span class="right">ensure your rental property meets</span></td>
+        <td>While "make sure" followed by a clause is grammatically permissible, "ensure" is the standard professional/formal Australian English word in a regulatory/compliance context. This phrasing appears as a template across many suburb pages and should be updated consistently.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 18 ── -->
+      <tr>
+        <td class="col-num">18</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/electrical-safety-check/" target="_blank">/electrical-safety-check/</a>
+          <div class="context" style="margin-top:4px">(check all service pages)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">Non-Invasive Checks, Non-Invasive Checks:</span>
+          <div class="context">Feature label repeated twice in the same bullet point heading block</div>
+        </td>
+        <td><span class="right">Non-Invasive Checks:</span></td>
+        <td>Duplicate label error — same pattern as the "One-Stop Compliance Shop" duplicate on the gas page. Service feature headings appear to be doubled in several service page templates.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+
+      <!-- ── Row 19 ── -->
+      <tr>
+        <td class="col-num">19</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/dandenong/" target="_blank">/dandenong/</a>
+          <div class="context" style="margin-top:4px">(and other suburb pages — check all)</div>
+        </td>
+        <td><span class="loc-tag">Meta Description</span></td>
+        <td>
+          <span class="wrong">make sure of Victorian compliance</span>
+          <div class="context">"Licensed and registered inspectors make sure of Victorian compliance."</div>
+        </td>
+        <td><span class="right">ensure Victorian compliance</span></td>
+        <td>"Make sure of" is an overly informal phrasing for a compliance-services business. "Ensure Victorian compliance" is the correct, professional AU English form. This is a template string repeated across several suburb meta descriptions.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+
+      <!-- ── Row 20 ── -->
+      <tr>
+        <td class="col-num">20</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/" target="_blank">/ (Homepage)</a>
+          <div class="context" style="margin-top:4px">(and service pages)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">fixed price</span>
+          <div class="context">"fixed price rental inspections" (used without a hyphen before a noun)</div>
+        </td>
+        <td><span class="right">fixed-price rental inspections</span></td>
+        <td>"Fixed-price" is a compound adjective modifying "rental inspections" and requires a hyphen when placed before the noun. This appears across multiple pages and headings. Compare: "our pricing is fixed" (predicate — no hyphen) vs "fixed-price service" (attributive — hyphen required).</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+
+      <!-- ── Row 21 — Company Name ── -->
+      <tr>
+        <td class="col-num">21</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/" target="_blank">/ (All 62 pages)</a>
+        </td>
+        <td><span class="loc-tag">Logo Alt text</span></td>
+        <td>
+          <span class="wrong">Logo</span>
+          <div class="context">Header and footer logo: alt="Logo" on every page</div>
+        </td>
+        <td><span class="right">Compliance Fixer</span></td>
+        <td>The logo image uses the generic alt attribute "Logo" on every single page (header and footer). Alt text should identify the brand — "Compliance Fixer" — so screen readers and search engines understand whose logo it is. This is a sitewide issue affecting all 62 pages.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+
+      <!-- ── Row 22 — Company Name ── -->
+      <tr>
+        <td class="col-num">22</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/mornington/" target="_blank">/mornington/</a>
+          <div class="context" style="margin-top:4px">(also /reservoir/ and /elwood/)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">The Compliance Fixer</span>
+          <div class="context">"The Compliance Fixer is just the team to call." (capital The directly before brand name)</div>
+        </td>
+        <td><span class="right">Compliance Fixer</span></td>
+        <td>On the Mornington, Reservoir, and Elwood pages, the company name is written "The Compliance Fixer" with a capitalised "The" as part of the name. Everywhere else on the site the brand is simply "Compliance Fixer". The article "the" should be lowercase when used in a sentence, not treated as part of the brand name.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+
+      <!-- ── Row 23 — Company Name ── -->
+      <tr>
+        <td class="col-num">23</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/gas-safety-check/" target="_blank">/gas-safety-check/</a>
+          <div class="context" style="margin-top:4px">(also /rental-safety-check/, /smoke-alarm-relocations/, /pakenham/, /glen-waverley/, /lighting-powerpoint-replacements/)</div>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">Fixer Group</span>
+          <div class="context">"As part of the established Fixer Group" / "The Fixer Group backs us with $20M public liability insurance"</div>
+        </td>
+        <td><span class="right">Clarify relationship: Compliance Fixer (trading as / part of Fixer Group)</span></td>
+        <td>Multiple pages refer to "Fixer Group" or "The Fixer Group" as a parent entity without any explanation of its relationship to "Compliance Fixer". Visitors reading individual pages will not know who "Fixer Group" is. Either introduce the parent entity clearly ("Compliance Fixer, part of the Fixer Group…") or ensure the brand name "Compliance Fixer" is used consistently before introducing the group name.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+
+      <!-- ── Row 24 — Company Name ── -->
+      <tr>
+        <td class="col-num">24</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/lighting-powerpoint-replacements/" target="_blank">/lighting-powerpoint-replacements/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">The Fixer Group backs us with $20M public liability insurance</span>
+        </td>
+        <td><span class="right">Compliance Fixer — backed by the Fixer Group with $20M public liability insurance</span></td>
+        <td>"The Fixer Group backs us" uses an unnamed "us" which assumes the reader already knows the company is Compliance Fixer. Without a prior introduction of who "we" are on this page, the brand identity is unclear. The company name "Compliance Fixer" should appear before or alongside this statement.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+
+      <!-- ── Row 25 — Company Name ── -->
+      <tr>
+        <td class="col-num">25</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/reservoir/" target="_blank">/reservoir/</a>
+        </td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td>
+          <span class="wrong">The Compliance Fixer team</span>
+          <div class="context">"The Compliance Fixer team will be able to…" (capitalised "The" as part of name)</div>
+        </td>
+        <td><span class="right">the Compliance Fixer team</span></td>
+        <td>On this and other pages, "The" is capitalised directly before "Compliance Fixer team" as though it is part of the brand name. The majority of the site uses "the Compliance Fixer team" (lowercase "the"). Capitalising "The" is inconsistent and makes the brand name appear to be "The Compliance Fixer" rather than "Compliance Fixer".</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+
+
+      <!-- ── Row 26 ── -->
+      <tr>
+        <td class="col-num">27</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/south-yarra/" target="_blank">/south-yarra/</a>
+        </td>
+        <td><span class="loc-tag">Body text (FAQ Q7)</span></td>
+        <td>
+          <span class="wrong">from the comment you receive an automated reminder</span>
+          <div class="context">"…we make the process incredibly easy from the comment you receive an automated reminder…"</div>
+        </td>
+        <td><span class="right">from the moment you receive an automated reminder</span></td>
+        <td>"Comment" is used where "moment" is clearly intended — "from the moment you receive an automated reminder". This error exists in both the Google Doc source and the live site, indicating it was never caught during review.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--  SECTION 2 — Google Doc vs Live Site Comparison        -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div class="section-divider">
+  <h2>Google Doc vs Live Site — Content Comparison</h2>
+  <p>
+    Source document: <strong>Compliance Fixer Web Content Brief</strong> (Google Docs, 11 pages)
+    &nbsp;|&nbsp; Pages compared: Home, Electrical, Gas, Smoke Alarm, Rental Safety Check, Carlton, Melbourne CBD, Richmond, Southbank, South Yarra, Docklands
+    &nbsp;|&nbsp; <em>HTML stripped before comparison — source citations present as hyperlinks are treated as present, not missing.</em>
+  </p>
+</div>
+
+<div class="stats">
+  <div class="stat-card"><div class="num">11</div><div class="lbl">Doc pages compared</div></div>
+  <div class="stat-card"><div class="num">7</div><div class="lbl">Discrepancies found</div></div>
+  <div class="stat-card"><div class="num">1</div><div class="lbl">Missing from site</div></div>
+  <div class="stat-card"><div class="num">4</div><div class="lbl">Differs from doc</div></div>
+  <div class="stat-card"><div class="num">2</div><div class="lbl">Extra on site</div></div>
+</div>
+
+<div class="legend">
+  <span>Discrepancy types:</span>
+  <span class="badge badge-missing">Missing from site</span>
+  <span class="badge badge-differs">Differs from doc</span>
+  <span class="badge badge-extra">Extra on site</span>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-url">Page URL</th>
+        <th class="col-loc">Doc Section</th>
+        <th style="min-width:220px">Google Doc text</th>
+        <th style="min-width:220px">Live site text</th>
+        <th class="col-comment">Comment</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- 1 -->
+      <tr>
+        <td class="col-num">1</td>
+        <td class="col-url"><a class="page-url" href="https://compliancefixe.wpenginepowered.com/gas-safety-check/" target="_blank">/gas-safety-check/</a></td>
+        <td><span class="loc-tag">FAQ section (all Q&amp;As)</span></td>
+        <td><div class="doc-text">Q1: What makes Compliance Fixer different? (answer focuses on thorough inspections and audit-ready documentation) | Q2: How quickly can you attend? | Q3: Do you handle follow-up work? | Q4: Are there hidden costs? | Q5: Are we actually compliant? | Q6: How often do I need a gas safety check? | Q7: Will I be notified for next check? | Q8: Can gasfitters fix smaller issues on the spot? | Q9: Will tenants need to be present?</div></td>
+        <td><div class="site-text">Q1: What makes Compliance Fixer different? (answer focuses on appliance servicing, VBA licensing, no subcontractors) | Q2: How often do gas safety checks need to happen? | Q3: What does a gas safety inspection actually involve? | Q4: Do you only check gas or service appliances too? | Q5: Can you combine gas, electrical and smoke alarm? | Q6: Do tenants need to be home? | Q7: What documentation will I receive? | Q8: What happens if you find a gas leak? | Q9: Will you remind me when next check is due?</div></td>
+        <td>The entire FAQ section has been replaced on the live site — different questions and different answers throughout. Q1's answer changed from focusing on documentation quality to focusing on appliance servicing and licensing. Q2–Q9 are completely different questions.</td>
+        <td><span class="badge badge-differs">Differs from doc</span></td>
+      </tr>
+
+      <!-- 2 -->
+      <tr>
+        <td class="col-num">2</td>
+        <td class="col-url"><a class="page-url" href="https://compliancefixe.wpenginepowered.com/gas-safety-check/" target="_blank">/gas-safety-check/</a></td>
+        <td><span class="loc-tag">Closing CTA</span></td>
+        <td><div class="doc-text">H2: Book a Gas Safety Check Today — Don't wait for a compliance deadline to catch you off-guard. Our team operates every Monday to Friday between 8AM to 4PM, with office hours of 8AM to 5PM… Simply give us a call on 1800 548 502 or email service@compliancefixer.com.au to arrange a gas compliance check. Join thousands of satisfied property managers who trust Compliance Fixer.</div></td>
+        <td><div class="site-text">(Not found — page ends immediately after the final FAQ answer)</div></td>
+        <td>The entire "Book a Gas Safety Check Today" closing CTA section is absent from the live page. This is the only genuinely missing section confirmed across all 11 pages.</td>
+        <td><span class="badge badge-missing">Missing from site</span></td>
+      </tr>
+
+      <!-- 3 -->
+      <tr>
+        <td class="col-num">3</td>
+        <td class="col-url"><a class="page-url" href="https://compliancefixe.wpenginepowered.com/smoke-alarm-check/" target="_blank">/smoke-alarm-check/</a></td>
+        <td><span class="loc-tag">Why Choose Us — bullet</span></td>
+        <td><div class="doc-text">Over 100+ years of combined industry experience</div></td>
+        <td><div class="site-text">Over 100 years of combined industry experience</div></td>
+        <td>The Google Doc itself has the redundant "100+" phrasing. The live site has silently corrected it to "Over 100 years" — the site version is actually better. Note: "Over 100+" is still used on other pages (e.g. Docklands) where the doc also has it, so there is now an inconsistency across the site.</td>
+        <td><span class="badge badge-differs">Differs from doc</span></td>
+      </tr>
+
+      <!-- 4 -->
+      <tr>
+        <td class="col-num">4</td>
+        <td class="col-url"><a class="page-url" href="https://compliancefixe.wpenginepowered.com/richmond/" target="_blank">/richmond/</a></td>
+        <td><span class="loc-tag">Body text</span></td>
+        <td><div class="doc-text">…maintain all required <strong>licences</strong> through the Building and Plumbing Commission (BPC) and Energy Safe Victoria.</div></td>
+        <td><div class="site-text">…maintain all required <strong>licenses</strong> through the Building and Plumbing Commission (BPC) and Energy Safe Victoria.</div></td>
+        <td>Australian English spelling "licences" (noun) in the doc was published as the American English "licenses" on the live site. This is already flagged in the main spelling errors table above.</td>
+        <td><span class="badge badge-differs">Differs from doc</span></td>
+      </tr>
+
+      <!-- 5 -->
+      <tr>
+        <td class="col-num">5</td>
+        <td class="col-url"><a class="page-url" href="https://compliancefixe.wpenginepowered.com/carlton/" target="_blank">/carlton/</a></td>
+        <td><span class="loc-tag">Closing CTA — note</span></td>
+        <td><div class="doc-text">…Contact us to book an <strong>inception</strong> and join the 95% of clients…</div></td>
+        <td><div class="site-text">…Contact us to book an <strong>inspection</strong> and join the 95% of clients…</div></td>
+        <td>The Google Doc contains the typo "book an inception". The live site has correctly published "book an inspection". The site fixed a typo that exists in the source document — the Google Doc should be corrected to match.</td>
+        <td><span class="badge badge-extra">Extra on site</span></td>
+      </tr>
+
+      <!-- 6 -->
+      <tr>
+        <td class="col-num">6</td>
+        <td class="col-url">
+          <a class="page-url" href="https://compliancefixe.wpenginepowered.com/electrical-safety-check/" target="_blank">/electrical-safety-check/</a>
+          <div class="context" style="margin-top:4px">(and /gas-safety-check/, /smoke-alarm-check/, /rental-safety-check/, /melbourne-cbd/, /richmond/, /southbank/, /south-yarra/, /docklands/, /carlton/)</div>
+        </td>
+        <td><span class="loc-tag">Mid-page section</span></td>
+        <td><div class="doc-text">(Section does not exist in the Google Doc for any of these pages)</div></td>
+        <td><div class="site-text">Meet the Experts Behind Your Compliance — Led by Founders Luke Terella &amp; Michael Bailey… A Specialised, Fully Licensed Team [with VBA, ESV, ARCTick, First Aid, Insurance credentials]</div></td>
+        <td>The "Meet the Experts" founder bio and team credentials section appears on all service pages and location pages on the live site but is absent from the Google Doc content brief entirely. This was either added to the site after the brief was written, or was intentionally excluded from the brief.</td>
+        <td><span class="badge badge-extra">Extra on site</span></td>
+      </tr>
+
+      <!-- 7 — NOTE row -->
+      <tr style="background:#fffbf0;">
+        <td class="col-num">—</td>
+        <td class="col-url" colspan="6" style="font-size:12px; color:#555; font-style:italic;">
+          <strong>Note — confirmed NOT discrepancies (false positives from earlier comparison):</strong>
+          All source citations — "(Source: Consumer Affairs Victoria)", "(Source: Energy Safe)", "(Source)" on electrical page — are present on the live site as hyperlinks. When HTML is stripped the plain text is present and matches the doc. These were incorrectly flagged as missing in the initial comparison because HTML was not stripped before comparing. All other pages (Home, Electrical, Rental Safety Check, Southbank, South Yarra, Docklands) show no genuine content discrepancies.
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <p>Report generated: 24 March 2026 &nbsp;|&nbsp; Standard: Australian English &nbsp;|&nbsp; 62 URLs crawled (sitemap + internal links) &nbsp;|&nbsp; Suburb and proper noun names excluded from spell-check</p>
+</footer>
+
+</body>
+</html>
