@@ -10,23 +10,26 @@ Never create files outside `/home/invoi/fahad_projects/`. All deliverables, scri
 
 **Why:** User wants all work consolidated in one place — fahad_projects is the single working directory.
 
-**Structure (matches Agent-SEO-skills exactly):**
+**Structure:**
 ```
 fahad_projects/
   seo/
-    clients/[domain]/[capability]/   ← all client deliverables and data
-    memory/                          ← SEO memory files
-    tools/[capability]/              ← shared scripts and instructions
-  global/                            ← global rules and scripts
-  memory/                            ← root memory files (mirrored here too)
+    clients/[domain]/
+      [capability]/    ← deliverables and data for that capability
+      memory/          ← project memory specific to this client
+    memory/            ← cross-client rules only (feedback, master reference)
+    tools/[capability]/← shared scripts and instructions
+  global/              ← global rules and scripts
+  memory/              ← root memory files (auto-loaded by Claude)
 ```
 
 **How to apply:**
-- Client deliverables → `/home/invoi/fahad_projects/seo/clients/[domain]/[capability]/`
+- Client deliverables → `seo/clients/[domain]/[capability]/`
   - e.g. `seo/clients/triplejfurniture.com.au/keyword-research/keyword-plan.html`
-  - e.g. `seo/clients/verdehomes.com.au/spelling-mistakes-finder/audit.html`
-- Tool scripts → `/home/invoi/fahad_projects/seo/tools/[capability]/`
-- Memory files → `/home/invoi/fahad_projects/memory/` (mirrored from `~/.claude/projects/-home-invoi-fahad-projects/memory/`)
+- Client project memory → `seo/clients/[domain]/memory/`
+  - e.g. `seo/clients/triplejfurniture.com.au/memory/client_triplejfurniture.md`
+- Cross-client rules → `seo/memory/` (feedback_*.md, keyword_research_master.md)
+- Tool scripts → `seo/tools/[capability]/`
 
 When writing new memory, write to BOTH locations:
 1. `/home/invoi/.claude/projects/-home-invoi-fahad-projects/memory/` — auto-loaded by Claude
