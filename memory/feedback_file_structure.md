@@ -29,14 +29,9 @@ Everything lives in `/home/invoi/fahad_projects/`, which is synced to `github.co
 cd /home/invoi/fahad_projects && git pull
 ```
 
-**After every piece of work — commit and push:**
+**End of EVERY message — commit and push:**
 ```bash
 cd /home/invoi/fahad_projects && git add -A && git commit -m "description of what changed" && git push
 ```
 
-**Session end — always push before finishing:**
-```bash
-cd /home/invoi/fahad_projects && git add -A && git commit -m "end of session — sync" && git push
-```
-
-This repo must always be up to date. Pull at the start of every conversation. Push after every significant change and at the end of every conversation.
+This runs after every single response where any file changed — not just at end of session. Local files and GitHub must always be in sync. Never skip this.
