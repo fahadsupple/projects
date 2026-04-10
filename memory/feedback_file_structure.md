@@ -10,19 +10,22 @@ Never create files outside `/home/invoi/fahad_projects/`. All deliverables, scri
 
 **Why:** User wants all work consolidated in one place — fahad_projects is the single working directory.
 
-**Structure:**
+**Structure (matches Agent-SEO-skills exactly):**
 ```
 fahad_projects/
-  projects/[domain]/[capability]/   ← all client files
-  tools/[capability]/               ← shared scripts and instructions
-  memory/                           ← memory files (mirrored)
+  seo/
+    clients/[domain]/[capability]/   ← all client deliverables and data
+    memory/                          ← SEO memory files
+    tools/[capability]/              ← shared scripts and instructions
+  global/                            ← global rules and scripts
+  memory/                            ← root memory files (mirrored here too)
 ```
 
 **How to apply:**
-- Client deliverables → `/home/invoi/fahad_projects/projects/[domain]/[capability]/`
-  - e.g. `projects/triplejfurniture.com.au/keyword-research/keyword-plan.html`
-  - e.g. `projects/verdehomes.com.au/spelling-mistakes-finder/audit.html`
-- Shared tool scripts → `/home/invoi/fahad_projects/tools/[capability]/`
+- Client deliverables → `/home/invoi/fahad_projects/seo/clients/[domain]/[capability]/`
+  - e.g. `seo/clients/triplejfurniture.com.au/keyword-research/keyword-plan.html`
+  - e.g. `seo/clients/verdehomes.com.au/spelling-mistakes-finder/audit.html`
+- Tool scripts → `/home/invoi/fahad_projects/seo/tools/[capability]/`
 - Memory files → `/home/invoi/fahad_projects/memory/` (mirrored from `~/.claude/projects/-home-invoi-fahad-projects/memory/`)
 
 When writing new memory, write to BOTH locations:
