@@ -22,4 +22,21 @@ When writing new memory, write to BOTH locations:
 1. `/home/invoi/.claude/projects/-home-invoi-fahad-projects/memory/` — auto-loaded by Claude
 2. `/home/invoi/fahad_projects/memory/` — visible inside the project folder
 
-Everything lives autonomously in `/home/invoi/fahad_projects/`. There is no external sync, no remote repository, no GitHub. Do not reference or touch any other directory for work output.
+Everything lives in `/home/invoi/fahad_projects/`, which is synced to `github.com/fahadsupple/projects` (remote: origin).
+
+**Session start — always pull first:**
+```bash
+cd /home/invoi/fahad_projects && git pull
+```
+
+**After every piece of work — commit and push:**
+```bash
+cd /home/invoi/fahad_projects && git add -A && git commit -m "description of what changed" && git push
+```
+
+**Session end — always push before finishing:**
+```bash
+cd /home/invoi/fahad_projects && git add -A && git commit -m "end of session — sync" && git push
+```
+
+This repo must always be up to date. Pull at the start of every conversation. Push after every significant change and at the end of every conversation.
