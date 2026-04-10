@@ -247,6 +247,24 @@ Every keyword research deliverable must include a set of non-SEO entity pages al
 - Reason: easier to track and present rankings to client; location-modified terms are easier to rank for than unmodified national terms; avoids client confusion about what geography the ranking covers
 - Quick wins from blog content (page 2 positions, low KD) should be flagged separately alongside the keyword plan — these are actionable without new pages
 
+### HTML Deliverable — Required Sections (Mandatory)
+
+Every keyword plan HTML must include the following sections. Sections 0–3 are in the strategy/reasoning area. The Eligible Candidates section is a separate block at the bottom, after all strategy notes.
+
+#### Eligible Candidates — Additional Options (always include, always at bottom)
+Every keyword plan HTML must include an **Eligible Candidates — Additional Options** section at the bottom of the page, after the Strategy Notes reasoning block.
+
+- **Purpose:** Documents all keywords that passed initial filters but were not selected in the current plan. Provides a pre-validated pool for future swaps, expansions, or client-requested category additions. Prevents re-doing SERP/volume research for every future change.
+- **Content:** Include all evaluated alternatives with: keyword, GKP volume, YoY trend (if available), category, SERP status (CLEAN / AMBER / REJECTED / NOT CHECKED), and a reason note explaining why not selected and what conditions would justify selecting it.
+- **Group structure:** Group by outcome — e.g. "Previously Selected — Now Replaced", "Rejected — Declining Trend", "Rejected — National Chain SERP", "Pending Validation", "Category Alternatives"
+- **SERP status colour coding:** CLEAN = green, AMBER = amber/orange, REJECTED = red, NOT CHECKED = grey
+- **When a keyword is swapped out:** Add it to Eligible Candidates immediately, with a note explaining the replacement rationale and conditions for reinstatement
+- **When a keyword is swapped in:** Move it from Eligible Candidates to the main table, note it was "selected" in the Eligible Candidates section with the date
+
+**Why:** The candidate pool analysis work (often 1,000+ keywords) should never be lost. Future keyword additions, client requests, or SERP changes may require quick swaps — the Eligible Candidates section makes this instantaneous without re-research.
+
+---
+
 ### HTML Deliverable — Required Reasoning Sections
 
 Every keyword plan HTML must include the following sections in the strategy rationale/reasoning area. The brief and form sections always come first — before budget, strategy, and page rationale.
