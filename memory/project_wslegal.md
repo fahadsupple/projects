@@ -135,7 +135,7 @@ originSessionId: 81e50042-3c9e-4c29-91de-238cd6a73314
 - Davis Lawyers + Elamine Lawyers — competitors for Accredited Property Specialist positioning
 
 ## HTML Deliverable
-- **File:** /home/invoi/fahad_projects/keyword-research/wslegal.com.au/keyword-plan.html
+- **File:** `/home/invoi/fahad_projects/projects/wslegal.com.au/keyword-research/keyword-plan.html`
 - **Version:** v1.3 (2 Apr 2026)
 
 ## Status & Pending

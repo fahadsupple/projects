@@ -10,13 +10,20 @@ Never create files outside `/home/invoi/fahad_projects/`. All deliverables, scri
 
 **Why:** User wants all work consolidated in one place — fahad_projects is the single working directory.
 
+**Structure:**
+```
+fahad_projects/
+  projects/[domain]/[capability]/   ← all client files
+  tools/[capability]/               ← shared scripts and instructions
+  memory/                           ← memory files (mirrored)
+```
+
 **How to apply:**
-- Keyword research deliverables → `/home/invoi/fahad_projects/keyword-research/[client-domain]/`
-- Internal linking → `/home/invoi/fahad_projects/internal linking/`
-- Spelling mistakes finder → `/home/invoi/fahad_projects/spelling-mistakes-finder/`
-- New capabilities → `/home/invoi/fahad_projects/[capability-name]/`
-- **Memory files → `/home/invoi/fahad_projects/memory/`** (mirrored from the auto-memory system at `~/.claude/projects/-home-invoi-fahad-projects/memory/`)
-- All other folders → inside `/home/invoi/fahad_projects/`
+- Client deliverables → `/home/invoi/fahad_projects/projects/[domain]/[capability]/`
+  - e.g. `projects/triplejfurniture.com.au/keyword-research/keyword-plan.html`
+  - e.g. `projects/verdehomes.com.au/spelling-mistakes-finder/audit.html`
+- Shared tool scripts → `/home/invoi/fahad_projects/tools/[capability]/`
+- Memory files → `/home/invoi/fahad_projects/memory/` (mirrored from `~/.claude/projects/-home-invoi-fahad-projects/memory/`)
 
 When writing new memory, write to BOTH locations:
 1. `/home/invoi/.claude/projects/-home-invoi-fahad-projects/memory/` — auto-loaded by Claude

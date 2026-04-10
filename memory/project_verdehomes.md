@@ -22,7 +22,7 @@ originSessionId: 81e50042-3c9e-4c29-91de-238cd6a73314
 
 ## Active Work
 - **Capability:** Spelling Mistakes Finder / Content Audit
-- **Deliverable:** `fahad_projects/spelling-mistakes-finder/verdehomes.com.au/audit-2026-04-07.html`
+- **Deliverable:** `/home/invoi/fahad_projects/projects/verdehomes.com.au/spelling-mistakes-finder/audit-2026-04-07.html`
 - **Source doc:** Google Doc with SEO content (user to provide link)
 
 ## Key Findings (audit 2026-04-07)

@@ -69,7 +69,7 @@ Bedroom, Dining Room, Home Office, Kitchen, Lighting, Living Room, Lounge, Outdo
 - Side tables sydney → marble coffee table sydney (Freedom #2)
 
 ## HTML Deliverable
-- **Path:** `/home/invoi/fahad_projects/keyword-research/triplejfurniture.com.au/keyword-research/keyword-plan.html`
+- **Path:** `/home/invoi/fahad_projects/projects/triplejfurniture.com.au/keyword-research/keyword-plan.html`
 - **Status:** ✅ Built — v1.4, 8 Apr 2026
 
 ## Status & Pending
