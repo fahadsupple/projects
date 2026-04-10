@@ -7,6 +7,9 @@
 - [Workflow Preferences](feedback_workflow.md) — save all learnings, ask not assume, autonomy, conversation logs
 - [File Structure](feedback_file_structure.md) — all work saved inside /home/invoi/fahad_projects/, canonical folder structure, git sync rules
 
+## SEO — General Rules
+- [URL Structure — No City in Slug](feedback_url_no_city.md) — clean slugs, city in meta title/H1 instead (confirmed on dantondevelopments)
+
 ## SEO — Keyword Research (Core Reference)
 - [Keyword Research Master Reference](feedback_seo_keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards, industry insights
 - [Modifier Rules](feedback_seo_modifier_rules.md) — Melbourne modifier for reporting, Melbourne targeting for local businesses, modifier exception rule
