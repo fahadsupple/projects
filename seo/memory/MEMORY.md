@@ -3,17 +3,29 @@
 ## Master Reference
 - [Keyword Research — Master Reference](keyword_research_master.md) — all process rules, keyword standards, business-type strategies, SERP rules, industry insights, and global project rules
 
-## Client Projects
-- [wslegal.com.au — Complete Project Reference](client_wslegal.md) — business profile, 10G+20L plan, SERP findings, competitor map, current rankings, HTML deliverable path
-- [australcontractors.com.au — Complete Project Reference](client_australcontractors.md) — business profile, entity framework, general keyword mapping, suburb candidates, pending GKP batches
-- [shellharborskin — Client Files](../clients/shellharborskin/) — compliant metas/URLs xlsx, URL audit report
-- [dantondevelopments.com.au — Complete Project Reference](client_dantondevelopments.md) — suspended ceilings & partitions Melbourne, URL structure finalised, 32 pages planned, GKP pending
-- [triplejfurniture.com.au — Complete Project Reference](client_triplejfurniture.md) — ecommerce + Sydney showroom furniture retailer, 20 general keywords, category priority pending, Ahrefs data incoming
-- [verdehomes.com.au — Complete Project Reference](client_verdehomes.md) — luxury custom home builders Melbourne, content audit vs Google Doc, 6/12 pages done
+## Cross-Client Rules (Feedback)
+- [Workflow](feedback_workflow.md) — save all learnings, ask not assume, autonomy
+- [Keyword Strategy](feedback_keyword_strategy.md) — volume caps, SERP alignment, chain rejection rules
+- [Melbourne Modifier](feedback_melbourne_modifier_reporting.md) — always add Melbourne modifier for reporting
+- [Melbourne Targeting Local](feedback_melbourne_targeting_local.md) — local service business targeting rules
+- [Modifier Exception](feedback_modifier_exception.md) — when to drop the Melbourne modifier
+- [Two Roots](feedback_two_roots.md) — dual-root justification for location pages
+- [Home Location Mapping](feedback_home_location_mapping.md) — home suburb → homepage, not standalone page
+- [Ask for Volume](feedback_ask_for_volume.md) — always ask for GKP data, never assume
+- [SEO Process](feedback_seo_process.md) — general SEO process rules
 
-## SEO Tools (regularly used capabilities)
-- **Internal Linking** — `seo/tools/internal-linking/` — crawl_internal_links.py, project instructions, past projects
-- **Spelling Mistakes Finder** — `seo/tools/spelling-mistakes-finder/` — tool + past client HTML reports
+## Client Projects
+Client-specific memory lives inside each client's own folder:
+- `../clients/wslegal.com.au/memory/` — Wollerman Shacklock Lawyers
+- `../clients/australcontractors.com.au/memory/` — Austral Contractors Group
+- `../clients/triplejfurniture.com.au/memory/` — Triple J Furniture
+- `../clients/verdehomes.com.au/memory/` — Verde Homes
+- `../clients/dantondevelopments.com.au/memory/` — Danton Developments
+
+## SEO Capabilities (Tools)
+- **Internal Linking** — `../tools/internal-linking/` — crawl_internal_links.py, project-instructions.txt
+- **Spelling Mistakes Finder** — `../tools/spelling-mistakes-finder/` — project-instructions.txt
+- **Keyword Research** — process defined in keyword_research_master.md
 
 ## Workflow
 - [Workflow Preferences](feedback_workflow.md) — user wants all learnings saved to memory as we go

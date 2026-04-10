@@ -57,64 +57,45 @@ Everything else: just do it.
 
 ---
 
-## AgentOps — GitHub Sync (Always Apply)
+## fahad_projects — GitHub Sync (Always Apply)
 
-GitHub (`github.com/fahadwaheedmir/AgentOps`) is the **single source of truth**. All machines sync to it. Learnings, memory updates, and deliverables created on any machine must end up there.
+GitHub (`github.com/fahadsupple/projects`) is the **single source of truth**. All work is synced to it. Learnings, memory updates, and deliverables must end up there after every message where a file changed.
 
-### Detecting session start — automatic, no trigger needed
-If there is no prior conversation history (this is the first message in the session), automatically run the full new session routine before responding to anything — regardless of what the user's first message says. The user never needs to type "new session" or any other trigger.
-
-### At every session start — sync safely, never overwrite
-Run in this exact order before loading memory or doing any work:
+### At every session start — pull first
+Run before loading memory or doing any work:
 
 ```bash
-# Step 1: commit any local changes that haven't been pushed yet
-git -C ~/AgentOps add -A
-git -C ~/AgentOps diff --cached --quiet || git -C ~/AgentOps commit -m "Auto-commit local changes before pull"
-
-# Step 2: pull from GitHub (adds missing remote changes, never overwrites)
-git -C ~/AgentOps pull
+cd /home/invoi/fahad_projects && git pull
 ```
 
-- Local changes are always committed first — nothing is ever silently overwritten
-- Pull only adds what's missing from remote — it merges, it does not replace
 - If pull reports a conflict → stop immediately, tell the user exactly which files conflict, do not proceed until resolved
 - If pull fails (no network) → warn the user, proceed with local, flag that sync is needed at end of session
-- Local copy is always kept — GitHub is the sync target, not the replacement
 
-### After any update — commit and push
-After every significant piece of work — memory update, new deliverable, rule change, new project context — commit and push:
+### After every message where a file changed — commit and push
 ```bash
-git -C ~/AgentOps add -A
-git -C ~/AgentOps commit -m "descriptive message of what changed"
-git -C ~/AgentOps push
+cd /home/invoi/fahad_projects && git add -A && git commit -m "descriptive message of what changed" && git push
 ```
+
 **What triggers a commit:**
 - Any memory file created or updated (client files, master reference, feedback)
 - Any deliverable created or updated (keyword plans, HTML reports)
 - Any rule or system-level change (CLAUDE.md, MEMORY.md, setup.sh)
-- End of any session where files changed
 
 **Commit message rules:**
 - Be specific: "Update client_wslegal.md — added entity structure section" not "update memory"
 - One commit per logical unit of work, not one commit per file
 
-### Never let machines fall out of sync
-- Always pull at session start on every machine before touching any file
-- Always push at session end after any file changes
-- If you forget to push on one machine and start on another → pull will catch it
-
 ---
 
-## AgentOps — Task Routing (Always Apply)
+## fahad_projects — Task Routing (Always Apply)
 
-All work lives in `~/AgentOps/`. This applies on every machine, every tool, every session.
+All work lives in `/home/invoi/fahad_projects/`. This applies on every machine, every tool, every session.
 
 ### At every session start
-1. **Pull from GitHub first** — `git -C ~/AgentOps pull`
-2. Read `~/AgentOps/MEMORY.md` — understand what domains and active projects exist
+1. **Pull from GitHub first** — `cd /home/invoi/fahad_projects && git pull`
+2. Read `/home/invoi/fahad_projects/MEMORY.md` — understand what domains and active projects exist
 3. Identify the task domain from what the user describes
-4. Load `~/AgentOps/[domain]/memory/MEMORY.md` and relevant project files before doing anything
+4. Load `seo/memory/MEMORY.md` and relevant client files before doing anything
 5. If domain is unclear → ask before creating any file or writing anything
 
 ### Domain routing
@@ -125,12 +106,14 @@ All work lives in `~/AgentOps/`. This applies on every machine, every tool, ever
 | Doesn't fit any domain | **Ask user first** | — |
 
 ### Client file structure
-All work for a given client lives under `[domain]/clients/[client-domain-url]/[capability]/`. Examples:
+All work for a given client lives under `seo/clients/[client-domain]/[capability]/`. Examples:
 - `seo/clients/wslegal.com.au/keyword-research/keyword-plan.html`
-- `seo/clients/wslegal.com.au/internal-links/report.html`
-- Client-level shared assets (brief, onboarding form) stay at `clients/[client-domain-url]/` root — not inside a capability subfolder
+- `seo/clients/wslegal.com.au/internal-linking/report.html`
+- Client-level shared assets (brief, onboarding form) stay at `seo/clients/[client-domain]/` root — not inside a capability subfolder
+- Client memory → `seo/clients/[client-domain]/memory/`
+- Cross-client rules → `seo/memory/`
 
-**Why:** Everything for a client is findable in one place, capability subfolders prevent cross-capability file sprawl, no duplicate folder hierarchies across domains.
+**Why:** Everything for a client is findable in one place, capability subfolders prevent cross-capability file sprawl.
 
 ### Rules
 - Never create a new top-level domain folder without explicit user approval

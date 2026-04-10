@@ -1,5 +1,5 @@
 #!/bin/bash
-# AgentOps setup — run once on any new machine after cloning
+# fahad_projects setup — run once on any new machine after cloning
 # Usage: bash setup.sh
 # Works on: Linux, macOS, Windows (Git Bash)
 
@@ -7,7 +7,7 @@ set -e
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "Setting up AgentOps on $(hostname)..."
+echo "Setting up fahad_projects on $(hostname)..."
 
 # Detect OS
 IS_WINDOWS=false
@@ -48,14 +48,13 @@ fi
 
 # 4. Memory auto-load (Unix only — Windows relies on CLAUDE.md instruction)
 if [ "$IS_WINDOWS" = false ]; then
-  HOME_HASH=$(echo "$HOME" | tr '/' '-')
-  HASH="${HOME_HASH}-AgentOps"
-  mkdir -p ~/.claude/projects/$HASH
-  if [ -L ~/.claude/projects/$HASH/memory ]; then
-    rm ~/.claude/projects/$HASH/memory
+  MEMORY_HASH="-home-invoi-fahad-projects"
+  mkdir -p ~/.claude/projects/$MEMORY_HASH
+  if [ -L ~/.claude/projects/$MEMORY_HASH/memory ]; then
+    rm ~/.claude/projects/$MEMORY_HASH/memory
   fi
-  ln -sf "$REPO_DIR/memory" ~/.claude/projects/$HASH/memory
-  echo "  ✓ Claude Code memory auto-load → AgentOps/memory/"
+  ln -sf "$REPO_DIR/memory" ~/.claude/projects/$MEMORY_HASH/memory
+  echo "  ✓ Claude Code memory auto-load → fahad_projects/memory/"
 fi
 
 # 5. Configure git
@@ -65,5 +64,5 @@ echo "  ✓ Git configured (credentials store + line endings)"
 
 echo ""
 echo "Setup complete."
-echo "Open Claude Code from ~/AgentOps/ for all work:"
-echo "  cd ~/AgentOps && claude"
+echo "Open Claude Code from /home/invoi/fahad_projects/ for all work:"
+echo "  cd /home/invoi/fahad_projects && claude"

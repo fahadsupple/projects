@@ -5,7 +5,7 @@
 
 ## Feedback — How to Work
 - [Workflow Preferences](feedback_workflow.md) — save all learnings, ask not assume, autonomy, conversation logs
-- [File Structure](feedback_file_structure.md) — all work saved inside /home/invoi/fahad_projects/, no exceptions
+- [File Structure](feedback_file_structure.md) — all work saved inside /home/invoi/fahad_projects/, canonical folder structure, git sync rules
 
 ## SEO — Keyword Research (Core Reference)
 - [Keyword Research Master Reference](feedback_seo_keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards, industry insights

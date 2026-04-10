@@ -1,25 +1,23 @@
-# AgentOps — Task Router
+# fahad_projects — Task Router
 
 ## What this system is
-This repo is the single source of truth for all work across all machines. Every task — SEO client work, personal projects, and any future domain — lives here. You never need to think about where things go. Claude handles routing automatically.
+This repo is the single source of truth for all work. Every task — SEO client work, personal projects, and any future domain — lives here. Claude handles routing automatically.
 
 ## At every session start (mandatory — triggers automatically on first message)
 If this is the first message in the conversation (no prior history), run this routine automatically before responding — no trigger phrase needed from the user.
 
-1. **Sync safely** — commit any uncommitted local changes first, then pull. Never overwrite local.
+1. **Sync** — `cd /home/invoi/fahad_projects && git pull`
 2. Read `./MEMORY.md` — understand what domains and active projects exist
 3. Identify the task domain from what the user describes
 4. Load that domain's `[domain]/memory/MEMORY.md` and any relevant project files
 5. If the domain is unclear → ask before doing anything or creating any file
 
-## After any update (mandatory)
+## After every message where a file changed (mandatory)
 After every memory update, deliverable change, or rule change — commit and push:
 ```bash
-git -C ~/AgentOps add -A
-git -C ~/AgentOps commit -m "specific description of what changed"
-git -C ~/AgentOps push
+cd /home/invoi/fahad_projects && git add -A && git commit -m "specific description of what changed" && git push
 ```
-GitHub is the source of truth. Changes that aren't pushed don't exist on other machines.
+GitHub (`fahadsupple/projects`) is the source of truth. Changes that aren't pushed don't exist on other machines.
 
 ## Domain routing table
 
@@ -30,29 +28,38 @@ GitHub is the source of truth. Changes that aren't pushed don't exist on other m
 | Something that doesn't fit above | **Ask first** | — |
 
 ## File discipline — always follow
-- Deliverables (HTML reports, CSVs, exports) → `[domain]/clients/[client]/` or `[domain]/projects/[project]/`
-- Memory (insights, rules, project state, learnings) → `[domain]/memory/`
-- Global rules (apply everywhere) → `global/`
+```
+seo/
+  clients/[domain]/           ← client root (brief, onboarding form)
+    [capability]/             ← deliverables for that capability
+    memory/                   ← client-specific memory files
+  memory/                     ← cross-client rules only (feedback, master reference)
+  tools/[capability]/         ← shared scripts and instructions
+
+memory/                       ← root memory (auto-loaded by Claude)
+global/                       ← global rules (CLAUDE.md, task_tracker.py)
+```
+
+- Deliverables → `seo/clients/[domain]/[capability]/`
+- Client memory → `seo/clients/[domain]/memory/`
+- Cross-client rules → `seo/memory/`
+- Root `memory/` → auto-loaded by Claude — write here AND at `.claude/projects/` path
 - **Never create files outside this structure without asking**
 - **Never create a new top-level domain folder without user approval**
 
 ## Adding a new domain
-If a task doesn't fit any existing domain: "This looks like [X] work — should I create a new domain for it?" If yes, create: `[domain]/`, `[domain]/CLAUDE.md`, `[domain]/memory/MEMORY.md`. Follow the same structure as seo/ or personal/.
-
-## Always confirm capability before starting work
-Before doing anything on a task, identify which capability it maps to and confirm with the user:
-- "This looks like **[Capability Name]** work — proceeding under that. Correct?"
-- If it maps to a new capability that doesn't exist yet → "This doesn't fit an existing capability. Should I create **[Capability Name]** for it?"
-- Only proceed once confirmed — never assume and dive in
-- If a task spans multiple capabilities → name both and ask which to file it under
+If a task doesn't fit any existing domain: "This looks like [X] work — should I create a new domain for it?" If yes, create: `[domain]/`, `[domain]/CLAUDE.md`, `[domain]/memory/MEMORY.md`.
 
 ## Auto-learning — always on, never needs to be asked
 Every conversation is a learning opportunity. Without being asked:
-- **Capability-level instructions** (how to do something, a new rule for a specific tool, a process correction) → save immediately to that capability's memory file
-- **Global rules** (how to behave, communication preferences, system-level decisions) → save immediately to `global/CLAUDE.md` and commit
-- **Project-specific learnings** (client decisions, SERP findings, strategy rationale) → save to the relevant client memory file
-- After saving, briefly note what was saved so the user knows it's captured — one line, not a full recap
-- This is the core of how AgentOps improves over time — every session makes the system smarter
+- **Capability-level instructions** → save to that capability's memory file
+- **Global rules** → save to `global/CLAUDE.md` and to root `memory/` if applicable
+- **Project-specific learnings** → save to `seo/clients/[domain]/memory/` AND mirror to `~/.claude/projects/-home-invoi-fahad-projects/memory/`
+- After saving, briefly note what was saved — one line, not a full recap
 
-## Cross-domain tasks
-If a task genuinely spans two domains, work in the primary domain and flag what (if anything) needs to be noted in the other domain's memory.
+## Memory — two-location rule
+Every memory file must be written in two places:
+1. `~/.claude/projects/-home-invoi-fahad-projects/memory/` — auto-loaded by Claude Code
+2. `/home/invoi/fahad_projects/memory/` — visible inside the project folder
+
+Client-specific memory also goes in `seo/clients/[domain]/memory/`.

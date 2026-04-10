@@ -3,14 +3,25 @@
 This folder contains all SEO client work. If Claude Code is opened directly from this folder, load `./memory/MEMORY.md` immediately before doing anything else.
 
 ## Structure
-- `memory/` — all SEO rules, master reference, and client project files
-- `clients/` — deliverables and data per client (keyword plans, Ahrefs exports, GKP data)
+```
+seo/
+  clients/[domain]/           ← client root (brief, onboarding form)
+    [capability]/             ← deliverables for that capability
+      keyword-research/       ← keyword plan HTML, GKP/, ahrefs/
+      internal-linking/       ← internal link reports
+      spelling-mistakes-finder/ ← audit HTML reports
+      url-audit/              ← URL/meta audit files
+    memory/                   ← client-specific memory
+  memory/                     ← cross-client rules only (feedback, master reference)
+  tools/[capability]/         ← shared scripts and project instructions
+```
 
 ## Memory to load
 Always read `./memory/MEMORY.md` first. It points to:
 - `keyword_research_master.md` — all process rules, keyword standards, SERP rules, industry insights
-- `client_wslegal.md` — complete wslegal.com.au project reference
-- `client_australcontractors.md` — complete australcontractors.com.au project reference
+- Feedback files — cross-client rules and learnings
+
+Client-specific memory lives in `clients/[domain]/memory/` — load from there.
 
 ## Key rules (quick reference — full detail in memory files)
 - Every keyword needs a modifier — never bare root keywords
