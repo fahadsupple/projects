@@ -227,6 +227,16 @@ Every keyword research deliverable must include a set of non-SEO entity pages al
 | Get a Quote | `/get-a-quote/` or `/free-quote/` | Conversion destination. Should be a dedicated page, not just a contact form. | No keyword target |
 | Testimonials | `/testimonials/` | Social proof — real client feedback | No keyword target |
 
+### GBP and website are mutually reinforcing — always treat together
+Location pages on the website and Google Business Profile are not separate levers — they feed each other:
+- Location pages signal to Google which suburbs the business serves → expands GBP visibility in those suburbs' map pack
+- GBP authority in a suburb → reinforces organic location page ranking for that suburb
+- A location page ranking below the map pack is still valuable — it feeds geographic service area signals back to GBP
+
+**How to apply:** When recommending location pages, always note that GBP should be optimised in parallel — service area settings, suburb mentions in description, posts targeting those areas. The two compound each other. Never treat website SEO and GBP as independent workstreams for local businesses.
+
+---
+
 ### Near me rule (mandatory for every project)
 - `/areas-we-serve/` always gets "near me" keywords
 - Take each location keyword root used in the plan and append "near me"
