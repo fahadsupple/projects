@@ -14,10 +14,10 @@ User explicitly asked to make everything a learning — save all client context,
 
 ## Always list available capabilities when asked
 
-When the user asks "what can you do", "what capabilities do you have", or anything similar — always list all capabilities that exist in AgentOps at that moment, both SEO tools and any other domain tools. Include:
+When the user asks "what can you do", "what capabilities do you have", or anything similar — always list all capabilities that exist in fahad_projects at that moment, both SEO tools and any other domain tools. Include:
 - The capability name
 - One-line description of what it does
-- Where it lives in AgentOps
+- Where it lives in fahad_projects (`seo/tools/[capability]/`)
 
 Also list capabilities as they are created through new work assigned. If a new tool/script/process is built during a session, add it to the capabilities list in memory so it appears in future listings.
 

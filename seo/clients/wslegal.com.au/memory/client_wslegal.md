@@ -190,7 +190,7 @@ All confirmed via SERP — all show law firm inner pages dominating
 
 ## HTML Deliverable
 
-- **File:** /home/invoi/AgentOps/seo/clients/wslegal.com.au/keyword-research/keyword-plan.html
+- **File:** /home/invoi/fahad_projects/seo/clients/wslegal.com.au/keyword-research/keyword-plan.html
 - **Version:** v1.3 (2 Apr 2026)
 
 ---
