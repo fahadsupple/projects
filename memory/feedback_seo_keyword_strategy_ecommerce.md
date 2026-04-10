@@ -107,3 +107,16 @@ Before any plan is considered final, run a live SERP check on every individual k
 Keywords like "3 seater sofa sydney", "2 seater sofa sydney" consistently return Freedom, IKEA, Lounge Lovers, King Living. Not suitable for DR < 20 domains.
 
 **How to apply:** Skip size-specific sofa keywords for weak domains. Target product-type keywords instead (leather lounges, fabric lounges, chaise lounges).
+
+---
+
+## Factor in product/service profitability when allocating page slots
+When choosing between two equally viable keyword options, prioritise the higher-ticket product or service category — it generates more profit per conversion even at the same ranking.
+
+**Why:** Confirmed by manager on triplejfurniture.com.au — lounges generate more margin than bedroom furniture, so lounge pages were prioritised over bedroom pages in the plan (7 lounge pages vs 1 bedroom page). Higher-ticket items = more return on the same SEO investment.
+
+**How to apply:**
+- At page slot allocation stage, compare the price points of competing category options — use the client's own website or comparable retailers to estimate ticket size
+- If two categories have similar search volume and SERP competition, prefer the higher-ticket category
+- Flag this explicitly in the plan reasoning so the client and manager understand the margin-based logic
+- This applies to both ecommerce (product categories) and service businesses (higher-margin services like commercial law vs standard conveyancing)
