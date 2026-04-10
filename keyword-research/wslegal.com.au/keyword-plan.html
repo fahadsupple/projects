@@ -52,8 +52,12 @@ tr:last-child td { border-bottom: none; }
 .dot-req { background: #f59e0b; }
 .dot-loc { background: #6366f1; }
 
+/* Project Brief & Assets section */
+.brief-section { background: #fffdf5; border: 1px solid #fde68a; border-radius: 7px; padding: 20px 24px; margin-top: 24px; }
+.brief-section h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #fde68a; color: #92400e; }
+
 /* Reasoning section */
-.reasoning { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-top: 24px; }
+.reasoning { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-top: 16px; }
 .reasoning h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; }
 .r-block { margin-bottom: 20px; }
 .r-block:last-child { margin-bottom: 0; }
@@ -71,13 +75,13 @@ tr:last-child td { border-bottom: none; }
 <div class="wrap">
 
 <h1>Keyword Plan — Wollerman Shacklock Lawyers &nbsp;·&nbsp; wslegal.com.au</h1>
-<p class="meta">Google Keyword Planner · AU · Mar 2025–Feb 2026 &nbsp;|&nbsp; v1.2 · 1 Apr 2026 &nbsp;|&nbsp; P = Primary &nbsp;S = Secondary &nbsp;|&nbsp; Rules: modifiers required · no subset pairings per page</p>
+<p class="meta">Google Keyword Planner · AU · Mar 2025–Feb 2026 &nbsp;|&nbsp; v1.5 · 2 Apr 2026 &nbsp;|&nbsp; P = Primary &nbsp;S = Secondary &nbsp;|&nbsp; Rules: modifiers required · no subset pairings per page</p>
 
 <div class="pills">
   <div class="pill"><b>40</b>Units purchased</div>
   <div class="pill"><b>10</b>General kws <span style="color:#888">(×2 units)</span></div>
   <div class="pill"><b>20</b>Location kws <span style="color:#888">(×1 unit)</span></div>
-  <div class="pill"><b>5</b>Service pages</div>
+  <div class="pill"><b>6</b>Pages <span style="color:#888">(4 × 2kw · 2 × 1kw)</span></div>
   <div class="pill"><b>20</b>Location pages</div>
   <div class="pill"><b>2</b>Roots: <em>conveyancer · property lawyer</em></div>
   <div class="pill"><b>10</b>Suburbs: <em>Casey LGA</em></div>
@@ -112,7 +116,7 @@ tr:last-child td { border-bottom: none; }
       <td><span class="pt pt-service">Service</span></td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wills and estates lawyers melbourne</span><span class="v"><b>390</b>/mo</span><span class="cm">MED</span><span class="bid">$15.20</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wills and estates lawyer melbourne</span><span class="v"><b>390</b>/mo</span><span class="cm">MED</span><span class="bid">$15.20</span></div>
           <div class="kw-row"><span class="role r-s">S</span><span class="kw">estate planning lawyer melbourne</span><span class="v"><b>110</b>/mo</span><span class="cl">LOW</span><span class="bidn">$11.16</span></div>
           <div class="note">SERP: all law firm inner pages (Mayek Legal, Estate First, Henty, MST, Richmond Law) — clean commercial intent, law firms only. Powers of attorney is covered as a content section on this page (POA searches are informational/government-dominated — not used as a keyword target).</div>
         </div>
@@ -149,8 +153,18 @@ tr:last-child td { border-bottom: none; }
       <td>
         <div class="kws">
           <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial lease lawyer melbourne</span><span class="v"><b>70</b>/mo</span><span class="cl">LOW</span><span class="bid">$26.63</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial lease solicitor melbourne</span><span class="v-z">—</span><span class="vol-star">*no GKP vol for Melbourne modifier · national "commercial lease solicitor" = 260/mo · Melbourne modifier added for ranking reporting clarity + local intent signal</span></div>
-          <div class="note">SERP: all law firm inner pages including specialist lease-only firms (leaselawyers.net.au, eleaselawyers.com.au) — confirms strong commercial intent. Each lease matter = $2,000–$5,000+. Lower Melbourne-specific volume offset by very high per-client value. Client explicitly listed lease agreements as a priority service.</div>
+          <div class="note">Single keyword page — secondary "commercial lease solicitor melbourne" dropped (0 GKP Melbourne vol, was included for reporting only). 1 keyword freed for conveyancer melbourne page. Client listed lease agreements as priority service. High per-client value ($2,000–$5,000+ per lease matter). SERP: all law firm inner pages including specialist lease firms (leaselawyers.net.au, eleaselawyers.com.au).</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../conveyancer-melbourne/</span></td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">conveyancer melbourne</span><span class="v-z">vol/CPC pending GKP</span></div>
+          <div class="note">Single keyword page — added per client direction. SERP is dominated by specialist licensed conveyancers; wslegal's positioning angle is lawyer-backed conveyancing (Accredited Property Law Specialist). Exception: 1 keyword only.</div>
         </div>
       </td>
     </tr>
@@ -175,7 +189,7 @@ tr:last-child td { border-bottom: none; }
   </thead>
   <tbody>
 
-    <tr class="grp"><td colspan="4">Root 1 — CONVEYANCER [suburb] &nbsp;·&nbsp; 4/10 suburbs have GKP volume &nbsp;·&nbsp; "conveyancer" confirmed higher volume than "conveyancing" at suburb level &nbsp;·&nbsp; Clyde North excluded — home suburb anchored to homepage entity</td></tr>
+    <tr class="grp"><td colspan="4">Root 1 — CONVEYANCER [suburb] &nbsp;·&nbsp; 3/10 suburbs have GKP volume &nbsp;·&nbsp; "conveyancer" confirmed higher volume than "conveyancing" at suburb level &nbsp;·&nbsp; Suburbs selected by proximity to Clyde North (City of Casey), proximity preference over volume &nbsp;·&nbsp; Clyde + Clyde North both included — existing pages already ranking, current rankings noted</td></tr>
     <tr>
       <td><span class="url">/conveyancer-berwick/</span></td>
       <td class="kw"><span class="dot dot-vol"></span>conveyancer berwick</td>
@@ -189,10 +203,10 @@ tr:last-child td { border-bottom: none; }
       <td>Cranbourne — 40k+ pop, growing. SERP: conveyancers + Parkston Law, Hymans Solicitors (law firms present). HIGH competition.</td>
     </tr>
     <tr>
-      <td><span class="url">/conveyancer-pakenham/</span></td>
-      <td class="kw"><span class="dot dot-vol"></span>conveyancer pakenham</td>
-      <td><b>170</b>/mo</td>
-      <td>Pakenham — 50k+ pop, fastest-growing Casey suburb. SERP: Duffy &amp; Simon + Einsiedels + conveyancers.</td>
+      <td><span class="url">/conveyancer-clyde-north/</span></td>
+      <td class="kw"><span class="dot dot-loc"></span>conveyancer clyde north</td>
+      <td class="v-z">—</td>
+      <td>Clyde North — currently ranking #11 at /clyde-north-lawyer/ (301 to new URL). Page 2 quick win — dedicated conveyancer page should push to page 1.</td>
     </tr>
     <tr>
       <td><span class="url">/conveyancer-narre-warren/</span></td>
@@ -204,13 +218,13 @@ tr:last-child td { border-bottom: none; }
       <td><span class="url">/conveyancer-clyde/</span></td>
       <td class="kw"><span class="dot dot-loc"></span>conveyancer clyde</td>
       <td class="v-z">—</td>
-      <td>Clyde (postcode 3978) — directly adjacent to Clyde North, same growth corridor. Very active new housing estate development; high first home buyer and investor activity. Low law firm page competition.</td>
+      <td>Clyde — currently ranking #16 at /clyde-north-lawyer/ (301 to new URL). Quick win: dedicated page with conveyancer intent will outperform the existing generic lawyer page.</td>
     </tr>
     <tr>
-      <td><span class="url">/conveyancer-officer/</span></td>
-      <td class="kw"><span class="dot dot-loc"></span>conveyancer officer</td>
+      <td><span class="url">/conveyancer-lynbrook/</span></td>
+      <td class="kw"><span class="dot dot-loc"></span>conveyancer lynbrook</td>
       <td class="v-z">—</td>
-      <td>Officer VIC — growth corridor adjacent to Clyde North. High new housing activity. SERP: Ideal Conveyancing + directory listings, few law firms = low competition.</td>
+      <td>Lynbrook — ~11km from Clyde North, City of Casey. Established residential suburb, active property market. Very few dedicated law firm pages in SERP = strong ranking opportunity.</td>
     </tr>
     <tr>
       <td><span class="url">/conveyancer-beaconsfield/</span></td>
@@ -237,7 +251,7 @@ tr:last-child td { border-bottom: none; }
       <td>Endeavour Hills — established Casey suburb, ~16,000 population, active property market. Very few dedicated legal pages in SERP = easy ranking opportunity.</td>
     </tr>
 
-    <tr class="grp"><td colspan="4">Root 2 — PROPERTY LAWYER [suburb] &nbsp;·&nbsp; 1/10 suburbs has GKP volume &nbsp;·&nbsp; brand positioning: positions Trish as a property LAWYER (not just conveyancer) — Accredited Property Law Specialist USP at suburb level &nbsp;·&nbsp; Clyde North excluded — home suburb anchored to homepage entity</td></tr>
+    <tr class="grp"><td colspan="4">Root 2 — PROPERTY LAWYER [suburb] &nbsp;·&nbsp; 1/10 suburbs has GKP volume &nbsp;·&nbsp; brand positioning: positions Trish as a property LAWYER (not just conveyancer) — Accredited Property Law Specialist USP at suburb level &nbsp;·&nbsp; Clyde + Clyde North both included — existing pages already ranking #2 for both</td></tr>
     <tr>
       <td><span class="url">/property-lawyer-berwick/</span></td>
       <td class="kw"><span class="dot dot-vol"></span>property lawyer berwick</td>
@@ -251,10 +265,10 @@ tr:last-child td { border-bottom: none; }
       <td>Sharma Solicitors + Oneflare directory. Few dedicated law firm pages — ranking opportunity.</td>
     </tr>
     <tr>
-      <td><span class="url">/property-lawyer-pakenham/</span></td>
-      <td class="kw"><span class="dot dot-loc"></span>property lawyer pakenham</td>
+      <td><span class="url">/property-lawyer-clyde-north/</span></td>
+      <td class="kw"><span class="dot dot-loc"></span>property lawyer clyde north</td>
       <td class="v-z">—</td>
-      <td>Sharma Solicitors, Duffy &amp; Simon, Einsiedels active. SERP has some competition but no dominant specialist.</td>
+      <td>Clyde North — currently ranking #2 at /clyde-north-lawyer/ (301 to new URL). Client's home suburb. Strong position — maintain and reinforce with on-page entity signals and schema.</td>
     </tr>
     <tr>
       <td><span class="url">/property-lawyer-narre-warren/</span></td>
@@ -266,13 +280,13 @@ tr:last-child td { border-bottom: none; }
       <td><span class="url">/property-lawyer-clyde/</span></td>
       <td class="kw"><span class="dot dot-loc"></span>property lawyer clyde</td>
       <td class="v-z">—</td>
-      <td>Clyde (postcode 3978) — adjacent growth corridor to Clyde North. New estate development drives high property transaction demand. Minimal dedicated law firm pages = easy ranking.</td>
+      <td>Clyde — currently ranking #2 at /clyde-lawyer/ (301 to new URL). Strong position — maintain and reinforce with on-page entity signals.</td>
     </tr>
     <tr>
-      <td><span class="url">/property-lawyer-officer/</span></td>
-      <td class="kw"><span class="dot dot-loc"></span>property lawyer officer</td>
+      <td><span class="url">/property-lawyer-lynbrook/</span></td>
+      <td class="kw"><span class="dot dot-loc"></span>property lawyer lynbrook</td>
       <td class="v-z">—</td>
-      <td>Very few dedicated law firm pages. Easy ranking. Growth suburb — high new-property buyer demand.</td>
+      <td>Lynbrook — ~11km from Clyde North, City of Casey. Directory listings only in SERP, no dedicated property lawyer pages = easy ranking.</td>
     </tr>
     <tr>
       <td><span class="url">/property-lawyer-beaconsfield/</span></td>
@@ -302,6 +316,46 @@ tr:last-child td { border-bottom: none; }
   </tbody>
 </table>
 
+<!-- PROJECT BRIEF & ASSETS -->
+<div class="brief-section">
+  <h2>Project Brief &amp; Assets &nbsp;·&nbsp; for manager reference</h2>
+
+  <div class="r-block">
+    <div class="r-title">Client Brief — BDM Notes</div>
+    <div class="r-body">
+      <ul>
+        <li><b>Budget:</b> 10 General keywords + 20 Location keywords (40 units total)</li>
+        <li><b>Target keywords:</b> "Property Lawyers Melbourne" or "Property Lawyers Clyde"</li>
+        <li><b>Services to target:</b> Property law / Conveyancing / Estate law (family law flagged as "maybe — confirm" by BDM — confirmed NOT offered by client per website + onboarding form, excluded from plan)</li>
+        <li><b>Target locations:</b> Close to their office — City of Casey</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Client Brief — Onboarding Form (Key Fields)</div>
+    <div class="r-body">
+      <ul>
+        <li><b>Business:</b> Wollerman Shacklock Lawyers &nbsp;·&nbsp; wslegal.com.au &nbsp;·&nbsp; ABN 25 064 452 393</li>
+        <li><b>Principal:</b> Patricia Sheedy (Trish) — LIV Accredited Property Law Specialist, one of ~75 in Victoria</li>
+        <li><b>Address:</b> Unit 2/43 Rainier Crescent, Clyde North VIC 3978 &nbsp;·&nbsp; (03) 9707 1155 &nbsp;·&nbsp; admin@wslegal.com.au</li>
+        <li><b>Hours:</b> Mon–Fri 9am–4:30pm</li>
+        <li><b>Established:</b> 1994 (Trish took over in 2015)</li>
+        <li><b>Services offered (Q12):</b> Property Law & Conveyancing, Purchase & Sale of Property, Property Development & Subdivisions, Accredited Property Law Specialist Advice, Business & Company Law, Companies & Trusts, Sale & Purchase of Business, Lease Agreements, Estate Planning & Management, Wills, Powers of Attorney & Medical Treatment Decision Makers, Probate & Estate Administration, Solicitor's Certificates/Guarantees</li>
+        <li><b>Client's SEO keyword preferences (Q13):</b> Property Law & Conveyancing, Wills / Powers of Attorney / Deceased Estates, Commercial Law & Business Law, Lease Agreements, Probate & Letters of Administration, Estate Planning, Business Sale & Purchases, Companies & Trusts, Business Disputes — and more</li>
+        <li><b>Target locations (Q15):</b> City of Casey mainly — can service all of Melbourne</li>
+        <li><b>USPs (Q14):</b> LIV Accredited Property Law Specialist · Fixed-fee transparency · Honest straightforward advice · Local Casey expertise · Equality, respect and integrity as core values</li>
+        <li><b>Competitors (Q16):</b> Duffy & Simon Lawyers · Local Clyde North law firms (recent entrants)</li>
+        <li><b>Pricing:</b> Fixed fee upfront quotes — no surprises</li>
+        <li><b>Insurance:</b> Professional Indemnity $2.5M · Public Liability $20M</li>
+        <li><b>Mission:</b> To help our local and broader community achieve the best legal outcomes through a personal, down-to-earth approach grounded in our values of equality, respect and integrity</li>
+        <li><b>Community:</b> Trish volunteers at Salvation Army Community Wills Day</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
 <!-- REASONING -->
 <div class="reasoning">
   <h2>Strategy Rationale &nbsp;·&nbsp; for manager review</h2>
@@ -309,12 +363,12 @@ tr:last-child td { border-bottom: none; }
   <div class="r-block">
     <div class="r-title">Budget Breakdown</div>
     <div class="r-body">
-      Client purchased 40 location-equivalent units. General keywords cost 2 units each (city-level, higher value, harder to rank). Location keywords cost 1 unit each (suburb-level, lower volume, faster to rank).
+      Client purchased 40 location-equivalent units. General keywords cost 2 units each (city-level, higher value, harder to rank). Location keywords cost 1 unit each (suburb-level, lower volume, faster to rank). 10 general keywords across 6 pages — 4 pages carry 2 keywords each, 2 pages carry 1 keyword each (commercial lease + conveyancer — exceptions per client direction).
       <div class="budget-row">
         <div class="budget-cell"><b>10</b>General keywords × 2 units = 20</div>
         <div class="budget-cell"><b>20</b>Location keywords × 1 unit = 20</div>
         <div class="budget-cell"><b>40</b>Total units used</div>
-        <div class="budget-cell"><b>5</b>Service pages</div>
+        <div class="budget-cell"><b>6</b>General pages</div>
         <div class="budget-cell"><b>20</b>Location pages</div>
         <div class="budget-cell"><b>2</b>Root keywords</div>
         <div class="budget-cell"><b>10</b>Casey suburbs</div>
@@ -339,12 +393,12 @@ tr:last-child td { border-bottom: none; }
   <div class="r-block">
     <div class="r-title">Why 10G + 20L (BDM Split)</div>
     <div class="r-body">
-      The plan uses the BDM's recommended split of 10G + 20L. A conveyancer Melbourne service page was evaluated and removed for two reasons:
+      Full 40-unit budget used. 10 general keywords across 6 pages — 4 pages carry 2 keywords, 2 pages carry 1 keyword each (exception per client direction).
       <ul style="margin-top:6px">
-        <li><b>Conveyancing covered by location pages:</b> Ten Casey suburb pages targeting "conveyancer [suburb]" already provide comprehensive conveyancing coverage across the client's actual service area. A separate Melbourne-level conveyancer page would compete against established Melbourne-wide specialist conveyancers — a difficult ranking environment for a firm starting from zero commercial rankings.</li>
-        <li><b>Local pages convert better for conveyancing:</b> Property buyers and sellers search for conveyancers near the property or their own suburb. A Casey-based firm is better positioned to capture "conveyancer berwick" than "conveyancer melbourne." The 4 extra location pages (2 new suburbs × 2 roots) generate more leads faster than a competitive Melbourne service page.</li>
+        <li><b>Conveyancer melbourne added (client direction):</b> SERP dominated by specialist licensed conveyancers. Wslegal's positioning angle is lawyer-backed conveyancing — Accredited Property Law Specialist providing a legally-qualified service. Single keyword only.</li>
+        <li><b>Commercial lease solicitor melbourne dropped:</b> Had 0 GKP volume for the Melbourne modifier — was only included for ranking reporting clarity. Dropping it freed the slot for conveyancer melbourne without removing any page. Commercial lease lawyer melbourne (primary) is kept.</li>
       </ul>
-      <span class="r-verdict">Decision: 10G + 20L — BDM split, faster commercial lead generation via location pages</span>
+      <span class="r-verdict">Decision: 10G + 20L — full budget used, conveyancer melbourne added, commercial lease secondary dropped</span>
     </div>
   </div>
 
@@ -353,7 +407,7 @@ tr:last-child td { border-bottom: none; }
     <div class="r-body">
       Unlike most trade contractor SEO projects where a single high-volume root dominates suburb searches, wslegal requires two roots for different strategic reasons:
       <ul style="margin-top:6px">
-        <li><b>Root 1 — "conveyancer [suburb]":</b> Volume-driven. GKP confirms 170/mo for Berwick, Cranbourne, Pakenham, and Narre Warren. "Conveyancer" outperforms "conveyancing" at suburb level (Narre Warren: 170 vs 110 — a 55% volume gain). These pages capture people actively buying or selling property in each suburb — the most direct lead type for Trish's practice.</li>
+        <li><b>Root 1 — "conveyancer [suburb]":</b> GKP confirms 170/mo for Berwick, Cranbourne, and Narre Warren. "Conveyancer" outperforms "conveyancing" at suburb level (Narre Warren: 170 vs 110 — a 55% volume gain). Remaining suburbs selected by proximity to Clyde North (client requirement) — proximity preference over search volume. These pages capture people actively buying or selling property in each suburb — the most direct lead type for Trish's practice.</li>
         <li><b>Root 2 — "property lawyer [suburb]":</b> Brand-driven. Trish is an Accredited Property Law Specialist — one of only ~75 in all of Victoria. A conveyancer is not a lawyer. Suburb pages targeting "property lawyer [suburb]" differentiate wslegal from the licensed conveyancers who dominate the conveyancing SERP, and capture searchers who specifically want legal advice rather than document processing. Each "property lawyer" searcher represents a higher-value enquiry. This also directly fulfils the BDM brief which called out "Property Lawyers Melbourne" or "Property Lawyers Clyde" as target terms.</li>
         <li><b>Why this pairing works:</b> In the Austral Contractors project, a second root (core drilling) was rejected because suburb-level GKP volume was zero. Here, the second root is justified not by volume but by positioning and lead quality — one property law client engaged for complex advice is worth more than several basic conveyancing transactions.</li>
       </ul>
@@ -368,11 +422,10 @@ tr:last-child td { border-bottom: none; }
       <ul style="margin-top:6px">
         <li><b>Berwick:</b> 40,000+ population, established, highest conveyancing volume in the dataset (170/mo). Primary competitor hub (Malkin Lawyers, John Conquest are here).</li>
         <li><b>Cranbourne:</b> 40,000+ population, growing. 170/mo GKP volume confirmed. Sharma Solicitors &amp; Conveyancers is a direct competitor here.</li>
-        <li><b>Pakenham:</b> 50,000+ population, Melbourne's fastest-growing outer suburb. 170/mo confirmed. Duffy &amp; Simon active here.</li>
+        <li><b>Clyde North:</b> Client's home suburb. Existing /clyde-north-lawyer/ page ranks #2 for "property lawyer clyde north" and #11 for "conveyancer clyde north" — already performing. Both included in this plan since pages exist and are live. Clyde North also covered by the homepage entity via NAP, schema, and content.</li>
         <li><b>Narre Warren:</b> 50,000+ population, Casey's commercial centre. 170/mo confirmed. Silk Legal and Gateway Lawyers are active.</li>
-        <li><b>Clyde North (homepage, not a location page):</b> wslegal's physical address. For local businesses, the home suburb is anchored to the homepage via NAP, schema, and content — not a standalone location page. Creating a location page for the home suburb creates a competing page and wastes a budget slot. Clyde North presence is handled by the homepage entity.</li>
-        <li><b>Clyde:</b> Postcode 3978 — directly adjacent to Clyde North, same growth corridor. Very active new housing estate development. High first home buyer and investor activity. Minimal law firm pages in SERP = easy ranking. Replaces Clyde North in the location page roster.</li>
-        <li><b>Officer:</b> Adjacent growth corridor. High new housing activity. Very few law firm pages in SERP = low competition, easy ranking.</li>
+        <li><b>Clyde:</b> Directly adjacent to Clyde North, same growth corridor. Existing /clyde-lawyer/ page ranks #2 for "property lawyer clyde". /clyde-north-lawyer/ also covers "conveyancer clyde" (#16 — quick win with conveyancer-focused on-page optimisation).</li>
+        <li><b>Lynbrook:</b> ~11km from Clyde North, City of Casey. Established residential suburb, active property market. Very few law firm pages in SERP = easy ranking. Selected on proximity.</li>
         <li><b>Beaconsfield:</b> Established residential suburb adjacent to Berwick. Minimal dedicated legal pages = easy ranking.</li>
         <li><b>Hampton Park:</b> Residential Casey suburb with 38 conveyancing businesses listed but almost no law firm pages specifically targeting "property lawyer hampton park" = strong ranking opportunity for root 2.</li>
         <li><b>Hallam:</b> Established Casey suburb bordering Narre Warren. Active residential property market. Minimal dedicated law firm pages in SERP.</li>
@@ -391,13 +444,14 @@ tr:last-child td { border-bottom: none; }
   <div class="r-block">
     <div class="r-title">Why These 5 Service Pages</div>
     <div class="r-body">
-      Each page was validated via SERP check — all show law firm pages in the competitive set, confirming correct business vertical and commercial intent. Conveyancing is handled entirely by the 10 location pages rather than a Melbourne-level service page.
+      Each page was validated via SERP check — all show law firm pages in the competitive set, confirming correct business vertical and commercial intent.
       <ul style="margin-top:6px">
         <li><b>Homepage — property lawyer melbourne (720/mo):</b> SERPs show competitor homepages ranking for this term — correct page type for wslegal's primary service identity. "Property law specialist melbourne" (140/mo) as secondary captures Trish's strongest differentiator (LIV Accredited Specialist, one of ~75 in Victoria). Davis Lawyers is a direct accredited-specialist competitor ranking on this term.</li>
         <li><b>Wills &amp; estate planning (390/mo + 110/mo):</b> Core service for individuals and families. Clean law-firm-only SERP. Powers of attorney covered as a content section on this page (POA SERP is government/informational-dominated, not suitable as a keyword target).</li>
         <li><b>Probate &amp; deceased estates (170/mo + 50/mo):</b> All law firm inner pages for both keywords — clean commercial intent throughout. Secondary "deceased estate lawyer melbourne" targets people who need estate administration help but may not know the word "probate." "Probate melbourne" (110/mo) was considered but rejected — mixed informational/government SERP creates a conflicting intent signal. High primary CPC ($40.71) reflects the legal matter complexity and value.</li>
-        <li><b>Business lawyer melbourne (140/mo + 170/mo):</b> Highest CPCs in the entire plan ($72 and $79). Each commercial law client represents a significantly higher-value matter than residential conveyancing. Client listed business law, company law, sale/purchase of business, trusts as priorities.</li>
-        <li><b>Commercial lease lawyer melbourne (70/mo + 0/mo):</b> Client explicitly listed lease agreements as a priority service. High per-client value ($52 CPC on national term). Specialist lease law firms exist (leaselawyers.net.au) — market is established and competitive. Secondary "commercial lease solicitor melbourne" has no GKP volume for the Melbourne modifier but is included with the modifier for ranking reporting clarity — it is easier to track and report client rankings against a location-modified keyword than against an unmodified national term.</li>
+        <li><b>Business lawyer melbourne (140/mo + 170/mo):</b> Highest CPCs in the entire plan ($72 and $79). Each commercial law client represents a significantly higher-value matter than residential conveyancing. Client listed business law, company law, sale/purchase of business, trusts as priorities. Commercial lease law content added as a supporting section on this page.</li>
+        <li><b>Commercial lease lawyer melbourne (70/mo, 1 keyword):</b> Client priority service. High per-client matter value. Secondary dropped (0 Melbourne GKP vol) to free a slot for conveyancer melbourne — exception per client direction.</li>
+        <li><b>Conveyancer melbourne (GKP vol pending, 1 keyword):</b> Added per client direction. SERP dominated by specialist licensed conveyancers; wslegal's positioning is lawyer-backed conveyancing backed by Accredited Property Law Specialist credential — exception per client direction.</li>
       </ul>
       <span class="r-verdict">All 5 pages confirmed via SERP — correct competitive set, correct page types</span>
     </div>
@@ -412,7 +466,7 @@ tr:last-child td { border-bottom: none; }
         <li><b>Wills &amp; Estate Planning page:</b> Will, testament, executor, beneficiary, intestate succession, estate administration, enduring power of attorney, medical treatment decision maker, guardianship, trusts, superannuation beneficiary nominations, estate planning checklist. Cover powers of attorney as a content section here — POA SERP is not commercially targetable but clients actively ask about it.</li>
         <li><b>Probate &amp; Deceased Estates page:</b> Probate application, letters of administration, Supreme Court of Victoria, executor duties, estate distribution, intestate succession, asset transfer, deceased estate process, inheritance, grant of probate timeline. Will disputes can be mentioned as a related topic (no dedicated page — low search volume).</li>
         <li><b>Business Lawyer page:</b> Corporations Act, company law, shareholder agreements, partnership agreements, business sale and purchase, due diligence, franchise agreements, trusts, ASIC compliance, commercial contracts, business structure advice, sole trader vs company vs trust.</li>
-        <li><b>Commercial Lease Lawyer page:</b> Lease negotiation, retail lease, commercial lease review, Retail Leases Act Victoria, lease renewal, lease variation, landlord/tenant rights, make good provisions, rent review, assignment of lease, subletting, lease disputes.</li>
+        <li><b>Conveyancer Melbourne page:</b> Conveyancing process, contract of sale review, Section 32 vendor statement, transfer of title, stamp duty, first home buyer grants, settlement, cooling-off period, off-the-plan purchases, lawyer-backed conveyancing vs licensed conveyancer, Accredited Property Law Specialist advantage. Commercial lease law covered as a content section here or on the business lawyer page — lease negotiation, Retail Leases Act Victoria, lease renewal, lease variation, landlord/tenant rights, make good provisions.</li>
         <li><b>Conveyancer [suburb] pages:</b> Property settlement, contract of sale, Section 32 vendor statement, transfer of title, stamp duty, first home buyer grant, cooling-off period, property inspection, settlement date, conveyancing process, off-the-plan purchases. Reference the specific suburb's property market context where possible.</li>
         <li><b>Property Lawyer [suburb] pages:</b> Property dispute, title search, easements, covenants, adverse possession, property development, subdivision, property advice, Accredited Property Specialist, legal advice vs conveyancing, off-the-plan property, property law complexity. Reference Trish's accreditation on every property lawyer page.</li>
       </ul>
@@ -447,7 +501,8 @@ tr:last-child td { border-bottom: none; }
         <li><b>Subdivisions, adverse possession, easements (30–480/mo national):</b> Very low Melbourne-specific volume. Niche services with low organic demand. Not enough search volume to justify a dedicated page within the budget.</li>
         <li><b>SMSF sale &amp; purchases, loan agreements, bank guarantees, solicitor certificates:</b> Near-zero search volume in GKP. These are services clients come to wslegal for via referral or existing relationship, not organic search.</li>
         <li><b>Business sale/purchase lawyer melbourne:</b> National term has volume but Melbourne-specific version = 10/mo only. Covered as a content topic on the business lawyer page — page will naturally rank for related long-tail searches.</li>
-        <li><b>Conveyancer melbourne (general service page):</b> Dropped in favour of 10 Casey suburb location pages. A Casey firm starting from zero commercial rankings is better positioned to rank for "conveyancer berwick/cranbourne/pakenham" etc. than for the highly competitive Melbourne-wide term. Local pages also convert better — conveyancing clients typically prefer someone near the property or their suburb.</li>
+        <li><b>Conveyancer melbourne (general service page):</b> Dropped in favour of 10 Casey suburb location pages. A Casey firm starting from zero commercial rankings is better positioned to rank for "conveyancer berwick/cranbourne/narre warren" etc. than for the highly competitive Melbourne-wide term. Local pages also convert better — conveyancing clients typically prefer someone near the property or their suburb.</li>
+        <li><b>Pakenham and Officer as location targets:</b> Both in Cardinia Shire (different LGA to Casey). Pakenham is 20km from Clyde North with its own established legal cluster (Duffy &amp; Simon, Einsiedels). Officer is 10km but still outside Casey. Client's brief specified City of Casey and proximity to Clyde North — both excluded in favour of Lynbrook (11km, Casey) and Clyde North (existing page already ranking).</li>
         <li><b>Frankston, Dandenong as location targets:</b> Outside City of Casey LGA. Different LGAs with established legal communities. Location pages would rank but not convert.</li>
       </ul>
     </div>
@@ -457,7 +512,7 @@ tr:last-child td { border-bottom: none; }
     <div class="r-title">Data Sources</div>
     <div class="r-body">
       <ul>
-        <li><b>Google Keyword Planner:</b> AU · Mar 2025–Feb 2026 · 8 files covering conveyancing, wills/estates, business law, adverse possession/mortgage, location variants (Berwick, Narre Warren, Cranbourne, Pakenham), Melbourne-specific keywords</li>
+        <li><b>Google Keyword Planner:</b> AU · Mar 2025–Feb 2026 · 8 files covering conveyancing, wills/estates, business law, adverse possession/mortgage, location variants (Berwick, Narre Warren, Cranbourne), Melbourne-specific keywords</li>
         <li><b>Ahrefs competitor exports:</b> duffysimon.com.au (229 organic keywords), malkinlawyers.com.au (17 organic keywords). Duffy &amp; Simon traffic is predominantly family law (child support, divorce) — not directly competitive with wslegal's practice areas. Malkin Lawyers has thin SEO presence (17 keywords, 10–800/mo) — wslegal can realistically outrank them for all Casey-area terms.</li>
         <li><b>SERP validation:</b> All 10 general keywords checked via live search. All 10 suburb SERP checks completed for both roots. Competitive set confirmed as law firms / conveyancers throughout.</li>
       </ul>
