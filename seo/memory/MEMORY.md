@@ -13,6 +13,7 @@
 - [Home Location Mapping](feedback_home_location_mapping.md) — home suburb → homepage, not standalone page
 - [Ask for Volume](feedback_ask_for_volume.md) — always ask for GKP data, never assume
 - [SEO Process](feedback_seo_process.md) — general SEO process rules
+- [Keyword → URL Mapping](feedback_keyword_url_mapping.md) — primary/secondary pairing, separate pages per root, SERP matching rules, deliverable table format
 
 ## Client Projects
 Client-specific memory lives inside each client's own folder:
