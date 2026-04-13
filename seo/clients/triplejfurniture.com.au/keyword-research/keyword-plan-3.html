@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Keyword Plan 3 — triplejfurniture.com.au v1.0 · National Strategy</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; background: #f0f2f5; color: #1a1a2e; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 20px 14px; }
+h1 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+.meta { font-size: 11px; color: #888; margin-bottom: 16px; }
+
+.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.pill { background: white; border: 1px solid #dde; border-radius: 5px; padding: 5px 10px; font-size: 11px; line-height: 1.3; }
+.pill b { font-size: 14px; display: block; }
+
+.sec { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #888; margin: 16px 0 5px; }
+
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 7px; overflow: hidden; border: 1px solid #e0e0e0; margin-bottom: 16px; }
+th { background: #1a1a2e; color: #bbb; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; padding: 6px 10px; text-align: left; font-weight: 600; }
+td { padding: 8px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.4; }
+tr:last-child td { border-bottom: none; }
+
+.url { font-family: monospace; font-size: 11px; color: #2563eb; font-weight: 600; }
+.pt { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.pt-national  { background: #ede9fe; color: #6d28d9; }
+.pt-city      { background: #e0f2fe; color: #0369a1; }
+.pt-material  { background: #d1fae5; color: #065f46; }
+.pt-style     { background: #fff3cd; color: #856404; }
+
+.kws { display: flex; flex-direction: column; gap: 3px; }
+.kw-row { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
+.role { font-size: 10px; font-weight: 700; padding: 0 4px; border-radius: 2px; line-height: 1.6; }
+.r-p { background: #1a1a2e; color: white; }
+.r-s { background: #e5e7eb; color: #374151; }
+.kw { font-weight: 600; font-size: 12px; }
+.v  { font-size: 11px; color: #555; }
+.v b { color: #111; }
+.note { font-size: 10px; color: #999; margin-top: 2px; line-height: 1.5; }
+.serp-clean { font-size: 10px; font-weight: 700; color: #15803d; }
+.serp-amber { font-size: 10px; font-weight: 700; color: #b45309; }
+
+.grp td { background: #1a1a2e; color: #ccc; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; padding: 4px 10px; }
+
+.reasoning { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-top: 16px; }
+.reasoning h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; }
+.r-block { margin-bottom: 18px; }
+.r-block:last-child { margin-bottom: 0; }
+.r-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #1a1a2e; margin-bottom: 5px; }
+.r-body { font-size: 12px; color: #444; line-height: 1.6; }
+.r-body li { margin-left: 16px; margin-bottom: 3px; }
+.r-body ul { margin-left: 16px; margin-bottom: 6px; }
+.r-body ol { margin-left: 16px; }
+.r-verdict { display: inline-block; margin-top: 5px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; color: #15803d; }
+.r-amber  { display: inline-block; margin-top: 5px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; color: #b45309; }
+
+.ec { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-top: 16px; }
+.ec h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; }
+.ec-group { margin-bottom: 18px; }
+.ec-group:last-child { margin-bottom: 0; }
+.ec-group-title { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #888; margin-bottom: 8px; }
+.ec-item { display: flex; gap: 8px; margin-bottom: 6px; font-size: 12px; line-height: 1.5; flex-wrap: wrap; }
+.ec-kw { font-weight: 600; min-width: 200px; }
+.ec-vol { color: #555; min-width: 80px; }
+.ec-reason { color: #999; font-size: 11px; }
+.ec-reject  { color: #dc2626; font-size: 10px; font-weight: 700; }
+.ec-pending { color: #6b7280; font-size: 10px; font-weight: 700; }
+
+.pending-box { background: #fffbeb; border: 1.5px solid #fbbf24; border-radius: 7px; padding: 20px 24px; margin-top: 16px; }
+.pending-box h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #fde68a; }
+.pending-group { margin-bottom: 18px; }
+.pending-group:last-child { margin-bottom: 0; }
+.pending-group-title { font-size: 11px; font-weight: 700; color: #92400e; margin-bottom: 5px; }
+.pending-body { font-size: 12px; color: #78350f; line-height: 1.6; }
+.pending-ask { display: inline-block; margin-top: 6px; background: #fef3c7; border: 1px solid #fcd34d; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; color: #92400e; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- CLIENT BRIEF -->
+<div style="background:#fffbcc;border:1.5px solid #e6d800;border-radius:8px;padding:20px 24px;margin-bottom:20px;">
+  <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#7a6800;margin-bottom:14px;">Client Brief</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+    <div>
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#a07800;margin-bottom:8px;">Strategy Revision — Plan 3</div>
+      <div style="margin-bottom:10px;">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">National (Australia-wide) — Primary</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">Client requested national targeting as the primary strategy. Ecommerce-first positioning — showroom (Yagoona, Sydney) is secondary. Online Australia-wide is the growth channel.</div>
+      </div>
+      <div style="margin-bottom:10px;">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">Major City Modifier — Secondary Layer</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">Melbourne, Sydney, Brisbane, Perth city-level keywords used as a secondary layer where national SERPs are competitive but city-level SERPs are cleaner. Not suburb-level.</div>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">Category Priority (Revised)</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">Coffee tables, bar stools, dining tables, dining chairs, flat-pack as priority (higher conversion). Lounges and mattresses kept but lower priority (lower conversion). Chesterfield sofas confirmed in stock.</div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#a07800;margin-bottom:8px;">Site &amp; Client Details</div>
+      <div style="margin-bottom:10px;">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">Domain Rating</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">DR 8 — national strategy requires sub-category targeting. Top-level furniture SERPs nationally are chain-dominated (Harvey Norman, IKEA, Freedom, Amart, Nick Scali etc.). Compete via material/style sub-categories chains don't have dedicated pages for.</div>
+      </div>
+      <div style="margin-bottom:10px;">
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">Location</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">590 Hume Hwy, Yagoona NSW 2199 · Shopify site · /collections/ &amp; /pages/</div>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#333;margin-bottom:2px;">Products Confirmed</div>
+        <div style="font-size:12px;color:#444;line-height:1.6;">Bedroom · Dining (tables + chairs) · Bar stools · Coffee tables · Chesterfield sofas · Marble products · Lounges/recliners · Home Office · Outdoor</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1>Keyword Plan 3 — Triple J Furniture &nbsp;·&nbsp; triplejfurniture.com.au</h1>
+<p class="meta">Google Keyword Planner · AU · 12-month average &nbsp;|&nbsp; v1.0 · 13 Apr 2026 &nbsp;|&nbsp; P = Primary &nbsp;S = Secondary &nbsp;|&nbsp; National strategy · Sub-category material/style focus · DR 8 · 8 confirmed pages · 2 pages pending GKP · 20-keyword budget</p>
+
+<div class="pills">
+  <div class="pill"><b>16</b>Keywords confirmed</div>
+  <div class="pill"><b>8</b>Pages confirmed</div>
+  <div class="pill"><b>2</b>Pages pending GKP</div>
+  <div class="pill"><b>13.5/20</b>Budget slots used</div>
+  <div class="pill"><b>DR 8</b>Domain Rating</div>
+  <div class="pill"><b>National</b>Primary strategy</div>
+  <div class="pill"><b>City-level</b>Secondary layer</div>
+  <div class="pill"><b>Shopify</b>/collections/ &amp; /pages/</div>
+</div>
+
+<!-- CONFIRMED PAGES TABLE -->
+<div class="sec">Confirmed Pages — 8 Pages · 16 Keywords · SERP validated · 1 city keyword = 0.5 general slots</div>
+<table>
+  <thead>
+    <tr>
+      <th style="width:27%">URL</th>
+      <th style="width:9%">Type</th>
+      <th>Keywords &nbsp;·&nbsp; GKP Volume &nbsp;·&nbsp; SERP</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="grp"><td colspan="3">National Sub-Category Pages — material &amp; style modifiers that avoid chain-dominated top-level SERPs</td></tr>
+
+    <tr>
+      <td><span class="url">.../collections/bedroom-furniture</span></td>
+      <td><span class="pt pt-national">National</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">bedroom furniture</span><span class="v"><b>12,100</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">upholstered beds</span><span class="v"><b>1,000</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="note">Exception to chain-rejection rule — bedroom furniture nationally returns a clean SERP (furniture specialists dominate; chains mid-page only). Volume (12,100) justifies the page. Upholstered beds is a product-specific secondary within bedroom — not a linguistic subset. SERP amber due to Harvey Norman mid-page but clean top 5.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../collections/coffee-tables</span></td>
+      <td><span class="pt pt-material">Material</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">travertine coffee table</span><span class="v"><b>5,400</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">walnut coffee table</span><span class="v"><b>3,600</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="note">Both material-specific terms nationally return boutique/specialist retailers — no chain presence in top 10. Travertine and walnut are distinct materials (not subsets of each other). Page covers the stone/timber natural-material coffee table segment. High-volume, high-conversion product type.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../collections/marble-coffee-tables</span></td>
+      <td><span class="pt pt-material">Material</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">marble coffee table</span><span class="v"><b>9,900</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">round marble coffee table</span><span class="v"><b>1,600</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="note">Separate page from travertine/walnut coffee tables — marble is its own distinct material segment with 9,900 volume. "Round marble coffee table" adds a shape-specific secondary for searchers with defined preference — not a subset ("round" modifies the pairing meaningfully). Both SERPs amber: some chain presence but boutique specialists hold top positions. Client confirmed they sell marble coffee tables.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../collections/bar-stools</span></td>
+      <td><span class="pt pt-material">Material</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">timber bar stools</span><span class="v"><b>1,600</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">velvet bar stools</span><span class="v"><b>880</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="note">Top-level "bar stools" (49,500/mo) nationally is dominated by Harvey Norman, Freedom, IKEA — unwinnable at DR 8. Material modifiers shift the competitive set to boutique retailers. Timber and velvet are distinct materials targeting different buyer aesthetics — not subsets. Collection page optimised for material-specific bar stool searches.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../collections/dining-tables</span></td>
+      <td><span class="pt pt-material">Material</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">marble dining table</span><span class="v"><b>5,400</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">dining tables melbourne</span><span class="v"><b>880</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="note">Marble dining table nationally returns specialist/boutique dominance — chains have no dedicated marble dining table pages. Secondary "dining tables melbourne" is not a linguistic subset of the primary (different root + city modifier). Both SERPs confirmed clean. The Melbourne modifier adds city-search catchment to the page without a separate URL. Budget: marble dining table = 1 slot, dining tables melbourne = 0.5 slot.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../collections/chesterfield-sofas</span></td>
+      <td><span class="pt pt-style">Style</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">chesterfield sofa</span><span class="v"><b>3,600</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">chesterfield lounge</span><span class="v"><b>1,600</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="note">Chesterfield is a distinct sofa style — chains largely ignore it, specialist boutique retailers dominate nationally. "Chesterfield lounge" is a terminology variant (lounge ≠ sofa), not a subset. Both SERPs confirmed clean. Client confirmed they sell chesterfield sofas. Strong style-driven purchase decision = higher conversion probability.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr class="grp"><td colspan="3">City-Level Pages — major city modifier makes top-level categories viable at DR 8 · city keyword = 0.5 budget slot</td></tr>
+
+    <tr>
+      <td><span class="url">.../collections/dining-chairs</span></td>
+      <td><span class="pt pt-city">City</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">dining chairs melbourne</span><span class="v"><b>1,000</b>/mo</span><span class="serp-clean">● CLEAN</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">dining chairs sydney</span><span class="v"><b>720</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="note">City modifier transforms the dining chairs SERP — top-level "dining chairs" (60,500) is chain-dominated nationally but city-level returns boutique/local specialists. Melbourne is primary (higher volume, cleaner SERP). Sydney added as secondary — same product, different geo catchment, confirmed similar competitive set. Not linguistic subsets (different city modifier). Budget: 0.5 + 0.5 = 1 slot.</div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><span class="url">.../pages/bar-stools-melbourne</span></td>
+      <td><span class="pt pt-city">City</span></td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">bar stools melbourne</span><span class="v"><b>1,000</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">bar stools sydney</span><span class="v"><b>880</b>/mo</span><span class="serp-amber">● AMBER</span></div>
+          <div class="note">Separate city landing page from /collections/bar-stools (which targets material variants). City-level bar stool searches bring in boutique retailers even for this top-level category term. Melbourne + Sydney targeted on same page — different geo catchment, same product, same competitive set. Both SERPs amber (chains mid-page, specialists in top 4). Budget: 0.5 + 0.5 = 1 slot. Links to /collections/bar-stools collection page.</div>
+        </div>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<!-- BUDGET SUMMARY -->
+<div style="background:white;border:1px solid #e0e0e0;border-radius:7px;padding:14px 18px;margin-bottom:16px;font-size:12px;">
+  <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#888;margin-right:12px;">Budget Tally</span>
+  <span style="color:#444;">National keywords (11) = <b>11 slots</b> &nbsp;·&nbsp; City keywords (5 × 0.5) = <b>2.5 slots</b> &nbsp;·&nbsp; Confirmed total = <b>13.5 / 20 slots</b> &nbsp;·&nbsp; Pending pages 9–10 = ~3–4 slots remaining needed &nbsp;·&nbsp; 6.5 slots available</span>
+</div>
+
+<!-- PENDING SECTION -->
+<div class="pending-box">
+  <h2>Pages 9–10 — Pending GKP Data Required</h2>
+
+  <div class="pending-group">
+    <div class="pending-group-title">Page 9 Candidate — Travertine Side Table · SERP CLEAN ✅ · Volume unknown</div>
+    <div class="pending-body">
+      SERP confirmed clean nationally — Fleur Studios, Interior Secrets, Cooper &amp; Co, Life Interiors, GlobeWest, James Lane hold all positions. Zero chain presence. The product is a natural stone side/accent table and chains don't have dedicated pages for travertine side tables.<br><br>
+      Secondary page from the coffee tables cluster — different URL and different root keyword (<em>side table</em> vs <em>coffee table</em>), so no cannibalization with /collections/coffee-tables.<br><br>
+      <strong>GKP pull needed:</strong> travertine side table, travertine bedside table, stone side table, marble side table, travertine accent table. If any of these returns ≥ 200/mo, the page is viable.
+    </div>
+    <span class="pending-ask">Action: Pull GKP for travertine side table + related terms</span>
+  </div>
+
+  <div class="pending-group">
+    <div class="pending-group-title">Page 10 Candidate — Dining Chairs Brisbane · SERP AMBER ✅ · Volume needs confirmation</div>
+    <div class="pending-body">
+      SERP confirmed amber nationally — Nick Scali at position 5, Domayne at position 6. Top 4 positions held by boutique/specialist retailers. Viable at DR 8 under the amber rule.<br><br>
+      Would sit alongside dining chairs melbourne + sydney as a third city addition. If confirmed volume ≥ 400/mo, this completes the dining chairs city coverage with a Brisbane-primary page. Primary would be <em>dining chairs brisbane</em>, secondary to be determined from GKP pull (e.g. dining chairs perth, dining chairs australia).<br><br>
+      <strong>GKP pull needed:</strong> dining chairs brisbane, dining chairs perth, dining chairs gold coast. Check volumes — if brisbane ≥ 400, add as page 10 primary.
+    </div>
+    <span class="pending-ask">Action: Confirm volume for dining chairs brisbane + pull dining chairs perth</span>
+  </div>
+</div>
+
+<!-- SERP REASONING -->
+<div class="reasoning">
+  <h2>SERP Reasoning — National Strategy at DR 8</h2>
+
+  <div class="r-block">
+    <div class="r-title">Strategic Framework — Why Sub-Categories</div>
+    <div class="r-body">
+      At DR 8, top-level furniture category SERPs nationally are chain-dominated and unwinnable in the short term. The primary national chains — Harvey Norman, IKEA, Freedom, Amart, Nick Scali, Fantastic Furniture, Plush, Domayne, T&amp;W, La-Z-Boy, Koala Living — hold positions 1–4 on most high-volume category terms. The strategy: target material- and style-specific sub-categories that chains don't have dedicated collection pages for. These sub-category SERPs return boutique specialists, interior retailers, and smaller ecommerce stores — a competitive set Triple J Furniture can rank alongside.
+      <br><br>
+      <strong>Chain rejection threshold:</strong> Chains at positions 1–4 = REJECT. Chains at positions 5–8 = AMBER (viable with content quality). Chains at 9+ = clean enough.
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Page 1 — Bedroom Furniture (12,100) · CLEAN</div>
+    <div class="r-body">
+      Exception to the sub-category rule. "Bedroom furniture" nationally returns a SERP dominated by furniture specialists and bedroom-specialist retailers — chains are present but mid-page (positions 6–8), not in the reject zone. Volume at 12,100/mo justifies the exception. "Upholstered beds" (1,000) added as secondary — product-specific within bedroom category, distinct searcher intent (specific product vs general category), confirmed SERP amber. Not a subset pair.
+    </div>
+    <span class="r-verdict">CLEAN — approved</span>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Pages 2 &amp; 3 — Coffee Tables Split (Travertine/Walnut vs Marble)</div>
+    <div class="r-body">
+      Coffee tables split into two pages by material:
+      <ul>
+        <li><strong>Page 2 (/collections/coffee-tables):</strong> Travertine coffee table (5,400) + walnut coffee table (3,600). Both SERPs clean nationally — natural stone and timber buyers go to specialist interior/homewares retailers. No chain has a dedicated travertine or walnut coffee table page.</li>
+        <li><strong>Page 3 (/collections/marble-coffee-tables):</strong> Marble coffee table (9,900) + round marble coffee table (1,600). Separate page justified by volume and distinct search behaviour — marble coffee table is a high-intent search with 9,900/mo. Amber SERP (some chain presence) but boutique specialists hold top positions. "Round marble coffee table" adds shape specificity — not a subset of "marble coffee table" because "round" is a meaningful differentiator.</li>
+      </ul>
+      No cannibalization: travertine ≠ marble. Both pages target distinct material segments.
+    </div>
+    <span class="r-verdict">CLEAN — pages 2 approved</span>
+    <span class="r-amber">AMBER — page 3 approved with quality content</span>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Page 4 — Bar Stools Material (Timber + Velvet)</div>
+    <div class="r-body">
+      "Bar stools" at 49,500/mo nationally has Harvey Norman, Freedom, IKEA in positions 1–3 — DIRTY, rejected. Material modifiers break the chain grip: "timber bar stools" returns furniture specialists and Scandinavian-style homewares stores; "velvet bar stools" returns fabric/upholstery-focused boutiques. Timber and velvet are distinct materials — different buyer aesthetic, non-overlapping SERPs, not linguistic subsets of each other.
+    </div>
+    <span class="r-verdict">CLEAN — timber bar stools approved</span>
+    <span class="r-amber">AMBER — velvet bar stools approved with content</span>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Page 5 — Dining Tables (Marble Dining Table + Dining Tables Melbourne)</div>
+    <div class="r-body">
+      "Marble dining table" (5,400) nationally is clean — chains have no dedicated marble dining table collection, boutique and specialist interior retailers dominate. Secondary "dining tables melbourne" (880) is a city-level term, not a subset of "marble dining table" (different root: <em>dining table</em> with material modifier vs <em>dining tables</em> with city modifier). Both SERPs confirmed clean. The Melbourne city term augments the page's city-search reach without requiring a separate URL.
+    </div>
+    <span class="r-verdict">CLEAN — both keywords approved</span>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Page 6 — Chesterfield Sofas (Sofa + Lounge)</div>
+    <div class="r-body">
+      Chesterfield is a named style — one of the few lounge sub-categories where national chain dominance breaks down. Chains stock some chesterfield models but don't have dedicated chesterfield collection pages, so boutique leather and furniture specialists dominate nationally. "Chesterfield sofa" (3,600) and "chesterfield lounge" (1,600) are terminology variants (sofa vs lounge), not subsets. Both SERPs clean. Client confirmed they stock chesterfield sofas.
+    </div>
+    <span class="r-verdict">CLEAN — both keywords approved</span>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Pages 7–8 — City Layer Strategy (Dining Chairs + Bar Stools)</div>
+    <div class="r-body">
+      City modifiers transform otherwise unwinnable top-level category SERPs. At national level:
+      <ul>
+        <li>"Dining chairs" (60,500) — chain-dominated DIRTY ❌</li>
+        <li>"Bar stools" (49,500) — chain-dominated DIRTY ❌</li>
+      </ul>
+      With city modifier, local boutiques and specialty retailers enter the SERP:
+      <ul>
+        <li>"Dining chairs melbourne" (1,000) — CLEAN ✅ boutique retailers hold top 5</li>
+        <li>"Dining chairs sydney" (720) — AMBER boutique retailers in top 3</li>
+        <li>"Bar stools melbourne" (1,000) — AMBER specialists hold top 4</li>
+        <li>"Bar stools sydney" (880) — AMBER specialists hold top 4</li>
+      </ul>
+      City pairs (Melbourne + Sydney) placed on same page — different geo catchment, same product, sufficiently similar competitive set. Not linguistic subsets (different city modifier). Budget weight: each city keyword = 0.5 general slots.
+    </div>
+    <span class="r-amber">AMBER — city pages approved with localised content signals</span>
+  </div>
+
+</div>
+
+<!-- EXCLUDED KEYWORDS -->
+<div class="ec">
+  <h2>Excluded Keywords</h2>
+
+  <div class="ec-group">
+    <div class="ec-group-title">Chain-Dominated National SERPs — DIRTY ❌ · Rejected</div>
+    <div class="ec-item"><span class="ec-kw">bar stools</span><span class="ec-vol">49,500/mo</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Harvey Norman #1, Freedom #2, IKEA #3 nationally — unwinnable at DR 8</span></div>
+    <div class="ec-item"><span class="ec-kw">dining chairs</span><span class="ec-vol">60,500/mo</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Chain-dominated top-level category — city modifier needed (see pages 7–8)</span></div>
+    <div class="ec-item"><span class="ec-kw">accent chairs</span><span class="ec-vol">6,600/mo</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Freedom #3, Plush #2 nationally — chains in reject-zone positions 1–4</span></div>
+    <div class="ec-item"><span class="ec-kw">recliner chairs</span><span class="ec-vol">22,200/mo</span><span class="ec-reject">DIRTY</span><span class="ec-reason">National SERP chain-dominated — Harvey Norman, Freedom, Nick Scali in top 4</span></div>
+    <div class="ec-item"><span class="ec-kw">leather lounges</span><span class="ec-vol">5,400/mo</span><span class="ec-reject">DIRTY</span><span class="ec-reason">National SERP chain-dominated — not viable at DR 8 without Sydney modifier, which falls to very low volume</span></div>
+    <div class="ec-item"><span class="ec-kw">dining tables</span><span class="ec-vol">high</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Top-level dining tables national SERP chain-dominated — marble modifier used instead (page 5)</span></div>
+    <div class="ec-item"><span class="ec-kw">velvet dining chairs australia</span><span class="ec-vol">n/a</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Koala Living #1, Freedom #3 — chains in top 4</span></div>
+    <div class="ec-item"><span class="ec-kw">boucle dining chair australia</span><span class="ec-vol">n/a</span><span class="ec-reject">DIRTY</span><span class="ec-reason">Koala Living #2, Freedom #5 — chains in top 4 (Koala counts as chain at national scale)</span></div>
+  </div>
+
+  <div class="ec-group">
+    <div class="ec-group-title">Mixed SERP — Rejected</div>
+    <div class="ec-item"><span class="ec-kw">ottoman bed</span><span class="ec-vol">mid</span><span class="ec-reject">MIXED SERP</span><span class="ec-reason">SERP returns both storage bed products and ottoman footstools — mixed intent, Google hasn't settled on intent. Replace, don't patch.</span></div>
+  </div>
+
+  <div class="ec-group">
+    <div class="ec-group-title">Subset Conflicts — Would Violate Non-Subset Pairing Rule</div>
+    <div class="ec-item"><span class="ec-kw">marble dining table melbourne</span><span class="ec-vol">110/mo</span><span class="ec-reject">SUBSET</span><span class="ec-reason">"Marble dining table melbourne" is a subset of "marble dining table" — cannot pair on same page. Volume also too low to justify own page.</span></div>
+    <div class="ec-item"><span class="ec-kw">bedroom furniture melbourne</span><span class="ec-vol">n/a</span><span class="ec-reject">SUBSET</span><span class="ec-reason">Linguistic subset of "bedroom furniture" — cannot co-exist on same page as the primary.</span></div>
+    <div class="ec-item"><span class="ec-kw">marble coffee table melbourne</span><span class="ec-vol">140/mo</span><span class="ec-reject">SUBSET + LOW VOL</span><span class="ec-reason">Subset of "marble coffee table". Volume too low for standalone page.</span></div>
+  </div>
+
+  <div class="ec-group">
+    <div class="ec-group-title">Low Volume or No Clean Secondary Found</div>
+    <div class="ec-item"><span class="ec-kw">leather chesterfield sofa</span><span class="ec-vol">390/mo</span><span class="ec-pending">SUBSET</span><span class="ec-reason">Subset of "chesterfield sofa" — cannot pair on same page. Volume too low for standalone page.</span></div>
+    <div class="ec-item"><span class="ec-kw">velvet chesterfield sofa</span><span class="ec-vol">170/mo</span><span class="ec-pending">LOW VOL</span><span class="ec-reason">Too low volume for standalone page. Captured naturally as page content on /collections/chesterfield-sofas.</span></div>
+    <div class="ec-item"><span class="ec-kw">counter stools</span><span class="ec-vol">2,900/mo</span><span class="ec-pending">PENDING SERP</span><span class="ec-reason">SERP not yet validated. If clean, could replace or augment a bar stools secondary. Volume is strong.</span></div>
+    <div class="ec-item"><span class="ec-kw">upholstered bed frames</span><span class="ec-vol">1,600/mo</span><span class="ec-pending">SUBSET</span><span class="ec-reason">"Upholstered bed frames" is a subset of "upholstered beds" — cannot pair both on the bedroom page. Upholstered beds (1,000) preferred as secondary.</span></div>
+    <div class="ec-item"><span class="ec-kw">black marble coffee table</span><span class="ec-vol">590/mo</span><span class="ec-pending">SUBSET</span><span class="ec-reason">Subset of "marble coffee table" — cannot pair on same page. Volume too low for standalone page.</span></div>
+    <div class="ec-item"><span class="ec-kw">marble look coffee table</span><span class="ec-vol">590/mo</span><span class="ec-pending">CONSIDER</span><span class="ec-reason">Not a subset — "marble look" targets buyers seeking marble-effect (not real marble). Possible secondary if SERP is confirmed clean. SERP not yet checked.</span></div>
+  </div>
+
+</div>
+
+</div>
+</body>
+</html>

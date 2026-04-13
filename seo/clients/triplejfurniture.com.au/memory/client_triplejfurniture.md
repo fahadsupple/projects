@@ -1,6 +1,6 @@
 ---
 name: triplejfurniture.com.au — Complete Project Reference
-description: Triple J Furniture SEO keyword research project — Sydney ecommerce/showroom furniture retailer, 20 general keywords
+description: Triple J Furniture SEO keyword research — national ecommerce strategy, DR 8, sub-category material/style focus, 20-keyword budget
 type: project
 ---
 
@@ -194,7 +194,7 @@ The **recliner lounges sydney** secondary is the most problematic still in the p
 
 ---
 
-## Status & Pending
+## Status & Pending (Plan 2 — v1.6 · Sydney strategy)
 
 | # | Item | Status |
 |---|---|---|
@@ -204,6 +204,89 @@ The **recliner lounges sydney** secondary is the most problematic still in the p
 | 4 | Ahrefs current rankings | ✅ Done — DR 8, 84 kws, 211 traffic |
 | 5 | GKP data (15 batches) | ✅ Done |
 | 6 | SERP validation — all 10 pairs | ✅ Done — full re-validation 8 Apr 2026 |
-| 7 | Keyword plan HTML | ✅ Done — v1.4, all notes updated to reflect current SERPs |
-| 8 | Recliner lounges sydney secondary — HN #4, Nick Scali #5 | ✅ Resolved — local specialists hold positions 1–3, competitive path exists, kept per one-result rule |
-| 9 | 3rd/4th keyword review per page | ⏳ To do later — focus is on finalising the 20 main keywords first |
+| 7 | Keyword plan HTML | ✅ Done — v1.6 (keyword-plan-2.html) |
+
+---
+
+## ⚡ PLAN 3 — National Strategy Rebuild (13 Apr 2026)
+
+### Strategy Pivot
+Client feedback requested full rebuild with national (Australia-wide) targeting as primary strategy. Major cities (Sydney, Melbourne, Brisbane, Perth) as secondary layer — not suburb-level. Ecommerce-first positioning. Category priority revised: coffee tables, bar stools, dining as priority (higher conversion); lounges/mattresses lower priority.
+
+### DR 8 National Constraint
+Top-level furniture SERPs nationally are chain-dominated (Harvey Norman, IKEA, Freedom, Amart, Nick Scali, Fantastic Furniture, Plush, Domayne, T&W, La-Z-Boy, Koala Living). Cannot compete on top-level categories. Strategy: material/style sub-categories chains don't have dedicated pages for.
+
+**Chain rejection rule:** chains in positions 1–4 = DIRTY ❌ (reject). Positions 5–8 = AMBER (viable). 9+ = clean.
+
+### Confirmed Products
+- Chesterfield sofas ✅ (confirmed by client Apr 2026)
+- Marble coffee tables ✅ (confirmed by client Apr 2026)
+- All categories: bedroom, dining tables, dining chairs, bar stools, coffee tables, lounges, outdoor, home office
+
+### Plan 3 Keyword Map (8 pages confirmed · 2 pending GKP)
+
+| # | Page | URL | Primary | Vol | Secondary | Vol | SERP |
+|---|---|---|---|---|---|---|---|
+| 1 | Bedroom Furniture | /collections/bedroom-furniture | bedroom furniture | 12,100 | upholstered beds | 1,000 | CLEAN / AMBER |
+| 2 | Coffee Tables (stone/timber) | /collections/coffee-tables | travertine coffee table | 5,400 | walnut coffee table | 3,600 | CLEAN / CLEAN |
+| 3 | Marble Coffee Tables | /collections/marble-coffee-tables | marble coffee table | 9,900 | round marble coffee table | 1,600 | AMBER / AMBER |
+| 4 | Bar Stools (material) | /collections/bar-stools | timber bar stools | 1,600 | velvet bar stools | 880 | CLEAN / AMBER |
+| 5 | Dining Tables | /collections/dining-tables | marble dining table | 5,400 | dining tables melbourne | 880 | CLEAN / CLEAN |
+| 6 | Chesterfield Sofas | /collections/chesterfield-sofas | chesterfield sofa | 3,600 | chesterfield lounge | 1,600 | CLEAN / CLEAN |
+| 7 | Dining Chairs (city) | /collections/dining-chairs | dining chairs melbourne | 1,000 | dining chairs sydney | 720 | CLEAN / AMBER |
+| 8 | Bar Stools (city) | /pages/bar-stools-melbourne | bar stools melbourne | 1,000 | bar stools sydney | 880 | AMBER / AMBER |
+| 9 | TBD — Travertine Side Table | TBD | travertine side table | ❓ GKP needed | TBD | TBD | CLEAN ✅ |
+| 10 | TBD — Dining Chairs Brisbane | TBD | dining chairs brisbane | ❓ GKP needed | TBD | TBD | AMBER ✅ |
+
+Budget: 11 national keywords (11 slots) + 5 city keywords × 0.5 (2.5 slots) = 13.5/20 slots. 6.5 slots remaining for pages 9–10.
+
+### Plan 3 Key SERP Findings
+
+| Keyword | SERP | Notes |
+|---|---|---|
+| bedroom furniture | CLEAN | Furniture specialists dominate nationally — chains mid-page |
+| travertine coffee table | CLEAN | Boutique interior specialists only — no chain pages for this material |
+| walnut coffee table | CLEAN | Same as travertine — natural material segment clean nationally |
+| marble coffee table | AMBER | Some chain presence but boutique specialists hold top positions |
+| round marble coffee table | AMBER | Shape-specific, cleaner than the root term |
+| timber bar stools | CLEAN | Material specificity breaks chain dominance |
+| velvet bar stools | AMBER | Some chains but manageable |
+| marble dining table | CLEAN | No chain has dedicated marble dining table collection page |
+| dining tables melbourne | CLEAN | City modifier brings in boutique retailers |
+| chesterfield sofa | CLEAN | Style-specific, chains don't prioritise this segment |
+| chesterfield lounge | CLEAN | Same competitive set as chesterfield sofa |
+| dining chairs melbourne | CLEAN | City modifier breaks chain dominance |
+| dining chairs sydney | AMBER | Similar competitive set, slightly more chain presence |
+| bar stools melbourne | AMBER | City modifier helps but some chains still present |
+| bar stools sydney | AMBER | Same as Melbourne variant |
+| travertine side table australia | CLEAN ✅ | Fleur Studios, Interior Secrets, Cooper & Co, Life Interiors, GlobeWest, James Lane — zero chain presence |
+| dining chairs brisbane | AMBER ✅ | Nick Scali #5, Domayne #6 — chains only at 5–6, boutiques hold top 4 |
+
+### Rejected in Plan 3 (key rejections)
+
+| Keyword | Reason |
+|---|---|
+| bar stools (49,500) | Harvey Norman #1, Freedom #2, IKEA #3 — DIRTY |
+| dining chairs (60,500) | Chain-dominated — DIRTY |
+| accent chairs (6,600) | Freedom #3, Plush #2 — DIRTY |
+| recliner chairs (22,200) | Chain-dominated nationally — DIRTY |
+| leather lounges (5,400) | Chain-dominated nationally — DIRTY |
+| ottoman bed | Mixed SERP (furniture + footstools) |
+| velvet dining chairs australia | Koala #1, Freedom #3 — DIRTY |
+| boucle dining chair australia | Koala #2, Freedom #5 — DIRTY |
+| marble dining table melbourne (110) | Subset of "marble dining table" — violates non-subset rule |
+
+### Plan 3 HTML Deliverable
+- Path: `seo/clients/triplejfurniture.com.au/keyword-research/keyword-plan-3.html`
+- Status: ✅ Built — v1.0, 13 Apr 2026
+- 8 confirmed pages, 2 pages pending GKP pull
+
+### Plan 3 Pending Actions
+
+| # | Item | Status |
+|---|---|---|
+| 1 | GKP pull: travertine side table + related (travertine bedside table, stone side table, marble side table) | ⏳ Needed for page 9 |
+| 2 | GKP pull: dining chairs brisbane + dining chairs perth | ⏳ Needed for page 10 |
+| 3 | Add pages 9–10 to keyword-plan-3.html once GKP confirmed | ⏳ Pending |
+| 4 | Consider "marble look coffee table" (590/mo) — not a subset, SERP not yet checked | ⏳ Future check |
+| 5 | Consider "counter stools" (2,900/mo) — SERP not yet checked, may replace velvet bar stools secondary | ⏳ Future check |
