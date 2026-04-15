@@ -16,17 +16,21 @@ type: feedback
 
 ## What this capability covers
 
-1. Meta descriptions — write for all pages missing them (150–160 chars, keyword + location + CTA)
-2. H1 spot check (sample 6–8 pages)
-3. H2 spot check (same sample)
-4. Meta title length check — flag anything over 60 chars
-5. Meta description length check — flag anything over 160 chars
-6. Spelling errors (Screaming Frog + manual spot check)
-7. Company name consistency across site
-8. URL verification against the approved keyword-URL mapping sheet
-9. Content random check (3–4 pages, grammar and consistency)
-10. Mobile forms check (manual — flag for web PM if form is above fold)
-11. Indexability — confirm noindex on staging, confirm it's removed on go-live
+1. Meta descriptions — write for ALL pages missing them (150–160 chars, keyword + location + CTA)
+2. H1 check — ALL pages via Screaming Frog CSV + **sense-check**: does the H1 match what the URL says the page is about?
+3. H2 check — ALL pages via Screaming Frog CSV + sense-check: does H2 reflect actual content or just a widget label?
+4. Meta title check — ALL pages via Screaming Frog CSV + sense-check: does title match URL topic? Flag over 60 chars.
+5. Meta description sense-check — ALL pages: right suburb? right service? copied from wrong page?
+6. Spelling & grammar — full manual crawl of every page (NOT Screaming Frog — it misses most errors)
+7. URL verification — every URL compared against approved keyword-URL mapping sheet
+8. Company name consistency — all pages
+9. Content comparison — if a content doc was provided, compare approved copy vs what's live (saved as separate file)
+10. Content random check (3–4 pages, grammar and consistency)
+11. Mobile forms check (manual — flag for web PM if form is above fold on location pages)
+12. Final email items from on-page team — confirm each has been addressed
+13. Indexability — confirm noindex on staging, confirm it's removed on go-live
+
+**Key rule updated (Apr 2026):** Do NOT check H1/H2/titles/meta descriptions randomly — check EVERY page. Use Screaming Frog CSV for bulk checks. Sense-check means: does the data on the page match what the URL says the page is about?
 
 ## What to ask for before starting
 

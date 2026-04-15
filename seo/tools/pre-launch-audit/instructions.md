@@ -1,6 +1,6 @@
 ---
 capability: pre-launch-audit
-description: Pre-launch on-page QA for new website builds — meta descriptions, H1/H2/title spot checks, spelling, URL verification, company name consistency, mobile forms check
+description: Pre-launch on-page QA for new website builds — meta descriptions, H1/H2/title full audit (all pages via Screaming Frog + sense-check against URL), spelling, URL verification, company name consistency, mobile forms check
 ---
 
 # Pre-Launch Audit Capability
@@ -20,9 +20,9 @@ Run this capability when a new website is about to go live and the SEO PM needs 
 
 Before starting, confirm you have all of the following:
 
-1. **Screaming Frog CSV** — crawl of the staging/new website, HTML pages only, with these columns exported: Address, Title 1, Title 1 Length, Meta Description 1, Meta Description 1 Length, H1-1, H1-1 Length, H2-1, H2-2, Spelling Errors, Word Count, Status Code, Indexability
-2. **Keyword-URL-Meta mapping sheet** (Excel or Google Sheet) — the approved URL structure and meta titles from the SEO plan
-3. **List of pages with missing meta descriptions** — or derive from the Screaming Frog CSV (Meta Description 1 Length = 0)
+1. **Screaming Frog CSV** — crawl of the staging/new website, HTML pages only, with these columns exported: Address, Title 1, Title 1 Length, Title 1 Pixel Width, Meta Description 1, Meta Description 1 Length, H1-1, H1-1 Length, H2-1, H2-2, Spelling Errors, Word Count, Status Code, Indexability
+2. **Keyword-URL-Meta mapping sheet** (Excel or Google Sheet) — the approved URL structure, meta titles, and meta descriptions from the SEO plan
+3. **Content document** (Google Doc or similar) — the approved content brief, if one exists, for content comparison
 4. **Staging URL** — to crawl individual pages for content when writing meta descriptions
 5. **Client memory file** — for business name, services, USPs, contact details, service areas
 
@@ -32,76 +32,113 @@ If any of these are missing, ask for them before proceeding.
 
 ## Full Checklist — Run Every Time
 
-### 1. Meta Descriptions (Must Do)
-- Pull all pages from the CSV where Meta Description 1 Length = 0
+### 1. Meta Descriptions — All Pages (Must Do)
+- Pull ALL pages from the CSV where Meta Description 1 Length = 0
 - For each missing page, fetch the page content (use WebFetch or Playwright)
-- Write a meta description: 150–160 characters, includes primary keyword, includes location (Melbourne / suburb / Geelong as relevant), ends with a CTA (Free quote, Call us, Learn more, etc.)
+- Write a meta description: 150–160 characters, includes primary keyword, includes location (city / suburb as relevant), ends with a CTA (Free quote, Call us, Learn more, etc.)
 - Do NOT write generic descriptions — base each one on the actual page content
+- Also flag any existing meta description over 160 characters (not a blocker, but list them)
 
-### 2. H1 Spot Check (Sample 6–8 pages randomly)
-- H1 should include the primary keyword and location
-- H1 should not duplicate the meta title word-for-word (close is fine, identical is not ideal)
-- No page should have more than one H1 (Screaming Frog will flag duplicate H1s)
-- Flag any H1 that is just a brand name, "Home", "Services", or other non-keyword placeholder
+### 2. H1 Check — ALL Pages (via Screaming Frog CSV)
+- Check every page in the CSV — do NOT sample randomly
+- **Sense-check**: Does the H1 match what the URL says the page is about?
+  - e.g. URL `/suspended-ceilings-richmond/` → H1 must mention Richmond and suspended ceilings
+  - e.g. URL `/office-fitouts/` → H1 should not say "Partition Walls" or wrong suburb
+- Flag: missing H1, H1 that doesn't match the URL topic, H1 that is a generic placeholder ("Home", "Services")
+- Flag: H1 duplicated word-for-word with the meta title (not ideal but not a blocker)
 
-### 3. H2 Spot Check (Same sample as H1)
-- Check that real content sections have H2 headings
-- Flag if H2 is only contact/form widget text (e.g., "Send us a message") with no other H2s — this means content lacks subheadings
-- Note this as an observation, not a blocker
+### 3. H2 Check — ALL Pages (via Screaming Frog CSV)
+- Check every page in the CSV — do NOT sample randomly
+- **Sense-check**: Does the first H2 reflect actual page content, or is it just a form/widget label?
+  - Flag if the only H2 visible in Screaming Frog is "Send us a message" or similar widget text — this indicates the page has no real content subheadings
+- Flag: H2 that belongs to a different page/topic (e.g. Richmond page has H2 mentioning Preston)
 
-### 4. Meta Title Spot Check (Same sample + any flagged by length)
-- Recommended: under 60 characters (580px pixel width)
-- If over: flag URL and suggest trim (usually remove a middle pipe segment)
-- Check that the brand name appears at the end: "[Keyword] | [Brand]"
+### 4. Meta Title Check — ALL Pages (via Screaming Frog CSV)
+- Check every page in the CSV — do NOT sample randomly
+- **Sense-check**: Does the meta title match the URL topic?
+  - e.g. URL `/partition-walls-geelong/` → title must mention Geelong and partition walls
+  - Title format should be: `[Primary Keyword] | [Brand Name]` or `[Primary Keyword] [Location] | [Brand Name]`
+- Flag: titles over 60 characters (suggest trim — usually remove a middle pipe segment)
+- Flag: titles that don't match the page's URL topic (copy-paste errors)
+- Flag: missing brand name in title
 
-### 5. Meta Description Quality Check (Existing descriptions)
-- Flag any existing meta description over 160 characters — list the URL and current length
-- These are not blockers but should be trimmed post-launch or before launch if time allows
+### 5. Meta Description Sense-Check — ALL Pages (via Screaming Frog CSV)
+- For pages that already have a meta description, **sense-check** it against the URL:
+  - Does the meta description mention the right suburb/location for the page?
+  - Does it mention the right service for the page?
+  - Flag any meta description that appears to be copied from a different page (wrong suburb, wrong service)
+- Flag overlong descriptions (>160 chars) — list all of them
 
-### 6. Spelling Errors
-- Pull Screaming Frog "Spelling Errors" column — list any pages with reported errors
-- If Screaming Frog shows none, note "No spelling errors detected by Screaming Frog"
-- Additionally, spot-check content on 3–4 pages manually (read the page during meta description research)
+### 6. Spelling & Grammar — Full Site (Manual Crawl — NOT Screaming Frog)
+- Do NOT rely on Screaming Frog for spelling/grammar — it misses most errors
+- Manually fetch every page using WebFetch and read the content
+- Check: body text, H1–H6, button labels, meta title, meta description, alt text
+- Australian English standard: colour/honour/analyse/organise/minimise/travelling/centre
+- Check for: wrong words (e.g. "amplify" instead of "improve", "stress-free" instead of "seamless"), grammar errors, US spellings, wrong content (wrong suburb in heading, wrong project count), redundant phrases (e.g. "Acoustic & Soundproofing"), colloquial language in professional copy
+- Save results in the standard spelling-mistakes-finder HTML format at: `/home/invoi/fahad_projects/spelling-mistakes-finder/[staging-domain].html`
 
-### 7. Company Name Consistency
-- Check that the company name is used identically across all pages (exact legal name or the agreed shortened name)
-- Common error: "Danton Development" vs "Danton Developments" (missing 's')
-- Source of truth: client memory file
-
-### 8. URL Verification
-- Compare all URLs in the Screaming Frog crawl against the keyword-URL mapping sheet
-- Flag any URL that differs from the approved structure
+### 7. URL Verification — All Pages
+- Extract all URLs from the Screaming Frog CSV
+- Compare every URL against the approved keyword-URL mapping sheet
+- Flag any URL that differs from the approved structure (slug changed, extra words added, different format)
 - Escalate mismatches to web PM before go-live
 
-### 9. Content Random Check
-- Open 3–4 pages and read the main body content
-- Check for: grammar issues, inconsistencies in service names, wrong suburb names, placeholder text still present
-- Note any issues in the audit report
+### 8. Company Name Consistency — All Pages
+- Determine the correct legal/trading name from the client memory file and homepage
+- Check every page in the Screaming Frog CSV: title tag, H1, meta description
+- Also spot-check body text on a sample of pages
+- Flag any variation: missing letter, wrong capitalisation, wrong word order, abbreviated incorrectly
 
-### 10. Mobile Forms Check (Manual — Flag for Web PM)
-- On mobile (or Chrome dev tools at 390px), open location pages and homepage
+### 9. Content Comparison — If a Content Doc Exists
+- If a Google Doc or content brief was provided, compare approved content against what is live on the site
+- Check: H1 wording, H2 structure, body copy (is approved copy present?), FAQs (all questions and answers present?)
+- Flag: missing sections, changed wording that has legal/liability implications, stub pages that haven't been built yet
+- Save as a separate file: `seo/clients/[domain]/pre-launch-audit/content-comparison.html`
+
+### 10. Content Random Check (3–4 pages, not every page)
+- Even if a full content comparison is done, also spot-read 3–4 pages manually
+- Check: placeholder text still present, inconsistencies in service descriptions, wrong suburb names in body copy
+- Note findings in the audit report
+
+### 11. Mobile Forms Check (Manual — Flag for Web PM)
+- On mobile (or Chrome dev tools at 390px width), open location pages and homepage
 - If the contact form appears above the fold, flag to web PM: replace form with a CTA button, keep form below the fold
-- The ideal above-the-fold on any location page is: H1, intro paragraph, CTA button — not a form
-- This check cannot be done from Screaming Frog — must be done via browser or device
+- The ideal above-the-fold on any location page: H1, intro paragraph, CTA button — NOT a form
+- This check cannot be done via Screaming Frog — requires browser or device
 
-### 11. Indexability Check
-- Staging sites should be noindex, nofollow — confirm this is set correctly on staging
-- Flag clearly in the report: "Ensure noindex is removed when site goes live on the production domain"
+### 12. Final Email Items from On-Page Team
+- If the on-page team has sent a final sign-off email with outstanding items, review each item
+- Confirm each has been addressed or flag it as outstanding
+- This audit covers SEO elements only — CRO, design, or content items remain the responsibility of the respective team member
+
+### 13. Indexability Check
+- Confirm staging site is set to noindex, nofollow — this is correct on staging
+- Note clearly in the report: "Ensure noindex is removed and correct index directives are applied when the site goes live on the production domain"
 
 ---
 
 ## Deliverable Format
 
-Create an HTML report at: `seo/clients/[domain]/pre-launch-audit/on-page-audit-report.html`
+### Main audit report: `seo/clients/[domain]/pre-launch-audit/on-page-audit-report.html`
 
-The report should include:
-- Summary cards (missing meta descs, title length issues, spelling errors, meta desc length issues)
-- Section 1: Meta descriptions written (table: URL + H1 | meta description to add | char count)
-- Section 2: H1 / H2 / Title spot check (sample table)
-- Section 3: Issues found (meta titles too long, meta descs too long)
-- Section 4: Checks passed
-- Section 5: Checks requiring manual verification (mobile forms, URL sheet comparison, noindex)
-- Section 6: Recommended actions table (action | priority | owner)
+Must include:
+- Summary stat cards (missing meta descs, title issues, spelling pages with issues, clean pages)
+- Section 1: Meta descriptions written (table: URL + H1 | meta description | char count)
+- Section 2: H1 full audit — ALL pages (table: URL | H1 | Sense-check result | Status)
+- Section 3: H2 full audit — ALL pages (table: URL | H2-1 | Status)
+- Section 4: Meta title full audit — ALL pages (table: URL | Title | Length | Sense-check | Status)
+- Section 5: Meta description issues — existing descriptions that are too long or mismatched
+- Section 6: URL verification results
+- Section 7: Company name check results
+- Section 8: Checks passed
+- Section 9: Manual checks required (mobile forms, on-page team email items, noindex)
+- Section 10: Recommended actions table (action | priority | owner)
+
+### Spelling/grammar report: `/home/invoi/fahad_projects/spelling-mistakes-finder/[staging-domain].html`
+
+Standard format per spelling-mistakes-finder capability instructions.
+
+### Content comparison (if content doc provided): `seo/clients/[domain]/pre-launch-audit/content-comparison.html`
 
 ---
 
