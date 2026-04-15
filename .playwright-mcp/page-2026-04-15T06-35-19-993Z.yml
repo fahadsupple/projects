@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#content"
+      - generic [ref=e5]:
+        - generic [ref=e9]:
+          - paragraph [ref=e14]: Get 15% OFF any job with Velux skylight installed & plaster work
+          - link "Instant Quote" [ref=e19] [cursor=pointer]:
+            - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+        - navigation [ref=e20]:
+          - generic [ref=e23]:
+            - link "Central Skylights" [ref=e28] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/
+              - img "Central Skylights Logo" [ref=e30]
+            - list [ref=e35]:
+              - listitem [ref=e36]:
+                - img [ref=e38]
+                - link "estimate@centralskylights.com.au" [ref=e40] [cursor=pointer]:
+                  - /url: mailto:estimate@centralskylights.com.au
+              - listitem [ref=e41]:
+                - img [ref=e43]
+                - link "(03) 9999 1526" [ref=e45] [cursor=pointer]:
+                  - /url: tel:(03)99991526
+            - generic [ref=e49]:
+              - paragraph
+              - generic [ref=e52]:
+                - textbox "Search Velux Skylights" [ref=e53]
+                - text: ×
+              - paragraph
+        - generic [ref=e57]:
+          - navigation "Primary Menu" [ref=e62]:
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Home" [ref=e66] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/
+              - listitem [ref=e67]:
+                - link "About" [ref=e69] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/about-us/
+              - listitem [ref=e70]:
+                - generic [ref=e71]:
+                  - link "Instant Quotes" [ref=e72] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e73]: Instant Quotes
+                  - button "Open Submenu" [ref=e74]:
+                    - img [ref=e76]
+              - listitem [ref=e79]:
+                - generic [ref=e80]:
+                  - link "Shop Online" [ref=e81] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+                    - generic [ref=e82]: Shop Online
+                  - button "Open Submenu" [ref=e83]:
+                    - img [ref=e85]
+              - listitem [ref=e88]:
+                - generic [ref=e89]:
+                  - link "Services" [ref=e90] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylights-installation-services/
+                    - generic [ref=e91]: Services
+                  - button "Open Submenu" [ref=e92]:
+                    - img [ref=e94]
+              - listitem [ref=e97]:
+                - link "Reviews" [ref=e99] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/central-skylights-reviews/
+              - listitem [ref=e100]:
+                - generic [ref=e101]:
+                  - link "Blogs" [ref=e102] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/category/skylight-tips/
+                    - generic [ref=e103]: Blogs
+                  - button "Open Submenu" [ref=e104]:
+                    - img [ref=e106]
+              - listitem [ref=e109]:
+                - generic [ref=e110]:
+                  - link "Galleries" [ref=e111] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylight-image-galleries/skylight-image-galleries/
+                    - generic [ref=e112]: Galleries
+                  - button "Open Submenu" [ref=e113]:
+                    - img [ref=e115]
+              - listitem [ref=e118]:
+                - link "Contacts" [ref=e120] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/contact/
+          - generic [ref=e122]:
+            - link "Shop" [ref=e125] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+            - link "Call Now" [ref=e128] [cursor=pointer]:
+              - /url: tel:+61399991526
+        - text: ×
+    - generic [ref=e133]:
+      - navigation "breadcrumbs" [ref=e135]:
+        - link "Home" [ref=e136] [cursor=pointer]:
+          - /url: https://centralskyligh.wpenginepowered.com
+        - text: "- About Central Skylights"
+      - heading "About Central Skylights" [level=1] [ref=e137]
+    - main [ref=e138]:
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: Serving Melbourne since 2018, we’ve strived to create a service that’s simple, convenient, and cost-effective. We have a dedicated in-house staff with 35 years of combined experience, as well as 5 specialist contractor teams ready to handle skylight projects across the city.
+        - paragraph [ref=e144]: The Central Skylights team has handled over 7,000 projects, and we’ve received hundreds of 5-star reviews. Whether you’re navigating a complex flat roof installation or looking to upgrade an old, leaking unit, we provide the technical “know-how” that only a Velux Premier Dealer and Certified Installer can offer.
+        - paragraph [ref=e145]: Call us today or visit our Dandenong showroom to explore your options!
+        - heading "Meet the Team Behind the Light" [level=2] [ref=e146]:
+          - strong [ref=e147]:
+            - strong [ref=e148]: Meet the Team Behind the Light
+        - paragraph [ref=e149]:
+          - text: At the core of
+          - link "Central Skylights" [ref=e150] [cursor=pointer]:
+            - /url: https://centralskyligh.wpenginepowered.com/
+          - text: is a team of 12 dedicated in-house staff and 5 specialist contractor teams, all led by our founder, Lint Tran. We aren’t just a sales office; we are a hands-on technical team with 35 years of combined industry experience.
+        - paragraph [ref=e151]: Since 2018, Lint’s vision has been to bridge the gap between premium products and affordable, expert installation. By maintaining our status as a Velux Premier Dealer, our team ensures that every Melbourne homeowner gets more than just a window; they get a structural solution backed by deep technical “know-how” and a passion for quality workmanship.
+        - paragraph [ref=e152]: Whether you’re speaking to our consultants in the Dandenong showroom or meeting our installers on your roof, you’re dealing with professionals who treat your home like their own.
+        - heading "Why Melbourne Homeowners Trust Us" [level=2] [ref=e153]:
+          - strong [ref=e154]: Why Melbourne Homeowners Trust Us
+        - paragraph [ref=e155]: "As the popularity of Velux skylights grows by the day, more and more customers are turning to us for supply and installation. Here’s why:"
+        - paragraph [ref=e156]:
+          - strong [ref=e157]: Certified Expertise
+          - text: ": As a Velux Premier Dealer, we have direct access to Velux’s warehouse, allowing us to pass on trade pricing (up to 20% off RRP) to our customers."
+        - paragraph [ref=e158]:
+          - strong [ref=e159]: Proven Track Record
+          - text: ": We are proud of our 5-star rating based on 301 Google reviews. With a 95% customer retention rate and 15% of our business coming from word-of-mouth referrals, our reputation speaks for itself."
+        - paragraph [ref=e160]:
+          - strong [ref=e161]: Unmatched Guarantees
+          - text: ": We don’t just install; we protect. Every project is backed by a 10-year guarantee on workmanship and supported by $20 million in Public Liability Insurance."
+        - paragraph [ref=e162]:
+          - strong [ref=e163]: Custom Local Solutions
+          - text: ": We manufacture our own custom Colorbond flashing right here in Melbourne."
+        - heading "Technical Excellence & Complex Problem Solving" [level=2] [ref=e164]:
+          - strong [ref=e165]: Technical Excellence & Complex Problem Solving
+        - paragraph [ref=e166]: "While many installers shy away from “difficult” jobs, our team specialises in them. We address the most common industry challenges with professional-grade solutions:"
+        - list [ref=e167]:
+          - listitem [ref=e168]:
+            - strong [ref=e169]: The “Perfect Fit” Methodology
+            - text: ": We don’t guess. We follow strict scientific guidelines, ensuring a 5–10% skylight-to-floor ratio (up to 15% for windowless rooms) to provide optimal light without compromising thermal efficiency."
+          - listitem [ref=e170]:
+            - strong [ref=e171]: Flat Roof Specialists
+            - text: ": We solve water pooling issues using curb-mounted designs with custom-fabricated base flashings, maintaining a 3–5 degree pitch even on 0-degree roofs."
+          - listitem [ref=e172]:
+            - strong [ref=e173]: Heat & Energy Control
+            - text: ": We exclusively use high-performance double-glazed units with Low-E coatings that block up to 80% of radiant heat, ensuring your home stays cool in the Melbourne summer."
+        - 'heading "Our Seamless Process: From Showroom to Ceiling" [level=2] [ref=e174]':
+          - strong [ref=e175]: "Our Seamless Process: From Showroom to Ceiling"
+        - paragraph [ref=e176]: "We understand that a skylight is a significant investment. That’s why we’ve refined a process that prioritises transparency and quality:"
+        - list [ref=e177]:
+          - listitem [ref=e178]:
+            - strong [ref=e179]: Consultation
+            - text: ": Visit our Dandenong Showroom at 88 Cheltenham Road to see our products in person, or request a FREE on-site measure and quote."
+          - listitem [ref=e180]:
+            - strong [ref=e181]: Transparent Pricing
+            - text: ": Receive a detailed quote featuring trade prices and our current promotions, including 15% off jobs featuring Velux installations with plaster work."
+          - listitem [ref=e182]:
+            - strong [ref=e183]: Expert Installation
+            - text: ": Our technicians handle everything—from the structural roof cut to the final plaster shaft completion."
+          - listitem [ref=e184]:
+            - strong [ref=e185]: Aftercare
+            - text: ": We provide 5-star follow-up support, including maintenance tips for your NEAT glass coating to keep your view crystal clear."
+        - paragraph
+    - contentinfo [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e202]:
+          - heading "Seeking a free quote for skylight installation or want to discuss your skylight stock?" [level=5] [ref=e203]
+          - paragraph [ref=e204]:
+            - link "Contact" [ref=e206] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/contact/
+            - text: "Central Skylights today:"
+            - link "(03) 9999 1526" [ref=e207] [cursor=pointer]:
+              - /url: tel:+61399991526
+            - text: or to request a
+            - link "Free Quote" [ref=e208] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+        - generic [ref=e214]:
+          - generic [ref=e218]:
+            - heading "Why Choose Central Skylights Melbourne" [level=4] [ref=e220]
+            - list [ref=e222]:
+              - listitem [ref=e223]: 5-Star Rating Skylights Contractor in Melbourne
+              - listitem [ref=e224]: Providing full service in supply-install any Velux skylights and sun tunnels
+              - listitem [ref=e225]: Supply-only service Velux skylights with a minimum 15% OFF RRP
+              - listitem [ref=e226]: Supply colorbond custom base flashing for your Velux skylights
+              - listitem [ref=e227]: Understanding your budget and giving the best advice
+              - listitem [ref=e228]: Having great technical skills and know-how
+              - listitem [ref=e229]: Click&Collect at our skylights warehouse in Melbourne
+            - figure [ref=e233]:
+              - link "Logo" [ref=e234] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/
+                - img "Logo" [ref=e235]
+            - paragraph [ref=e239]: ...bringing sky into your life.
+          - generic [ref=e243]:
+            - heading "Melbourne Skylights Warehouse & Showroom" [level=4] [ref=e245]
+            - paragraph [ref=e247]:
+              - text: "Visit our skylight display showroom in South Eastern of Melbourne, Dandenong suburb:"
+              - text: "Tel:"
+              - strong [ref=e248]:
+                - link "(03) 9999 1526" [ref=e249] [cursor=pointer]:
+                  - /url: tel:+61399991526
+              - text: "Mobile:"
+              - strong [ref=e250]:
+                - link "0413 922 958" [ref=e251] [cursor=pointer]:
+                  - /url: tel:+61413922958
+              - text: "Email:"
+              - link "Click to Email us" [ref=e252] [cursor=pointer]:
+                - /url: mailto:estimate@centralskylights.com.au
+              - text: "Showroom:"
+              - link "88 Cheltenham Road Dandenong VIC 3175" [ref=e253] [cursor=pointer]:
+                - /url: https://www.google.com/maps?q=88+Cheltenham+Road,Dandenong,VIC,3175,Australia
+                - strong [ref=e254]: 88 Cheltenham Road
+                - strong [ref=e255]: Dandenong VIC 3175
+            - paragraph [ref=e257]:
+              - text: We are open 5 days a week.
+              - text: "Mon-Fri: 08:30 – 17:30"
+              - text: "Sat : Appointment Only"
+              - text: "Sunday : Closed"
+          - generic [ref=e261]:
+            - heading "Quick Links" [level=4] [ref=e263]
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - link "Home" [ref=e267] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/
+              - listitem [ref=e268]:
+                - link "About" [ref=e269] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/about-us/
+              - listitem [ref=e270]:
+                - link "Book Appointment" [ref=e271] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/free-measure-and-quote-appointment/
+              - listitem [ref=e272]:
+                - link "Free Meaure & Quote" [ref=e273] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+              - listitem [ref=e274]:
+                - link "Skylight Tips" [ref=e275] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/category/skylight-tips/
+              - listitem [ref=e276]:
+                - link "Shop Velux Skylights" [ref=e277] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+              - listitem [ref=e278]:
+                - link "Contact Central Skylights" [ref=e279] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/contact/
+              - listitem [ref=e280]:
+                - link "Privacy Policy" [ref=e281] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/privacy-policy/
+              - listitem [ref=e282]:
+                - link "Refund Policy" [ref=e283] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/refund-policy/
+              - listitem [ref=e284]:
+                - link "Delivery Policy" [ref=e285] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/shipping-policy/
+            - list [ref=e287]:
+              - listitem [ref=e288]:
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: https://www.facebook.com/centralskylights/
+                  - img [ref=e290]
+              - listitem [ref=e292]:
+                - link [ref=e293] [cursor=pointer]:
+                  - /url: https://x.com/i/flow/login?redirect_after_login=%2Fcentralskylight
+                  - img [ref=e294]
+              - listitem [ref=e296]:
+                - link [ref=e297] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@centralskylights1362
+                  - img [ref=e298]
+  - generic [ref=e305] [cursor=pointer]:
+    - generic [ref=e306]: Google Rating
+    - generic [ref=e308]: "5.0"
+    - generic [ref=e313]: Based on 313 reviews
+  - text: 

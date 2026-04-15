@@ -1,0 +1,543 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#content"
+      - generic [ref=e5]:
+        - generic [ref=e9]:
+          - paragraph [ref=e14]: Get 15% OFF any job with Velux skylight installed & plaster work
+          - link "Instant Quote" [ref=e19] [cursor=pointer]:
+            - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+        - navigation [ref=e20]:
+          - generic [ref=e23]:
+            - link "Central Skylights" [ref=e28] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/
+              - img "Central Skylights Logo" [ref=e30]
+            - list [ref=e35]:
+              - listitem [ref=e36]:
+                - img [ref=e38]
+                - link "estimate@centralskylights.com.au" [ref=e40] [cursor=pointer]:
+                  - /url: mailto:estimate@centralskylights.com.au
+              - listitem [ref=e41]:
+                - img [ref=e43]
+                - link "(03) 9999 1526" [ref=e45] [cursor=pointer]:
+                  - /url: tel:(03)99991526
+            - generic [ref=e49]:
+              - paragraph
+              - generic [ref=e52]:
+                - textbox "Search Velux Skylights" [ref=e53]
+                - text: ×
+              - paragraph
+        - generic [ref=e57]:
+          - navigation "Primary Menu" [ref=e62]:
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Home" [ref=e66] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/
+              - listitem [ref=e67]:
+                - link "About" [ref=e69] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/about-us/
+              - listitem [ref=e70]:
+                - generic [ref=e71]:
+                  - link "Instant Quotes" [ref=e72] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e73]: Instant Quotes
+                  - button "Open Submenu" [ref=e74]:
+                    - img [ref=e76]
+              - listitem [ref=e79]:
+                - generic [ref=e80]:
+                  - link "Shop Online" [ref=e81] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+                    - generic [ref=e82]: Shop Online
+                  - button "Open Submenu" [ref=e83]:
+                    - img [ref=e85]
+              - listitem [ref=e88]:
+                - generic [ref=e89]:
+                  - link "Services" [ref=e90] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylights-installation-services/
+                    - generic [ref=e91]: Services
+                  - button "Open Submenu" [ref=e92]:
+                    - img [ref=e94]
+              - listitem [ref=e97]:
+                - link "Reviews" [ref=e99] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/central-skylights-reviews/
+              - listitem [ref=e100]:
+                - generic [ref=e101]:
+                  - link "Blogs" [ref=e102] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/category/skylight-tips/
+                    - generic [ref=e103]: Blogs
+                  - button "Open Submenu" [ref=e104]:
+                    - img [ref=e106]
+              - listitem [ref=e109]:
+                - generic [ref=e110]:
+                  - link "Galleries" [ref=e111] [cursor=pointer]:
+                    - /url: https://centralskyligh.wpenginepowered.com/skylight-image-galleries/skylight-image-galleries/
+                    - generic [ref=e112]: Galleries
+                  - button "Open Submenu" [ref=e113]:
+                    - img [ref=e115]
+              - listitem [ref=e118]:
+                - link "Contacts" [ref=e120] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/contact/
+          - generic [ref=e122]:
+            - link "Shop" [ref=e125] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+            - link "Call Now" [ref=e128] [cursor=pointer]:
+              - /url: tel:+61399991526
+        - text: ×
+      - heading "Skylights for Metal Roofs" [level=1] [ref=e134]
+      - paragraph
+    - main [ref=e135]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - navigation "Breadcrumb" [ref=e140]:
+              - link "Home" [ref=e141] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com
+              - text: \Skylights for Metal Roofs
+            - alert [ref=e142]: Showing all 10 results
+          - combobox "Shop order" [ref=e145]:
+            - option "Sort by popularity" [selected]
+            - option "Sort by average rating"
+            - option "Sort by latest"
+            - 'option "Sort by price: low to high"'
+            - 'option "Sort by price: high to low"'
+          - generic [ref=e147]:
+            - heading "Metal Roof Skylights" [level=2] [ref=e148]
+            - paragraph [ref=e149]: Transform your home into a bright, inviting area space with our premium Velux metal roof skylights. Whether you’re renovating a terrace, office, or brand-new home, our specialist team brings over 35 years of combined experience installing skylights on corrugated iron, COLORBOND, and various other metal roofing systems.
+            - paragraph [ref=e150]: As Melbourne’s Velux Premier Dealer and Certified Installer, we understand the unique challenges of metal roof installations. With over 7,000 successful projects completed and a perfect 5-star rating from hundreds of reviews, we’ve perfected the art of bringing natural light into properties across the city.
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS C06 Solar Opening Skylight 550x11800mm Rated 5.00 out of 5 $2,680.00 $2,224.40" [ref=e154] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-c06-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e156]:
+                  - generic [ref=e157]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e158]
+                - heading "VELUX VSS C06 Solar Opening Skylight 550x11800mm" [level=2] [ref=e159]
+                - img "Rated 5.00 out of 5" [ref=e160]:
+                  - text: sssss
+                  - generic [ref=e161]:
+                    - text: SSSSS Rated
+                    - strong [ref=e162]: "5.00"
+                    - text: out of 5
+                - generic [ref=e163]:
+                  - deletion [ref=e164]:
+                    - generic [ref=e166]: $2,680.00
+                  - insertion [ref=e167]:
+                    - generic [ref=e169]: $2,224.40
+            - listitem [ref=e170]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS M08 Solar Opening Skylight 780x1400mm Rated 4.67 out of 5 $3,043.00 $2,525.69" [ref=e172] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-m08-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e174]:
+                  - generic [ref=e175]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e176]
+                - heading "VELUX VSS M08 Solar Opening Skylight 780x1400mm" [level=2] [ref=e177]
+                - img "Rated 4.67 out of 5" [ref=e178]:
+                  - text: sssss
+                  - generic [ref=e179]:
+                    - text: SSSSS Rated
+                    - strong [ref=e180]: "4.67"
+                    - text: out of 5
+                - generic [ref=e181]:
+                  - deletion [ref=e182]:
+                    - generic [ref=e184]: $3,043.00
+                  - insertion [ref=e185]:
+                    - generic [ref=e187]: $2,525.69
+            - listitem [ref=e188]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS C01 Solar Opening Skylight 550x700mm Rated 5.00 out of 5 $2,579.00 $2,140.57" [ref=e190] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-c01-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e192]:
+                  - generic [ref=e193]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e194]
+                - heading "VELUX VSS C01 Solar Opening Skylight 550x700mm" [level=2] [ref=e195]
+                - img "Rated 5.00 out of 5" [ref=e196]:
+                  - text: sssss
+                  - generic [ref=e197]:
+                    - text: SSSSS Rated
+                    - strong [ref=e198]: "5.00"
+                    - text: out of 5
+                - generic [ref=e199]:
+                  - deletion [ref=e200]:
+                    - generic [ref=e202]: $2,579.00
+                  - insertion [ref=e203]:
+                    - generic [ref=e205]: $2,140.57
+            - listitem [ref=e206]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS C04 Solar Opening Skylight 550x980mm Rated 5.00 out of 5 $2,610.00 $2,166.30" [ref=e208] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-c04-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e212]
+                - heading "VELUX VSS C04 Solar Opening Skylight 550x980mm" [level=2] [ref=e213]
+                - img "Rated 5.00 out of 5" [ref=e214]:
+                  - text: sssss
+                  - generic [ref=e215]:
+                    - text: SSSSS Rated
+                    - strong [ref=e216]: "5.00"
+                    - text: out of 5
+                - generic [ref=e217]:
+                  - deletion [ref=e218]:
+                    - generic [ref=e220]: $2,610.00
+                  - insertion [ref=e221]:
+                    - generic [ref=e223]: $2,166.30
+            - listitem [ref=e224]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS C08 Solar Opening Skylight 550x1400mm Rated 5.00 out of 5 $2,746.00 $2,279.18" [ref=e226] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-c08-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e230]
+                - heading "VELUX VSS C08 Solar Opening Skylight 550x1400mm" [level=2] [ref=e231]
+                - img "Rated 5.00 out of 5" [ref=e232]:
+                  - text: sssss
+                  - generic [ref=e233]:
+                    - text: SSSSS Rated
+                    - strong [ref=e234]: "5.00"
+                    - text: out of 5
+                - generic [ref=e235]:
+                  - deletion [ref=e236]:
+                    - generic [ref=e238]: $2,746.00
+                  - insertion [ref=e239]:
+                    - generic [ref=e241]: $2,279.18
+            - listitem [ref=e242]:
+              - link "Sale! VELUX VSS M02 Solar Opening Skylight 780x780mm VELUX VSS M02 Solar Opening Skylight 780x780mm Rated 5.00 out of 5 $2,735.00 $2,270.05" [ref=e244] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-m02-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Sale!
+                  - img "VELUX VSS M02 Solar Opening Skylight 780x780mm" [ref=e248]
+                - heading "VELUX VSS M02 Solar Opening Skylight 780x780mm" [level=2] [ref=e249]
+                - img "Rated 5.00 out of 5" [ref=e250]:
+                  - text: sssss
+                  - generic [ref=e251]:
+                    - text: SSSSS Rated
+                    - strong [ref=e252]: "5.00"
+                    - text: out of 5
+                - generic [ref=e253]:
+                  - deletion [ref=e254]:
+                    - generic [ref=e256]: $2,735.00
+                  - insertion [ref=e257]:
+                    - generic [ref=e259]: $2,270.05
+            - listitem [ref=e260]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS M04 Solar Opening Skylight 780x980mm Rated 4.67 out of 5 $2,799.00 $2,323.17" [ref=e262] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-m04-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e264]:
+                  - generic [ref=e265]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e266]
+                - heading "VELUX VSS M04 Solar Opening Skylight 780x980mm" [level=2] [ref=e267]
+                - img "Rated 4.67 out of 5" [ref=e268]:
+                  - text: sssss
+                  - generic [ref=e269]:
+                    - text: SSSSS Rated
+                    - strong [ref=e270]: "4.67"
+                    - text: out of 5
+                - generic [ref=e271]:
+                  - deletion [ref=e272]:
+                    - generic [ref=e274]: $2,799.00
+                  - insertion [ref=e275]:
+                    - generic [ref=e277]: $2,323.17
+            - listitem [ref=e278]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight VELUX VSS M06 Solar Opening Skylight 780x1180mm Rated 4.67 out of 5 $2,921.00 $2,424.43" [ref=e280] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-m06-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e282]:
+                  - generic [ref=e283]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight" [ref=e284]
+                - heading "VELUX VSS M06 Solar Opening Skylight 780x1180mm" [level=2] [ref=e285]
+                - img "Rated 4.67 out of 5" [ref=e286]:
+                  - text: sssss
+                  - generic [ref=e287]:
+                    - text: SSSSS Rated
+                    - strong [ref=e288]: "4.67"
+                    - text: out of 5
+                - generic [ref=e289]:
+                  - deletion [ref=e290]:
+                    - generic [ref=e292]: $2,921.00
+                  - insertion [ref=e293]:
+                    - generic [ref=e295]: $2,424.43
+            - listitem [ref=e296]:
+              - link "Sale! VELUX VSS S01 Solar Opening Skylight VELUX VSS S01 Solar Opening Skylight 1140x700mm Rated 5.00 out of 5 $2,896.00 $2,403.68" [ref=e298] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-s01-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e300]:
+                  - generic [ref=e301]: Sale!
+                  - img "VELUX VSS S01 Solar Opening Skylight" [ref=e302]
+                - heading "VELUX VSS S01 Solar Opening Skylight 1140x700mm" [level=2] [ref=e303]
+                - img "Rated 5.00 out of 5" [ref=e304]:
+                  - text: sssss
+                  - generic [ref=e305]:
+                    - text: SSSSS Rated
+                    - strong [ref=e306]: "5.00"
+                    - text: out of 5
+                - generic [ref=e307]:
+                  - deletion [ref=e308]:
+                    - generic [ref=e310]: $2,896.00
+                  - insertion [ref=e311]:
+                    - generic [ref=e313]: $2,403.68
+            - listitem [ref=e314]:
+              - link "Sale! VELUX VSS S06 Solar Opening Skylight 1140x1180mm VELUX VSS S06 Solar Opening Skylight 1140x1180mm Rated 5.00 out of 5 $3,229.00 $2,680.07" [ref=e316] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/products/velux-vss-s06-solar-opening-skylight-on-pitched-roof/
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Sale!
+                  - img "VELUX VSS S06 Solar Opening Skylight 1140x1180mm" [ref=e320]
+                - heading "VELUX VSS S06 Solar Opening Skylight 1140x1180mm" [level=2] [ref=e321]
+                - img "Rated 5.00 out of 5" [ref=e322]:
+                  - text: sssss
+                  - generic [ref=e323]:
+                    - text: SSSSS Rated
+                    - strong [ref=e324]: "5.00"
+                    - text: out of 5
+                - generic [ref=e325]:
+                  - deletion [ref=e326]:
+                    - generic [ref=e328]: $3,229.00
+                  - insertion [ref=e329]:
+                    - generic [ref=e331]: $2,680.07
+          - heading "Premium Velux Skylights for Metal Roofs" [level=2] [ref=e332]:
+            - strong [ref=e333]: Premium Velux Skylights for Metal Roofs
+          - paragraph [ref=e334]: Our extensive range of Velux skylights provides the perfect service for every metal roof type and pitch. From fixed skylights that flood your space with natural light to innovative solar-powered opening models with rain sensors, we stock everything at our Dandenong showroom with up to 20% off recommended retail prices.
+          - paragraph [ref=e335]: "Each skylight features:"
+          - list [ref=e336]:
+            - listitem [ref=e337]: High-performance double glazing with Low-E coatings that block up to 80% of radiant heat
+            - listitem [ref=e338]: BAL 40 Bush Fire rating for Australian conditions
+            - listitem [ref=e339]: Code Mark Australia 30090 certification
+            - listitem [ref=e340]: 10-year manufacturer warranty along with our exclusive 10-year workmanship guarantee
+            - listitem [ref=e341]: Options for manual, electric, or solar-powered operation
+          - paragraph [ref=e342]: Our expert team handles everything from compact models perfect for bathrooms and hallways, right through to FCM for larger living spaces. We’ll help you determine the ideal size using the proven formula of 5-10% skylight-to-floor ratio for rooms with windows, or up to 15% for windowless spaces.
+          - heading "Custom Colorbond Flashing Options" [level=2] [ref=e343]:
+            - strong [ref=e344]: Custom Colorbond Flashing Options
+          - list [ref=e345]:
+            - listitem [ref=e346]: Modern Colorbond and Zincalume profiles
+            - listitem [ref=e347]: TrimDeck commercial roofing systems
+            - listitem [ref=e348]: Kliplok standing seam roofs
+            - listitem [ref=e349]: Custom profiles for unique architectural designs
+          - heading "Complete Service from Supply to Installation" [level=2] [ref=e350]:
+            - strong [ref=e351]: Complete Service from Supply to Installation
+          - paragraph [ref=e352]: "As a one-stop shop for metal roof skylights in Melbourne, we offer flexible options to suit every budget and requirement:"
+          - paragraph [ref=e353]:
+            - strong [ref=e354]: "Supply Only:"
+            - text: Save 15-20% off RRP with our trade pricing direct from Velux’s warehouse. Perfect for builders and DIY enthusiasts, with free delivery available or click & collect from our Dandenong showroom.
+          - paragraph [ref=e355]:
+            - strong [ref=e356]: "Full Installation Service:"
+            - text: "Our wide-ranging service includes:"
+          - list [ref=e357]:
+            - listitem [ref=e358]: Free measure and quote
+            - listitem [ref=e359]: Expert installation by certified technicians
+            - listitem [ref=e360]: Custom flashing manufacture and fitting
+            - listitem [ref=e361]: Internal plaster shaft completion
+            - listitem [ref=e362]: 10-year workmanship guarantee
+            - listitem [ref=e363]: Optional painting services
+          - paragraph [ref=e364]:
+            - strong [ref=e365]: "Replacement Upgrades:"
+            - text: Transform old, leaking skylights with modern Velux units. We handle the complete removal and installation process, often improving energy productivity and home value significantly.
+          - heading "Why Choose us for Metal Roof Skylights in Melbourne?" [level=2] [ref=e366]:
+            - strong [ref=e367]: Why Choose us for Metal Roof Skylights in Melbourne?
+          - paragraph [ref=e368]:
+            - strong [ref=e369]: "Unmatched Local Knowledge:"
+            - text: With 12 staff and 5 specialist installation teams, we’re Melbourne’s dedicated skylight experts. Our Premier Dealer status means direct access to Velux’s complete range at trade prices.
+          - paragraph [ref=e370]:
+            - strong [ref=e371]: "Competitive Pricing:"
+            - text: Appreciate 15% off any complete installation job including plaster work. Our transparent pricing and free quotes make sure no surprises.
+          - paragraph [ref=e372]:
+            - strong [ref=e373]: "Proven Track Record:"
+            - text: Over 7,000 successful installations speak to our in-field experience. Our 5-star rating isn’t just a number, it represents consistent quality and customer satisfaction.
+          - paragraph [ref=e374]:
+            - strong [ref=e375]: "Wide-ranging Guarantees:"
+            - text: Beyond Velux’s manufacturer warranty, our 10-year workmanship guarantee provides complete peace of mind. We stand behind every installation.
+          - paragraph [ref=e376]:
+            - strong [ref=e377]: "Physical Showroom:"
+            - text: Visit our Dandenong location to see skylights in person, discuss your project with experts, and take advantage of our click & collect service.
+          - paragraph
+          - heading "Frequently Asked Questions" [level=2] [ref=e378]:
+            - strong [ref=e379]: Frequently Asked Questions
+          - group [ref=e380]:
+            - heading "Will the metal roof make the skylight area louder during rain?" [level=3] [ref=e382]:
+              - button "Will the metal roof make the skylight area louder during rain?" [ref=e383] [cursor=pointer]:
+                - strong [ref=e385]: Will the metal roof make the skylight area louder during rain?
+                - generic [ref=e386]: +
+            - heading "Can you install skylights on Kliplok or TrimDeck profiles?" [level=3] [ref=e388]:
+              - button "Can you install skylights on Kliplok or TrimDeck profiles?" [ref=e389] [cursor=pointer]:
+                - strong [ref=e391]: Can you install skylights on Kliplok or TrimDeck profiles?
+                - generic [ref=e392]: +
+            - heading "Will the skylight cause my metal roof to rust (galvanic corrosion)?" [level=3] [ref=e394]:
+              - button "Will the skylight cause my metal roof to rust (galvanic corrosion)?" [ref=e395] [cursor=pointer]:
+                - strong [ref=e397]: Will the skylight cause my metal roof to rust (galvanic corrosion)?
+                - generic [ref=e398]: +
+            - heading "How do you manage the “heat-sink” effect of metal roofs?" [level=3] [ref=e400]:
+              - button "How do you manage the “heat-sink” effect of metal roofs?" [ref=e401] [cursor=pointer]:
+                - strong [ref=e403]: How do you manage the “heat-sink” effect of metal roofs?
+                - generic [ref=e404]: +
+            - heading "Are solar-powered opening skylights worth it for metal roofs?" [level=3] [ref=e406]:
+              - button "Are solar-powered opening skylights worth it for metal roofs?" [ref=e407] [cursor=pointer]:
+                - strong [ref=e409]: Are solar-powered opening skylights worth it for metal roofs?
+                - generic [ref=e410]: +
+            - heading "Can you replace old “plastic” bubble skylights on metal roofs?" [level=3] [ref=e412]:
+              - button "Can you replace old “plastic” bubble skylights on metal roofs?" [ref=e413] [cursor=pointer]:
+                - strong [ref=e415]: Can you replace old “plastic” bubble skylights on metal roofs?
+                - generic [ref=e416]: +
+          - paragraph
+          - heading "Transform Your Home Today" [level=2] [ref=e417]:
+            - strong [ref=e418]: Transform Your Home Today
+          - paragraph [ref=e419]:
+            - strong [ref=e420]: Transform Your Home Today
+            - text: Contact Central Skylights today on (03) 9999 1526 for your free measure and quote. Visit our showroom at 88 Cheltenham Road, Dandenong, or request an instant online quote. Transform your space with the natural light it deserves, because at Central Skylights, we’re dedicated to bringing sky into your life.
+        - complementary [ref=e422]:
+          - figure [ref=e424]:
+            - img "All Velux Skylights are In Stock and Ready to Pick up or Delivery" [ref=e425]
+          - generic [ref=e426]:
+            - paragraph
+            - generic [ref=e429]:
+              - textbox "Search" [ref=e430]
+              - text: ×
+            - paragraph
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - link "Custom Flashings for Flat Roof Velux Skylights" [ref=e435] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/custom-flashings-for-flat-roof-velux-skylights/
+            - listitem [ref=e436]:
+              - link "Custom Flashings for Pitched Roof Velux Skylights" [ref=e437] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/custom-flashings-for-pitched-roof-velux-skylights/
+            - listitem [ref=e438]:
+              - link "Skylights for Metal Roofs" [ref=e439] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/skylights-for-metal-roofs/
+            - listitem [ref=e440]:
+              - link "Skylights For Tiled Roofs" [ref=e441] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/skylights-for-tiled-roofs/
+            - listitem [ref=e442]:
+              - link "SolarBright Maxlight Sun Tunnels" [ref=e443] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/solarbright-maxlight-sun-tunnels/
+            - listitem [ref=e444]:
+              - link "SolarLight Skylights" [ref=e445] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/solarlight-skylights/
+            - listitem [ref=e446]:
+              - link "Velux Blinds" [ref=e447] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-blinds-for-all-skylights-and-roof-windows/
+            - listitem [ref=e448]:
+              - link "Velux FCM Fixed Skylights on Flat Roofs" [ref=e449] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-fcm-fixed-skylights-on-flat-roofs/
+            - listitem [ref=e450]:
+              - link "Velux FS Fixed Skylights on Pitched Roofs" [ref=e451] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-fs-fixed-skylights-on-pitched-roofs/
+            - listitem [ref=e452]:
+              - link "Velux Roof Window GPL and GGL Skylights" [ref=e453] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/roof-window-skylights/
+            - listitem [ref=e454]:
+              - link "Velux Sun Tunnels and Accessories" [ref=e455] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/suntube-and-accessories/
+            - listitem [ref=e456]:
+              - link "Velux VCM Manual Opening Skylights on Flat Roof" [ref=e457] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-vcm-manual-opening-skylights/
+            - listitem [ref=e458]:
+              - link "Velux VCS Solar Opening Skylights" [ref=e459] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-vcs-solar-opening-skylights/
+            - listitem [ref=e460]:
+              - link "Velux VS Manual Opening Skylights - Central Skylights" [ref=e461] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-vs-manual-opening-skylights/
+            - listitem [ref=e462]:
+              - link "Velux VSE Electric Remote Opening Skylights" [ref=e463] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-vse-electric-opening-skylights/
+            - listitem [ref=e464]:
+              - link "Velux VSS Solar Remote Opening Skylights" [ref=e465] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/collections/velux-vss-solar-opening-skylights/
+          - figure [ref=e467]:
+            - img "Express Skylights Delivery in Melbourne" [ref=e468]
+          - generic:
+            - paragraph
+    - contentinfo [ref=e469]:
+      - generic [ref=e470]:
+        - generic [ref=e485]:
+          - heading "Seeking a free quote for skylight installation or want to discuss your skylight stock?" [level=5] [ref=e486]
+          - paragraph [ref=e487]:
+            - link "Contact" [ref=e489] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/contact/
+            - text: "Central Skylights today:"
+            - link "(03) 9999 1526" [ref=e490] [cursor=pointer]:
+              - /url: tel:+61399991526
+            - text: or to request a
+            - link "Free Quote" [ref=e491] [cursor=pointer]:
+              - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+        - generic [ref=e497]:
+          - generic [ref=e501]:
+            - heading "Why Choose Central Skylights Melbourne" [level=4] [ref=e503]
+            - list [ref=e505]:
+              - listitem [ref=e506]: 5-Star Rating Skylights Contractor in Melbourne
+              - listitem [ref=e507]: Providing full service in supply-install any Velux skylights and sun tunnels
+              - listitem [ref=e508]: Supply-only service Velux skylights with a minimum 15% OFF RRP
+              - listitem [ref=e509]: Supply colorbond custom base flashing for your Velux skylights
+              - listitem [ref=e510]: Understanding your budget and giving the best advice
+              - listitem [ref=e511]: Having great technical skills and know-how
+              - listitem [ref=e512]: Click&Collect at our skylights warehouse in Melbourne
+            - figure [ref=e516]:
+              - link "Logo" [ref=e517] [cursor=pointer]:
+                - /url: https://centralskyligh.wpenginepowered.com/
+                - img "Logo" [ref=e518]
+            - paragraph [ref=e522]: ...bringing sky into your life.
+          - generic [ref=e526]:
+            - heading "Melbourne Skylights Warehouse & Showroom" [level=4] [ref=e528]
+            - paragraph [ref=e530]:
+              - text: "Visit our skylight display showroom in South Eastern of Melbourne, Dandenong suburb:"
+              - text: "Tel:"
+              - strong [ref=e531]:
+                - link "(03) 9999 1526" [ref=e532] [cursor=pointer]:
+                  - /url: tel:+61399991526
+              - text: "Mobile:"
+              - strong [ref=e533]:
+                - link "0413 922 958" [ref=e534] [cursor=pointer]:
+                  - /url: tel:+61413922958
+              - text: "Email:"
+              - link "Click to Email us" [ref=e535] [cursor=pointer]:
+                - /url: mailto:estimate@centralskylights.com.au
+              - text: "Showroom:"
+              - link "88 Cheltenham Road Dandenong VIC 3175" [ref=e536] [cursor=pointer]:
+                - /url: https://www.google.com/maps?q=88+Cheltenham+Road,Dandenong,VIC,3175,Australia
+                - strong [ref=e537]: 88 Cheltenham Road
+                - strong [ref=e538]: Dandenong VIC 3175
+            - paragraph [ref=e540]:
+              - text: We are open 5 days a week.
+              - text: "Mon-Fri: 08:30 – 17:30"
+              - text: "Sat : Appointment Only"
+              - text: "Sunday : Closed"
+          - generic [ref=e544]:
+            - heading "Quick Links" [level=4] [ref=e546]
+            - list [ref=e548]:
+              - listitem [ref=e549]:
+                - link "Home" [ref=e550] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/
+              - listitem [ref=e551]:
+                - link "About" [ref=e552] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/about-us/
+              - listitem [ref=e553]:
+                - link "Book Appointment" [ref=e554] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/free-measure-and-quote-appointment/
+              - listitem [ref=e555]:
+                - link "Free Meaure & Quote" [ref=e556] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/online-quote/
+              - listitem [ref=e557]:
+                - link "Skylight Tips" [ref=e558] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/category/skylight-tips/
+              - listitem [ref=e559]:
+                - link "Shop Velux Skylights" [ref=e560] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/skylight-products/
+              - listitem [ref=e561]:
+                - link "Contact Central Skylights" [ref=e562] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/contact/
+              - listitem [ref=e563]:
+                - link "Privacy Policy" [ref=e564] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/privacy-policy/
+              - listitem [ref=e565]:
+                - link "Refund Policy" [ref=e566] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/refund-policy/
+              - listitem [ref=e567]:
+                - link "Delivery Policy" [ref=e568] [cursor=pointer]:
+                  - /url: https://centralskyligh.wpenginepowered.com/shipping-policy/
+            - list [ref=e570]:
+              - listitem [ref=e571]:
+                - link [ref=e572] [cursor=pointer]:
+                  - /url: https://www.facebook.com/centralskylights/
+                  - img [ref=e573]
+              - listitem [ref=e575]:
+                - link [ref=e576] [cursor=pointer]:
+                  - /url: https://x.com/i/flow/login?redirect_after_login=%2Fcentralskylight
+                  - img [ref=e577]
+              - listitem [ref=e579]:
+                - link [ref=e580] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@centralskylights1362
+                  - img [ref=e581]
+  - generic [ref=e588] [cursor=pointer]:
+    - generic [ref=e589]: Google Rating
+    - generic [ref=e591]: "5.0"
+    - generic [ref=e596]: Based on 312 reviews
+  - text: 
