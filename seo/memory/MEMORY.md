@@ -27,6 +27,7 @@ Client-specific memory lives inside each client's own folder:
 - **Internal Linking** — `../tools/internal-linking/` — crawl_internal_links.py, project-instructions.txt
 - **Spelling Mistakes Finder** — `../tools/spelling-mistakes-finder/` — project-instructions.txt
 - **Keyword Research** — process defined in keyword_research_master.md
+- **Pre-Launch Audit** — `../tools/pre-launch-audit/instructions.md` — full instructions in [capability_pre_launch_audit.md](capability_pre_launch_audit.md). Deliverable: `seo/clients/[domain]/pre-launch-audit/on-page-audit-report.html`
 
 ## Workflow
 - [Workflow Preferences](feedback_workflow.md) — user wants all learnings saved to memory as we go

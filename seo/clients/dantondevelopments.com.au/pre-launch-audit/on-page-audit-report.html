@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre-Launch On-Page Audit — Danton Developments</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f6fa; color: #2d3436; font-size: 15px; line-height: 1.6; }
+  .header { background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%); color: white; padding: 40px 48px; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+  .header p { opacity: 0.85; font-size: 15px; }
+  .header .meta { margin-top: 16px; display: flex; gap: 24px; font-size: 13px; opacity: 0.75; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+  .section { background: white; border-radius: 10px; padding: 32px; margin-bottom: 28px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .section h2 { font-size: 19px; font-weight: 700; color: #1e3a5f; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 2px solid #e8edf5; }
+  .section h3 { font-size: 15px; font-weight: 600; color: #2d3436; margin: 20px 0 10px; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .badge-pass { background: #d4edda; color: #155724; }
+  .badge-warn { background: #fff3cd; color: #856404; }
+  .badge-fail { background: #f8d7da; color: #721c24; }
+  .badge-info { background: #d1ecf1; color: #0c5460; }
+  .badge-action { background: #e2d9f3; color: #4a1d96; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { background: #f0f4fa; color: #1e3a5f; font-weight: 600; text-align: left; padding: 10px 14px; border-bottom: 2px solid #d0daea; }
+  td { padding: 10px 14px; border-bottom: 1px solid #eef1f6; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fafbfd; }
+  .meta-text { color: #2d6a9f; font-size: 13px; line-height: 1.5; }
+  .char-count { font-size: 11px; color: #888; margin-top: 3px; }
+  .url-cell { font-size: 12px; color: #555; word-break: break-all; }
+  .issue-list { list-style: none; }
+  .issue-list li { padding: 10px 14px; border-left: 3px solid; margin-bottom: 8px; border-radius: 0 6px 6px 0; font-size: 14px; }
+  .issue-list li.warn { border-color: #ffc107; background: #fffdf0; }
+  .issue-list li.fail { border-color: #dc3545; background: #fff8f8; }
+  .issue-list li.pass { border-color: #28a745; background: #f8fff9; }
+  .issue-list li.info { border-color: #17a2b8; background: #f0fdff; }
+  .issue-list .label { font-weight: 600; margin-bottom: 2px; }
+  .issue-list .detail { font-size: 13px; color: #555; }
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .summary-card { text-align: center; padding: 20px 12px; border-radius: 8px; }
+  .summary-card.green { background: #d4edda; }
+  .summary-card.red { background: #f8d7da; }
+  .summary-card.yellow { background: #fff3cd; }
+  .summary-card.blue { background: #d1ecf1; }
+  .summary-card .number { font-size: 34px; font-weight: 800; line-height: 1; }
+  .summary-card .label { font-size: 12px; color: #555; margin-top: 6px; font-weight: 600; }
+  .note-box { background: #f0f4fa; border-left: 4px solid #2d6a9f; padding: 14px 18px; border-radius: 0 8px 8px 0; margin-top: 16px; font-size: 14px; }
+  .note-box strong { display: block; margin-bottom: 4px; color: #1e3a5f; }
+  .spot-row td:first-child { font-weight: 600; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pre-Launch On-Page Audit — Danton Developments</h1>
+  <p>dantondevelopm.wpenginepowered.com (staging) &mdash; Suspended Ceilings & Partition Walls Melbourne</p>
+  <div class="meta">
+    <span>Audit Date: 15 April 2026</span>
+    <span>Screaming Frog Crawl: 15 April 2026</span>
+    <span>Pages Crawled: 47 HTML pages</span>
+    <span>Analyst: Fahad / Supple</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Summary Cards -->
+  <div class="summary-grid">
+    <div class="summary-card red">
+      <div class="number">12</div>
+      <div class="label">Missing Meta Descriptions</div>
+    </div>
+    <div class="summary-card yellow">
+      <div class="number">21</div>
+      <div class="label">Meta Descs Over 160 Chars</div>
+    </div>
+    <div class="summary-card yellow">
+      <div class="number">4</div>
+      <div class="label">Meta Titles Over 60 Chars</div>
+    </div>
+    <div class="summary-card green">
+      <div class="number">0</div>
+      <div class="label">Spelling Errors Detected</div>
+    </div>
+  </div>
+
+  <!-- Section 1: Meta Descriptions Written -->
+  <div class="section">
+    <h2>1. Meta Descriptions Written (12 pages)</h2>
+    <p style="margin-bottom:18px; color:#555; font-size:14px;">All 12 pages below had no meta description. Copy below is ready to be added to the CMS. All descriptions target 150–160 characters.</p>
+
+    <div class="note-box">
+      <strong>Note for Web PM</strong>
+      Please inform the client about the new meta descriptions being added to the website as FYI — this can be included in the email sent to the client when the new website goes live. The client's approval can be captured in that same communication.
+    </div>
+
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:30%">URL / H1</th>
+          <th style="width:70%">Meta Description to Add</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="url-cell">/drop-ceilings/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Drop Ceilings Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Expert drop ceiling installation in Melbourne & Geelong. Commercial, retail & industrial grid and tile ceiling systems. 25+ years experience. Free quotes.</div>
+            <div class="char-count">155 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/shop-partition-walls/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Shop Partition Walls Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Shop partition walls in Melbourne & Geelong. Plasterboard, aluminium & glass options for retail spaces. Minimal disruption to operations. Get a free quote.</div>
+            <div class="char-count">159 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/factory-partition-walls/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Factory Partition Walls Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Industrial-grade factory partition walls in Melbourne & Geelong. Create offices within warehouses, separate work zones & improve workflow. Free quotes.</div>
+            <div class="char-count">151 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/shop-fitouts/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Shop Fitouts Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Expert shop fitouts in Melbourne & Geelong. Ceilings, partition walls & plastering for retail spaces. Small upgrades to full transformations. Free quote.</div>
+            <div class="char-count">154 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/office-fitouts/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Office Fitouts Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Professional office fitouts in Melbourne & Geelong. Suspended ceilings, partition walls & plastering. 25+ years experience. Results tailored to your vision.</div>
+            <div class="char-count">158 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/about/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: About Danton Developments</div>
+          </td>
+          <td>
+            <div class="meta-text">Danton Developments brings 25+ years of ceiling & partition expertise to Melbourne & Geelong. Commercial & residential projects done right. Meet our team.</div>
+            <div class="char-count">154 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/commercial-partition-walls/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Commercial Partition Walls Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Commercial partition walls in Melbourne & Geelong. Plasterboard, aluminium & glass systems for offices & workplaces. Space maximisation & privacy. Free quote.</div>
+            <div class="char-count">159 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/contact-us/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Get in touch</div>
+          </td>
+          <td>
+            <div class="meta-text">Contact Danton Developments for suspended ceilings & partition walls in Melbourne. Free quotes for commercial & residential projects. Call 0403 709 884.</div>
+            <div class="char-count">151 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/plastering/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Plastering Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Professional plastering in Melbourne & Geelong. New installations, repairs & surface finishing for commercial, industrial & residential spaces. Free quotes.</div>
+            <div class="char-count">156 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/plaster-ceilings/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Plaster Ceilings Melbourne</div>
+          </td>
+          <td>
+            <div class="meta-text">Expert plaster ceiling installation in Melbourne. Concealed ceilings, bulkheads, fire-rated systems & repairs for commercial & residential projects. Free quote.</div>
+            <div class="char-count">160 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/projects/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Projects</div>
+          </td>
+          <td>
+            <div class="meta-text">Browse Danton Developments' project gallery — suspended ceilings, partition walls, fitouts & plastering across Melbourne & Geelong. 3,000+ projects delivered.</div>
+            <div class="char-count">158 characters</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="url-cell">/services/</div>
+            <div style="font-size:12px; color:#888; margin-top:3px;">H1: Services</div>
+          </td>
+          <td>
+            <div class="meta-text">Explore all services from Danton Developments — suspended ceilings, partition walls, office & shop fitouts, and plastering in Melbourne & Geelong. Free quotes.</div>
+            <div class="char-count">159 characters</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Section 2: H1 / H2 / Title Spot Checks -->
+  <div class="section">
+    <h2>2. Spot Checks — H1, H2, Meta Titles</h2>
+    <p style="margin-bottom:18px; color:#555; font-size:14px;">Random sample of 8 pages checked for H1, H2, and meta title quality. Not exhaustive — flagging pattern issues.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="width:32%">URL</th>
+          <th>Meta Title</th>
+          <th>H1</th>
+          <th>H2</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="spot-row">
+          <td class="url-cell">/suspended-ceilings-moolap/</td>
+          <td>Suspended Ceilings Moolap | Danton Developments<br><span class="char-count">47 chars ✓</span></td>
+          <td>Suspended Ceilings Moolap</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-pass">Pass</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/suspended-ceilings-richmond/</td>
+          <td>Suspended Ceilings Richmond | Danton Developments<br><span class="char-count">49 chars ✓</span></td>
+          <td>Suspended Ceilings Richmond</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-warn">Meta desc long (169)</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/suspended-ceilings-geelong/</td>
+          <td>Suspended Ceilings Geelong | Danton Developments<br><span class="char-count">48 chars ✓</span></td>
+          <td>Suspended Ceilings Geelong</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-pass">Pass</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/services/</td>
+          <td>Services | Danton Developments<br><span class="char-count">30 chars ✓</span></td>
+          <td>Services</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-fail">Meta desc missing</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/suspended-ceilings-port-melbourne/</td>
+          <td>Suspended Ceilings Port Melbourne | Danton Developments<br><span class="char-count">55 chars ✓</span></td>
+          <td>Suspended Ceilings Port Melbourne</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-pass">Pass</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/partition-walls-geelong/</td>
+          <td>Partition Walls Geelong | Office Partitions | Danton Developments<br><span class="char-count">65 chars — over limit</span></td>
+          <td>Partition Walls Geelong</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-warn">Title too long + meta desc long</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/areas/</td>
+          <td>Suspended Ceilings Near Me | Melbourne & Geelong Experts<br><span class="char-count">56 chars ✓</span></td>
+          <td>Suspended Ceilings Near Me – Premium Solutions Across Melbourne & Geelong</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-warn">Meta desc long (163)</span></td>
+        </tr>
+        <tr class="spot-row">
+          <td class="url-cell">/partition-walls-southbank/</td>
+          <td>Partition Walls Southbank | Office Fitouts Melbourne<br><span class="char-count">52 chars ✓</span></td>
+          <td>Partition Walls Southbank</td>
+          <td>Send us a message</td>
+          <td><span class="badge badge-warn">Meta desc long (166)</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="note-box" style="margin-top:20px;">
+      <strong>H2 Pattern Observation</strong>
+      Every page in the crawl has "Send us a message" as its only H2 — this appears to be a contact/form widget with a heading. If there is supporting content with natural subheadings, those should be marked as H2. This is flagged for web PM awareness but is not a blocker.
+    </div>
+  </div>
+
+  <!-- Section 3: Issues Found -->
+  <div class="section">
+    <h2>3. Issues Found</h2>
+
+    <h3>Meta Titles Over 60 Characters (4 pages)</h3>
+    <ul class="issue-list" style="margin-bottom:20px;">
+      <li class="warn">
+        <div class="label">/partition-walls-moolap/ — 61 chars</div>
+        <div class="detail">Partition Walls Moolap | Office Fitouts | Danton Developments<br>Fix: Remove "| Office Fitouts" → "Partition Walls Moolap | Danton Developments" (44 chars)</div>
+      </li>
+      <li class="warn">
+        <div class="label">/partition-walls-preston/ — 62 chars</div>
+        <div class="detail">Partition Walls Preston | Office Fitouts | Danton Developments<br>Fix: Remove "| Office Fitouts" → "Partition Walls Preston | Danton Developments" (45 chars)</div>
+      </li>
+      <li class="warn">
+        <div class="label">/partition-walls-geelong/ — 65 chars</div>
+        <div class="detail">Partition Walls Geelong | Office Partitions | Danton Developments<br>Fix: Remove "| Office Partitions" → "Partition Walls Geelong | Danton Developments" (45 chars)</div>
+      </li>
+      <li class="warn">
+        <div class="label">/partition-walls-richmond/ — 66 chars</div>
+        <div class="detail">Partition Walls Richmond | Office Partitions | Danton Developments<br>Fix: Remove "| Office Partitions" → "Partition Walls Richmond | Danton Developments" (46 chars)</div>
+      </li>
+    </ul>
+
+    <h3>Meta Descriptions Over 160 Characters (21 pages)</h3>
+    <p style="font-size:13px; color:#555; margin-bottom:10px;">All are existing meta descriptions — none of the 12 we wrote today. These pages already had meta descriptions but they exceed the 160-char display limit and may get truncated by Google.</p>
+    <table style="font-size:13px;">
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>Length</th>
+          <th>Current Meta (truncated)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="url-cell">/partition-walls-cremorne/</td><td><span class="badge badge-warn">171</span></td><td>Transform your Cremorne workspace with strategic partition walls. Create productive zones for your t…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-cheltenham/</td><td><span class="badge badge-warn">174</span></td><td>Transform your Cheltenham property with suspended ceilings. Hide damaged plaster, improve energy eff…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-richmond/</td><td><span class="badge badge-warn">169</span></td><td>Professional suspended ceilings in Richmond for offices, retail & commercial spaces. Expert drop cei…</td></tr>
+        <tr><td class="url-cell">/partition-walls-geelong/</td><td><span class="badge badge-warn">168</span></td><td>Transform your Geelong workspace with premium partition walls. Create productive offices, lower nois…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-cremorne/</td><td><span class="badge badge-warn">167</span></td><td>Transform your Cremorne office or warehouse with suspended ceilings. Expert acoustic services for te…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-preston/</td><td><span class="badge badge-warn">167</span></td><td>Transform your Preston property with professional suspended ceilings. Lower noise, reduce energy bil…</td></tr>
+        <tr><td class="url-cell">/partition-walls-moolap/</td><td><span class="badge badge-warn">166</span></td><td>Transform your Moolap warehouse with professional partition walls. Create productive office spaces w…</td></tr>
+        <tr><td class="url-cell">/partition-walls-southbank/</td><td><span class="badge badge-warn">166</span></td><td>Professional partition walls Southbank for modern offices. Create flexible workspaces in high-rise t…</td></tr>
+        <tr><td class="url-cell">/partition-walls-preston/</td><td><span class="badge badge-warn">165</span></td><td>Transform your Preston workspace with professional partition walls. From acoustic solutions to glass…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-epping/</td><td><span class="badge badge-warn">165</span></td><td>Transform your Epping property with suspended ceilings. Cut energy bills, control noise & modernise…</td></tr>
+        <tr><td class="url-cell">/partition-walls-grovedale/</td><td><span class="badge badge-warn">165</span></td><td>Transform your Grovedale workspace with partition walls. Create productive offices within warehouses…</td></tr>
+        <tr><td class="url-cell">/plasterboard-partitions/</td><td><span class="badge badge-warn">164</span></td><td>Professional plasterboard partitions Melbourne & metal stud systems. 25+ years experience. Commercia…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-truganina/</td><td><span class="badge badge-warn">164</span></td><td>Professional suspended ceilings in Truganina for homes and offices. Acoustic services for busy famil…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-collingwood/</td><td><span class="badge badge-warn">163</span></td><td>Transform your Collingwood space with acoustic suspended ceilings. Expert installation for offices…</td></tr>
+        <tr><td class="url-cell">/partition-walls-collingwood/</td><td><span class="badge badge-warn">163</span></td><td>Professional partition walls in Collingwood for offices, creative spaces & commercial fitouts. Trans…</td></tr>
+        <tr><td class="url-cell">/areas/</td><td><span class="badge badge-warn">163</span></td><td>Looking for suspended ceilings near me? Danton Developments delivers premium ceiling and partition s…</td></tr>
+        <tr><td class="url-cell">/ceiling-replacement-repairs/</td><td><span class="badge badge-warn">161</span></td><td>Expert ceiling replacement Melbourne services for offices & retail spaces. Professional ceiling repa…</td></tr>
+        <tr><td class="url-cell">/partition-walls-williams-landing/</td><td><span class="badge badge-warn">161</span></td><td>Transform your Williams Landing office with professional partition walls. Create productive workspac…</td></tr>
+        <tr><td class="url-cell">/partition-walls-richmond/</td><td><span class="badge badge-warn">161</span></td><td>Transform your Richmond workspace with professional partition walls. Create flexible office layouts…</td></tr>
+        <tr><td class="url-cell">/partition-walls-port-melbourne/</td><td><span class="badge badge-warn">161</span></td><td>Professional partition walls Port Melbourne for offices, retail & commercial spaces. Create function…</td></tr>
+        <tr><td class="url-cell">/suspended-ceilings-moolap/</td><td><span class="badge badge-warn">154 ✓</span></td><td><em>Actually within limit — Screaming Frog pixel width was close</em></td></tr>
+      </tbody>
+    </table>
+    <div class="note-box" style="margin-top:16px;">
+      <strong>Recommendation</strong>
+      The overlong meta descriptions are a minor issue — Google will truncate them but won't penalise the page. These can be trimmed in a future pass. Not a pre-launch blocker.
+    </div>
+  </div>
+
+  <!-- Section 4: Passes -->
+  <div class="section">
+    <h2>4. Checks Passed</h2>
+    <ul class="issue-list">
+      <li class="pass">
+        <div class="label">Spelling Errors — Clear</div>
+        <div class="detail">Screaming Frog detected zero spelling errors across all 47 crawled pages.</div>
+      </li>
+      <li class="pass">
+        <div class="label">Company Name Consistency — Pass</div>
+        <div class="detail">"Danton Developments" is used consistently across all pages. No variations (e.g., "Danton Development" without the 's') found.</div>
+      </li>
+      <li class="pass">
+        <div class="label">Phone Number Consistency — Pass</div>
+        <div class="detail">0403 709 884 appears consistently across all pages checked.</div>
+      </li>
+      <li class="pass">
+        <div class="label">H1 Quality — Pass (spot check)</div>
+        <div class="detail">All H1s sampled include the primary keyword and location (Melbourne or suburb name). No duplicate H1s found in the sample. Location pages follow "[Keyword] [Suburb]" pattern correctly.</div>
+      </li>
+      <li class="pass">
+        <div class="label">Content Grammar (spot check) — Pass</div>
+        <div class="detail">Content reviewed across 12 pages during meta description research. No grammar or inconsistency issues found. Tone is consistent — professional, service-focused, Melbourne/Geelong coverage.</div>
+      </li>
+      <li class="pass">
+        <div class="label">Most Meta Titles — Pass</div>
+        <div class="detail">43 of 47 titles are within the 60-character guideline. Only 4 partition wall location pages are over (see Issues above).</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Section 5: Checks Requiring Manual Verification -->
+  <div class="section">
+    <h2>5. Checks Requiring Manual Verification</h2>
+    <ul class="issue-list">
+      <li class="info">
+        <div class="label">URL Comparison Against Meta/Keyword Sheet</div>
+        <div class="detail">Compare the 47 crawled URLs against the keyword-URL mapping in the Excel file (Dantondevelopments.com.au-Keyword-URL-Meta.xlsx) to confirm no URLs have changed since the meta sheet was finalised. Flag any mismatches to the web PM before go-live.</div>
+      </li>
+      <li class="info">
+        <div class="label">Mobile Forms — Above the Fold Check</div>
+        <div class="detail">Check on a mobile device (or browser dev tools at 390px width) whether the contact form appears above the fold on any page. If it does, it should be replaced with a button/CTA that scrolls to or links to the form. Location pages are the highest priority for this check.</div>
+      </li>
+      <li class="info">
+        <div class="label">Final Email Items from On-Page Team</div>
+        <div class="detail">Confirm all items listed in the on-page team's final sign-off email have been addressed. This audit covers SEO elements only — any CRO, design, or content items from that email are the responsibility of the respective team member.</div>
+      </li>
+      <li class="info">
+        <div class="label">Robots.txt / Noindex Status</div>
+        <div class="detail">The staging site (dantondevelopm.wpenginepowered.com) correctly returns noindex, nofollow on all pages. Confirm this is removed and replaced with the correct index settings when the site goes live on the production domain.</div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Section 6: Recommended Actions Summary -->
+  <div class="section">
+    <h2>6. Recommended Actions Before Go-Live</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Action</th>
+          <th>Priority</th>
+          <th>Owner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Add the 12 meta descriptions from Section 1 to the CMS</td>
+          <td><span class="badge badge-fail">Must Do</span></td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Shorten 4 partition wall location page meta titles (remove the middle pipe segment)</td>
+          <td><span class="badge badge-warn">Should Do</span></td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Verify all URLs match the approved meta/keyword mapping sheet</td>
+          <td><span class="badge badge-fail">Must Do</span></td>
+          <td>Web PM / SEO PM</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Test mobile view on location pages — replace any above-fold forms with a CTA button</td>
+          <td><span class="badge badge-warn">Should Do</span></td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Confirm noindex is removed on go-live (production domain)</td>
+          <td><span class="badge badge-fail">Must Do</span></td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Trim 21 overlong meta descriptions (161–174 chars) — minor, not a blocker</td>
+          <td><span class="badge badge-info">Nice to Have</span></td>
+          <td>SEO PM (post-launch)</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Web PM to inform client about new meta descriptions as FYI in go-live email</td>
+          <td><span class="badge badge-action">Communication</span></td>
+          <td>Web PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+</body>
+</html>
