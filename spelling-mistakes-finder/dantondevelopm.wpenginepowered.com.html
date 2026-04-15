@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spelling & Grammar Audit — dantondevelopm.wpenginepowered.com</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f6fa; color: #2d3436; font-size: 14px; line-height: 1.6; }
+  .header { background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%); color: white; padding: 36px 48px; }
+  .header h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+  .header p { opacity: 0.85; font-size: 14px; }
+  .header .meta { margin-top: 14px; display: flex; gap: 24px; font-size: 13px; opacity: 0.75; flex-wrap: wrap; }
+  .stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; padding: 28px 40px; background: white; border-bottom: 1px solid #e8edf5; }
+  .stat { text-align: center; padding: 16px 10px; border-radius: 8px; }
+  .stat.blue { background: #d1ecf1; }
+  .stat.red { background: #f8d7da; }
+  .stat.yellow { background: #fff3cd; }
+  .stat.purple { background: #e8d5f5; }
+  .stat.green { background: #d4edda; }
+  .stat.grey { background: #e8edf5; }
+  .stat .number { font-size: 28px; font-weight: 800; line-height: 1; }
+  .stat .label { font-size: 11px; color: #555; margin-top: 5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; }
+  .container { max-width: 1300px; margin: 0 auto; padding: 32px 24px; }
+  .section { background: white; border-radius: 10px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); overflow: hidden; }
+  .section-header { padding: 18px 24px; border-bottom: 1px solid #eef1f6; display: flex; align-items: center; gap: 12px; }
+  .section-header h2 { font-size: 15px; font-weight: 700; color: #1e3a5f; }
+  .section-header .url-link { font-size: 13px; color: #2d6a9f; text-decoration: none; }
+  .section-header .url-link:hover { text-decoration: underline; }
+  .section-header .page-status { margin-left: auto; }
+  .clean-page { padding: 14px 24px; color: #155724; background: #f8fff9; font-size: 13px; border-left: 3px solid #28a745; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f0f4fa; color: #1e3a5f; font-weight: 600; text-align: left; padding: 10px 14px; border-bottom: 2px solid #d0daea; font-size: 12px; text-transform: uppercase; letter-spacing: 0.3px; }
+  td { padding: 11px 14px; border-bottom: 1px solid #eef1f6; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fafbfd; }
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 20px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
+  .badge-grammar { background: #fff3cd; color: #7d5a00; }
+  .badge-spelling { background: #f8d7da; color: #721c24; }
+  .badge-us-english { background: #cce5ff; color: #004085; }
+  .badge-wrong-content { background: #e8d5f5; color: #4a1d96; }
+  .badge-punctuation { background: #d4edda; color: #155724; }
+  .badge-redundancy { background: #fde8d8; color: #7d3a00; }
+  .badge-company { background: #ffd9a0; color: #7d4000; }
+  .wrong { font-family: monospace; background: #fde8e8; color: #c0392b; padding: 2px 6px; border-radius: 3px; font-size: 12px; }
+  .correct { font-family: monospace; background: #e8fde8; color: #1a7a1a; padding: 2px 6px; border-radius: 3px; font-size: 12px; }
+  .context { color: #555; font-size: 12px; font-style: italic; margin-top: 3px; }
+  .priority-flag { display: inline-block; background: #dc3545; color: white; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 3px; margin-right: 6px; text-transform: uppercase; }
+  .recurring-box { background: #fff8e1; border: 1px solid #ffc107; border-radius: 8px; padding: 20px 24px; margin-bottom: 24px; }
+  .recurring-box h3 { font-size: 15px; font-weight: 700; color: #7d5a00; margin-bottom: 14px; }
+  .recurring-table table { font-size: 13px; }
+  .page-tag { display: inline-block; background: #e8edf5; color: #1e3a5f; font-size: 11px; padding: 1px 7px; border-radius: 3px; margin: 1px; font-family: monospace; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Spelling & Grammar Audit — Danton Developments</h1>
+  <p>dantondevelopm.wpenginepowered.com (staging) — Full site crawl, all 47 HTML pages</p>
+  <div class="meta">
+    <span>Audit Date: 15 April 2026</span>
+    <span>Method: Manual crawl via WebFetch — not Screaming Frog</span>
+    <span>Australian English standard applied</span>
+    <span>Analyst: Fahad / Supple</span>
+  </div>
+</div>
+
+<!-- Stats Strip -->
+<div class="stats">
+  <div class="stat blue">
+    <div class="number">47</div>
+    <div class="label">Total URLs Crawled</div>
+  </div>
+  <div class="stat red">
+    <div class="number">30</div>
+    <div class="label">Pages with Issues</div>
+  </div>
+  <div class="stat green">
+    <div class="number">17</div>
+    <div class="label">Clean Pages</div>
+  </div>
+  <div class="stat purple">
+    <div class="number">6</div>
+    <div class="label">Wrong Content Issues</div>
+  </div>
+  <div class="stat yellow">
+    <div class="number">47</div>
+    <div class="label">Grammar Issues</div>
+  </div>
+  <div class="stat blue">
+    <div class="number">1</div>
+    <div class="label">US English Issues</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- Recurring Errors Box -->
+<div class="recurring-box">
+  <h3>Site-Wide Recurring Errors — Fix Globally via Template/Block Editor</h3>
+  <p style="font-size:13px; color:#7d5a00; margin-bottom:14px;">These errors appear across multiple pages. Fix at template/block level — do not fix page by page.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:30%">Wrong (recurring)</th>
+        <th style="width:25%">Correct</th>
+        <th style="width:45%">Pages affected</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="wrong">stress-free</span> used where "seamless" is meant<br><small style="color:#888">"stress-free integration", "stress-free finishes", "stress-free aesthetics", "coordinate stress-free"</small></td>
+        <td><span class="correct">seamless</span> / <span class="correct">seamlessly</span></td>
+        <td>
+          <span class="page-tag">/partition-walls-preston/</span>
+          <span class="page-tag">/suspended-ceilings-cremorne/</span>
+          <span class="page-tag">/suspended-ceilings-richmond/</span>
+          <span class="page-tag">/exposed-grid-ceilings/</span>
+          <span class="page-tag">/partition-walls-williams-landing/</span>
+          <span class="page-tag">/partition-walls-cremorne/</span>
+          <span class="page-tag">+2 others</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">energy effectiveness</span> / <span class="wrong">energy productivity</span> / <span class="wrong">thermal productivity</span> / <span class="wrong">thermal capability</span></td>
+        <td><span class="correct">energy efficiency</span> / <span class="correct">thermal performance</span></td>
+        <td>
+          <span class="page-tag">/suspended-ceilings-geelong/</span>
+          <span class="page-tag">/suspended-ceilings-cremorne/</span>
+          <span class="page-tag">/suspended-ceilings-richmond/</span>
+          <span class="page-tag">/suspended-ceilings-grovedale/</span>
+          <span class="page-tag">/suspended-ceilings-collingwood/</span>
+          <span class="page-tag">/suspended-ceilings-cheltenham/</span>
+          <span class="page-tag">/suspended-ceilings-moolap/</span>
+          <span class="page-tag">/suspended-ceilings-truganina/</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">providing your investment delivers</span></td>
+        <td><span class="correct">ensuring your investment delivers</span></td>
+        <td>
+          <span class="page-tag">/partition-walls-southbank/</span>
+          <span class="page-tag">/partition-walls-epping/</span>
+          <span class="page-tag">/partition-walls-williams-landing/</span>
+          <span class="page-tag">/glass-partition-walls/</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">lower</span> used as verb for reduce/minimise<br><small style="color:#888">"lower energy bills", "lower disruption", "lower energy costs"</small></td>
+        <td><span class="correct">reduce</span> / <span class="correct">minimise</span></td>
+        <td>
+          <span class="page-tag">/suspended-ceilings-epping/</span>
+          <span class="page-tag">/partition-walls-port-melbourne/</span>
+          <span class="page-tag">/suspended-ceilings-cheltenham/</span>
+          <span class="page-tag">/suspended-ceilings-moolap/</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">talented team</span> (for tradespeople)</td>
+        <td><span class="correct">skilled team</span> / <span class="correct">experienced team</span></td>
+        <td>
+          <span class="page-tag">/partition-walls-preston/</span>
+          <span class="page-tag">/suspended-ceilings-preston/</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">making sure that</span> / <span class="wrong">make sure</span> (clunky)</td>
+        <td><span class="correct">ensuring</span> / <span class="correct">ensure</span></td>
+        <td>
+          <span class="page-tag">/</span>
+          <span class="page-tag">/partition-walls-geelong/</span>
+          <span class="page-tag">/partition-walls-cremorne/</span>
+          <span class="page-tag">/exposed-grid-ceilings/</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">extensive</span> used to mean "comprehensive"<br><small style="color:#888">"extensive services", "extensive guarantees"</small></td>
+        <td><span class="correct">comprehensive</span></td>
+        <td>
+          <span class="page-tag">/partition-walls-preston/</span>
+          <span class="page-tag">/glass-partition-walls/</span>
+          <span class="page-tag">/exposed-grid-ceilings/</span>
+          <span class="page-tag">+ sitewide headings</span>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="wrong">Acoustic &amp; Soundproofing</span> (redundant — they mean the same thing)</td>
+        <td><span class="correct">Acoustic Services</span> or <span class="correct">Soundproofing Services</span> (pick one)</td>
+        <td>
+          <span class="page-tag">/partition-walls-moolap/</span>
+          <span class="page-tag">/suspended-ceilings-preston/</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- TOP PRIORITY ISSUES -->
+<div class="section" style="border-left: 4px solid #dc3545;">
+  <div class="section-header">
+    <h2 style="color:#dc3545;">⚠ TOP PRIORITY — Fix Before Launch</h2>
+  </div>
+  <table>
+    <thead>
+      <tr><th style="width:20%">Page</th><th style="width:15%">Location</th><th style="width:22%">Wrong</th><th style="width:18%">Correct</th><th style="width:15%">Comment</th><th style="width:10%">Type</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-grovedale/" target="_blank">/suspended-ceilings-grovedale/</a></td>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">Over 25 decades of experience</span></td>
+        <td><span class="correct">Over 25 years of experience</span></td>
+        <td>25 decades = 250 years. Factual/copy error.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-richmond/" target="_blank">/suspended-ceilings-richmond/</a></td>
+        <td>H2 heading</td>
+        <td><span class="wrong">Suspended Ceilings for Richmond Homes: Why Choose Danton Developments</span></td>
+        <td><span class="correct">Suspended Ceilings for Richmond Businesses: Why Choose Danton Developments</span></td>
+        <td>Commercial page — "Homes" is wrong. Copy-paste error from residential page.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/ceiling-replacement-repairs/" target="_blank">/ceiling-replacement-repairs/</a></td>
+        <td>Intro paragraph</td>
+        <td><span class="wrong">Nearly 3,000 successful projects completed</span></td>
+        <td><span class="correct">Over 3,000 successful projects completed</span></td>
+        <td>Every other page says "3,000+" or "over 3,000". This page alone says "nearly" — contradicts sitewide claim.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-cremorne/" target="_blank">/suspended-ceilings-cremorne/</a></td>
+        <td>FAQ answer</td>
+        <td><span class="wrong">Suspended ceilings amplify acoustic performance</span></td>
+        <td><span class="correct">Suspended ceilings improve acoustic performance</span></td>
+        <td>"Amplify" means to make louder — the opposite of what suspended ceilings do for acoustics.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-williams-landing/" target="_blank">/suspended-ceilings-williams-landing/</a></td>
+        <td>Body text — "Local Specialists" section</td>
+        <td><span class="wrong">Our founder Daniel established the company in 2022</span> [same page claims 25+ years experience]</td>
+        <td>Clarify: "25+ years of personal industry experience" — the company was founded in 2022 but Daniel has 25+ years in the trade</td>
+        <td>As written, the page contradicts itself — "25+ years experience" vs "established 2022" (3–4 years). Needs editorial decision.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://dantondevelopm.wpenginepowered.com/areas/" target="_blank">/areas/</a></td>
+        <td>Meta title tag</td>
+        <td><span class="wrong">Suspended Ceilings Near Me | Melbourne &amp; Geelong Experts</span></td>
+        <td>Title should reflect the service areas index page, not a "near me" landing page</td>
+        <td>This is the /areas/ index page — the title tag is mismatched and targets a different intent.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- PAGE BY PAGE RESULTS -->
+
+<!-- Homepage -->
+<div class="section">
+  <div class="section-header">
+    <h2>Homepage</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/" target="_blank">https://dantondevelopm.wpenginepowered.com/</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>H2 heading</td>
+        <td><span class="wrong">Extensive Suspended Ceiling Services for Commercial Spaces</span></td>
+        <td><span class="correct">Comprehensive Suspended Ceiling Services for Commercial Spaces</span></td>
+        <td>"Extensive" is spatially wrong for services — use "comprehensive". Recurs sitewide.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body text — Services list</td>
+        <td><span class="wrong">Fire-rated wall systems making sure that compliance standards are met</span></td>
+        <td><span class="correct">Fire-rated wall systems ensuring compliance standards are met</span></td>
+        <td>"Making sure that" is clunky — "ensuring" is correct. Recurs sitewide.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body text — Credentials</td>
+        <td><span class="wrong">Nearly 100% client return rate</span> (while other pages say "nearly all clients return")</td>
+        <td>Standardise to one phrasing across the site</td>
+        <td>Internal inconsistency — one stat uses percentage, others use plain language. Minor but worth aligning.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Geelong -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-geelong/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-geelong/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section + "Professional Process" section (x2)</td>
+        <td><span class="wrong">Effective installation by knowledgeable professionals</span></td>
+        <td><span class="correct">Efficient installation by knowledgeable professionals</span></td>
+        <td>"Effective" and "efficient" mean different things. Installation speed/process = "efficient".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — benefits of suspended ceilings</td>
+        <td><span class="wrong">Suspended ceilings amplify acoustic performance in open offices</span></td>
+        <td><span class="correct">Suspended ceilings improve acoustic performance in open offices</span></td>
+        <td>"Amplify" = make louder. Suspended ceilings dampen/improve acoustics — the opposite.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — benefits + body text (recurring)</td>
+        <td><span class="wrong">improve energy effectiveness</span></td>
+        <td><span class="correct">improve energy efficiency</span></td>
+        <td>"Energy effectiveness" is not a recognised industry term. Recurs sitewide.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Plaster Ceilings — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/plaster-ceilings/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/plaster-ceilings/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Partition Walls Moolap -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-moolap/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-moolap/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — Services list</td>
+        <td><span class="wrong">Acoustic soundproofing systems to eliminate factory noise</span></td>
+        <td><span class="correct">Acoustic systems to reduce factory noise</span></td>
+        <td>"Acoustic soundproofing" is redundant. "Eliminate" is too absolute — "reduce" is accurate.</td>
+        <td><span class="badge badge-redundancy">Redundancy</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Preston -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-preston/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-preston/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>H3 — Acoustic section</td>
+        <td><span class="wrong">Stress-free integration with existing structures</span></td>
+        <td><span class="correct">Seamless integration with existing structures</span></td>
+        <td>"Stress-free integration" describes customer experience, not installation quality. Recurs sitewide.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Complete Partition Wall Services" H2</td>
+        <td><span class="wrong">delivering extensive partition services designed to meet the Darebin Planning Scheme requirements</span></td>
+        <td><span class="correct">delivering partition services designed to meet the Darebin Planning Scheme requirements</span></td>
+        <td>"Extensive" is wrong here — remove it or replace with "comprehensive".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Installation steps, Step 4</td>
+        <td><span class="wrong">Our talented team installs your partitions with minimal disruption</span></td>
+        <td><span class="correct">Our skilled team installs your partitions with minimal disruption</span></td>
+        <td>"Talented" suits creative roles, not tradespeople. Use "skilled" or "experienced".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Cremorne -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-cremorne/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-cremorne/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Drop Ceilings Cremorne" bullet</td>
+        <td><span class="wrong">Concealed Plasterboard Ceilings – Achieving clean, stress-free finishes</span></td>
+        <td><span class="correct">Concealed Plasterboard Ceilings – Achieving clean, seamless finishes</span></td>
+        <td>A ceiling finish cannot be "stress-free". "Seamless" is the correct descriptor.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Complete Interior Services" section</td>
+        <td><span class="wrong">our acoustic services verify privacy between meeting rooms</span></td>
+        <td><span class="correct">our acoustic services ensure privacy between meeting rooms</span></td>
+        <td>"Verify" means to confirm a fact. "Ensure" is the correct verb here.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — heritage buildings</td>
+        <td><span class="wrong">We achieve all installations protect original features</span></td>
+        <td><span class="correct">We ensure all installations protect original features</span></td>
+        <td>"We achieve all installations protect" is grammatically incorrect.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — benefits for Cremorne offices</td>
+        <td><span class="wrong">improving thermal productivity</span></td>
+        <td><span class="correct">improving thermal performance</span></td>
+        <td>"Thermal productivity" is not a recognised term. See recurring errors.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Southbank -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-southbank/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-southbank/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">providing your investment delivers lasting value</span></td>
+        <td><span class="correct">ensuring your investment delivers lasting value</span></td>
+        <td>"Providing your investment delivers" is not grammatically correct. See recurring errors.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "High-Rise Logistics" section</td>
+        <td><span class="wrong">Compliances and management approvals</span></td>
+        <td><span class="correct">Compliance and management approvals</span></td>
+        <td>"Compliances" is non-standard — "compliance" is an uncountable noun here.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Richmond -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-richmond/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-richmond/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>H2 heading <span class="priority-flag">PRIORITY</span></td>
+        <td><span class="wrong">Suspended Ceilings for Richmond Homes: Why Choose Danton Developments</span></td>
+        <td><span class="correct">Suspended Ceilings for Richmond Businesses: Why Choose Danton Developments</span></td>
+        <td>This is a commercial page. "Homes" is a copy-paste error from a residential page template.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Wide-Ranging Ceiling Services"</td>
+        <td><span class="wrong">Concealed plasterboard ceilings for stress-free aesthetics</span></td>
+        <td><span class="correct">Concealed plasterboard ceilings for seamless aesthetics</span></td>
+        <td>Aesthetics cannot be "stress-free". See recurring error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — benefits in commercial spaces</td>
+        <td><span class="wrong">improved thermal productivity</span></td>
+        <td><span class="correct">improved thermal performance</span></td>
+        <td>See recurring error — "thermal productivity" is not a real term.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Areas -->
+<div class="section">
+  <div class="section-header">
+    <h2>/areas/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/areas/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Meta title tag <span class="priority-flag">PRIORITY</span></td>
+        <td><span class="wrong">Suspended Ceilings Near Me | Melbourne &amp; Geelong Experts</span></td>
+        <td>e.g. <span class="correct">Service Areas | Suspended Ceilings Melbourne &amp; Geelong | Danton Developments</span></td>
+        <td>The /areas/ page is a service areas index — this title targets a "near me" landing page, not an index page.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — "What types of suspended ceilings do you install?"</td>
+        <td><span class="wrong">We install quite a few suspended ceiling systems</span></td>
+        <td><span class="correct">We install a wide range of suspended ceiling systems</span></td>
+        <td>"Quite a few" is colloquial — not appropriate for professional business copy.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Drop Ceilings — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/drop-ceilings/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/drop-ceilings/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Preston -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-preston/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-preston/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Complete Range" section</td>
+        <td><span class="wrong">Acoustic &amp; Soundproofing Services – Essential for offices near main roads</span></td>
+        <td><span class="correct">Acoustic Services – Essential for offices near main roads</span></td>
+        <td>"Acoustic & Soundproofing" is redundant — they refer to the same thing.</td>
+        <td><span class="badge badge-redundancy">Redundancy</span></td>
+      </tr>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">Seasoned Professionals – Our talented team brings knowledge in both ceilings and partitions</span></td>
+        <td><span class="correct">Seasoned Professionals – Our skilled team brings expertise in both ceilings and partitions</span></td>
+        <td>"Talented" = creative; tradespeople are "skilled". "Knowledge" should be "expertise" in this context.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Epping -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-epping/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-epping/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>FAQ — "How do suspended ceilings lower energy bills?"</td>
+        <td><span class="wrong">lower energy bills</span> (used as verb)</td>
+        <td><span class="correct">reduce energy bills</span></td>
+        <td>"Lower" used as a verb is non-standard. "Reduce" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — energy efficiency answer</td>
+        <td><span class="wrong">minimizing heat transfer</span></td>
+        <td><span class="correct">minimising heat transfer</span></td>
+        <td>US spelling. Australian English: "minimising".</td>
+        <td><span class="badge badge-us-english">US English</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Truganina — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-truganina/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-truganina/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Partition Walls Geelong -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-geelong/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-geelong/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Wide-ranging Partition Wall Systems"</td>
+        <td><span class="wrong">Framed systems in quite a few finishes</span></td>
+        <td><span class="correct">Framed systems in a range of finishes</span></td>
+        <td>"Quite a few" is too colloquial for professional copy.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Professional Installation Process"</td>
+        <td><span class="wrong">our streamlined approach makes sure that your partition wall project runs smooth from concept to completion</span></td>
+        <td><span class="correct">our streamlined approach ensures your partition wall project runs smoothly from concept to completion</span></td>
+        <td>Two errors: "makes sure that" → "ensures"; "runs smooth" → "runs smoothly" (adverb required).</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">backed by versatile guarantees</span></td>
+        <td><span class="correct">backed by comprehensive guarantees</span></td>
+        <td>Guarantees are not "versatile" — "comprehensive" is the correct adjective.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — best partition types for Geelong offices</td>
+        <td><span class="wrong">we assess your space and recommend peak services</span></td>
+        <td><span class="correct">we assess your space and recommend the best solution</span></td>
+        <td>"Peak services" is not standard English in this context.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Port Melbourne -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-port-melbourne/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-port-melbourne/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">backed by versatile guarantees</span></td>
+        <td><span class="correct">backed by comprehensive guarantees</span></td>
+        <td>Same error as /partition-walls-geelong/.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Collingwood -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-collingwood/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-collingwood/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>FAQ — installation timeline</td>
+        <td><span class="wrong">Simple partition installations complete in days, while wide-ranging office reconfigurations may take several weeks.</span></td>
+        <td><span class="correct">Simple partition installations are completed in days, while comprehensive office reconfigurations may take several weeks.</span></td>
+        <td>"Complete in days" is missing the passive verb — "are completed in days". "Wide-ranging" → "comprehensive".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Services — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/services/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/services/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Shop Partition Walls — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/shop-partition-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/shop-partition-walls/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Exposed Grid Ceilings -->
+<div class="section">
+  <div class="section-header">
+    <h2>/exposed-grid-ceilings/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/exposed-grid-ceilings/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Extensive Grid Ceiling Systems"</td>
+        <td><span class="wrong">we make sure that each component works together stress-free</span></td>
+        <td><span class="correct">we ensure each component works together seamlessly</span></td>
+        <td>Two errors: "make sure that" → "ensure"; "stress-free" → "seamlessly".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — matching existing grid ceilings</td>
+        <td><span class="wrong">source compatible components to achieve stress-free integration</span></td>
+        <td><span class="correct">source compatible components to achieve seamless integration</span></td>
+        <td>Same "stress-free" substitution error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Office Fitouts" section</td>
+        <td><span class="wrong">making sure to maximise space productivity</span></td>
+        <td><span class="correct">maximising space efficiency</span></td>
+        <td>"Space productivity" is not a recognised term. "Space efficiency" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings (main) -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — Grid Ceilings section</td>
+        <td><span class="wrong">fire-rated wall systems guaranteeing compliance and safety</span></td>
+        <td><span class="correct">fire-rated wall systems ensuring compliance and safety</span></td>
+        <td>"Guaranteeing compliance" implies an unconditional legal guarantee. "Ensuring" is safer and more accurate.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Grovedale -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-grovedale/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-grovedale/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section <span class="priority-flag">PRIORITY</span></td>
+        <td><span class="wrong">Over 25 decades of experience in ceilings and partitions</span></td>
+        <td><span class="correct">Over 25 years of experience in ceilings and partitions</span></td>
+        <td>25 decades = 250 years. Critical factual error — copy/editing mistake.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Complete Range" intro</td>
+        <td><span class="wrong">tailored to different needs and spaces throughout Grovedale homes</span></td>
+        <td><span class="correct">tailored to different needs and spaces throughout Grovedale</span></td>
+        <td>This is a commercial services page — "Grovedale homes" incorrectly implies residential scope only.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — "How do drop ceilings improve energy productivity?"</td>
+        <td><span class="wrong">energy productivity</span></td>
+        <td><span class="correct">energy efficiency</span></td>
+        <td>See recurring error — "energy productivity" is not a recognised term.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Process, Step 4</td>
+        <td><span class="wrong">coordinate timing to decrease disruption to your daily life</span></td>
+        <td><span class="correct">coordinate timing to minimise disruption to your operations</span></td>
+        <td>"Decrease disruption" is unusual phrasing. "Minimise disruption" is standard. Also "daily life" should be "operations" for a commercial page.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Epping -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-epping/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-epping/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">providing your investment delivers lasting value</span></td>
+        <td><span class="correct">ensuring your investment delivers lasting value</span></td>
+        <td>See recurring error — "providing" is the wrong verb here.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Transform Your Epping Office" section</td>
+        <td><span class="wrong">find how professional partition walls can transform your Epping commercial space</span></td>
+        <td><span class="correct">find out how professional partition walls can transform your Epping commercial space</span></td>
+        <td>Missing word "out" — "find how" is incomplete. Should be "find out how".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Plasterboard Partitions — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/plasterboard-partitions/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/plasterboard-partitions/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Partition Walls Williams Landing -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-williams-landing/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-williams-landing/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">providing your investment delivers long-term value</span></td>
+        <td><span class="correct">ensuring your investment delivers long-term value</span></td>
+        <td>See recurring error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Acoustic Partitions section</td>
+        <td><span class="wrong">Stress-free integration with existing building services</span></td>
+        <td><span class="correct">Seamless integration with existing building services</span></td>
+        <td>See recurring "stress-free" error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Process, Step 4</td>
+        <td><span class="wrong">Our well-trained team delivers quality workmanship, with regular inspections at every stage guaranteeing client satisfaction.</span></td>
+        <td><span class="correct">Our experienced team delivers quality workmanship, with regular inspections at every stage to ensure client satisfaction.</span></td>
+        <td>"Well-trained" is awkward — "experienced" is better. "Guaranteeing satisfaction" overpromises — "to ensure" is accurate.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Richmond -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-richmond/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-richmond/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Extensive Partition Wall Services"</td>
+        <td><span class="wrong">acoustic outcomes that tackle the unique noise challenges</span></td>
+        <td><span class="correct">acoustic solutions that tackle the unique noise challenges</span></td>
+        <td>"Acoustic outcomes" is not meaningful in this context. "Solutions" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Cremorne -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-cremorne/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-cremorne/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Extensive Partition Services" bullet</td>
+        <td><span class="wrong">Fire-Rated Walls: Make sure compliance with commercial building codes</span></td>
+        <td><span class="correct">Fire-Rated Walls: Ensure compliance with commercial building codes</span></td>
+        <td>"Make sure compliance" is grammatically incorrect.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Local Expertise section</td>
+        <td><span class="wrong">We coordinate stress-free with building management</span></td>
+        <td><span class="correct">We coordinate seamlessly with building management</span></td>
+        <td>See recurring "stress-free" error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Plastering — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/plastering/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/plastering/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Contact Us — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/contact-us/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/contact-us/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Commercial Partition Walls — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/commercial-partition-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/commercial-partition-walls/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Collingwood -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-collingwood/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-collingwood/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">check out how our suspended ceilings can revolutionise your living or working environment</span></td>
+        <td><span class="correct">discover how our suspended ceilings can transform your living or working environment</span></td>
+        <td>"Check out" is too casual for professional copy. "Revolutionise" is hyperbolic for a ceiling installation.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — suspended ceilings for Collingwood apartments</td>
+        <td><span class="wrong">improving thermal productivity</span></td>
+        <td><span class="correct">improving thermal performance</span></td>
+        <td>See recurring error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Solving Collingwood's Acoustic Challenges"</td>
+        <td><span class="wrong">provide the perfect service</span></td>
+        <td><span class="correct">provide the perfect solution</span></td>
+        <td>"Provide the perfect service" is vague. "Solution" is the correct word in this context.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Factory Partition Walls — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/factory-partition-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/factory-partition-walls/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Williams Landing -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-williams-landing/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-williams-landing/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Local Ceiling Specialists" section <span class="priority-flag">PRIORITY</span></td>
+        <td><span class="wrong">Our founder Daniel established the company in 2022</span> [page simultaneously claims 25+ years experience]</td>
+        <td>Add clarification: <span class="correct">Daniel brings 25+ years of industry experience; Danton Developments was established in 2022.</span></td>
+        <td>As written, the page says "25+ years experience" in one section and "established 2022" in another — a direct contradiction. Needs editorial clarification.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Glass Partition Walls -->
+<div class="section">
+  <div class="section-header">
+    <h2>/glass-partition-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/glass-partition-walls/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>"Why Choose" section</td>
+        <td><span class="wrong">backing our installations with extensive guarantees</span></td>
+        <td><span class="correct">backing our installations with comprehensive guarantees</span></td>
+        <td>Guarantees are "comprehensive" not "extensive".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — working with existing office layouts</td>
+        <td><span class="wrong">providing smooth coordination with your current setup</span></td>
+        <td><span class="correct">ensuring smooth coordination with your current setup</span></td>
+        <td>See recurring "providing" error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Partition Walls Port Melbourne -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-port-melbourne/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-port-melbourne/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Premium Materials" section</td>
+        <td><span class="wrong">Our knowledgeable professionals confirm precise installation</span></td>
+        <td><span class="correct">Our knowledgeable professionals ensure precise installation</span></td>
+        <td>"Confirm precise installation" — you confirm a booking, not precision. "Ensure" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Local Partition Walls Experts"</td>
+        <td><span class="wrong">We work around your schedule to lower business disruption</span></td>
+        <td><span class="correct">We work around your schedule to minimise business disruption</span></td>
+        <td>"Lower disruption" is non-standard — "minimise disruption" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Southbank — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-southbank/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-southbank/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Shop Fitouts — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/shop-fitouts/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/shop-fitouts/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Cheltenham -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-cheltenham/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-cheltenham/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Why Cheltenham Properties Need Modern Ceiling Services"</td>
+        <td><span class="wrong">dramatically lowering heating and cooling costs</span></td>
+        <td><span class="correct">dramatically reducing heating and cooling costs</span></td>
+        <td>"Lowering" costs is non-standard. "Reducing" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — intro and recurring</td>
+        <td><span class="wrong">improve energy effectiveness</span></td>
+        <td><span class="correct">improve energy efficiency</span></td>
+        <td>See recurring error — "energy effectiveness" is not a recognised term.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>FAQ — benefits for Cheltenham homes</td>
+        <td><span class="wrong">increase thermal capability</span></td>
+        <td><span class="correct">improve thermal performance</span></td>
+        <td>"Thermal capability" is not standard. "Thermal performance" is correct.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Ceiling Replacement Repairs -->
+<div class="section">
+  <div class="section-header">
+    <h2>/ceiling-replacement-repairs/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/ceiling-replacement-repairs/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Intro paragraph <span class="priority-flag">PRIORITY</span></td>
+        <td><span class="wrong">Nearly 3,000 successful projects completed</span></td>
+        <td><span class="correct">Over 3,000 successful projects completed</span></td>
+        <td>Every other page says "3,000+" or "over 3,000". This page alone says "nearly 3,000" — a direct contradiction.</td>
+        <td><span class="badge badge-wrong-content">Wrong Content</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- About — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/about/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/about/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Suspended Ceilings Moolap -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-moolap/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-moolap/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Body — "Residential Ceiling Transformations"</td>
+        <td><span class="wrong">Improving thermal capability to lower energy costs</span></td>
+        <td><span class="correct">Improving thermal performance to reduce energy costs</span></td>
+        <td>Two errors: "thermal capability" → "thermal performance"; "lower" → "reduce".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — "Commercial and Industrial Applications"</td>
+        <td><span class="wrong">incorporating fire-rated materials where compliance requires</span></td>
+        <td><span class="correct">incorporating fire-rated materials where compliance requires it</span> or <span class="correct">where required for compliance</span></td>
+        <td>"Where compliance requires" is missing the object "it". Grammatically incomplete.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr>
+        <td>Body — Process, Step 1</td>
+        <td><span class="wrong">We review your plans or arrange a site visit to assess requirement</span></td>
+        <td><span class="correct">We review your plans or arrange a site visit to assess requirements</span></td>
+        <td>"Assess requirement" should be plural — "requirements".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Suspended Ceilings Truganina -->
+<div class="section">
+  <div class="section-header">
+    <h2>/suspended-ceilings-truganina/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-truganina/" target="_blank">open page</a>
+  </div>
+  <table>
+    <thead><tr><th>Location</th><th>Wrong</th><th>Correct</th><th>Comment</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>FAQ section</td>
+        <td><span class="wrong">Energy effectiveness improvements</span></td>
+        <td><span class="correct">Energy efficiency improvements</span></td>
+        <td>See recurring error.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Office Partitions Walls — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/office-partitions-walls/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/office-partitions-walls/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Office Fitouts — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/office-fitouts/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/office-fitouts/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Partition Walls Grovedale — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-grovedale/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-grovedale/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Projects — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/projects/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/projects/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+<!-- Partition Walls Cheltenham — Clean -->
+<div class="section">
+  <div class="section-header">
+    <h2>/partition-walls-cheltenham/</h2>
+    <a class="url-link" href="https://dantondevelopm.wpenginepowered.com/partition-walls-cheltenham/" target="_blank">open page</a>
+    <div class="page-status"><span class="badge" style="background:#d4edda;color:#155724;">✓ Clean</span></div>
+  </div>
+  <div class="clean-page">✓ No issues found on this page.</div>
+</div>
+
+</div><!-- /container -->
+</body>
+</html>

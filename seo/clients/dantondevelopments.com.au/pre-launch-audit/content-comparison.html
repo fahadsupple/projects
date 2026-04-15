@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Comparison — Google Doc vs Website — Danton Developments</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f6fa; color: #2d3436; font-size: 14px; line-height: 1.6; }
+  .header { background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%); color: white; padding: 36px 48px; }
+  .header h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+  .header p { opacity: 0.85; font-size: 14px; }
+  .header .meta { margin-top: 14px; display: flex; gap: 24px; font-size: 13px; opacity: 0.75; flex-wrap: wrap; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; padding: 24px 40px; background: white; border-bottom: 1px solid #e8edf5; }
+  .stat { text-align: center; padding: 16px 10px; border-radius: 8px; }
+  .stat.green { background: #d4edda; }
+  .stat.red { background: #f8d7da; }
+  .stat.yellow { background: #fff3cd; }
+  .stat.blue { background: #d1ecf1; }
+  .stat.grey { background: #e8edf5; }
+  .stat .number { font-size: 28px; font-weight: 800; line-height: 1; }
+  .stat .label { font-size: 11px; color: #555; margin-top: 5px; font-weight: 600; text-transform: uppercase; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+  .section { background: white; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); overflow: hidden; }
+  .section-header { padding: 16px 24px; border-bottom: 1px solid #eef1f6; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .section-header h2 { font-size: 15px; font-weight: 700; color: #1e3a5f; }
+  .section-header a { font-size: 12px; color: #2d6a9f; text-decoration: none; }
+  .section-header a:hover { text-decoration: underline; }
+  .verdict { margin-left: auto; }
+  .badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .badge-match { background: #d4edda; color: #155724; }
+  .badge-minor { background: #fff3cd; color: #7d5a00; }
+  .badge-major { background: #f8d7da; color: #721c24; }
+  .badge-nocompare { background: #e8edf5; color: #555; }
+  .section-body { padding: 20px 24px; }
+  .match-box { padding: 14px 18px; background: #f8fff9; border-left: 3px solid #28a745; border-radius: 0 6px 6px 0; font-size: 13px; color: #155724; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f0f4fa; color: #1e3a5f; font-weight: 600; text-align: left; padding: 9px 14px; border-bottom: 2px solid #d0daea; font-size: 12px; }
+  td { padding: 10px 14px; border-bottom: 1px solid #eef1f6; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .issue-type { font-weight: 700; color: #e67e22; font-size: 12px; text-transform: uppercase; }
+  .issue-missing { color: #dc3545; font-weight: 600; }
+  .issue-changed { color: #e67e22; font-weight: 600; }
+  .issue-added { color: #2d6a9f; font-weight: 600; }
+  .alert-box { background: #fff8e1; border: 1px solid #ffc107; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; }
+  .alert-box h3 { font-size: 15px; font-weight: 700; color: #7d5a00; margin-bottom: 10px; }
+  .alert-box ul { padding-left: 18px; color: #7d5a00; font-size: 13px; }
+  .alert-box ul li { margin-bottom: 6px; }
+  .note-tag { display: inline-block; background: #e8edf5; color: #1e3a5f; font-size: 11px; padding: 1px 7px; border-radius: 3px; margin: 1px; }
+  .not-in-doc { background: #f0f4fa; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; }
+  .not-in-doc h3 { font-size: 14px; font-weight: 700; color: #1e3a5f; margin-bottom: 10px; }
+  .url-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Content Comparison — Google Doc vs Website</h1>
+  <p>Danton Developments — dantondevelopm.wpenginepowered.com (staging)</p>
+  <div class="meta">
+    <span>Audit Date: 15 April 2026</span>
+    <span>Source doc: Google Doc (14 pages covered)</span>
+    <span>Staging site: 47 total pages</span>
+  </div>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="stat blue"><div class="number">14</div><div class="label">Pages in Google Doc</div></div>
+  <div class="stat green"><div class="number">8</div><div class="label">Match / Minor Only</div></div>
+  <div class="stat red"><div class="number">1</div><div class="label">Significant Difference</div></div>
+  <div class="stat yellow"><div class="number">4</div><div class="label">Minor Differences</div></div>
+  <div class="stat grey"><div class="number">33</div><div class="label">On Site — Not in Doc</div></div>
+</div>
+
+<div class="container">
+
+<!-- Critical Alert -->
+<div class="alert-box">
+  <h3>⚠ Items Requiring Action Before Launch</h3>
+  <ul>
+    <li><strong>/office-partition-walls/ — CRITICAL:</strong> The page on the staging site is a stub (~80 words, link list only). All approved content from the doc (600+ words, 7 FAQs, Why Choose section, installation steps, maintenance section) has not been built. Web PM must add the full approved content before go-live.</li>
+    <li><strong>Permit/council responsibility — 3 location pages:</strong> The doc says "we handle compliance/permits" but the site has been changed to "property owner's responsibility." This is a legal/liability distinction. Web PM or client must confirm which version is correct before launch. Affects: /suspended-ceilings-williams-landing/, /suspended-ceilings-preston/, /suspended-ceilings-cheltenham/.</li>
+    <li><strong>/suspended-ceilings-collingwood/ — Cannot compare:</strong> The Google Doc is truncated for this page — no approved content was captured. Confirm with web team whether this page content was separately approved.</li>
+  </ul>
+</div>
+
+<!-- Page 1: Suspended Ceilings Melbourne -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings/" target="_blank">/suspended-ceilings/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, FAQs (8 questions), bullet lists, and CTAs match the approved doc. One minor extra sidebar label on the site — not a content discrepancy.</div>
+  </div>
+</div>
+
+<!-- Page 2: Office Partitions Melbourne — CRITICAL -->
+<div class="section" style="border-left: 4px solid #dc3545;">
+  <div class="section-header">
+    <h2>Office Partitions Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/office-partition-walls/" target="_blank">/office-partition-walls/</a>
+    <div class="verdict"><span class="badge badge-major">⚠ Significant — Action Required</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:35%">What the Doc Says</th><th style="width:50%">What the Website Has</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-changed">Changed</span></td>
+          <td>H1: "Office Partitions Melbourne"</td>
+          <td>H1: "Partition Walls Melbourne" — different keyword from what was approved</td>
+        </tr>
+        <tr>
+          <td><span class="issue-missing">Missing</span></td>
+          <td>Full body copy (~600 words): intro, aluminium/glass partitions section, plasterboard walls section, complete fitouts section, "Why Choose" section (5 points), 5-step installation process, maintenance & emergency repairs section, full CTA paragraph</td>
+          <td>~80-word generic intro + a bulleted link list to sub-service pages. No body copy.</td>
+        </tr>
+        <tr>
+          <td><span class="issue-missing">Missing</span></td>
+          <td>7 FAQs covering: partition types, timeline, fire rating, service areas, warranties, glass partitions, maintenance</td>
+          <td>No FAQs on this page.</td>
+        </tr>
+        <tr>
+          <td><span class="issue-added">Added</span></td>
+          <td>(not in doc)</td>
+          <td>Bulleted link list to shop/factory/office/commercial/glass/plasterboard sub-pages — likely a navigation widget the web team added.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:14px; font-size:13px; color:#721c24; font-weight:600;">Action: Web PM to build the full approved content on this page before go-live. This page currently has no substantive content.</p>
+  </div>
+</div>
+
+<!-- Page 3: Glass Partition Walls -->
+<div class="section">
+  <div class="section-header">
+    <h2>Glass Partition Walls Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/glass-partition-walls/" target="_blank">/glass-partition-walls/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, 8 FAQs, bullet lists, and CTAs match the approved doc exactly. No discrepancies found.</div>
+  </div>
+</div>
+
+<!-- Page 4: Plasterboard Partitions -->
+<div class="section">
+  <div class="section-header">
+    <h2>Plasterboard Partitions Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/plasterboard-partitions/" target="_blank">/plasterboard-partitions/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, 5 FAQs, suburb list, and CTAs match the approved doc. No discrepancies found.</div>
+  </div>
+</div>
+
+<!-- Page 5: Ceiling Replacement -->
+<div class="section">
+  <div class="section-header">
+    <h2>Ceiling Replacement Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/ceiling-replacement-repairs/" target="_blank">/ceiling-replacement-repairs/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, 8 FAQs match the approved doc. No content discrepancies found. (Note: "nearly 3,000" error on this page is flagged separately in the spelling audit — it is a factual inconsistency, not a doc vs site discrepancy.)</div>
+  </div>
+</div>
+
+<!-- Page 6: Suspended Ceilings Epping -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Epping</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-epping/" target="_blank">/suspended-ceilings-epping/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All content matches. One minor structural difference: "Why Choose" sub-items are H3s on the site vs bold text under an H2 in the doc. Not a content issue — a rendering difference. All 6 FAQs match identically.</div>
+  </div>
+</div>
+
+<!-- Page 7: Suspended Ceilings Truganina -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Truganina</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-truganina/" target="_blank">/suspended-ceilings-truganina/</a>
+    <div class="verdict"><span class="badge badge-minor">Minor Differences</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:40%">Doc</th><th style="width:45%">Site</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-changed">Changed</span></td>
+          <td>"Tailored Installation for Local Building Styles" listed as <strong>H3</strong> (subheading under Drop Ceilings H2)</td>
+          <td>Same heading renders as <strong>H2</strong> — promoted one level up. All body copy and 7 FAQs match.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:12px; color:#888;">This is a structural/rendering difference only — no content is missing. Low priority.</p>
+  </div>
+</div>
+
+<!-- Page 8: Suspended Ceilings Williams Landing -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Williams Landing</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-williams-landing/" target="_blank">/suspended-ceilings-williams-landing/</a>
+    <div class="verdict"><span class="badge badge-minor">Minor Differences</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:40%">Doc says</th><th style="width:45%">Site says</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-changed">Changed</span></td>
+          <td>Council permits FAQ: "Structural ceiling modifications require compliance with Wyndham City Council building permit requirements. <strong>We handle all necessary compliance documentation as part of our service.</strong>"</td>
+          <td>"Structural ceiling modifications may require building permits depending on work scope. <strong>Obtaining permits is the property owner's responsibility.</strong>"</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:13px; color:#856404; font-weight:600;">⚠ This is a legal/liability distinction. The doc commits Danton to handling permits; the site shifts responsibility to the client. Web PM or client must confirm which version is correct.</p>
+  </div>
+</div>
+
+<!-- Page 9: Suspended Ceilings Preston -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Preston</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-preston/" target="_blank">/suspended-ceilings-preston/</a>
+    <div class="verdict"><span class="badge badge-minor">Minor Differences</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:40%">Doc says</th><th style="width:45%">Site says</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-changed">Changed</span></td>
+          <td>Council permits FAQ: "Yes, we understand City of Darebin requirements and <strong>can assist with necessary permits and compliance documentation</strong> for your Preston property."</td>
+          <td>"We can assist by providing relevant information to support your application; however, <strong>obtaining permits and approvals is the responsibility of the property owner.</strong>"</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:13px; color:#856404; font-weight:600;">⚠ Same permit responsibility pattern as Williams Landing. Confirm correct version with client/web PM.</p>
+  </div>
+</div>
+
+<!-- Page 10: Suspended Ceilings Cheltenham -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Cheltenham</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-cheltenham/" target="_blank">/suspended-ceilings-cheltenham/</a>
+    <div class="verdict"><span class="badge badge-minor">Minor Differences</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:40%">Doc says</th><th style="width:45%">Site says</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-changed">Changed</span></td>
+          <td>Permit FAQ: "Generally, internal ceiling replacements don't require permits…<strong>We handle all compliance checks for you.</strong>"</td>
+          <td>"We ensure all work meets relevant standards and guidelines, while <strong>any required permits are the responsibility of the property owner.</strong>"</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:13px; color:#856404; font-weight:600;">⚠ Same pattern. Confirm with client/web PM.</p>
+  </div>
+</div>
+
+<!-- Page 11: Suspended Ceilings Cremorne -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Cremorne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-cremorne/" target="_blank">/suspended-ceilings-cremorne/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, 7 FAQs, and CTAs match the approved doc. No discrepancies found.</div>
+  </div>
+</div>
+
+<!-- Page 12: Suspended Ceilings Richmond -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Richmond</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-richmond/" target="_blank">/suspended-ceilings-richmond/</a>
+    <div class="verdict"><span class="badge badge-match">✓ Match</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box">All headings, body text, 8 FAQs, and CTAs match the approved doc. (Note: "Richmond Homes" H2 error is in the approved doc too — it was in the brief as written. Flag to web PM separately.)</div>
+  </div>
+</div>
+
+<!-- Page 13: Suspended Ceilings Port Melbourne -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Port Melbourne</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-port-melbourne/" target="_blank">/suspended-ceilings-port-melbourne/</a>
+    <div class="verdict"><span class="badge badge-minor">Minor Differences</span></div>
+  </div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th style="width:15%">Type</th><th style="width:40%">Doc says</th><th style="width:45%">Site says</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="issue-missing">Missing</span></td>
+          <td>Business hours FAQ full answer: "Absolutely. We understand the importance of lowering disruption…<strong>Our team can work evenings, weekends, or in stages to accommodate your business schedule.</strong>"</td>
+          <td>Answer is truncated: "Absolutely. We understand the importance of lowering disruption to your operations." — the second sentence about availability is missing.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:12px; color:#888;">Low priority — one sentence truncated in one FAQ answer. Rest of the page matches.</p>
+  </div>
+</div>
+
+<!-- Page 14: Suspended Ceilings Collingwood -->
+<div class="section">
+  <div class="section-header">
+    <h2>Suspended Ceilings Collingwood</h2>
+    <a href="https://dantondevelopm.wpenginepowered.com/suspended-ceilings-collingwood/" target="_blank">/suspended-ceilings-collingwood/</a>
+    <div class="verdict"><span class="badge badge-nocompare">Cannot Compare</span></div>
+  </div>
+  <div class="section-body">
+    <div class="match-box" style="background:#f5f5f5; border-color:#aaa; color:#555;">The Google Doc is truncated for this page — no approved content was included. The staging site has a full page (6 FAQs, full body copy). Confirm with web team whether this content was approved separately or needs to be reviewed.</div>
+  </div>
+</div>
+
+<!-- Pages not in doc -->
+<div class="not-in-doc">
+  <h3>33 Pages on Staging Site — Not Covered by the Google Doc</h3>
+  <p style="font-size:13px; color:#555; margin-bottom:12px;">These pages exist on the staging site but have no corresponding approved content in the Google Doc. They were either built from templates or covered in a separate brief.</p>
+  <div class="url-grid">
+    <span class="note-tag">/partition-walls-cheltenham/</span>
+    <span class="note-tag">/partition-walls-cremorne/</span>
+    <span class="note-tag">/partition-walls-epping/</span>
+    <span class="note-tag">/partition-walls-geelong/</span>
+    <span class="note-tag">/partition-walls-grovedale/</span>
+    <span class="note-tag">/partition-walls-moolap/</span>
+    <span class="note-tag">/partition-walls-port-melbourne/</span>
+    <span class="note-tag">/partition-walls-preston/</span>
+    <span class="note-tag">/partition-walls-richmond/</span>
+    <span class="note-tag">/partition-walls-southbank/</span>
+    <span class="note-tag">/partition-walls-collingwood/</span>
+    <span class="note-tag">/partition-walls-truganina/</span>
+    <span class="note-tag">/partition-walls-williams-landing/</span>
+    <span class="note-tag">/suspended-ceilings-geelong/</span>
+    <span class="note-tag">/suspended-ceilings-grovedale/</span>
+    <span class="note-tag">/suspended-ceilings-moolap/</span>
+    <span class="note-tag">/suspended-ceilings-southbank/</span>
+    <span class="note-tag">/drop-ceilings/</span>
+    <span class="note-tag">/plaster-ceilings/</span>
+    <span class="note-tag">/plastering/</span>
+    <span class="note-tag">/commercial-partition-walls/</span>
+    <span class="note-tag">/factory-partition-walls/</span>
+    <span class="note-tag">/shop-partition-walls/</span>
+    <span class="note-tag">/office-fitouts/</span>
+    <span class="note-tag">/shop-fitouts/</span>
+    <span class="note-tag">/office-partitions-walls/</span>
+    <span class="note-tag">/partition-walls/</span>
+    <span class="note-tag">/exposed-grid-ceilings/</span>
+    <span class="note-tag">/about/</span>
+    <span class="note-tag">/areas/</span>
+    <span class="note-tag">/services/</span>
+    <span class="note-tag">/projects/</span>
+    <span class="note-tag">/contact-us/</span>
+  </div>
+</div>
+
+<!-- Action Summary -->
+<div class="section">
+  <div class="section-header"><h2>Action Summary</h2></div>
+  <div class="section-body">
+    <table>
+      <thead><tr><th>#</th><th>Action</th><th>Priority</th><th>Owner</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Build full approved content on /office-partition-walls/ — currently a stub page. Use the Google Doc content.</td>
+          <td style="color:#dc3545; font-weight:700;">Critical — Must Do</td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Confirm permit/council responsibility wording for /suspended-ceilings-williams-landing/, /suspended-ceilings-preston/, /suspended-ceilings-cheltenham/ — doc says "we handle it", site says "owner's responsibility"</td>
+          <td style="color:#e67e22; font-weight:700;">Must Confirm</td>
+          <td>Web PM + Client</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Confirm /suspended-ceilings-collingwood/ content was separately approved (doc was truncated for this page)</td>
+          <td style="color:#e67e22; font-weight:700;">Must Confirm</td>
+          <td>Web PM</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Add missing sentence to /suspended-ceilings-port-melbourne/ FAQ: "Our team can work evenings, weekends, or in stages to accommodate your business schedule."</td>
+          <td style="color:#856404;">Low Priority</td>
+          <td>Web PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
