@@ -93,8 +93,8 @@
     <tbody>
       <tr>
         <td class="url-cell">/drop-ceilings/</td>
-        <td class="meta-text">Expert drop ceiling installation in Melbourne &amp; Geelong. Commercial, retail &amp; industrial grid and tile ceiling systems. 25+ years experience. Free quotes.</td>
-        <td>155</td>
+        <td class="meta-text">Expert drop ceiling installation in Melbourne &amp; Geelong. Commercial, industrial &amp; residential grid and tile ceiling systems. 25+ years experience. Free quotes.</td>
+        <td>158</td>
       </tr>
       <tr>
         <td class="url-cell">/shop-partition-walls/</td>
@@ -128,7 +128,7 @@
       </tr>
       <tr>
         <td class="url-cell">/contact-us/</td>
-        <td class="meta-text">Contact Danton Developments for suspended ceilings &amp; partition walls in Melbourne. Free quotes for commercial &amp; residential projects. Call 0403 709 884.</td>
+        <td class="meta-text">Get in touch with Danton Developments for suspended ceilings, partition walls &amp; ceiling repairs in Melbourne. Call 0403 709 884 or send us a message.</td>
         <td>151</td>
       </tr>
       <tr>
@@ -138,13 +138,13 @@
       </tr>
       <tr>
         <td class="url-cell">/plaster-ceilings/</td>
-        <td class="meta-text">Expert plaster ceiling installation in Melbourne. Concealed ceilings, bulkheads, fire-rated systems &amp; repairs for commercial &amp; residential projects. Free quote.</td>
-        <td>160</td>
+        <td class="meta-text">Expert plaster ceiling installation in Melbourne &amp; Geelong. Concealed ceilings, bulkheads, fire-rated systems &amp; repairs for commercial &amp; residential projects.</td>
+        <td>159</td>
       </tr>
       <tr>
         <td class="url-cell">/projects/</td>
-        <td class="meta-text">Browse Danton Developments' project gallery — suspended ceilings, partition walls, fitouts &amp; plastering across Melbourne &amp; Geelong. 3,000+ projects delivered.</td>
-        <td>158</td>
+        <td class="meta-text">Browse completed projects from Danton Developments — suspended ceilings, partition walls, glass partitions &amp; ceiling repairs across Melbourne &amp; Geelong.</td>
+        <td>152</td>
       </tr>
       <tr>
         <td class="url-cell">/services/</td>
@@ -158,213 +158,80 @@
 <!-- SECTION 2 — ISSUES FOUND -->
 <div class="section">
   <h2>2. Issues Found</h2>
-  <p class="subtitle">All 47 pages checked via Screaming Frog + sense-check. Only issues listed below — all other pages clean.</p>
+  <p class="subtitle">All 47 pages checked. Issues only — all other pages clean. All 34 approved URLs confirmed present on staging.</p>
 
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">H1</p>
-  <ul class="issue-list" style="margin-bottom:22px;">
-    <li class="fail">
-      <div class="label">/suspended-ceilings-richmond/ — H2 wrong content</div>
-      <div class="detail">H2 reads "Richmond Homes" on a commercial suspended ceilings page. Change to "Richmond Businesses" or remove "Homes". H1 itself is correct.</div>
-    </li>
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:22%">Page</th>
+        <th style="width:12%">Element</th>
+        <th style="width:33%">Issue</th>
+        <th style="width:33%">Fix</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#fff8f8;">
+        <td class="url-cell">/suspended-ceilings-richmond/</td>
+        <td>H2</td>
+        <td>H2 reads "Richmond Homes" on a commercial page</td>
+        <td>Remove "Homes" — change to "Richmond" only</td>
+      </tr>
+      <tr style="background:#fff8e8;">
+        <td>All 47 pages</td>
+        <td>H2 structure</td>
+        <td>"Send us a message" (form widget) renders as first H2, before content headings</td>
+        <td>Developer to ensure content H2 tags appear before the contact form widget in page HTML</td>
+      </tr>
+      <tr style="background:#fff8f8;">
+        <td class="url-cell">/suspended-ceilings-grovedale/</td>
+        <td>Meta description</td>
+        <td>Says "Transform your dated Grovedale home" — this is a commercial page, not residential</td>
+        <td>Replace "home" with "workspace". E.g. "Transform your Grovedale workspace with modern suspended ceilings…"</td>
+      </tr>
+      <tr style="background:#fff8f8;">
+        <td>12 pages (see Section 1)</td>
+        <td>Meta description</td>
+        <td>Missing meta description</td>
+        <td>Add copy from Section 1</td>
+      </tr>
+      <tr style="background:#fff8f8;">
+        <td class="url-cell">/office-partitions-walls/</td>
+        <td>Page content</td>
+        <td>Stub page — ~80 words live vs 600+ words of approved copy in the Google Doc. All FAQs missing.</td>
+        <td>Build full page content as per approved brief before go-live</td>
+      </tr>
+      <tr style="background:#fff8f8;">
+        <td class="url-cell">/suspended-ceilings-williams-landing/ /suspended-ceilings-preston/ /suspended-ceilings-cheltenham/</td>
+        <td>FAQ — permits</td>
+        <td>Doc says Danton handles permits. Site says it is the "property owner's responsibility." Legal/liability discrepancy.</td>
+        <td>Confirm with client which version is correct before go-live</td>
+      </tr>
+      <tr style="background:#fffdf0;">
+        <td>30 pages</td>
+        <td>Spelling &amp; grammar</td>
+        <td>Recurring sitewide errors: "stress-free", "energy effectiveness", "25 decades" (Grovedale), project count inconsistency</td>
+        <td>Fix via template editor — see separate spelling audit report for page-by-page detail</td>
+      </tr>
+      <tr style="background:#f0f7ff;">
+        <td>Production domain</td>
+        <td>noindex</td>
+        <td>Staging correctly set to noindex, nofollow — must be removed on go-live</td>
+        <td>Remove noindex and apply correct index directives when live on dantondevelopments.com.au</td>
+      </tr>
+      <tr style="background:#fdf6ff;">
+        <td>Go-live email</td>
+        <td>Communication</td>
+        <td>Client needs to be informed that 12 new meta descriptions have been added</td>
+        <td>Web PM to include in go-live email to client. SEO PM is not responsible for this communication.</td>
+      </tr>
+    </tbody>
+  </table>
 
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">H2 — Site-Wide Observation</p>
-  <div class="warn-box" style="margin-bottom:22px;">
-    <strong>All 47 pages — "Send us a message" appearing as first H2</strong>
-    The contact form widget heading renders before content H2s in the HTML. Actual content subheadings are not registering as the primary H2 in Screaming Frog. Developer to confirm content H2 tags appear before the form widget in page structure.
-  </div>
-
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">Meta Descriptions — Issues Only</p>
-  <ul class="issue-list" style="margin-bottom:22px;">
-    <li class="fail">
-      <div class="label">12 pages missing — copy written in Section 1</div>
-      <div class="detail">/drop-ceilings/, /shop-partition-walls/, /factory-partition-walls/, /shop-fitouts/, /office-fitouts/, /about/, /commercial-partition-walls/, /contact-us/, /plastering/, /plaster-ceilings/, /projects/, /services/</div>
-    </li>
-    <li class="fail">
-      <div class="label">/suspended-ceilings-grovedale/ — Wrong content</div>
-      <div class="detail">Meta description says "Transform your dated Grovedale <strong>home</strong>" — this is a commercial page. Remove "home". Suggested fix: "Transform your Grovedale workspace with modern suspended ceilings. Reduce energy costs, control noise &amp; improve your commercial space. Free quotes."</div>
-    </li>
-  </ul>
-
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">URL Verification</p>
-  <ul class="issue-list">
-    <li class="info">
-      <div class="label">All 34 approved pages confirmed present on staging</div>
-      <div class="detail">Every URL from the keyword-URL mapping sheet was found on the staging site with the correct slug. No missing pages.</div>
-    </li>
-  </ul>
-</div>
-
-<!-- SECTION 3 — COMPLETE TO-DO LIST -->
-<div class="section">
-  <h2>3. Complete To-Do List</h2>
-  <p class="subtitle">Every item that needs actioning before go-live, including the 12 meta descriptions with full copy ready to paste into the CMS.</p>
-
-  <div class="note-box" style="margin-bottom:18px;">
+  <div class="note-box" style="margin-top:16px;">
     <strong>Related Reports</strong>
     Spelling &amp; Grammar Audit: <code>spelling-mistakes-finder/dantondevelopm.wpenginepowered.com.html</code><br>
     Content Comparison (Doc vs Site): <code>seo/clients/dantondevelopments.com.au/pre-launch-audit/content-comparison.html</code>
   </div>
-
-  <table>
-    <thead>
-      <tr><th style="width:4%">#</th><th style="width:20%">Page / Area</th><th style="width:52%">Action / Copy to Add</th><th style="width:12%">Priority</th><th style="width:12%">Owner</th></tr>
-    </thead>
-    <tbody>
-      <tr style="background:#fdf6ff;">
-        <td colspan="5" style="font-weight:700;color:#4a1d96;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Meta Descriptions — Add to CMS (12 pages)</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td class="url-cell">/drop-ceilings/</td>
-        <td>Expert drop ceiling installation in Melbourne &amp; Geelong. Commercial, retail &amp; industrial grid and tile ceiling systems. 25+ years experience. Free quotes.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td class="url-cell">/shop-partition-walls/</td>
-        <td>Shop partition walls in Melbourne &amp; Geelong. Plasterboard, aluminium &amp; glass options for retail spaces. Minimal disruption to operations. Get a free quote.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td class="url-cell">/factory-partition-walls/</td>
-        <td>Industrial-grade factory partition walls in Melbourne &amp; Geelong. Create offices within warehouses, separate work zones &amp; improve workflow. Free quotes.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td class="url-cell">/shop-fitouts/</td>
-        <td>Expert shop fitouts in Melbourne &amp; Geelong. Ceilings, partition walls &amp; plastering for retail spaces. Small upgrades to full transformations. Free quote.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td class="url-cell">/office-fitouts/</td>
-        <td>Professional office fitouts in Melbourne &amp; Geelong. Suspended ceilings, partition walls &amp; plastering. 25+ years experience. Results tailored to your vision.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td class="url-cell">/about/</td>
-        <td>Danton Developments brings 25+ years of ceiling &amp; partition expertise to Melbourne &amp; Geelong. Commercial &amp; residential projects done right. Meet our team.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td class="url-cell">/commercial-partition-walls/</td>
-        <td>Commercial partition walls in Melbourne &amp; Geelong. Plasterboard, aluminium &amp; glass systems for offices &amp; workplaces. Space maximisation &amp; privacy. Free quote.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td class="url-cell">/contact-us/</td>
-        <td>Contact Danton Developments for suspended ceilings &amp; partition walls in Melbourne. Free quotes for commercial &amp; residential projects. Call 0403 709 884.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td class="url-cell">/plastering/</td>
-        <td>Professional plastering in Melbourne &amp; Geelong. New installations, repairs &amp; surface finishing for commercial, industrial &amp; residential spaces. Free quotes.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td class="url-cell">/plaster-ceilings/</td>
-        <td>Expert plaster ceiling installation in Melbourne. Concealed ceilings, bulkheads, fire-rated systems &amp; repairs for commercial &amp; residential projects. Free quote.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td class="url-cell">/projects/</td>
-        <td>Browse Danton Developments' project gallery — suspended ceilings, partition walls, fitouts &amp; plastering across Melbourne &amp; Geelong. 3,000+ projects delivered.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>12</td>
-        <td class="url-cell">/services/</td>
-        <td>Explore all services from Danton Developments — suspended ceilings, partition walls, office &amp; shop fitouts, and plastering in Melbourne &amp; Geelong. Free quotes.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr style="background:#fff8f8;">
-        <td colspan="5" style="font-weight:700;color:#721c24;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Content &amp; Copy Fixes</td>
-      </tr>
-      <tr>
-        <td>13</td>
-        <td class="url-cell">/suspended-ceilings-grovedale/</td>
-        <td>Meta description says "home" — this is a commercial page. Remove "home", replace with commercial focus. See Section 2 for suggested copy.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>14</td>
-        <td class="url-cell">/suspended-ceilings-richmond/</td>
-        <td><strong>Issue:</strong> H2 reads "Richmond Homes" on a commercial suspended ceilings page.<br><strong>Fix:</strong> Change to "Richmond Businesses" or remove "Homes" entirely. H1 itself is correct — only the H2 needs updating.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>15</td>
-        <td class="url-cell">/office-partitions-walls/ (stub)</td>
-        <td>Page has ~80 words. Approved Google Doc has 600+ words of copy + FAQs. Build full page content as per approved brief before go-live.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>16</td>
-        <td class="url-cell">Permit FAQ — 3 pages</td>
-        <td>Doc says Danton handles permits. Site says it is the "property owner's responsibility." Confirm with client which is correct — this is a legal/liability statement. Pages: /suspended-ceilings-williams-landing/, /suspended-ceilings-preston/, /suspended-ceilings-cheltenham/.</td>
-        <td><span class="badge badge-fail">Must Confirm</span></td>
-        <td>Web PM + Client</td>
-      </tr>
-      <tr>
-        <td>17</td>
-        <td>Spelling &amp; grammar — sitewide</td>
-        <td>30 pages have issues. Fix recurring errors via template editor: "stress-free" → "seamless", "energy effectiveness" → "energy efficiency", "25 decades" (Grovedale), "nearly 3,000" vs "3,000+" inconsistency. See full spelling audit report for page-by-page detail.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM / Copywriter</td>
-      </tr>
-      <tr style="background:#f0f7f0;">
-        <td colspan="5" style="font-weight:700;color:#155724;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Technical — Go-Live</td>
-      </tr>
-      <tr>
-        <td>18</td>
-        <td>H2 structure — developer</td>
-        <td>Contact form heading renders as first H2 on all pages. Developer to ensure content subheadings (H2 tags) appear before the form widget in page HTML.</td>
-        <td><span class="badge badge-warn">Should Do</span></td>
-        <td>Developer</td>
-      </tr>
-      <tr>
-        <td>19</td>
-        <td>Remove noindex on go-live</td>
-        <td>Staging correctly set to noindex, nofollow. Remove this and apply correct index directives when site goes live on dantondevelopments.com.au.</td>
-        <td><span class="badge badge-fail">Must Do</span></td>
-        <td>Web PM / Developer</td>
-      </tr>
-      <tr style="background:#fdf6ff;">
-        <td colspan="5" style="font-weight:700;color:#4a1d96;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Communication</td>
-      </tr>
-      <tr>
-        <td>20</td>
-        <td>Meta descriptions — client notification</td>
-        <td>Include in go-live email to client: 12 new meta descriptions have been added. SEO PM is not responsible — Web PM to include in go-live communication.</td>
-        <td><span class="badge badge-action">Communication</span></td>
-        <td>Web PM</td>
-      </tr>
-    </tbody>
-  </table>
 </div>
 
 </div>
