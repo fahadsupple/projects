@@ -64,10 +64,10 @@
 
 <div class="stats">
   <div class="stat red"><div class="number">12</div><div class="label">Missing Meta Descriptions</div></div>
-  <div class="stat yellow"><div class="number">8</div><div class="label">Titles Missing Brand Name</div></div>
-  <div class="stat yellow"><div class="number">3</div><div class="label">Brand Name Truncated in Title</div></div>
-  <div class="stat purple"><div class="number">1</div><div class="label">H1 Wrong Content</div></div>
-  <div class="stat green"><div class="number">23</div><div class="label">Fully Clean Pages</div></div>
+  <div class="stat purple"><div class="number">1</div><div class="label">H1 Wrong Content (Richmond)</div></div>
+  <div class="stat red"><div class="number">1</div><div class="label">Meta Desc Wrong Content (Grovedale)</div></div>
+  <div class="stat red"><div class="number">1</div><div class="label">Stub Page (office partitions)</div></div>
+  <div class="stat green"><div class="number">34</div><div class="label">Approved URLs Confirmed Present</div></div>
 </div>
 
 <div class="container">
@@ -174,30 +174,6 @@
     The contact form widget heading renders before content H2s in the HTML. Actual content subheadings are not registering as the primary H2 in Screaming Frog. Developer to confirm content H2 tags appear before the form widget in page structure.
   </div>
 
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">Meta Titles — Issues Only (11 pages)</p>
-  <table style="margin-bottom:22px;">
-    <thead>
-      <tr>
-        <th style="width:32%">URL</th>
-        <th style="width:44%">Current Title</th>
-        <th style="width:24%">Issue</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background:#fff8f8;"><td class="url-cell">/areas/</td><td>Suspended Ceilings Near Me | Melbourne &amp; Geelong Experts</td><td>No brand name. "Near Me" intent doesn't match a service areas index page.</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/ceiling-replacement-repairs/</td><td>Ceiling Replacement Melbourne | Commercial Repairs</td><td>Missing "Danton Developments" at end</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/glass-partition-walls/</td><td>Glass Partition Walls Melbourne | Office Partitions</td><td>Missing "Danton Developments" at end</td></tr>
-      <tr style="background:#fffdf0;"><td class="url-cell">/partition-walls-cheltenham/</td><td>Partition Walls Cheltenham | Office Fitouts | Danton</td><td>Truncated — "Danton" only, add " Developments"</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/partition-walls-cremorne/</td><td>Partition Walls Cremorne | Office Fitouts Melbourne</td><td>Missing "Danton Developments" at end</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/partition-walls-epping/</td><td>Partition Walls Epping - Office Fitouts &amp; Commercial</td><td>Missing "Danton Developments". Uses dash instead of pipe.</td></tr>
-      <tr style="background:#fffdf0;"><td class="url-cell">/partition-walls-grovedale/</td><td>Partition Walls Grovedale | Office Fitouts | Danton</td><td>Truncated — "Danton" only, add " Developments"</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/partition-walls-southbank/</td><td>Partition Walls Southbank | Office Fitouts Melbourne</td><td>Missing "Danton Developments" at end</td></tr>
-      <tr style="background:#fffdf0;"><td class="url-cell">/partition-walls-truganina/</td><td>Partition Walls Truganina | Office Fitouts | Danton</td><td>Truncated — "Danton" only, add " Developments"</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/partition-walls-williams-landing/</td><td>Partition Walls Williams Landing | Office Fitouts</td><td>Missing "Danton Developments" at end</td></tr>
-      <tr style="background:#fff8f8;"><td class="url-cell">/suspended-ceilings-epping/</td><td>Suspended Ceilings Epping | Expert Installation Services</td><td>Missing "Danton Developments". Replace trailing segment with "| Danton Developments".</td></tr>
-    </tbody>
-  </table>
-
   <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">Meta Descriptions — Issues Only</p>
   <ul class="issue-list" style="margin-bottom:22px;">
     <li class="fail">
@@ -211,18 +187,10 @@
   </ul>
 
   <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">URL Verification</p>
-  <ul class="issue-list" style="margin-bottom:22px;">
-    <li class="warn">
-      <div class="label">/office-partitions-walls/ — Slug anomaly</div>
-      <div class="detail">URL uses "partitions" (plural) before "walls". This URL is not listed in the approved keyword-URL mapping. Confirm with SEO PM whether this page should be renamed or redirected before go-live.</div>
-    </li>
-  </ul>
-
-  <p style="font-weight:700;color:#1e3a5f;margin-bottom:10px;font-size:13px;">Company Name</p>
   <ul class="issue-list">
-    <li class="warn">
-      <div class="label">3 titles truncated to "Danton" — missing " Developments"</div>
-      <div class="detail">/partition-walls-truganina/, /partition-walls-grovedale/, /partition-walls-cheltenham/ — also flagged in Meta Titles above.</div>
+    <li class="info">
+      <div class="label">All 34 approved pages confirmed present on staging</div>
+      <div class="detail">Every URL from the keyword-URL mapping sheet was found on the staging site with the correct slug. No missing pages.</div>
     </li>
   </ul>
 </div>
@@ -343,7 +311,7 @@
       <tr>
         <td>14</td>
         <td class="url-cell">/suspended-ceilings-richmond/</td>
-        <td>H2 reads "Richmond Homes" — change to "Richmond Businesses" or remove "Homes". Wrong content for a commercial page.</td>
+        <td><strong>Issue:</strong> H2 reads "Richmond Homes" on a commercial suspended ceilings page.<br><strong>Fix:</strong> Change to "Richmond Businesses" or remove "Homes" entirely. H1 itself is correct — only the H2 needs updating.</td>
         <td><span class="badge badge-fail">Must Do</span></td>
         <td>Web PM</td>
       </tr>
@@ -368,49 +336,18 @@
         <td><span class="badge badge-fail">Must Do</span></td>
         <td>Web PM / Copywriter</td>
       </tr>
-      <tr style="background:#fffdf0;">
-        <td colspan="5" style="font-weight:700;color:#856404;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Meta Titles — Should Do</td>
-      </tr>
-      <tr>
-        <td>18</td>
-        <td class="url-cell">/areas/</td>
-        <td>Add "Danton Developments" brand name. Consider changing "Near Me" to "Service Areas Melbourne" for better intent match.</td>
-        <td><span class="badge badge-warn">Should Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>19</td>
-        <td>8 titles missing brand name</td>
-        <td>/ceiling-replacement-repairs/, /glass-partition-walls/, /partition-walls-cremorne/, /partition-walls-epping/, /partition-walls-southbank/, /partition-walls-williams-landing/, /suspended-ceilings-epping/, /office-partitions-walls/ — replace trailing descriptor with "| Danton Developments".</td>
-        <td><span class="badge badge-warn">Should Do</span></td>
-        <td>Web PM</td>
-      </tr>
-      <tr>
-        <td>20</td>
-        <td>3 titles truncated brand name</td>
-        <td>/partition-walls-truganina/, /partition-walls-grovedale/, /partition-walls-cheltenham/ — title ends "| Danton". Add " Developments" to complete.</td>
-        <td><span class="badge badge-warn">Should Do</span></td>
-        <td>Web PM</td>
-      </tr>
       <tr style="background:#f0f7f0;">
         <td colspan="5" style="font-weight:700;color:#155724;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Technical — Go-Live</td>
       </tr>
       <tr>
-        <td>21</td>
-        <td class="url-cell">/office-partitions-walls/ slug</td>
-        <td>URL uses "partitions" (plural) — not in the approved keyword mapping. Confirm with SEO PM: rename, redirect, or leave as-is.</td>
-        <td><span class="badge badge-warn">Should Do</span></td>
-        <td>Web PM + SEO PM</td>
-      </tr>
-      <tr>
-        <td>22</td>
+        <td>18</td>
         <td>H2 structure — developer</td>
         <td>Contact form heading renders as first H2 on all pages. Developer to ensure content subheadings (H2 tags) appear before the form widget in page HTML.</td>
         <td><span class="badge badge-warn">Should Do</span></td>
         <td>Developer</td>
       </tr>
       <tr>
-        <td>23</td>
+        <td>19</td>
         <td>Remove noindex on go-live</td>
         <td>Staging correctly set to noindex, nofollow. Remove this and apply correct index directives when site goes live on dantondevelopments.com.au.</td>
         <td><span class="badge badge-fail">Must Do</span></td>
@@ -420,7 +357,7 @@
         <td colspan="5" style="font-weight:700;color:#4a1d96;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.4px;">Communication</td>
       </tr>
       <tr>
-        <td>24</td>
+        <td>20</td>
         <td>Meta descriptions — client notification</td>
         <td>Include in go-live email to client: 12 new meta descriptions have been added. SEO PM is not responsible — Web PM to include in go-live communication.</td>
         <td><span class="badge badge-action">Communication</span></td>
