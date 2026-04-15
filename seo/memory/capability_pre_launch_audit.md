@@ -30,12 +30,14 @@ type: feedback
 12. Final email items from on-page team — confirm each has been addressed
 13. Indexability — confirm noindex on staging, confirm it's removed on go-live
 
-## Report format (updated Apr 2026)
+## Report format (confirmed standard — apply to all future pre-launch audits)
+
+One file only: `on-page-audit-report.html`. This is the only file sent to the team. No separate spelling report.
 
 Keep the report concise — only flag issues, never include pass rows. Structure:
 - Section 1: Meta descriptions written (URL as clickable link | meta description | chars)
 - Section 2: Issues Found — 4-column table (Page | Element | Issue | Fix)
-- Section 3: Spelling & Grammar — single table. List every issue under the page URL it appears on. No "recurring errors" sub-table. URLs must be clickable links. Priority issues at top.
+- Section 3: Spelling & Grammar — single table. List every issue under the page URL it appears on. No "recurring errors" sub-table. URLs must be clickable links. Priority issues (wrong facts, critical errors) at top.
 
 ## Folder rule — all deliverables in client folder
 
@@ -43,7 +45,7 @@ All output goes under `seo/clients/[domain]/pre-launch-audit/`. This includes:
 - `on-page-audit-report.html` — main report (includes spelling section inline)
 - `content-comparison.html` — if content doc provided
 
-The spelling/grammar report is embedded as Section 3 of on-page-audit-report.html. No separate file. Never save to `spelling-mistakes-finder/` or any tool folder.
+The spelling/grammar audit is embedded as Section 3 of on-page-audit-report.html. No separate file. Never save to `spelling-mistakes-finder/` or any tool folder.
 
 **Key rule updated (Apr 2026):** Do NOT check H1/H2/titles/meta descriptions randomly — check EVERY page. Use Screaming Frog CSV for bulk checks. Sense-check means: does the data on the page match what the URL says the page is about?
 
