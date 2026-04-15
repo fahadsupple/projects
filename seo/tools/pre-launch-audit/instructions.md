@@ -119,24 +119,21 @@ If any of these are missing, ask for them before proceeding.
 
 ## Deliverable Format
 
+ALL deliverables must be saved under the client's pre-launch-audit folder: `seo/clients/[domain]/pre-launch-audit/`. Never save to tool folders or any other location.
+
 ### Main audit report: `seo/clients/[domain]/pre-launch-audit/on-page-audit-report.html`
 
 Must include:
-- Summary stat cards (missing meta descs, title issues, spelling pages with issues, clean pages)
-- Section 1: Meta descriptions written (table: URL + H1 | meta description | char count)
-- Section 2: H1 full audit — ALL pages (table: URL | H1 | Sense-check result | Status)
-- Section 3: H2 full audit — ALL pages (table: URL | H2-1 | Status)
-- Section 4: Meta title full audit — ALL pages (table: URL | Title | Length | Sense-check | Status)
-- Section 5: Meta description issues — existing descriptions that are too long or mismatched
-- Section 6: URL verification results
-- Section 7: Company name check results
-- Section 8: Checks passed
-- Section 9: Manual checks required (mobile forms, on-page team email items, noindex)
-- Section 10: Recommended actions table (action | priority | owner)
+- Summary stat cards (issues found, URLs confirmed, etc.)
+- Section 1: Meta descriptions written — table: URL (clickable link) | Meta Description to Add | Chars
+- Section 2: Issues Found — 4-column table: Page | Element | Issue | Fix. Strip all pass rows — only include issues.
+- Section 3: Spelling & Grammar — single table per page. No "recurring errors" sub-table — list every issue under the page URL it appears on. URLs must be clickable links. Priority issues (wrong facts, critical errors) at top.
 
-### Spelling/grammar report: `/home/invoi/fahad_projects/spelling-mistakes-finder/[staging-domain].html`
+Do NOT include a separate section per check type (H1 audit, H2 audit, etc.) unless the client specifically requests it. Keep the report concise — only flag issues, never include pass rows.
 
-Standard format per spelling-mistakes-finder capability instructions.
+### Spelling/grammar report: `seo/clients/[domain]/pre-launch-audit/spelling-grammar-audit.html`
+
+Incorporated directly into on-page-audit-report.html as Section 3. A separate file is no longer created.
 
 ### Content comparison (if content doc provided): `seo/clients/[domain]/pre-launch-audit/content-comparison.html`
 

@@ -46,6 +46,7 @@ global/                       ← global rules (CLAUDE.md, task_tracker.py)
 - Root `memory/` → auto-loaded by Claude — write here AND at `.claude/projects/` path
 - **Never create files outside this structure without asking**
 - **Never create a new top-level domain folder without user approval**
+- **All project deliverables must stay in the client folder** — reports, audit outputs, and any generated files go under `seo/clients/[domain]/[capability]/`. Tool folders (`seo/tools/[capability]/`) are for scripts and instructions only — never for client output.
 
 ## Adding a new domain
 If a task doesn't fit any existing domain: "This looks like [X] work — should I create a new domain for it?" If yes, create: `[domain]/`, `[domain]/CLAUDE.md`, `[domain]/memory/MEMORY.md`.

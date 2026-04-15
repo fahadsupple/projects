@@ -115,6 +115,8 @@ All work for a given client lives under `seo/clients/[client-domain]/[capability
 
 **Why:** Everything for a client is findable in one place, capability subfolders prevent cross-capability file sprawl.
 
+**Hard rule — ALL project deliverables stay in the client folder:** Every report, audit output, or generated file produced as part of a client engagement must be saved under `seo/clients/[domain]/[capability]/`. Never save client deliverables to shared tool folders (e.g., `spelling-mistakes-finder/`, `tools/`) — those folders are for scripts and instructions only, not for client output.
+
 ### Rules
 - Never create a new top-level domain folder without explicit user approval
 - Never create files outside the correct domain structure without asking
