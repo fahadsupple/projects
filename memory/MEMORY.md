@@ -22,3 +22,4 @@
 - [dantondevelopments.com.au](project_dantondevelopments.md) — Danton Developments, suspended ceilings & partitions Melbourne, GKP + HTML deliverable pending
 - [triplejfurniture.com.au](project_triplejfurniture.md) — Triple J Furniture Sydney ecommerce, plan delivered v1.4 (8 Apr 2026) ✅
 - [verdehomes.com.au](project_verdehomes.md) — Verde Homes luxury builders Melbourne, spelling/content audit 6/12 pages done
+- [acsdebtcollection.com.au](project_acsdebtcollection.md) — ACS Debt Collection, B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research initialized Apr 2026
