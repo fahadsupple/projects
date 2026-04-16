@@ -24,7 +24,7 @@ Client-specific memory lives inside each client's own folder:
 - `../clients/dantondevelopments.com.au/memory/` — Danton Developments
 
 ## SEO Capabilities (Tools)
-- **Internal Linking** — `../tools/internal-linking/` — crawl_internal_links.py, project-instructions.txt
+- **Internal Linking** — `../tools/internal-linking/` — crawl_internal_links.py, project-instructions.txt — deliverable format in [capability_internal_linking.md](capability_internal_linking.md)
 - **Spelling Mistakes Finder** — `../tools/spelling-mistakes-finder/` — project-instructions.txt
 - **Keyword Research** — process defined in keyword_research_master.md
 - **Pre-Launch Audit** — `../tools/pre-launch-audit/instructions.md` — full instructions in [capability_pre_launch_audit.md](capability_pre_launch_audit.md). Deliverable: `seo/clients/[domain]/pre-launch-audit/on-page-audit-report.html`

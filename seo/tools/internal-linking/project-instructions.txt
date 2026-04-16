@@ -156,29 +156,55 @@ PROHIBITED
 
 ---
 
-PROJECT FILE FORMAT (developer handoff)
------------------------------------------
+DEVELOPER HANDOFF FORMAT
+-------------------------
 
-File: /home/invoi/fahad_projects/internal linking/Projects/{domain}.txt
+Two files are always produced for every internal linking engagement:
+  1. {domain}.txt  — source of truth, plain text
+  2. {domain}.html — identical content, rendered for sharing with developers
 
---- REQUEST: {keyword} | {target URL} | {date} ---
+Both files live at: seo/clients/{domain}/internal-linking/
 
-Link 1 of X
+--- FORMAT ---
+
+Group all links by SOURCE PAGE. Every page that needs edits gets one block.
+Within each page block, list every Find/Replace pair in sequence.
+
 Page: {full URL}
-Find:
-{exact content — no <p> tags, just inner text and <a> tags}
-Replace With:
-{exact modified content — no <p> tags}
 
-Link 2 of X
+Find:
+{exact inner text of the element — no <p> tags}
+Replace With:
+{exact modified content with <a> tag inserted — full absolute href — HTML entities escaped in .html file}
+
+Find:
+{next paragraph on the same page}
+Replace With:
+{modified version}
+
+---
+
+Page: {next URL}
 ...
 
-Rules:
-- "Find:" and "Replace With:" labels are on their own line; content starts on the NEXT line
-- Never include <p> tags, metadata, anchor types, or reasoning
-- Append new --- REQUEST --- sections for new keywords on the same site
-- Mark implemented links as [IMPLEMENTED], removed as [REMOVED {date}: reason]
-- Mark updated entries as [UPDATED {date}: what changed]
+--- RULES ---
+
+- Group by source page — never by target keyword or batch
+- No REQUEST headers, no dates, no batch labels, no notes, no explanations
+- No audit findings, no summaries, no metadata of any kind
+- "Find:" and "Replace With:" labels on their own line; content starts on the NEXT line
+- Never include <p> tags in Find or Replace With
+- Separate page blocks with a line containing only: ---
+- Location page templates: label the page URL with [TEMPLATE — apply to ALL /slug-[suburb]/ pages]
+- If "Find" text contains bold in the original, retain <strong> tags in Replace With
+- Use full absolute URLs in all href attributes
+
+--- HTML FILE ---
+
+- Monospace font, plain text style (white-space: pre-wrap), no colour coding, no badges, no design
+- All HTML tags in Replace With blocks must be entity-escaped: < → &lt;  > → &gt;
+- No header section, no explanatory copy — start directly with the first Page: block
+- Serve on localhost (python3 -m http.server 8080) when user wants to review
 
 ---
 
