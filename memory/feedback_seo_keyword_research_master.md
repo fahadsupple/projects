@@ -50,6 +50,7 @@ originSessionId: 81e50042-3c9e-4c29-91de-238cd6a73314
 - Melbourne modifier preferred for relevance and local intent
 - **Melbourne modifier exception:** If Melbourne-modified version has 0 GKP volume but the national/unmodified term has volume AND: (a) client genuinely offers the service, (b) CPC is high, (c) no better Melbourne alternative exists, (d) term is not a subset of the primary — the unmodified term CAN be used as a secondary (entity signal value)
 - **Always add Melbourne modifier for reporting:** Even when GKP shows 0 volume for the Melbourne version, add the modifier to the keyword. Reason: easier to track and present rankings to clients; easier to rank for a modified term than unmodified national term
+- **City modifier rule — all 3 or none:** If a city modifier is used, it must cover ALL target cities as a cluster group (e.g. Sydney + Melbourne + Brisbane), not just 1 or 2 cities. If a keyword can't support all 3 city versions, use a national modifier (australia, services, etc.) instead. This prevents lopsided geographic coverage.
 
 ### Non-subset pairing rule
 - Two keywords on the same page must not be linguistic subsets of each other
