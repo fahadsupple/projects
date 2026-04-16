@@ -1,0 +1,100 @@
+{
+  "domain": "centralskylights.com.au",
+  "date_initialized": "2026-04-16",
+  "seranking": {
+    "project_id": 11626976,
+    "project_name": "centralskylights.com.au",
+    "site_url": "https://centralskylights.com.au/",
+    "is_active": 1,
+    "check_freq": "check_daily",
+    "match_mode": "subdomain",
+    "keyword_count": 10,
+    "search_engines": [
+      {
+        "site_engine_id": 3366283,
+        "search_engine_id": 211,
+        "region": "Melbourne, Victoria, Australia",
+        "language": "en",
+        "keyword_count": 10
+      }
+    ],
+    "tracked_keywords": [
+      "skylights melbourne",
+      "skylight replacement",
+      "skylight Installation melbourne",
+      "velux skylight installation",
+      "velux skylights melbourne",
+      "skylights for sale",
+      "skylight custom flashing",
+      "velux custom flashing",
+      "tiled roof skylights",
+      "metal roof skylights"
+    ]
+  },
+  "gsc": {
+    "connected": true,
+    "property_url": "https://centralskylights.com.au/",
+    "permission_level": "siteFullUser",
+    "service_account": "sa-etl-ingestion@data-warehouse-489000.iam.gserviceaccount.com"
+  },
+  "competitors": {
+    "source": "DataForSEO Labs — Google Competitors Domain (Australia)",
+    "top_5": [
+      {
+        "rank": 1,
+        "domain": "velux.com.au",
+        "intersections": 439,
+        "organic_keywords": 1096,
+        "etv": 35863
+      },
+      {
+        "rank": 2,
+        "domain": "shireskylights.com.au",
+        "intersections": 422,
+        "organic_keywords": 775,
+        "etv": 24405
+      },
+      {
+        "rank": 3,
+        "domain": "no1roofing.com.au",
+        "intersections": 388,
+        "organic_keywords": 7325,
+        "etv": 70143
+      },
+      {
+        "rank": 4,
+        "domain": "vividskylights.com.au",
+        "intersections": 377,
+        "organic_keywords": 1108,
+        "etv": 6778
+      },
+      {
+        "rank": 5,
+        "domain": "diamondskylights.com.au",
+        "intersections": 358,
+        "organic_keywords": 646,
+        "etv": 11228
+      }
+    ],
+    "extended_10": [
+      "velux.com.au",
+      "shireskylights.com.au",
+      "no1roofing.com.au",
+      "vividskylights.com.au",
+      "diamondskylights.com.au",
+      "naturallighting.com.au",
+      "ecosustainablehouse.com.au",
+      "customskylights.com.au",
+      "skyspan.com.au",
+      "veluxusa.com"
+    ]
+  },
+  "preflight": {
+    "seranking": "connected",
+    "dataforseo": "connected",
+    "gsc": "connected",
+    "lighthouse": "connected",
+    "ga4": "failed",
+    "playwright": "connected"
+  }
+}
