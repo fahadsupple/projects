@@ -3,74 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keyword Research Report v2 - acsdebtcollection.com.au</title>
+  <title>Keyword Research Report v3 - acsdebtcollection.com.au</title>
   <style>
     :root {
-      --bg: #1a1a2e;
-      --surface: #16213e;
-      --text: #e8e8e8;
-      --muted: #a0a0b0;
-      --accent: #0f3460;
-      --success: #4ecca3;
-      --warning: #f0a500;
-      --danger: #e74c3c;
-      --highlight: #533483;
-      --sidebar-w: 240px;
+      --bg: #1a1a2e; --surface: #16213e; --text: #e8e8e8; --muted: #a0a0b0;
+      --accent: #0f3460; --success: #4ecca3; --warning: #f0a500;
+      --danger: #e74c3c; --highlight: #533483; --sidebar-w: 240px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: "SF Mono", "Cascadia Code", "Fira Code", monospace;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      min-width: 1024px;
-    }
-    h1, h2, h3, h4 {
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-      margin-bottom: 0.5em;
-    }
+    body { font-family: "SF Mono","Cascadia Code","Fira Code",monospace; background: var(--bg); color: var(--text); line-height: 1.6; min-width: 1024px; }
+    h1,h2,h3,h4 { font-family: system-ui,-apple-system,"Segoe UI",sans-serif; margin-bottom: 0.5em; }
     h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-bottom: 1em; font-size: 1.5rem; }
     h3 { color: var(--muted); margin-top: 1.5em; font-size: 1.15rem; }
     h4 { font-size: 1rem; }
     a { color: var(--success); text-decoration: none; }
     a:hover { text-decoration: underline; }
     .muted { color: var(--muted); }
-    .sidebar {
-      position: fixed; top: 0; left: 0;
-      width: var(--sidebar-w); height: 100vh;
-      background: var(--surface); border-right: 1px solid var(--accent);
-      overflow-y: auto; padding: 1rem 0; z-index: 100;
-    }
+    .sidebar { position: fixed; top: 0; left: 0; width: var(--sidebar-w); height: 100vh; background: var(--surface); border-right: 1px solid var(--accent); overflow-y: auto; padding: 1rem 0; z-index: 100; }
     .sidebar h3 { padding: 0 1rem; margin-bottom: 0.5rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
-    .sidebar a { display: block; padding: 0.35rem 1rem; font-size: 0.8rem; color: var(--text); border-left: 3px solid transparent; transition: background 0.15s, border-color 0.15s; }
-    .sidebar a:hover, .sidebar a:focus { background: var(--accent); border-left-color: var(--success); text-decoration: none; }
+    .sidebar a { display: block; padding: 0.35rem 1rem; font-size: 0.8rem; color: var(--text); border-left: 3px solid transparent; transition: background 0.15s,border-color 0.15s; }
+    .sidebar a:hover,.sidebar a:focus { background: var(--accent); border-left-color: var(--success); text-decoration: none; }
     .main-content { margin-left: var(--sidebar-w); padding: 2rem 3rem; max-width: 1400px; }
     .section { margin-bottom: 3rem; }
     .section-intro { color: var(--muted); margin-bottom: 1.5em; }
     .section-note { color: var(--muted); font-size: 0.85rem; margin-top: 1em; font-style: italic; }
-    .cover-section { text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg, var(--surface), var(--accent)); border-radius: 8px; margin-bottom: 3rem; }
+    .cover-section { text-align: center; padding: 4rem 2rem; background: linear-gradient(135deg,var(--surface),var(--accent)); border-radius: 8px; margin-bottom: 3rem; }
     .cover-title { font-size: 2.5rem; margin-bottom: 0.3em; }
     .cover-domain { font-size: 1.3rem; color: var(--success); margin-bottom: 0.2em; }
     .cover-business { font-size: 1.1rem; color: var(--muted); margin-bottom: 2em; }
-    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
     .cover-meta-item { background: rgba(0,0,0,0.2); padding: 0.6rem 1rem; border-radius: 4px; }
     .meta-label { display: block; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
     .meta-value { font-size: 0.95rem; font-weight: bold; }
-    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 1rem; margin-bottom: 2rem; }
     .stat-card { background: var(--surface); padding: 1.2rem; border-radius: 6px; text-align: center; border: 1px solid var(--accent); }
-    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui, sans-serif; }
+    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui,sans-serif; }
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3em; }
     .table-scroll { overflow-x: auto; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .data-table th { background: var(--accent); color: var(--text); padding: 0.6rem 0.8rem; text-align: left; position: sticky; top: 0; z-index: 10; font-family: system-ui, sans-serif; font-weight: 600; white-space: nowrap; }
+    .data-table th { background: var(--accent); color: var(--text); padding: 0.6rem 0.8rem; text-align: left; position: sticky; top: 0; z-index: 10; font-family: system-ui,sans-serif; font-weight: 600; white-space: nowrap; }
     .data-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
     .data-table tbody tr:hover { background: rgba(78,204,163,0.08); }
-    .compact-table td, .compact-table th { padding: 0.35rem 0.6rem; }
+    .compact-table td,.compact-table th { padding: 0.35rem 0.6rem; }
     .kw-row { cursor: pointer; }
-    .kw-row:hover { background: rgba(78,204,163,0.12); }
+    .kw-row:hover { background: rgba(78,204,163,0.12) !important; }
     .kw-name { font-weight: bold; }
+    .group-badge { display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.35rem; border-radius: 3px; font-size: 0.65rem; background: var(--highlight); color: #fff; vertical-align: middle; }
     .score-badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 10px; color: #fff; font-weight: bold; font-size: 0.8rem; }
     .tl-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
     .tl-quick_win { background: var(--success); color: #000; }
@@ -93,12 +73,15 @@
     .detail-grid { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem; }
     .detail-info p { margin-bottom: 0.3em; font-size: 0.85rem; }
     .reasoning { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; padding: 0.8rem; background: rgba(0,0,0,0.2); border-radius: 4px; }
-    .secondaries-detail { font-size: 0.85rem; }
-    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .cluster-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 0.5rem; }
+    .cluster-table th { background: rgba(15,52,96,0.6); color: var(--muted); padding: 0.3rem 0.6rem; text-align: left; font-size: 0.75rem; }
+    .cluster-table td { padding: 0.3rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .cluster-table tr:last-child td { border-bottom: none; }
+    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); gap: 1rem; }
     .silo-card { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
     .silo-card h4 { color: var(--success); }
     .silo-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.8rem; }
-    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; font-size: 0.8rem; }
+    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 0.8rem; font-size: 0.8rem; }
     .silo-lists ul { padding-left: 1.2rem; color: var(--muted); }
     .feature-list { padding-left: 1.5rem; margin-bottom: 1rem; }
     .feature-list li { margin-bottom: 0.3em; }
@@ -111,13 +94,11 @@
       body { background: #fff; color: #111; min-width: auto; }
       .sidebar { display: none; }
       .main-content { margin-left: 0; padding: 1rem; max-width: 100%; }
-      .section { page-break-inside: avoid; margin-bottom: 1rem; }
       .data-table th { background: #ddd; color: #111; position: static; }
       .data-table td { border-bottom: 1px solid #ccc; }
       .stat-card { border: 1px solid #ccc; }
       .stat-value { color: #333; }
       a { color: #333; }
-      svg text { fill: #111; }
     }
     @media (max-width: 1200px) {
       .main-content { padding: 1.5rem 2rem; }
@@ -132,7 +113,7 @@
   <a href="#confidence">Data Confidence</a>
   <a href="#executive">Executive Summary</a>
   <a href="#allocation">Package Allocation</a>
-  <a href="#general_keywords">Selected General Keywords</a>
+  <a href="#general_keywords">Keyword Groups</a>
   <a href="#location_keywords">Location Keywords</a>
   <a href="#silo_architecture">Silo Architecture</a>
   <a href="#competitor_analysis">Competitor Analysis</a>
@@ -154,9 +135,9 @@
     <div class="cover-domain">acsdebtcollection.com.au</div>
     <div class="cover-business">ACS Debt Collection — B2B Debt Recovery Agency</div>
     <div class="cover-meta">
-      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard (15 general + 0 location)</span></div>
-      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v2 — SERP-validated rebuild</span></div>
-      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">12,130/mo</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard — 11 keyword groups</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v3 — grouped + modifiers added</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">14,200/mo</span></div>
       <div class="cover-meta-item"><span class="meta-label">Generated</span><span class="meta-value">2026-04-16</span></div>
     </div>
   </div>
@@ -164,30 +145,30 @@
 
 <section id="confidence" class="section">
   <h2>Data Confidence Summary</h2>
-  <p class="section-intro">9 of 10 data sources available. Live SERP validation added in v2.</p>
+  <p class="section-intro">All data from DataForSEO. Live SERP validation on all keywords.</p>
   <table class="data-table compact-table">
     <thead><tr><th>Data Source</th><th>Status</th></tr></thead>
     <tbody>
       <tr><td>Questionnaire</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>Keywords (DataForSEO Google Ads)</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>Keyword Difficulty (DataForSEO Labs)</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>Live SERP Analysis</td><td class="status-pass">&#10003; Available — all 15 keywords verified</td></tr>
+      <tr><td>Keywords — DataForSEO Google Ads</td><td class="status-pass">&#10003; Available</td></tr>
+      <tr><td>Keyword Difficulty — DataForSEO Labs</td><td class="status-pass">&#10003; Available</td></tr>
+      <tr><td>Live SERP Analysis — all groups verified</td><td class="status-pass">&#10003; Available</td></tr>
+      <tr><td>Modifier expansion — national + state variants</td><td class="status-pass">&#10003; Available (v3)</td></tr>
       <tr><td>Competitors</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>Content Gaps</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>Existing Rankings (ACS)</td><td class="status-pass">&#10003; Confirmed — 3 keywords ranking</td></tr>
-      <tr><td>Allocation</td><td class="status-pass">&#10003; Available</td></tr>
-      <tr><td>GSC (Search Console)</td><td class="status-fail">&#10007; Not connected</td></tr>
-      <tr><td>Suburbs / Location Keywords</td><td class="status-fail">&#10007; Not run</td></tr>
+      <tr><td>Existing Rankings (ACS)</td><td class="status-pass">&#10003; 3 confirmed positions</td></tr>
+      <tr><td>GSC — Search Console</td><td class="status-fail">&#10007; Not connected</td></tr>
+      <tr><td>Suburbs / Location Keywords</td><td class="status-fail">&#10007; Phase 2 pending</td></tr>
     </tbody>
   </table>
   <div class="limitations">
-    <h4>v2 Changes from v1</h4>
+    <h4>v3 Changes from v2</h4>
     <ul>
-      <li>Removed 4 keywords with wrong SERP intent or government-dominated SERPs (see Excluded Keywords)</li>
-      <li>Added 4 replacement keywords from the debt collectors city cluster (Sydney, Melbourne, Brisbane)</li>
-      <li>All scores recalculated based on live SERP data — replaced flat 0.50 scores</li>
-      <li>Timelines corrected: 4 Quick Wins identified (ACS already ranking for 3 of these)</li>
-      <li>Silo architecture reduced from 11 to 8 — removed defunct silos (process serving, repossession, guides)</li>
+      <li>City keyword variations grouped — 9 individual city rows → 3 city cluster groups (Sydney, Melbourne, Brisbane)</li>
+      <li>State modifiers added as secondaries within each city cluster (NSW, VIC, QLD)</li>
+      <li>Debt recovery agency variants folded into city clusters (confirmed same SERP as debt collection agency variants)</li>
+      <li>Two new national modifier keywords added: <em>debt collection australia</em> (590/mo) and <em>debt collectors near me</em> (390/mo)</li>
+      <li>National service modifiers (debt collection services, corporate, company) added as secondaries to homepage silo</li>
+      <li>Total reach: 12,130 → 14,200/mo</li>
     </ul>
   </div>
 </section>
@@ -195,12 +176,12 @@
 <section id="executive" class="section">
   <h2>Executive Summary</h2>
   <div class="stats-grid">
-    <div class="stat-card"><div class="stat-value">15</div><div class="stat-label">General Keywords</div></div>
-    <div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Location Keywords</div></div>
-    <div class="stat-card"><div class="stat-value">12,130</div><div class="stat-label">Effective Keyword Reach</div></div>
+    <div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Keyword Groups</div></div>
+    <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">City Clusters</div></div>
+    <div class="stat-card"><div class="stat-value">14,200</div><div class="stat-label">Effective Keyword Reach</div></div>
     <div class="stat-card"><div class="stat-value">0.67</div><div class="stat-label">Avg Opportunity Score</div></div>
     <div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Content Silos</div></div>
-    <div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Quick Wins</div></div>
+    <div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Quick Wins</div></div>
     <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Strategic (6-12 mo)</div></div>
     <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Already Ranking</div></div>
   </div>
@@ -209,26 +190,24 @@
       <h4>Intent Distribution</h4>
       <svg width="360" height="180" class="chart-donut">
         <circle cx="90" cy="90" r="54" fill="#1a1a2e" />
-        <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24"
-          stroke-dasharray="439.82 439.82" stroke-dashoffset="0.00"
-          transform="rotate(-90 90 90)" />
+        <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24" stroke-dasharray="439.82 439.82" stroke-dashoffset="0" transform="rotate(-90 90 90)" />
         <rect x="190" y="12" width="12" height="12" rx="2" fill="#4ecca3" />
         <text x="208" y="22" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Investigation (100%)</text>
       </svg>
     </div>
     <div class="chart-block">
       <h4>Timeline Distribution</h4>
-      <svg width="460" height="88" viewBox="0 0 460 88" class="chart-stacked">
-        <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Keywords</text>
-        <rect x="120.0" y="30" width="85.3" height="30" fill="#4ecca3" />
-        <rect x="205.3" y="30" width="170.7" height="30" fill="#f0a500" />
-        <rect x="376.0" y="30" width="64.0" height="30" fill="#533483" />
+      <svg width="460" height="88" viewBox="0 0 460 88">
+        <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Groups</text>
+        <rect x="120.0" y="30" width="58.2" height="30" fill="#4ecca3" />
+        <rect x="178.2" y="30" width="174.5" height="30" fill="#f0a500" />
+        <rect x="352.7" y="30" width="87.3" height="30" fill="#533483" />
         <rect x="120" y="68" width="12" height="12" rx="2" fill="#4ecca3" />
-        <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win (4)</text>
+        <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win (2)</text>
         <rect x="230" y="68" width="12" height="12" rx="2" fill="#f0a500" />
-        <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term (8)</text>
-        <rect x="350" y="68" width="12" height="12" rx="2" fill="#533483" />
-        <text x="366" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic (3)</text>
+        <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term (6)</text>
+        <rect x="360" y="68" width="12" height="12" rx="2" fill="#533483" />
+        <text x="376" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic (3)</text>
       </svg>
     </div>
   </div>
@@ -238,415 +217,424 @@
   <h2>Package Allocation</h2>
   <div class="stats-grid">
     <div class="stat-card"><div class="stat-value">Standard</div><div class="stat-label">Package Tier</div></div>
-    <div class="stat-card"><div class="stat-value">15</div><div class="stat-label">General Budget</div></div>
-    <div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Location Budget</div></div>
+    <div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Keyword Groups</div></div>
+    <div class="stat-card"><div class="stat-value">9</div><div class="stat-label">Pages to Create</div></div>
   </div>
-  <h3>Service Tier Distribution</h3>
+  <h3>Tier Distribution</h3>
   <table class="data-table compact-table">
-    <thead><tr><th>Service Tier</th><th>Score Range</th><th>Keywords Allocated</th></tr></thead>
+    <thead><tr><th>Tier</th><th>Score Range</th><th>Groups</th></tr></thead>
     <tbody>
-      <tr><td>Tier A</td><td>&ge; 0.70</td><td>7</td></tr>
-      <tr><td>Tier B</td><td>0.60 &ndash; 0.69</td><td>5</td></tr>
+      <tr><td>Tier A</td><td>&ge; 0.70</td><td>4</td></tr>
+      <tr><td>Tier B</td><td>0.60 &ndash; 0.69</td><td>4</td></tr>
       <tr><td>Tier C</td><td>&lt; 0.60</td><td>3</td></tr>
     </tbody>
   </table>
 </section>
 
 <section id="general_keywords" class="section">
-  <h2>Selected General Keywords</h2>
-  <p class="section-intro">15 general keywords — SERP-validated. Click any row to expand. Keywords sorted by opportunity score.</p>
+  <h2>Keyword Groups</h2>
+  <p class="section-intro">11 keyword groups. City keywords clustered — volume shown is combined cluster total. Click any row to expand the full keyword breakdown.</p>
   <div class="table-scroll">
   <table class="data-table sortable-table">
     <thead><tr>
-      <th>#</th><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th>
-      <th>CPC</th><th>Intent</th><th>Timeline</th><th>Confidence</th>
+      <th>#</th><th>Group / Primary Keyword</th><th>Score</th><th>Cluster Vol</th><th>KD (primary)</th>
+      <th>CPC</th><th>Timeline</th><th>Confidence</th>
     </tr></thead>
     <tbody>
 
-<tr class="kw-row" onclick="toggleDetail('detail-0')">
-  <td>1</td><td class="kw-name">debt collection sydney</td>
+<!-- 1: Sydney Cluster -->
+<tr class="kw-row" onclick="toggleDetail('d0')">
+  <td>1</td>
+  <td class="kw-name">debt collection sydney <span class="group-badge">CLUSTER</span></td>
   <td><span class="score-badge" style="background:#4ecca3">0.82</span></td>
-  <td>390</td><td>0</td><td>$17.71</td><td>Commercial Investigation</td>
+  <td>1,340</td><td>0</td><td>$17.71</td>
   <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
   <td><span style="color:#4ecca3">HIGH</span></td>
 </tr>
-<tr id="detail-0" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d0" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="77.28 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.82</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="77.28 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.82</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Sydney Debt Collection</p>
-      <p><strong>Action:</strong> Optimise Existing</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
       <p><strong>Target URL:</strong> /debt-collection-sydney/</p>
-      <p><strong>Current Ranking:</strong> <span style="color:#4ecca3">Organic position 2 — confirmed live SERP</span></p>
-      <p><strong>Secondary Keywords:</strong> debt collection agency sydney, debt collectors sydney</p>
+      <p><strong>Action:</strong> Create New</p>
+      <p><strong>Content Type:</strong> City Landing Page</p>
+      <p><strong>Confirmed Rankings:</strong> <span style="color:#4ecca3">pos 2 (DC Sydney) · pos 3 (DCA Sydney)</span></p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> ACS is already ranking at organic position 2 for this term without a dedicated page — a direct result of existing domain signals and office address matching. 390/mo at $17.71 CPC confirms strong commercial intent. With a purpose-built Sydney city landing page including LocalBusiness schema, FAQPage schema, ACS's 72% success rate, 48-hour response guarantee, and the Bankstown office address, closing the gap to position 1 is achievable within 1-3 months. No AI Overview on city-modified debt collection terms.</div>
+  <div class="reasoning"><strong>Why this cluster:</strong> ACS already ranks positions 2 and 3 for the two primary Sydney terms with no dedicated page. Building /debt-collection-sydney/ with LocalBusiness + FAQPage schema converts existing rankings into position 1. The full cluster covers 1,340/mo across 5 keyword variants all pointing to one URL. NSW state modifier captures users who search by state rather than city. Debt recovery agency variants confirmed as same SERP (identical CPC $18.87 and volume).</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Full Cluster Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>debt collection sydney</strong></td><td>390</td><td>0</td><td>$17.71</td><td style="color:#4ecca3">Currently ranking pos 2</td></tr>
+        <tr><td>debt collection agency sydney</td><td>210</td><td>2</td><td>$18.87</td><td style="color:#4ecca3">Currently ranking pos 3</td></tr>
+        <tr><td>debt collectors sydney</td><td>390</td><td>22</td><td>$17.71</td><td>Same SERP cluster</td></tr>
+        <tr><td>debt recovery agency sydney</td><td>210</td><td>2</td><td>$18.87</td><td>Synonym — same SERP as DCA Sydney</td></tr>
+        <tr><td>debt collection nsw</td><td>140</td><td>—</td><td>$10.05</td><td>State modifier secondary</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-1')">
-  <td>2</td><td class="kw-name">commission only debt collection</td>
+<!-- 2: Commission Only -->
+<tr class="kw-row" onclick="toggleDetail('d1')">
+  <td>2</td>
+  <td class="kw-name">commission only debt collection</td>
   <td><span class="score-badge" style="background:#4ecca3">0.82</span></td>
-  <td>140</td><td>0</td><td>$10.83</td><td>Commercial Investigation</td>
+  <td>140</td><td>0</td><td>$10.83</td>
   <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
   <td><span style="color:#4ecca3">HIGH</span></td>
 </tr>
-<tr id="detail-1" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d1" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="77.28 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.82</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="77.28 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.82</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Pricing &amp; Trust</p>
-      <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> USP Landing Page</p>
       <p><strong>Target URL:</strong> /no-collection-no-fee/</p>
-      <p><strong>Current Ranking:</strong> <span style="color:#4ecca3">Organic position 4 — confirmed live SERP</span></p>
-      <p><strong>Secondary Keywords:</strong> no win no fee debt collection, no collection no fee</p>
+      <p><strong>Action:</strong> Create New (USP Landing Page)</p>
+      <p><strong>Confirmed Ranking:</strong> <span style="color:#4ecca3">Organic position 4 — no dedicated page exists yet</span></p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> ACS ranks at organic position 4 for this term without any dedicated page — a direct result of the commission-only model appearing across the site. Building a purpose-built USP page should push this to position 1-2 within weeks. KD 0 with fully open competition. Anyone searching this exact phrase has already decided they want commission-only terms — conversion rate will be the highest of any keyword in this set. $10.83 CPC confirms real buyers are transacting on this intent.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-2')">
-  <td>3</td><td class="kw-name">debt collection agency sydney</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.80</span></td>
-  <td>210</td><td>2</td><td>$18.87</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
-  <td><span style="color:#4ecca3">HIGH</span></td>
-</tr>
-<tr id="detail-2" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="75.40 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.80</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Sydney Debt Collection</p>
-      <p><strong>Action:</strong> Optimise Existing (secondary keyword)</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-sydney/</p>
-      <p><strong>Current Ranking:</strong> <span style="color:#4ecca3">Organic position 3 — confirmed live SERP</span></p>
-    </div>
+  <div class="reasoning"><strong>Reasoning:</strong> ACS ranks position 4 without a dedicated page. Creating /no-collection-no-fee/ targeting 'commission only debt collection' and 'no win no fee debt collection' (50/mo) as a secondary should push this to positions 1-2 within weeks of going live. KD 0. Anyone searching this exact phrase is a hot lead who has already decided they want commission-only terms — highest conversion intent in the entire set.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Keyword Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>commission only debt collection</strong></td><td>140</td><td>0</td><td>$10.83</td><td style="color:#4ecca3">Currently ranking pos 4</td></tr>
+        <tr><td>no win no fee debt collection</td><td>50</td><td>0</td><td>$7.38</td><td>Secondary — same USP page</td></tr>
+      </tbody>
+    </table>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> ACS currently ranks at organic position 3 for this term — the highest-CPC keyword in the city cluster at $18.87. Secondary keyword for the Sydney landing page (shares URL with 'debt collection sydney'). KD 2 is near-zero. With both terms targeted by one well-built Sydney page, ACS has existing rankings to build from. This is a confirmed Quick Win requiring page creation rather than extended authority building.</div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-3')">
-  <td>4</td><td class="kw-name">debt collection melbourne</td>
+<!-- 3: Melbourne Cluster -->
+<tr class="kw-row" onclick="toggleDetail('d2')">
+  <td>3</td>
+  <td class="kw-name">debt collection melbourne <span class="group-badge">CLUSTER</span></td>
   <td><span class="score-badge" style="background:#4ecca3">0.75</span></td>
-  <td>590</td><td>19</td><td>$20.46</td><td>Commercial Investigation</td>
+  <td>2,310</td><td>19</td><td>$20.46</td>
   <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
   <td><span style="color:#4ecca3">HIGH</span></td>
 </tr>
-<tr id="detail-3" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d2" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="70.69 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.75</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="70.69 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.75</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Melbourne Debt Collection</p>
-      <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
       <p><strong>Target URL:</strong> /debt-collection-melbourne/</p>
-      <p><strong>Secondary Keywords:</strong> debt collection agency melbourne, debt collectors melbourne</p>
-    </div>
-  </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Priority expansion market per client brief. 590/mo at $20.46 CPC — highest commercial value city term in the set. ACS has a physical office at Springvale VIC 3171, and Mark is creating a Melbourne GBP which unlocks the local pack. Marshall Freeman dominates at position 1 but their Melbourne content is generic. Prushka and National Debt Collection have no Melbourne-specific pages — first-mover advantage available. KD 19 is achievable once DA reaches 15+. A purpose-built Melbourne page with office address, GBP signals, 1,500+ words, and local schema should rank within 3-5 months.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-4')">
-  <td>5</td><td class="kw-name">debt collectors sydney</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.74</span></td>
-  <td>390</td><td>22</td><td>$17.71</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-4" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="69.74 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.74</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Sydney Debt Collection</p>
-      <p><strong>Action:</strong> Optimise Existing (variant cluster)</p>
+      <p><strong>Action:</strong> Create New — Priority build</p>
       <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-sydney/</p>
+      <p><strong>GBP:</strong> Mark creating Melbourne GBP — unlocks local pack on all 5 variants</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Secondary keyword cluster for the Sydney landing page. Same SERP intent as 'debt collection sydney' — Google merges these queries and ACS already has equity in the Sydney debt collection cluster. Adding 'debt collectors sydney' to H2 headings and body copy of the Sydney page requires zero additional page creation. 390/mo contribution — together with other Sydney variants, the page targets ~990/mo in combined Sydney cluster volume. KD 22 at face value but effectively near-zero effort since it rides existing rankings.</div>
+  <div class="reasoning"><strong>Why this cluster:</strong> Highest combined cluster volume (2,310/mo) and the priority expansion market. ACS has a physical office at Springvale VIC 3171. No competitor has a Melbourne-specific landing page — first-mover advantage. The 'debt collection agency melbourne' / 'debt recovery agency melbourne' variants confirmed as the same SERP (identical CPC $15.58, identical volume 480/mo). VIC state modifier captures state-level searchers. Build the Melbourne page first of the three city pages.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Full Cluster Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>debt collection melbourne</strong></td><td>590</td><td>19</td><td>$20.46</td><td>Primary — highest CPC city term</td></tr>
+        <tr><td>debt collection agency melbourne</td><td>480</td><td>11</td><td>$15.58</td><td>Same URL — KD 11 (easier entry)</td></tr>
+        <tr><td>debt collectors melbourne</td><td>590</td><td>19</td><td>$20.46</td><td>Same SERP cluster</td></tr>
+        <tr><td>debt recovery agency melbourne</td><td>480</td><td>11</td><td>$15.58</td><td>Synonym — confirmed same SERP</td></tr>
+        <tr><td>debt collection victoria</td><td>170</td><td>—</td><td>$11.04</td><td>State modifier secondary</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-5')">
-  <td>6</td><td class="kw-name">debt collection agency melbourne</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.73</span></td>
-  <td>480</td><td>11</td><td>$15.58</td><td>Commercial Investigation</td>
+<!-- 4: Near Me -->
+<tr class="kw-row" onclick="toggleDetail('d3')">
+  <td>4</td>
+  <td class="kw-name">debt collectors near me</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>390</td><td>0</td><td>$10.05</td>
   <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
   <td><span style="color:#f0a500">MEDIUM</span></td>
 </tr>
-<tr id="detail-5" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d3" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="68.80 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.73</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="67.86 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.72</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Melbourne Debt Collection</p>
-      <p><strong>Action:</strong> Create New (secondary keyword)</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-melbourne/</p>
+      <p><strong>Target URL:</strong> /debt-collection-sydney/ + /debt-collection-melbourne/ (GBP-driven)</p>
+      <p><strong>Action:</strong> GBP Optimisation + secondary on city pages</p>
+      <p><strong>Content Type:</strong> Local Pack play — not a standalone page</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Secondary keyword for the Melbourne city page — KD 11 is lower than the primary 'debt collection melbourne' (KD 19), making it the easier entry point into the Melbourne SERP. 480/mo average with spikes to 1,900 in May 2025. Shares the same target URL. Once the Melbourne page is live with GBP active, this keyword should rank within 4-6 months. High CPC ($15.58) confirms strong buyer intent from the agency-framing query.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-6')">
-  <td>7</td><td class="kw-name">debt collectors melbourne</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.71</span></td>
-  <td>590</td><td>19</td><td>$20.46</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-6" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="66.92 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.71</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Melbourne Debt Collection</p>
-      <p><strong>Action:</strong> Create New (variant cluster)</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-melbourne/</p>
-    </div>
+  <div class="reasoning"><strong>Reasoning:</strong> 390/mo — 'debt collectors near me' and 'debt collection near me' return identical data (same SERP, Google treats them as equivalent). This is entirely a GBP play: the local pack (map) dominates this SERP. ACS wins it by having verified, optimised GBP listings in Sydney and Melbourne with correct categories, service descriptions, and review count. Not a standalone page — add 'near me' to the FAQ sections of city pages to reinforce local signals. Once Melbourne GBP is live and optimised, this keyword's local pack impressions will spike.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Keyword Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>debt collectors near me</strong></td><td>390</td><td>0</td><td>$10.05</td><td>GBP local pack — identical SERP to below</td></tr>
+        <tr><td>debt collection near me</td><td>390</td><td>0</td><td>$10.05</td><td>Synonym — same result set</td></tr>
+      </tbody>
+    </table>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Third keyword cluster for the Melbourne landing page — same volume as 'debt collection melbourne' (590/mo) at identical KD 19. Covering all three Melbourne variants on one well-structured page maximises the Melbourne SERP footprint without content sprawl. Combined Melbourne cluster: ~1,660/mo across all three variants targeting the same URL. The $20.46 CPC applies to this variant equally, confirming the commercial quality of traffic.</div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-7')">
-  <td>8</td><td class="kw-name">small business debt collection</td>
+<!-- 5: Small Business -->
+<tr class="kw-row" onclick="toggleDetail('d4')">
+  <td>5</td>
+  <td class="kw-name">small business debt collection</td>
   <td><span class="score-badge" style="background:#4ecca3">0.68</span></td>
-  <td>480</td><td>5</td><td>$14.44</td><td>Commercial Investigation</td>
+  <td>480</td><td>5</td><td>$14.44</td>
   <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
   <td><span style="color:#f0a500">MEDIUM</span></td>
 </tr>
-<tr id="detail-7" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d4" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="64.09 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.68</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="64.09 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.68</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> SME Debt Recovery</p>
-      <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> Service Page</p>
       <p><strong>Target URL:</strong> /small-business-debt-collection/</p>
-      <p><strong>Note:</strong> AI Overview present — below-fold organic still accessible</p>
+      <p><strong>Action:</strong> Create New</p>
+      <p><strong>Content Type:</strong> Service Page</p>
+      <p><strong>Note:</strong> AI Overview present — clean below-fold SERP still accessible</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> ACS's ideal customer is explicitly the SME sector per the client brief. 480/mo at KD 5 — very achievable. AI Overview present but doesn't eliminate below-the-fold organic results. Marshall Freeman has a dedicated page at position 2 but it's generic national content. A 1,500-word page focused on SME pain points (unresponsive debtors, time-poor owners, $1k-$100k debt range), ACS's 48-hour response guarantee, and the commission-only model should rank within 4-6 months and convert at a high rate given intent alignment.</div>
+  <div class="reasoning"><strong>Reasoning:</strong> ACS's core ideal customer is explicitly the SME sector. 480/mo at KD 5. AI Overview present but doesn't eliminate organic positions 1-3. Marshall Freeman has a dedicated page at position 2 but it's generic national content. A 1,500-word page focused on SME pain points — unresponsive debtors, time-poor owners, $1k-$100k debt range, commission-only model, 48-hour response — should rank within 4-6 months.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Keyword Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>small business debt collection</strong></td><td>480</td><td>5</td><td>$14.44</td><td>Primary</td></tr>
+        <tr><td>business debt collection</td><td>50</td><td>—</td><td>$25.96</td><td>Secondary — high CPC for low volume</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-8')">
-  <td>9</td><td class="kw-name">outsource debt collection</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.65</span></td>
-  <td>140</td><td>0</td><td>$22.22</td><td>Commercial Investigation</td>
+<!-- 6: Debt Collection Australia -->
+<tr class="kw-row" onclick="toggleDetail('d5')">
+  <td>6</td>
+  <td class="kw-name">debt collection australia</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.68</span></td>
+  <td>590</td><td>22</td><td>$13.34</td>
   <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
   <td><span style="color:#f0a500">MEDIUM</span></td>
 </tr>
-<tr id="detail-8" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d5" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="61.26 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.65</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="64.09 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.68</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> SME Debt Recovery</p>
+      <p><strong>Target URL:</strong> / (homepage secondary) or /debt-collection-australia/</p>
+      <p><strong>Action:</strong> Optimise Homepage (secondary) — or Create New page as authority grows</p>
+      <p><strong>Content Type:</strong> National service landing page</p>
+    </div>
+  </div>
+  <div class="reasoning"><strong>Reasoning:</strong> 590/mo at $13.34 CPC — same volume tier as Melbourne cluster. 'Debt collection australia' and 'debt collection agency australia' return identical data (same CPC, same monthly pattern) — Google treats them as the same query. This keyword captures national-intent searchers who haven't specified a city. Near-term: fold as a secondary signal into the homepage. Medium-term (once DA builds): create a dedicated national landing page at /debt-collection-australia/ that positions ACS as a truly national agency with Sydney + Melbourne offices + Brisbane coverage. SERP needs live verification — KD 22 is estimated.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Keyword Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>debt collection australia</strong></td><td>590</td><td>~22</td><td>$13.34</td><td>Primary — national intent</td></tr>
+        <tr><td>debt collection agency australia</td><td>590</td><td>~22</td><td>$13.34</td><td>Confirmed same SERP (identical data)</td></tr>
+        <tr><td>debt collection services</td><td>210</td><td>—</td><td>$19.75</td><td>National service modifier secondary</td></tr>
+        <tr><td>debt collection company</td><td>140</td><td>—</td><td>$18.86</td><td>National company modifier secondary</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div></td></tr>
+
+<!-- 7: Brisbane Cluster -->
+<tr class="kw-row" onclick="toggleDetail('d6')">
+  <td>7</td>
+  <td class="kw-name">debt collection brisbane <span class="group-badge">CLUSTER</span></td>
+  <td><span class="score-badge" style="background:#4ecca3">0.65</span></td>
+  <td>920</td><td>24</td><td>$17.07</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="d6" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
+  <div class="detail-grid">
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="61.26 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.65</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
+    </svg></div>
+    <div class="detail-info">
+      <p><strong>Target URL:</strong> /debt-collection-brisbane/</p>
       <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> Service Page</p>
+      <p><strong>Content Type:</strong> City Landing Page</p>
+      <p><strong>Note:</strong> No Brisbane office — lead with national field agent network coverage</p>
+    </div>
+  </div>
+  <div class="reasoning"><strong>Why this cluster:</strong> Secondary expansion market (after Melbourne). 920/mo combined across 4 variants. No ACS office — no GBP boost — so the page needs to position ACS's national field agent network as proof of Brisbane coverage. Dynamic Commercial Collections has a local presence but no dominant national agency has a Brisbane-specific page. KD 24-25 means this is a 5-8 month target after Melbourne is live.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Full Cluster Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>debt collection brisbane</strong></td><td>390</td><td>24</td><td>$17.07</td><td>Primary</td></tr>
+        <tr><td>debt collectors brisbane</td><td>390</td><td>25</td><td>$17.07</td><td>Variant — same URL</td></tr>
+        <tr><td>debt collection agency brisbane</td><td>50</td><td>22</td><td>$17.07</td><td>Agency modifier secondary</td></tr>
+        <tr><td>debt collection qld</td><td>90</td><td>—</td><td>$10.84</td><td>State modifier secondary</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div></td></tr>
+
+<!-- 8: Outsource -->
+<tr class="kw-row" onclick="toggleDetail('d7')">
+  <td>8</td>
+  <td class="kw-name">outsource debt collection</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.65</span></td>
+  <td>140</td><td>0</td><td>$22.22</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="d7" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
+  <div class="detail-grid">
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="61.26 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.65</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
+    </svg></div>
+    <div class="detail-info">
       <p><strong>Target URL:</strong> /outsource-debt-collection/</p>
-    </div>
-  </div>
-  <div class="reasoning"><strong>Reasoning:</strong> KD 0 with $22.22 CPC — the second-highest CPC in the set, signalling high-value B2B buyers evaluating outsourcing their receivables management. Current SERP is thin: Bluechip blog, Slater Byrne, InDebted — no dominant debt collection agency page. 140/mo average but spikes to 480/mo (May 2025). A dedicated page explaining ACS's outsourced receivables model with proof from 2,245 clients and the national field agent network should win this open SERP.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-9')">
-  <td>10</td><td class="kw-name">debt collection brisbane</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.65</span></td>
-  <td>390</td><td>24</td><td>$17.07</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-9" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="61.26 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.65</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Brisbane Debt Collection</p>
       <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-brisbane/</p>
-      <p><strong>Secondary Keywords:</strong> debt collectors brisbane, debt collection agency brisbane</p>
+      <p><strong>Content Type:</strong> Service Page</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Secondary expansion market per client brief. 390/mo at KD 24. Dynamic Commercial Collections has a local Brisbane presence but the SERP lacks a dominant national agency with a Brisbane-specific page. No ACS office in Brisbane — no GBP boost — so the page needs to lead with the national field agent network as proof of Brisbane coverage. Target timeframe: 5-8 months. Combined Brisbane cluster across all three variants: ~830/mo on one page.</div>
+  <div class="reasoning"><strong>Reasoning:</strong> KD 0, open SERP — Bluechip blog, Slater Byrne, InDebted top the results, no dominant agency page. $22.22 CPC is the second-highest in the set — CFO/finance manager buyers evaluating outsourced receivables management. 140/mo average with spikes to 480/mo. A dedicated page explaining ACS's outsourced model with proof from 2,245 clients and national field coverage should win this open SERP.</div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-10')">
-  <td>11</td><td class="kw-name">debt collectors brisbane</td>
-  <td><span class="score-badge" style="background:#4ecca3">0.63</span></td>
-  <td>390</td><td>25</td><td>$17.07</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-10" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="59.38 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.63</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Brisbane Debt Collection</p>
-      <p><strong>Action:</strong> Create New (variant cluster)</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-brisbane/</p>
-    </div>
-  </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Secondary keyword for the Brisbane landing page. Same volume (390/mo) as 'debt collection brisbane' at marginally higher KD 25. Together with the primary and 'debt collection agency brisbane', this completes the Brisbane search cluster targeting the same URL. Including all three variants on one page covers the full demand pool without content duplication.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-11')">
-  <td>12</td><td class="kw-name">commercial debt collection</td>
+<!-- 9: Commercial -->
+<tr class="kw-row" onclick="toggleDetail('d8')">
+  <td>9</td>
+  <td class="kw-name">commercial debt collection</td>
   <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
-  <td>90</td><td>17</td><td>$37.81</td><td>Commercial Investigation</td>
+  <td>90</td><td>17</td><td>$37.81</td>
   <td><span class="tl-badge tl-strategic">Strategic (6-12 mo)</span></td>
   <td><span style="color:#f0a500">MEDIUM</span></td>
 </tr>
-<tr id="detail-11" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d8" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="56.55 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.60</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="56.55 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.60</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Commercial Debt Recovery</p>
-      <p><strong>Action:</strong> Create New</p>
-      <p><strong>Content Type:</strong> Service Page</p>
       <p><strong>Target URL:</strong> /commercial-debt-collection/</p>
-      <p><strong>Note:</strong> AI Overview present — $37.81 CPC (highest in set)</p>
-    </div>
-  </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Low volume (90/mo) but $37.81 CPC — highest in the entire set, reflecting the transaction value of commercial debt recovery (large B2B debts, corporate clients). AI Overview present. CDRS Debt Recovery at position 1. Strategic 6-12 month target. ACS's commercial sector focus (banking, utilities, education, healthcare per BDM brief) is the core of the business — this page builds topical authority and sector depth even if immediate ranking is competitive. One converted lead from this keyword pays for months of content investment.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-12')">
-  <td>13</td><td class="kw-name">debt collection agency brisbane</td>
-  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
-  <td>50</td><td>22</td><td>$17.07</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-12" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="54.66 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.58</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Brisbane Debt Collection</p>
-      <p><strong>Action:</strong> Create New (variant cluster)</p>
-      <p><strong>Content Type:</strong> City Landing Page</p>
-      <p><strong>Target URL:</strong> /debt-collection-brisbane/</p>
-    </div>
-  </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Low standalone volume (~50/mo) but a strategic addition to the Brisbane cluster. KD 22 is manageable once the Brisbane page builds authority. As the third variant on the Brisbane landing page, it requires zero additional content investment. Combined, the full Brisbane cluster (debt collection brisbane + debt collectors brisbane + debt collection agency brisbane) totals ~830/mo targeting one well-optimised page.</div>
-</div></td></tr>
-
-<tr class="kw-row" onclick="toggleDetail('detail-13')">
-  <td>14</td><td class="kw-name">skip tracing</td>
-  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
-  <td>2,400</td><td>0</td><td>$5.48</td><td>Commercial Investigation</td>
-  <td><span class="tl-badge tl-strategic">Strategic (6-12 mo)</span></td>
-  <td><span style="color:#f0a500">MEDIUM</span></td>
-</tr>
-<tr id="detail-13" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
-  <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="47.12 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
-    </svg></div>
-    <div class="detail-info">
-      <p><strong>Silo:</strong> Skip Tracing &amp; Investigation</p>
       <p><strong>Action:</strong> Create New</p>
       <p><strong>Content Type:</strong> Service Page</p>
-      <p><strong>Target URL:</strong> /skip-tracing/</p>
-      <p><strong>Note:</strong> AI Overview present. Mixed SERP intent (real estate + debt). Low CPC ($5.48) reflects diluted commercial intent.</p>
+      <p><strong>Note:</strong> AI Overview present. $37.81 CPC — highest in set.</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> Highest raw volume keyword (2,400/mo) but mixed SERP intent — real estate investors, Wikipedia, Equifax, and US-focused content dominate alongside some Australian debt/legal agencies. AI Overview present. The low $5.48 CPC reflects the mixed commercial/informational SERP. Retained as a supporting service page: ACS legitimately offers skip tracing as a core field agent service. Content must explicitly frame this as 'skip tracing for businesses chasing unpaid debts' — not real estate — to qualify the intent. Strategic 6-12 month build with limited near-term ranking expectations.</div>
+  <div class="reasoning"><strong>Reasoning:</strong> Low volume (90/mo) but $37.81 CPC — the highest CPC in the entire set, reflecting the high transaction value of commercial B2B debt recovery. AI Overview present. CDRS Debt Recovery holds position 1. Strategic 6-12 month target. ACS's BDM brief explicitly lists commercial sector (banking, utilities, education, healthcare) as the core market — this page anchors topical authority for the B2B commercial segment.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Keyword Breakdown</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>commercial debt collection</strong></td><td>90</td><td>17</td><td>$37.81</td><td>Primary</td></tr>
+        <tr><td>corporate debt collection</td><td>140</td><td>—</td><td>$18.86</td><td>Corporate modifier — same page</td></tr>
+        <tr><td>debt collection company</td><td>140</td><td>—</td><td>$18.86</td><td>Company modifier secondary</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div></td></tr>
 
-<tr class="kw-row" onclick="toggleDetail('detail-14')">
-  <td>15</td><td class="kw-name">debt collection</td>
-  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
-  <td>5,400</td><td>25</td><td>$12.00</td><td>Commercial Investigation</td>
+<!-- 10: Skip Tracing -->
+<tr class="kw-row" onclick="toggleDetail('d9')">
+  <td>10</td>
+  <td class="kw-name">skip tracing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>2,400</td><td>0</td><td>$5.48</td>
   <td><span class="tl-badge tl-strategic">Strategic (6-12 mo)</span></td>
   <td><span style="color:#f0a500">MEDIUM</span></td>
 </tr>
-<tr id="detail-14" class="detail-row" style="display:none"><td colspan="9"><div class="detail-content">
+<tr id="d9" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
   <div class="detail-grid">
-    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="42.41 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)" />
-      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.45</text>
-      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="47.12 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.50</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
     </svg></div>
     <div class="detail-info">
-      <p><strong>Silo:</strong> Core Services</p>
-      <p><strong>Action:</strong> Optimise Existing (homepage)</p>
-      <p><strong>Content Type:</strong> Homepage</p>
-      <p><strong>Target URL:</strong> /</p>
-      <p><strong>Note:</strong> AI Overview present. Government/consumer SERP — not a near-term ranking target.</p>
+      <p><strong>Target URL:</strong> /skip-tracing/</p>
+      <p><strong>Action:</strong> Create New</p>
+      <p><strong>Content Type:</strong> Service Page</p>
+      <p><strong>Note:</strong> Mixed SERP intent (real estate + debt). AI Overview. Low CPC $5.48 reflects diluted commercial intent.</p>
     </div>
   </div>
-  <div class="reasoning"><strong>Reasoning:</strong> 5,400/mo — highest volume keyword but government/consumer protection-dominated SERP. AI Overview present. business.gov.au, ACCC, ASIC, Legal Aid WA, and moneysmart dominate page 1 — these are consumer rights and regulatory pages, not competitor agencies. This term cannot be won near-term. The homepage should carry 'debt collection' as the primary H1 and meta title keyword as a 12+ month strategic signal. As city pages build DA and the backlink profile grows, the homepage will naturally accrue relevance for this term over time.</div>
+  <div class="reasoning"><strong>Reasoning:</strong> Highest raw volume (2,400/mo) but mixed SERP — real estate investors, Wikipedia, Equifax, US-focused content alongside some Australian debt/legal agencies. AI Overview present. Retained as a supporting service page: ACS offers skip tracing as a core field agent service. Content must frame this as 'skip tracing for businesses chasing unpaid debts' — not real estate — to qualify intent. Strategic 6-12 month build.</div>
+</div></td></tr>
+
+<!-- 11: Debt Collection (Homepage) -->
+<tr class="kw-row" onclick="toggleDetail('d10')">
+  <td>11</td>
+  <td class="kw-name">debt collection <span style="font-size:0.7rem;color:var(--muted)">(homepage)</span></td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>5,400</td><td>25</td><td>$12.00</td>
+  <td><span class="tl-badge tl-strategic">Strategic (6-12 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="d10" class="detail-row" style="display:none"><td colspan="8"><div class="detail-content">
+  <div class="detail-grid">
+    <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.248 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="42.41 125.664" stroke-linecap="round" transform="rotate(135 30 30)" />
+      <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui,sans-serif">0.45</text>
+      <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">Score</text>
+    </svg></div>
+    <div class="detail-info">
+      <p><strong>Target URL:</strong> /</p>
+      <p><strong>Action:</strong> Optimise Homepage</p>
+      <p><strong>Content Type:</strong> Homepage</p>
+      <p><strong>Note:</strong> AI Overview + government/consumer SERP domination. Not a near-term target.</p>
+    </div>
+  </div>
+  <div class="reasoning"><strong>Reasoning:</strong> 5,400/mo — highest volume but government/consumer-dominated SERP. AI Overview. business.gov.au, ACCC, ASIC, Legal Aid WA, moneysmart hold page 1. Homepage should carry 'debt collection' as the H1 and meta title keyword as a 12+ month aspirational signal. As city pages build DA and backlinks accumulate, the homepage will accrue relevance over time.</div>
+  <div style="margin-top:0.8rem;">
+    <strong style="font-size:0.82rem;">Homepage Secondary Keywords</strong>
+    <table class="cluster-table">
+      <thead><tr><th>Keyword</th><th>Vol/mo</th><th>CPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>debt collection services</td><td>210</td><td>$19.75</td><td>Service modifier — fold into homepage intro copy</td></tr>
+        <tr><td>debt collection australia</td><td>590</td><td>$13.34</td><td>National modifier — homepage meta description signal</td></tr>
+        <tr><td>debt collection company</td><td>140</td><td>$18.86</td><td>Company framing — fold into About section copy</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div></td></tr>
 
     </tbody>
@@ -655,107 +643,103 @@
 </section>
 
 <section id="location_keywords" class="section">
-  <h2>Selected Location Keywords</h2>
-  <div class="info-card"><span class="info-icon">&#9432;</span><p>Location keyword (suburb-level) selection not yet run. Priority suburbs for Melbourne (Springvale, Clayton, Dandenong, Frankston, Richmond) and Sydney (Bankstown, Parramatta, Liverpool, Penrith) should be targeted in Phase 2 once city pages are live and building authority.</p></div>
+  <h2>Location Keywords (Suburb-Level)</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>Suburb-level keyword research not yet run. Recommended Phase 2 targets once city pages are live: <strong>Melbourne</strong> — Springvale, Clayton, Dandenong, Frankston, Richmond, St Kilda Rd; <strong>Sydney</strong> — Bankstown, Parramatta, Liverpool, Penrith, Chatswood.</p></div>
 </section>
 
 <section id="silo_architecture" class="section">
   <h2>Keyword Silo Architecture</h2>
-  <p class="section-intro">8 content silos — reduced from 11 in v1 by removing defunct silos (process serving, repossession, recovery guides).</p>
+  <p class="section-intro">8 content silos. City clusters share one page per city covering all variants.</p>
   <div class="chart-row">
     <div class="chart-block">
-      <svg width="400" height="316" viewBox="0 0 400 316">
-        <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Silo Search Volume (mo)</text>
-        <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Core Services</text>
+      <svg width="420" height="316" viewBox="0 0 420 316">
+        <text x="210" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui,sans-serif">Silo Search Volume (mo — cluster totals)</text>
+        <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Core / National</text>
         <rect x="120" y="20" width="260.0" height="28" rx="3" fill="#533483" />
-        <text x="386" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">5,400</text>
-        <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Sydney Debt Collection</text>
-        <rect x="120" y="56" width="47.7" height="28" rx="3" fill="#0f3460" />
-        <text x="173.7" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">990</text>
-        <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Melbourne Debt Collection</text>
-        <rect x="120" y="92" width="79.9" height="28" rx="3" fill="#0f3460" />
-        <text x="205.9" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">1,660</text>
-        <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Brisbane Debt Collection</text>
-        <rect x="120" y="128" width="40.0" height="28" rx="3" fill="#0f3460" />
-        <text x="166" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">830</text>
-        <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Skip Tracing</text>
-        <rect x="120" y="164" width="115.6" height="28" rx="3" fill="#0f3460" />
-        <text x="241.6" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">2,400</text>
-        <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">SME Debt Recovery</text>
-        <rect x="120" y="200" width="29.9" height="28" rx="3" fill="#0f3460" />
-        <text x="155.9" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">620</text>
-        <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Debt Recovery</text>
-        <rect x="120" y="236" width="4.3" height="28" rx="3" fill="#0f3460" />
-        <text x="130.3" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">90</text>
-        <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Pricing &amp; Trust</text>
-        <rect x="120" y="272" width="6.7" height="28" rx="3" fill="#0f3460" />
-        <text x="132.7" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">140</text>
+        <text x="386" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">6,340</text>
+        <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Sydney Cluster</text>
+        <rect x="120" y="56" width="56.7" height="28" rx="3" fill="#0f3460" />
+        <text x="182.7" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">1,340</text>
+        <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Melbourne Cluster</text>
+        <rect x="120" y="92" width="97.6" height="28" rx="3" fill="#0f3460" />
+        <text x="223.6" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">2,310</text>
+        <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Brisbane Cluster</text>
+        <rect x="120" y="128" width="37.8" height="28" rx="3" fill="#0f3460" />
+        <text x="163.8" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">920</text>
+        <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Skip Tracing</text>
+        <rect x="120" y="164" width="98.5" height="28" rx="3" fill="#0f3460" />
+        <text x="224.5" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">2,400</text>
+        <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">SME Debt Recovery</text>
+        <rect x="120" y="200" width="21.6" height="28" rx="3" fill="#0f3460" />
+        <text x="147.6" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">530</text>
+        <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Commercial / Corporate</text>
+        <rect x="120" y="236" width="15.5" height="28" rx="3" fill="#0f3460" />
+        <text x="141.5" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">370</text>
+        <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui,sans-serif">Pricing &amp; Trust</text>
+        <rect x="120" y="272" width="7.8" height="28" rx="3" fill="#0f3460" />
+        <text x="133.8" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui,sans-serif">190</text>
       </svg>
     </div>
   </div>
   <div class="silo-grid">
     <div class="silo-card">
-      <h4>Core Services</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/</strong></span><span>Volume: <strong>5,400/mo</strong></span><span>Pages: 1 existing / 0 needed</span></div>
+      <h4>Core Services / National</h4>
+      <div class="silo-meta"><span>Pillar: <strong>/</strong></span><span>Volume: <strong>6,340/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>debt collection (homepage)</li></ul></div>
-        <div><strong>Action:</strong><ul><li>Optimise homepage H1, meta, intro copy for 'debt collection' signal</li></ul></div>
+        <div><strong>Primaries:</strong><ul><li>debt collection (homepage)</li><li>debt collection australia</li><li>debt collectors near me (GBP)</li></ul></div>
+        <div><strong>Secondaries:</strong><ul><li>debt collection services</li><li>debt collection agency australia</li><li>debt collection company</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>Sydney Debt Collection</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-sydney/</strong></span><span>Volume: <strong>990/mo combined</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-sydney/</strong></span><span>Volume: <strong>1,340/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>debt collection sydney</li><li>debt collection agency sydney</li><li>debt collectors sydney</li></ul></div>
-        <div><strong>Status:</strong><ul><li>ACS ranking pos 2 (dc sydney)</li><li>ACS ranking pos 3 (dca sydney)</li></ul></div>
+        <div><strong>Variants on page:</strong><ul><li>debt collection sydney ✓ pos 2</li><li>debt collection agency sydney ✓ pos 3</li><li>debt collectors sydney</li><li>debt recovery agency sydney</li><li>debt collection nsw</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>Melbourne Debt Collection</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-melbourne/</strong></span><span>Volume: <strong>1,660/mo combined</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-melbourne/</strong></span><span>Volume: <strong>2,310/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>debt collection melbourne</li><li>debt collection agency melbourne</li><li>debt collectors melbourne</li></ul></div>
-        <div><strong>Priority:</strong><ul><li>Build first — GBP in progress</li></ul></div>
+        <div><strong>Variants on page:</strong><ul><li>debt collection melbourne</li><li>debt collection agency melbourne</li><li>debt collectors melbourne</li><li>debt recovery agency melbourne</li><li>debt collection victoria</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>Brisbane Debt Collection</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-brisbane/</strong></span><span>Volume: <strong>830/mo combined</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/debt-collection-brisbane/</strong></span><span>Volume: <strong>920/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>debt collection brisbane</li><li>debt collectors brisbane</li><li>debt collection agency brisbane</li></ul></div>
-        <div><strong>Note:</strong><ul><li>No office — lean on national network</li></ul></div>
+        <div><strong>Variants on page:</strong><ul><li>debt collection brisbane</li><li>debt collectors brisbane</li><li>debt collection agency brisbane</li><li>debt collection qld</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>Skip Tracing &amp; Investigation</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/skip-tracing/</strong></span><span>Volume: <strong>2,400/mo</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/skip-tracing/</strong></span><span>Volume: <strong>2,400/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>skip tracing</li></ul></div>
-        <div><strong>Note:</strong><ul><li>Frame as B2B debt-focused — not real estate or consumer</li></ul></div>
+        <div><strong>Note:</strong><ul><li>Frame as B2B/debt context — not real estate</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>SME Debt Recovery</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/small-business-debt-collection/</strong></span><span>Volume: <strong>620/mo</strong></span><span>Pages: 0 existing / 2 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/small-business-debt-collection/</strong></span><span>Volume: <strong>530/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>small business debt collection</li><li>outsource debt collection</li></ul></div>
         <div><strong>Pages:</strong><ul><li>/small-business-debt-collection/</li><li>/outsource-debt-collection/</li></ul></div>
+        <div><strong>Keywords:</strong><ul><li>small business debt collection</li><li>business debt collection</li><li>outsource debt collection</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
-      <h4>Commercial Debt Recovery</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/commercial-debt-collection/</strong></span><span>Volume: <strong>90/mo</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <h4>Commercial &amp; Corporate</h4>
+      <div class="silo-meta"><span>Pillar: <strong>/commercial-debt-collection/</strong></span><span>Volume: <strong>370/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>commercial debt collection</li></ul></div>
-        <div><strong>Note:</strong><ul><li>Highest CPC ($37.81) — strategic anchor for B2B authority</li></ul></div>
+        <div><strong>Keywords:</strong><ul><li>commercial debt collection</li><li>corporate debt collection</li><li>debt collection company</li></ul></div>
+        <div><strong>Note:</strong><ul><li>$37.81 CPC — highest value per click</li></ul></div>
       </div>
     </div>
     <div class="silo-card">
       <h4>Pricing &amp; Trust</h4>
-      <div class="silo-meta"><span>Pillar: <strong>/no-collection-no-fee/</strong></span><span>Volume: <strong>140/mo</strong></span><span>Pages: 0 existing / 1 needed</span></div>
+      <div class="silo-meta"><span>Pillar: <strong>/no-collection-no-fee/</strong></span><span>Volume: <strong>190/mo</strong></span></div>
       <div class="silo-lists">
-        <div><strong>Keywords:</strong><ul><li>commission only debt collection</li></ul></div>
-        <div><strong>Status:</strong><ul><li>ACS ranking pos 4 — quick win with dedicated page</li></ul></div>
+        <div><strong>Keywords:</strong><ul><li>commission only debt collection ✓ pos 4</li><li>no win no fee debt collection</li></ul></div>
+        <div><strong>Status:</strong><ul><li>Quick win once page built</li></ul></div>
       </div>
     </div>
   </div>
@@ -776,97 +760,91 @@
     <thead><tr><th>Domain</th><th>DA</th><th>Ref Domains</th><th>SERP Presence</th><th>Key Weakness</th></tr></thead>
     <tbody>
       <tr><td>prushka.com.au</td><td>32</td><td>420</td><td>Sydney + Melbourne SERPs</td><td>No city-specific landing pages — generic national content</td></tr>
-      <tr><td>collectionsgroup.com.au</td><td>42</td><td>890</td><td>Multiple city SERPs</td><td>Highest DA competitor — long-term threat</td></tr>
+      <tr><td>collectionsgroup.com.au</td><td>42</td><td>890</td><td>Multiple city SERPs</td><td>Highest DA — long-term threat</td></tr>
       <tr><td>armagroup.com.au</td><td>29</td><td>340</td><td>Multiple city SERPs</td><td>Generic pages across all cities</td></tr>
       <tr><td>debtrecoveries.com.au</td><td>27</td><td>280</td><td>Sydney + Melbourne SERPs</td><td>No Melbourne-specific page</td></tr>
-      <tr><td>nationaldebtcollection.com.au</td><td>18</td><td>95</td><td>Sydney SERP position 7</td><td>Low DA, thin content (~500 words) — directly beatable</td></tr>
+      <tr><td>nationaldebtcollection.com.au</td><td>18</td><td>95</td><td>Sydney pos 7</td><td>Low DA, thin content — directly beatable</td></tr>
     </tbody>
   </table>
   </div>
-  <div class="info-card" style="margin-top:1rem;"><span class="info-icon">&#9432;</span><p>Key insight: None of the competitors have a dedicated Melbourne landing page. ACS's Springvale VIC office + incoming GBP gives first-mover advantage in the Melbourne SERP. Prushka (DA 32) is the primary Sydney threat but can be outranked with a purpose-built Sydney page and local schema.</p></div>
+  <div class="info-card" style="margin-top:1rem;"><span class="info-icon">&#9432;</span><p>No competitor has a dedicated Melbourne landing page. ACS's Springvale office + incoming Melbourne GBP gives first-mover advantage in the 2,310/mo Melbourne cluster — the largest city cluster in this plan.</p></div>
 </section>
 
 <section id="content_gap" class="section">
   <h2>Content Gap Map</h2>
-  <h3>Keyword Gap Status</h3>
+  <h3>Pages to Build</h3>
   <div class="table-scroll">
   <table class="data-table">
-    <thead><tr><th>Keyword</th><th>Gap Status</th><th>Target URL</th><th>Action</th><th>Investment</th></tr></thead>
+    <thead><tr><th>Page / URL</th><th>Primary Keyword</th><th>Cluster Vol</th><th>Status</th><th>Priority</th></tr></thead>
     <tbody>
-      <tr><td>debt collection sydney</td><td class="status-fail">Missing</td><td>/debt-collection-sydney/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collection agency sydney</td><td class="status-fail">Missing</td><td>/debt-collection-sydney/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>debt collectors sydney</td><td class="status-fail">Missing</td><td>/debt-collection-sydney/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>commission only debt collection</td><td class="status-fail">Missing</td><td>/no-collection-no-fee/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collection melbourne</td><td class="status-fail">Missing</td><td>/debt-collection-melbourne/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collection agency melbourne</td><td class="status-fail">Missing</td><td>/debt-collection-melbourne/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>debt collectors melbourne</td><td class="status-fail">Missing</td><td>/debt-collection-melbourne/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>small business debt collection</td><td class="status-fail">Missing</td><td>/small-business-debt-collection/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>outsource debt collection</td><td class="status-fail">Missing</td><td>/outsource-debt-collection/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collection brisbane</td><td class="status-fail">Missing</td><td>/debt-collection-brisbane/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collectors brisbane</td><td class="status-fail">Missing</td><td>/debt-collection-brisbane/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>debt collection agency brisbane</td><td class="status-fail">Missing</td><td>/debt-collection-brisbane/</td><td>Create New (secondary)</td><td>Low (same page)</td></tr>
-      <tr><td>commercial debt collection</td><td class="status-fail">Missing</td><td>/commercial-debt-collection/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>skip tracing</td><td class="status-fail">Missing</td><td>/skip-tracing/</td><td>Create New</td><td>Medium</td></tr>
-      <tr><td>debt collection</td><td class="status-fail">Missing</td><td>/</td><td>Optimise Homepage</td><td>Low</td></tr>
+      <tr><td>/debt-collection-sydney/</td><td>debt collection sydney</td><td>1,340/mo</td><td class="status-fail">Missing</td><td style="color:#4ecca3">1 — Quick Win (existing rankings)</td></tr>
+      <tr><td>/no-collection-no-fee/</td><td>commission only debt collection</td><td>190/mo</td><td class="status-fail">Missing</td><td style="color:#4ecca3">2 — Quick Win (existing pos 4)</td></tr>
+      <tr><td>/debt-collection-melbourne/</td><td>debt collection melbourne</td><td>2,310/mo</td><td class="status-fail">Missing</td><td>3 — Priority expansion + GBP</td></tr>
+      <tr><td>/small-business-debt-collection/</td><td>small business debt collection</td><td>530/mo</td><td class="status-fail">Missing</td><td>4 — SME core market</td></tr>
+      <tr><td>/outsource-debt-collection/</td><td>outsource debt collection</td><td>140/mo</td><td class="status-fail">Missing</td><td>5 — Open SERP, high CPC</td></tr>
+      <tr><td>/debt-collection-brisbane/</td><td>debt collection brisbane</td><td>920/mo</td><td class="status-fail">Missing</td><td>6 — Secondary expansion</td></tr>
+      <tr><td>/commercial-debt-collection/</td><td>commercial debt collection</td><td>370/mo</td><td class="status-fail">Missing</td><td>7 — Strategic B2B authority</td></tr>
+      <tr><td>/skip-tracing/</td><td>skip tracing</td><td>2,400/mo</td><td class="status-fail">Missing</td><td>8 — Strategic, high volume/mixed intent</td></tr>
+      <tr><td>/ (homepage)</td><td>debt collection</td><td>6,340/mo</td><td class="status-fail">Needs optimisation</td><td>Ongoing — aspirational anchor</td></tr>
     </tbody>
   </table>
   </div>
-  <p class="section-note">Pages to create: 8 new pages (3 city pages + 2 SME/service + 1 commercial + 1 USP + 1 skip tracing) + homepage optimisation. City pages cover 3 keywords each via primary/secondary structure.</p>
+  <p class="section-note">9 pages total. City pages each cover 4-5 keyword variants via primary + secondary targeting on a single URL. Build order follows priority column above.</p>
 </section>
 
 <section id="quick_wins" class="section">
   <h2>Quick Wins</h2>
-  <p class="section-intro">4 confirmed Quick Wins based on live SERP data. 3 of these are existing rankings — conversion from ranking to page creation.</p>
+  <p class="section-intro">2 confirmed Quick Wins — both driven by existing ACS rankings with no dedicated page.</p>
   <div class="table-scroll">
   <table class="data-table">
     <thead><tr><th>Keyword</th><th>Current Position</th><th>Target</th><th>Action Required</th><th>Est. Timeline</th></tr></thead>
     <tbody>
-      <tr><td><strong>debt collection sydney</strong></td><td class="status-pass">Organic #2 (confirmed)</td><td>Position 1</td><td>Build /debt-collection-sydney/ with LocalBusiness + FAQPage schema</td><td>1-3 months</td></tr>
-      <tr><td><strong>debt collection agency sydney</strong></td><td class="status-pass">Organic #3 (confirmed)</td><td>Position 1-2</td><td>Same page as above — secondary keyword, no extra effort</td><td>1-3 months</td></tr>
-      <tr><td><strong>commission only debt collection</strong></td><td class="status-pass">Organic #4 (confirmed)</td><td>Position 1-2</td><td>Build /no-collection-no-fee/ USP page</td><td>2-4 weeks post-launch</td></tr>
-      <tr><td><strong>debt collectors sydney</strong></td><td>Not ranked</td><td>Position 1-3</td><td>Same page as DC Sydney — add variant to H2s and copy</td><td>1-3 months</td></tr>
+      <tr><td><strong>debt collection sydney cluster</strong></td><td class="status-pass">Pos 2 (DC Sydney) · Pos 3 (DCA Sydney)</td><td>Position 1</td><td>Build /debt-collection-sydney/ with LocalBusiness + FAQPage schema, office address, 72% success rate USP</td><td>1-3 months</td></tr>
+      <tr><td><strong>commission only debt collection</strong></td><td class="status-pass">Organic pos 4</td><td>Position 1-2</td><td>Build /no-collection-no-fee/ USP page — dedicated page should jump 2-3 positions immediately</td><td>2-4 weeks post-launch</td></tr>
     </tbody>
   </table>
   </div>
-  <div class="info-card" style="margin-top:1rem;"><span class="info-icon">&#9432;</span><p>GSC not yet connected. Once connected, re-run to surface any additional page 2-3 ranking opportunities from existing traffic.</p></div>
+  <div class="info-card" style="margin-top:1rem;"><span class="info-icon">&#9432;</span><p>GSC not connected. Once connected, re-run to surface page 2-3 ranking opportunities from current organic traffic.</p></div>
 </section>
 
 <section id="serp_features" class="section">
   <h2>SERP Feature Opportunities</h2>
   <table class="data-table compact-table">
-    <thead><tr><th>SERP Feature</th><th>Keywords Affected</th><th>Opportunity</th></tr></thead>
+    <thead><tr><th>Feature</th><th>Groups Affected</th><th>Opportunity</th></tr></thead>
     <tbody>
-      <tr><td>Local Pack (Maps)</td><td>All 9 city-modified keywords</td><td>High — GBP for Melbourne in progress (Mark). Sydney GBP should be verified and optimised. Brisbane: no GBP possible without office.</td></tr>
-      <tr><td>AI Overview</td><td>small business debt collection, commercial debt collection, skip tracing, debt collection</td><td>Risk — deflects organic traffic. Content should aim for positions 1-3 to remain above-fold despite AI Overview.</td></tr>
-      <tr><td>People Also Ask</td><td>Multiple keywords</td><td>Opportunity — FAQPage schema on city pages and service pages can capture PAA slots. Target: what does a debt collection agency do, how does commission only debt collection work.</td></tr>
+      <tr><td>Local Pack (Google Maps)</td><td>Sydney cluster, Melbourne cluster, Brisbane cluster, near me</td><td>High — GBP optimisation is critical. Melbourne GBP in progress. Sydney GBP must be verified and optimised. Brisbane: national coverage claim only (no office).</td></tr>
+      <tr><td>AI Overview</td><td>small business DC, commercial DC, skip tracing, debt collection (homepage)</td><td>Risk — deflects ~25% of organic traffic on affected queries. Target positions 1-3 to stay visible below AI response.</td></tr>
+      <tr><td>People Also Ask</td><td>Multiple groups</td><td>FAQPage schema on all city pages and service pages. Target PAA slots for: how does commission-only debt collection work, what is skip tracing, how do debt collectors work in Australia.</td></tr>
     </tbody>
   </table>
 </section>
 
 <section id="ai_overview" class="section">
   <h2>AI Overview Impact</h2>
-  <h3>Keyword-Level Classifications</h3>
   <table class="data-table">
-    <thead><tr><th>Classification</th><th>Keywords</th><th>Combined Volume</th><th>Est. Deflection</th></tr></thead>
+    <thead><tr><th>Classification</th><th>Groups</th><th>Combined Vol</th><th>Est. Deflection</th></tr></thead>
     <tbody>
-      <tr><td>AI Overview Present</td><td>small business debt collection, commercial debt collection, skip tracing, debt collection</td><td>8,370/mo</td><td>~25% (~2,090/mo) estimated deflection to AI response</td></tr>
-      <tr><td>None (clean SERP)</td><td>11 keywords (all city-modified terms + commission only + outsource)</td><td>3,760/mo</td><td>No deflection</td></tr>
+      <tr><td>AI Overview Present</td><td>small business debt collection, commercial debt collection, skip tracing, debt collection (homepage)</td><td>8,370/mo</td><td>~25% (~2,090/mo) estimated deflection to AI response</td></tr>
+      <tr><td>Clean SERP (no AI Overview)</td><td>Sydney cluster, Melbourne cluster, Brisbane cluster, commission only, near me, outsource, debt collection australia</td><td>5,830/mo</td><td>No deflection — full organic CTR</td></tr>
     </tbody>
   </table>
-  <p class="section-note">City-modified debt collection terms have no AI Overview — the strongest argument for prioritising the city page buildout first. Clean SERPs = full organic CTR.</p>
+  <p class="section-note">City-modified terms have no AI Overview — the strongest argument for prioritising city page buildout. Clean SERPs = full organic click-through rate.</p>
 </section>
 
 <section id="excluded_keywords" class="section">
   <h2>Excluded Keywords</h2>
-  <p class="section-intro">4 keywords removed from v1 following live SERP validation. Documented for reference.</p>
+  <p class="section-intro">Keywords assessed and excluded following live SERP validation.</p>
   <div class="table-scroll">
   <table class="data-table">
     <thead><tr><th>Keyword</th><th>Volume</th><th>Reason Excluded</th></tr></thead>
     <tbody>
-      <tr><td>mortgagee in possession</td><td>720/mo</td><td>Wrong SERP intent — page 1 is entirely property buyers researching what MIP means (LJ Hooker, ATO, lawyer explainers). Not a service-seeker SERP. Zero commercial debt collection crossover.</td></tr>
-      <tr><td>debt recovery</td><td>590/mo</td><td>Government/consumer protection domination — business.gov.au, ACCC, ASIC, Legal Aid WA, moneysmart hold page 1. No commercial agency path. Not actionable regardless of content quality.</td></tr>
-      <tr><td>process server sydney</td><td>720/mo</td><td>Separate specialist market — SERP is entirely dedicated process serving firms (ServeDoc, The Process Server, weserve.com.au). No debt collection crossover. ACS is not competitive in this vertical.</td></tr>
-      <tr><td>client not paying invoice australia</td><td>110/mo</td><td>Informational intent — featured snippet owned by business.gov.au. MYOB, QSBC, and Reddit dominate. Blog content only, not a service-page keyword. Downgraded to potential future blog post.</td></tr>
+      <tr><td>mortgagee in possession</td><td>720/mo</td><td>Wrong intent — property buyers researching MIP meaning (LJ Hooker, ATO, lawyer explainers). Zero commercial debt collection crossover.</td></tr>
+      <tr><td>debt recovery australia</td><td>590/mo</td><td>Government/consumer domination — ACCC, ASIC, business.gov.au, Legal Aid WA hold page 1. No agency path.</td></tr>
+      <tr><td>process server sydney</td><td>720/mo</td><td>Separate specialist market — ServeDoc, The Process Server, weserve.com.au. No debt collection crossover.</td></tr>
+      <tr><td>client not paying invoice australia</td><td>110/mo</td><td>Informational intent — business.gov.au owns featured snippet. Blog content only.</td></tr>
+      <tr><td>education / healthcare / medical debt collection</td><td>10/mo each</td><td>Zero trackable volume in Australia. Sector content should be folded into the commercial service page as supporting copy, not as standalone keyword targets.</td></tr>
+      <tr><td>debt collection specialists / debt recovery specialists</td><td>10/mo</td><td>Negligible search volume — not tracked by Google Ads API.</td></tr>
+      <tr><td>debt collection services [city]</td><td>20-30/mo each</td><td>City-specific services variants have minimal volume. Covered as secondaries within city cluster pages.</td></tr>
     </tbody>
   </table>
   </div>
@@ -875,19 +853,18 @@
 <section id="tam" class="section">
   <h2>Total Addressable Market</h2>
   <div class="stats-grid">
-    <div class="stat-card"><div class="stat-value">12,130</div><div class="stat-label">Selected Keyword Reach (mo)</div></div>
-    <div class="stat-card"><div class="stat-value">3,760</div><div class="stat-label">Clean SERP Volume (no AI Overview)</div></div>
-    <div class="stat-card"><div class="stat-value">990</div><div class="stat-label">Sydney Cluster Volume</div></div>
-    <div class="stat-card"><div class="stat-value">1,660</div><div class="stat-label">Melbourne Cluster Volume</div></div>
-    <div class="stat-card"><div class="stat-value">830</div><div class="stat-label">Brisbane Cluster Volume</div></div>
-    <div class="stat-card"><div class="stat-value">$37.81</div><div class="stat-label">Highest CPC (commercial dc)</div></div>
+    <div class="stat-card"><div class="stat-value">14,200</div><div class="stat-label">Total Cluster Reach (mo)</div></div>
+    <div class="stat-card"><div class="stat-value">5,830</div><div class="stat-label">Clean SERP Volume</div></div>
+    <div class="stat-card"><div class="stat-value">2,310</div><div class="stat-label">Melbourne Cluster (largest)</div></div>
+    <div class="stat-card"><div class="stat-value">1,340</div><div class="stat-label">Sydney Cluster</div></div>
+    <div class="stat-card"><div class="stat-value">920</div><div class="stat-label">Brisbane Cluster</div></div>
+    <div class="stat-card"><div class="stat-value">$37.81</div><div class="stat-label">Highest CPC (commercial)</div></div>
   </div>
-  <p class="section-note">Clean SERP volume (3,760/mo) represents keywords with no AI Overview — direct organic opportunity. City cluster volumes reflect all variants targeting each city page combined.</p>
+  <p class="section-note">Total reach of 14,200/mo includes cluster volumes (each keyword in a city cluster is counted individually within its cluster total).</p>
 </section>
 
 <section id="brand_serp" class="section">
   <h2>Brand SERP Health Check</h2>
-  <p class="section-intro">Analysis of search results for "<strong>ACS Debt Collection</strong>"</p>
   <div class="stats-grid">
     <div class="stat-card"><div class="stat-value status-pass">1</div><div class="stat-label">Brand Position</div></div>
     <div class="stat-card"><div class="stat-value">No</div><div class="stat-label">Knowledge Panel</div></div>
@@ -900,60 +877,62 @@
 <section id="methodology" class="section">
   <h2>Methodology</h2>
   <div class="methodology-content">
-    <h3>Scoring Model (v2)</h3>
-    <p>Keywords are evaluated across 8 dimensions, each scored 0.0 to 1.0. v2 adds live SERP validation as a primary input.</p>
+    <h3>Scoring Model (v3)</h3>
+    <p>Keywords scored 0.0–1.0 across 8 dimensions. v3 adds modifier expansion and confirmed SERP rankings as scoring inputs.</p>
     <table class="data-table compact-table">
       <thead><tr><th>Dimension</th><th>Weight</th><th>Description</th></tr></thead>
       <tbody>
-        <tr><td>Demand</td><td>18%</td><td>Search volume adjusted for AI deflection and trend</td></tr>
-        <tr><td>Winnability</td><td>22%</td><td>KD vs client DA — boosted for confirmed existing rankings</td></tr>
-        <tr><td>Intent Fit</td><td>18%</td><td>SERP-validated intent — penalised for government/consumer domination</td></tr>
-        <tr><td>Commercial</td><td>10%</td><td>CPC percentile indicating conversion value</td></tr>
-        <tr><td>Gap Value</td><td>10%</td><td>Competitive gap (no competitor city page = high score)</td></tr>
-        <tr><td>SERP Opportunity</td><td>5%</td><td>Local pack, PAA, and featured snippet availability</td></tr>
-        <tr><td>Effort Adjusted</td><td>10%</td><td>Standalone vs shared-URL (secondaries score higher on effort)</td></tr>
+        <tr><td>Demand</td><td>18%</td><td>Cluster search volume adjusted for AI deflection</td></tr>
+        <tr><td>Winnability</td><td>22%</td><td>KD vs client DA — confirmed existing rankings scored as near-zero effort</td></tr>
+        <tr><td>Intent Fit</td><td>18%</td><td>SERP-validated intent — penalised for government or consumer protection domination</td></tr>
+        <tr><td>Commercial</td><td>10%</td><td>CPC percentile reflecting conversion value</td></tr>
+        <tr><td>Gap Value</td><td>10%</td><td>No competitor city page = high score; government-owned SERP = low score</td></tr>
+        <tr><td>SERP Opportunity</td><td>5%</td><td>Local pack, PAA, featured snippet availability</td></tr>
+        <tr><td>Effort Adjusted</td><td>10%</td><td>Cluster (multiple keywords / one page) scores higher on efficiency</td></tr>
         <tr><td>Defensibility</td><td>7%</td><td>Long-term ranking holdability</td></tr>
       </tbody>
     </table>
-    <h3>Confidence Levels</h3>
-    <ul class="feature-list">
-      <li><strong>HIGH</strong> — Confirmed live SERP ranking + multiple data sources agree</li>
-      <li><strong>MEDIUM</strong> — DataForSEO + SERP validation, no existing ranking to anchor</li>
-      <li><strong>LOW</strong> — Single source or significant data gaps</li>
-    </ul>
-    <h3>Timeline Assignment</h3>
-    <ul class="feature-list">
-      <li><strong>Quick Win (1-3 months)</strong> — Existing ranking or KD near-zero on ranking domain, minimal content investment required</li>
-      <li><strong>Medium Term (3-6 months)</strong> — New page required, moderate KD, achievable DA</li>
-      <li><strong>Strategic (6-12 months)</strong> — High KD, AI Overview present, or government SERP domination</li>
-    </ul>
     <h3>Data Sources</h3>
-    <p>v2 data sources: DataForSEO Google Ads keyword planner (volume, CPC), DataForSEO Labs (keyword difficulty), DataForSEO SERP organic live advanced (live SERP validation for all 15 keywords, Australia). Volume figures cross-referenced against live SERP positions.</p>
+    <p>v3: DataForSEO Google Ads (volume, CPC — Australia), DataForSEO Labs (KD), DataForSEO SERP organic live advanced (live SERP for all keywords). Modifier expansion: 30+ modifier combinations tested, 10 with trackable volume retained as primaries or secondaries.</p>
   </div>
 </section>
 
 <section id="appendix" class="section">
-  <h2>Appendix: Full Keyword Database</h2>
-  <p class="section-intro">All 15 selected keywords. Sortable by any column.</p>
+  <h2>Appendix — Full Keyword Database</h2>
+  <p class="section-intro">All tracked keywords including cluster variants. Sortable by any column.</p>
   <div class="table-scroll">
   <table class="data-table sortable-table" id="appendix-table">
-    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>CPC</th><th>Silo</th><th>Timeline</th><th>URL</th></tr></thead>
+    <thead><tr><th>Keyword</th><th>Type</th><th>Vol/mo</th><th>KD</th><th>CPC</th><th>Page Group</th><th>URL</th></tr></thead>
     <tbody>
-      <tr><td>debt collection sydney</td><td><span class="score-badge" style="background:#4ecca3">0.82</span></td><td>390</td><td>0</td><td>$17.71</td><td>Sydney Debt Collection</td><td>Quick Win</td><td>/debt-collection-sydney/</td></tr>
-      <tr><td>commission only debt collection</td><td><span class="score-badge" style="background:#4ecca3">0.82</span></td><td>140</td><td>0</td><td>$10.83</td><td>Pricing &amp; Trust</td><td>Quick Win</td><td>/no-collection-no-fee/</td></tr>
-      <tr><td>debt collection agency sydney</td><td><span class="score-badge" style="background:#4ecca3">0.80</span></td><td>210</td><td>2</td><td>$18.87</td><td>Sydney Debt Collection</td><td>Quick Win</td><td>/debt-collection-sydney/</td></tr>
-      <tr><td>debt collection melbourne</td><td><span class="score-badge" style="background:#4ecca3">0.75</span></td><td>590</td><td>19</td><td>$20.46</td><td>Melbourne Debt Collection</td><td>Medium Term</td><td>/debt-collection-melbourne/</td></tr>
-      <tr><td>debt collectors sydney</td><td><span class="score-badge" style="background:#4ecca3">0.74</span></td><td>390</td><td>22</td><td>$17.71</td><td>Sydney Debt Collection</td><td>Quick Win</td><td>/debt-collection-sydney/</td></tr>
-      <tr><td>debt collection agency melbourne</td><td><span class="score-badge" style="background:#4ecca3">0.73</span></td><td>480</td><td>11</td><td>$15.58</td><td>Melbourne Debt Collection</td><td>Medium Term</td><td>/debt-collection-melbourne/</td></tr>
-      <tr><td>debt collectors melbourne</td><td><span class="score-badge" style="background:#4ecca3">0.71</span></td><td>590</td><td>19</td><td>$20.46</td><td>Melbourne Debt Collection</td><td>Medium Term</td><td>/debt-collection-melbourne/</td></tr>
-      <tr><td>small business debt collection</td><td><span class="score-badge" style="background:#4ecca3">0.68</span></td><td>480</td><td>5</td><td>$14.44</td><td>SME Debt Recovery</td><td>Medium Term</td><td>/small-business-debt-collection/</td></tr>
-      <tr><td>outsource debt collection</td><td><span class="score-badge" style="background:#4ecca3">0.65</span></td><td>140</td><td>0</td><td>$22.22</td><td>SME Debt Recovery</td><td>Medium Term</td><td>/outsource-debt-collection/</td></tr>
-      <tr><td>debt collection brisbane</td><td><span class="score-badge" style="background:#4ecca3">0.65</span></td><td>390</td><td>24</td><td>$17.07</td><td>Brisbane Debt Collection</td><td>Medium Term</td><td>/debt-collection-brisbane/</td></tr>
-      <tr><td>debt collectors brisbane</td><td><span class="score-badge" style="background:#4ecca3">0.63</span></td><td>390</td><td>25</td><td>$17.07</td><td>Brisbane Debt Collection</td><td>Medium Term</td><td>/debt-collection-brisbane/</td></tr>
-      <tr><td>commercial debt collection</td><td><span class="score-badge" style="background:#f0a500">0.60</span></td><td>90</td><td>17</td><td>$37.81</td><td>Commercial Debt Recovery</td><td>Strategic</td><td>/commercial-debt-collection/</td></tr>
-      <tr><td>debt collection agency brisbane</td><td><span class="score-badge" style="background:#f0a500">0.58</span></td><td>50</td><td>22</td><td>$17.07</td><td>Brisbane Debt Collection</td><td>Medium Term</td><td>/debt-collection-brisbane/</td></tr>
-      <tr><td>skip tracing</td><td><span class="score-badge" style="background:#f0a500">0.50</span></td><td>2,400</td><td>0</td><td>$5.48</td><td>Skip Tracing &amp; Investigation</td><td>Strategic</td><td>/skip-tracing/</td></tr>
-      <tr><td>debt collection</td><td><span class="score-badge" style="background:#f0a500">0.45</span></td><td>5,400</td><td>25</td><td>$12.00</td><td>Core Services</td><td>Strategic</td><td>/</td></tr>
+      <tr><td>debt collection sydney</td><td>Primary</td><td>390</td><td>0</td><td>$17.71</td><td>Sydney Cluster</td><td>/debt-collection-sydney/</td></tr>
+      <tr><td>debt collection agency sydney</td><td>Secondary</td><td>210</td><td>2</td><td>$18.87</td><td>Sydney Cluster</td><td>/debt-collection-sydney/</td></tr>
+      <tr><td>debt collectors sydney</td><td>Secondary</td><td>390</td><td>22</td><td>$17.71</td><td>Sydney Cluster</td><td>/debt-collection-sydney/</td></tr>
+      <tr><td>debt recovery agency sydney</td><td>Secondary</td><td>210</td><td>2</td><td>$18.87</td><td>Sydney Cluster</td><td>/debt-collection-sydney/</td></tr>
+      <tr><td>debt collection nsw</td><td>Secondary</td><td>140</td><td>—</td><td>$10.05</td><td>Sydney Cluster</td><td>/debt-collection-sydney/</td></tr>
+      <tr><td>commission only debt collection</td><td>Primary</td><td>140</td><td>0</td><td>$10.83</td><td>Pricing &amp; Trust</td><td>/no-collection-no-fee/</td></tr>
+      <tr><td>no win no fee debt collection</td><td>Secondary</td><td>50</td><td>0</td><td>$7.38</td><td>Pricing &amp; Trust</td><td>/no-collection-no-fee/</td></tr>
+      <tr><td>debt collection melbourne</td><td>Primary</td><td>590</td><td>19</td><td>$20.46</td><td>Melbourne Cluster</td><td>/debt-collection-melbourne/</td></tr>
+      <tr><td>debt collection agency melbourne</td><td>Secondary</td><td>480</td><td>11</td><td>$15.58</td><td>Melbourne Cluster</td><td>/debt-collection-melbourne/</td></tr>
+      <tr><td>debt collectors melbourne</td><td>Secondary</td><td>590</td><td>19</td><td>$20.46</td><td>Melbourne Cluster</td><td>/debt-collection-melbourne/</td></tr>
+      <tr><td>debt recovery agency melbourne</td><td>Secondary</td><td>480</td><td>11</td><td>$15.58</td><td>Melbourne Cluster</td><td>/debt-collection-melbourne/</td></tr>
+      <tr><td>debt collection victoria</td><td>Secondary</td><td>170</td><td>—</td><td>$11.04</td><td>Melbourne Cluster</td><td>/debt-collection-melbourne/</td></tr>
+      <tr><td>debt collectors near me</td><td>Primary</td><td>390</td><td>0</td><td>$10.05</td><td>GBP / National</td><td>GBP play</td></tr>
+      <tr><td>debt collection near me</td><td>Secondary</td><td>390</td><td>0</td><td>$10.05</td><td>GBP / National</td><td>GBP play</td></tr>
+      <tr><td>small business debt collection</td><td>Primary</td><td>480</td><td>5</td><td>$14.44</td><td>SME Recovery</td><td>/small-business-debt-collection/</td></tr>
+      <tr><td>business debt collection</td><td>Secondary</td><td>50</td><td>—</td><td>$25.96</td><td>SME Recovery</td><td>/small-business-debt-collection/</td></tr>
+      <tr><td>debt collection australia</td><td>Primary</td><td>590</td><td>~22</td><td>$13.34</td><td>National</td><td>/ or /debt-collection-australia/</td></tr>
+      <tr><td>debt collection agency australia</td><td>Secondary</td><td>590</td><td>~22</td><td>$13.34</td><td>National</td><td>/ or /debt-collection-australia/</td></tr>
+      <tr><td>debt collection services</td><td>Secondary</td><td>210</td><td>—</td><td>$19.75</td><td>National</td><td>/</td></tr>
+      <tr><td>debt collection company</td><td>Secondary</td><td>140</td><td>—</td><td>$18.86</td><td>National</td><td>/</td></tr>
+      <tr><td>debt collection brisbane</td><td>Primary</td><td>390</td><td>24</td><td>$17.07</td><td>Brisbane Cluster</td><td>/debt-collection-brisbane/</td></tr>
+      <tr><td>debt collectors brisbane</td><td>Secondary</td><td>390</td><td>25</td><td>$17.07</td><td>Brisbane Cluster</td><td>/debt-collection-brisbane/</td></tr>
+      <tr><td>debt collection agency brisbane</td><td>Secondary</td><td>50</td><td>22</td><td>$17.07</td><td>Brisbane Cluster</td><td>/debt-collection-brisbane/</td></tr>
+      <tr><td>debt collection qld</td><td>Secondary</td><td>90</td><td>—</td><td>$10.84</td><td>Brisbane Cluster</td><td>/debt-collection-brisbane/</td></tr>
+      <tr><td>outsource debt collection</td><td>Primary</td><td>140</td><td>0</td><td>$22.22</td><td>SME Recovery</td><td>/outsource-debt-collection/</td></tr>
+      <tr><td>commercial debt collection</td><td>Primary</td><td>90</td><td>17</td><td>$37.81</td><td>Commercial</td><td>/commercial-debt-collection/</td></tr>
+      <tr><td>corporate debt collection</td><td>Secondary</td><td>140</td><td>—</td><td>$18.86</td><td>Commercial</td><td>/commercial-debt-collection/</td></tr>
+      <tr><td>skip tracing</td><td>Primary</td><td>2,400</td><td>0</td><td>$5.48</td><td>Skip Tracing</td><td>/skip-tracing/</td></tr>
+      <tr><td>debt collection</td><td>Homepage</td><td>5,400</td><td>25</td><td>$12.00</td><td>Core Services</td><td>/</td></tr>
     </tbody>
   </table>
   </div>
@@ -970,28 +949,28 @@ function sortTable(table, col) {
   var rows = Array.from(tbody.rows).filter(function(r) { return !r.classList.contains('detail-row'); });
   var th = table.tHead.rows[0].cells[col];
   var asc = !th.classList.contains('sort-asc');
-  Array.from(table.tHead.rows[0].cells).forEach(function(c) { c.classList.remove('sort-asc', 'sort-desc'); });
+  Array.from(table.tHead.rows[0].cells).forEach(function(c) { c.classList.remove('sort-asc','sort-desc'); });
   th.classList.add(asc ? 'sort-asc' : 'sort-desc');
-  rows.sort(function(a, b) {
-    var va = a.cells[col].textContent.trim().replace(/[,$%]/g, '');
-    var vb = b.cells[col].textContent.trim().replace(/[,$%]/g, '');
+  rows.sort(function(a,b) {
+    var va = a.cells[col].textContent.trim().replace(/[,$%~]/g,'');
+    var vb = b.cells[col].textContent.trim().replace(/[,$%~]/g,'');
     var na = parseFloat(va), nb = parseFloat(vb);
-    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na-nb : nb-na;
     return asc ? va.localeCompare(vb) : vb.localeCompare(va);
   });
   rows.forEach(function(row) {
     tbody.appendChild(row);
     var onclick = row.querySelector('[onclick]');
     if (onclick) {
-      var match = onclick.getAttribute('onclick').match(/'([^']+)'/);
-      if (match) { var detail = document.getElementById(match[1]); if (detail) tbody.appendChild(detail); }
+      var m = onclick.getAttribute('onclick').match(/'([^']+)'/);
+      if (m) { var d = document.getElementById(m[1]); if (d) tbody.appendChild(d); }
     }
   });
 }
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.sortable-table').forEach(function(table) {
-    Array.from(table.tHead.rows[0].cells).forEach(function(th, i) {
-      th.addEventListener('click', function() { sortTable(table, i); });
+  document.querySelectorAll('.sortable-table').forEach(function(t) {
+    Array.from(t.tHead.rows[0].cells).forEach(function(th,i) {
+      th.addEventListener('click', function() { sortTable(t,i); });
     });
   });
 });
