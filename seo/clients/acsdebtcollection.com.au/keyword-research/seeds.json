@@ -1,0 +1,142 @@
+{
+  "client": {
+    "domain": "acsdebtcollection.com.au",
+    "name": "ACS Debt Collection",
+    "business_type": "B2B debt recovery agency",
+    "locations": {
+      "primary": ["Sydney", "NSW"],
+      "secondary": ["Melbourne", "VIC"],
+      "tertiary": ["Brisbane", "QLD"]
+    },
+    "phone": "02 9790 6877",
+    "addresses": [
+      "4/6 Bird St Springvale VIC 3171",
+      "Suite 8/39 Stanley St Bankstown NSW 2200"
+    ]
+  },
+  "service_roots": [
+    {
+      "root": "debt collection",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Core service — all three cities"
+    },
+    {
+      "root": "debt collection agency",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Agency-framed variant"
+    },
+    {
+      "root": "debt recovery",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Alternative phrasing for debt collection"
+    },
+    {
+      "root": "business debt recovery",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "B2B framed"
+    },
+    {
+      "root": "commercial debt collection",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Commercial sector focus"
+    },
+    {
+      "root": "overdue invoice collection",
+      "priority": 2,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "BDM category priority"
+    },
+    {
+      "root": "invoice collection",
+      "priority": 2,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Invoice-specific service"
+    },
+    {
+      "root": "debt collectors",
+      "priority": 1,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "High-volume category term"
+    },
+    {
+      "root": "repossession",
+      "priority": 2,
+      "locations": ["Melbourne", "VIC"],
+      "notes": "VIC priority per client (Q13)"
+    },
+    {
+      "root": "asset recovery",
+      "priority": 2,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Repossession alternative"
+    },
+    {
+      "root": "mortgagee in possession",
+      "priority": 3,
+      "locations": ["Sydney", "Melbourne"],
+      "notes": "Specialist MIP service"
+    },
+    {
+      "root": "skip tracing",
+      "priority": 3,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "Debtor location service"
+    },
+    {
+      "root": "process serving",
+      "priority": 4,
+      "locations": ["Sydney", "Melbourne"],
+      "notes": "Lowest priority per BDM brief"
+    },
+    {
+      "root": "no win no fee debt collection",
+      "priority": 2,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "USP-based keyword — commission-only model"
+    },
+    {
+      "root": "debt purchase",
+      "priority": 3,
+      "locations": ["Sydney", "Melbourne", "Brisbane"],
+      "notes": "BDM category 4"
+    }
+  ],
+  "modifiers": {
+    "location": ["Sydney", "Melbourne", "Brisbane", "NSW", "VIC", "QLD", "Australia"],
+    "intent": ["services", "agency", "company", "specialists", "no win no fee", "commission only"],
+    "sector": ["commercial", "business", "corporate", "SME", "education", "healthcare", "medical"],
+    "qualifier": ["professional", "experienced", "reliable", "fast", "ethical"]
+  },
+  "bdm_categories": [
+    "debt collectors",
+    "debt collection agency",
+    "business debt recovery",
+    "debt purchase",
+    "commercial debt collection services",
+    "overdue invoice collection",
+    "education debt collection",
+    "healthcare debt collection",
+    "repossession agency",
+    "process serving agency"
+  ],
+  "usps": [
+    "No Collection No Fee",
+    "72% collection success rate",
+    "48-hour response guarantee",
+    "30+ years experience",
+    "IMA member",
+    "national field agent network"
+  ],
+  "meta": {
+    "questionnaire_id": "Wheez8zh",
+    "submitted": "2026-04-12",
+    "initialized": "2026-04-16",
+    "package": "SEO + Custom Website + GBP",
+    "phase": "init_complete"
+  }
+}
