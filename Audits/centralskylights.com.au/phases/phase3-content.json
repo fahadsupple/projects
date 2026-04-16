@@ -1,0 +1,364 @@
+{
+  "phase": "content",
+  "domain": "centralskylights.com.au",
+  "audit_date": "2026-04-16",
+  "gsc_performance": {
+    "period_90d": {
+      "start": "2026-01-15",
+      "end": "2026-04-15",
+      "total_clicks": 4080,
+      "total_impressions": 313142,
+      "avg_position": 11.6,
+      "avg_ctr_pct": 1.3
+    },
+    "yoy_comparison": {
+      "q1_2025": {
+        "period": "2025-01-01 to 2025-03-31",
+        "clicks": 2423,
+        "impressions": 242457,
+        "avg_position": 32.5,
+        "ctr_pct": 1.0
+      },
+      "q1_2026": {
+        "period": "2026-01-01 to 2026-03-31",
+        "clicks": 4143,
+        "impressions": 324183,
+        "avg_position": 12.0,
+        "ctr_pct": 1.3
+      },
+      "yoy_growth": {
+        "clicks_growth_pct": 71,
+        "impressions_growth_pct": 34,
+        "position_improvement": "32.5 → 12.0 (massive improvement)",
+        "assessment": "Strong year-over-year improvement across all metrics. The site has been actively worked on and is trending upward significantly."
+      }
+    },
+    "last_28_days": {
+      "clicks": 1205,
+      "impressions": 89238,
+      "avg_position": 10.0,
+      "ctr_pct": 1.4
+    }
+  },
+  "top_performing_pages": [
+    {
+      "url": "/",
+      "clicks_90d": 844,
+      "impressions_90d": 62220,
+      "avg_position": 12.6,
+      "ctr_pct": 1.4,
+      "notes": "Homepage is top traffic driver but CTR at 1.4% for position 12.6 is expected; needs position improvement to unlock more clicks"
+    },
+    {
+      "url": "/skylight-tips/cost-of-skylight-installation/",
+      "clicks_90d": 372,
+      "impressions_90d": 28040,
+      "avg_position": 17.2,
+      "ctr_pct": 1.3,
+      "notes": "Second-highest traffic page — informational content performing well; ranking for multiple cost/installation queries"
+    },
+    {
+      "url": "/skylight-tips/how-much-does-it-cost-to-install-a-whirlybird-roof-vent/",
+      "clicks_90d": 220,
+      "impressions_90d": 28702,
+      "avg_position": 3.0,
+      "ctr_pct": 0.8,
+      "notes": "Position 3 average but only 0.8% CTR — very low for a position 3 ranking; title/meta description may not match search intent well, or SERP features are suppressing clicks"
+    },
+    {
+      "url": "/products/velux-active-indoor-climate-control-kix-300-kla-300-or-klf-200/",
+      "clicks_90d": 64,
+      "impressions_90d": 3568,
+      "avg_position": 7.9,
+      "ctr_pct": 1.8
+    },
+    {
+      "url": "/products/velux-blinds-fscc-solar-remote-honeycomb-blind-for-fcm-vcm-and-vcs/",
+      "clicks_90d": 56,
+      "impressions_90d": 3213,
+      "avg_position": 7.7,
+      "ctr_pct": 1.7
+    },
+    {
+      "url": "/products/velux-fs-c06-fixed-skylights-550x1180mm/",
+      "clicks_90d": 55,
+      "impressions_90d": 4789,
+      "avg_position": 9.4,
+      "ctr_pct": 1.1
+    },
+    {
+      "url": "/skylight-products/",
+      "clicks_90d": 25,
+      "impressions_90d": 7716,
+      "avg_position": 28.3,
+      "ctr_pct": 0.3,
+      "notes": "CRITICAL UNDERPERFORMER — 7,716 impressions but only 25 clicks (0.3% CTR) at position 28.3. The product category page is not ranking competitively. Needs significant SEO improvement."
+    },
+    {
+      "url": "/online-quote/",
+      "clicks_90d": 32,
+      "impressions_90d": 3483,
+      "avg_position": 17.1,
+      "ctr_pct": 0.9
+    }
+  ],
+  "top_queries": [
+    {
+      "query": "central skylights",
+      "clicks_90d": 222,
+      "impressions": 763,
+      "avg_position": 2.1,
+      "ctr_pct": 29.1,
+      "type": "branded"
+    },
+    {
+      "query": "skylights melbourne",
+      "clicks_90d": 56,
+      "impressions": 3655,
+      "avg_position": 11.0,
+      "ctr_pct": 1.5,
+      "type": "commercial",
+      "opportunity": "Position 11 means page 2 — moving to top 10 could 3-4x clicks"
+    },
+    {
+      "query": "velux skylights melbourne",
+      "clicks_90d": 23,
+      "impressions": 2397,
+      "avg_position": 8.6,
+      "ctr_pct": 1.0,
+      "type": "commercial"
+    },
+    {
+      "query": "skylight installation melbourne",
+      "clicks_90d": 22,
+      "impressions": 2487,
+      "avg_position": 8.1,
+      "ctr_pct": 0.9,
+      "type": "commercial"
+    },
+    {
+      "query": "skylight installation cost",
+      "clicks_90d": 22,
+      "impressions": 958,
+      "avg_position": 21.9,
+      "ctr_pct": 2.3,
+      "type": "informational"
+    },
+    {
+      "query": "velux skylights",
+      "clicks_90d": 11,
+      "impressions": 3418,
+      "avg_position": 10.4,
+      "ctr_pct": 0.3,
+      "type": "commercial",
+      "opportunity": "0.3% CTR at position 10.4 is poor — title/meta not compelling enough for this broad commercial term"
+    },
+    {
+      "query": "skylights near me",
+      "clicks_90d": 12,
+      "impressions": 1092,
+      "avg_position": 12.8,
+      "ctr_pct": 1.1,
+      "type": "local_commercial"
+    },
+    {
+      "query": "whirlybird installation cost",
+      "clicks_90d": 11,
+      "impressions": 692,
+      "avg_position": 2.2,
+      "ctr_pct": 1.6,
+      "type": "informational",
+      "note": "Site ranking well for whirlybird topics despite it not being core service"
+    }
+  ],
+  "ctr_opportunities": {
+    "description": "Keywords with high impressions, position under 15, but low CTR — quick wins if titles/meta updated",
+    "items": [
+      {
+        "query": "skylights melbourne",
+        "impressions": 3655,
+        "clicks": 56,
+        "ctr_pct": 1.5,
+        "avg_position": 11.0,
+        "action": "Improve to top 10 — critical primary keyword"
+      },
+      {
+        "query": "velux skylights",
+        "impressions": 3418,
+        "clicks": 11,
+        "ctr_pct": 0.3,
+        "avg_position": 10.4,
+        "action": "CTR extremely low at position 10 — update meta description to improve click-through"
+      },
+      {
+        "query": "skylight installation melbourne",
+        "impressions": 2487,
+        "clicks": 22,
+        "ctr_pct": 0.9,
+        "avg_position": 8.1,
+        "action": "Position 8 with only 0.9% CTR — dedicated /skylight-installation-melbourne/ page needed"
+      },
+      {
+        "query": "velux skylights melbourne",
+        "impressions": 2397,
+        "clicks": 23,
+        "ctr_pct": 1.0,
+        "avg_position": 8.6,
+        "action": "Strengthen /brand/velux/ page to push into top 5"
+      },
+      {
+        "query": "velux fixed skylights",
+        "impressions": 678,
+        "clicks": 3,
+        "ctr_pct": 0.4,
+        "avg_position": 13.6,
+        "action": "Dedicated Velux fixed skylights page would capture this"
+      },
+      {
+        "query": "skylight installers near me",
+        "impressions": 744,
+        "clicks": 7,
+        "ctr_pct": 0.9,
+        "avg_position": 6.5,
+        "action": "Position 6.5 with only 0.9% CTR — near-me intent page with location signals needed"
+      }
+    ]
+  },
+  "content_types_analysis": {
+    "blog_posts": {
+      "count": 13,
+      "top_performers": [
+        "/skylight-tips/cost-of-skylight-installation/ — 372 clicks",
+        "/skylight-tips/how-much-does-it-cost-to-install-a-whirlybird-roof-vent/ — 220 clicks",
+        "/skylight-tips/things-to-know-before-installing-a-skylight/ — 35 clicks",
+        "/skylight-tips/choosing-a-sun-tunnel/ — 28 clicks"
+      ],
+      "assessment": "Blog content is performing strongly for informational and cost queries. The whirlybird content at position 3 with 28k impressions represents a major traffic capture. More blog content around cost/price queries would continue this momentum."
+    },
+    "product_pages": {
+      "count": 121,
+      "top_performers": [
+        "Velux Active Climate Control — 64 clicks",
+        "Velux blinds FSCC — 56 clicks",
+        "Velux FS C06 — 55 clicks"
+      ],
+      "assessment": "Product pages drive significant individual clicks but most have low impressions. The product catalogue is strong but needs better internal linking and schema."
+    },
+    "service_pages": {
+      "count": 8,
+      "key_pages": [
+        "/skylights-installation-services/ — core installation service",
+        "/supply-and-repairs-in-melbourne/ — replacement/repair service",
+        "/tube-skylight-installation/ — sun tunnels",
+        "/roof-vent-installation/ — whirlybirds/roof vents",
+        "/velux-roof-windows/ — roof windows"
+      ],
+      "gaps": [
+        "No dedicated /skylight-replacement/ page — 404 on this URL",
+        "No dedicated page for 'skylight repair melbourne'",
+        "No dedicated page for 'flat roof skylights melbourne'",
+        "No dedicated page for 'solar skylights melbourne'"
+      ]
+    },
+    "location_pages": {
+      "count": "multiple (local sitemap + suburb pages in page sitemap)",
+      "examples": [
+        "/skylights-camberwell/",
+        "/skylights-bayswater/",
+        "/skylights-albert-park/",
+        "/skylights-mornington/",
+        "/skylights-near-me/"
+      ],
+      "assessment": "Suburb-level location pages exist — good for local SEO. The Mornington page ranks position 2 for 'skylights mornington' (50 sv). Strategy is working for local suburb targeting."
+    }
+  },
+  "content_gaps": [
+    {
+      "gap": "Skylight repair/leaking skylight page",
+      "evidence": "Site ranking pos 12 for 'skylight repair melbourne' but no dedicated page. Competitor australianskylights.com.au owns pos 1.",
+      "priority": "high"
+    },
+    {
+      "gap": "Dedicated skylight replacement page",
+      "evidence": "/skylight-replacement/ returns 404. Current content at /supply-and-repairs-in-melbourne/ has a URL mismatch with intent.",
+      "priority": "high"
+    },
+    {
+      "gap": "Velux skylight installation guide / process page",
+      "evidence": "For 'velux skylight installation' the SERP is dominated by YouTube/DIY content. A professional service page explaining the installation process could rank for long-tail queries.",
+      "priority": "medium"
+    },
+    {
+      "gap": "Tiled roof and metal roof skylight pages",
+      "evidence": "Tracked keywords 'tiled roof skylights' and 'metal roof skylights' — site not in top 50. These have local installation context. Dedicated pages could target these.",
+      "priority": "medium"
+    },
+    {
+      "gap": "Solar skylights page",
+      "evidence": "Solar skylight keywords (solar skylight 484 SV pos 19.5, solar skylights 481 SV pos 18.5) — significant impressions, poor position. No dedicated page.",
+      "priority": "medium"
+    },
+    {
+      "gap": "Flat roof skylights Melbourne",
+      "evidence": "Velux FCM flat roof range exists in product catalogue but no dedicated service/category page for flat roof installations.",
+      "priority": "medium"
+    }
+  ],
+  "device_performance": {
+    "mobile": {
+      "clicks": 2173,
+      "impressions": 157130,
+      "avg_position": 8.0,
+      "ctr_pct": 1.4,
+      "share_of_clicks_pct": 53
+    },
+    "desktop": {
+      "clicks": 1815,
+      "impressions": 152513,
+      "avg_position": 15.5,
+      "ctr_pct": 1.2,
+      "share_of_clicks_pct": 44
+    },
+    "tablet": {
+      "clicks": 92,
+      "impressions": 3499,
+      "avg_position": 5.7,
+      "ctr_pct": 2.6,
+      "share_of_clicks_pct": 2
+    },
+    "analysis": "Site ranks significantly better on mobile (avg pos 8.0) vs desktop (avg pos 15.5). This 7.5 position gap is unusual and notable. Mobile ranking is strong — desktop ranking needs work."
+  },
+  "geographic_performance": {
+    "primary": {
+      "country": "Australia",
+      "clicks": 3883,
+      "impressions": 259919,
+      "pct_of_traffic": 95
+    },
+    "international_noise": {
+      "combined_clicks": 197,
+      "pct": 5,
+      "note": "International traffic from USA, NZ, UK, PHL, IND likely from people searching product specs globally — not service prospects"
+    }
+  },
+  "summary": {
+    "content_strengths": [
+      "Strong YoY growth: clicks up 71%, position improved from 32.5 to 12.0",
+      "Blog content performing well — cost/price queries capturing high-intent traffic",
+      "Product catalogue of 121 products driving long-tail traffic",
+      "Suburb location pages working — Mornington at position 2",
+      "3,306-word homepage with comprehensive H2 structure"
+    ],
+    "critical_issues": [
+      "/skylight-products/ getting 7,716 impressions at pos 28.3 with only 0.3% CTR — biggest underperformer by impression volume",
+      "Whirlybird content at pos 3 generating 0.8% CTR — SERP feature likely capturing clicks",
+      "6 content gaps identified for high-priority service pages"
+    ],
+    "quick_wins": [
+      "Update meta descriptions on /brand/velux/ and /skylight-products/ to improve CTR",
+      "Create /skylight-replacement/ page (404 currently) targeting 'skylight replacement melbourne'",
+      "Create dedicated /skylight-repair-melbourne/ page",
+      "Improve /skylight-products/ on-page SEO to push from pos 28 toward pos 10"
+    ]
+  }
+}

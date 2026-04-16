@@ -1,0 +1,190 @@
+{
+  "phase": "technical",
+  "domain": "centralskylights.com.au",
+  "audit_date": "2026-04-16",
+  "lighthouse": {
+    "note": "Lighthouse CLI unavailable in this environment (Chrome for Testing connection failed). PageSpeed Insights API unavailable without API key. Performance data sourced from GSC/DataForSEO signals.",
+    "performance": null,
+    "seo": null,
+    "accessibility": null,
+    "best_practices": null,
+    "core_web_vitals": {
+      "source": "not_available",
+      "note": "Run manual PageSpeed Insights at https://pagespeed.web.dev/?url=https://centralskylights.com.au/"
+    },
+    "opportunities": [
+      "Check image optimization — 19 images on homepage, ensure all are WebP",
+      "Internal link count (188) is very high for a single page — possible link dilution",
+      "Homepage is 3,306 words — check render time on mobile"
+    ]
+  },
+  "crawl": {
+    "https_redirect": true,
+    "https_redirect_code": 301,
+    "www_redirect": "not_tested",
+    "cms": "WordPress (WooCommerce) with Rank Math SEO plugin",
+    "server": "LiteSpeed",
+    "robots_txt": {
+      "exists": true,
+      "url": "https://centralskylights.com.au/robots.txt",
+      "issues": [
+        "Disallow entries for staging/test paths suggest historical subdirectory clutter: /adpromedia, /andy, /cssite, /cswww, /centralwww, /viet-times, /cs, /csphotos, /hobartskylights, /saigonxamthammy, /skymarble, /skylightsadelaide, /www, /jobdone, /centralskylights — these appear to be old staging or directory paths that should be reviewed and cleaned up"
+      ],
+      "content": "User-agent: Googlebot\nDisallow: /nogooglebot/\nUser-agent: *\nAllow: /\nDisallow: /adpromedia\nDisallow: /andy\nDisallow: /cssite\nDisallow: /cswww\nDisallow: /centralwww\nDisallow: /viet-times\nDisallow: /cs\nDisallow: /csphotos\nDisallow: /hobartskylights\nDisallow: /saigonxamthammy\nDisallow: /skymarble\nDisallow: /skylightsadelaide\nDisallow: /www\nDisallow: /jobdone\nDisallow: /centralskylights\nSitemap: https://centralskylights.com.au/skylights-2024-melbourne-suburbs.xml\nSitemap: https://centralskylights.com.au/sitemap_index.xml"
+    },
+    "sitemap": {
+      "exists": true,
+      "index_url": "https://centralskylights.com.au/sitemap_index.xml",
+      "sitemaps": [
+        {"name": "post-sitemap.xml", "pages": 13, "last_modified": "2025-12-08"},
+        {"name": "page-sitemap.xml", "pages": 42, "last_modified": "2026-04-13"},
+        {"name": "product-sitemap.xml", "pages": 121, "last_modified": "2026-04-15"},
+        {"name": "category-sitemap.xml", "pages": 1, "last_modified": "2025-12-08"},
+        {"name": "product_brand-sitemap.xml", "pages": 1, "last_modified": "2026-04-15"},
+        {"name": "product_cat-sitemap.xml", "pages": 1, "last_modified": "2026-04-15"},
+        {"name": "local-sitemap.xml", "pages": 1, "last_modified": "2026-03-14"}
+      ],
+      "total_pages_across_sitemaps": 180,
+      "custom_sitemap": "https://centralskylights.com.au/skylights-2024-melbourne-suburbs.xml",
+      "issues": [
+        "sitemap_index.xml is correctly configured and up-to-date",
+        "page-sitemap.xml includes utility/system pages like /checkout/, /cart/, /my-account/, /cancel-payment/, /my-bookings/, /bookingpress-complete-payment-2/, /appointment-cancellation-confirmation/ — these should be excluded from sitemaps or set noindex",
+        "Duplicate entry: /appointment-cancellation-confirmation/ appears twice in page-sitemap.xml"
+      ]
+    },
+    "pages_checked": [
+      {
+        "url": "https://centralskylights.com.au/",
+        "status_code": 200,
+        "canonical": "https://centralskylights.com.au/",
+        "canonical_is_self": true,
+        "meta_robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "h1_count": 1,
+        "h1_text": "Skylights Melbourne",
+        "meta_description": "Melbourne's 5-star experts in Velux skylights & roof windows. Get 20% OFF supply-only or book a free installation quote. Custom flashings & 10-year guarantee.",
+        "issues": []
+      },
+      {
+        "url": "https://centralskylights.com.au/skylights/",
+        "status_code": 404,
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": ["404 error — URL does not exist; may be linked from older content or external sources"]
+      },
+      {
+        "url": "https://centralskylights.com.au/skylight-installation/",
+        "status_code": 404,
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": ["404 error — expected URL for skylight installation does not exist"]
+      },
+      {
+        "url": "https://centralskylights.com.au/velux-skylights/",
+        "status_code": 301,
+        "redirect_destination": "https://centralskylights.com.au/brand/velux/",
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": ["301 redirect to /brand/velux/ — the redirect itself is fine but old links may need updating"]
+      },
+      {
+        "url": "https://centralskylights.com.au/contact/",
+        "status_code": 200,
+        "canonical": "https://centralskylights.com.au/contact/",
+        "canonical_is_self": true,
+        "meta_robots": null,
+        "h1_count": 1,
+        "h1_text": "Contact Central Skylights for a FREE Measure & Quote!",
+        "meta_description": "Contact us for a FREE QUOTE! Central Skylights 3 locations: South East Melbourne, West and North West Melbourne and Nort...",
+        "issues": []
+      },
+      {
+        "url": "https://centralskylights.com.au/about/",
+        "status_code": 404,
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": ["404 — About page is at /about-us/ not /about/"]
+      },
+      {
+        "url": "https://centralskylights.com.au/skylight-replacement/",
+        "status_code": 404,
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": ["404 — Skylight replacement service page does not exist as a standalone URL. Replacement content lives at /supply-and-repairs-in-melbourne/"]
+      },
+      {
+        "url": "http://centralskylights.com.au/",
+        "status_code": 301,
+        "redirect_destination": "https://centralskylights.com.au/",
+        "canonical": null,
+        "canonical_is_self": false,
+        "meta_robots": null,
+        "h1_count": 0,
+        "h1_text": null,
+        "meta_description": null,
+        "issues": []
+      }
+    ]
+  },
+  "dataforseo_audit": {
+    "task_status": "crawl_task_posted",
+    "referring_domains": 279,
+    "referring_main_domains": 191,
+    "total_backlinks": 56620,
+    "domain_rank": 394,
+    "broken_backlinks": 24,
+    "broken_pages": 11,
+    "crawled_pages": 1634,
+    "spam_score": 3,
+    "backlink_quality_concern": "Top referring domains by rank include vtimes.com.au (link farm, 45,319 links from one domain), deepbluedirectory.com, directory5.org, dbsdirectory.com — majority of high-count backlinks appear to be from low-quality web directories",
+    "top_issues": [
+      "Sitemap contains system/utility pages (/checkout/, /cart/, /my-account/, /my-bookings/)",
+      "robots.txt contains many Disallow entries suggesting staging paths exist on server",
+      "11 broken internal page URLs detected",
+      "24 broken backlinks pointing to deleted/changed pages",
+      "Key expected URLs return 404: /skylight-installation/, /skylights/, /skylight-replacement/, /about/"
+    ]
+  },
+  "summary": {
+    "critical_issues": [
+      "4 key service/navigation URLs return 404 (/skylight-installation/, /skylights/, /skylight-replacement/, /about/)",
+      "robots.txt contains suspicious Disallow paths suggesting staging directories on server",
+      "Sitemap includes non-indexable utility pages that should be excluded"
+    ],
+    "warnings": [
+      "Lighthouse/PageSpeed data not available in this run — needs manual check",
+      "11 broken internal pages detected by DataForSEO crawl",
+      "24 broken backlinks pointing to deleted pages",
+      "Backlink profile dominated by low-quality directory links",
+      "Duplicate entry in page-sitemap.xml (/appointment-cancellation-confirmation/ listed twice)"
+    ],
+    "passed": [
+      "HTTPS redirect working (301 from http://)",
+      "robots.txt accessible and correctly allows main content",
+      "sitemap_index.xml exists and references 7 child sitemaps",
+      "Rank Math SEO plugin in use — structured SEO plugin setup",
+      "LiteSpeed server — good for performance",
+      "Domain rank 394 — reasonable for local business",
+      "All main service pages return 200"
+    ]
+  }
+}

@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Audit Report — centralskylights.com.au — April 2026</title>
+<style>
+  :root {
+    --red: #DC2626;
+    --orange: #EA580C;
+    --yellow: #D97706;
+    --green: #16A34A;
+    --blue: #2563EB;
+    --grey: #6B7280;
+    --light: #F9FAFB;
+    --border: #E5E7EB;
+    --text: #111827;
+    --text-muted: #6B7280;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; color: var(--text); background: #fff; line-height: 1.6; }
+  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+
+  /* Header */
+  .header { background: #0F172A; color: #fff; padding: 40px; border-radius: 12px; margin-bottom: 32px; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  .header .meta { color: #94A3B8; font-size: 13px; }
+  .header .meta span { margin-right: 24px; }
+
+  /* Score grid */
+  .score-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 32px; }
+  .score-card { background: var(--light); border: 1px solid var(--border); border-radius: 10px; padding: 20px; text-align: center; }
+  .score-card .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .score-card .score { font-size: 36px; font-weight: 800; }
+  .score-card .score.red { color: var(--red); }
+  .score-card .score.orange { color: var(--orange); }
+  .score-card .score.yellow { color: var(--yellow); }
+  .score-card .score.green { color: var(--green); }
+  .score-card .sub { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+  /* Section */
+  .section { margin-bottom: 40px; }
+  .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 2px solid var(--border); }
+  .section-number { background: #0F172A; color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+  .section-header h2 { font-size: 20px; font-weight: 700; }
+  .section-header .badge { margin-left: auto; padding: 4px 12px; border-radius: 100px; font-size: 12px; font-weight: 600; }
+  .badge.critical { background: #FEE2E2; color: var(--red); }
+  .badge.warning { background: #FEF3C7; color: var(--yellow); }
+  .badge.good { background: #DCFCE7; color: var(--green); }
+  .badge.moderate { background: #FEF9C3; color: #92400E; }
+
+  /* Issue lists */
+  .issue-list { list-style: none; }
+  .issue-list li { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .issue-list li:last-child { border-bottom: none; }
+  .issue-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+  .dot-red { background: var(--red); }
+  .dot-orange { background: var(--orange); }
+  .dot-yellow { background: var(--yellow); }
+  .dot-green { background: var(--green); }
+  .issue-text { flex: 1; }
+  .issue-text strong { font-weight: 600; }
+  .issue-action { font-size: 12px; color: var(--blue); margin-top: 2px; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th { background: #F1F5F9; text-align: left; padding: 10px 12px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); border-bottom: 2px solid var(--border); }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #FAFAFA; }
+  .pos-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 600; font-size: 12px; }
+  .pos-good { background: #DCFCE7; color: var(--green); }
+  .pos-mid { background: #FEF3C7; color: #92400E; }
+  .pos-bad { background: #FEE2E2; color: var(--red); }
+
+  /* Info cards */
+  .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  .card { background: var(--light); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card h4 { font-size: 13px; font-weight: 700; margin-bottom: 10px; }
+  .card ul { list-style: none; }
+  .card ul li { padding: 4px 0; font-size: 13px; color: var(--text-muted); border-bottom: 1px solid var(--border); }
+  .card ul li:last-child { border-bottom: none; }
+  .card ul li strong { color: var(--text); }
+
+  /* Stat blocks */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px; }
+  .stat { background: var(--light); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center; }
+  .stat .num { font-size: 24px; font-weight: 800; color: var(--blue); }
+  .stat .lbl { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 2px; }
+
+  /* Trend */
+  .trend-up { color: var(--green); font-weight: 600; }
+  .trend-down { color: var(--red); font-weight: 600; }
+
+  /* Priority actions */
+  .action-table { margin-top: 12px; }
+  .priority { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+  .priority.p1 { background: #FEE2E2; color: var(--red); }
+  .priority.p2 { background: #FEF3C7; color: #92400E; }
+  .priority.p3 { background: #DCFCE7; color: var(--green); }
+
+  /* Alert box */
+  .alert { padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 13px; }
+  .alert.critical { background: #FEF2F2; border: 1px solid #FECACA; color: #991B1B; }
+  .alert.warning { background: #FFFBEB; border: 1px solid #FDE68A; color: #92400E; }
+  .alert.positive { background: #F0FDF4; border: 1px solid #BBF7D0; color: #166534; }
+
+  /* Footer */
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 12px; text-align: center; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .score-grid { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    .stat-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>SEO Audit Report</h1>
+    <div style="font-size:22px; font-weight:300; margin:8px 0 16px; color:#E2E8F0;">centralskylights.com.au</div>
+    <div class="meta">
+      <span>Audit Date: 16 April 2026</span>
+      <span>Business: Melbourne Skylight Installation &amp; Supply</span>
+      <span>SE Ranking Project: 11626976</span>
+    </div>
+  </div>
+
+  <!-- SCORE SUMMARY -->
+  <div class="score-grid">
+    <div class="score-card">
+      <div class="label">Technical Health</div>
+      <div class="score orange">61</div>
+      <div class="sub">Issues found in crawl, sitemaps, schema</div>
+    </div>
+    <div class="score-card">
+      <div class="label">On-Page SEO</div>
+      <div class="score yellow">58</div>
+      <div class="sub">Title lengths, schema errors, NAP conflict</div>
+    </div>
+    <div class="score-card">
+      <div class="label">Content &amp; Keywords</div>
+      <div class="score yellow">65</div>
+      <div class="sub">Strong growth; content gaps exist</div>
+    </div>
+    <div class="score-card">
+      <div class="label">Local SEO</div>
+      <div class="score orange">60</div>
+      <div class="sub">Strong reviews; NAP inconsistency issue</div>
+    </div>
+  </div>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">0</div>
+      <h2>Executive Summary</h2>
+    </div>
+
+    <div class="alert positive">
+      <strong>Positive Trajectory:</strong> Year-over-year click growth of 71% (2,423 clicks Q1 2025 → 4,143 clicks Q1 2026) and average position improvement from 32.5 to 12.0. The site is actively improving and the foundation is solid.
+    </div>
+    <div class="alert warning">
+      <strong>Key Blocker:</strong> A NAP address conflict between LocalBusiness schema (88 Cheltenham Road, Dandenong 3175) and the contact page + GBP (2/21 Tower Court, Noble Park 3174) is actively undermining local pack performance. This must be fixed immediately.
+    </div>
+    <div class="alert critical">
+      <strong>Revenue Gap:</strong> The URL /skylight-replacement/ returns a 404 error, and no dedicated page exists for "skylight repair melbourne" despite these being high commercial-intent queries the business operates in. These represent direct missed leads.
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">4,080</div>
+        <div class="lbl">Clicks (last 90 days)</div>
+      </div>
+      <div class="stat">
+        <div class="num">313,142</div>
+        <div class="lbl">Impressions (last 90 days)</div>
+      </div>
+      <div class="stat">
+        <div class="num">11.6</div>
+        <div class="lbl">Avg Position (90 days)</div>
+      </div>
+    </div>
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">521</div>
+        <div class="lbl">Ranked Keywords (AU)</div>
+      </div>
+      <div class="stat">
+        <div class="num">313</div>
+        <div class="lbl">Google Reviews (5.0 stars)</div>
+      </div>
+      <div class="stat">
+        <div class="num">4/10</div>
+        <div class="lbl">Tracked KWs in Top 10</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 1: TECHNICAL -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">1</div>
+      <h2>Technical SEO</h2>
+      <span class="badge warning">3 Critical Issues</span>
+    </div>
+
+    <ul class="issue-list">
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>Four key service URLs return 404 errors</strong><br>
+          /skylight-installation/, /skylights/, /skylight-replacement/, and /about/ all return 404. Crawlers and users hitting these URLs get dead ends. /skylight-replacement/ in particular is a business-critical service URL.
+          <div class="issue-action">Action: Create /skylight-replacement/ page or 301 redirect these to correct destinations</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>robots.txt contains suspicious staging/test Disallow paths</strong><br>
+          14 Disallow entries including /adpromedia, /andy, /cssite, /viet-times, /hobartskylights, /saigonxamthammy, /skymarble, /skylightsadelaide — these suggest old staging directories or test content still on the server. Security and crawl budget risk.
+          <div class="issue-action">Action: Audit what exists at these paths; remove/clean up any remaining test content</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>Sitemap includes non-indexable utility pages</strong><br>
+          page-sitemap.xml includes /checkout/, /cart/, /my-account/, /cancel-payment/, /my-bookings/, /bookingpress-complete-payment-2/, /appointment-cancellation-confirmation/ (listed twice). These pages should be excluded from sitemaps or given noindex tags.
+          <div class="issue-action">Action: Exclude WooCommerce utility pages from sitemap; add noindex to transactional/system pages</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>11 broken internal pages + 24 broken backlinks detected</strong><br>
+          DataForSEO crawl identified 11 internally broken pages and 24 external backlinks pointing to deleted/changed pages. Broken internal links waste crawl budget; broken backlinks lose link equity.
+          <div class="issue-action">Action: Run full crawl to identify broken internal links; create 301 redirects for changed URLs with backlinks</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-yellow"></span>
+        <div class="issue-text">
+          <strong>Backlink profile dominated by one low-quality domain (vtimes.com.au)</strong><br>
+          vtimes.com.au has sent 45,319 links to centralskylights.com.au — 80% of all backlinks from a single domain. This appears to be a link farm/directory network. Despite 279 referring domains, domain rank is only 394 — lower than competitors with far fewer links. This link imbalance may be holding back domain authority.
+          <div class="issue-action">Action: Investigate vtimes.com.au relationship; consider disavow if it is a purchased link network</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-yellow"></span>
+        <div class="issue-text">
+          <strong>Page speed data unavailable (Lighthouse/PSI API requires key)</strong><br>
+          Lighthouse could not be run in this environment. Recommend running a manual PageSpeed Insights audit at pagespeed.web.dev for both mobile and desktop scores. Given 188 internal links on homepage and 19 images, check for render-blocking issues.
+          <div class="issue-action">Action: Run manual PSI check; target LCP &lt; 2.5s, CLS &lt; 0.1, TBT &lt; 200ms</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-green"></span>
+        <div class="issue-text">
+          <strong>HTTPS and redirect chain working correctly</strong><br>
+          HTTP → HTTPS 301 redirect functions correctly. All main service pages return 200. Rank Math SEO plugin in use — good foundation.
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- PHASE 2: ON-PAGE -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">2</div>
+      <h2>On-Page SEO</h2>
+      <span class="badge critical">4 Critical Issues</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Page</th>
+          <th>Title Length</th>
+          <th>Meta Desc Length</th>
+          <th>H1</th>
+          <th>Schema</th>
+          <th>Key Issue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Homepage /</strong></td>
+          <td><span class="pos-good">50 chars</span></td>
+          <td><span class="pos-mid">158 chars</span></td>
+          <td>Skylights Melbourne</td>
+          <td>LocalBusiness, WebSite, Product</td>
+          <td>NAP address wrong in schema; 188 internal links</td>
+        </tr>
+        <tr>
+          <td><strong>/skylights-installation-services/</strong></td>
+          <td><span class="pos-mid">42 chars</span></td>
+          <td><span class="pos-good">142 chars</span></td>
+          <td>Skylights Installation | Sun Tunnel Installation</td>
+          <td>None</td>
+          <td>Title missing Melbourne; phone in H2 tag; 1,387 words (thin)</td>
+        </tr>
+        <tr>
+          <td><strong>/skylight-products/</strong></td>
+          <td><span class="pos-bad">89 chars</span></td>
+          <td><span class="pos-bad">172 chars</span></td>
+          <td>VELUX Skylights &amp; VELUX Windows for Sale in Melbourne</td>
+          <td>None</td>
+          <td>Title severely over limit; pos 28.3 despite 7,716 impressions</td>
+        </tr>
+        <tr>
+          <td><strong>/brand/velux/</strong></td>
+          <td><span class="pos-good">52 chars</span></td>
+          <td><span class="pos-mid">157 chars</span></td>
+          <td>Velux Skylights</td>
+          <td>BreadcrumbList</td>
+          <td>H1 missing Melbourne; H2s are product model numbers</td>
+        </tr>
+        <tr>
+          <td><strong>/tags/custom-flashing/</strong></td>
+          <td><span class="pos-good">58 chars</span></td>
+          <td><span class="pos-good">155 chars</span></td>
+          <td>Custom Flashing</td>
+          <td>BreadcrumbList</td>
+          <td>/tags/ URL taxonomy; H1 too generic</td>
+        </tr>
+        <tr>
+          <td><strong>/supply-and-repairs-in-melbourne/</strong></td>
+          <td><span class="pos-bad">77 chars</span></td>
+          <td><span class="pos-good">152 chars</span></td>
+          <td>Trade Skylight Supplies &amp; Skylights Replacement</td>
+          <td>None</td>
+          <td>URL mismatch with intent; H1 mixes B2B and B2C; no OG tags</td>
+        </tr>
+        <tr>
+          <td><strong>/tube-skylight-installation/</strong></td>
+          <td><span class="pos-bad">74 chars</span></td>
+          <td><span class="pos-good">151 chars</span></td>
+          <td>Velux &amp; MaxLight Sun Tunnels Installation in Melbourne</td>
+          <td>None</td>
+          <td>Title over limit; only 2 H2 tags; 1,955 words</td>
+        </tr>
+        <tr>
+          <td><strong>/contact/</strong></td>
+          <td><span class="pos-bad">73 chars</span></td>
+          <td><span class="pos-good">136 chars</span></td>
+          <td>Contact Central Skylights for a FREE Measure &amp; Quote!</td>
+          <td>None</td>
+          <td>No LocalBusiness schema on contact page; NAP conflict</td>
+        </tr>
+        <tr>
+          <td><strong>/about-us/</strong></td>
+          <td><span class="pos-bad">89 chars</span></td>
+          <td><span class="pos-mid">158 chars</span></td>
+          <td>About Central Skylights</td>
+          <td>None</td>
+          <td>Brand name duplicated in title; 89 chars is significantly over limit</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul class="issue-list">
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>NAP address conflict between schema and contact page</strong><br>
+          LocalBusiness schema: 88 Cheltenham Road, Dandenong VIC 3175<br>
+          Contact page + GBP: 2/21 Tower Court, Noble Park VIC 3174<br>
+          These are completely different streets, suburbs, and postcodes. Google sees conflicting address signals which undermines local pack eligibility.
+          <div class="issue-action">Action: Update LocalBusiness schema to match GBP address immediately — use Noble Park 3174</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>Every page has 144–188 internal links — severe link dilution</strong><br>
+          Google recommends keeping internal links reasonable (typically under 100). 188 links on homepage dilutes PageRank distribution significantly. Most appear to come from an extensive footer navigation or product listing.
+          <div class="issue-action">Action: Audit and reduce footer/sidebar links; use nofollow on low-priority internal links if removal not possible</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>Schema errors on homepage</strong><br>
+          (a) Duplicate WebPage schema nodes (both ItemPage and WebPage @types for homepage URL)<br>
+          (b) Organization schema email value is "admin" — not a valid email<br>
+          (c) @id https://centralkylights.com.au/#website contains typo (missing 's')<br>
+          (d) openingHoursSpecification uses "08.30" (period) instead of "08:30" (colon) — may not parse
+          <div class="issue-action">Action: Fix all 4 schema errors using Rank Math schema editor</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>5 page titles exceed 60-character limit</strong><br>
+          /skylight-products/ (89), /about-us/ (89), /supply-and-repairs-in-melbourne/ (77), /tube-skylight-installation/ (74), /contact/ (73) all truncate in Google SERPs. The contact page title also duplicates "Central Skylights" unnecessarily.
+          <div class="issue-action">Action: Rewrite truncated titles to &lt; 60 chars; keep primary keyword at front</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>No schema markup on any service pages</strong><br>
+          Service pages (/skylights-installation-services/, /supply-and-repairs-in-melbourne/, /tube-skylight-installation/, /contact/) have no schema. These pages would benefit from Service schema and LocalBusiness schema.
+          <div class="issue-action">Action: Add Service schema to all service pages; add LocalBusiness schema to /contact/</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-yellow"></span>
+        <div class="issue-text">
+          <strong>Sitewide alt text gap — 1 image per page missing alt attribute</strong><br>
+          Appears to be a systemic issue — the same image/component is likely missing alt text across all templates.
+          <div class="issue-action">Action: Identify the offending element in WordPress theme/template; add descriptive alt text</div>
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-yellow"></span>
+        <div class="issue-text">
+          <strong>Custom flashing served from /tags/ taxonomy URL</strong><br>
+          The /tags/custom-flashing/ URL is a WooCommerce product tag archive — not an ideal structure for a high-value landing page that needs to rank for "skylight custom flashing" and "velux custom flashing".
+          <div class="issue-action">Action: Create a dedicated /custom-flashing-melbourne/ page with canonical pointing there; eventually migrate the tag content</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- PHASE 3: CONTENT -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">3</div>
+      <h2>Content &amp; GSC Performance</h2>
+      <span class="badge good">Strong YoY Growth</span>
+    </div>
+
+    <div class="alert positive">
+      <strong>71% YoY Click Growth:</strong> Q1 2025 had 2,423 clicks. Q1 2026 had 4,143 clicks — a 71% increase. Average position improved dramatically from 32.5 to 12.0. This confirms active SEO work is yielding results.
+    </div>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Top Pages (Last 90 Days)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Page</th>
+          <th>Clicks</th>
+          <th>Impressions</th>
+          <th>Avg Position</th>
+          <th>CTR</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>/</td>
+          <td><strong>844</strong></td>
+          <td>62,220</td>
+          <td><span class="pos-mid">12.6</span></td>
+          <td>1.4%</td>
+          <td>Top traffic page</td>
+        </tr>
+        <tr>
+          <td>/skylight-tips/cost-of-skylight-installation/</td>
+          <td><strong>372</strong></td>
+          <td>28,040</td>
+          <td><span class="pos-bad">17.2</span></td>
+          <td>1.3%</td>
+          <td>Strong informational page</td>
+        </tr>
+        <tr>
+          <td>/skylight-tips/how-much-does-it-cost-to-install-a-whirlybird-roof-vent/</td>
+          <td><strong>220</strong></td>
+          <td>28,702</td>
+          <td><span class="pos-good">3.0</span></td>
+          <td>0.8%</td>
+          <td>Position 3 but low CTR — SERP features absorbing clicks</td>
+        </tr>
+        <tr>
+          <td>/skylight-products/ (product category)</td>
+          <td><strong>25</strong></td>
+          <td>7,716</td>
+          <td><span class="pos-bad">28.3</span></td>
+          <td>0.3%</td>
+          <td style="color:var(--red)"><strong>Critical underperformer — high impressions, near-zero traffic</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Content Gaps — New Pages Needed</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Missing Page</th>
+          <th>Priority</th>
+          <th>Current Status</th>
+          <th>Why It Matters</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>/skylight-replacement-melbourne/</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>404 error</td>
+          <td>High commercial intent; site ranks nowhere for this despite offering the service</td>
+        </tr>
+        <tr>
+          <td>/skylight-repair-melbourne/</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Position 12, no dedicated page</td>
+          <td>Competitor australianskylights.com.au owns this at pos 1; dedicated page could reach top 5</td>
+        </tr>
+        <tr>
+          <td>/solar-skylights-melbourne/</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>GSC pos 18-19, ~480 SV</td>
+          <td>High search volume, current position improvable with dedicated page</td>
+        </tr>
+        <tr>
+          <td>/flat-roof-skylights-melbourne/</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Scattered across product pages</td>
+          <td>Velux FCM range needs a proper service/landing page</td>
+        </tr>
+        <tr>
+          <td>/velux-skylight-installation-melbourne/</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Ranking on homepage, no dedicated page</td>
+          <td>Dedicated page would separate this query from homepage and improve ranking</td>
+        </tr>
+        <tr>
+          <td>/whirlybird-installation-melbourne/</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Ranking well for info content</td>
+          <td>Convert informational ranking (pos 2-4 for whirlybird queries) into service page with CTAs</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Device Performance</h3>
+    <div class="card-grid">
+      <div class="card">
+        <h4>Mobile Performance</h4>
+        <ul>
+          <li><strong>Clicks:</strong> 2,173 (53% of total)</li>
+          <li><strong>Avg Position:</strong> 8.0</li>
+          <li><strong>CTR:</strong> 1.4%</li>
+          <li style="color:var(--green);"><strong>Mobile ranking is strong</strong></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Desktop Performance</h4>
+        <ul>
+          <li><strong>Clicks:</strong> 1,815 (44% of total)</li>
+          <li><strong>Avg Position:</strong> 15.5</li>
+          <li><strong>CTR:</strong> 1.2%</li>
+          <li style="color:var(--orange);"><strong>7.5 position gap vs mobile — investigate</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 4: LOCAL SEO -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">4</div>
+      <h2>Local SEO</h2>
+      <span class="badge critical">NAP Conflict — Fix Immediately</span>
+    </div>
+
+    <div class="alert critical">
+      <strong>Address Conflict:</strong> The LocalBusiness schema on the homepage says the address is "88 Cheltenham Road, Dandenong VIC 3175". The contact page and Google Business Profile both show "2/21 Tower Court, Noble Park VIC 3174". These are different streets, different suburbs, and different postcodes. Google sees conflicting signals which directly suppresses local pack eligibility.
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <h4>Google Business Profile</h4>
+        <ul>
+          <li><strong>Status:</strong> Active (Knowledge Graph confirmed)</li>
+          <li><strong>Listed as:</strong> Skylight contractor in Noble Park</li>
+          <li><strong>Rating:</strong> 5.0 stars (313 reviews)</li>
+          <li><strong>CID:</strong> 15060042115388287151</li>
+          <li style="color:var(--orange);"><strong>Not appearing in local pack for "skylight installation melbourne"</strong></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>NAP Sources</h4>
+        <ul>
+          <li><strong>Contact page:</strong> 2/21 Tower Court, Noble Park 3174</li>
+          <li><strong>Schema (homepage):</strong> 88 Cheltenham Rd, Dandenong 3175</li>
+          <li><strong>GBP:</strong> Noble Park (matches contact page)</li>
+          <li><strong>Schema reviews:</strong> 293 (GBP shows 313)</li>
+          <li style="color:var(--red);"><strong>Schema must be updated to Noble Park 3174</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Schema Issues to Fix</h3>
+    <ul class="issue-list">
+      <li>
+        <span class="issue-dot dot-red"></span>
+        <div class="issue-text">
+          <strong>LocalBusiness schema address wrong</strong><br>
+          streetAddress: "88 Cheltenham Road" → should be "2/21 Tower Court"<br>
+          addressLocality: "Dandenong" → should be "Noble Park"<br>
+          postalCode: "3175" → should be "3174"
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>openingHoursSpecification format error</strong><br>
+          "opens": "08.30" must be "08:30" (colon not period) for valid parsing
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>aggregateRating count out of date</strong><br>
+          Schema shows 293 reviews but GBP has 313. Update to current count monthly.
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-orange"></span>
+        <div class="issue-text">
+          <strong>No LocalBusiness schema on /contact/ page</strong><br>
+          This is the most important page for local signals — add full LocalBusiness schema here.
+        </div>
+      </li>
+      <li>
+        <span class="issue-dot dot-yellow"></span>
+        <div class="issue-text">
+          <strong>Schema @type is generic "LocalBusiness"</strong><br>
+          Should use more specific type: "HomeAndConstructionBusiness" or "GeneralContractor" to better signal service category.
+        </div>
+      </li>
+    </ul>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Review Strength — Key Asset</h3>
+    <div class="alert positive">
+      <strong>313 x 5-star Google reviews</strong> is exceptional for a Melbourne skylight contractor. This is a significant competitive advantage. The reviews are also surfacing as a Google Reviews widget in SERP (confirmed). Leverage this in all meta descriptions and landing page copy.
+    </div>
+  </div>
+
+  <!-- PHASE 5: KEYWORDS -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">5</div>
+      <h2>Keyword Rankings</h2>
+      <span class="badge moderate">4 of 10 in Top 10</span>
+    </div>
+
+    <h3 style="font-size:15px; font-weight:700; margin:0 0 12px;">Tracked Keyword Positions</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Live Position</th>
+          <th>GSC Avg Position</th>
+          <th>GSC Impressions</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>skylights melbourne</td>
+          <td><span class="pos-good">4</span></td>
+          <td>11.0</td>
+          <td>3,655</td>
+          <td>Tracking — needs top 3</td>
+        </tr>
+        <tr>
+          <td>skylight installation melbourne</td>
+          <td><span class="pos-good">5</span></td>
+          <td>8.1</td>
+          <td>2,487</td>
+          <td>Tracking — needs dedicated page</td>
+        </tr>
+        <tr>
+          <td>velux skylights melbourne</td>
+          <td><span class="pos-good">5</span></td>
+          <td>8.6</td>
+          <td>2,397</td>
+          <td>Tracking — strengthen /brand/velux/</td>
+        </tr>
+        <tr>
+          <td>skylight custom flashing</td>
+          <td><span class="pos-mid">9</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>Tracking — close to page 1</td>
+        </tr>
+        <tr>
+          <td>velux custom flashing</td>
+          <td><span class="pos-mid">11</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>Tracking — just off page 1</td>
+        </tr>
+        <tr>
+          <td>velux skylight installation</td>
+          <td><span class="pos-bad">Not in top 50</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>SERP = DIY/YouTube intent; low priority</td>
+        </tr>
+        <tr>
+          <td>skylight replacement</td>
+          <td><span class="pos-bad">Not in top 50</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>International SERP; create local page</td>
+        </tr>
+        <tr>
+          <td>skylights for sale</td>
+          <td><span class="pos-bad">Not in top 50</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>International ecommerce SERP; deprioritise</td>
+        </tr>
+        <tr>
+          <td>tiled roof skylights</td>
+          <td><span class="pos-bad">Not in top 50</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>Create dedicated page with Melbourne context</td>
+        </tr>
+        <tr>
+          <td>metal roof skylights</td>
+          <td><span class="pos-bad">Not in top 50</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td>Create dedicated page with Melbourne context</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Keyword Highlights</h3>
+    <div class="card-grid">
+      <div class="card">
+        <h4>Best Performing Keyword Clusters</h4>
+        <ul>
+          <li><strong>Skylight cost queries:</strong> pos 3-7 across multiple variants</li>
+          <li><strong>Ezylite skylights:</strong> pos 3 (260 SV)</li>
+          <li><strong>Sky lights melbourne:</strong> pos 5 (880 SV)</li>
+          <li><strong>Velux fixed skylights:</strong> pos 10-11 (590 SV)</li>
+          <li><strong>Skylight warehouse:</strong> pos 9 (1,000 SV)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Cannibalization Issues</h4>
+        <ul>
+          <li><strong>skylights melbourne:</strong> Homepage, /skylights-installation-services/, /skylight-products/ all competing</li>
+          <li><strong>velux skylights:</strong> Homepage, /brand/velux/, /skylight-products/ competing</li>
+          <li><strong>Recommendation:</strong> Ensure each URL targets a distinct primary keyword with clear internal linking hierarchy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 6: COMPETITORS -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">6</div>
+      <h2>Competitor Analysis</h2>
+      <span class="badge warning">Domain Authority Gap</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Competitor</th>
+          <th>Type</th>
+          <th>KW Intersections</th>
+          <th>Ranked KWs (AU)</th>
+          <th>Domain Rank</th>
+          <th>Ref Domains</th>
+          <th>Key Insight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#F0FDF4">
+          <td><strong>centralskylights.com.au</strong></td>
+          <td>Target</td>
+          <td>—</td>
+          <td>521</td>
+          <td>394</td>
+          <td>279</td>
+          <td>Good rankings but low DR vs competition</td>
+        </tr>
+        <tr>
+          <td>velux.com.au</td>
+          <td>Brand Manufacturer</td>
+          <td>439</td>
+          <td>1,096</td>
+          <td>High</td>
+          <td>586</td>
+          <td>Owns all "velux" brand SERPs; refers to dealers</td>
+        </tr>
+        <tr>
+          <td>shireskylights.com.au</td>
+          <td>Direct Competitor</td>
+          <td>422</td>
+          <td>775</td>
+          <td><span class="pos-bad">217</span></td>
+          <td>224</td>
+          <td>Fewer links but higher authority — clean profile</td>
+        </tr>
+        <tr>
+          <td>no1roofing.com.au</td>
+          <td>Indirect</td>
+          <td>388</td>
+          <td>7,325</td>
+          <td>High</td>
+          <td>—</td>
+          <td>Broad roofing site — different content strategy</td>
+        </tr>
+        <tr>
+          <td>vividskylights.com.au</td>
+          <td>Direct Competitor</td>
+          <td>377</td>
+          <td>1,108</td>
+          <td><span class="pos-bad">229</span></td>
+          <td>275</td>
+          <td>More keywords than Central; higher domain rank</td>
+        </tr>
+        <tr>
+          <td>diamondskylights.com.au</td>
+          <td>Direct Competitor</td>
+          <td>358</td>
+          <td>646</td>
+          <td>132</td>
+          <td>135</td>
+          <td>Lower keywords but high commercial traffic value</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="alert warning">
+      <strong>Domain Authority Paradox:</strong> Central Skylights has 279 referring domains — more than Shire Skylights (224) and Diamond Skylights (135). Yet Central's domain rank (394) is lower than both. The reason is link quality: Central's 56,620 total backlinks are heavily skewed by vtimes.com.au (45k+ links) which appears to be a link farm. Quality editorial links from genuine home improvement and Melbourne lifestyle sites would raise domain authority faster than any other single action.
+    </div>
+
+    <h3 style="font-size:15px; font-weight:700; margin:20px 0 12px;">Emerging Competitors to Monitor</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Domain</th>
+          <th>Why Notable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>www.belleskylights.com.au</td>
+          <td>Outranking Central for "skylights melbourne" (pos 3 vs pos 4) and "skylight installers melbourne" — not in original competitor list</td>
+        </tr>
+        <tr>
+          <td>www.luminousskylights.com.au</td>
+          <td>Appearing in multiple SERPs including velux installer and skylight repair queries</td>
+        </tr>
+        <tr>
+          <td>oculusskylights.com.au</td>
+          <td>Ranking pos 7 for "velux installer melbourne" — growing presence</td>
+        </tr>
+        <tr>
+          <td>www.australianskylights.com.au</td>
+          <td>Owns position 1 for "skylight repair melbourne" — key commercial term Central misses</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PRIORITY ACTIONS -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">7</div>
+      <h2>Priority Action Plan</h2>
+    </div>
+
+    <h3 style="font-size:15px; font-weight:700; margin:0 0 12px; color:var(--red);">Immediate Actions (This Week)</h3>
+    <table class="action-table">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Priority</th>
+          <th>Effort</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fix LocalBusiness schema address: change to 2/21 Tower Court, Noble Park VIC 3174 (matches GBP)</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Low (10 min)</td>
+          <td>High — NAP consistency directly affects local pack</td>
+        </tr>
+        <tr>
+          <td>Fix schema errors: openingHours format (08.30 → 08:30), remove duplicate WebPage nodes, fix typo in @id URL</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Low (20 min)</td>
+          <td>Medium — clean schema = better rich snippet eligibility</td>
+        </tr>
+        <tr>
+          <td>Update aggregateRating in schema to 313 reviews</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Very low (5 min)</td>
+          <td>Medium — ensures review count is accurate in rich snippets</td>
+        </tr>
+        <tr>
+          <td>Exclude utility pages from sitemap: /checkout/, /cart/, /my-account/, /cancel-payment/, /my-bookings/, /bookingpress-complete-payment-2/</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Low (15 min)</td>
+          <td>Medium — cleaner crawl budget</td>
+        </tr>
+        <tr>
+          <td>Create /skylight-replacement-melbourne/ page (currently 404)</td>
+          <td><span class="priority p1">P1</span></td>
+          <td>Medium (2-3 hrs)</td>
+          <td>High — direct commercial intent with no current page</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:15px; font-weight:700; margin:24px 0 12px; color:var(--orange);">Short-Term (Next 30 Days)</h3>
+    <table class="action-table">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Priority</th>
+          <th>Effort</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create /skylight-repair-melbourne/ service page</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Medium</td>
+          <td>High — site ranks pos 12 without dedicated page; competitor owns pos 1</td>
+        </tr>
+        <tr>
+          <td>Rewrite 5 truncated page titles to under 60 chars: /skylight-products/ (89), /about-us/ (89), /supply-and-repairs-in-melbourne/ (77), /tube-skylight-installation/ (74), /contact/ (73)</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Low</td>
+          <td>Medium — better SERP display and CTR improvement</td>
+        </tr>
+        <tr>
+          <td>Add LocalBusiness schema to /contact/ page</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Low</td>
+          <td>Medium — reinforces local SEO signals on the most location-relevant page</td>
+        </tr>
+        <tr>
+          <td>Fix sitewide missing alt text (1 image per page system-wide)</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Low</td>
+          <td>Low-Medium — accessibility + image SEO</td>
+        </tr>
+        <tr>
+          <td>Expand /skylight-products/ content and internal linking — currently at pos 28.3 with 7,716 impressions; too little CTR</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Medium</td>
+          <td>High — significant impression volume currently converting poorly</td>
+        </tr>
+        <tr>
+          <td>Audit and reduce excessive internal link count (144-188 per page)</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Medium</td>
+          <td>Medium — better PageRank flow to key pages</td>
+        </tr>
+        <tr>
+          <td>Run PageSpeed Insights on homepage and key service pages — address Core Web Vitals if failing</td>
+          <td><span class="priority p2">P2</span></td>
+          <td>Variable</td>
+          <td>Variable — desktop position (15.5) vs mobile (8.0) gap needs investigation</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:15px; font-weight:700; margin:24px 0 12px; color:var(--green);">Medium-Term (Next 60-90 Days)</h3>
+    <table class="action-table">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Priority</th>
+          <th>Effort</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create /solar-skylights-melbourne/ page — currently at GSC pos 18-19, ~480 SV</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Medium</td>
+          <td>High — strong volume, achievable position improvement</td>
+        </tr>
+        <tr>
+          <td>Create /flat-roof-skylights-melbourne/ service page</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Medium</td>
+          <td>Medium — Velux FCM range needs a proper landing page</td>
+        </tr>
+        <tr>
+          <td>Move /tags/custom-flashing/ content to /custom-flashing-melbourne/ with 301 redirect</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Medium</td>
+          <td>Medium — better URL for ranking "skylight custom flashing" (currently pos 9)</td>
+        </tr>
+        <tr>
+          <td>Link building: earn 10-15 editorial links from home improvement, architecture, or Melbourne lifestyle publications to close domain rank gap with Shire (DR 217) and Vivid (DR 229)</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>High</td>
+          <td>High — this is the biggest lever for breaking into top 3 for primary keywords</td>
+        </tr>
+        <tr>
+          <td>Investigate vtimes.com.au backlink network — consider disavow if it is a link farm/purchased link scheme</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Medium</td>
+          <td>Risk mitigation — 45k+ links from one domain is a penalty risk</td>
+        </tr>
+        <tr>
+          <td>Add emerging competitors (belleskylights.com.au, luminousskylights.com.au, oculusskylights.com.au) to SE Ranking for monitoring</td>
+          <td><span class="priority p3">P3</span></td>
+          <td>Low</td>
+          <td>Monitoring — these sites are entering top SERPs and were not in the original competitor list</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>SEO Audit — centralskylights.com.au — Generated 16 April 2026</p>
+    <p style="margin-top:4px;">Data sources: Google Search Console, DataForSEO Labs, SE Ranking (Project 11626976), Live SERP checks (Google Melbourne VIC)</p>
+  </div>
+
+</div>
+</body>
+</html>

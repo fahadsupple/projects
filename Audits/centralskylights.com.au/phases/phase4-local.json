@@ -1,0 +1,199 @@
+{
+  "phase": "local_seo",
+  "domain": "centralskylights.com.au",
+  "audit_date": "2026-04-16",
+  "business_info": {
+    "name": "Central Skylights",
+    "business_type": "Skylight contractor / installer",
+    "primary_location": "Noble Park / Dandenong, Melbourne VIC",
+    "service_area": "Greater Melbourne (South East, West, North West Melbourne and North of Melbourne)"
+  },
+  "google_business_profile": {
+    "status": "active",
+    "evidence": "Knowledge Graph visible in SERP for brand query 'skylights melbourne'",
+    "knowledge_graph_data": {
+      "title": "Central Skylights | Velux Skylights Melbourne",
+      "subtitle": "Skylight contractor in Noble Park, Australia",
+      "areas_served": "Melbourne",
+      "website_url": "https://centralskylights.com.au/",
+      "cid": "15060042115388287151",
+      "place_id": "ChIJHwaNkTAV1moRrygkLoMEANE"
+    },
+    "reviews": {
+      "total_reviews": 313,
+      "rating": 5.0,
+      "rating_max": 5,
+      "source": "Google Reviews widget in SERP",
+      "assessment": "Exceptional review profile — 313 reviews at 5.0 stars is outstanding for a local skylight contractor. This is a strong competitive advantage."
+    },
+    "gbp_issues": [
+      "GBP shows 'Noble Park' but LocalBusiness schema on website uses 'Dandenong' as addressLocality — NAP mismatch",
+      "Knowledge graph shows no logo_url (null) — GBP profile image may be missing or not connected",
+      "Knowledge graph shows no image_url (null) — profile photos not surfacing in knowledge panel"
+    ]
+  },
+  "nap_consistency": {
+    "status": "INCONSISTENT",
+    "sources_checked": [
+      {
+        "source": "Contact page (centralskylights.com.au/contact/)",
+        "business_name": "Central Skylights",
+        "address": "2/21 Tower Court, Noble Park VIC 3174",
+        "phone_main": "(03) 9999 1526",
+        "phone_mobile": "0413 922 958"
+      },
+      {
+        "source": "Homepage LocalBusiness schema",
+        "business_name": "Central Skylights",
+        "address": "88 Cheltenham Road, Dandenong VIC 3175",
+        "phone": "(03) 9999 1526"
+      },
+      {
+        "source": "Homepage Organization schema",
+        "business_name": "Central Skylights",
+        "address": "88 Cheltenham Rd VIC 3175",
+        "phone": "not specified"
+      },
+      {
+        "source": "Google Knowledge Graph / GBP",
+        "business_name": "Central Skylights | Velux Skylights Melbourne",
+        "location": "Noble Park, Australia",
+        "phone": "(03) 9999 1526"
+      }
+    ],
+    "discrepancies": [
+      "Street address: '2/21 Tower Court' (contact page) vs '88 Cheltenham Road' (schema) — different streets entirely",
+      "Suburb: Noble Park (contact page + GBP) vs Dandenong (schema) — different suburbs",
+      "Postcode: 3174 (contact page + GBP) vs 3175 (schema) — different postcodes",
+      "Note: Noble Park 3174 and Dandenong 3175 are adjacent suburbs — likely the business moved or has multiple locations, but schema has not been updated"
+    ],
+    "impact": "NAP inconsistency between schema and GBP/contact page is a significant local ranking factor issue. Google may show incorrect address information or reduce confidence in location signals."
+  },
+  "local_pack_presence": {
+    "skylights_melbourne": {
+      "has_local_pack": false,
+      "serp_features": ["knowledge_graph", "people_also_ask", "third_party_reviews", "google_reviews", "organic", "popular_products", "related_searches"],
+      "note": "No 3-pack shown for 'skylights melbourne' — SERP is product-intent dominated with organic and shopping results. Central ranks at organic position 4."
+    },
+    "skylight_installation_melbourne": {
+      "has_local_pack": true,
+      "local_pack_returned": true,
+      "central_in_local_pack": false,
+      "note": "Local pack exists for 'skylight installation melbourne' but Central Skylights does not appear in it — key gap. Local pack businesses were not extractable from API but 3-pack is active for this query."
+    },
+    "central_in_brand_serp": {
+      "query": "central skylights melbourne",
+      "organic_position": 1,
+      "facebook_page": "position 2",
+      "instagram": "position 5",
+      "notes": "Strong branded SERP — reviews sites, social profiles all present"
+    }
+  },
+  "local_content": {
+    "suburb_pages_present": true,
+    "examples": [
+      "https://centralskylights.com.au/skylights-camberwell/",
+      "https://centralskylights.com.au/skylights-bayswater/",
+      "https://centralskylights.com.au/skylights-albert-park/",
+      "https://centralskylights.com.au/skylights-mornington/",
+      "https://centralskylights.com.au/skylights-near-me/",
+      "https://centralskylights.com.au/skylights-noble-park-north/",
+      "https://centralskylights.com.au/skylights-dandenong/ (assumed)",
+      "https://centralskylights.com.au/skylights-service-areas/"
+    ],
+    "performance": "Suburb pages are working — /skylights-mornington/ ranks position 2 for 'skylights mornington' (50 SV)",
+    "local_sitemap": {
+      "exists": true,
+      "url": "https://centralskylights.com.au/local-sitemap.xml",
+      "note": "Local sitemap only contains 1 URL (locations.kml) — not utilising sitemap for local pages"
+    }
+  },
+  "schema_local_seo": {
+    "localBusiness_schema_present": true,
+    "schema_on_homepage": true,
+    "schema_on_contact_page": false,
+    "schema_type": "LocalBusiness",
+    "issues": [
+      "LocalBusiness schema has wrong address (88 Cheltenham Rd Dandenong 3175) vs actual location Noble Park 3174",
+      "Schema @type is 'LocalBusiness' — should be more specific: 'HomeAndConstructionBusiness' or 'GeneralContractor' or 'HomeImprovement'",
+      "openingHoursSpecification uses 08.30 as opens time (with period instead of colon) — may not parse correctly",
+      "Organization schema email value is 'admin' — not a valid email format",
+      "Missing geo coordinates (latitude/longitude) in LocalBusiness schema",
+      "Missing hasMap property linking to Google Maps",
+      "Missing aggregateRating within LocalBusiness schema (separate Product schema has rating but not LocalBusiness)",
+      "sameAs missing LinkedIn profile URL"
+    ]
+  },
+  "citations_and_directories": {
+    "notable_citations_found": [
+      "Australia Chamber of Commerce listing",
+      "buy.nsw.gov.au (government supplier listing — strong citation)",
+      "Trustindex.io reviews page",
+      "Solarbright.com.au dealer listing",
+      "central-skylights.myshopify.com (old Shopify store — 281 backlinks, may be a duplicate business listing)"
+    ],
+    "backlink_concern": "vtimes.com.au has 45,319 links to centralskylights.com.au — this appears to be a link network/farm. This volume of links from a single domain is a potential Google penalty risk.",
+    "referring_domains_total": 279,
+    "referring_main_domains": 191,
+    "niche_relevant_domains": "Low — most referring domains are web directories, not skylight/home improvement industry sites"
+  },
+  "reviews_and_reputation": {
+    "google_reviews": {
+      "count": 313,
+      "rating": 5.0,
+      "status": "Excellent"
+    },
+    "schema_review_count": 293,
+    "discrepancy": "Schema shows 293 reviews but GBP shows 313 — schema needs updating",
+    "review_response_strategy": "Cannot assess from available data — should be verified manually",
+    "other_review_platforms": [
+      "Trustindex.io (confirmed via SERP)",
+      "Facebook reviews (confirmed — Facebook page at position 2 for brand query)"
+    ]
+  },
+  "local_serp_competitive_landscape": {
+    "skylights_melbourne_top5_organic": [
+      {"pos": 1, "domain": "www.melbourneskylights.net.au"},
+      {"pos": 2, "domain": "skylightshop.com.au"},
+      {"pos": 3, "domain": "www.belleskylights.com.au"},
+      {"pos": 4, "domain": "centralskylights.com.au", "note": "CURRENT"},
+      {"pos": 5, "domain": "amazingskylights.com.au"}
+    ],
+    "skylight_installers_melbourne_top5": [
+      {"pos": 4, "domain": "centralskylights.com.au"},
+      {"pos": 5, "domain": "www.belleskylights.com.au"},
+      {"pos": 7, "domain": "www.diamondskylights.com.au"},
+      {"pos": 8, "domain": "skylightshop.com.au"},
+      {"pos": 12, "domain": "amazingskylights.com.au"}
+    ],
+    "skylight_repair_melbourne": {
+      "central_position": 12,
+      "gap": "Site ranks position 12 for repair query but no dedicated repair page — opportunity to move into top 5"
+    }
+  },
+  "summary": {
+    "local_seo_score": "moderate",
+    "strengths": [
+      "313 x 5-star reviews on Google — exceptional social proof",
+      "Knowledge Graph presence for brand query — strong GBP setup",
+      "Suburb location pages working (Mornington at pos 2)",
+      "GBP confirmed active with strong reviews",
+      "buy.nsw.gov.au citation is strong trust signal"
+    ],
+    "critical_issues": [
+      "NAP inconsistency: schema address (88 Cheltenham Rd, Dandenong 3175) contradicts contact page and GBP (Noble Park 3174) — fix schema immediately",
+      "Central Skylights not in local pack for 'skylight installation melbourne' — missing 3-pack visibility",
+      "vtimes.com.au link spam (45k+ links from one domain) is a potential penalty risk",
+      "LocalBusiness schema on wrong page URL (#id is homepage, schema should also be on /contact/)"
+    ],
+    "actions": [
+      "Immediately fix LocalBusiness schema address to match GBP: 2/21 Tower Court, Noble Park VIC 3174",
+      "Add LocalBusiness schema to /contact/ page",
+      "Fix openingHoursSpecification format: '08.30' → '08:30'",
+      "Update schema aggregateRating to match current 313 review count",
+      "Investigate and potentially disavow vtimes.com.au link network",
+      "Add GBP posts regularly to strengthen local ranking signals",
+      "Create more suburb pages for high-density Melbourne suburbs not yet targeted"
+    ]
+  }
+}

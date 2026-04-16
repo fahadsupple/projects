@@ -1,0 +1,508 @@
+{
+  "phase": "on_page",
+  "domain": "centralskylights.com.au",
+  "audit_date": "2026-04-16",
+  "pages": [
+    {
+      "url": "https://centralskylights.com.au/",
+      "page_type": "homepage",
+      "status_code": 200,
+      "title": {
+        "text": "Skylights Melbourne | VELUX Skylights Installation",
+        "char_count": 50,
+        "issues": ["Well-optimised, primary keyword first, brand implied"]
+      },
+      "meta_description": {
+        "text": "Melbourne's 5-star experts in Velux skylights & roof windows. Get 20% OFF supply-only or book a free installation quote. Custom flashings & 10-year guarantee.",
+        "char_count": 158,
+        "issues": ["Slightly over optimal 155 char limit — consider trimming by 3-4 chars"]
+      },
+      "h1": {
+        "text": "Skylights Melbourne",
+        "count": 1,
+        "issues": []
+      },
+      "h2_tags": [
+        "Premium Dealer of Velux Skylights in Melbourne",
+        "Skylights Installation Services in Melbourne",
+        "Skylights Installation across Melbourne",
+        "Why Melbourne Homeowners Prefer Velux Skylights",
+        "Skylight Installation Cost and Tips",
+        "Why Choose Central Skylights in Melbourne?",
+        "Melbourne's Leading Supplier of Velux Skylights & Roof Windows",
+        "One-stop shop for Velux Skylights and Velux Custom Flashing"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 3306,
+      "internal_links": 188,
+      "external_links": 4,
+      "images": {
+        "total": 19,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": ["Place", "Organization", "WebSite", "ImageObject", "ItemPage", "BreadcrumbList", "LocalBusiness", "Product", "WebPage"],
+        "issues": [
+          "Duplicate WebPage schema nodes present (both ItemPage and WebPage @types for same URL)",
+          "LocalBusiness schema has address 88 Cheltenham Road, Dandenong VIC 3175 — conflicts with contact page showing 2/21 Tower Court, Noble Park VIC 3174",
+          "Organization schema has incomplete email field (value 'admin' — not a valid email)",
+          "Product schema aggregateRating shows 293 reviews but Google widget shows 313 — count mismatch",
+          "Schema @id https://centralkylights.com.au/#website contains typo (missing 's')"
+        ]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true,
+        "og_title": "Skylights Melbourne | VELUX Skylights Installation",
+        "og_description": "Melbourne's 5-star experts in Velux skylights & roof windows. Get 20% OFF supply-only or book a free installation quote. Custom flashings & 10-year guarantee."
+      },
+      "issues": [
+        "188 internal links on page is extremely high — link equity diluted",
+        "Word count of 3,306 is good but quality of content needs review",
+        "No FAQ schema despite likely having FAQs on page",
+        "No Service schema markup"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/skylights-installation-services/",
+      "page_type": "service",
+      "status_code": 200,
+      "title": {
+        "text": "Skylights Installation & Skylights Plaster",
+        "char_count": 42,
+        "issues": ["Title is weak — 'Skylights Plaster' is not a primary search intent; missing 'Melbourne' modifier; no brand signal"]
+      },
+      "meta_description": {
+        "text": "Quick turn-around Residential Skylight Installation: Install & Repair of all skylights from Velux, Sun Tunnel and comple...",
+        "char_count": 142,
+        "issues": ["Gets cut off — but acceptable length; missing Melbourne location signal"]
+      },
+      "h1": {
+        "text": "Skylights Installation | Sun Tunnel Installation",
+        "count": 1,
+        "issues": ["H1 combines two topics — better to have one focused H1 per page"]
+      },
+      "h2_tags": [
+        "Velux Skylights Installation",
+        "Suntube Skylights Installation",
+        "Old Skylight Replacements",
+        "Supply Velux Skylights and Custom flashings",
+        "Book a Free Skylight Measure and Quote at your house Call us now: (03) 9999 1526 or 0413 922 958"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 1387,
+      "internal_links": 148,
+      "external_links": 4,
+      "images": {
+        "total": 9,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No schema markup on this key service page — missing LocalBusiness or Service schema"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "Title misses Melbourne and key service keywords",
+        "Phone number embedded in H2 tag — semantically incorrect",
+        "Only 1,387 words — thin for a core service page competing on 'skylight installation melbourne'",
+        "No schema markup",
+        "148 internal links — excessive"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/skylight-products/",
+      "page_type": "category",
+      "status_code": 200,
+      "title": {
+        "text": "Skylights for Sale Melbourne | VELUX Skylights & VELUX Roof Windows | 20% OFF Velux Range",
+        "char_count": 89,
+        "issues": ["Title is 89 chars — significantly over the 60-char limit; will be truncated in SERPs"]
+      },
+      "meta_description": {
+        "text": "Premium skylights for sale at Central Skylights Melbourne. Shop Velux fixed, electric & solar models with 10-year warran...",
+        "char_count": 172,
+        "issues": ["172 chars — substantially over 155 limit; will be truncated"]
+      },
+      "h1": {
+        "text": "VELUX Skylights & VELUX Windows for Sale in Melbourne",
+        "count": 1,
+        "issues": []
+      },
+      "h2_tags": [
+        "Skylights for Sale",
+        "Velux Fixed Skylights: Affordable Natural Light Services",
+        "Featured Velux Skylights On Sale",
+        "Velux Skylights Collection",
+        "Velux Roof Windows & Sun Tunnels",
+        "Colorbond Custom Flashing for Velux Skylights"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 2708,
+      "internal_links": 179,
+      "external_links": 4,
+      "images": {
+        "total": 26,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No schema on product category page — should have ItemList or BreadcrumbList"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "Title too long at 89 chars — will be truncated in Google",
+        "Meta description too long at 172 chars",
+        "GSC shows this page at avg position 28.3 despite 7,716 impressions — under-performing",
+        "179 internal links — excessive"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/brand/velux/",
+      "page_type": "product",
+      "status_code": 200,
+      "title": {
+        "text": "Velux Skylights Melbourne | 20% OFF Supply & Install",
+        "char_count": 52,
+        "issues": []
+      },
+      "meta_description": {
+        "text": "Shop Velux skylights in Melbourne. Premier dealer offering 20% OFF RRP, free quotes & 10-year warranty. Fixed, solar & e...",
+        "char_count": 157,
+        "issues": ["Slightly over 155 char limit"]
+      },
+      "h1": {
+        "text": "Velux Skylights",
+        "count": 1,
+        "issues": ["H1 is short — could be 'Velux Skylights Melbourne' to reinforce geo-targeting"]
+      },
+      "h2_tags": [
+        "Key Features and Types of VELUX Skylights",
+        "VELUX FCM 2246 Flat Roof Skylight 665x1275mm",
+        "Velux FSCC Solar Remote Honeycomb Blind for FCM, VCM and VCS",
+        "Velux FS C04 Fixed Skylights 550x980mm",
+        "Velux Solar Remote Blinds | FSCD Honeycomb and FSLD Pleated Translucent",
+        "VELUX FCM 2234 Flat Roof Skylight 665x970mm"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 2981,
+      "internal_links": 180,
+      "external_links": 5,
+      "images": {
+        "total": 22,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": ["BreadcrumbList"],
+        "issues": ["Has BreadcrumbList — good; missing Product schema for brand archive page"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "H2 tags list specific product models as headings — poor semantic structure for brand overview page",
+        "H1 misses Melbourne modifier",
+        "180 internal links — excessive"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/tags/custom-flashing/",
+      "page_type": "product_tag",
+      "status_code": 200,
+      "title": {
+        "text": "Skylight Custom Flashing | Velux Custom Flashing Melbourne",
+        "char_count": 58,
+        "issues": []
+      },
+      "meta_description": {
+        "text": "Premium skylight custom flashing services for Velux skylights. Melbourne-made Colorbond flashing for tile, metal & flat ...",
+        "char_count": 155,
+        "issues": []
+      },
+      "h1": {
+        "text": "Custom Flashing",
+        "count": 1,
+        "issues": ["H1 is generic — 'Custom Flashing' lacks context; could be 'Velux Custom Flashing Melbourne'"]
+      },
+      "h2_tags": [
+        "Skylight Custom Flashing",
+        "Custom Flashing Services for Every Roof Type",
+        "VELUX Custom Flashing C01 Skylight (for FS/VS/VSS/VSE 550x700mm)",
+        "VELUX Custom Flashing C06 Skylight (for FS/VS/VSS/VSE 550x1180mm)",
+        "VELUX Custom Flashing C04 Skylight (for FS/VS/VSS/VSE 550x980mm)",
+        "Custom Flashing for Velux VCS, VCM, FCM 2246 (665x1275mm)"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 2440,
+      "internal_links": 176,
+      "external_links": 4,
+      "images": {
+        "total": 22,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": ["BreadcrumbList"],
+        "issues": []
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "URL structure using /tags/ — WooCommerce product tag, not an ideal SEO URL structure for a key service landing page",
+        "H1 is weak",
+        "176 internal links — excessive",
+        "Ranked pos 9 for 'skylight custom flashing' — close to page 1, needs push"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/supply-and-repairs-in-melbourne/",
+      "page_type": "service",
+      "status_code": 200,
+      "title": {
+        "text": "Skylights Replacement Melbourne | Trade Skylight Supplies | Central Skylights",
+        "char_count": 77,
+        "issues": ["77 chars — over the 60-char limit; will be truncated in SERP"]
+      },
+      "meta_description": {
+        "text": "Professional skylight replacement in Melbourne. We manufacture, supply and repair all major skylight brands. 10-year gua...",
+        "char_count": 152,
+        "issues": []
+      },
+      "h1": {
+        "text": "Trade Skylight Supplies & Skylights Replacement",
+        "count": 1,
+        "issues": ["H1 leads with 'Trade' — commercial/B2B intent signal on what should be a residential replacement page; confusing intent mix"]
+      },
+      "h2_tags": [
+        "Skylight Replacement Melbourne",
+        "Trade Skylights Supply",
+        "Skylight Repairs",
+        "When You Might Need a Skylight Replacement",
+        "Modern Skylight Replacement Options"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 2107,
+      "internal_links": 148,
+      "external_links": 4,
+      "images": {
+        "total": 6,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No schema on replacement/repair service page"]
+      },
+      "open_graph": {
+        "present": false,
+        "has_image": false,
+        "issues": ["No Open Graph tags on this page"]
+      },
+      "issues": [
+        "Title too long at 77 chars",
+        "H1 mixes B2B (trade) and B2C (replacement) intent",
+        "URL /supply-and-repairs-in-melbourne/ is not well-optimised for 'skylight replacement melbourne'",
+        "No dedicated page for /skylight-replacement/ — 404 — this is a missed keyword opportunity",
+        "No Open Graph tags"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/tube-skylight-installation/",
+      "page_type": "service",
+      "status_code": 200,
+      "title": {
+        "text": "Velux & MaxLight Sun Tunnels Installation in Melbourne - Central Skylights",
+        "char_count": 74,
+        "issues": ["74 chars — over 60-char limit; will be truncated in SERP; ' - Central Skylights' suffix adds to truncation problem"]
+      },
+      "meta_description": {
+        "text": "Lightwell Skylights are a fantastic way to introduce clean, natural light into any home, school or place of work. Reduce...",
+        "char_count": 151,
+        "issues": ["Starts with 'Lightwell Skylights' — product brand name, not the service benefit; weaker CTA than other pages"]
+      },
+      "h1": {
+        "text": "Velux & MaxLight Sun Tunnels Installation in Melbourne",
+        "count": 1,
+        "issues": []
+      },
+      "h2_tags": [
+        "Lightwell Sun Tunnels Supply and Install",
+        "Velux Sun Tunnels Supply and Install"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 1955,
+      "internal_links": 148,
+      "external_links": 4,
+      "images": {
+        "total": 9,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No schema on sun tunnel service page"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "Title too long at 74 chars",
+        "Thin content at 1,955 words for a competitive installation service page",
+        "Only 2 H2 tags — minimal content structure"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/contact/",
+      "page_type": "contact",
+      "status_code": 200,
+      "title": {
+        "text": "Contact Central Skylights for a FREE Measure & Quote! - Central Skylights",
+        "char_count": 73,
+        "issues": ["73 chars — over limit; ' - Central Skylights' appended and causing truncation"]
+      },
+      "meta_description": {
+        "text": "Contact us for a FREE QUOTE! Central Skylights 3 locations: South East Melbourne, West and North West Melbourne and Nort...",
+        "char_count": 136,
+        "issues": []
+      },
+      "h1": {
+        "text": "Contact Central Skylights for a FREE Measure & Quote!",
+        "count": 1,
+        "issues": []
+      },
+      "h2_tags": [
+        "Skylights Showroom & Office",
+        "Skylight Service Areas"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 1658,
+      "internal_links": 148,
+      "external_links": 5,
+      "images": {
+        "total": 6,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No LocalBusiness schema on contact page — this is a critical omission for local SEO"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "nap_data_on_page": {
+        "phone": "(03) 9999 1526",
+        "mobile": "0413 922 958",
+        "address": "2/21 Tower Court, Noble Park VIC 3174",
+        "note": "Conflicts with schema address: 88 Cheltenham Road, Dandenong VIC 3175"
+      },
+      "issues": [
+        "Title too long at 73 chars",
+        "NAP on contact page (Noble Park VIC 3174) contradicts LocalBusiness schema (Dandenong VIC 3175)",
+        "No LocalBusiness schema on contact page"
+      ]
+    },
+    {
+      "url": "https://centralskylights.com.au/about-us/",
+      "page_type": "about",
+      "status_code": 200,
+      "title": {
+        "text": "About Central Skylights | Velux Premier Dealer & Certified Installers | Central Skylights",
+        "char_count": 89,
+        "issues": ["89 chars — significantly over limit; 'Central Skylights' appears twice in title"]
+      },
+      "meta_description": {
+        "text": "Learn about our journey as Melbourne's Velux specialists. Discover our 10-year workmanship guarantee, our expert team, a...",
+        "char_count": 158,
+        "issues": ["158 chars — over 155 limit"]
+      },
+      "h1": {
+        "text": "About Central Skylights",
+        "count": 1,
+        "issues": []
+      },
+      "h2_tags": [
+        "Meet the Team Behind the Light",
+        "Why Melbourne Homeowners Trust Us",
+        "Technical Excellence & Complex Problem Solving",
+        "Our Seamless Process: From Showroom to Ceiling"
+      ],
+      "h3_count": "not_extracted",
+      "word_count": 1687,
+      "internal_links": 144,
+      "external_links": 4,
+      "images": {
+        "total": 4,
+        "missing_alt": 1,
+        "issues": ["1 image missing alt text — on an about page this is likely a team photo with no description"]
+      },
+      "schema": {
+        "types": [],
+        "issues": ["No schema on about page"]
+      },
+      "open_graph": {
+        "present": true,
+        "has_image": true
+      },
+      "issues": [
+        "Title is 89 chars and duplicates brand name",
+        "Meta description 2 chars over limit",
+        "Low image count (4) for about/team page"
+      ]
+    }
+  ],
+  "site_wide_issues": [
+    "Every page has exactly 1 image missing alt text — appears to be a systematic issue, possibly the same widget/component image sitewide",
+    "Internal link count ranges from 144-188 per page — this is extremely high and dilutes link equity across all pages",
+    "Title tag truncation affects 5 out of 9 pages audited (over 60 chars)",
+    "Meta description truncation affects 5 out of 9 pages audited (over 155 chars)",
+    "Zero schema markup on service pages (installation, replacement, sun tunnels, contact)",
+    "NAP inconsistency: schema says 88 Cheltenham Rd Dandenong 3175, contact page says 2/21 Tower Court Noble Park 3174",
+    "No FAQ schema anywhere on site despite likely FAQ content present",
+    "No Review schema linking to the strong 313-review GBP profile"
+  ],
+  "summary": {
+    "total_pages_audited": 9,
+    "pages_missing_meta_desc": 1,
+    "pages_missing_h1": 1,
+    "pages_with_schema": 3,
+    "pages_with_title_over_60": 5,
+    "pages_with_meta_desc_over_155": 4,
+    "critical_issues": [
+      "NAP inconsistency between schema and contact page (different address)",
+      "Key service page /skylight-replacement/ returns 404 — keyword opportunity wasted",
+      "No schema on any service pages — missed structured data for local service business",
+      "Every audited page has 144-188 internal links — severe link dilution"
+    ],
+    "warnings": [
+      "5 page titles over 60 chars — systematic truncation in SERPs",
+      "4 meta descriptions over 155 chars",
+      "Sitewide missing alt text pattern (1 per page minimum)",
+      "Phone number in H2 tag on installation page is semantically incorrect",
+      "URL /tags/custom-flashing/ uses WooCommerce tag taxonomy — sub-optimal for key service page"
+    ],
+    "passed": [
+      "Homepage has strong on-page optimisation (correct H1, good title, relevant H2s)",
+      "All main pages have self-referencing canonical tags",
+      "Open Graph present on most pages",
+      "Strong word counts (2,400-3,300 words on key pages)",
+      "Product pages have BreadcrumbList schema",
+      "Homepage has LocalBusiness schema (though with address error)"
+    ]
+  }
+}
