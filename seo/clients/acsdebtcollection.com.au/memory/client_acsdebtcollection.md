@@ -85,27 +85,37 @@ Australian businesses supplying credit — time-poor business owners and finance
 - commission only debt collection — pos 4 (no dedicated page)
 - debt collection agency nsw — pos 3.88 (GSC confirmed, 1,008 impressions/yr)
 
-## Keyword Research Status (v5 — as of Apr 2026)
-- keyword-plan.html delivered (v5, 15 groups, 18 pages)
-- 9 keywords finalized (city pages: debt collection + debt collection agency + debt recovery for Sydney/Melbourne/Brisbane)
-- 6 remaining keyword selections pending — recommended: debt collection agency (homepage), commission only debt collection, debt recovery agency, small business debt collection, skip tracing services, debt collection services
+## Keyword Research Status (v6 — as of Apr 2026)
+- keyword-plan.html delivered (v6, 15 keywords finalized, 11 pages confirmed by client)
+- All 15 keywords confirmed — keyword research phase complete
 
-### Finalized keywords (9)
-City pages (6 pages):
-- /debt-collection-sydney/ → debt collection sydney (primary) + debt collection agency sydney (secondary)
-- /debt-collection-melbourne/ → debt collection melbourne (primary) + debt collection agency melbourne (secondary)
-- /debt-collection-brisbane/ → debt collection brisbane (primary) + debt collection agency brisbane (secondary)
-- /debt-recovery-sydney/ → debt recovery sydney (primary) + debt collection agency sydney (secondary)
-- /debt-recovery-melbourne/ → debt recovery melbourne (primary) + debt collection agency melbourne (secondary)
-- /debt-recovery-brisbane/ → debt recovery brisbane (primary) + debt collection agency brisbane (secondary)
+### Finalized keywords — 15 keywords / 11 pages
 
-### Recommended remaining 6 keywords (pending confirmation)
-- Homepage: debt collection agency + debt collectors australia
-- USP/Quick Win: commission only debt collection + no win no fee debt collection
-- Recovery entity: debt recovery agency + collection agency australia
-- SME market: small business debt collection + business debt collection
-- Skip tracing: skip tracing services + skip tracing australia
-- Services overview: debt collection services + debt recovery services
+| # | Page URL | Primary | Secondary |
+|---|---|---|---|
+| 1 | /debt-collection-sydney/ | debt collection sydney | debt collection agency sydney |
+| 2 | /debt-collection-melbourne/ | debt collection melbourne | debt collection agency melbourne |
+| 3 | /debt-collection-brisbane/ | debt collection brisbane | debt collection agency brisbane |
+| 4 | /debt-recovery-sydney/ | debt recovery sydney | debt recovery agency sydney |
+| 5 | /debt-recovery-melbourne/ | debt recovery melbourne | debt recovery agency melbourne |
+| 6 | /debt-recovery-brisbane/ | debt recovery brisbane | debt recovery agency brisbane |
+| 7 | /commercial-debt-collection/ | commercial debt collection | commercial debt recovery |
+| 8 | /collection-agency-small-business/ | collection agency for small business | business debt collection |
+| 9 | /outsource-debt-collection/ | outsource debt collection | — |
+| 10 | /no-collection-no-fee/ | commission only debt collection | no win no fee debt collection |
+| 11 | /repossession-agents-melbourne/ | repossession agents melbourne | repossession agents victoria |
+
+### Key SERP notes (v6)
+- "small business debt collection" disqualified — government/debtor SERP. Replaced with "collection agency for small business" (same 480/mo, commercial SERP confirmed)
+- "mortgagee in possession" (all variants) disqualified — property-buyer SERP only. Replaced with "repossession agents melbourne" (70/mo, commercial SERP + local pack, ACS pos 5)
+- Debt recovery city page secondaries changed from "debt collection agency [city]" to "debt recovery agency [city]" — consistent recovery framing
+
+### Confirmed Rankings (Melbourne SERP, Apr 2026)
+- debt recovery agency sydney — pos 1 (homepage)
+- debt collection agency sydney — pos 3 (homepage)
+- repossession agents melbourne — pos 5 (no dedicated page)
+- commission only debt collection — pos 4 (no dedicated page)
+- All Melbourne/Brisbane/service keywords — not ranking
 
 ## Competitors (SERP-identified)
 - prushka.com.au (DA 32, 420 ref domains)
@@ -126,7 +136,7 @@ No competitor has a dedicated Melbourne landing page — first-mover opportunity
 - [x] Client brief created (2026-04-16)
 - [x] Onboarding form saved (2026-04-17)
 - [x] Keyword plan v5 delivered (15 groups, 18 pages)
-- [x] 9 keywords finalized by client
-- [ ] 6 remaining keywords — pending client confirmation
+- [x] All 15 keywords finalized by client — 11 pages confirmed (v6)
+- [x] Melbourne SERP ranking check completed (Apr 2026)
 - [ ] HTML report — missing §0 yellow block, §1 entity structure, §2 supporting entities, §3 beyond the plan, Eligible Candidates section
 - [ ] Suburb-level (Phase 2) location keywords — not yet started
