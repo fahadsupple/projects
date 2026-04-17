@@ -9,7 +9,7 @@ If this is the first message in the conversation (no prior history), run this ro
 1. **Sync** — `cd /home/invoi/fahad_projects && git pull`
 2. Read `./MEMORY.md` — understand what domains and active projects exist
 3. Identify the task domain from what the user describes
-4. Load that domain's `[domain]/memory/MEMORY.md` and any relevant project files
+4. Load `memory/MEMORY.md` and any relevant client/project files
 5. If the domain is unclear → ask before doing anything or creating any file
 
 ## After every message where a file changed (mandatory)
@@ -23,30 +23,27 @@ GitHub (`fahadsupple/projects`) is the source of truth. Changes that aren't push
 
 | What the user is working on | Folder | Memory to load |
 |---|---|---|
-| SEO, keyword research, clients, SERP, rankings, Google, Ahrefs, GKP, websites, traffic | `seo/` | `seo/memory/MEMORY.md` |
+| SEO, keyword research, clients, SERP, rankings, Google, Ahrefs, GKP, websites, traffic | `clients/` | `memory/MEMORY.md` |
 | Personal projects, personal tools, personal websites, non-work tasks | `personal/` | `personal/memory/MEMORY.md` |
 | Something that doesn't fit above | **Ask first** | — |
 
 ## File discipline — always follow
 ```
-seo/
-  clients/[domain]/           ← client root (brief, onboarding form)
-    [capability]/             ← deliverables for that capability
-    memory/                   ← client-specific memory files
-  memory/                     ← cross-client rules only (feedback, master reference)
-  tools/[capability]/         ← shared scripts and instructions
-
-memory/                       ← root memory (auto-loaded by Claude)
+clients/[domain]/             ← client root (brief, onboarding form)
+  [capability]/               ← deliverables for that capability
+  memory/                     ← client-specific memory files
+memory/                       ← cross-client rules (feedback, master reference, capabilities)
+tools/[capability]/           ← shared scripts and instructions
 global/                       ← global rules (CLAUDE.md, task_tracker.py)
 ```
 
-- Deliverables → `seo/clients/[domain]/[capability]/`
-- Client memory → `seo/clients/[domain]/memory/`
-- Cross-client rules → `seo/memory/`
+- Deliverables → `clients/[domain]/[capability]/`
+- Client memory → `clients/[domain]/memory/`
+- Cross-client rules → `memory/`
 - Root `memory/` → auto-loaded by Claude — write here AND at `.claude/projects/` path
 - **Never create files outside this structure without asking**
 - **Never create a new top-level domain folder without user approval**
-- **All project deliverables must stay in the client folder** — reports, audit outputs, and any generated files go under `seo/clients/[domain]/[capability]/`. Tool folders (`seo/tools/[capability]/`) are for scripts and instructions only — never for client output.
+- **All project deliverables must stay in the client folder** — reports, audit outputs, and any generated files go under `clients/[domain]/[capability]/`. Tool folders (`tools/[capability]/`) are for scripts and instructions only — never for client output.
 
 ## Adding a new domain
 If a task doesn't fit any existing domain: "This looks like [X] work — should I create a new domain for it?" If yes, create: `[domain]/`, `[domain]/CLAUDE.md`, `[domain]/memory/MEMORY.md`.
@@ -55,7 +52,7 @@ If a task doesn't fit any existing domain: "This looks like [X] work — should 
 Every conversation is a learning opportunity. Without being asked:
 - **Capability-level instructions** → save to that capability's memory file
 - **Global rules** → save to `global/CLAUDE.md` and to root `memory/` if applicable
-- **Project-specific learnings** → save to `seo/clients/[domain]/memory/` AND mirror to `~/.claude/projects/-home-invoi-fahad-projects/memory/`
+- **Project-specific learnings** → save to `clients/[domain]/memory/` AND mirror to `~/.claude/projects/-home-invoi-fahad-projects/memory/`
 - After saving, briefly note what was saved — one line, not a full recap
 
 ## Memory — two-location rule
@@ -63,4 +60,4 @@ Every memory file must be written in two places:
 1. `~/.claude/projects/-home-invoi-fahad-projects/memory/` — auto-loaded by Claude Code
 2. `/home/invoi/fahad_projects/memory/` — visible inside the project folder
 
-Client-specific memory also goes in `seo/clients/[domain]/memory/`.
+Client-specific memory also goes in `clients/[domain]/memory/`.
