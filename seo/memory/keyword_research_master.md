@@ -2,8 +2,8 @@
 name: Keyword Research — Master Reference
 description: Consolidated process, rules, business-type strategies, and industry-specific insights for all keyword research projects
 type: feedback
+originSessionId: fa00b4dd-c85a-421c-80a3-26bc8c56ac87
 ---
-
 # Keyword Research — Master Reference
 
 ---
@@ -210,7 +210,49 @@ Two roots are justified when ALL of the following are true:
 
 ---
 
-## 8. Non-SEO Entity Pages (Always Include in Every Keyword Plan)
+## 8. Modifier Strategy for Rankability
+
+### Core principle
+The goal of modifier testing is **not** to find high-volume variants — it is to find the **lowest-KD variant that still carries commercial intent**.
+
+- Volume is a floor check only: if a term has any tracked volume (or appears in GSC data), it qualifies
+- Ranking itself is the objective — a ranked page intercepts broader related traffic beyond the specific keyword's tracked volume figure
+- The query that earned the ranking is a subset of the total traffic the page will receive once ranked
+- **How to apply:** For any competitive head term, systematically test modifier variants → select the lowest-KD option that still has commercial intent → build the page around that variant
+
+### Modifier testing hierarchy (city / service businesses)
+Test in this order — stop when you find a KD level the site can win:
+
+| Level | Pattern | Typical KD | Notes |
+|---|---|---|---|
+| 1 | [service] + [city] | High | Base term — usually most competitive |
+| 2 | [service] + agency/company/services + [city] | Moderate | Often 3–7 points lower than base |
+| 3 | [service] + [state] | Moderate | Useful when city term is heavily contested |
+| 4 | [industry vertical] + [service] + [city] | Lower | More specific intent; e.g. "commercial debt collection sydney" |
+| 5 | [service] + [suburb] | Near zero | Uncontested in most markets — highest rankability |
+
+### Suburb-level modifier rule
+- When SE Ranking returns **0 results** for a suburb-level term → near-zero KD confirmed — include it
+- When the client has a **physical office** in that suburb → GBP address signals compound the rankability further
+- Suburb pages rank quickly; business impact comes from the ranking, not from the keyword's tracked volume
+- Include suburb-level pages even when SE Ranking has no data — absence of data = absence of competition
+
+### How to run modifier testing in a project
+1. Pull similar keywords from SE Ranking for the competitive head term (`DATA_getSimilarKeywords`, AU, vol_from=10)
+2. Pull long-tail variants (`DATA_getLongTailKeywords`)
+3. Sort results by KD ascending — identify the lowest-KD modifier with commercial SERP signals
+4. Test suburb-level terms for any client with a physical office or strong local footprint
+5. If suburb terms return 0 data → note "near-zero KD, no SE Ranking data" and include in plan
+6. Document all modifier variants tested in the Eligible Candidates section
+
+### What this does NOT mean
+- Do not add meaningless modifiers that destroy commercial intent ("debt collection jobs sydney" = wrong intent — exclude)
+- Do not use modifiers that push the term into a different business vertical ("debt collection lawyers sydney" = law firm SERP, not agency SERP — exclude)
+- Low KD is only useful if the SERP is occupied by the same business type as the client
+
+---
+
+## 9. Non-SEO Entity Pages (Always Include in Every Keyword Plan)  <!-- was §8 -->
 
 Every keyword research deliverable must include a set of non-SEO entity pages alongside the keyword-targeted pages. These are always required — they build authority, establish the entity, and are never optional.
 
@@ -251,7 +293,7 @@ Location pages on the website and Google Business Profile are not separate lever
 
 ---
 
-## 9. Reporting Standards
+## 10. Reporting Standards
 
 - Always add location modifier (e.g., "melbourne") to secondary keywords even when GKP shows 0 volume for that modifier
 - Reason: easier to track and present rankings to client; location-modified terms are easier to rank for than unmodified national terms; avoids client confusion about what geography the ranking covers
@@ -313,7 +355,7 @@ List all elements outside the keyword plan scope that are required to make the e
 
 ---
 
-## 10. Industry-Specific Insights
+## 11. Industry-Specific Insights
 
 ### Legal / Law Firms
 - **Competitive set:** Check if SERP shows generalist firms or specialist firms — specialist firms (e.g., leaselawyers.net.au) signal a mature market with clear intent
