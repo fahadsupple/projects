@@ -49,7 +49,7 @@ Page: https://example.com/another-page/
 
 **Bold tag rule:** If the Find text contains bold in the original, retain `<strong>` tags in Replace With.
 
-**Location page templates:** Label the page URL with `[TEMPLATE — apply to ALL /slug-[suburb]/ pages]` when the same paragraph appears identically across all location pages.
+**Location page templates:** Only use `[TEMPLATE — apply to ALL /slug-[suburb]/ pages]` if the client actively prioritises those pages. Otherwise scope to the specific URL only.
 
 ---
 
@@ -62,6 +62,21 @@ Page: https://example.com/another-page/
 
 ---
 
+---
+
+## Link selection rules
+
+**Anchor variety across pages**
+When the same destination can be reached from multiple source pages, prefer the source page where the natural anchor text differs from anchors already chosen for that destination elsewhere in the plan. Avoid using the same anchor string (e.g. "Velux skylights") for the same target URL across multiple pages — it creates a templated footprint.
+
+**Avoid parenthetical anchors**
+Don't wrap text that sits inside parentheses or an aside. e.g. `Tubular skylights (or <a>sun tunnels</a>)` — the link sits inside a parenthetical, which reads awkwardly and reduces naturalness. Choose a different sentence on the same page where the target phrase appears in the main clause.
+
+**Borderline anchors — leave unlinked**
+If an anchor only works because the link was inserted (rather than because a reader would naturally expect to follow it), leave it unlinked. The connection must be obvious from the anchor text alone. "Leaks, drafts, and other issues" → repairs page is borderline; "skylight repair services" → repairs page is clear.
+
+---
+
 ## Why
 
-Established during centralskylights.com.au internal linking engagement (April 2026). Developer feedback drove the simplification: group by page so the dev can open one page, make all changes, close it — without hunting across multiple REQUEST blocks for the same page.
+Established during centralskylights.com.au internal linking engagement (April 2026). Developer feedback drove the simplification: group by page so the dev can open one page, make all changes, close it — without hunting across multiple REQUEST blocks for the same page. Link selection rules added April 2026 following quality review of the same engagement.
