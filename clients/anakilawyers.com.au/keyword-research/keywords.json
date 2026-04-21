@@ -1,8 +1,10 @@
 {
   "client": "anakilawyers.com.au",
   "plan_version": "1.0",
-  "status": "draft_pending_gkp",
+  "status": "final_gkp_confirmed",
   "date": "2026-04-21",
+  "gkp_pulled": "2026-04-21",
+  "gkp_country": "Australia (2036)",
   "total_pages": 21,
   "total_keywords": 36,
   "keywords": [
@@ -11,144 +13,144 @@
       "url": "/",
       "tier": "A",
       "page_type": "homepage",
-      "primary": { "keyword": "criminal lawyer melbourne", "est_vol_mo": "1000-1300", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer melbourne", "est_vol_mo": "400-600", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal defence lawyer melbourne", "vol_mo": 1900, "competition": "MEDIUM", "low_bid": 9.42, "high_bid": 34.40, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 1,900/mo — swapped to primary (was secondary in draft)" },
+      "secondary": { "keyword": "criminal lawyer melbourne", "vol_mo": 720, "competition": "MEDIUM", "low_bid": 5.86, "high_bid": 33.08, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 720/mo — swapped to secondary (was primary in draft)" }
     },
     {
       "page": "Drink Driving Lawyer",
       "url": "/drink-driving-lawyer/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "drink driving lawyer melbourne", "est_vol_mo": "500-800", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "DUI lawyer melbourne", "est_vol_mo": "200-300", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "drink driving lawyer melbourne", "vol_mo": 70, "competition": "LOW", "low_bid": 10.46, "high_bid": 58.69, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 70/mo — lower than estimated. Page remains Tier A for case value (drink driving = high-fee, high-urgency matter)." },
+      "secondary": { "keyword": "DUI lawyer melbourne", "vol_mo": 10, "competition": "LOW", "low_bid": null, "high_bid": null, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 10/mo. Low but keep as secondary — captures US-influenced searchers." }
     },
     {
       "page": "Drug Offences Lawyer",
       "url": "/drug-offences-lawyer/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "drug possession lawyer melbourne", "est_vol_mo": "200-400", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "drug trafficking lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "drug possession lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Page still essential — drug offences are high-value, high-frequency criminal matters in Victoria." },
+      "secondary": { "keyword": "drug trafficking lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Retain for topical authority." }
     },
     {
       "page": "Assault Lawyer",
       "url": "/assault-lawyer/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "assault lawyer melbourne", "est_vol_mo": "200-400", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "common assault lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "assault lawyer melbourne", "vol_mo": 10, "competition": "LOW", "low_bid": null, "high_bid": null, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 10/mo. Low volume but high case frequency and high value." },
+      "secondary": { "keyword": "common assault lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Bail Applications",
       "url": "/bail-applications/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "bail application lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "bail lawyer melbourne", "est_vol_mo": "50-150", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "bail application lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Page critical — time-sensitive, 24/7 hotline differentiator." },
+      "secondary": { "keyword": "bail lawyer melbourne", "vol_mo": 20, "competition": "LOW", "low_bid": null, "high_bid": null, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 20/mo." }
     },
     {
       "page": "Sexual Offences Lawyer",
       "url": "/sexual-offences-lawyer/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "sexual offences lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "sexual assault lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "sexual offences lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Page essential — serious charges, high case value." },
+      "secondary": { "keyword": "sexual assault lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Intervention Orders",
       "url": "/intervention-orders/",
       "tier": "A",
       "page_type": "service",
-      "primary": { "keyword": "intervention order lawyer melbourne", "est_vol_mo": "200-350", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "restraining order lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "intervention order lawyer melbourne", "vol_mo": 40, "competition": "LOW", "low_bid": 10.53, "high_bid": 28.51, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 40/mo." },
+      "secondary": { "keyword": "restraining order lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Retain as secondary — colloquial term adds reach." }
     },
     {
       "page": "Traffic Lawyer",
       "url": "/traffic-lawyer/",
       "tier": "B",
       "page_type": "service",
-      "primary": { "keyword": "traffic lawyer melbourne", "est_vol_mo": "400-600", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "traffic offence lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "traffic lawyer melbourne", "vol_mo": 210, "competition": "MEDIUM", "low_bid": 10.79, "high_bid": 39.87, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 210/mo. Strong confirmed volume." },
+      "secondary": { "keyword": "traffic offence lawyer melbourne", "vol_mo": 50, "competition": "LOW", "low_bid": null, "high_bid": null, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 50/mo." }
     },
     {
       "page": "Licence Suspension Lawyer",
       "url": "/licence-suspension-lawyer/",
       "tier": "B",
       "page_type": "service",
-      "primary": { "keyword": "suspended licence lawyer melbourne", "est_vol_mo": "200-400", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "licence disqualification lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "suspended licence lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." },
+      "secondary": { "keyword": "licence disqualification lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Theft Lawyer",
       "url": "/theft-lawyer/",
       "tier": "B",
       "page_type": "service",
-      "primary": { "keyword": "theft lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "shoplifting lawyer melbourne", "est_vol_mo": "100-200", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "theft lawyer melbourne", "vol_mo": 10, "competition": "LOW", "low_bid": null, "high_bid": null, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 10/mo." },
+      "secondary": { "keyword": "shoplifting lawyer melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Fraud Lawyer",
       "url": "/fraud-lawyer/",
       "tier": "B",
       "page_type": "service",
-      "primary": { "keyword": "fraud lawyer melbourne", "est_vol_mo": "200-350", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "fraud charges defence melbourne", "est_vol_mo": "50-100", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "fraud lawyer melbourne", "vol_mo": 10, "competition": "LOW", "low_bid": 26.55, "high_bid": 36.22, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 10/mo. High CPC ($26–36) confirms high case value despite low search volume." },
+      "secondary": { "keyword": "fraud charges defence melbourne", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Criminal Lawyer Dandenong",
       "url": "/criminal-lawyer-dandenong/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer dandenong", "est_vol_mo": "50-100", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer dandenong", "est_vol_mo": "10-50", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer dandenong", "vol_mo": 170, "competition": "HIGH", "low_bid": 10.56, "high_bid": 33.49, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 170/mo — stronger than estimated. HIGH competition confirms established demand." },
+      "secondary": { "keyword": "criminal defence lawyer dandenong", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Criminal Lawyer Ringwood",
       "url": "/criminal-lawyer-ringwood/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer ringwood", "est_vol_mo": "50-100", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer ringwood", "est_vol_mo": "10-30", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer ringwood", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Still build — Ringwood Magistrates Court has substantial caseload." },
+      "secondary": { "keyword": "criminal defence lawyer ringwood", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Criminal Lawyer Sunshine",
       "url": "/criminal-lawyer-sunshine/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer sunshine", "est_vol_mo": "30-80", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer sunshine", "est_vol_mo": "10-30", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer sunshine", "vol_mo": 70, "competition": "LOW", "low_bid": 5.26, "high_bid": 24.08, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 70/mo. LOW competition and low CPC ($5) indicates a fast ranking opportunity." },
+      "secondary": { "keyword": "criminal defence lawyer sunshine", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Criminal Lawyer Broadmeadows",
       "url": "/criminal-lawyer-broadmeadows/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer broadmeadows", "est_vol_mo": "30-80", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer broadmeadows", "est_vol_mo": "10-30", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer broadmeadows", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold). Still build — Broadmeadows Magistrates Court is one of Victoria's busiest." },
+      "secondary": { "keyword": "criminal defence lawyer broadmeadows", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Criminal Lawyer Frankston",
       "url": "/criminal-lawyer-frankston/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer frankston", "est_vol_mo": "50-100", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer frankston", "est_vol_mo": "10-30", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer frankston", "vol_mo": 210, "competition": "MEDIUM", "low_bid": 9.22, "high_bid": 28.34, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 210/mo — STRONGEST location keyword. Equal to traffic lawyer melbourne." },
+      "secondary": { "keyword": "criminal defence lawyer frankston", "vol_mo": 210, "competition": "MEDIUM", "low_bid": 9.22, "high_bid": 28.34, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 210/mo — unusually equal to primary. Capture both terms on this page." }
     },
     {
       "page": "Criminal Lawyer Werribee",
       "url": "/criminal-lawyer-werribee/",
       "tier": "LOC",
       "page_type": "location",
-      "primary": { "keyword": "criminal lawyer werribee", "est_vol_mo": "30-60", "serp": "COMMERCIAL", "intent": "commercial" },
-      "secondary": { "keyword": "criminal defence lawyer werribee", "est_vol_mo": "10-30", "serp": "COMMERCIAL", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer werribee", "vol_mo": 50, "competition": "MEDIUM", "low_bid": 10.64, "high_bid": 29.62, "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP confirmed 50/mo." },
+      "secondary": { "keyword": "criminal defence lawyer werribee", "vol_mo": null, "competition": "N/A", "serp": "COMMERCIAL", "intent": "commercial", "note": "GKP: N/A (below threshold)." }
     },
     {
       "page": "Areas We Serve",
       "url": "/areas-we-serve/",
       "tier": "ENT",
       "page_type": "entity",
-      "primary": { "keyword": "criminal lawyer near me", "est_vol_mo": "high - GBP trigger", "serp": "LOCAL_PACK", "intent": "commercial" },
-      "secondary": { "keyword": "traffic lawyer near me", "est_vol_mo": "high - GBP trigger", "serp": "LOCAL_PACK", "intent": "commercial" }
+      "primary": { "keyword": "criminal lawyer near me", "vol_mo": 1900, "competition": "LOW", "low_bid": 15.87, "high_bid": 41.52, "serp": "LOCAL_PACK", "intent": "commercial", "note": "GKP confirmed 1,900/mo — highest single keyword in the plan. Won via GBP, not rankings." },
+      "secondary": { "keyword": "traffic lawyer near me", "vol_mo": 720, "competition": "MEDIUM", "low_bid": 9.77, "high_bid": 36.03, "serp": "LOCAL_PACK", "intent": "commercial", "note": "GKP confirmed 720/mo. Second-highest confirmed volume in plan." }
     }
   ],
   "excluded": [
@@ -157,5 +159,13 @@
     { "keyword": "bail application melbourne", "reason": "MIXED SERP", "action": "Use 'bail application lawyer melbourne' instead" },
     { "keyword": "proceeds of crime lawyer melbourne", "reason": "Very low volume", "action": "Content section on drug offences page" },
     { "keyword": "speeding lawyer melbourne", "reason": "AMBER SERP - informational mixed", "action": "Content section on /traffic-lawyer/" }
-  ]
+  ],
+  "gkp_notes": {
+    "homepage_swap": "criminal defence lawyer melbourne (1,900/mo) confirmed as higher-volume term than criminal lawyer melbourne (720/mo). Primary/secondary swapped from draft.",
+    "drink_driving_volume": "70/mo confirmed — significantly lower than industry benchmark estimate (500-800). Page remains Tier A justified by case value and urgency, not volume.",
+    "near_me_standout": "criminal lawyer near me (1,900/mo) and traffic lawyer near me (720/mo) are the two highest-volume terms in the plan. Won through GBP local pack.",
+    "frankston_standout": "criminal lawyer frankston and criminal defence lawyer frankston both confirmed at 210/mo. Strongest suburb-level keyword in the plan.",
+    "na_service_keywords": "Many service keywords (drug possession, sexual offences, bail application, etc.) return N/A from GKP — below reporting threshold. Pages remain justified by high case value and topical authority.",
+    "fraud_cpc": "fraud lawyer melbourne CPC $26-36 confirms high case value despite low search volume (10/mo)."
+  }
 }
