@@ -8,7 +8,7 @@ This is the root index. Read this at the start of every session, then load the r
 - All SEO client work, keyword research, deliverables
 - Memory: read `seo/memory/MEMORY.md` for cross-client rules and master reference
 - Client memory: `seo/clients/[domain]/memory/` for client-specific context
-- Active clients: wslegal.com.au, triplejfurniture.com.au, verdehomes.com.au, australcontractors.com.au, dantondevelopments.com.au
+- Active clients: wslegal.com.au, triplejfurniture.com.au, verdehomes.com.au, australcontractors.com.au, dantondevelopments.com.au, anakilawyers.com.au
 
 ## Memory — Two-Location Rule
 All memory files are written to two places:
