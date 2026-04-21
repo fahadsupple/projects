@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Research Report - Anaki Lawyers</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --text: #e8e8e8;
+      --muted: #a0a0b0;
+      --accent: #0f3460;
+      --success: #4ecca3;
+      --warning: #f0a500;
+      --danger: #e74c3c;
+      --highlight: #533483;
+      --sidebar-w: 240px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "SF Mono", "Cascadia Code", "Fira Code", monospace;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-width: 1024px;
+    }
+    h1, h2, h3, h4 {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin-bottom: 0.5em;
+    }
+    h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-bottom: 1em; font-size: 1.5rem; }
+    h3 { color: var(--muted); margin-top: 1.5em; font-size: 1.15rem; }
+    h4 { font-size: 1rem; }
+    a { color: var(--success); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0; left: 0;
+      width: var(--sidebar-w);
+      height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--accent);
+      overflow-y: auto;
+      padding: 1rem 0;
+      z-index: 100;
+    }
+    .sidebar h3 {
+      padding: 0 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+    .sidebar a {
+      display: block;
+      padding: 0.35rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text);
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .sidebar a:hover, .sidebar a:focus {
+      background: var(--accent);
+      border-left-color: var(--success);
+      text-decoration: none;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: var(--sidebar-w);
+      padding: 2rem 3rem;
+      max-width: 1400px;
+    }
+
+    /* Sections */
+    .section { margin-bottom: 3rem; }
+    .section-intro { color: var(--muted); margin-bottom: 1.5em; }
+    .section-note { color: var(--muted); font-size: 0.85rem; margin-top: 1em; font-style: italic; }
+
+    /* Cover */
+    .cover-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--surface), var(--accent));
+      border-radius: 8px;
+      margin-bottom: 3rem;
+    }
+    .cover-title { font-size: 2.5rem; margin-bottom: 0.3em; }
+    .cover-domain { font-size: 1.3rem; color: var(--success); margin-bottom: 0.2em; }
+    .cover-business { font-size: 1.1rem; color: var(--muted); margin-bottom: 2em; }
+    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+    .cover-meta-item { background: rgba(0,0,0,0.2); padding: 0.6rem 1rem; border-radius: 4px; }
+    .meta-label { display: block; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+    .meta-value { font-size: 0.95rem; font-weight: bold; }
+
+    /* Stats grid */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--surface); padding: 1.2rem; border-radius: 6px; text-align: center; border: 1px solid var(--accent); }
+    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui, sans-serif; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3em; }
+
+    /* Tables */
+    .table-scroll { overflow-x: auto; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .data-table th {
+      background: var(--accent);
+      color: var(--text);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .data-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+    .data-table tbody tr:hover { background: rgba(78,204,163,0.08); }
+    .compact-table td, .compact-table th { padding: 0.35rem 0.6rem; }
+    .kw-row { cursor: pointer; }
+    .kw-row:hover { background: rgba(78,204,163,0.12); }
+    .kw-name { font-weight: bold; }
+
+    /* Score badge */
+    .score-badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    /* Timeline badge */
+    .tl-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
+    .tl-quick_win { background: var(--success); color: #000; }
+    .tl-medium_term { background: var(--warning); color: #000; }
+    .tl-strategic { background: var(--highlight); color: #fff; }
+
+    /* Status */
+    .status-pass { color: var(--success); font-weight: bold; }
+    .status-fail { color: var(--danger); }
+
+    /* Info card */
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-left: 4px solid var(--warning);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+    }
+    .info-icon { font-size: 1.4rem; color: var(--warning); flex-shrink: 0; }
+    .info-card p { margin: 0; color: var(--muted); }
+
+    /* Limitations */
+    .limitations { background: var(--surface); border-radius: 4px; padding: 1rem; margin-top: 1.5rem; }
+    .limitations h4 { color: var(--warning); }
+    .limitations ul { padding-left: 1.5rem; color: var(--muted); }
+    .limitations li { margin-bottom: 0.3em; }
+
+    /* Charts */
+    .chart-row { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .chart-block { flex: 1; min-width: 280px; }
+    .chart-block h4 { margin-bottom: 0.8rem; }
+
+    /* Detail row */
+    .detail-row td { background: var(--surface); }
+    .detail-content { padding: 1rem; }
+    .detail-grid { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem; }
+    .detail-info p { margin-bottom: 0.3em; font-size: 0.85rem; }
+    .reasoning { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; padding: 0.8rem; background: rgba(0,0,0,0.2); border-radius: 4px; }
+    .secondaries-detail { font-size: 0.85rem; }
+    .sec-group { margin-bottom: 0.5rem; }
+    .sec-group ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Silo cards */
+    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .silo-card { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .silo-card h4 { color: var(--success); }
+    .silo-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; font-size: 0.8rem; }
+    .silo-lists ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Heatmap */
+    .heatmap-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+    .heatmap-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      color: var(--text);
+    }
+    .heatmap-label { font-weight: bold; font-size: 0.65rem; }
+    .heatmap-score { font-size: 0.6rem; color: rgba(255,255,255,0.7); }
+
+    /* Calendar grid */
+    .calendar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+    .calendar-cell {
+      padding: 0.8rem 0.5rem;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .cal-month { font-weight: bold; }
+    .cal-count { font-size: 0.7rem; color: rgba(255,255,255,0.7); }
+
+    /* Tier grid */
+    .tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .def-tier { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .def-tier ul { padding-left: 1.2rem; color: var(--muted); font-size: 0.85rem; }
+
+    /* Expansion */
+    .expansion-ring { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+    .expansion-ring h3 { margin-top: 0; }
+
+    /* Methodology */
+    .methodology-content p { margin-bottom: 0.8em; }
+    .feature-list { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .feature-list li { margin-bottom: 0.3em; }
+
+    /* Brand */
+    .brand-details p { color: var(--muted); }
+
+    /* Sortable table header cue */
+    .sortable-table th { cursor: pointer; }
+    .sortable-table th:hover { background: var(--highlight); }
+    .sort-asc::after { content: " \25B2"; font-size: 0.65em; }
+    .sort-desc::after { content: " \25BC"; font-size: 0.65em; }
+
+    /* Print styles */
+    @media print {
+      body { background: #fff; color: #111; min-width: auto; }
+      .sidebar { display: none; }
+      .main-content { margin-left: 0; padding: 1rem; max-width: 100%; }
+      .section { page-break-inside: avoid; margin-bottom: 1rem; }
+      .cover-section { page-break-after: always; background: none; padding: 2rem 0; }
+      #confidence { page-break-after: always; }
+      #executive { page-break-after: always; }
+      #general_keywords { page-break-before: always; }
+      #location_keywords { page-break-before: always; }
+      #silo_architecture { page-break-before: always; }
+      #methodology { page-break-before: always; }
+      #appendix { page-break-before: always; }
+      .data-table th { background: #ddd; color: #111; position: static; }
+      .data-table td { border-bottom: 1px solid #ccc; }
+      .data-table tbody tr:nth-child(even) { background: #f5f5f5; }
+      .stat-card { border: 1px solid #ccc; }
+      .stat-value { color: #333; }
+      .info-card { border-color: #ccc; }
+      .score-badge { border: 1px solid #999; }
+      .cover-section { border: 1px solid #ccc; border-radius: 0; }
+      a { color: #333; }
+      svg text { fill: #111; }
+      svg circle[stroke="#2a2a4a"] { stroke: #ddd; }
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .main-content { padding: 1.5rem 2rem; }
+      .chart-row { flex-direction: column; }
+    }
+</style>
+</head>
+<body>
+<nav class="sidebar">
+  <h3>Navigation</h3>
+    <a href="#cover">Cover Page</a>
+    <a href="#confidence">Data Confidence Summary</a>
+    <a href="#executive">Executive Summary</a>
+    <a href="#allocation">Package Allocation</a>
+    <a href="#existing_portfolio">Existing Portfolio Health</a>
+    <a href="#general_keywords">Selected General Keywords</a>
+    <a href="#location_keywords">Selected Location Keywords</a>
+    <a href="#silo_architecture">Keyword Silo Architecture</a>
+    <a href="#competitor_analysis">Competitor Analysis</a>
+    <a href="#content_gap">Content Gap Map</a>
+    <a href="#quick_wins">Quick Wins</a>
+    <a href="#serp_features">SERP Feature Opportunities</a>
+    <a href="#gbp_opportunities">GBP &amp; Near Me Opportunities</a>
+    <a href="#ai_overview">AI Overview Impact</a>
+    <a href="#geographic_expansion">Geographic Expansion Plan</a>
+    <a href="#excluded_keywords">Excluded Keywords</a>
+    <a href="#tam">Total Addressable Market</a>
+    <a href="#brand_serp">Brand SERP Health Check</a>
+    <a href="#methodology">Methodology</a>
+    <a href="#appendix">Appendix: Full Candidate Database</a>
+</nav>
+<main class="main-content">
+<section id="cover" class="section cover-section">
+  <div class="cover-content">
+    <h1 class="cover-title">Keyword Research Report</h1>
+    <div class="cover-domain">anakilawyers.com.au</div>
+    <div class="cover-business">Anaki Lawyers</div>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard (12 general + 6 location)</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Mode</span><span class="meta-value">Fresh</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v1</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Candidates Analysed</span><span class="meta-value">36</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">4,650</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Generated</span><span class="meta-value">2026-04-21 07:10 UTC</span></div>
+    </div>
+  </div>
+</section>
+<section id="confidence" class="section">
+  <h2>Data Confidence Summary</h2>
+  <p class="section-intro">4 of 10 data sources available.</p>
+  <table class="data-table compact-table">
+    <thead><tr><th>Data Source</th><th>Status</th></tr></thead>
+    <tbody><tr><td>Questionnaire</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Config</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Keywords</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Candidates</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>Allocation</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Competitors</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>SERP Data</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>Content Gaps</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>Suburbs</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>Metrics</td><td class="status-fail">&#10007; Missing</td></tr></tbody>
+  </table>
+  <div class="limitations"><h4>Limitations</h4><ul><li>SERP feature data unavailable -- feature opportunity and AI overview sections will show limited data.</li><li>Competitor analysis data unavailable -- competitor sections will show limited data.</li><li>Content gap data unavailable -- gap map section will show limited data.</li><li>Suburb data unavailable -- geographic sections will show limited data.</li></ul></div>
+</section>
+<section id="executive" class="section">
+  <h2>Executive Summary</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">12</div>
+      <div class="stat-label">General Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">6</div>
+      <div class="stat-label">Location Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">4,650</div>
+      <div class="stat-label">Effective Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">36</div>
+      <div class="stat-label">Candidates Analysed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.49</div>
+      <div class="stat-label">Avg Opportunity Score</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">12</div>
+      <div class="stat-label">Content Silos</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">5</div>
+      <div class="stat-label">Quick Wins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Strategic Targets</div>
+    </div>
+  </div>
+  <div class="chart-row">
+    <div class="chart-block"><h4>Intent Distribution</h4><svg width="360" height="180" class="chart-donut">
+  <circle cx="90" cy="90" r="54" fill="#1a1a2e" />
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24" stroke-dasharray="439.82 439.82" stroke-dashoffset="0.00" transform="rotate(-90 90 90)" />
+  <rect x="190" y="12" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="208" y="22" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Investigation (100%)</text>
+</svg></div>
+    <div class="chart-block"><h4>Timeline Distribution</h4><svg width="460" height="88" viewBox="0 0 460 88" class="chart-stacked">
+  <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Keywords</text>
+  <rect x="120.0" y="30" width="88.9" height="30" fill="#4ecca3" />
+  <rect x="208.9" y="30" width="231.1" height="30" fill="#f0a500" />
+  <rect x="120" y="68" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win</text>
+  <rect x="230" y="68" width="12" height="12" rx="2" fill="#f0a500" />
+  <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term</text>
+  <rect x="340" y="68" width="12" height="12" rx="2" fill="#533483" />
+  <text x="356" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic</text>
+</svg></div>
+  </div>
+</section>
+<section id="allocation" class="section">
+  <h2>Package Allocation</h2>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">Standard</div><div class="stat-label">Package Tier</div></div>
+    <div class="stat-card"><div class="stat-value">12</div><div class="stat-label">General Budget</div></div>
+    <div class="stat-card"><div class="stat-value">6</div><div class="stat-label">Location Budget</div></div>
+  </div>
+  <h3>Service Tier Distribution</h3>
+  <table class="data-table compact-table">
+    <thead><tr><th>Service Tier</th><th>Keywords Allocated</th></tr></thead>
+    <tbody><tr><td>Tier A</td><td>7</td></tr><tr><td>Tier B</td><td>4</td></tr><tr><td>Tier ENT</td><td>1</td></tr></tbody>
+  </table>
+  <p>Allocation data available from research pipeline.</p>
+</section>
+
+<section id="general_keywords" class="section">
+  <h2>Selected General Keywords</h2>
+  <p class="section-intro">12 general keywords selected. Click any row to expand details.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table">
+    <thead><tr>
+      <th>#</th><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th>
+      <th>CPC</th><th>Intent</th><th>Timeline</th><th>Confidence</th>
+    </tr></thead>
+    <tbody><tr class="kw-row" onclick="toggleDetail('detail-0')">
+  <td>1</td>
+  <td class="kw-name">criminal defence lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>40</td>
+  <td>$21.91</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-0" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8"
+    stroke-dasharray="67.85840131753952 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.72</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> criminal_defence</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,900 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 1,900/mo — swapped to primary (was secondary in draft)</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>criminal lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 2,620</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-1')">
+  <td>2</td>
+  <td class="kw-name">drink driving lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>20</td>
+  <td>$34.58</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-1" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="49.00884539600077 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.52</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> drink_driving</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /drink-driving-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 70 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 70/mo — lower than estimated. Page remains Tier A for case value (drink driving = high-fee, high-urgency matter).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>DUI lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 80</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-2')">
+  <td>3</td>
+  <td class="kw-name">drug possession lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#e74c3c">LOW</span></td>
+</tr>
+<tr id="detail-2" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> drug_offences</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /drug-offences-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP: N/A (below threshold). Page still essential — drug offences are high-value, high-frequency criminal matters in Victoria.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>drug trafficking lawyer melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-3')">
+  <td>4</td>
+  <td class="kw-name">assault lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-3" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> assault</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /assault-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 10 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 10/mo. Low volume but high case frequency and high value.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>common assault lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 10</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-4')">
+  <td>5</td>
+  <td class="kw-name">bail application lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#e74c3c">LOW</span></td>
+</tr>
+<tr id="detail-4" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> bail_applications</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /bail-applications/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP: N/A (below threshold). Page critical — time-sensitive, 24/7 hotline differentiator.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>bail lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 20</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-5')">
+  <td>6</td>
+  <td class="kw-name">sexual offences lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#e74c3c">LOW</span></td>
+</tr>
+<tr id="detail-5" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> sexual_offences</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /sexual-offences-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP: N/A (below threshold). Page essential — serious charges, high case value.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>sexual assault lawyer melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-6')">
+  <td>7</td>
+  <td class="kw-name">intervention order lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>40</td>
+  <td>20</td>
+  <td>$19.52</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-6" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="49.00884539600077 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.52</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> intervention_orders</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /intervention-orders/</p>
+          <p><strong>AI Adjusted Vol:</strong> 40 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 40/mo.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>restraining order lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 40</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-7')">
+  <td>8</td>
+  <td class="kw-name">traffic lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>$25.33</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-7" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="58.43362335677015 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.62</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> traffic</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /traffic-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 210 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 210/mo. Strong confirmed volume.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>traffic offence lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 260</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-8')">
+  <td>9</td>
+  <td class="kw-name">suspended licence lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#e74c3c">LOW</span></td>
+</tr>
+<tr id="detail-8" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> licence_suspension</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /licence-suspension-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP: N/A (below threshold).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>licence disqualification lawyer melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-9')">
+  <td>10</td>
+  <td class="kw-name">theft lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-9" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> theft</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /theft-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 10 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 10/mo.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>shoplifting lawyer melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 10</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-10')">
+  <td>11</td>
+  <td class="kw-name">fraud lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>$31.38</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-10" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="37.69911184307752 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.40</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> fraud</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /fraud-lawyer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 10 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 10/mo. High CPC ($26–36) confirms high case value despite low search volume.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>fraud charges defence melbourne ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 10</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-11')">
+  <td>12</td>
+  <td class="kw-name">criminal lawyer near me</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>20</td>
+  <td>$28.70</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-11" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8"
+    stroke-dasharray="67.85840131753952 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.72</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> areas_we_serve</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /areas-we-serve/</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,900 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> GKP confirmed 1,900/mo — highest single keyword in the plan. Won via GBP, not rankings.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Must Mention:</strong><ul><li>traffic lawyer near me ()</li></ul></div><div class='sec-group'><strong>Effective Reach:</strong> 2,620</div></div>
+    </div>
+  </td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="location_keywords" class="section">
+  <h2>Selected Location Keywords</h2>
+  <p class="section-intro">6 location keywords across 1 geographic rings.</p>
+  <h3>Unassigned (6 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>criminal lawyer dandenong</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>170</td>
+  <td>65</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>N/A km</td>
+</tr><tr>
+  <td>criminal lawyer ringwood</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>N/A km</td>
+</tr><tr>
+  <td>criminal lawyer sunshine</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>20</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>N/A km</td>
+</tr><tr>
+  <td>criminal lawyer broadmeadows</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>N/A km</td>
+</tr><tr>
+  <td>criminal lawyer frankston</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>N/A km</td>
+</tr><tr>
+  <td>criminal lawyer werribee</td>
+  <td></td>
+  <td></td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>50</td>
+  <td>40</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>N/A km</td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="silo_architecture" class="section">
+  <h2>Keyword Silo Architecture</h2>
+  <p class="section-intro">12 content silos identified.</p>
+  <div class="chart-row">
+    <div class="chart-block"><svg width="400" height="462" viewBox="0 0 400 462" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Client Topical Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">criminal_defence</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">drink_driving</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">drug_offences</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">assault</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">bail_applications</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">sexual_offences</text>
+  <rect x="120" y="200" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">intervention_orders</text>
+  <rect x="120" y="236" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">traffic</text>
+  <rect x="120" y="272" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="326" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">licence_suspension</text>
+  <rect x="120" y="308" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="326" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="362" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">theft</text>
+  <rect x="120" y="344" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="362" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="398" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">fraud</text>
+  <rect x="120" y="380" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="398" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="434" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">areas_we_serve</text>
+  <rect x="120" y="416" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="434" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+    <div class="chart-block"><svg width="400" height="462" viewBox="0 0 400 462" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Competitor Avg Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">criminal_defence</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">drink_driving</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">drug_offences</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">assault</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">bail_applications</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">sexual_offences</text>
+  <rect x="120" y="200" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">intervention_orders</text>
+  <rect x="120" y="236" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">traffic</text>
+  <rect x="120" y="272" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="326" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">licence_suspension</text>
+  <rect x="120" y="308" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="326" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="362" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">theft</text>
+  <rect x="120" y="344" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="362" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="398" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">fraud</text>
+  <rect x="120" y="380" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="398" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="434" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">areas_we_serve</text>
+  <rect x="120" y="416" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="434" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+  </div>
+  <div class="silo-grid"><div class="silo-card">
+  <h4>criminal_defence</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>criminal defence lawyer melbourne</strong></span>
+    <span>Volume: <strong>2,400</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>drink_driving</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>drink driving lawyer melbourne</strong></span>
+    <span>Volume: <strong>570</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>drug_offences</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>drug possession lawyer melbourne</strong></span>
+    <span>Volume: <strong>500</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>assault</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>assault lawyer melbourne</strong></span>
+    <span>Volume: <strong>510</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>bail_applications</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>bail application lawyer melbourne</strong></span>
+    <span>Volume: <strong>500</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>sexual_offences</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>sexual offences lawyer melbourne</strong></span>
+    <span>Volume: <strong>500</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>intervention_orders</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>intervention order lawyer melbourne</strong></span>
+    <span>Volume: <strong>540</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>traffic</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>traffic lawyer melbourne</strong></span>
+    <span>Volume: <strong>710</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>licence_suspension</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>suspended licence lawyer melbourne</strong></span>
+    <span>Volume: <strong>500</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>theft</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>theft lawyer melbourne</strong></span>
+    <span>Volume: <strong>510</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>fraud</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>fraud lawyer melbourne</strong></span>
+    <span>Volume: <strong>510</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>areas_we_serve</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>criminal lawyer near me</strong></span>
+    <span>Volume: <strong>2,400</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>criminal lawyer dandenong</li><li>criminal lawyer ringwood</li><li>criminal lawyer sunshine</li><li>criminal lawyer broadmeadows</li><li>criminal lawyer frankston</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div></div>
+</section>
+<section id="competitor_analysis" class="section">
+  <h2>Competitor Analysis</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>Competitor data not yet available. Run Phase 3 competitor analysis to populate this section.</p></div>
+</section>
+<section id="content_gap" class="section">
+  <h2>Content Gap Map</h2>
+  <h3>Keyword Gap Status</h3><div class="table-scroll"><table class="data-table"><thead><tr><th>Keyword</th><th>Gap Status</th><th>Target URL</th><th>Action</th><th>Investment</th></tr></thead><tbody><tr>
+  <td>criminal defence lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>drink driving lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/drink-driving-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>drug possession lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/drug-offences-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>assault lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/assault-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>bail application lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/bail-applications/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>sexual offences lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/sexual-offences-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>intervention order lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/intervention-orders/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>traffic lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/traffic-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>suspended licence lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/licence-suspension-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>theft lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/theft-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>fraud lawyer melbourne</td>
+  <td class="status-fail">Missing</td>
+  <td>/fraud-lawyer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>criminal lawyer near me</td>
+  <td class="status-fail">Missing</td>
+  <td>/areas-we-serve/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr></tbody></table></div>
+  
+  
+  
+</section>
+<section id="quick_wins" class="section">
+  <h2>Quick Wins</h2>
+  <p class="section-intro">5 quick win opportunities identified (achievable in 1-3 months).</p>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Action</th><th>Target URL</th></tr></thead>
+    <tbody><tr>
+  <td>criminal defence lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>40</td>
+  <td>Create New</td>
+  <td>/</td>
+</tr><tr>
+  <td>traffic lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>Create New</td>
+  <td>/traffic-lawyer/</td>
+</tr><tr>
+  <td>criminal lawyer near me</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>20</td>
+  <td>Create New</td>
+  <td>/areas-we-serve/</td>
+</tr><tr>
+  <td>criminal lawyer dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>170</td>
+  <td>65</td>
+  <td>Create New</td>
+  <td>/criminal-lawyer-dandenong/</td>
+</tr><tr>
+  <td>criminal lawyer frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>Create New</td>
+  <td>/criminal-lawyer-frankston/</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="serp_features" class="section">
+  <h2>SERP Feature Opportunities</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>No SERP features detected in keyword data or SERP analysis. This may improve with additional research phases.</p></div>
+</section>
+<section id="gbp_opportunities" class="section">
+  <h2>GBP &amp; Near Me Opportunities</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>Full candidate database not available. Near me keywords will be shown when all-candidates.json is present.</p></div>
+</section>
+<section id="ai_overview" class="section">
+  <h2>AI Overview Impact</h2>
+  
+  <h3>Keyword-Level Classifications</h3><table class="data-table"><thead><tr><th>Classification</th><th>Keywords</th><th>Volume Impact</th></tr></thead><tbody><tr><td>None</td><td>12</td><td>No volume deflection</td></tr></tbody></table>
+  
+</section>
+<section id="geographic_expansion" class="section">
+  <h2>Geographic Expansion Plan</h2>
+  <p class="section-intro">Ring-by-ring build-out sequence for 1 geographic rings.</p>
+  <div class="expansion-ring">
+  <h3>Ring 0</h3>
+  <p><strong>Suburbs:</strong> </p>
+  <p><strong>Keywords:</strong> 6 | <strong>Total Volume:</strong> 500</p>
+  <p><strong>Strategy:</strong> Build first -- closest to business location</p>
+</div>
+</section>
+<section id="excluded_keywords" class="section">
+  <h2>Excluded Keywords</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>No notable exclusions recorded. This section populates after keyword selection.</p></div>
+</section>
+<section id="tam" class="section">
+  <h2>Total Addressable Market</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">5,580</div>
+      <div class="stat-label">Estimated Monthly TAM</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">4,650</div>
+      <div class="stat-label">Selected Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">83.3%</div>
+      <div class="stat-label">TAM Capture</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">36</div>
+      <div class="stat-label">Total Candidates</div>
+    </div>
+  </div>
+  <p class="section-note">TAM is estimated from candidate pool volume data. Upgrade to a higher tier to capture more of the addressable market.</p>
+</section>
+<section id="brand_serp" class="section">
+  <h2>Brand SERP Health Check</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>SERP data not yet available. Run Phase 3 SERP analysis to populate brand health check.</p></div>
+  <p>Brand name to analyse: <strong>Anaki Lawyers</strong></p>
+</section>
+<section id="methodology" class="section">
+  <h2>Methodology</h2>
+  <div class="methodology-content">
+    <h3>Scoring Model</h3>
+    <p>Keywords are evaluated across 8 dimensions, each scored 0.0 to 1.0:</p>
+    <table class="data-table compact-table">
+      <thead><tr><th>Dimension</th><th>Weight</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>Demand</td><td>18%</td><td>Search volume adjusted for AI deflection and trend</td></tr>
+        <tr><td>Winnability</td><td>22%</td><td>Keyword difficulty vs client domain authority</td></tr>
+        <tr><td>Intent Fit</td><td>18%</td><td>SERP-based intent classification alignment</td></tr>
+        <tr><td>Commercial</td><td>10%</td><td>CPC percentile indicating conversion value</td></tr>
+        <tr><td>Gap Value</td><td>10%</td><td>Competitive gap opportunity assessment</td></tr>
+        <tr><td>SERP Opportunity</td><td>5%</td><td>Available SERP feature slots</td></tr>
+        <tr><td>Effort Adjusted</td><td>10%</td><td>Content investment efficiency</td></tr>
+        <tr><td>Defensibility</td><td>7%</td><td>Long-term ranking holdability</td></tr>
+      </tbody>
+    </table>
+    <h3>Confidence Levels</h3>
+    <ul class="feature-list">
+      <li><strong>HIGH</strong> -- 3+ data sources agree, cross-validation passed</li>
+      <li><strong>MEDIUM</strong> -- 2 sources or minor divergence in cross-validation</li>
+      <li><strong>LOW</strong> -- Single source or significant data gaps</li>
+    </ul>
+    <h3>Timeline Assignment</h3>
+    <ul class="feature-list">
+      <li><strong>Quick Win (1-3 months)</strong> -- Low KD relative to DA, existing content or thin competition</li>
+      <li><strong>Medium Term (3-6 months)</strong> -- Moderate KD, new content required</li>
+      <li><strong>Strategic (6-12 months)</strong> -- High KD or authority-building required</li>
+    </ul>
+    <h3>Data Sources</h3>
+    <p>This report aggregates data from multiple sources including SE Ranking, DataForSEO,
+    Google Search Console (when connected), Google Ads keyword planner, and manual SERP analysis.
+    Volume figures are cross-validated across sources when available.</p>
+  </div>
+</section>
+<section id="appendix" class="section">
+  <h2>Appendix: Full Candidate Database</h2>
+  <p class="section-intro">Showing 18 selected keywords. Full candidate database available in all-candidates.json.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table" id="appendix-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Intent</th><th>Silo</th><th>Timeline</th></tr></thead>
+    <tbody><tr>
+  <td>criminal defence lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>40</td>
+  <td>Commercial Investigation</td>
+  <td>criminal_defence</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>drink driving lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>drink_driving</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>drug possession lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>drug_offences</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>assault lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>assault</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>bail application lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>bail_applications</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>sexual offences lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>sexual_offences</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>intervention order lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>40</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>intervention_orders</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>traffic lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>Commercial Investigation</td>
+  <td>traffic</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>suspended licence lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>licence_suspension</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>theft lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>theft</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>fraud lawyer melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>10</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>fraud</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>criminal lawyer near me</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>1,900</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>areas_we_serve</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>criminal lawyer dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>170</td>
+  <td>65</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>criminal lawyer ringwood</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>criminal lawyer sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>20</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>criminal lawyer broadmeadows</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>0</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>criminal lawyer frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>210</td>
+  <td>40</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>criminal lawyer werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>50</td>
+  <td>40</td>
+  <td>Commercial Investigation</td>
+  <td>location</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+</main>
+<script>
+function toggleDetail(id) {
+  var row = document.getElementById(id);
+  if (row) {
+    row.style.display = row.style.display === 'none' ? '' : 'none';
+  }
+}
+
+function sortTable(table, col) {
+  var tbody = table.tBodies[0];
+  var rows = Array.from(tbody.rows).filter(function(r) { return !r.classList.contains('detail-row'); });
+  var th = table.tHead.rows[0].cells[col];
+  var asc = !th.classList.contains('sort-asc');
+  Array.from(table.tHead.rows[0].cells).forEach(function(c) {
+    c.classList.remove('sort-asc', 'sort-desc');
+  });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+  rows.sort(function(a, b) {
+    var va = a.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var vb = b.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var na = parseFloat(va), nb = parseFloat(vb);
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(function(row) {
+    tbody.appendChild(row);
+    var detailId = row.querySelector('[onclick]');
+    if (detailId) {
+      var match = detailId.getAttribute('onclick').match(/'([^']+)'/);
+      if (match) {
+        var detail = document.getElementById(match[1]);
+        if (detail) tbody.appendChild(detail);
+      }
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.sortable-table').forEach(function(table) {
+    Array.from(table.tHead.rows[0].cells).forEach(function(th, i) {
+      th.addEventListener('click', function() { sortTable(table, i); });
+    });
+  });
+});
+</script>
+</body>
+</html>
