@@ -174,13 +174,12 @@ Criminal Law, Homicide, Traffic Law, Speeding, Suspended Licence, Disqualified L
 ## Status
 - [x] Client onboarding form received (14 Apr 2026)
 - [x] Client directory initialized (21 Apr 2026)
-- [x] Keyword research — Plan v1.0 completed (21 Apr 2026) — DRAFT pending GKP
-- [ ] GKP data — needs to be requested and confirmed
+- [x] Keyword research — Plan v1.0 completed (21 Apr 2026)
+- [x] GKP data confirmed — pulled via Google Ads API (AU, 2036, 21 Apr 2026)
+- [x] HTML report generated — report.html (dark-sidebar, 20 sections, 74.4 KB)
 - [ ] SE Ranking project — not yet created
-- [ ] Plan finalised to v1.1 — pending GKP confirmation
+- [ ] Keyword tracking setup
 
 ## Next Steps
-1. Request GKP export from user: AU location (Victoria / Melbourne), 12-month date range, batch by: (a) criminal law umbrella, (b) drink driving / DUI, (c) drug offences, (d) assault, (e) bail, (f) sexual offences / IVOs, (g) traffic / licence / theft / fraud
-2. Once GKP data received — confirm volumes, adjust any keyword selections if needed, mark plan Final
-3. Create SE Ranking project for anakilawyers.com.au
-4. Track: criminal lawyer melbourne, drink driving lawyer melbourne, drug possession lawyer melbourne, assault lawyer melbourne, intervention order lawyer melbourne, traffic lawyer melbourne, suspended licence lawyer melbourne
+1. Create SE Ranking project for anakilawyers.com.au
+2. Track: criminal defence lawyer melbourne, criminal lawyer melbourne, drink driving lawyer melbourne, assault lawyer melbourne, intervention order lawyer melbourne, traffic lawyer melbourne, criminal lawyer frankston, criminal lawyer near me

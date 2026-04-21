@@ -299,6 +299,20 @@ Location pages on the website and Google Business Profile are not separate lever
 - Reason: easier to track and present rankings to client; location-modified terms are easier to rank for than unmodified national terms; avoids client confusion about what geography the ranking covers
 - Quick wins from blog content (page 2 positions, low KD) should be flagged separately alongside the keyword plan — these are actionable without new pages
 
+### KWR HTML Deliverable — Format Rule (Mandatory)
+
+The canonical KWR deliverable is **`report.html`**, generated via `generate_report.py` using the `kwr:report-compiler` agent. This produces the dark-sidebar format used for all clients.
+
+- **Always use:** `kwr:report` skill → spawns `kwr:report-compiler` → runs `generate_report.py` at `/home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/scripts/generate_report.py`
+- **Never:** generate a custom HTML file directly from `kwr:lead-orchestrator` — this produces the wrong format (light-theme, non-standard sections)
+- **File name:** always `report.html` (not `keyword-plan.html` or any other name)
+- **Location:** `clients/[domain]/keyword-research/report.html`
+- **Why:** The ACS Debt Collection `report.html` is the reference format. Using a custom template produces an inconsistent deliverable and loses the standard section structure. Error was confirmed on anakilawyers.com.au (21 Apr 2026) — lead orchestrator wrote its own HTML; user corrected by pointing to ACS report.html.
+
+**How to apply:** At the end of every keyword research pipeline (`kwr:run`), always invoke `/kwr:report` as the final step to produce the deliverable via `generate_report.py`. Do not skip this step.
+
+---
+
 ### HTML Deliverable — Required Sections (Mandatory)
 
 Every keyword plan HTML must include the following sections. Sections 0–3 are in the strategy/reasoning area. The Eligible Candidates section is a separate block at the bottom, after all strategy notes.
@@ -367,6 +381,16 @@ List all elements outside the keyword plan scope that are required to make the e
 - **Conveyancing SERP:** Often dominated by specialist conveyancers (not law firms) — law firm positioning as "lawyer-backed conveyancing" is a genuine differentiator in this SERP
 - **Will disputes / adverse possession / subdivisions:** Very low Melbourne-specific volume — cover as content topics on relevant pages, not as standalone keyword targets
 - **Family law vs property law:** Check competitor traffic carefully — firms ranking for both can mislead. Duffy & Simon (Casey area) = mostly family law traffic, not a direct competitor for property/wills
+
+### Criminal Defence / Traffic Law
+- **Volume reality check:** Criminal law keyword volumes are much lower than general legal benchmarks. Drink driving Melbourne = 70/mo (not 500–800); many practice area keywords (drug possession, sexual offences, bail application) return N/A from GKP (<10/mo threshold). Do not estimate from benchmarks — always confirm with GKP.
+- **High case value overrides low volume:** Criminal defence matters are $5k–$50k+ fees. A page targeting a keyword with N/A GKP volume is still worth building for topical authority and high-fee intent. Reject the keyword as a page target only if SERP is non-commercial (informational, government). Never reject purely on volume.
+- **CPC as case value signal:** Even at 10/mo, CPC of $26–36 (fraud) or $30–50 (criminal defence) confirms high case value. Low volume + high CPC = worth including.
+- **"Near me" = dominant volume in criminal law:** "Criminal lawyer near me" (1,900/mo) is typically the highest-volume term in a criminal law keyword plan — equal to or exceeding the city-level homepage term. Won via GBP local pack, not organic page rank. Map to `/areas-we-serve/` + GBP optimisation.
+- **Location pages are the primary SEO growth lever for new criminal firms:** Suburb-level pages targeting magistrates court catchments (e.g., Dandenong, Ringwood, Frankston, Sunshine, Broadmeadows, Werribee for Victoria) build geographic authority faster than competing for city-level terms. Select suburbs by proximity to busy Magistrates Courts, not just population.
+- **Homepage keyword split:** "Criminal lawyer melbourne" vs "criminal defence lawyer melbourne" — always test both in GKP. In AU, "criminal defence lawyer melbourne" often has equal or higher volume. Assign primary based on confirmed GKP, not assumption.
+- **SERP intent:** Criminal law SERPs are almost entirely clean commercial (law firm pages). Homicide terms can be AMBER/MIXED with informational content — check each individually. Government/Legal Aid pages in SERP = informational intent, not suitable as keyword target.
+- **Excluded SERP patterns:** "Homicide lawyer melbourne" — AMBER SERP, very low volume — cover as content on homepage. "Bail application melbourne" (bare) — MIXED SERP — use "bail application lawyer melbourne" instead. "Speeding lawyer melbourne" — AMBER — content on traffic page.
 
 ### Trades & Contractors
 - **Root keyword:** Usually the trade name + city/suburb (e.g., "concrete cutting melbourne")

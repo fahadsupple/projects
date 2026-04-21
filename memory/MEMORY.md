@@ -37,4 +37,4 @@
 - [triplejfurniture.com.au](project_triplejfurniture.md) — Triple J Furniture Sydney ecommerce, plan delivered v1.4 (8 Apr 2026) ✅
 - [verdehomes.com.au](project_verdehomes.md) — Verde Homes luxury builders Melbourne, spelling/content audit 6/12 pages done
 - [acsdebtcollection.com.au](project_acsdebtcollection.md) — ACS Debt Collection, B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research initialized Apr 2026
-- [anakilawyers.com.au](../clients/anakilawyers.com.au/memory/client_anakilawyers.md) — Anaki Lawyers, solo criminal defence & traffic law, Melbourne CBD, keyword research plan v1.0 drafted (21 Apr 2026) — pending GKP confirmation
+- [anakilawyers.com.au](project_anakilawyers.md) — Anaki Lawyers, solo criminal defence & traffic law, Melbourne CBD, keyword research v1.0 complete + GKP confirmed (21 Apr 2026)
