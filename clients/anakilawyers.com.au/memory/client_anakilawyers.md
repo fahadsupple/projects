@@ -114,9 +114,73 @@ Criminal Law, Homicide, Traffic Law, Speeding, Suspended Licence, Disqualified L
 ## Social Proof
 - Over 200 cases in career (across previous firm + Anaki Lawyers)
 
+---
+
+## Keyword Research — Plan v1.0 (21 Apr 2026)
+
+### Plan Status
+- Draft v1.0 — GKP volume data not yet received. All volumes are benchmark estimates.
+- Plan requires GKP export (AU, Victoria, 12 months) to confirm volumes before final delivery.
+
+### Strategic Decisions
+- **Keyword split:** 70% general service pages / 30% location pages
+- **Homepage target:** criminal lawyer melbourne (umbrella term, ~1,000–1,300/mo)
+- **Top priority service page:** /drink-driving-lawyer/ — highest individual service volume
+- **Location page root:** "criminal lawyer [suburb]" — single root (suburb-level intent is identical for both "criminal lawyer" and "criminal defence lawyer")
+- **Homicide EXCLUDED:** MIXED SERP (informational content mixed with law firms) + very low volume (~10–50/mo). Cover as content section on homepage.
+- **CBD not a location page:** Melbourne CBD anchored to homepage via NAP + schema (home suburb rule)
+- **Location page suburbs:** Dandenong, Ringwood, Sunshine, Broadmeadows, Frankston, Werribee — selected based on proximity to major Magistrates Courts
+
+### SERP Flags
+- "homicide lawyer melbourne" — AMBER/MIXED — excluded as keyword target
+- "family violence intervention order melbourne" — AMBER/MIXED — use "intervention order lawyer melbourne" instead
+- "bail application melbourne" (bare) — AMBER/MIXED — use "bail application lawyer melbourne"
+- "speeding lawyer melbourne" — AMBER — covered as content on traffic page
+
+### Keyword-to-URL Mapping (Summary)
+
+| URL | Primary | Secondary |
+|---|---|---|
+| / | criminal lawyer melbourne | criminal defence lawyer melbourne |
+| /drink-driving-lawyer/ | drink driving lawyer melbourne | DUI lawyer melbourne |
+| /drug-offences-lawyer/ | drug possession lawyer melbourne | drug trafficking lawyer melbourne |
+| /assault-lawyer/ | assault lawyer melbourne | common assault lawyer melbourne |
+| /bail-applications/ | bail application lawyer melbourne | bail lawyer melbourne |
+| /sexual-offences-lawyer/ | sexual offences lawyer melbourne | sexual assault lawyer melbourne |
+| /intervention-orders/ | intervention order lawyer melbourne | restraining order lawyer melbourne |
+| /traffic-lawyer/ | traffic lawyer melbourne | traffic offence lawyer melbourne |
+| /licence-suspension-lawyer/ | suspended licence lawyer melbourne | licence disqualification lawyer melbourne |
+| /theft-lawyer/ | theft lawyer melbourne | shoplifting lawyer melbourne |
+| /fraud-lawyer/ | fraud lawyer melbourne | fraud charges defence melbourne |
+| /criminal-lawyer-dandenong/ | criminal lawyer dandenong | criminal defence lawyer dandenong |
+| /criminal-lawyer-ringwood/ | criminal lawyer ringwood | criminal defence lawyer ringwood |
+| /criminal-lawyer-sunshine/ | criminal lawyer sunshine | criminal defence lawyer sunshine |
+| /criminal-lawyer-broadmeadows/ | criminal lawyer broadmeadows | criminal defence lawyer broadmeadows |
+| /criminal-lawyer-frankston/ | criminal lawyer frankston | criminal defence lawyer frankston |
+| /criminal-lawyer-werribee/ | criminal lawyer werribee | criminal defence lawyer werribee |
+| /areas-we-serve/ | criminal lawyer near me | traffic lawyer near me |
+
+### Entity Pages (No Keyword Targets)
+- /about/
+- /contact/
+- /free-consultation/
+
+### Deliverable
+- HTML: `/home/invoi/fahad_projects/clients/anakilawyers.com.au/keyword-research/keyword-plan.html`
+- JSON: `/home/invoi/fahad_projects/clients/anakilawyers.com.au/keyword-research/keywords.json`
+
+---
+
 ## Status
 - [x] Client onboarding form received (14 Apr 2026)
 - [x] Client directory initialized (21 Apr 2026)
+- [x] Keyword research — Plan v1.0 completed (21 Apr 2026) — DRAFT pending GKP
+- [ ] GKP data — needs to be requested and confirmed
 - [ ] SE Ranking project — not yet created
-- [ ] Keyword research — not yet started
-- [ ] GKP data — not yet requested
+- [ ] Plan finalised to v1.1 — pending GKP confirmation
+
+## Next Steps
+1. Request GKP export from user: AU location (Victoria / Melbourne), 12-month date range, batch by: (a) criminal law umbrella, (b) drink driving / DUI, (c) drug offences, (d) assault, (e) bail, (f) sexual offences / IVOs, (g) traffic / licence / theft / fraud
+2. Once GKP data received — confirm volumes, adjust any keyword selections if needed, mark plan Final
+3. Create SE Ranking project for anakilawyers.com.au
+4. Track: criminal lawyer melbourne, drink driving lawyer melbourne, drug possession lawyer melbourne, assault lawyer melbourne, intervention order lawyer melbourne, traffic lawyer melbourne, suspended licence lawyer melbourne

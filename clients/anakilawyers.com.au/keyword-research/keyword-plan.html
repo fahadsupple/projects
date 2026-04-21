@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Research Plan — Anaki Lawyers (anakilawyers.com.au)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: #1a1a1a; background: #f8f9fa; }
+
+    .page-header { background: #1a2744; color: white; padding: 28px 40px; }
+    .page-header h1 { font-size: 22px; font-weight: 700; }
+    .page-header .meta { font-size: 12px; color: #a0aec0; margin-top: 6px; }
+
+    .container { max-width: 1400px; margin: 0 auto; padding: 30px 40px; }
+
+    /* Brief Block */
+    .brief-block { background: #fffbcc; border: 2px solid #e6d800; border-radius: 8px; padding: 24px; margin-bottom: 32px; }
+    .brief-block h2 { font-size: 14px; font-weight: 700; color: #7a6400; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .brief-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .brief-col h3 { font-size: 12px; font-weight: 700; color: #7a6400; text-transform: uppercase; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #e6d800; }
+    .brief-col p, .brief-col li { font-size: 13px; color: #4a3900; line-height: 1.6; }
+    .brief-col ul { margin-left: 18px; }
+    .brief-col .field { margin-bottom: 8px; }
+    .brief-col .field strong { color: #3a2800; }
+
+    /* Section headers */
+    .section-title { font-size: 18px; font-weight: 700; color: #1a2744; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+    .section-subtitle { font-size: 13px; color: #64748b; margin-top: 4px; margin-bottom: 20px; }
+
+    /* Keyword table */
+    .table-wrap { background: white; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; margin-bottom: 32px; }
+    .table-wrap table { width: 100%; border-collapse: collapse; }
+    .table-wrap th { background: #1a2744; color: white; padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .table-wrap td { padding: 10px 14px; border-bottom: 1px solid #f0f4f8; font-size: 13px; vertical-align: top; }
+    .table-wrap tr:last-child td { border-bottom: none; }
+    .table-wrap tr:hover td { background: #f8fafc; }
+
+    /* Page type groups in table */
+    .page-group { background: #f0f4f8; }
+    .page-group td { font-weight: 600; font-size: 12px; color: #475569; text-transform: uppercase; padding: 8px 14px; }
+
+    /* Badge styles */
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .badge-primary { background: #dbeafe; color: #1d4ed8; }
+    .badge-secondary { background: #e0f2fe; color: #0369a1; }
+    .badge-location { background: #f0fdf4; color: #166534; }
+    .badge-entity { background: #faf5ff; color: #7e22ce; }
+    .badge-tier-a { background: #fef2f2; color: #dc2626; }
+    .badge-tier-b { background: #fff7ed; color: #ea580c; }
+    .badge-tier-c { background: #fefce8; color: #ca8a04; }
+    .badge-serp-clean { background: #d1fae5; color: #065f46; }
+    .badge-serp-amber { background: #fef9c3; color: #854d0e; }
+    .badge-serp-reject { background: #fee2e2; color: #991b1b; }
+
+    /* Intent dot */
+    .dot-commercial { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #16a34a; margin-right: 4px; }
+    .dot-mixed { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #f59e0b; margin-right: 4px; }
+    .dot-info { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #3b82f6; margin-right: 4px; }
+
+    /* Reasoning section */
+    .reasoning-section { background: white; border-radius: 8px; border: 1px solid #e2e8f0; padding: 28px; margin-bottom: 24px; }
+    .reasoning-section h2 { font-size: 16px; font-weight: 700; color: #1a2744; margin-bottom: 16px; }
+    .reasoning-section h3 { font-size: 14px; font-weight: 600; color: #334155; margin: 18px 0 8px; }
+    .reasoning-section h4 { font-size: 13px; font-weight: 600; color: #475569; margin: 14px 0 6px; }
+    .reasoning-section p { font-size: 13px; color: #475569; line-height: 1.65; margin-bottom: 10px; }
+    .reasoning-section ul { margin: 8px 0 12px 20px; }
+    .reasoning-section li { font-size: 13px; color: #475569; line-height: 1.65; margin-bottom: 4px; }
+    .reasoning-section strong { color: #1e293b; }
+
+    /* Entity architecture block */
+    .entity-tier { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 16px; margin-bottom: 14px; }
+    .entity-tier h4 { font-size: 13px; font-weight: 700; color: #1a2744; margin-bottom: 8px; }
+    .entity-tier p { font-size: 13px; color: #475569; line-height: 1.6; }
+
+    /* Flag notice */
+    .flag-notice { background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 12px 16px; margin: 12px 0; font-size: 13px; color: #92400e; }
+    .flag-notice strong { color: #78350f; }
+
+    /* Eligible candidates section */
+    .candidates-section { background: white; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; margin-bottom: 24px; }
+    .candidates-header { background: #475569; color: white; padding: 14px 20px; }
+    .candidates-header h2 { font-size: 14px; font-weight: 700; }
+    .candidates-header p { font-size: 12px; color: #cbd5e1; margin-top: 4px; }
+    .candidates-body { padding: 20px; }
+    .candidate-group { margin-bottom: 24px; }
+    .candidate-group h3 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
+
+    /* GKP flag */
+    .gkp-flag { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 12px 16px; margin: 0 0 24px; font-size: 13px; color: #1e40af; }
+    .gkp-flag strong { color: #1e3a8a; }
+
+    /* Status badge */
+    .status-pill { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+    .status-draft { background: #fef3c7; color: #92400e; }
+    .status-final { background: #d1fae5; color: #065f46; }
+
+    /* Footer */
+    .page-footer { text-align: center; color: #94a3b8; font-size: 12px; padding: 30px; border-top: 1px solid #e2e8f0; margin-top: 40px; }
+
+    @media print {
+      body { background: white; }
+      .container { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Keyword Research Plan — Anaki Lawyers</h1>
+  <div class="meta">anakilawyers.com.au &nbsp;|&nbsp; Criminal Defence &amp; Traffic Law &nbsp;|&nbsp; Melbourne VIC &nbsp;|&nbsp; Plan v1.0 &nbsp;|&nbsp; 21 April 2026 &nbsp;|&nbsp; <span class="status-pill status-draft">Draft — Pending GKP Confirmation</span></div>
+</div>
+
+<div class="container">
+
+  <!-- ========== CLIENT BRIEF BLOCK ========== -->
+  <div class="brief-block">
+    <h2>Client Brief &amp; Onboarding Form</h2>
+    <div class="brief-cols">
+      <div class="brief-col">
+        <h3>BDM Brief</h3>
+        <div class="field"><strong>Business:</strong> Anaki Lawyers — solo criminal defence &amp; traffic law firm</div>
+        <div class="field"><strong>Domain:</strong> anakilawyers.com.au</div>
+        <div class="field"><strong>Principal:</strong> Aabed Anaki (2 yrs criminal law experience; previously at specialist criminal defence firm)</div>
+        <div class="field"><strong>Status:</strong> New practice, established 2026 — no existing SEO footprint</div>
+        <div class="field"><strong>Address:</strong> Level 19, 263 William Street, Melbourne VIC 3000</div>
+        <div class="field"><strong>Phone:</strong> 0481791185 (24/7 hotline — principal lawyer direct)</div>
+        <div class="field"><strong>Service area:</strong> Melbourne CBD &amp; Inner Suburbs (primary), SE, North, West, Regional Victoria — state-wide</div>
+        <div class="field"><strong>Competitors (client-provided):</strong> MC Lawyers and Associates, Marco Man and Associates, SLKQ Lawyers, Seda Kilic Criminal Lawyers</div>
+        <div class="field" style="margin-top:12px; padding-top:12px; border-top:1px solid #e6d800;"><strong>GKP data status:</strong> Not yet received — volumes in this plan are industry benchmarks. Must be confirmed with GKP before final delivery.</div>
+      </div>
+      <div class="brief-col">
+        <h3>Onboarding Form — Key Fields</h3>
+        <div class="field"><strong>Services (Q12):</strong>
+          <ul style="margin-top:6px;">
+            <li>Criminal defence: assault, drug possession/supply, drug trafficking, fraud, theft/shoplifting, aggravated burglary/home invasion, armed robbery, sexual offences, rape, stalking, firearms/weapons, proceeds of crime, anti-semitic offences, tobacco importation, summary/indictable, homicide, appeals</li>
+            <li>Traffic/driving: drink driving/DUI, drug driving, careless/dangerous driving, speeding/traffic infringements, licence suspension/disqualification, licence cancellation/reinstatement</li>
+            <li>Bail applications and advice</li>
+            <li>Court representation: Magistrates, County, higher courts, federal</li>
+            <li>Intervention orders: family violence IVOs, personal safety IVOs, breach of IVO, urgent/interim IVOs, variation/removal</li>
+          </ul>
+        </div>
+        <div class="field" style="margin-top:10px;"><strong>USPs (Q14):</strong>
+          <ul style="margin-top:6px;">
+            <li>3-hour response guarantee from principal lawyer</li>
+            <li>Direct access — no call centres, no referral layers</li>
+            <li>Clear upfront advice on options and likely outcomes</li>
+            <li>Dedicated criminal &amp; traffic specialist (court-ready defence)</li>
+          </ul>
+        </div>
+        <div class="field" style="margin-top:10px;"><strong>Keyword seeds (Q13):</strong> Criminal Law, Homicide, Traffic Law, Speeding, Suspended Licence, Disqualified Licence, Drink Driving, Bail Applications, Assault, Theft, Sexual Offences, Drug Possession, Drug Trafficking</div>
+        <div class="field" style="margin-top:10px;"><strong>Ideal customer (Q17):</strong> Anyone charged by Victoria Police, under investigation, recently arrested, seeking an intervention order, or who received a traffic fine</div>
+        <div class="field"><strong>Pricing:</strong> Free 30-min consultation, payment plans, Legal Aid accepted, case-by-case pricing</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GKP Data Flag -->
+  <div class="gkp-flag">
+    <strong>Data Notice:</strong> GKP (Google Keyword Planner) data has not yet been received for this client. All volume figures in this plan are industry benchmark estimates based on Melbourne legal keyword research norms. These must be confirmed with a GKP export (AU, Victoria location, 12-month range) before this plan is marked Final. Keyword selections and strategic rationale are sound and will not materially change — volumes may require minor adjustments once GKP data is available.
+  </div>
+
+  <!-- ========== KEYWORD TABLE ========== -->
+  <div class="section-title">Keyword Plan — Page-by-Page Mapping</div>
+  <p class="section-subtitle">Primary keywords drive page targeting. Secondary keywords are co-targeted on the same page (must be non-subset of primary). All URLs use clean slugs — city modifier in H1/meta title only.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:6%">Tier</th>
+          <th style="width:18%">Page / URL</th>
+          <th style="width:20%">Primary Keyword</th>
+          <th style="width:8%">Est. Vol/mo</th>
+          <th style="width:20%">Secondary Keyword</th>
+          <th style="width:8%">Est. Vol/mo</th>
+          <th style="width:8%">SERP Intent</th>
+          <th style="width:12%">SERP Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- HOMEPAGE -->
+        <tr class="page-group">
+          <td colspan="8">General Service Pages</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/</code><br><span style="font-size:11px;color:#94a3b8;">Homepage</span></td>
+          <td><strong>criminal lawyer melbourne</strong><br><span class="badge badge-primary">Primary</span></td>
+          <td>1,000–1,300</td>
+          <td>criminal defence lawyer melbourne<br><span class="badge badge-secondary">Secondary</span></td>
+          <td>400–600</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Homepages + inner pages, local pack</td>
+        </tr>
+        <!-- DRINK DRIVING -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/drink-driving-lawyer/</code></td>
+          <td><strong>drink driving lawyer melbourne</strong></td>
+          <td>500–800</td>
+          <td>DUI lawyer melbourne</td>
+          <td>200–300</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- DRUG OFFENCES -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/drug-offences-lawyer/</code></td>
+          <td><strong>drug possession lawyer melbourne</strong></td>
+          <td>200–400</td>
+          <td>drug trafficking lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- ASSAULT -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/assault-lawyer/</code></td>
+          <td><strong>assault lawyer melbourne</strong></td>
+          <td>200–400</td>
+          <td>common assault lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- BAIL -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/bail-applications/</code></td>
+          <td><strong>bail application lawyer melbourne</strong></td>
+          <td>100–200</td>
+          <td>bail lawyer melbourne</td>
+          <td>50–150</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- SEXUAL OFFENCES -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/sexual-offences-lawyer/</code></td>
+          <td><strong>sexual offences lawyer melbourne</strong></td>
+          <td>100–200</td>
+          <td>sexual assault lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- INTERVENTION ORDERS -->
+        <tr>
+          <td><span class="badge badge-tier-a">A</span></td>
+          <td><code>/intervention-orders/</code></td>
+          <td><strong>intervention order lawyer melbourne</strong></td>
+          <td>200–350</td>
+          <td>restraining order lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- TRAFFIC LAW -->
+        <tr>
+          <td><span class="badge badge-tier-b">B</span></td>
+          <td><code>/traffic-lawyer/</code></td>
+          <td><strong>traffic lawyer melbourne</strong></td>
+          <td>400–600</td>
+          <td>traffic offence lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Mix homepages + inner pages, local pack</td>
+        </tr>
+        <!-- LICENCE SUSPENSION -->
+        <tr>
+          <td><span class="badge badge-tier-b">B</span></td>
+          <td><code>/licence-suspension-lawyer/</code></td>
+          <td><strong>suspended licence lawyer melbourne</strong></td>
+          <td>200–400</td>
+          <td>licence disqualification lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- THEFT -->
+        <tr>
+          <td><span class="badge badge-tier-b">B</span></td>
+          <td><code>/theft-lawyer/</code></td>
+          <td><strong>theft lawyer melbourne</strong></td>
+          <td>100–200</td>
+          <td>shoplifting lawyer melbourne</td>
+          <td>100–200</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+        <!-- FRAUD -->
+        <tr>
+          <td><span class="badge badge-tier-b">B</span></td>
+          <td><code>/fraud-lawyer/</code></td>
+          <td><strong>fraud lawyer melbourne</strong></td>
+          <td>200–350</td>
+          <td>fraud charges defence melbourne</td>
+          <td>50–100</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner service pages, local pack</td>
+        </tr>
+
+        <!-- LOCATION PAGES -->
+        <tr class="page-group">
+          <td colspan="8">Location Pages — Near Major Magistrates Courts</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-dandenong/</code></td>
+          <td><strong>criminal lawyer dandenong</strong></td>
+          <td>50–100</td>
+          <td>criminal defence lawyer dandenong</td>
+          <td>10–50</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages, strong local pack</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-ringwood/</code></td>
+          <td><strong>criminal lawyer ringwood</strong></td>
+          <td>50–100</td>
+          <td>criminal defence lawyer ringwood</td>
+          <td>10–30</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-sunshine/</code></td>
+          <td><strong>criminal lawyer sunshine</strong></td>
+          <td>30–80</td>
+          <td>criminal defence lawyer sunshine</td>
+          <td>10–30</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-broadmeadows/</code></td>
+          <td><strong>criminal lawyer broadmeadows</strong></td>
+          <td>30–80</td>
+          <td>criminal defence lawyer broadmeadows</td>
+          <td>10–30</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-frankston/</code></td>
+          <td><strong>criminal lawyer frankston</strong></td>
+          <td>50–100</td>
+          <td>criminal defence lawyer frankston</td>
+          <td>10–30</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-location">LOC</span></td>
+          <td><code>/criminal-lawyer-werribee/</code></td>
+          <td><strong>criminal lawyer werribee</strong></td>
+          <td>30–60</td>
+          <td>criminal defence lawyer werribee</td>
+          <td>10–30</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Inner location pages</td>
+        </tr>
+
+        <!-- ENTITY PAGES -->
+        <tr class="page-group">
+          <td colspan="8">Entity / Authority Pages (No Keyword Targets — Structural)</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-entity">ENT</span></td>
+          <td><code>/about/</code></td>
+          <td colspan="5" style="color:#64748b;font-style:italic;">No keyword target — E-E-A-T and trust page. Showcase Aabed Anaki's qualifications, practicing certificates (Supreme Court VIC + High Court AU), communication-first ethos, 200+ cases career experience.</td>
+          <td>Entity page</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-entity">ENT</span></td>
+          <td><code>/contact/</code></td>
+          <td colspan="5" style="color:#64748b;font-style:italic;">No keyword target — NAP signal, 24/7 hotline prominence, office address, map embed. Critical for local entity anchor.</td>
+          <td>Entity page</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-entity">ENT</span></td>
+          <td><code>/areas-we-serve/</code></td>
+          <td><strong>criminal lawyer near me</strong></td>
+          <td>—</td>
+          <td>traffic lawyer near me</td>
+          <td>—</td>
+          <td><span class="dot-commercial"></span>Commercial</td>
+          <td>Local pack trigger — GBP reinforcement</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-entity">ENT</span></td>
+          <td><code>/free-consultation/</code></td>
+          <td colspan="5" style="color:#64748b;font-style:italic;">No keyword target — conversion page for free 30-min consultation offer. Link to from all service pages. USP-reinforcing page.</td>
+          <td>Conversion page</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- ========== STRATEGY &amp; REASONING ========== -->
+
+  <!-- Section 1: Entity Architecture -->
+  <div class="reasoning-section">
+    <h2>1. Entity Architecture Being Built</h2>
+
+    <div class="entity-tier">
+      <h4>Tier 1 — Homepage: Criminal Lawyer Melbourne (Umbrella Entity)</h4>
+      <p>The homepage targets <strong>criminal lawyer melbourne</strong> as primary — the highest-volume umbrella term in the practice. This signals to Google: Anaki Lawyers is a Melbourne criminal law firm. The secondary keyword <strong>criminal defence lawyer melbourne</strong> (non-subset — "criminal lawyer" vs "criminal defence lawyer" differ meaningfully) anchors the specialist positioning — this firm does not do conveyancing or family law, it does defence. The homepage entity is reinforced by the address (263 William Street), the practicing certificate schema (Supreme Court VIC + High Court AU), and the 24/7 hotline as a differentiating trust signal. After indexing, Google understands: Melbourne CBD criminal law firm, specialist in defence, direct access to principal lawyer.</p>
+    </div>
+
+    <div class="entity-tier">
+      <h4>Tier 2 — Service Pages: Topical Authority Across All Major Offence Categories</h4>
+      <p>The 10 service pages collectively build topical authority across the full spectrum of criminal and traffic law in Victoria. Each page is a dedicated entity for a specific offence type. Together they signal to Google that this is a firm with expertise across: drink driving, drug offences, assault, bail, sexual offences, intervention orders, traffic law, licence issues, theft, and fraud. This is critical for a new site — topical breadth accelerates entity recognition and surfaces the site for a wider range of queries beyond just the primary targets. The drink driving page (primary: <strong>drink driving lawyer melbourne</strong>, ~500–800/mo) is the highest-volume individual service page and a fast-ROI target. Intervention orders is deliberately included as a separate page — the IVO search cluster is substantial and distinct enough from criminal defence to justify its own entity.</p>
+    </div>
+
+    <div class="entity-tier">
+      <h4>Tier 3 — Location Pages: Geographic Presence Near Major Magistrates Courts</h4>
+      <p>Six location pages are built around Victoria's busiest Magistrates Courts: Dandenong, Ringwood, Sunshine, Broadmeadows, Frankston, and Werribee. The rationale is specific to criminal law: criminal matters are tried at the Magistrates Court closest to where the alleged offence occurred or where the accused resides. Someone charged in Dandenong searches for a "criminal lawyer dandenong" because they're appearing at Dandenong Magistrates Court. This firm's state-wide coverage means these pages are genuine — not fabricated geographic signals. The single root "criminal lawyer [suburb]" is used across all location pages (no second root) because at suburb level the searcher intent is identical regardless of whether "criminal lawyer" or "criminal defence lawyer" is used — the SERP is the same. The homepage suburb (Melbourne CBD) is NOT given a standalone location page — it is anchored to the homepage via address, schema, and content, consistent with the home suburb rule.</p>
+    </div>
+
+    <div class="entity-tier">
+      <h4>The Overall Picture</h4>
+      <p>After full execution, Google will understand Anaki Lawyers as: a Melbourne CBD-based criminal defence and traffic law specialist (not a generalist), personally run by Aabed Anaki (a named entity with qualifications and practicing certificates), with genuine geographic presence covering Melbourne's major court catchments, offering criminal defence representation across all major offence categories under Victorian law. This is a tightly-scoped entity with clear topical authority in one vertical — which is SEO-optimal for a new site competing against established generalist firms.</p>
+    </div>
+  </div>
+
+  <!-- Section 2: Supporting Entities Per Page -->
+  <div class="reasoning-section">
+    <h2>2. Supporting Entities Per Page (Content Signals — Not Keyword Targets)</h2>
+    <p>These topics must appear as headings, paragraphs, and FAQs to build topical depth. They are not additional keyword targets — they are the entity signals that validate the page's relevance to Google.</p>
+
+    <h3>Homepage</h3>
+    <ul>
+      <li>Criminal Procedure Act 2009 (VIC) — relevant legislation establishing the firm's Victorian jurisdiction signal</li>
+      <li>Magistrates Court, County Court, Supreme Court, Federal Court — all courts the firm practises in</li>
+      <li>Types of charges covered (summary offences vs indictable offences — explain the difference)</li>
+      <li>When to call a criminal lawyer (immediately after arrest — time-sensitive framing)</li>
+      <li>The 3-hour response guarantee — make it a trust signal in the hero area, not buried in the about section</li>
+      <li>Free 30-minute consultation — CTA prominence</li>
+      <li>Legal Aid — mention eligibility to capture Legal Aid searchers</li>
+      <li>Payment plans — reduces cost-anxiety for people who have never needed a lawyer</li>
+      <li>Principal's practicing certificates (named entities: Supreme Court of Victoria, High Court of Australia)</li>
+    </ul>
+
+    <h3>/drink-driving-lawyer/</h3>
+    <ul>
+      <li>Blood alcohol concentration (BAC) levels — 0.05, 0.07, 0.10+ tiers and penalties</li>
+      <li>First offence vs repeat offence penalties</li>
+      <li>Interlock conditions — alcohol interlock device on licence</li>
+      <li>Good behaviour bond vs immediate licence loss</li>
+      <li>Drug driving offences (cover as a content section — same page is appropriate given related intent)</li>
+      <li>RMS vs Magistrates Court process for drink driving charges</li>
+      <li>Infringement notice vs court charge — many people confused about which they received</li>
+      <li>Traffic Accident Commission (TAC) implications</li>
+    </ul>
+
+    <h3>/drug-offences-lawyer/</h3>
+    <ul>
+      <li>Drugs, Poisons and Controlled Substances Act 1981 (VIC)</li>
+      <li>Possession vs supply vs trafficking — the legal distinction and different penalty ranges</li>
+      <li>Drug categories (cannabis, methamphetamine, MDMA, cocaine, prescription drugs)</li>
+      <li>Search and seizure powers — what police can and cannot do</li>
+      <li>Drug diversion program — available in Victoria as an alternative to prosecution</li>
+      <li>Commercial quantity vs trafficable quantity thresholds</li>
+      <li>Proceeds of crime applications — can be covered here as a content section (low standalone volume)</li>
+    </ul>
+
+    <h3>/assault-lawyer/</h3>
+    <ul>
+      <li>Common assault vs aggravated assault vs serious assault — distinctions matter for penalty</li>
+      <li>Crimes Act 1958 (VIC) — relevant provisions</li>
+      <li>Self-defence as a legal defence — explain this clearly (high client anxiety around this)</li>
+      <li>Assault in the context of family violence (IVO overlap — link to intervention orders page)</li>
+      <li>Affray vs assault charges</li>
+      <li>Aggravated home invasion and aggravated burglary (cover as content — separate pages not needed)</li>
+    </ul>
+
+    <h3>/bail-applications/</h3>
+    <ul>
+      <li>Bail Act 1977 (VIC) — the governing legislation</li>
+      <li>Show cause test — when the accused must show cause why detention is not justified</li>
+      <li>Unacceptable risk test — the four bail conditions courts assess</li>
+      <li>Remand vs bail conditions</li>
+      <li>Urgent bail applications — 24/7 availability is a MAJOR differentiator here</li>
+      <li>What happens if bail is refused — the client's right to re-apply</li>
+      <li>Conditions attached to bail — reporting conditions, surety, surrender of passport</li>
+      <li>Youth bail applications — mention if the firm handles these</li>
+    </ul>
+
+    <h3>/sexual-offences-lawyer/</h3>
+    <ul>
+      <li>Crimes Act 1958 (VIC) — Part I, sexual offences provisions</li>
+      <li>Consent in Victorian law — the 2021 reforms and their implications</li>
+      <li>Rape vs sexual assault vs sexual touching — the legal categories</li>
+      <li>Sexual Offences and Child Abuse Investigation Teams (SOCIT) — the police unit</li>
+      <li>Indecent assault vs rape — historical charging that may still appear in older cases</li>
+      <li>Stalking charges (cover as content — overlap with sexual offences matters)</li>
+      <li>Confidentiality and privacy — many clients' first concern, address directly</li>
+      <li>Mandatory registration on the sex offenders register — when it applies, how to avoid</li>
+    </ul>
+
+    <h3>/intervention-orders/</h3>
+    <ul>
+      <li>Family Violence Protection Act 2008 (VIC) — governing legislation</li>
+      <li>Personal Safety Intervention Orders Act 2010 (VIC)</li>
+      <li>Difference between family violence IVO and personal safety IVO</li>
+      <li>Interim IVO vs final IVO — the court process and timelines</li>
+      <li>What conditions an IVO can impose (exclusion zones, no contact, etc.)</li>
+      <li>Breach of IVO — Crimes Act 1958 s.37A — serious criminal offence, cover clearly</li>
+      <li>Respondent defending an IVO — the firm can act for both applicants AND respondents</li>
+      <li>Variation and revocation of IVOs — how to have an IVO removed or changed</li>
+      <li>IVO hearings at the Magistrates Court — what to expect</li>
+    </ul>
+
+    <h3>/traffic-lawyer/</h3>
+    <ul>
+      <li>Road Safety Act 1986 (VIC)</li>
+      <li>Infringement notice vs criminal charge — the distinction most clients confuse</li>
+      <li>Traffic camera offences vs police-issued charges</li>
+      <li>Exceptional circumstances — statutory defence for avoiding licence loss</li>
+      <li>Careless driving vs dangerous driving — different charges, very different outcomes</li>
+      <li>Traffic Infringement Court process</li>
+      <li>VicRoads licence records — how points accumulate</li>
+    </ul>
+
+    <h3>/licence-suspension-lawyer/</h3>
+    <ul>
+      <li>VicRoads demerit point system — how suspension is triggered</li>
+      <li>Licence disqualification vs suspension — distinct processes and legal remedies</li>
+      <li>Magistrates Court licence suspension orders</li>
+      <li>Hardship licence applications — economic hardship test</li>
+      <li>Good behaviour licence option — reduced demerit loss period</li>
+      <li>Hoon driving legislation — immediate licence seizure</li>
+      <li>Licence cancellation vs suspension — different pathways to restoration</li>
+    </ul>
+
+    <h3>/theft-lawyer/ and /fraud-lawyer/</h3>
+    <ul>
+      <li>Theft Act thresholds — when minor theft becomes serious</li>
+      <li>Summary vs indictable theft — where the case is heard</li>
+      <li>Shoplifting / retail theft — often first-time offenders seeking guidance</li>
+      <li>Fraud Act provisions — financial advantage by deception</li>
+      <li>Identity theft vs fraud charges</li>
+      <li>Centrelink fraud — common category, cover explicitly</li>
+      <li>Diversion program eligibility — first-time offenders may qualify</li>
+    </ul>
+
+    <h3>Location Pages (all 6)</h3>
+    <ul>
+      <li>Name the specific Magistrates Court serving that suburb</li>
+      <li>Address and general location of the court (not hours — those change)</li>
+      <li>Types of matters heard at that court</li>
+      <li>Anaki Lawyers' representation at that court (state-wide coverage)</li>
+      <li>Travel and parking near the court (practical, trust-building content)</li>
+      <li>The 3-hour response guarantee — specific call-out on each location page</li>
+    </ul>
+  </div>
+
+  <!-- Section 3: Beyond This Keyword Plan -->
+  <div class="reasoning-section">
+    <h2>3. Beyond This Keyword Plan — What Else Is Needed</h2>
+
+    <h3>Google Business Profile (Critical — Do First)</h3>
+    <p>For a criminal law firm, Google Business Profile is the single most important asset in the first 12 months. People arrested or charged at night search on their phone, see the local 3-pack, and call. The GBP must:</p>
+    <ul>
+      <li>Primary category: <strong>Criminal Justice Attorney</strong> (or Criminal Defense Attorney — verify in GBP options)</li>
+      <li>Secondary categories: Traffic Law Attorney, Family Law Attorney (for IVO coverage)</li>
+      <li>Service area: set to cover all of Victoria (state-wide as per client's brief)</li>
+      <li>Address verified: Level 19, 263 William Street, Melbourne VIC 3000</li>
+      <li>Hours: 9am–5pm Mon–Fri with "Open 24/7 for urgent matters" noted in description</li>
+      <li>Services: list all major offence categories individually in the GBP services section</li>
+      <li>GBP description: mention 3-hour response guarantee, free 30-min consultation, Legal Aid, payment plans</li>
+      <li>Post regularly: case outcomes (non-identifying), legal updates, court process explanations</li>
+      <li>Review strategy: after each successful matter, prompt client to leave a Google review. Even 5–10 reviews can significantly move local pack rankings for a new firm.</li>
+    </ul>
+    <p><strong>"Near me" keywords</strong> (criminal lawyer near me, traffic lawyer near me) are won through GBP, not through service pages. The /areas-we-serve/ page reinforces GBP but does not replace it.</p>
+
+    <h3>Schema Markup</h3>
+    <ul>
+      <li><strong>Homepage:</strong> <code>LegalService</code> schema nested within <code>LocalBusiness</code> — specify <code>areaServed</code> as Victoria, <code>legalServices</code> covering all major practice areas</li>
+      <li><strong>About page:</strong> <code>Person</code> schema for Aabed Anaki — <code>name</code>, <code>jobTitle</code> (Criminal Defence Lawyer), <code>alumniOf</code> (law school if available), <code>hasCredential</code> (Supreme Court VIC practicing certificate)</li>
+      <li><strong>Service pages:</strong> <code>Service</code> schema with <code>serviceType</code> per offence, <code>provider</code> linking to the homepage entity</li>
+      <li><strong>Location pages:</strong> <code>LocalBusiness</code> with <code>areaServed</code> set to the specific suburb</li>
+      <li><strong>FAQ schema:</strong> On every service page — mark up the FAQ sections that answer "what happens if I'm charged with X" type questions. High PAA (People Also Ask) capture potential for criminal law queries.</li>
+    </ul>
+
+    <h3>NAP Consistency</h3>
+    <ul>
+      <li>Exact name, address, phone must match across: website, GBP, all directory listings</li>
+      <li>Use: <strong>Anaki Lawyers</strong> | Level 19, 263 William Street, Melbourne VIC 3000 | 0481791185</li>
+      <li>Key legal directories: LawAdvisor, Avvo, Justia (AU), Lawpath directory, Yellow Pages, TrueLocal, Yelp</li>
+      <li>Critical: Victorian Legal Services Board register — ensure the firm listing there matches GBP/website</li>
+      <li>Law Institute of Victoria (LIV) directory listing — if membership is available</li>
+    </ul>
+
+    <h3>Internal Linking Structure</h3>
+    <ul>
+      <li>Homepage → all service pages (give weight to Tier A pages first)</li>
+      <li>All service pages → homepage (establish parent entity relationship)</li>
+      <li>Service pages → related service pages (e.g., assault page → bail applications page — logical user flow after an assault charge)</li>
+      <li>Location pages → homepage + nearest service pages</li>
+      <li>/areas-we-serve/ → all location pages (hub-and-spoke)</li>
+      <li>Drink driving page → traffic lawyer page → licence suspension page (natural escalation flow)</li>
+    </ul>
+
+    <h3>Content Production</h3>
+    <p>Every service page needs original, non-templated content built around the supporting entities listed in Section 2. Do NOT use the same template across all location pages — Google's Helpful Content system specifically flags thin, templated location pages. Each location page should contain court-specific information (court name, address, types of matters) that is unique to that location.</p>
+    <p>Priority content production order: Homepage → Drink Driving → Drug Offences → Assault → Intervention Orders → Bail → Traffic → remaining service pages → location pages.</p>
+
+    <h3>Review Strategy</h3>
+    <p>Criminal law reviews are challenging — clients are reluctant to leave public reviews about criminal matters. Strategy: (1) Prompt clients specifically at the close of a successful matter with a private link to the GBP review form. (2) Focus on professionalism and communication themes (the firm's key differentiators) rather than case outcome. (3) Target 10 reviews in year 1 — even this number can establish significant map pack visibility for a new firm.</p>
+
+    <h3>Blog / Content Quick Wins</h3>
+    <p>A content blog is not recommended in year 1 for a new site with limited resources. Instead, prioritise getting all service pages live with high-quality content. Once the service pages are live and beginning to rank, FAQ content embedded in service pages (marked up with FAQ schema) will surface in PAA boxes and provide informational traffic without requiring a separate blog strategy.</p>
+  </div>
+
+  <!-- ========== PAGE-BY-PAGE REASONING ========== -->
+  <div class="section-title">Strategic Reasoning — Per Keyword Selection</div>
+
+  <div class="reasoning-section">
+    <h2>Homepage: criminal lawyer melbourne + criminal defence lawyer melbourne</h2>
+    <p><strong>Why this keyword pair:</strong> "Criminal lawyer melbourne" is the umbrella commercial term — the query every potential client types regardless of specific charge. Volume benchmark: 1,000–1,300/mo (highest in this category). SERP is commercial-dominated (criminal law firms, local pack prominent). The secondary, "criminal defence lawyer melbourne" (400–600/mo), is non-subset — it adds "defence" as an entity signal distinguishing this firm from prosecution-side barristers or generalist firms. Both terms are validated as clean commercial SERPs with law firm inner pages and homepages ranking. This client's biggest USP (3-hour response guarantee, direct principal access) is directly relevant to why someone choosing between several firms would pick Anaki — make these trust signals prominent on the homepage.</p>
+    <p><strong>Competitive context:</strong> The Melbourne criminal law SERP is competitive at the homepage level. Established firms with DA 30–50+ (Stary Norton Halphen, Doogue O'Brien George and similar) dominate. For a new site, ranking page 1 for "criminal lawyer melbourne" is a 12–18 month target, not a week-1 win. However, THIS must still be the homepage target — it is the correct entity signal, and partial ranking progress (page 2–3) will still drive brand visibility. The service pages will generate traffic faster.</p>
+    <div class="flag-notice"><strong>New site note:</strong> DA is effectively 0 at launch. The homepage targets the correct long-term keyword. Realistic expectation: page 1 for "criminal defence lawyer melbourne" (lower competition) within 9–12 months with good content + GBP + citation building. "Criminal lawyer melbourne" page 1 is an 18–24 month target with sustained effort.</div>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/drink-driving-lawyer/ — drink driving lawyer melbourne + DUI lawyer melbourne</h2>
+    <p><strong>Why this page is the top priority service page:</strong> Drink driving is the single most commonly charged traffic offence in Victoria. Volume (500–800/mo) is the highest of any individual service keyword in this plan. People charged with drink driving search the day they are charged — HIGH urgency, HIGH commercial intent. The SERP for "drink driving lawyer melbourne" is dominated by inner service pages from criminal law firms — exactly the page type Anaki needs to build.</p>
+    <p><strong>Secondary keyword logic:</strong> "DUI lawyer melbourne" (200–300/mo) captures American-influenced searchers who use "DUI" (common among international visitors and people who consume US media). Non-subset of "drink driving lawyer melbourne" — adds the DUI term as an entity signal without cannibalising the primary.</p>
+    <p><strong>USP application:</strong> The 24/7 hotline is especially powerful for drink driving — people are charged at night, on weekends, over holidays. "Call us any time — 24/7 hotline direct to the principal lawyer" on this page will convert at higher rates than firms with a call-centre or next-business-day contact.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/drug-offences-lawyer/ — drug possession lawyer melbourne + drug trafficking lawyer melbourne</h2>
+    <p><strong>Why combined on one page:</strong> Drug possession and drug trafficking searches share the same SERP composition (criminal defence inner pages) and the same service handler at this firm. Combining them allows the page to build topical depth across the full drug offences spectrum. The primary keyword is "drug possession lawyer melbourne" (higher volume, ~200–400/mo) with "drug trafficking lawyer melbourne" as secondary (100–200/mo) — non-subset pair.</p>
+    <p><strong>Strategic rationale:</strong> Drug offences are a high-value practice area for criminal lawyers — charges can escalate from possession to supply to trafficking, and clients often need advice across all levels. Building a comprehensive drug offences page with coverage of all drug offence categories builds strong topical authority for this cluster.</p>
+    <p><strong>Content note:</strong> "Drug supply" is the Victorian legal terminology — "drug trafficking" is the federal/colloquial term. The page must use both because clients may search either way.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/assault-lawyer/ — assault lawyer melbourne + common assault lawyer melbourne</h2>
+    <p><strong>Why this page:</strong> Assault is one of the most common criminal charges in Victoria. High urgency (people charged need a lawyer immediately). Volume: 200–400/mo for the primary. Clean commercial SERP (law firm inner pages dominate).</p>
+    <p><strong>Secondary keyword:</strong> "Common assault lawyer melbourne" (100–200/mo) is a more specific variant that captures searchers who know their exact charge classification. Non-subset of "assault lawyer melbourne."</p>
+    <p><strong>Content scope:</strong> This page should also cover aggravated assault, aggravated home invasion, and aggravated burglary as content sections — these are low-volume standalone keywords but genuine services offered. They build topical depth without needing separate pages.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/bail-applications/ — bail application lawyer melbourne + bail lawyer melbourne</h2>
+    <p><strong>Why a separate bail page:</strong> Bail applications are time-critical (must often be filed within 24 hours of arrest). Searchers for "bail application lawyer melbourne" are in genuine crisis mode. This is a distinct service — not just criminal defence broadly. A dedicated page captures this intent and allows the 24/7 hotline to be the page's dominant CTA ("Arrested? Call our 24/7 hotline NOW").</p>
+    <p><strong>Secondary keyword:</strong> "Bail lawyer melbourne" (50–150/mo) is the colloquial shorter form. Non-subset.</p>
+    <p><strong>Note on "bail application melbourne":</strong> This bare term has a MIXED SERP — government court information pages appear alongside law firm pages. Excluded as a keyword target; "bail application lawyer melbourne" is the clean commercial variant.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/sexual-offences-lawyer/ — sexual offences lawyer melbourne + sexual assault lawyer melbourne</h2>
+    <p><strong>Why this page is essential:</strong> Sexual offences are among the most serious charges possible — mandatory sex offenders register, significant prison time, career-ending consequences. Clients charged with sexual offences need a specialist immediately. Volume: 100–200/mo each for primary and secondary. Both terms return clean commercial SERPs (law firm inner pages dominate).</p>
+    <p><strong>Sensitivity note:</strong> This page must be written with appropriate sensitivity — clients are often in extreme distress. The communication-first, non-judgmental tone of Anaki Lawyers is a genuine differentiator for this client category.</p>
+    <p><strong>Secondary keyword:</strong> "Sexual assault lawyer melbourne" (100–200/mo) is more specific — captures clients who know the specific charge. Non-subset of "sexual offences lawyer melbourne" (broader term that covers all sexual offences categories).</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/intervention-orders/ — intervention order lawyer melbourne + restraining order lawyer melbourne</h2>
+    <p><strong>Why intervention orders warrant their own page:</strong> IVO searches come from two distinct client groups: (1) victims applying for protection orders, and (2) respondents who've been served with an IVO and need to defend it. Both groups have high urgency and commercial intent. Volume: 200–350/mo for the primary. The SERP shows dedicated IVO pages from criminal/family law firms.</p>
+    <p><strong>Secondary keyword:</strong> "Restraining order lawyer melbourne" (100–200/mo) captures searchers using the colloquial term — in Victoria, "restraining order" is not the technical name (that's "intervention order") but many people use it. Non-subset pair. This secondary adds significant reach to the page without any content compromise.</p>
+    <div class="flag-notice"><strong>SERP flag — family violence IVO:</strong> "Family violence intervention order melbourne" has a MIXED SERP with government/Legal Aid pages appearing prominently. NOT used as a keyword target. It IS covered as a content section on the intervention orders page. The primary keyword "intervention order lawyer melbourne" has a clean commercial SERP.</div>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/traffic-lawyer/ — traffic lawyer melbourne + traffic offence lawyer melbourne</h2>
+    <p><strong>Why a separate traffic lawyer page:</strong> Traffic law is a distinct practice area with its own audience — drivers who've received infringement notices or court attendance notices. Many clients searching "traffic lawyer melbourne" have NOT been charged with a criminal offence — they've received a fine or a court summons and are unsure if they need a lawyer. A dedicated traffic page (separate from criminal defence) allows clear messaging for this audience.</p>
+    <p><strong>Secondary:</strong> "Traffic offence lawyer melbourne" (100–200/mo) is non-subset and captures slightly different search language. The page covers the full traffic law spectrum (speeding, careless/dangerous driving, etc.).</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/licence-suspension-lawyer/ — suspended licence lawyer melbourne + licence disqualification lawyer melbourne</h2>
+    <p><strong>Why licence-specific page:</strong> Licence suspension and disqualification are separate legal mechanisms with different remedies (VicRoads demerit system vs court-ordered disqualification). Clients urgently need their licence — losing it means losing their job for many. High urgency = high commercial intent. Primary volume: 200–400/mo.</p>
+    <p><strong>Secondary:</strong> "Licence disqualification lawyer melbourne" (100–200/mo) captures clients whose licence was court-ordered disqualified (more serious than suspension). Non-subset — "suspended" vs "disqualified" are different terms. Together they cover both major licence-loss mechanisms.</p>
+    <p><strong>Client seed keywords covered:</strong> This page directly addresses two of the client's seed keywords: "Suspended Licence" and "Disqualified Licence."</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/theft-lawyer/ — theft lawyer melbourne + shoplifting lawyer melbourne</h2>
+    <p><strong>Why include:</strong> Theft is a high-frequency criminal charge, often involving first-time offenders. Many clients are young or have no prior criminal record — they are often extremely distressed and respond well to the "transparent, upfront advice" USP. Volume: 100–200/mo each. Clean commercial SERP.</p>
+    <p><strong>Secondary:</strong> "Shoplifting lawyer melbourne" captures the most common sub-type of theft charge (retail theft). Non-subset of "theft lawyer melbourne." Both map to the same page and service.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>/fraud-lawyer/ — fraud lawyer melbourne + fraud charges defence melbourne</h2>
+    <p><strong>Why include:</strong> Fraud is a Tier B service with genuine volume (200–350/mo for primary) and high commercial intent. Fraud clients often have more financial capacity than other criminal law clients (they're charged with financial offences — they have something to protect) and consequently respond well to payment transparency messaging. Clean commercial SERP.</p>
+    <p><strong>Secondary:</strong> "Fraud charges defence melbourne" (50–100/mo) is non-subset and captures the "charges + defence" language used by people in the middle of proceedings rather than just researching. Note: CPC for fraud legal keywords is typically high (AU$60–80+) reflecting the value of these cases.</p>
+  </div>
+
+  <div class="reasoning-section">
+    <h2>Location Pages — Near Major Magistrates Courts</h2>
+    <p><strong>Court-suburb selection rationale:</strong> Criminal matters in Victoria are tried at the Magistrates Court that services the area where the offence occurred (or where the accused resides). Someone charged in Dandenong will appear at Dandenong Magistrates Court. They search "criminal lawyer dandenong" because court proximity matters — the lawyer needs to know that court, its practices, and its magistrates. These six suburbs were selected because they cluster around Victoria's busiest regional Magistrates Courts:</p>
+    <ul>
+      <li><strong>Dandenong:</strong> One of Victoria's highest-caseload Magistrates Courts, serving Melbourne's south-east. Significant criminal matter volume.</li>
+      <li><strong>Ringwood:</strong> Ringwood Magistrates Court serves the outer east — one of Melbourne's growth corridors.</li>
+      <li><strong>Sunshine:</strong> Serves Melbourne's west — high population, substantial Magistrates Court caseload.</li>
+      <li><strong>Broadmeadows:</strong> Serves Melbourne's north — major court precinct for northern suburbs.</li>
+      <li><strong>Frankston:</strong> Frankston Magistrates Court serves the south-east coastal corridor and Mornington Peninsula.</li>
+      <li><strong>Werribee:</strong> Serves Melbourne's growing western suburbs — Wyndham LGA is one of Australia's fastest-growing.</li>
+    </ul>
+    <p><strong>Melbourne CBD exclusion:</strong> The homepage targets Melbourne (city-level). A standalone "criminal lawyer melbourne" or "criminal lawyer cbd" location page would compete with the homepage. The CBD entity is anchored to the homepage via address, NAP, and schema — not a separate page.</p>
+    <p><strong>Suburban SERP competition:</strong> Suburb-level terms like "criminal lawyer dandenong" typically return 0 results in SE Ranking (near-zero KD) — confirming these pages can rank quickly with good on-page content and GBP service area signals. Low KD at suburb level is one of the fastest ranking opportunities for a new site.</p>
+  </div>
+
+  <!-- EXCLUDED KEYWORDS -->
+  <div class="reasoning-section">
+    <h2>Excluded Keywords — Rationale</h2>
+
+    <h3>Homicide lawyer melbourne — EXCLUDED</h3>
+    <p>Client seed keyword. SERP analysis reveals MIXED intent — informational content (news articles, Wikipedia-adjacent, crime statistics) alongside law firm pages. Additionally, homicide is statistically rare — very few people in Victoria are charged with homicide annually, resulting in extremely low search volume (estimated 10–50/mo). The near-zero search volume combined with mixed SERP makes this an unreliable target. <strong>Action:</strong> Cover homicide as a content section on the criminal defence homepage and relevant service pages (under "serious criminal charges" or "indictable offences").</p>
+
+    <h3>Proceeds of crime lawyer melbourne — EXCLUDED</h3>
+    <p>Extremely low search volume. Proceeds of crime applications are typically ancillary to a main criminal matter — the client's priority is the criminal charge, not the proceeds application. Cover as a content section on the criminal defence page and drug offences page.</p>
+
+    <h3>Firearms lawyer melbourne / weapons charges lawyer melbourne — EXCLUDED from main plan</h3>
+    <p>Very low volume (50–100/mo). Genuine service but not enough search volume to justify a dedicated page for a new site competing with established firms. Listed in Eligible Candidates — can be added as the site builds authority in year 2.</p>
+
+    <h3>Stalking charges lawyer melbourne — EXCLUDED</h3>
+    <p>Low volume (50–100/mo). Cover as a content section on the sexual offences page (stalking often co-occurs with sexual offences charges) and the assault page. Can be promoted to a standalone keyword target later.</p>
+
+    <h3>Armed robbery lawyer melbourne — EXCLUDED</h3>
+    <p>Low volume, genuine service. Cover as a content section on the assault or criminal defence page. Armed robbery falls under the serious indictable offences category — mention in content without a dedicated page at this stage.</p>
+
+    <h3>Anti-semitic offences / tobacco importation — EXCLUDED</h3>
+    <p>Extremely niche, very low search volume. These are genuine services but the search volumes are negligible. Mention in passing on the criminal defence umbrella page as part of the full range of charges covered.</p>
+
+    <h3>Speeding lawyer melbourne — EXCLUDED from keyword targets</h3>
+    <p>Client seed keyword. Many speeding matters are handled via the infringement notice system (not court) — searchers often looking for information rather than a lawyer specifically. Additionally, the SERP for "speeding lawyer melbourne" includes informational content about contesting fines. Covered as a content topic on the /traffic-lawyer/ page. If GKP shows substantial volume for "speeding lawyer melbourne" specifically, reconsider as a secondary on the traffic page.</p>
+
+    <h3>Drug driving lawyer melbourne — EXCLUDED as standalone</h3>
+    <p>Covered as a content section on the /drink-driving-lawyer/ page. Volume is sufficient for content treatment but not enough to justify a separate page. The SERP for "drug driving lawyer melbourne" and "drink driving lawyer melbourne" overlap significantly — a single page covering both is the right approach.</p>
+
+    <h3>Careless/dangerous driving lawyer melbourne — EXCLUDED as standalone</h3>
+    <p>Covered as a content section on the /traffic-lawyer/ page. Moderate volume; would be a Tier C addition in year 2 if the site builds sufficient authority.</p>
+  </div>
+
+
+  <!-- ========== ELIGIBLE CANDIDATES ========== -->
+  <div class="section-title">Eligible Candidates — Additional Options</div>
+  <p class="section-subtitle">Pre-validated keywords not selected in this plan. Use for future swaps, expansions, or when DA increases. Research is done — no need to re-validate.</p>
+
+  <div class="candidates-section">
+    <div class="candidates-header">
+      <h2>Eligible Candidates — anakilawyers.com.au</h2>
+      <p>All keywords evaluated but not selected. Conditions for inclusion noted for each.</p>
+    </div>
+    <div class="candidates-body">
+
+      <div class="candidate-group">
+        <h3>Add When Site Builds Authority (Year 2+)</h3>
+        <table style="width:100%; border-collapse:collapse;">
+          <thead>
+            <tr style="background:#f8fafc;">
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Keyword</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Est. Vol</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">SERP</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Why Not Selected Now</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Conditions for Inclusion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">firearms lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">50–100</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Low volume; new site should focus on higher-volume pages first</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Add in year 2 once top 6 service pages are ranking. Standalone page.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">weapons charges lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">30–80</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Can combine with firearms on one page in year 2</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Secondary keyword on firearms page when created</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">stalking charges lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">50–100</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Low volume; covered as content section on sexual offences + assault pages</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Standalone page in year 2; can be secondary on sexual offences page now</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">robbery lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">50–100</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Low volume; covered as content on assault page</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Combine with armed robbery on standalone page in year 2</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">dangerous driving lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">100–200</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Covered as content section on traffic lawyer page</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Upgrade to standalone page if GKP confirms 150+ vol and DA grows</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">drug driving lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">100–200</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Combined on drink driving page (same intent, same service)</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Standalone page in year 2 once drink driving page is established</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">speeding lawyer melbourne</td>
+              <td style="padding:8px;font-size:13px;">100–300</td>
+              <td style="padding:8px;"><span class="badge badge-serp-amber">AMBER</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">AMBER SERP — informational content mixed with commercial. Covered on traffic page.</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Monitor SERP evolution. If commercial pages dominate in 12+ months, add as standalone.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal law firm melbourne</td>
+              <td style="padding:8px;font-size:13px;">100–200</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Subset risk with homepage primary "criminal lawyer melbourne" — too close in searcher intent</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Can add as secondary on homepage if GKP confirms distinct volume</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="candidate-group">
+        <h3>Rejected — Informational SERP or Mixed Intent</h3>
+        <table style="width:100%; border-collapse:collapse;">
+          <thead>
+            <tr style="background:#f8fafc;">
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Keyword</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">SERP</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Issue</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">What To Do Instead</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">homicide lawyer melbourne</td>
+              <td style="padding:8px;"><span class="badge badge-serp-amber">AMBER/MIXED</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">News, Wikipedia-adjacent, informational content mixed with law firms. Very low volume (~10–50/mo).</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Cover homicide as a content section on homepage and criminal defence pages. Entity signal only.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">family violence intervention order melbourne</td>
+              <td style="padding:8px;"><span class="badge badge-serp-amber">AMBER/MIXED</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Government (VLA, Courts) and informational pages appear prominently alongside law firms.</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Covered as content section on /intervention-orders/ page. Primary keyword for that page is the clean commercial variant.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">bail application melbourne (bare)</td>
+              <td style="padding:8px;"><span class="badge badge-serp-amber">AMBER/MIXED</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Court website pages and government procedural guides appear in SERP alongside law firms.</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Use "bail application lawyer melbourne" (clean commercial) as the primary keyword.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">proceeds of crime lawyer melbourne</td>
+              <td style="padding:8px;"><span class="badge badge-serp-clean">CLEAN</span></td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Very low volume (&lt;50/mo). Niche. Not cost-effective as standalone page for new site.</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Content section on drug offences page. Standalone page in year 2.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="candidate-group">
+        <h3>Additional Location Pages — For Future Expansion</h3>
+        <table style="width:100%; border-collapse:collapse;">
+          <thead>
+            <tr style="background:#f8fafc;">
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Page Target</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Court Served</th>
+              <th style="padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #e2e8f0;">Conditions for Inclusion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal lawyer geelong</td>
+              <td style="padding:8px;font-size:13px;">Geelong Magistrates Court</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">If client confirms willingness to travel to Geelong for court matters. Regional VIC expansion target.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal lawyer ballarat</td>
+              <td style="padding:8px;font-size:13px;">Ballarat Magistrates Court</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Regional VIC expansion — client mentioned Regional Victoria as target area.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal lawyer bendigo</td>
+              <td style="padding:8px;font-size:13px;">Bendigo Magistrates Court</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Regional VIC expansion.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal lawyer st kilda</td>
+              <td style="padding:8px;font-size:13px;">Melbourne CBD courts (inner suburb)</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Inner Melbourne suburb — potential quick win if DA grows. GKP confirmation needed.</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f4f8;">
+              <td style="padding:8px;font-size:13px;">criminal lawyer footscray</td>
+              <td style="padding:8px;font-size:13px;">Sunshine/Werribee court catchment</td>
+              <td style="padding:8px;font-size:12px;color:#64748b;">Western suburbs inner location — complement to Sunshine page. Add in year 2.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ========== SUMMARY TABLE ========== -->
+  <div class="section-title">Summary — Total Keyword Budget</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Pages</th>
+          <th>Keywords (Primary + Secondary)</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tier A Service Pages</td>
+          <td>7 pages (incl. homepage)</td>
+          <td>14 keywords</td>
+          <td>Criminal defence, drink driving, drug offences, assault, bail, sexual offences, IVOs</td>
+        </tr>
+        <tr>
+          <td>Tier B Service Pages</td>
+          <td>4 pages</td>
+          <td>8 keywords</td>
+          <td>Traffic law, licence suspension, theft, fraud</td>
+        </tr>
+        <tr>
+          <td>Location Pages</td>
+          <td>6 pages</td>
+          <td>12 keywords</td>
+          <td>Dandenong, Ringwood, Sunshine, Broadmeadows, Frankston, Werribee</td>
+        </tr>
+        <tr>
+          <td>Entity Pages</td>
+          <td>4 pages</td>
+          <td>2 keywords (near me)</td>
+          <td>About, Contact, Areas We Serve, Free Consultation</td>
+        </tr>
+        <tr style="background:#f0f9ff; font-weight:700;">
+          <td>TOTAL</td>
+          <td>21 pages</td>
+          <td>36 keywords</td>
+          <td>11 service pages + 6 location pages + 4 entity pages</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div><!-- /container -->
+
+<div class="page-footer">
+  Keyword Research Plan — Anaki Lawyers | anakilawyers.com.au | Prepared by Supple SEO | 21 April 2026<br>
+  Status: Draft v1.0 — Pending GKP Volume Confirmation | All volumes are benchmark estimates pending Google Keyword Planner data
+</div>
+
+</body>
+</html>

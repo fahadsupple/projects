@@ -1,0 +1,179 @@
+{
+  "client": "anakilawyers.com.au",
+  "date": "2026-04-21",
+  "keyword_type": "flexible",
+  "split": {
+    "general_percent": 70,
+    "location_percent": 30,
+    "rationale": "Criminal law is a city-wide high-urgency service. Searchers in distress use '[offence] lawyer melbourne' not '[offence] lawyer [suburb]'. However, suburb-level pages near major Magistrates Courts (Dandenong, Ringwood, Sunshine, Broadmeadows) add genuine geographic authority and capture court-specific searches. 70/30 split maximises commercial return while building suburban presence near key court locations."
+  },
+  "tiers": {
+    "tier_a": {
+      "services": [
+        "criminal_defence",
+        "drink_driving_dui",
+        "drug_offences",
+        "assault",
+        "bail_applications",
+        "sexual_offences",
+        "intervention_orders"
+      ],
+      "general_keyword_budget": "50% of general slots",
+      "rationale": "Highest urgency + highest search volume + highest CPC in legal vertical"
+    },
+    "tier_b": {
+      "services": [
+        "traffic_law",
+        "licence_suspension",
+        "theft",
+        "fraud"
+      ],
+      "general_keyword_budget": "30% of general slots",
+      "rationale": "Good commercial volume, strong intent signals, competitive but winnable"
+    },
+    "tier_c": {
+      "services": [
+        "stalking",
+        "firearms_weapons",
+        "aggravated_burglary",
+        "armed_robbery"
+      ],
+      "general_keyword_budget": "20% of general slots",
+      "rationale": "Lower volume but genuine services — worthwhile as secondary keywords or content sections"
+    },
+    "tier_d": {
+      "services": [
+        "homicide",
+        "proceeds_of_crime",
+        "anti_semitic_offences",
+        "tobacco_importation"
+      ],
+      "general_keyword_budget": "0% — content sections only",
+      "rationale": "Homicide: MIXED SERP (informational), very low search volume for 'homicide lawyer'. Proceeds of crime, anti-semitic offences, tobacco importation: extremely low volume and niche. All covered as content on criminal defence service page."
+    }
+  },
+  "general_pages": {
+    "homepage": {
+      "url": "/",
+      "service": "criminal_defence",
+      "tier": "A",
+      "primary_keyword": "criminal lawyer melbourne",
+      "secondary_keyword": "criminal defence lawyer melbourne"
+    },
+    "service_pages": [
+      {
+        "page": "drink_driving",
+        "url": "/drink-driving-lawyer/",
+        "tier": "A",
+        "primary_keyword": "drink driving lawyer melbourne",
+        "secondary_keyword": "DUI lawyer melbourne"
+      },
+      {
+        "page": "drug_offences",
+        "url": "/drug-offences-lawyer/",
+        "tier": "A",
+        "primary_keyword": "drug possession lawyer melbourne",
+        "secondary_keyword": "drug trafficking lawyer melbourne"
+      },
+      {
+        "page": "assault",
+        "url": "/assault-lawyer/",
+        "tier": "A",
+        "primary_keyword": "assault lawyer melbourne",
+        "secondary_keyword": "common assault lawyer melbourne"
+      },
+      {
+        "page": "bail_applications",
+        "url": "/bail-applications/",
+        "tier": "A",
+        "primary_keyword": "bail application lawyer melbourne",
+        "secondary_keyword": "bail lawyer melbourne"
+      },
+      {
+        "page": "sexual_offences",
+        "url": "/sexual-offences-lawyer/",
+        "tier": "A",
+        "primary_keyword": "sexual offences lawyer melbourne",
+        "secondary_keyword": "sexual assault lawyer melbourne"
+      },
+      {
+        "page": "intervention_orders",
+        "url": "/intervention-orders/",
+        "tier": "A",
+        "primary_keyword": "intervention order lawyer melbourne",
+        "secondary_keyword": "restraining order lawyer melbourne"
+      },
+      {
+        "page": "traffic_law",
+        "url": "/traffic-lawyer/",
+        "tier": "B",
+        "primary_keyword": "traffic lawyer melbourne",
+        "secondary_keyword": "traffic offence lawyer melbourne"
+      },
+      {
+        "page": "licence_suspension",
+        "url": "/licence-suspension-lawyer/",
+        "tier": "B",
+        "primary_keyword": "suspended licence lawyer melbourne",
+        "secondary_keyword": "licence disqualification lawyer melbourne"
+      },
+      {
+        "page": "theft",
+        "url": "/theft-lawyer/",
+        "tier": "B",
+        "primary_keyword": "theft lawyer melbourne",
+        "secondary_keyword": "shoplifting lawyer melbourne"
+      },
+      {
+        "page": "fraud",
+        "url": "/fraud-lawyer/",
+        "tier": "B",
+        "primary_keyword": "fraud lawyer melbourne",
+        "secondary_keyword": "fraud charges defence melbourne"
+      }
+    ]
+  },
+  "location_pages": {
+    "rationale": "Pages near major Magistrates Court locations. Criminal matters are tried at the local Magistrates Court for the accused's area — a firm that appears in searches for '[suburb] criminal lawyer' captures clients who need court-local representation. Suburb selection = courts with highest case volumes.",
+    "root": "criminal lawyer",
+    "suburbs": [
+      {
+        "suburb": "Dandenong",
+        "court": "Dandenong Magistrates Court — one of the busiest courts in Victoria",
+        "url": "/criminal-lawyer-dandenong/"
+      },
+      {
+        "suburb": "Ringwood",
+        "court": "Ringwood Magistrates Court — major outer-east court",
+        "url": "/criminal-lawyer-ringwood/"
+      },
+      {
+        "suburb": "Sunshine",
+        "court": "Sunshine Magistrates Court — major western suburbs court",
+        "url": "/criminal-lawyer-sunshine/"
+      },
+      {
+        "suburb": "Broadmeadows",
+        "court": "Broadmeadows Magistrates Court — major northern suburbs court",
+        "url": "/criminal-lawyer-broadmeadows/"
+      },
+      {
+        "suburb": "Frankston",
+        "court": "Frankston Magistrates Court — major south-east court",
+        "url": "/criminal-lawyer-frankston/"
+      },
+      {
+        "suburb": "Werribee",
+        "court": "Near Sunshine/Werribee court cluster — western growth area",
+        "url": "/criminal-lawyer-werribee/"
+      }
+    ]
+  },
+  "notes": [
+    "New site (DA ~0) — prioritise achievable keywords first (medium competition) while building toward high-competition umbrella terms",
+    "Homepage targeting 'criminal lawyer melbourne' is correct as primary — this is the umbrella term all users search regardless of specific charge",
+    "Homicide excluded from keyword targets — MIXED SERP, low volume, cover as content on criminal defence page",
+    "Drug offences combined on one page (possession + trafficking) — same searcher intent, same service, SERP shows firms do this",
+    "Intervention orders is a strong separate category — enough volume to justify its own page"
+  ]
+}
