@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Audit Report — surecash.com.au — April 2026</title>
+<style>
+  :root {
+    --primary: #0056b3;
+    --primary-light: #e8f0fe;
+    --danger: #c62828;
+    --danger-light: #ffebee;
+    --warning: #e65100;
+    --warning-light: #fff3e0;
+    --success: #2e7d32;
+    --success-light: #e8f5e9;
+    --medium: #6a1e87;
+    --medium-light: #f3e5f5;
+    --neutral: #37474f;
+    --neutral-light: #eceff1;
+    --border: #dde1e7;
+    --bg: #f7f9fc;
+    --text: #1a1a2e;
+    --text-light: #4a5568;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+  .page-wrapper { max-width: 1100px; margin: 0 auto; padding: 0 24px 60px; }
+
+  /* Header */
+  .report-header { background: linear-gradient(135deg, #0d1b4b 0%, #0056b3 100%); color: white; padding: 48px 24px 36px; margin-bottom: 32px; }
+  .report-header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.3px; }
+  .report-header .subtitle { font-size: 15px; opacity: 0.85; margin-top: 6px; }
+  .header-meta { display: flex; gap: 32px; margin-top: 24px; flex-wrap: wrap; }
+  .header-meta-item label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.7; display: block; }
+  .header-meta-item span { font-size: 15px; font-weight: 600; }
+
+  /* Nav */
+  .toc { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+  .toc h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-light); margin-bottom: 12px; }
+  .toc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 6px; }
+  .toc a { color: var(--primary); text-decoration: none; font-size: 14px; padding: 3px 0; display: block; }
+  .toc a:hover { text-decoration: underline; }
+
+  /* Sections */
+  .section { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 28px 28px 24px; margin-bottom: 24px; }
+  .section-title { font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 4px; display: flex; align-items: center; gap: 10px; }
+  .section-title .icon { font-size: 22px; }
+  .section-subtitle { font-size: 14px; color: var(--text-light); margin-bottom: 20px; }
+  h3 { font-size: 16px; font-weight: 600; margin: 20px 0 10px; color: var(--text); }
+  h4 { font-size: 14px; font-weight: 600; margin: 16px 0 8px; color: var(--neutral); }
+  p { font-size: 14px; color: var(--text-light); margin-bottom: 10px; }
+
+  /* Score cards */
+  .scores-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .score-card { border-radius: 8px; padding: 16px; text-align: center; }
+  .score-card .score-value { font-size: 36px; font-weight: 800; line-height: 1; }
+  .score-card .score-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.6px; margin-top: 4px; opacity: 0.8; }
+  .score-card .score-detail { font-size: 11px; margin-top: 4px; opacity: 0.7; }
+  .score-red { background: var(--danger-light); color: var(--danger); }
+  .score-orange { background: var(--warning-light); color: var(--warning); }
+  .score-green { background: var(--success-light); color: var(--success); }
+  .score-purple { background: var(--medium-light); color: var(--medium); }
+  .score-blue { background: var(--primary-light); color: var(--primary); }
+
+  /* Priority badges */
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; padding: 2px 7px; border-radius: 4px; }
+  .badge-critical { background: var(--danger-light); color: var(--danger); }
+  .badge-high { background: var(--warning-light); color: var(--warning); }
+  .badge-medium { background: var(--medium-light); color: var(--medium); }
+  .badge-low { background: var(--neutral-light); color: var(--neutral); }
+  .badge-ok { background: var(--success-light); color: var(--success); }
+
+  /* Issue tables */
+  .issue-list { list-style: none; }
+  .issue-item { display: flex; gap: 12px; align-items: flex-start; padding: 10px 12px; border-radius: 6px; margin-bottom: 8px; font-size: 13px; }
+  .issue-item.critical { background: #fff5f5; border-left: 3px solid var(--danger); }
+  .issue-item.high { background: #fffbf0; border-left: 3px solid var(--warning); }
+  .issue-item.medium { background: #fdf4ff; border-left: 3px solid var(--medium); }
+  .issue-item.low { background: var(--neutral-light); border-left: 3px solid #90a4ae; }
+  .issue-item.ok { background: var(--success-light); border-left: 3px solid var(--success); }
+  .issue-body { flex: 1; }
+  .issue-problem { font-weight: 600; color: var(--text); margin-bottom: 3px; }
+  .issue-fix { color: var(--text-light); }
+  .issue-fix strong { color: var(--text); }
+
+  /* Data tables */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0 20px; }
+  th { background: #f0f4f8; font-weight: 600; text-align: left; padding: 8px 12px; border-bottom: 2px solid var(--border); color: var(--text); }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text-light); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fafbfc; }
+  td code { background: #f0f4f8; padding: 1px 5px; border-radius: 3px; font-size: 12px; color: var(--text); }
+
+  /* Alert boxes */
+  .alert { border-radius: 8px; padding: 14px 16px; margin: 12px 0 16px; font-size: 13px; }
+  .alert-critical { background: var(--danger-light); border: 1px solid #ef9a9a; color: #b71c1c; }
+  .alert-warning { background: var(--warning-light); border: 1px solid #ffb74d; color: #bf360c; }
+  .alert-success { background: var(--success-light); border: 1px solid #a5d6a7; color: #1b5e20; }
+  .alert-info { background: var(--primary-light); border: 1px solid #90caf9; color: #0d47a1; }
+  .alert strong { display: block; margin-bottom: 4px; font-size: 13px; }
+
+  /* Two-col layout */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+
+  /* Metric rows */
+  .metric-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .metric-row:last-child { border-bottom: none; }
+  .metric-label { color: var(--text-light); }
+  .metric-value { font-weight: 600; color: var(--text); text-align: right; }
+
+  /* Highlight box */
+  .highlight-box { background: var(--primary-light); border: 1px solid #90caf9; border-radius: 8px; padding: 16px 20px; margin: 12px 0 20px; }
+  .highlight-box h4 { color: var(--primary); margin-top: 0; }
+  .highlight-box p { color: #0d47a1; margin-bottom: 0; }
+
+  /* Summary headline numbers */
+  .headline-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin: 16px 0 24px; }
+  .stat-box { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+  .stat-box .num { font-size: 28px; font-weight: 800; color: var(--text); }
+  .stat-box .lbl { font-size: 12px; color: var(--text-light); }
+  .stat-box.red .num { color: var(--danger); }
+  .stat-box.orange .num { color: var(--warning); }
+  .stat-box.green .num { color: var(--success); }
+
+  /* Roadmap */
+  .roadmap-phase { border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; margin-bottom: 12px; }
+  .roadmap-phase h4 { color: var(--primary); margin-top: 0; font-size: 15px; }
+  .roadmap-phase ul { margin: 8px 0 0 16px; }
+  .roadmap-phase ul li { font-size: 13px; color: var(--text-light); margin-bottom: 4px; }
+  .roadmap-phase.phase1 { border-left: 4px solid var(--danger); }
+  .roadmap-phase.phase2 { border-left: 4px solid var(--warning); }
+  .roadmap-phase.phase3 { border-left: 4px solid var(--medium); }
+  .roadmap-phase.phase4 { border-left: 4px solid #0288d1; }
+
+  footer { text-align: center; font-size: 12px; color: #999; padding: 24px 0; border-top: 1px solid var(--border); margin-top: 48px; }
+
+  /* Print */
+  @media print {
+    body { background: white; }
+    .report-header { background: #0d1b4b !important; -webkit-print-color-adjust: exact; }
+    .section { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <div class="page-wrapper" style="padding-bottom:0; padding-top:0;">
+    <p style="font-size:12px; opacity:0.6; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:10px;">SEO Audit Report</p>
+    <h1>surecash.com.au</h1>
+    <p class="subtitle">Sure Cash Finance &mdash; ASIC-Regulated Short-Term Lender (SACC / MACC)</p>
+    <div class="header-meta">
+      <div class="header-meta-item"><label>Audit Date</label><span>22 April 2026</span></div>
+      <div class="header-meta-item"><label>Domain Authority</label><span>DA 29</span></div>
+      <div class="header-meta-item"><label>Total Keywords</label><span>785</span></div>
+      <div class="header-meta-item"><label>Est. Monthly Traffic Value</label><span>$1,643</span></div>
+      <div class="header-meta-item"><label>Keywords Top 10</label><span>9</span></div>
+      <div class="header-meta-item"><label>GSC Clicks (90d)</label><span>~4,300+</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="page-wrapper">
+
+  <!-- TOC -->
+  <div class="toc">
+    <h2>Contents</h2>
+    <div class="toc-grid">
+      <a href="#executive-summary">Executive Summary</a>
+      <a href="#critical-fixes">Critical Fixes</a>
+      <a href="#technical">Phase 1: Technical SEO</a>
+      <a href="#onpage">Phase 2: On-Page SEO</a>
+      <a href="#content">Phase 3: Content Quality</a>
+      <a href="#local">Phase 4: Local SEO</a>
+      <a href="#keywords">Phase 5: Keywords &amp; Rankings</a>
+      <a href="#backlinks">Phase 6: Backlinks</a>
+      <a href="#roadmap">90-Day Roadmap</a>
+    </div>
+  </div>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="section" id="executive-summary">
+    <div class="section-title"><span class="icon">&#9673;</span> Executive Summary</div>
+    <p class="section-subtitle">Overall health and key findings across all 6 audit phases.</p>
+
+    <div class="headline-stats">
+      <div class="stat-box red"><div class="num">4</div><div class="lbl">Critical Issues</div></div>
+      <div class="stat-box orange"><div class="num">18</div><div class="lbl">High Priority</div></div>
+      <div class="stat-box" style="--num-color:#6a1e87"><div class="num" style="color:#6a1e87">12</div><div class="lbl">Medium Priority</div></div>
+      <div class="stat-box green"><div class="num">5</div><div class="lbl">Quick Wins</div></div>
+      <div class="stat-box"><div class="num" style="color:#0056b3">1,410+</div><div class="lbl">Clicks Lost/90d (404s)</div></div>
+    </div>
+
+    <div class="alert alert-critical">
+      <strong>Most Urgent Finding: 4 URL Migration Redirects Are Missing</strong>
+      The site migrated its top-traffic URLs without setting up 301 redirects. The 4 former top-performing pages (/gosford/, /centrelink-loans/, /tweed-heads/, /wollongong/) are all returning 404 errors while Google Search Console still shows them receiving 1,410+ clicks per 90 days. These are the single highest-ROI fixes &mdash; they require 4 lines of redirect configuration and will immediately recover lost traffic and link equity.
+    </div>
+
+    <div class="alert alert-warning">
+      <strong>Strategic Finding: Rankings Are Primarily Google Business Profile, Not Organic</strong>
+      SE Ranking shows that the vast majority of tracked keyword positions are local_pack type (Google Maps / GBP). The website's organic SEO footprint is significantly underdeveloped. ETV of $1,643/month compares to competitors at $21,000–$114,000. The gap is achievable but requires sustained content and technical investment.
+    </div>
+
+    <div class="two-col" style="margin-top: 20px;">
+      <div>
+        <h3>What Is Working</h3>
+        <ul class="issue-list">
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">ASIC compliance &mdash; COMPLIANT</div><div class="issue-fix">Warning About Borrowing page, ACL/AFCA disclosures, responsible lending statement all present and correctly implemented</div></div></li>
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">SE Ranking trend &mdash; improving</div><div class="issue-fix">Top-3 positions grew 20&rarr;28, not-ranking shrank 16&rarr;4. "Loans on centrelink" moved pos 80&rarr;42</div></div></li>
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">454+ Google reviews (4.8 stars)</div><div class="issue-fix">Strong trust signals and social proof via Trustindex widget</div></div></li>
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">WP Rocket active</div><div class="issue-fix">Lazy load, defer JS, CSS minification all in place</div></div></li>
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">HTTPS / HSTS active</div><div class="issue-fix">HTTPS served with HSTS max-age=63072000. HTTP redirect issue is separate (see critical)</div></div></li>
+          <li class="issue-item ok"><div class="issue-body"><div class="issue-problem">FAQ schema on key pages</div><div class="issue-fix">FAQPage JSON-LD present on homepage (10 items) and product pages (3 items each)</div></div></li>
+        </ul>
+      </div>
+      <div>
+        <h3>What Needs Fixing</h3>
+        <ul class="issue-list">
+          <li class="issue-item critical"><div class="issue-body"><div class="issue-problem">4 missing URL redirects &mdash; 1,410+ clicks/90d lost</div></div></li>
+          <li class="issue-item critical"><div class="issue-body"><div class="issue-problem">20+ service area pages are 98% duplicate content</div></div></li>
+          <li class="issue-item critical"><div class="issue-body"><div class="issue-problem">HTTP does not redirect to HTTPS</div></div></li>
+          <li class="issue-item critical"><div class="issue-body"><div class="issue-problem">4 admin pages publicly indexed (leads, citations, brand-page, lm-buy)</div></div></li>
+          <li class="issue-item high"><div class="issue-body"><div class="issue-problem">No physical addresses on any branch page</div></div></li>
+          <li class="issue-item high"><div class="issue-body"><div class="issue-problem">No LocalBusiness schema on any location page</div></div></li>
+          <li class="issue-item high"><div class="issue-body"><div class="issue-problem">Typo in Tweed Heads title ("Headss")</div></div></li>
+          <li class="issue-item high"><div class="issue-body"><div class="issue-problem">6 important pages have no meta description</div></div></li>
+          <li class="issue-item high"><div class="issue-body"><div class="issue-problem">WordPress user enumeration via REST API</div></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CRITICAL FIXES -->
+  <div class="section" id="critical-fixes">
+    <div class="section-title"><span class="icon" style="color:var(--danger)">&#9888;</span> Critical Fixes — Do These First</div>
+    <p class="section-subtitle">These 4 issues cause the most immediate damage to traffic and rankings. All are fixable within 1 hour.</p>
+
+    <ul class="issue-list">
+      <li class="issue-item critical">
+        <div><span class="badge badge-critical">Critical</span></div>
+        <div class="issue-body">
+          <div class="issue-problem">Missing 301 redirects &mdash; 1,410+ clicks/90 days going to 404 errors</div>
+          <div class="issue-fix">The site migrated URLs but never set up redirects. GSC still shows traffic to the old URLs.<br><strong>Add these 4 redirects in <code>.htaccess</code> or LiteSpeed rewrite rules:</strong><br>
+          <code>/gosford/</code> &rarr; <code>/service-areas/gosford/</code><br>
+          <code>/centrelink-loans/</code> &rarr; <code>/loans/loans-for-people-on-centrelink/</code><br>
+          <code>/tweed-heads/</code> &rarr; <code>/service-areas/tweed-heads/</code><br>
+          <code>/wollongong/</code> &rarr; <code>/service-areas/wollongong/</code>
+          </div>
+        </div>
+      </li>
+      <li class="issue-item critical">
+        <div><span class="badge badge-critical">Critical</span></div>
+        <div class="issue-body">
+          <div class="issue-problem">HTTP does not redirect to HTTPS</div>
+          <div class="issue-fix">http://surecash.com.au/ serves the site without redirecting to HTTPS. Creates HTTP/HTTPS duplicate content split and serves traffic insecurely.<br><strong>Add to <code>.htaccess</code>:</strong> <code>RewriteCond %{HTTPS} off / RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]</code></div>
+        </div>
+      </li>
+      <li class="issue-item critical">
+        <div><span class="badge badge-critical">Critical</span></div>
+        <div class="issue-body">
+          <div class="issue-problem">4 internal/admin pages are publicly indexed</div>
+          <div class="issue-fix"><code>/leads/</code>, <code>/citations/</code>, <code>/brand-page/</code>, <code>/lm-buy/</code> are indexable with no noindex tag. These appear in Google's index and dilute crawl budget.<br><strong>Fix:</strong> Add <code>&lt;meta name="robots" content="noindex, nofollow"&gt;</code> to each page via Yoast SEO page settings, or add to robots.txt.</div>
+        </div>
+      </li>
+      <li class="issue-item critical">
+        <div><span class="badge badge-critical">Critical</span></div>
+        <div class="issue-body">
+          <div class="issue-problem">WordPress user enumeration via REST API &mdash; security risk</div>
+          <div class="issue-fix"><code>/wp-json/wp/v2/users</code> publicly exposes usernames (keiran_kirannyyy, colourfaster_pietzzz, frogs-n-dogs). These are attack surface for credential brute-force.<br><strong>Fix:</strong> Add to functions.php or a security plugin: <code>add_filter('rest_endpoints', function($e){ unset($e['/wp/v2/users'], $e['/wp/v2/users/(?P&lt;id&gt;[\d]+)']); return $e; });</code></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- PHASE 1: TECHNICAL -->
+  <div class="section" id="technical">
+    <div class="section-title">Phase 1 &mdash; Technical SEO</div>
+    <p class="section-subtitle">Server infrastructure, crawlability, security, structured data, and performance.</p>
+
+    <div class="scores-grid">
+      <div class="score-card score-red"><div class="score-value">D</div><div class="score-label">HTTP Redirect</div><div class="score-detail">Not redirecting</div></div>
+      <div class="score-card score-orange"><div class="score-value">C+</div><div class="score-label">Page Speed</div><div class="score-detail">TTFB 0.93s, 345KB HTML</div></div>
+      <div class="score-card score-red"><div class="score-value">D</div><div class="score-label">Schema</div><div class="score-detail">No LocalBusiness</div></div>
+      <div class="score-card score-green"><div class="score-value">A-</div><div class="score-label">HTTPS / HSTS</div><div class="score-detail">Active, configured</div></div>
+      <div class="score-card score-orange"><div class="score-value">C</div><div class="score-label">Sitemap</div><div class="score-detail">HTTP URLs in index</div></div>
+      <div class="score-card score-red"><div class="score-value">D</div><div class="score-label">Security</div><div class="score-detail">Users API exposed</div></div>
+    </div>
+
+    <h3>Server &amp; Infrastructure</h3>
+    <table>
+      <tr><th>Item</th><th>Status</th><th>Finding</th></tr>
+      <tr><td>Server</td><td><span class="badge badge-ok">OK</span></td><td>LiteSpeed — good choice for PHP/WordPress performance</td></tr>
+      <tr><td>PHP Version</td><td><span class="badge badge-ok">OK</span></td><td>PHP 8.3.30 — current and supported</td></tr>
+      <tr><td>WordPress Version</td><td><span class="badge badge-ok">OK</span></td><td>WordPress 6.9.4 — current</td></tr>
+      <tr><td>HTTP/2 &amp; HTTP/3</td><td><span class="badge badge-ok">OK</span></td><td>Both enabled — good for multiplexing and performance</td></tr>
+      <tr><td>HTTP &rarr; HTTPS redirect</td><td><span class="badge badge-critical">MISSING</span></td><td>http:// serves site without redirect — critical fix required</td></tr>
+      <tr><td>www redirect</td><td><span class="badge badge-ok">OK</span></td><td>www.surecash.com.au &rarr; surecash.com.au (301)</td></tr>
+      <tr><td>HSTS</td><td><span class="badge badge-ok">OK</span></td><td>max-age=63072000; includeSubDomains</td></tr>
+      <tr><td>X-Frame-Options</td><td><span class="badge badge-ok">OK</span></td><td>SAMEORIGIN</td></tr>
+      <tr><td>X-Content-Type-Options</td><td><span class="badge badge-ok">OK</span></td><td>nosniff</td></tr>
+      <tr><td>Content-Security-Policy</td><td><span class="badge badge-high">MISSING</span></td><td>No CSP header &mdash; recommended for financial sites</td></tr>
+    </table>
+
+    <h3>Sitemap</h3>
+    <div class="alert alert-warning">
+      <strong>Sitemap index uses HTTP URLs</strong>
+      The sitemap_index.xml references child sitemaps via http:// (not https://). Set WordPress Site URL to https:// in Settings &rarr; General to fix Yoast's sitemap output automatically.
+    </div>
+    <table>
+      <tr><th>Sitemap</th><th>Count</th><th>Note</th></tr>
+      <tr><td>Pages</td><td>69</td><td>Includes 4 admin pages that should be noindexed</td></tr>
+      <tr><td>Posts (blog)</td><td>32</td><td>Includes ~5 off-topic posts that should be removed</td></tr>
+      <tr><td>Category pages</td><td>6</td><td>In sitemap, not noindexed &mdash; thin taxonomy pages</td></tr>
+      <tr><td>Tag pages</td><td>8</td><td>In sitemap, not noindexed &mdash; thin tag archive pages</td></tr>
+    </table>
+
+    <h3>Structured Data</h3>
+    <table>
+      <tr><th>Page Type</th><th>Schema Present</th><th>Missing</th></tr>
+      <tr><td>Homepage</td><td>WebSite, WebPage, FAQPage (10 items), BreadcrumbList</td><td><strong>LocalBusiness / Organization / FinancialService</strong></td></tr>
+      <tr><td>Product pages</td><td>WebPage, FAQPage (3 items), BreadcrumbList</td><td>Review schema, more FAQs (aim for 8+)</td></tr>
+      <tr><td>Location pages (branches)</td><td>WebPage, BreadcrumbList</td><td><strong>LocalBusiness, address, geo, phone, hours</strong></td></tr>
+      <tr><td>Blog posts</td><td>WebPage, BreadcrumbList</td><td>Article, Author schema</td></tr>
+    </table>
+
+    <h3>Mobile</h3>
+    <div class="alert alert-warning">
+      <strong>Pinch-zoom blocked by viewport meta tag</strong>
+      The viewport tag includes <code>user-scalable=0</code> and <code>maximum-scale=1</code>. This prevents users from pinching to zoom on mobile &mdash; a WCAG 1.4.4 accessibility violation and a negative mobile usability signal in Google Search Console. Remove both attributes from the viewport meta.
+    </div>
+
+    <h3>Performance</h3>
+    <table>
+      <tr><th>Metric</th><th>Value</th><th>Assessment</th></tr>
+      <tr><td>TTFB (homepage)</td><td>0.93s</td><td>Acceptable but not excellent. Aim for &lt;0.6s.</td></tr>
+      <tr><td>Total page load time</td><td>1.59s</td><td>Reasonable given 345KB HTML payload</td></tr>
+      <tr><td>HTML page size</td><td>345KB</td><td>High for text-based financial page. 120KB inline styles contributing.</td></tr>
+      <tr><td>Inline styles</td><td>120KB</td><td>WPBakery builder inlines all styles &mdash; normal for this theme but bloated</td></tr>
+      <tr><td>Inline scripts</td><td>66KB</td><td>High</td></tr>
+      <tr><td>Lazy load</td><td>64 elements</td><td>Good &mdash; WP Rocket applied</td></tr>
+      <tr><td>Deferred JS</td><td>18 scripts</td><td>Good</td></tr>
+    </table>
+  </div>
+
+  <!-- PHASE 2: ON-PAGE -->
+  <div class="section" id="onpage">
+    <div class="section-title">Phase 2 &mdash; On-Page SEO</div>
+    <p class="section-subtitle">Title tags, meta descriptions, heading structure, internal linking, and GSC performance signals.</p>
+
+    <div class="alert alert-critical">
+      <strong>Top 4 GSC pages are all returning 404 errors</strong>
+      The highest-traffic pages in Google Search Console &mdash; /gosford/ (456 clicks), /centrelink-loans/ (369 clicks), /tweed-heads/ (302 clicks), /wollongong/ (283 clicks) &mdash; all return 404. These represent migrated URLs where 301 redirects were never created. Estimated lost traffic: 1,410+ clicks per 90 days.
+    </div>
+
+    <h3>Title Tag Audit</h3>
+    <table>
+      <tr><th>Page</th><th>Current Title</th><th>Chars</th><th>Issue</th><th>Recommended Fix</th></tr>
+      <tr><td><code>/</code></td><td>Fast and Reliable Cash Loans | Secure Quick Cash Loans Near You | Sure Cash Finance</td><td style="color:var(--danger)">83</td><td><span class="badge badge-high">Too Long</span></td><td>Fast Cash Loans in Sydney | Sure Cash Finance</td></tr>
+      <tr><td><code>/service-areas/gosford/</code></td><td>Payday Loans, Loans for People on Centrelink, and Cash Loans in Gosford | Sure Cash Finance</td><td style="color:var(--danger)">91</td><td><span class="badge badge-high">Too Long</span></td><td>Cash Loans Gosford | Sure Cash Finance</td></tr>
+      <tr><td><code>/service-areas/wollongong/</code></td><td>Payday Loans, Loans for People on Centrelink, and Cash Loans in Wollongong | Sure Cash Finance</td><td style="color:var(--danger)">94</td><td><span class="badge badge-high">Too Long</span></td><td>Cash Loans Wollongong | Sure Cash Finance</td></tr>
+      <tr><td><code>/service-areas/tweed-heads/</code></td><td>...Cash Loans in Tweed <strong>Headss</strong> | Sure Cash Finance</td><td style="color:var(--danger)">96</td><td><span class="badge badge-critical">TYPO + Long</span></td><td>Cash Loans Tweed Heads | Sure Cash Finance</td></tr>
+      <tr><td><code>/service-areas/newcastle/</code></td><td>Payday Loans, Loans for People on Centrelink, and Cash Loans in Newcastle | Sure Cash Finance</td><td style="color:var(--danger)">90</td><td><span class="badge badge-high">Too Long</span></td><td>Cash Loans Newcastle | Sure Cash Finance</td></tr>
+      <tr><td><code>/loans/payday-loans/</code></td><td>Payday Loans Australia | Sure Cash Finance</td><td style="color:var(--success)">42</td><td><span class="badge badge-ok">OK</span></td><td>&mdash;</td></tr>
+      <tr><td><code>/loans/loans-for-people-on-centrelink/</code></td><td>Loans for People on Centrelink | Sure Cash Finance</td><td style="color:var(--success)">50</td><td><span class="badge badge-ok">OK</span></td><td>&mdash;</td></tr>
+      <tr><td><code>/service-areas/sydney/</code></td><td>Cash Loans Sydney | Sure Cash Finance</td><td style="color:var(--success)">37</td><td><span class="badge badge-ok">OK</span></td><td>&mdash;</td></tr>
+    </table>
+
+    <h3>Pages Without Meta Descriptions</h3>
+    <p>The following important pages have no Yoast SEO meta description set. Google will auto-generate a snippet, which is typically lower quality than a crafted description.</p>
+    <table>
+      <tr><th>Page</th><th>Status</th><th>Why It Matters</th></tr>
+      <tr><td><code>/about-us/</code></td><td><span class="badge badge-high">Missing</span></td><td>E-E-A-T page — snippet controls brand trust perception</td></tr>
+      <tr><td><code>/our-costs/</code></td><td><span class="badge badge-high">Missing</span></td><td>Key conversion page — describes fees</td></tr>
+      <tr><td><code>/contact-us/</code></td><td><span class="badge badge-high">Missing</span></td><td>Local SEO value — address, hours visible in SERP</td></tr>
+      <tr><td><code>/calculator/</code></td><td><span class="badge badge-high">Missing</span></td><td>Tool page — description drives clicks</td></tr>
+      <tr><td><code>/blog/</code></td><td><span class="badge badge-high">Missing</span></td><td>Content hub — needs description</td></tr>
+      <tr><td><code>/loans/</code></td><td><span class="badge badge-high">Missing</span></td><td>Parent hub page — sets context for product hierarchy</td></tr>
+    </table>
+
+    <h3>Duplicate Content</h3>
+    <div class="two-col">
+      <div>
+        <h4>Virtual Service Area Pages (98%+ duplicate)</h4>
+        <p>16+ service area pages for cities without a physical branch are near-identical copies of each other. Only the city name changes. Examples: Gosford vs Albury = 98.3% similar; Gosford vs Dubbo = 98.6% similar. These pages create a duplicate content cluster that signals low quality to Google.</p>
+        <p><strong>Recommended action:</strong> Noindex pages with no GSC traffic. For retained pages, add unique local content: specific service areas served in that city, local Centrelink office info, relevant local financial context.</p>
+      </div>
+      <div>
+        <h4>Loan Amount Pages (92–96% duplicate)</h4>
+        <p>9 pages covering $500 to $5,000 loan amounts are 92–96% identical. Only the dollar figure changes. These pages are indexed but provide minimal unique value.</p>
+        <p><strong>Recommended action:</strong> Add amount-specific content: SACC vs MACC classification, specific repayment tables for each amount over 13/26/39 weeks, use-case examples per amount tier (e.g., "$500 for emergency car repair").</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 3: CONTENT -->
+  <div class="section" id="content">
+    <div class="section-title">Phase 3 &mdash; Content Quality &amp; E-E-A-T</div>
+    <p class="section-subtitle">Content depth, E-E-A-T signals, regulatory compliance, and content gaps.</p>
+
+    <h3>Regulatory Compliance &mdash; COMPLIANT</h3>
+    <div class="alert alert-success">
+      <strong>ASIC Compliance Status: COMPLIANT</strong>
+      All mandatory NCCP Act requirements are met: (1) Warning About Borrowing page with correct statutory text exists; (2) Warning page linked from homepage and all tested loan pages; (3) ACL 390591 disclosed in footer; (4) AFCA member number 43334 disclosed; (5) "Responsible lending" statement present; (6) Fee disclosure on Our Costs page with worked examples. No guaranteed-approval or predatory language found.
+    </div>
+
+    <h3>E-E-A-T Assessment</h3>
+    <table>
+      <tr><th>Signal</th><th>Status</th><th>Evidence</th></tr>
+      <tr><td>Trust signals</td><td><span class="badge badge-ok">Strong</span></td><td>ACL, AFCA, 25 years experience, 454+ Google reviews (4.8 stars)</td></tr>
+      <tr><td>Author attribution</td><td><span class="badge badge-high">Weak</span></td><td>Blog posts show only abbreviated author initials. No author bio pages.</td></tr>
+      <tr><td>Team/expertise page</td><td><span class="badge badge-high">Weak</span></td><td>Staff names appear in reviews (Paul, Sue, Val) but no About Us team profiles</td></tr>
+      <tr><td>Regulatory credentials</td><td><span class="badge badge-ok">Strong</span></td><td>ASIC, AFCA disclosures prominent in footer</td></tr>
+      <tr><td>Content depth</td><td><span class="badge badge-medium">Moderate</span></td><td>Product pages 2800–3200 words. FAQ sections thin (3 items vs competitors' 8–12)</td></tr>
+      <tr><td>Review schema</td><td><span class="badge badge-high">Missing</span></td><td>Reviews displayed via widget but no Review/AggregateRating schema</td></tr>
+    </table>
+
+    <h3>Content Gaps &mdash; Missing Pages</h3>
+    <table>
+      <tr><th>Missing Page</th><th>Target Keyword</th><th>Est. Volume</th><th>Priority</th><th>Rationale</th></tr>
+      <tr><td><code>/loans/same-day-loans/</code></td><td>same day loans australia</td><td>6,600/mo</td><td><span class="badge badge-critical">High</span></td><td>Site already ranking at pos 70-80 without a dedicated page. Creating one likely to jump into top 30.</td></tr>
+      <tr><td><code>/loans/online-loans/</code></td><td>online loans australia</td><td>High</td><td><span class="badge badge-high">High</span></td><td>Major competitor keyword with no surecash presence</td></tr>
+      <tr><td><code>/loans/emergency-loans/</code></td><td>emergency loans australia</td><td>Medium</td><td><span class="badge badge-high">High</span></td><td>Blog post exists but no product/transactional page</td></tr>
+      <tr><td><code>/loans/small-loans/</code></td><td>small loans australia</td><td>Medium</td><td><span class="badge badge-medium">Medium</span></td><td>Directly aligned with SACC product range</td></tr>
+      <tr><td><code>/faq/</code></td><td>cash loans FAQ / help</td><td>Informational</td><td><span class="badge badge-medium">Medium</span></td><td>E-E-A-T signal. Covers responsible lending questions, repayment, eligibility.</td></tr>
+    </table>
+
+    <h3>Blog Content Audit</h3>
+    <p>The blog has strong recent posts (emergency loans, pensioner guide, budgeting) but several off-topic posts from 2021 that consume crawl budget and create topical drift. These should be noindexed or deleted.</p>
+    <table>
+      <tr><th>Post</th><th>Words</th><th>Date</th><th>Action</th></tr>
+      <tr><td>Emergency Loan Options</td><td>2,755</td><td>May 2025</td><td><span class="badge badge-ok">Keep — good</span></td></tr>
+      <tr><td>Pensioner Lending Guide</td><td>2,044</td><td>May 2025</td><td><span class="badge badge-ok">Keep — good</span></td></tr>
+      <tr><td>Budgeting Basics</td><td>2,057</td><td>Mar 2025</td><td><span class="badge badge-ok">Keep</span></td></tr>
+      <tr><td>Credit Score Guide</td><td>1,213</td><td>Mar 2025</td><td><span class="badge badge-medium">Expand to 1,800+ words</span></td></tr>
+      <tr><td>Rugby League Preview</td><td>&mdash;</td><td>2021</td><td><span class="badge badge-high">Noindex or delete</span></td></tr>
+      <tr><td>St Paddy's Day Guide</td><td>&mdash;</td><td>2021</td><td><span class="badge badge-high">Noindex or delete</span></td></tr>
+      <tr><td>April Activities Sydney</td><td>&mdash;</td><td>2021</td><td><span class="badge badge-high">Noindex or delete</span></td></tr>
+      <tr><td>Isolation Activities</td><td>&mdash;</td><td>2021</td><td><span class="badge badge-high">Noindex or delete</span></td></tr>
+    </table>
+  </div>
+
+  <!-- PHASE 4: LOCAL -->
+  <div class="section" id="local">
+    <div class="section-title">Phase 4 &mdash; Local SEO</div>
+    <p class="section-subtitle">Google Business Profile, NAP consistency, LocalBusiness schema, and branch page audit.</p>
+
+    <div class="highlight-box">
+      <h4>Strategic Alert: GBP Performance &ne; Organic SEO Performance</h4>
+      <p>SE Ranking shows that tracked keyword positions are predominantly <strong>local_pack type</strong> (Google Maps / GBP), not organic web rankings. The business is effectively competing in local search via its GBP listings, while its website's organic authority is underdeveloped. Any change to Google's local pack algorithm could eliminate the majority of current "rankings." Building organic website authority is essential for resilience.</p>
+    </div>
+
+    <h3>Branch Location Pages &mdash; Gap Analysis</h3>
+    <table>
+      <tr><th>Branch</th><th>URL</th><th>Address</th><th>Phone</th><th>Hours</th><th>Map</th><th>LocalBiz Schema</th></tr>
+      <tr><td>Sydney (HQ)</td><td><code>/service-areas/sydney/</code></td><td style="color:var(--danger)">Missing</td><td>1300 787 322 (shared)</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td></tr>
+      <tr><td>Gosford</td><td><code>/service-areas/gosford/</code></td><td style="color:var(--danger)">Missing</td><td>02 6524 9210</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td></tr>
+      <tr><td>Wollongong</td><td><code>/service-areas/wollongong/</code></td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td></tr>
+      <tr><td>Tweed Heads</td><td><code>/service-areas/tweed-heads/</code></td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td><td style="color:var(--danger)">Missing</td></tr>
+    </table>
+
+    <div class="alert alert-critical">
+      <strong>No physical addresses on any branch page</strong>
+      All 4 branch location pages lack: street address, suburb, postcode, opening hours, and LocalBusiness schema. For a business with physical locations, this is a significant local SEO gap. Google uses website NAP data to verify GBP listings. Without website NAP, GBP consistency cannot be confirmed via the website source.
+    </div>
+
+    <h3>NAP Consistency</h3>
+    <table>
+      <tr><th>Item</th><th>Status</th><th>Note</th></tr>
+      <tr><td>Business name in titles</td><td><span class="badge badge-medium">Inconsistent</span></td><td>Some pages use "Sydney Fast Cash Loans | Sure Cash Finance" — "Sydney Fast Cash Loans" is a sub-brand that may create name inconsistency in citations vs GBP</td></tr>
+      <tr><td>National phone number</td><td><span class="badge badge-ok">Present</span></td><td>1300 787 322 in header sitewide</td></tr>
+      <tr><td>Branch phone numbers</td><td><span class="badge badge-high">Partial</span></td><td>Gosford: 02 6524 9210 in homepage source. Wollongong, Tweed Heads: not found on respective pages</td></tr>
+      <tr><td>Physical addresses</td><td><span class="badge badge-critical">Missing</span></td><td>No addresses on any page</td></tr>
+    </table>
+
+    <h3>Virtual Service Area Pages &mdash; Local Pack Risk</h3>
+    <p>The site has 26+ service area pages for cities where it has no physical branch (Melbourne, Adelaide, Cairns, Geelong, etc.). These pages cannot appear in the local pack (Google Maps) for these cities as the business has no physical presence there. For organic search, these pages are 98%+ duplicate content with each other, providing minimal organic ranking benefit.</p>
+    <p><strong>Recommendation:</strong> Pull GSC data for each virtual service area page. Noindex any with fewer than 20 organic impressions per month. Retain only those with genuine search demand, and invest in differentiating those pages.</p>
+  </div>
+
+  <!-- PHASE 5: KEYWORDS -->
+  <div class="section" id="keywords">
+    <div class="section-title">Phase 5 &mdash; Keywords &amp; Rankings</div>
+    <p class="section-subtitle">Keyword coverage, ranking analysis, competitor gaps, and GSC performance. Note: GA4 not available; data sourced from GSC and SE Ranking baseline.</p>
+
+    <h3>Current Rankings Snapshot</h3>
+    <div class="scores-grid">
+      <div class="score-card score-blue"><div class="score-value">785</div><div class="score-label">Total Keywords</div><div class="score-detail">DataForSEO</div></div>
+      <div class="score-card score-orange"><div class="score-value">9</div><div class="score-label">Keywords Top 10</div><div class="score-detail">Very low for sector</div></div>
+      <div class="score-card score-orange"><div class="score-value">64.7</div><div class="score-label">Avg Position</div><div class="score-detail">Page 6–7 average</div></div>
+      <div class="score-card score-green"><div class="score-value">+8</div><div class="score-label">Top-3 Growth</div><div class="score-detail">20 &rarr; 28 positions</div></div>
+      <div class="score-card score-red"><div class="score-value">70%</div><div class="score-label">Branded Traffic</div><div class="score-detail">Only 30% organic discovery</div></div>
+    </div>
+
+    <h3>ETV Gap vs Competitors</h3>
+    <table>
+      <tr><th>Domain</th><th>ETV / Month</th><th>Gap vs SureCash</th></tr>
+      <tr><td>nimble.com.au</td><td>$114,067</td><td style="color:var(--danger)">69x larger</td></tr>
+      <tr><td>cashtrain.com.au</td><td>$80,894</td><td style="color:var(--danger)">49x larger</td></tr>
+      <tr><td>cashdirect.com.au</td><td>$57,454</td><td style="color:var(--danger)">35x larger</td></tr>
+      <tr><td>fundo.com.au</td><td>$29,407</td><td style="color:var(--warning)">18x larger</td></tr>
+      <tr><td>credit24.com.au</td><td>$21,492</td><td style="color:var(--warning)">13x larger</td></tr>
+      <tr><td><strong>surecash.com.au</strong></td><td><strong>$1,643</strong></td><td>&mdash;</td></tr>
+    </table>
+
+    <h3>Key Ranking Opportunities</h3>
+    <table>
+      <tr><th>Keyword</th><th>Volume</th><th>Current Position</th><th>Landing Page</th><th>Action</th></tr>
+      <tr><td>loans on centrelink</td><td>22,200</td><td style="color:var(--warning)">~42</td><td><code>/loans/loans-for-people-on-centrelink/</code></td><td>Content investment to reach top 10 — expand FAQ, add Centrelink benefit types</td></tr>
+      <tr><td>payday loans</td><td>33,100</td><td style="color:var(--danger)">70-80</td><td><code>/loans/payday-loans/</code></td><td>High-competition national term. Long-term target. Build page authority via internal links + backlinks.</td></tr>
+      <tr><td>cash loans</td><td>22,200</td><td style="color:var(--danger)">70-80</td><td><code>/</code></td><td>Homepage strength. Add geo modifier content. Internal links from location pages.</td></tr>
+      <tr><td>same day loans</td><td>6,600</td><td style="color:var(--danger)">70-80</td><td>No dedicated page</td><td><strong>Create /loans/same-day-loans/ immediately</strong> &mdash; ranking without a page = easy win</td></tr>
+      <tr><td>cash loans gosford</td><td>Medium</td><td>Local pack (GBP)</td><td><code>/service-areas/gosford/</code></td><td>Improve page with address, hours, LocalBusiness schema</td></tr>
+    </table>
+
+    <h3>Missing High-Value Pages</h3>
+    <ul class="issue-list">
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">/loans/same-day-loans/ &mdash; 6,600/mo, site already ranking at 70-80 without a page</div><div class="issue-fix">Highest-ROI new page to create. Title: "Same Day Loans in Australia | Sure Cash Finance"</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">/loans/online-loans/ &mdash; major competitor term, no surecash presence</div><div class="issue-fix">Create dedicated page targeting "online loans australia" — competitors dominate this term</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">/loans/emergency-loans/ &mdash; blog post exists but no transactional page</div><div class="issue-fix">Create product-intent page at /loans/emergency-loans/ — captures bottom-of-funnel intent</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">/loans/small-loans/ &mdash; aligned with SACC $300-$2000 range</div></div></li>
+    </ul>
+  </div>
+
+  <!-- PHASE 6: BACKLINKS -->
+  <div class="section" id="backlinks">
+    <div class="section-title">Phase 6 &mdash; Backlinks</div>
+    <p class="section-subtitle">Domain authority, link profile assessment, and link building opportunities. Note: Full backlink data requires DataForSEO/Ahrefs API access not available in this session.</p>
+
+    <h3>Domain Authority Context</h3>
+    <table>
+      <tr><th>Metric</th><th>Value</th><th>Context</th></tr>
+      <tr><td>InLink Rank (DA)</td><td>29</td><td>Moderate. For a 25-year-old ASIC-regulated lender, this is lower than expected.</td></tr>
+      <tr><td>Competitor gap</td><td>Estimated DA 40-60+ for top competitors</td><td>DA gap contributes significantly to ETV gap</td></tr>
+      <tr><td>Citation building</td><td>Active (/citations/ page exists)</td><td>Citation links help local pack but have limited organic DA impact</td></tr>
+    </table>
+
+    <h3>High-Priority Link Opportunities</h3>
+    <ul class="issue-list">
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Comparison site listings: Finder.com.au, Canstar, RateCity</div><div class="issue-fix">DA 60-70+ sites. These provide both editorial backlinks AND direct referral traffic. Competitors ranked #1-3 for payday loans are listed here. Apply for product listing on Finder as priority #1.</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">AFCA member directory &mdash; verify listing</div><div class="issue-fix">AFCA membership provides a DA 70+ profile page. Ensure surecash.com.au is the linked URL.</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">ASIC Connect credit licensee page</div><div class="issue-fix">ASIC's credit register lists ACL 390591. Ensure website URL is correct in ASIC Connect listing &mdash; this is a .gov.au link.</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">Digital PR / finance media commentary</div><div class="issue-fix">Responsible lending, short-term lending regulations, and consumer finance are active editorial topics. Commenting as industry experts can earn high-authority editorial links.</div></div></li>
+      <li class="issue-item low"><div><span class="badge badge-low">Low</span></div><div class="issue-body"><div class="issue-problem">Commission full backlink audit via DataForSEO</div><div class="issue-fix">Pull complete backlink profile, identify toxic links, submit disavow file if needed via GSC.</div></div></li>
+    </ul>
+  </div>
+
+  <!-- ROADMAP -->
+  <div class="section" id="roadmap">
+    <div class="section-title">90-Day Action Roadmap</div>
+    <p class="section-subtitle">Prioritised work plan. Weeks 1-2 recover lost traffic. Weeks 3-8 build organic foundations. Weeks 9-12 expand keyword footprint.</p>
+
+    <div class="roadmap-phase phase1">
+      <h4>Week 1 &mdash; Critical Fixes (1-2 hours of dev work, immediate traffic recovery)</h4>
+      <ul>
+        <li>Add 4 missing 301 redirects: /gosford/ &rarr; /service-areas/gosford/, /centrelink-loans/ &rarr; /loans/loans-for-people-on-centrelink/, /tweed-heads/ &rarr; /service-areas/tweed-heads/, /wollongong/ &rarr; /service-areas/wollongong/</li>
+        <li>Fix HTTP &rarr; HTTPS redirect in .htaccess / LiteSpeed config</li>
+        <li>Add noindex to 4 admin pages: /leads/, /citations/, /brand-page/, /lm-buy/</li>
+        <li>Disable WordPress REST API user enumeration (/wp-json/wp/v2/users)</li>
+        <li>Fix typo in Tweed Heads title tag ("Headss" &rarr; "Heads")</li>
+        <li>Fix homepage canonical to include trailing slash (https://surecash.com.au/)</li>
+        <li>Remove user-scalable=0 from viewport meta</li>
+        <li>Update WordPress Site URL to HTTPS in Settings &rarr; General (fixes sitemap HTTP URLs)</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase phase2">
+      <h4>Weeks 2–4 &mdash; On-Page &amp; Technical Foundations</h4>
+      <ul>
+        <li>Write meta descriptions for: /about-us/, /our-costs/, /contact-us/, /calculator/, /blog/, /loans/</li>
+        <li>Shorten title tags on: homepage (83 chars), gosford (91), wollongong (94), newcastle (90), service-areas/ (87)</li>
+        <li>Add LocalBusiness schema to all 4 branch pages (Gosford, Wollongong, Tweed Heads, Sydney) with full NAP + hours + geo</li>
+        <li>Add physical addresses, opening hours, branch phone numbers, Google Map embeds to all 4 branch pages</li>
+        <li>Add Organization / FinancialService schema to homepage</li>
+        <li>Noindex category archive pages and tag archive pages via Yoast SEO settings</li>
+        <li>Noindex off-topic blog posts (rugby, St Paddy's, April activities, isolation activities, spring activities)</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase phase3">
+      <h4>Weeks 4–8 &mdash; Content Investment</h4>
+      <ul>
+        <li>Create /loans/same-day-loans/ (highest-priority new page — ranking at 70-80 without a page)</li>
+        <li>Expand FAQ sections on payday loans, centrelink loans, and bad credit loans pages from 3 items to 8+ items each</li>
+        <li>Differentiate loan amount pages — add unique repayment tables, SACC/MACC classification, use-case examples per tier</li>
+        <li>Expand centrelink loans page with Centrelink benefit types accepted, income thresholds — push toward top-10 for 22,200/mo keyword</li>
+        <li>Create /loans/online-loans/ and /loans/emergency-loans/ product pages</li>
+        <li>Add author names and short bios to all blog posts; create Author schema</li>
+        <li>Review and either significantly differentiate or noindex lowest-traffic virtual service area pages</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-phase phase4">
+      <h4>Weeks 8–12 &mdash; Authority &amp; Link Building</h4>
+      <ul>
+        <li>Apply for Finder.com.au product listing (short-term loans category)</li>
+        <li>Verify and optimise AFCA member directory profile with correct website URL</li>
+        <li>Verify ASIC Connect licensee listing</li>
+        <li>Complete Australian business directory citations with consistent NAP</li>
+        <li>Pull full backlink audit via DataForSEO API and identify any toxic links for disavow</li>
+        <li>Commission full Core Web Vitals assessment via GSC Page Experience report</li>
+        <li>Add Content-Security-Policy header via server config</li>
+        <li>Create linkable resource content (responsible lending guide, SACC explainer)</li>
+      </ul>
+    </div>
+
+    <div class="alert alert-info" style="margin-top: 24px;">
+      <strong>Expected Outcomes from Weeks 1-4 Actions</strong>
+      Implementing the 4 missing redirects alone should recover 1,410+ clicks per 90 days within 1-2 weeks (once Google re-crawls and updates its index). The technical fixes in weeks 1-4 set the foundation for the content and authority work to have maximum impact.
+    </div>
+  </div>
+
+  <!-- APPENDIX: FULL ISSUE LOG -->
+  <div class="section">
+    <div class="section-title">Full Issue Log</div>
+    <p class="section-subtitle">All findings across all 6 phases, sorted by priority.</p>
+
+    <h3>Critical Issues (4)</h3>
+    <ul class="issue-list">
+      <li class="issue-item critical"><div><span class="badge badge-critical">Critical</span></div><div class="issue-body"><div class="issue-problem">4 missing 301 redirects — 1,410+ clicks/90d lost to 404 errors</div><div class="issue-fix">Add redirects in .htaccess for all 4 migrated URLs</div></div></li>
+      <li class="issue-item critical"><div><span class="badge badge-critical">Critical</span></div><div class="issue-body"><div class="issue-problem">HTTP does not redirect to HTTPS</div><div class="issue-fix">Add server-level 301 redirect in LiteSpeed / .htaccess</div></div></li>
+      <li class="issue-item critical"><div><span class="badge badge-critical">Critical</span></div><div class="issue-body"><div class="issue-problem">20+ service area pages are 98%+ duplicate content</div><div class="issue-fix">Audit traffic, noindex zero-traffic pages, differentiate retained pages</div></div></li>
+      <li class="issue-item critical"><div><span class="badge badge-critical">Critical</span></div><div class="issue-body"><div class="issue-problem">4 admin pages publicly indexed (leads, citations, brand-page, lm-buy)</div><div class="issue-fix">Add noindex meta robots to each page</div></div></li>
+    </ul>
+
+    <h3>High Priority Issues (18)</h3>
+    <ul class="issue-list">
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">WordPress user enumeration via REST API</div><div class="issue-fix">Disable /wp-json/wp/v2/users endpoint</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Typo in Tweed Heads title tag ("Headss")</div><div class="issue-fix">Fix in Yoast SEO page settings</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Homepage title is 83 characters (too long)</div><div class="issue-fix">Shorten to "Fast Cash Loans in Sydney | Sure Cash Finance"</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">6 important pages have no meta description</div><div class="issue-fix">Write descriptions for /about-us/, /our-costs/, /contact-us/, /calculator/, /blog/, /loans/</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">No physical addresses on any branch location page</div><div class="issue-fix">Add NAP to all 4 branch pages</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">No LocalBusiness schema on any location page</div><div class="issue-fix">Add FinancialService/LocalBusiness JSON-LD to Gosford, Wollongong, Tweed Heads, Sydney</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Sitemap index uses HTTP URLs (Yoast misconfiguration)</div><div class="issue-fix">Set WordPress Site URL to https:// in Settings &rarr; General</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Blog category and tag pages indexed — thin content</div><div class="issue-fix">Noindex via Yoast SEO &rarr; Search Appearance &rarr; Taxonomies</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">9 loan amount pages are 92-96% identical</div><div class="issue-fix">Add unique repayment tables, use-case examples, SACC/MACC classification per page</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">FAQ sections on product pages only 3 items (competitors have 8-12)</div><div class="issue-fix">Expand FAQ to 8+ items on payday loans, centrelink loans, bad credit pages</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">No dedicated same-day-loans page (site ranking at 70-80 without one)</div><div class="issue-fix">Create /loans/same-day-loans/ — immediate ranking uplift expected</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">No dedicated online-loans page</div><div class="issue-fix">Create /loans/online-loans/</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Off-topic blog posts consuming crawl budget</div><div class="issue-fix">Noindex rugby preview, St Paddy's guide, April activities, isolation activities, spring activities</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">All 4 branch pages missing opening hours</div><div class="issue-fix">Add opening hours to each branch page</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">No author attribution on blog posts</div><div class="issue-fix">Add author names, credentials, and Author schema</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Comparison site listings missing (Finder, Canstar, RateCity)</div><div class="issue-fix">Apply for product listing on Finder.com.au as priority</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">Location page title pattern uses 3+ keywords (dilutes focus)</div><div class="issue-fix">Consolidate to single primary keyword: "Cash Loans [City] | Sure Cash Finance"</div></div></li>
+      <li class="issue-item high"><div><span class="badge badge-high">High</span></div><div class="issue-body"><div class="issue-problem">All SE Ranking positions are local_pack — organic SEO underdeveloped</div><div class="issue-fix">Long-term: build organic ranking footprint via content + authority investment</div></div></li>
+    </ul>
+
+    <h3>Medium Priority Issues</h3>
+    <ul class="issue-list">
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">Homepage canonical missing trailing slash</div><div class="issue-fix">Set to https://surecash.com.au/</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">user-scalable=0 blocks pinch-zoom (WCAG 1.4.4 violation)</div><div class="issue-fix">Remove maximum-scale=1 and user-scalable=0 from viewport</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">No Content-Security-Policy header</div><div class="issue-fix">Implement via LiteSpeed server configuration</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">2 images missing alt text on homepage</div><div class="issue-fix">Add descriptive alt text</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">/loans/ parent page only 858 words</div><div class="issue-fix">Expand with category descriptions and eligibility overview</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">No Review / AggregateRating schema (4.8 stars not in structured data)</div><div class="issue-fix">Add AggregateRating schema to homepage reflecting Google rating</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">H2 tags are marketing slogans (FAST/FLEXIBLE/RELIABLE)</div><div class="issue-fix">Replace with keyword-relevant descriptive headings</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">No branch-specific phone numbers on Wollongong, Tweed Heads, Sydney pages</div><div class="issue-fix">Display direct phone numbers for each branch</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">"Sydney Fast Cash Loans" sub-brand in titles may create NAP inconsistency</div><div class="issue-fix">Standardise brand name to "Sure Cash Finance" across all titles</div></div></li>
+      <li class="issue-item medium"><div><span class="badge badge-medium">Medium</span></div><div class="issue-body"><div class="issue-problem">Credit score guide blog post is only 1,213 words</div><div class="issue-fix">Expand to 1,800+ words</div></div></li>
+    </ul>
+  </div>
+
+  <footer>
+    Prepared by Supple Digital &mdash; surecash.com.au SEO Audit &mdash; April 2026<br>
+    <span style="color:#bbb;">Regulatory note: All content recommendations in this report must be reviewed against ASIC responsible lending obligations and the NCCP Act before implementation. This report does not constitute legal or financial compliance advice.</span>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+{
+  "phase": 5,
+  "name": "Keyword & Rankings Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+  "data_sources": ["SE Ranking init data", "DataForSEO baseline from init", "GSC 90-day baseline from init", "Direct crawl for page mapping"],
+  "ga4_status": "Not available — fallback to GSC + SE Ranking as per init note",
+
+  "current_rankings_summary": {
+    "dataforseo": {
+      "total_keywords": 785,
+      "estimated_traffic_value": 1643,
+      "avg_position": 64.7,
+      "keywords_top_10": 9,
+      "keywords_new": 592,
+      "keywords_up": 150,
+      "keywords_down": 39
+    },
+    "seranking_trend": {
+      "top_3_positions_before": 20,
+      "top_3_positions_after": 28,
+      "not_ranking_before": 16,
+      "not_ranking_after": 4,
+      "assessment": "Improving trajectory — top-3 grew by 40%, not-ranking shrank by 75%"
+    },
+    "critical_note": "SE Ranking shows 'local_pack' as the primary ranking type for most tracked keywords. These are Google Business Profile / Maps positions, NOT organic website rankings. The actual organic ranking footprint is significantly smaller than SE Ranking suggests."
+  },
+
+  "key_ranking_movers": [
+    {
+      "keyword": "loans on centrelink",
+      "volume_monthly": 22200,
+      "position_before": 80,
+      "position_after": 42,
+      "movement": "+38 positions",
+      "landing_page": "/loans/loans-for-people-on-centrelink/",
+      "note": "Strong upward movement — approaching page 1. Needs continued content investment to reach top 10."
+    },
+    {
+      "keyword": "payday loans",
+      "volume_monthly": 33100,
+      "position": "70-80 (new entry)",
+      "landing_page": "/loans/payday-loans/",
+      "note": "Just entered rankings — very high volume keyword. Position 70-80 is too low for meaningful traffic but signals the page has some relevance."
+    },
+    {
+      "keyword": "cash loans",
+      "volume_monthly": 22200,
+      "position": "70-80 (new entry)",
+      "landing_page": "/",
+      "note": "Homepage targeting 'cash loans' nationally — broad, competitive. Local modifier needed."
+    },
+    {
+      "keyword": "same day loans",
+      "volume_monthly": 6600,
+      "position": "70-80 (new entry)",
+      "landing_page": "No dedicated page exists",
+      "note": "No dedicated page for this keyword — opportunity to create /loans/same-day-loans/"
+    }
+  ],
+
+  "competitor_comparison": {
+    "domain": "surecash.com.au",
+    "etv": 1643,
+    "vs": [
+      { "domain": "nimble.com.au", "etv": 114067, "gap_multiplier": "69x" },
+      { "domain": "cashtrain.com.au", "etv": 80894, "gap_multiplier": "49x" },
+      { "domain": "cashdirect.com.au", "etv": 57454, "gap_multiplier": "35x" },
+      { "domain": "fundo.com.au", "etv": 29407, "gap_multiplier": "18x" },
+      { "domain": "credit24.com.au", "etv": 21492, "gap_multiplier": "13x" }
+    ],
+    "context": "Surecash's organic ETV is a fraction of key competitors. This gap is partly structural (Nimble, CashTrain are purely online lenders with larger budgets), but there are clear on-page and content gaps contributing to the underperformance."
+  },
+
+  "keyword_coverage_audit": {
+    "primary_keywords": [
+      {
+        "keyword": "cash loans",
+        "volume": 22200,
+        "page": "/",
+        "status": "H1 says 'Cash Loans in Sydney' — correctly targets local. Position ~70-80 nationally. Improving."
+      },
+      {
+        "keyword": "payday loans",
+        "volume": 33100,
+        "page": "/loans/payday-loans/",
+        "status": "Page exists, new entry at 70-80. Very competitive national term."
+      },
+      {
+        "keyword": "payday loans australia",
+        "volume": "subset of above",
+        "page": "/loans/payday-loans/",
+        "status": "H1 is 'Payday Loans Australia' — correctly targeting national intent. Needs more content/authority."
+      },
+      {
+        "keyword": "loans for people on centrelink",
+        "volume_proxy": 22200,
+        "page": "/loans/loans-for-people-on-centrelink/",
+        "status": "Strong mover (+38 positions). Page well-optimised. Keep investing in content."
+      },
+      {
+        "keyword": "bad credit loans",
+        "volume": "medium",
+        "page": "/loans/bad-credit-loans/",
+        "status": "Page exists. Unknown current position."
+      },
+      {
+        "keyword": "cash loans sydney",
+        "volume": "medium-high",
+        "page": "/service-areas/sydney/",
+        "status": "H1 and title correctly target. Position unknown but likely local pack via GBP."
+      }
+    ],
+    "secondary_keywords_present": [
+      { "keyword": "unsecured personal loans", "page": "/loans/unsecured-personal-loans/" },
+      { "keyword": "loans for casual workers", "page": "/loans/loans-for-casual-workers/" },
+      { "keyword": "loans for single parents", "page": "/loans/loans-for-single-parents/" },
+      { "keyword": "loans for unemployed", "page": "/loans/loans-for-unemployed/" },
+      { "keyword": "cash loans gosford", "page": "/service-areas/gosford/" },
+      { "keyword": "cash loans wollongong", "page": "/service-areas/wollongong/" },
+      { "keyword": "cash loans tweed heads", "page": "/service-areas/tweed-heads/" }
+    ],
+    "keyword_gaps_no_page": [
+      {
+        "keyword": "same day loans",
+        "volume": 6600,
+        "priority": "HIGH",
+        "action": "Create /loans/same-day-loans/ — currently ranking at 70-80 without a dedicated page"
+      },
+      {
+        "keyword": "emergency loans",
+        "volume": "medium",
+        "priority": "HIGH",
+        "action": "Create /loans/emergency-loans/ — blog post exists but no product page"
+      },
+      {
+        "keyword": "instant loans",
+        "volume": "medium",
+        "priority": "MEDIUM",
+        "action": "Create /loans/instant-loans/ or target via same-day-loans page"
+      },
+      {
+        "keyword": "quick loans",
+        "volume": "medium",
+        "priority": "MEDIUM",
+        "action": "Can target via same-day or instant loans page"
+      },
+      {
+        "keyword": "online loans australia",
+        "volume": "high",
+        "priority": "HIGH",
+        "action": "Create /loans/online-loans/ — major competitor term with no surecash presence"
+      },
+      {
+        "keyword": "small loans",
+        "volume": "medium",
+        "priority": "MEDIUM",
+        "action": "Create /loans/small-loans/ — aligns with SACC $300-$2000 range"
+      },
+      {
+        "keyword": "personal loans bad credit",
+        "volume": "medium",
+        "priority": "MEDIUM",
+        "action": "Bad credit loans page exists — may need targeting this variant"
+      },
+      {
+        "keyword": "centrelink advance payment",
+        "volume": "high",
+        "priority": "LOW (informational, different product)",
+        "action": "Could create informational blog content targeting users comparing options"
+      }
+    ]
+  },
+
+  "branded_vs_non_branded": {
+    "branded_share": "~70% of GSC traffic is branded (from init data)",
+    "implication": "70% branded traffic suggests the site primarily converts people already looking for Sure Cash. Only ~30% is new organic discovery. For growth, this ratio needs to shift — more non-branded keyword rankings will expand the addressable audience.",
+    "benchmark": "Healthy e-commerce/finance sites typically aim for 50-60% branded or less"
+  },
+
+  "gsc_top_pages_organic_reality": {
+    "note": "The top 4 GSC pages by clicks are ALL 404 pages (old URLs). This distorts the picture.",
+    "actual_performing_pages_estimated": {
+      "homepage": "2,822 clicks at avg pos 24 — primarily branded queries",
+      "centrelink_loans": "369 clicks going to 404 — LOST TRAFFIC",
+      "gosford": "456 clicks going to 404 — LOST TRAFFIC",
+      "tweed_heads": "302 clicks going to 404 — LOST TRAFFIC",
+      "wollongong": "283 clicks going to 404 — LOST TRAFFIC"
+    },
+    "estimated_traffic_loss_from_404s": "1,410+ clicks/90 days (1,683/month annualised equivalent) being lost to 404 errors on migrated URLs"
+  },
+
+  "keyword_cannibalisation": {
+    "potential_issues": [
+      {
+        "keyword": "cash loans",
+        "competing_pages": ["/ (H1: Cash Loans in Sydney)", "/service-areas/sydney/ (H1: Cash Loans Sydney)"],
+        "assessment": "Moderate risk — homepage and Sydney page both target 'cash loans [city]'. Homepage has more authority but Sydney page is more specific. Should use canonical or ensure differentiation."
+      },
+      {
+        "keyword": "payday loans [city]",
+        "competing_pages": ["Multiple service area pages all targeting 'payday loans [city]' in title tags"],
+        "assessment": "The service area page title pattern ('Payday Loans, Loans for People on Centrelink, and Cash Loans in [City]') targets multiple keywords in one title. This dilutes signal focus."
+      }
+    ]
+  },
+
+  "url_structure_assessment": {
+    "product_pages": "/loans/[keyword-slug]/ — GOOD. Logical hierarchy.",
+    "location_pages": "/service-areas/[city]/ — GOOD for new URLs. Problem is old URLs (/gosford/, /centrelink-loans/) still in GSC with significant traffic.",
+    "blog": "Root-level slugs — ACCEPTABLE but mixing with product content at root level is non-ideal"
+  },
+
+  "issues_priority": [
+    { "priority": "critical", "issue": "1,410+ clicks/90d lost to 404 errors from URL migration without redirects", "fix": "Implement 4 redirects: /gosford/→/service-areas/gosford/, /centrelink-loans/→/loans/loans-for-people-on-centrelink/, /tweed-heads/→/service-areas/tweed-heads/, /wollongong/→/service-areas/wollongong/" },
+    { "priority": "high", "issue": "No dedicated page for 'same day loans' (6,600/mo) — site already ranking at 70-80 without one", "fix": "Create /loans/same-day-loans/ — instant win opportunity" },
+    { "priority": "high", "issue": "No dedicated page for 'online loans' — major competitor term", "fix": "Create /loans/online-loans/" },
+    { "priority": "high", "issue": "70% branded traffic — organic discovery is limited", "fix": "Expand non-branded keyword targeting via new product pages and improved existing page rankings" },
+    { "priority": "high", "issue": "'Loans on centrelink' at pos 42 with 22,200/mo volume — needs content push to break top 10", "fix": "Expand centrelink loans page: add benefit type breakdown, FAQ expansion, income threshold guidance" },
+    { "priority": "medium", "issue": "Homepage targeting 'cash loans' at pos 70-80 — too broad nationally", "fix": "Strengthen with location modifier content, schema, and internal links from location pages" },
+    { "priority": "medium", "issue": "Service area page titles use 3-keyword format in title tags (dilutes focus)", "fix": "Consolidate to single primary keyword per title: 'Cash Loans [City] | Sure Cash Finance'" },
+    { "priority": "low", "issue": "No emergency loans product page (blog post only)", "fix": "Create /loans/emergency-loans/ to capture transactional intent" }
+  ]
+}

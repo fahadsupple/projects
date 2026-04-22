@@ -1,0 +1,199 @@
+{
+  "phase": 3,
+  "name": "Content Quality Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+
+  "eeat_assessment": {
+    "experience": {
+      "score": "moderate",
+      "positives": [
+        "Footer states 'Shimtec Pty Ltd ACN 001928516 T/as Sure Cash Finance Australian Credit Licence 390591' — legal identity transparent",
+        "Footer states 'AFCA member number 43334' — complaints authority membership displayed",
+        "Homepage references '25 years lending experience'",
+        "476 Google reviews (4.8 stars) shown via Trustindex widget — strong social proof",
+        "Blog posts mention real team members (Paul, Sue, Val) in customer reviews"
+      ],
+      "gaps": [
+        "No 'Meet the Team' section on About Us page",
+        "No named authors on blog posts — author credit shows only abbreviated initials",
+        "No author bios or credentials for loan content writers",
+        "About Us page content could not be loaded (WPBakery rendering issue in crawl) — team story unclear"
+      ]
+    },
+    "expertise": {
+      "score": "adequate",
+      "positives": [
+        "ACL number and ASIC regulation clearly disclosed in footer",
+        "Our Costs page correctly displays SACC fee structure (20% establishment, 4%/month) per NCCP Act",
+        "Warning About Borrowing page contains correct ASIC statutory text",
+        "Regulatory warning linked from loan pages (NCCP compliance)"
+      ],
+      "gaps": [
+        "Loan product pages don't cite regulatory references (NCCP, ASIC RG 209) in body text",
+        "No in-depth explainers of responsible lending assessment process",
+        "Blog content is generic — 'budgeting basics', 'credit score guide' — not demonstrating specialist SACC/MACC expertise"
+      ]
+    },
+    "authoritativeness": {
+      "score": "moderate",
+      "positives": [
+        "25 years in business",
+        "Physical branches in 4 NSW locations (Gosford, Wollongong, Tweed Heads, Sydney)",
+        "AFCA membership for dispute resolution"
+      ],
+      "gaps": [
+        "No press mentions, awards, or third-party recognition visible on site",
+        "No partnerships with MoneySmart, NILS, or similar mentioned",
+        "Brand search share ~70% (from init) — strong local brand but limited organic authority"
+      ]
+    },
+    "trustworthiness": {
+      "score": "moderate-good",
+      "positives": [
+        "ASIC warning page correctly implements National Consumer Credit Protection Act requirement",
+        "Warning linked from homepage and all tested loan pages — compliant",
+        "ACL and AFCA clearly disclosed",
+        "Trustindex Google reviews widget (4.8 stars, 454+ reviews)"
+      ],
+      "gaps": [
+        "No privacy policy prominently linked from homepage footer (legals page exists but 'Privacy Policy' not clearly labeled)",
+        "Blog posts dated 2021 still indexed with 'last modified 2025' — refresh dates may mislead",
+        "Some blog posts appear to be thin content marketing pieces (rugby league preview, April activities Sydney) with no financial relevance"
+      ]
+    }
+  },
+
+  "regulatory_compliance": {
+    "asic_warning_text": {
+      "status": "COMPLIANT",
+      "detail": "Warning About Borrowing page (/warning-about-borrowing/) contains the exact ASIC-required statutory warning text: 'WARNING: Do you really need a loan today? It can be expensive to borrow small amounts of money...' Linked from homepage and loan pages."
+    },
+    "acl_disclosure": {
+      "status": "COMPLIANT",
+      "detail": "Footer contains 'Shimtec Pty Ltd ACN 001928516 T/as Sure Cash Finance Australian Credit Licence 390591'"
+    },
+    "afca_disclosure": {
+      "status": "COMPLIANT",
+      "detail": "Footer contains 'member of the Australian Financial Complaints Authority (AFCA) member number 43334'"
+    },
+    "fee_disclosure": {
+      "status": "COMPLIANT",
+      "detail": "Our Costs page correctly discloses SACC fees (20% establishment, 4%/month) and MACC fees ($400 + 48% APR) with worked examples"
+    },
+    "responsible_lending_claim": {
+      "status": "COMPLIANT",
+      "detail": "Footer: 'Sure Cash Finance practices responsible lending'"
+    },
+    "content_warnings": {
+      "guaranteed_approval": "No 'guaranteed approval' language found — compliant",
+      "vulnerable_targeting": "Content targeting Centrelink recipients and unemployed is factual and not predatory in language reviewed",
+      "same_day_claims": "Page uses 'instant transfer' language with footnote '1. Cash paid via instant transfer to approved customers who have signed their contract and depending on your financial institution' — compliant with substantiation"
+    }
+  },
+
+  "content_quality_by_type": {
+    "product_pages": {
+      "payday_loans": {
+        "words": 3195,
+        "faq_items": 3,
+        "quality": "Adequate. Covers eligibility, costs, application process. FAQ section is very thin (only 3 questions). Competitor pages (Nimble, CashTrain) typically have 8–12 FAQ items. No comparison tables, no detailed eligibility matrix.",
+        "missing": ["Detailed eligibility criteria", "Step-by-step application process with timing", "State-specific info", "Extended FAQ (8+ questions)"]
+      },
+      "centrelink_loans": {
+        "words": 3206,
+        "faq_items": 3,
+        "quality": "Good intent — covers Centrelink-specific eligibility. However, only 3 FAQ items. Missing key information about Centrelink income types accepted, benefit types (disability, parenting, age pension).",
+        "missing": ["Specific Centrelink payment types accepted", "Income threshold minimums", "Extended FAQ"]
+      },
+      "bad_credit_loans": {
+        "words": 2827,
+        "faq_items": 3,
+        "quality": "Adequate. Covers the bad credit angle. Missing competitor-comparison content and credit score guidance.",
+        "missing": ["Minimum credit score or assessment criteria", "What makes a 'bad credit' application more likely to succeed"]
+      }
+    },
+    "location_pages": {
+      "branch_pages": {
+        "status": "Adequate content depth but 68–78% template overlap between branches. Each branch page needs more unique local content — local landmarks, opening hours, specific address.",
+        "missing_from_all_branch_pages": [
+          "Physical address of the branch",
+          "Opening hours",
+          "Branch-specific phone number",
+          "Google Maps embed",
+          "LocalBusiness schema",
+          "Local area-specific content (e.g., 'serving Gosford CBD and surrounding suburbs')"
+        ]
+      },
+      "virtual_service_area_pages": {
+        "status": "CRITICAL ISSUE: 98%+ duplicate content. Template-generated pages where only city name substituted. These do not meet Google's quality threshold for location pages.",
+        "count": "~16 pages (Albury, Bathurst, Berkeley, Blacktown, Caboolture, Cleveland, Dubbo, Frankston, Geelong, Ipswich, Lismore, Moree, Penrith, Port Macquarie, Taree, Tamworth, Townsville, Wagga Wagga, Walgett, Wyoming, plus state capitals: Adelaide, Cairns, Gold Coast, Hobart, Melbourne, Perth)",
+        "recommendation": "Evaluate ROI: if traffic data shows zero organic visits for these pages, consider noindexing and consolidating. If any drive traffic, invest in unique content."
+      }
+    },
+    "blog": {
+      "total_posts": 32,
+      "recent_content": {
+        "finding": "The blog has recent posts (2025) but also old 2021 content that is off-topic (rugby league preview, April activities Sydney, isolation activities). These off-topic posts create topical drift and consume crawl budget without SEO benefit.",
+        "recent_posts_quality": [
+          { "url": "/emergency-loan-options/", "words": 2755, "date": "2025-05-09", "quality": "Good — relevant, substantial, topically aligned" },
+          { "url": "/pensioner-lending-guide/", "words": 2044, "date": "2025-05-25", "quality": "Good — SACC-relevant, targets pensioner segment" },
+          { "url": "/budgeting-basics/", "words": 2057, "date": "2025-03-24", "quality": "Adequate — generic but aligned" },
+          { "url": "/credit-score-guide/", "words": 1213, "date": "2025-03-17", "quality": "Thin — 1213 words is below minimum for competitive SERP" },
+          { "url": "/loans-and-important-considerations/", "words": 1332, "date": "2021-10-08", "quality": "Thin and old" }
+        ],
+        "off_topic_posts": [
+          "/rugby-league-preview/",
+          "/st-paddys-day-guide/",
+          "/april-activities-sydney/",
+          "/isolation-time-and-ideas-for-things-to-do-with-the-family/",
+          "/what-is-happening-in-the-australian-spring/"
+        ]
+      }
+    }
+  },
+
+  "missing_content_opportunities": [
+    {
+      "gap": "Same-day loans / instant loans page",
+      "rationale": "SE Ranking init showed 'same day loans' (6,600/mo) entering rankings at position 70-80. No dedicated page exists. Competitors (Nimble, CashTrain) have this page.",
+      "suggested_url": "/loans/same-day-loans/"
+    },
+    {
+      "gap": "Emergency loans page",
+      "rationale": "High-intent query. Blog post exists (/emergency-loan-options/) but it's editorial. A dedicated product page at /loans/emergency-loans/ would better capture transactional intent.",
+      "suggested_url": "/loans/emergency-loans/"
+    },
+    {
+      "gap": "Online loans page",
+      "rationale": "Competitors rank for 'online loans australia' — no page targeting this exists on surecash.com.au",
+      "suggested_url": "/loans/online-loans/"
+    },
+    {
+      "gap": "Small loans / micro loans page",
+      "rationale": "Complements the SACC product range — 'small loans' is lower competition with specific SACC alignment",
+      "suggested_url": "/loans/small-loans/"
+    },
+    {
+      "gap": "FAQ / help centre",
+      "rationale": "E-E-A-T signal. Competitors with better rankings have comprehensive FAQ pages covering repayments, eligibility, responsible lending, AFCA complaints process.",
+      "suggested_url": "/faq/"
+    },
+    {
+      "gap": "Branch-specific content for Gosford, Wollongong, Tweed Heads",
+      "rationale": "Real branches deserve rich pages: address, map embed, opening hours, local team mention, LocalBusiness schema. Currently identical template."
+    }
+  ],
+
+  "issues_priority": [
+    { "priority": "critical", "issue": "16+ virtual service area pages are 98%+ duplicate content", "fix": "Audit traffic for each. Noindex zero-traffic virtual pages or invest in genuine unique local content per page." },
+    { "priority": "critical", "issue": "9 loan amount pages are 92–96% identical — thin and duplicate", "fix": "Add unique repayment tables per amount, use-case scenarios, eligibility info per SACC/MACC tier" },
+    { "priority": "high", "issue": "FAQ sections on product pages have only 3 items (competitors have 8–12)", "fix": "Expand FAQ to 8+ questions on each product page — boosts FAQ rich snippet eligibility" },
+    { "priority": "high", "issue": "Branch location pages missing address, hours, phone, map embed", "fix": "Add physical details to Gosford, Wollongong, Tweed Heads, Sydney pages" },
+    { "priority": "high", "issue": "5+ off-topic blog posts consuming crawl budget", "fix": "Noindex off-topic posts (rugby preview, St Paddy's guide, April activities, spring activities, isolation activities)" },
+    { "priority": "high", "issue": "No author bios on blog posts or product pages", "fix": "Add author names and credentials to all blog posts; create author profile pages" },
+    { "priority": "medium", "issue": "No dedicated pages for same-day loans, emergency loans, online loans", "fix": "Create 3 new product pages targeting high-volume secondary keywords" },
+    { "priority": "medium", "issue": "Credit score guide at 1213 words — thin for competitive SERP", "fix": "Expand to 1800+ words with credit improvement sections, FAQs" },
+    { "priority": "low", "issue": "No press mentions or awards on site", "fix": "Add media/awards section to About Us if any exist" }
+  ]
+}

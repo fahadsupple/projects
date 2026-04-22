@@ -1,0 +1,151 @@
+{
+  "phase": 2,
+  "name": "On-Page SEO Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+  "data_sources": ["Direct crawl", "GSC 90-day baseline from init"],
+
+  "title_tags": {
+    "summary": "Homepage title is over-length. Multiple location page titles are significantly over 60 characters. Several utility pages have no meta description at all.",
+    "issues": [
+      { "page": "/", "current": "Fast and Reliable Cash Loans | Secure Quick Cash Loans Near You | Sure Cash Finance", "length": 83, "issue": "TITLE_LONG", "recommendation": "Fast Cash Loans in Sydney | Sure Cash Finance" },
+      { "page": "/service-areas/gosford/", "current": "Payday Loans, Loans for People on Centrelink, and Cash Loans in Gosford | Sure Cash Finance", "length": 91, "issue": "TITLE_LONG", "recommendation": "Cash Loans Gosford | Sure Cash Finance" },
+      { "page": "/service-areas/wollongong/", "current": "Payday Loans, Loans for People on Centrelink, and Cash Loans in Wollongong | Sure Cash Finance", "length": 94, "issue": "TITLE_LONG", "recommendation": "Cash Loans Wollongong | Sure Cash Finance" },
+      { "page": "/service-areas/tweed-heads/", "current": "Payday Loans, Loans for People on Centrelink, and Cash Loans in Tweed Headss | Sure Cash Finance", "length": 96, "issue": "TITLE_LONG + TYPO (Headss)", "recommendation": "Cash Loans Tweed Heads | Sure Cash Finance" },
+      { "page": "/service-areas/newcastle/", "current": "Payday Loans, Loans for People on Centrelink, and Cash Loans in Newcastle | Sure Cash Finance", "length": 90, "issue": "TITLE_LONG", "recommendation": "Cash Loans Newcastle | Sure Cash Finance" },
+      { "page": "/service-areas/", "current": "Service Areas - Payday Loans, Cash Loans Australia | Sure Cash Finance", "length": 87, "issue": "TITLE_LONG", "recommendation": "Cash Loans Service Areas | Sure Cash Finance" }
+    ],
+    "ok_pages": [
+      { "page": "/loans/payday-loans/", "title": "Payday Loans Australia | Sure Cash Finance", "length": 42 },
+      { "page": "/loans/loans-for-people-on-centrelink/", "title": "Loans for People on Centrelink | Sure Cash Finance", "length": 50 },
+      { "page": "/loans/bad-credit-loans/", "title": "Bad Credit Loans | Sure Cash Finance", "length": 36 },
+      { "page": "/loans/unsecured-personal-loans/", "title": "Unsecured Personal Loans | Sure Cash Finance", "length": 44 },
+      { "page": "/service-areas/sydney/", "title": "Cash Loans Sydney | Sure Cash Finance", "length": 37 }
+    ]
+  },
+
+  "meta_descriptions": {
+    "summary": "6+ important pages have no meta description. Yoast SEO is installed but descriptions are not written for utility and navigation pages.",
+    "missing_or_invalid": [
+      { "page": "/about-us/", "issue": "No meta description" },
+      { "page": "/our-costs/", "issue": "No meta description" },
+      { "page": "/contact-us/", "issue": "No meta description" },
+      { "page": "/calculator/", "issue": "No meta description" },
+      { "page": "/blog/", "issue": "No meta description" },
+      { "page": "/loans/", "issue": "No meta description" },
+      { "page": "/service-areas/gosford/", "length": 179, "issue": "DESC_LONG — exceeds 160 chars" },
+      { "page": "/service-areas/newcastle/", "length": 178, "issue": "DESC_LONG" },
+      { "page": "/service-areas/melbourne/", "length": 176, "issue": "DESC_LONG" },
+      { "page": "/loans/loans-for-unemployed/", "length": 163, "issue": "DESC_LONG" },
+      { "page": "/loans/5000-cash-loans/", "length": 162, "issue": "DESC_LONG" }
+    ]
+  },
+
+  "h1_analysis": {
+    "summary": "H1 tags are generally appropriate. The homepage H1 'Cash Loans in Sydney' targets a local keyword correctly. One note: location pages use very long, descriptive H1s that are fine for content but less clean for search intent.",
+    "homepage": { "h1": "Cash Loans in Sydney", "status": "OK — targets primary geo keyword" },
+    "typo_found": { "page": "/service-areas/tweed-heads/", "issue": "Title tag contains 'Tweed Headss' (double s) — critical typo to fix" }
+  },
+
+  "header_structure": {
+    "homepage": {
+      "h1": "Cash Loans in Sydney",
+      "h2_sequence": ["FAST", "FLEXIBLE", "RELIABLE", "CASH PAID FAST1", "Fast Cash Loans", "$300 – $5000"],
+      "issue": "H2 tags are marketing slogans (FAST, FLEXIBLE, RELIABLE) rather than descriptive heading text. These provide zero semantic value to search engines and break the logical document outline."
+    },
+    "product_pages": {
+      "pattern": "Payday Loans page has H2: 'Fast and Flexible Payday Loans in Australia' — acceptable",
+      "issue": "Consistent 'FAST / FLEXIBLE / RELIABLE' H2 block repeated on every page template is duplicate decorative heading content"
+    }
+  },
+
+  "word_count": {
+    "summary": "Product pages are well-developed (2800–3200 words). Main branch location pages are adequate (1997–2616). Non-branch virtual service area pages are thin (1534–1632 words) and 98%+ similar to each other.",
+    "pages": [
+      { "url": "/loans/payday-loans/", "words": 3195, "status": "adequate" },
+      { "url": "/loans/loans-for-people-on-centrelink/", "words": 3206, "status": "adequate" },
+      { "url": "/loans/bad-credit-loans/", "words": 2827, "status": "adequate" },
+      { "url": "/loans/unsecured-personal-loans/", "words": 6044, "status": "good" },
+      { "url": "/service-areas/sydney/", "words": 2616, "status": "adequate" },
+      { "url": "/service-areas/gosford/", "words": 2095, "status": "adequate" },
+      { "url": "/service-areas/wollongong/", "words": 1997, "status": "adequate" },
+      { "url": "/service-areas/tweed-heads/", "words": 2026, "status": "adequate" },
+      { "url": "/service-areas/newcastle/", "words": 1611, "status": "thin" },
+      { "url": "/service-areas/blacktown/", "words": 1579, "status": "thin" },
+      { "url": "/service-areas/albury/", "words": 1601, "status": "thin" },
+      { "url": "/service-areas/dubbo/", "words": 1613, "status": "thin" },
+      { "url": "/loans/", "words": 858, "status": "very thin — parent hub page" },
+      { "url": "/loans/500-cash-loans/", "words": 1835, "status": "thin" },
+      { "url": "/loans/1000-cash-loans/", "words": 1895, "status": "thin" }
+    ]
+  },
+
+  "duplicate_content": {
+    "virtual_service_area_pages": {
+      "finding": "CRITICAL: 20+ virtual service area pages (non-branch locations like Albury, Dubbo, Tamworth, Geelong, Cairns, etc.) are 98–99% identical to each other. Only the city name changes. This is near-clone content and creates a large duplicate content cluster that could trigger quality penalties.",
+      "similarity_examples": [
+        { "pair": "gosford vs albury", "similarity": "98.3%" },
+        { "pair": "gosford vs dubbo", "similarity": "98.6%" },
+        { "pair": "gosford vs tamworth", "similarity": "98.4%" }
+      ],
+      "count": "~16+ virtual area pages at 98%+ similarity"
+    },
+    "loan_amount_pages": {
+      "finding": "HIGH: The 9 loan amount pages ($500 through $5000) are 92–96% identical to each other. Only the dollar amount changes. These are near-duplicate pages with minimal differentiation.",
+      "similarity_examples": [
+        { "pair": "$500 vs $1000", "similarity": "94.0%" },
+        { "pair": "$500 vs $2500", "similarity": "96.4%" },
+        { "pair": "$500 vs $5000", "similarity": "94.8%" }
+      ],
+      "count": "9 amount pages"
+    },
+    "main_location_pages": {
+      "finding": "MODERATE: Main branch location pages (Gosford, Wollongong, Tweed Heads) are 71–78% similar to each other. Each has some unique introductory content but shares identical template sections.",
+      "similarity_examples": [
+        { "pair": "gosford vs wollongong", "similarity": "71.6%" },
+        { "pair": "wollongong vs tweed-heads", "similarity": "78.4%" }
+      ]
+    }
+  },
+
+  "images": {
+    "homepage": {
+      "total_images": 23,
+      "missing_alt_text": 2,
+      "finding": "2 images missing alt text on homepage. Images with missing alt text cannot be indexed by Google Images and fail WCAG 1.1.1 accessibility requirements."
+    }
+  },
+
+  "internal_linking": {
+    "finding": "Product pages and location pages are not cross-linked. The payday-loans page does not link to Gosford, Wollongong, or Tweed Heads location pages. Location pages do not link to relevant product pages (e.g., Gosford page doesn't link to /loans/payday-loans/ or /loans/loans-for-people-on-centrelink/). This creates two isolated content silos that don't pass authority to each other.",
+    "cta_count_payday_loans": 19,
+    "apply_cta_present": true,
+    "note": "CTAs are functional and frequent — good for conversion intent"
+  },
+
+  "gsc_performance_signals": {
+    "note": "GA4 not available. Using GSC 90-day baseline from init.",
+    "top_pages_by_clicks": [
+      { "url": "/gosford/", "clicks": 456, "note": "Old URL — 404. Traffic going to 404 page. SEO value being lost." },
+      { "url": "/centrelink-loans/", "clicks": 369, "note": "Old URL — 404. Traffic going to 404 page. SEO value being lost." },
+      { "url": "/tweed-heads/", "clicks": 302, "note": "Old URL — 404. Traffic going to 404 page. SEO value being lost." },
+      { "url": "/wollongong/", "clicks": 283, "note": "Old URL — 404. Traffic going to 404 page. SEO value being lost." }
+    ],
+    "critical_finding": "The top 4 GSC pages by clicks are ALL 404 pages. The site has apparently migrated URLs (from /gosford/ to /service-areas/gosford/ and /centrelink-loans/ to /loans/loans-for-people-on-centrelink/) but has NOT set up 301 redirects. GSC is showing traffic from users who bookmarked or linked to the old URLs. These 301 redirects are the single highest-priority fix on the entire site."
+  },
+
+  "issues_priority": [
+    { "priority": "critical", "issue": "/gosford/ returns 404 — was top GSC page (456 clicks/90d)", "fix": "301 redirect /gosford/ → /service-areas/gosford/" },
+    { "priority": "critical", "issue": "/centrelink-loans/ returns 404 — 2nd GSC page (369 clicks/90d)", "fix": "301 redirect /centrelink-loans/ → /loans/loans-for-people-on-centrelink/" },
+    { "priority": "critical", "issue": "/tweed-heads/ returns 404 — 3rd GSC page (302 clicks/90d)", "fix": "301 redirect /tweed-heads/ → /service-areas/tweed-heads/" },
+    { "priority": "critical", "issue": "/wollongong/ returns 404 — 4th GSC page (283 clicks/90d)", "fix": "301 redirect /wollongong/ → /service-areas/wollongong/" },
+    { "priority": "critical", "issue": "20+ virtual service area pages are 98%+ duplicate content", "fix": "Either significantly differentiate each page with unique local content, or consolidate + noindex the weakest" },
+    { "priority": "critical", "issue": "9 loan amount pages are 92–96% identical", "fix": "Add unique content to each: specific SACC/MACC eligibility per amount, example repayments per amount, use cases per amount tier" },
+    { "priority": "high", "issue": "Typo in Tweed Heads title tag ('Headss')", "fix": "Fix to 'Tweed Heads' in Yoast SEO title field" },
+    { "priority": "high", "issue": "Homepage title tag is 83 chars (too long)", "fix": "Shorten to ≤60 chars — recommended: 'Fast Cash Loans in Sydney | Sure Cash Finance'" },
+    { "priority": "high", "issue": "6 important pages have no meta description", "fix": "Write meta descriptions for: /about-us/, /our-costs/, /contact-us/, /calculator/, /blog/, /loans/" },
+    { "priority": "high", "issue": "H2 tags are marketing slogans not descriptive headings", "fix": "Replace FAST/FLEXIBLE/RELIABLE H2 decorators with keyword-relevant headings" },
+    { "priority": "medium", "issue": "2 images missing alt text on homepage", "fix": "Add descriptive alt text to all images" },
+    { "priority": "medium", "issue": "/loans/ parent page only 858 words", "fix": "Expand with loan category descriptions, eligibility overview, apply CTA" }
+  ]
+}

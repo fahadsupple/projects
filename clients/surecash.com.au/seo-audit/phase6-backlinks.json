@@ -1,0 +1,124 @@
+{
+  "phase": 6,
+  "name": "Backlink Profile Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+  "data_sources": ["DataForSEO baseline from init (InLink Rank/DA)", "Direct technical observation"],
+  "note": "Full backlink data requires DataForSEO or Ahrefs API access which was not available during this audit session. Assessment is based on the InLink Rank (DA) score of 29 from init, indirect signals, and site structure observations.",
+
+  "domain_authority": {
+    "inlink_rank_da": 29,
+    "context": "DA 29 is moderate for a financial services site. Competitors Nimble (ETV 114K) and CashTrain (ETV 81K) likely have DA 40-60+. The gap in DA is a significant contributor to the ETV gap.",
+    "interpretation": "A DA of 29 means the site likely has: ~100-300 referring domains, predominantly Australian-focused, with some directory and local citation links. For an ASIC-regulated lender operating since ~2000 (25+ years), this DA is lower than expected — suggesting historical link building has been modest."
+  },
+
+  "link_profile_indicators": {
+    "citations_page": {
+      "finding": "The site has a /citations/ page (indexable — should be noindexed) suggesting an active citation/directory link-building program. This is appropriate for local SEO.",
+      "implication": "Citation links contribute to local pack rankings but have limited impact on organic domain authority."
+    },
+    "regulatory_links": {
+      "finding": "Site is AFCA-registered (member 43334) — AFCA member directory listing is a high-authority .org.au backlink opportunity. ASIC's MoneySmart and financial counsellor resources may provide additional .gov.au link opportunities.",
+      "afca_directory": "Being an AFCA member typically provides a profile page at afca.org.au — this is a DA ~70+ link",
+      "asic_connect": "Credit licensees appear on ASIC Connect — .gov.au link"
+    },
+    "apply_subdomain": {
+      "finding": "apply.surecash.com.au (Microsoft IIS server) is the loan application platform. External links to this subdomain may exist but are less valuable for the main domain unless structured with canonical or redirect strategy.",
+      "server": "Microsoft IIS/10.0 — different technology stack from main site (LiteSpeed)"
+    }
+  },
+
+  "link_building_opportunities": [
+    {
+      "opportunity": "AFCA member directory profile",
+      "type": "Regulatory directory",
+      "authority": "Very high (afca.org.au DA ~70+)",
+      "effort": "Low — claim/verify listing",
+      "priority": "HIGH"
+    },
+    {
+      "opportunity": "ASIC Connect credit licensee listing",
+      "type": "Government directory",
+      "authority": "Very high (asic.gov.au DA ~85+)",
+      "effort": "Low — already registered, ensure website URL is correct",
+      "priority": "HIGH"
+    },
+    {
+      "opportunity": "MoneySmart / NILS referral directory",
+      "type": "Government/NGO resource",
+      "authority": "High",
+      "effort": "Medium — requires content partnership or resource page inclusion",
+      "priority": "MEDIUM"
+    },
+    {
+      "opportunity": "Local business directories (NSW)",
+      "type": "Local citation",
+      "authority": "Low-Medium",
+      "effort": "Low",
+      "priority": "MEDIUM — already partially done per /citations/ page"
+    },
+    {
+      "opportunity": "Financial comparison sites (Canstar, Finder, Compare the Market)",
+      "type": "Editorial/comparison",
+      "authority": "Very high (Canstar DA 65+)",
+      "effort": "High — requires product listing application",
+      "priority": "HIGH — major organic traffic driver for competitors"
+    },
+    {
+      "opportunity": "Finance industry associations (COBA, AFIA)",
+      "type": "Industry body",
+      "authority": "Medium-High",
+      "effort": "Medium — requires membership or listing",
+      "priority": "MEDIUM"
+    },
+    {
+      "opportunity": "Local NSW news and community sites (financial topics)",
+      "type": "Editorial outreach",
+      "authority": "Varies",
+      "effort": "High",
+      "priority": "MEDIUM-LOW"
+    },
+    {
+      "opportunity": "Digital PR: ASIC/responsible lending commentary",
+      "type": "PR / editorial",
+      "authority": "High if placed in finance media",
+      "effort": "High",
+      "priority": "MEDIUM — builds E-E-A-T signals alongside links"
+    }
+  ],
+
+  "competitor_link_assessment": {
+    "nimble_com_au": {
+      "etv": 114067,
+      "context": "Listed on Finder, Canstar, RateCity — comparison site links are likely a major contributor to DA and ETV. National advertising presence. Pure-play online lender with significant link building investment."
+    },
+    "cashtrain_com_au": {
+      "etv": 80894,
+      "context": "Strong SERP presence suggests either high DA or highly-optimised content, likely supported by comparison site listings."
+    },
+    "key_insight": "Comparison site listings (Finder, Canstar, RateCity) appear to be the most impactful link type in this industry. These sites send direct referral traffic AND provide high-authority backlinks. Surecash's absence from these is likely a significant gap."
+  },
+
+  "link_risks": {
+    "toxic_links": "Cannot assess without full Ahrefs/DataForSEO backlink data",
+    "anchor_text": "Cannot assess without full backlink data",
+    "historical_note": "For a 25-year-old business, some historical links may be from deprecated directories or low-quality sources. A full disavow analysis should be performed via GSC/Search Console after pulling full backlink data from DataForSEO."
+  },
+
+  "internal_link_structure": {
+    "link_equity_flow": "Homepage → Product pages via navigation. Homepage → Location pages via navigation. Product pages do NOT link to location pages. Location pages do NOT link to product pages.",
+    "orphan_risk": "Admin pages (leads, citations, brand-page, lm-buy) receive internal links via sitemap inclusion but no meaningful editorial links",
+    "improvement": "Adding cross-links between product and location pages would improve internal PageRank distribution"
+  },
+
+  "recommendations": [
+    { "priority": "high", "action": "Verify and optimise AFCA member directory listing — ensure surecash.com.au is the listed URL" },
+    { "priority": "high", "action": "Verify ASIC Connect profile has correct website URL" },
+    { "priority": "high", "action": "Apply for Finder and Canstar product listings — these provide high-DA editorial links and direct referral traffic" },
+    { "priority": "high", "action": "Ensure Google Business Profile listings for all 4 branches are fully optimised with correct NAP, hours, categories, photos" },
+    { "priority": "medium", "action": "Complete citation building to major Australian business directories (ensure consistent NAP)" },
+    { "priority": "medium", "action": "Explore AFIA (Australian Finance Industry Association) membership/listing" },
+    { "priority": "medium", "action": "Create linkable financial resource content (guides, tools) that can earn editorial links" },
+    { "priority": "low", "action": "Commission full backlink audit via DataForSEO or Ahrefs to identify toxic links and disavow candidates" }
+  ]
+}

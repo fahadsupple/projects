@@ -1,0 +1,111 @@
+{
+  "phase": 4,
+  "name": "Local SEO Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+
+  "summary": "Sure Cash Finance has 4 physical branches: Sydney (HQ), Gosford, Wollongong, and Tweed Heads. The SE Ranking data from init shows that the majority of tracked keyword rankings are in the local_pack (Google Business Profile / Maps results), NOT organic. This is the single most critical strategic finding: the business is competing primarily via GBP, not organic search.",
+
+  "gbp_analysis": {
+    "critical_finding": "SE Ranking positions are almost entirely local_pack type — not organic. This means: (1) the business's current 'SEO' wins are primarily GBP-driven, not website-driven; (2) any algorithm change to Maps/local pack could eliminate most tracked rankings; (3) organic SEO for the website is significantly underdeveloped relative to GBP performance.",
+    "branches": [
+      {
+        "name": "Sure Cash Finance — Sydney",
+        "url": "/service-areas/sydney/",
+        "status": "HQ location. GBP likely exists but Google review count (454+ reviews) suggests active GBP management.",
+        "page_has_address": false,
+        "page_has_phone": "1300 787 322 in header (shared number)",
+        "page_has_hours": false,
+        "page_has_map": "Unknown — WPBakery rendering prevents crawl confirmation",
+        "local_business_schema": false
+      },
+      {
+        "name": "Sure Cash Finance — Gosford",
+        "url": "/service-areas/gosford/",
+        "status": "Active branch. Top GSC page (456 clicks on OLD /gosford/ URL — now 404).",
+        "page_has_address": false,
+        "page_has_phone": "Gosford local number: 0265249210 found in homepage source",
+        "page_has_hours": false,
+        "page_has_map": "Unknown",
+        "local_business_schema": false
+      },
+      {
+        "name": "Sure Cash Finance — Wollongong",
+        "url": "/service-areas/wollongong/",
+        "status": "Active branch. 3rd GSC page (283 clicks on OLD /wollongong/ URL — now 404).",
+        "page_has_address": false,
+        "page_has_phone": false,
+        "page_has_hours": false,
+        "page_has_map": "Unknown",
+        "local_business_schema": false
+      },
+      {
+        "name": "Sure Cash Finance — Tweed Heads",
+        "url": "/service-areas/tweed-heads/",
+        "status": "Active branch. 2nd GSC page (302 clicks on OLD /tweed-heads/ URL — now 404). Title tag has typo 'Headss'.",
+        "page_has_address": false,
+        "page_has_phone": false,
+        "page_has_hours": false,
+        "page_has_map": "Unknown",
+        "local_business_schema": false
+      }
+    ]
+  },
+
+  "nap_consistency": {
+    "phone_number_found": "1300 787 322 (1300 SURECASH) in header on all pages",
+    "gosford_direct_number": "02 6524 9210 (found in homepage source)",
+    "address_on_website": "NO PHYSICAL ADDRESSES found on any page during crawl. This is a significant local SEO weakness — Google strongly recommends full NAP (Name, Address, Phone) on location pages.",
+    "finding": "The website does not display physical addresses for any of its 4 branches. Without visible NAP, Google cannot confirm address consistency between website and GBP listings. This is a local SEO gap even if the GBP listings are correct."
+  },
+
+  "local_schema": {
+    "local_business_schema": "ABSENT from all pages — no LocalBusiness, FinancialService, or LoanOrMortgage schema found on any location page",
+    "homepage_schema": "WebSite + FAQPage only — no Organization or LocalBusiness schema",
+    "impact": "Without LocalBusiness schema on branch pages, Google cannot confirm structured branch data from the website. This weakens the site's co-citation signals for local pack rankings.",
+    "recommended_schema_per_branch": {
+      "@type": ["LocalBusiness", "FinancialService"],
+      "fields": ["name", "url", "telephone", "address (PostalAddress)", "geo (GeoCoordinates)", "openingHours", "image", "priceRange", "paymentAccepted", "currenciesAccepted"]
+    }
+  },
+
+  "virtual_service_area_strategy": {
+    "pages_count": "~26 virtual service area pages (cities without a physical branch)",
+    "duplicator_risk": "These pages are 98%+ identical. Google's Quality Guidelines for local pages explicitly require unique, locally relevant content. Template-generated location pages are a known spam pattern.",
+    "google_maps_local_pack_eligibility": "Surecash cannot appear in the local pack for cities where it has no physical branch. These virtual pages can only target organic results — and their thin duplicate content makes that very difficult.",
+    "recommendation": "Prioritise content investment on the 4 real branch pages. For virtual areas: noindex the lowest-traffic pages, or invest in genuine local content (local financial counsellor resources, Centrelink office info, local demographics context) for the highest-potential virtual areas."
+  },
+
+  "citation_building": {
+    "citations_page": "/citations/ page exists and is indexable — likely an internal tracking tool for citation submissions, should be noindexed",
+    "brand_consistency": "Brand name is 'Sure Cash Finance'. Google Business Profile likely listed under this name. Website title uses 'Sydney Fast Cash Loans | Sure Cash Finance' in some page titles — the 'Sydney Fast Cash Loans' sub-brand in meta titles could create inconsistency if GBP uses different name.",
+    "key_citation_directories": ["Yellow Pages", "True Local", "Yelp Australia", "Hotfrog"]
+  },
+
+  "review_signals": {
+    "google_reviews": "4.8 stars, 454+ reviews (shown in homepage footer widget). Strong.",
+    "trustindex_widget": "Present on homepage and about-us — Google reviews displayed via Trustindex",
+    "review_response": "Cannot assess from crawl whether business responds to reviews",
+    "review_velocity": "454+ reviews over 25 years — consistent positive reputation",
+    "notable_reviewers_in_content": "Reviews mention team members: Paul, Sue, Val — personalises the brand"
+  },
+
+  "hyperlocal_content_gaps": {
+    "gosford": "No mention of specific Gosford suburbs served, local parking info, opening hours, or branch address on page",
+    "wollongong": "No mention of Wollongong CBD location, north/south Wollongong suburbs, branch-specific info",
+    "tweed_heads": "No mention of Gold Coast border location, QLD-adjacent service area, branch-specific info",
+    "sydney": "No mention of specific Sydney suburbs, HQ address, branch details"
+  },
+
+  "issues_priority": [
+    { "priority": "critical", "issue": "No physical addresses on any branch location page", "fix": "Add full street address, suburb, state, postcode to Gosford, Wollongong, Tweed Heads, and Sydney pages" },
+    { "priority": "critical", "issue": "No LocalBusiness schema on branch pages", "fix": "Add FinancialService/LocalBusiness JSON-LD schema to all 4 branch pages with full NAP + hours + geo coords" },
+    { "priority": "critical", "issue": "/citations/ page is publicly indexed", "fix": "Add noindex meta robots or restrict access — it's an internal tracking page" },
+    { "priority": "high", "issue": "All tracked SE Ranking positions are local_pack, not organic", "fix": "Strategic implication: website organic SEO is underdeveloped. Prioritise building organic rankings alongside GBP maintenance." },
+    { "priority": "high", "issue": "Branch pages have no opening hours", "fix": "Add opening hours to all 4 branch pages and in LocalBusiness schema" },
+    { "priority": "high", "issue": "No branch-specific phone numbers on Wollongong, Tweed Heads, Sydney pages", "fix": "Display direct branch phone numbers — supports local call tracking and NAP consistency" },
+    { "priority": "medium", "issue": "26+ virtual service area pages cannot appear in local pack", "fix": "Audit GSC data per virtual page. Noindex pages with <10 impressions/month. Keep only pages with genuine organic search demand." },
+    { "priority": "medium", "issue": "'Sydney Fast Cash Loans' branding in page titles inconsistent with primary brand name", "fix": "Decide on primary brand and ensure consistency: use 'Sure Cash Finance' as brand name across all titles" },
+    { "priority": "low", "issue": "No Google Maps embed on location pages", "fix": "Embed Google Map for each branch location" }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "phase": 1,
+  "name": "Technical SEO Audit",
+  "audited": "2026-04-22",
+  "domain": "surecash.com.au",
+
+  "server": {
+    "server": "LiteSpeed",
+    "php_version": "8.3.30",
+    "wordpress_version": "6.9.4",
+    "cms_plugins_detected": ["Yoast SEO", "WP Rocket 3.21.1", "WPBakery Page Builder", "Ultimate VC Addons", "Business Reviews Bundle"],
+    "theme": "DT The7 v14.3.1",
+    "http2": true,
+    "http3_quic": true
+  },
+
+  "https_redirects": {
+    "https_served": true,
+    "http_to_https_redirect": false,
+    "finding": "CRITICAL: http://surecash.com.au/ returns 200 OK instead of redirecting to HTTPS. HTTP loads the site directly without redirect. This creates a split between HTTP and HTTPS versions, potential duplicate content, and means non-HTTPS traffic is served insecurely.",
+    "www_redirect": "www.surecash.com.au correctly redirects to surecash.com.au (301)",
+    "trailing_slash": "Canonical trailing-slash redirect working (301)"
+  },
+
+  "hsts": {
+    "header_present": true,
+    "value": "max-age=63072000; includeSubDomains",
+    "note": "HSTS is set but HTTP-to-HTTPS redirect is not enforced at the server level — a conflict"
+  },
+
+  "security_headers": {
+    "strict_transport_security": "Present (max-age=63072000; includeSubDomains)",
+    "x_frame_options": "SAMEORIGIN",
+    "x_content_type_options": "nosniff",
+    "content_security_policy": "MISSING",
+    "permissions_policy": "MISSING",
+    "referrer_policy": "MISSING"
+  },
+
+  "wordpress_security": {
+    "xmlrpc": "Returns 405 with x-robots-tag: noindex — restricted but accessible",
+    "wp_login": "Accessible at /wp-login.php (200) — no IP restriction observed",
+    "wp_json_users_exposed": true,
+    "wp_json_users_detail": "REST API /wp/v2/users returns usernames: keiran_kirannyyy, colourfaster_pietzzz, frogs-n-dogs — user enumeration risk",
+    "wp_json_api": "Accessible at /wp-json/ (200)"
+  },
+
+  "sitemap": {
+    "robots_txt_declaration": "Sitemap: https://surecash.com.au/sitemap_index.xml",
+    "sitemap_index_url": "https://surecash.com.au/sitemap_index.xml",
+    "sitemap_index_uses_http": true,
+    "finding": "Sitemap index references HTTP URLs (http://surecash.com.au/post-sitemap.xml etc.) instead of HTTPS. Child sitemaps use HTTPS correctly. The HTTP references in the index may confuse search engine crawlers.",
+    "total_pages_in_sitemap": 69,
+    "total_posts_in_sitemap": 32,
+    "category_pages_in_sitemap": 6,
+    "tag_pages_in_sitemap": 8,
+    "category_pages_noindexed": false,
+    "tag_pages_noindexed": false,
+    "finding_categories_tags": "Blog category and tag pages (e.g. /category/payday-loans/, /tag/cash-loans/) are indexable and included in the XML sitemap but have no unique content. These are thin taxonomy pages that dilute crawl budget and create duplicate signals."
+  },
+
+  "robots_txt": {
+    "url": "https://surecash.com.au/robots.txt",
+    "disallow_wp_admin": true,
+    "allow_admin_ajax": true,
+    "no_disallow_issues": true,
+    "content": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nSitemap: https://surecash.com.au/sitemap_index.xml"
+  },
+
+  "indexable_admin_pages": {
+    "finding": "CRITICAL: Four internal/admin pages are indexable with no robots meta noindex tag and no sitemap exclusion.",
+    "pages": [
+      { "url": "/leads/", "title": "leads - Sydney Fast Cash Loans | Sure Cash Finance", "issue": "Internal leads page — should be noindexed" },
+      { "url": "/citations/", "title": "Citations | Sydney Fast Cash Loans | Sure Cash Finance", "issue": "Internal citations tracking page — should be noindexed" },
+      { "url": "/brand-page/", "title": "Brand Page | Sydney Fast Cash Loans | Sure Cash Finance", "issue": "Internal brand/agency page — should be noindexed" },
+      { "url": "/lm-buy/", "title": "LM Buy | Sydney Fast Cash Loans | Sure Cash Finance", "issue": "Internal buy page — should be noindexed" }
+    ]
+  },
+
+  "canonical": {
+    "homepage_canonical": "https://surecash.com.au (missing trailing slash — inconsistent with sitemap URLs which use https://surecash.com.au/)",
+    "product_pages": "Correct self-referencing canonicals on all tested product pages",
+    "location_pages": "Correct self-referencing canonicals on location pages"
+  },
+
+  "page_speed": {
+    "ttfb_homepage": "0.93s",
+    "total_load_time_homepage": "1.59s",
+    "html_size_homepage": "345KB",
+    "page_speed_api": "Quota exceeded — PSI data not available for this session",
+    "performance_signals": {
+      "inline_scripts_size": "66KB",
+      "inline_styles_size": "120KB",
+      "external_js_count": 18,
+      "lazy_load_images": true,
+      "lazy_load_attributes": 64,
+      "defer_scripts": 18,
+      "async_scripts": 6,
+      "preload_links": 7,
+      "wp_rocket_active": true,
+      "css_minified_combined": true
+    },
+    "finding": "HTML payload is 345KB — high for a text-based financial site. 120KB inline styles and 66KB inline JS are baked into the page. WP Rocket is active (lazy load, defer, minify). TTFB at 0.93s is acceptable but not excellent for a financial site where users expect immediate response."
+  },
+
+  "mobile": {
+    "responsive": true,
+    "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+    "user_scalable_blocked": true,
+    "finding": "user-scalable=0 prevents pinch-to-zoom on mobile devices. This is an accessibility violation (WCAG 1.4.4) and a Google mobile usability signal. Should be removed."
+  },
+
+  "structured_data": {
+    "homepage": {
+      "types_present": ["WebSite", "WebPage", "BreadcrumbList", "FAQPage"],
+      "local_business_schema": "MISSING",
+      "organization_schema": "MISSING",
+      "financial_service_schema": "MISSING",
+      "faq_count": 10
+    },
+    "product_pages": {
+      "types_present": ["WebPage", "FAQPage", "BreadcrumbList"],
+      "faq_count_per_page": "3 (low)",
+      "review_schema": "MISSING"
+    },
+    "location_pages": {
+      "local_business_schema": "MISSING",
+      "finding": "No LocalBusiness schema on any location page tested (Gosford, Wollongong, Tweed Heads, Sydney). For a business with physical branches, LocalBusiness schema with address, phone, and opening hours is expected."
+    }
+  },
+
+  "internal_linking": {
+    "homepage_internal_links": 21,
+    "nav_link_structure": "Standard header + footer nav present",
+    "loan_product_pages_link_to_locations": false,
+    "location_pages_link_to_products": false,
+    "finding": "Weak internal linking between product pages and location pages. The payday-loans page links only to nav items, not to location-specific pages. Location pages do not link to loan product pages. This limits PageRank flow between the site's two main content pillars."
+  },
+
+  "crawlability": {
+    "homepage_status": 200,
+    "www_redirect": "301 to non-www",
+    "http_redirect": "200 (MISSING redirect to HTTPS)",
+    "broken_links_found": 0,
+    "orphan_pages": {
+      "check": "lm-buy, citations, brand-page, leads — present in sitemap but appear to be internal admin tools"
+    }
+  },
+
+  "issues_priority": [
+    { "priority": "critical", "issue": "HTTP does not redirect to HTTPS", "fix": "Add server-level 301 redirect: http://surecash.com.au/* → https://surecash.com.au/" },
+    { "priority": "critical", "issue": "4 admin/internal pages indexable (leads, citations, brand-page, lm-buy)", "fix": "Add <meta name='robots' content='noindex, nofollow'> to all 4 pages, or add to robots.txt Disallow" },
+    { "priority": "critical", "issue": "WordPress user enumeration via REST API", "fix": "Disable /wp-json/wp/v2/users endpoint or restrict to authenticated users" },
+    { "priority": "high", "issue": "Sitemap index uses HTTP URLs in <loc> tags", "fix": "Update WordPress Site URL to HTTPS in Settings — this will fix Yoast sitemap output" },
+    { "priority": "high", "issue": "Blog category and tag pages indexed with no unique content", "fix": "Add noindex to all category and tag archive pages via Yoast SEO settings" },
+    { "priority": "high", "issue": "LocalBusiness/FinancialService schema missing on all pages", "fix": "Add Organization/FinancialService schema to homepage; add LocalBusiness schema to branch location pages (Gosford, Wollongong, Tweed Heads, Sydney)" },
+    { "priority": "medium", "issue": "Homepage canonical URL missing trailing slash", "fix": "Set canonical to https://surecash.com.au/ (with trailing slash) to match sitemap" },
+    { "priority": "medium", "issue": "user-scalable=0 on viewport meta blocks pinch zoom", "fix": "Remove maximum-scale=1 and user-scalable=0 from viewport meta tag" },
+    { "priority": "medium", "issue": "No Content-Security-Policy header", "fix": "Implement CSP header via LiteSpeed/server config" },
+    { "priority": "low", "issue": "WP Rocket delays some JS — verify Core Web Vitals via CrUX data in GSC", "fix": "Monitor CWV in GSC Page Experience report" }
+  ]
+}
