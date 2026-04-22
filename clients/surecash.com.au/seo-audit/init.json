@@ -1,0 +1,83 @@
+{
+  "domain": "surecash.com.au",
+  "audit_initialized": "2026-04-22",
+  "business": {
+    "name": "Sure Cash Finance",
+    "legal_entity": "Shimtec Pty Ltd",
+    "acn": "001928516",
+    "acl": "390591",
+    "afca_membership": "43334",
+    "type": "ASIC-regulated short-term cash loan lender",
+    "products": {
+      "SACC": "$300–$2,000",
+      "MACC": "$2,001–$5,000"
+    },
+    "locations": [
+      "Sydney (HQ)",
+      "Gosford",
+      "Wollongong",
+      "Tweed Heads"
+    ],
+    "cms": "WordPress",
+    "subdomains": ["apply.surecash.com.au"]
+  },
+  "seranking": {
+    "project_id": 9257045,
+    "tracked_keywords": 100
+  },
+  "baseline_metrics": {
+    "domain_authority_inlink_rank": 29,
+    "dataforseo_overview": {
+      "total_keywords": 785,
+      "estimated_traffic_value_monthly": 1643,
+      "avg_position": 64.7,
+      "keywords_top10": 9,
+      "keywords_new": 592,
+      "keywords_up": 150,
+      "keywords_down": 39
+    },
+    "gsc_90_days": {
+      "homepage_clicks": 2822,
+      "homepage_avg_position": 24,
+      "branded_query_share_approx": "70%",
+      "top_pages_by_clicks": [
+        { "url": "/gosford/", "clicks": 456 },
+        { "url": "/centrelink-loans/", "clicks": 369 },
+        { "url": "/tweed-heads/", "clicks": 302 },
+        { "url": "/wollongong/", "clicks": 283 }
+      ]
+    },
+    "seranking_tracked_trend": {
+      "note": "Improving — top-3 grew 20→28, not-ranking shrank 16→4",
+      "big_movers": [
+        { "keyword": "loans on centrelink", "volume": 22200, "pos_before": 80, "pos_after": 42 }
+      ],
+      "new_entries_pos70_80": [
+        { "keyword": "payday loans", "volume": 33100 },
+        { "keyword": "cash loans", "volume": 22200 },
+        { "keyword": "same day loans", "volume": 6600 }
+      ]
+    }
+  },
+  "competitors": [
+    { "domain": "nimble.com.au", "etv_monthly": 114067 },
+    { "domain": "cashtrain.com.au", "etv_monthly": 80894 },
+    { "domain": "cashdirect.com.au", "etv_monthly": 57454 },
+    { "domain": "fundo.com.au", "etv_monthly": 29407 },
+    { "domain": "credit24.com.au", "etv_monthly": 21492 }
+  ],
+  "audit_phases": {
+    "phase1_technical": "pending",
+    "phase2_onpage": "pending",
+    "phase3_content": "pending",
+    "phase4_local": "pending",
+    "phase5_keywords": "pending",
+    "phase6_backlinks": "pending",
+    "phase7_report": "pending"
+  },
+  "notes": {
+    "ranking_type": "Majority of SE Ranking positions are local_pack (GBP/Maps), not organic. Critical distinction for SEO strategy.",
+    "regulatory": "ASIC regulated — all content changes must comply with responsible lending obligations and NCCP Act.",
+    "ga4_status": "plugin:seoaudit:ga4 not connecting at init. Run /seoaudit:setup to configure GA4 credentials. Phases 2 and 5 will fall back to GSC + SE Ranking."
+  }
+}
