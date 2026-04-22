@@ -99,12 +99,20 @@ Individual bedroom furniture pieces (chest of drawers, bedside tables, tallboys,
 ## QA process — run SERP checks on ALL keyword pairs before finalising any plan
 Before any plan is considered final, run a live SERP check on every individual keyword (primary and secondary) in the plan. SERPs change — a keyword that was clean at research time may have a national chain ranking by the time the plan is delivered.
 **Why:** During v1.3 QA for triplejfurniture, 4 secondaries that had been previously validated were found to have national chains ranking (IKEA, Amart, Harvey Norman, Freedom) when re-checked. One secondary ("bedroom suite sydney") had completely wrong intent (hotel suites). These would have been delivered to the client without QA.
-**How to apply:** After building the keyword mapping, run live search checks on all 20 keywords (or equivalent number). Do not rely on prior research alone. Replace any keyword where a chain appears at position 1–4. Flag but evaluate keywords with chains at position 5–8 (may still be acceptable if majority of SERP is local specialists).
+**How to apply:** After building the keyword mapping, run live search checks on all 20 keywords (or equivalent number). Do not rely on prior research alone. For each keyword, apply the proportion test: are small/independent stores dominant? Replace keywords where chains hold 3+ positions, or where the SERP has no viable independent presence.
 
 ## National chain presence — threshold for rejection vs amber
-A keyword is rejected if a national chain (Amart, Harvey Norman, Temple & Webster, Freedom, Fantastic Furniture, IKEA) appears at position 1–4. A keyword at position 5–8 is amber — evaluate whether local specialists fill the top spots and whether the domain can realistically rank above the chain over time.
-**Why:** Position 1–4 chains dominate click share and are very hard to beat for DR < 20 domains. Position 5–8 chains are present but being outranked by smaller sites — which signals the SERP is at least partially achievable.
-**How to apply:** At QA, note exact position of any chain. Reject positions 1–4. For positions 5–8: check whether positions 1–4 are small independents — if yes, proceed with amber note. Fantastic Furniture is NOT on the reject list for these clients; treat as a beatable mid-tier chain.
+The primary test is not position — it is proportion. 1–2 national chains anywhere in the top 10 is acceptable provided small/independent stores dominate the remaining positions. A SERP where chains hold 3+ spots, or where a single chain holds #1 AND #2, is a rejection signal.
+
+**Why:** A client confirmed during triplejfurniture.com.au validation that 1–2 chains present is fine as long as small stores are winning the majority of the page. The old position-only rule (chains at 1–4 = reject) was too strict — it rejected viable keywords where independents held #1 and #2 and a chain only appeared at #3 or #4.
+
+**How to apply:**
+- Count chains vs independents across the full top 10
+- If chains ≤ 2 AND independents hold the majority → PASS (or amber if a chain holds #1 or #2)
+- If chains ≥ 3 OR a single chain holds both #1 and #2 → REJECT
+- Always ask: "Are small stores winning this SERP?" If yes, the client can compete. If no, reject.
+- Fantastic Furniture is NOT on the reject list; treat as a beatable mid-tier chain
+- Nick Scali and Coco Republic are treat as real chains (reject-eligible) but not as dominant as IKEA/Harvey Norman/Amart
 
 ## "Bedroom suite" + city modifier pulls hotel SERPs, not furniture SERPs
 Never use "[bedroom suite] [city]" as a furniture keyword. "Bedroom suite sydney" returns Four Seasons, Langham, Park Hyatt — hotel accommodation SERPs entirely. Zero furniture retailers present except as stray results.

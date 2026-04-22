@@ -85,9 +85,15 @@ When homepage target keywords are too competitive for a new/weak domain, place t
 ---
 
 ## National chain presence — threshold for rejection vs amber
-- **Reject:** national chain (Amart, Harvey Norman, Temple & Webster, Freedom, Fantastic Furniture, IKEA) at positions 1–4
-- **Amber (evaluate):** chain at positions 5–8 — check whether local specialists fill top spots
+The primary test is proportion, not position. 1–2 national chains in the top 10 is acceptable provided small/independent stores dominate the remaining positions.
+
+- **Pass:** ≤ 2 chains in top 10, independents hold the majority of positions
+- **Amber:** 1–2 chains present, including in top 4 — evaluate whether independents still win the most spots
+- **Reject:** ≥ 3 chains, OR a single chain holds both #1 and #2, OR no meaningful independent presence
 - Fantastic Furniture is NOT on the reject list; treat as a beatable mid-tier chain
+- Always ask: "Are small stores winning this SERP?" If yes, the client can compete
+
+**Why:** A client confirmed during triplejfurniture.com.au validation that 1–2 chains is fine as long as small stores are winning the majority of the page. The old position-only rule was too strict — it rejected viable keywords where independents held #1 and #2 and a chain only appeared at #3 or #4.
 
 ---
 
