@@ -16,6 +16,7 @@ originSessionId: 81e50042-3c9e-4c29-91de-238cd6a73314
   - BAD: "property lawyer" + "property lawyer melbourne" (one contains the other)
   - GOOD: "property lawyer melbourne" + "property law specialist melbourne"
 - SERP validation is mandatory before finalising any keyword — check page type, intent, competitive set
+- **Use site: queries to verify client product/service offerings:** Before finalising a keyword, run `site:[client-domain] [product/style]` in Google to confirm the client actually stocks or offers what the keyword targets. E.g. `site:triplejfurniture.com.au hamptons` confirms they carry Hamptons-style pieces. Faster than asking the client for every detail.
 - GKP is the source of truth for volume — Ahrefs volumes are relative indicators only, never final
 - Always save learnings and decisions to memory as the project progresses
 - **Never assume or proceed without key data** — if search volume, client detail, or SERP result is missing and needed, ask for it
