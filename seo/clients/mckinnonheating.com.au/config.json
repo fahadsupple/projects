@@ -1,0 +1,20 @@
+{
+  "mode": "fresh",
+  "business_type": "local_service",
+  "keyword_type": "fixed_split",
+  "general_keywords": 5,
+  "location_keywords": 50,
+  "suburb_source": "client-provided",
+  "primary_services": [
+    "ducted heating",
+    "air conditioning",
+    "split systems"
+  ],
+  "secondary_services": [
+    "hydronic heating",
+    "evaporative cooling"
+  ],
+  "target_state": "VIC",
+  "target_city": "Melbourne",
+  "location_priority": "St Kilda to Brighton to Sandringham to Moorabbin corridor"
+}

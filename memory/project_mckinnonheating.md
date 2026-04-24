@@ -1,6 +1,6 @@
 ---
 name: mckinnonheating.com.au — Project Status
-description: McKinnon Heating & Cooling SEO keyword research — Melbourne Bayside HVAC, ducted heating/AC/split systems primary, initialized Apr 2026
+description: McKinnon Heating & Cooling SEO keyword research — Melbourne Bayside HVAC, ducted heating/AC/split systems primary, kwr:init complete 24 Apr 2026
 type: project
 ---
 
@@ -9,7 +9,8 @@ type: project
 **Client:** McKinnon Heating & Cooling
 **Domain:** mckinnonheating.com.au
 **Initialized:** 24 Apr 2026
-**Stage:** Initialized — GKP and SERP research pending
+**Package:** 5 General + 50 Location Key Phrases
+**Stage:** kwr:init complete — ready for kwr:run
 
 ---
 
@@ -29,10 +30,17 @@ Moorabbin base. BDM corridor: St Kilda → Brighton → Sandringham → Moorabbi
 ## Competitors
 2 Masters Heating and Cooling, Bayair, Coldflow, Dale Air, SK AIR, Surrey Air
 
-## Next Steps
-1. Pull GKP data for primary service keywords + location modifiers
-2. SERP validate top candidates
-3. Build keyword plan HTML
+## KWR Pipeline Files
+- `seo/clients/mckinnonheating.com.au/questionnaire.json` ✅
+- `seo/clients/mckinnonheating.com.au/config.json` ✅ (5 general + 50 location, local_service, client-provided suburbs)
+- `seo/clients/mckinnonheating.com.au/keyword-research/seeds-v1.json` ✅ (208 seeds from prior partial run)
+- `seo/clients/mckinnonheating.com.au/memory/client.md` ✅
+- `clients/mckinnonheating.com.au/memory/client_mckinnonheating.md` ✅ (full profile)
+- `clients/mckinnonheating.com.au/bdm-brief.md` ✅
 
-**Why:** New client onboarded 23 Apr 2026, keyword research pipeline starting now.
-**How to apply:** Load `clients/mckinnonheating.com.au/memory/client_mckinnonheating.md` for full client detail before doing any work.
+## Next Steps
+1. Run `/kwr:run` — full Phase 0–6 pipeline
+2. HTML report → `clients/mckinnonheating.com.au/keyword-research/`
+
+**Why:** kwr:init complete 24 Apr 2026. Seeds from prior partial session exist.
+**How to apply:** Load `clients/mckinnonheating.com.au/memory/client_mckinnonheating.md` for full client detail. KWR data in `seo/clients/mckinnonheating.com.au/`.
