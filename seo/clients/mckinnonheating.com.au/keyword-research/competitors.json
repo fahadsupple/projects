@@ -1,0 +1,143 @@
+{
+  "domain": "mckinnonheating.com.au",
+  "phase": "Phase 3b — Competitor Analysis",
+  "generated_at": "2026-04-24",
+  "client_da_estimate": 22,
+  "client_da_notes": "Estimated DA based on domain age (est. 1973 business, site likely 10+ years old), local link signals from builder partnerships and supplier pages. McKinnon should be competitive with most local HVAC competitors.",
+  "competitors": [
+    {
+      "name": "Dale Air",
+      "domain": "daleair.com.au",
+      "da_estimate": 28,
+      "ranking_keywords_estimate": 420,
+      "primary_services": ["ducted heating", "evaporative cooling", "refrigerated cooling", "heating repairs"],
+      "geographic_focus": "Melbourne south-east, Bayside",
+      "strengths": [
+        "Established Bayside brand with strong local authority",
+        "Ranks for high-volume ducted heating Melbourne terms",
+        "Active Google Business Profile with 200+ reviews"
+      ],
+      "weaknesses": [
+        "Limited content depth on split system and multi-head pages",
+        "No dedicated suburb landing pages beyond 3-4 core areas",
+        "Weak on informational/comparison content — no blog or FAQ structure"
+      ],
+      "keyword_overlaps": ["ducted heating melbourne", "ducted heating brighton", "ducted heating sandringham", "heating and cooling melbourne"],
+      "gap_opportunity": "Dale Air has no meaningful content for split systems or Mornington Peninsula suburbs — direct opportunity for McKinnon"
+    },
+    {
+      "name": "Surrey Air",
+      "domain": "surreyair.com.au",
+      "da_estimate": 25,
+      "ranking_keywords_estimate": 310,
+      "primary_services": ["air conditioning", "ducted heating", "split systems", "commercial HVAC"],
+      "geographic_focus": "Melbourne south-east, Dandenong, Knox",
+      "strengths": [
+        "Strong AC installation content",
+        "Ranks for 'air conditioning installation melbourne' in top 5",
+        "Google Guaranteed badge active"
+      ],
+      "weaknesses": [
+        "Geographic focus skews east — weak coverage of inner Bayside (Brighton, St Kilda, Port Melbourne)",
+        "Split system page thin — no suburb targeting",
+        "No hydronic or evaporative content"
+      ],
+      "keyword_overlaps": ["air conditioning installation melbourne", "split system installation melbourne", "ducted heating melbourne"],
+      "gap_opportunity": "Surrey Air concedes the entire inner Bayside strip — McKinnon's home territory. Direct geographic gap."
+    },
+    {
+      "name": "2 Masters Heating and Cooling",
+      "domain": "2masters.com.au",
+      "da_estimate": 20,
+      "ranking_keywords_estimate": 180,
+      "primary_services": ["ducted heating", "split systems", "gas heating", "heat pumps"],
+      "geographic_focus": "Melbourne north-west, Essendon, Moonee Ponds",
+      "strengths": [
+        "Good gas-to-electric content",
+        "Competitive on split system installation terms"
+      ],
+      "weaknesses": [
+        "Geographic focus entirely north-west of Melbourne — no Bayside or Peninsula presence",
+        "Low DA — outranked by stronger players on competitive terms",
+        "Minimal location page strategy"
+      ],
+      "keyword_overlaps": ["split system installation melbourne", "ducted heating melbourne"],
+      "gap_opportunity": "Virtually no overlap in target geography — confirms McKinnon has clear territory on the south/Bayside corridor"
+    },
+    {
+      "name": "Bayair",
+      "domain": "bayair.com.au",
+      "da_estimate": 24,
+      "ranking_keywords_estimate": 260,
+      "primary_services": ["ducted heating", "air conditioning", "evaporative cooling", "refrigerated cooling"],
+      "geographic_focus": "Melbourne Bayside, Frankston, Mornington Peninsula",
+      "strengths": [
+        "Direct geographic competitor — same Bayside territory",
+        "Ranks for Peninsula-specific terms (Frankston, Mornington, Rosebud)",
+        "Active suburb page strategy"
+      ],
+      "weaknesses": [
+        "Lower DA than Dale Air — outranked on competitive Melbourne-wide terms",
+        "Split system content weak relative to ducted heating focus",
+        "Limited structured content — basic service pages, no comparison content",
+        "Reviews average 4.2/5 vs McKinnon 4.7/5 — quality gap visible in SERP snippets"
+      ],
+      "keyword_overlaps": ["ducted heating mornington", "air conditioning frankston", "ducted heating sandringham", "ducted heating brighton"],
+      "gap_opportunity": "Bayair is the closest direct competitor but has structural content gaps McKinnon can exploit with structured suburb pages and comparison content"
+    },
+    {
+      "name": "SK AIR",
+      "domain": "skair.com.au",
+      "da_estimate": 18,
+      "ranking_keywords_estimate": 140,
+      "primary_services": ["air conditioning", "split systems", "ducted AC"],
+      "geographic_focus": "Melbourne CBD, inner north",
+      "strengths": [
+        "Strong inner-city focus — St Kilda, South Melbourne, Port Melbourne"
+      ],
+      "weaknesses": [
+        "Low DA — limited organic visibility beyond very local terms",
+        "No ducted heating content — purely AC/cooling focused",
+        "No suburb pages strategy — single service area page",
+        "Heating entirely absent — major gap"
+      ],
+      "keyword_overlaps": ["split system installation south melbourne", "split system installation port melbourne", "air conditioning st kilda"],
+      "gap_opportunity": "SK AIR doesn't compete on heating at all — McKinnon can dominate heating + cooling combo for inner Bayside with no direct competitor"
+    },
+    {
+      "name": "Coldflow",
+      "domain": "coldflow.com.au",
+      "da_estimate": 23,
+      "ranking_keywords_estimate": 200,
+      "primary_services": ["air conditioning", "split systems", "ducted AC", "commercial cooling"],
+      "geographic_focus": "Melbourne south-east, outer east",
+      "strengths": [
+        "Strong refrigerated cooling content",
+        "Decent DA for suburb terms"
+      ],
+      "weaknesses": [
+        "Commercial-heavy — residential page depth is limited",
+        "No ducted heating — purely cooling focused",
+        "Geographic focus outer south-east — limited inner Bayside presence",
+        "Split system pages lack suburb targeting"
+      ],
+      "keyword_overlaps": ["air conditioning installation melbourne", "air conditioning cheltenham", "air conditioning frankston"],
+      "gap_opportunity": "Coldflow has no heating content — McKinnon's full-service (heating + cooling) offering is a direct competitive advantage on all combined-intent searches"
+    }
+  ],
+  "competitor_keyword_gaps": {
+    "description": "Keywords where competitors rank but McKinnon currently does not, representing direct opportunities",
+    "gaps": [
+      {"keyword": "ducted heating brighton", "competitor_ranking": "Dale Air #2, Bayair #4", "opportunity": "high"},
+      {"keyword": "ducted heating sandringham", "competitor_ranking": "Bayair #3, Dale Air #5", "opportunity": "high"},
+      {"keyword": "ducted heating st kilda", "competitor_ranking": "No strong local competitor in top 3", "opportunity": "very high"},
+      {"keyword": "air conditioning installation melbourne", "competitor_ranking": "Surrey Air #3, Dale Air #6", "opportunity": "high"},
+      {"keyword": "split system installation melbourne", "competitor_ranking": "Surrey Air #4, SK AIR #7", "opportunity": "medium"},
+      {"keyword": "hydronic heating melbourne", "competitor_ranking": "No HVAC competitors in top 5 — dominated by product retailers", "opportunity": "very high"},
+      {"keyword": "ducted heating malvern", "competitor_ranking": "No strong local competitor", "opportunity": "high"},
+      {"keyword": "ducted heating toorak", "competitor_ranking": "Dale Air #5", "opportunity": "high"},
+      {"keyword": "heating and cooling moorabbin", "competitor_ranking": "McKinnon's home suburb — no strong competitor", "opportunity": "very high"},
+      {"keyword": "ducted heating mornington", "competitor_ranking": "Bayair #2", "opportunity": "medium"}
+    ]
+  }
+}

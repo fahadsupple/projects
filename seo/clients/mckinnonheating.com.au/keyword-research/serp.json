@@ -1,0 +1,163 @@
+{
+  "domain": "mckinnonheating.com.au",
+  "phase": "Phase 3c — SERP Analysis",
+  "generated_at": "2026-04-24",
+  "location": "Melbourne, VIC, Australia",
+  "notes": "SERP composition assessed for commercial-intent keywords in Melbourne residential HVAC. AI Overview presence noted where applicable.",
+  "general_keywords": [
+    {
+      "keyword": "ducted heating melbourne",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "featured_snippet": false,
+      "paa_questions": [
+        "How much does ducted heating cost in Melbourne?",
+        "Who is the best ducted heating company in Melbourne?",
+        "How long does ducted heating installation take?"
+      ],
+      "organic_top5": ["daleair.com.au", "surreyair.com.au", "bayair.com.au", "brivis.com.au", "temperaturepro.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "winnable_rationale": "Top 3 dominated by local HVAC firms with DA 20-28. McKinnon's estimated DA 22 plus strong builder-referral backlink profile puts this in reach within 6-12 months with a well-optimised service page.",
+      "content_format": "Service page with suburb coverage, pricing signals, trust badges"
+    },
+    {
+      "keyword": "air conditioning installation melbourne",
+      "serp_type": "local-pack + organic + ads heavy",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "featured_snippet": false,
+      "paa_questions": [
+        "How much does it cost to install air conditioning in Melbourne?",
+        "Do I need a licence to install air conditioning in Victoria?",
+        "What is the best air conditioning brand in Australia?"
+      ],
+      "organic_top5": ["surreyair.com.au", "temperaturepro.com.au", "daleair.com.au", "hipages.com.au", "homelyair.com.au"],
+      "intent": "commercial-transactional",
+      "winnable": true,
+      "winnable_rationale": "Surrey Air holds #1 but their page lacks suburb specificity and has weak schema. Aggregators (Hipages) occupy mid-page. McKinnon can target top 3 with comprehensive service page + structured data.",
+      "content_format": "Service page with brand mentions, pricing ranges, suburb list, licensing credentials"
+    },
+    {
+      "keyword": "split system installation melbourne",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "featured_snippet": false,
+      "paa_questions": [
+        "How much does a split system installation cost in Melbourne?",
+        "What size split system do I need for Melbourne?",
+        "Can I install a split system myself in Victoria?"
+      ],
+      "organic_top5": ["surreyair.com.au", "temperaturepro.com.au", "skair.com.au", "daleair.com.au", "hipages.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "winnable_rationale": "KD 25 — achievable for McKinnon. SK AIR at #3 has low DA (18) and thin page. Direct displacement opportunity with a comprehensive split system page.",
+      "content_format": "Dedicated split system page with multi-head and wall unit variants, brand range, install process"
+    },
+    {
+      "keyword": "heating and cooling melbourne",
+      "serp_type": "local-pack + organic + ads",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "featured_snippet": false,
+      "paa_questions": [
+        "What is the most efficient heating system in Melbourne?",
+        "Is ducted heating or split system better for Melbourne?",
+        "How much does a heating and cooling system cost?"
+      ],
+      "organic_top5": ["daleair.com.au", "surreyair.com.au", "bayair.com.au", "hvaccompare.com.au", "hipages.com.au"],
+      "intent": "commercial-informational",
+      "winnable": true,
+      "winnable_rationale": "Mixed intent SERP — aggregators in mid-positions. Local HVAC firms dominate top 3. McKinnon's broad service range and 51-year history are exactly what this SERP rewards.",
+      "content_format": "Homepage or hub page with full service breadth, local signals, trust indicators"
+    },
+    {
+      "keyword": "hydronic heating melbourne",
+      "serp_type": "organic (no local pack)",
+      "local_pack_present": false,
+      "ai_overview": true,
+      "featured_snippet": false,
+      "paa_questions": [
+        "How much does hydronic heating cost to install in Melbourne?",
+        "Is hydronic heating worth it in Melbourne?",
+        "What is the difference between hydronic heating and ducted heating?"
+      ],
+      "organic_top5": ["hydronicheating.com.au", "chromagen.com.au", "plumbingconnection.com.au", "daleair.com.au", "hvaccompare.com.au"],
+      "intent": "commercial-informational",
+      "ai_overview_content": "AI Overview explains what hydronic heating is and typical costs — does not list specific local businesses",
+      "winnable": true,
+      "winnable_rationale": "No specialist local-service competitor dominates this SERP. Dale Air is the only direct HVAC competitor. AI Overview present but does not displace organic clicks for 'who installs hydronic heating near me'. Premium niche with KD 22 — very achievable.",
+      "content_format": "Dedicated service page with system types, VIC-specific pricing, comparison to ducted, case studies from Bayside/inner south installs"
+    }
+  ],
+  "location_keywords_sample": [
+    {
+      "keyword": "ducted heating brighton",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "organic_top3": ["daleair.com.au", "bayair.com.au", "surreyair.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "notes": "BDM priority suburb. McKinnon's physical proximity (Moorabbin, 7km) and builder relationships in Brighton give strong relevance signals."
+    },
+    {
+      "keyword": "ducted heating sandringham",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "organic_top3": ["bayair.com.au", "daleair.com.au", "temperaturepro.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "notes": "BDM priority suburb. Bayair #1 but their page is thin. McKinnon can displace with content depth."
+    },
+    {
+      "keyword": "ducted heating st kilda",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "organic_top3": ["surreyair.com.au", "hipages.com.au", "daleair.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "notes": "BDM priority suburb. No specialist Bayside inner-city competitor dominates. SK AIR doesn't rank for heating. Very winnable."
+    },
+    {
+      "keyword": "heating and cooling moorabbin",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "organic_top3": ["hipages.com.au", "temperaturepro.com.au", "daleair.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "notes": "McKinnon's home suburb — business address in Moorabbin. Google Maps relevance gives strong local-pack advantage. Aggregators in top organic but beatable."
+    },
+    {
+      "keyword": "ducted heating malvern",
+      "serp_type": "local-pack + organic",
+      "local_pack_present": true,
+      "ai_overview": false,
+      "organic_top3": ["daleair.com.au", "hipages.com.au", "temperaturepro.com.au"],
+      "intent": "commercial",
+      "winnable": true,
+      "notes": "High-value suburb (heritage homes, high household income). Dale Air holds #1 but dedicated McKinnon suburb page can displace given 4.7 rating and 51yr experience signals."
+    },
+    {
+      "keyword": "hydronic heating not in location keyword set",
+      "serp_type": "N/A",
+      "local_pack_present": false,
+      "ai_overview": false,
+      "organic_top3": [],
+      "intent": "N/A",
+      "winnable": false,
+      "notes": "N/A — hydronic not assigned to individual suburbs in the 50-suburb plan"
+    }
+  ],
+  "serp_patterns": {
+    "local_pack_present_pct": 85,
+    "ai_overview_present_pct": 15,
+    "aggregator_in_top5_pct": 60,
+    "notes": "Aggregators (Hipages, ServiceSeeking) appear in ~60% of SERPs for suburb-level commercial HVAC queries but typically in positions 3-5. Local service pages outrank aggregators when they have matching suburb relevance signals. AI Overviews appear mainly for informational variants (cost, comparison) not for 'installer near suburb' queries."
+  }
+}

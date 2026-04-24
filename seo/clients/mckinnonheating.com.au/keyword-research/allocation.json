@@ -1,0 +1,105 @@
+{
+  "domain": "mckinnonheating.com.au",
+  "phase": "Phase 0 — Budget Allocation",
+  "generated_at": "2026-04-24",
+  "package": {
+    "total_keywords": 55,
+    "general_keywords": 5,
+    "location_keywords": 50
+  },
+  "keyword_type": "fixed_split",
+  "service_tiers": {
+    "A": {
+      "label": "Primary — highest commercial value",
+      "services": [
+        "ducted heating",
+        "air conditioning installation",
+        "split systems",
+        "heating and cooling"
+      ],
+      "rationale": "BDM priority services; highest average job value in Melbourne residential HVAC. Ducted heating and AC installation are the dominant search categories in the Bayside corridor.",
+      "general_allocation_pct": 80,
+      "general_keywords_allocated": 4
+    },
+    "B": {
+      "label": "Secondary — meaningful but lower volume",
+      "services": [
+        "hydronic heating",
+        "evaporative cooling"
+      ],
+      "rationale": "Offered services with real search volume but lower job frequency than primary services. Hydronic heating is a premium niche in the Bayside corridor (heritage homes in Brighton, Toorak, Malvern).",
+      "general_allocation_pct": 20,
+      "general_keywords_allocated": 1
+    },
+    "C": {
+      "label": "Long-tail / informational support",
+      "services": [
+        "gas to electric heating conversion",
+        "servicing and repairs"
+      ],
+      "rationale": "Important content pillars but not primary traffic drivers at Melbourne-wide level. Covered via location pages and content.",
+      "general_allocation_pct": 0,
+      "general_keywords_allocated": 0
+    }
+  },
+  "general_keywords_plan": {
+    "total": 5,
+    "notes": "5 general Melbourne-wide keywords targeting the four Tier A services plus one Tier B. Focus on highest commercial-intent terms with proven volume.",
+    "proposed": [
+      {
+        "keyword": "ducted heating melbourne",
+        "service": "ducted heating",
+        "tier": "A",
+        "rationale": "Highest-value service; 720 preliminary monthly searches Melbourne. Non-negotiable Tier A pillar."
+      },
+      {
+        "keyword": "air conditioning installation melbourne",
+        "service": "air conditioning installation",
+        "tier": "A",
+        "rationale": "2,400 preliminary monthly searches; highest volume in seed set. Core commercial intent."
+      },
+      {
+        "keyword": "split system installation melbourne",
+        "service": "split systems",
+        "tier": "A",
+        "rationale": "590 preliminary monthly searches; strong commercial intent; explicit install action modifier."
+      },
+      {
+        "keyword": "heating and cooling melbourne",
+        "service": "heating and cooling",
+        "tier": "A",
+        "rationale": "1,600 preliminary monthly searches; broad catch-all for brand-awareness and general intent."
+      },
+      {
+        "keyword": "hydronic heating melbourne",
+        "service": "hydronic heating",
+        "tier": "B",
+        "rationale": "1,000 preliminary monthly searches; premium niche keyword with strong fit for Bayside heritage home demographic."
+      }
+    ]
+  },
+  "location_keywords_plan": {
+    "total": 50,
+    "model": "1 suburb × 1 service = 1 location page keyword",
+    "service_assignment_logic": "Each suburb is assigned the primary service most commercially relevant to that suburb's housing stock and competitor landscape. BDM priority corridor suburbs (St Kilda, Brighton, Sandringham, Moorabbin) receive highest-value services first.",
+    "service_distribution": {
+      "ducted heating": 20,
+      "air conditioning": 15,
+      "split systems": 10,
+      "heating and cooling": 5
+    },
+    "priority_corridor": ["St Kilda", "Brighton", "Sandringham", "Moorabbin"],
+    "suburbs": [
+      "Albert Park", "Armadale", "Ashburton", "Balaclava", "Balwyn",
+      "Beaumaris", "Bentleigh", "Black Rock", "Blairgowrie", "Brighton",
+      "Brighton East", "Burwood", "Camberwell", "Carnegie", "Carrum",
+      "Caulfield", "Chelsea", "Cheltenham", "Clayton", "Dromana",
+      "Elwood", "Elsternwick", "Frankston", "Glen Iris", "Glen Waverley",
+      "Hawthorn", "Highett", "Hampton", "Kew", "Malvern",
+      "McKinnon", "Mentone", "Mont Albert", "Moorabbin", "Mornington",
+      "Mt Martha", "Mt Waverley", "Oakleigh", "Ormond", "Parkdale",
+      "Prahran", "Port Melbourne", "Portsea", "Rosebud", "Rye",
+      "Sandringham", "Sorrento", "South Melbourne", "St Kilda", "Toorak"
+    ]
+  }
+}

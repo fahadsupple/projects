@@ -1,0 +1,139 @@
+{
+  "domain": "mckinnonheating.com.au",
+  "phase": "Phase 4 — Content Gaps & Quick Wins",
+  "generated_at": "2026-04-24",
+  "gsc_available": false,
+  "gsc_notes": "GSC returned 403 — property not yet added to shared account. GSC data not available for this run.",
+  "site_audit_source": "Manual crawl assessment of mckinnonheating.com.au + competitor content comparison",
+  "existing_content_assessment": {
+    "homepage": {
+      "url": "https://mckinnonheating.com.au",
+      "primary_topic": "General heating and cooling Melbourne",
+      "optimisation_status": "partially optimised",
+      "notes": "Homepage covers the business overview but lacks specific service + suburb signals. No structured schema markup visible. No specific suburb mentions beyond generic 'Melbourne and surrounds'."
+    },
+    "service_pages_found": [
+      {
+        "page": "Ducted Heating",
+        "url_likely": "/ducted-heating",
+        "coverage": "exists — general Melbourne focus",
+        "suburb_targeting": "none",
+        "optimisation_gap": "No suburb landing pages for ducted heating — biggest revenue driver has no local SEO support"
+      },
+      {
+        "page": "Air Conditioning",
+        "url_likely": "/air-conditioning",
+        "coverage": "exists",
+        "suburb_targeting": "none",
+        "optimisation_gap": "AC installation page likely conflates all AC types — split vs ducted AC vs multi-head not differentiated"
+      },
+      {
+        "page": "Split Systems",
+        "url_likely": "/split-systems",
+        "coverage": "likely thin",
+        "suburb_targeting": "none",
+        "optimisation_gap": "Split system page not prominent in current navigation signals"
+      },
+      {
+        "page": "Hydronic Heating",
+        "url_likely": "/hydronic-heating",
+        "coverage": "unknown — likely exists but thin",
+        "suburb_targeting": "none",
+        "optimisation_gap": "Hydronic is a premium niche with 1,000 monthly searches and KD 22 — needs dedicated, in-depth page"
+      },
+      {
+        "page": "Evaporative Cooling",
+        "url_likely": "/evaporative-cooling",
+        "coverage": "likely thin",
+        "suburb_targeting": "none",
+        "optimisation_gap": "Evaporative page thin relative to 1,300 monthly searches"
+      }
+    ],
+    "suburb_pages": {
+      "found": false,
+      "notes": "No suburb-specific landing pages identified. This is the single biggest gap — all 50 target suburbs have no dedicated content."
+    },
+    "blog_content": {
+      "found": false,
+      "notes": "No blog or resource section identified. Informational content gap across comparison keywords, cost guides, and installation guides."
+    }
+  },
+  "content_gaps": [
+    {
+      "gap_type": "suburb_landing_pages",
+      "priority": "critical",
+      "description": "Zero suburb-specific pages exist for any of the 50 target locations. Competitors (Bayair, Dale Air) with suburb pages consistently outrank McKinnon for local queries even with lower DAs on some terms.",
+      "action": "Create 50 suburb service pages — one per target suburb. Each page targets one primary keyword (e.g. 'ducted heating brighton') with suburb-specific content, proximity signals, and builder partnership mentions where applicable.",
+      "expected_impact": "high — directly enables top-3 rankings for ~40 location keywords within 6-12 months"
+    },
+    {
+      "gap_type": "hydronic_heating_depth",
+      "priority": "high",
+      "description": "1,000 monthly searches, KD 22, no direct HVAC competitor dominating the SERP. Current site likely has thin or generic hydronic content.",
+      "action": "Build dedicated hydronic heating page: system types (gas boiler, electric heat pump), Bayside/inner-south installation case studies, cost guide for Victorian homes, comparison to ducted.",
+      "expected_impact": "high — top-5 ranking achievable within 6 months for 'hydronic heating melbourne'"
+    },
+    {
+      "gap_type": "split_system_page_depth",
+      "priority": "high",
+      "description": "Split system installation is a 590/mo Melbourne keyword with KD 25. Competitors have thin pages. McKinnon's full install + supply service is undersold.",
+      "action": "Expand split system page: wall split, multi-head, brand range (Daikin, Mitsubishi, Fujitsu), supply + install offering, licensing credentials (RTA AU58246).",
+      "expected_impact": "medium-high — supports both general and location keyword rankings"
+    },
+    {
+      "gap_type": "gas_to_electric_content",
+      "priority": "medium",
+      "description": "McKinnon is an 'industry leader in gas to electric conversions' per questionnaire but this is not reflected in current SEO content. Growing search category as VIC gas phase-out gains momentum.",
+      "action": "Create VEU program landing page + gas-to-electric conversion guide. Target 'gas to electric heating melbourne' and related VEU terms.",
+      "expected_impact": "medium — growing trend keyword; McKinnon has genuine authority here"
+    },
+    {
+      "gap_type": "comparison_and_cost_content",
+      "priority": "medium",
+      "description": "PAA questions across all general keywords reference cost and comparison queries. No cost guides or comparison content exists on the site.",
+      "action": "Create cost guide pages (ducted heating cost melbourne, split system installation cost melbourne) and comparison content (ducted vs split, gas vs electric).",
+      "expected_impact": "medium — informational traffic with commercial fallthrough intent"
+    },
+    {
+      "gap_type": "mornington_peninsula_presence",
+      "priority": "medium",
+      "description": "McKinnon services the Peninsula but has no Peninsula-specific content. Bayair currently dominates Frankston, Mornington, and Peninsula terms.",
+      "action": "Create Peninsula hub page + individual suburb pages for Frankston, Mornington, Rosebud, Dromana, Mt Martha, Sorrento, Portsea, Rye, Blairgowrie.",
+      "expected_impact": "medium — Bayair is beatable on these terms with dedicated content"
+    }
+  ],
+  "quick_wins": [
+    {
+      "keyword": "heating and cooling moorabbin",
+      "type": "quick_win",
+      "rationale": "McKinnon's physical address is in Moorabbin. Google Business Profile location signal is strongest here. No strong organic competitor. Creating a dedicated Moorabbin page should produce top-3 ranking within 3 months.",
+      "current_position_estimate": "not ranking",
+      "target_position": "1-2",
+      "timeline": "2-3 months"
+    },
+    {
+      "keyword": "hydronic heating melbourne",
+      "type": "quick_win",
+      "rationale": "KD 22, 1,000/mo volume, no specialist HVAC competitor in top 5. McKinnon has real hydronic expertise. Low competition SERP dominated by product retailers and aggregators.",
+      "current_position_estimate": "not ranking",
+      "target_position": "1-3",
+      "timeline": "3-6 months"
+    },
+    {
+      "keyword": "ducted heating mckinnon",
+      "type": "quick_win",
+      "rationale": "Suburb literally shares the brand name. No competitor optimises for 'McKinnon' as a location. Brand-location alignment is unique and instant trust signal.",
+      "current_position_estimate": "may rank from homepage proximity signals",
+      "target_position": "1",
+      "timeline": "1-2 months"
+    },
+    {
+      "keyword": "ducted heating st kilda",
+      "type": "quick_win",
+      "rationale": "BDM priority suburb. No heating specialist dominates. SK AIR doesn't cover heating. Create dedicated suburb page and rank within 6 months.",
+      "current_position_estimate": "not ranking",
+      "target_position": "1-3",
+      "timeline": "4-6 months"
+    }
+  ]
+}

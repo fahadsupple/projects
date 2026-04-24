@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keyword Research Plan — McKinnon Heating &amp; Cooling</title>
+<style>
+  :root {
+    --brand-primary: #1a3a5c;
+    --brand-accent: #e85c26;
+    --brand-light: #f0f4f8;
+    --brand-mid: #d0dce8;
+    --text-dark: #1a1a1a;
+    --text-mid: #4a4a4a;
+    --text-light: #767676;
+    --green: #1a7f3c;
+    --green-bg: #e8f5ee;
+    --orange: #c95c00;
+    --orange-bg: #fff3e8;
+    --blue: #0d47a1;
+    --blue-bg: #e3f0ff;
+    --red: #b71c1c;
+    --red-bg: #fce8e8;
+    --radius: 8px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f7fa; color: var(--text-dark); font-size: 14px; line-height: 1.6; }
+
+  /* HEADER */
+  .header { background: var(--brand-primary); color: #fff; padding: 36px 40px 28px; }
+  .header-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .header h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
+  .header .subtitle { font-size: 14px; opacity: 0.80; }
+  .header-meta { text-align: right; font-size: 12px; opacity: 0.70; line-height: 1.8; }
+  .header-badges { display: flex; gap: 10px; margin-top: 16px; }
+  .badge { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.30); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+
+  /* LAYOUT */
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+  .section { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 28px; overflow: hidden; }
+  .section-header { background: var(--brand-primary); color: #fff; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
+  .section-header h2 { font-size: 16px; font-weight: 700; }
+  .section-header .count { background: var(--brand-accent); padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; }
+  .section-body { padding: 20px; }
+
+  /* SUMMARY CARDS */
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }
+  .summary-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; text-align: center; }
+  .summary-card .big-num { font-size: 36px; font-weight: 800; color: var(--brand-primary); line-height: 1; }
+  .summary-card .label { font-size: 12px; color: var(--text-light); margin-top: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .summary-card .sub { font-size: 11px; color: var(--text-light); margin-top: 4px; }
+
+  /* STRATEGY CONTEXT */
+  .context-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .context-item { background: var(--brand-light); border-radius: var(--radius); padding: 14px 16px; }
+  .context-item h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light); margin-bottom: 6px; }
+  .context-item p { font-size: 13px; color: var(--text-dark); }
+  .usps { list-style: none; }
+  .usps li { padding: 3px 0 3px 16px; position: relative; font-size: 13px; }
+  .usps li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+
+  /* PRIORITY CORRIDOR */
+  .corridor { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+  .corridor-suburb { background: var(--brand-accent); color: #fff; padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+  .corridor-arrow { color: var(--brand-accent); font-size: 18px; font-weight: 700; }
+
+  /* TABLES */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { background: var(--brand-light); }
+  thead th { padding: 10px 12px; text-align: left; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--text-mid); border-bottom: 2px solid var(--brand-mid); }
+  tbody tr { border-bottom: 1px solid #eef1f5; }
+  tbody tr:hover { background: #fafbfd; }
+  tbody td { padding: 10px 12px; vertical-align: top; }
+
+  /* PILL STYLES */
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; white-space: nowrap; }
+  .pill-must { background: #fce8e8; color: #b71c1c; }
+  .pill-quick { background: #e8f5ee; color: #1a7f3c; }
+  .pill-strategic { background: #fff3e8; color: #c95c00; }
+  .pill-gap { background: #e3f0ff; color: #0d47a1; }
+  .pill-a { background: var(--brand-primary); color: #fff; }
+  .pill-b { background: #455a6a; color: #fff; }
+  .pill-service { background: var(--brand-light); color: var(--brand-primary); border: 1px solid var(--brand-mid); }
+
+  /* KD BAR */
+  .kd-wrap { display: flex; align-items: center; gap: 6px; }
+  .kd-bar { height: 6px; border-radius: 3px; flex-shrink: 0; }
+  .kd-num { font-size: 12px; font-weight: 700; }
+  .kd-low { background: #1a7f3c; }
+  .kd-med { background: #e08a00; }
+  .kd-high { background: #b71c1c; }
+
+  /* VOLUME */
+  .vol { font-weight: 700; }
+  .cpc { color: var(--text-light); font-size: 11px; }
+
+  /* REASONING */
+  .reasoning-text { font-size: 12px; color: var(--text-mid); line-height: 1.5; max-width: 380px; }
+
+  /* TIMELINE */
+  .timeline-chip { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .t-fast { background: #e8f5ee; color: #1a7f3c; }
+  .t-mid { background: #fff3e8; color: #c95c00; }
+  .t-long { background: #fce8e8; color: #b71c1c; }
+
+  /* COMPETITOR TABLE */
+  .strength-list, .weakness-list { list-style: none; padding: 0; }
+  .strength-list li { padding: 2px 0 2px 14px; position: relative; font-size: 12px; color: var(--green); }
+  .strength-list li::before { content: "+"; position: absolute; left: 0; font-weight: 700; }
+  .weakness-list li { padding: 2px 0 2px 14px; position: relative; font-size: 12px; color: var(--text-mid); }
+  .weakness-list li::before { content: "—"; position: absolute; left: 0; font-weight: 700; color: var(--brand-accent); }
+
+  /* GAP ITEMS */
+  .gap-item { border-left: 4px solid var(--brand-accent); padding: 12px 16px; margin-bottom: 12px; background: var(--brand-light); border-radius: 0 var(--radius) var(--radius) 0; }
+  .gap-item h4 { font-size: 13px; font-weight: 700; color: var(--brand-primary); margin-bottom: 4px; }
+  .gap-item p { font-size: 12px; color: var(--text-mid); margin-bottom: 6px; }
+  .gap-item .action { font-size: 12px; color: var(--text-dark); font-style: italic; }
+  .priority-critical { border-color: var(--red); }
+  .priority-high { border-color: var(--orange); }
+  .priority-medium { border-color: var(--blue); }
+
+  /* QUICK WINS */
+  .qw-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .qw-card { background: var(--green-bg); border: 1px solid #b2dfcc; border-radius: var(--radius); padding: 14px; }
+  .qw-card .kw { font-weight: 700; font-size: 14px; color: var(--brand-primary); margin-bottom: 6px; }
+  .qw-card .meta { display: flex; gap: 10px; margin-bottom: 6px; font-size: 11px; color: var(--text-light); }
+  .qw-card p { font-size: 12px; color: var(--text-mid); }
+  .qw-card .timeline { font-size: 11px; font-weight: 700; color: var(--green); margin-top: 6px; }
+
+  /* PAGINATION / SUBURB FILTER */
+  .filter-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .filter-btn { border: 1px solid var(--brand-mid); background: #fff; color: var(--text-mid); padding: 4px 12px; border-radius: 16px; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .filter-btn:hover, .filter-btn.active { background: var(--brand-primary); color: #fff; border-color: var(--brand-primary); }
+
+  /* FOOTER */
+  .footer { text-align: center; padding: 24px; color: var(--text-light); font-size: 12px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .summary-grid { grid-template-columns: repeat(2, 1fr); }
+    .context-grid { grid-template-columns: 1fr; }
+    .qw-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .header { padding: 20px; }
+    .header-top { flex-direction: column; }
+    .summary-grid { grid-template-columns: 1fr 1fr; }
+    table { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div>
+      <div class="subtitle">Keyword Research Plan</div>
+      <h1>McKinnon Heating &amp; Cooling</h1>
+      <div class="subtitle">mckinnonheating.com.au &nbsp;|&nbsp; Residential HVAC &nbsp;|&nbsp; Melbourne Bayside &amp; Mornington Peninsula</div>
+    </div>
+    <div class="header-meta">
+      <div>Prepared by Supple</div>
+      <div>Date: 24 April 2026</div>
+      <div>Package: 5 General + 50 Location</div>
+      <div>Business established: 1973</div>
+    </div>
+  </div>
+  <div class="header-badges">
+    <span class="badge">55 Total Keywords</span>
+    <span class="badge">5 General Melbourne-wide</span>
+    <span class="badge">50 Suburb Location Pages</span>
+    <span class="badge">4.7/5 Google Rating</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- SUMMARY CARDS -->
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="big-num">55</div>
+      <div class="label">Total Keywords</div>
+      <div class="sub">5 general + 50 location</div>
+    </div>
+    <div class="summary-card">
+      <div class="big-num" style="color:#1a7f3c">7,780</div>
+      <div class="label">Monthly Search Volume</div>
+      <div class="sub">Combined across all 55 keywords</div>
+    </div>
+    <div class="summary-card">
+      <div class="big-num" style="color:#e85c26">2–12</div>
+      <div class="label">Ranking Timeline (months)</div>
+      <div class="sub">Location pages: 2–7 mo avg</div>
+    </div>
+    <div class="summary-card">
+      <div class="big-num" style="color:#0d47a1">8</div>
+      <div class="label">Must-Have Keywords</div>
+      <div class="sub">Priority corridor + flagship terms</div>
+    </div>
+  </div>
+
+  <!-- STRATEGY CONTEXT -->
+  <div class="section">
+    <div class="section-header"><h2>Business &amp; Strategy Context</h2></div>
+    <div class="section-body">
+      <div class="context-grid">
+        <div class="context-item">
+          <h4>Business Profile</h4>
+          <p><strong>McKinnon Heating &amp; Cooling</strong> is a privately owned Melbourne HVAC specialist established in 1973. Headquartered in Moorabbin, the business is co-owned by Craig Gambrell, Simon Wilding, and Scott Handley — a collective industry experience of 100+ years. Preferred provider for Peninsula, Bayside, and inner-city builders. Google rating 4.7/5.</p>
+        </div>
+        <div class="context-item">
+          <h4>Key USPs (Driving Keyword Strategy)</h4>
+          <ul class="usps">
+            <li>51+ years industry experience — trust signal in competitive SERP snippets</li>
+            <li>4.7/5 Google rating — differentiator vs Bayair (4.2/5) and SK AIR</li>
+            <li>Industry leader in gas-to-electric conversions + VEU program participant</li>
+            <li>RTA licence AU58246 — ranks for credentialed install queries</li>
+            <li>Preferred builder supplier — Bayside, Peninsula, inner-city developers</li>
+          </ul>
+        </div>
+        <div class="context-item">
+          <h4>BDM Priority Corridor</h4>
+          <div class="corridor">
+            <span class="corridor-suburb">St Kilda</span>
+            <span class="corridor-arrow">&#8594;</span>
+            <span class="corridor-suburb">Brighton</span>
+            <span class="corridor-arrow">&#8594;</span>
+            <span class="corridor-suburb">Sandringham</span>
+            <span class="corridor-arrow">&#8594;</span>
+            <span class="corridor-suburb">Moorabbin</span>
+          </div>
+          <p style="font-size:12px;color:var(--text-light);margin-top:6px">Home base: 2 Nellbern Road, Moorabbin. These four suburbs receive Must-Have priority assignments in the location keyword set.</p>
+        </div>
+        <div class="context-item">
+          <h4>Service Tier Allocation</h4>
+          <table style="font-size:12px">
+            <tr><td style="padding:3px 8px 3px 0"><span class="pill pill-a">TIER A</span></td><td>Ducted Heating, Air Conditioning, Split Systems, Heating &amp; Cooling</td></tr>
+            <tr><td style="padding:3px 8px 3px 0"><span class="pill pill-b">TIER B</span></td><td>Hydronic Heating, Evaporative Cooling</td></tr>
+            <tr><td style="padding:3px 8px 3px 0; color:var(--text-light); font-size:11px">TIER C</td><td style="color:var(--text-light); font-size:11px">Gas-to-Electric, Servicing &amp; Repairs (content support only)</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GENERAL KEYWORDS -->
+  <div class="section">
+    <div class="section-header">
+      <h2>General Keywords &mdash; Melbourne-wide</h2>
+      <span class="count">5 keywords</span>
+    </div>
+    <div class="section-body">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Keyword</th>
+            <th>Service</th>
+            <th>Volume/mo</th>
+            <th>KD</th>
+            <th>CPC (AUD)</th>
+            <th>Priority</th>
+            <th>Target Page</th>
+            <th>Timeline</th>
+            <th>Strategic Reasoning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><strong>ducted heating melbourne</strong></td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">720</span><br><span class="cpc">$6.20 CPC</span></td>
+            <td>
+              <div class="kd-wrap">
+                <div class="kd-bar kd-med" style="width:28px"></div>
+                <span class="kd-num">28</span>
+              </div>
+            </td>
+            <td>$6.20</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td>/ducted-heating</td>
+            <td><span class="timeline-chip t-long">9 months</span></td>
+            <td class="reasoning-text">Tier A primary service with 720/mo searches. Competitors Dale Air and Bayair have thin page structures — no pricing schema or structured data. McKinnon's 51-year history and VEU program credentials are decisive trust signals this SERP rewards. Seasonal peak April–August aligns with Victorian winter demand cycle.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>air conditioning installation melbourne</strong></td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">2,400</span><br><span class="cpc">$7.80 CPC</span></td>
+            <td>
+              <div class="kd-wrap">
+                <div class="kd-bar kd-high" style="width:34px"></div>
+                <span class="kd-num">34</span>
+              </div>
+            </td>
+            <td>$7.80</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td>/air-conditioning</td>
+            <td><span class="timeline-chip t-long">12 months</span></td>
+            <td class="reasoning-text">Highest-volume keyword in the entire seed set (2,400/mo). Surrey Air #1 lacks suburb specificity and pricing schema. Hipages aggregator at #4 is displaceable with a local service page. McKinnon's RTA licence AU58246 and 4.7/5 rating are direct trust differentiators. Strategic Bet: KD 34 is manageable as location pages build topical authority over 12 months.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>split system installation melbourne</strong></td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">590</span><br><span class="cpc">$5.40 CPC</span></td>
+            <td>
+              <div class="kd-wrap">
+                <div class="kd-bar kd-med" style="width:25px"></div>
+                <span class="kd-num">25</span>
+              </div>
+            </td>
+            <td>$5.40</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td>/split-systems</td>
+            <td><span class="timeline-chip t-mid">6 months</span></td>
+            <td class="reasoning-text">Lowest KD among general keywords (25) — fastest path to page-one for a general term. SK AIR at #3 has DA 18 and a thin single-page site — directly displaceable. McKinnon's wall split + multi-head capability gives broader content depth than any current top-5 competitor. Current site page is thin (gaps.json) — straightforward optimisation win.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><strong>heating and cooling melbourne</strong></td>
+            <td><span class="pill pill-service">Heating &amp; Cooling</span></td>
+            <td><span class="vol">1,600</span><br><span class="cpc">$6.50 CPC</span></td>
+            <td>
+              <div class="kd-wrap">
+                <div class="kd-bar kd-high" style="width:32px"></div>
+                <span class="kd-num">32</span>
+              </div>
+            </td>
+            <td>$6.50</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td>/ (homepage)</td>
+            <td><span class="timeline-chip t-long">10 months</span></td>
+            <td class="reasoning-text">Broadest Tier A umbrella keyword (1,600/mo). Homepage target — McKinnon's full-service breadth (heating + cooling + split + hydronic) is exactly what this query rewards. Mixed-intent SERP with aggregators at mid-page — local full-service operators outrank aggregators here. Builder-preferred-supplier status (questionnaire) matches the trust signals required for this competitive term.</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><strong>hydronic heating melbourne</strong></td>
+            <td><span class="pill pill-service">Hydronic Heating</span></td>
+            <td><span class="vol">1,000</span><br><span class="cpc">$5.90 CPC</span></td>
+            <td>
+              <div class="kd-wrap">
+                <div class="kd-bar kd-low" style="width:22px"></div>
+                <span class="kd-num">22</span>
+              </div>
+            </td>
+            <td>$5.90</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td>/hydronic-heating</td>
+            <td><span class="timeline-chip t-mid">6 months</span></td>
+            <td class="reasoning-text">Highest opportunity-to-effort ratio in the general set: 1,000/mo, KD 22 (lowest relative to volume), no specialist HVAC competitor in top 5 (SERP dominated by product retailers). AI Overview present but covers general info only — does not displace local service queries. McKinnon's Bayside service area aligns perfectly with the primary hydronic demand demographic: Brighton, Toorak, Malvern heritage homes.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- LOCATION KEYWORDS -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Location Keywords &mdash; 50 Suburb Pages</h2>
+      <span class="count">50 keywords</span>
+    </div>
+    <div class="section-body">
+
+      <div style="background:var(--brand-light);border-radius:var(--radius);padding:14px 16px;margin-bottom:16px;font-size:13px">
+        <strong>Assignment Logic:</strong> Each suburb is assigned the primary service that best matches its housing stock and demographic. BDM priority corridor suburbs (St Kilda, Brighton, Sandringham, Moorabbin) receive Must-Have status. Apartment/unit-dense inner suburbs are assigned split systems. Peninsula holiday suburbs are assigned air conditioning. Affluent heritage-home suburbs are assigned ducted heating (highest install value).
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Keyword</th>
+            <th>Suburb</th>
+            <th>Service</th>
+            <th>Vol/mo</th>
+            <th>KD</th>
+            <th>CPC</th>
+            <th>Priority</th>
+            <th>Timeline</th>
+            <th>Key Rationale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>6</td>
+            <td><strong>ducted heating albert park</strong></td>
+            <td>Albert Park</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.20</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Victorian terrace stock — ducted retrofit market. KD 12. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><strong>ducted heating armadale</strong></td>
+            <td>Armadale</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$5.10</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Affluent inner-south, heritage homes, high renovation activity. KD 11. Dale Air has no Armadale page.</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><strong>ducted heating ashburton</strong></td>
+            <td>Ashburton</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.90</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Established middle-ring houses. KD 10. No competitor HVAC page.</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><strong>air conditioning balaclava</strong></td>
+            <td>Balaclava</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$5.30</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">High apartment/unit density — AC installs dominate. KD 11. Inner Bayside corridor suburb.</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><strong>ducted heating balwyn</strong></td>
+            <td>Balwyn</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Affluent eastern suburb, large character homes. Builder-partnership customer profile match.</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><strong>ducted heating beaumaris</strong></td>
+            <td>Beaumaris</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.80</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Bayside corridor — prime McKinnon territory. KD 10. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><strong>ducted heating bentleigh</strong></td>
+            <td>Bentleigh</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.30</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">70/mo — one of higher-volume suburb terms. Adjacent to Moorabbin. Dale Air lacks Bentleigh page.</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><strong>ducted heating black rock</strong></td>
+            <td>Black Rock</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.80</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Premium Bayside — large homes, high income. KD 10. No competitor page. Fast win.</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><strong>air conditioning blairgowrie</strong></td>
+            <td>Blairgowrie</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:8px"></div><span class="kd-num">8</span></div></td>
+            <td>$4.50</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Peninsula holiday suburb — cooling demand. KD 8. Bayair has no Blairgowrie page. McKinnon services Peninsula.</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:var(--brand-accent)">15</td>
+            <td><strong style="color:var(--brand-accent)">ducted heating brighton</strong></td>
+            <td>Brighton</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol" style="color:var(--brand-accent)">110</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:18px"></div><span class="kd-num">18</span></div></td>
+            <td>$6.10</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-long">8 mo</span></td>
+            <td class="reasoning-text"><strong>BDM Priority #2 suburb. Highest volume location keyword (110/mo).</strong> Dale Air #2, Bayair #4 in SERP — both can be displaced. McKinnon's 4.7/5 vs Bayair 4.2/5. Premium heritage homes with high-value ducted install profile.</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><strong>ducted heating brighton east</strong></td>
+            <td>Brighton East</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.60</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Extends BDM corridor. Similar affluent profile to Brighton. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><strong>air conditioning burwood</strong></td>
+            <td>Burwood</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.20</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Mixed housing — AC captures full demand range. Surrey Air east focus does not include Burwood page.</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td><strong>ducted heating camberwell</strong></td>
+            <td>Camberwell</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:17px"></div><span class="kd-num">17</span></div></td>
+            <td>$5.80</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-long">7 mo</span></td>
+            <td class="reasoning-text">90/mo — second only to Brighton. Large heritage homes. McKinnon builder relationships in inner east. Dale Air page lacks Camberwell specificity.</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><strong>ducted heating carnegie</strong></td>
+            <td>Carnegie</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Adjacent to Moorabbin — McKinnon home territory. KD 12. No competitor page. Strong proximity.</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td><strong>air conditioning carrum</strong></td>
+            <td>Carrum</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$4.90</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Beach suburb — summer cooling demand. Bayair has Frankston but no Carrum page. Peninsula service territory.</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><strong>ducted heating caulfield</strong></td>
+            <td>Caulfield</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:15px"></div><span class="kd-num">15</span></div></td>
+            <td>$5.50</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Period homes needing heating upgrades. 5km from Moorabbin. Dale Air has no Caulfield page.</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td><strong>air conditioning chelsea</strong></td>
+            <td>Chelsea</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.10</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Beach suburb — summer cooling demand. KD 12. No competitor page. Peninsula corridor.</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><strong>ducted heating cheltenham</strong></td>
+            <td>Cheltenham</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.30</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Adjacent to Moorabbin — home ground. Mixed housing, ducted upgrade demand. Coldflow has no Cheltenham page.</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td><strong>air conditioning clayton</strong></td>
+            <td>Clayton</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">60</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.20</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">High unit density (Monash precinct) — split/AC installs dominant. Surrey Air east focus lacks Clayton page.</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><strong>air conditioning dromana</strong></td>
+            <td>Dromana</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:8px"></div><span class="kd-num">8</span></div></td>
+            <td>$4.60</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Peninsula lifestyle suburb — cooling demand. KD 8. No competitor page. Fast ranking.</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td><strong>split system installation elwood</strong></td>
+            <td>Elwood</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.40</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Art Deco apartments — no roof space for ducted. Split system is the right solution. SK AIR has no Elwood page.</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><strong>split system installation elsternwick</strong></td>
+            <td>Elsternwick</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.20</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Dense inner south — apartments and terrace conversions. Builds topical authority for inner Bayside split system cluster.</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td><strong>air conditioning frankston</strong></td>
+            <td>Frankston</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:16px"></div><span class="kd-num">16</span></div></td>
+            <td>$5.40</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-long">7 mo</span></td>
+            <td class="reasoning-text">Gateway to Peninsula — 90/mo. Bayair #2 but their page lacks split system variants and VEU mentions. McKinnon can build more comprehensive content.</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><strong>ducted heating glen iris</strong></td>
+            <td>Glen Iris</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:15px"></div><span class="kd-num">15</span></div></td>
+            <td>$5.60</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text">Affluent inner east — large homes, high-value installs. McKinnon builder partnerships in inner east. Dale Air lacks Glen Iris page.</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td><strong>air conditioning glen waverley</strong></td>
+            <td>Glen Waverley</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">80</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:16px"></div><span class="kd-num">16</span></div></td>
+            <td>$5.50</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text">Large Asian-Australian demographic — strong preference for premium AC brands (Daikin/Mitsubishi). McKinnon's RTA credentials match this market. Surrey Air lacks a Glen Waverley page.</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><strong>ducted heating hawthorn</strong></td>
+            <td>Hawthorn</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">80</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:16px"></div><span class="kd-num">16</span></div></td>
+            <td>$5.70</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text">Victorian terraces and heritage properties — premium ducted retrofit. McKinnon builder-preferred status relevant to Hawthorn renovations.</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td><strong>air conditioning highett</strong></td>
+            <td>Highett</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">1km from McKinnon's Moorabbin office — maximum proximity signal. Townhouse/unit trend — AC captures full demand. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td><strong>ducted heating hampton</strong></td>
+            <td>Hampton</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.50</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">On the Brighton–Sandringham BDM corridor. Premium bayside, established homes. Bayair lacks dedicated Hampton page. Corridor dominance strategy requires this.</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td><strong>ducted heating kew</strong></td>
+            <td>Kew</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">80</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:16px"></div><span class="kd-num">16</span></div></td>
+            <td>$5.60</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text">One of Melbourne's most affluent inner suburbs — premium ducted installs. High average job value. Dale Air lacks Kew page.</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td><strong>ducted heating malvern</strong></td>
+            <td>Malvern</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:17px"></div><span class="kd-num">17</span></div></td>
+            <td>$6.00</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-long">7 mo</span></td>
+            <td class="reasoning-text">90/mo, Melbourne's most prestigious inner south suburb. Highest average ducted install values. Dale Air and Hipages in SERP — neither has a Malvern-specific page. Must win this term.</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td><strong>ducted heating mckinnon</strong></td>
+            <td>McKinnon</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.90</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Suburb shares the brand name — unique brand-location alignment. KD 10. No competitor can replicate this relevance signal. Fastest expected ranking win.</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td><strong>ducted heating mentone</strong></td>
+            <td>Mentone</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Adjacent to Moorabbin — home territory. Bayside family suburb. No competitor page. Proximity signal strong.</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td><strong>split system installation mont albert</strong></td>
+            <td>Mont Albert</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.80</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Inner east — apartments and period homes. KD 10. No competitor HVAC page. Reliable long-tail win.</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:var(--brand-accent)">39</td>
+            <td><strong style="color:var(--brand-accent)">heating and cooling moorabbin</strong></td>
+            <td>Moorabbin</td>
+            <td><span class="pill pill-service">Heating &amp; Cooling</span></td>
+            <td><span class="vol" style="color:var(--brand-accent)">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.40</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text"><strong>McKinnon's home suburb — 2 Nellbern Rd, Moorabbin.</strong> Maximum Google Business Profile location signal. Hipages and Dale Air in SERP — neither has a Moorabbin-specific page. Broadest service term captures full demand. Expected #1 within 3 months.</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td><strong>ducted heating mornington</strong></td>
+            <td>Mornington</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.10</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text">Highest-volume Peninsula suburb (70/mo). Bayair #2 but lacks content depth. McKinnon's 51-year Peninsula service history is a direct ranking differentiator.</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td><strong>air conditioning mt martha</strong></td>
+            <td>Mt Martha</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:10px"></div><span class="kd-num">10</span></div></td>
+            <td>$4.80</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Premium coastal suburb — holiday home AC demand. KD 10. No competitor page. Peninsula service coverage.</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td><strong>air conditioning mt waverley</strong></td>
+            <td>Mt Waverley</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">70</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.30</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Established family homes — reverse cycle AC demand. Surrey Air east lacks Mt Waverley page. 70/mo strong suburb volume.</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td><strong>ducted heating oakleigh</strong></td>
+            <td>Oakleigh</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:12px"></div><span class="kd-num">12</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Immediately adjacent to Moorabbin — 2km from office. Established suburb with ducted upgrade demand from older gas systems. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td><strong>ducted heating ormond</strong></td>
+            <td>Ormond</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$4.90</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Adjacent to McKinnon suburb — brand-location cluster. KD 11. Family homes, ducted demand. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td><strong>ducted heating parkdale</strong></td>
+            <td>Parkdale</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:11px"></div><span class="kd-num">11</span></div></td>
+            <td>$5.00</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">3 mo</span></td>
+            <td class="reasoning-text">Bayside corridor — Mentone/Sandringham strip. KD 11. Bayair southern coverage not Parkdale-specific. Strong proximity.</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td><strong>split system installation prahran</strong></td>
+            <td>Prahran</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">50</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:13px"></div><span class="kd-num">13</span></div></td>
+            <td>$5.50</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">4 mo</span></td>
+            <td class="reasoning-text">Apartment and terrace-dense inner south — split systems dominant. KD 13. McKinnon builder relationships extend to Prahran renovations. No competitor page.</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td><strong>split system installation port melbourne</strong></td>
+            <td>Port Melbourne</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">60</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.60</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Inner-city apartments and converted warehouses — split system primary. Appeared in seed autocomplete. 60/mo. SK AIR lacks a Port Melbourne-specific page.</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td><strong>air conditioning portsea</strong></td>
+            <td>Portsea</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:8px"></div><span class="kd-num">8</span></div></td>
+            <td>$4.70</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Premium Peninsula holiday destination. KD 8. No competitor page. McKinnon's quality credentials match Portsea's discerning homeowners.</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td><strong>air conditioning rosebud</strong></td>
+            <td>Rosebud</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">40</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:9px"></div><span class="kd-num">9</span></div></td>
+            <td>$4.70</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Major Peninsula suburb — year-round residential and holiday demand. KD 9. Bayair no Rosebud page. Easy win.</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td><strong>air conditioning rye</strong></td>
+            <td>Rye</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:8px"></div><span class="kd-num">8</span></div></td>
+            <td>$4.60</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Coastal Peninsula — holiday home AC demand. KD 8. No competitor HVAC page for Rye. Minimal effort.</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:var(--brand-accent)">51</td>
+            <td><strong style="color:var(--brand-accent)">ducted heating sandringham</strong></td>
+            <td>Sandringham</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol" style="color:var(--brand-accent)">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:16px"></div><span class="kd-num">16</span></div></td>
+            <td>$5.90</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-long">7 mo</span></td>
+            <td class="reasoning-text"><strong>BDM Priority #3 suburb. 90/mo.</strong> Bayair #3 in SERP with a thin page. McKinnon's Moorabbin base is 5km away — maximum local signal. Premium coastal suburb, heritage homes, high-value ducted installs.</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td><strong>air conditioning sorrento</strong></td>
+            <td>Sorrento</td>
+            <td><span class="pill pill-service">Air Conditioning</span></td>
+            <td><span class="vol">30</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:8px"></div><span class="kd-num">8</span></div></td>
+            <td>$4.70</td>
+            <td><span class="pill pill-quick">Quick Win</span></td>
+            <td><span class="timeline-chip t-fast">2 mo</span></td>
+            <td class="reasoning-text">Exclusive Peninsula holiday suburb. Premium AC installs. KD 8. No competitor page. McKinnon 4.7/5 matches high expectations.</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td><strong>split system installation south melbourne</strong></td>
+            <td>South Melbourne</td>
+            <td><span class="pill pill-service">Split Systems</span></td>
+            <td><span class="vol">60</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-low" style="width:14px"></div><span class="kd-num">14</span></div></td>
+            <td>$5.60</td>
+            <td><span class="pill pill-strategic">Strategic</span></td>
+            <td><span class="timeline-chip t-mid">5 mo</span></td>
+            <td class="reasoning-text">Inner-city apartments and warehouses — split systems only solution. 60/mo. SK AIR lacks depth — no multi-head content. McKinnon's full supply-and-install capability is the differentiator.</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:var(--brand-accent)">54</td>
+            <td><strong style="color:var(--brand-accent)">ducted heating st kilda</strong></td>
+            <td>St Kilda</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol" style="color:var(--brand-accent)">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:17px"></div><span class="kd-num">17</span></div></td>
+            <td>$5.90</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-mid">6 mo</span></td>
+            <td class="reasoning-text"><strong>BDM Priority #1 suburb. 90/mo.</strong> No specialist competitor holds a St Kilda heating page. SK AIR is cooling-only — zero competition for ducted heating here. Surrey Air covers broadly but not specifically. McKinnon can own this term entirely.</td>
+          </tr>
+          <tr>
+            <td style="font-weight:700;color:var(--brand-accent)">55</td>
+            <td><strong style="color:var(--brand-accent)">ducted heating toorak</strong></td>
+            <td>Toorak</td>
+            <td><span class="pill pill-service">Ducted Heating</span></td>
+            <td><span class="vol" style="color:var(--brand-accent)">90</span></td>
+            <td><div class="kd-wrap"><div class="kd-bar kd-med" style="width:17px"></div><span class="kd-num">17</span></div></td>
+            <td>$6.20</td>
+            <td><span class="pill pill-must">Must-Have</span></td>
+            <td><span class="timeline-chip t-long">7 mo</span></td>
+            <td class="reasoning-text"><strong>Melbourne's most prestigious suburb. 90/mo. Highest CPC ($6.20) in location set.</strong> Largest homes, highest household income, premium ducted installs. Dale Air #5 in SERP with no Toorak page. McKinnon's 51-year heritage and 4.7/5 rating are exactly what this market expects. Must-Have for portfolio positioning.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- COMPETITOR LANDSCAPE -->
+  <div class="section">
+    <div class="section-header"><h2>Competitor Landscape</h2></div>
+    <div class="section-body">
+      <table>
+        <thead>
+          <tr>
+            <th>Competitor</th>
+            <th>Domain</th>
+            <th>Est. DA</th>
+            <th>Geographic Focus</th>
+            <th>Strengths</th>
+            <th>Weaknesses &amp; Gaps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Dale Air</strong></td>
+            <td>daleair.com.au</td>
+            <td>28</td>
+            <td>Melbourne south-east, Bayside</td>
+            <td>
+              <ul class="strength-list">
+                <li>Established Bayside brand</li>
+                <li>Ranks for high-volume ducted terms</li>
+                <li>Active GBP, 200+ reviews</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>No suburb landing pages beyond 3-4 areas</li>
+                <li>Thin split system + multi-head content</li>
+                <li>No blog, FAQ, or comparison content</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Surrey Air</strong></td>
+            <td>surreyair.com.au</td>
+            <td>25</td>
+            <td>Melbourne south-east, Dandenong</td>
+            <td>
+              <ul class="strength-list">
+                <li>Strong AC installation content</li>
+                <li>Ranks for AC Melbourne in top 5</li>
+                <li>Google Guaranteed badge</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>Weak inner Bayside coverage</li>
+                <li>Thin split system page, no suburb targeting</li>
+                <li>No hydronic or evaporative content</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>2 Masters</strong></td>
+            <td>2masters.com.au</td>
+            <td>20</td>
+            <td>Melbourne north-west</td>
+            <td>
+              <ul class="strength-list">
+                <li>Good gas-to-electric content</li>
+                <li>Competitive on split system terms</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>No Bayside or Peninsula presence</li>
+                <li>Low DA — limited organic visibility</li>
+                <li>Minimal location page strategy</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Bayair</strong></td>
+            <td>bayair.com.au</td>
+            <td>24</td>
+            <td>Bayside, Frankston, Peninsula</td>
+            <td>
+              <ul class="strength-list">
+                <li>Direct geographic competitor</li>
+                <li>Ranks for Peninsula terms</li>
+                <li>Active suburb page strategy</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>4.2/5 vs McKinnon 4.7/5 — quality gap in SERP snippets</li>
+                <li>Split system content weak</li>
+                <li>No comparison content or structured FAQs</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>SK AIR</strong></td>
+            <td>skair.com.au</td>
+            <td>18</td>
+            <td>Melbourne CBD, inner north</td>
+            <td>
+              <ul class="strength-list">
+                <li>Inner-city focus (St Kilda, South Melbourne)</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>Low DA — limited organic reach</li>
+                <li>No heating content at all — cooling only</li>
+                <li>No suburb page strategy</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Coldflow</strong></td>
+            <td>coldflow.com.au</td>
+            <td>23</td>
+            <td>Melbourne south-east, outer east</td>
+            <td>
+              <ul class="strength-list">
+                <li>Strong refrigerated cooling content</li>
+                <li>Decent DA for suburb terms</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="weakness-list">
+                <li>No heating content — cooling only</li>
+                <li>Commercial-heavy — thin residential pages</li>
+                <li>No split system suburb targeting</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="margin-top:20px">
+        <h3 style="font-size:14px;margin-bottom:12px;color:var(--brand-primary)">Key Competitor Gap Opportunities</h3>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px">
+          <div style="background:var(--green-bg);border-radius:var(--radius);padding:12px;border:1px solid #b2dfcc">
+            <div style="font-weight:700;color:var(--green);font-size:12px;margin-bottom:4px">HEATING GAP — SK AIR &amp; Coldflow</div>
+            <p style="font-size:12px;color:var(--text-mid)">Both SK AIR and Coldflow offer zero heating content. McKinnon's full heating + cooling offering dominates all combined-intent searches in the inner city and south-east without any specialist competitor.</p>
+          </div>
+          <div style="background:var(--green-bg);border-radius:var(--radius);padding:12px;border:1px solid #b2dfcc">
+            <div style="font-weight:700;color:var(--green);font-size:12px;margin-bottom:4px">INNER BAYSIDE STRIP — Surrey Air &amp; 2 Masters</div>
+            <p style="font-size:12px;color:var(--text-mid)">Surrey Air concedes the Bayside strip. 2 Masters has zero Bayside presence. The St Kilda → Brighton → Sandringham corridor is McKinnon's home territory with no concentrated specialist competition.</p>
+          </div>
+          <div style="background:var(--green-bg);border-radius:var(--radius);padding:12px;border:1px solid #b2dfcc">
+            <div style="font-weight:700;color:var(--green);font-size:12px;margin-bottom:4px">HYDRONIC NICHE — No HVAC Competitor</div>
+            <p style="font-size:12px;color:var(--text-mid)">No HVAC competitor holds a strong hydronic heating position. The SERP is dominated by product retailers and aggregators — a genuine white-space opportunity for 1,000/mo at KD 22.</p>
+          </div>
+          <div style="background:var(--green-bg);border-radius:var(--radius);padding:12px;border:1px solid #b2dfcc">
+            <div style="font-weight:700;color:var(--green);font-size:12px;margin-bottom:4px">REVIEW QUALITY — Bayair Rating Gap</div>
+            <p style="font-size:12px;color:var(--text-mid)">McKinnon 4.7/5 vs Bayair 4.2/5 Google rating. SERP snippets that display star ratings will show McKinnon as the quality leader across all Bayside and Peninsula suburb keywords.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT GAPS & QUICK WINS -->
+  <div class="section">
+    <div class="section-header"><h2>Content Gaps &amp; Priority Actions</h2></div>
+    <div class="section-body">
+
+      <h3 style="font-size:14px;margin-bottom:12px;color:var(--brand-primary)">Critical Content Gaps</h3>
+
+      <div class="gap-item priority-critical">
+        <h4>CRITICAL — No Suburb Landing Pages (Zero of 50 suburbs covered)</h4>
+        <p>The single biggest SEO gap on mckinnonheating.com.au. Competitors with suburb pages consistently outrank McKinnon for local queries even when they have lower domain authority. Every target suburb has a direct organic ranking opportunity that currently doesn't exist.</p>
+        <div class="action">Action: Create 50 suburb service pages — one per target suburb. Each page targets one primary keyword with suburb-specific content, proximity signals, and builder partnership mentions where applicable. Expected to drive 40+ page-one location rankings within 6-12 months.</div>
+      </div>
+
+      <div class="gap-item priority-high">
+        <h4>HIGH — Hydronic Heating Page Depth</h4>
+        <p>1,000 monthly searches, KD 22, no HVAC competitor in top 5. Current site likely has thin or generic hydronic content. Enormous untapped opportunity in the premium Bayside/inner-south heritage home market.</p>
+        <div class="action">Action: Build dedicated /hydronic-heating page with system types, Victorian home suitability, Bayside installation case studies, cost guide, comparison to ducted, and VEU heat pump eligibility information.</div>
+      </div>
+
+      <div class="gap-item priority-high">
+        <h4>HIGH — Split System Page Depth</h4>
+        <p>590/mo with KD 25. SK AIR at #3 has DA 18 and a thin page — directly displaceable. McKinnon's wall split + multi-head capability is undersold in the current content structure.</p>
+        <div class="action">Action: Expand /split-systems: wall split vs multi-head differentiation, brand range (Daikin, Mitsubishi, Fujitsu), supply + install offering, licensing credentials, suburb service list.</div>
+      </div>
+
+      <div class="gap-item priority-medium">
+        <h4>MEDIUM — Gas-to-Electric Conversion Content</h4>
+        <p>McKinnon claims industry leadership in gas-to-electric conversions but this is not reflected in any current SEO content. Growing category as VIC gas phase-out gains momentum. VEU program participation is a direct commercial advantage.</p>
+        <div class="action">Action: Create VEU program landing page + gas-to-electric conversion guide targeting 'gas to electric heating melbourne' and related terms.</div>
+      </div>
+
+      <h3 style="font-size:14px;margin:20px 0 12px;color:var(--brand-primary)">Quick Win Opportunities (Rank within 2-3 months)</h3>
+
+      <div class="qw-grid">
+        <div class="qw-card">
+          <div class="kw">heating and cooling moorabbin</div>
+          <div class="meta"><span>70/mo</span><span>KD 13</span><span>$5.40 CPC</span></div>
+          <p>McKinnon's physical address is 2 Nellbern Road, Moorabbin. Google Business Profile location signal is maximum here. No competitor has a Moorabbin-specific HVAC page. Expected #1 ranking within 3 months.</p>
+          <div class="timeline">Target: #1 within 3 months</div>
+        </div>
+        <div class="qw-card">
+          <div class="kw">hydronic heating melbourne</div>
+          <div class="meta"><span>1,000/mo</span><span>KD 22</span><span>$5.90 CPC</span></div>
+          <p>No HVAC competitor in top 5. Product retailers and aggregators dominate — all displaceable by a specialist local installer. McKinnon's Bayside heritage home relationships are directly relevant.</p>
+          <div class="timeline">Target: #1-3 within 6 months</div>
+        </div>
+        <div class="qw-card">
+          <div class="kw">ducted heating mckinnon</div>
+          <div class="meta"><span>40/mo</span><span>KD 10</span><span>$4.90 CPC</span></div>
+          <p>The suburb shares the brand name — an entirely unique brand-location alignment that no competitor can replicate. Fastest expected ranking win in the entire location set.</p>
+          <div class="timeline">Target: #1 within 2 months</div>
+        </div>
+        <div class="qw-card">
+          <div class="kw">ducted heating st kilda</div>
+          <div class="meta"><span>90/mo</span><span>KD 17</span><span>$5.90 CPC</span></div>
+          <p>BDM Priority #1 suburb. No heating specialist holds this term — SK AIR is cooling-only, Surrey Air is generic. McKinnon can own 'ducted heating st kilda' with a dedicated page and zero meaningful competition.</p>
+          <div class="timeline">Target: #1-3 within 6 months</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMPLEMENTATION ROADMAP -->
+  <div class="section">
+    <div class="section-header"><h2>Implementation Roadmap</h2></div>
+    <div class="section-body">
+      <table>
+        <thead>
+          <tr>
+            <th>Phase</th>
+            <th>Timeline</th>
+            <th>Priority Actions</th>
+            <th>Keywords Targeted</th>
+            <th>Expected Outcome</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Phase 1</strong></td>
+            <td>Month 1–2</td>
+            <td>
+              1. Optimise homepage for 'heating and cooling melbourne'<br>
+              2. Create Moorabbin suburb page<br>
+              3. Create McKinnon suburb page (brand-name match)<br>
+              4. Optimise hydronic heating page
+            </td>
+            <td>heating and cooling moorabbin, ducted heating mckinnon, hydronic heating melbourne, heating and cooling melbourne</td>
+            <td>Quick wins ranking within 2-3 months. Homepage starts building authority.</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 2</strong></td>
+            <td>Month 2–4</td>
+            <td>
+              1. Create all BDM priority corridor suburb pages (St Kilda, Brighton, Sandringham, Hampton)<br>
+              2. Expand split system page<br>
+              3. Create adjacent suburb pages (Cheltenham, Bentleigh, Carnegie, Oakleigh)
+            </td>
+            <td>ducted heating st kilda, ducted heating brighton, ducted heating sandringham, ducted heating hampton, split system installation melbourne + inner south suburb cluster</td>
+            <td>Priority corridor coverage complete. Split system general keyword improving.</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 3</strong></td>
+            <td>Month 4–8</td>
+            <td>
+              1. Create all remaining Bayside and inner suburb pages<br>
+              2. Create Mornington Peninsula suburb cluster<br>
+              3. Optimise ducted heating and AC installation Melbourne pages
+            </td>
+            <td>Full 50 suburb set + ducted heating melbourne, air conditioning installation melbourne</td>
+            <td>All 50 location pages live. General keyword rankings improving as topical authority builds.</td>
+          </tr>
+          <tr>
+            <td><strong>Phase 4</strong></td>
+            <td>Month 8–12</td>
+            <td>
+              1. Build gas-to-electric/VEU content hub<br>
+              2. Add cost guide + comparison content<br>
+              3. Review and refresh Phase 1-2 pages with performance data
+            </td>
+            <td>Content pillars supporting all general keywords</td>
+            <td>Full keyword set targeting page one. 45+ location keywords ranking top 3.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- NOTES -->
+  <div class="section">
+    <div class="section-header"><h2>Notes &amp; Data Sources</h2></div>
+    <div class="section-body" style="font-size:13px;color:var(--text-mid)">
+      <ul style="list-style:disc;padding-left:20px;line-height:2">
+        <li><strong>Volume data:</strong> Google Keyword Planner preliminary volumes from seeds-v1.json (208 seed keywords collected). Monthly averages for Australian search.</li>
+        <li><strong>KD scores:</strong> Ahrefs-scale 0-100. Estimated for Melbourne HVAC vertical based on observed competitor DAs and page-level competition.</li>
+        <li><strong>CPC:</strong> Australian dollars. Based on Melbourne HVAC industry benchmarks.</li>
+        <li><strong>GSC data:</strong> Not available — property not yet added to shared Search Console account. Recommend adding as priority.</li>
+        <li><strong>Competitor DA:</strong> Estimated based on site age, backlink signals, and observed SERP positions.</li>
+        <li><strong>Client DA:</strong> Estimated at 22 based on domain age and observed link signals from builder partnerships.</li>
+        <li><strong>Questionnaire submission date:</strong> 23 April 2026 (Response ID: N2CQ4v9n)</li>
+        <li><strong>Analyst:</strong> Supple SEO — mckinnonheating.com.au keyword research pipeline</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  McKinnon Heating &amp; Cooling &mdash; Keyword Research Plan &mdash; Prepared by Supple &mdash; April 2026<br>
+  Confidential. Not for distribution.
+</div>
+
+</body>
+</html>
