@@ -1,0 +1,1684 @@
+{
+  "domain": "mckinnonheating.com.au",
+  "version": "v1",
+  "generated_at": "2026-04-24",
+  "sources_summary": {
+    "service_taxonomy": "Tiers A+B+C from allocation.json \u2014 Melbourne primary + unmodified secondary variants",
+    "intent_modifier": "Commercial intent modifiers applied to all allocation services",
+    "problem_symptom": "Pain-point and fault keywords for repair/replacement intent",
+    "cost_pricing": "Cost, price, quote, how-much variants for all allocation services",
+    "comparison": "Ducted vs evaporative, split vs ducted, gas vs electric decision-stage queries",
+    "service_bundle": "Heating + cooling combination and upgrade/replacement bundle terms",
+    "review_mining": "Natural language phrases extracted from McKinnon, Bayair, and Coldflow reviews",
+    "gsc_query": "Not available \u2014 GSC returned 403 (property not yet added to shared account)",
+    "autocomplete": "Google.com.au autocomplete for 5 seed terms (captured via Playwright)",
+    "google_ads_ideas": "50 keyword ideas from Google Ads KP for 5 seed terms, location Australia"
+  },
+  "total_seeds": 208,
+  "seeds": [
+    {
+      "keyword": "air conditioning installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 2400
+    },
+    {
+      "keyword": "air conditioning installation",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning installation service melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning installation cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning installation price melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 720
+    },
+    {
+      "keyword": "ducted heating",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 390
+    },
+    {
+      "keyword": "ducted heating service melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating price melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "split system installation",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system air conditioning installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "split system service melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system price melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 1600
+    },
+    {
+      "keyword": "heating and cooling",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling service melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reverse cycle air conditioning melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "reverse cycle air conditioning",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reverse cycle air conditioning installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reverse cycle air conditioning service melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reverse cycle air conditioning cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": 1300
+    },
+    {
+      "keyword": "evaporative cooling",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": 320
+    },
+    {
+      "keyword": "evaporative cooling service melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling price melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": 1000
+    },
+    {
+      "keyword": "hydronic heating",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating service melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating price melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted gas heating melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "ducted gas heating",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted gas heating installation melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted gas heating service melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted gas heating cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating conversion melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating conversion",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric conversion melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating conversion cost melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating conversion price melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning service melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": 1600
+    },
+    {
+      "keyword": "air conditioning service",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling repairs melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hvac service melbourne",
+      "source": "service_taxonomy",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best air conditioning installation melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning company melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning installer melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning contractor melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "licensed air conditioning installer melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best ducted heating melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating company melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating installer melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating contractor melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best split system installation melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system installer melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system company melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best heating and cooling melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling company melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating and cooling installer melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hvac companies melbourne",
+      "source": "intent_modifier",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "best evaporative cooling melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling company melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling installer melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best hydronic heating melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating company melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating installer melbourne",
+      "source": "intent_modifier",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric conversion company melbourne",
+      "source": "intent_modifier",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating specialist melbourne",
+      "source": "intent_modifier",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating not working melbourne",
+      "source": "problem_symptom",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating repair melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating not working melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioner not cooling melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioner not working melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heater replacement melbourne",
+      "source": "problem_symptom",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "old heating system replacement melbourne",
+      "source": "problem_symptom",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating system not turning on melbourne",
+      "source": "problem_symptom",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating blowing cold air melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning repair melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system not cooling melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooler not working melbourne",
+      "source": "problem_symptom",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating not working melbourne",
+      "source": "problem_symptom",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating replacement melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 260
+    },
+    {
+      "keyword": "gas ducted heating replacement melbourne",
+      "source": "problem_symptom",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": 210
+    },
+    {
+      "keyword": "heating duct replacement cost melbourne",
+      "source": "problem_symptom",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "how much does air conditioning installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning installation quote melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "aircon installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "aircon installation melbourne price",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "ducted heating prices melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 20
+    },
+    {
+      "keyword": "how much does ducted heating cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating quote melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system installation melbourne cost",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "how much does split system installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling prices melbourne",
+      "source": "cost_pricing",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": 30
+    },
+    {
+      "keyword": "evaporative cooling installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": 10
+    },
+    {
+      "keyword": "evaporative cooling quote melbourne",
+      "source": "cost_pricing",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating installation cost melbourne",
+      "source": "cost_pricing",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "how much does hydronic heating cost melbourne",
+      "source": "cost_pricing",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric conversion price melbourne",
+      "source": "cost_pricing",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "brivis ducted heating unit replacement cost melbourne",
+      "source": "cost_pricing",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 40
+    },
+    {
+      "keyword": "ducted heating vs evaporative cooling",
+      "source": "comparison",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating vs evaporative cooling melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system vs ducted heating",
+      "source": "comparison",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system vs ducted heating melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic vs ducted heating",
+      "source": "comparison",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic vs ducted heating melbourne",
+      "source": "comparison",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating melbourne",
+      "source": "comparison",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "best heating system melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted reverse cycle heating and cooling melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 390
+    },
+    {
+      "keyword": "ducted reverse cycle air conditioning melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 320
+    },
+    {
+      "keyword": "evaporative cooling vs refrigerated cooling melbourne",
+      "source": "comparison",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reverse cycle vs ducted heating",
+      "source": "comparison",
+      "tier": "A",
+      "service": "reverse cycle air conditioning",
+      "geo_modified": false,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating vs split system cost melbourne",
+      "source": "comparison",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "electric heating vs gas heating melbourne",
+      "source": "comparison",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "new heating system melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating cooling upgrade melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "new ducted heating system melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating and cooling system melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating and cooling melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 170
+    },
+    {
+      "keyword": "complete heating cooling solution melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating system replacement melbourne",
+      "source": "service_bundle",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "add-on cooling melbourne",
+      "source": "service_bundle",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "energy efficient heating cooling melbourne",
+      "source": "service_bundle",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "veu program heating melbourne",
+      "source": "service_bundle",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "victorian energy upgrades heating melbourne",
+      "source": "service_bundle",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "electric heat pump installation melbourne",
+      "source": "service_bundle",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "multi-head split system melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "multi head split system installation melbourne",
+      "source": "service_bundle",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "reliable heating cooling melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating cooling installation quote melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "experienced heating cooling technician melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "professional ducted heating installation melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating system replacement melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "broken heating duct repair melbourne",
+      "source": "review_mining",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning system replacement melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "trusted heating cooling installer melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "quality air conditioning installation melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "experienced hvac technician melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooler service repair melbourne",
+      "source": "review_mining",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating service and repair melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "free heating cooling quote melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "prompt heating cooling service melbourne",
+      "source": "review_mining",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas to electric heating upgrade melbourne",
+      "source": "review_mining",
+      "tier": "C",
+      "service": "gas to electric heating conversion",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "family owned heating cooling melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "heating cooling bayside melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system supply and install melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "affordable air conditioning installation melbourne",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "local heating cooling company melbourne bayside",
+      "source": "review_mining",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "central heating melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating cleaning melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "gas ducted heating melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "ducted gas heating",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "ducted heating repairs melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "ducted heating removal melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "electric ducted heating melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "ducted heating systems melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air con installation melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioner installation melbourne eastern suburbs",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioner installation melbourne cost",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning service melbourne eastern suburbs",
+      "source": "autocomplete",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioning service melbourne cbd",
+      "source": "autocomplete",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air conditioner service melbourne",
+      "source": "autocomplete",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "air con service melbourne",
+      "source": "autocomplete",
+      "tier": "C",
+      "service": "heating cooling service and repair",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split air conditioning installation melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system air conditioner installation melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "split system installation port melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "cheap split system installation melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "split system installation western suburbs melbourne",
+      "source": "autocomplete",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating melbourne cost",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating melbourne reviews",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heaters melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "radiant heating melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "electric hydronic heating melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "hydronic heating repairs melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "hydronic heating",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative coolers melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative air conditioning melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling repair melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "evaporative cooling system melbourne",
+      "source": "autocomplete",
+      "tier": "B",
+      "service": "evaporative cooling",
+      "geo_modified": true,
+      "preliminary_volume": null
+    },
+    {
+      "keyword": "aircon installation melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 2400
+    },
+    {
+      "keyword": "ducted air conditioning melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 260
+    },
+    {
+      "keyword": "ducted air conditioning installation melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 320
+    },
+    {
+      "keyword": "ac installation melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 2400
+    },
+    {
+      "keyword": "hvac melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 590
+    },
+    {
+      "keyword": "heating cooling melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 140
+    },
+    {
+      "keyword": "split systems melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 480
+    },
+    {
+      "keyword": "brivis melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 110
+    },
+    {
+      "keyword": "brivis air conditioning service melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 210
+    },
+    {
+      "keyword": "mornington heating and cooling",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 110
+    },
+    {
+      "keyword": "air conditioning installation mornington peninsula",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 40
+    },
+    {
+      "keyword": "ducted heating mornington peninsula",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "commercial air conditioning melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 140
+    },
+    {
+      "keyword": "dandenong heating and cooling",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 140
+    },
+    {
+      "keyword": "heating and cooling craigieburn",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "air conditioner installation cost melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "air conditioning installation",
+      "geo_modified": true,
+      "preliminary_volume": 70
+    },
+    {
+      "keyword": "ducted heating quotes melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 10
+    },
+    {
+      "keyword": "bonaire ducted heating service melbourne",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "ducted heating",
+      "geo_modified": true,
+      "preliminary_volume": 10
+    },
+    {
+      "keyword": "split system installation pakenham",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "split system air conditioning",
+      "geo_modified": true,
+      "preliminary_volume": 140
+    },
+    {
+      "keyword": "heating and cooling melbourne western suburbs",
+      "source": "google_ads_ideas",
+      "tier": "A",
+      "service": "heating and cooling",
+      "geo_modified": true,
+      "preliminary_volume": 30
+    }
+  ]
+}
