@@ -39,3 +39,4 @@
 - [acsdebtcollection.com.au](project_acsdebtcollection.md) — ACS Debt Collection, B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research initialized Apr 2026
 - [anakilawyers.com.au](project_anakilawyers.md) — Anaki Lawyers, solo criminal defence & traffic law, Melbourne CBD, keyword research v1.0 complete + GKP confirmed (21 Apr 2026)
 - [surecash.com.au](project_surecash.md) — Sure Cash Finance, ASIC-regulated short-term lender (SACC/MACC), Sydney+branches, SEO audit initialized Apr 2026
+- [mckinnonheating.com.au](project_mckinnonheating.md) — McKinnon Heating & Cooling, Melbourne Bayside HVAC, ducted heating/AC/split systems, initialized Apr 2026
