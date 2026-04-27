@@ -1,0 +1,405 @@
+KEYWORD RESEARCH — RULES REFERENCE
+====================================
+Last updated: 2026-04-27
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. CORE PRINCIPLES (ALWAYS APPLY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Every keyword requires a modifier — never bare root keywords
+  BAD:  "concrete cutting"
+  GOOD: "concrete cutting melbourne"
+
+- Minimum 2 keywords per page: 1 primary + 1 secondary
+  Exception: page added at client direction with no remaining budget slot for a secondary
+
+- Non-subset pairing rule: the two keywords on a page must NOT be linguistic subsets of each other
+  BAD:  "property lawyer" + "property lawyer melbourne"  (one contains the other)
+  GOOD: "property lawyer melbourne" + "property law specialist melbourne"
+
+- SERP validation is mandatory before finalising any keyword
+  Check: page type, intent, competitive set
+
+- GKP = source of truth for volume
+  Ahrefs = relative indicator only, never final
+
+- Never assume volume — if data is missing, ask for a specific GKP search
+  Do not guess or proceed without it
+
+- Before finalising a keyword, use site:[client-domain] [product/service] to confirm
+  the client actually offers what the keyword targets
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. PROCESS (IN ORDER)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1.  Get client brief — services, locations, target customers, BDM notes
+2.  Define entity framework — homepage, service pages, location pages
+3.  Pull GKP data — AU, 12-month date range, batch by topic
+4.  Pull competitor Ahrefs exports — keyword gaps, traffic levels
+5.  Check client's own current rankings (Ahrefs organic export)
+6.  Ranking check at closing — ask user to check current rankings when keyword
+    list is near-final. NOT earlier. Reveals: quick wins (page 2 terms),
+    existing URLs to 301, additional ideas.
+7.  Decide URL structure — no city modifier in slugs; city in meta title + H1 only
+8.  Map keywords to pages — primary + secondary, SERP-validated
+9.  SERP check every keyword pair
+10. Build HTML deliverable — use kwr:report skill → generate_report.py → report.html
+11. Update memory — save all decisions and learnings to client memory file
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. MODIFIER RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Melbourne modifier preferred for all keywords.
+
+Reporting rule:
+  Always add Melbourne modifier even at 0 GKP volume.
+  Reason: location-modified terms are cleaner to track and present to clients;
+  easier to rank for a modified term than an unmodified national term.
+
+Melbourne modifier exception (secondaries only):
+  The unmodified national term CAN be used as secondary if ALL of these are true:
+  - Client genuinely offers the service
+  - CPC is high (indicates commercial value)
+  - No better Melbourne-modified alternative exists
+  - The term is NOT a subset of the primary keyword on that page
+  Always try Melbourne version first. Unmodified is a fallback only.
+
+City modifier — all 3 or none:
+  If using a city modifier, it must cover ALL target cities consistently
+  (e.g., Sydney + Melbourne + Brisbane).
+  Never apply a city modifier to 1 or 2 cities only — it creates lopsided coverage.
+  If a keyword can't support all 3 city versions, use a national modifier instead.
+
+Melbourne targeting for local businesses:
+  Melbourne-level keywords are appropriate ONLY for remotely-delivered services.
+  OK:     wills, probate, business law, commercial leases, professional advice
+  NOT OK: conveyancing, trades, any proximity-dependent service
+  Test:   would a client from the other side of the city realistically hire this business?
+  If no → location pages only, no Melbourne service page.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. MODIFIER TESTING HIERARCHY (RANKABILITY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goal: find the LOWEST-KD variant that still carries commercial intent.
+Volume is a floor check only — ranking is the objective.
+
+Test in this order. Stop when you find a KD level the site can win:
+
+  Level 1 — [service] + [city]                          High KD — base term, most competitive
+  Level 2 — [service] + agency/company/services + [city] Moderate KD — often 3–7 points lower
+  Level 3 — [service] + [state]                         Moderate KD — useful when city is contested
+  Level 4 — [industry vertical] + [service] + [city]    Lower KD — more specific intent
+  Level 5 — [service] + [suburb]                        Near-zero KD — uncontested
+
+Suburb-level rule:
+  Include suburb pages even when SE Ranking returns 0 data — no data = no competition.
+  Physical office in that suburb compounds rankability via GBP address signals.
+  Suburb pages rank quickly; business impact comes from the ranking, not the tracked volume.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. URL STRUCTURE RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+No city modifier in URL slugs.
+  CORRECT:   /suspended-ceilings/
+  INCORRECT: /suspended-ceilings-melbourne/
+City goes in meta title and H1 only.
+
+Primary keyword must match the URL slug.
+  Broader term = primary; more specific/niche term = secondary.
+  Example: /glass-partition-walls/ → primary = "glass partition walls melbourne"
+                                      secondary = "glass office partitions melbourne"
+
+URL patterns:
+  Service pages:  /[service]/  or  /[service]-[city]/  where city is warranted
+  Location pages: /[keyword]-[suburb]/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. KEYWORD → URL MAPPING RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One primary keyword per page — never two primaries.
+
+Secondary on same page only if:
+  - SERP composition for both keywords shows the same page type
+  - Search intent is the same or closely overlapping
+  - Secondary is NOT a linguistic subset of the primary
+  If SERP differs → secondary needs its own page.
+
+Service/city keywords — separate pages per topic:
+  "probate lawyer melbourne" + "deceased estate lawyer melbourne"
+    → same page (same intent, same SERP)
+  "wills and estates lawyer melbourne" + "probate lawyer melbourne"
+    → separate pages (different service areas)
+  "business lawyer melbourne" + "commercial lawyer melbourne"
+    → same page (interchangeable terms, same SERP)
+
+Location keywords — separate pages per root:
+  When multiple roots exist (e.g. property lawyer, commercial lawyer),
+  create separate pages per root — never combine two roots on one page.
+  Reason: different client needs, different emotional context; combined pages convert worse.
+  Each location page is keyword-matched in URL:
+    /property-lawyer-berwick/
+    /commercial-lawyer-berwick/
+  Exception: suburbs with population <2,000 and near-zero demand across all roots
+  may use a single combined page to avoid thin content.
+
+Deliverable table format:
+  | Primary Keyword | Secondary Keywords | Status |
+  Primary = one term
+  Secondary = comma-separated or — if none
+  Status = New /suggested-url/ or Existing (page title + URL)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. SERP ANALYSIS RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Page type matching (mandatory):
+  Competitor homepages ranking   → client homepage should target it
+  Competitor inner pages ranking → client needs a dedicated inner page
+  Competitor location pages ranking → client needs location pages, not a city-level page
+  Never map a city-level keyword to a location page or vice versa.
+
+Competitive set check:
+  Check WHO ranks, not just what ranks.
+  Government / informational sites → wrong intent, not a commercial target.
+  Different business vertical → ambiguous intent, lower priority.
+  One questionable result does NOT disqualify a keyword — assess the overall set.
+  Only reject if the wrong type dominates (e.g. national chains hold multiple top positions).
+
+Local pack:
+  Presence of local pack = strong local commercial intent.
+  Also won via GBP — not just on-page keyword strategy.
+  "Near me" keywords almost always trigger local pack.
+  → Map "near me" to /areas-we-serve/ page AND reinforce via GBP.
+  NEVER put "near me" on a suburb page or service page.
+
+Intent signals:
+  "How to", "what is", "difference between" in top results = informational SERP
+  Law firm / service business pages dominating = commercial intent ✓
+  Government, Legal Aid, Wikipedia = informational — not a commercial keyword target
+  Mixed informational + commercial = conflicting intent — replace the keyword, don't patch
+
+Mixed SERP rule:
+  If SERP shows government, Legal Aid, Wikipedia, or informational content mixed
+  with commercial results → replace the keyword entirely.
+  Standard for legal: 8+ law firm / service business pages = clean commercial intent ✓
+  Example: "probate melbourne" (mixed) → replaced with "deceased estate lawyer melbourne" (clean)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. LOCATION PAGE STRATEGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When to use location pages:
+  - Suburb-level GKP volume exists for the root keyword, OR
+  - Strategic presence is justified (growth area, competitor location, client's office suburb)
+  Never create location pages outside the client's realistic service catchment.
+
+Home suburb → homepage (NOT a standalone location page):
+  Anchor the business's home suburb to the homepage via NAP, schema, and content.
+  Do NOT create a separate location page for the home suburb — it competes with
+  the homepage and wastes a budget slot.
+  Reallocate freed budget slots to a different suburb.
+
+No directional suburb names:
+  Never use suburbs with North, South, East, West in the name.
+  (e.g. Cranbourne North, Narre Warren South, Hampton East)
+  These create weak, confusing entity signals.
+  Skip entirely — regardless of GKP volume.
+
+Suburb selection criteria:
+  - Same LGA or within realistic travel distance
+  - Active commercial/residential activity
+  - At least some competition to validate search demand
+  - Exclude suburbs in different LGAs with established own service communities
+    (e.g. Frankston, Dandenong for a Casey-based firm — pages rank but don't convert)
+
+Root keyword variant testing:
+  Always test both forms at suburb level: e.g. "conveyancer [suburb]" vs "conveyancing [suburb]"
+  Pick the higher-volume form and use it consistently across ALL location pages + matching service page.
+  GKP groups singular/plural (property lawyer = property lawyers).
+  GKP does NOT group noun vs gerund — test both.
+  Consistency rule: once a root form is chosen, apply it everywhere — never mixed.
+
+When to use 2 roots for location pages (ALL of these must be true):
+  1. The two roots capture meaningfully different searcher intents
+  2. Root 2 reinforces a genuine brand differentiator (not just a synonym)
+  3. Competition for root 2 is low enough to justify 0-volume suburb pages
+  4. At least one suburb has confirmed volume for root 2 (proves the intent exists)
+  Each suburb gets a SEPARATE PAGE per root — never combine both roots on one page.
+
+When to use 1 root only:
+  - Root 2 is essentially a synonym with the same intent
+  - Client has no meaningful differentiator to justify root 2's positioning
+  - Root 2 volume is zero at suburb level AND no strategic rationale exists
+
+GBP + location pages are mutually reinforcing — always recommend both together:
+  Location pages → tells Google which suburbs the business serves → expands GBP map pack visibility
+  GBP authority → reinforces organic location page ranking for that suburb
+  Never treat website SEO and GBP as independent workstreams for local businesses.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. NON-SEO ENTITY PAGES (ALWAYS INCLUDE IN EVERY PLAN)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+These are structural, authority, and conversion pages. Always required — never optional.
+
+  Page              URL                  Purpose
+  ──────────────────────────────────────────────────────────────────────────────
+  Homepage          /                    Brand entity — business, location, for whom
+  Services hub      /services/           Links to all service pages; no keyword target
+  Areas we serve    /areas-we-serve/     Geographic coverage; map "near me" keywords here
+  About             /about/              E-E-A-T, credentials, story; no keyword target
+  Contact           /contact/            NAP signal; no keyword target
+  Gallery/Our Work  /gallery/            E-E-A-T proof — real projects; no keyword target
+  Get a Quote       /get-a-quote/        Conversion destination; no keyword target
+  Testimonials      /testimonials/       Social proof; no keyword target
+
+Near me rule (mandatory):
+  /areas-we-serve/ always gets "near me" keywords.
+  Take each location keyword root in the plan and append "near me".
+  Example: roots = "suspended ceilings" + "partition walls"
+           → "suspended ceilings near me" + "partition walls near me" on /areas-we-serve/
+  These are the primary and secondary keywords for the areas page.
+
+Label these pages in the deliverable as "Entity / Authority Pages" — separate from
+keyword-targeted pages — so client and manager understand they are structural.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+10. HTML DELIVERABLE — REQUIRED SECTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+File format: always report.html, generated via kwr:report skill → generate_report.py
+Location: clients/[domain]/keyword-research/report.html
+Never manually generate the HTML file — always use generate_report.py.
+
+Required sections (in order):
+
+  §0 — Client Brief (yellow block at top of page — before everything else)
+       Left column:  BDM notes, verbatim, all of them
+       Right column: Onboarding form — relevant fields only (location, services,
+                     SEO preferences, USPs, ideal customer). Omit admin fields.
+       Styling: background #fffbcc, border #e6d800, two-column layout
+       Why: manager reviewing the plan needs source requirements at a glance
+
+  §1 — Entity Structure Being Built
+       Tier 1 — Homepage: what brand entity is being signalled
+       Tier 2 — Service pages: what topic entities each service page builds
+       Tier 3 — Location pages: what geographic entity associations are created
+       The overall picture: what Google understands after all pages are live
+
+  §2 — Supporting Entities Per Page (Content Signals — Not Keyword Targets)
+       Related terminology, process steps, related services, FAQs, named entities
+       Group by page type: homepage, service pages, location pages
+       These become the content brief for writers
+
+  §3 — Beyond This Keyword Plan
+       GBP setup and optimisation
+       Schema markup (type appropriate for the business)
+       NAP consistency (website, GBP, key directories)
+       Internal linking structure
+       Content production notes
+       Citation building (key industry directories)
+       Review strategy
+       Blog quick wins (page 2 positions, low KD — flag separately)
+
+  Eligible Candidates (at bottom — after all reasoning sections)
+       All evaluated keywords not selected for the current plan
+       Include: keyword, GKP volume, YoY trend, category, SERP status, reason not selected
+       Group by outcome: Replaced / Declined / Rejected / Pending Validation / Category Alternatives
+       SERP status colour coding: CLEAN = green, AMBER = amber, REJECTED = red, NOT CHECKED = grey
+       When a keyword is swapped out → add to Eligible Candidates immediately
+       When a keyword is swapped in → move from Eligible Candidates to main table
+       Why: prevents re-doing research on 1,000+ evaluated keywords for future changes
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+11. INDUSTRY-SPECIFIC RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LEGAL / LAW FIRMS
+  - Accredited specialist = high-value USP secondary keyword (few competitors have it)
+  - Conveyancing intent (transactional) vs property lawyer intent (legal advice) — separate pages
+  - Powers of attorney SERP: government bodies dominate — cover as content section only, not a keyword
+  - Probate: "probate lawyer melbourne" = clean. "probate melbourne" = mixed → replace with
+    "deceased estate lawyer [city]"
+  - High-CPC signals: probate ($40+), commercial law ($70–$80), commercial lease ($26–$52)
+    Low volume + high CPC = worth including
+  - Conveyancing SERP: often dominated by specialist conveyancers — "lawyer-backed conveyancing"
+    is a genuine differentiator positioning
+
+CRIMINAL DEFENCE / TRAFFIC LAW
+  - Volume reality check: criminal law volumes are much lower than general legal benchmarks
+    Drink driving Melbourne = 70/mo (not 500–800)
+    Many practice area keywords return N/A from GKP — always confirm, never estimate
+  - High case value overrides low volume ($5k–$50k+ fees)
+    Reject a keyword as page target only if SERP is non-commercial — never reject purely on volume
+  - CPC confirms case value: fraud ($26–$36), criminal defence ($30–$50) at even 10/mo = worth including
+  - "Near me" = dominant volume in criminal law (1,900/mo typically)
+    Won via GBP local pack, not organic page rank → map to /areas-we-serve/ + GBP
+  - Location pages = primary SEO growth lever for new criminal firms
+    Select suburbs by proximity to busy Magistrates Courts, not just population
+  - Homepage split: always test "criminal lawyer melbourne" vs "criminal defence lawyer melbourne"
+    in GKP — don't assume which has higher volume
+  - Excluded SERP patterns: "homicide lawyer melbourne" (AMBER), "bail application melbourne"
+    bare (MIXED — use "bail application lawyer melbourne" instead), "speeding lawyer melbourne" (AMBER)
+
+TRADES & CONTRACTORS
+  - Root keyword: trade name + city/suburb (e.g. "concrete cutting melbourne")
+  - Ambiguous terms: some trade terms have commercial + industrial meanings — check SERP
+  - Suburb volume for trades can be near zero — justify strategically if 0 (near job sites, industrial areas)
+  - Second root: usually NOT justified — searcher intent at suburb level is typically identical
+
+ECOMMERCE / RETAIL
+  - "Bedroom suite" + city modifier → hotel SERPs — never use as a furniture keyword
+  - "For sale" + location modifier → classified/clearance SERPs — do not use
+  - Size-specific sofa keywords (3 seater, 2 seater) dominated by national chains — skip for DR < 20
+  - Bedroom piece keywords at meaningful volume almost always have national chains
+  - National chain threshold: reject if chain at positions 1–4; evaluate if at positions 5–8
+  - "Kitchen furniture" = renovation/cabinet SERP, not furniture retailers
+  - "Lighting" = designer specialist SERP, wrong competitive set
+  - Volume ceiling: ≤ 1,000 monthly searches for new/weak domains (DR < 20), except homepage
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+12. CLIENT MEMORY FILE RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every client must have one consolidated memory file as the single source of truth.
+File name: client_[domain-without-tld].md  (e.g. client_wslegal.md)
+Location: clients/[domain]/memory/
+
+What goes in it:
+  - Business identity (name, address, contact, hours, ABN)
+  - Services offered and USPs
+  - Budget and split (general vs location units)
+  - All strategic decisions and reasoning
+  - Entity framework (homepage, service pages, location pages)
+  - Final keyword-to-page mapping with volumes and CPC
+  - SERP learnings per keyword (page type, competitive set, intent)
+  - Current site rankings summary (date, commercial vs informational, quick wins)
+  - Competitor map (names, niches, SEO strength)
+  - HTML deliverable file path and version
+  - Status and pending work
+
+Rules:
+  - Create at project start; update at every session where decisions are made
+  - Do NOT split across multiple files — one file per client
+  - Always update Status & Pending so future sessions can resume without re-reading history
+  - Raw briefs and onboarding forms must also be saved as separate files at the client root
+    clients/[domain]/onboarding-form.md  or  clients/[domain]/client-brief.md
+    These are the source of truth — consolidated file is derived from them
+    If anything conflicts, the raw brief wins
