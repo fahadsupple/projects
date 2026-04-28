@@ -108,9 +108,86 @@ Albert Park, Armadale, Ashburton, Balaclava, Balwyn, Beaumaris, Bentleigh, Black
 
 ---
 
-## Keyword Research — Key Learnings (v2.0, Apr 2026)
+## Keyword Research — Decisions & Status (v3.0, 28 Apr 2026)
 
-### Suburb keyword format — CRITICAL
+### KEYWORD PLAN FINALISED — PENDING URL MAPPING
+
+---
+
+### Location Pages — 3 Root Keywords (FINALISED)
+
+| Root | Rationale |
+|---|---|
+| `heating and cooling [suburb]` | Broad intent, high volume in affluent Bayside/inner suburbs |
+| `air conditioning [suburb]` | Highest volume root across all suburbs |
+| `ducted heating [suburb]` | Creates heating entity at suburb level; more volume than split system (260/mo total vs ~0); cleaner SERP than split system |
+
+**Split system was evaluated and rejected** as root 3 — same retail carousel contamination as split system Melbourne; ducted heating chosen for entity balance (2 cooling-adjacent roots → 1 heating root) and because client has a dedicated ducted heating product set.
+
+---
+
+### Location Pages — 17 Suburbs Selected (FINALISED)
+
+Selected using **geographic spread strategy** across 5 zones from client's 50-suburb list. Within each zone, highest AC search volume suburb chosen.
+
+| Zone | Suburbs |
+|---|---|
+| Inner City (2) | St Kilda, Elwood |
+| Inner East (4) | Camberwell, Hawthorn, Kew, Malvern |
+| Bayside South (5) | Brighton, Hampton, Moorabbin, Cheltenham, McKinnon |
+| South-East (3) | Burwood, Clayton, Glen Waverley |
+| Peninsula (3) | Frankston, Mornington, Rosebud |
+
+**Total: 51 location keywords** (17 suburbs × 3 roots). Saved in: `keyword-research/location-keywords.csv`
+
+**Note on ducted heating [suburb] volumes:** Most are 0–90/mo — ducted is a secondary keyword on location pages, not primary. Primary is always `air conditioning [suburb]` or `heating and cooling [suburb]`.
+
+---
+
+### General Melbourne Keywords — 5 Finals (FINALISED)
+
+| # | Keyword | Volume | Competition | SERP Notes |
+|---|---|---|---|---|
+| 1 | heating and cooling service melbourne | 210/mo | Low 11 | Clean service SERP — all HVAC companies, no retail |
+| 2 | air conditioning installation melbourne | 1,900/mo | Low 21 | Mostly clean; The Good Guys at #7 only |
+| 3 | ducted heating installation melbourne | 320/mo | Low 6 | Clean; "installation" modifier removes retail carousel |
+| 4 | split system installation melbourne | 720/mo | — | Clean service SERP |
+| 5 | hydronic heating service melbourne | 140/mo | High 82 paid | Specialist-dominated SERP; service modifier chosen over installation (10/mo) |
+
+**Total general volume: 3,290/mo**
+
+**Rejected generals and why:**
+- `ducted heating melbourne` — retail product carousel (Brivis Buffalo, Braemar, Bonaire from retailers)
+- `brivis heating melbourne` — brivis.com.au #1 organically; manufacturer + retail SERP; not a service SERP
+- `hydronic heating melbourne` / all modifiers — dominated by hydronic specialists (Foster, Just Hydronic, MTPS, Ascot, Nissl Eichert, dPP Hydronics, Proheat)
+- `hydronic heating installation melbourne` — only 10/mo; same specialist-dominated SERP
+
+---
+
+### Website Findings (confirmed via Playwright, 28 Apr 2026)
+
+**Hydronic offering:**
+- Homepage: *"specialise in electric heat pumps, hydronic heating, and solar cooling"*
+- Hydronic page (`/heating/hydronic-heating/`): Panel Heating, Slab Heating, Trench Heating — installation-focused content only
+- Servicing & Repairs page (`/servicing-repair-requests/`): "Hydronic Heating" is a dropdown option in the booking form (alongside Gas Ducted Heater, Air Conditioner variants)
+- **Content gap:** No dedicated hydronic service/maintenance page exists — needed to rank for `hydronic heating service melbourne`
+
+**Services confirmed on site:**
+- Electric Heat Pump (heating + cooling)
+- Wall Split Systems
+- Gas Ducted Heating
+- Hydronic Heating (panel, slab, trench)
+- Evaporative Cooling
+- MultiHead Split System
+- Modern Bulkhead
+- Add-On Cooling
+- Solar Heating / Solar Cooling
+- VEU Programme
+- Servicing & Repairs (all product types including hydronic)
+
+---
+
+### Suburb Keyword Format — CRITICAL (carried forward)
 Most "ducted heating [suburb]" terms register 0 monthly searches in GKP at the suburb level. **Do not use "ducted heating [suburb]" as the primary keyword for suburb pages.** Correct formats confirmed by live data:
 - Inner apartments / dense suburbs: `air conditioning [suburb]`
 - Affluent Bayside / inner-south (heritage homes): both `heating and cooling [suburb]` and `air conditioning [suburb]` viable — use higher-volume format
@@ -169,3 +246,10 @@ Homeowners and families in Melbourne's Bayside/south-east suburbs and Mornington
 | SERP research | Done — 27 Apr 2026 (live SERP crawls) |
 | Competitor domain rank data | Done — 27 Apr 2026 (DataForSEO backlink API) |
 | Keyword plan HTML v2.0 | Done — 27 Apr 2026 |
+| Root keyword selection (3 roots) | Done — 28 Apr 2026 |
+| 17 suburb selection (geographic spread) | Done — 28 Apr 2026 |
+| 51 location keywords CSV | Done — 28 Apr 2026 |
+| 5 general Melbourne keywords finalised | Done — 28 Apr 2026 |
+| SERP validation (all 5 generals) | Done — 28 Apr 2026 |
+| Website audit (hydronic services) | Done — 28 Apr 2026 |
+| **Next: URL mapping (56 keywords → pages)** | Pending |
