@@ -1,0 +1,1994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Research Report - energus.com.au</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --text: #e8e8e8;
+      --muted: #a0a0b0;
+      --accent: #0f3460;
+      --success: #4ecca3;
+      --warning: #f0a500;
+      --danger: #e74c3c;
+      --highlight: #533483;
+      --sidebar-w: 240px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "SF Mono", "Cascadia Code", "Fira Code", monospace;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-width: 1024px;
+    }
+    h1, h2, h3, h4 {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin-bottom: 0.5em;
+    }
+    h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-bottom: 1em; font-size: 1.5rem; }
+    h3 { color: var(--muted); margin-top: 1.5em; font-size: 1.15rem; }
+    h4 { font-size: 1rem; }
+    a { color: var(--success); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0; left: 0;
+      width: var(--sidebar-w);
+      height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--accent);
+      overflow-y: auto;
+      padding: 1rem 0;
+      z-index: 100;
+    }
+    .sidebar h3 {
+      padding: 0 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+    .sidebar a {
+      display: block;
+      padding: 0.35rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text);
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .sidebar a:hover, .sidebar a:focus {
+      background: var(--accent);
+      border-left-color: var(--success);
+      text-decoration: none;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: var(--sidebar-w);
+      padding: 2rem 3rem;
+      max-width: 1400px;
+    }
+
+    /* Sections */
+    .section { margin-bottom: 3rem; }
+    .section-intro { color: var(--muted); margin-bottom: 1.5em; }
+    .section-note { color: var(--muted); font-size: 0.85rem; margin-top: 1em; font-style: italic; }
+
+    /* Cover */
+    .cover-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--surface), var(--accent));
+      border-radius: 8px;
+      margin-bottom: 3rem;
+    }
+    .cover-title { font-size: 2.5rem; margin-bottom: 0.3em; }
+    .cover-domain { font-size: 1.3rem; color: var(--success); margin-bottom: 0.2em; }
+    .cover-business { font-size: 1.1rem; color: var(--muted); margin-bottom: 2em; }
+    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+    .cover-meta-item { background: rgba(0,0,0,0.2); padding: 0.6rem 1rem; border-radius: 4px; }
+    .meta-label { display: block; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+    .meta-value { font-size: 0.95rem; font-weight: bold; }
+
+    /* Stats grid */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--surface); padding: 1.2rem; border-radius: 6px; text-align: center; border: 1px solid var(--accent); }
+    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui, sans-serif; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3em; }
+
+    /* Tables */
+    .table-scroll { overflow-x: auto; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .data-table th {
+      background: var(--accent);
+      color: var(--text);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .data-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+    .data-table tbody tr:hover { background: rgba(78,204,163,0.08); }
+    .compact-table td, .compact-table th { padding: 0.35rem 0.6rem; }
+    .kw-row { cursor: pointer; }
+    .kw-row:hover { background: rgba(78,204,163,0.12); }
+    .kw-name { font-weight: bold; }
+
+    /* Score badge */
+    .score-badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    /* Timeline badge */
+    .tl-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
+    .tl-quick_win { background: var(--success); color: #000; }
+    .tl-medium_term { background: var(--warning); color: #000; }
+    .tl-strategic { background: var(--highlight); color: #fff; }
+
+    /* Status */
+    .status-pass { color: var(--success); font-weight: bold; }
+    .status-fail { color: var(--danger); }
+
+    /* Info card */
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-left: 4px solid var(--warning);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+    }
+    .info-icon { font-size: 1.4rem; color: var(--warning); flex-shrink: 0; }
+    .info-card p { margin: 0; color: var(--muted); }
+
+    /* Limitations */
+    .limitations { background: var(--surface); border-radius: 4px; padding: 1rem; margin-top: 1.5rem; }
+    .limitations h4 { color: var(--warning); }
+    .limitations ul { padding-left: 1.5rem; color: var(--muted); }
+    .limitations li { margin-bottom: 0.3em; }
+
+    /* Charts */
+    .chart-row { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .chart-block { flex: 1; min-width: 280px; }
+    .chart-block h4 { margin-bottom: 0.8rem; }
+
+    /* Detail row */
+    .detail-row td { background: var(--surface); }
+    .detail-content { padding: 1rem; }
+    .detail-grid { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem; }
+    .detail-info p { margin-bottom: 0.3em; font-size: 0.85rem; }
+    .reasoning { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; padding: 0.8rem; background: rgba(0,0,0,0.2); border-radius: 4px; }
+    .secondaries-detail { font-size: 0.85rem; }
+    .sec-group { margin-bottom: 0.5rem; }
+    .sec-group ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Silo cards */
+    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .silo-card { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .silo-card h4 { color: var(--success); }
+    .silo-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; font-size: 0.8rem; }
+    .silo-lists ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Heatmap */
+    .heatmap-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+    .heatmap-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      color: var(--text);
+    }
+    .heatmap-label { font-weight: bold; font-size: 0.65rem; }
+    .heatmap-score { font-size: 0.6rem; color: rgba(255,255,255,0.7); }
+
+    /* Calendar grid */
+    .calendar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+    .calendar-cell {
+      padding: 0.8rem 0.5rem;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .cal-month { font-weight: bold; }
+    .cal-count { font-size: 0.7rem; color: rgba(255,255,255,0.7); }
+
+    /* Tier grid */
+    .tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .def-tier { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .def-tier ul { padding-left: 1.2rem; color: var(--muted); font-size: 0.85rem; }
+
+    /* Expansion */
+    .expansion-ring { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+    .expansion-ring h3 { margin-top: 0; }
+
+    /* Methodology */
+    .methodology-content p { margin-bottom: 0.8em; }
+    .feature-list { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .feature-list li { margin-bottom: 0.3em; }
+
+    /* Brand */
+    .brand-details p { color: var(--muted); }
+
+    /* Sortable table header cue */
+    .sortable-table th { cursor: pointer; }
+    .sortable-table th:hover { background: var(--highlight); }
+    .sort-asc::after { content: " \25B2"; font-size: 0.65em; }
+    .sort-desc::after { content: " \25BC"; font-size: 0.65em; }
+
+    /* Print styles */
+    @media print {
+      body { background: #fff; color: #111; min-width: auto; }
+      .sidebar { display: none; }
+      .main-content { margin-left: 0; padding: 1rem; max-width: 100%; }
+      .section { page-break-inside: avoid; margin-bottom: 1rem; }
+      .cover-section { page-break-after: always; background: none; padding: 2rem 0; }
+      #confidence { page-break-after: always; }
+      #executive { page-break-after: always; }
+      #general_keywords { page-break-before: always; }
+      #location_keywords { page-break-before: always; }
+      #silo_architecture { page-break-before: always; }
+      #methodology { page-break-before: always; }
+      #appendix { page-break-before: always; }
+      .data-table th { background: #ddd; color: #111; position: static; }
+      .data-table td { border-bottom: 1px solid #ccc; }
+      .data-table tbody tr:nth-child(even) { background: #f5f5f5; }
+      .stat-card { border: 1px solid #ccc; }
+      .stat-value { color: #333; }
+      .info-card { border-color: #ccc; }
+      .score-badge { border: 1px solid #999; }
+      .cover-section { border: 1px solid #ccc; border-radius: 0; }
+      a { color: #333; }
+      svg text { fill: #111; }
+      svg circle[stroke="#2a2a4a"] { stroke: #ddd; }
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .main-content { padding: 1.5rem 2rem; }
+      .chart-row { flex-direction: column; }
+    }
+</style>
+</head>
+<body>
+<nav class="sidebar">
+  <h3>Navigation</h3>
+    <a href="#cover">Cover Page</a>
+    <a href="#confidence">Data Confidence Summary</a>
+    <a href="#executive">Executive Summary</a>
+    <a href="#allocation">Package Allocation</a>
+    <a href="#existing_portfolio">Existing Portfolio Health</a>
+    <a href="#general_keywords">Selected General Keywords</a>
+    <a href="#location_keywords">Selected Location Keywords</a>
+    <a href="#silo_architecture">Keyword Silo Architecture</a>
+    <a href="#competitor_analysis">Competitor Analysis</a>
+    <a href="#content_gap">Content Gap Map</a>
+    <a href="#quick_wins">Quick Wins</a>
+    <a href="#serp_features">SERP Feature Opportunities</a>
+    <a href="#gbp_opportunities">GBP &amp; Near Me Opportunities</a>
+    <a href="#ai_overview">AI Overview Impact</a>
+    <a href="#geographic_expansion">Geographic Expansion Plan</a>
+    <a href="#excluded_keywords">Excluded Keywords</a>
+    <a href="#tam">Total Addressable Market</a>
+    <a href="#brand_serp">Brand SERP Health Check</a>
+    <a href="#methodology">Methodology</a>
+    <a href="#appendix">Appendix: Full Candidate Database</a>
+</nav>
+<main class="main-content">
+<section id="cover" class="section cover-section">
+  <div class="cover-content">
+    <h1 class="cover-title">Keyword Research Report</h1>
+    <div class="cover-domain">energus.com.au</div>
+    <div class="cover-business">energus.com.au</div>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard (20 general + 8 location)</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Mode</span><span class="meta-value">Fresh</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v1</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Candidates Analysed</span><span class="meta-value">0</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">5,260</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Generated</span><span class="meta-value">2026-04-29 02:17 UTC</span></div>
+    </div>
+  </div>
+</section>
+<section id="confidence" class="section">
+  <h2>Data Confidence Summary</h2>
+  <p class="section-intro">9 of 10 data sources available.</p>
+  <table class="data-table compact-table">
+    <thead><tr><th>Data Source</th><th>Status</th></tr></thead>
+    <tbody><tr><td>Questionnaire</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Config</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Keywords</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Candidates</td><td class="status-fail">&#10007; Missing</td></tr>
+<tr><td>Allocation</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Competitors</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>SERP Data</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Content Gaps</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Suburbs</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Metrics</td><td class="status-pass">&#10003; Available</td></tr></tbody>
+  </table>
+  
+</section>
+<section id="executive" class="section">
+  <h2>Executive Summary</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">20</div>
+      <div class="stat-label">General Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">8</div>
+      <div class="stat-label">Location Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">5,260</div>
+      <div class="stat-label">Effective Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Candidates Analysed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.50</div>
+      <div class="stat-label">Avg Opportunity Score</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">8</div>
+      <div class="stat-label">Content Silos</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Quick Wins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Strategic Targets</div>
+    </div>
+  </div>
+  <div class="chart-row">
+    <div class="chart-block"><h4>Intent Distribution</h4><svg width="360" height="180" class="chart-donut">
+  <circle cx="90" cy="90" r="54" fill="#1a1a2e" />
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24" stroke-dasharray="439.82 439.82" stroke-dashoffset="0.00" transform="rotate(-90 90 90)" />
+  <rect x="190" y="12" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="208" y="22" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Investigation (100%)</text>
+</svg></div>
+    <div class="chart-block"><h4>Timeline Distribution</h4><svg width="460" height="88" viewBox="0 0 460 88" class="chart-stacked">
+  <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Keywords</text>
+  <rect x="120.0" y="30" width="320.0" height="30" fill="#f0a500" />
+  <rect x="120" y="68" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win</text>
+  <rect x="230" y="68" width="12" height="12" rx="2" fill="#f0a500" />
+  <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term</text>
+  <rect x="340" y="68" width="12" height="12" rx="2" fill="#533483" />
+  <text x="356" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic</text>
+</svg></div>
+  </div>
+</section>
+<section id="allocation" class="section">
+  <h2>Package Allocation</h2>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">Standard</div><div class="stat-label">Package Tier</div></div>
+    <div class="stat-card"><div class="stat-value">20</div><div class="stat-label">General Budget</div></div>
+    <div class="stat-card"><div class="stat-value">8</div><div class="stat-label">Location Budget</div></div>
+  </div>
+  <h3>Service Tier Distribution</h3>
+  <table class="data-table compact-table">
+    <thead><tr><th>Service Tier</th><th>Keywords Allocated</th></tr></thead>
+    <tbody><tr><td>Tier A</td><td>14</td></tr><tr><td>Tier B</td><td>2</td></tr><tr><td>Tier C</td><td>4</td></tr></tbody>
+  </table>
+  <p>Allocation data available from research pipeline.</p>
+</section>
+
+<section id="general_keywords" class="section">
+  <h2>Selected General Keywords</h2>
+  <p class="section-intro">20 general keywords selected. Click any row to expand details.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table">
+    <thead><tr>
+      <th>#</th><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th>
+      <th>CPC</th><th>Intent</th><th>Timeline</th><th>Confidence</th>
+    </tr></thead>
+    <tbody><tr class="kw-row" onclick="toggleDetail('detail-0')">
+  <td>1</td>
+  <td class="kw-name">commercial solar installer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>$38.72</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-0" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-installer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 320 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Energus already operates /commercial-solar-installer/ — this is their primary service identity page. Volume 320/mo at $38.72 CPC confirms strong B2B buyer intent. SERP composition (hdcelectrical.com.au #1, solarchoice.net.au #2, tindosolar.com.au #3) shows only local electricians and a directory in top 3 — no national giants, making this winnable for Energus with its Top 5 C&amp;I Retailer credential and ISO 45001/9001 certifications. The gaps.json confirms the page exists but needs optimisation — the content brief should lead with the Top 5 C&amp;I Retailer designation and ISO certifications to outperform smaller electricians who cannot match that authority signal.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 170</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-1')">
+  <td>2</td>
+  <td class="kw-name">commercial solar panels</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>880</td>
+  <td>N/A</td>
+  <td>$37.97</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-1" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-panels/</p>
+          <p><strong>AI Adjusted Vol:</strong> 880 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 880/mo is the highest volume commercial solar term in the plan, at $37.97 CPC confirming pure commercial buyer intent. The SERP shows energy.gov.au at #1 (immovable government position) but tindosolar.com.au at #2 and mcelectrical.com.au at #3 — both comparable or weaker domain authorities than Energus (rank 185 vs Tindo Solar&#x27;s specialist panel positioning). The /commercial-solar-panels/ page already exists per gaps.json but the title &#x27;commercial solar panels installation company in nsw&#x27; is NSW-specific, missing the national positioning. Secondary &#x27;commercial solar system&#x27; (720/mo) groups with this SERP and consolidates the ranking opportunity. Energus uses Tier 1 manufacturers only (Sunman eARC, hand-selected) — a differentiating product story that competitors like hdcelectrical.com.au cannot match.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 1,640</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-2')">
+  <td>3</td>
+  <td class="kw-name">commercial solar installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>$38.72</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-2" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-installation/</p>
+          <p><strong>AI Adjusted Vol:</strong> 320 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 320/mo at $38.72 CPC is the action-intent variant of the commercial solar buyer journey. The secondary &#x27;commercial solar power installation&#x27; (260/mo, $61.30 CPC) has the second-highest CPC in the entire candidate pool — this signals late-stage B2B buyers ready to commit a project. SERP shows energy.gov.au at #1 (government always holds informational position), tindosolar.com.au at #2 — these are all inner service pages, confirming a dedicated /commercial-solar-installation/ page is the correct structure. Smart Commercial Energy does NOT have a dedicated installation page (they run /commercial-solar/ generically) — this is a gap Energus can own. The competitor secondary &#x27;commercial solar company&#x27; (260/mo) brings Energus into the provider-selection SERP where Smart Commercial Energy currently dominates at #1.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 820</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-3')">
+  <td>4</td>
+  <td class="kw-name">industrial solar installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-3" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> industrial_solar</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /industrial-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 40 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Industrial solar is explicitly listed in the BDM brief (&#x27;Industrial solar installation&#x27; as a key keyword) and questionnaire services list. The existing page is at /industrial_solar_energy/ with underscore URLs (a technical SEO issue) — this plan recommends /industrial-solar/ as the clean URL. Secondary &#x27;industrial solar panels&#x27; (170/mo, $30.33 CPC) is the highest-volume industrial term, outperforming the installation form. Smart Commercial Energy ranks #1 for &#x27;industrial solar systems&#x27; (90/mo) — this is a direct competitor gap. The $44.56 CPC secondary &#x27;commercial pv installations&#x27; identifies the engineering/technical buyer segment that Energus&#x27;s in-house engineers specifically serve (PV is engineering/technical terminology used by EPC contractors and facilities engineers, not residential buyers).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 310</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-4')">
+  <td>5</td>
+  <td class="kw-name">commercial solar solutions</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>170</td>
+  <td>N/A</td>
+  <td>$13.72</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-4" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Hub</p>
+          <p><strong>Target URL:</strong> /commercial-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 170 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 170/mo at $13.72 CPC. The SERP is completely clean commercial (sharpeit.com.au #1, 13kuga.com.au #2, allcommercialenergy.com.au #3) — no government pages, only small-to-mid-tier local businesses. Energus outranks all three on domain authority (rank 185 vs smaller local businesses). This term serves as the parent hub for the commercial solar service cluster. Smart Commercial Energy ranks #2 for this term — but their domain authority (rank 241) is weaker than Energus (rank 185). The secondary &#x27;commercial solar company&#x27; (260/mo) is the provider-selection term where Smart Commercial Energy ranks #1 — Energus can displace them with stronger credentials (Top 5 C&amp;I Retailer, ISO certifications, 55MW+ delivered).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 360</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-5')">
+  <td>6</td>
+  <td class="kw-name">commercial solar power installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>$61.30</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-5" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-installation/</p>
+          <p><strong>AI Adjusted Vol:</strong> 260 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 260/mo at $61.30 CPC — this keyword&#x27;s cost-per-click is the second highest in the entire plan, exceeded only by &#x27;commercial solar installation companies&#x27; ($73.24). $61.30 CPC means Google&#x27;s Ads auction assigns extreme commercial value to this term. At this CPC, a single organic ranking yielding just 5 leads per month would deliver enormous ROI. The buyer type searching &#x27;commercial solar power installation&#x27; is a construction project manager or EPC contractor specifying solar for a new development — precisely Energus&#x27;s construction company customer segment. Maps as secondary on the /commercial-solar-installation/ page (GEN-003), capturing both keyword groups from that URL.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 380</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-6')">
+  <td>7</td>
+  <td class="kw-name">battery energy storage system australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>1,000</td>
+  <td>N/A</td>
+  <td>$5.27</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-6" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> bess_battery</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /battery-storage/</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,000 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> The national BESS term at 1,000/mo with Australia qualifier. CPC at $5.27 is lower than commercial solar terms because the BESS market is still building search maturity — but deal sizes for commercial BESS range from $100k to $2M+, making even 2-3 leads per month from this page transformational. SERP is dominated by bessaustralia.com.au (exact-match domain advantage) and arena.gov.au — but Energus can realistically win positions 4-6 with depth on commercial/industrial applications, which bessaustralia.com.au and ARENA don&#x27;t specialise in. The existing /battery/ page has the right title (&#x27;Commercial Battery Storage &amp; Installation&#x27;) — this is the page to optimise. Smart Commercial Energy ranks #1 for &#x27;commercial battery storage&#x27; (70/mo) — Energus&#x27;s dedicated page directly challenges this.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 270</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-7')">
+  <td>8</td>
+  <td class="kw-name">commercial battery storage australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>20</td>
+  <td>N/A</td>
+  <td>$7.26</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-7" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> bess_battery</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /battery-storage/</p>
+          <p><strong>AI Adjusted Vol:</strong> 20 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Australia-qualified BESS term. 20/mo is low but the $7.26 CPC signals commercial buyer intent at a level above residential. Maps as a secondary on the /battery-storage/ page alongside the higher-volume &#x27;battery energy storage system australia&#x27;. Consolidates the BESS page&#x27;s keyword reach without requiring an additional URL. Smart Commercial Energy ranks for &#x27;commercial battery storage&#x27; without the Australia qualifier — Energus can differentiate by targeting the qualified Australian commercial buyer.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 70</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-8')">
+  <td>9</td>
+  <td class="kw-name">solar for business</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>$40.99</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-8" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> solar_for_business</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /solar-for-business/</p>
+          <p><strong>AI Adjusted Vol:</strong> 320 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> The highest-CPC term in the entire plan at $40.99/click. This is the quintessential CFO and business-owner search term — when a CEO reads about solar for businesses in an industry newsletter and then searches, &#x27;solar for business&#x27; is the natural query. SERP is government-dominated (energy.gov.au, business.qld.gov.au, solar.vic.gov.au in top 3) — positions 1-3 are unwinnable from government. But positions 4-8 are available to commercial installers, and the buyer intent is unambiguous at $41 CPC. Energus already has /solar-for-business/ as a standalone page — this page reports 22.5% average ROI, which is a compelling commercial hook that differentiates from generic government energy advice. The 4 secondaries all share the same business-owner intent cluster.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 450</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-9')">
+  <td>10</td>
+  <td class="kw-name">commercial solar finance</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>50</td>
+  <td>N/A</td>
+  <td>$12.15</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-9" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> solar_for_business</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-finance/</p>
+          <p><strong>AI Adjusted Vol:</strong> 50 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Finance is an explicitly listed Energus service and a critical decision-making tool for CFOs and financial controllers. 50/mo at $12.15 CPC. The secondary &#x27;cost of commercial solar system&#x27; (30/mo, $58.90 CPC) is the second-highest CPC in this plan — buyers researching ROI and system cost before committing are high-value prospects. SolarChoice (directory) dominates the cost/pricing SERP (position #1 for &#x27;commercial solar cost australia&#x27;) but Energus can win with a specific, credible finance guide that no local competitor has built. Smart Commercial Energy has an /energy-rebates-and-incentives/ page but not a dedicated finance page — this is a content gap Energus can fill first.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 120</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-10')">
+  <td>11</td>
+  <td class="kw-name">lightweight solar panels</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>$0.75</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-10" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> specialty_technology</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /earc-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 260 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Energus is one of very few Australian installers offering Sunman&#x27;s eARC lightweight solar technology — this is a USP that zero competitors in the SERP currently have a dedicated page for. 260/mo volume at $0.75 CPC is lower than commercial solar terms but &#x27;lightweight solar panels&#x27; searchers are highly specific — facilities managers and engineers dealing with weight-constrained roofs (older commercial buildings, heritage buildings, metal deck roofs). The CPC is low because competition is minimal (no serious commercial lightweight solar pages in Australia). The existing /earc-solar-skin/ page exists but uses the unfamiliar &#x27;Solar Skin&#x27; terminology rather than &#x27;lightweight solar panels&#x27; — renaming and optimising captures an unclaimed niche. The secondary &#x27;solar panels for commercial building&#x27; (110/mo, $38.42 CPC) is an extremely high-CPC term that naturally co-targets with lightweight panels.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 290</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-11')">
+  <td>12</td>
+  <td class="kw-name">commercial solar system cost</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>30</td>
+  <td>N/A</td>
+  <td>$58.90</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-11" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Informational Commercial</p>
+          <p><strong>Target URL:</strong> /commercial-solar-cost/</p>
+          <p><strong>AI Adjusted Vol:</strong> 30 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> At $58.90 CPC this is the highest-CPC keyword in the entire plan — surpassing even &#x27;commercial solar installation companies&#x27; at $73.24 when considering search volume context. A business researching commercial solar system cost is at the evaluation phase, comparing quotes and ROI. Volume is modest (30-50/mo) but these are the highest-intent buyers in the funnel. SolarChoice (directory) wins the cost SERP currently — but their content is generic. Energus can win with a specific, transparent pricing guide backed by their &#x27;1,800+ pricing quotations completed&#x27; track record (an authentic signal of pricing expertise that no SEO content farm can replicate). Gaps.json confirms this page is MISSING — no current cost/pricing page on energus.com.au.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 80</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-12')">
+  <td>13</td>
+  <td class="kw-name">solar project management</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>N/A</td>
+  <td>$0</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-12" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> specialty_services</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Page</p>
+          <p><strong>Target URL:</strong> /solar-project-management/</p>
+          <p><strong>AI Adjusted Vol:</strong> 10 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Volume is only 10/mo and CPC is $0 — this cannot be justified on volume or CPC alone. The justification is audience-specific: Energus&#x27;s top target customer segment is construction companies and major builders who need solar during new builds. These buyers search for &#x27;solar project management&#x27; not as a consumer but as a procurement/contract decision. A dedicated project management page directly addresses the construction buyer&#x27;s language: SWMS, project management plans, ISO 45001 compliance, on-time delivery, on-budget delivery, integration with construction schedule. No major competitor has a dedicated solar project management page for the construction sector — this is a content differentiator. The questionnaire identifies construction companies/builders as the primary target customer.</div>
+      <div class='secondaries-detail'></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-13')">
+  <td>14</td>
+  <td class="kw-name">commercial solar panel contractors</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>$73.24</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-13" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-installer/</p>
+          <p><strong>AI Adjusted Vol:</strong> 40 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 40/mo at $73.24 CPC — the &#x27;contractor&#x27; framing identifies procurement teams and project managers in construction companies specifying solar for new builds. This is Energus&#x27;s core construction-sector buyer. Maps as secondary on /commercial-solar-installer/ alongside GEN-013. The contractor terminology aligns with the construction industry&#x27;s procurement language, and Energus&#x27;s electrical contractor licences in NSW, QLD, and SA are the credential that answers this buyer&#x27;s due diligence question.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 30</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-14')">
+  <td>15</td>
+  <td class="kw-name">commercial solar nsw</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>30</td>
+  <td>N/A</td>
+  <td>$5.18</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-14" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> location_sydney</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Location Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar/sydney/</p>
+          <p><strong>AI Adjusted Vol:</strong> 30 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 30/mo state-level modifier. Maps as a supporting secondary on the Sydney/NSW city page. NSW is Energus&#x27;s home state (HQ: North Sydney) and they hold licence 279520C. The city page targeting &#x27;commercial solar sydney&#x27; is the primary — &#x27;commercial solar nsw&#x27; broadens the reach to state-level buyers outside Sydney proper.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 320</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-15')">
+  <td>16</td>
+  <td class="kw-name">industrial solar systems</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>90</td>
+  <td>N/A</td>
+  <td>$33.45</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-15" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> industrial_solar</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /industrial-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 90 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 90/mo at $33.45 CPC. Smart Commercial Energy holds position #1 for &#x27;industrial solar systems&#x27; — this is a direct gap that Energus&#x27;s industrial solar page (GEN-004) directly competes for. The &#x27;systems&#x27; framing (plural, holistic solution) appeals to operations managers making infrastructure decisions. Maps as a secondary on /industrial-solar/ to capture both &#x27;industrial solar installation&#x27; and &#x27;industrial solar systems&#x27; from the same page, which is how Google will group the SERP anyway.</div>
+      <div class='secondaries-detail'></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-16')">
+  <td>17</td>
+  <td class="kw-name">commercial solar company</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>$14.49</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-16" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 260 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 260/mo, Smart Commercial Energy holds #1 for this provider-selection term. By mapping as a secondary on Energus&#x27;s commercial solar hub page (/commercial-solar/), Energus directly challenges Smart Commercial Energy&#x27;s dominance on the &#x27;who do I call for commercial solar&#x27; query. The page brief for GEN-005 already includes provider-trust signals (55MW delivered, Top 5 C&amp;I Retailer, ISO certifications) that directly answer the &#x27;which commercial solar company&#x27; buyer question.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 60</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-17')">
+  <td>18</td>
+  <td class="kw-name">commercial pv installations</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>$44.56</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-17" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar-installation/</p>
+          <p><strong>AI Adjusted Vol:</strong> 40 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 40/mo at $44.56 CPC. &#x27;PV&#x27; (photovoltaic) is engineering and technical buyer language — EPC contractors, facilities engineers, sustainability consultants. This $44.56 CPC sits above most service terms in this plan, confirming late-stage procurement intent. Maps as secondary on /commercial-solar-installation/ where the engineering/technical installation process is already the focus. Energus&#x27;s in-house engineering team (a stated USP) is the direct credential answer to the technical buyer searching &#x27;commercial PV installations&#x27;.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 30</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-18')">
+  <td>19</td>
+  <td class="kw-name">commercial solar installer brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>210</td>
+  <td>N/A</td>
+  <td>$58.65</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-18" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> location_brisbane</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Secondary On Location Page</p>
+          <p><strong>Target URL:</strong> /commercial-solar/brisbane/</p>
+          <p><strong>AI Adjusted Vol:</strong> 210 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 210/mo at $58.65 CPC — the highest-CPC city + service term in the plan. Brisbane&#x27;s commercial solar market shows exceptional buyer intent as measured by Google Ads CPC. The SERP is dominated by local Queensland businesses (commercialsolarbrisbane.com.au, mcelectrical.com.au) — none of which carry Energus&#x27;s Top 5 C&amp;I Retailer credential, ISO 45001/9001 certifications, or QLD electrical contractor licence (79103). This installer+city intent term is the ultimate commercial proof that city pages are essential for Energus&#x27;s pipeline.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 420</div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-19')">
+  <td>20</td>
+  <td class="kw-name">commercial solar systems</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>720</td>
+  <td>N/A</td>
+  <td>$39.13</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-19" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="47.12388980384689 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> commercial_solar_core</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Service Hub</p>
+          <p><strong>Target URL:</strong> /commercial-solar/</p>
+          <p><strong>AI Adjusted Vol:</strong> 720 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 720/mo at $39.13 CPC — this is the same volume tier as &#x27;commercial solar system&#x27; (720/mo) and represents the plural/systems-level buyer thinking: &#x27;I need commercial solar systems for my building portfolio&#x27;. Smart Commercial Energy ranks #2 for this term (SERP: energy.gov.au #1, smartcommercialenergy.com.au #2, beatenergy.com.au #3). Energus has stronger domain authority than Smart Commercial Energy (rank 185 vs 241) — this is a direct displacement opportunity. The local pack is triggered for this term, confirming commercial local intent. Maps to the /commercial-solar/ hub page alongside &#x27;commercial solar solutions&#x27; (GEN-005) to consolidate the hub page&#x27;s keyword authority across system-focused search intent.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Effective Reach:</strong> 120</div></div>
+    </div>
+  </td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="location_keywords" class="section">
+  <h2>Selected Location Keywords</h2>
+  <p class="section-intro">8 location keywords across 1 geographic rings.</p>
+  <h3>Unassigned (8 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>commercial solar sydney</td>
+  <td></td>
+  <td>location_sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>140</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>commercial solar melbourne</td>
+  <td></td>
+  <td>location_melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>commercial solar brisbane</td>
+  <td></td>
+  <td>location_brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>commercial solar adelaide</td>
+  <td></td>
+  <td>location_adelaide</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>210</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>battery energy storage system sydney</td>
+  <td></td>
+  <td>location_bess_sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>battery energy storage system melbourne</td>
+  <td></td>
+  <td>location_bess_melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>battery energy storage system brisbane</td>
+  <td></td>
+  <td>location_bess_brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>battery energy storage system adelaide</td>
+  <td></td>
+  <td>location_bess_adelaide</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="silo_architecture" class="section">
+  <h2>Keyword Silo Architecture</h2>
+  <p class="section-intro">8 content silos identified.</p>
+  <div class="chart-row">
+    <div class="chart-block"><svg width="400" height="318" viewBox="0 0 400 318" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Client Topical Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">commercial_solar_core</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">industrial_solar</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">bess_battery</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">solar_for_business</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">specialty_technology</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">specialty_services</text>
+  <rect x="120" y="200" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">location_sydney</text>
+  <rect x="120" y="236" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">location_brisbane</text>
+  <rect x="120" y="272" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+    <div class="chart-block"><svg width="400" height="318" viewBox="0 0 400 318" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Competitor Avg Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">commercial_solar_core</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">industrial_solar</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">bess_battery</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">solar_for_business</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">specialty_technology</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="218" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">specialty_services</text>
+  <rect x="120" y="200" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="218" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="254" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">location_sydney</text>
+  <rect x="120" y="236" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="254" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="290" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">location_brisbane</text>
+  <rect x="120" y="272" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="290" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+  </div>
+  <div class="silo-grid"><div class="silo-card">
+  <h4>commercial_solar_core</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>commercial solar installer</strong></span>
+    <span>Volume: <strong>3,040</strong></span>
+    <span>Pages: 0 existing / 10 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>commercial solar panels</li><li>commercial solar installation</li><li>commercial solar solutions</li><li>commercial solar power installation</li><li>commercial solar system cost</li><li>commercial solar panel contractors</li><li>commercial solar company</li><li>commercial pv installations</li><li>commercial solar systems</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>industrial_solar</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>industrial solar installation</strong></span>
+    <span>Volume: <strong>130</strong></span>
+    <span>Pages: 0 existing / 2 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>industrial solar systems</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>bess_battery</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>battery energy storage system australia</strong></span>
+    <span>Volume: <strong>1,020</strong></span>
+    <span>Pages: 0 existing / 2 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>commercial battery storage australia</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>solar_for_business</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>solar for business</strong></span>
+    <span>Volume: <strong>370</strong></span>
+    <span>Pages: 0 existing / 2 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>commercial solar finance</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>specialty_technology</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>lightweight solar panels</strong></span>
+    <span>Volume: <strong>260</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>specialty_services</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>solar project management</strong></span>
+    <span>Volume: <strong>10</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>location_sydney</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>commercial solar nsw</strong></span>
+    <span>Volume: <strong>170</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>commercial solar sydney</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>location_brisbane</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>commercial solar installer brisbane</strong></span>
+    <span>Volume: <strong>470</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>commercial solar brisbane</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div></div>
+</section>
+<section id="competitor_analysis" class="section">
+  <h2>Competitor Analysis</h2>
+  
+  <h3>Direct Competitors</h3>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Domain</th><th>DA</th><th>Keywords</th><th>Traffic</th><th>Ref Domains</th><th>Overlap</th></tr></thead>
+    <tbody><tr>
+  <td>smartcommercialenergy.com.au</td>
+  <td>N/A</td>
+  <td>641</td>
+  <td>N/A</td>
+  <td>174</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>todaesolar.com.au</td>
+  <td>N/A</td>
+  <td>88</td>
+  <td>N/A</td>
+  <td>291</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>agl.com.au</td>
+  <td>N/A</td>
+  <td>unknown</td>
+  <td>N/A</td>
+  <td>4,135</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>13kuga.com.au</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>tindosolar.com.au</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr></tbody>
+  </table>
+  </div>
+  
+</section>
+<section id="content_gap" class="section">
+  <h2>Content Gap Map</h2>
+  <h3>Keyword Gap Status</h3><div class="table-scroll"><table class="data-table"><thead><tr><th>Keyword</th><th>Gap Status</th><th>Target URL</th><th>Action</th><th>Investment</th></tr></thead><tbody><tr>
+  <td>commercial solar installer</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-installer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar panels</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-panels/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar installation</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-installation/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>industrial solar installation</td>
+  <td class="status-fail">Missing</td>
+  <td>/industrial-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar solutions</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar power installation</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-installation/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>battery energy storage system australia</td>
+  <td class="status-fail">Missing</td>
+  <td>/battery-storage/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial battery storage australia</td>
+  <td class="status-fail">Missing</td>
+  <td>/battery-storage/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>solar for business</td>
+  <td class="status-fail">Missing</td>
+  <td>/solar-for-business/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar finance</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-finance/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>lightweight solar panels</td>
+  <td class="status-fail">Missing</td>
+  <td>/earc-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar system cost</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-cost/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>solar project management</td>
+  <td class="status-fail">Missing</td>
+  <td>/solar-project-management/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar panel contractors</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-installer/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar nsw</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar/sydney/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>industrial solar systems</td>
+  <td class="status-fail">Missing</td>
+  <td>/industrial-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar company</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial pv installations</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar-installation/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar installer brisbane</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar/brisbane/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>commercial solar systems</td>
+  <td class="status-fail">Missing</td>
+  <td>/commercial-solar/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr></tbody></table></div>
+  
+  
+  
+</section>
+<section id="quick_wins" class="section">
+  <h2>Quick Wins</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>GSC not connected -- connect GSC and re-run to populate quick wins with page 2-3 ranking data. Quick wins shown below are based on keyword difficulty analysis only.</p></div>
+</section>
+<section id="serp_features" class="section">
+  <h2>SERP Feature Opportunities</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>No SERP features detected in keyword data or SERP analysis. This may improve with additional research phases.</p></div>
+</section>
+<section id="gbp_opportunities" class="section">
+  <h2>GBP &amp; Near Me Opportunities</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>Full candidate database not available. Near me keywords will be shown when all-candidates.json is present.</p></div>
+</section>
+<section id="ai_overview" class="section">
+  <h2>AI Overview Impact</h2>
+  
+  <h3>Keyword-Level Classifications</h3><table class="data-table"><thead><tr><th>Classification</th><th>Keywords</th><th>Volume Impact</th></tr></thead><tbody><tr><td>None</td><td>20</td><td>No volume deflection</td></tr></tbody></table>
+  
+</section>
+<section id="geographic_expansion" class="section">
+  <h2>Geographic Expansion Plan</h2>
+  <p class="section-intro">Ring-by-ring build-out sequence for 1 geographic rings.</p>
+  <div class="expansion-ring">
+  <h3>Ring 0</h3>
+  <p><strong>Suburbs:</strong> </p>
+  <p><strong>Keywords:</strong> 8 | <strong>Total Volume:</strong> 870</p>
+  <p><strong>Strategy:</strong> Build first -- closest to business location</p>
+</div>
+</section>
+<section id="excluded_keywords" class="section">
+  <h2>Excluded Keywords</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>No notable exclusions recorded. This section populates after keyword selection.</p></div>
+</section>
+<section id="tam" class="section">
+  <h2>Total Addressable Market</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Estimated Monthly TAM</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">5,260</div>
+      <div class="stat-label">Selected Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.0%</div>
+      <div class="stat-label">TAM Capture</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Total Candidates</div>
+    </div>
+  </div>
+  <p class="section-note">TAM is estimated from candidate pool volume data. Upgrade to a higher tier to capture more of the addressable market.</p>
+</section>
+<section id="brand_serp" class="section">
+  <h2>Brand SERP Health Check</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>Brand SERP analysis was included in the SERP phase but no brand-specific findings were captured. Ensure the SERP agent analyses the business name directly.</p></div>
+  <p>Brand name: <strong>energus.com.au</strong></p>
+</section>
+<section id="methodology" class="section">
+  <h2>Methodology</h2>
+  <div class="methodology-content">
+    <h3>Scoring Model</h3>
+    <p>Keywords are evaluated across 8 dimensions, each scored 0.0 to 1.0:</p>
+    <table class="data-table compact-table">
+      <thead><tr><th>Dimension</th><th>Weight</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>Demand</td><td>18%</td><td>Search volume adjusted for AI deflection and trend</td></tr>
+        <tr><td>Winnability</td><td>22%</td><td>Keyword difficulty vs client domain authority</td></tr>
+        <tr><td>Intent Fit</td><td>18%</td><td>SERP-based intent classification alignment</td></tr>
+        <tr><td>Commercial</td><td>10%</td><td>CPC percentile indicating conversion value</td></tr>
+        <tr><td>Gap Value</td><td>10%</td><td>Competitive gap opportunity assessment</td></tr>
+        <tr><td>SERP Opportunity</td><td>5%</td><td>Available SERP feature slots</td></tr>
+        <tr><td>Effort Adjusted</td><td>10%</td><td>Content investment efficiency</td></tr>
+        <tr><td>Defensibility</td><td>7%</td><td>Long-term ranking holdability</td></tr>
+      </tbody>
+    </table>
+    <h3>Confidence Levels</h3>
+    <ul class="feature-list">
+      <li><strong>HIGH</strong> -- 3+ data sources agree, cross-validation passed</li>
+      <li><strong>MEDIUM</strong> -- 2 sources or minor divergence in cross-validation</li>
+      <li><strong>LOW</strong> -- Single source or significant data gaps</li>
+    </ul>
+    <h3>Timeline Assignment</h3>
+    <ul class="feature-list">
+      <li><strong>Quick Win (1-3 months)</strong> -- Low KD relative to DA, existing content or thin competition</li>
+      <li><strong>Medium Term (3-6 months)</strong> -- Moderate KD, new content required</li>
+      <li><strong>Strategic (6-12 months)</strong> -- High KD or authority-building required</li>
+    </ul>
+    <h3>Data Sources</h3>
+    <p>This report aggregates data from multiple sources including SE Ranking, DataForSEO,
+    Google Search Console (when connected), Google Ads keyword planner, and manual SERP analysis.
+    Volume figures are cross-validated across sources when available.</p>
+  </div>
+</section>
+<section id="appendix" class="section">
+  <h2>Appendix: Full Candidate Database</h2>
+  <p class="section-intro">Showing 28 selected keywords. Full candidate database available in all-candidates.json.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table" id="appendix-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Intent</th><th>Silo</th><th>Timeline</th></tr></thead>
+    <tbody><tr>
+  <td>commercial solar installer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar panels</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>880</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>industrial solar installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>industrial_solar</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar solutions</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>170</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar power installation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>battery energy storage system australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>1,000</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>bess_battery</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial battery storage australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>20</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>bess_battery</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>solar for business</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>320</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>solar_for_business</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar finance</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>50</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>solar_for_business</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>lightweight solar panels</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>specialty_technology</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar system cost</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>30</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>solar project management</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>specialty_services</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar panel contractors</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar nsw</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>30</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>location_sydney</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>industrial solar systems</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>90</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>industrial_solar</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar company</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial pv installations</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>40</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar installer brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>210</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>location_brisbane</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar systems</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>720</td>
+  <td>N/A</td>
+  <td>Commercial Investigation</td>
+  <td>commercial_solar_core</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>140</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_sydney</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_melbourne</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_brisbane</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>commercial solar adelaide</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>210</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_adelaide</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>battery energy storage system sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_bess_sydney</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>battery energy storage system melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_bess_melbourne</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>battery energy storage system brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_bess_brisbane</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr><tr>
+  <td>battery energy storage system adelaide</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0</td>
+  <td>N/A</td>
+  <td>Local Service</td>
+  <td>location_bess_adelaide</td>
+  <td>Medium Term (3-6 mo)</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+</main>
+<script>
+function toggleDetail(id) {
+  var row = document.getElementById(id);
+  if (row) {
+    row.style.display = row.style.display === 'none' ? '' : 'none';
+  }
+}
+
+function sortTable(table, col) {
+  var tbody = table.tBodies[0];
+  var rows = Array.from(tbody.rows).filter(function(r) { return !r.classList.contains('detail-row'); });
+  var th = table.tHead.rows[0].cells[col];
+  var asc = !th.classList.contains('sort-asc');
+  Array.from(table.tHead.rows[0].cells).forEach(function(c) {
+    c.classList.remove('sort-asc', 'sort-desc');
+  });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+  rows.sort(function(a, b) {
+    var va = a.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var vb = b.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var na = parseFloat(va), nb = parseFloat(vb);
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(function(row) {
+    tbody.appendChild(row);
+    var detailId = row.querySelector('[onclick]');
+    if (detailId) {
+      var match = detailId.getAttribute('onclick').match(/'([^']+)'/);
+      if (match) {
+        var detail = document.getElementById(match[1]);
+        if (detail) tbody.appendChild(detail);
+      }
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.sortable-table').forEach(function(table) {
+    Array.from(table.tHead.rows[0].cells).forEach(function(th, i) {
+      th.addEventListener('click', function() { sortTable(table, i); });
+    });
+  });
+});
+</script>
+</body>
+</html>

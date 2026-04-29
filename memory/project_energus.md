@@ -26,8 +26,9 @@ type: project
 
 ## Status
 - kwr:init: ✅ Complete (28 Apr 2026)
-- GKP data: PENDING
-- HTML deliverable: NOT STARTED
+- KWR pipeline: ✅ Complete (28 Apr 2026) — 28 keywords, 20 pages
+- HTML deliverable: ✅ Complete — `clients/energus.com.au/keyword-research/keyword-plan.html`
+- Rankings check: NOT STARTED — request when client begins implementation
 
 ## Client File
 Full profile: `clients/energus.com.au/memory/client_energus.md`
