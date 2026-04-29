@@ -1,6 +1,6 @@
 ---
 name: energus.com.au client profile
-description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research initialised Apr 2026
+description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research complete Apr 2026
 type: project
 ---
 
@@ -79,59 +79,73 @@ type: project
 ## Competitors
 | Competitor | Domain | Notes |
 |------------|--------|-------|
-| Smart Commercial Energy | smartcommercialenergy.com.au | BDM + client mentioned |
-| AGL (commercial solar) | agl.com.au | Large energy retailer |
-| Todae Solar | todaesolar.com.au | C&I solar specialist |
+| Smart Commercial Energy | smartcommercialenergy.com.au | BDM + client mentioned — primary direct competitor, DR rank 241 (weaker than Energus at rank 185) |
+| AGL (commercial solar) | agl.com.au | Large energy retailer — national brand but not a C&I specialist |
+| Todae Solar | todaesolar.com.au | C&I solar specialist — ranks for several service terms |
 | TSP Energy | — | Client-mentioned |
-| Kuga | — | Client-mentioned |
+| Kuga | 13kuga.com.au | Client-mentioned — ranks for Melbourne commercial solar terms |
 
-## Client Keyword Preferences
-From form: solar for business, commercial solar, solar installer, solar battery, commercial battery, BESS, commercial solar system
-From BDM: Commercial Solar installation, Industrial solar installation, Commercial solar installer, Battery storage, Solar for business
+## Final Keyword Plan — Summary
 
-## Keyword Research Strategy
-**Business type rule:** Nationwide business (see master reference §4)
-- Homepage: brand entity — "commercial solar installer australia" or national commercial solar term
-- Service pages: primary service + state/city (Sydney, Melbourne, Brisbane, Adelaide)
-- Location pages: city-level only (NOT suburb-level)
-- NO residential solar keywords ever
-- BESS and commercial battery are separate service line (not just a modifier of solar)
-- "BESS" is industry jargon — check if it has search volume vs "battery energy storage system" vs "commercial battery storage"
-- eARC / lightweight solar is a unique product differentiator — may have thin search volume but worth including
+### General Keywords (20)
+| # | Keyword | Vol | CPC | Target URL |
+|---|---------|-----|-----|------------|
+| 1 | commercial solar solutions (P) | 170 | $13.72 | /commercial-solar/ |
+| 2 | commercial solar systems (S) | 720 | $39.13 | /commercial-solar/ |
+| 3 | commercial solar company (S) | 260 | $14.49 | /commercial-solar/ |
+| 4 | commercial solar panels (P) | 880 | $37.97 | /commercial-solar-panels/ |
+| 5 | commercial solar system (S) | 720 | $38.72 | /commercial-solar-panels/ |
+| 6 | commercial solar installer (P) | 320 | $38.72 | /commercial-solar-installer/ |
+| 7 | commercial solar panel installers (S) | 90 | $26.93 | /commercial-solar-installer/ |
+| 8 | commercial solar panel contractors (S) | 40 | $73.24 | /commercial-solar-installer/ |
+| 9 | commercial solar installation (P) | 320 | $38.72 | /commercial-solar-installation/ |
+| 10 | commercial solar power installation (S) | 260 | $61.30 | /commercial-solar-installation/ |
+| 11 | commercial pv installations (S) | 40 | $44.56 | /commercial-solar-installation/ |
+| 12 | commercial solar system cost (P) | 30 | $58.90 | /commercial-solar-cost/ |
+| 13 | commercial solar installation cost (S) | 50 | $21.63 | /commercial-solar-cost/ |
+| 14 | industrial solar installation (P) | 40 | $0 | /industrial-solar/ |
+| 15 | industrial solar panels (S) | 170 | $30.33 | /industrial-solar/ |
+| 16 | industrial solar systems (S) | 90 | $33.45 | /industrial-solar/ |
+| 17 | battery energy storage system australia (P) | 1,000 | $5.27 | /battery-storage/ |
+| 18 | commercial battery storage australia (S) | 20 | $7.26 | /battery-storage/ |
+| 19 | bess australia (S) | 170 | $13.32 | /battery-storage/ |
+| 20 | solar for business (P) | 320 | $40.99 | /solar-for-business/ |
+| 21 | solar panels for business (S) | 320 | $40.32 | /solar-for-business/ |
+| 22 | commercial solar finance (P) | 50 | $12.15 | /commercial-solar-finance/ |
+| 23 | cost of commercial solar system (S) | 30 | $58.90 | /commercial-solar-finance/ |
+| 24 | lightweight solar panels (P) | 260 | $0.75 | /earc-solar/ |
+| 25 | sunman solar panels (S) | 170 | $0.55 | /earc-solar/ |
+| 26 | solar panels for commercial building (S) | 110 | $38.42 | /earc-solar/ |
+| 27 | solar project management (P) | 10 | $0 | /solar-project-management/ |
+| 28 | commercial solar system installation (S) | 70 | $0 | /solar-project-management/ |
+| + | commercial solar sydney (city page) | 140 | $33.22 | /commercial-solar/sydney/ |
+| + | commercial solar installer brisbane (city) | 210 | $58.65 | /commercial-solar/brisbane/ |
 
-## Seed Keywords (Pre-GKP)
-**Commercial solar family:** commercial solar installation, commercial solar installer, commercial solar system, commercial solar panels, commercial solar company, commercial solar sydney/melbourne/brisbane/adelaide
-**Industrial solar family:** industrial solar installation, industrial solar installer, industrial solar system
-**Solar for business:** solar for business, business solar, solar for businesses, solar panels for business
-**Battery/BESS family:** commercial battery storage, battery energy storage system, BESS, commercial BESS, C&I battery storage, battery storage for businesses
-**Project-type modifiers:** construction solar, new build solar installation, retrofit solar
-**Lightweight solar:** lightweight solar, eARC solar, roof load solar
+### Location Keywords (8)
+| # | Keyword | Vol | CPC | Target URL |
+|---|---------|-----|-----|------------|
+| L1 | commercial solar sydney (P) | 140 | $33.22 | /commercial-solar/sydney/ |
+| L2 | commercial solar melbourne (P) | 260 | $26.01 | /commercial-solar/melbourne/ |
+| L3 | commercial solar brisbane (P) | 260 | $3.79 | /commercial-solar/brisbane/ |
+| L4 | commercial solar adelaide (P) | 210 | $15.26 | /commercial-solar/adelaide/ |
+| L5 | battery energy storage system sydney (P) | 0 | $0 | /battery-storage/sydney/ |
+| L6 | battery energy storage system melbourne (P) | 0 | $0 | /battery-storage/melbourne/ |
+| L7 | battery energy storage system brisbane (P) | 0 | $0 | /battery-storage/brisbane/ |
+| L8 | battery energy storage system adelaide (P) | 0 | $0 | /battery-storage/adelaide/ |
 
-## Entity Framework (Draft — Pre-GKP)
-| Tier | Page | Primary Entity |
-|------|------|----------------|
-| 1 | Homepage `/` | Commercial solar installer — Australia national brand |
-| 2 | `/commercial-solar/` | Commercial solar installation |
-| 2 | `/industrial-solar/` | Industrial solar installation |
-| 2 | `/battery-storage/` | Commercial battery storage / BESS |
-| 2 | `/solar-for-business/` | Solar for businesses / business owners |
-| 2 | `/solar-system-design/` | Solar system design and engineering |
-| 2 | `/solar-project-management/` | Solar project management |
-| 2 | `/solar-finance/` | Solar finance |
-| 2 | `/solar-monitoring/` | Solar monitoring and servicing |
-| 2 | `/lightweight-solar/` | Lightweight solar / eARC technology |
-| 3 | `/commercial-solar-sydney/` | Commercial solar — Sydney/NSW |
-| 3 | `/commercial-solar-melbourne/` | Commercial solar — Melbourne/VIC |
-| 3 | `/commercial-solar-brisbane/` | Commercial solar — Brisbane/QLD |
-| 3 | `/commercial-solar-adelaide/` | Commercial solar — Adelaide/SA |
-| 3 | (Battery location pages TBD based on volume) | BESS / battery — state capitals |
+### Key Technical Issues (Urgent)
+1. `/industrial_solar_energy/` — underscore URL → create `/industrial-solar/` + 301 redirect
+2. Battery page cannibalisation — `/battery/`, `/battery-for-business/`, `/commercial-battery-installer/` → consolidate to `/battery-storage/` + 301 all three
+3. `/locations/nsw/` archive page — noindex before building `/commercial-solar/sydney/`
 
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
-- **GKP data:** PENDING — need keyword volumes before building plan
-- **HTML deliverable:** NOT STARTED
-- **Rankings check:** NOT STARTED
+- **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run, keywords.json generated)
+- **HTML deliverable:** COMPLETE — 28 Apr 2026
+- **Rankings check:** NOT STARTED — to be requested when client begins SEO implementation
 
 ## File Paths
 - Questionnaire: `clients/energus.com.au/keyword-research/questionnaire.md`
-- HTML plan (when built): `clients/energus.com.au/keyword-research/keyword-plan.html`
+- HTML keyword plan: `clients/energus.com.au/keyword-research/keyword-plan.html`
+- Pipeline report (machine-generated): `clients/energus.com.au/keyword-research/report.html`
+- Research data: `/home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/energus.com.au/research/v1/`
