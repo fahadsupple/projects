@@ -42,4 +42,5 @@
 - [anakilawyers.com.au](project_anakilawyers.md) — Anaki Lawyers, solo criminal defence & traffic law, Melbourne CBD, keyword research v1.0 complete + GKP confirmed (21 Apr 2026)
 - [surecash.com.au](project_surecash.md) — Sure Cash Finance, ASIC-regulated short-term lender (SACC/MACC), Sydney+branches, SEO audit initialized Apr 2026
 - [mckinnonheating.com.au](project_mckinnonheating.md) — McKinnon Heating & Cooling, Melbourne Bayside HVAC, 5 general + 50 location, kwr:init complete 24 Apr 2026
-- [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v1 complete 28 Apr 2026 ✅
+- [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v2 complete 30 Apr 2026 ✅
+- [styldmelbourne.com.au](project_styld.md) — STYLD Melbourne, home staging & property styling, Melbourne-wide, 20 general keywords, kwr:init complete 30 Apr 2026
