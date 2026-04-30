@@ -6,11 +6,13 @@
 ## Feedback — How to Work
 - [Workflow Preferences](feedback_workflow.md) — save all learnings, ask not assume, autonomy, conversation logs
 - [File Structure](feedback_file_structure.md) — all work saved inside /home/invoi/fahad_projects/, canonical folder structure, git sync rules
+- [Skill Command Scope](feedback_skill_commands.md) — skill commands are scoped; do not resume pending session tasks unless explicitly asked
 
 ## Capabilities
 - [Internal Linking](capability_internal_linking.md) — link selection, placement rules, developer handoff format
 - [Pre-Launch Audit](capability_pre_launch_audit.md) — full on-page QA before go-live, deliverable format
 - [Keyword Research Master](keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards
+- [FAQ Review](capability_faq_review.md) — count existing FAQs per page, write additions to reach 8, save as text file, tone/style matching rules
 
 ## SEO — Keyword Research Rules
 - [Keyword Research Master Reference](feedback_seo_keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards, industry insights
