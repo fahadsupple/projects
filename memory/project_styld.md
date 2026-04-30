@@ -21,8 +21,9 @@ type: project
 
 ## Status
 - kwr:init: ✅ Complete (30 Apr 2026)
-- GKP data: PENDING
-- HTML deliverable: NOT STARTED
+- GKP data: ✅ Complete — DataForSEO AU (30 Apr 2026)
+- SERP analysis: ✅ Complete (30 Apr 2026)
+- HTML deliverable: ✅ Complete — v1.0 (30 Apr 2026)
 
 ## Client File
 Full profile: `clients/styldmelbourne.com.au/memory/client_styld.md`

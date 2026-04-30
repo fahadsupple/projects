@@ -110,8 +110,24 @@ Very minimal site — almost all target pages will need to be created.
 
 ## Status
 - **kwr:init:** Complete — 30 Apr 2026
-- **GKP data:** PENDING — need keyword volumes before building plan
-- **HTML deliverable:** NOT STARTED
+- **GKP data:** ✅ Complete — DataForSEO Google Ads API (AU), 30 Apr 2026
+- **SERP analysis:** ✅ Complete — live SERPs for home staging mel, property styling mel, home styling mel
+- **HTML deliverable:** ✅ Complete — keyword-plan.html v1.0, 30 Apr 2026
+
+## Plan Summary (v1.0)
+- 20 general pages (15 new, 5 existing)
+- Homepage: home staging melbourne (390/mo, KD=10) — primary
+- /property-styling/: property styling melbourne (390/mo, KD=19) — distinct SERP confirmed
+- /home-staging-cost/: home staging cost (70/mo)
+- /packages/: property styling packages (10/mo)
+- Remaining 16 pages: service variations, audience targeting, informational
+- Suburb pages NOT in scope — recommended as Phase 2
+
+## Key SERP Findings
+- "home staging melbourne" and "property styling melbourne" → DIFFERENT SERPs — separate pages justified
+- "home styling melbourne" (110/mo) → brand-contaminated (GBP "Home Styling Melbourne") → secondary only
+- "real estate stylist melbourne" (10/mo, KD=59) → brand SERP → excluded
+- "melbourne styling and staging" (40/mo) → brand name → excluded
 
 ## File Paths
 - Questionnaire: `clients/styldmelbourne.com.au/keyword-research/questionnaire.md`

@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keyword Research Plan — styldmelbourne.com.au</title>
+<style>
+  :root {
+    --brand: #1a1a2e;
+    --accent: #c8a96e;
+    --accent-light: #f5ede0;
+    --ok: #2e7d32;
+    --ok-bg: #e8f5e9;
+    --warn: #e65100;
+    --warn-bg: #fff3e0;
+    --skip: #757575;
+    --skip-bg: #f5f5f5;
+    --new: #1565c0;
+    --new-bg: #e3f2fd;
+    --border: #e0e0e0;
+    --text: #212121;
+    --muted: #616161;
+    --row-alt: #fafafa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; color: var(--text); background: #fff; }
+  .header { background: var(--brand); color: #fff; padding: 40px 48px 32px; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.3px; }
+  .header .sub { color: rgba(255,255,255,0.65); font-size: 14px; }
+  .header .meta { margin-top: 20px; display: flex; gap: 32px; flex-wrap: wrap; }
+  .header .meta-item { }
+  .header .meta-label { color: rgba(255,255,255,0.5); font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 3px; }
+  .header .meta-value { color: #fff; font-size: 14px; font-weight: 500; }
+  .body { padding: 40px 48px; max-width: 1400px; }
+  .section { margin-bottom: 48px; }
+  .section-title { font-size: 18px; font-weight: 700; color: var(--brand); margin-bottom: 4px; padding-bottom: 10px; border-bottom: 2px solid var(--accent); display: inline-block; }
+  .section-desc { color: var(--muted); font-size: 13px; margin-top: 8px; margin-bottom: 20px; }
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat-card { background: var(--accent-light); border-radius: 8px; padding: 18px 20px; }
+  .stat-card .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 6px; }
+  .stat-card .value { font-size: 28px; font-weight: 700; color: var(--brand); }
+  .stat-card .note { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .alert { border-radius: 6px; padding: 14px 18px; margin-bottom: 16px; font-size: 13px; line-height: 1.6; }
+  .alert-warn { background: var(--warn-bg); border-left: 3px solid var(--warn); }
+  .alert-info { background: var(--new-bg); border-left: 3px solid var(--new); }
+  .alert strong { font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--brand); color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--row-alt); }
+  tr:hover td { background: #f0f4ff; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge-high { background: #c8e6c9; color: #1b5e20; }
+  .badge-med { background: #fff9c4; color: #f57f17; }
+  .badge-low { background: #ffe0b2; color: #bf360c; }
+  .badge-none { background: #f5f5f5; color: #757575; }
+  .badge-new { background: var(--new-bg); color: var(--new); }
+  .badge-exists { background: #e8f5e9; color: #2e7d32; }
+  .badge-tier1 { background: #7b1fa2; color: #fff; }
+  .badge-tier2 { background: #1565c0; color: #fff; }
+  .badge-tier3 { background: #00695c; color: #fff; }
+  .badge-tier4 { background: #558b2f; color: #fff; }
+  .badge-tier5 { background: #6d4c41; color: #fff; }
+  .kw-primary { font-weight: 600; color: var(--brand); }
+  .kw-secondary { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .url-slug { font-family: monospace; font-size: 12px; color: var(--new); background: var(--new-bg); padding: 2px 6px; border-radius: 3px; }
+  .vol { font-weight: 700; }
+  .vol-high { color: var(--ok); }
+  .vol-med { color: #e65100; }
+  .vol-low { color: var(--muted); }
+  .kd-easy { color: var(--ok); font-weight: 600; }
+  .kd-med { color: #e65100; font-weight: 600; }
+  .kd-hard { color: #b71c1c; font-weight: 600; }
+  .flag { font-size: 11px; color: var(--warn); font-style: italic; }
+  .intent-com { color: #1565c0; font-weight: 500; }
+  .intent-nav { color: #e65100; font-weight: 500; }
+  .intent-inf { color: #4a148c; font-weight: 500; }
+  .intent-trn { color: var(--ok); font-weight: 500; }
+  .row-num { font-weight: 700; color: var(--muted); font-size: 12px; }
+  .notes-cell { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  h3 { font-size: 14px; font-weight: 700; color: var(--brand); margin: 24px 0 10px; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+  .data-source { font-size: 11px; color: var(--muted); margin-top: 8px; }
+  .page-map-table td { font-size: 13px; }
+  footer { background: var(--accent-light); border-top: 1px solid var(--border); padding: 24px 48px; font-size: 12px; color: var(--muted); }
+  @media print {
+    .body { padding: 20px; }
+    .header { padding: 24px; }
+    table { font-size: 11px; }
+    td, th { padding: 7px 9px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Keyword Research Plan</h1>
+  <div class="sub">styldmelbourne.com.au — Home Staging &amp; Property Styling, Melbourne</div>
+  <div class="meta">
+    <div class="meta-item">
+      <div class="meta-label">Business</div>
+      <div class="meta-value">STYLD MELBOURNE</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Package</div>
+      <div class="meta-value">20 General Keywords</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Coverage</div>
+      <div class="meta-value">Melbourne Metro</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Version</div>
+      <div class="meta-value">v1.0 — 30 Apr 2026</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Platform</div>
+      <div class="meta-value">WIX</div>
+    </div>
+  </div>
+</div>
+
+<div class="body">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <div class="section-title">Overview</div>
+    <p class="section-desc">STYLD Melbourne is a new home staging and property styling business (founded March 2025, 42 jobs completed). This plan targets 20 general Melbourne keywords across the core staging and styling niche. No suburb pages are included in this package — suburb targeting is available as a Phase 2 expansion.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="label">Total Pages</div>
+        <div class="value">20</div>
+        <div class="note">15 new · 5 existing</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Peak Monthly Volume</div>
+        <div class="value">1,170</div>
+        <div class="note">Combined top 5 keywords</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Top Keyword</div>
+        <div class="value">390</div>
+        <div class="note">home staging melbourne</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Avg KD (keyed)</div>
+        <div class="value">13</div>
+        <div class="note">Across keywords with KD data</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Avg CPC</div>
+        <div class="value">$5.22</div>
+        <div class="note">Across keywords with CPC data</div>
+      </div>
+    </div>
+
+    <div class="alert alert-info">
+      <strong>Niche note:</strong> Home staging and property styling in Melbourne is a small-volume niche. The two primary terms ("home staging melbourne" and "property styling melbourne") each have 390/mo — significant for the category, with KD of 10 and 19 respectively (highly attainable for a new site). Most service-level keywords (vacant, occupied, partial, etc.) have &lt;10 searches/month but are essential for long-tail conversion and site authority.
+    </div>
+
+    <div class="alert alert-warn">
+      <strong>Intent flags:</strong> "home styling melbourne" (110/mo) is <strong>brand-contaminated</strong> — the Google Business Profile "Home Styling Melbourne" (home-staging.com.au) dominates the local pack. Use as secondary only. "real estate stylist melbourne" (10/mo, KD=59) is a brand SERP — excluded from plan.
+    </div>
+  </div>
+
+  <!-- SERP ANALYSIS -->
+  <div class="section">
+    <div class="section-title">SERP Analysis — Core Terms</div>
+    <p class="section-desc">Live SERP checks (30 Apr 2026, Australia, desktop, DataForSEO) confirmed the two primary terms have distinct SERPs and warrant separate pages.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Vol</th>
+          <th>KD</th>
+          <th>Local Pack</th>
+          <th>Organic #1</th>
+          <th>SERP Features</th>
+          <th>Intent</th>
+          <th>Recommendation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="kw-primary">home staging melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">10</span></td>
+          <td>stagedhomes.com.au, housestaging4less.com.au, stylebites.com.au</td>
+          <td>stagedhomes.com.au</td>
+          <td>Local pack · Organic · PAA · Related searches</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Homepage primary keyword ✅</td>
+        </tr>
+        <tr>
+          <td class="kw-primary">property styling melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">19</span></td>
+          <td>melbournepropertystylists.com.au, kepropertystyling.com.au, propertystyleco.com.au</td>
+          <td>propertystylingmelbourne.com.au</td>
+          <td>Local pack · Organic · Related searches</td>
+          <td><span class="intent-nav">Navigational / Commercial</span></td>
+          <td>Separate service page ✅ — distinct SERP confirmed</td>
+        </tr>
+        <tr>
+          <td class="kw-primary">home styling melbourne</td>
+          <td><span class="vol vol-low">110</span></td>
+          <td><span class="kd-easy">12</span></td>
+          <td>home-staging.com.au <em>(GBP: "Home Styling Melbourne")</em>, melbournepropertystylists.com.au</td>
+          <td>propertystylingmelbourne.com.au</td>
+          <td>Local pack · Organic · PAA · Discussions</td>
+          <td><span class="intent-nav">Navigational — brand-contaminated</span></td>
+          <td>Secondary keyword only (on property styling page) — do not build separate page</td>
+        </tr>
+        <tr>
+          <td class="kw-primary">property staging melbourne</td>
+          <td><span class="vol vol-low">110</span></td>
+          <td><span class="kd-med">22</span></td>
+          <td>—</td>
+          <td>Similar to home staging melbourne SERP</td>
+          <td>Organic · Commercial</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Secondary keyword on homepage — same service concept, similar SERP</td>
+        </tr>
+        <tr>
+          <td class="kw-primary">real estate stylist melbourne</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td><span class="kd-hard">59</span></td>
+          <td>—</td>
+          <td>Brand-dominated SERP</td>
+          <td>Organic</td>
+          <td><span class="intent-nav">Navigational — brand SERP</span></td>
+          <td><span class="flag">❌ Excluded — KD=59, brand SERP</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KEYWORD VOLUME TABLE -->
+  <div class="section">
+    <div class="section-title">Keyword Volume Data</div>
+    <p class="section-desc">All volume data sourced from DataForSEO Google Ads API (Australia, April 2026). Keywords with the same monthly_searches and CPC are in the same DataForSEO cluster (same SERP).</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Keyword</th>
+          <th>Vol/mo</th>
+          <th>KD</th>
+          <th>CPC</th>
+          <th>Intent</th>
+          <th>Cluster / Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-num">1</td>
+          <td class="kw-primary">home staging melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">10</span></td>
+          <td>$4.98</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Primary target — Homepage</td>
+        </tr>
+        <tr>
+          <td class="row-num">2</td>
+          <td>home stager melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">5</span></td>
+          <td>$4.98</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Same cluster as #1 (same vol + CPC) — secondary on Homepage</td>
+        </tr>
+        <tr>
+          <td class="row-num">3</td>
+          <td class="kw-primary">property styling melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">19</span></td>
+          <td>$4.15</td>
+          <td><span class="intent-nav">Navigational / Commercial</span></td>
+          <td>Primary target — Property Styling page</td>
+        </tr>
+        <tr>
+          <td class="row-num">4</td>
+          <td>property stylist melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">15</span></td>
+          <td>$4.15</td>
+          <td><span class="intent-nav">Navigational / Commercial</span></td>
+          <td>Same cluster as #3 — secondary on Property Styling page</td>
+        </tr>
+        <tr>
+          <td class="row-num">5</td>
+          <td>property styling (national)</td>
+          <td><span class="vol vol-high">720</span></td>
+          <td>—</td>
+          <td>$7.54</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>National term — secondary on Property Styling page</td>
+        </tr>
+        <tr>
+          <td class="row-num">6</td>
+          <td>home staging (national)</td>
+          <td><span class="vol vol-high">1,000</span></td>
+          <td><span class="kd-easy">23</span></td>
+          <td>$5.26</td>
+          <td><span class="intent-inf">Informational</span></td>
+          <td>National term — secondary on Homepage</td>
+        </tr>
+        <tr>
+          <td class="row-num">7</td>
+          <td>home stager (national)</td>
+          <td><span class="vol vol-high">1,000</span></td>
+          <td><span class="kd-easy">14</span></td>
+          <td>$5.26</td>
+          <td><span class="intent-trn">Transactional</span></td>
+          <td>National term — secondary on Homepage</td>
+        </tr>
+        <tr>
+          <td class="row-num">8</td>
+          <td>property stylist (national)</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">4</span></td>
+          <td>$6.19</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>National term — secondary on Property Styling page</td>
+        </tr>
+        <tr>
+          <td class="row-num">9</td>
+          <td>property staging melbourne</td>
+          <td><span class="vol vol-low">110</span></td>
+          <td><span class="kd-med">22</span></td>
+          <td>$7.18</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Secondary on Homepage — same service, near-identical SERP</td>
+        </tr>
+        <tr>
+          <td class="row-num">10</td>
+          <td>home styling melbourne</td>
+          <td><span class="vol vol-low">110</span></td>
+          <td><span class="kd-easy">12</span></td>
+          <td>$3.38</td>
+          <td><span class="intent-nav">Navigational — brand</span></td>
+          <td>Secondary on Property Styling — brand-contaminated SERP ⚠️</td>
+        </tr>
+        <tr>
+          <td class="row-num">11</td>
+          <td class="kw-primary">house staging melbourne cost</td>
+          <td><span class="vol vol-med">70</span></td>
+          <td>—</td>
+          <td>$2.88</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Primary target — Home Staging Cost page</td>
+        </tr>
+        <tr>
+          <td class="row-num">12</td>
+          <td class="kw-primary">home staging company melbourne</td>
+          <td><span class="vol vol-med">50</span></td>
+          <td><span class="kd-easy">11</span></td>
+          <td>$5.73</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Secondary on Homepage — "company" searches indicate hiring intent</td>
+        </tr>
+        <tr>
+          <td class="row-num">13</td>
+          <td>melbourne styling and staging</td>
+          <td><span class="vol vol-low">40</span></td>
+          <td><span class="kd-easy">8</span></td>
+          <td>$2.21</td>
+          <td><span class="intent-nav">Navigational — brand</span></td>
+          <td>Exclude — "Melbourne Styling and Staging" is a business name</td>
+        </tr>
+        <tr>
+          <td class="row-num">14</td>
+          <td>property styling mornington peninsula</td>
+          <td><span class="vol vol-low">40</span></td>
+          <td>—</td>
+          <td>$7.31</td>
+          <td><span class="intent-nav">Navigational / Commercial</span></td>
+          <td>Phase 2 suburb expansion — not in 20-general package</td>
+        </tr>
+        <tr>
+          <td class="row-num">15</td>
+          <td>home staging mornington peninsula</td>
+          <td><span class="vol vol-low">30</span></td>
+          <td>—</td>
+          <td>$11.62</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Phase 2 suburb expansion — not in 20-general package</td>
+        </tr>
+        <tr>
+          <td class="row-num">16</td>
+          <td class="kw-primary">property styling packages melbourne</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Primary target — Packages page</td>
+        </tr>
+        <tr>
+          <td class="row-num">17</td>
+          <td>property styling melbourne price</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Secondary on Pricing page</td>
+        </tr>
+        <tr>
+          <td class="row-num">18</td>
+          <td>home staging south east melbourne</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td><span class="intent-com">Commercial</span></td>
+          <td>Phase 2 — area page not in this package</td>
+        </tr>
+        <tr>
+          <td class="row-num">19</td>
+          <td>real estate stylist melbourne</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td><span class="kd-hard">59</span></td>
+          <td>—</td>
+          <td><span class="intent-nav">Navigational — brand SERP</span></td>
+          <td><span class="flag">❌ Excluded — KD=59, brand-dominated SERP</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="data-source">Source: DataForSEO Google Ads Search Volume API — Australia — April 2026. Volume = exact-match monthly average.</p>
+  </div>
+
+  <!-- MAIN KEYWORD PLAN TABLE -->
+  <div class="section">
+    <div class="section-title">20-Page Keyword Plan</div>
+    <p class="section-desc">Pages ranked by tier priority. Tier 1 = highest commercial impact, must-build first. City ("Melbourne") appears in meta title and H1 — not in URL slug. All URLs are proposed for the WIX site build.</p>
+
+    <div class="legend">
+      <span class="badge badge-tier1">Tier 1</span> Core commercial intent — build first
+      <span class="badge badge-tier2">Tier 2</span> Service differentiation — build next
+      <span class="badge badge-tier3">Tier 3</span> Audience targeting
+      <span class="badge badge-tier4">Tier 4</span> Service components
+      <span class="badge badge-tier5">Tier 5</span> Informational / supporting
+      <span class="badge badge-exists">Existing</span> Page already live on site
+      <span class="badge badge-new">New</span> Page to be created
+    </div>
+
+    <br>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Tier</th>
+          <th>Page Name</th>
+          <th>Primary Keyword</th>
+          <th>Vol</th>
+          <th>KD</th>
+          <th>CPC</th>
+          <th>Secondary Keywords</th>
+          <th>Proposed URL</th>
+          <th>Status</th>
+          <th>Meta Title (suggested)</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- TIER 1 -->
+        <tr>
+          <td class="row-num">1</td>
+          <td><span class="badge badge-tier1">Tier 1</span></td>
+          <td><strong>Homepage</strong></td>
+          <td class="kw-primary">home staging melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">10</span></td>
+          <td>$4.98</td>
+          <td class="kw-secondary">home stager melbourne, home staging company melbourne, property staging melbourne, home stager (nat. 1,000), home staging (nat. 1,000)</td>
+          <td><span class="url-slug">/</span></td>
+          <td><span class="badge badge-exists">Existing</span></td>
+          <td>Home Staging Melbourne | STYLD Melbourne</td>
+          <td class="notes-cell">Homepage carries the highest authority — primary commercial keyword goes here. WIX current homepage is thin; needs significant content build-out.</td>
+        </tr>
+        <tr>
+          <td class="row-num">2</td>
+          <td><span class="badge badge-tier1">Tier 1</span></td>
+          <td><strong>Property Styling</strong></td>
+          <td class="kw-primary">property styling melbourne</td>
+          <td><span class="vol vol-high">390</span></td>
+          <td><span class="kd-easy">19</span></td>
+          <td>$4.15</td>
+          <td class="kw-secondary">property stylist melbourne, home styling melbourne, property styling (nat. 720), property stylist (nat. 390)</td>
+          <td><span class="url-slug">/property-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Property Styling Melbourne | STYLD Melbourne</td>
+          <td class="notes-cell">Distinct SERP from "home staging melbourne" — confirmed via live SERP check. Different competitors rank for each term. Separate page is justified. Note: SERP is partially navigational — target the commercial segment.</td>
+        </tr>
+        <tr>
+          <td class="row-num">3</td>
+          <td><span class="badge badge-tier1">Tier 1</span></td>
+          <td><strong>Pricing / Cost</strong></td>
+          <td class="kw-primary">home staging cost melbourne</td>
+          <td><span class="vol vol-med">70</span></td>
+          <td>—</td>
+          <td>$2.88</td>
+          <td class="kw-secondary">house staging melbourne cost, property styling melbourne price, how much does home staging cost melbourne, property styling cost melbourne</td>
+          <td><span class="url-slug">/home-staging-cost/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Home Staging Cost Melbourne — Pricing Guide | STYLD Melbourne</td>
+          <td class="notes-cell">High-converting intent — buyers researching price are close to purchasing. PAA question "How much does staging cost in Melbourne?" appeared in the home staging SERP. Mention Market Ready / Signature / Premium price ranges without publishing exact figures.</td>
+        </tr>
+        <tr>
+          <td class="row-num">4</td>
+          <td><span class="badge badge-tier1">Tier 1</span></td>
+          <td><strong>Services Overview</strong></td>
+          <td class="kw-primary">home staging services melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">property styling services melbourne, home staging company melbourne (50), professional home staging melbourne</td>
+          <td><span class="url-slug">/services/</span></td>
+          <td><span class="badge badge-exists">Existing</span></td>
+          <td>Home Staging Services Melbourne | STYLD Melbourne</td>
+          <td class="notes-cell">Existing /services page should be rebuilt with full service list. Targets "company" and "services" modifier searches. "home staging company melbourne" (50/mo, KD=11) is a strong secondary for this page.</td>
+        </tr>
+        <tr>
+          <td class="row-num">5</td>
+          <td><span class="badge badge-tier1">Tier 1</span></td>
+          <td><strong>Packages</strong></td>
+          <td class="kw-primary">property styling packages melbourne</td>
+          <td><span class="vol vol-low">10</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">home staging packages melbourne, market ready staging melbourne, signature property styling, premium home staging melbourne</td>
+          <td><span class="url-slug">/packages/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Home Staging Packages Melbourne — Market Ready, Signature &amp; Premium | STYLD Melbourne</td>
+          <td class="notes-cell">Unique to STYLD — three-tier package structure is a key differentiator. Page targets package-comparison searches and converts buyers who know what they want.</td>
+        </tr>
+
+        <!-- TIER 2 -->
+        <tr>
+          <td class="row-num">6</td>
+          <td><span class="badge badge-tier2">Tier 2</span></td>
+          <td><strong>Full Property Styling</strong></td>
+          <td class="kw-primary">full property styling melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">full home staging melbourne, complete property styling melbourne, full furniture staging</td>
+          <td><span class="url-slug">/full-property-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Full Property Styling Melbourne — Complete Home Staging | STYLD Melbourne</td>
+          <td class="notes-cell">Targets vacant or unfurnished properties. Clients needing a full install have the highest average job value. Content: what's included, process, timeline, who it's for.</td>
+        </tr>
+        <tr>
+          <td class="row-num">7</td>
+          <td><span class="badge badge-tier2">Tier 2</span></td>
+          <td><strong>Partial Property Styling</strong></td>
+          <td class="kw-primary">partial property styling melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">partial home staging melbourne, occupied home styling, furniture swaps melbourne, staging with existing furniture</td>
+          <td><span class="url-slug">/partial-property-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Partial Property Styling Melbourne — Staging with Existing Pieces | STYLD Melbourne</td>
+          <td class="notes-cell">Key differentiator for STYLD — ability to work with existing furniture. Targets occupied sellers who don't want a full install. Content: process, what stays, what gets replaced, cost-effectiveness.</td>
+        </tr>
+        <tr>
+          <td class="row-num">8</td>
+          <td><span class="badge badge-tier2">Tier 2</span></td>
+          <td><strong>Vacant Home Staging</strong></td>
+          <td class="kw-primary">vacant home staging melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">empty house staging melbourne, unfurnished home staging, vacant property styling melbourne</td>
+          <td><span class="url-slug">/vacant-home-staging/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Vacant Home Staging Melbourne — Empty Property Styling | STYLD Melbourne</td>
+          <td class="notes-cell">Addresses the most common staging scenario — vendor has already moved out. Content: why vacant homes are harder to sell, full furniture package, photography-ready results.</td>
+        </tr>
+        <tr>
+          <td class="row-num">9</td>
+          <td><span class="badge badge-tier2">Tier 2</span></td>
+          <td><strong>Occupied Home Staging</strong></td>
+          <td class="kw-primary">occupied home staging melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">staging a home you still live in melbourne, occupied property styling, partial staging occupied home</td>
+          <td><span class="url-slug">/occupied-home-staging/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Occupied Home Staging Melbourne — Style Your Home While Living In It | STYLD Melbourne</td>
+          <td class="notes-cell">Niche but high-intent — sellers still living in the property want a solution that works around them. Content: minimal disruption process, what STYLD selectively replaces, case studies.</td>
+        </tr>
+        <tr>
+          <td class="row-num">10</td>
+          <td><span class="badge badge-tier2">Tier 2</span></td>
+          <td><strong>Luxury Property Styling</strong></td>
+          <td class="kw-primary">luxury property styling melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">premium home staging melbourne, high-end property styling, luxury staging melbourne, show home styling</td>
+          <td><span class="url-slug">/luxury-property-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Luxury Property Styling Melbourne — Premium Home Staging | STYLD Melbourne</td>
+          <td class="notes-cell">Targets Premium package buyers — high-end homes, developments. Content: studio-level artwork, bespoke concepts, show-home aesthetic. Mention $20M public liability + artwork insurance.</td>
+        </tr>
+
+        <!-- TIER 3 -->
+        <tr>
+          <td class="row-num">11</td>
+          <td><span class="badge badge-tier3">Tier 3</span></td>
+          <td><strong>Real Estate Agents</strong></td>
+          <td class="kw-primary">home staging for real estate agents melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">real estate agent property styling, agent staging service melbourne, staging partnership agents</td>
+          <td><span class="url-slug">/real-estate-agents/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Home Staging for Real Estate Agents Melbourne | STYLD Melbourne</td>
+          <td class="notes-cell">B2B audience page — real estate agents are a primary customer segment. Content: how STYLD supports agents' listings, turnaround time, reliability, portfolio results. Include an agent-specific enquiry CTA.</td>
+        </tr>
+        <tr>
+          <td class="row-num">12</td>
+          <td><span class="badge badge-tier3">Tier 3</span></td>
+          <td><strong>Property Developers</strong></td>
+          <td class="kw-primary">property styling for developers melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">development property staging, display home styling melbourne, new build staging melbourne</td>
+          <td><span class="url-slug">/property-developers/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Property Styling for Developers Melbourne — Display &amp; New Build Staging | STYLD Melbourne</td>
+          <td class="notes-cell">Premium package target — developers building or selling multiple properties. Content: scale capability, show-home quality, repeat-use arrangements, Premium package overview.</td>
+        </tr>
+        <tr>
+          <td class="row-num">13</td>
+          <td><span class="badge badge-tier3">Tier 3</span></td>
+          <td><strong>Staging for Sale</strong></td>
+          <td class="kw-primary">home staging for sale melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">staging house for sale melbourne, styling property for sale, how to stage your home for sale</td>
+          <td><span class="url-slug">/home-staging-for-sale/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Home Staging for Sale Melbourne — Style Your Property to Sell | STYLD Melbourne</td>
+          <td class="notes-cell">Targets vendors who understand staging is for selling, not living. Content: ROI of staging, faster sale stats, photography vs inspection optimisation, STYLD's end-to-end process.</td>
+        </tr>
+
+        <!-- TIER 4 -->
+        <tr>
+          <td class="row-num">14</td>
+          <td><span class="badge badge-tier4">Tier 4</span></td>
+          <td><strong>Artwork Styling</strong></td>
+          <td class="kw-primary">artwork curation melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">artwork installation staging, studio artwork for home staging, art staging melbourne</td>
+          <td><span class="url-slug">/artwork-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Artwork Curation &amp; Styling Melbourne | STYLD Melbourne</td>
+          <td class="notes-cell">Point of difference — STYLD uses studio-level artwork insured by a third party at no cost to clients. Highlight the insurance cover on this page. Relevant for Premium clients and developers.</td>
+        </tr>
+        <tr>
+          <td class="row-num">15</td>
+          <td><span class="badge badge-tier4">Tier 4</span></td>
+          <td><strong>Outdoor Staging</strong></td>
+          <td class="kw-primary">outdoor staging melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">alfresco staging melbourne, garden property styling, outdoor presentation for sale</td>
+          <td><span class="url-slug">/outdoor-staging/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Outdoor Staging Melbourne — Alfresco &amp; Garden Property Styling | STYLD Melbourne</td>
+          <td class="notes-cell">Melbourne outdoor entertaining areas are a key selling point. Content: alfresco furniture, greenery, outdoor photography staging. Cross-sell with fresh florals service.</td>
+        </tr>
+        <tr>
+          <td class="row-num">16</td>
+          <td><span class="badge badge-tier4">Tier 4</span></td>
+          <td><strong>Furniture Staging</strong></td>
+          <td class="kw-primary">furniture staging melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">staging furniture hire melbourne, furniture delivery and installation staging, furniture rental home staging</td>
+          <td><span class="url-slug">/furniture-staging/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Furniture Staging Melbourne — Full Delivery &amp; Installation | STYLD Melbourne</td>
+          <td class="notes-cell">Targets searches for furniture-specific staging services. Content: end-to-end logistics, furniture selection, delivery, installation, collection after campaign. All part of STYLD's managed process.</td>
+        </tr>
+        <tr>
+          <td class="row-num">17</td>
+          <td><span class="badge badge-tier4">Tier 4</span></td>
+          <td><strong>About Us</strong></td>
+          <td class="kw-primary">professional home staging melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">home staging company melbourne (50), best home staging melbourne, STYLD Melbourne</td>
+          <td><span class="url-slug">/about-us/</span></td>
+          <td><span class="badge badge-exists">Existing</span></td>
+          <td>About STYLD Melbourne — Professional Home Staging &amp; Property Styling</td>
+          <td class="notes-cell">Existing page — rebuild with trust signals: lead stylist 5+ years experience, 42 jobs, $20M public liability, founders Joshua &amp; Maureen. Target "home staging company melbourne" (50/mo) as secondary.</td>
+        </tr>
+
+        <!-- TIER 5 -->
+        <tr>
+          <td class="row-num">18</td>
+          <td><span class="badge badge-tier5">Tier 5</span></td>
+          <td><strong>Is Home Staging Worth It?</strong></td>
+          <td class="kw-primary">is home staging worth it</td>
+          <td>&lt;10 (nat.)</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">home staging roi australia, does home staging increase sale price, home staging benefits</td>
+          <td><span class="url-slug">/is-home-staging-worth-it/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Is Home Staging Worth It in Melbourne? ROI &amp; Benefits Explained | STYLD Melbourne</td>
+          <td class="notes-cell">PAA question appeared in "home staging melbourne" SERP — real buyer concern. Content: stats (hipages: $3 return per $1 spent, 33 days average sale), Melbourne context, STYLD social proof. Soft CTA to book a walkthrough.</td>
+        </tr>
+        <tr>
+          <td class="row-num">19</td>
+          <td><span class="badge badge-tier5">Tier 5</span></td>
+          <td><strong>Home Staging vs Property Styling</strong></td>
+          <td class="kw-primary">home staging vs property styling</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">what is home staging, what is property styling, difference between staging and styling, home staging definition</td>
+          <td><span class="url-slug">/home-staging-vs-property-styling/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>Home Staging vs Property Styling — What's the Difference? | STYLD Melbourne</td>
+          <td class="notes-cell">Educational page targeting buyer confusion between the two terms. Clarifies that STYLD does both — for-sale staging only, NOT interior decorating. Strengthens topical authority across both primary terms.</td>
+        </tr>
+        <tr>
+          <td class="row-num">20</td>
+          <td><span class="badge badge-tier5">Tier 5</span></td>
+          <td><strong>How to Prepare Your Home for Sale</strong></td>
+          <td class="kw-primary">how to prepare your home for sale melbourne</td>
+          <td>&lt;10</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="kw-secondary">preparing home for sale checklist, home preparation for sale, steps to sell your home, staging checklist</td>
+          <td><span class="url-slug">/how-to-prepare-home-for-sale/</span></td>
+          <td><span class="badge badge-new">New</span></td>
+          <td>How to Prepare Your Home for Sale in Melbourne — Complete Guide | STYLD Melbourne</td>
+          <td class="notes-cell">Targets early-funnel vendor research. Content: practical checklist (declutter, repairs, kerb appeal, professional staging). Positions STYLD as trusted authority — staging step leads naturally to enquiry.</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PAA QUESTIONS -->
+  <div class="section">
+    <div class="section-title">People Also Ask — Questions to Target</div>
+    <p class="section-desc">PAA questions surfaced from live SERP checks on the primary keywords. These should inform FAQ sections on relevant pages and blog content.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>PAA Question</th>
+          <th>Source SERP</th>
+          <th>Target Page</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>How much does staging cost in Melbourne?</td>
+          <td>home staging melbourne</td>
+          <td>/home-staging-cost/</td>
+          <td>Primary FAQ on pricing page. Mention tier ranges (Market Ready → Premium) without exact pricing.</td>
+        </tr>
+        <tr>
+          <td>Is home staging worth the cost?</td>
+          <td>home staging melbourne</td>
+          <td>/is-home-staging-worth-it/</td>
+          <td>Primary topic for the ROI page. Use hipages stat: $3 return per $1 spent.</td>
+        </tr>
+        <tr>
+          <td>What not to do when staging a house?</td>
+          <td>home staging melbourne</td>
+          <td>/how-to-prepare-home-for-sale/</td>
+          <td>FAQ or sidebar on the preparation guide. Positions STYLD as expert avoiding common mistakes.</td>
+        </tr>
+        <tr>
+          <td>How much to stage a 4 bedroom home?</td>
+          <td>home staging melbourne</td>
+          <td>/home-staging-cost/</td>
+          <td>Include a property-size cost table on the pricing page (2BR, 3BR, 4BR, luxury ranges).</td>
+        </tr>
+        <tr>
+          <td>How much does property styling cost Melbourne?</td>
+          <td>home styling melbourne</td>
+          <td>/home-staging-cost/</td>
+          <td>Same intent as "staging cost" question — address on same pricing page.</td>
+        </tr>
+        <tr>
+          <td>How much does it cost to style a home?</td>
+          <td>home styling melbourne</td>
+          <td>/home-staging-cost/</td>
+          <td>Same pricing intent — consolidate into pricing page FAQ.</td>
+        </tr>
+        <tr>
+          <td>Is home styling worth it?</td>
+          <td>home styling melbourne</td>
+          <td>/is-home-staging-worth-it/</td>
+          <td>Same ROI intent — address on the ROI page.</td>
+        </tr>
+        <tr>
+          <td>What furniture style is Melbourne known for?</td>
+          <td>home styling melbourne</td>
+          <td>/home-staging-vs-property-styling/ or Blog</td>
+          <td>Tangential — Melbourne design aesthetic (minimalist). Useful for differentiating STYLD's tailored approach per property.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- COMPETITOR INTELLIGENCE -->
+  <div class="section">
+    <div class="section-title">Competitor Landscape</div>
+    <p class="section-desc">Competitors identified from live SERP analysis across "home staging melbourne" and "property styling melbourne" (30 Apr 2026).</p>
+
+    <h3>Home Staging Melbourne — Ranking Competitors</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Domain</th>
+          <th>Organic Position</th>
+          <th>Business Name</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>stagedhomes.com.au</td>
+          <td>#1 organic + Local Pack #1</td>
+          <td>Staged Homes</td>
+          <td>24 years experience, Ferntree Gully. Strongest competitor for "home staging melbourne".</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>moeshell.com.au</td>
+          <td>#2 organic</td>
+          <td>Moeshells Home Staging</td>
+          <td>Western and northern suburbs focus. Services overlap with STYLD.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>salebydesignhomes.com.au</td>
+          <td>#3 organic</td>
+          <td>Sale by Design Homes</td>
+          <td>"Pioneer in Melbourne home staging industry."</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>stylengo.com.au</td>
+          <td>#5 organic</td>
+          <td>STYLENGO Home Staging</td>
+          <td>Affordable packages focus.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>stage2sell.com.au</td>
+          <td>#6 organic</td>
+          <td>Stage2Sell</td>
+          <td>Targets homeowners + agents, similar audience to STYLD.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>housestaging4less.com.au</td>
+          <td>#7 organic + Local Pack #2</td>
+          <td>House Staging 4 Less</td>
+          <td>Price-positioned ("4 Less"). Viewbank. 134 Google reviews (4.9★).</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>blackbrickhomestaging.com.au</td>
+          <td>#8 organic</td>
+          <td>Black Brick Home Staging</td>
+          <td>Covers both "property staging" and "property styling" in meta.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Property Styling Melbourne — Ranking Competitors</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Domain</th>
+          <th>Organic Position</th>
+          <th>Business Name</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>propertystylingmelbourne.com.au</td>
+          <td>#1 organic</td>
+          <td>Property Styling Melbourne</td>
+          <td>Domain name is the exact keyword — strong domain authority advantage. Also covers interior design.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>melbournepropertystylists.com.au</td>
+          <td>#2 organic + Local Pack #1</td>
+          <td>Melbourne Property Stylists</td>
+          <td>Maidstone, 51 reviews (5★). Covers both staging and styling terms.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>propertysocietyco.com.au</td>
+          <td>#3 organic</td>
+          <td>Property Society Co</td>
+          <td>Full interior design + staging service.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>kepropertystyling.com.au</td>
+          <td>#6 organic + Local Pack #2</td>
+          <td>KE Property Styling</td>
+          <td>Kylie Espandiar — 208 Google reviews (5★). Strong review signal.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>createexpectations.com.au</td>
+          <td>#7 organic</td>
+          <td>Create Expectations</td>
+          <td>25 years experience. Strong authority signal.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SITE BUILD NOTES -->
+  <div class="section">
+    <div class="section-title">Implementation Notes</div>
+    <p class="section-desc">Key technical and content considerations for the WIX site build.</p>
+
+    <h3>Build Priority Order</h3>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:12px;">Build and publish in this order to maximise early ranking impact:</p>
+    <table class="page-map-table">
+      <thead>
+        <tr>
+          <th>Priority</th>
+          <th>Pages</th>
+          <th>Rationale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Week 1–2</strong></td>
+          <td>Homepage, Property Styling, Pricing, Packages, About Us (rebuild)</td>
+          <td>Core commercial pages — these generate revenue. All have confirmed search volume.</td>
+        </tr>
+        <tr>
+          <td><strong>Week 3–4</strong></td>
+          <td>Full Styling, Partial Styling, Vacant, Occupied, Real Estate Agents</td>
+          <td>Service differentiation + B2B audience. Supports conversion from homepage.</td>
+        </tr>
+        <tr>
+          <td><strong>Month 2</strong></td>
+          <td>Luxury, Property Developers, Staging for Sale, Services Overview rebuild</td>
+          <td>Audience targeting and long-tail service terms.</td>
+        </tr>
+        <tr>
+          <td><strong>Month 2–3</strong></td>
+          <td>Artwork, Outdoor, Furniture, Is Home Staging Worth It?, Comparison, Preparation Guide</td>
+          <td>Topical authority build-out and informational content for PAA targeting.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>URL Structure Rule</h3>
+    <p style="font-size:13px;color:var(--muted);line-height:1.6;">"Melbourne" does <strong>not</strong> appear in URL slugs. City modifier goes in the meta title and H1 instead. Clean slugs: <code>/property-styling/</code> not <code>/property-styling-melbourne/</code>. This keeps URLs shorter and avoids keyword-stuffed paths. WIX handles URL customisation via Page Settings → URL slug.</p>
+
+    <h3>Review Signals</h3>
+    <p style="font-size:13px;color:var(--muted);line-height:1.6;">The local pack for both main terms is dominated by businesses with 50–298 Google reviews. STYLD has 0 public reviews visible. Prioritise Google Business Profile setup and review collection from the 42 completed jobs immediately. Target: 20+ reviews within 60 days of GBP going live.</p>
+
+    <h3>Content Depth Requirement</h3>
+    <p style="font-size:13px;color:var(--muted);line-height:1.6;">Competing sites (stagedhomes.com.au, propertystylingmelbourne.com.au) have substantial content on their core pages. Minimum 600 words per Tier 1–2 page. Each page must include: clear service description, who it's for, process overview, FAQ (minimum 3 questions), and a free quote CTA.</p>
+
+    <h3>Phase 2 — Suburb Expansion (Not in this package)</h3>
+    <p style="font-size:13px;color:var(--muted);line-height:1.6;">These terms have confirmed volume and are available as Phase 2 suburb/area pages: property styling mornington peninsula (40/mo), home staging mornington peninsula (30/mo), home staging south east melbourne (10/mo). Recommend discussing a suburb page package once core 20 pages are live and indexed.</p>
+  </div>
+
+</div>
+
+<footer>
+  <strong>STYLD Melbourne — Keyword Research Plan v1.0</strong> &nbsp;|&nbsp; Prepared by Supple &nbsp;|&nbsp; 30 April 2026<br>
+  Volume data: DataForSEO Google Ads API, Australia, April 2026. SERP data: DataForSEO live SERP, Australia, 30 April 2026. KD: DataForSEO Labs.<br>
+  This document is confidential and prepared exclusively for STYLD MELBOURNE. Not for redistribution.
+</footer>
+
+</body>
+</html>
