@@ -34,6 +34,21 @@ For local businesses, the business's home suburb/address should be incorporated 
 
 ---
 
+## City pages ≠ location pages — critical budget rule
+
+**City-level pages are general keyword budget slots, not location budget slots.** Location keyword budget is exclusively for TRUE SUBURB-LEVEL pages only.
+
+- Standard package: 10 general + 20 location (suburbs)
+- If 2 extra general slots needed: 12 general + 16 location — because 1 extra general = 2 fewer location
+- When tallying a plan, count every city page (e.g., /commercial-solar/sydney/) against the general budget
+- **Regional cities (Gold Coast, Newcastle, Geelong, Sunshine Coast, Cairns etc.) also count as general — they are cities, not suburbs**
+- Location keywords = actual suburb names only (e.g., Penrith, Dandenong, Ipswich — suburb-level geographic units)
+- Do NOT count city or regional city pages as location keywords in the deliverable
+
+**Why:** City pages and regional city pages target city-level commercial intent, which is a service/entity page, not a geographic micro-targeting page. Suburb pages are the true location layer.
+
+---
+
 ## Suburb selection criteria
 - Same LGA or within realistic travel distance
 - Active property/commercial activity (check development, population, market activity)

@@ -96,6 +96,12 @@ originSessionId: 81e50042-3c9e-4c29-91de-238cd6a73314
 - Service pages: primary service + state/city combinations
 - Location pages: city-level pages rather than suburb-level
 
+### City pages = general keyword budget (always)
+City-level pages (e.g., /commercial-solar/sydney/) count against the **general** keyword budget, not the location budget. Location keyword budget is exclusively for **suburb-level** pages.
+- Budget formula: standard package is 10 general + 20 location (suburbs). If 2 extra general pages are needed: 12 general + 16 location (1 extra general = 2 fewer location).
+- When counting general keywords, include all city pages in the total.
+- Example: a nationwide client targeting 4 cities uses 4 of their general budget slots on city pages, leaving 6–8 slots for service pages.
+
 ### Ecommerce
 - Category pages: product category + modifiers (material, size, use case, brand)
 - Product pages: specific product keywords, model numbers, brand + product
