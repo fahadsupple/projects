@@ -87,61 +87,56 @@ type: project
 
 ## Final Keyword Plan — Summary
 
-### General Keywords (20)
-| # | Keyword | Vol | CPC | Target URL |
-|---|---------|-----|-----|------------|
-| 1 | commercial solar solutions (P) | 170 | $13.72 | /commercial-solar/ |
-| 2 | commercial solar systems (S) | 720 | $39.13 | /commercial-solar/ |
-| 3 | commercial solar company (S) | 260 | $14.49 | /commercial-solar/ |
-| 4 | commercial solar panels (P) | 880 | $37.97 | /commercial-solar-panels/ |
-| 5 | commercial solar system (S) | 720 | $38.72 | /commercial-solar-panels/ |
-| 6 | commercial solar installer (P) | 320 | $38.72 | /commercial-solar-installer/ |
-| 7 | commercial solar panel installers (S) | 90 | $26.93 | /commercial-solar-installer/ |
-| 8 | commercial solar panel contractors (S) | 40 | $73.24 | /commercial-solar-installer/ |
-| 9 | commercial solar installation (P) | 320 | $38.72 | /commercial-solar-installation/ |
-| 10 | commercial solar power installation (S) | 260 | $61.30 | /commercial-solar-installation/ |
-| 11 | commercial pv installations (S) | 40 | $44.56 | /commercial-solar-installation/ |
-| 12 | commercial solar system cost (P) | 30 | $58.90 | /commercial-solar-cost/ |
-| 13 | commercial solar installation cost (S) | 50 | $21.63 | /commercial-solar-cost/ |
-| 14 | industrial solar installation (P) | 40 | $0 | /industrial-solar/ |
-| 15 | industrial solar panels (S) | 170 | $30.33 | /industrial-solar/ |
-| 16 | industrial solar systems (S) | 90 | $33.45 | /industrial-solar/ |
-| 17 | battery energy storage system australia (P) | 1,000 | $5.27 | /battery-storage/ |
-| 18 | commercial battery storage australia (S) | 20 | $7.26 | /battery-storage/ |
-| 19 | bess australia (S) | 170 | $13.32 | /battery-storage/ |
-| 20 | solar for business (P) | 320 | $40.99 | /solar-for-business/ |
-| 21 | solar panels for business (S) | 320 | $40.32 | /solar-for-business/ |
-| 22 | commercial solar finance (P) | 50 | $12.15 | /commercial-solar-finance/ |
-| 23 | cost of commercial solar system (S) | 30 | $58.90 | /commercial-solar-finance/ |
-| 24 | lightweight solar panels (P) | 260 | $0.75 | /earc-solar/ |
-| 25 | sunman solar panels (S) | 170 | $0.55 | /earc-solar/ |
-| 26 | solar panels for commercial building (S) | 110 | $38.42 | /earc-solar/ |
-| 27 | solar project management (P) | 10 | $0 | /solar-project-management/ |
-| 28 | commercial solar system installation (S) | 70 | $0 | /solar-project-management/ |
-| + | commercial solar sydney (city page) | 140 | $33.22 | /commercial-solar/sydney/ |
-| + | commercial solar installer brisbane (city) | 210 | $58.65 | /commercial-solar/brisbane/ |
+### General Pages (10) — v2 final plan
 
-### Location Keywords (8)
-| # | Keyword | Vol | CPC | Target URL |
-|---|---------|-----|-----|------------|
-| L1 | commercial solar sydney (P) | 140 | $33.22 | /commercial-solar/sydney/ |
-| L2 | commercial solar melbourne (P) | 260 | $26.01 | /commercial-solar/melbourne/ |
-| L3 | commercial solar brisbane (P) | 260 | $3.79 | /commercial-solar/brisbane/ |
-| L4 | commercial solar adelaide (P) | 210 | $15.26 | /commercial-solar/adelaide/ |
-| L5 | battery energy storage system sydney (P) | 0 | $0 | /battery-storage/sydney/ |
-| L6 | battery energy storage system melbourne (P) | 0 | $0 | /battery-storage/melbourne/ |
-| L7 | battery energy storage system brisbane (P) | 0 | $0 | /battery-storage/brisbane/ |
-| L8 | battery energy storage system adelaide (P) | 0 | $0 | /battery-storage/adelaide/ |
+| # | URL | Primary Keyword | Vol | CPC | Status |
+|---|-----|----------------|-----|-----|--------|
+| G1 | /commercial-solar/sydney/ | commercial solar sydney | 140 | $33.22 | NEW |
+| G2 | /commercial-solar/melbourne/ | commercial solar melbourne | 260 | $26.01 | NEW |
+| G3 | /commercial-solar/brisbane/ | commercial solar brisbane | 260 | $3.79 | NEW |
+| G4 | /commercial-solar/adelaide/ | commercial solar adelaide | 210 | $15.26 | NEW |
+| G5 | /commercial-solar/ | commercial solar company | 260 | $14.49 | NEW |
+| G6 | /commercial-solar-panels/ | commercial solar panels | 880 | $37.97 | EXISTS — optimise |
+| G7 | /battery-storage/ | battery energy storage system australia | 1,000 | $5.27 | NEW — consolidate |
+| G8 | /solar-for-business/ | solar for business | 320 | $40.99 | EXISTS — optimise |
+| G9 | /commercial-solar-installer/ | commercial solar installer | 320 | $38.72 | EXISTS — optimise |
+| G10 | /industrial-solar/ | industrial solar panels | 170 | $30.33 | NEW URL (301 from /industrial_solar_energy/) |
+
+### Location Pages (20) — regional & industrial cities
+
+| # | City | State | URL | Primary Keyword | Vol |
+|---|------|-------|-----|----------------|-----|
+| L1 | Gold Coast | QLD | /commercial-solar/gold-coast/ | commercial solar gold coast | 90 |
+| L2 | Sunshine Coast | QLD | /commercial-solar/sunshine-coast/ | commercial solar sunshine coast | 70 |
+| L3 | Newcastle | NSW | /commercial-solar/newcastle/ | commercial solar newcastle | 30 |
+| L4 | Townsville | QLD | /commercial-solar/townsville/ | commercial solar townsville | 20 |
+| L5 | Cairns | QLD | /commercial-solar/cairns/ | commercial solar cairns | 20 |
+| L6 | Mackay | QLD | /commercial-solar/mackay/ | commercial solar mackay | 20 |
+| L7 | Geelong | VIC | /commercial-solar/geelong/ | commercial solar geelong | 10 |
+| L8 | Central Coast | NSW | /commercial-solar/central-coast/ | commercial solar central coast | 10 |
+| L9 | Penrith | NSW | /commercial-solar/penrith/ | commercial solar penrith | 10 |
+| L10 | Albury | NSW | /commercial-solar/albury/ | commercial solar albury | 10 |
+| L11 | Bundaberg | QLD | /commercial-solar/bundaberg/ | commercial solar bundaberg | 10 |
+| L12 | Toowoomba | QLD | /commercial-solar/toowoomba/ | commercial solar toowoomba | 0 |
+| L13 | Wollongong | NSW | /commercial-solar/wollongong/ | commercial solar wollongong | 0 |
+| L14 | Ballarat | VIC | /commercial-solar/ballarat/ | commercial solar ballarat | 0 |
+| L15 | Bendigo | VIC | /commercial-solar/bendigo/ | commercial solar bendigo | 0 |
+| L16 | Whyalla | SA | /commercial-solar/whyalla/ | commercial solar whyalla | 0 |
+| L17 | Port Augusta | SA | /commercial-solar/port-augusta/ | commercial solar port augusta | 0 |
+| L18 | Gladstone | QLD | /commercial-solar/gladstone/ | commercial solar gladstone | 0 |
+| L19 | Ipswich | QLD | /commercial-solar/ipswich/ | commercial solar ipswich | 0 |
+| L20 | Rockhampton | QLD | /commercial-solar/rockhampton/ | commercial solar rockhampton | 0 |
 
 ### Key Technical Issues (Urgent)
 1. `/industrial_solar_energy/` — underscore URL → create `/industrial-solar/` + 301 redirect
 2. Battery page cannibalisation — `/battery/`, `/battery-for-business/`, `/commercial-battery-installer/` → consolidate to `/battery-storage/` + 301 all three
-3. `/locations/nsw/` archive page — noindex before building `/commercial-solar/sydney/`
+3. `/commercial-solar-panels/` title tag — remove NSW-specific language, update to national scope
+4. `/locations/nsw/`, `/locations/qld/`, `/locations/vic/` — noindex before building new city pages
 
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
 - **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run, keywords.json generated)
-- **HTML deliverable:** COMPLETE — 28 Apr 2026
+- **HTML deliverable:** COMPLETE v2 — 30 Apr 2026 (rebuilt with correct 10 general + 20 location split; v1 had wrong 28 general + 8 location)
 - **Rankings check:** NOT STARTED — to be requested when client begins SEO implementation
 
 ## File Paths

@@ -6,7 +6,7 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; background: #f0f2f5; color: #1a1a2e; }
-.wrap { max-width: 1160px; margin: 0 auto; padding: 20px 14px; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 20px 14px; }
 h1 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
 .meta { font-size: 11px; color: #888; margin-bottom: 16px; }
 
@@ -22,10 +22,14 @@ td { padding: 8px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; l
 tr:last-child td { border-bottom: none; }
 
 .url { font-family: monospace; font-size: 11px; color: #2563eb; font-weight: 600; }
+.status { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; display: inline-block; margin-top: 3px; }
+.s-exists  { background: #d1fae5; color: #065f46; }
+.s-new     { background: #fee2e2; color: #991b1b; }
+.s-update  { background: #fef3c7; color: #92400e; }
+
 .pt { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
-.pt-home    { background: #dbeafe; color: #1d4ed8; }
+.pt-hub     { background: #dbeafe; color: #1d4ed8; }
 .pt-service { background: #ede9fe; color: #6d28d9; }
-.pt-hub     { background: #d1fae5; color: #065f46; }
 .pt-loc     { background: #fef3c7; color: #92400e; }
 
 .kws { display: flex; flex-direction: column; gap: 3px; }
@@ -39,620 +43,726 @@ tr:last-child td { border-bottom: none; }
 .v-z { font-size: 11px; color: #bbb; }
 .bid  { font-size: 11px; color: #dc2626; font-weight: 700; }
 .bidn { font-size: 11px; color: #888; }
-.note { font-size: 10px; color: #999; margin-top: 2px; }
-.flag { font-size: 10px; color: #b45309; font-weight: 600; margin-top: 2px; }
+.note { font-size: 10px; color: #999; margin-top: 2px; line-height: 1.5; }
 
 .grp td { background: #1a1a2e; color: #ccc; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; padding: 4px 10px; }
 
 .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
-.dot-vol { background: #16a34a; }
-.dot-low { background: #f59e0b; }
+.dot-vol  { background: #16a34a; }
+.dot-low  { background: #f59e0b; }
 .dot-zero { background: #d1d5db; }
 
-/* Brief section */
-.brief-section { background: #fffdf5; border: 1px solid #fde68a; border-radius: 7px; padding: 20px 24px; margin-top: 24px; }
+.brief-section { background: #fffdf5; border: 1px solid #fde68a; border-radius: 7px; padding: 20px 24px; margin-bottom: 16px; }
 .brief-section h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #fde68a; color: #92400e; }
 .brief-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 @media (max-width: 760px) { .brief-cols { grid-template-columns: 1fr; } }
+.brief-col h3 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #92400e; margin-bottom: 8px; }
+.brief-col p, .brief-col li { font-size: 11px; color: #555; line-height: 1.6; }
+.brief-col ul { margin-left: 14px; }
 
-/* Reasoning section */
-.reasoning { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-top: 16px; }
+.reasoning { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-bottom: 16px; }
 .reasoning h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; }
 .r-block { margin-bottom: 22px; }
 .r-block:last-child { margin-bottom: 0; }
 .r-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #1a1a2e; margin-bottom: 6px; }
-.r-body { font-size: 12px; color: #444; line-height: 1.6; }
+.r-body { font-size: 12px; color: #444; line-height: 1.65; }
 .r-body li { margin-left: 16px; margin-bottom: 3px; }
+.r-body p { margin-bottom: 6px; }
 .r-verdict { display: inline-block; margin-top: 6px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; color: #15803d; }
-.r-verdict-warn { background: #fffbeb; border-color: #fde68a; color: #b45309; }
-.budget-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
-.budget-cell { background: #f8f8fb; border: 1px solid #e8e8f0; border-radius: 5px; padding: 8px 12px; font-size: 11px; }
-.budget-cell b { font-size: 16px; display: block; color: #1a1a2e; }
+.r-warn { display: inline-block; margin-top: 6px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; color: #b45309; }
+
+.tech-table td:first-child { font-family: monospace; font-size: 11px; }
+.pri-high { background: #fee2e2; color: #991b1b; font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 3px; }
+.pri-med  { background: #fef3c7; color: #92400e; font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 3px; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <h1>Keyword Plan — Energus Pty Ltd &nbsp;·&nbsp; energus.com.au</h1>
-<p class="meta">DataForSEO + GKP · AU · 12-month window · v1 · 28 Apr 2026 &nbsp;|&nbsp; P = Primary &nbsp;S = Secondary &nbsp;|&nbsp; B2B commercial solar &amp; BESS only — no residential keywords</p>
+<p class="meta">DataForSEO + GKP · AU · 12-month window · v2 · 30 Apr 2026 &nbsp;|&nbsp; P = Primary &nbsp;S = Secondary &nbsp;|&nbsp; B2B commercial &amp; industrial solar only — no residential keywords</p>
 
 <div class="pills">
-  <div class="pill"><b>28</b>Total keywords</div>
-  <div class="pill"><b>20</b>General keywords &nbsp;<span style="color:#888">(service pages)</span></div>
-  <div class="pill"><b>8</b>Location keywords &nbsp;<span style="color:#888">(city pages)</span></div>
-  <div class="pill"><b>12</b>Target pages &nbsp;<span style="color:#888">(general)</span></div>
-  <div class="pill"><b>8</b>City pages &nbsp;<span style="color:#888">(4 cities × 2 silos)</span></div>
-  <div class="pill"><b>2</b>Service silos: <em>Commercial Solar · BESS</em></div>
-  <div class="pill"><b>4</b>Cities: <em>Sydney · Melbourne · Brisbane · Adelaide</em></div>
+  <div class="pill"><b>30</b>Total pages</div>
+  <div class="pill"><b>10</b>General pages</div>
+  <div class="pill"><b>20</b>Location pages</div>
+  <div class="pill"><b>3</b>Existing → optimise</div>
+  <div class="pill"><b>27</b>New → create</div>
+  <div class="pill"><b>1,000</b>Top keyword vol/mo</div>
+  <div class="pill"><b>$73.24</b>Highest CPC</div>
 </div>
 
-<!-- ============================
-     GENERAL KEYWORDS
-     ============================ -->
-<div class="sec">General Keywords — 20 Keywords Across 12 Pages</div>
+<p class="sec">General Pages (10) &mdash; 4 capital city pages + 6 service pages</p>
+
 <table>
   <thead>
     <tr>
-      <th style="width:27%">URL</th>
-      <th style="width:8%">Type</th>
-      <th>Keywords &nbsp;·&nbsp; GKP Vol &nbsp;·&nbsp; CPC (high)</th>
+      <th style="width:22%">Page / URL</th>
+      <th style="width:48%">Keywords</th>
+      <th style="width:15%">CPC</th>
+      <th style="width:15%">Notes</th>
     </tr>
   </thead>
   <tbody>
 
-    <!-- COMMERCIAL SOLAR HUB -->
-    <tr class="grp"><td colspan="3">Silo 1 — Commercial Solar Core (Tier A) &nbsp;·&nbsp; Primary revenue service, highest search volumes in plan</td></tr>
+    <tr class="grp"><td colspan="4">Capital City Pages — count as general budget slots, not location</td></tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar/</span></td>
-      <td><span class="pt pt-hub">Hub</span></td>
+      <td>
+        <span class="pt pt-hub">City Hub</span><br>
+        <span class="url">/commercial-solar/sydney/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar solutions</span><span class="v"><b>170</b>/mo</span><span class="bid">$13.72</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar systems</span><span class="v"><b>720</b>/mo</span><span class="bid">$39.13</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar company</span><span class="v"><b>260</b>/mo</span><span class="bidn">$14.49</span></div>
-          <div class="note">Hub page for all commercial solar services — links out to installer, panels, and installation sub-pages. Secondary "commercial solar systems" (720/mo) is high volume; Smart Commercial Energy holds #2 for this term — Energus (DR rank 185) outranks them (DR rank 241). Local pack triggers for "commercial solar systems" confirm commercial-local intent. "Commercial solar company" is the provider-selection query — Smart Commercial Energy holds #1; Energus displaces them with Top 5 C&amp;I Retailer credential + 55MW+ delivered.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar sydney</span><span class="v"><span class="dot dot-low"></span><b>140</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panels sydney</span><span class="v"><span class="dot dot-low"></span><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installation sydney</span><span class="v"><span class="dot dot-low"></span><b>40</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$33.22</span></td>
+      <td><span class="note">Energus HQ is North Sydney. Home state — prioritise. Positions 1–3 are C&I solar specialists — strong Energus fit. New page under /commercial-solar/ hub.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar-panels/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-hub">City Hub</span><br>
+        <span class="url">/commercial-solar/melbourne/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar panels</span><span class="v"><b>880</b>/mo</span><span class="bid">$37.97</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar system</span><span class="v"><b>720</b>/mo</span><span class="bid">$38.72</span></div>
-          <div class="note">880/mo is the highest-volume commercial solar term in the plan. Existing page at /commercial-solar-panels/ has title "commercial solar panels installation company in nsw" — NSW-specific, needs national positioning update. SERP: energy.gov.au #1 (immovable govt), tindosolar.com.au #2, mcelectrical.com.au #3 — all comparable or weaker DAs to Energus. Secondary "commercial solar system" (720/mo) groups with this SERP. Energus uses Tier 1 manufacturers only incl. Sunman eARC — a product story competitors like hdcelectrical.com.au cannot replicate. Page exists — optimise, do not rebuild.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar melbourne</span><span class="v"><span class="dot dot-vol"></span><b>260</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panels melbourne</span><span class="v"><span class="dot dot-low"></span><b>140</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installer melbourne</span><span class="v"><span class="dot dot-low"></span><b>70</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$26.01</span></td>
+      <td><span class="note">Energus holds VIC electrical licence. Strong commercial construction market. Melbourne panel secondary (140/mo) adds volume. New page needed.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar-installer/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-hub">City Hub</span><br>
+        <span class="url">/commercial-solar/brisbane/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar installer</span><span class="v"><b>320</b>/mo</span><span class="bid">$38.72</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panel installers</span><span class="v"><b>90</b>/mo</span><span class="bidn">$26.93</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panel contractors</span><span class="v"><b>40</b>/mo</span><span class="bidn">$73.24</span></div>
-          <div class="note">SERP: hdcelectrical.com.au #1, solarchoice.net.au #2, tindosolar.com.au #3 — only local electricians and a directory, no national giants. Energus with Top 5 C&amp;I Retailer credential and ISO 45001/9001 certifications outqualifies all three. The "contractors" framing ($73.24 CPC) identifies procurement teams in construction companies — Energus holds electrical contractor licences in NSW (279520C), QLD (79103), SA (PGE 335943). Page exists — optimise title and H1 to lead with Top 5 C&amp;I Retailer designation.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar brisbane</span><span class="v"><span class="dot dot-vol"></span><b>260</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installer brisbane</span><span class="v"><span class="dot dot-vol"></span><b>210</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panels brisbane</span><span class="v"><span class="dot dot-vol"></span><b>210</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$3.79</span></td>
+      <td><span class="note">QLD has highest C&I solar demand nationally (irradiance + electricity costs). All three keywords confirmed high volume. New page needed.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar-installation/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-hub">City Hub</span><br>
+        <span class="url">/commercial-solar/adelaide/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar installation</span><span class="v"><b>320</b>/mo</span><span class="bid">$38.72</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar power installation</span><span class="v"><b>260</b>/mo</span><span class="bid">$61.30</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial pv installations</span><span class="v"><b>40</b>/mo</span><span class="bidn">$44.56</span></div>
-          <div class="note">The action-intent installation page targets buyers actively specifying a project. Secondary "commercial solar power installation" ($61.30 CPC) is the second-highest CPC in the plan — construction PMs and EPC contractors at commitment stage. Smart Commercial Energy has no dedicated installation page (runs /commercial-solar/ generically) — this is an exploitable content gap. "Commercial PV" ($44.56 CPC) is engineering/technical buyer language — sustainability engineers and EPC contractors who specify Energus's in-house engineering team. New page — create at clean URL.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar adelaide</span><span class="v"><span class="dot dot-vol"></span><b>210</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panels adelaide</span><span class="v"><span class="dot dot-low"></span><b>70</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installation adelaide</span><span class="v"><span class="dot dot-low"></span><b>10</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$15.26</span></td>
+      <td><span class="note">Energus holds SA electrical licence (PGE 335943). SA is home to major industrial energy users (GFG Steel, BHP). New page needed.</span></td>
+    </tr>
+
+    <tr class="grp"><td colspan="4">Service Pages</td></tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-service">Service Hub</span><br>
+        <span class="url">/commercial-solar/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar company</span><span class="v"><span class="dot dot-vol"></span><b>260</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar solutions</span><span class="v"><span class="dot dot-low"></span><b>170</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar systems</span><span class="v"><span class="dot dot-vol"></span><b>720</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="bid">$14.49</span></td>
+      <td><span class="note">Core brand anchor page. "Commercial solar company" is navigational — B2B buyers checking credentials. The 720/mo secondary ("commercial solar systems") clusters naturally here. This page also acts as parent for all /commercial-solar/[city]/ children.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar-cost/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-service">Service</span><br>
+        <span class="url">/commercial-solar-panels/</span><br>
+        <span class="status s-exists">EXISTS — optimise</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar system cost</span><span class="v"><b>30</b>/mo</span><span class="bid">$58.90</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installation cost</span><span class="v"><b>50</b>/mo</span><span class="bidn">$21.63</span></div>
-          <div class="note">$58.90 CPC = highest CPC in the plan. These are evaluation-stage buyers comparing quotes and ROI before committing a project. Volume modest (30–50/mo) but these are the highest-intent buyers in the funnel. SolarChoice (directory) dominates the cost SERP with generic content — Energus wins with a specific, credible pricing guide backed by "1,800+ pricing quotations completed" (an authentic signal no SEO content farm can replicate). Page MISSING from site — create new. Content angle: transparent system-size pricing ranges, ROI calculator, finance options.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar panels</span><span class="v"><span class="dot dot-vol"></span><b>880</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar system</span><span class="v"><span class="dot dot-vol"></span><b>720</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">solar panels for commercial buildings</span><span class="v"><span class="dot dot-low"></span><b>110</b>/mo</span></div>
         </div>
       </td>
-    </tr>
-
-    <!-- INDUSTRIAL SOLAR -->
-    <tr class="grp"><td colspan="3">Silo 2 — Industrial Solar (Tier A) &nbsp;·&nbsp; Explicitly in BDM brief — separate page from commercial solar</td></tr>
-
-    <tr>
-      <td><span class="url">energus.com.au/industrial-solar/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">industrial solar installation</span><span class="v"><b>40</b>/mo</span><span class="bidn">$0</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">industrial solar panels</span><span class="v"><b>170</b>/mo</span><span class="bidn">$30.33</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">industrial solar systems</span><span class="v"><b>90</b>/mo</span><span class="bidn">$33.45</span></div>
-          <div class="note">Industrial solar is explicitly named in the BDM brief. Existing page at /industrial_solar_energy/ — URL uses underscores (technical SEO issue). Recommend: create /industrial-solar/ and 301-redirect the underscore URL. Smart Commercial Energy holds #1 for "industrial solar systems" (90/mo) — Energus's dedicated industrial page directly challenges this. "Industrial solar panels" (170/mo) is the highest-volume industrial term, outperforming the installation form. Page at /industrial_solar_energy/ features Dr Shi (founder) — strong E-E-A-T signal to carry over.</div>
-        </div>
-      </td>
-    </tr>
-
-    <!-- BESS / BATTERY STORAGE -->
-    <tr class="grp"><td colspan="3">Silo 3 — BESS / Battery Storage (Tier B) &nbsp;·&nbsp; Separate service line — high deal size ($100k–$2M+), distinct search intent</td></tr>
-
-    <tr>
-      <td><span class="url">energus.com.au/battery-storage/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">battery energy storage system australia</span><span class="v"><b>1,000</b>/mo</span><span class="bidn">$5.27</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial battery storage australia</span><span class="v"><b>20</b>/mo</span><span class="bidn">$7.26</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">bess australia</span><span class="v"><b>170</b>/mo</span><span class="bidn">$13.32</span></div>
-          <div class="note">1,000/mo national BESS term. CPC lower than commercial solar ($5.27) because BESS market is still building search maturity — but deal sizes ($100k–$2M+) mean even 2–3 leads/month from this page is transformational. SERP: bessaustralia.com.au (exact-match domain) + arena.gov.au — but Energus can win positions 4–6 with depth on commercial/industrial applications that bessaustralia and ARENA don't provide. The existing /battery/ page has the right title ("Commercial Battery Storage &amp; Installation") — this is the primary battery page to optimise. Note: /battery-for-business/ and /commercial-battery-installer/ are duplicate concerns — consolidate to /battery-storage/ and 301 the others.</div>
-        </div>
-      </td>
-    </tr>
-
-    <!-- SOLAR FOR BUSINESS -->
-    <tr class="grp"><td colspan="3">Silo 4 — Solar for Business (Tier C) &nbsp;·&nbsp; CFO / business owner segment — highest-CPC term in the plan</td></tr>
-
-    <tr>
-      <td><span class="url">energus.com.au/solar-for-business/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">solar for business</span><span class="v"><b>320</b>/mo</span><span class="bid">$40.99</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">solar panels for business</span><span class="v"><b>320</b>/mo</span><span class="bidn">$40.32</span></div>
-          <div class="note">$40.99 CPC = highest CPC term in the plan, confirming B2B buyer intent. This is the CFO/CEO search — when a business owner reads about commercial solar in an industry newsletter, "solar for business" is the natural query. SERP: energy.gov.au, business.qld.gov.au, solar.vic.gov.au in top 3 (unwinnable govt positions) — but positions 4–8 are open to commercial installers. Energus already has /solar-for-business/ as a standalone page featuring 22.5% average ROI — a compelling commercial hook that government pages lack. Page exists — optimise, not rebuild. The 4 secondaries share the same business-owner intent cluster.</div>
-        </div>
-      </td>
-    </tr>
-
-    <!-- SPECIALTY / TIER C -->
-    <tr class="grp"><td colspan="3">Silo 5 — Specialty Services (Tier C) &nbsp;·&nbsp; Finance, lightweight solar, solar project management</td></tr>
-
-    <tr>
-      <td><span class="url">energus.com.au/commercial-solar-finance/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar finance</span><span class="v"><b>50</b>/mo</span><span class="bidn">$12.15</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">cost of commercial solar system</span><span class="v"><b>30</b>/mo</span><span class="bid">$58.90</span></div>
-          <div class="note">Finance is an explicitly listed Energus service and a critical decision-making tool for CFOs. Secondary "cost of commercial solar system" ($58.90 CPC) is the second-highest CPC in this plan — evaluation-stage buyers are high-value prospects. Smart Commercial Energy has an /energy-rebates-and-incentives/ page but no dedicated finance page — Energus fills this content gap first. Page MISSING — create new. Content: finance options, equipment finance vs PPA, Section 40 depreciation, ROI modelling, PPSR implications for lenders.</div>
-        </div>
-      </td>
+      <td><span class="bid">$37.97</span></td>
+      <td><span class="note">880/mo — highest single-keyword volume in the plan. Page exists but title is NSW-specific ("commercial solar panels installation company in nsw") — update to national scope. Do not rebuild. Both secondaries share the same informational SERP intent cluster.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/earc-solar/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-service">Service</span><br>
+        <span class="url">/battery-storage/</span><br>
+        <span class="status s-new">NEW — consolidate</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">lightweight solar panels</span><span class="v"><b>260</b>/mo</span><span class="bidn">$0.75</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">sunman solar panels</span><span class="v"><b>170</b>/mo</span><span class="bidn">$0.55</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">solar panels for commercial building</span><span class="v"><b>110</b>/mo</span><span class="bidn">$38.42</span></div>
-          <div class="note">Energus is one of very few Australian installers offering Sunman eARC lightweight solar — a USP zero competitors in the SERP have a dedicated page for. 260/mo searchers are facilities managers and engineers dealing with weight-constrained roofs (older commercial buildings, heritage buildings, metal deck roofs). CPC is low ($0.75) because competition is minimal — no serious commercial lightweight solar pages in Australia. Existing /earc-solar-skin/ page uses the unfamiliar "Solar Skin" terminology — rename and align URL to "earc-solar" to capture search intent. Secondary "solar panels for commercial building" ($38.42 CPC) is an extremely high-CPC term that naturally co-targets.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">battery energy storage system australia</span><span class="v"><span class="dot dot-vol"></span><b>1,000</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">bess australia</span><span class="v"><span class="dot dot-low"></span><b>170</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial battery storage australia</span><span class="v"><span class="dot dot-zero"></span><b>20</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$5.27</span></td>
+      <td><span class="note">1,000/mo — highest volume term in the plan. Three existing battery pages split equity: /battery/, /battery-for-business/, /commercial-battery-installer/ — 301 all three to this new URL. "BESS" is industry jargon with real search volume (170/mo).</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/solar-project-management/</span></td>
-      <td><span class="pt pt-service">Service</span></td>
+      <td>
+        <span class="pt pt-service">Service</span><br>
+        <span class="url">/solar-for-business/</span><br>
+        <span class="status s-exists">EXISTS — optimise</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">solar project management</span><span class="v"><b>10</b>/mo</span><span class="bidn">$0</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar system installation</span><span class="v"><b>70</b>/mo</span><span class="bidn">$0</span></div>
-          <div class="note">Volume 10/mo — justified on audience specificity, not volume. Energus's top buyer segment is construction companies and major builders. These buyers search "solar project management" not as a consumer but as a procurement/contract decision. Dedicated page addresses construction buyers' language: SWMS, project management plans, ISO 45001 compliance, on-time delivery, minimal variations, integration with construction schedule. No major competitor has a dedicated solar project management page for the construction sector. Page MISSING — create new. Content angle: construction-phase solar, new build integration, Richard Crookes case study (300kW Sydney Art Gallery Extension).</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">solar for business</span><span class="v"><span class="dot dot-vol"></span><b>320</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar energy</span><span class="v"><span class="dot dot-low"></span><b>140</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">business solar power</span><span class="v"><span class="dot dot-low"></span><b>70</b>/mo</span></div>
         </div>
       </td>
-    </tr>
-
-    <!-- LOCATION — CITY LEVEL GENERAL -->
-    <tr class="grp"><td colspan="3">City-Level Terms (General Budget) &nbsp;·&nbsp; City pages are location pages — these general budget keywords map to the location table below</td></tr>
-
-    <tr>
-      <td><span class="url">energus.com.au/commercial-solar/sydney/</span></td>
-      <td><span class="pt pt-loc">Location</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar sydney</span><span class="v"><b>140</b>/mo</span><span class="bidn">$33.22</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">solar installer sydney</span><span class="v"><b>320</b>/mo</span><span class="bidn">$16.76</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar nsw</span><span class="v"><b>30</b>/mo</span><span class="bidn">$5.18</span></div>
-          <div class="note">See Location Keywords table for full rationale.</div>
-        </div>
-      </td>
+      <td><span class="bid">$40.99</span></td>
+      <td><span class="note">$40.99 CPC = highest-CPC service term — confirms B2B buyer intent. CFO/CEO search. Govt pages hold top 3 (unwinnable) but positions 4–8 are open. Page exists with 22.5% ROI hook. Optimise, do not rebuild.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">energus.com.au/commercial-solar/brisbane/</span></td>
-      <td><span class="pt pt-loc">Location</span></td>
+      <td>
+        <span class="pt pt-service">Service</span><br>
+        <span class="url">/commercial-solar-installer/</span><br>
+        <span class="status s-exists">EXISTS — optimise</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar installer brisbane</span><span class="v"><b>210</b>/mo</span><span class="bid">$58.65</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar brisbane</span><span class="v"><b>260</b>/mo</span><span class="bidn">$3.79</span></div>
-          <div class="note">Brisbane is priority city — $58.65 CPC across all installer terms. See Location Keywords table.</div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar installer</span><span class="v"><span class="dot dot-vol"></span><b>320</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panel installers</span><span class="v"><span class="dot dot-low"></span><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panel contractors</span><span class="v"><span class="dot dot-low"></span><b>40</b>/mo</span></div>
         </div>
       </td>
+      <td><span class="bid">$38.72</span></td>
+      <td><span class="note">Decision-stage intent. "$73.24 CPC secondary" (commercial solar panel contractors) confirms high advertiser competition = high commercial value. Page exists. Optimise title, H1, and intro paragraph.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-service">Service</span><br>
+        <span class="url">/industrial-solar/</span><br>
+        <span class="status s-update">NEW URL — 301</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">industrial solar panels</span><span class="v"><span class="dot dot-low"></span><b>170</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">industrial solar systems</span><span class="v"><span class="dot dot-low"></span><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">industrial solar installation</span><span class="v"><span class="dot dot-low"></span><b>40</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="bid">$30.33</span></td>
+      <td><span class="note">Existing page at /industrial_solar_energy/ (underscore URL — bad for SEO). Create /industrial-solar/ and 301 redirect from /industrial_solar_energy/. Target: manufacturing, mining, warehousing industries. Migrate existing content to new URL.</span></td>
     </tr>
 
   </tbody>
 </table>
 
+<p class="sec">Location Pages (20) &mdash; regional &amp; industrial cities across NSW, QLD, VIC, SA &mdash; all new pages</p>
 
-<!-- ============================
-     LOCATION KEYWORDS
-     ============================ -->
-<div class="sec">
-  Location Keywords — 8 City Pages &nbsp;·&nbsp; 4 Cities × 2 Service Silos (Commercial Solar + BESS)
-  &nbsp;·&nbsp; <span class="dot dot-vol"></span>GKP volume confirmed
-  &nbsp;·&nbsp; <span class="dot dot-low"></span>Low/10/mo volume
-  &nbsp;·&nbsp; <span class="dot dot-zero"></span>0/mo — strategic positioning (growing market)
-</div>
 <table>
   <thead>
     <tr>
-      <th style="width:30%">URL</th>
-      <th style="width:38%">Keywords</th>
-      <th style="width:10%">GKP Vol</th>
-      <th>Notes</th>
+      <th style="width:28%">Page / URL</th>
+      <th style="width:44%">Keywords</th>
+      <th style="width:14%">Volume</th>
+      <th style="width:14%">Strategic rationale</th>
     </tr>
   </thead>
   <tbody>
 
-    <tr class="grp"><td colspan="4">Silo A — Commercial Solar [city] &nbsp;·&nbsp; 4 city pages &nbsp;·&nbsp; Combined volume 870/mo for primaries</td></tr>
+    <tr class="grp"><td colspan="4">QLD — 9 cities</td></tr>
 
     <tr>
-      <td><span class="url">/commercial-solar/sydney/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/gold-coast/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-vol"></span>commercial solar sydney</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>solar installer sydney</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar nsw</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar installation sydney</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar gold coast</span></div>
         </div>
       </td>
-      <td>
-        <b>140</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 320/mo</span>
-      </td>
-      <td>Energus home market — HQ at North Sydney, licence NSW 279520C. Smart Commercial Energy ranks #1 for "commercial solar sydney" — Energus's physical North Sydney HQ is a geographic entity advantage. Secondary "solar installer sydney" (320/mo, $16.76 CPC) adds the highest-volume city term in the location set. SERP: smartcommercialenergy #1, solarchoice.net.au #2, pscenergy.com.au #3 — all mid-tier comparable or weaker. Page MISSING — /locations/nsw/ archive page must be noindexed to prevent cannibalisation.</td>
+      <td><span class="v"><span class="dot dot-vol"></span><b>90</b>/mo</span></td>
+      <td><span class="note">QLD's 2nd city. High C&I solar demand. Confirmed volume.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/commercial-solar/melbourne/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/sunshine-coast/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-vol"></span>commercial solar melbourne</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>commercial solar panels melbourne</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>commercial solar installer melbourne</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar vic</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar sunshine coast</span></div>
         </div>
       </td>
-      <td>
-        <b>260</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 140/mo + 70/mo</span>
-      </td>
-      <td>Melbourne has the highest-volume commercial solar city primary (260/mo). Kuga (named client competitor) ranks #3 for this term — direct displacement target. SERP: lumenaus.com.au #1, sunrunsolar.com.au #2, kuga #3 — Melbourne-focused local businesses. Energus operates nationally with ISO-certified processes that smaller Melbourne businesses lack. GBP optimisation in Melbourne must run in parallel with this page build to capture local pack rankings.</td>
+      <td><span class="v"><span class="dot dot-low"></span><b>70</b>/mo</span></td>
+      <td><span class="note">Fast-growing QLD coastal corridor. Confirmed volume.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/commercial-solar/brisbane/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/townsville/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-vol"></span>commercial solar brisbane</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>commercial solar installation brisbane</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>commercial solar installer brisbane</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar qld</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar townsville</span></div>
         </div>
       </td>
-      <td>
-        <b>260</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 210/mo each</span>
-      </td>
-      <td>Priority city — $58.65 CPC across all three installer/installation Brisbane terms. Brisbane commercial solar market shows exceptional buyer intent. QLD licence 79103 gives Energus the legal credential. SERP dominated by local Queensland businesses (commercialsolarbrisbane.com.au, mcelectrical.com.au, springers.com.au) — none carry Energus's Top 5 C&amp;I Retailer credential or ISO certifications. Clearest market gap in the location set: high intent, local-only competition, national credentialled installer absent from SERP.</td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>20</b>/mo</span></td>
+      <td><span class="note">North QLD industrial hub. Mining supply base.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/commercial-solar/adelaide/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/cairns/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-vol"></span>commercial solar adelaide</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-vol"></span>commercial solar panels adelaide</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar installation adelaide</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial solar sa</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar cairns</span></div>
         </div>
       </td>
-      <td>
-        <b>210</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 70/mo</span>
-      </td>
-      <td>Adelaide SERP has the weakest competition in the plan — dqelectrical.com.au (local electrician), raa.com.au (SA motoring club — anomalous result), tindosolar.com.au. None are serious commercial solar specialists with national credentials. Energus holds SA licence PGE 335943. Despite lower secondary volumes (10/mo for installation variants), 210/mo primary and minimal competition make this the easiest SERP win in the location set.</td>
-    </tr>
-
-    <tr class="grp"><td colspan="4">Silo B — BESS / Battery Storage [city] &nbsp;·&nbsp; 4 city pages &nbsp;·&nbsp; Near-zero volume today, near-zero competition — strategic early positioning</td></tr>
-
-    <tr>
-      <td><span class="url">/battery-storage/sydney/</span></td>
-      <td>
-        <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-zero"></span>battery energy storage system sydney</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial battery storage sydney</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>bess sydney</span></div>
-        </div>
-      </td>
-      <td>
-        <b>0</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 10/mo</span>
-      </td>
-      <td>Zero volume, zero competition. Justification: (1) BESS deal sizes $100k–$2M+ — a single organic lead from this page exceeds the cost of the entire keyword research engagement. (2) Smart Commercial Energy ranks for "commercial battery storage sydney" (10/mo) from their homepage, not a dedicated city page — Energus with a dedicated page outranks them immediately. (3) NSW licence 279520C + HQ in North Sydney are geographic entity advantages. As BESS adoption accelerates (ARENA funding, battery mandates, grid upgrades), these keywords will develop volume. Being ranked before volume arrives is the strategic bet.</td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>20</b>/mo</span></td>
+      <td><span class="note">Far North QLD. High irradiance = strong solar ROI story.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/battery-storage/melbourne/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/mackay/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-zero"></span>battery energy storage system melbourne</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>commercial battery storage melbourne</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>bess melbourne</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar mackay</span></div>
         </div>
       </td>
-      <td>
-        <b>0</b>/mo
-      </td>
-      <td>VIC government has been Australia's most aggressive on renewable policy (VEET scheme, VicGrid development) — BESS commercial demand in VIC is growing. Kuga (Melbourne competitor) has no BESS city page — Energus differentiates by being first. Victorian energy retailers (AGL, EnergyAustralia) do not compete at the C&amp;I specialist installation level. Zero competition = near-zero KD = rapid ranking once page is live.</td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>20</b>/mo</span></td>
+      <td><span class="note">Central QLD mining gateway. Coal export port.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/battery-storage/brisbane/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/toowoomba/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-zero"></span>battery energy storage system brisbane</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-low"></span>commercial battery storage brisbane</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>bess brisbane</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar toowoomba</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar panels toowoomba</span><span class="v-z"><b>10</b>/mo</span></div>
         </div>
       </td>
-      <td>
-        <b>0</b>/mo<br>
-        <span style="color:#888;font-size:10px">S: 10/mo</span>
-      </td>
-      <td>Brisbane's commercial solar installer CPC ($58.65) signals exceptional buyer intent that transfers to BESS where commercial deals are even larger. QLD licence 79103 validates Energus for Brisbane BESS installation. Queensland is a fast-growing commercial solar market — BESS adoption is accelerating with Energex grid updates. "Commercial battery storage brisbane" (10/mo) is the only city BESS term with non-zero volume in the plan — smallest lead in a large future market.</td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">Large inland QLD city. Secondary has 10/mo. Agri + manufacturing.</span></td>
     </tr>
 
     <tr>
-      <td><span class="url">/battery-storage/adelaide/</span></td>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/bundaberg/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
       <td>
         <div class="kws">
-          <div class="kw-row"><span class="role r-p">P</span><span class="kw"><span class="dot dot-zero"></span>battery energy storage system adelaide</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>commercial battery storage adelaide</span></div>
-          <div class="kw-row"><span class="role r-s">S</span><span class="kw"><span class="dot dot-zero"></span>bess adelaide</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar bundaberg</span></div>
         </div>
       </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>10</b>/mo</span></td>
+      <td><span class="note">QLD sugar/food processing hub. Energy-intensive industry.</span></td>
+    </tr>
+
+    <tr>
       <td>
-        <b>0</b>/mo
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/gladstone/</span><br>
+        <span class="status s-new">NEW — create</span>
       </td>
-      <td>South Australia is the most strategically interesting BESS market in Australia — SA pioneered large-scale battery storage (Hornsdale Power Reserve) and has the highest renewable energy penetration on the mainland grid. This created a sophisticated commercial BESS buyer base. SA licence PGE 335943 gives Energus the legal credential. Adelaide's commercial solar SERP showed the weakest competition of any city — BESS competition will be even weaker. Page will be positioned first in the market when SA commercial BESS search demand scales.</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar gladstone</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">LNG export terminals + Rio Tinto aluminium smelter. Highest industrial electricity costs in QLD — strongest commercial solar ROI argument of any location.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/ipswich/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar ipswich</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">280k population. Western Brisbane industrial corridor. Largest untargeted QLD city.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/rockhampton/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar rockhampton</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">Central QLD mining services hub. Gateway to Bowen Basin.</span></td>
+    </tr>
+
+    <tr class="grp"><td colspan="4">NSW — 5 cities</td></tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/newcastle/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar newcastle</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-low"></span><b>30</b>/mo</span></td>
+      <td><span class="note">NSW's 2nd city. Hunter Valley industrial base. Port Waratah coal terminal. Confirmed volume.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/central-coast/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar central coast</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>10</b>/mo</span></td>
+      <td><span class="note">Large residential-commercial corridor between Sydney and Newcastle. Growing commercial precinct.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/penrith/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar penrith</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>10</b>/mo</span></td>
+      <td><span class="note">Western Sydney industrial hub. Logistics and warehousing corridor. Strong commercial solar candidate.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/wollongong/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar wollongong</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">BlueScope Steel HQ. 300k population. NSW's key heavy industrial city. High electricity consumption = compelling solar ROI.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/albury/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar albury</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>10</b>/mo</span></td>
+      <td><span class="note">NSW/VIC border city. Logistics hub on Hume Highway corridor. Food manufacturing base.</span></td>
+    </tr>
+
+    <tr class="grp"><td colspan="4">VIC — 3 cities</td></tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/geelong/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar geelong</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">commercial solar installer geelong</span><span class="v-z"><b>10</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>10</b>/mo</span></td>
+      <td><span class="note">VIC's 2nd city. Ford/Alcoa industrial legacy. Port of Geelong. Both primary and secondary show volume.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/ballarat/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar ballarat</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">VIC central regional hub. Covers Grampians manufacturing and agri corridor.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/bendigo/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar bendigo</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">VIC north-central hub. Agricultural processing, light manufacturing. Pairs with Ballarat for full VIC regional coverage.</span></td>
+    </tr>
+
+    <tr class="grp"><td colspan="4">SA — 2 cities</td></tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/whyalla/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar whyalla</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">GFG Alliance steel mill — SA's primary heavy industrial city. Extreme energy costs = compelling commercial solar ROI pitch.</span></td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="pt pt-loc">Location</span><br>
+        <span class="url">/commercial-solar/port-augusta/</span><br>
+        <span class="status s-new">NEW — create</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">commercial solar port augusta</span></div>
+        </div>
+      </td>
+      <td><span class="v"><span class="dot dot-zero"></span><b>0</b>/mo</span></td>
+      <td><span class="note">SA energy transition hub. Site of Australia's largest solar thermal plant. Strong BESS/solar narrative alignment.</span></td>
     </tr>
 
   </tbody>
 </table>
 
+<!-- Technical Issues -->
+<p class="sec">Technical Issues — fix before publishing new pages</p>
 
-<!-- ============================
-     PROJECT BRIEF
-     ============================ -->
+<table class="tech-table">
+  <thead>
+    <tr>
+      <th style="width:30%">Issue</th>
+      <th style="width:15%">Priority</th>
+      <th style="width:55%">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/industrial_solar_energy/</td>
+      <td><span class="pri-high">HIGH</span></td>
+      <td>Underscore URL — create /industrial-solar/ with migrated content, 301 redirect from /industrial_solar_energy/. Underscore URLs are not word-separated by Google.</td>
+    </tr>
+    <tr>
+      <td>Battery page cannibalisation</td>
+      <td><span class="pri-high">HIGH</span></td>
+      <td>Three pages split equity: /battery/, /battery-for-business/, /commercial-battery-installer/ → consolidate all content to new /battery-storage/ and 301 redirect all three.</td>
+    </tr>
+    <tr>
+      <td>/commercial-solar-panels/ title tag</td>
+      <td><span class="pri-med">MEDIUM</span></td>
+      <td>Current title: "commercial solar panels installation company in nsw" — NSW-specific. Update to national scope: "Commercial Solar Panels | Australia's Leading C&I Installer | Energus"</td>
+    </tr>
+    <tr>
+      <td>/locations/nsw/, /locations/qld/, /locations/vic/</td>
+      <td><span class="pri-med">MEDIUM</span></td>
+      <td>State archive pages — noindex before building new /commercial-solar/[city]/ pages to avoid competing with the city hub pages.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Client Brief -->
 <div class="brief-section">
-  <h2>Project Brief &amp; Assets &nbsp;·&nbsp; for manager reference</h2>
-
+  <h2>Client Brief</h2>
   <div class="brief-cols">
-    <div>
-      <div class="r-block">
-        <div class="r-title">Client Brief — BDM Notes</div>
-        <div class="r-body">
-          <ul>
-            <li><b>Business type:</b> B2B ONLY — Commercial and Industrial solar. No residential.</li>
-            <li><b>Key keyword ideas:</b> Commercial solar installation · Industrial solar installation · Commercial solar installer · Battery storage · Solar for business</li>
-            <li><b>Ideal clients:</b> Construction companies / builders (new construction) · Business owners</li>
-            <li><b>Locations:</b> QLD, NSW, VIC, SA</li>
-            <li><b>Competitors:</b> smartcommercialenergy.com.au · AGL (commercial solar side)</li>
-          </ul>
-        </div>
-      </div>
+    <div class="brief-col">
+      <h3>Business</h3>
+      <p><strong>Energus Pty Ltd</strong> (ABN 81 168 985 288)<br>
+      Founded 2014 · HQ: Level 9, 153 Walker Street, North Sydney NSW 2060<br>
+      Phone: 1300 090 187 · sales@energus.com<br>
+      <strong>B2B ONLY — no residential solar</strong></p>
+      <br>
+      <h3>Services</h3>
+      <ul>
+        <li>Commercial solar installation (new constructions + retrofit)</li>
+        <li>Industrial solar installation</li>
+        <li>Battery Energy Storage Systems (BESS / C&amp;I battery)</li>
+        <li>Solar system design &amp; engineering</li>
+        <li>Solar project management</li>
+        <li>Lightweight solar (Sunman eARC technology)</li>
+        <li>Solar for businesses / property groups</li>
+        <li>Solar finance, monitoring, servicing</li>
+      </ul>
     </div>
+    <div class="brief-col">
+      <h3>USPs</h3>
+      <ul>
+        <li>End-to-end service: design → install → monitoring</li>
+        <li>In-house solar &amp; battery engineers on every project</li>
+        <li>Site-experienced project managers (on time, on budget)</li>
+        <li>Tier 1 manufacturers only, incl. Sunman eARC lightweight panels</li>
+        <li>ISO 45001:2018 (OHS) + ISO 9001:2016 (Quality)</li>
+        <li>Top 5 C&amp;I Solar Retailer nationally</li>
+        <li>55MW+ delivered · 1,800+ pricing quotations</li>
+        <li>10-year workmanship warranty</li>
+      </ul>
+      <br>
+      <h3>Geographic scope</h3>
+      <p>NSW, QLD, VIC, SA — capital city + regional city targeting. NOT suburb-level. Clients: construction companies, builders, property developers, business owners/CFOs, large corporates.</p>
+    </div>
+  </div>
+</div>
 
-    <div>
-      <div class="r-block">
-        <div class="r-title">Client Brief — Onboarding Form (Key Fields)</div>
-        <div class="r-body">
-          <ul>
-            <li><b>Business:</b> Energus Pty Ltd · energus.com.au · ABN 81 168 985 288</li>
-            <li><b>Founded:</b> 2014 &nbsp;·&nbsp; <b>Phone:</b> 1300 090 187 &nbsp;·&nbsp; <b>Email:</b> sales@energus.com</li>
-            <li><b>Address:</b> Level 9, 153 Walker Street, North Sydney NSW 2060 &nbsp;·&nbsp; Mon–Fri 9am–5pm</li>
-            <li><b>Services offered:</b> Commercial solar installation (new constructions + retrofit) · Industrial solar installation · BESS · C&amp;I battery · Commercial battery · Solar &amp; battery installation · Lightweight solar (eARC technology) · Solar system design &amp; engineering · Solar project management · Solar finance · Solar monitoring · Solar servicing · Energy consulting · Procurement &amp; logistics · Installer training</li>
-            <li><b>SEO keyword preferences:</b> solar for business · commercial solar · solar installer · solar battery · commercial battery · BESS · commercial solar system</li>
-            <li><b>USPs:</b> (1) End-to-end service (panel layouts, schematics, AC/DC diagrams, SWMS, PM plans, logistics, ops support) · (2) Dedicated internal solar &amp; battery engineers on every project · (3) Construction-site-experienced PMs — on-time, on-budget, minimal variations · (4) Tier 1 manufacturers only incl. Sunman eARC lightweight technology · (5) ISO 45001:2018 (OHS) · (6) ISO 9001:2016 (Quality) · (7) Top 5 C&amp;I Solar Retailer nationally · (8) 55MW+ delivered · (9) 1,800+ pricing quotations · (10) Sydney Art Gallery Extension (300kW, with Richard Crookes)</li>
-            <li><b>Ideal customer:</b> Construction companies, major builders, property developers (solar/battery during construction). Large-scale commercial construction. Also: property groups, business owners/CFOs, large corporates, energy consultants</li>
-            <li><b>Licences:</b> NSW 279520C · QLD 79103 · SA PGE 335943 · CEC Member · Master Electricians · New Energy Tech Approved Seller · ISO 9001:2016 · ISO 45001:2018</li>
-            <li><b>Competitors (full list):</b> smartcommercialenergy.com.au · AGL (commercial solar) · todaesolar.com.au · TSP Energy · Kuga</li>
-          </ul>
-        </div>
-      </div>
+<!-- Keyword Reasoning -->
+<div class="reasoning">
+  <h2>Keyword Reasoning</h2>
+
+  <div class="r-block">
+    <div class="r-title">Budget structure — 10 general + 20 location</div>
+    <div class="r-body">
+      <p>Standard package is 10 general + 20 location pages. General budget includes all city-level pages — Sydney, Melbourne, Brisbane, and Adelaide each consume one general slot (4 total), leaving 6 slots for national service pages. Location pages are suburb/regional city level only — not capital cities.</p>
+      <p>For Energus, suburb-level targeting has no search volume for commercial solar (B2B buyer doesn't search "commercial solar Bondi" — they search "commercial solar sydney" or "commercial solar company"). The location layer is therefore filled with major industrial and regional cities across the 4 target states, where commercial solar ROI is a credible pitch even at 0 search volume (industrial energy costs drive demand, not keyword awareness).</p>
+      <span class="r-verdict">10 general + 20 location confirmed</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Battery energy storage system australia — 1,000/mo primary</div>
+    <div class="r-body">
+      <p>Highest-volume keyword in the plan. "Battery energy storage system australia" is the B2B-correct term — not "home battery" or "residential battery." BESS (170/mo) is the industry acronym with confirmed search volume. Three existing battery pages (/battery/, /battery-for-business/, /commercial-battery-installer/) are splitting equity across three weak pages — consolidating to /battery-storage/ with 301s from all three recovers that equity and gives the correct target URL.</p>
+      <span class="r-verdict">Consolidate to /battery-storage/ — urgent priority</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Commercial solar panels — 880/mo (existing page)</div>
+    <div class="r-body">
+      <p>880/mo is the highest-volume commercial-modifier keyword. The page exists at /commercial-solar-panels/ but has a NSW-specific title tag — this actively limits national ranking potential. The secondary "commercial solar system" (720/mo) shares the same SERP (products and specs intent) and clusters naturally on this page. Optimise, don't rebuild.</p>
+      <span class="r-verdict">Optimise existing page — update title, H1, intro to national scope</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Commercial solar company — hub page</div>
+    <div class="r-body">
+      <p>The /commercial-solar/ hub page doesn't currently exist. This is the core brand anchor — the page a buyer lands on when they want to understand who Energus is and what they do. "Commercial solar company" (260/mo) is navigational-intent: the buyer has decided they want commercial solar and is now selecting a company. The secondary "commercial solar systems" (720/mo) adds significant volume while staying on the same intent. This page also serves as the parent for all /commercial-solar/[city]/ children, giving the site a clean internal linking structure.</p>
+      <span class="r-verdict">Create new page at /commercial-solar/ — highest structural priority</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Industrial solar — URL fix required</div>
+    <div class="r-body">
+      <p>The existing page at /industrial_solar_energy/ uses underscores — Google treats underscores as word joiners, not separators, meaning "industrial_solar_energy" is read as a single token, not "industrial solar energy." This is a known ranking disadvantage. The new URL /industrial-solar/ is shorter, hyphen-separated, and matches the target keyword pattern. Create the new page, migrate content, and 301 the old URL.</p>
+      <span class="r-warn">Fix underscore URL before optimising content</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">Location page strategy — industrial cities, not suburbs</div>
+    <div class="r-body">
+      <p>Commercial solar is a B2B product — buyers are businesses, not households. Suburb-level targeting (e.g., "commercial solar Parramatta") has effectively zero search volume. The location layer for Energus uses major regional and industrial cities where commercial and industrial energy usage is high:</p>
+      <ul>
+        <li><strong>QLD (9 pages):</strong> Gold Coast (90/mo), Sunshine Coast (70/mo), Townsville, Cairns, Mackay, Toowoomba, Bundaberg, Gladstone (LNG + Rio Tinto aluminium), Ipswich, Rockhampton</li>
+        <li><strong>NSW (5 pages):</strong> Newcastle (Hunter Valley), Central Coast, Penrith (Western Sydney logistics), Wollongong (BlueScope Steel), Albury (Hume Highway logistics)</li>
+        <li><strong>VIC (3 pages):</strong> Geelong (Port, Ford/Alcoa legacy), Ballarat, Bendigo</li>
+        <li><strong>SA (2 pages):</strong> Whyalla (GFG Steel), Port Augusta (energy transition hub)</li>
+      </ul>
+      <p>Zero-volume pages are included where industrial energy intensity makes commercial solar ROI compelling regardless of search demand — they also build geographic authority signals for Energus's multi-state operation.</p>
+      <span class="r-verdict">20 location pages covering all 4 target states</span>
+    </div>
+  </div>
+
+  <div class="r-block">
+    <div class="r-title">What was cut vs the pipeline output</div>
+    <div class="r-body">
+      <p>The original pipeline output (v1, 28 Apr 2026) had 28 general + 8 location. The following pages were removed from general budget:</p>
+      <ul>
+        <li>/earc-solar/ — eARC/lightweight solar USP. Low search volume (260/mo for "lightweight solar panels" but mixed SERP intent). Fold eARC content into /commercial-solar-panels/ as a product differentiator section. Can be added as standalone if volume grows.</li>
+        <li>/commercial-solar-installation/ — same intent as /commercial-solar-installer/. Content merged.</li>
+        <li>/commercial-solar-cost/ — 30/mo primary. Not worth a standalone page at this stage.</li>
+        <li>/commercial-solar-finance/ — 50/mo primary. Low priority at this stage.</li>
+        <li>/solar-project-management/ — 10/mo primary. Very thin volume.</li>
+      </ul>
+      <p>Battery city pages (/battery-storage/sydney/ etc.) were also removed — BESS at city level is covered as a supporting entity on the national /battery-storage/ page. The 4 capital city pages now use /commercial-solar/[city]/ rather than separate BESS city pages.</p>
+      <span class="r-verdict">Cuts are recoverable — can be added as Phase 2 once core pages rank</span>
     </div>
   </div>
 
 </div>
 
-
-<!-- ============================
-     STRATEGY RATIONALE
-     ============================ -->
-<div class="reasoning">
-  <h2>Strategy Rationale &nbsp;·&nbsp; for manager review</h2>
-
-  <div class="r-block">
-    <div class="r-title">Package Overview</div>
-    <div class="r-body">
-      Standard package: 20 general keywords + 8 location keywords. General keywords map to 12 target pages across 5 content silos. Location keywords map to 8 city-level pages (4 cities × 2 service silos). No suburb-level pages — Energus is a nationwide B2B business, city-level targeting is the correct geographic resolution.
-      <div class="budget-row">
-        <div class="budget-cell"><b>20</b>General keywords</div>
-        <div class="budget-cell"><b>8</b>Location keywords</div>
-        <div class="budget-cell"><b>28</b>Total keywords</div>
-        <div class="budget-cell"><b>12</b>General pages</div>
-        <div class="budget-cell"><b>8</b>Location pages</div>
-        <div class="budget-cell"><b>4</b>Target cities</div>
-        <div class="budget-cell"><b>2</b>Service silos (solar + BESS)</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Entity Structure Being Built</div>
-    <div class="r-body">
-      This keyword plan constructs a three-tier entity architecture that teaches Google what Energus is, what it does, and where it operates across Australia.
-      <ul style="margin-top:8px">
-        <li><b>Tier 1 — Homepage (National Brand Entity):</b> The homepage entity signals: "Energus is Australia's leading commercial solar and battery storage installer — a Top 5 C&amp;I Retailer with ISO certifications, 55MW+ delivered, operating nationally." The homepage targets national commercial solar terms and brand-level identity. No city modifier on the homepage — Energus operates in all states.</li>
-        <li><b>Tier 2 — Service Pages (Topic Entities):</b> Each service page builds a distinct topic cluster. Commercial Solar Hub (/commercial-solar/) is the parent hub linking to all sub-pages. Individual pages for installation, panels, installer, cost, industrial solar, BESS, solar for business, finance, eARC, and project management each establish Energus as authoritative in that specific topic. Together, these pages tell Google: "Energus is not a generalist — this business has deep expertise in commercial C&amp;I solar and battery storage."</li>
-        <li><b>Tier 3 — Location Pages (Geographic Entities):</b> The 8 city pages (4 cities × 2 silos) build geographic entity associations at capital-city level. Commercial solar city pages (/commercial-solar/sydney/, /melbourne/, /brisbane/, /adelaide/) associate Energus's commercial solar identity with each state market. BESS city pages (/battery-storage/sydney/ etc.) associate the battery storage identity with each market. City-specific electrical contractor licences (NSW, QLD, SA) are the credential proof on each location page.</li>
-        <li><b>The overall picture Google builds:</b> Homepage (national C&amp;I solar brand) → Service pages (topic authority across commercial solar + BESS + specialty services) → Location pages (geographic authority in NSW, VIC, QLD, SA). The full entity structure positions Energus as Australia's credentialled commercial solar and battery storage specialist.</li>
-      </ul>
-      <span class="r-verdict">Entity architecture: national brand (homepage) → topic authority (service pages) → geographic authority (city pages × 4 states)</span>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Why Two Service Silos (Commercial Solar + BESS)</div>
-    <div class="r-body">
-      The two service silos are not marketing segments — they are distinct search intent clusters that require separate page architectures.
-      <ul style="margin-top:6px">
-        <li><b>Silo 1 — Commercial Solar:</b> Higher search volumes (880/mo for "commercial solar panels"), cleaner buyer intent, direct path to quote. The competitive SERP is mid-tier specialists (Smart Commercial Energy, Tindo Solar, HD Commercial) — none of which carry Energus's Top 5 C&amp;I credential or ISO certifications. Energus's primary revenue driver.</li>
-        <li><b>Silo 2 — BESS / Battery Storage:</b> Lower volumes at city level (0–10/mo) but transformative deal sizes ($100k–$2M+ per installation). The BESS SERP is structurally different from commercial solar — exact-match domain players (bessaustralia.com.au) and government agencies (ARENA) dominate national terms, but city-level BESS pages are entirely unclaimed. Energus enters this space first at city level, positioning for the volume growth that will come as BESS adoption accelerates.</li>
-        <li><b>Why separate location pages per silo:</b> A Sydney buyer searching "commercial solar sydney" has different needs from one searching "battery energy storage system sydney." Separate pages allow each to rank independently for its search cluster and provide tailored content — solar ROI vs BESS resilience/cost-control positioning.</li>
-      </ul>
-      <span class="r-verdict">Two silos confirmed — distinct search intent, different competitive sets, different buyer journeys</span>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Why These Service Pages</div>
-    <div class="r-body">
-      Each page was validated against: (a) SERP page type confirmation, (b) keyword volume and CPC data, (c) competitor gap analysis, (d) Energus service offering and USPs.
-      <ul style="margin-top:6px">
-        <li><b>Commercial Solar Hub (/commercial-solar/):</b> Parent hub page linking all commercial solar sub-pages. Targets "commercial solar systems" (720/mo, $39.13 CPC) and "commercial solar company" (260/mo) — the provider-selection queries. Smart Commercial Energy holds #1 for "commercial solar company" but Energus (DR rank 185) outranks them (DR rank 241) on domain authority. The hub page brief must lead with Top 5 C&amp;I Retailer designation and 55MW+ delivered.</li>
-        <li><b>Commercial Solar Panels (/commercial-solar-panels/):</b> 880/mo primary — the highest volume term in the plan. Page exists but has NSW-specific title tag ("commercial solar panels installation company in nsw") — needs national positioning update. This is an optimise-not-rebuild task.</li>
-        <li><b>Commercial Solar Installer (/commercial-solar-installer/):</b> 320/mo at $38.72 CPC. The contractor framing ($73.24 CPC for panel contractors) specifically targets construction company procurement teams — Energus's #1 ideal customer. State licences (NSW, QLD, SA) are the direct due-diligence credential answer.</li>
-        <li><b>Commercial Solar Installation (/commercial-solar-installation/):</b> 320/mo at $38.72 CPC. "Commercial solar power installation" secondary ($61.30 CPC, second-highest in plan) targets late-stage project commitment buyers. Smart Commercial Energy has no dedicated installation page — confirmed content gap.</li>
-        <li><b>Commercial Solar Cost (/commercial-solar-cost/):</b> $58.90 CPC = highest CPC in the plan. Evaluation-stage buyers comparing quotes. Energus's "1,800+ pricing quotations completed" is a unique authority signal — no competitor can replicate this volume of real-world pricing experience. Page MISSING — priority build.</li>
-        <li><b>Industrial Solar (/industrial-solar/):</b> Explicitly in BDM brief. Existing /industrial_solar_energy/ page has underscore URL (technical SEO issue) — recommend clean URL with 301 redirect. Smart Commercial Energy holds #1 for "industrial solar systems" (90/mo) — this is a direct gap.</li>
-        <li><b>Battery Storage (/battery-storage/):</b> National BESS primary (1,000/mo "battery energy storage system australia"). SERP dominated by bessaustralia.com.au and ARENA — but Energus wins positions 4–6 with depth on commercial/industrial C&amp;I applications. Multiple duplicate battery pages (/battery/, /battery-for-business/, /commercial-battery-installer/) must be consolidated — /battery-storage/ becomes the canonical URL with 301s from all others.</li>
-        <li><b>Solar for Business (/solar-for-business/):</b> $40.99 CPC — CFO/CEO search term. Government pages dominate top 3 (unwinnable) but positions 4–8 are open. Energus has the page already with the 22.5% ROI hook. Optimise, do not rebuild.</li>
-        <li><b>Commercial Solar Finance (/commercial-solar-finance/):</b> Finance is an explicitly listed service. $58.90 CPC on the cost secondary confirms evaluation-stage buyers. Smart Commercial Energy has no finance page — confirmed content gap. Content must cover equipment finance, PPA structures, Section 40 tax depreciation, ROI modelling.</li>
-        <li><b>Lightweight Solar / eARC (/earc-solar/):</b> Unique product differentiator — Sunman eARC is offered by very few Australian installers. Current /earc-solar-skin/ uses unfamiliar "Solar Skin" terminology. Rename URL and align page to "lightweight solar panels" for search discoverability. This page cannot be copied by competitors who lack the Sunman supply relationship.</li>
-        <li><b>Solar Project Management (/solar-project-management/):</b> Volume 10/mo. Justified by audience specificity: construction company buyers (Energus's primary target) use this exact language when procuring solar for a new build. No competitor has a page targeting this construction-industry buyer. Content angle: SWMS, ISO 45001 site safety compliance, integration with construction schedule, Richard Crookes Sydney Art Gallery case study (300kW).</li>
-      </ul>
-      <span class="r-verdict">All 12 service pages validated — correct SERP page type, commercial competitive set, and Energus service offering confirmed</span>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Why These 4 Cities</div>
-    <div class="r-body">
-      City selection mirrors Energus's licensed operating states. No suburb pages — this is a nationwide B2B business, not a local service provider. City-level pages are the correct geographic resolution per the nationwide business targeting rule.
-      <ul style="margin-top:6px">
-        <li><b>Sydney (NSW):</b> Home market. HQ at North Sydney. NSW licence 279520C. 140/mo primary. Secondary "solar installer sydney" adds 320/mo. Smart Commercial Energy holds the #1 position — Energus displaces with North Sydney HQ as a geographic entity advantage and superior credentials. Highest priority: fix/noindex the /locations/nsw/ archive page to prevent cannibalisation.</li>
-        <li><b>Melbourne (VIC):</b> Highest commercial solar city volume (260/mo primary). Kuga (named competitor) ranks #3 — direct displacement target. Victorian renewable energy policy (VEET, VicGrid) drives BESS city page strategic value.</li>
-        <li><b>Brisbane (QLD):</b> Priority city for ROI — $58.65 CPC across all installer/installation terms. Despite the primary term's lower CPC ($3.79, possibly Ads data anomaly), the installation terms confirm exceptional buyer intent. Local competition only (no national credentialled competitors in SERP). QLD licence 79103 is the local credential proof. Highest opportunity city in the location set.</li>
-        <li><b>Adelaide (SA):</b> Weakest competition of any city SERP — local electrician and motoring club anomalously in top 3. SA licence PGE 335943. SA is strategically the most advanced BESS market in Australia (Hornsdale Power Reserve, highest renewable penetration on mainland grid) — the BESS city page here is a priority despite near-zero current volume.</li>
-      </ul>
-      <span class="r-verdict">4 cities aligned to Energus's licensed operating states — no unlicensed state pages included</span>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Supporting Entities Per Page (Content Signals — Not Keyword Targets)</div>
-    <div class="r-body">
-      Beyond the primary and secondary keywords, each page needs to reference these related entities, process steps, and terminology to build topical depth. These become the content brief signals for writers — they are not additional keyword targets.
-      <ul style="margin-top:8px">
-        <li><b>Homepage / Brand:</b> Top 5 C&amp;I Solar Retailer Australia, 55MW+ delivered, New Energy Tech Approved Seller, Clean Energy Council, Master Electricians Australia, ISO 9001:2016, ISO 45001:2018, Energus Pty Ltd, solar &amp; battery solutions, renewable energy, commercial and industrial.</li>
-        <li><b>Commercial Solar Hub (/commercial-solar/):</b> C&amp;I solar, solar energy system, solar energy savings, solar rebates (STC, LGC), solar feed-in tariff, net metering, grid-tied solar, demand management, electricity bill reduction, solar system monitoring, energy audit, solar ROI calculator.</li>
-        <li><b>Commercial Solar Panels (/commercial-solar-panels/):</b> Tier 1 solar panels, monocrystalline, polycrystalline, bifacial panels, panel efficiency, degradation warranty, performance warranty, panel output (kW vs kWh), panel layout, string inverter vs microinverter vs hybrid, panel mounting system, tilt angle, shading analysis, solar irradiance.</li>
-        <li><b>Commercial Solar Installer (/commercial-solar-installer/):</b> CEC accredited installer, electrical contractor licence, SWMS (Safe Work Method Statement), DC cable, AC cable, switchboard upgrade, metering, CT clamps, grid connection, NMI, network operator approval (DNSP), commissioning, handover documentation, post-install monitoring.</li>
-        <li><b>Commercial Solar Installation (/commercial-solar-installation/):</b> PV system design, system sizing (kW), array layout, site assessment, roof load capacity, orientation (north-facing), shading report, inverter selection, installation timeline, project schedule, milestone payments, defects liability period, workmanship warranty (10-year), performance guarantee.</li>
-        <li><b>Commercial Solar Cost (/commercial-solar-cost/):</b> System size (kW), cost per kW, payback period, ROI, electricity rate (c/kWh), feed-in tariff, STCs (Small-scale Technology Certificates), LGCs (Large-scale Generation Certificates), equipment finance, solar PPA (Power Purchase Agreement), operating lease, tax depreciation (Section 40), carbon offset, VPP (Virtual Power Plant).</li>
-        <li><b>Industrial Solar (/industrial-solar/):</b> Industrial rooftop solar, warehouse solar, factory solar, industrial facility, high-load roof, large-scale solar, three-phase power, industrial electricity rates, demand tariff, load profile analysis, peak demand shaving, on-site generation, embedded network, solar feasibility study.</li>
-        <li><b>Battery Storage (/battery-storage/):</b> BESS (Battery Energy Storage System), lithium-ion, LFP (LiFePO4), BMS (Battery Management System), inverter charger, grid-connected BESS, backup power, demand response, peak shaving, time-of-use arbitrage, VPP, FCAS (Frequency Control Ancillary Services), DNSPapproval, UL9540 certification, AS/NZS 5139, ARENA funding, Commercial &amp; Industrial battery, C&amp;I storage.</li>
-        <li><b>Solar for Business (/solar-for-business/):</b> Business energy savings, commercial energy costs, electricity tariff, demand charge, energy audit, solar for SME, corporate sustainability, ESG reporting, carbon footprint, solar lease, PPA for business, small business solar rebate, commercial solar ROI 22.5%, net zero target, energy independence.</li>
-        <li><b>Solar Finance (/commercial-solar-finance/):</b> Equipment finance, chattel mortgage, operating lease, finance lease, solar PPA, Commercial PPA, Green loans, ANZ greenback, NAB green finance, Section 40 instant asset write-off, STC rebate, LGC revenue, payback period calculator, cash flow neutral solar, net present value (NPV), internal rate of return (IRR).</li>
-        <li><b>Lightweight Solar / eARC (/earc-solar/):</b> Sunman eARC, lightweight solar panels, glass-free solar panels, flexible solar panels, organic photovoltaic, weight-constrained roof, heritage building solar, metal deck roof, flat roof solar, low-load roof, roof load calculation, composite panel solar, building-integrated photovoltaics (BIPV), solar skin, coloured solar panels.</li>
-        <li><b>Solar Project Management (/solar-project-management/):</b> Solar project manager, project management plan, SWMS, site induction, site safety plan, ISO 45001, construction phase solar, new build solar, builder solar coordination, solar during construction, Richard Crookes Construction, Sydney Art Gallery extension, 300kW installation, construction schedule integration, milestone schedule, variation management, practical completion, commissioning report.</li>
-        <li><b>City pages (all):</b> City-specific electrical contractor licence number, state-specific solar rebates/incentives (NSW: Solar for Low Income Households, VIC: Solar Homes, QLD: Zero Emissions Vehicle &amp; Storage Incentive, SA: Home Battery Scheme), state grid operator (Ausgrid, AusNet, Energex, SAPN), local project examples if available, state industry bodies (SEANZ, Renewable SA).</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Beyond This Keyword Plan — What Else Is Needed</div>
-    <div class="r-body">
-      The keyword plan defines which pages to create and what to optimise them for. The following elements are required outside this plan's scope to make the entity structure perform:
-      <ul style="margin-top:8px">
-        <li><b>Google Business Profile (GBP) — multi-location setup:</b> Energus needs a GBP listing for North Sydney (primary). For Melbourne, Brisbane, and Adelaide city pages to rank in local pack results, Energus ideally needs verified GBP listings in each city (either a registered office address or a confirmed service area). At minimum: primary GBP in North Sydney with service areas set to all 4 states. Category: "Solar Energy Contractor" + "Electrical Contractor". "Commercial solar near me" and "BESS installer near me" queries are won through GBP, not service pages.</li>
-        <li><b>Technical SEO — URL fixes (urgent):</b>
-          <ul style="margin-top:4px">
-            <li><b>/industrial_solar_energy/ → /industrial-solar/:</b> Underscores in URLs are a technical SEO issue — create new hyphenated URL and 301-redirect the underscore version.</li>
-            <li><b>Battery page consolidation:</b> Three battery-adjacent pages exist (/battery/, /battery-for-business/, /commercial-battery-installer/) — clear cannibalisation risk. Consolidate to /battery-storage/ as the canonical URL and 301-redirect all three originals.</li>
-            <li><b>/locations/nsw/ archive page:</b> Must be noindexed before building /commercial-solar/sydney/ to prevent cannibalisation of the city page.</li>
-          </ul>
-        </li>
-        <li><b>Schema markup:</b> LocalBusiness (type: SolarEnergyContractor) on homepage. Service schema on all service pages. FAQPage schema on BESS and cost pages (common buyer questions). BreadcrumbList on all pages. AggregateRating schema if Energus has Google reviews. Organization schema with all state licences listed. City pages should include areaServed (state name + city name) in schema.</li>
-        <li><b>NAP consistency across states:</b> The North Sydney headquarters address must be consistent across the website, GBP, CEC member directory, Master Electricians directory, and all state business directories. Where Energus has a physical presence in other states (SA, QLD), those addresses should be verified and listed consistently. Inconsistent NAP weakens geographic entity signals at city level.</li>
-        <li><b>Internal linking structure:</b> Homepage → Commercial Solar Hub → all service pages. Battery Storage page → BESS city pages. Each city page → link back to its parent service page (commercial solar city pages → /commercial-solar/, BESS city pages → /battery-storage/). The /solar-project-management/ page → link to commercial solar installer and industrial solar pages. Strong internal linking passes entity authority from the hub pages down to city and specialty pages.</li>
-        <li><b>Content production — quality over volume:</b> The commercial solar pages (panels, installer, installation, hub) will rank against mid-tier competitors with modest content quality — Energus can outrank them with well-structured 1,000–1,500 word pages backed by real project data (55MW delivered, case studies, 1,800+ quotes). BESS pages need technical depth (C&amp;I battery applications, AS/NZS 5139 compliance, ARENA funding context) that government sites and generic directories cannot provide. Location pages must reference state licences, state-specific incentives, and local case studies — not template content.</li>
-        <li><b>Case study content:</b> The Sydney Art Gallery Extension (300kW, with Richard Crookes) is a named, verifiable project with a prestigious client. This is the highest-value E-E-A-T signal in Energus's arsenal. A dedicated case study page or detailed project section linked from the solar project management page directly addresses the construction company buyer's due diligence process.</li>
-        <li><b>CEC &amp; directory listings:</b> Clean Energy Council installer directory listing, Master Electricians Australia member directory, New Energy Tech Approved Seller directory, SolarQuotes listing, SolarReviews listing. These provide domain authority (citations), buyer discovery through comparison sites, and reinforce the entity's legitimacy signals to Google.</li>
-        <li><b>Review strategy:</b> Google reviews directly impact local pack rankings. Energus's commercial clients (CFOs, project managers) are less likely to leave reviews spontaneously than residential customers — a structured ask at project commissioning (handing over documentation) is necessary. Even 20–30 reviews at 4.5+ stars strengthens local pack visibility in all 4 cities.</li>
-        <li><b>Blog / quick-win content:</b> Not included in this keyword plan scope, but high-CPC informational terms ("commercial solar ROI", "BESS vs solar", "commercial solar rebates australia", "Section 40 depreciation solar") are worth targeting via blog posts to capture evaluation-stage buyers. These should be linked to the relevant service pages to pass authority signals.</li>
-      </ul>
-      <span class="r-verdict r-verdict-warn">Note: The keyword plan alone will not drive leads. Technical URL fixes (underscores, battery page consolidation, archive noindex) are urgent prerequisites — these must be actioned before or alongside the page builds.</span>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Keywords Excluded and Why</div>
-    <div class="r-body">
-      <ul>
-        <li><b>Solar battery storage (1,600/mo):</b> Mixed residential/commercial SERP — residential battery storage dominates. No commercial intent qualifier. Excluded per B2B-only rule. Covered as a supporting entity term on /battery-storage/ page.</li>
-        <li><b>BESS (8,100/mo national):</b> Extremely high volume but the SERP at the bare unmodified term is dominated by Wikipedia, government agencies, utility companies, and industry publications — informational intent, not commercial buyer intent. Replaced with "battery energy storage system australia" (1,000/mo) which maintains the commercial qualifier and has a more winnable SERP.</li>
-        <li><b>Solar panel installation / solar installation (high volume, national):</b> Residential intent contamination — SERPs for these national terms show residential solar companies and comparison sites (SolarQuotes, SolarChoice). Not commercial B2B intent. Excluded per B2B-only rule.</li>
-        <li><b>Solar monitoring / solar servicing / energy consulting:</b> Insufficient search volume for standalone pages. Covered as supporting entities and content sections on existing service pages (BESS page, solar for business page). These services are won through existing client relationships, not organic search.</li>
-        <li><b>Rooftop solar commercial:</b> SERP shows mixed intent including residential. Covered as a supporting entity on the commercial solar panels page.</li>
-        <li><b>Commercial solar cost per kw (0/mo):</b> Zero GKP volume. Covered as a section within /commercial-solar-cost/ content — the cost page will naturally rank for cost-per-kw queries from the content depth.</li>
-        <li><b>Procurement and logistics / installer training:</b> Near-zero search volume. B2B services sold through relationships, not organic search. Excluded from keyword plan — not even covered as secondary terms (no search demand confirmed).</li>
-        <li><b>Solar for property groups / solar for developers:</b> Insufficient GKP volume as a standalone keyword cluster. Property developer buyers are captured by the solar project management page (/solar-project-management/) and commercial solar installation page (/commercial-solar-installation/) — these serve the new construction buyer intent where property developer searches land.</li>
-        <li><b>State/city combinations beyond the 4 licensed states (e.g., solar installer perth, commercial solar wa):</b> Energus does not hold a WA electrical contractor licence — not included. Western Australia excluded from all location pages.</li>
-        <li><b>AGL / Todae Solar / TSP Energy branded terms:</b> Competitor branded terms are not included in organic keyword plans — they belong in paid search campaigns.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="r-block">
-    <div class="r-title">Data Sources</div>
-    <div class="r-body">
-      <ul>
-        <li><b>Keyword volumes:</b> DataForSEO + Google Keyword Planner data · AU · 12-month window · All volumes are Australian monthly search volume. Commercial solar terms confirmed via multiple tool cross-validation.</li>
-        <li><b>Competitor analysis:</b> smartcommercialenergy.com.au · todaesolar.com.au · AGL commercial solar · Competitor SERP positions and domain authority rankings cross-referenced from competitor data export. Smart Commercial Energy confirmed as the primary direct competitor (DR rank 241, targets identical B2B audience). Energus confirmed stronger domain authority (DR rank 185).</li>
-        <li><b>SERP validation:</b> All general keywords checked for page type, competitive set, and intent classification. City-level terms validated for local pack presence (all confirmed). BESS city terms confirmed near-zero competition. Government page presence noted and accounted for in page strategy (energy.gov.au, arena.gov.au cannot be displaced — target positions 4–8).</li>
-        <li><b>Site audit:</b> Existing pages identified via Brave Search site: query. Pages confirmed: /commercial-solar-installer/, /commercial-solar-panels/, /solar-for-business/, /battery/, /battery-for-business/, /commercial-battery-installer/, /industrial_solar_energy/, /earc-solar-skin/, /newconstructions/. Technical issues identified: underscore URL (/industrial_solar_energy/), battery page cannibalisation risk (3 pages), archive location pages (/locations/nsw/ etc.).</li>
-        <li><b>CPC data:</b> Highest CPCs in plan — commercial solar installation companies ($73.24) · commercial solar system cost / cost of commercial solar system ($58.90) · commercial solar installer brisbane / installation brisbane ($58.65) · commercial solar power installation ($61.30) · solar for business ($40.99) · commercial solar installer ($38.72) · commercial solar panels ($37.97). High CPCs confirm B2B commercial intent throughout.</li>
-      </ul>
-    </div>
-  </div>
-
-</div><!-- end reasoning -->
-
-</div><!-- end wrap -->
+</div>
 </body>
 </html>
