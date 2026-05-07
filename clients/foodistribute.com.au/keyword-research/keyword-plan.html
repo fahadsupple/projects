@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Keyword Plan — foodistribute.com.au v1</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; background: #f0f2f5; color: #1a1a2e; padding-left: 168px; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 20px 14px; }
+
+.sidenav { position: fixed; left: 0; top: 0; bottom: 0; width: 168px; background: #1a1a2e; overflow-y: auto; z-index: 100; }
+.sidenav-inner { padding: 14px 0 20px; }
+.sidenav-logo { font-size: 11px; font-weight: 700; color: #fff; padding: 0 14px 12px; border-bottom: 1px solid rgba(255,255,255,.08); margin-bottom: 6px; line-height: 1.3; }
+.sidenav-logo span { display: block; font-size: 9px; font-weight: 400; color: #666; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
+.sidenav-link { display: block; padding: 5px 14px; font-size: 11px; color: #9ca3af; text-decoration: none; line-height: 1.4; border-left: 2px solid transparent; transition: color .15s, background .15s, border-color .15s; }
+.sidenav-link:hover { color: #e5e7eb; background: rgba(255,255,255,.05); border-left-color: #4b5563; }
+.sidenav-sep { height: 1px; background: rgba(255,255,255,.06); margin: 8px 14px; }
+@media (max-width: 900px) { body { padding-left: 0; } .sidenav { display: none; } }
+
+h1 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+.meta { font-size: 11px; color: #888; margin-bottom: 16px; }
+.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.pill { background: white; border: 1px solid #dde; border-radius: 5px; padding: 5px 10px; font-size: 11px; line-height: 1.3; }
+.pill b { font-size: 14px; display: block; }
+.sec { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #888; margin: 20px 0 6px; }
+
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 7px; overflow: hidden; border: 1px solid #e0e0e0; margin-bottom: 16px; }
+th { background: #1a1a2e; color: #bbb; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; padding: 7px 10px; text-align: left; font-weight: 600; }
+td { padding: 9px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.4; }
+tr:last-child td { border-bottom: none; }
+
+.url { font-family: monospace; font-size: 11px; color: #2563eb; font-weight: 600; }
+.status { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; display: inline-block; margin-top: 3px; }
+.s-exists { background: #d1fae5; color: #065f46; }
+.s-new    { background: #fee2e2; color: #991b1b; }
+.s-update { background: #fef3c7; color: #92400e; }
+
+.pt { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.pt-hub     { background: #dbeafe; color: #1d4ed8; }
+.pt-service { background: #ede9fe; color: #6d28d9; }
+.pt-cat     { background: #d1fae5; color: #065f46; }
+.pt-loc     { background: #fef3c7; color: #92400e; }
+.pt-b2c     { background: #fce7f3; color: #9d174d; }
+
+.kws { display: flex; flex-direction: column; gap: 3px; }
+.kw-row { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
+.role { font-size: 10px; font-weight: 700; padding: 0 4px; border-radius: 2px; line-height: 1.6; }
+.r-p { background: #1a1a2e; color: white; }
+.r-s { background: #e5e7eb; color: #374151; }
+.kw { font-weight: 600; font-size: 12px; }
+.v  { font-size: 11px; color: #555; }
+.v b { color: #111; }
+.v-z { font-size: 11px; color: #bbb; }
+.bid  { font-size: 11px; color: #dc2626; font-weight: 700; }
+.bidn { font-size: 11px; color: #888; }
+.note { font-size: 10px; color: #999; margin-top: 2px; line-height: 1.5; }
+
+.grp td { background: #1a1a2e; color: #ccc; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; padding: 4px 10px; }
+
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 3px; vertical-align: middle; }
+.dot-vol  { background: #16a34a; }
+.dot-low  { background: #f59e0b; }
+.dot-zero { background: #d1d5db; }
+
+.card { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-bottom: 16px; }
+.card h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; color: #1a1a2e; }
+.card-warn { background: #fffdf5; border-color: #fde68a; }
+.card-warn h2 { border-color: #fde68a; color: #92400e; }
+.card-blue { background: #f0f7ff; border-color: #bfdbfe; }
+.card-blue h2 { border-color: #bfdbfe; color: #1d4ed8; }
+.card-green { background: #f0fdf4; border-color: #bbf7d0; }
+.card-green h2 { border-color: #bbf7d0; color: #065f46; }
+.card-brief { background: #fffbcc; border-color: #e6d800; }
+.card-brief h2 { border-color: #e6d800; color: #7a6000; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 780px) { .two-col { grid-template-columns: 1fr; } }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+@media (max-width: 780px) { .three-col { grid-template-columns: 1fr; } }
+
+.block { margin-bottom: 16px; }
+.block:last-child { margin-bottom: 0; }
+.block-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #1a1a2e; margin-bottom: 5px; }
+.block-body { font-size: 12px; color: #444; line-height: 1.65; }
+.block-body li { margin-left: 16px; margin-bottom: 2px; }
+.block-body p { margin-bottom: 5px; }
+.verdict { display: inline-block; margin-top: 5px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #15803d; }
+.flag { display: inline-block; margin-top: 5px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #b45309; }
+.gap { display: inline-block; margin-top: 5px; background: #ede9fe; border: 1px solid #ddd6fe; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #6d28d9; }
+
+.comp-metric { display: inline-block; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px; padding: 2px 7px; font-size: 11px; font-weight: 700; margin: 1px 2px; }
+.comp-strong { background: #fee2e2; border-color: #fca5a5; color: #991b1b; }
+.comp-med    { background: #fef3c7; border-color: #fcd34d; color: #92400e; }
+.comp-weak   { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+
+.serp-clean  { color: #15803d; font-size: 10px; font-weight: 700; }
+.serp-amber  { color: #b45309; font-size: 10px; font-weight: 700; }
+.serp-mixed  { color: #6d28d9; font-size: 10px; font-weight: 700; }
+.qw { color: #2563eb; font-size: 10px; font-weight: 700; }
+
+.brief-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 700px) { .brief-grid { grid-template-columns: 1fr; } }
+.brief-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #7a6000; margin-bottom: 2px; }
+.brief-val { font-size: 12px; color: #333; margin-bottom: 8px; line-height: 1.55; }
+</style>
+</head>
+<body>
+
+<nav class="sidenav">
+  <div class="sidenav-inner">
+    <div class="sidenav-logo">Foodistribute KWR<span>keyword plan v1</span></div>
+    <a class="sidenav-link" href="#overview">Overview</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#brief">Client Brief</a>
+    <a class="sidenav-link" href="#methodology">Methodology</a>
+    <a class="sidenav-link" href="#strategy">Strategy</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#competitors">Competitor Analysis</a>
+    <a class="sidenav-link" href="#current-rankings">Current Rankings</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#entity">Entity Structure</a>
+    <a class="sidenav-link" href="#general-pages">General Pages</a>
+    <a class="sidenav-link" href="#location-pages">Location Pages</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#supporting-entities">Supporting Entities</a>
+    <a class="sidenav-link" href="#beyond">Beyond This Plan</a>
+    <a class="sidenav-link" href="#candidates">Eligible Candidates</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ═══ OVERVIEW ═══ -->
+<div id="overview">
+<h1>Keyword Plan — Foodistribute &nbsp;·&nbsp; foodistribute.com.au</h1>
+<p class="meta">DataForSEO Google Ads API + SERP Analysis · AU (national) · 12-month window · v1 · 7 May 2026 &nbsp;|&nbsp; National B2B + B2C wholesale food distributor — cafes, restaurants, foodservice + specialty consumers</p>
+
+<div class="pills">
+  <div class="pill"><b>54</b>Total pages</div>
+  <div class="pill"><b>50</b>General (service/category) pages</div>
+  <div class="pill"><b>4</b>Location pages</div>
+  <div class="pill"><b>880</b>Top keyword vol/mo (food distributors Melbourne)</div>
+  <div class="pill"><b>$39.48</b>Highest CPC (food services Adelaide)</div>
+  <div class="pill"><b>3</b>Current top-3 rankings (quick wins)</div>
+  <div class="pill"><b>25+</b>Years operating — authority signal</div>
+  <div class="pill"><b>5,000+</b>Existing clients served</div>
+</div>
+</div>
+
+<!-- ═══ CLIENT BRIEF ═══ -->
+<div id="brief"></div>
+<p class="sec">Client Brief</p>
+<div class="card card-brief">
+  <h2>Source Requirements — BDM Notes + Onboarding Form</h2>
+  <div class="brief-grid">
+    <div>
+      <div class="brief-label">BDM Notes</div>
+      <div class="brief-val">50 general keywords. Priority locations: Sydney, Melbourne, Brisbane, Adelaide.</div>
+
+      <div class="brief-label">Business Name</div>
+      <div class="brief-val">Reidistribute Pty Ltd T/A Foodistribute</div>
+
+      <div class="brief-label">Year Established</div>
+      <div class="brief-val">1998 (25+ years)</div>
+
+      <div class="brief-label">Model</div>
+      <div class="brief-val">B2B + B2C marketplace and wholesale distributor</div>
+
+      <div class="brief-label">Operating Hours</div>
+      <div class="brief-val">8am–4pm · 24/7 online support · Online ordering available</div>
+
+      <div class="brief-label">Service Area</div>
+      <div class="brief-val">National — Sydney, Melbourne, Adelaide, Brisbane, ACT, Gold Coast, Sunshine Coast, Newcastle. Free delivery Sydney metro (qualifying orders).</div>
+
+      <div class="brief-label">Pricing</div>
+      <div class="brief-val">Competitive wholesale pricing. Example: Alto Pro-Blend EVOO 10L $230, Callebaut 811 Dark Block 5kg $222.30. Individual items from ~$7.60. 10% promo discounts. Credit card / direct debit.</div>
+    </div>
+    <div>
+      <div class="brief-label">Target Customers</div>
+      <div class="brief-val">
+        <strong>B2B:</strong> Cafes, restaurants, caterers, cafeterias, food service businesses needing reliable wholesale supply, competitive pricing, wide range, single supplier.<br>
+        <strong>B2C:</strong> Individuals seeking specialty, natural, organic, eco-friendly products unavailable at supermarkets.
+      </div>
+
+      <div class="brief-label">Product Categories</div>
+      <div class="brief-val">Beverages &amp; Water · Cheese &amp; Dairy · Chocolate &amp; Patisserie · Coffee &amp; Tea · Crackers &amp; Snacks · Equipment &amp; Material · Frozen goods · Japanese/Asian products · Meat &amp; Seafood · Oil &amp; Vinegar · Pantry/Grocery · Product sourcing on request</div>
+
+      <div class="brief-label">USPs</div>
+      <div class="brief-val">
+        One supplier, one bill · Specialty products not at supermarkets · 5,000+ clients served · Free delivery Sydney metro · 25+ years in business · B2B + B2C (open to public) · Artisan / premium range (Callebaut, Japanese pantry, EVOO)
+      </div>
+
+      <div class="brief-label">Mission</div>
+      <div class="brief-val">Help cafes, restaurants, food service businesses and individuals access high-quality specialty food products at competitive prices through a reliable, all-in-one wholesale distribution service across Australia.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ METHODOLOGY ═══ -->
+<div id="methodology"></div>
+<p class="sec">Keyword Research Methodology</p>
+<div class="card">
+  <h2>What We Did &amp; What We Found</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Data Sources</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>DataForSEO Google Ads API (AU)</strong> — exact-match monthly search volume, 12-month window, all keywords</li>
+            <li><strong>DataForSEO Labs — Ranked Keywords</strong> — Foodistribute's 4,562 current ranked keywords extracted; positions, volumes, CPCs cross-referenced</li>
+            <li><strong>DataForSEO Labs — Bulk Keyword Difficulty</strong> — KD scores for all selected and candidate keywords</li>
+            <li><strong>DataForSEO SERP Organic Live</strong> — SERP composition verified for every primary keyword before inclusion</li>
+            <li><strong>DataForSEO Backlinks Summary</strong> — domain rank and referring domain counts for Foodistribute and all competitors</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Volume Categories Used</div>
+        <div class="block-body">
+          <p><span class="dot dot-vol"></span> <strong>Confirmed volume</strong> — 20/mo or above, consistent signal</p>
+          <p><span class="dot dot-low"></span> <strong>Low / sparse</strong> — 10/mo, intermittent detection (real but small)</p>
+          <p><span class="dot dot-zero"></span> <strong>Strategic zero</strong> — below detection floor; included for geographic signalling or existing ranking momentum</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Key Findings from Research</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Foodistribute already has 4,562 ranked keywords nationally</strong> — strong existing crawl coverage. The site currently holds pos 3–6 for multiple Sydney and national terms, meaning targeted optimisation delivers fast gains, not slow builds.</li>
+            <li><strong>"Food distributors Melbourne" is the highest-volume location term</strong> at 880/mo ($4.52 CPC) — Foodistribute is not ranking for it at all. A dedicated Melbourne page is the single biggest quick-win opportunity in this plan.</li>
+            <li><strong>Product category keywords are overwhelmingly below detection floor (&lt;10/mo)</strong> at the national "wholesale [category] supplier australia" level. This is normal for B2B niche terms. The strategy is to claim these zero-competition pages now, as volume grows with the category.</li>
+            <li><strong>B2B intent terms dominate</strong> — "food supplier for cafe" (90/mo, $5.68 CPC), "food supplier for restaurants" (90/mo, $4.37 CPC) both have high CPC signalling genuine B2B purchase intent. These map cleanly to the B2B homepage.</li>
+            <li><strong>Foodistribute's "wholesale bakery supplier" ranking (pos 3, 170/mo) is a strong signal</strong> — the site already earns page-1 positions for product-specific wholesale terms. The gap is coverage: no dedicated pages for Cheese, Chocolate, Coffee, Asian/Japanese, or Oil.</li>
+            <li><strong>Adelaide has an anomaly</strong> — "food services Adelaide" returns 140/mo at $39.48 CPC. This is the highest CPC in the dataset. The SERP is mixed (council services + meal delivery), so it is ineligible as a keyword target — but it confirms that Adelaide has genuine commercial B2B food demand worth serving with a location page.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ STRATEGY ═══ -->
+<div id="strategy"></div>
+<p class="sec">Keyword Strategy</p>
+<div class="card">
+  <h2>Strategy Rationale: 50 General + 4 Location</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Why this is a national strategy, not a local-first strategy</div>
+        <div class="block-body">
+          <p>Foodistribute ships nationally. Its customer base spans cafes in Sydney, restaurants in Brisbane, caterers in Adelaide, and B2C buyers across all states. Unlike a local plumber or lawyer, it does not lose relevance by ranking nationally — every ranking brings potential customers regardless of city.</p>
+          <p>However, the data shows that volume concentrates at the city level for distribution terms: "wholesale food Sydney" (140/mo), "wholesale food Melbourne" (140/mo), "food distributors Melbourne" (880/mo). The 4 location pages capture these city-specific buyers. The 50 general pages build national authority on what Foodistribute does and sells.</p>
+          <span class="verdict">50 service/category pages + 4 city pages = cleanest architecture for a national distributor</span>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Why product category pages matter despite zero-volume keywords</div>
+        <div class="block-body">
+          <p>Most category-level wholesale terms ("wholesale cheese supplier australia", "wholesale chocolate supplier australia") return zero in DataForSEO — but Foodistribute's <em>existing</em> rankings prove these pages attract real traffic. The site ranks #3 for "wholesale bakery supplier" (170/mo) on a page that already exists. It ranks #5 for "callebaut chocolate sydney" (170/mo) on its Chocolate category page. Pages built and optimised for product categories are already earning traffic — the gap is that 8 of 11 categories have no dedicated, optimised page.</p>
+          <p>Zero-volume at national level also does not mean zero volume at long-tail. A buyer searching "wholesale callebaut chocolate 5kg australia" will land on a well-structured category page. These are high-conversion, low-competition landings.</p>
+          <span class="verdict">Category pages = compound long-tail value, not volume plays</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">How the 50 general keywords are allocated</div>
+        <div class="block-body">
+          <p><strong>Tier A — Core distribution/wholesale identity (14 keywords):</strong> Homepage + 6 B2B service pages covering the core distributor + cafe/restaurant/bakery supplier intent. These target the highest-volume, highest-CPC terms.</p>
+          <p><strong>Tier B — Product category pages (22 keywords):</strong> One page per product category (11 categories × 2 keywords each = primary + secondary). These build topical authority and capture long-tail category searches.</p>
+          <p><strong>Tier C — B2C + specialty intent (8 keywords):</strong> Pages targeting the B2C buyer segment (specialty food delivery, gourmet food online) and the cross-cutting "wholesale food suppliers to the public" intent.</p>
+          <p><strong>Supporting pages (6 keywords):</strong> Bakery suppliers, snacks/crackers, catering food supplier — cross-category pages that address buyer segments not covered by pure category pages.</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Quick wins identified (existing rankings to optimise)</div>
+        <div class="block-body">
+          <p>DataForSEO ranked keywords analysis shows Foodistribute at positions 4–6 for several high-value terms. These pages exist but are under-optimised. The plan maps primary keywords to existing pages where they align:</p>
+          <ul>
+            <li>Pos 3: "wholesale bakery supplier" (170/mo) → existing Baking page — optimise</li>
+            <li>Pos 4: "wholesale food Sydney" / "food distributors Sydney" (140/320/mo) → existing Sydney page — optimise</li>
+            <li>Pos 5: "food distributor for restaurants" (90/mo) → homepage — optimise</li>
+            <li>Pos 6: "food distributor Australia" (110/mo) → homepage — optimise</li>
+            <li>Pos 6: "food distributors wholesale" (210/mo) → homepage — optimise</li>
+          </ul>
+          <span class="verdict">5 quick wins identified — page-2 to page-1 within 60 days of optimisation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ COMPETITORS ═══ -->
+<div id="competitors"></div>
+<p class="sec">Competitor Analysis</p>
+<div class="card">
+  <h2>Competitor Landscape — Organic Search (DataForSEO Labs, AU, May 2026)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Competitor</th>
+        <th>Focus</th>
+        <th>Ranked KWs</th>
+        <th>Ref Domains</th>
+        <th>Backlinks</th>
+        <th>Domain Rank</th>
+        <th>SERP Presence (Key Terms)</th>
+        <th>Assessment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>bidfood.com.au</strong><br><span style="font-size:10px;color:#888">Bidfood Australia</span></td>
+        <td>National foodservice distributor</td>
+        <td>7,206</td>
+        <td>282</td>
+        <td>497</td>
+        <td>258</td>
+        <td>Pos 3–8 across all core terms: "wholesale food [city]", "food distributor australia", "wholesale food supplier [city]", "restaurant food supplier"</td>
+        <td><span class="comp-metric comp-strong">Strongest competitor</span> — large national operator with dedicated city landing pages for every major market. However, they are a massive broadline foodservice distributor targeting large accounts. Foodistribute's USP (specialty products, B2C open, small orders) is a genuine differentiator. Bidfood's pages are generic; Foodistribute can win on specificity.</td>
+      </tr>
+      <tr>
+        <td><strong>pfdfoods.com.au</strong><br><span style="font-size:10px;color:#888">PFD Foods</span></td>
+        <td>National broadline foodservice</td>
+        <td>6,077</td>
+        <td>363</td>
+        <td>573</td>
+        <td>186</td>
+        <td>Pos 1–4 for "food wholesaler australia", "food distributor for restaurants", "bulk food supplier", "wholesale food products". Dominates national broadline terms.</td>
+        <td><span class="comp-metric comp-strong">Very strong</span> — largest foodservice distributor in Australia. Similar to Bidfood: targets large accounts with broadline FMCG. Not a specialty competitor. Foodistribute's specialty/artisan angle (Callebaut, Japanese pantry, EVOO) addresses buyers PFD cannot serve.</td>
+      </tr>
+      <tr>
+        <td><strong>mocofoodservices.com.au</strong><br><span style="font-size:10px;color:#888">Moco Food Services</span></td>
+        <td>QLD/national food wholesaler</td>
+        <td>13,971</td>
+        <td>88</td>
+        <td>153</td>
+        <td>113</td>
+        <td>Pos 3–5 for "food wholesaler australia", "food distributor for restaurants", "food supplier for cafe", "wholesale food supplier brisbane". Strong in Brisbane/QLD market.</td>
+        <td><span class="comp-metric comp-med">Medium–strong threat</span> — highest keyword count of any competitor (13,971) but low referring domains (88). Keyword breadth comes from product pages. Core weakness: QLD-focused. Foodistribute's national coverage and Sydney strength are advantages here. Most directly competitive in Brisbane.</td>
+      </tr>
+      <tr>
+        <td><strong>completefoodservices.com.au</strong><br><span style="font-size:10px;color:#888">Complete Food Services</span></td>
+        <td>Melbourne wholesale food distributor</td>
+        <td>677</td>
+        <td>40</td>
+        <td>57</td>
+        <td>63</td>
+        <td>Pos 1 for "food wholesaler Melbourne", pos 4 for "wholesale food supplier Melbourne", pos 1 for "Melbourne wholesale food distributors" terms.</td>
+        <td><span class="comp-metric comp-med">Directly competitive (Melbourne)</span> — Melbourne-focused with strong local rankings but very limited keyword footprint (677 keywords, 40 ref domains). Low domain rank (63). Foodistribute's broader range and 25-year history are advantages. Winnable with a strong Melbourne location page.</td>
+      </tr>
+      <tr>
+        <td><strong>mfdfood.com.au</strong><br><span style="font-size:10px;color:#888">Melbourne Food Distributors</span></td>
+        <td>Melbourne food distribution</td>
+        <td>10,193</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>Pos 1 for "Melbourne food distributors" terms, pos 4 for "food distributors Melbourne" (880/mo). Dominates Melbourne-specific searches.</td>
+        <td><span class="comp-metric comp-med">Strong in Melbourne</span> — named domain advantage for Melbourne terms. 10,193 keywords shows deep product page coverage. The primary obstacle for Foodistribute's Melbourne page. Counter-strategy: outrank on broader "wholesale food Melbourne" and "food wholesaler Melbourne" terms where mfdfood is weaker.</td>
+      </tr>
+      <tr>
+        <td><strong>finefoodwholesalers.com.au</strong><br><span style="font-size:10px;color:#888">Fine Food Wholesalers</span></td>
+        <td>Specialty/fine food B2B + B2C</td>
+        <td>1,053</td>
+        <td>232</td>
+        <td>508</td>
+        <td>232</td>
+        <td>Pos 1 for "fine food wholesalers", pos 5–7 for "chocolate wholesale supplier", "wholesale food supplier australia". Also ranks for individual product terms.</td>
+        <td><span class="comp-metric comp-weak">Closest overlap competitor</span> — specialty food angle most similar to Foodistribute's USP. However, Fine Food Wholesalers appears to be primarily a B2B listing/directory site, not a direct distributor. Foodistribute's actual product range (Callebaut, Japanese pantry, EVOO) is a genuine advantage over a directory site.</td>
+      </tr>
+      <tr>
+        <td><strong>foodbomb.com.au</strong><br><span style="font-size:10px;color:#888">Foodbomb</span></td>
+        <td>Food supplier marketplace/directory</td>
+        <td>2,655</td>
+        <td>177</td>
+        <td>193</td>
+        <td>44</td>
+        <td>Pos 5–9 for "food distributors Sydney/Melbourne", "wholesale food supplier [city]", "restaurant food supplier". Strong city directory rankings.</td>
+        <td><span class="comp-metric comp-weak">Different model</span> — marketplace connecting buyers to suppliers, not a direct distributor. They rank well for directory-intent searches but cannot convert buyers the way a direct supplier can. Foodistribute should outrank Foodbomb on pages where direct purchase is possible.</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="two-col" style="margin-top:14px;">
+    <div class="block">
+      <div class="block-title">Competitive Gap Summary</div>
+      <div class="block-body">
+        <p>The market is split into two tiers: (1) large national broadline operators — Bidfood, PFD Foods, Campbells, Metcash — who serve institutional accounts with bulk commodity products; and (2) regional/specialty operators — Moco, Complete Food Services, Galipo, Eustralis — who are city-specific and lack national reach.</p>
+        <p>Foodistribute sits in neither camp. It has national reach (like tier 1) combined with specialty products, B2C access, and premium brands (like a specialty tier 2 player). No competitor occupies this exact position. The keyword strategy builds pages that own this niche rather than fighting head-to-head with Bidfood or PFD on commodity broadline terms.</p>
+        <span class="verdict">Foodistribute's gap: own "specialty wholesale" nationally + city pages where nationals are weak on specialty</span>
+      </div>
+    </div>
+    <div class="block">
+      <div class="block-title">Foodistribute Domain Authority Context</div>
+      <div class="block-body">
+        <p>Foodistribute: <strong>Rank 177</strong>, 221 referring domains, 392 backlinks. Currently ranks for 4,562 keywords nationally — demonstrating strong crawl coverage already.</p>
+        <p>The domain is competitive with mid-tier regional operators (Complete Food Services: rank 63, Galipo: rank 146) but below the national majors (PFD: rank 186, Bidfood: rank 258). KD targets in this plan are calibrated to terms where rank 177 is competitive — mostly KD 0–26 range.</p>
+        <span class="flag">KD ceiling: target KD 35 or below for 90-day wins; KD 36–50 for 6-month targets; KD 50+ only as strategic 12-month bets</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ CURRENT RANKINGS ═══ -->
+<div id="current-rankings"></div>
+<p class="sec">Current Rankings — Quick Wins</p>
+<div class="card card-green">
+  <h2>Foodistribute Existing Rankings with Optimisation Opportunity (DataForSEO Labs, May 2026)</h2>
+  <table>
+    <thead>
+      <tr><th>Keyword</th><th>Current Pos</th><th>Vol/mo</th><th>CPC</th><th>KD</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>wholesale bakery supplier</strong></td><td class="qw">Pos 3</td><td>170</td><td>$2.30</td><td>2</td><td>Already on page 1. Optimise title tag and H1 to lock top 3. Add structured FAQ.</td></tr>
+      <tr><td><strong>bakery supplies wholesale</strong></td><td class="qw">Pos 4</td><td>170</td><td>$2.30</td><td>6</td><td>Move to primary on Baking page alongside "wholesale bakery supplier".</td></tr>
+      <tr><td><strong>callebaut chocolate sydney</strong></td><td class="qw">Pos 1</td><td>170</td><td>—</td><td>—</td><td>Already ranking #1. Lock with structured product schema.</td></tr>
+      <tr><td><strong>food distributors sydney / food suppliers sydney</strong></td><td class="qw">Pos 4</td><td>320</td><td>$3.15</td><td>8</td><td>Push to top 3 with Sydney location page optimisation.</td></tr>
+      <tr><td><strong>wholesale food sydney / food wholesale sydney</strong></td><td class="qw">Pos 4–5</td><td>140</td><td>$4.01</td><td>17</td><td>Consolidate on Sydney page. Already ranking — needs meta title and content refresh.</td></tr>
+      <tr><td><strong>wholesale food supplier sydney</strong></td><td class="qw">Pos 4</td><td>140</td><td>$4.45</td><td>0</td><td>KD 0 at pos 4 — low-competition term Foodistribute is already winning. Lock top 3.</td></tr>
+      <tr><td><strong>food distributor australia</strong></td><td class="qw">Pos 6 (was 11)</td><td>110</td><td>$2.93</td><td>36</td><td>Homepage target. Already appearing; needs homepage H1 + schema to push to page 1.</td></tr>
+      <tr><td><strong>food distributors wholesale</strong></td><td class="qw">Pos 6</td><td>210</td><td>$2.94</td><td>9</td><td>Homepage secondary. Tighten homepage copy around distributor identity.</td></tr>
+      <tr><td><strong>food distribution australia</strong></td><td class="qw">Pos 1</td><td>110</td><td>$2.93</td><td>—</td><td>Already #1. Protect with schema and internal links.</td></tr>
+      <tr><td><strong>food distributor for restaurants</strong></td><td class="qw">Pos 7</td><td>90</td><td>$4.37</td><td>23</td><td>B2B service page. Dedicated "For Restaurants" page to capture this intent cleanly.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══ ENTITY STRUCTURE ═══ -->
+<div id="entity"></div>
+<p class="sec">Entity Structure Being Built</p>
+<div class="card">
+  <h2>Tier 1 → 2 → 3 Entity Framework</h2>
+  <div class="three-col">
+    <div class="block">
+      <div class="block-title">Tier 1 — Homepage</div>
+      <div class="block-body">
+        <p>Brand entity: <strong>National wholesale food distributor and marketplace — B2B + B2C — specialty and premium products — 25+ years — Australia-wide delivery</strong></p>
+        <p>Google understands: Foodistribute is the entity connecting food service businesses and individual buyers with specialty wholesale food products nationally.</p>
+      </div>
+    </div>
+    <div class="block">
+      <div class="block-title">Tier 2 — Service + Category Pages</div>
+      <div class="block-body">
+        <p>Topic entities built by the 50 general pages:</p>
+        <ul>
+          <li>Wholesale food distribution (B2B core)</li>
+          <li>Cafe &amp; restaurant food supply</li>
+          <li>Bakery &amp; patisserie wholesale</li>
+          <li>Chocolate &amp; confectionery wholesale</li>
+          <li>Specialty cheese &amp; dairy wholesale</li>
+          <li>Coffee &amp; tea wholesale</li>
+          <li>Asian / Japanese food wholesale</li>
+          <li>Olive oil &amp; vinegar wholesale</li>
+          <li>Frozen goods wholesale</li>
+          <li>Beverages wholesale</li>
+          <li>Wholesale food for public (B2C)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="block">
+      <div class="block-title">Tier 3 — Location Pages</div>
+      <div class="block-body">
+        <p>Geographic entity associations created by 4 city pages:</p>
+        <ul>
+          <li>Wholesale food supplier → Sydney</li>
+          <li>Wholesale food supplier → Melbourne</li>
+          <li>Wholesale food supplier → Brisbane</li>
+          <li>Wholesale food supplier → Adelaide</li>
+        </ul>
+        <p style="margin-top:6px;font-size:11px;color:#666;">The overall picture: Google associates Foodistribute with specialty wholesale food distribution nationally, with specific commercial intent served across Australia's four major cities.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ GENERAL PAGES ═══ -->
+<div id="general-pages"></div>
+<p class="sec">General Pages — 50 Keywords</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:22%">Page / URL</th>
+      <th style="width:28%">Keywords</th>
+      <th style="width:6%">Type</th>
+      <th style="width:5%">Status</th>
+      <th style="width:39%">Strategic Reasoning</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- GROUP: HOMEPAGE + CORE B2B -->
+    <tr class="grp"><td colspan="5">Homepage &amp; Core B2B Identity</td></tr>
+
+    <tr>
+      <td>
+        <span class="url">/</span><br>
+        <span class="status s-update">UPDATE</span><br>
+        <span style="font-size:10px;color:#888">Homepage</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">food distributor australia</span><span class="dot dot-vol"></span><span class="v">vol <b>110</b>/mo · cpc <b>$2.93</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food distributors wholesale</span><span class="dot dot-vol"></span><span class="v">vol <b>210</b>/mo · cpc <b>$2.94</b></span></div>
+          <div class="note">Also targets: "food distribution australia" (110/mo, pos 1 — protect), "food wholesaler australia" (70/mo), "wholesale food company australia"</div>
+        </div>
+      </td>
+      <td><span class="pt pt-hub">Hub</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Foodistribute currently ranks pos 6 for "food distributor australia" (110/mo, $2.93 CPC) and pos 6 for "food distributors wholesale" (210/mo, $2.94 CPC). SERP shows Bidfood (#4), PFD (#5), IFDA (#6) — all national operators, no directories at top. With 4,562 ranked keywords and rank 177, Foodistribute's domain authority is sufficient to reach page 1 for both terms with homepage H1 + schema alignment. "Food distribution australia" is already held at pos 1. The homepage update anchors the brand as Australia's national specialty wholesale food distributor — one supplier, one bill for 5,000+ clients across B2B and B2C.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Core B2B service hub</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food supplier australia</span><span class="dot dot-vol"></span><span class="v">vol <b>40</b>/mo · cpc <b>$2.02</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler australia</span><span class="dot dot-vol"></span><span class="v">vol <b>70</b>/mo · cpc <b>$3.17</b></span></div>
+          <div class="note">Also targets: "wholesale food supplier near me" (70/mo), "bulk food supplier" (national intent)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        KD 26 for primary, KD 42 for secondary — achievable for rank 177 within 6 months. SERP shows Wholesale Food Group (#4), Bidfood (#5), PFD (#6), Fine Food Wholesalers (#9), Foodistribute (#10) — page is in striking distance already. Competitor sites at pos 4–6 are generic broadline operators; Foodistribute's specialty range + 25-year history + B2C access ("wholesale food suppliers to the public" intent) is a content differentiator. Dedicated service page separates this from the homepage to serve B2B-specific buyers searching for a wholesale account.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-suppliers-to-the-public/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">B2C bridge page</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food suppliers to the public</span><span class="dot dot-vol"></span><span class="v">vol <b>390</b>/mo · cpc <b>$2.42</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">buy food wholesale australia</span><span class="dot dot-low"></span><span class="v">vol <b>10</b>/mo · cpc <b>$0</b></span></div>
+          <div class="note">Also targets: "bulk buy food australia" (40/mo), "food wholesale online" (30/mo)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-b2c">B2C</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        390/mo at $2.42 CPC — this is the second-highest volume term in the general keyword set. SERP shows PFD Foods (#1), Opera Foods (#3), Moco (#4), Bidfood (#5) — all direct distributors, no directories. KD 13. Foodistribute's "open to the public" model is a unique commercial advantage: most wholesale distributors are B2B-only. A dedicated page targeting individual consumers wanting wholesale prices on specialty food — Callebaut, Japanese pantry, EVOO — directly converts the B2C segment that competitors are not serving well. This single page represents the highest-volume general keyword in the plan.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/food-supplier-for-cafes/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Cafe B2B vertical</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">food supplier for cafe</span><span class="dot dot-vol"></span><span class="v">vol <b>90</b>/mo · cpc <b>$5.68</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">cafe food supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale food for cafes", "food distributor for cafes"</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        $5.68 CPC — highest CPC among cafe-specific keywords, confirming genuine B2B buyer intent. SERP shows The Cafe Distributors (#1), Good Food Warehouse (#2), Bidfood (#3), Moco (#4) — niche cafe-focused specialists dominate. KD 14. Foodistribute's existing 5,000+ client base includes cafes; this page speaks directly to that segment. Unlike Bidfood (broadline), Foodistribute can position on specialty cafe ingredients: specialty coffee, Callebaut chocolate, Japanese condiments — products cafes actually need that distinguishes the offer from commodity distributors.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/food-supplier-for-restaurants/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Restaurant B2B vertical</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">food supplier for restaurants</span><span class="dot dot-vol"></span><span class="v">vol <b>90</b>/mo · cpc <b>$4.37</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food distributor for restaurants</span><span class="dot dot-vol"></span><span class="v">vol <b>90</b>/mo · cpc <b>$4.37</b></span></div>
+          <div class="note">Also targets: "restaurant food supplier australia", "wholesale food for restaurants" (10/mo)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Foodistribute currently ranks pos 7 for "food distributor for restaurants" (90/mo, $4.37 CPC, KD 23). SERP shows PFD (#1), Bidfood (#2), Moco (#3) at top — large nationals — but Foodistribute already appears at 7 without a dedicated page. A restaurant-specific page with content about meat &amp; seafood, specialty sauces, pastry ingredients, Japanese condiments (all items restaurants actually source) pushes this to page 1. The $4.37 CPC confirms purchase-ready B2B intent. Separate from the cafe page: restaurant operators search differently and need different content signals.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/catering-food-supplier/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Caterer B2B vertical</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">catering food supplier</span><span class="dot dot-vol"></span><span class="v">vol <b>50</b>/mo · cpc <b>$0.97</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">catering supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale catering supplies australia" (10/mo, $3.35 CPC)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-amber">AMBER</td>
+      <td>
+        KD 41 — highest KD for a B2B vertical page. Included because catering is explicitly listed in the questionnaire as a target customer segment, CPC is moderate at $0.97, and the SERP shows a mixed set of caterers and food suppliers (not dominated by national chains). This is a 6-month target, not a quick win. Content angle: volume food sourcing for events — bulk frozen goods, large-format pantry items, equipment. Flag for review if other pages show faster ROI — could be swapped for "wholesale snacks australia" (30/mo, KD 0) if client prefers volume of rankings over targeted B2B intent.
+      </td>
+    </tr>
+
+    <!-- GROUP: PRODUCT CATEGORIES -->
+    <tr class="grp"><td colspan="5">Product Category Pages — Tier B</td></tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-cheese-dairy/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale cheese supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale dairy supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "artisan cheese wholesale", "specialty cheese supplier", "wholesale cheese australia". Long-tail: "bulk cream supplier australia" (Foodistribute pos 2, 110/mo)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Zero national GKP volume at the category level, but Foodistribute already ranks pos 2 for "bulk cream" (110/mo) and pos 1 for "blue castello" (1,000/mo) — existing product traffic proves the cheese category drives real visits. The zero volume reflects GKP's inability to detect low-frequency B2B searches, not absence of buyer activity. KD 0 for "wholesale cheese supplier australia" = no competition. Fine Food Wholesalers ranks for chocolate terms but not cheese — gap exists. Foodistribute's range (Blue Castello, artisan cheeses, specialty dairy) supports a content-rich page. First-mover advantage for a category where national wholesalers have thin coverage.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-chocolate-patisserie/</span><br>
+        <span class="status s-update">UPDATE</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale chocolate supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">chocolate wholesale supplier</span><span class="dot dot-vol"></span><span class="v">vol <b>90</b>/mo · cpc <b>$2.33</b></span></div>
+          <div class="note">Also targets: "callebaut chocolate wholesale australia" (20/mo, $1.17), "chocolate couverture wholesale" (20/mo, $3.01), "baking chocolate wholesale australia", "callebaut chocolate sydney" (170/mo — already pos 1)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Foodistribute already ranks pos 1 for "callebaut chocolate sydney" (170/mo) and pos 5 for "chocolate wholesale supplier" — existing page is performing but not fully optimised. KD 0 for primary (no direct competitor owns this space). SERP for "chocolate wholesale supplier" shows Sweet Chocolate Warehouse (#4), Foodistribute (#5), Belgian Delights Wholesale (#6) — boutique competitors at DA below 100. "Callebaut 811 Dark Block 5kg $222.30" in the questionnaire — specific product knowledge allows rich content no directory competitor can match. Page refresh with full Callebaut range, couverture specs, and bulk pricing structure will solidify pos 1 for callebaut terms and add coverage of the 90/mo "chocolate wholesale supplier" term.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-coffee-tea/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale coffee beans australia</span><span class="dot dot-vol"></span><span class="v">vol <b>90</b>/mo · cpc <b>$4.29</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale coffee beans melbourne</span><span class="dot dot-vol"></span><span class="v">vol <b>70</b>/mo · cpc <b>$6.53</b></span></div>
+          <div class="note">Also targets: "wholesale tea supplier australia", "coffee distributor australia", "green coffee beans wholesale australia" (90/mo, $2.13)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        90/mo at $4.29 CPC for primary — strong commercial signal for a category keyword. KD 0 for primary. "Wholesale coffee beans Melbourne" at $6.53 CPC — highest CPC among all coffee terms, confirming cafe-buyer intent specifically in Melbourne. SERP shows Sicilia Coffee (#2), Simply Beans (#4), Vittoria (#5) — specialist roasters, not broadline distributors. Foodistribute's coffee supply complements its cafe-buyer positioning. The $6.53 CPC Melbourne secondary directly feeds the Melbourne location page funnel. No current ranking for coffee terms — new page captures a gap that strengthens the cafe supplier vertical.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-bakery-baking-supplies/</span><br>
+        <span class="status s-update">UPDATE</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale bakery supplier</span><span class="dot dot-vol"></span><span class="v">vol <b>170</b>/mo · cpc <b>$2.30</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale bakery supplies</span><span class="dot dot-vol"></span><span class="v">vol <b>170</b>/mo · cpc <b>$2.30</b></span></div>
+          <div class="note">Also targets: "baking wholesale suppliers" (170/mo, pos 3), "bakery supply wholesale" (170/mo), "bakery supplies wholesale" (50/mo). Existing pos 3.</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Foodistribute's single strongest product ranking: pos 3 for "wholesale bakery supplier" (170/mo, KD 2) and pos 4 for "baking supply wholesale" (170/mo, KD 6). Page already exists; update rather than rebuild. SERP shows Yum.com.au (#1), PE Foods (#2), Foodistribute (#3) — the only mid-tier operator in the top 3 for this term. A content refresh (adding product schema, pricing signals, FAQ for Callebaut blocks and bulk cream) will defend pos 3 and compete for pos 2. The 170/mo volume with KD 2 makes this the most efficient keyword in the plan: nearly-free competitive position with real traffic volume.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-asian-japanese-food/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">japanese food wholesale australia</span><span class="dot dot-low"></span><span class="v">vol <b>10</b>/mo · cpc <b>$0.25</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">asian food wholesale australia</span><span class="dot dot-low"></span><span class="v">vol <b>10</b>/mo · cpc <b>$0.44</b></span></div>
+          <div class="note">Also targets: "asian food distributor australia" (30/mo), "japanese pantry wholesale", "japanese grocery wholesale" (10/mo). Long-tail: Foodistribute pos 2 for "fish soy sauce" (2,400/mo), "ajinomoto hon dashi" (210/mo).</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        The most compelling strategic case in the plan: Foodistribute already ranks pos 2 for "fish soy sauce" (2,400/mo) — the highest-volume keyword in the client's entire organic footprint — yet has no dedicated Japanese/Asian food category page. This is a content gap that is already converting at scale via product pages. A hub page for Japanese/Asian wholesale (kizami nori, hon dashi, soy sauce packets, preserved vegetables — all terms Foodistribute ranks for) creates an entity anchor that lifts all the long-tail product rankings. KD 0 for both category keywords — no competitor has claimed this space at the category level despite Foodistribute owning multiple top-3 product positions.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-oil-vinegar/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale olive oil australia</span><span class="dot dot-vol"></span><span class="v">vol <b>30</b>/mo · cpc <b>$1.24</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">olive oil wholesale australia</span><span class="dot dot-vol"></span><span class="v">vol <b>30</b>/mo · cpc <b>$1.24</b></span></div>
+          <div class="note">Also targets: "evoo wholesale australia", "wholesale vinegar supplier", "alto olive oil wholesale" (questionnaire lists Alto Pro-Blend EVOO 10L as a key product)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        The questionnaire specifically names "Alto Pro-Blend EVOO 10L $230" as a key product — this is a professional-grade EVOO for kitchens and cafes, not a consumer product. 30/mo at $1.24 CPC with KD 0 — no competitor has a dedicated wholesale olive oil page targeted at B2B buyers. The SERP for "wholesale olive oil australia" shows mainly retailers and consumer olive oil brands, not wholesale distributors. Foodistribute's wholesale position (10L formats, trade pricing) is a genuine content differentiator. Also captures "ligurian olives" (210/mo, existing pos 5) and "perello olives australia" (140/mo, existing pos 2) — product traffic that benefits from a category hub.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-meat-seafood/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale meat supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale seafood supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale frozen seafood australia", "wholesale meat and seafood", "jamon iberico australia" (140/mo, existing pos 6)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Zero GKP volume for category keywords — standard for B2B meat/seafood wholesale (buyers search product-specifically, not by category). However, Foodistribute already ranks pos 6 for "jamon iberico price" (140/mo) and has existing product page traffic for specialty meats. Category page justification: (1) establishes Google entity association for meat &amp; seafood wholesale, supporting product page rankings; (2) captures buyers using broad initial discovery searches before narrowing to specific products; (3) no direct competitor has claimed this category page for specialty wholesale meat/seafood. Low-effort, zero-competition first-mover page.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-frozen-goods/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale frozen food supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">frozen goods wholesale australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale frozen seafood australia", "frozen food wholesale", "bulk frozen goods"</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Zero GKP volume reflects B2B search specificity — buyers search for frozen peas, frozen soybeans, frozen seafood by product, not by "frozen goods wholesale". Foodistribute already ranks pos 4 for "frozen soybeans" (110/mo, competitor: Galipo Foods). The frozen category page creates a topical cluster that lifts existing product page rankings. Caterers and restaurants routinely source frozen goods as part of weekly orders — this page directly serves that buying segment alongside the catering food supplier page. KD 0 — category-level gap in the wholesale food market.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-beverages/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale beverage supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale water supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "bulk beverage supplier australia", "wholesale drinks supplier", "wholesale sparkling water". Yuzu jam (260/mo, existing pos 3) = specialty beverage ingredient.</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Beverages &amp; Water is one of Foodistribute's 11 listed product categories. Zero GKP volume at category level is consistent with all B2B wholesale categories — buyers search product-specifically. The beverages page serves two functions: (1) entity association for Foodistribute as a full-range distributor; (2) internal linking hub for specialty beverage product pages. Yuzu jam (260/mo, pos 3) is a specialty condiment-beverage ingredient that surfaces via the Japanese/Asian category — the beverages page captures the water and drink side. KD 0, no competitor owns this space at category level.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-crackers-snacks/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale snacks australia</span><span class="dot dot-vol"></span><span class="v">vol <b>30</b>/mo · cpc <b>$3.38</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale crackers australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale snack supplier australia", "wholesale crackers supplier", "crackers wholesale", specialty snack brands</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        "Wholesale snacks australia" returns 30/mo at $3.38 CPC with KD 0 — the $3.38 CPC is the telling signal: snack wholesale is a real B2B purchase category, not just an information search. SERP shows The Distributors Brisbane and snack-specific wholesalers — no national specialty distributor has claimed this term. Foodistribute's crackers &amp; snacks category (listed in questionnaire) serves cafes looking for biscuit/cracker platters and corporate catering accounts. Clean content gap.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-pantry-grocery/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale grocery supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wholesale pantry supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "wholesale gourmet food" (30/mo, $3.23 CPC), "gourmet food wholesale", "specialty pantry wholesale". Long-tail: S&amp;B curry powder (480/mo, pos 3), allowrie ghee (390/mo, pos 5).</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Zero GKP volume at category level, but Foodistribute already ranks pos 3 for "S&amp;B curry powder" (480/mo) and pos 5 for "allowrie ghee" (390/mo) — pantry products with real search volume. A Pantry/Grocery hub page consolidates these product rankings under a category entity, improving Google's topical understanding of Foodistribute's range. "Wholesale gourmet food" at 30/mo $3.23 CPC captures the premium pantry buyer. The questionnaire's "specialty products not at supermarkets" USP is most directly expressed through this page — artisan pantry items, specialty condiments, gourmet staples that Woolworths and Coles do not stock.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/foodservice-equipment-supplies/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">cafe equipment supplier australia</span><span class="dot dot-vol"></span><span class="v">vol <b>20</b>/mo · cpc <b>$3.76</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">foodservice equipment supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "food equipment supplier australia", "cafe supplies australia" (30/mo, $1.25 CPC), "restaurant supplies australia" (30/mo, $1.17 CPC)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-cat">Category</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Equipment &amp; Material is explicitly listed in the questionnaire. "Cafe equipment supplier" at 20/mo $3.76 CPC; "cafe supplies australia" at 30/mo $1.25; "restaurant supplies australia" at 30/mo $1.17 — aggregate volume is meaningful. KD 0 for both keywords. The page strengthens the "one supplier, one bill" USP: a cafe that sources food through Foodistribute can also source equipment from the same account. Content angle: practical equipment for cafe setup (coffee grinders, display cases, packaging) alongside food product sourcing. Competitors do not combine equipment with food wholesale — content differentiation opportunity.
+      </td>
+    </tr>
+
+    <!-- GROUP: B2C SPECIALTY -->
+    <tr class="grp"><td colspan="5">B2C Specialty &amp; Gourmet Pages</td></tr>
+
+    <tr>
+      <td>
+        <span class="url">/specialty-food-online-australia/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">specialty food supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">gourmet food supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "specialty food wholesaler australia", "premium food wholesale australia", "artisan food supplier australia", "wholesale gourmet food" (30/mo, $3.23)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-b2c">B2C</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        The questionnaire explicitly states Foodistribute's founding purpose: "specialty products not at supermarkets." This page gives that USP a dedicated URL. Zero GKP volume at these exact keyword combinations, but the SERP for "gourmet food supplier australia" is occupied by consumer food gift shops and aggregator directories — not a wholesale distributor. Foodistribute's artisan cheese, Callebaut chocolate, Japanese pantry items, specialty EVOO, and yuzu jam are exactly the products B2C specialty buyers want. KD 0, no competition. This page captures the brand search crossover between B2B buyers discovering specialty products and B2C buyers wanting wholesale-priced gourmet food.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/buy-specialty-food-online/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">buy specialty food online australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">buy cheese online australia</span><span class="dot dot-vol"></span><span class="v">vol <b>20</b>/mo · cpc <b>$0.17</b></span></div>
+          <div class="note">Also targets: "gourmet grocery online australia" (10/mo), "specialty cheese online australia", "buy food wholesale australia" (10/mo, $2.55)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-b2c">B2C</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        This is the B2C transactional page — where individual consumers place orders for specialty food at wholesale prices. "Buy cheese online australia" at 20/mo with $0.17 CPC suggests low competition and primarily consumer intent. SERP for this cluster is dominated by specialty food retailers (not distributors), confirming a content gap for a wholesale distributor open to public. Foodistribute's "24/7 online support" and online ordering system are differentiators. Maps to the /wholesale-food-suppliers-to-the-public/ page via internal links as the conversion destination for B2C buyers who first land on the public wholesale page.
+      </td>
+    </tr>
+
+    <!-- GROUP: CROSS-CUTTING PAGES -->
+    <tr class="grp"><td colspan="5">Cross-Cutting Service Pages</td></tr>
+
+    <tr>
+      <td>
+        <span class="url">/food-service-supplier/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">food service supplier australia</span><span class="dot dot-vol"></span><span class="v">vol <b>110</b>/mo · cpc <b>$12.14</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">foodservice distributor australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="note">Also targets: "food service company australia", "foodservice solutions australia"</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-amber">AMBER</td>
+      <td>
+        $12.14 CPC — the highest commercial CPC for a general keyword in this plan (excluding the "food services Adelaide" outlier which has a mixed SERP). 110/mo. "Food service supplier australia" captures the institutional foodservice buyer who uses industry terminology — hospitals, cafeterias, institutional caterers alongside restaurants and cafes. KD 0. SERP is marked AMBER because it returns a mix of broadline distributors (Bidfood, PFD) and catering equipment suppliers. However, Foodistribute appears nowhere for this term and the high CPC signals real buyer value. Page content should emphasise volume capability, delivery reliability, and breadth of range — Foodistribute's 25-year track record is the credibility anchor.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/bulk-food-wholesale/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">bulk food supplier australia</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">bulk buy food australia</span><span class="dot dot-vol"></span><span class="v">vol <b>40</b>/mo · cpc <b>$2.55</b></span></div>
+          <div class="note">Also targets: "food wholesale online" (30/mo, $3.73 CPC), "food wholesale delivery" (20/mo), "buy wholesale food"</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        "Bulk buy food australia" at 40/mo $2.55 CPC, "food wholesale online" at 30/mo $3.73 CPC — small volumes but consistent commercial intent. SERP for "bulk food supplier" shows PFD (#1), Bidfood (#5), Moco (#6), The Source Bulk Foods (#9) — a mix of broadline B2B and health-food B2C. Foodistribute's hybrid model serves both sides. KD 0 for primary. This page bridges the B2B bulk order intent with B2C bulk-buy intent — "bulk cream" (110/mo, pos 2) is Foodistribute's clearest proof that bulk food searches already convert on this domain.
+      </td>
+    </tr>
+
+    <!-- REMAINING GENERAL PAGES - ABBREVIATED ROWS FOR BUDGET COMPLETION -->
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-sydney/</span><br>
+        <span class="status s-update">UPDATE</span><br>
+        <span style="font-size:10px;color:#888">National term with Sydney focus</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food sydney</span><span class="dot dot-vol"></span><span class="v">vol <b>140</b>/mo · cpc <b>$4.01</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler sydney</span><span class="dot dot-vol"></span><span class="v">vol <b>140</b>/mo · cpc <b>$4.01</b></span></div>
+          <div class="note">Existing pos 4–5. Feeds Sydney location page. Also targets "food wholesale sydney" (140/mo).</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>Foodistribute already ranks pos 4–5 for "wholesale food sydney" (140/mo, $4.01 CPC, KD 17) and "food wholesaler sydney" (140/mo, KD 1). SERP shows Foodistribute, Foodbomb, Padstow Food Service, Bidfood — mid-tier competitors. Optimising the existing Sydney-targeting page (H1, meta title, schema) and linking to the Sydney location page will push these to top 3. The $4.01 CPC confirms consistent B2B buyer traffic. This page acts as the general Sydney service discovery page; the location page at /wholesale-food-supplier-sydney/ handles the local-intent buyer.</td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-melbourne/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food melbourne</span><span class="dot dot-vol"></span><span class="v">vol <b>140</b>/mo · cpc <b>$6.77</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler melbourne</span><span class="dot dot-vol"></span><span class="v">vol <b>140</b>/mo · cpc <b>$6.77</b></span></div>
+          <div class="note">Also targets: "food distributors melbourne" (880/mo, $4.52, KD 7) — highest volume location term. New page needed.</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>"Food distributors Melbourne" is 880/mo at $4.52 CPC — the single highest-volume location term in the dataset. KD 7. Foodistribute does not currently rank for this term. SERP shows mfdfood (#4), Complete Food Services (#5), Bidfood (#6), PFD (#7) — all of these have domain rank below 200. With rank 177, Foodistribute is directly competitive. A Melbourne-targeted wholesale food page (not the location page — that is a separate URL) captures both "wholesale food Melbourne" (140/mo, $6.77 CPC) and the high-volume "food distributors Melbourne" (880/mo) term. The $6.77 CPC is the highest CPC for any core location term in the plan — strong commercial signal.</td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-brisbane/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food brisbane</span><span class="dot dot-vol"></span><span class="v">vol <b>110</b>/mo · cpc <b>$3.70</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler brisbane</span><span class="dot dot-vol"></span><span class="v">vol <b>110</b>/mo · cpc <b>$3.70</b></span></div>
+          <div class="note">Also targets: "wholesale food supplier brisbane" (90/mo, $2.72, KD 16)</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>110/mo at $3.70 CPC. KD 23 for "wholesale food brisbane". Foodistribute does not currently rank in Brisbane. SERP shows Bidfood (#4), Moco (#5), The Distributors Brisbane (#6) — Moco is the dominant Brisbane specialist (13,971 keywords) but primarily a broadline FMCG distributor. Foodistribute's specialty range is a genuine differentiator in the Brisbane market. This page supports the Brisbane location page and establishes Foodistribute's presence in the Queensland market, where Moco dominates broadline but specialty wholesale is underserved.</td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-adelaide/</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food adelaide</span><span class="dot dot-vol"></span><span class="v">vol <b>170</b>/mo · cpc <b>$7.02</b></span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler adelaide</span><span class="dot dot-vol"></span><span class="v">vol <b>170</b>/mo · cpc <b>$7.02</b></span></div>
+          <div class="note">Also targets: "wholesale food supplier adelaide" (KD 0), "food supplier adelaide" (40/mo). Adelaide has the highest CPC of all 4 city wholesale food terms.</div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>170/mo at $7.02 CPC — highest CPC of all four city "wholesale food [city]" terms and the highest volume among the four. KD 19. SERP shows Bidfood (#4), Galipo Foods (#5), Gaganis Bros (#6), Eustralis (#7) — all Adelaide-specific or national operators. Foodistribute not ranking. The $7.02 CPC is exceptional for a general food term — Adelaide's foodservice market is under-served by national specialty distributors. Galipo (SA-focused foodservice) and Gaganis Bros (Mediterranean specialty) show the market has specialist appetite. Foodistribute's broad range delivered nationally maps well here.</td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier-brisbane/ <br>(redirect target from /wholesale-food-brisbane/ OR standalone)</span><br>
+        <span class="status s-new">NEW</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">food distributor brisbane</span><span class="dot dot-zero"></span><span class="v-z">vol — · cpc $0</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food supplier brisbane</span><span class="dot dot-vol"></span><span class="v">vol <b>40</b>/mo · cpc <b>$0.90</b></span></div>
+        </div>
+      </td>
+      <td><span class="pt pt-service">Service</span></td>
+      <td class="serp-clean">CLEAN</td>
+      <td>Supplementary Brisbane service page targeting the "food distributor brisbane" (zero volume) and "food supplier brisbane" (40/mo) terms, which target a slightly different buyer intent than "wholesale food brisbane". These can be consolidated with the /wholesale-food-brisbane/ page as secondary keywords if URL budget is preferred over separate pages. Included as a separate row to ensure both intents are captured. KD 0 for primary. Moco Food Services dominates Brisbane but does not have specialty food coverage — differentiation opportunity.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="card card-warn" style="margin-bottom:16px;">
+  <h2>General Pages — Budget Note</h2>
+  <div class="block-body">
+    <p>The 50 general keyword budget is allocated as follows: <strong>6 core B2B service pages</strong> (homepage + 5 buyer-segment pages) · <strong>11 product category pages</strong> (one per product category) · <strong>2 B2C specialty pages</strong> · <strong>2 cross-cutting service pages</strong> · <strong>4 city-level general pages</strong> (Sydney/Melbourne/Brisbane/Adelaide — distinct from the 4 location pages which target "wholesale food supplier [city]") · <strong>1 supplementary Brisbane page</strong> · <strong>remaining slots held for secondary keywords on existing pages</strong>.</p>
+    <p style="margin-top:6px;">The city-level general pages (/wholesale-food-sydney/, /wholesale-food-melbourne/, /wholesale-food-brisbane/, /wholesale-food-adelaide/) serve a different search intent to the 4 location pages. The general city pages target "<em>wholesale food [city]</em>" intent (buyers searching for wholesale products in their city). The location pages target "<em>wholesale food supplier [city]</em>" intent (buyers specifically seeking a supplier to account with). Both are needed; they serve different funnel stages and should not be consolidated.</p>
+  </div>
+</div>
+
+<!-- ═══ LOCATION PAGES ═══ -->
+<div id="location-pages"></div>
+<p class="sec">Location Pages — 4 City Pages</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:22%">Page / URL</th>
+      <th style="width:28%">Keywords</th>
+      <th style="width:5%">Vol</th>
+      <th style="width:5%">KD</th>
+      <th style="width:5%">CPC</th>
+      <th style="width:5%">Status</th>
+      <th style="width:30%">Strategic Reasoning</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier-sydney/</span><br>
+        <span class="status s-update">UPDATE</span><br>
+        <span style="font-size:10px;color:#888">Sydney location page</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food supplier sydney</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food distributors sydney</span></div>
+          <div class="note">Also targets: "wholesale food suppliers sydney" (140/mo), "food distributor sydney", "food suppliers sydney" (320/mo), "food wholesale sydney" (140/mo)</div>
+        </div>
+      </td>
+      <td>140<br><span style="font-size:10px;color:#888">+320 (S)</span></td>
+      <td>0 (P)<br>8 (S)</td>
+      <td>$4.45<br>$3.15</td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        <strong>Strongest existing location ranking.</strong> Foodistribute ranks pos 4 for "food distributors sydney" (320/mo, KD 8) and pos 4 for "wholesale food supplier sydney" (140/mo, KD 0) — already on page 1. SERP shows Foodistribute, Sydney Freezers, PFD, Bidfood, Reliable Foods — competitor mix at pos 4–12 is beatable. Sydney metro free delivery is a genuine local conversion signal no Brisbane or Adelaide competitor can offer. Page exists; optimise H1, meta title, structured delivery zone content, and add Schema LocalBusiness.
+        <span class="verdict">Quick win — push existing pos 4 to top 3 with content update</span>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier-melbourne/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Melbourne location page</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food distributors melbourne</span></div>
+          <div class="note">Also targets: "wholesale food melbourne" (140/mo), "food wholesaler melbourne" (140/mo), "wholesale coffee beans melbourne" ($6.53 CPC)</div>
+        </div>
+      </td>
+      <td>140<br><span style="font-size:10px;color:#888">+880 (S)</span></td>
+      <td>15 (P)<br>7 (S)</td>
+      <td>$4.25<br>$4.52</td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        <strong>Highest-opportunity location page.</strong> "Food distributors Melbourne" is 880/mo at $4.52 CPC with KD 7 — the largest untapped volume opportunity in the entire plan. Foodistribute does not rank for this term. SERP pos 4–10 shows Complete Food Services (rank 63), mfdfood, Bidfood — all with lower domain rank than Foodistribute (177) except Bidfood (258). KD 7 means this is winnable within 90 days with a well-structured Melbourne page. Current pos 9 for "wholesale food supplier Melbourne" — already indexing but not ranking. Primary page content: delivery to Melbourne, specialty product range, ordering process. Secondary H1 variant: "Melbourne Food Distributors".
+        <span class="verdict">Priority build — 880/mo term at KD 7 with no current ranking</span>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier-brisbane/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Brisbane location page</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food supplier brisbane</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler brisbane</span></div>
+          <div class="note">Also targets: "wholesale food brisbane" (110/mo), "food supplier brisbane" (40/mo)</div>
+        </div>
+      </td>
+      <td>90<br><span style="font-size:10px;color:#888">+110 (S)</span></td>
+      <td>16 (P)<br>23 (S)</td>
+      <td>$2.72<br>$3.70</td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        Foodistribute has no Brisbane rankings. SERP shows Bidfood (#4), Moco (#5), The Distributors Brisbane (#6), Euro Foods QLD (#7) — Moco is the primary competitor but has 88 referring domains (vs Foodistribute's 221). KD 16 for primary. Brisbane/QLD is in the service area per questionnaire. The location page establishes geographic entity association for Brisbane, supporting visibility in Google's local index for Queensland-based searches. Moco's strength is in commodity wholesale; Foodistribute's specialty range (Callebaut, Japanese pantry, EVOO) offers differentiation content that Moco cannot match.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <span class="url">/wholesale-food-supplier-adelaide/</span><br>
+        <span class="status s-new">NEW</span><br>
+        <span style="font-size:10px;color:#888">Adelaide location page</span>
+      </td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wholesale food supplier adelaide</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">food wholesaler adelaide</span></div>
+          <div class="note">Also targets: "wholesale food adelaide" (170/mo, $7.02 CPC), "food supplier adelaide" (40/mo)</div>
+        </div>
+      </td>
+      <td>0<br><span style="font-size:10px;color:#888">+170 (S)</span></td>
+      <td>0 (P)<br>19 (S)</td>
+      <td>$0<br>$7.02</td>
+      <td class="serp-clean">CLEAN</td>
+      <td>
+        "Wholesale food supplier Adelaide" = KD 0, no volume detection — zero competition. "Food wholesaler Adelaide" = 170/mo at $7.02 CPC — the highest CPC of all four city "food wholesaler [city]" terms. Adelaide has a strong specialty food culture (Gaganis Bros, Eustralis, Galipo serve local specialty demand). SERP shows Bidfood (#4), Galipo (#5), Gaganis Bros (#6), Eustralis (#7) — Eustralis is a Adelaide specialty food distributor that Foodistribute directly competes with on product range. The secondary "wholesale food Adelaide" term (170/mo, $7.02 CPC) is captured by this page. Low competition, high CPC = efficient ranking opportunity.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<!-- ═══ SUPPORTING ENTITIES ═══ -->
+<div id="supporting-entities"></div>
+<p class="sec">Supporting Entities Per Page (Content Signals — Not Keyword Targets)</p>
+
+<div class="card">
+  <h2>Entity Signals to Include in Page Content</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Homepage &amp; Core B2B Pages</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Named entities:</strong> Reidistribute Pty Ltd, ABN 53 084 932 570, 1998 founded, 5,000+ clients</li>
+            <li><strong>Brand associations:</strong> Callebaut (chocolate), Alto (EVOO), S&amp;B (Japanese pantry), Allowrie (ghee), Ben Furney (flour) — name real brands stocked</li>
+            <li><strong>Process signals:</strong> Online ordering, 24/7 support, direct debit and credit card, qualifying orders for free delivery</li>
+            <li><strong>Service area entities:</strong> Sydney metro (free delivery), Melbourne, Brisbane, Adelaide, Gold Coast, Sunshine Coast, Newcastle, ACT</li>
+            <li><strong>Related terms:</strong> food distribution, foodservice, wholesale marketplace, wholesale account, trade pricing, bulk pricing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Cafe &amp; Restaurant Pages</div>
+        <div class="block-body">
+          <ul>
+            <li>Menu ingredient sourcing, specialty coffee supply, artisan cheese boards, pastry ingredients</li>
+            <li>Callebaut couverture (for patisseries), seasonal specials, bulk milk and cream</li>
+            <li>Japanese condiments for modern Asian-fusion menus (hon dashi, kizami nori, yuzu)</li>
+            <li>Single-supplier convenience — ordering, delivery, invoicing in one place</li>
+            <li>FAQs: minimum order quantities, delivery schedule, credit terms, online account setup</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Product Category Pages</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Cheese &amp; Dairy:</strong> Blue Castello, artisan cow/sheep/goat cheeses, bulk cream (110/mo existing ranking), ghee, feta, halloumi</li>
+            <li><strong>Chocolate:</strong> Callebaut 811 Dark 54.5%, Callebaut Milk, couverture discs, blocks vs callets, tempering guides</li>
+            <li><strong>Coffee:</strong> Arabica vs Robusta, roast profiles, wholesale pricing tiers, bulk sacks vs pre-packed</li>
+            <li><strong>Japanese/Asian:</strong> Hon dashi, soy sauce variants (fish-shaped/individual packets/bulk), kizami nori, yuzu, preserved vegetables, S&amp;B curry powder</li>
+            <li><strong>Oil &amp; Vinegar:</strong> Alto Pro-Blend EVOO 10L, Ligurian olives, Perello olives, balsamic grades</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Location Pages</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Sydney:</strong> Free delivery to Sydney metro (qualifying orders), pickup option, local cafes and restaurants served, NAP signals</li>
+            <li><strong>Melbourne:</strong> Victoria delivery schedule, Melbourne specialty food scene (artisan cafes, Japanese restaurants, patisseries), Callebaut chocolate demand in Melbourne baking scene</li>
+            <li><strong>Brisbane:</strong> Queensland delivery, Gold Coast and Sunshine Coast extension, specialty food demand in Brisbane's growing restaurant precinct</li>
+            <li><strong>Adelaide:</strong> SA delivery, wine region connection (EVOO and vinegar for restaurant menus), specialty food culture in Adelaide's food scene</li>
+            <li>All location pages: delivery lead time, minimum order, contact/ordering instructions specific to that city</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">B2C Specialty Pages</div>
+        <div class="block-body">
+          <ul>
+            <li>"Open to the public" — clear statement, pricing accessible, no ABN required</li>
+            <li>Individual item pricing (from $7.60) alongside bulk pricing to address B2C price sensitivity</li>
+            <li>Product categories unavailable at supermarkets: Callebaut chocolate, yuzu jam, fish-shaped soy sauce packets, artisan EVOO</li>
+            <li>10% promo discount messaging for first orders</li>
+            <li>Online ordering trust signals: 24/7 support, secure checkout, delivery confirmation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Schema Recommendations</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Homepage:</strong> Organization schema — name, ABN, founding date, address, service area, sameAs social profiles</li>
+            <li><strong>Location pages:</strong> LocalBusiness schema — name, address (or service area), telephone, openingHours, areaServed</li>
+            <li><strong>Product category pages:</strong> ItemList schema — list of products in category with name + price where available</li>
+            <li><strong>FAQ sections:</strong> FAQPage schema on service pages — minimum order, delivery, payment, B2C access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ BEYOND THIS PLAN ═══ -->
+<div id="beyond"></div>
+<p class="sec">Beyond This Keyword Plan</p>
+
+<div class="card">
+  <h2>Technical &amp; Strategic Recommendations</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Internal Linking Priority</div>
+        <div class="block-body">
+          <ul>
+            <li>Homepage → all 4 city general pages (anchor: "wholesale food [city]") + 4 location pages (anchor: "wholesale food supplier [city]")</li>
+            <li>Cafe page ↔ Coffee &amp; Tea category page ↔ Chocolate &amp; Patisserie page (cafe buying journey)</li>
+            <li>Restaurant page ↔ Meat &amp; Seafood ↔ Japanese/Asian ↔ Oil &amp; Vinegar (restaurant menu journey)</li>
+            <li>B2C "open to public" page ↔ Specialty Food page ↔ all product category pages (individual buyer journey)</li>
+            <li>Bakery page ↔ Chocolate &amp; Patisserie ↔ Equipment page (patisserie/bakery buyer journey)</li>
+            <li>"Fish soy sauce" product pages → Japanese/Asian hub (anchor: "Japanese food wholesale") — currently 2,400/mo rankings have no hub to link back to</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Google Business Profile</div>
+        <div class="block-body">
+          <ul>
+            <li>Primary category: "Wholesale Grocer" or "Food Wholesaler"</li>
+            <li>Secondary categories: Food &amp; Beverage Distributor, Specialty Foods Store</li>
+            <li>Service area: Sydney, Melbourne, Brisbane, Adelaide, Gold Coast, Sunshine Coast, Newcastle, ACT</li>
+            <li>Products: add Callebaut chocolate, specialty cheese, Japanese pantry items with photos</li>
+            <li>Posts: weekly promotions (10% discount), new product arrivals, seasonal specialty items</li>
+            <li>Reviews: request from 5,000+ existing clients — review volume is a direct trust signal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Citation Building</div>
+        <div class="block-body">
+          <ul>
+            <li>Fine Food Wholesalers directory listing (finefoodwholesalers.com.au) — competitor is also a directory; list on it</li>
+            <li>Foodbomb supplier listing (foodbomb.com.au) — highest-traffic food buyer marketplace for Australia</li>
+            <li>IFDA member listing (ifda.com.au) — industry association that already ranks for target terms</li>
+            <li>Yellow Pages, True Local — NAP consistency</li>
+            <li>Hospitality industry directories: Hospitality Magazine, Restaurant &amp; Catering Australia</li>
+            <li>Specialty food directories: Fine Food Australia trade show listing, AFCA (Australian Specialty Coffee Association)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Blog / Content Quick Wins</div>
+        <div class="block-body">
+          <p>These informational keywords currently rank in positions 5–15 for Foodistribute. Blog content will lock these rankings and capture featured snippets:</p>
+          <ul>
+            <li>"bakery supplier near me" (1,000/mo, pos 6) — blog: "How to find a wholesale bakery supplier near you" → captures near-me intent, links to /wholesale-bakery-baking-supplies/</li>
+            <li>"wholesale food suppliers to the public" — FAQs: "Can I buy wholesale food without a business?" → featured snippet target</li>
+            <li>"food distribution australia" (110/mo, pos 1) — protect with "How food distribution works in Australia" article</li>
+            <li>Callebaut chocolate guides: tempering, storage, pairing — long-tail product traffic for the chocolate category</li>
+            <li>Japanese condiment guides: how to use kizami nori, hon dashi, yuzu in modern Australian kitchens — long-tail for Asian category</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">NAP Consistency</div>
+        <div class="block-body">
+          <p>Ensure the following are identical across website, GBP, and all directories:</p>
+          <ul>
+            <li>Business name: "Foodistribute" (not "Reidistribute" on public-facing profiles)</li>
+            <li>ABN: 53 084 932 570</li>
+            <li>Operating hours: Monday–Friday 8am–4pm, 24/7 online</li>
+            <li>Phone, address, and website URL must be consistent</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Implementation Priority Order</div>
+        <div class="block-body">
+          <ol>
+            <li><strong>Week 1–2:</strong> Homepage optimisation (H1, schema, meta title) + Sydney page update → quick win for existing pos 4–6 terms</li>
+            <li><strong>Week 3–4:</strong> Build Melbourne location page + /wholesale-food-melbourne/ → captures 880/mo "food distributors Melbourne" (KD 7)</li>
+            <li><strong>Week 5–6:</strong> Chocolate &amp; Patisserie page update + Japanese/Asian hub page → builds on existing pos 1 callebaut and pos 2 fish soy sauce rankings</li>
+            <li><strong>Week 7–8:</strong> Bakery page refresh + Coffee &amp; Tea page build → reinforces pos 3 bakery supplier ranking</li>
+            <li><strong>Month 2–3:</strong> Brisbane and Adelaide location pages + city general pages</li>
+            <li><strong>Month 3–4:</strong> All remaining category pages (Cheese, Oil, Frozen, Beverages, Snacks, Pantry, Equipment)</li>
+            <li><strong>Month 4–6:</strong> B2C specialty pages, blog content, GBP optimisation, citation building</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ ELIGIBLE CANDIDATES ═══ -->
+<div id="candidates"></div>
+<p class="sec">Eligible Candidates — Evaluated but Not Selected</p>
+
+<div class="card">
+  <h2>Keywords Researched &amp; Declined — With Reasons</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Keyword</th>
+        <th>Vol/mo</th>
+        <th>KD</th>
+        <th>CPC</th>
+        <th>SERP</th>
+        <th>Outcome</th>
+        <th>Reason Not Selected</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wholesale food distributor australia</td>
+        <td>0</td>
+        <td>—</td>
+        <td>$0</td>
+        <td class="serp-clean">CLEAN</td>
+        <td>Declined</td>
+        <td>Zero GKP volume. "Food distributor australia" (110/mo) is the stronger form and is selected for the homepage. Using both would create near-duplicate intent on the same page.</td>
+      </tr>
+      <tr>
+        <td>food services adelaide</td>
+        <td>140</td>
+        <td>12</td>
+        <td>$39.48</td>
+        <td class="serp-mixed">MIXED</td>
+        <td>Rejected</td>
+        <td>SERP dominated by Adelaide City Council food support directory, meal delivery services (The Dinner Ladies, Nourishd), and community food programs — not wholesale food distributors. Despite the $39.48 CPC anomaly (likely driven by medical/council service bidders), the SERP intent does not match Foodistribute's offer. Would never convert wholesale buyers.</td>
+      </tr>
+      <tr>
+        <td>food services melbourne</td>
+        <td>140</td>
+        <td>0</td>
+        <td>$4.04</td>
+        <td class="serp-mixed">MIXED</td>
+        <td>Rejected</td>
+        <td>SERP shows meal delivery, council food services, and restaurant guides — not wholesale distributors. "Food services" is an ambiguous term that attracts wrong-intent traffic. Replaced with "food distributors Melbourne" (880/mo, KD 7) which has clean commercial SERP.</td>
+      </tr>
+      <tr>
+        <td>food services sydney</td>
+        <td>90</td>
+        <td>18</td>
+        <td>$4.76</td>
+        <td class="serp-mixed">MIXED</td>
+        <td>Rejected</td>
+        <td>Same issue as food services Melbourne/Adelaide. SERP shows City of Sydney council food support directory at pos 4, meal delivery services, community kitchens. Wrong intent for a wholesale distributor.</td>
+      </tr>
+      <tr>
+        <td>callebaut chocolate australia</td>
+        <td>20</td>
+        <td>—</td>
+        <td>$1.17</td>
+        <td class="serp-amber">AMBER</td>
+        <td>Declined</td>
+        <td>SERP dominated by Mayers.com.au (official Callebaut Australian distributor), Callebaut's own website, Chef's Warehouse — stronger brand authority. Covered as secondary on /wholesale-chocolate-patisserie/. "Callebaut chocolate sydney" (170/mo, pos 1) is already held.</td>
+      </tr>
+      <tr>
+        <td>restaurant supplies australia</td>
+        <td>30</td>
+        <td>—</td>
+        <td>$1.17</td>
+        <td class="serp-amber">AMBER</td>
+        <td>Declined</td>
+        <td>SERP dominated by Nisbets (catering equipment specialist) and catering equipment retailers. "Supplies" intent is equipment-heavy, not food. Covered as secondary keyword on /foodservice-equipment-supplies/.</td>
+      </tr>
+      <tr>
+        <td>organic food delivery australia</td>
+        <td>10</td>
+        <td>—</td>
+        <td>$14.47</td>
+        <td class="serp-mixed">MIXED</td>
+        <td>Rejected</td>
+        <td>SERP is exclusively B2C meal kit / organic delivery box services (Marley Spoon, HelloFresh variants). Not a wholesale B2B SERP. Despite $14.47 CPC, Foodistribute does not position as a meal kit/organic delivery service.</td>
+      </tr>
+      <tr>
+        <td>bakery supplier near me</td>
+        <td>1,000</td>
+        <td>36</td>
+        <td>$0.57</td>
+        <td class="serp-amber">AMBER</td>
+        <td>Declined (blog candidate)</td>
+        <td>Foodistribute already ranks pos 6. KD 36 is too high for page optimisation with rank 177. "Near me" keywords are won via GBP local pack, not organic page rank. Recommended as blog content target to protect and improve the existing ranking organically over time.</td>
+      </tr>
+      <tr>
+        <td>wholesale food products australia</td>
+        <td>0</td>
+        <td>—</td>
+        <td>$0</td>
+        <td class="serp-clean">CLEAN</td>
+        <td>Declined</td>
+        <td>Zero volume. "Wholesale food supplier australia" (40/mo) is the selected variant which has confirmed volume and commercial CPC.</td>
+      </tr>
+      <tr>
+        <td>gourmet food delivery australia</td>
+        <td>0</td>
+        <td>—</td>
+        <td>$0</td>
+        <td class="serp-mixed">MIXED</td>
+        <td>Rejected</td>
+        <td>SERP is entirely B2C food delivery platforms and meal box services. Foodistribute's B2C offer is wholesale pricing on specialty products, not meal delivery. Wrong SERP intent.</td>
+      </tr>
+      <tr>
+        <td>wholesale food group australia</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>Rejected</td>
+        <td>Wholesale Food Group (wholesalefoodgroup.com.au) is a named competitor brand. Would generate navigational traffic to a competitor.</td>
+      </tr>
+      <tr>
+        <td>food wholesale marketplace</td>
+        <td>0</td>
+        <td>—</td>
+        <td>$0</td>
+        <td>—</td>
+        <td>Declined</td>
+        <td>Zero volume. "Marketplace" framing fits Foodbomb's directory model more than Foodistribute's direct distribution model.</td>
+      </tr>
+      <tr>
+        <td>green coffee beans wholesale australia</td>
+        <td>90</td>
+        <td>—</td>
+        <td>$2.13</td>
+        <td class="serp-amber">AMBER</td>
+        <td>Declined</td>
+        <td>SERP for "green coffee beans" is dominated by roastery and green bean broker specialists — a different buyer (roasters, not cafes). Foodistribute's coffee range is for cafes buying roasted beans, not green beans. Covered as secondary note on Coffee &amp; Tea page.</td>
+      </tr>
+      <tr>
+        <td>wholesale food for restaurants (national)</td>
+        <td>10</td>
+        <td>63</td>
+        <td>$1.65</td>
+        <td class="serp-clean">CLEAN</td>
+        <td>Rejected</td>
+        <td>KD 63 — too competitive for rank 177 within 12 months. Intent covered by /food-supplier-for-restaurants/ which targets "food supplier for restaurants" (90/mo, KD 23) and "food distributor for restaurants" (90/mo, KD 23) — same intent, achievable KD.</td>
+      </tr>
+      <tr>
+        <td>specialty food wholesaler australia</td>
+        <td>0</td>
+        <td>0</td>
+        <td>$0</td>
+        <td class="serp-clean">CLEAN</td>
+        <td>Declined</td>
+        <td>Zero volume. Intent covered more broadly by /wholesale-food-supplier/ and /specialty-food-online-australia/. Adding a third "specialty wholesale" URL risks content duplication.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div><!-- /wrap -->
+</body>
+</html>
