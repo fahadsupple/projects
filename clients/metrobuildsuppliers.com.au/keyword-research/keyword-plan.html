@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Keyword Plan — metrobuildsuppliers.com.au v1</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; background: #f0f2f5; color: #1a1a2e; padding-left: 168px; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 20px 14px; }
+
+/* Left nav */
+.sidenav { position: fixed; left: 0; top: 0; bottom: 0; width: 168px; background: #1a1a2e; overflow-y: auto; z-index: 100; }
+.sidenav-inner { padding: 14px 0 20px; }
+.sidenav-logo { font-size: 11px; font-weight: 700; color: #fff; padding: 0 14px 12px; border-bottom: 1px solid rgba(255,255,255,.08); margin-bottom: 6px; line-height: 1.3; }
+.sidenav-logo span { display: block; font-size: 9px; font-weight: 400; color: #666; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
+.sidenav-link { display: block; padding: 5px 14px; font-size: 11px; color: #9ca3af; text-decoration: none; line-height: 1.4; border-left: 2px solid transparent; transition: color .15s, background .15s, border-color .15s; }
+.sidenav-link:hover { color: #e5e7eb; background: rgba(255,255,255,.05); border-left-color: #4b5563; }
+.sidenav-link.active { color: #fff; border-left-color: #f59e0b; }
+.sidenav-sep { height: 1px; background: rgba(255,255,255,.06); margin: 8px 14px; }
+@media (max-width: 900px) { body { padding-left: 0; } .sidenav { display: none; } }
+h1 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+.meta { font-size: 11px; color: #888; margin-bottom: 16px; }
+
+.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.pill { background: white; border: 1px solid #dde; border-radius: 5px; padding: 5px 10px; font-size: 11px; line-height: 1.3; }
+.pill b { font-size: 14px; display: block; }
+
+.sec { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #888; margin: 20px 0 6px; }
+
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 7px; overflow: hidden; border: 1px solid #e0e0e0; margin-bottom: 16px; }
+th { background: #1a1a2e; color: #bbb; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; padding: 7px 10px; text-align: left; font-weight: 600; }
+td { padding: 9px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.4; }
+tr:last-child td { border-bottom: none; }
+
+.url { font-family: monospace; font-size: 11px; color: #2563eb; font-weight: 600; }
+.status { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; display: inline-block; margin-top: 3px; }
+.s-new     { background: #fee2e2; color: #991b1b; }
+.s-update  { background: #fef3c7; color: #92400e; }
+
+.pt { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.pt-render  { background: #fef3c7; color: #92400e; }
+.pt-clad    { background: #dbeafe; color: #1d4ed8; }
+.pt-water   { background: #d1fae5; color: #065f46; }
+.pt-tile    { background: #ede9fe; color: #6d28d9; }
+.pt-deco    { background: #fce7f3; color: #9d174d; }
+.pt-misc    { background: #f1f5f9; color: #475569; }
+.pt-loc     { background: #fef3c7; color: #92400e; }
+.pt-hub     { background: #e0f2fe; color: #0369a1; }
+
+.kws { display: flex; flex-direction: column; gap: 3px; }
+.kw-row { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
+.role { font-size: 10px; font-weight: 700; padding: 0 4px; border-radius: 2px; line-height: 1.6; }
+.r-p { background: #1a1a2e; color: white; }
+.r-s { background: #e5e7eb; color: #374151; }
+.kw { font-weight: 600; font-size: 12px; }
+.v  { font-size: 11px; color: #555; }
+.v b { color: #111; }
+.v-z { font-size: 11px; color: #bbb; }
+.bid  { font-size: 11px; color: #dc2626; font-weight: 700; }
+.bidn { font-size: 11px; color: #888; }
+.note { font-size: 10px; color: #999; margin-top: 2px; line-height: 1.5; }
+
+.grp td { background: #1a1a2e; color: #ccc; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; padding: 4px 10px; }
+
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 3px; vertical-align: middle; }
+.dot-vol  { background: #16a34a; }
+.dot-low  { background: #f59e0b; }
+.dot-zero { background: #d1d5db; }
+
+.card { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 20px 24px; margin-bottom: 16px; }
+.card h2 { font-size: 13px; font-weight: 700; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; color: #1a1a2e; }
+.card-warn { background: #fffdf5; border-color: #fde68a; }
+.card-warn h2 { border-color: #fde68a; color: #92400e; }
+.card-blue { background: #f0f7ff; border-color: #bfdbfe; }
+.card-blue h2 { border-color: #bfdbfe; color: #1d4ed8; }
+.card-green { background: #f0fdf4; border-color: #bbf7d0; }
+.card-green h2 { border-color: #bbf7d0; color: #065f46; }
+.card-amber { background: #fffbeb; border-color: #fde68a; }
+.card-amber h2 { border-color: #fde68a; color: #b45309; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 780px) { .two-col { grid-template-columns: 1fr; } }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+@media (max-width: 780px) { .three-col { grid-template-columns: 1fr; } }
+
+.block { margin-bottom: 16px; }
+.block:last-child { margin-bottom: 0; }
+.block-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #1a1a2e; margin-bottom: 5px; }
+.block-body { font-size: 12px; color: #444; line-height: 1.65; }
+.block-body li { margin-left: 16px; margin-bottom: 2px; }
+.block-body p { margin-bottom: 5px; }
+.verdict { display: inline-block; margin-top: 5px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #15803d; }
+.flag { display: inline-block; margin-top: 5px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #b45309; }
+.gap { display: inline-block; margin-top: 5px; background: #ede9fe; border: 1px solid #ddd6fe; border-radius: 4px; padding: 2px 8px; font-size: 11px; font-weight: 700; color: #6d28d9; }
+
+.comp-metric { display: inline-block; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px; padding: 2px 7px; font-size: 11px; font-weight: 700; margin: 1px 2px; }
+.comp-strong { background: #fee2e2; border-color: #fca5a5; color: #991b1b; }
+.comp-med { background: #fef3c7; border-color: #fcd34d; color: #92400e; }
+.comp-weak { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+
+.timeline-badge { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 10px; font-weight: 700; }
+.t-fast   { background: #d1fae5; color: #065f46; }
+.t-med    { background: #dbeafe; color: #1d4ed8; }
+.t-slow   { background: #ede9fe; color: #6d28d9; }
+.t-long   { background: #fef3c7; color: #92400e; }
+
+.priority-badge { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 10px; font-weight: 700; }
+.pr-must    { background: #fee2e2; color: #991b1b; }
+.pr-quick   { background: #d1fae5; color: #065f46; }
+.pr-strat   { background: #dbeafe; color: #1d4ed8; }
+.pr-content { background: #ede9fe; color: #6d28d9; }
+.pr-anchor  { background: #fef3c7; color: #92400e; }
+</style>
+</head>
+<body>
+
+<nav class="sidenav">
+  <div class="sidenav-inner">
+    <div class="sidenav-logo">Metrobuild KWR<span>keyword plan v1</span></div>
+    <a class="sidenav-link" href="#overview">Overview</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#methodology">Methodology</a>
+    <a class="sidenav-link" href="#strategy">Strategy</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#competitors">Competitor Analysis</a>
+    <a class="sidenav-link" href="#landscape">SERP Landscape</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#general-pages">General Pages</a>
+    <a class="sidenav-link" href="#location-pages">Location Pages</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#silos">Silo Architecture</a>
+    <a class="sidenav-link" href="#implementation">Implementation</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="overview">
+<h1>Keyword Plan — Metrobuild Building &amp; Construction Suppliers &nbsp;&middot;&nbsp; metrobuildsuppliers.com.au</h1>
+<p class="meta">SE Ranking KD + DataForSEO Volume (AU) + SERP Analysis &nbsp;&middot;&nbsp; Melbourne, VIC &nbsp;&middot;&nbsp; v1 &nbsp;&middot;&nbsp; 7 May 2026 &nbsp;&middot;&nbsp; B2B trade supply — renderers, tilers, waterproofers, cladders, builders only</p>
+
+<div class="pills">
+  <div class="pill"><b>25</b>Total pages</div>
+  <div class="pill"><b>15</b>General (product) pages</div>
+  <div class="pill"><b>10</b>Location pages</div>
+  <div class="pill"><b>390</b>/mo top keyword (building supplies melbourne)</div>
+  <div class="pill"><b>$5.20</b>Highest CPC (James Hardie cladding supplier)</div>
+  <div class="pill"><b>4</b>DA (new domain — Oct 2025)</div>
+  <div class="pill"><b>8</b>Official brand distributorships</div>
+  <div class="pill"><b>1,640</b>/mo effective primary keyword reach</div>
+</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="methodology"></div>
+<p class="sec">Keyword Research Methodology</p>
+
+<div class="card">
+  <h2>What We Did &amp; What We Found</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Data Sources</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>DataForSEO (AU geo)</strong> — exact-match monthly search volume for all primary and secondary keywords</li>
+            <li><strong>SE Ranking (AU source)</strong> — Keyword Difficulty scores across all candidates (more accurate for AU geo-modified terms than DataForSEO KD)</li>
+            <li><strong>SERP composition analysis</strong> — manual verification of top-3 domain DAs and SERP type classification for every selected keyword</li>
+            <li><strong>Competitor domain profiling</strong> — DA, referring domains, top-ranking keywords for all 5 named competitors + 2 organic discoveries</li>
+            <li><strong>Brave Search + review mining</strong> — customer vocabulary, problem language, trade terminology extraction from Google Business Profile reviews</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Volume Categories</div>
+        <div class="block-body">
+          <p><span class="dot dot-vol"></span> <strong>Confirmed volume</strong> — 20/mo or above, consistent signal</p>
+          <p><span class="dot dot-low"></span> <strong>Low / sparse</strong> — 10/mo, intermittent but real demand</p>
+          <p><span class="dot dot-zero"></span> <strong>Strategic zero</strong> — below detection floor (&lt;10/mo); included for geographic signalling or long-tail capture</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Key Research Findings</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Brand + distributor queries are the winning lane.</strong> "Rockcote supplier melbourne" (KD 10), "Unitex render system melbourne" (KD 11), "NRG Greenboard supplier" (KD 8) all have very low KD because no Melbourne trade store has built dedicated distributor content. Official distributor status = first-mover advantage on every brand page.</li>
+            <li><strong>Generic head terms are dominated by Bunnings and Bowens.</strong> "Building supplies melbourne" has Bunnings at #1 (DA 78) and Bowens at #2 (DA 52). These are 12+ month targets, not launch priorities.</li>
+            <li><strong>Decorative finishes are the clearest quick wins.</strong> "Micro cement supplier melbourne" has a DA 12 site at #1. "Venetian plaster supplier melbourne" top 3 are all DA 14-18. Both achievable within 90 days of launch.</li>
+            <li><strong>Location pages face zero specialist competition.</strong> All 10 suburb-level rendering queries return only directories (Yellow Pages, hipages, True Local). No competitor has dedicated suburb rendering supply pages.</li>
+            <li><strong>CPC signals real buyer intent.</strong> James Hardie ($5.20), micro cement ($5.10), venetian plaster ($4.20), Hebel ($4.50) — all premium CPCs relative to their volumes, confirming high purchase intent from trade buyers.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="strategy"></div>
+<p class="sec">Keyword Strategy</p>
+
+<div class="card">
+  <h2>Strategy Rationale: 15G + 10L for a New-Domain Trade Supplier</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">New domain reality: avoid the generic trap</div>
+        <div class="block-body">
+          <p>Metrobuild launched in October 2025 with near-zero DA. The temptation is to go after "building supplies melbourne" (390/mo) immediately — but Bunnings (DA 78) and Bowens (DA 52) own that SERP and won't be displaced for 12+ months regardless of content quality.</p>
+          <p>The strategy instead targets two lanes that are winnable NOW:</p>
+          <ul>
+            <li><strong>Brand + distributor pages</strong> — Rockcote, Unitex, Hebel, James Hardie, NRG. Official distributor status gives a content authority signal no competitor can fake. KD 8-19 across all brand pages.</li>
+            <li><strong>Decorative/niche product pages</strong> — Micro cement (DA 12 at #1), venetian plaster (DA 14-18 in top 3). First-mover wins with quality content.</li>
+          </ul>
+          <span class="verdict">Win the winnable first — build DA — then compete for broader terms</span>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Why "rendering supplies" rather than "building supplies" leads</div>
+        <div class="block-body">
+          <p>Metrobuild's named competitors (Bell Plaster, Crowntex) play in the rendering lane at DA 18-28 — directly beatable. The building supplies lane is Bowens vs Bunnings — not beatable in year 1.</p>
+          <p>"Rendering supplies melbourne" (170/mo, KD 18) sits in a local_businesses SERP where Bell Plaster (DA 28) ranks #3. Metrobuild's Rockcote + Unitex official distributor status gives a stronger page than Bell Plaster can produce.</p>
+          <span class="verdict">Specialist trade content beats general hardware stores in specialist SERPs</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">The distributor advantage — why brand pages rank</div>
+        <div class="block-body">
+          <p>When a renderer searches "Rockcote supplier melbourne," they're purchase-ready. They've already chosen the brand — they need a local stockist. Rockcote's own site ranks #1 (expected). The position #2 slot goes to the most authoritative local distributor page — currently Crowntex at DA 18 with thin content.</p>
+          <p>A Metrobuild Rockcote distributor page with full product range, technical datasheets, and trade pricing will rank #2 within 3-6 months — and that pattern repeats for Unitex, Hebel, James Hardie, and NRG.</p>
+          <span class="verdict">5 brand distributor pages = 5 quick wins in the 3-6 month window</span>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-title">Location page logic: 10 suburbs x 1 service silo</div>
+        <div class="block-body">
+          <p>With 10 location pages and a budget constraint, the priority is geographic breadth over multiple silo coverage. "Rendering supplies" is selected as the single service silo because:</p>
+          <ul>
+            <li>Highest trade search volume at suburb level (vs "building supplies {suburb}" where Bowens has pages)</li>
+            <li>Core audience (renderers/plasterers) is most likely to search by suburb</li>
+            <li>Official Rockcote + Unitex distributor status = unique content authority on each page</li>
+          </ul>
+          <p>Suburbs selected to cover SE primary corridor (Dandenong, Glen Waverley, Clayton, Keysborough, Noble Park), outer SE growth zones (Cranbourne, Berwick), western expansion (Truganina), northern expansion (Craigieburn), and inner commercial (Richmond).</p>
+          <span class="verdict">10 suburb pages cover all four geographic delivery zones from Springvale</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="competitors"></div>
+<p class="sec">Competitor Analysis</p>
+
+<div class="card">
+  <h2>Competitor Landscape — Organic Search (DataForSEO + SERP Analysis, May 2026)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Competitor</th>
+        <th>DA (est.)</th>
+        <th>Organic KWs</th>
+        <th>Monthly Traffic</th>
+        <th>Key Rankings</th>
+        <th>Weaknesses vs Metrobuild</th>
+        <th>Threat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Bell Plaster</strong><br><span style="font-size:10px;color:#888">bellplaster.com.au</span></td>
+        <td>28</td>
+        <td>1,840</td>
+        <td>4,200/mo</td>
+        <td>Rendering supplies Melb #3 · Render supplies #2 · Plasterer supplies #1</td>
+        <td>No Hebel, James Hardie, NRG Greenboard · No waterproofing category · No tiling supplies · No workshops or education · No crane delivery</td>
+        <td><span class="comp-med">Moderate — rendering only</span></td>
+      </tr>
+      <tr>
+        <td><strong>Bowens</strong><br><span style="font-size:10px;color:#888">bowens.com.au</span></td>
+        <td>52</td>
+        <td>14,200</td>
+        <td>82,000/mo</td>
+        <td>Building supplies Melbourne #2 · Timber supplier #1 · Hardware store #3</td>
+        <td>Not a Rockcote/Unitex/NRG specialist · No showroom for render systems · No workshops · No crane delivery · Timber/hardware primary focus · Not an official render distributor</td>
+        <td><span class="comp-strong">High on generic terms only — not a threat in specialist render/brand lanes</span></td>
+      </tr>
+      <tr>
+        <td><strong>National Tiles</strong><br><span style="font-size:10px;color:#888">nationaltiles.com.au</span></td>
+        <td>48</td>
+        <td>8,600</td>
+        <td>42,000/mo</td>
+        <td>Tiling supplies Melbourne #1 · Tile adhesive #2 · Floor tiles #1</td>
+        <td>Residential/consumer focus — does NOT serve trade contractors · No rendering, cladding, or waterproofing membranes · No trade account pricing · No workshops</td>
+        <td><span class="comp-med">Moderate on tile terms — irrelevant to rendering/cladding/waterproofing</span></td>
+      </tr>
+      <tr>
+        <td><strong>Archiway</strong><br><span style="font-size:10px;color:#888">archiway.com.au</span></td>
+        <td>22</td>
+        <td>680</td>
+        <td>1,200/mo</td>
+        <td>Building supplies Melbourne #8 · Rendering supplies Melbourne #6</td>
+        <td>Thin website content · No workshops · No showroom marketing · Very limited backlink profile · Weak suburb coverage · No early-open USP</td>
+        <td><span class="comp-weak">Low — easily outranked within 6-9 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>Crowntex</strong><br><span style="font-size:10px;color:#888">crowntex.com.au</span></td>
+        <td>18</td>
+        <td>420</td>
+        <td>780/mo</td>
+        <td>Rockcote rendering Melbourne #3 · Acrylic texture coat #2 · Render stockist #4</td>
+        <td>Render/texture only — no cladding, waterproofing, tiling · No AAC, James Hardie, NRG · Very small backlink profile · No workshops or education content</td>
+        <td><span class="comp-weak">Lowest threat — DA 18, narrowest range, easiest to outrank</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="card-green card" style="margin-top:0;margin-bottom:0;">
+    <h2>Competitive Opportunity Summary</h2>
+    <div class="block-body">
+      <p><strong>The Melbourne rendering supplies market has no dominant multi-brand official distributor with online content.</strong> Bell Plaster is the closest but lacks Hebel, James Hardie, and waterproofing. Metrobuild's official distributor status across Rockcote + Unitex + Hebel + James Hardie + NRG — all in one store — is unique in the market. Each brand-specific page competes against DA 18-28 sites, not DA 50+ giants. This is the most important structural advantage in this plan.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="landscape"></div>
+<p class="sec">SERP Landscape &amp; Winnability</p>
+
+<div class="card">
+  <h2>SERP Classification by Keyword — Who You Are Competing Against</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Keyword</th>
+        <th>SERP Type</th>
+        <th>Top 3 Domains</th>
+        <th>Their DAs</th>
+        <th>Winnable?</th>
+        <th>Timeline</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="grp"><td colspan="6">Rendering Silo — Winning Lane</td></tr>
+      <tr>
+        <td><strong>rendering supplies melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>tradetools.com.au, bellplaster.com.au, archiway.com.au</td>
+        <td>36, 28, 22</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-med">6-9 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>rockcote rendering systems melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>rockcote.com.au, crowntex.com.au, archiway.com.au</td>
+        <td>38, 18, 22</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-fast">3-6 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>unitex render system melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>unitex.com.au, archiway.com.au, hipages.com.au</td>
+        <td>32, 22, 58*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-fast">3-6 months</span></td>
+      </tr>
+      <tr class="grp"><td colspan="6">Cladding Silo — Brand + Distributor Pages</td></tr>
+      <tr>
+        <td><strong>hebel panels supplier melbourne</strong></td>
+        <td>directories</td>
+        <td>hebelblockwork.com.au, hipages.com.au*, truelocal.com.au*</td>
+        <td>30, 58*, 42*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-fast">3-6 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>james hardie cladding supplier melbourne</strong></td>
+        <td>mixed</td>
+        <td>jameshardie.com.au, hipages.com.au*, builderscrack.com.au*</td>
+        <td>65, 58*, 44*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-med">6-9 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>nrg greenboard supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>nrgpanels.com.au, hipages.com.au*, truelocal.com.au*</td>
+        <td>24, 58*, 42*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-fast">3-6 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>external cladding systems melbourne</strong></td>
+        <td>mixed</td>
+        <td>archiproducts.com, archipro.com.au, jameshardie.com.au</td>
+        <td>52, 44, 65</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-slow">9-12 months</span></td>
+      </tr>
+      <tr class="grp"><td colspan="6">Waterproofing &amp; Tiling</td></tr>
+      <tr>
+        <td><strong>waterproofing products supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>nationaltiles.com.au, totaltools.com.au, hipages.com.au*</td>
+        <td>48, 38, 58*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-med">6-9 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>tiling adhesives supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>hipages.com.au*, totaltools.com.au, archiway.com.au</td>
+        <td>58*, 38, 22</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-med">6-9 months</span></td>
+      </tr>
+      <tr class="grp"><td colspan="6">Decorative Finishes — Fastest Quick Wins</td></tr>
+      <tr>
+        <td><strong>venetian plaster supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>amberstudio.com.au, shopfinale.com.au, paintrite.com.au</td>
+        <td>16, 14, 18</td>
+        <td><span class="verdict" style="margin:0">Yes — fastest</span></td>
+        <td><span class="timeline-badge t-fast">3-6 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>micro cement supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>micromentaustralia.com.au, tilecloud.com.au, hipages.com.au*</td>
+        <td>12, 26, 58*</td>
+        <td><span class="verdict" style="margin:0">Yes — #1 in 90 days</span></td>
+        <td><span class="timeline-badge t-fast">2-3 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>wall sarking supplier melbourne</strong></td>
+        <td>local_businesses</td>
+        <td>sarkingaustralia.com.au, hipages.com.au*, truelocal.com.au*</td>
+        <td>18, 58*, 42*</td>
+        <td><span class="verdict" style="margin:0">Yes</span></td>
+        <td><span class="timeline-badge t-fast">3-4 months</span></td>
+      </tr>
+      <tr class="grp"><td colspan="6">Hub &amp; Long-Term Strategic</td></tr>
+      <tr>
+        <td><strong>building supplies melbourne</strong></td>
+        <td>major_brands</td>
+        <td>bunnings.com.au, bowens.com.au, tradetools.com.au</td>
+        <td>78, 52, 36</td>
+        <td><span class="flag" style="margin:0">12+ months</span></td>
+        <td><span class="timeline-badge t-long">12+ months</span></td>
+      </tr>
+      <tr>
+        <td><strong>tiling supplies melbourne</strong></td>
+        <td>retail_giants</td>
+        <td>nationaltiles.com.au, beaumont-tiles.com.au, tilesexposed.com.au</td>
+        <td>48, 46, 28</td>
+        <td><span class="verdict" style="margin:0">Yes — trade angle</span></td>
+        <td><span class="timeline-badge t-slow">9-12 months</span></td>
+      </tr>
+      <tr>
+        <td><strong>hebel vs fibre cement cladding</strong></td>
+        <td>informational</td>
+        <td>hipages.com.au*, jameshardie.com.au, archiproducts.com</td>
+        <td>58*, 65, 52</td>
+        <td><span class="verdict" style="margin:0">Yes — featured snippet</span></td>
+        <td><span class="timeline-badge t-slow">9-12 months</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="note">* Directory or aggregator sites — easier to outrank than the DA suggests, as dedicated specialist pages consistently outperform directory listings for supplier-intent queries.</p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="general-pages"></div>
+<p class="sec">General Pages (15)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Primary Keyword + Secondaries</th>
+      <th>Vol/mo</th>
+      <th>KD</th>
+      <th>CPC</th>
+      <th>Category</th>
+      <th>Target URL</th>
+      <th>Priority</th>
+      <th>Timeline</th>
+      <th>Action</th>
+      <th>Strategic Reasoning</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- RENDERING SILO -->
+    <tr class="grp"><td colspan="11">Rendering Supplies Silo</td></tr>
+
+    <tr>
+      <td>G01</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">rendering supplies melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">render supplies melbourne</span><span class="v"><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">cement render supplier melbourne</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">solid plastering supplies melbourne</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">polymer render supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">acrylic render supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">trade rendering supplies melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">plasterer supplies melbourne</span><span class="v"><b>30</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>170</b></td>
+      <td>18</td>
+      <td class="bid">$3.20</td>
+      <td><span class="pt pt-render">Rendering</span></td>
+      <td><span class="url">/rendering-supplies/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-must">Must-Have</span></td>
+      <td><span class="timeline-badge t-med">6-9 mo</span></td>
+      <td>Create new product category page — 1,500+ words</td>
+      <td class="note">Primary Tier A category page. Bell Plaster at #3 (DA 28) is the blocking competitor — beatable from DA 4 with official Rockcote + Unitex distributor content Bell Plaster cannot match. SERP: local_businesses type, no national giants. Gap: no rendering supplies page exists. Content: full range (Rockcote, Unitex, cement, polymer, acrylic), system guides, 5:30AM open, trade pricing, PAA 'What is the best rendering system for external walls?' directly capturable.</td>
+    </tr>
+
+    <tr>
+      <td>G02</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">rockcote rendering systems melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">rockcote supplier melbourne</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">rockcote stockist melbourne</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">rockcote acrylic render supplier</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">official rockcote distributor melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">rockcote vs unitex melbourne</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>70</b></td>
+      <td>12</td>
+      <td class="bid">$2.90</td>
+      <td><span class="pt pt-render">Rendering</span></td>
+      <td><span class="url">/rockcote-rendering-systems/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">3-6 mo</span></td>
+      <td>Brand distributor page — 1,200+ words</td>
+      <td class="note">Official Rockcote distributor (Q14) — decisive E-E-A-T for brand+supplier query. Crowntex (DA 18) at #2 is directly beatable. Rockcote own site at #1 is expected — distributor page at #2 is the standard pattern. Crowntex has thin content; a full Rockcote system catalogue page with technical datasheets wins this slot. Autocomplete confirms 'rockcote supplier melbourne' (50/mo) as a high-volume variant.</td>
+    </tr>
+
+    <tr>
+      <td>G03</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">unitex render system melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">unitex render supplier melbourne</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">unitex stockist melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">unitex coatings melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">unitex render price</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>40</b></td>
+      <td>11</td>
+      <td class="bid">$2.60</td>
+      <td><span class="pt pt-render">Rendering</span></td>
+      <td><span class="url">/unitex-render-system/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">3-6 mo</span></td>
+      <td>Brand distributor page — 1,000+ words</td>
+      <td class="note">First-mover opportunity — no Melbourne competitor has a dedicated Unitex distributor page. Unitex own site at #1 (DA 32), Archiway (DA 22) at #2 with thin content, directory at #3. An official distributor page with full Unitex range + technical system guides ranks #2 within 3-6 months. Metrobuild's ability to compare Rockcote vs Unitex (both stocked) gives unique content authority no single-brand competitor can replicate.</td>
+    </tr>
+
+    <!-- CLADDING SILO -->
+    <tr class="grp"><td colspan="11">Cladding &amp; AAC Panels Silo</td></tr>
+
+    <tr>
+      <td>G04</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">hebel panels supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">hebel supplier melbourne</span><span class="v"><b>110</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">aac panels supplier melbourne</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">hebel panels price</span><span class="v"><b>140</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">hebel panel delivery melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">crane delivery aac panels melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">official hebel distributor melbourne</span><span class="v"><b>10</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>90</b></td>
+      <td>16</td>
+      <td class="bid">$4.50</td>
+      <td><span class="pt pt-clad">Cladding</span></td>
+      <td><span class="url">/hebel-aac-panels/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-must">Must-Have</span></td>
+      <td><span class="timeline-badge t-fast">3-6 mo</span></td>
+      <td>Product category page — 1,400+ words</td>
+      <td class="note">Highest-ticket product in Metrobuild's range ($4.50 CPC). Directories only at #2-3 — no specialist Melbourne Hebel supplier page exists. Official distributor + crane/forklift delivery are decisive USPs: the PAA "Does Bowens sell Hebel panels?" shows users know Bowens isn't the answer, creating a search vacuum Metrobuild fills. Secondary "hebel panels price" (140/mo) is the highest-volume secondary across all silos — include a pricing section. Cover all three AAC brands: Hebel, Nasahi, Eastland.</td>
+    </tr>
+
+    <tr>
+      <td>G05</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">james hardie cladding supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">james hardie supplier melbourne</span><span class="v"><b>70</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">fibre cement cladding supplier melbourne</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">hardie plank supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">authorised james hardie supplier melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">fibre cement sheet supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>90</b></td>
+      <td>19</td>
+      <td class="bid">$5.20</td>
+      <td><span class="pt pt-clad">Cladding</span></td>
+      <td><span class="url">/james-hardie-cladding/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-must">Must-Have</span></td>
+      <td><span class="timeline-badge t-med">6-9 mo</span></td>
+      <td>Brand distributor page — 1,200+ words</td>
+      <td class="note">Highest CPC in the portfolio ($5.20) — confirmed purchase intent. James Hardie's own site at #1 is expected (DA 65). Directories at #2-3 — PAA "Who are authorised James Hardie suppliers in Melbourne?" explicitly signals demand for a local distributor. No Bell Plaster, Archiway, or Crowntex has a James Hardie page. Cover HardiePanel, HardiePlank, HardieFlex, HardieSoffit ranges. NCC Section C fire compliance angle (CodeMark certification) is a builder trust signal only an authorised supplier can credibly make.</td>
+    </tr>
+
+    <tr>
+      <td>G08</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">nrg greenboard supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">nrg greenboard supplier</span><span class="v"><b>50</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">eps render board supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">insulated render board supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">statewall eps supplier melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">nrg greenboard price</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>30</b></td>
+      <td>8</td>
+      <td class="bid">$2.80</td>
+      <td><span class="pt pt-clad">EPS/Cladding</span></td>
+      <td><span class="url">/nrg-greenboard-eps/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">3-6 mo</span></td>
+      <td>Brand distributor page — 1,000+ words</td>
+      <td class="note">Lowest KD in Tier B (KD 8). NRG own site at #1 (DA 24) is the only real content. No Melbourne trade supplier has a dedicated NRG Greenboard page — confirmed absence from SERP. Secondary "nrg greenboard supplier" (50/mo, national) adds geographic reach. Metrobuild also carries Statewall EPS — covering both EPS brands makes this Melbourne's most comprehensive EPS supplier page. First-mover advantage is strong; a quality page ranks #2 within 3-4 months.</td>
+    </tr>
+
+    <tr>
+      <td>G09</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">external cladding systems melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">external cladding supplier melbourne</span><span class="v"><b>70</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">cladding supplies melbourne</span><span class="v"><b>110</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">cladding materials supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">codemark certified cladding supplier melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">ncc compliant cladding system melbourne</span><span class="v"><b>10</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>90</b></td>
+      <td>24</td>
+      <td class="bid">$3.50</td>
+      <td><span class="pt pt-clad">Cladding Hub</span></td>
+      <td><span class="url">/external-cladding-systems/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-strat">Strategic Bet</span></td>
+      <td><span class="timeline-badge t-slow">9-12 mo</span></td>
+      <td>Comparison/buyer guide — 1,800+ words</td>
+      <td class="note">Topical authority hub linking to Hebel, James Hardie, and NRG pages. Informational-commercial SERP — AI overview present (medium deflection) but no local supplier content ranks. Metrobuild is the only Melbourne supplier with all three cladding types (AAC + FC + EPS) in stock — a comparison guide "AAC vs EPS vs Fibre Cement" written from the perspective of an authorised distributor of all three cannot be replicated by Bell Plaster or Crowntex. NCC/CodeMark compliance angle (Q21) builds trust for builders and certifiers.</td>
+    </tr>
+
+    <tr>
+      <td>G15</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">hebel vs fibre cement cladding</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">what is the best render system for external walls</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">aac panels vs eps panels</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">is hebel fire resistant</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">can you render over hebel</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">how to choose external cladding system</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>70</b></td>
+      <td>15</td>
+      <td class="bidn">$0.00</td>
+      <td><span class="pt pt-clad">Content Pillar</span></td>
+      <td><span class="url">/hebel-vs-fibre-cement-cladding/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-content">Content Pillar</span></td>
+      <td><span class="timeline-badge t-slow">9-12 mo</span></td>
+      <td>Comparison guide — 1,500+ words (informational-commercial)</td>
+      <td class="note">Only informational-commercial content pillar in the plan (max 15% budget). Featured snippet currently held by hipages (directory — beatable). Metrobuild stocks BOTH Hebel AND James Hardie — unique dual-brand expertise for a genuine comparison. PAA cluster: cost comparison, fire resistance, rendering over Hebel. Primary function: decision-stage builders who click through to /hebel-aac-panels/ or /james-hardie-cladding/ after reading. Strong internal linking power for both cladding silos.</td>
+    </tr>
+
+    <!-- WATERPROOFING + TILING -->
+    <tr class="grp"><td colspan="11">Waterproofing &amp; Tiling Silo</td></tr>
+
+    <tr>
+      <td>G06</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">waterproofing products supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">waterproofing products melbourne</span><span class="v"><b>170</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">waterproofing membrane supplier melbourne</span><span class="v"><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">waterproofing membrane melbourne</span><span class="v"><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">liquid membrane supplier melbourne</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">shower waterproofing membrane supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">waterproofing membrane price melbourne</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>110</b></td>
+      <td>17</td>
+      <td class="bid">$3.40</td>
+      <td><span class="pt pt-water">Waterproofing</span></td>
+      <td><span class="url">/waterproofing-products/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-must">Must-Have</span></td>
+      <td><span class="timeline-badge t-med">6-9 mo</span></td>
+      <td>Product category page — 1,200+ words</td>
+      <td class="note">National Tiles at #1 (DA 48) but it's a consumer tile retailer — it does not sell waterproofing membranes to trade contractors. This is a genuine category gap in the trade B2B SERP. Secondary "waterproofing products melbourne" (170/mo) adds significant reach. Content angle: trade waterproofing for tilers and waterproofers — AS 3740 compliance, wet area systems, NCC-compliant membranes (Q21). Internal link to /tiling-supplies/ creates a natural waterproofer's workflow page pair.</td>
+    </tr>
+
+    <tr>
+      <td>G07 / G14</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">tiling adhesives supplier melbourne</span><span class="v" style="margin-left:3px">KD 14 — primary target</span></div>
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">tiling supplies melbourne</span><span class="v" style="margin-left:3px">KD 22 — broader head term (same page)</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">tile adhesive supplier melbourne</span><span class="v"><b>90</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">tiling products trade supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">grout supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">trade tiling supplies melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">trade supplier for tilers melbourne</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>70+140</b></td>
+      <td>14 / 22</td>
+      <td class="bid">$3.20</td>
+      <td><span class="pt pt-tile">Tiling</span></td>
+      <td><span class="url">/tiling-supplies/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-must">Must-Have</span></td>
+      <td><span class="timeline-badge t-med">6-9 mo (adhesive) / 9-12 mo (supplies)</span></td>
+      <td>Product category page — 1,200+ words (ONE page, two primary targets)</td>
+      <td class="note">One page — two keyword targets. Quick win path: "tiling adhesives supplier melbourne" (KD 14) via trade-specific content; Archiway (DA 22) at #3 is directly beatable. Growth path: "tiling supplies melbourne" (KD 22) where National Tiles leads but is consumer-focused — trade positioning differentiates. Content must speak to the tiler audience: bulk adhesive pricing, multiple system options, same-day availability. Internal link to /waterproofing-products/ creates a complete wet area supply workflow.</td>
+    </tr>
+
+    <!-- DECORATIVE FINISHES -->
+    <tr class="grp"><td colspan="11">Decorative Finishes Silo — Fastest Quick Wins</td></tr>
+
+    <tr>
+      <td>G10</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">venetian plaster supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">venetian plaster stockists melbourne</span><span class="v"><b>40</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">venetian plaster buy melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">decorative plaster supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">polished plaster supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">venetian plaster cost melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">venetian plaster stockists</span><span class="v"><b>30</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>50</b></td>
+      <td>13</td>
+      <td class="bid">$4.20</td>
+      <td><span class="pt pt-deco">Decorative</span></td>
+      <td><span class="url">/venetian-plaster/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">3-6 mo</span></td>
+      <td>Product page — 1,000+ words</td>
+      <td class="note">Best risk-adjusted quick win on the board. Top 3 domains are DA 14-18 (amberstudio, shopfinale, paintrite) — beatable within months from even DA 4-8. CPC $4.20 confirms genuine purchase intent. No named competitor (Bell Plaster, Bowens, National Tiles, Archiway, Crowntex) has a venetian plaster page — Metrobuild is the only Melbourne trade store that stocks this and can write about it authoritatively. Secondary "venetian plaster stockists" (30/mo, national) adds non-geo reach.</td>
+    </tr>
+
+    <tr>
+      <td>G11</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">micro cement supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">microcement supplier melbourne</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">micro cement buy melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">micro cement stockist melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">micro cement price melbourne</span><span class="v"><b>20</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>40</b></td>
+      <td>9</td>
+      <td class="bid">$5.10</td>
+      <td><span class="pt pt-deco">Decorative</span></td>
+      <td><span class="url">/micro-cement/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">2-3 mo</span></td>
+      <td>Product page — 900+ words</td>
+      <td class="note"><strong>Highest CPC in the portfolio ($5.10) at KD 9.</strong> Current #1 is micromentaustralia.com.au at DA 12 — almost certainly beatable within 60-90 days of a quality page launch. No Melbourne trade store has dedicated micro cement content. Metrobuild is likely the only Melbourne trade store with both micro cement AND venetian plaster in stock — this dual-product authority in the decorative finishes silo is unique. The entire top 3 SERP is thin content; a proper product page with application guidance and trade pricing dominates.</td>
+    </tr>
+
+    <!-- MISC / ANCILLARY -->
+    <tr class="grp"><td colspan="11">Ancillary Products &amp; Hub</td></tr>
+
+    <tr>
+      <td>G12</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">wall sarking supplier melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wall wrap supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">wall sarking melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">building wrap supplier melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">sarking for cladding melbourne</span><span class="v"><b>10</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">do i need sarking behind hebel cladding</span><span class="v"><b>10</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>7</td>
+      <td class="bid">$2.90</td>
+      <td><span class="pt pt-misc">Ancillary</span></td>
+      <td><span class="url">/wall-sarking/</span><br><span class="status s-new">NEW</span></td>
+      <td><span class="priority-badge pr-quick">Quick Win</span></td>
+      <td><span class="timeline-badge t-fast">3-4 mo</span></td>
+      <td>Product page — 800+ words</td>
+      <td class="note">KD 7 — lowest on the board. Sarking specialists at #1 (DA 18), directories at #2-3. Niche product with high purchase specificity — searchers are purchase-ready tradies. PAA "Do I need sarking behind Hebel cladding?" creates a natural internal link bridge to /hebel-aac-panels/. This page strengthens the AAC cladding silo and captures complementary accessory revenue. A quality 800-word page with product specifications and Hebel compatibility information wins within 3-4 months.</td>
+    </tr>
+
+    <tr>
+      <td>G13</td>
+      <td>
+        <div class="kws">
+          <div class="kw-row"><span class="role r-p">P</span><span class="kw">building supplies melbourne</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">building materials melbourne</span><span class="v"><b>260</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">trade building supplies melbourne</span><span class="v"><b>30</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">building supplies south east melbourne</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">building supplies springvale</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">trade supplies springvale</span><span class="v"><b>20</b>/mo</span></div>
+          <div class="kw-row"><span class="role r-s">S</span><span class="kw">building supplies open saturday sunday melbourne</span><span class="v"><b>10</b>/mo</span></div>
+        </div>
+      </td>
+      <td><span class="dot dot-vol"></span><b>390</b></td>
+      <td>34</td>
+      <td class="bid">$2.80</td>
+      <td><span class="pt pt-hub">Hub Page</span></td>
+      <td><span class="url">/</span> (Homepage)<br><span class="status s-update">UPDATE</span></td>
+      <td><span class="priority-badge pr-anchor">Strategic Anchor</span></td>
+      <td><span class="timeline-badge t-long">12+ mo (organic) / 3-6 mo (GMB local pack)</span></td>
+      <td>Homepage — expand to 1,200+ words, add product silo sections, schema</td>
+      <td class="note">Highest-volume keyword (390/mo) but KD 34 against Bunnings (DA 78) and Bowens (DA 52) at #1-2 — not a realistic organic ranking in year 1. This is selected for homepage authority and site architecture: all product silos link from here. The LOCAL PACK is the near-term win — "building supplies springvale" and "trade supplies springvale" drive foot traffic via GMB optimisation achievable within 3-6 months. Secondary "trade building supplies melbourne" (30/mo) is achievable at position 3-5 within 9-12 months as domain authority grows through specialist content wins.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="location-pages"></div>
+<p class="sec">Location Pages (10) — Rendering Supplies Silo</p>
+
+<div class="card card-amber">
+  <h2>Location Page Strategy — "Rendering Supplies {Suburb}" x 10</h2>
+  <div class="block-body">
+    <p><strong>All 10 location pages use the "rendering supplies" service silo</strong> — chosen over "building supplies" because Bowens has location pages for every major Melbourne suburb. The rendering supplies SERP at suburb level returns only directories (Yellow Pages, hipages, True Local) — no specialist supplier pages exist anywhere. This is a clean sweep opportunity.</p>
+    <p><strong>All 10 keywords have KD 4-5</strong> — achievable within 3-6 months of launch with quality, non-templated content. Springvale is the store's home suburb — it maps to the homepage, not a location page.</p>
+    <p><strong>Suburb selection rationale:</strong> Southeast primary (5 suburbs closest to store), outer SE growth corridor (2), western expansion (1), northern expansion (1), inner commercial (1).</p>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Primary Keyword</th>
+      <th>Vol/mo</th>
+      <th>KD</th>
+      <th>Suburb</th>
+      <th>Ring</th>
+      <th>Target URL</th>
+      <th>Priority</th>
+      <th>Secondary Keywords</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>L01</td>
+      <td><strong>rendering supplies dandenong</strong></td>
+      <td><span class="dot dot-vol"></span><b>30</b></td>
+      <td>5</td>
+      <td>Dandenong</td>
+      <td>SE Primary</td>
+      <td><span class="url">/rendering-supplies-dandenong/</span></td>
+      <td><span class="priority-badge pr-must">Priority 1</span></td>
+      <td>render supplies dandenong · building supplies dandenong · hebel supplier dandenong · waterproofing products dandenong</td>
+      <td class="note">Industrial and trade hub of SE Melbourne — highest tradie density in the region. 8km from store. Directories only in top 3.</td>
+    </tr>
+    <tr>
+      <td>L02</td>
+      <td><strong>rendering supplies glen waverley</strong></td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>5</td>
+      <td>Glen Waverley</td>
+      <td>SE Primary</td>
+      <td><span class="url">/rendering-supplies-glen-waverley/</span></td>
+      <td><span class="priority-badge pr-must">Priority 2</span></td>
+      <td>render supplies glen waverley · building supplies glen waverley · tiling supplies glen waverley</td>
+      <td class="note">Major SE Melbourne hub, high residential and commercial construction. Active real estate market. 15km from store.</td>
+    </tr>
+    <tr>
+      <td>L03</td>
+      <td><strong>rendering supplies clayton</strong></td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>4</td>
+      <td>Clayton</td>
+      <td>SE Primary</td>
+      <td><span class="url">/rendering-supplies-clayton/</span></td>
+      <td><span class="priority-badge pr-must">Priority 3</span></td>
+      <td>render supplies clayton · building supplies clayton</td>
+      <td class="note">Springvale Road corridor — directly connected to store. Active commercial/medical precinct construction. 7km from store.</td>
+    </tr>
+    <tr>
+      <td>L04</td>
+      <td><strong>rendering supplies keysborough</strong></td>
+      <td><span class="dot dot-low"></span><b>10</b></td>
+      <td>4</td>
+      <td>Keysborough</td>
+      <td>SE Primary</td>
+      <td><span class="url">/rendering-supplies-keysborough/</span></td>
+      <td><span class="priority-badge pr-must">Priority 4</span></td>
+      <td>render supplies keysborough · building supplies keysborough</td>
+      <td class="note">Heavy industrial zone adjacent to store (3km). Highest tradie concentration immediately around Springvale. Hyper-local searchers are near-certain store visitors.</td>
+    </tr>
+    <tr>
+      <td>L05</td>
+      <td><strong>rendering supplies noble park</strong></td>
+      <td><span class="dot dot-low"></span><b>10</b></td>
+      <td>4</td>
+      <td>Noble Park</td>
+      <td>SE Primary</td>
+      <td><span class="url">/rendering-supplies-noble-park/</span></td>
+      <td><span class="priority-badge pr-must">Priority 5</span></td>
+      <td>render supplies noble park · trade store noble park</td>
+      <td class="note">Adjacent to Springvale and Keysborough trade cluster. Blankets the immediate store catchment area. 4km from store.</td>
+    </tr>
+    <tr>
+      <td>L06</td>
+      <td><strong>rendering supplies cranbourne</strong></td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>4</td>
+      <td>Cranbourne</td>
+      <td>SE Outer</td>
+      <td><span class="url">/rendering-supplies-cranbourne/</span></td>
+      <td><span class="priority-badge pr-strat">Priority 6</span></td>
+      <td>render supplies cranbourne · building supplies cranbourne</td>
+      <td class="note">Fast-growing outer SE growth corridor with continuous new home construction. Ute/tray truck delivery capacity from 5:30AM departure covers 30km distance credibly.</td>
+    </tr>
+    <tr>
+      <td>L07</td>
+      <td><strong>rendering supplies berwick</strong></td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>4</td>
+      <td>Berwick</td>
+      <td>SE Outer</td>
+      <td><span class="url">/rendering-supplies-berwick/</span></td>
+      <td><span class="priority-badge pr-strat">Priority 7</span></td>
+      <td>render supplies berwick · building supplies berwick</td>
+      <td class="note">Casey growth corridor epicentre — one of Melbourne's largest residential development zones. High rendering demand from thousands of new annual builds. 35km from store.</td>
+    </tr>
+    <tr>
+      <td>L08</td>
+      <td><strong>rendering supplies truganina</strong></td>
+      <td><span class="dot dot-low"></span><b>10</b></td>
+      <td>4</td>
+      <td>Truganina</td>
+      <td>Western</td>
+      <td><span class="url">/rendering-supplies-truganina/</span></td>
+      <td><span class="priority-badge pr-strat">Priority 8</span></td>
+      <td>render supplies truganina · building supplies truganina</td>
+      <td class="note">Melbourne's fastest-growing western suburb with massive land estate construction. Ring road access makes Springvale delivery viable. Only western suburb in the grid.</td>
+    </tr>
+    <tr>
+      <td>L09</td>
+      <td><strong>rendering supplies craigieburn</strong></td>
+      <td><span class="dot dot-low"></span><b>10</b></td>
+      <td>4</td>
+      <td>Craigieburn</td>
+      <td>Northern</td>
+      <td><span class="url">/rendering-supplies-craigieburn/</span></td>
+      <td><span class="priority-badge pr-strat">Priority 9</span></td>
+      <td>render supplies craigieburn · building supplies craigieburn</td>
+      <td class="note">Northern growth corridor equivalent of Berwick. Massive housing estates, high rendering demand. Only northern suburb in the grid. 50km from store — emphasise crane delivery for AAC + early dispatch.</td>
+    </tr>
+    <tr>
+      <td>L10</td>
+      <td><strong>rendering supplies richmond</strong></td>
+      <td><span class="dot dot-vol"></span><b>20</b></td>
+      <td>5</td>
+      <td>Richmond</td>
+      <td>Inner Commercial</td>
+      <td><span class="url">/rendering-supplies-richmond/</span></td>
+      <td><span class="priority-badge pr-strat">Priority 10</span></td>
+      <td>render supplies richmond · building supplies richmond · venetian plaster supplier richmond</td>
+      <td class="note">Inner-city commercial hub with boutique builders, heritage restoration contractors, and luxury fitout companies — the audience for venetian plaster and micro cement. The cross-sell secondary "venetian plaster supplier richmond" captures decorative finish demand. Content emphasis: same-day delivery to job sites, decorative finish expertise.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="silos"></div>
+<p class="sec">Silo Architecture &amp; Internal Linking</p>
+
+<div class="card">
+  <h2>Content Silo Architecture — Hub-and-Spoke Structure</h2>
+  <div class="three-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Rendering Silo</div>
+        <div class="block-body">
+          <p><strong>Hub:</strong> /rendering-supplies/</p>
+          <p><strong>Spokes:</strong></p>
+          <ul>
+            <li>/rockcote-rendering-systems/</li>
+            <li>/unitex-render-system/</li>
+            <li>Location pages (all 10)</li>
+          </ul>
+          <p><strong>Logic:</strong> Official distributor of Rockcote + Unitex. Two brand pages feed authority back to the hub. Location pages link to the hub for geographic breadth.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Cladding Silo</div>
+        <div class="block-body">
+          <p><strong>Hub:</strong> /external-cladding-systems/</p>
+          <p><strong>Spokes:</strong></p>
+          <ul>
+            <li>/hebel-aac-panels/</li>
+            <li>/james-hardie-cladding/</li>
+            <li>/nrg-greenboard-eps/</li>
+            <li>/wall-sarking/</li>
+            <li>/hebel-vs-fibre-cement-cladding/ (content)</li>
+          </ul>
+          <p><strong>Logic:</strong> Comparison hub links out to three brand pages + sarking ancillary. Content pillar page feeds both Hebel and James Hardie pages.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Waterproofing + Tiling + Decorative</div>
+        <div class="block-body">
+          <p><strong>Waterproofing hub:</strong> /waterproofing-products/</p>
+          <ul><li>&harr; /tiling-supplies/ (cross-link)</li></ul>
+          <p><strong>Decorative hub:</strong> /venetian-plaster/</p>
+          <ul><li>&rarr; /micro-cement/ (sub-page)</li></ul>
+          <p><strong>Homepage hub:</strong> / Links to ALL silos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="implementation"></div>
+<p class="sec">Implementation Sequence &amp; Timeline</p>
+
+<div class="card">
+  <h2>12-Month Implementation Roadmap</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Wave</th>
+        <th>Timeline</th>
+        <th>Pages</th>
+        <th>Goal</th>
+        <th>Expected Outcome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Wave 1</strong></td>
+        <td>Month 1-3</td>
+        <td>G11 Micro Cement · G10 Venetian Plaster · G12 Wall Sarking · G08 NRG Greenboard · Homepage update (G13) + GMB</td>
+        <td>Immediate quick wins + brand foundation</td>
+        <td>Micro cement #1-2 within 60-90 days (DA 12 at #1). Venetian plaster top 3 within 3-4 months. Wall sarking &amp; NRG quick wins. GMB local pack for "trade supplies springvale" within 6-8 weeks.</td>
+      </tr>
+      <tr>
+        <td><strong>Wave 2</strong></td>
+        <td>Month 2-4</td>
+        <td>G02 Rockcote · G03 Unitex · G04 Hebel Panels · Location pages L01–L05 (SE primary)</td>
+        <td>Brand distributor pages + SE location coverage</td>
+        <td>Rockcote &amp; Unitex pages rank #2 (Crowntex/Archiway displaced). Hebel page captures directories SERP. SE location pages rank within 3-6 months in all-directories SERPs.</td>
+      </tr>
+      <tr>
+        <td><strong>Wave 3</strong></td>
+        <td>Month 4-6</td>
+        <td>G01 Rendering Supplies · G06 Waterproofing · G07 Tiling Adhesives · Location pages L06–L10</td>
+        <td>Core category pages + full geographic coverage</td>
+        <td>Rendering supplies hub page begins climbing — Bell Plaster challenged. Waterproofing &amp; tiling trade pages live. Full 10-suburb location grid complete.</td>
+      </tr>
+      <tr>
+        <td><strong>Wave 4</strong></td>
+        <td>Month 6-9</td>
+        <td>G05 James Hardie · G14 Tiling Supplies (broad) · G09 External Cladding Systems</td>
+        <td>Harder targets with growing DA</td>
+        <td>James Hardie page begins indexing — directories SERP. Tiling supplies trade page challenges National Tiles on trade-specific variant. Cladding hub builds topical authority breadth.</td>
+      </tr>
+      <tr>
+        <td><strong>Wave 5</strong></td>
+        <td>Month 9-12</td>
+        <td>G15 Hebel vs Fibre Cement (content pillar) · Review all Wave 1-4 pages for optimisation</td>
+        <td>Topical authority + featured snippet capture</td>
+        <td>Content pillar drives informational traffic into cladding product pages. Featured snippet for "hebel vs fibre cement" targeted. Full site review: optimise page 2-5 rankings pushing toward page 1.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card card-green">
+  <h2>Priority Summary: What to Build First for Maximum ROI</h2>
+  <div class="two-col">
+    <div>
+      <div class="block">
+        <div class="block-title">Absolute First (within 30 days)</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>/micro-cement/</strong> — DA 12 competitor at #1, $5.10 CPC, 2-3 month win</li>
+            <li><strong>/venetian-plaster/</strong> — DA 14-18 at #1-3, $4.20 CPC, 3-4 month win</li>
+            <li><strong>Homepage update + GMB</strong> — local pack for "trade supplies springvale" fastest possible win</li>
+            <li><strong>/nrg-greenboard-eps/</strong> — KD 8, DA 24 at #1, no competitor page exists</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="block">
+        <div class="block-title">Key New-Domain Warnings</div>
+        <div class="block-body">
+          <ul>
+            <li><strong>Do not chase "building supplies melbourne" early</strong> — Bunnings (DA 78) + Bowens (DA 52) cannot be beaten from DA 4. This is a 12+ month target and that is realistic.</li>
+            <li><strong>GMB optimisation is equal priority to content</strong> — local pack signals drive most trade enquiries for store-visit searches.</li>
+            <li><strong>Link building is critical</strong> — industry directories, trade association listings, supplier partner pages are the fastest way to build DA from 4 to 15+ in year 1.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="height:40px;"></div>
+<p class="note" style="text-align:center;padding:10px 0 30px;">Metrobuild Keyword Plan v1 &nbsp;&middot;&nbsp; 25 pages (15 general + 10 location) &nbsp;&middot;&nbsp; 7 May 2026 &nbsp;&middot;&nbsp; Springvale, VIC</p>
+
+</div><!-- /wrap -->
+</body>
+</html>

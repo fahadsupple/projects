@@ -44,4 +44,4 @@
 - [mckinnonheating.com.au](project_mckinnonheating.md) — McKinnon Heating & Cooling, Melbourne Bayside HVAC, 5 general + 50 location, kwr:init complete 24 Apr 2026
 - [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v3 complete 7 May 2026 (13G+15L, client Q&A, competitor analysis, AEO) ✅
 - [styldmelbourne.com.au](project_styld.md) — STYLD Melbourne, home staging & property styling, Melbourne-wide, keyword-plan.html v1.3 complete 5 May 2026 ✅
-- [metrobuildsuppliers.com.au](project_metrobuildsuppliers.md) — Metrobuild Building & Construction Suppliers, Springvale trade supply store, 15G+10L, kwr:init complete 7 May 2026
+- [metrobuildsuppliers.com.au](project_metrobuildsuppliers.md) — Metrobuild Building & Construction Suppliers, Springvale trade supply store, 15G+10L, keyword plan v1 complete 7 May 2026 ✅
