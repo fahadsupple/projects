@@ -1,9 +1,9 @@
 ---
 name: energus.com.au client profile
-description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research complete Apr 2026
+description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research v3 complete May 2026
 type: project
+originSessionId: 4119d043-25e3-4b90-b150-4ec41c6634de
 ---
-
 # Energus Pty Ltd — Client Profile
 
 ## Identity
@@ -48,11 +48,7 @@ type: project
 5. Energy consultants
 
 ## Geographic Scope
-**State-level, not suburb-level.** Capital city level targeting.
-- NSW → Sydney
-- QLD → Brisbane
-- VIC → Melbourne
-- SA → Adelaide
+**Client-specified cities (v3):** Sydney, Melbourne, Brisbane, Adelaide, Newcastle/Hunter Valley, Wollongong, Wetherill Park (NSW industrial), Dandenong South (VIC industrial), Townsville (QLD), Yatala (QLD industrial)
 
 ## USPs (Keyword Research Relevant)
 1. End-to-end service (design → install → monitoring)
@@ -76,56 +72,66 @@ type: project
 - New Energy Tech Approved Seller
 - ISO 9001:2016 | ISO 45001:2018
 
-## Competitors
-| Competitor | Domain | Notes |
-|------------|--------|-------|
-| Smart Commercial Energy | smartcommercialenergy.com.au | BDM + client mentioned — primary direct competitor, DR rank 241 (weaker than Energus at rank 185) |
-| AGL (commercial solar) | agl.com.au | Large energy retailer — national brand but not a C&I specialist |
-| Todae Solar | todaesolar.com.au | C&I solar specialist — ranks for several service terms |
-| TSP Energy | — | Client-mentioned |
-| Kuga | 13kuga.com.au | Client-mentioned — ranks for Melbourne commercial solar terms |
+## Competitors (DataForSEO metrics pulled May 2026)
+| Competitor | Domain | Ranked KWs | ETV | Traffic Value | Notes |
+|------------|--------|-----------|-----|--------------|-------|
+| Kuga | 13kuga.com.au | 112 | 1,151/mo | $29,714/mo | Strongest competitor — owns top solar terms |
+| Smart Commercial Energy | smartcommercialenergy.com.au | 357 | 1,173/mo | $17,059/mo | More keywords but lower-value traffic |
+| Todae Solar | todaesolar.com.au | 40 | 73/mo | — | Thin SEO presence |
+| Energus current | energus.com.au | 33 | 71/mo | — | Significant gap vs. competitors |
 
-## Final Keyword Plan — Summary
+**Keyword gaps no competitor owns:** battery storage terms, solar finance, industrial solar specifically
+**Kuga weakness:** no battery storage content, no finance content — immediate opportunity for Energus
 
-### General Pages (10) — v2 final plan
+## Final Keyword Plan — v3 Summary (7 May 2026)
+**Structure: 13 General + 15 Location = 28 pages total**
 
-| # | URL | Primary Keyword | Vol | CPC | Status |
-|---|-----|----------------|-----|-----|--------|
-| G1 | /commercial-solar/sydney/ | commercial solar sydney | 140 | $33.22 | NEW |
-| G2 | /commercial-solar/melbourne/ | commercial solar melbourne | 260 | $26.01 | NEW |
-| G3 | /commercial-solar/brisbane/ | commercial solar brisbane | 260 | $3.79 | NEW |
-| G4 | /commercial-solar/adelaide/ | commercial solar adelaide | 210 | $15.26 | NEW |
-| G5 | /commercial-solar/ | commercial solar company | 260 | $14.49 | NEW |
-| G6 | /commercial-solar-panels/ | commercial solar panels | 880 | $37.97 | EXISTS — optimise |
-| G7 | /battery-storage/ | battery energy storage system australia | 1,000 | $5.27 | NEW — consolidate |
-| G8 | /solar-for-business/ | solar for business | 320 | $40.99 | EXISTS — optimise |
-| G9 | /commercial-solar-installer/ | commercial solar installer | 320 | $38.72 | EXISTS — optimise |
-| G10 | /industrial-solar/ | industrial solar panels | 170 | $30.33 | NEW URL (301 from /industrial_solar_energy/) |
+### Why 13 not 15 general pages
+Client requested 15G+15L. Research produced 13 distinct service pages — each confirmed as a separate search intent cluster by live SERP check. Pages weren't padded to hit 15 because same-intent pages cannibalise each other and dilute authority.
 
-### Location Pages (20) — regional & industrial cities
+### General Pages (13 service pages — national keywords)
+**Tier 1 — Core Commercial Solar**
+| # | URL | Primary Keyword | Vol | CPC |
+|---|-----|----------------|-----|-----|
+| G1 | /commercial-solar-panels/ | commercial solar panels | 880/mo | $37.97 |
+| G2 | /commercial-solar-power/ | commercial solar power | 880/mo | $37.97 |
+| G3 | /commercial-solar-systems/ | commercial solar system | 720/mo | $39.13 |
 
-| # | City | State | URL | Primary Keyword | Vol |
-|---|------|-------|-----|----------------|-----|
-| L1 | Gold Coast | QLD | /commercial-solar/gold-coast/ | commercial solar gold coast | 90 |
-| L2 | Sunshine Coast | QLD | /commercial-solar/sunshine-coast/ | commercial solar sunshine coast | 70 |
-| L3 | Newcastle | NSW | /commercial-solar/newcastle/ | commercial solar newcastle | 30 |
-| L4 | Townsville | QLD | /commercial-solar/townsville/ | commercial solar townsville | 20 |
-| L5 | Cairns | QLD | /commercial-solar/cairns/ | commercial solar cairns | 20 |
-| L6 | Mackay | QLD | /commercial-solar/mackay/ | commercial solar mackay | 20 |
-| L7 | Geelong | VIC | /commercial-solar/geelong/ | commercial solar geelong | 10 |
-| L8 | Central Coast | NSW | /commercial-solar/central-coast/ | commercial solar central coast | 10 |
-| L9 | Penrith | NSW | /commercial-solar/penrith/ | commercial solar penrith | 10 |
-| L10 | Albury | NSW | /commercial-solar/albury/ | commercial solar albury | 10 |
-| L11 | Bundaberg | QLD | /commercial-solar/bundaberg/ | commercial solar bundaberg | 10 |
-| L12 | Toowoomba | QLD | /commercial-solar/toowoomba/ | commercial solar toowoomba | 0 |
-| L13 | Wollongong | NSW | /commercial-solar/wollongong/ | commercial solar wollongong | 0 |
-| L14 | Ballarat | VIC | /commercial-solar/ballarat/ | commercial solar ballarat | 0 |
-| L15 | Bendigo | VIC | /commercial-solar/bendigo/ | commercial solar bendigo | 0 |
-| L16 | Whyalla | SA | /commercial-solar/whyalla/ | commercial solar whyalla | 0 |
-| L17 | Port Augusta | SA | /commercial-solar/port-augusta/ | commercial solar port augusta | 0 |
-| L18 | Gladstone | QLD | /commercial-solar/gladstone/ | commercial solar gladstone | 0 |
-| L19 | Ipswich | QLD | /commercial-solar/ipswich/ | commercial solar ipswich | 0 |
-| L20 | Rockhampton | QLD | /commercial-solar/rockhampton/ | commercial solar rockhampton | 0 |
+**Tier 1 — Battery & Energy Storage**
+| # | URL | Primary Keyword | Vol | CPC |
+|---|-----|----------------|-----|-----|
+| G4 | /battery-storage/ | battery energy storage system australia | 1,000/mo | $5.27 |
+| G5 | /commercial-battery-storage/ | commercial battery storage | 70/mo | $10.68 |
+
+**Tier 2 — Installer & Business Audience**
+| # | URL | Primary Keyword | Vol | CPC |
+|---|-----|----------------|-----|-----|
+| G6 | /commercial-solar-installer/ | commercial solar installer | 320/mo | $38.72 |
+| G7 | /solar-for-business/ | solar for business | 320/mo | $40.99 |
+| G8 | /commercial-solar/ | commercial solar company | 260/mo | $14.49 |
+
+**Tier 3 — Industrial & Specialist**
+| # | URL | Primary Keyword | Vol | CPC |
+|---|-----|----------------|-----|-----|
+| G9 | /industrial-solar/ | industrial solar | 170/mo | $30.33 |
+| G10 | /commercial-solar-finance/ | commercial solar finance | 50/mo | $12.15 |
+
+**Tier 4 — Supporting Service Pages**
+| # | URL | Primary Keyword | Vol | CPC |
+|---|-----|----------------|-----|-----|
+| G11 | /commercial-solar-maintenance/ | commercial solar maintenance | 40/mo | — |
+| G12 | /commercial-solar-contractors/ | commercial solar contractors | 30/mo | — |
+| G13 | /commercial-solar-quote/ | commercial solar quote | 10/mo | — |
+
+### Location Pages (15 pages)
+**10 Commercial Solar city pages:**
+Sydney (140/mo), Melbourne (260/mo), Brisbane (260/mo), Adelaide (210/mo), Newcastle/Hunter (30/mo), Wollongong (0/mo), Wetherill Park (0/mo), Dandenong South (0/mo), Townsville (20/mo), Yatala (0/mo)
+
+**5 Battery Storage city pages:**
+Sydney battery (10/mo), Melbourne battery (10/mo), Brisbane battery (20/mo), Adelaide battery (40/mo), Townsville battery (10/mo)
+
+### Top keyword: battery energy storage system australia — 1,000/mo (highest in plan)
+### Highest CPC: solar for business — $40.99 (B2B buyer intent signal)
 
 ### Key Technical Issues (Urgent)
 1. `/industrial_solar_energy/` — underscore URL → create `/industrial-solar/` + 301 redirect
@@ -135,9 +141,10 @@ type: project
 
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
-- **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run, keywords.json generated)
-- **HTML deliverable:** COMPLETE v2 — 30 Apr 2026 (rebuilt with correct 10 general + 20 location split; v1 had wrong 28 general + 8 location)
-- **Rankings check:** NOT STARTED — to be requested when client begins SEO implementation
+- **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run)
+- **HTML deliverable v2:** Complete — 30 Apr 2026 (10G+20L structure)
+- **HTML deliverable v3:** Complete — 7 May 2026 (13G+15L, client feedback addressed, competitor analysis + AEO added)
+- **Rankings check:** NOT STARTED
 
 ## File Paths
 - Questionnaire: `clients/energus.com.au/keyword-research/questionnaire.md`
