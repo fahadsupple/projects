@@ -1,6 +1,6 @@
 ---
 name: metrobuildsuppliers.com.au client profile
-description: Metrobuild Building & Construction Suppliers — trade-focused building supplies store in Springvale, Melbourne, keyword plan v1 complete 7 May 2026
+description: Metrobuild Building & Construction Suppliers — trade-focused building supplies store in Springvale, Melbourne, kwr:init complete 7 May 2026
 type: project
 ---
 
@@ -53,11 +53,11 @@ type: project
 7. Price matching + bulk pricing + loyalty rewards
 
 ## Competitors Named by Client
-- Archiway (DA 22)
-- Bell Plaster (DA 28) — most direct render competitor
-- Bowens (DA 52) — unbeatable on generic terms
-- Crowntex (DA 18) — weakest competitor
-- National Tiles (DA 48) — consumer tile focus, not trade
+- Archiway
+- Bell Plaster
+- Bowens
+- Crowntex
+- National Tiles
 
 ## Target Customers
 1. Solid plasterers / renderers
@@ -69,25 +69,12 @@ type: project
 
 ## Keyword Research Scope
 - **15 General pages + 10 Location pages**
-- Completed: 7 May 2026
-
-## Keyword Plan v1 — Summary
-- **15 general pages** covering rendering (3 pages), cladding/AAC (4 pages), waterproofing+tiling (2 pages), decorative finishes (2 pages), ancillary (2 pages), hub (1 page), content pillar (1 page)
-- **10 location pages** — "rendering supplies {suburb}" silo: Dandenong, Glen Waverley, Clayton, Keysborough, Noble Park, Cranbourne, Berwick, Truganina, Craigieburn, Richmond
-- **Effective reach:** 1,640/mo primary keyword volume
-- **Top keyword:** building supplies melbourne (390/mo, KD 34 — 12+ month strategic anchor)
-- **Quickest win:** micro cement supplier melbourne (KD 9, DA 12 at #1 — 2-3 month)
-- **Highest CPC:** james hardie cladding supplier ($5.20)
-- **Client DA:** ~4 (new domain)
-
-## Deliverable
-- `/home/invoi/fahad_projects/clients/metrobuildsuppliers.com.au/keyword-research/keyword-plan.html` (v1, 7 May 2026)
+- Status: not started
 
 ## Key Flags
 - ⚠️ Business only 7 months old (Oct 2025) — new domain, minimal DA expected
-- "CSR cladding system" in Q13 — CSR is now Dulux/Hebel; Hebel is CSR's brand. Covered under Hebel page.
+- "CSR cladding system" in Q13 — CSR is now Dulux/Hebel; Hebel is CSR's brand
 - Venetian Plaster and Micro Cement are decorative/luxury finish products — slightly different audience (interior designers, high-end builders)
 - NRG Greenboard = EPS render board (NRG Insulated Panel Systems)
 - Wall sarking = underlay/wrap behind cladding — niche product
 - Springvale = home suburb → homepage, NOT a standalone location page
-- PPE is Tier D — not a differentiator, covered as secondary on store page
