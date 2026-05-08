@@ -1,0 +1,130 @@
+{
+  "domain": "metrobuildsuppliers.com.au",
+  "business_name": "Metrobuild Building & Construction Suppliers Pty Ltd",
+  "abn": "21691273775",
+  "founded": "October 2025",
+  "phone": "0375777976",
+  "address": "6/865A Princes Highway, Springvale VIC",
+  "email": "info@metrobuildsuppliers.com.au",
+  "hours": "5:30AM-6:00PM MON-FRI, 6:00AM-2:00PM SAT-SUN",
+  "owners": ["Gurjeet Singh", "Mehmet Ali Ozkavak"],
+  "business_type": "trade_supply_store",
+  "primary_location": "Springvale",
+  "jurisdiction": "VIC",
+  "primary_city": "Melbourne",
+
+  "services": [
+    "7-day in-store pickups with payment facility",
+    "Product display showrooms (hands-on)",
+    "Workshops and training for tradespeople",
+    "Same-day delivery (Ute, Tray Truck, Crane & Fork Truck)"
+  ],
+  "product_categories": [
+    "AAC panels (Hebel, Nasahi, Eastland)",
+    "Fibre cement cladding (James Hardie, AFS)",
+    "EPS systems (NRG Greenboard, Statewall)",
+    "External rendering systems (Rockcote, Unitex, cement render, polymer render, acrylic texture)",
+    "Decorative finishes (Venetian Plaster, Micro Cement)",
+    "Tiling and waterproofing products (tiling adhesives, waterproofing membranes)",
+    "PPE products",
+    "Wall sarking / wall wrap"
+  ],
+  "brands_distributed": [
+    "Hebel", "James Hardie", "NRG Greenboard", "Rockcote", "Unitex",
+    "Nasahi", "Eastland", "AFS", "Statewall"
+  ],
+
+  "usps": [
+    "Hands-on showroom with real product displays",
+    "Official distributor of Hebel, James Hardie, NRG, Rockcote, Unitex",
+    "Open 7 days (5:30AM early start for tradies)",
+    "Crane and forklift delivery for heavy AAC/Hebel panels",
+    "Workshops and education for tradespeople on cladding/coating systems",
+    "Multi-trade coverage: rendering + waterproofing + tiling + cladding in one store",
+    "Price matching + bulk pricing + loyalty rewards",
+    "CodeMark certified products, NCC compliant",
+    "Public Liability $20 million"
+  ],
+
+  "competitors": [
+    "Archiway",
+    "Bell Plaster",
+    "Bowens",
+    "Crowntex",
+    "National Tiles"
+  ],
+
+  "target_customers": [
+    "Solid plasterers",
+    "Renderers",
+    "Tilers",
+    "Waterproofers",
+    "Cladders",
+    "Builders",
+    "Subcontractors"
+  ],
+
+  "seed_keywords": [
+    "rendering supplies",
+    "waterproofing products",
+    "tiling adhesives supplier",
+    "hebel panels supplier",
+    "csr cladding system",
+    "james hardie cladding supplier",
+    "rockcote rendering systems melbourne",
+    "unitex render system",
+    "venetian plaster stockists",
+    "micro cement supplier",
+    "nrg greenboard supplier",
+    "wall sarking supplier"
+  ],
+
+  "target_suburbs": {
+    "south_east_primary": [
+      "Glen Waverley", "Malvern", "Mt Waverley", "Dandenong", "Clayton",
+      "Keysborough", "Noble Park", "Cranbourne", "Pakenham", "Officer",
+      "Berwick", "Clyde"
+    ],
+    "western": ["Truganina", "Tarneit", "Werribee", "Point Cook", "Melton"],
+    "northern": ["Craigieburn", "Mickleham", "Epping", "Wollert", "Donnybrook"],
+    "inner_commercial": ["Richmond", "South Melbourne", "Port Melbourne"]
+  },
+
+  "selected_location_suburbs": [
+    "Glen Waverley", "Dandenong", "Clayton", "Keysborough", "Noble Park",
+    "Cranbourne", "Berwick", "Truganina", "Craigieburn", "Richmond"
+  ],
+  "location_service_silo": "rendering supplies",
+  "springvale_note": "Springvale is the home suburb — maps to homepage, NOT a separate location page",
+
+  "keyword_type": "fixed_split",
+  "general_keywords": 15,
+  "location_keywords": 10,
+  "mode": "fresh",
+  "tier": "standard",
+
+  "pipeline_settings": {
+    "suburb_source": "client-provided",
+    "suburb_max_radius_km": 50,
+    "allow_analyst_review": true,
+    "expansion": null,
+    "da_estimate": 5,
+    "audience_type": "B2B_trade_only",
+    "avoid_residential_diy": true,
+    "geographic_modifier_rule": "MANDATORY — generate '{product} melbourne' and '{product} supplier melbourne' variants. Springvale store = homepage. Location pages use '{product} {suburb}'. Avoid generic national head terms dominated by Bowens/National Tiles.",
+    "new_domain_strategy": "Prioritise brand+distributor terms (KD 8-19) and suburb-level pages (KD 4-5) over generic head terms dominated by Bowens (DA 78) and National Tiles (DA 48)."
+  },
+
+  "pricing": "Free quotes, price matching, bulk order pricing, customer loyalty rewards",
+  "insurance": "Public Liability $20 million",
+  "certifications": "All products CodeMark certified, NCC and Australian Standards compliant",
+  "compliance": "NCC, applicable Australian Standards for cladding/waterproofing/coatings, Safe Work Australia guidelines",
+  "mission": "To be Melbourne's leading trade partner by combining expert knowledge, hands-on education, and reliable access to high-performance building materials.",
+  "values": [
+    "Education First", "Integrity & Transparency", "Quality & Reliability",
+    "Trade-Focused Approach", "Continuous Improvement"
+  ],
+  "community": "Hosting workshops and training sessions for tradespeople on cladding, waterproofing, and building systems",
+
+  "notes": "New business (Oct 2025). New domain — DA near zero. Trade and professional contractors primary audience, NOT residential/DIY. Crane/forklift delivery is major USP for heavy AAC panels. Venetian plaster and micro cement are niche decorative categories targeting architects and luxury builders. CSR sold Hebel brand — 'CSR cladding' queries redirect to Hebel. PPE is Tier D — not a core differentiator."
+}
