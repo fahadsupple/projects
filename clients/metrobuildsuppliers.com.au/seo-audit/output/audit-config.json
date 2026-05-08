@@ -1,0 +1,163 @@
+{
+  "domain": "metrobuildsuppliers.com.au",
+  "business_name": "Metrobuild Building & Construction Suppliers Pty Ltd",
+  "primary_location": "Springvale, VIC",
+  "business_type": "trade_supply_store",
+  "audit_date": "2026-05-08",
+  "audit_status": "initialized",
+  "plugin_version": "0.8.0",
+  "location_code": 2036,
+  "language_code": "en",
+
+  "se_ranking": {
+    "project_id": null,
+    "status": "not_found",
+    "note": "No SE Ranking project exists for metrobuildsuppliers.com.au. Create a project in SE Ranking before running the full audit. 430 projects searched — no match found."
+  },
+
+  "top_competitors": [
+    {
+      "domain": "bowens.com.au",
+      "source": "DataForSEO competitors + questionnaire",
+      "overlap_keywords": 10,
+      "etv": 8.54,
+      "domain_rank": 123,
+      "referring_domains": 254,
+      "note": "Major Victorian building supplier. DA 123. Primary keyword competitor."
+    },
+    {
+      "domain": "rendersupplyco.com.au",
+      "source": "DataForSEO competitors",
+      "overlap_keywords": 10,
+      "etv": 4.93,
+      "domain_rank": 5,
+      "referring_domains": 26,
+      "note": "Niche render supply competitor. Lower DA — closer to Metrobuild's level."
+    },
+    {
+      "domain": "appliedbuildingproducts.com.au",
+      "source": "DataForSEO competitors",
+      "overlap_keywords": 10,
+      "etv": 5.26,
+      "domain_rank": 0,
+      "referring_domains": 51,
+      "note": "Building products distributor. Similar product range."
+    },
+    {
+      "domain": "bunnings.com.au",
+      "source": "DataForSEO competitors",
+      "overlap_keywords": 12,
+      "etv": 8.79,
+      "domain_rank": 323,
+      "referring_domains": 695,
+      "note": "National retail chain. Aspirational benchmark only — not a realistic competitor for trade SEO."
+    },
+    {
+      "domain": "nationaltiles.com.au",
+      "source": "questionnaire (client-identified)",
+      "overlap_keywords": null,
+      "etv": null,
+      "domain_rank": null,
+      "referring_domains": null,
+      "note": "Client-identified competitor. DataForSEO domain rank data not available — domain may use different slug."
+    }
+  ],
+
+  "questionnaire_competitors": [
+    "archiway",
+    "bellplaster.com.au",
+    "bowens.com.au",
+    "crowntex",
+    "nationaltiles.com.au"
+  ],
+
+  "dataforseo_domain_overview": {
+    "total_organic_keywords": 25,
+    "avg_position": 47.4,
+    "etv": 16.64,
+    "pos_11_20": 2,
+    "pos_21_30": 5,
+    "pos_31_40": 4,
+    "pos_41_50": 5,
+    "is_new_keywords": 22,
+    "is_up_keywords": 3,
+    "note": "Very new domain (Oct 2025). Extremely limited organic footprint — only 25 keywords detected by DataForSEO."
+  },
+
+  "own_domain_backlinks": {
+    "domain_rank": 7,
+    "referring_domains": 1,
+    "backlinks": 2,
+    "spam_score": 0
+  },
+
+  "gsc_property": null,
+  "gsc_status": "not_found",
+  "gsc_note": "metrobuildsuppliers.com.au not found in 381 GSC properties accessible to service account sa-etl-ingestion@data-warehouse-489000.iam.gserviceaccount.com. Service account likely not granted access yet. Add the service account to GSC as a property owner before the full audit.",
+
+  "ga4_property": null,
+  "ga4_property_id": null,
+  "ga4_status": "not_found",
+  "ga4_note": "metrobuildsuppliers.com.au not found in 100 GA4 account summaries accessible to service account. Add the service account as a viewer in GA4 Admin before the full audit.",
+
+  "baselines": {
+    "gsc_clicks_90d": null,
+    "gsc_impressions_90d": null,
+    "gsc_avg_ctr": null,
+    "gsc_avg_position": null,
+    "ga4_organic_sessions_90d": null,
+    "ga4_paid_sessions_90d": null,
+    "ga4_total_sessions_90d": null,
+    "note": "Baseline data unavailable — GSC and GA4 properties not yet connected to service account. This is expected for a site launched October 2025."
+  },
+
+  "keywords": [],
+  "keyword_groups": [],
+
+  "blocking_issues": [
+    {
+      "severity": "HIGH",
+      "item": "SE Ranking project",
+      "action": "Create SE Ranking project for metrobuildsuppliers.com.au before running the full audit"
+    },
+    {
+      "severity": "HIGH",
+      "item": "GSC access",
+      "action": "Grant sa-etl-ingestion@data-warehouse-489000.iam.gserviceaccount.com access to metrobuildsuppliers.com.au in Google Search Console"
+    },
+    {
+      "severity": "MEDIUM",
+      "item": "GA4 access",
+      "action": "Grant service account Viewer role in GA4 Admin for metrobuildsuppliers.com.au property"
+    }
+  ],
+
+  "client_context": {
+    "abn": "21 691 273 775",
+    "address": "6/865A Princes Highway, Springvale VIC",
+    "phone": "0375 777 976",
+    "founded": "October 2025",
+    "cms": "unknown",
+    "domain_age_at_audit": "~7 months",
+    "products": [
+      "AAC panels (Hebel, Nasahi, Eastland — official distributor)",
+      "Fibre cement cladding (James Hardie, AFS — official distributor)",
+      "EPS cladding systems (NRG Greenboard, Statewall — official distributor)",
+      "Rendering systems (Rockcote, Unitex — official distributor)",
+      "Decorative finishes (Venetian Plaster, Micro Cement)",
+      "Tiling and waterproofing products",
+      "Wall sarking / wall wrap",
+      "PPE products"
+    ],
+    "key_brands": ["Hebel", "James Hardie", "NRG Greenboard", "Rockcote", "Unitex", "AFS", "Nasahi", "Eastland", "Statewall"],
+    "target_audience": "Tradespeople, builders, sub-contractors — Melbourne metro",
+    "service_area": "Melbourne metro (physical trade store)",
+    "key_usps": [
+      "Official distributor for 9 major brands",
+      "7-day in-store pickup with payment facility",
+      "Hands-on showroom",
+      "Trade education workshops",
+      "Public liability $20M"
+    ]
+  }
+}
