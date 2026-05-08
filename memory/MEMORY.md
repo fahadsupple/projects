@@ -13,6 +13,7 @@
 - [Pre-Launch Audit](capability_pre_launch_audit.md) — full on-page QA before go-live, deliverable format
 - [Keyword Research Master](keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards
 - [FAQ Review](capability_faq_review.md) — count existing FAQs per page, write additions to reach 8, save as text file, tone/style matching rules
+- [Meta Titles & Descriptions](capability_meta_tags.md) — full audit process, title/desc format rules, SERP patterns, suburb/service templates, .txt deliverable format
 
 ## SEO — Keyword Research Rules
 - [Keyword Research Master Reference](feedback_seo_keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards, industry insights
