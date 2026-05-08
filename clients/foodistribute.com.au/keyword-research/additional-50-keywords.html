@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>foodistribute.com.au — Additional 50 Keywords</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; color: #1a1a1a; background: #f5f5f5; }
+  .page { max-width: 1300px; margin: 0 auto; padding: 32px 24px; }
+
+  /* Header */
+  .header { background: #1a1a2e; color: #fff; border-radius: 10px; padding: 28px 32px; margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .header .meta { font-size: 12px; color: #a0aec0; }
+  .header .meta span { margin-right: 20px; }
+
+  /* Summary cards */
+  .cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px; }
+  .card { background: #fff; border-radius: 8px; padding: 16px 18px; border-left: 4px solid #e2e8f0; }
+  .card.blue { border-color: #3b82f6; }
+  .card.green { border-color: #10b981; }
+  .card.amber { border-color: #f59e0b; }
+  .card.purple { border-color: #8b5cf6; }
+  .card.red { border-color: #ef4444; }
+  .card .num { font-size: 26px; font-weight: 700; color: #1a1a2e; }
+  .card .label { font-size: 11px; color: #6b7280; margin-top: 3px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  /* Legend */
+  .legend { background: #fff; border-radius: 8px; padding: 14px 18px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+  .legend-title { font-size: 11px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 8px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+  .badge-qw { background: #d1fae5; color: #065f46; }
+  .badge-kd0 { background: #dbeafe; color: #1e40af; }
+  .badge-new { background: #f3f4f6; color: #374151; }
+  .legend-note { font-size: 11px; color: #6b7280; }
+
+  /* Section headers */
+  .section-head { background: #1a1a2e; color: #e2e8f0; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 8px 14px; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  thead th { background: #f8fafc; color: #374151; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 10px 12px; border-bottom: 2px solid #e2e8f0; text-align: left; white-space: nowrap; }
+  thead th.num-col { text-align: right; }
+  td { padding: 9px 12px; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #f8fafc; }
+
+  /* Section row */
+  .section-row td { background: #f1f5f9; color: #475569; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 7px 12px; border-bottom: 1px solid #e2e8f0; }
+
+  /* Cells */
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .kw { font-weight: 500; color: #1e293b; }
+  .pos-hot { font-weight: 700; color: #059669; }
+  .pos-warm { font-weight: 600; color: #d97706; }
+  .pos-cold { color: #94a3b8; }
+  .pos-none { color: #cbd5e1; }
+  .vol-high { font-weight: 700; color: #1e40af; }
+  .vol-mid { font-weight: 600; color: #374151; }
+  .vol-low { color: #94a3b8; }
+  .kd-low { color: #059669; font-weight: 700; }
+  .kd-high { color: #dc2626; }
+  .kd-none { color: #cbd5e1; }
+  .ctr-high { color: #059669; font-weight: 700; }
+  .ctr-mid { color: #d97706; }
+  .ctr-low { color: #94a3b8; }
+  .dash { color: #d1d5db; }
+
+  .badge-qw-sm { background: #d1fae5; color: #065f46; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; margin-left: 5px; }
+  .badge-kd0-sm { background: #dbeafe; color: #1e40af; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; margin-left: 5px; }
+  .badge-star { color: #f59e0b; margin-left: 4px; }
+
+  /* Callout box */
+  .callout { background: #fff; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px; border-left: 4px solid #3b82f6; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .callout h3 { font-size: 13px; font-weight: 700; color: #1e293b; margin-bottom: 12px; }
+  .callout ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .callout li { font-size: 12px; color: #374151; padding-left: 14px; position: relative; }
+  .callout li::before { content: "→"; position: absolute; left: 0; color: #3b82f6; font-weight: 700; }
+
+  @media print {
+    body { background: #fff; font-size: 11px; }
+    .page { padding: 16px; }
+    .cards { grid-template-columns: repeat(5, 1fr); }
+    table { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>foodistribute.com.au — Additional 50 Keywords</h1>
+    <div class="meta">
+      <span>Client: Reidistribute Pty Ltd T/A Foodistribute</span>
+      <span>Date: 8 May 2026</span>
+      <span>GSC Period: Feb–May 2026 (90 days)</span>
+      <span>Based on: Existing 50-keyword plan + GSC quick wins analysis</span>
+    </div>
+  </div>
+
+  <!-- Summary cards -->
+  <div class="cards">
+    <div class="card blue">
+      <div class="num">50</div>
+      <div class="label">New Keywords</div>
+    </div>
+    <div class="card green">
+      <div class="num">14</div>
+      <div class="label">Already Ranking (GSC)</div>
+    </div>
+    <div class="card amber">
+      <div class="num">390</div>
+      <div class="label">Highest Vol/mo (#11)</div>
+    </div>
+    <div class="card purple">
+      <div class="num">2</div>
+      <div class="label">New City Pages Needed</div>
+    </div>
+    <div class="card red">
+      <div class="num">1</div>
+      <div class="label">KD 0 Term (#38)</div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <span class="legend-title">Legend</span>
+    <span><span class="badge badge-qw">QW</span> <span class="legend-note">GSC Quick Win — page already ranking, optimisation only</span></span>
+    <span><span class="badge badge-kd0">KD 0</span> <span class="legend-note">Zero competition</span></span>
+    <span class="legend-note">Pos colour: <b style="color:#059669">green</b> = top 10 &nbsp; <b style="color:#d97706">amber</b> = 11–20 &nbsp; <span style="color:#94a3b8">grey</span> = 20+</span>
+  </div>
+
+  <!-- Priority callout -->
+  <div class="callout">
+    <h3>Top Priority Recommendations</h3>
+    <ul>
+      <li>#18 valrhona cocoa powder australia — pos 4.6, 4.19% CTR, zero targeting. Immediate top-3 win.</li>
+      <li>#11 wholesale food suppliers to the public — 390/mo, pos 10.2, 686 impressions. Biggest untapped volume.</li>
+      <li>#14 wholesale food distributors sydney — pos 5.0, 230 impr. One link push from top 3.</li>
+      <li>#38 wholesale coffee beans australia — 90/mo, KD 0, $4.29 CPC. Free real estate.</li>
+      <li>#21 bulk butter australia — pos 5.6, 3.42% CTR. Already converting, just needs targeting.</li>
+      <li>#6 food distributors adelaide — 170/mo, KD 10, $7.02 CPC. Easiest high-value city term.</li>
+      <li>#1/#3 Brisbane terms at pos 27/20 — one Brisbane page moves both to page 1.</li>
+      <li>#15 wholesale food distributors australia — pos 9.1, 3.28% CTR with zero targeting.</li>
+    </ul>
+  </div>
+
+  <!-- Main table -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:32px">#</th>
+        <th>Keyword</th>
+        <th class="num-col">Vol/mo</th>
+        <th class="num-col">KD</th>
+        <th class="num-col">CPC</th>
+        <th class="num-col">GSC Pos</th>
+        <th class="num-col">Impr</th>
+        <th class="num-col">Clicks</th>
+        <th class="num-col">CTR%</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- BRISBANE -->
+      <tr class="section-row"><td colspan="10">Brisbane Location Page</td></tr>
+      <tr>
+        <td class="num dash">1</td>
+        <td class="kw">food distributors brisbane</td>
+        <td class="num vol-mid">90</td>
+        <td class="num">25</td>
+        <td class="num">$2.97</td>
+        <td class="num pos-cold">27.0</td>
+        <td class="num">294</td>
+        <td class="num">1</td>
+        <td class="num ctr-low">0.34%</td>
+        <td>Location — Brisbane</td>
+      </tr>
+      <tr>
+        <td class="num dash">2</td>
+        <td class="kw">wholesale food suppliers brisbane</td>
+        <td class="num vol-mid">90</td>
+        <td class="num">15</td>
+        <td class="num">$2.72</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Brisbane</td>
+      </tr>
+      <tr>
+        <td class="num dash">3</td>
+        <td class="kw">food wholesalers brisbane</td>
+        <td class="num vol-mid">110</td>
+        <td class="num">26</td>
+        <td class="num">$3.70</td>
+        <td class="num pos-warm">20.0</td>
+        <td class="num">288</td>
+        <td class="num">1</td>
+        <td class="num ctr-low">0.35%</td>
+        <td>Location — Brisbane</td>
+      </tr>
+      <tr>
+        <td class="num dash">4</td>
+        <td class="kw">cafe food suppliers brisbane</td>
+        <td class="num vol-low">10</td>
+        <td class="num dash">—</td>
+        <td class="num">$2.98</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Brisbane</td>
+      </tr>
+      <tr>
+        <td class="num dash">5</td>
+        <td class="kw">restaurant food suppliers brisbane</td>
+        <td class="num vol-low">10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Brisbane</td>
+      </tr>
+
+      <!-- ADELAIDE -->
+      <tr class="section-row"><td colspan="10">Adelaide Location Page</td></tr>
+      <tr>
+        <td class="num dash">6</td>
+        <td class="kw">food distributors adelaide <span class="badge-star">★</span></td>
+        <td class="num vol-high">170</td>
+        <td class="num kd-low">10</td>
+        <td class="num">$7.02</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Adelaide</td>
+      </tr>
+      <tr>
+        <td class="num dash">7</td>
+        <td class="kw">wholesale food suppliers adelaide</td>
+        <td class="num vol-low">20</td>
+        <td class="num">42</td>
+        <td class="num">$3.11</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Adelaide</td>
+      </tr>
+      <tr>
+        <td class="num dash">8</td>
+        <td class="kw">food wholesalers adelaide</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Adelaide</td>
+      </tr>
+      <tr>
+        <td class="num dash">9</td>
+        <td class="kw">cafe food suppliers adelaide</td>
+        <td class="num vol-low">&lt;10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Adelaide</td>
+      </tr>
+      <tr>
+        <td class="num dash">10</td>
+        <td class="kw">restaurant food suppliers adelaide</td>
+        <td class="num vol-low">&lt;10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Adelaide</td>
+      </tr>
+
+      <!-- NATIONAL WHOLESALER GAPS -->
+      <tr class="section-row"><td colspan="10">National Wholesaler Gaps — GSC Quick Wins</td></tr>
+      <tr>
+        <td class="num dash">11</td>
+        <td class="kw">wholesale food suppliers to the public <span class="badge-qw-sm">QW</span> <span class="badge-star">★</span></td>
+        <td class="num vol-high">390</td>
+        <td class="num kd-low">13</td>
+        <td class="num">$2.42</td>
+        <td class="num pos-warm">10.2</td>
+        <td class="num">686</td>
+        <td class="num">7</td>
+        <td class="num ctr-mid">1.02%</td>
+        <td>General</td>
+      </tr>
+      <tr>
+        <td class="num dash">12</td>
+        <td class="kw">food wholesalers sydney <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-high">140</td>
+        <td class="num">23</td>
+        <td class="num">$4.01</td>
+        <td class="num pos-hot">9.0</td>
+        <td class="num">473</td>
+        <td class="num">2</td>
+        <td class="num ctr-low">0.42%</td>
+        <td>Location — Sydney</td>
+      </tr>
+      <tr>
+        <td class="num dash">13</td>
+        <td class="kw">food wholesalers melbourne <span class="badge-star">★</span></td>
+        <td class="num vol-high">140</td>
+        <td class="num">15</td>
+        <td class="num">$6.77</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Location — Melbourne</td>
+      </tr>
+      <tr>
+        <td class="num dash">14</td>
+        <td class="kw">wholesale food distributors sydney <span class="badge-qw-sm">QW</span> <span class="badge-star">★</span></td>
+        <td class="num vol-high">140</td>
+        <td class="num kd-low">13</td>
+        <td class="num">$4.45</td>
+        <td class="num pos-hot">5.0</td>
+        <td class="num">230</td>
+        <td class="num">2</td>
+        <td class="num ctr-low">0.87%</td>
+        <td>Location — Sydney</td>
+      </tr>
+      <tr>
+        <td class="num dash">15</td>
+        <td class="kw">wholesale food distributors australia <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-mid">~70</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-hot">9.1</td>
+        <td class="num">61</td>
+        <td class="num">2</td>
+        <td class="num ctr-high">3.28%</td>
+        <td>General</td>
+      </tr>
+      <tr>
+        <td class="num dash">16</td>
+        <td class="kw">wholesale grocery suppliers australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>General</td>
+      </tr>
+
+      <!-- VALRHONA -->
+      <tr class="section-row"><td colspan="10">Valrhona / Premium Chocolate — Already Ranking, Not Targeted</td></tr>
+      <tr>
+        <td class="num dash">17</td>
+        <td class="kw">valrhona chocolate australia <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-high">260</td>
+        <td class="num kd-high">HI</td>
+        <td class="num">$0.34</td>
+        <td class="num pos-hot">6.8</td>
+        <td class="num">322</td>
+        <td class="num">7</td>
+        <td class="num ctr-mid">2.17%</td>
+        <td>Product — Chocolate</td>
+      </tr>
+      <tr>
+        <td class="num dash">18</td>
+        <td class="kw">valrhona cocoa powder australia <span class="badge-qw-sm">QW</span> <span class="badge-star">★</span></td>
+        <td class="num vol-mid">70</td>
+        <td class="num kd-high">HI</td>
+        <td class="num">$0.38</td>
+        <td class="num pos-hot">4.6</td>
+        <td class="num">167</td>
+        <td class="num">7</td>
+        <td class="num ctr-high">4.19%</td>
+        <td>Product — Chocolate</td>
+      </tr>
+      <tr>
+        <td class="num dash">19</td>
+        <td class="kw">valrhona chocolate sydney <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-hot">9.8</td>
+        <td class="num">94</td>
+        <td class="num">3</td>
+        <td class="num ctr-mid">3.19%</td>
+        <td>Product — Chocolate</td>
+      </tr>
+
+      <!-- DAIRY & BUTTER -->
+      <tr class="section-row"><td colspan="10">Dairy &amp; Butter — Major GSC Opportunity (lurpak 3,451 impr · cream 2,087 impr · la conviette 781 impr)</td></tr>
+      <tr>
+        <td class="num dash">20</td>
+        <td class="kw">wholesale butter suppliers australia</td>
+        <td class="num vol-low">~30</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Dairy &amp; Butter</td>
+      </tr>
+      <tr>
+        <td class="num dash">21</td>
+        <td class="kw">bulk butter australia <span class="badge-qw-sm">QW</span> <span class="badge-star">★</span></td>
+        <td class="num vol-mid">40</td>
+        <td class="num">34</td>
+        <td class="num">$1.26</td>
+        <td class="num pos-hot">5.6</td>
+        <td class="num">146</td>
+        <td class="num">5</td>
+        <td class="num ctr-high">3.42%</td>
+        <td>Dairy &amp; Butter</td>
+      </tr>
+      <tr>
+        <td class="num dash">22</td>
+        <td class="kw">wholesale dairy products australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Dairy &amp; Butter</td>
+      </tr>
+      <tr>
+        <td class="num dash">23</td>
+        <td class="kw">wholesale cream suppliers australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Dairy &amp; Butter</td>
+      </tr>
+
+      <!-- BAKERY -->
+      <tr class="section-row"><td colspan="10">Bakery &amp; Patisserie</td></tr>
+      <tr>
+        <td class="num dash">24</td>
+        <td class="kw">wholesale baking supplies australia</td>
+        <td class="num vol-mid">70</td>
+        <td class="num">34</td>
+        <td class="num">$1.40</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Bakery</td>
+      </tr>
+      <tr>
+        <td class="num dash">25</td>
+        <td class="kw">wholesale flour suppliers australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Bakery</td>
+      </tr>
+      <tr>
+        <td class="num dash">26</td>
+        <td class="kw">patisserie supplies wholesale australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Bakery</td>
+      </tr>
+
+      <!-- ASIAN FOOD HUB -->
+      <tr class="section-row"><td colspan="10">Asian Food Hub — 10+ Variants Ranking Without a Dedicated Page</td></tr>
+      <tr>
+        <td class="num dash">27</td>
+        <td class="kw">asian food wholesale australia <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-hot">7.4</td>
+        <td class="num">142</td>
+        <td class="num">0</td>
+        <td class="num ctr-low">0.00%</td>
+        <td>Asian Foods</td>
+      </tr>
+      <tr>
+        <td class="num dash">28</td>
+        <td class="kw">asian food wholesalers sydney <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-hot">6.8</td>
+        <td class="num">131</td>
+        <td class="num">1</td>
+        <td class="num ctr-low">0.76%</td>
+        <td>Asian Foods</td>
+      </tr>
+      <tr>
+        <td class="num dash">29</td>
+        <td class="kw">asian food wholesalers melbourne <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-hot">9.6</td>
+        <td class="num">56</td>
+        <td class="num">1</td>
+        <td class="num ctr-low">1.79%</td>
+        <td>Asian Foods</td>
+      </tr>
+
+      <!-- CHOCOLATE CITY + NATIONAL -->
+      <tr class="section-row"><td colspan="10">Chocolate — Brisbane, Adelaide &amp; National</td></tr>
+      <tr>
+        <td class="num dash">30</td>
+        <td class="kw">wholesale chocolate suppliers brisbane</td>
+        <td class="num vol-low">&lt;10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Chocolate — Brisbane</td>
+      </tr>
+      <tr>
+        <td class="num dash">31</td>
+        <td class="kw">wholesale chocolate suppliers adelaide</td>
+        <td class="num vol-low">&lt;10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Chocolate — Adelaide</td>
+      </tr>
+      <tr>
+        <td class="num dash">32</td>
+        <td class="kw">wholesale chocolate suppliers australia <span class="badge-qw-sm">QW</span></td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-warm">13.9</td>
+        <td class="num">253</td>
+        <td class="num">2</td>
+        <td class="num ctr-low">0.79%</td>
+        <td>Chocolate — National</td>
+      </tr>
+
+      <!-- OIL & VINEGAR -->
+      <tr class="section-row"><td colspan="10">Oil &amp; Vinegar Expansion</td></tr>
+      <tr>
+        <td class="num dash">33</td>
+        <td class="kw">wholesale olive oil suppliers australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Oil &amp; Vinegar</td>
+      </tr>
+      <tr>
+        <td class="num dash">34</td>
+        <td class="kw">buy olive oil wholesale</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Oil &amp; Vinegar</td>
+      </tr>
+      <tr>
+        <td class="num dash">35</td>
+        <td class="kw">balsamic vinegar wholesale australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Oil &amp; Vinegar</td>
+      </tr>
+
+      <!-- FROZEN FOOD -->
+      <tr class="section-row"><td colspan="10">Frozen Food</td></tr>
+      <tr>
+        <td class="num dash">36</td>
+        <td class="kw">wholesale frozen food suppliers australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Frozen Food</td>
+      </tr>
+      <tr>
+        <td class="num dash">37</td>
+        <td class="kw">frozen food wholesale australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Frozen Food</td>
+      </tr>
+
+      <!-- COFFEE & BEVERAGES -->
+      <tr class="section-row"><td colspan="10">Coffee &amp; Beverages</td></tr>
+      <tr>
+        <td class="num dash">38</td>
+        <td class="kw">wholesale coffee beans australia <span class="badge-kd0-sm">KD 0</span> <span class="badge-star">★</span></td>
+        <td class="num vol-mid">90</td>
+        <td class="num kd-low">0</td>
+        <td class="num">$4.29</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Coffee &amp; Tea</td>
+      </tr>
+      <tr>
+        <td class="num dash">39</td>
+        <td class="kw">wholesale beverage suppliers australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Beverages</td>
+      </tr>
+
+      <!-- PRODUCT-SPECIFIC -->
+      <tr class="section-row"><td colspan="10">Product-Specific — High GSC Impression Pages With No Keyword Targeting</td></tr>
+      <tr>
+        <td class="num dash">40</td>
+        <td class="kw">palm sugar supplier australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Product (5,621 GSC impr on page)</td>
+      </tr>
+      <tr>
+        <td class="num dash">41</td>
+        <td class="kw">wholesale coconut cream australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Product (1,776 GSC impr on page)</td>
+      </tr>
+      <tr>
+        <td class="num dash">42</td>
+        <td class="kw">wholesale soy sauce australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Product (3,460 GSC impr on page)</td>
+      </tr>
+      <tr>
+        <td class="num dash">43</td>
+        <td class="kw">wholesale cheese australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Cheese &amp; Dairy</td>
+      </tr>
+      <tr>
+        <td class="num dash">44</td>
+        <td class="kw">mascarpone wholesale australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Cheese &amp; Dairy</td>
+      </tr>
+      <tr>
+        <td class="num dash">45</td>
+        <td class="kw">wholesale seafood suppliers australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Meat &amp; Seafood</td>
+      </tr>
+      <tr>
+        <td class="num dash">46</td>
+        <td class="kw">wholesale pantry supplies australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Pantry &amp; Grocery</td>
+      </tr>
+      <tr>
+        <td class="num dash">47</td>
+        <td class="kw">wholesale snack suppliers australia</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Crackers &amp; Snacks</td>
+      </tr>
+
+      <!-- SPECIALTY / GOURMET -->
+      <tr class="section-row"><td colspan="10">Specialty / Gourmet</td></tr>
+      <tr>
+        <td class="num dash">48</td>
+        <td class="kw">specialty food supplier australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>General B2B/B2C</td>
+      </tr>
+      <tr>
+        <td class="num dash">49</td>
+        <td class="kw">gourmet food wholesale australia</td>
+        <td class="num vol-low">~20</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>General B2C</td>
+      </tr>
+      <tr>
+        <td class="num dash">50</td>
+        <td class="kw">wholesale bakery supplies brisbane</td>
+        <td class="num vol-low">~10</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num pos-none">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td class="num dash">—</td>
+        <td>Bakery — Brisbane</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <!-- Footer notes -->
+  <div style="background:#fff;border-radius:8px;padding:18px 24px;font-size:11px;color:#6b7280;line-height:1.7;box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+    <strong style="color:#374151;">Notes</strong><br>
+    Vol/mo = Google Ads AU national monthly search volume. KD = DataForSEO keyword difficulty (0–100). CPC = cost per click (AU$). HI = high competition, exact KD not returned.<br>
+    ~ figures are estimated from DataForSEO patterns where exact volume returned as 10 (Google rounds low-volume terms). GSC data: Feb–May 2026, 90-day window, by property.<br>
+    <strong style="color:#374151;">QW</strong> = page already indexed and ranking — on-page optimisation and internal linking only, no new page required.<br>
+    Produced by Supple SEO · foodistribute.com.au · 8 May 2026
+  </div>
+
+</div>
+</body>
+</html>
