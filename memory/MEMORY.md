@@ -47,3 +47,4 @@
 - [styldmelbourne.com.au](project_styld.md) — STYLD Melbourne, home staging & property styling, Melbourne-wide, keyword-plan.html v1.3 complete 5 May 2026 ✅
 - [metrobuildsuppliers.com.au](../clients/metrobuildsuppliers.com.au/memory/client_metrobuildsuppliers.md) — Metrobuild Building & Construction Suppliers, Springvale trade supply store, 15G+10L, keyword plan v1 complete 7 May 2026, keyword-plan.html deliverable complete 8 May 2026 ✅
 - [foodistribute.com.au](../clients/foodistribute.com.au/memory/client_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
+- [leffler.com.au](../clients/leffler.com.au/memory/client_leffler.md) — H. Leffler & Son, wholesale leather & craft supplier, West Melbourne, 9,500+ lines, meta descriptions written May 2026
