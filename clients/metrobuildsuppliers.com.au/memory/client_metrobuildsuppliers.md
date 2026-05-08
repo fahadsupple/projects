@@ -186,8 +186,9 @@ Geographic spread: SE primary (Dandenong, Glen Waverley, Clayton, Keysborough, N
 | Phase 4 gaps | Done — 7 May 2026 |
 | Phase 5 keyword selection | Done — 7 May 2026 |
 | keywords.json | Done — 7 May 2026 |
-| report.html deliverable | Done — 7 May 2026 |
-| **Next: URL mapping or review cycle** | Pending |
+| report.html deliverable (kwr plugin) | Done — 7 May 2026 |
+| **keyword-plan.html (client deliverable)** | Done — 8 May 2026 |
+| **Next: Content build — publish pages per Phase 1/2/3 schedule** | Pending |
 
 ---
 
@@ -211,7 +212,8 @@ Geographic spread: SE primary (Dandenong, Glen Waverley, Clayton, Keysborough, N
 | Questionnaire (kwr pipeline) | /home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/metrobuildsuppliers.com.au/questionnaire.json |
 | Keywords JSON | /home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/metrobuildsuppliers.com.au/research/v1/keywords.json |
 | Allocation JSON | /home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/metrobuildsuppliers.com.au/research/v1/allocation.json |
-| Report HTML | /home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/metrobuildsuppliers.com.au/report.html |
+| Report HTML (kwr plugin) | /home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/metrobuildsuppliers.com.au/report.html |
+| **Keyword Plan HTML (client deliverable)** | **/home/invoi/fahad_projects/clients/metrobuildsuppliers.com.au/keyword-research/keyword-plan.html** |
 | Config (fahad_projects) | /home/invoi/fahad_projects/clients/metrobuildsuppliers.com.au/keyword-research/config.json |
 | Onboarding form | /home/invoi/fahad_projects/clients/metrobuildsuppliers.com.au/onboarding-form.md |
 | Client memory | /home/invoi/fahad_projects/clients/metrobuildsuppliers.com.au/memory/client_metrobuildsuppliers.md |
