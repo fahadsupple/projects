@@ -1,0 +1,4225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://supple.tools/audit-report/brewerschoice-net-au -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Research Report - Brewers Choice Home Brew Supplies</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --text: #e8e8e8;
+      --muted: #a0a0b0;
+      --accent: #0f3460;
+      --success: #4ecca3;
+      --warning: #f0a500;
+      --danger: #e74c3c;
+      --highlight: #533483;
+      --sidebar-w: 240px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "SF Mono", "Cascadia Code", "Fira Code", monospace;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-width: 1024px;
+    }
+    h1, h2, h3, h4 {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin-bottom: 0.5em;
+    }
+    h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-bottom: 1em; font-size: 1.5rem; }
+    h3 { color: var(--muted); margin-top: 1.5em; font-size: 1.15rem; }
+    h4 { font-size: 1rem; }
+    a { color: var(--success); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0; left: 0;
+      width: var(--sidebar-w);
+      height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--accent);
+      overflow-y: auto;
+      padding: 1rem 0;
+      z-index: 100;
+    }
+    .sidebar h3 {
+      padding: 0 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+    .sidebar a {
+      display: block;
+      padding: 0.35rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text);
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .sidebar a:hover, .sidebar a:focus {
+      background: var(--accent);
+      border-left-color: var(--success);
+      text-decoration: none;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: var(--sidebar-w);
+      padding: 2rem 3rem;
+      max-width: 1400px;
+    }
+
+    /* Sections */
+    .section { margin-bottom: 3rem; }
+    .section-intro { color: var(--muted); margin-bottom: 1.5em; }
+    .section-note { color: var(--muted); font-size: 0.85rem; margin-top: 1em; font-style: italic; }
+
+    /* Cover */
+    .cover-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--surface), var(--accent));
+      border-radius: 8px;
+      margin-bottom: 3rem;
+    }
+    .cover-title { font-size: 2.5rem; margin-bottom: 0.3em; }
+    .cover-domain { font-size: 1.3rem; color: var(--success); margin-bottom: 0.2em; }
+    .cover-business { font-size: 1.1rem; color: var(--muted); margin-bottom: 2em; }
+    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+    .cover-meta-item { background: rgba(0,0,0,0.2); padding: 0.6rem 1rem; border-radius: 4px; }
+    .meta-label { display: block; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+    .meta-value { font-size: 0.95rem; font-weight: bold; }
+
+    /* Stats grid */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--surface); padding: 1.2rem; border-radius: 6px; text-align: center; border: 1px solid var(--accent); }
+    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui, sans-serif; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3em; }
+
+    /* Tables */
+    .table-scroll { overflow-x: auto; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .data-table th {
+      background: var(--accent);
+      color: var(--text);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .data-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+    .data-table tbody tr:hover { background: rgba(78,204,163,0.08); }
+    .compact-table td, .compact-table th { padding: 0.35rem 0.6rem; }
+    .kw-row { cursor: pointer; }
+    .kw-row:hover { background: rgba(78,204,163,0.12); }
+    .kw-name { font-weight: bold; }
+
+    /* Score badge */
+    .score-badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    /* Timeline badge */
+    .tl-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
+    .tl-quick_win { background: var(--success); color: #000; }
+    .tl-medium_term { background: var(--warning); color: #000; }
+    .tl-strategic { background: var(--highlight); color: #fff; }
+
+    /* Status */
+    .status-pass { color: var(--success); font-weight: bold; }
+    .status-fail { color: var(--danger); }
+
+    /* Info card */
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-left: 4px solid var(--warning);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+    }
+    .info-icon { font-size: 1.4rem; color: var(--warning); flex-shrink: 0; }
+    .info-card p { margin: 0; color: var(--muted); }
+
+    /* Limitations */
+    .limitations { background: var(--surface); border-radius: 4px; padding: 1rem; margin-top: 1.5rem; }
+    .limitations h4 { color: var(--warning); }
+    .limitations ul { padding-left: 1.5rem; color: var(--muted); }
+    .limitations li { margin-bottom: 0.3em; }
+
+    /* Charts */
+    .chart-row { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .chart-block { flex: 1; min-width: 280px; }
+    .chart-block h4 { margin-bottom: 0.8rem; }
+
+    /* Detail row */
+    .detail-row td { background: var(--surface); }
+    .detail-content { padding: 1rem; }
+    .detail-grid { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem; }
+    .detail-info p { margin-bottom: 0.3em; font-size: 0.85rem; }
+    .reasoning { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; padding: 0.8rem; background: rgba(0,0,0,0.2); border-radius: 4px; }
+    .secondaries-detail { font-size: 0.85rem; }
+    .sec-group { margin-bottom: 0.5rem; }
+    .sec-group ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Silo cards */
+    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .silo-card { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .silo-card h4 { color: var(--success); }
+    .silo-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; font-size: 0.8rem; }
+    .silo-lists ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Heatmap */
+    .heatmap-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+    .heatmap-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      color: var(--text);
+    }
+    .heatmap-label { font-weight: bold; font-size: 0.65rem; }
+    .heatmap-score { font-size: 0.6rem; color: rgba(255,255,255,0.7); }
+
+    /* Calendar grid */
+    .calendar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+    .calendar-cell {
+      padding: 0.8rem 0.5rem;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .cal-month { font-weight: bold; }
+    .cal-count { font-size: 0.7rem; color: rgba(255,255,255,0.7); }
+
+    /* Tier grid */
+    .tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .def-tier { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .def-tier ul { padding-left: 1.2rem; color: var(--muted); font-size: 0.85rem; }
+
+    /* Expansion */
+    .expansion-ring { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+    .expansion-ring h3 { margin-top: 0; }
+
+    /* Methodology */
+    .methodology-content p { margin-bottom: 0.8em; }
+    .feature-list { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .feature-list li { margin-bottom: 0.3em; }
+
+    /* Brand */
+    .brand-details p { color: var(--muted); }
+
+    /* Sortable table header cue */
+    .sortable-table th { cursor: pointer; }
+    .sortable-table th:hover { background: var(--highlight); }
+    .sort-asc::after { content: " \25B2"; font-size: 0.65em; }
+    .sort-desc::after { content: " \25BC"; font-size: 0.65em; }
+
+    /* Print styles */
+    @media print {
+      body { background: #fff; color: #111; min-width: auto; }
+      .sidebar { display: none; }
+      .main-content { margin-left: 0; padding: 1rem; max-width: 100%; }
+      .section { page-break-inside: avoid; margin-bottom: 1rem; }
+      .cover-section { page-break-after: always; background: none; padding: 2rem 0; }
+      #confidence { page-break-after: always; }
+      #executive { page-break-after: always; }
+      #general_keywords { page-break-before: always; }
+      #location_keywords { page-break-before: always; }
+      #silo_architecture { page-break-before: always; }
+      #methodology { page-break-before: always; }
+      #appendix { page-break-before: always; }
+      .data-table th { background: #ddd; color: #111; position: static; }
+      .data-table td { border-bottom: 1px solid #ccc; }
+      .data-table tbody tr:nth-child(even) { background: #f5f5f5; }
+      .stat-card { border: 1px solid #ccc; }
+      .stat-value { color: #333; }
+      .info-card { border-color: #ccc; }
+      .score-badge { border: 1px solid #999; }
+      .cover-section { border: 1px solid #ccc; border-radius: 0; }
+      a { color: #333; }
+      svg text { fill: #111; }
+      svg circle[stroke="#2a2a4a"] { stroke: #ddd; }
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .main-content { padding: 1.5rem 2rem; }
+      .chart-row { flex-direction: column; }
+    }
+</style>
+<style>
+  .imageye-selected {
+    outline: 2px solid black !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+  }
+</style><style data-emotion="css" data-s=""></style></head>
+<body data-new-gr-c-s-check-loaded="14.1290.0" data-gr-ext-installed="">
+<nav class="sidebar">
+  <h3>Navigation</h3>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#cover">Cover Page</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#confidence">Data Confidence Summary</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#executive">Executive Summary</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#allocation">Package Allocation</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#general_keywords">Selected General Keywords</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#location_keywords">Selected Location Keywords</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#silo_architecture">Keyword Silo Architecture</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#competitor_analysis">Competitor Analysis</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#content_gap">Content Gap Map</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#quick_wins">Quick Wins</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#serp_features">SERP Feature Opportunities</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#gbp_opportunities">GBP &amp; Near Me Opportunities</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#ai_overview">AI Overview Impact</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#geographic_expansion">Geographic Expansion Plan</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#excluded_keywords">Excluded Keywords</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#tam">Total Addressable Market</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#brand_serp">Brand SERP Health Check</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#methodology">Methodology</a>
+    <a href="https://supple.tools/audit-report/brewerschoice-net-au#appendix">Appendix: Full Candidate Database</a>
+</nav>
+<main class="main-content">
+<section id="cover" class="section cover-section">
+  <div class="cover-content">
+    <h1 class="cover-title">Keyword Research Report</h1>
+    <div class="cover-domain">brewerschoice.net.au</div>
+    <div class="cover-business">Brewers Choice Home Brew Supplies</div>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard (15 general + 10 location)</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Mode</span><span class="meta-value">Fresh</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v1</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Candidates Analysed</span><span class="meta-value">302</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">7,770</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Generated</span><span class="meta-value">2026-05-11 04:55 UTC</span></div>
+    </div>
+  </div>
+</section>
+<section id="confidence" class="section">
+  <h2>Data Confidence Summary</h2>
+  <p class="section-intro">10 of 10 data sources available.</p>
+  <table class="data-table compact-table">
+    <thead><tr><th>Data Source</th><th>Status</th></tr></thead>
+    <tbody><tr><td>Questionnaire</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Config</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Keywords</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Candidates</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Allocation</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Competitors</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>SERP Data</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Content Gaps</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Suburbs</td><td class="status-pass">✓ Available</td></tr>
+<tr><td>Metrics</td><td class="status-pass">✓ Available</td></tr></tbody>
+  </table>
+  
+</section>
+<section id="executive" class="section">
+  <h2>Executive Summary</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">15</div>
+      <div class="stat-label">General Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">10</div>
+      <div class="stat-label">Location Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">7,770</div>
+      <div class="stat-label">Effective Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">302</div>
+      <div class="stat-label">Candidates Analysed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.62</div>
+      <div class="stat-label">Avg Opportunity Score</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">5</div>
+      <div class="stat-label">Content Silos</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">18</div>
+      <div class="stat-label">Quick Wins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Strategic Targets</div>
+    </div>
+  </div>
+  <div class="chart-row">
+    <div class="chart-block"><h4>Intent Distribution</h4><svg width="360" height="180" class="chart-donut">
+  <circle cx="90" cy="90" r="54" fill="#1a1a2e"></circle>
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24" stroke-dasharray="87.96 439.82" stroke-dashoffset="0.00" transform="rotate(-90 90 90)"></circle>
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#533483" stroke-width="24" stroke-dasharray="293.22 439.82" stroke-dashoffset="-87.96" transform="rotate(-90 90 90)"></circle>
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#f0a500" stroke-width="24" stroke-dasharray="58.64 439.82" stroke-dashoffset="-381.18" transform="rotate(-90 90 90)"></circle>
+  <rect x="190" y="12" width="12" height="12" rx="2" fill="#4ecca3"></rect>
+  <text x="208" y="22" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Investigation (20%)</text>
+  <rect x="190" y="32" width="12" height="12" rx="2" fill="#533483"></rect>
+  <text x="208" y="42" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Transactional (67%)</text>
+  <rect x="190" y="52" width="12" height="12" rx="2" fill="#f0a500"></rect>
+  <text x="208" y="62" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Informational (13%)</text>
+</svg></div>
+    <div class="chart-block"><h4>Timeline Distribution</h4><svg width="460" height="88" viewBox="0 0 460 88" class="chart-stacked">
+  <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Keywords</text>
+  <rect x="120.0" y="30" width="230.4" height="30" fill="#4ecca3"></rect>
+  <rect x="350.4" y="30" width="89.6" height="30" fill="#f0a500"></rect>
+  <rect x="120" y="68" width="12" height="12" rx="2" fill="#4ecca3"></rect>
+  <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win</text>
+  <rect x="230" y="68" width="12" height="12" rx="2" fill="#f0a500"></rect>
+  <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term</text>
+  <rect x="340" y="68" width="12" height="12" rx="2" fill="#533483"></rect>
+  <text x="356" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic</text>
+</svg></div>
+  </div>
+  <div class="handoff-cover-note" style="margin-top: 2em; padding: 1.5em; background: #1a1a2e; border-left: 4px solid #f0a500; border-radius: 4px;">
+    <h3 style="color: #f0a500; margin-top: 0;">Hand-off Audit — 2026-05-11 (Option C final)</h3>
+    <pre style="background: transparent; color: #e8e8e8; font-family: &#39;SF Mono&#39;, Monaco, &#39;Courier New&#39;, monospace; font-size: 12px; white-space: pre-wrap; line-height: 1.5; margin: 0;">═══════════════════════════════════════════════════════════════════
+KEYWORD RESEARCH REPORT — brewerschoice.net.au (v1)
+Hand-off revision: 2026-05-11 (Option C final)
+
+PACKAGE DELIVERED: 15 general + 10 location = 25 keywords
+Effective monthly reach: 7,760 (general primaries)
+Config budget: 25  ·  Net: matches budget exactly
+
+═══════════════════════════════════════════════════════════════════
+HAND-OFF AUDIT RESULTS — 3 changes vs initial pipeline output
+═══════════════════════════════════════════════════════════════════
+
+1. NEAR-ME HELD OUT (GBP measurement track, not organic)
+   "Near me" keywords are tracked separately as a GBP/local-pack
+   measurement layer (reviews, GBP optimisation, maps SEO) rather
+   than as content-page targets in the organic set. Per agency
+   methodology — content pages cannot reliably convert "near me"
+   intent; the conversion path is GBP card → call/visit, not page →
+   form. Dropped from this set:
+     home brew shop near me            2,400/mo  KD 7
+     home brewing supplies near me     3,600/mo  KD 22
+   Both will be tracked in the GBP-measurement layer instead of the
+   organic-rankings layer. v0.4.2's near-me filter was technically
+   permissive for hybrid_retail; we override per methodology.
+
+2. LOCATION GRID CORRECTED (12 → 10, dual-silo)
+   Phase 5 audit revealed the initial 12-cell grid was single-silo
+   near-duplicate waste: every suburb had two Beer variants
+   ("home brew shop {suburb}" + "home brewing supplies {suburb}") —
+   same intent, same landing page, same silo — violating Phase 5
+   SKILL Step 5.5 anti-pattern "max 1 keyword per topic cluster".
+   The deterministic select_location_grid() returned only 6 cells
+   (single-silo); silo_service_map={} was a script bug.
+
+   Corrected to a dual-silo grid honoring the BDM-brief co-anchor
+   priorities (Beer + Spirits both Tier A1/A2):
+
+     Beer    — 4 suburbs (Ring 1 + Ring 2 strongholds only):
+                Bayswater, Boronia, Croydon, Clayton
+                Service: "home brew shop {suburb}"
+                Target: /shop/
+
+     Spirits — 6 suburbs (full client-named list):
+                Bayswater, Boronia, Croydon, Clayton, Oakleigh,
+                Springvale
+                Service: "home distilling kit {suburb}"
+                Target: /product-category/spirit-making/
+
+   Why drop Beer at Oakleigh + Springvale (Ring 3)? Phase 2 flagged
+   Oakleigh as australianhomebrewing.com.au's home turf (4.8★/770
+   reviews dominating local pack) and Springvale as outside natural
+   25km catchment. Trading those 2 weak Beer cells for full Spirits
+   coverage gives the Spirits silo Ring 1-3 ring symmetry against a
+   different competitive set (distilleryking.com.au is national, not
+   Bayswater-local — clean carve-out).
+
+3. R11 WINE FERMENTER REASONING STRENGTHENED
+   Phase 3c probe (2026-05-11) found mixed-AU SERP for this term:
+   AU at #1 only (qualityhomebrew.com.au), UK at #2 (themaltmiller),
+   US at #3 (wineenthusiast). All 4 other audited bare keywords were
+   .com.au-only top-3 (defensible-bare). R11 retained with reasoning
+   strengthened to require AU-coded content (litre sizing, GST pricing,
+   AU shipping signals) to defend the #1 position against international
+   evergreen content.
+
+═══════════════════════════════════════════════════════════════════
+BRAND DEFENCE — EXECUTION TRACK (no keyword slot, same as near-me)
+═══════════════════════════════════════════════════════════════════
+
+Phase 3c surfaced 3 active QLD namesakes diluting the brand SERP:
+  brewerschoice.com.au (Ipswich, Shopify store)
+  facebook.com/brewerschoice (Yamanto FB page, 2,241 likes)
+  Brewers Choice Woori Yallock (FB listing)
+Currently at brand SERP ranks 2-5 — the client owns #1 + Knowledge
+Graph (4.7★/59 reviews).
+
+No dedicated keyword slot: branded+suburb queries ("brewers choice
+bayswater") are navigational and convert via GBP card → call/visit,
+not via content page → form. Same conversion-path logic as near-me;
+tracked via GBP-measurement layer + Knowledge Graph stability checks,
+not organic rankings.
+
+Execution required:
+  • Homepage title: rewrite to "Brewers Choice Bayswater | Home
+    Brew Supplies Melbourne"
+  • LocalBusiness JSON-LD schema with lat -37.842601, lng 145.270482
+  • About-page geographic disambiguation acknowledging namesakes
+  • GBP profile optimisation (categories, regular posts, Q&amp;A)
+  • Stale-content cleanup: 2022 footer copyright → 2026; "since 2002"
+    → "since 2005" (per questionnaire); remove April 2025 Easter notice
+  • Monthly Knowledge Graph + brand SERP screenshots to detect
+    namesake drift
+
+═══════════════════════════════════════════════════════════════════
+DA NOTE
+═══════════════════════════════════════════════════════════════════
+
+Client DA estimates conflict between sources:
+  Phase 3a (DataForSEO domain_rank_overview proxy):  30
+  Phase 3b (SE Ranking domain_inlink_rank):           14
+Realistic working range: 14-30. KD-feasibility ceiling used:
+KD ≤ 29 for quick wins, KD 30-45 acceptable as 9-12 month strategic
+bets, KD &gt; 45 avoided.
+
+═══════════════════════════════════════════════════════════════════
+EXECUTION PREREQUISITES (global, must precede on-page keyword work)
+═══════════════════════════════════════════════════════════════════
+
+• Enable H1 site-wide — 42 of 47 crawled pages have NO H1 (Astra
+  template suppression). Every keyword target URL depends on this.
+• Create /learn/ section — competitors all have /learn or /blog;
+  brewerschoice has zero blog content. Recommended launch articles:
+  jack daniels essence, distillation condenser, tri clamp fittings,
+  mad millie, home brew australia.
+• Apply brand-defence execution track above (independent of any
+  organic keyword work).
+═══════════════════════════════════════════════════════════════════
+    </pre>
+  </div>
+</section>
+<section id="allocation" class="section">
+  <h2>Package Allocation</h2>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">Standard</div><div class="stat-label">Package Tier</div></div>
+    <div class="stat-card"><div class="stat-value">15</div><div class="stat-label">General Budget</div></div>
+    <div class="stat-card"><div class="stat-value">10</div><div class="stat-label">Location Budget</div></div>
+  </div>
+  <h3>Service Tier Distribution</h3>
+  <table class="data-table compact-table">
+    <thead><tr><th>Service Tier</th><th>Keywords Allocated</th></tr></thead>
+    <tbody><tr><td>Tier N/A</td><td>15</td></tr></tbody>
+  </table>
+  <p>Allocation data available from research pipeline.</p>
+</section>
+<section id="general_keywords" class="section">
+  <h2>Selected General Keywords</h2>
+  <p class="section-intro">15 general keywords selected. Click any row to expand details.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table">
+    <thead><tr>
+      <th>#</th><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th>
+      <th>CPC</th><th>Intent</th><th>Timeline</th><th>Confidence</th>
+    </tr></thead>
+    <tbody><tr class="kw-row" onclick="toggleDetail(&#39;detail-0&#39;)">
+  <td>1</td>
+  <td class="kw-name">home brewing supplies australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.70</span></td>
+  <td>170</td>
+  <td>1</td>
+  <td>$0.90</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-0" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="65.71897672044489 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.70</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A1_beer</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Au-National Category Page</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</p>
+          <p><strong>AI Adjusted Vol:</strong> 170 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> National retail anchor at KD 1 — combined with G03 (Melbourne) and G02 (near me) covers the full geo intent spectrum. Phase 3b shows thebrewshop.com.au owns position 1 nationally for 'home brew supplies'; this AU-qualified variant has weaker competition. Phase 4: same beer-brewing-ingredient-kits page — execution differentiator is an 'AU-wide shipping + 2-3 day delivery to most metros' block, plus the Bayswater store as flagship. Client USP advantage: Public Liability $10M (questionnaire Q20) + 3000+ customers since 2005 (Q18) — content can credibly claim 'Australia's longest-standing online homebrew specialist' (true per the AHB/competitor founding dates). Layer-2 quick-win delivers traffic capture inside 3 months.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>home brew supplies australia ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Where can I buy home brewing supplies in Australia?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>australian home brewing supplies ()</li><li>online home brew supplies australia ()</li><li>homebrew supplies australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-1&#39;)">
+  <td>2</td>
+  <td class="kw-name">home brewing supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.67</span></td>
+  <td>210</td>
+  <td>1</td>
+  <td>$0.49</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-1" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="62.96694155590022 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.67</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A1_beer</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Geo-Qualified Category Page</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</p>
+          <p><strong>AI Adjusted Vol:</strong> 210 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Layer-1 must-have city+service term for the client's primary market. Lowest possible KD (KD 1) makes this a 3-month-or-less quick win. Phase 3a confirms 210/mo with HIGH-confidence proxy. Phase 3b's 5-competitor benchmark shows no Melbourne-specific 'home brewing supplies melbourne' landing page among AHB, beerco, aussiebrewmakers, thebrewshop, thebrewshed — all are generic AU pages. Phase 4: same /product-category/beer-cider/beer-brewing-ingredient-kits/ target as G02; treat as the same execution unit but add a 'Melbourne-area pickup + delivery' geo block with the Bayswater store address and a service-area map (Bayswater, Croydon, Boronia, Clayton, Oakleigh, Springvale). Client USP advantage: the only Melbourne-resident homebrew retailer in this study with a physical walk-in store + 20+ years operating history.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>home brew supplies melbourne ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Where can I buy home brew supplies in Melbourne?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>home brewing supplies vic ()</li><li>home brewing supplies victoria ()</li><li>homebrew supplies melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-2&#39;)">
+  <td>3</td>
+  <td class="kw-name">home brewing supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>1,900</td>
+  <td>45</td>
+  <td>$0.76</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-2" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="58.78234014131862 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.62</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A1_beer</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Brand-Anchor Category Page (12-Month Strategic Play)</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,900 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Strategic 12-month bet (1,900/mo, KD 45). Realistic for a DA 14-30 site IF executed with strong on-page work + topical authority cluster — not a 3-month quick win. Phase 3b: thebrewshop.com.au and australianhomebrewing.com.au dominate this SERP; both have DA 42-43. Phase 3c SERP composition: 5+ dedicated retailers in top 10, no directory dominance, Google Shopping carousel present. Displaceability rated 'medium' — content alone won't beat AHB/thebrewshop; need Shopping feed parity + a topical hub of 8-12 internal-linked supporting articles (the /learn cluster proposed below). Client USP advantage: only retailer in top-10 list with documented 20+ years operating history + Bayswater retail floor + click-and-collect + rewards programme (Q14) — these are E-E-A-T plays the script-built competitors lack. Layer 3 = accept the slow build; expect KD-realistic top-5 inside 9-12 months, top-3 inside 18 months.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>home brew supplies ()</li><li>homebrew supplies ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What supplies do I need to start home brewing?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>beer brewing supplies ()</li><li>home brewing supplies online ()</li><li>home brewing supplies online australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-3&#39;)">
+  <td>4</td>
+  <td class="kw-name">home beer kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>$0.50</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#4ecca3">HIGH</span></td>
+</tr>
+<tr id="detail-3" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="54.46579183528624 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.58</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A1_beer</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Beer Kit Category + Buying Guide</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/beer-cider/beer-starter-kit/</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,600 <span class="muted">(stable)</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> BDM brief explicitly named 'home beer kit' AND 'beer starter kit' as Tier A1 priorities. 1,600/mo high transactional intent. KD 45 is a strategic 9-12 month play — same KD band as G05 'home brewing supplies' so they share the topical authority cluster. Phase 3b: thebrewshop.com.au and AHB own positions 1-3 nationally. SERP composition (Phase 3c): dedicated-retailer-mixed with Google Shopping carousel — content displacement requires Shopping feed + on-page work. Phase 4 action: existing /product-category/beer-cider/beer-starter-kit/ has no H1 and ~360-word product-card-only content — expand to 1,500+ words with beginner buying guide (Coopers DIY vs Mangrove Jack's vs Brewzilla pathways), pricing tiers $7.95-$649 (per questionnaire Q19), and visual decision tree. Client USP advantage: stocks the full beginner-kit range across multiple brands (Q12) — single shop covers all entry pathways no single-brand retailer matches.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>beer starter kit ()</li><li>home brew kit ()</li><li>home brewing kit ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What is the best home beer kit for beginners?</li><li>How much does a home beer kit cost?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>beer brewing kit ()</li><li>home brew beer kit ()</li><li>best home beer kit australia ()</li><li>make beer at home kit ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-4&#39;)">
+  <td>5</td>
+  <td class="kw-name">home brew shop</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>880</td>
+  <td>25</td>
+  <td>$0.75</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-4" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="47.01079246831766 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.50</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A1_beer</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Shop Landing — Store Anchor</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/shop/</p>
+          <p><strong>AI Adjusted Vol:</strong> 880 <span class="muted">(stable)</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Anchor retail term and brand category page (880/mo, KD 25). Captures store-finder / brand-aware retail intent without the GBP-bound "near me" modifier — "near me" variants are intentionally held out per agency methodology and tracked in the GBP/local-pack measurement layer separately. Phase 3c: AU SERP fully .com.au-dominated in top 3 (aussiebrewer.com.au, australianhomebrewing.com.au, thebrewshop.com.au); local_pack=1 confirms Google reads retail intent. Phase 4 action: /shop/ landing currently has no H1 + stale 2022 Easter notice — rewrite to 1,500+ words with shop overview, Bayswater store callout (Factory 5, 810 Mountain Highway), AU shipping reassurance, click-and-collect explainer. Client USP advantage: 20+ years operating history (est 2005) + 4.7★/59 GBP reviews + Public Liability 0M = E-E-A-T signals no national-only competitor can match.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>homebrew shop ()</li><li>home brew store ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Is there a home brew shop near me?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>best home brew shop ()</li><li>home brew shop australia ()</li><li>online home brew shop ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-5&#39;)">
+  <td>6</td>
+  <td class="kw-name">distillation condenser</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.71</span></td>
+  <td>50</td>
+  <td>1</td>
+  <td>$0.37</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-5" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#4ecca3" stroke-width="8" stroke-dasharray="67.35888808561874 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.71</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A2_spirits</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Buying Guide + Product Category</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/learn/distillation-condenser/</p>
+          <p><strong>AI Adjusted Vol:</strong> 50 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Q13 client analyst preference list explicitly named 'condensers' alongside 'copper pot stills' and 'boilers'. KD 1 makes this the easiest Spirits silo win. Phase 4: MISSING. Phase 3b gap analysis: distilleryking.com.au has the niche locked at SERP pos 1-2; no Australian site has a dedicated /learn/ explainer that pairs the technical content with shoppable products. Action: create /learn/distillation-condenser/ covering Liebig/reflux/pot still condenser types, copper vs stainless, sizing for spirit-yield targets, and link to T-Spirits' condenser products stocked. Client USP advantage: owner's mechanical engineering / chemical industry background (Q10) is a unique authority signal — content can be co-authored / quoted by the owner. SERP opportunity: long-tail, low-volatility, durable traffic — 'condenser' is a 5-year evergreen term.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>liebig condenser ()</li><li>reflux condenser ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What is the difference between a Liebig and reflux condenser?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>copper condenser ()</li><li>spirit condenser ()</li><li>distillation condenser australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-6&#39;)">
+  <td>7</td>
+  <td class="kw-name">jack daniels essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>30</td>
+  <td>5</td>
+  <td>$0.12</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-6" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="60.95946385025635 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.65</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A2_spirits</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Product-Essence Guide (Learn Hub + Commerce Ctas)</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/learn/jack-daniels-essence/</p>
+          <p><strong>AI Adjusted Vol:</strong> 30 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> BDM brief explicitly named 'Jim beam or jack daniels' as essence priority — direct match. Q13 client analyst preferences also flagged 'essences' as Tier A2 anchor. KD 5 + HIGH score confidence make this the lowest-risk spirits pick. Phase 4: MISSING — no current URL targets this. Action: create /learn/jack-daniels-essence/ with (a) brand-licensed positioning explainer, (b) how-to-use-with-neutral-spirit instructions, (c) shop links to T-Spirits/Still Spirits essence range, (d) FAQ schema. Phase 3c SERP composition shows distilleryking.com.au and aussiebrewmakers.com.au dominate spirits SERPs (combined 55 of 50-keyword SERP appearances) — but on this disambiguated long-tail KD 5, content velocity wins. Client USP advantage: 13 years owner brewing experience + chemical industry technical background (questionnaire Q10) means brewerschoice can credibly publish a deeper essence guide than a pure-e-commerce competitor.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>jim beam essence ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Can you make Jack Daniels at home?</li><li>What is whiskey essence made of?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>jack daniels essence australia ()</li><li>jack daniels whiskey essence ()</li><li>jim beam essence australia ()</li><li>tennessee whiskey essence ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-7&#39;)">
+  <td>8</td>
+  <td class="kw-name">tri clamp fittings</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>$1.63</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-7" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="59.96043738641479 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.64</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A2_spirits</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Product Category + Buying Guide (Parts Hub)</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/learn/tri-clamp-fittings/</p>
+          <p><strong>AI Adjusted Vol:</strong> 210 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Q13 client analyst preference list explicitly named 'tri-clover parts'. Volume 210/mo, KD 30. Phase 3b gap analysis flagged 'tri clamp fittings' + 'tri clover fittings' as competitor-gap candidates (~210/mo each at KD 30) — kegland.com.au holds pos 1 but only as part of its KegKing parent catalogue; no dedicated /learn or parts guide exists at any of the 5 named competitors. Action: create /learn/tri-clamp-fittings/ as a parts-and-sizing reference (1.5" / 2" / 3" tri-clamp clamp+ferrule+gasket combos, food-grade silicone vs EPDM, common applications in homebrew + distilling setups), with shop links to in-stock SKUs. Client USP advantage: owner's mechanical engineering background (Q10) credibly authors technical fittings content. SERP opportunity: no AI Overview, no PAA in the spirits SERP cluster — featured-snippet opportunity on 'what size tri clamp do I need'.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>tri clover fittings ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What size tri clamp do I need for home brewing?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>tri clamp ferrule ()</li><li>tri clamp gasket ()</li><li>1.5 inch tri clamp ()</li><li>2 inch tri clamp ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-8&#39;)">
+  <td>9</td>
+  <td class="kw-name">home distilling kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>140</td>
+  <td>30</td>
+  <td>$0.66</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-8" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="54.013402493169316 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.57</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_A2_spirits</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Category Page + Buying Guide Hybrid</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/spirit-making/</p>
+          <p><strong>AI Adjusted Vol:</strong> 140 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Highest-volume realistic A2 anchor (140/mo, KD 30). Captures the buying intent for the full distilling kit category. Phase 4 classifies /product-category/spirit-making/ as EXISTS_NEEDS_OPTIMISATION (no H1, no editorial intro). Action: lift to 1,200+ words with comparison of Still Spirits T500 vs Alembic copper kits vs reflux entry kits, AU legal-compliance disclaimer (per the AU PAA question 'Is home distilling legal in Australia?'), pricing tiers $185-$649 (from questionnaire Q19). Phase 3b: distilleryking.com.au and AHB own positions 1-3; thebrewshed and aussiebrewmakers fill 4-5. SERPs are dedicated-retailer-dominated (NOT directory) so content-only displacement is hard at KD 30 — pair with Shopping feed work. Client USP advantage: stocks both Still Spirits and copper pot still ranges (Q12) + 13yr owner brewing experience = legitimate authority for a comparison guide.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>still kit ()</li><li>alcohol still kit ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Is home distilling legal in Australia?</li><li>What do you need to start home distilling?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>spirit making kit ()</li><li>home distilling equipment ()</li><li>moonshine still kit ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-9&#39;)">
+  <td>10</td>
+  <td class="kw-name">wine fermenter</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>170</td>
+  <td>18</td>
+  <td>$1.18</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-9" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="57.151853554105514 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.61</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_B_wine</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Category Subsection + Buying Guide</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/wine-making/</p>
+          <p><strong>AI Adjusted Vol:</strong> 170 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Equipment category anchor (170/mo, KD 18). **Phase 3c probe (2026-05-11) found mixed-AU SERP**: top 3 = qualityhomebrew.com.au (AU) at #1, themaltmiller.co.uk (UK) at #2, wineenthusiast.com (US) at #3 — NOT .com.au-dominated. Strategic risk: AU position can be displaced by international evergreen content unless page is strongly AU-coded. Action: add a /product-category/wine-making/ sub-page /product-category/wine-making/wine-fermenters/ with AU-specific signals (AU food-grade plastic standards, AU shipping calculator, demijohn sizing in litres not gallons, GST-inclusive pricing). Phase 3b: beerco.com.au holds pos 4 nationally; AHB pos 6 — both have thin product descriptions. Client USP advantage: stocks general fermenting vessels + wine-specific fermenters (Q12) — single-cart purchase no international competitor matches with AU shipping. KD 18 is achievable for DA 14-30 inside 6 months with proper AU-positioned on-page work. Secondary fallback: pair 'wine fermenter australia' as long-tail capture if budget allows in a future expansion run.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>demijohn ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What size fermenter do I need for wine?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>glass wine fermenter ()</li><li>wine fermentation vessel ()</li><li>5 litre wine fermenter ()</li><li>wine fermenter australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-10&#39;)">
+  <td>11</td>
+  <td class="kw-name">wine making supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>30</td>
+  <td>3</td>
+  <td>$0.48</td>
+  <td>Commercial Investigation</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-10" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="56.850260659360885 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.60</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_B_wine</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Geo-Qualified Category Page</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/wine-making/</p>
+          <p><strong>AI Adjusted Vol:</strong> 30 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Quick-win geo anchor (30/mo, KD 3) — Layer 1 must-have for the Wine silo. Phase 4: /product-category/wine-making/ exists but no H1, ~357 word average word count. Action: rewrite to 1,000+ words with the wine-making process overview (must → ferment → press → age → bottle), shop blocks for fruit press / wine yeast / oak chunks / additives, plus Melbourne-area pickup/delivery callout to the Bayswater store. Phase 3b shows australianhomebrewing.com.au and beerco.com.au dominate national wine queries; no Melbourne-specific page among the named 5. Client USP advantage: stocks the full wine kit range (Q12) including fruit press + wine yeast + wine additives + oak barrels — single-shop completeness no competitor matches in Melbourne. Note: questionnaire confirms client already ranks ~pos 9 for 'wine press' (Phase 3c finding) — wine silo has existing organic traction to build on.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>wine making supplies vic ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Where to buy wine making supplies in Melbourne?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>winemaking supplies melbourne ()</li><li>home wine making melbourne ()</li><li>wine making supplies victoria ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-11&#39;)">
+  <td>12</td>
+  <td class="kw-name">home wine making supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>$0.89</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-11" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="54.84278295371701 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.58</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_B_wine</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Wine Silo Flagship Category Page</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/wine-making/</p>
+          <p><strong>AI Adjusted Vol:</strong> 210 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Wine silo flagship (210/mo, KD 30). Same target URL as G10/G11 — execution is unified. Phase 3b: AHB and beerco own positions 1-2; aussiebrewmakers and thebrewshed at 3-4. Phase 4 action: the unified /product-category/wine-making/ page becomes the wine silo hub at 1,500+ words covering full wine-making journey, with internal links to fermenter (G11), fruit press, oak chunks, wine yeast secondary product pages. Client USP advantage: 20-year shop heritage + 13-year owner experience (Q10) + full product breadth (Q12 lists wine yeast, additives, fruit press, oak barrels, supplies — only multi-category retailer needed) makes a one-stop-wine-shop claim defensible. SERP opportunity: this term has higher commercial intent than 'wine making kit' — captures repeat-buyer audience already past the kit stage.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>wine making supplies ()</li><li>winemaking supplies ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What supplies do I need to make wine at home?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>home wine making supplies australia ()</li><li>wine making supplies online ()</li><li>wine making supplies australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-12&#39;)">
+  <td>13</td>
+  <td class="kw-name">cheese making supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>$0.67</td>
+  <td>Transactional</td>
+  <td><span class="tl-badge tl-medium_term">Medium Term (3-6 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-12" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="55.32344662971625 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.59</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_C_cheese</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Cheese Silo Flagship</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/product-category/cheese-making/</p>
+          <p><strong>AI Adjusted Vol:</strong> 170 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Cheese silo flagship anchor (170/mo, KD 30). Phase 4: existing /product-category/cheese-making/ has no H1 and ~357-word product-card-only content. Action: rewrite to 1,200+ words covering cheese-making basics (cultures + rennet + moulds + presses), beginner cheese-style guide (mozzarella, halloumi, ricotta — the easy 3), and link to Mad Millie kits (G14 secondary). Phase 3b: distilleryking.com.au and aussiebrewmakers.com.au surprisingly absent from cheese SERPs (mostly Mad Millie distributors + Amazon AU) — moderate displaceability. Client USP advantage: stocks Mad Millie + cheese cultures + cheese moulds + cheese making kits + equipment (Q12) — full Mad Millie distributor breadth matches niche-leader pattern. Tier C niche but defensible at KD 30 inside 6 months.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>cheese making equipment ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>What do I need to make cheese at home?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>cheese making supplies australia ()</li><li>home cheese making supplies ()</li><li>mad millie cheese making supplies ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-13&#39;)">
+  <td>14</td>
+  <td class="kw-name">mad millie</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>390</td>
+  <td>9</td>
+  <td>$0.48</td>
+  <td>Informational</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-13" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="53.12747336485698 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.56</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> tier_C_cheese</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Brand Stockist Hub (Learn + Commerce)</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/learn/mad-millie/</p>
+          <p><strong>AI Adjusted Vol:</strong> 390 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Brand-supplier content opportunity per allocation strategy — Mad Millie is a stocked brand (questionnaire Q12 implicit via 'Cheese making kits' inventory), not a competitor. 390/mo, KD 9 — the strongest informational-commercial cross-sell slot in the package. Phase 4: MISSING — no current page targets this. Action: create /learn/mad-millie/ as a brand stockist hub covering the Mad Millie product range (mozzarella kit, halloumi kit, soft cheese kit, fresh cheese kit), why-choose-this-brand explainer, and 'buy at Brewers Choice' CTAs. Phase 3b: no top-5 named competitor owns this brand-content slot. SERP opportunity: brand SERP for 'mad millie' is dominated by Mad Millie's own .co.nz site (NZ brand) + Amazon AU + a few category resellers — clean opportunity for an Australian stockist to rank. Layer 5 = competitor blind spot (none of AHB/beerco/aussiebrewmakers/thebrewshop have a Mad Millie learn page).</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>mad millie australia ()</li><li>mad millie cheese kit ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Where is Mad Millie made?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>mad millie cheese making kit ()</li><li>mad millie mozzarella kit ()</li><li>mad millie halloumi kit ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail(&#39;detail-14&#39;)">
+  <td>15</td>
+  <td class="kw-name">home brew australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>1,600</td>
+  <td>8</td>
+  <td>$1.44</td>
+  <td>Informational</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-14" class="detail-row" style="display:none">
+  <td colspan="9">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8" stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8" stroke-dasharray="62.410879656214824 125.66370614359172" stroke-linecap="round" transform="rotate(135 30 30)"></circle>
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8" font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.66</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> cross_cutting</p>
+          <p><strong>Action:</strong> Create New</p>
+          <p><strong>Content Type:</strong> Topical Authority Hub (Definitive Au Homebrew Guide)</p>
+          <p><strong>Target URL:</strong> https://brewerschoice.net.au/learn/home-brew-australia/</p>
+          <p><strong>AI Adjusted Vol:</strong> 1,600 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> Cross-cutting content pillar (1,600/mo, KD 8) — the lowest-KD high-volume term across all 302 candidates. Phase 4: MISSING. Phase 3c finding: the SERP for the parent term 'homebrew' shows 9 forums + 1 retailer in top 10 — wide-open displacement opportunity for a definitive Australian guide. Action: create /learn/home-brew-australia/ as a 2,500+ word topical pillar: 'What is homebrew in Australia? — the complete guide for new brewers'. Cover legal context (AU homebrew is legal, distilling requires excise licence), beginner kit recommendations, jurisdictional variations, what's available at brewerschoice.net.au. Internal links to G01-G05 (commerce anchors). This page becomes the silo hub that lifts the strategic A1 keywords (G05). Client USP advantage: 20-year operating heritage + 13yr owner brewing experience (Q10) qualifies brewerschoice as an authoritative AU voice — content can credibly reference real customer questions accumulated since 2005 (Q18: 3000+ customers). SERP opportunity: low AI Overview deflection on commercial-leaning informational + PAA questions on 'is home brewing legal in Australia' available for FAQ schema.</div>
+      <div class="secondaries-detail"><div class="sec-group"><strong>Must Mention:</strong><ul><li>homebrew australia ()</li></ul></div><div class="sec-group"><strong>PAA Questions:</strong><ul><li>Is home brewing legal in Australia?</li><li>How do I start home brewing in Australia?</li></ul></div><div class="sec-group"><strong>Long Tail:</strong><ul><li>home brewing australia ()</li><li>home brew ()</li><li>home brew beer australia ()</li></ul></div></div>
+    </div>
+  </td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="location_keywords" class="section">
+  <h2>Selected Location Keywords</h2>
+  <p class="section-intro">10 location keywords across 3 geographic rings.</p>
+  <h3>Ring 1 (6 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>home brew shop bayswater</td>
+  <td>Bayswater</td>
+  <td>tier_A1_beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>home brew shop boronia</td>
+  <td>Boronia</td>
+  <td>tier_A1_beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>10</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>home brew shop croydon</td>
+  <td>Croydon</td>
+  <td>tier_A1_beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>home distilling kit bayswater</td>
+  <td>Bayswater</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>home distilling kit boronia</td>
+  <td>Boronia</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>2 km</td>
+</tr><tr>
+  <td>home distilling kit croydon</td>
+  <td>Croydon</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>5 km</td>
+</tr></tbody>
+</table>
+</div><h3>Ring 2 (2 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>home brew shop clayton</td>
+  <td>Clayton</td>
+  <td>tier_A1_beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>home distilling kit clayton</td>
+  <td>Clayton</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>22 km</td>
+</tr></tbody>
+</table>
+</div><h3>Ring 3 (2 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>home distilling kit oakleigh</td>
+  <td>Oakleigh</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>22 km</td>
+</tr><tr>
+  <td>home distilling kit springvale</td>
+  <td>Springvale</td>
+  <td>tier_A2_spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>25 km</td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="silo_architecture" class="section">
+  <h2>Keyword Silo Architecture</h2>
+  <p class="section-intro">5 content silos identified.</p>
+  <div class="chart-row">
+    <div class="chart-block"><svg width="400" height="210" viewBox="0 0 400 210" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Client Topical Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_A1_beer</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483"></rect>
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_A2_spirits</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_B_wine</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_C_cheese</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">cross_cutting</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+    <div class="chart-block"><svg width="400" height="210" viewBox="0 0 400 210" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Competitor Avg Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_A1_beer</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483"></rect>
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_A2_spirits</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_B_wine</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">tier_C_cheese</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="182" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">cross_cutting</text>
+  <rect x="120" y="164" width="2.0" height="28" rx="3" fill="#0f3460"></rect>
+  <text x="128.0" y="182" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+  </div>
+  <div class="silo-grid"><div class="silo-card">
+  <h4>tier_A1_beer</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>home brewing supplies australia</strong></span>
+    <span>Volume: <strong>4,770</strong></span>
+    <span>Pages: 5 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>home brewing supplies melbourne</li><li>home brewing supplies</li><li>home beer kit</li><li>home brew shop</li></ul></div>
+    <div><strong>Location:</strong><ul><li>home brew shop bayswater</li><li>home brew shop boronia</li><li>home brew shop croydon</li><li>home brew shop clayton</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>tier_A2_spirits</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>distillation condenser</strong></span>
+    <span>Volume: <strong>430</strong></span>
+    <span>Pages: 1 existing / 3 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>jack daniels essence</li><li>tri clamp fittings</li><li>home distilling kit</li></ul></div>
+    <div><strong>Location:</strong><ul><li>home distilling kit bayswater</li><li>home distilling kit boronia</li><li>home distilling kit croydon</li><li>home distilling kit clayton</li><li>home distilling kit oakleigh</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>tier_B_wine</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>wine fermenter</strong></span>
+    <span>Volume: <strong>410</strong></span>
+    <span>Pages: 3 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>wine making supplies melbourne</li><li>home wine making supplies</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>tier_C_cheese</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>cheese making supplies</strong></span>
+    <span>Volume: <strong>560</strong></span>
+    <span>Pages: 1 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>mad millie</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>cross_cutting</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong>home brew australia</strong></span>
+    <span>Volume: <strong>1,600</strong></span>
+    <span>Pages: 0 existing / 1 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div></div>
+</section>
+<section id="competitor_analysis" class="section">
+  <h2>Competitor Analysis</h2>
+  
+  <h3>Direct Competitors</h3>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Domain</th><th>DA</th><th>Keywords</th><th>Traffic</th><th>Ref Domains</th><th>Overlap</th></tr></thead>
+    <tbody><tr><td colspan="6">No competitor profiles available</td></tr></tbody>
+  </table>
+  </div>
+  
+</section>
+<section id="content_gap" class="section">
+  <h2>Content Gap Map</h2>
+  <h3>Keyword Gap Status</h3><div class="table-scroll"><table class="data-table"><thead><tr><th>Keyword</th><th>Gap Status</th><th>Target URL</th><th>Action</th><th>Investment</th></tr></thead><tbody><tr>
+  <td>home brewing supplies australia</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home brewing supplies melbourne</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home brewing supplies</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home beer kit</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-starter-kit/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home brew shop</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/shop/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>distillation condenser</td>
+  <td class="status-fail">Missing</td>
+  <td>https://brewerschoice.net.au/learn/distillation-condenser/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>jack daniels essence</td>
+  <td class="status-fail">Missing</td>
+  <td>https://brewerschoice.net.au/learn/jack-daniels-essence/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>tri clamp fittings</td>
+  <td class="status-fail">Missing</td>
+  <td>https://brewerschoice.net.au/learn/tri-clamp-fittings/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home distilling kit</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>wine fermenter</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/wine-making/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>wine making supplies melbourne</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/wine-making/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home wine making supplies</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/wine-making/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>cheese making supplies</td>
+  <td class="status-pass">Exists Needs Optimisation</td>
+  <td>https://brewerschoice.net.au/product-category/cheese-making/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>mad millie</td>
+  <td class="status-fail">Missing</td>
+  <td>https://brewerschoice.net.au/learn/mad-millie/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>home brew australia</td>
+  <td class="status-fail">Missing</td>
+  <td>https://brewerschoice.net.au/learn/home-brew-australia/</td>
+  <td>Create New</td>
+  <td>Medium</td>
+</tr></tbody></table></div>
+  
+  
+  
+</section>
+<section id="quick_wins" class="section">
+  <h2>Quick Wins</h2>
+  <p class="section-intro">18 quick win opportunities identified (achievable in 1-3 months).</p>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Action</th><th>Target URL</th></tr></thead>
+    <tbody><tr>
+  <td>home brewing supplies australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.70</span></td>
+  <td>170</td>
+  <td>1</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</td>
+</tr><tr>
+  <td>home brewing supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.67</span></td>
+  <td>210</td>
+  <td>1</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/product-category/beer-cider/beer-brewing-ingredient-kits/</td>
+</tr><tr>
+  <td>distillation condenser</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.71</span></td>
+  <td>50</td>
+  <td>1</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/learn/distillation-condenser/</td>
+</tr><tr>
+  <td>jack daniels essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>30</td>
+  <td>5</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/learn/jack-daniels-essence/</td>
+</tr><tr>
+  <td>wine fermenter</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>170</td>
+  <td>18</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/product-category/wine-making/</td>
+</tr><tr>
+  <td>wine making supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>30</td>
+  <td>3</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/product-category/wine-making/</td>
+</tr><tr>
+  <td>mad millie</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>390</td>
+  <td>9</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/learn/mad-millie/</td>
+</tr><tr>
+  <td>home brew australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>1,600</td>
+  <td>8</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/learn/home-brew-australia/</td>
+</tr><tr>
+  <td>home brew shop bayswater</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/contact/ + LocalBusiness schema on /</td>
+</tr><tr>
+  <td>home brew shop boronia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>10</td>
+  <td>8</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/locations/boronia/ (proposed)</td>
+</tr><tr>
+  <td>home brew shop croydon</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/locations/croydon/ (proposed)</td>
+</tr><tr>
+  <td>home brew shop clayton</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Create New</td>
+  <td>https://brewerschoice.net.au/locations/clayton/ (proposed)</td>
+</tr><tr>
+  <td>home distilling kit bayswater</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr><tr>
+  <td>home distilling kit boronia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr><tr>
+  <td>home distilling kit croydon</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr><tr>
+  <td>home distilling kit clayton</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr><tr>
+  <td>home distilling kit oakleigh</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr><tr>
+  <td>home distilling kit springvale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Optimise Existing</td>
+  <td>https://brewerschoice.net.au/product-category/spirit-making/</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="serp_features" class="section">
+  <h2>SERP Feature Opportunities</h2>
+  <div class="info-card"><span class="info-icon">ⓘ</span><p>No SERP features detected in keyword data or SERP analysis. This may improve with additional research phases.</p></div>
+</section>
+<section id="gbp_opportunities" class="section">
+  <h2>GBP &amp; Near Me Opportunities</h2>
+  <p class="section-intro">7 "near me" keywords identified with 10,140/mo combined volume. These rank via Google Business Profile, not dedicated pages.</p>
+  <div class="info-card">
+    <p><strong>GBP Actions:</strong> Optimize business categories, maintain consistent NAP (Name, Address, Phone), encourage customer reviews mentioning services, add service area coverage, post regular GBP updates. These keywords cannot be targeted with content — they require GBP optimization and local signal strength.</p>
+  </div>
+  <table class="data-table compact-table">
+    <thead><tr><th>Keyword</th><th>Volume/mo</th><th>KD</th></tr></thead>
+    <tbody><tr><td>home brew supplies near me</td><td>3,600</td><td>22</td></tr><tr><td>home brewing supplies near me</td><td>3,600</td><td>22</td></tr><tr><td>home brew shop near me</td><td>2,400</td><td>7</td></tr><tr><td>homebrew shop near me</td><td>390</td><td>12</td></tr><tr><td>wine making supplies near me</td><td>70</td><td>30</td></tr><tr><td>cheese making supplies near me</td><td>50</td><td>30</td></tr><tr><td>distilling supplies near me</td><td>30</td><td>39</td></tr></tbody>
+  </table>
+</section>
+<section id="ai_overview" class="section">
+  <h2>AI Overview Impact</h2>
+  
+  <h3>Keyword-Level Classifications</h3><table class="data-table"><thead><tr><th>Classification</th><th>Keywords</th><th>Volume Impact</th></tr></thead><tbody><tr><td>None</td><td>15</td><td>No volume deflection</td></tr></tbody></table>
+  
+</section>
+<section id="geographic_expansion" class="section">
+  <h2>Geographic Expansion Plan</h2>
+  <p class="section-intro">Ring-by-ring build-out sequence for 3 geographic rings.</p>
+  <div class="expansion-ring">
+  <h3>Ring 1</h3>
+  <p><strong>Suburbs:</strong> Bayswater, Boronia, Croydon</p>
+  <p><strong>Keywords:</strong> 6 | <strong>Total Volume:</strong> 10</p>
+  <p><strong>Strategy:</strong> Build first -- closest to business location</p>
+</div><div class="expansion-ring">
+  <h3>Ring 2</h3>
+  <p><strong>Suburbs:</strong> Clayton</p>
+  <p><strong>Keywords:</strong> 2 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build after Ring 1 pages are indexed</p>
+</div><div class="expansion-ring">
+  <h3>Ring 3</h3>
+  <p><strong>Suburbs:</strong> Oakleigh, Springvale</p>
+  <p><strong>Keywords:</strong> 2 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build after Ring 2 pages are indexed</p>
+</div>
+</section>
+<section id="excluded_keywords" class="section">
+  <h2>Excluded Keywords</h2>
+  <div class="info-card"><span class="info-icon">ⓘ</span><p>No notable exclusions recorded. This section populates after keyword selection.</p></div>
+</section>
+<section id="tam" class="section">
+  <h2>Total Addressable Market</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">56,316</div>
+      <div class="stat-label">Estimated Monthly TAM</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">7,770</div>
+      <div class="stat-label">Selected Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">13.8%</div>
+      <div class="stat-label">TAM Capture</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">302</div>
+      <div class="stat-label">Total Candidates</div>
+    </div>
+  </div>
+  <p class="section-note">TAM is estimated from candidate pool volume data. Upgrade to a higher tier to capture more of the addressable market.</p>
+</section>
+<section id="brand_serp" class="section">
+  <h2>Brand SERP Health Check</h2>
+  <p class="section-intro">Analysis of search results for "<strong>Brewers Choice Home Brew Supplies</strong>"</p>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value status-warn">?</div><div class="stat-label">Brand Position</div></div>
+    <div class="stat-card"><div class="stat-value status-warn">Unknown</div><div class="stat-label">Knowledge Panel</div></div>
+    <div class="stat-card"><div class="stat-value status-warn">Unknown</div><div class="stat-label">Competitor Ads on Brand</div></div>
+    <div class="stat-card"><div class="stat-value">Unknown</div><div class="stat-label">Page 1 Control</div></div>
+  </div>
+  <p class="status-warn">Negative results could not be determined.</p>
+  <p class="status-warn">Review snippet data not available.</p>
+</section>
+<section id="methodology" class="section">
+  <h2>Methodology</h2>
+  <div class="methodology-content">
+    <h3>Scoring Model</h3>
+    <p>Keywords are evaluated across 8 dimensions, each scored 0.0 to 1.0:</p>
+    <table class="data-table compact-table">
+      <thead><tr><th>Dimension</th><th>Weight</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>Demand</td><td>18%</td><td>Search volume adjusted for AI deflection and trend</td></tr>
+        <tr><td>Winnability</td><td>22%</td><td>Keyword difficulty vs client domain authority</td></tr>
+        <tr><td>Intent Fit</td><td>18%</td><td>SERP-based intent classification alignment</td></tr>
+        <tr><td>Commercial</td><td>10%</td><td>CPC percentile indicating conversion value</td></tr>
+        <tr><td>Gap Value</td><td>10%</td><td>Competitive gap opportunity assessment</td></tr>
+        <tr><td>SERP Opportunity</td><td>5%</td><td>Available SERP feature slots</td></tr>
+        <tr><td>Effort Adjusted</td><td>10%</td><td>Content investment efficiency</td></tr>
+        <tr><td>Defensibility</td><td>7%</td><td>Long-term ranking holdability</td></tr>
+      </tbody>
+    </table>
+    <h3>Confidence Levels</h3>
+    <ul class="feature-list">
+      <li><strong>HIGH</strong> -- 3+ data sources agree, cross-validation passed</li>
+      <li><strong>MEDIUM</strong> -- 2 sources or minor divergence in cross-validation</li>
+      <li><strong>LOW</strong> -- Single source or significant data gaps</li>
+    </ul>
+    <h3>Timeline Assignment</h3>
+    <ul class="feature-list">
+      <li><strong>Quick Win (1-3 months)</strong> -- Low KD relative to DA, existing content or thin competition</li>
+      <li><strong>Medium Term (3-6 months)</strong> -- Moderate KD, new content required</li>
+      <li><strong>Strategic (6-12 months)</strong> -- High KD or authority-building required</li>
+    </ul>
+    <h3>Data Sources</h3>
+    <p>This report aggregates data from multiple sources including SE Ranking, DataForSEO,
+    Google Search Console (when connected), Google Ads keyword planner, and manual SERP analysis.
+    Volume figures are cross-validated across sources when available.</p>
+  </div>
+</section>
+<section id="appendix" class="section">
+  <h2>Appendix: Full Candidate Database</h2>
+  <p class="section-intro">302 total candidates analysed.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table" id="appendix-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Intent</th><th>Silo</th><th>Timeline</th></tr></thead>
+    <tbody><tr>
+  <td>kegland</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.72</span></td>
+  <td>22,200</td>
+  <td>4</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>distillation condenser</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.71</span></td>
+  <td>50</td>
+  <td>1</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.70</span></td>
+  <td>170</td>
+  <td>1</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.69</span></td>
+  <td>2,400</td>
+  <td>7</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.67</span></td>
+  <td>210</td>
+  <td>1</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>1,600</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>alcotec 48 turbo yeast</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>50</td>
+  <td>4</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewing supplies australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>170</td>
+  <td>6</td>
+  <td>Commercial Investigation</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>best home brew kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>90</td>
+  <td>1</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>4,400</td>
+  <td>50</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>jack daniels essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>30</td>
+  <td>5</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>tri clover fittings</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>tri clamp fittings</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew supplies near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>3,600</td>
+  <td>22</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak barrels for sale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>1,900</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing supplies sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>140</td>
+  <td>10</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak wine barrel for sale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>170</td>
+  <td>2</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak barrel</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>880</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine fermenter</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>170</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>3,600</td>
+  <td>22</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine making supplies melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>30</td>
+  <td>3</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>vodka essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>french oak barrel</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>140</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>french oak wine barrel</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>140</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>beer kegs</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>3,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>whiskey essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>30</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>bluestone yeast</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>210</td>
+  <td>8</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>beer making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>bourbon essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home wine making supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>oak wine barrel</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>still spirits t500</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>40</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>food grade fermenter</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>flavour essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home beer kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing supplies brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>320</td>
+  <td>18</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home distilling kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>140</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew beer kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing beer kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>distilling supplies near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>30</td>
+  <td>39</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>make beer at home kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer brewing home kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer making home kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>turbo sugar</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>30</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>mad millie</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>390</td>
+  <td>9</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>480</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>rum essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>720</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer and wine making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>10</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>online home brewing supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home cheese making</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>210</td>
+  <td>2</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>210</td>
+  <td>2</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home beer brewing kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home beer brew kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brew beer at home kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer brewing kits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,300</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making equipment suppliers</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making store</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home distilling equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>30</td>
+  <td>11</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>1,600</td>
+  <td>10</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewing thermometer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>turbo yeast 48</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>30</td>
+  <td>15</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>co2 gas bottle refill</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>30</td>
+  <td>39</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing supplies perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>390</td>
+  <td>22</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewery kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>1,600</td>
+  <td>45</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer brewing equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>90</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine press</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>880</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>turbo yeast classic 8</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew beer keg kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>40</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fruit press</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheap home brewing supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>mr beer home brewing kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>20</td>
+  <td>8</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>mozzarella making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>20</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>grape crusher</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fermenter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making kits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>480</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine barrel for sale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fresh wort kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making kits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>moonshine still for sale australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fermenter beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>oak barrel sizes</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>320</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>20</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewing hydrometer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home fermentation kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>gin essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>30</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>malt extract</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>1,000</td>
+  <td>32</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>turbo yeast</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew shop australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>170</td>
+  <td>35</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brew heater</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>craft distilling equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>copper stills</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>distilling at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>110</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>best home brew kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>best beer making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>still spirits turbo 500</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>best home distilling kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>140</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>micro distillery equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>41</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>coopers beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>best cheese making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>used oak barrel for sale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>140</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>copper pot still</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making process</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>170</td>
+  <td>2</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>temperature controller brewing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>40</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>carbon filter for spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>140</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewzilla 35l</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew bottles</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>40</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewing bottles</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>oak chunks</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>best wine making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>8</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>all in one brewing system</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>mad millie cheese making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fermenting vessel</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>90</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>still spirits turbo yeast</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine fruit press</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew shop</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>880</td>
+  <td>25</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>coopers diy beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew kit melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>buy cheese making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>all in one home brew beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>complete cheese making kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine making supplies brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making supplies near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making kit perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>30</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>fresh wort kits australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>30</td>
+  <td>39</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>sanitiser for brewing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>ginger beer home brew kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home distilling kit perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>distilling boiler</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>jim beam essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>electric moonshine still</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>40</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew shop perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>30</td>
+  <td>2</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making kit sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>liqueur essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making supplies near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making supplies perth</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>10</td>
+  <td>34</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>320</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>hops for beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>880</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling kit australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>10</td>
+  <td>23</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brew belt</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>20</td>
+  <td>40</td>
+  <td>Transactional</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making supplies sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>20</td>
+  <td>30</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>white labs yeast</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>20</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Navigational</td>
+  <td>cross_cutting</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>10</td>
+  <td>63</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Strategic (6-12 mo)</td>
+</tr><tr>
+  <td>cheese making class</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making classes</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer keg starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>still spirits air still</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>1,600</td>
+  <td>66</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Strategic (6-12 mo)</td>
+</tr><tr>
+  <td>home brew kit sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making workshop melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew not fermenting</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>complete home brewing kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>still spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>880</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew shop brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>320</td>
+  <td>25</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>320</td>
+  <td>25</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>210</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home cheese making equipment</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making kit melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.47</span></td>
+  <td>10</td>
+  <td>18</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>140</td>
+  <td>19</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese cultures</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>260</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>buy oak barrel australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>grainfather</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop sydney</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>140</td>
+  <td>30</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>where to buy home brew supplies</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Transactional</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>moonshine still kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>40</td>
+  <td>35</td>
+  <td>Transactional</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making class</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>schnapps essence</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew store australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Navigational</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew off flavours</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew off flavours</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew bottle bombs</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>over carbonated home brew</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew tastes sour</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew infection</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>first time home brewer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew temperature too high</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling troubleshooting</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>foreshots heads hearts tails</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>ricotta not setting</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>essence prices australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew cost per litre</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewer beginner</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew bottle conditioning</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>vintner's harvest</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine making supplies australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>10</td>
+  <td>14</td>
+  <td>Commercial Investigation</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing beer starter kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop near me</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>390</td>
+  <td>12</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew kit brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>10</td>
+  <td>47</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese making</td>
+  <td><span class="score-badge" style="background:#f0a500">0.44</span></td>
+  <td>390</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>alcohol still</td>
+  <td><span class="score-badge" style="background:#f0a500">0.44</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewing grain</td>
+  <td><span class="score-badge" style="background:#f0a500">0.44</span></td>
+  <td>70</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>spirit essences</td>
+  <td><span class="score-badge" style="background:#f0a500">0.44</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>diacetyl in beer</td>
+  <td><span class="score-badge" style="background:#f0a500">0.44</span></td>
+  <td>40</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home beer brewing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>260</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>making cheese at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>210</td>
+  <td>17</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>fermenter</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>390</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheese moulds</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewers choice</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>320</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewers choice bayswater</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>50</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewing hops</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>20</td>
+  <td>21</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop bayswater</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop croydon</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop boronia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop clayton</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop oakleigh</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew shop springvale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies croydon</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies boronia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies clayton</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies oakleigh</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brewing supplies springvale</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>0</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making kit brisbane</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td>Transactional</td>
+  <td>tier_C_cheese</td>
+  <td>medium</td>
+</tr><tr>
+  <td>alcohol stills</td>
+  <td><span class="score-badge" style="background:#f0a500">0.43</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brewzilla</td>
+  <td><span class="score-badge" style="background:#f0a500">0.42</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home distilling</td>
+  <td><span class="score-badge" style="background:#f0a500">0.42</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home distilling australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.42</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>distilling alcohol at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.42</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>distilling liquor at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.42</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>best home distilling kit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>10</td>
+  <td>39</td>
+  <td>Commercial Investigation</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>how to make wine at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>140</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew spirits</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>70</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home wine making</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>making wine at home</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>how to fix stuck fermentation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.41</span></td>
+  <td>10</td>
+  <td>8</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>airlock for fermentation</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>210</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_D_general</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine additives</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>20</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>reflux still</td>
+  <td><span class="score-badge" style="background:#f0a500">0.40</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew shop melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.40</span></td>
+  <td>50</td>
+  <td>18</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>moonshine still</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.40</span></td>
+  <td>170</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine yeast</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.40</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer brewing starter kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>50</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewed ginger beer</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew kegging supplies</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>essences for spirits</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>essence for home distilling</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak flavouring chips</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak chips for spirits</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>ricotta cheese kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling kit melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling kit brisbane</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling kit sydney</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>buy home brew kit online</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>buy stills australia</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>buy home distilling kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>where to buy essences</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheap home brew kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to sanitise home brew equipment</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew bottling problems</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to read hydrometer home brew</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine fermentation stuck</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making problems</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew kit price</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how much does a home brew kit cost</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distilling kit price</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheese making kit price</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_C_cheese</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew vs buying beer cost</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>homebrew starter pack</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>complete distilling kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home distillery setup</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>complete home wine making kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewing and distilling supplies</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>cross_cutting</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>furphy beer kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewery quality beer at home</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>brewing forum australia</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew bottling tree</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>alembic copper pot still</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>0</td>
+  <td>5</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>reflux stills</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>pot still</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>390</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>distilling spirits at home</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.39</span></td>
+  <td>110</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>wine making yeast</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>yeast for wine making</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>590</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>medium</td>
+</tr><tr>
+  <td>beer brewing yeast</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>480</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>craft beer brewing starter kit</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>wine making problems</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how much does it cost to brew beer at home</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>10</td>
+  <td>12</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>coopers diy beer</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>320</td>
+  <td>38</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brew advice</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>10</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>oak barrel price</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.36</span></td>
+  <td>30</td>
+  <td>18</td>
+  <td>Informational</td>
+  <td>tier_B_wine</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>home brew kit perth</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.36</span></td>
+  <td>20</td>
+  <td>36</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>brew at home</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.35</span></td>
+  <td>30</td>
+  <td>66</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>Strategic (6-12 mo)</td>
+</tr><tr>
+  <td>stuck fermentation</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>34</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing for beginners</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>how much does a still cost</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>30</td>
+  <td>Informational</td>
+  <td>tier_A2_spirits</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew capper</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>39</td>
+  <td>Informational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>grainfather connect</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>39</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>home brewing supplies bayswater</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.32</span></td>
+  <td>0</td>
+  <td>28</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>medium</td>
+</tr><tr>
+  <td>homebrew shop melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.30</span></td>
+  <td>10</td>
+  <td>65</td>
+  <td>Navigational</td>
+  <td>tier_A1_beer</td>
+  <td>Strategic (6-12 mo)</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+</main>
+<script>
+function toggleDetail(id) {
+  var row = document.getElementById(id);
+  if (row) {
+    row.style.display = row.style.display === 'none' ? '' : 'none';
+  }
+}
+
+function sortTable(table, col) {
+  var tbody = table.tBodies[0];
+  var rows = Array.from(tbody.rows).filter(function(r) { return !r.classList.contains('detail-row'); });
+  var th = table.tHead.rows[0].cells[col];
+  var asc = !th.classList.contains('sort-asc');
+  Array.from(table.tHead.rows[0].cells).forEach(function(c) {
+    c.classList.remove('sort-asc', 'sort-desc');
+  });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+  rows.sort(function(a, b) {
+    var va = a.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var vb = b.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var na = parseFloat(va), nb = parseFloat(vb);
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(function(row) {
+    tbody.appendChild(row);
+    var detailId = row.querySelector('[onclick]');
+    if (detailId) {
+      var match = detailId.getAttribute('onclick').match(/'([^']+)'/);
+      if (match) {
+        var detail = document.getElementById(match[1]);
+        if (detail) tbody.appendChild(detail);
+      }
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.sortable-table').forEach(function(table) {
+    Array.from(table.tHead.rows[0].cells).forEach(function(th, i) {
+      th.addEventListener('click', function() { sortTable(table, i); });
+    });
+  });
+});
+</script>
+
+<script>
+(function(){
+  var R=23,API="/api/audit-reports/track";
+  var S=sessionStorage.getItem("_ar_sid");
+  if(!S){S=crypto.randomUUID();sessionStorage.setItem("_ar_sid",S)}
+  var started=Date.now(),evts=[],maxScroll=0,clicks=0,hbTimer,flushTimer;
+
+  function ua(){
+    var u=navigator.userAgent,d="desktop",b="Unknown",o="Unknown";
+    if(/Mobi|Android/i.test(u))d="mobile";
+    else if(/Tablet|iPad/i.test(u))d="tablet";
+    if(/Chrome\//.test(u)&&!/Edg\//.test(u))b="Chrome";
+    else if(/Safari\//.test(u)&&!/Chrome\//.test(u))b="Safari";
+    else if(/Firefox\//.test(u))b="Firefox";
+    else if(/Edg\//.test(u))b="Edge";
+    if(/Windows/.test(u))o="Windows";
+    else if(/Mac/.test(u))o="macOS";
+    else if(/Linux/.test(u))o="Linux";
+    else if(/Android/.test(u))o="Android";
+    else if(/iPhone|iPad/.test(u))o="iOS";
+    return{device_type:d,browser:b,os:o}
+  }
+
+  function send(body){
+    try{fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body),keepalive:true})}catch(e){}
+  }
+
+  function beacon(body){
+    try{navigator.sendBeacon(API,new Blob([JSON.stringify(body)],{type:"application/json"}))}catch(e){send(body)}
+  }
+
+  function flush(){
+    if(evts.length===0)return;
+    var batch=evts.splice(0,100);
+    send({type:"events",session_id:S,report_id:R,events:batch});
+  }
+
+  function dur(){return Math.round((Date.now()-started)/1000)}
+
+  // Init
+  var info=ua();
+  send({type:"init",session_id:S,report_id:R,referrer:document.referrer||"",
+    screen_width:screen.width,screen_height:screen.height,
+    page_width:document.documentElement.scrollWidth,
+    page_height:document.documentElement.scrollHeight,
+    device_type:info.device_type,browser:info.browser,os:info.os});
+
+  // Click tracking
+  function trackClick(e,t){
+    var el=e.target,dh=document.documentElement.scrollHeight||1,
+      dw=document.documentElement.scrollWidth||1;
+    var x=((e.pageX||0)/dw*100).toFixed(2),
+      y=((e.pageY||0)/dh*100).toFixed(2);
+    var tag=el.tagName||"",txt=(el.textContent||"").trim().substring(0,255);
+    evts.push({event_type:t,x_pct:parseFloat(x),y_pct:parseFloat(y),
+      element_tag:tag,element_text:txt});
+    if(t===1)clicks++;
+  }
+  document.addEventListener("click",function(e){trackClick(e,1)});
+  document.addEventListener("dblclick",function(e){trackClick(e,3)});
+
+  // Mouse movement (throttled 200ms)
+  var lastMove=0;
+  document.addEventListener("mousemove",function(e){
+    var now=Date.now();
+    if(now-lastMove<200)return;
+    lastMove=now;
+    var dh=document.documentElement.scrollHeight||1,
+      dw=document.documentElement.scrollWidth||1;
+    evts.push({event_type:2,
+      x_pct:parseFloat(((e.pageX||0)/dw*100).toFixed(2)),
+      y_pct:parseFloat(((e.pageY||0)/dh*100).toFixed(2))});
+  });
+
+  // Scroll tracking
+  window.addEventListener("scroll",function(){
+    var st=window.scrollY||document.documentElement.scrollTop,
+      dh=document.documentElement.scrollHeight-window.innerHeight;
+    if(dh>0){var pct=Math.round(st/dh*100);if(pct>maxScroll)maxScroll=pct}
+  });
+
+  // Flush events every 3s
+  flushTimer=setInterval(flush,3000);
+
+  // Heartbeat every 5s
+  hbTimer=setInterval(function(){
+    send({type:"heartbeat",session_id:S,report_id:R,
+      duration:dur(),max_scroll_pct:maxScroll,total_clicks:clicks});
+  },5000);
+
+  // On leave
+  function onLeave(){
+    clearInterval(hbTimer);clearInterval(flushTimer);
+    flush();
+    beacon({type:"leave",session_id:S,report_id:R,
+      duration:dur(),max_scroll_pct:maxScroll,total_clicks:clicks});
+  }
+  document.addEventListener("visibilitychange",function(){
+    if(document.visibilityState==="hidden")onLeave();
+  });
+  window.addEventListener("beforeunload",onLeave);
+})();
+</script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

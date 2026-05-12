@@ -46,5 +46,6 @@
 - [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v3 complete 7 May 2026 (13G+15L, client Q&A, competitor analysis, AEO) ✅
 - [styldmelbourne.com.au](project_styld.md) — STYLD Melbourne, home staging & property styling, Melbourne-wide, keyword-plan.html v1.3 complete 5 May 2026 ✅
 - [metrobuildsuppliers.com.au](../clients/metrobuildsuppliers.com.au/memory/client_metrobuildsuppliers.md) — Metrobuild Building & Construction Suppliers, Springvale trade supply store, 15G+10L, keyword plan v1 complete 7 May 2026, keyword-plan.html deliverable complete 8 May 2026 ✅
-- [foodistribute.com.au](../clients/foodistribute.com.au/memory/client_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
+- [foodistribute.com.au](project_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
 - [leffler.com.au](../clients/leffler.com.au/memory/client_leffler.md) — H. Leffler & Son, wholesale leather & craft supplier, West Melbourne, 9,500+ lines, meta descriptions written May 2026
+- [brewerschoice.net.au](../clients/brewerschoice.net.au/memory/client_brewerschoice.md) — Brewers Choice Home Brew Supplies, Bayswater physical store + ecommerce, 15G+10L, kwr:init complete 12 May 2026
