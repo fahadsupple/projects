@@ -136,7 +136,11 @@ type: project
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
 - **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run, keywords.json generated)
-- **HTML deliverable:** COMPLETE v2 — 30 Apr 2026 (rebuilt with correct 10 general + 20 location split; v1 had wrong 28 general + 8 location)
+- **HTML deliverable:** COMPLETE v4 — 14 May 2026 (35 client-finalised keyword pages: 15 capital city + 20 regional; v3 had 13G+15L general/location split)
+  - v4 architecture: 15 capital city pages (5 commercial solar + 5 industrial solar + 5 battery storage, all 5 capitals) + 20 regional pages (NSW 6, QLD 8, VIC 4, SA 2)
+  - Industrial solar [city] confirmed strategic zeros — approved as GBP-signal pages, each carrying "industrial solar panels" (210/mo national) as secondary
+  - Battery primary root changed to "commercial battery storage [city]" per client instruction; "battery storage [city]" retained as secondary
+  - Gold Coast elevated from regional to capital city tier (90/mo primary)
 - **Rankings check:** NOT STARTED — to be requested when client begins SEO implementation
 
 ## File Paths
