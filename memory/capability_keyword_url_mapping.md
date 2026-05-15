@@ -82,10 +82,17 @@ Priority order for URL selection:
 - Use only when: no matching category exists, and the keyword is a specific product search (exact brand/model)
 - Example: "still spirits classic 8 pack" → `/product/still-spirits-classic-8-pack/` (if no category covers it)
 
-**4. New page** (no existing match)
-- Create a clean descriptive slug from the primary keyword
-- Use consistent pattern with the rest of the site
-- Flag as NEW in Status column
+**4. New WooCommerce category page** (no existing category, but keyword is category-intent)
+- Use the site's category URL structure even though the category doesn't exist yet: `/product-category/[parent]/[child-slug]/`
+- Example: "copper stills" (no subcategory exists) → `/product-category/spirit-making/stills-and-parts/copper-pot-stills/` NEW
+- Example: "oak barrels" (existing category is mixed) → `/product-category/wine-making/oak-barrels/` NEW
+- NEVER use a bare custom slug like `/copper-stills/` or `/oak-barrels/` for a product listing page — custom slugs are for standalone content/landing pages only, not product category listings
+- Developer instruction: create the WooCommerce category with the matching slug and move/tag relevant products into it
+
+**5. New standalone content page** (no existing match, and keyword is informational/service intent — not a product listing)
+- Use a clean descriptive slug from the primary keyword: `/[keyword-slug]/`
+- Only appropriate for: blog articles, guide pages, location pages, service landing pages
+- Do NOT use for any page that will list products
 
 ---
 
