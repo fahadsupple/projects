@@ -63,9 +63,15 @@ Always use this exact column set:
 Priority order for URL selection:
 
 **1. WooCommerce category page** (`/product-category/[parent]/[child]/`)
-- Use for: category-intent keywords (e.g., "home brew supplies", "oak barrels", "turbo yeast", "air stills")
+- Use for: category-intent keywords (e.g., "home brew supplies", "turbo yeast", "air stills")
 - Prefer over individual product pages — category pages have product count, internal links, and broader intent match
-- Use the most specific matching category that covers the keyword's intent
+- Use the **most specific** matching category that covers the keyword's intent — never the parent if a matching child exists
+- **Category relevance check (mandatory before mapping):** Browse or search the category page to confirm the product mix. If the page contains products outside the keyword's scope — unrelated product types, mixed categories — do NOT use it. Create a new dedicated page instead.
+  - Example: "oak barrels" → category "Wine Barrel & Chips" contains glass demijohns and wood chips → too mixed → create `/oak-barrels/`
+  - Example: "top shelf essence" → parent "Essences & Chips" contains all brands + wood chips/staves → too broad → use the Top Shelf subcategory instead
+  - Example: "copper stills" → parent "Stills Kit & Parts" contains Turbo 500, Air Stills, AlcoEngine, Pure Distilling → too broad → create `/copper-stills/`
+- A category that mixes unrelated product types (e.g., "Boilers & Accessories" where accessories ≠ boilers) is borderline — flag with ⚠️ for developer to review
+- WooCommerce admin tagging errors (products mis-tagged into a category) can pollute the page — verify what actually appears on the front-end page, not just what SKUs are tagged in admin
 
 **2. Legacy/custom clean URL** (e.g., `/turbo-500-stills/`, `/pure-distilling-stills/`)
 - Use when: the page is already indexed, the slug is cleaner than the WooCommerce path, and the content matches the keyword
