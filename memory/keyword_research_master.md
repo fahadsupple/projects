@@ -187,7 +187,22 @@ Two roots are justified when ALL of the following are true:
 
 ---
 
-## 7. Data & Tools
+## 7. Third-Party Research Files
+
+### Rule: Never modify a client-supplied research file
+When a client provides a keyword research report from a third-party agency or tool (e.g., Hardy's report, an Ahrefs export, a consultant's spreadsheet):
+- **NEVER edit, annotate, or overwrite the original file** — it is read-only reference material
+- Create a separate working file: `keyword-review-[source].html` (e.g., `keyword-review-hardy.html`)
+- All SERP analysis, status decisions (KEEP/DROP/MIXED), and replacement keywords go into the review file only
+- The original file stays untouched as the source record
+
+**Why:** The client or a third party may refer back to the original; modifying it removes the ability to compare original recommendations vs Supple's review.
+
+**Example (foodistribute.com.au):** Hardy agency delivered `Keyword Research Report - Hardy.html`. All review work was done in `keyword-review-hardy.html`. Hardy's file was never touched.
+
+---
+
+## 8. Data & Tools
 
 ### Google Keyword Planner
 - Always AU, correct 12-month date range
