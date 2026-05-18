@@ -1,29 +1,28 @@
-# Privacy Policy
-
-**Wollerman Shacklock Lawyers | Last updated: May 2026**
+URL: /privacy-policy/
+Meta Title: Privacy Policy | Wollerman Shacklock Lawyers
+Meta Description: Read the Wollerman Shacklock Lawyers privacy policy. We explain how we collect, use, and protect your personal information — in plain language, so you actually understand it.
 
 ---
 
-## We take your privacy seriously
+H1: Privacy Policy
 
-Your privacy matters to us. At Wollerman Shacklock Lawyers, we handle sensitive information every day — property transactions, estate matters, business dealings — and you deserve to know exactly how we treat it.
+We handle sensitive information every day — property transactions, estate matters, business dealings — and you deserve to know exactly how we treat it.
 
 This policy explains what personal information we collect, why we collect it, how we use it, and what rights you have over it. We comply with the *Privacy Act 1988* (Cth) and the Australian Privacy Principles (APPs).
 
 ---
 
-## Who we are
+H2: Who We Are
 
-Wollerman Shacklock Lawyers (ABN 25 064 452 453) is a law firm based in Clyde North, Victoria, specialising in property law and conveyancing, wills and estate planning, and commercial and business law.
+Wollerman Shacklock Lawyers (ABN 25 064 452 393) is a law firm based in Clyde North, Victoria, specialising in property law and conveyancing, wills and estate planning, and commercial and business law.
 
-**Contact details:**
 Unit 2/43 Rainier Crescent, Clyde North VIC 3978
 Phone: (03) 9707 1155
 Email: admin@wslegal.com.au
 
 ---
 
-## What information we collect
+H2: What Information We Collect
 
 Depending on the nature of your matter, we may collect:
 
@@ -38,18 +37,18 @@ We only collect information that's directly necessary. If it's not relevant to h
 
 ---
 
-## How we collect it
+H2: How We Collect It
 
 We collect your information:
 
 - Directly from you via phone, email, or our website enquiry form
 - During the course of your matter, as your instructions evolve
-- From third parties involved in your matter — other solicitors, real estate agents, banks, government bodies — where necessary to carry out the work
+- From third parties involved in your matter — other solicitors, real estate agents, banks, or government bodies — where necessary to carry out the work
 - Via Docusign when you sign engagement documents electronically
 
 ---
 
-## Why we need it
+H2: Why We Need It
 
 We use your personal information to:
 
@@ -65,7 +64,7 @@ We use your personal information to:
 
 ---
 
-## Who we share it with
+H2: Who We Share It With
 
 We may share your personal information with:
 
@@ -78,7 +77,7 @@ We will never sell your personal information. We won't share it for marketing pu
 
 ---
 
-## How we keep it secure
+H2: How We Keep It Secure
 
 We take reasonable steps to protect your information from misuse, loss, unauthorised access, modification, and disclosure. That includes secure file management systems, password-protected software, and physical security at our Clyde North office.
 
@@ -86,13 +85,13 @@ One honest note: no data transmission over the internet is completely secure. If
 
 ---
 
-## Cookies and analytics
+H2: Cookies and Analytics
 
 Our website may use cookies and analytics tools such as Google Analytics to understand how visitors use the site. This data is collected in aggregate — it doesn't identify you personally. You can turn off cookies in your browser settings at any time.
 
 ---
 
-## Accessing or correcting your information
+H2: Accessing or Correcting Your Information
 
 You have the right to see the personal information we hold about you, and to have anything inaccurate corrected.
 
@@ -100,19 +99,19 @@ To request access or a correction, contact us at admin@wslegal.com.au or call (0
 
 ---
 
-## Complaints
+H2: Complaints
 
 If you believe we've mishandled your personal information, we want to know about it.
 
-**Privacy Officer**
+Privacy Officer
 Wollerman Shacklock Lawyers
 Unit 2/43 Rainier Crescent, Clyde North VIC 3978
 Email: admin@wslegal.com.au
 
-We'll investigate and respond within 30 days. If you're not satisfied with our response, you can take your complaint to the Office of the Australian Information Commissioner (OAIC) at [www.oaic.gov.au](https://www.oaic.gov.au).
+We'll investigate and respond within 30 days. If you're not satisfied with our response, you can take your complaint to the Office of the Australian Information Commissioner (OAIC) at www.oaic.gov.au.
 
 ---
 
-## Changes to this policy
+H2: Changes to This Policy
 
 We may update this policy from time to time. The current version will always be available on this page.
