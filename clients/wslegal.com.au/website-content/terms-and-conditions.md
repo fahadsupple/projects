@@ -1,104 +1,76 @@
 URL: /terms-and-conditions/
 Meta Title: Terms & Conditions | Wollerman Shacklock Lawyers
-Meta Description: Read the terms and conditions for engaging Wollerman Shacklock Lawyers — including our website terms of use, client engagement terms, and payment terms.
+Meta Description: Read the website terms and conditions for Wollerman Shacklock Lawyers. By using our site, you agree to these terms governing your access and use of wslegal.com.au.
 
 ---
 
 H1: Terms & Conditions
 
----
-
-H2: Website Terms of Use
-
-H3: Using Our Website
-
-By accessing wslegal.com.au, you agree to these terms. If you're not comfortable with any part of them, please don't use the site.
-
-H3: General Information Only
-
-Everything on this website is provided for general information purposes. It is not legal advice and shouldn't be treated as such. Legal matters are fact-specific — always get independent advice tailored to your own situation before acting on anything you read here.
-
-H3: No Solicitor-Client Relationship Yet
-
-Browsing this site or sending us an enquiry doesn't create a solicitor-client relationship. That only begins once we've confirmed in writing that we're acting for you.
-
-H3: Intellectual Property
-
-All content on this website — text, images, logos, and documents — belongs to Wollerman Shacklock Lawyers or is used with permission. Please don't reproduce or distribute any content without our prior written consent.
-
-H3: External Links
-
-We occasionally link to third-party websites for reference. We're not responsible for their content, accuracy, or availability.
-
-H3: Limitation of Liability
-
-To the extent permitted by law, we're not liable for any loss or damage arising from your use of, or reliance on, information on this website.
-
-H3: Governing Law
-
-These website terms are governed by the laws of Victoria, Australia. Any disputes relating to use of this website are subject to the exclusive jurisdiction of the courts of Victoria.
+These terms and conditions govern your use of the Wollerman Shacklock Lawyers website at wslegal.com.au. By accessing or using this site, you agree to be bound by them. If you do not agree, please do not use this website.
 
 ---
 
-H2: Terms of Engagement
+H2: General Information Only
 
-Thank you for your instructions or enquiry to engage Wollerman Shacklock Lawyers.
+The content on this website is provided for general information purposes only. It does not constitute legal advice and must not be relied upon as such.
 
-We're committed to providing quality legal advice to every client in an efficient and timely manner — and getting that right requires a genuine partnership between us. Before we get started, please take the time to read what we ask of our clients. By engaging our services, you agree to the following.
-
-H3: 1. Read Our Correspondence
-
-Please read everything we send you thoroughly. If anything is unclear, ask us — we'd much rather answer questions early than find out something was missed later.
-
-H3: 2. Respond in a Timely Manner
-
-When we ask for your instructions, documents, or a decision, please respond promptly. Delays on your end slow the matter down and, where we need to follow up on outstanding items repeatedly, may result in additional costs.
-
-H3: 3. Give Us the Full Picture
-
-We need your full and honest instructions to advise you properly. If your circumstances change while we're acting for you — in any way that could affect your matter — please let us know as soon as possible.
-
-H3: 4. Understand Your Cost Agreement
-
-Before we begin work, we'll send you a formal Cost Agreement and Cost Disclosure Statement. The estimate we provide relates strictly to the scope of work described in that document. If your matter requires additional work as it progresses, or if you ask us to take on tasks beyond the original scope, these will incur further costs.
-
-H3: 5. Changes to Your Instructions
-
-If you change your mind about how you'd like to proceed during the matter, that's okay — but please understand that changes to instructions may result in additional costs.
-
-H3: 6. Third-Party Involvement
-
-Many matters require us to deal with other parties — real estate agents, banks, opposing solicitors, or government bodies. We can't control how quickly they respond. Where delays on their end require unnecessary or repeated follow-ups from our office, this may increase the overall cost estimate for your matter.
-
-H3: 7. Pay Your Invoices Within 14 Days
-
-Our invoices are due within 14 days in accordance with our Cost Agreement and trading terms. Keeping payments up to date helps us keep your matter moving.
-
-H3: 8. Fund Disbursements Promptly
-
-Some matters require disbursements — government fees, search costs, and similar expenses. When we ask you to provide funds to cover these, please arrange payment promptly so we can act on your behalf without delay.
-
-H3: 9. Complete Your Verification of Identity
-
-If we request a Verification of Identity (VOI), please complete it as soon as possible. This is a legal requirement, and in many cases we're unable to proceed with key steps in your matter until it's done.
-
-H3: 10. Return Original Signed Documents
-
-Where we ask for original signed documents, please return them to our office by post or hand delivery. "Original signed" means the physical paper document signed in pen — not a scan or photo.
+Every legal matter is unique and fact-specific. Before acting on anything you read on this website, you should obtain independent legal advice tailored to your own circumstances. We accept no responsibility for any loss or damage suffered by any person relying on information contained on this site.
 
 ---
 
-H2: Accepting These Terms
+H2: No Solicitor-Client Relationship
 
-We'll send your engagement letter via Docusign. Please sign it electronically to accept these terms and conditions. If you'd prefer, you can print, sign, and return the letter to us by post or in person at our Clyde North office.
+Accessing this website, reading its content, or submitting an enquiry through our contact form does not create a solicitor-client relationship between you and Wollerman Shacklock Lawyers.
 
-Once we receive your signed engagement letter, we'll open your matter and forward the formal Cost Agreement and Cost Disclosure Statement.
+A solicitor-client relationship only arises once we have confirmed in writing that we are acting for you, and you have signed our formal Cost Agreement and Engagement Letter.
 
-If you have any questions before signing, please ask. We'd rather sort anything out upfront.
+---
+
+H2: Intellectual Property
+
+All content on this website — including text, images, graphics, logos, and documents — is owned by or licensed to Wollerman Shacklock Lawyers and is protected by Australian copyright law.
+
+You may view and print content from this website for your own personal, non-commercial use. You must not reproduce, republish, distribute, adapt, or otherwise use any content from this website for any other purpose without our prior written consent.
+
+---
+
+H2: Third-Party Links
+
+This website may contain links to external websites operated by third parties. These links are provided for your convenience only. We do not endorse, control, or take responsibility for the content, accuracy, privacy practices, or availability of any linked website.
+
+Visiting a linked website is at your own risk.
+
+---
+
+H2: Disclaimer and Limitation of Liability
+
+To the maximum extent permitted by law, Wollerman Shacklock Lawyers and its principal, employees, and agents exclude all liability for any loss, damage, cost, or expense — whether direct, indirect, incidental, or consequential — arising from your use of, or reliance on, this website or its content.
+
+This includes, but is not limited to, any errors or omissions in the content, technical issues, viruses, or interruption to the availability of this website.
+
+---
+
+H2: Privacy
+
+We are committed to protecting your personal information. Please read our [Privacy Policy](/privacy-policy/) to understand how we collect, use, and store your information when you interact with us through this website.
+
+---
+
+H2: Changes to These Terms
+
+We may update these terms and conditions at any time without notice. The current version will always be available on this page. Your continued use of this website following any changes constitutes your acceptance of the updated terms.
+
+---
+
+H2: Governing Law
+
+These terms and conditions are governed by the laws of Victoria, Australia. By using this website, you agree to submit to the exclusive jurisdiction of the courts of Victoria for any dispute arising out of or relating to your use of this site.
 
 ---
 
 H2: Contact Us
+
+If you have any questions about these terms, please get in touch.
 
 Wollerman Shacklock Lawyers
 Unit 2/43 Rainier Crescent, Clyde North VIC 3978
