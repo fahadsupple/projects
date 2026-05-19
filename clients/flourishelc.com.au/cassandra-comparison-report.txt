@@ -1,0 +1,300 @@
+FLOURISH ELC — CASSANDRA CORRECTIONS COMPARISON REPORT
+Document reviewed: flourishelc.com.au-cassandra-comments.docx vs flourishelc.com.au (2.0).docx
+Date: 19 May 2026
+============================================================
+
+METHODOLOGY
+-----------
+The Cassandra document was extracted and read page by page (29 pages).
+Each correction, deletion, or revision was cross-checked against the
+corresponding passage in (2.0). Cassandra's deleted text appears as blank
+spaces in the plain-text extraction; revised text appears in place.
+
+============================================================
+SECTION A — CASSANDRA'S CORRECTIONS APPLIED IN (2.0) ✅
+============================================================
+
+The following changes Cassandra made were successfully incorporated:
+
+SPELLING / AUSTRALIAN ENGLISH (partially applied)
+---------------------------------------------------
+1. Page 3 (Grantham Farm NSW): "personalized" → "personalised" ✅
+2. Page 21 (Brentwood WA daycare): "individualized" → "individualised" ✅
+3. Page 22 (Kindergarten Bull Creek): "specialized" → "specialised" ✅
+   (FAQ: "Do you offer a specialized 'Kindy' program?" → "specialised")
+
+DATES / YEAR REFERENCES
+-----------------------
+4. Multiple pages: Outdated "2024" year references updated throughout ✅
+   (e.g. Leeming kindergarten: "Enquire about available places for 2024"
+   → replaced with "Enquire about available places today!")
+5. Multiple pages: Enrolment year references updated to "2026/2027" ✅
+
+CORRUPTED / GARBLED TEXT — RESTORED IN (2.0)
+---------------------------------------------
+6. Multiple pages: Time format "0am to 6:0pm" → "7:00am to 6:00pm" ✅
+7. Page 7 (Mulgrave daycare, meta description): "Windsor Rd" → "Windsor Road" ✅
+8. Page 24 (Kindergarten Bateman WA):
+   - H1 was missing opening phrase about Piney Lakes Reserve
+   - (2.0) restored: "Inspired by the beautiful spaces in our community
+     such as Piney Lakes Reserve, nature play isn't an add-on here..." ✅
+   - Multiple garbled/corrupted FAQs (including broken hours text
+     "0 AM to 6:0 PM" and fragmented "e providewipes for all children")
+     were fully rebuilt as clean, complete FAQ answers ✅
+9. Page 25 (Kindergarten Rossmoyne WA):
+   - "We offer programs for children from old through to school age"
+     → "from 6 months old through to school age" ✅
+   - "counting , and using geometric shapes" → "counting the things
+     around us, and using geometric shapes" ✅
+10. Page 26 (Kindergarten Shelley WA) — extensive corruption fixed:
+    - H1: "the riverside environment  daily learning" (blank)
+      → "the riverside environment inspires our daily learning" ✅
+    - H2: "academic preparation ." (truncated)
+      → "academic preparation is a significant area of focus" ✅
+    - H2: "real,where children  local wildlife" (blank)
+      → "real life scenarios, where children learn about local wildlife" ✅
+    - H3: "Your child will develop essential pre-literacy skills build"
+      (missing comma/phrase) → "...skills, build mathematical thinking..." ✅
+    - H3 (Environmental): "City of , our planning" (missing council name)
+      → "City of Melville, our planning..." ✅
+    - H2 (Local Experts): blank/deleted text fully replaced with
+      coherent paragraph about EYLF philosophy ✅
+    - Bullet "•  Curriculum:" (missing label) → "EYLF Based Outcomes:" ✅
+    - Bullet "Authentic Local Integration: We use Shelley, Canning River,
+      and classroom" (cut off) → full rewritten bullet list ✅
+    - FAQ: " program specifically designed around Shelley environment"
+      (missing "Our") → rewritten full answer ✅
+    - Standalone ":" bullet point removed/fixed ✅
+    - "Our , combined with..." (blank mid-sentence) → rewritten ✅
+11. Page 27 (Kindergarten Willetton WA):
+    - "Located within the leafy, established streets  Willetton"
+      → restructured; "located near Willetton" used instead ✅
+    - "City of  planning policies" (missing council name) → resolved
+      by restructuring the paragraph ✅
+    - "We're not just located  Willetton" → "located near Willetton" ✅
+12. Page 28 (Kindergarten Brentwood WA):
+    - "Nestled  the Canning River" → "Nestled near the Canning River" ✅
+    - "nature-based activities  Blue Gum Lake Reserve" → "inspired by
+      the natural environment of Blue Gum Lake Reserve" ✅
+    - "the 'garden suburb' character  integrating" → resolved with
+      rewritten text ✅
+    - "e offer flexible attendance options" (missing "W") → "As a long
+      day care service licensed centre, we offer flexible attendance
+      options..." ✅
+    - "We  the  area helping children" (Blue Gum Lake FAQ, garbled)
+      → full clean answer provided ✅
+    - "Q: Is there an application fee? [Answer: .]" (just a period)
+      → full answer: "We do not charge an application fee or bond!..." ✅
+13. Page 8 (Preschool Oakville):
+    - "utilize" → "utilise" ✅ (partially applied)
+
+============================================================
+SECTION B — CASSANDRA'S CORRECTIONS NOT APPLIED IN (2.0) ❌
+============================================================
+
+The following changes Cassandra made (or clearly intended) were NOT
+carried through into the (2.0) document:
+
+AUSTRALIAN ENGLISH — NOT FIXED
+--------------------------------
+1. Page 8 (Preschool Oakville NSW):
+   "occasionally organize local community visits"
+   Cassandra flagged: → "organise"
+   STATUS IN (2.0): Still reads "organize" ❌
+   (Also listed as Issue 5 in content-review-issues.txt)
+
+2. Page 10 (Preschool Vineyard NSW):
+   "we recognize that many preschoolers are phasing out naps"
+   Cassandra flagged: → "recognise"
+   STATUS IN (2.0): Still reads "recognize" ❌
+   (Also listed as Issue 6 in content-review-issues.txt)
+
+3. Page 21 (Brentwood WA daycare — FAQ: "Executive Function" skills):
+   "We prioritize these in our Brentwood program"
+   Cassandra text shows "prioritize" — this word was NOT corrected
+   STATUS IN (2.0): Still reads "prioritize" ❌
+   Note: This is a NEW issue not in content-review-issues.txt.
+
+PUNCTUATION / TYPOS — NOT FIXED
+---------------------------------
+4. Page 7 (Mulgrave NSW daycare — H2 Local Experts):
+   "This isn't just compliance, its commitment to excellence"
+   Cassandra did not change this text
+   STATUS IN (2.0): Apostrophe still missing — reads "its commitment" ❌
+   (Also listed as Issue 8 in content-review-issues.txt)
+
+WORD CHOICE / INFORMAL LANGUAGE — NOT FIXED
+---------------------------------------------
+5. Page 8 (Preschool Oakville NSW — H2 Local Experts):
+   "whether you're just down the Rd or a little further out"
+   Cassandra showed revised text with "road" but this was not applied
+   STATUS IN (2.0): Still reads "down the Rd" ❌
+   (Also listed as Issue 9 in content-review-issues.txt)
+
+6. Page 4 (Gables NSW daycare — H2 Local Experts, bullet list):
+   "The importance of smooth drop-off processes in developing Rd networks."
+   Cassandra showed a fix but this was not incorporated
+   STATUS IN (2.0): Still reads "developing Rd networks" ❌
+   (Also listed as Issue 10 in content-review-issues.txt)
+
+H1 REWRITES — NOT APPLIED (may be intentional)
+------------------------------------------------
+7. Page 1 (Oakville NSW daycare):
+   Cassandra rewrote H1 to:
+   "Premium Childcare Oakville: Where Safety Meets Excellence in Early Learning"
+   STATUS IN (2.0): Uses the simpler "Childcare in Oakville" instead ❌
+   Note: This may be a deliberate author decision to use a cleaner H1.
+   Flag for client/writer to confirm if Cassandra's version was preferred.
+
+============================================================
+SECTION C — ISSUES IN BOTH CASSANDRA AND (2.0) — NEITHER FIXED
+============================================================
+
+These issues exist in Cassandra's document AND remain unfixed in (2.0).
+Cassandra did not correct them, and (2.0) did not address them either.
+
+FACTUAL / JURISDICTIONAL ERRORS
+---------------------------------
+1. Start Strong Funding on WA pages:
+   Start Strong is an NSW Government program only — does not exist in WA.
+
+   Still present in (2.0):
+   - Page 18 (daycare-childcare-rossmoyne-wa), line 2108:
+     "Eligible Rossmoyne families can access Child Care Subsidy and
+     Start Strong Funding."
+   - Page 29 (areas-we-serve), line 3381:
+     "Eligible Shelley families can access Child Care Subsidy and
+     Start Strong Funding assistance."
+   - Page 28 (kindergarten-brentwood-wa), line 3258: ← NEW instance
+     "Eligible families can access Child Care Subsidy and Start Strong
+     Funding assistance."
+
+   (Issues 1 partially in content-review-issues.txt; Brentwood Kindergarten
+   instance is NEW — not previously listed.)
+
+2. Munch & Move on WA pages:
+   Munch & Move is an NSW Health initiative. WA centres cannot deliver it.
+   (The document itself states this on the Mulgrave page.)
+
+   Still present in (2.0) on WA pages:
+   - Page 15 (daycare-childcare-bull-creek-wa), line 1748:
+     "In-house chef supporting healthy eating and Munch & Move principles"
+   - Page 22 (kindergarten-bull-creek-wa), line 2599: ← NEW instance
+     "In-house chef and Munch & Move: garden-to-plate experiences"
+   - Page 23 (kindergarten-leeming-wa), line 2721:
+     "Integrated STEM, Cultural Education, Sustainability and Munch & Move
+     programs that develop well-rounded learners"
+   - Page 28 (kindergarten-brentwood-wa), line 3254: ← NEW instance
+     "Comprehensive Curriculum: Children experience a balanced program
+     including STEM, Sustainability, Cultural Education, Munch & Move
+     and School Readiness."
+   - Page 29 (areas-we-serve), line 3379:
+     "STEM, Sustainability, Cultural Education, Munch & Move and School
+     Readiness activities throughout the year"
+
+   (Issue 2 in content-review-issues.txt lists some of these, but the
+   Kindergarten Bull Creek and Kindergarten Brentwood instances are NEW.)
+
+   Note on Rossmoyne daycare (Page 18): The curriculum bullet that listed
+   "STEM, Sustainability, Cultural Education, Munch & Move and School Readiness"
+   still appears to be present at line 2105. Verify this against the full
+   Rossmoyne daycare page — if confirmed, this is also an unfixed instance.
+
+UNVERIFIED CLAIMS
+------------------
+3. "university-developed curricula" — Page 1 (Oakville NSW), line 75:
+   "We combine university-developed curricula with deep local knowledge..."
+   Neither the forms nor Cassandra's review addresses this claim.
+   STATUS: Still present in (2.0). ❌
+   (Also listed as Issue 3 in content-review-issues.txt)
+
+4. "university-teacher-led" — Page 23 (Kindergarten Leeming WA):
+   - H1 (line 2673): "Our university-teacher-led program builds the
+     literacy, numeracy, and social skills..."
+   - FAQ (line 2742): "...school readiness through a university-teacher-led
+     curriculum."
+   Neither the forms nor Cassandra's review addresses this claim.
+   STATUS: Still present in (2.0). ❌
+   (Also listed as Issue 3 in content-review-issues.txt)
+
+5. "Centre Director brings wide-ranging experience within The Hills district"
+   — Page 4 (Gables NSW), H2 Local Experts:
+   No staff member or Hills district experience is named in the forms.
+   STATUS: Not verified by forms; still present in (2.0). ❌
+   (Also listed as Issue 4 in content-review-issues.txt)
+
+SPELLING / TYPOS
+-----------------
+6. Page 29 (areas-we-serve), FAQ:
+   "Fees vary slightly by region and center type. Please contact your
+   nearest Flourish ELC center directly..."
+   "center" (American English) appears twice.
+   STATUS: Still present in (2.0). ❌
+   (Also listed as Issue 7 in content-review-issues.txt)
+
+INTERNAL INCONSISTENCY
+-----------------------
+7. Age range stated as "6 years" on areas-we-serve (line 3388):
+   "We provide extensive care for children from 6 weeks to 6 years"
+   Form data and other pages confirm "6 weeks to 5 years" (approx 0–5).
+   STATUS: Still inconsistent in (2.0). ❌
+   (Also listed as Issue 11 in content-review-issues.txt)
+
+============================================================
+SECTION D — NEW ISSUES FOUND (not in content-review-issues.txt)
+============================================================
+
+The following issues were identified during this review that are NOT
+currently listed in content-review-issues.txt. These should be added.
+
+1. Page 21 (daycare-childcare-brentwood-wa) — AUSTRALIAN ENGLISH
+   "We prioritize these in our Brentwood program"
+   FIX: "prioritise"
+   Location: FAQ "What are 'Executive Function' skills?"
+
+2. Page 22 (kindergarten-bull-creek-wa) — FACTUAL (Munch & Move, WA)
+   "In-house chef and Munch & Move: garden-to-plate experiences"
+   FIX: Remove "Munch & Move" or replace with WA-appropriate program.
+   Location: H2 "Why Parents Choose Us as Their Kindergarten" bullet list.
+
+3. Page 28 (kindergarten-brentwood-wa) — FACTUAL (Munch & Move, WA)
+   "STEM, Sustainability, Cultural Education, Munch & Move and School
+   Readiness" in the Comprehensive Curriculum bullet.
+   FIX: Remove "Munch & Move" from this bullet.
+   Location: H2 "Reasons to Choose Flourish ELC as Your Kindergarten"
+
+4. Page 28 (kindergarten-brentwood-wa) — FACTUAL (Start Strong, WA)
+   "Eligible families can access Child Care Subsidy and Start Strong
+   Funding assistance."
+   FIX: Remove Start Strong Funding. Start Strong is NSW only.
+   Location: H2 "Reasons to Choose Flourish ELC as Your Kindergarten"
+
+============================================================
+SUMMARY TABLE
+============================================================
+
+| Category                                        | Count |
+|-------------------------------------------------|-------|
+| Cassandra corrections applied in (2.0) ✅       |  13+  |
+| Cassandra corrections NOT applied in (2.0) ❌   |   7   |
+| Issues in both docs, neither fixed ❌           |   7   |
+| New issues found, not in content-review file ❌ |   4   |
+
+PRIORITY FIXES STILL REQUIRED IN (2.0):
+1. Remove "Munch & Move" from ALL WA pages (5 instances, 2 new)
+2. Remove "Start Strong Funding" from ALL WA pages (3 instances, 1 new)
+3. Fix "prioritize" → "prioritise" (Brentwood daycare, Page 21)
+4. Fix "recognize" → "recognise" (Preschool Vineyard, Page 10)
+5. Fix "organize" → "organise" (Preschool Oakville, Page 8)
+6. Fix "its commitment" → "it's commitment" (Mulgrave, Page 7)
+7. Fix "down the Rd" → "down the road" (Preschool Oakville, Page 8)
+8. Fix "developing Rd networks" → "developing road networks" (Gables, Page 4)
+9. Remove "university-developed curricula" (Oakville, Page 1)
+10. Remove "university-teacher-led" (Leeming Kindergarten, Page 23 — ×2)
+11. Remove "Centre Director Hills district" claim (Gables, Page 4)
+12. Fix "center" → "centre" ×2 (areas-we-serve, Page 29)
+13. Fix age range "6 years" → "5 years" (areas-we-serve, Page 29)
+
+============================================================
+END OF REPORT
+============================================================
