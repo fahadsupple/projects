@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Keyword → URL Mapping — foodistribute.com.au</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; background: #f0f2f5; color: #1a1a2e; padding-left: 168px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 20px 14px; }
+
+.sidenav { position: fixed; left: 0; top: 0; bottom: 0; width: 168px; background: #1a1a2e; overflow-y: auto; z-index: 100; }
+.sidenav-inner { padding: 14px 0 20px; }
+.sidenav-logo { font-size: 11px; font-weight: 700; color: #fff; padding: 0 14px 12px; border-bottom: 1px solid rgba(255,255,255,.08); margin-bottom: 6px; line-height: 1.3; }
+.sidenav-logo span { display: block; font-size: 9px; font-weight: 400; color: #666; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
+.sidenav-link { display: block; padding: 5px 14px; font-size: 11px; color: #9ca3af; text-decoration: none; line-height: 1.4; border-left: 2px solid transparent; transition: color .15s, background .15s, border-color .15s; }
+.sidenav-link:hover { color: #e5e7eb; background: rgba(255,255,255,.05); border-left-color: #4b5563; }
+.sidenav-sep { height: 1px; background: rgba(255,255,255,.06); margin: 8px 14px; }
+@media (max-width: 900px) { body { padding-left: 0; } .sidenav { display: none; } }
+
+h1 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+.meta { font-size: 11px; color: #888; margin-bottom: 16px; }
+.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.pill { background: white; border: 1px solid #dde; border-radius: 5px; padding: 5px 10px; font-size: 11px; line-height: 1.3; }
+.pill b { font-size: 14px; display: block; }
+.sec { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #888; margin: 20px 0 6px; }
+
+/* Main mapping table */
+table.map { width: 100%; border-collapse: collapse; background: white; border-radius: 7px; overflow: hidden; border: 1px solid #e0e0e0; margin-bottom: 20px; }
+table.map th { background: #1a1a2e; color: #bbb; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; padding: 8px 10px; text-align: left; font-weight: 600; white-space: nowrap; }
+table.map td { padding: 9px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; line-height: 1.5; }
+table.map tr:last-child td { border-bottom: none; }
+table.map tr:hover td { background: #fafafa; }
+
+/* Group rows */
+.grp td { background: #1a1a2e !important; color: #9ca3af; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 5px 10px !important; }
+
+/* Row number */
+.rn { color: #bbb; font-size: 11px; font-weight: 600; min-width: 22px; }
+
+/* Keyword cell */
+.kw { font-weight: 600; font-size: 12px; color: #1a1a2e; }
+.kw-note { font-size: 10px; color: #9ca3af; margin-top: 2px; }
+
+/* URL */
+.url { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; color: #2563eb; word-break: break-all; }
+
+/* Role badge */
+.role { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.r-p { background: #1a1a2e; color: #fff; }
+.r-s { background: #e5e7eb; color: #374151; }
+
+/* Type badge */
+.type { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; }
+.t-gen  { background: #dbeafe; color: #1d4ed8; }
+.t-loc  { background: #fef3c7; color: #92400e; }
+.t-cat  { background: #d1fae5; color: #065f46; }
+.t-prod { background: #ede9fe; color: #5b21b6; }
+.t-p2c  { background: #fce7f3; color: #9d174d; }
+
+/* Status */
+.st { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
+.st-exists { background: #d1fae5; color: #065f46; }
+.st-new    { background: #fee2e2; color: #991b1b; }
+.st-warn   { background: #fef3c7; color: #92400e; }
+.flag      { font-size: 10px; color: #6b7280; margin-top: 3px; display: block; line-height: 1.5; }
+.flag-dev  { color: #7c3aed; }
+.flag-warn { color: #b45309; }
+
+/* Summary cards */
+.card { background: white; border: 1px solid #e0e0e0; border-radius: 7px; padding: 18px 20px; margin-bottom: 14px; }
+.card h2 { font-size: 12px; font-weight: 700; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0; color: #1a1a2e; text-transform: uppercase; letter-spacing: .04em; }
+.card-blue { background: #f0f7ff; border-color: #bfdbfe; }
+.card-blue h2 { border-color: #bfdbfe; color: #1d4ed8; }
+.card-green { background: #f0fdf4; border-color: #bbf7d0; }
+.card-green h2 { border-color: #bbf7d0; color: #065f46; }
+.card-amber { background: #fffbeb; border-color: #fde68a; }
+.card-amber h2 { border-color: #fde68a; color: #92400e; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+@media (max-width: 780px) { .two-col, .three-col { grid-template-columns: 1fr; } }
+
+/* Legend */
+.legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 11px; color: #555; }
+
+/* New pages list */
+.new-page { display: flex; align-items: baseline; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
+.new-page:last-child { border-bottom: none; }
+.new-page .np-badge { font-size: 10px; font-weight: 700; background: #fee2e2; color: #991b1b; padding: 1px 6px; border-radius: 3px; white-space: nowrap; }
+.new-page .np-url { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; color: #2563eb; }
+.new-page .np-kw { font-size: 11px; color: #6b7280; }
+
+/* Dev actions list */
+.dev-action { padding: 6px 0 6px 12px; border-left: 3px solid #7c3aed; margin-bottom: 6px; }
+.dev-action .da-url { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; color: #2563eb; display: block; margin-bottom: 2px; }
+.dev-action .da-note { font-size: 11px; color: #374151; }
+
+/* Verify actions list */
+.verify-action { padding: 6px 0 6px 12px; border-left: 3px solid #f59e0b; margin-bottom: 6px; }
+.verify-action .va-kw { font-weight: 600; font-size: 11px; }
+.verify-action .va-note { font-size: 11px; color: #6b7280; }
+</style>
+</head>
+<body>
+
+<nav class="sidenav">
+  <div class="sidenav-inner">
+    <div class="sidenav-logo">foodistribute.com.au<span>Keyword → URL Mapping</span></div>
+    <a class="sidenav-link" href="#summary">Summary</a>
+    <a class="sidenav-link" href="#new-pages">New Pages</a>
+    <a class="sidenav-link" href="#dev-actions">Dev Actions</a>
+    <div class="sidenav-sep"></div>
+    <a class="sidenav-link" href="#general">General</a>
+    <a class="sidenav-link" href="#location">Location</a>
+    <a class="sidenav-link" href="#cheese">Cheese &amp; Dairy</a>
+    <a class="sidenav-link" href="#oil">Oil &amp; Vinegar</a>
+    <a class="sidenav-link" href="#bakery">Bakery Supplies</a>
+    <a class="sidenav-link" href="#chocolate">Chocolate</a>
+    <a class="sidenav-link" href="#specialty">Specialty Products</a>
+    <a class="sidenav-link" href="#asian">Asian &amp; Japanese</a>
+    <a class="sidenav-link" href="#crackers">Crackers &amp; Snacks</a>
+    <a class="sidenav-link" href="#seafood">Seafood</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Keyword → URL Mapping</h1>
+  <div class="meta">foodistribute.com.au &nbsp;·&nbsp; 50 approved keywords &nbsp;·&nbsp; 19 May 2026</div>
+
+  <!-- SUMMARY PILLS -->
+  <div class="pills">
+    <div class="pill"><b>50</b>Keywords mapped</div>
+    <div class="pill"><b>27</b>Unique pages</div>
+    <div class="pill"><b>19</b>Existing — optimise</div>
+    <div class="pill"><b>8</b>New pages required</div>
+    <div class="pill"><b>10</b>⚠️ Product page verifications</div>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <strong style="font-size:11px;color:#555;margin-right:4px;">Role:</strong>
+    <div class="legend-item"><span class="role r-p">P</span> Primary — drives title, H1, URL</div>
+    <div class="legend-item"><span class="role r-s">S</span> Secondary — body, subheads, FAQ</div>
+    <span style="margin-left:8px;"></span>
+    <strong style="font-size:11px;color:#555;margin-right:4px;">Type:</strong>
+    <div class="legend-item"><span class="type t-gen">General</span> Brand/service landing page</div>
+    <div class="legend-item"><span class="type t-loc">Location</span> City-level delivery page</div>
+    <div class="legend-item"><span class="type t-cat">Category</span> WooCommerce product category</div>
+    <div class="legend-item"><span class="type t-prod">Product</span> Individual product page</div>
+    <div class="legend-item"><span class="type t-p2c">Prod→Cat</span> Product intent, mapped to category (verify product page)</div>
+  </div>
+
+  <!-- NEW PAGES REQUIRED -->
+  <div id="new-pages" class="card card-amber">
+    <h2>New pages required (8)</h2>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/areas-we-serve/brisbane/</span>
+      <span class="np-kw">food distributors brisbane · wholesale food suppliers brisbane</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/areas-we-serve/adelaide/</span>
+      <span class="np-kw">food distributors adelaide · wholesale food suppliers adelaide</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/areas-we-serve/gold-coast/</span>
+      <span class="np-kw">wholesale food suppliers gold coast</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/areas-we-serve/sunshine-coast/</span>
+      <span class="np-kw">wholesale food suppliers sunshine coast</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/areas-we-serve/newcastle/</span>
+      <span class="np-kw">food distributors newcastle · wholesale food suppliers newcastle</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/product-category/chocolate-patisserie/valrhona-chocolate/</span>
+      <span class="np-kw">valrhona chocolate australia</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW</span>
+      <span class="np-url">https://foodistribute.com.au/product-category/chocolate-patisserie/belcolade-chocolate/</span>
+      <span class="np-kw">belcolade chocolate australia</span>
+    </div>
+    <div class="new-page">
+      <span class="np-badge">NEW ⚠️</span>
+      <span class="np-url">https://foodistribute.com.au/product-category/chocolate-patisserie/fabbri-amarena-cherries/</span>
+      <span class="np-kw">fabbri amarena cherries — conditional: only create if multiple Fabbri products stocked; otherwise map to product page</span>
+    </div>
+  </div>
+
+  <!-- DEVELOPER ACTIONS -->
+  <div id="dev-actions" class="two-col">
+    <div class="card card-blue">
+      <h2>🔧 Developer actions required</h2>
+      <div class="dev-action">
+        <span class="da-url">…/chocolate-patisserie/valrhona-chocolate/</span>
+        <span class="da-note">Create new WooCommerce subcategory under chocolate-patisserie. Slug: <code>valrhona-chocolate</code>. Tag all Valrhona products into it.</span>
+      </div>
+      <div class="dev-action">
+        <span class="da-url">…/chocolate-patisserie/belcolade-chocolate/</span>
+        <span class="da-note">Create new WooCommerce subcategory under chocolate-patisserie. Slug: <code>belcolade-chocolate</code>. Tag all Belcolade products into it.</span>
+      </div>
+      <div class="dev-action">
+        <span class="da-url">…/chocolate-patisserie/fabbri-amarena-cherries/</span>
+        <span class="da-note">Conditional. Verify Fabbri product inventory first (see verify list). Create subcategory only if 2+ Fabbri product lines are stocked.</span>
+      </div>
+      <div class="dev-action">
+        <span class="da-url">…/wholesale-bakery-supplies/</span>
+        <span class="da-note">Consider adding /bakery-fillings/ and /bakery-flavouring/ subcategories if product range is sufficient (5+ products per sub).</span>
+      </div>
+      <div class="dev-action">
+        <span class="da-url">All 5 new /areas-we-serve/ pages</span>
+        <span class="da-note">Clone the Sydney or Melbourne location page template. Create pages for Brisbane, Adelaide, Gold Coast, Sunshine Coast, Newcastle. Customise body copy per city.</span>
+      </div>
+    </div>
+
+    <div class="card card-amber">
+      <h2>⚠️ Verify product pages before finalising (10)</h2>
+      <div class="verify-action">
+        <span class="va-kw">valrhona cocoa powder</span>
+        <span class="va-note"> — currently mapped to /product/valrhona-cocoa-powder-3kg/ — confirm product is still active and in stock</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">fabbri amarena cherries</span>
+        <span class="va-note"> — if single Fabbri product exists, use product page; if 2+ lines, create brand subcategory</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">ewald gelatine sheets australia</span>
+        <span class="va-note"> — if /product/ewald-gelatine-sheets/ exists → move from S on bakery-supplies to P on that product page</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">heilala vanilla bean paste</span>
+        <span class="va-note"> — if /product/heilala-vanilla-bean-paste/ exists → move from S on bakery-supplies to P on product page</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">martins potato rolls australia</span>
+        <span class="va-note"> — if Martin's Potato Rolls product page exists → move from S on bakery-supplies to P on product page</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">guindilla peppers</span>
+        <span class="va-note"> — if product page exists → update from P on /preserved-vegetables/ to P on product page</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">murray river pink salt flakes</span>
+        <span class="va-note"> — confirm product page; if exists, it becomes P on product page (not category page)</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">olssons smoked salt redgum</span>
+        <span class="va-note"> — if product page exists, elevate to P on product page</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">rustichella pasta australia</span>
+        <span class="va-note"> — if Rustichella brand has multiple products, consider /pantry-grocery/rustichella-pasta/ subcategory</span>
+      </div>
+      <div class="verify-action">
+        <span class="va-kw">mariage freres tea australia</span>
+        <span class="va-note"> — if Mariage Frères range is significant (3+ products), create /coffee-tea/mariage-freres/ brand subcategory</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN MAPPING TABLE -->
+  <div class="sec" id="summary">Keyword → URL Mapping — All 50 Keywords</div>
+
+  <table class="map">
+    <thead>
+      <tr>
+        <th style="width:32px;">#</th>
+        <th style="width:230px;">Keyword</th>
+        <th>URL</th>
+        <th style="width:50px;">Role</th>
+        <th style="width:90px;">Type</th>
+        <th style="width:200px;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- GROUP: GENERAL / SERVICE PAGES -->
+      <tr class="grp" id="general"><td colspan="6">General &amp; Service Pages</td></tr>
+
+      <tr>
+        <td class="rn">1</td>
+        <td><div class="kw">wholesale food suppliers to the public</div></td>
+        <td><span class="url">https://foodistribute.com.au/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">2</td>
+        <td><div class="kw">foodservice distributors australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">3</td>
+        <td><div class="kw">commercial food suppliers</div></td>
+        <td><span class="url">https://foodistribute.com.au/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">4</td>
+        <td><div class="kw">gourmet food wholesaler australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">5</td>
+        <td><div class="kw">specialty food supplier australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">6</td>
+        <td><div class="kw">hospitality food suppliers</div></td>
+        <td><span class="url">https://foodistribute.com.au/cafe-and-restaurant-food-suppliers/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">7</td>
+        <td><div class="kw">catering food suppliers</div></td>
+        <td><span class="url">https://foodistribute.com.au/cafe-and-restaurant-food-suppliers/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">8</td>
+        <td><div class="kw">cafe supplies wholesale australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/cafe-and-restaurant-food-suppliers/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-gen">General</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">9</td>
+        <td><div class="kw">cheap bulk groceries online australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/bulk-buy-deals/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <!-- GROUP: LOCATION PAGES -->
+      <tr class="grp" id="location"><td colspan="6">Location Pages — City Delivery</td></tr>
+
+      <tr>
+        <td class="rn">10</td>
+        <td><div class="kw">food suppliers sydney</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/sydney/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">11</td>
+        <td><div class="kw">melbourne food distributors</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/melbourne/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">12</td>
+        <td><div class="kw">food distributors brisbane</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/brisbane/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Clone Sydney/Melbourne page template — customise for Brisbane</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">13</td>
+        <td><div class="kw">wholesale food suppliers brisbane</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/brisbane/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">14</td>
+        <td><div class="kw">food distributors adelaide</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/adelaide/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Clone Sydney/Melbourne page template — customise for Adelaide</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">15</td>
+        <td><div class="kw">wholesale food suppliers adelaide</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/adelaide/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">16</td>
+        <td><div class="kw">wholesale food suppliers gold coast</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/gold-coast/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Clone location page template — Gold Coast body copy</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">17</td>
+        <td><div class="kw">wholesale food suppliers sunshine coast</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/sunshine-coast/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Clone location page template — Sunshine Coast body copy</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">18</td>
+        <td><div class="kw">food distributors newcastle</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/newcastle/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Clone location page template — Newcastle body copy</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">19</td>
+        <td><div class="kw">wholesale food suppliers newcastle</div></td>
+        <td><span class="url">https://foodistribute.com.au/areas-we-serve/newcastle/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-loc">Location</span></td>
+        <td><span class="st st-new">NEW</span></td>
+      </tr>
+
+      <!-- GROUP: CHEESE & DAIRY -->
+      <tr class="grp" id="cheese"><td colspan="6">Cheese &amp; Dairy</td></tr>
+
+      <tr>
+        <td class="rn">20</td>
+        <td><div class="kw">wholesale cheese suppliers</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/cheese-dairy/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">21</td>
+        <td><div class="kw">bulk cheese suppliers</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/cheese-dairy/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <!-- GROUP: OIL & VINEGAR -->
+      <tr class="grp" id="oil"><td colspan="6">Oil &amp; Vinegar — Olive Oil</td></tr>
+
+      <tr>
+        <td class="rn">22</td>
+        <td><div class="kw">bulk extra virgin olive oil australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/oil-vinegar/olive-oil/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">23</td>
+        <td><div class="kw">wholesale extra virgin olive oil australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/oil-vinegar/olive-oil/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">24</td>
+        <td><div class="kw">extra virgin olive oil wholesale</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/oil-vinegar/olive-oil/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <!-- GROUP: BAKERY SUPPLIES -->
+      <tr class="grp" id="bakery"><td colspan="6">Wholesale Bakery Supplies</td></tr>
+
+      <tr>
+        <td class="rn">25</td>
+        <td><div class="kw">wholesale bakery supplies</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">26</td>
+        <td><div class="kw">bulk baking supplies</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">27</td>
+        <td><div class="kw">wholesale bakery fillings australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-dev">🔧 Consider /wholesale-bakery-supplies/bakery-fillings/ subcategory if 5+ filling products stocked</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">28</td>
+        <td><div class="kw">wholesale bakery flavouring australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-dev">🔧 Consider /wholesale-bakery-supplies/bakery-flavouring/ subcategory if 5+ flavouring products stocked</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">29</td>
+        <td><div class="kw">ewald gelatine sheets australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-warn">⚠️ verify product page</span><span class="flag flag-warn">If /product/ewald-gelatine-sheets/ exists → move to P on that product page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">30</td>
+        <td><div class="kw">heilala vanilla bean paste</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-warn">⚠️ verify product page</span><span class="flag flag-warn">If /product/heilala-vanilla-bean-paste/ exists → move to P on product page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">31</td>
+        <td><div class="kw">martins potato rolls australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/wholesale-bakery-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-warn">⚠️ verify product page</span><span class="flag flag-warn">If Martin's Potato Rolls product page exists → move to P on product page</span></td>
+      </tr>
+
+      <!-- GROUP: CHOCOLATE & PATISSERIE -->
+      <tr class="grp" id="chocolate"><td colspan="6">Chocolate &amp; Patisserie</td></tr>
+
+      <tr>
+        <td class="rn">32</td>
+        <td><div class="kw">wholesale chocolate australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/wholesale-chocolate-supplies/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">33</td>
+        <td><div class="kw">chocolate distributor australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/wholesale-chocolate-supplies/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">34</td>
+        <td><div class="kw">callebaut chocolate australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/callebaut-chocolate-supplies/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">35</td>
+        <td><div class="kw">valrhona chocolate australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/valrhona-chocolate/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Create WooCommerce subcategory under chocolate-patisserie; slug: valrhona-chocolate; tag all Valrhona products</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">36</td>
+        <td><div class="kw">valrhona cocoa powder</div></td>
+        <td><span class="url">https://foodistribute.com.au/product/valrhona-cocoa-powder-3kg/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-prod">Product</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ Confirm product is still active and in stock</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">37</td>
+        <td><div class="kw">fabbri amarena cherries</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/fabbri-amarena-cherries/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-warn">⚠️ conditional NEW</span><span class="flag flag-warn">Verify inventory: if single Fabbri product → map to product page instead; if 2+ Fabbri lines stocked → create this subcategory</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">38</td>
+        <td><div class="kw">belcolade chocolate australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/chocolate-patisserie/belcolade-chocolate/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-new">NEW</span><span class="flag flag-dev">🔧 Create WooCommerce subcategory under chocolate-patisserie; slug: belcolade-chocolate; tag all Belcolade products</span></td>
+      </tr>
+
+      <!-- GROUP: SPECIALTY PANTRY PRODUCTS -->
+      <tr class="grp" id="specialty"><td colspan="6">Specialty Pantry &amp; Ingredient Products</td></tr>
+
+      <tr>
+        <td class="rn">39</td>
+        <td><div class="kw">guindilla peppers</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/pantry-grocery/preserved-vegetables/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ verify product page; if /product/guindilla-peppers/ exists → update to P on product page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">40</td>
+        <td><div class="kw">murray river pink salt flakes</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/pantry-grocery/herbs-salt-spices/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ verify product page; if /product/murray-river-pink-salt-flakes/ exists → move to P on product page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">41</td>
+        <td><div class="kw">olssons smoked salt redgum</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/pantry-grocery/herbs-salt-spices/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ verify product page; if product exists → move to P on product page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">42</td>
+        <td><div class="kw">rustichella pasta australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/pantry-grocery/pasta/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ verify: if significant Rustichella range (5+ SKUs) → consider /pantry-grocery/rustichella-pasta/ brand subcategory NEW</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">43</td>
+        <td><div class="kw">mariage freres tea australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/coffee-tea/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ verify: if 3+ Mariage Frères products stocked → create /coffee-tea/mariage-freres/ brand subcategory NEW</span></td>
+      </tr>
+
+      <!-- GROUP: ASIAN & JAPANESE -->
+      <tr class="grp" id="asian"><td colspan="6">Asian &amp; Japanese Products</td></tr>
+
+      <tr>
+        <td class="rn">44</td>
+        <td><div class="kw">asian food wholesalers australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/asian-grocery-wholesaler/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">45</td>
+        <td><div class="kw">wholesale asian food supplier</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/asian-grocery-wholesaler/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">46</td>
+        <td><div class="kw">japanese matcha powder australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/japanese-asian/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-dev">🔧 Consider /japanese-asian/matcha-powder/ subcategory if matcha range warrants dedicated page</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">47</td>
+        <td><div class="kw">umami matcha powder australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/japanese-asian/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ Umami Matcha is likely a brand — verify product page; if /product/umami-matcha-powder/ exists → move to P on product page</span></td>
+      </tr>
+
+      <!-- GROUP: CRACKERS & SNACKS -->
+      <tr class="grp" id="crackers"><td colspan="6">Crackers &amp; Snacks</td></tr>
+
+      <tr>
+        <td class="rn">48</td>
+        <td><div class="kw">wholesale lavosh crackers australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/crackers-snacks/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+      <tr>
+        <td class="rn">49</td>
+        <td><div class="kw">tabletop muscatels australia</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/crackers-snacks/</span></td>
+        <td><span class="role r-s">S</span></td>
+        <td><span class="type t-p2c">Prod→Cat</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span><span class="flag flag-warn">⚠️ Verify muscatels are stocked; if product page exists → move to P on product page</span></td>
+      </tr>
+
+      <!-- GROUP: SEAFOOD -->
+      <tr class="grp" id="seafood"><td colspan="6">Meat &amp; Seafood</td></tr>
+
+      <tr>
+        <td class="rn">50</td>
+        <td><div class="kw">bulk anchovies</div></td>
+        <td><span class="url">https://foodistribute.com.au/product-category/meat-seafood/tinned-seafood-wholesale/</span></td>
+        <td><span class="role r-p">P</span></td>
+        <td><span class="type t-cat">Category</span></td>
+        <td><span class="st st-exists">EXISTS — optimise</span></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <!-- PAGE SUMMARY -->
+  <div class="sec" id="summary">Pages Summary</div>
+  <div class="three-col">
+    <div class="card card-green">
+      <h2>Existing pages being optimised (19)</h2>
+      <div style="font-size:11px;line-height:2;color:#374151;">
+        <div>Homepage</div>
+        <div>/cafe-and-restaurant-food-suppliers/</div>
+        <div>/product-category/bulk-buy-deals/</div>
+        <div>/areas-we-serve/sydney/</div>
+        <div>/areas-we-serve/melbourne/</div>
+        <div>/product-category/cheese-dairy/</div>
+        <div>/product-category/oil-vinegar/olive-oil/</div>
+        <div>/product-category/wholesale-bakery-supplies/</div>
+        <div>/product-category/chocolate-patisserie/wholesale-chocolate-supplies/</div>
+        <div>/product-category/chocolate-patisserie/callebaut-chocolate-supplies/</div>
+        <div>/product/valrhona-cocoa-powder-3kg/</div>
+        <div>/product-category/pantry-grocery/preserved-vegetables/</div>
+        <div>/product-category/pantry-grocery/herbs-salt-spices/</div>
+        <div>/product-category/pantry-grocery/pasta/</div>
+        <div>/product-category/coffee-tea/</div>
+        <div>/product-category/asian-grocery-wholesaler/</div>
+        <div>/product-category/japanese-asian/</div>
+        <div>/product-category/crackers-snacks/</div>
+        <div>/product-category/meat-seafood/tinned-seafood-wholesale/</div>
+      </div>
+    </div>
+
+    <div class="card card-amber">
+      <h2>New pages to create (8)</h2>
+      <div style="font-size:11px;line-height:2;color:#374151;">
+        <div>/areas-we-serve/brisbane/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/areas-we-serve/adelaide/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/areas-we-serve/gold-coast/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/areas-we-serve/sunshine-coast/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/areas-we-serve/newcastle/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/chocolate-patisserie/valrhona-chocolate/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/chocolate-patisserie/belcolade-chocolate/ <span style="color:#991b1b;font-weight:700;">●</span></div>
+        <div>/chocolate-patisserie/fabbri-amarena-cherries/ <span style="color:#b45309;font-weight:700;">⚠ conditional</span></div>
+      </div>
+    </div>
+
+    <div class="card card-blue">
+      <h2>Implementation priority</h2>
+      <div style="font-size:11px;line-height:1.9;color:#374151;">
+        <div><strong>Week 1 — Quick wins:</strong></div>
+        <div>Homepage + /cafe-and-restaurant/ (on-page optimisation only)</div>
+        <div style="margin-top:6px;"><strong>Week 2 — Location expansion:</strong></div>
+        <div>Brisbane + Adelaide pages (highest-volume new pages)</div>
+        <div style="margin-top:6px;"><strong>Week 3 — Category pages:</strong></div>
+        <div>Valrhona + Belcolade subcategories, olive oil + cheese optimisations</div>
+        <div style="margin-top:6px;"><strong>Week 4 — Long tail location + specialty:</strong></div>
+        <div>Gold Coast, Sunshine Coast, Newcastle + verify all ⚠️ product pages</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="font-size:10px;color:#bbb;text-align:center;padding:20px 0;">foodistribute.com.au — Keyword → URL Mapping &nbsp;·&nbsp; 50 keywords across 27 pages &nbsp;·&nbsp; Produced by Supple &nbsp;·&nbsp; 19 May 2026</div>
+
+</div>
+</body>
+</html>
