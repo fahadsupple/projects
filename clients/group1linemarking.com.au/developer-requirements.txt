@@ -5,15 +5,9 @@ Date: 21 May 2026
 ============================================================
 
 OVERVIEW
---------
-32 tasks assigned to developers. Organised into 5 priority sections.
-
 Access confirmed: WordPress admin, Google Search Console, GA4.
-GBP updates are NOT included here — listed separately in Section F
-for the client to action themselves.
-
-Several tasks in Section G are blocked until we receive data from the
-client authority form. Do not start those items yet.
+GBP updates are NOT in this document — they are in Section F for the client to action.
+Section G tasks are blocked until we receive the client authority form. Do not start those yet.
 
 ============================================================
 SECTION A — EMERGENCY FIXES
@@ -21,33 +15,19 @@ SECTION A — EMERGENCY FIXES
 ============================================================
 
 ------------------------------------------------------------
-CHANGE 1 — Fix wrong title and meta on
-           https://group1linemarking.com.au/services/speed-calming-devices/
+CHANGE 1 — Fix wrong title and meta on speed-calming-devices
 ------------------------------------------------------------
 
 PAGE: https://group1linemarking.com.au/services/speed-calming-devices/
 
-CURRENT TITLE:
-  Safety Barriers Sydney | Group One Line Marking
+CURRENT TITLE: Safety Barriers Sydney | Group One Line Marking
+NEW TITLE: Speed Humps Sydney | Speed Calming Devices | Group One
 
-NEW TITLE:
-  Speed Humps Sydney | Speed Calming Devices | Group One
-
-CURRENT META DESCRIPTION:
-  Group One line marking provides safety barriers and protection
-  systems services in Sydney. For more information call us on
-  0414 153 837.
-
-NEW META DESCRIPTION:
-  Group One Line Marking installs speed humps, speed cushions,
-  and traffic calming devices across Sydney. Reduce car park
-  speeds today. Call 1300 816 411.
-
-After: Flush cache. Verify SERP snippet via GSC URL Inspection.
+CURRENT META: Group One line marking provides safety barriers and protection systems services in Sydney. For more information call us on 0414 153 837.
+NEW META: Group One Line Marking installs speed humps, speed cushions, and traffic calming devices across Sydney. Reduce car park speeds today. Call 1300 816 411.
 
 ------------------------------------------------------------
-CHANGE 2 — Fix postcode typo on Contact page
-           (Jubilee Pocket QLD address)
+CHANGE 2 — Fix postcode typo on Contact page (Jubilee Pocket QLD)
 ------------------------------------------------------------
 
 PAGE: https://group1linemarking.com.au/contact-us/
@@ -55,16 +35,13 @@ PAGE: https://group1linemarking.com.au/contact-us/
 FIND: Qld 49802
 REPLACE WITH: Qld 4802
 
-Also check https://group1linemarking.com.au/areas-we-serve/jubilee-pocket/
-and any sub-pages for the same typo.
-
-After: Submit https://group1linemarking.com.au/contact-us/ in GSC for reindexing.
+Also check https://group1linemarking.com.au/areas-we-serve/jubilee-pocket/ and any sub-pages for the same typo.
 
 ------------------------------------------------------------
 CHANGE 3 — Fix robots.txt Crawl-delay directive
 ------------------------------------------------------------
 
-FILE: https://group1linemarking.com.au/robots.txt (server file: /robots.txt)
+FILE: /robots.txt (server file)
 
 DELETE line 1 entirely:
   Crawl-delay: 10
@@ -77,13 +54,8 @@ CHANGE 4 — Remove user-scalable=no from viewport meta tag
 
 FILE: header.php (theme root)
 
-FIND:
-  <meta name="viewport" content="width=device-width,
-  initial-scale=1.0, user-scalable=no">
-
-REPLACE WITH:
-  <meta name="viewport" content="width=device-width,
-  initial-scale=1.0">
+FIND: <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+REPLACE WITH: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 No visual impact on design.
 
@@ -91,47 +63,29 @@ No visual impact on design.
 CHANGE 5 — Add H1 to three pages that have none
 ------------------------------------------------------------
 
-DESIGN NOTE: Hub area pages use ALL CAPS H1s in a banner/hero
-section. Sub-service pages use the CSS class "small_font" on their
-H1. Match the correct style for each page type below.
+DESIGN NOTE: Hub area pages use ALL CAPS H1s in a banner/hero section. Sub-service pages use the CSS class "small_font" on their H1. Match the correct style for each page type below.
 
------ PAGE 1: https://group1linemarking.com.au/areas-we-serve/ -----
+PAGE 1: https://group1linemarking.com.au/areas-we-serve/
+ADD H1: Service Areas Across Sydney, Brisbane, Gold Coast & Melbourne
+Position: top of the page content area, before any H2. Style: match ALL CAPS H1 banner used on other area hub pages.
+DESIGN NOTE: Verify the H1 renders cleanly in the hub page layout — it may use a different template from suburb sub-pages. Check desktop and mobile.
 
-ADD H1: Service Areas Across Sydney, Brisbane, Gold Coast
-        & Melbourne
-
-Position: at the top of the page content area, before any H2.
-Style: match ALL CAPS H1 banner style used on other area hub pages.
-DESIGN NOTE: Verify the H1 renders cleanly in the hub page layout —
-it may use a different template from suburb sub-pages. Check on
-desktop and mobile.
-
------ PAGE 2: https://group1linemarking.com.au/areas-we-serve/gold-coast/speed-humps/ -----
-
+PAGE 2: https://group1linemarking.com.au/areas-we-serve/gold-coast/speed-humps/
 ADD H1: Speed Humps Gold Coast
-
 Style: use class "small_font" to match sibling sub-service H1s.
-DESIGN NOTE: Short text — verify it doesn't look visually sparse
-in the hero/banner area on desktop and mobile.
+DESIGN NOTE: Short text — verify it doesn't look visually sparse in the hero/banner area on desktop and mobile.
 
------ PAGE 3: https://group1linemarking.com.au/areas-we-serve/brisbane/speed-humps/ -----
-
+PAGE 3: https://group1linemarking.com.au/areas-we-serve/brisbane/speed-humps/
 ADD H1: Speed Humps Brisbane
-
 Same style as Page 2 above.
 
 ------------------------------------------------------------
 CHANGE 6 — Fix broken internal link (404)
 ------------------------------------------------------------
 
-A 404 URL is linked somewhere in the site content:
-  https://group1linemarking.com.au/services/bollards/bollardsGoldCoast
+A 404 URL is linked somewhere in the site content: https://group1linemarking.com.au/services/bollards/bollardsGoldCoast
 
-Search WP content for "bollardsGoldCoast" (check page builder blocks,
-navigation menus, widget areas, custom CTA blocks).
-
-UPDATE the link to:
-  https://group1linemarking.com.au/areas-we-serve/gold-coast/bollards/
+Search WP content for "bollardsGoldCoast" (check page builder blocks, navigation menus, widget areas, custom CTA blocks) and update the link to: https://group1linemarking.com.au/areas-we-serve/gold-coast/bollards/
 
 If the source cannot be found quickly, set up a 301 redirect:
   FROM: https://group1linemarking.com.au/services/bollards/bollardsGoldCoast
@@ -142,15 +96,14 @@ CHANGE 7 — Fix duplicate URL slug for Browns Plains
 ------------------------------------------------------------
 
 Two URLs exist and both return 200:
-  https://group1linemarking.com.au/areas-we-serve/plains/         (remove)
-  https://group1linemarking.com.au/areas-we-serve/browns-plains/  (keep)
+  https://group1linemarking.com.au/areas-we-serve/plains/ (remove)
+  https://group1linemarking.com.au/areas-we-serve/browns-plains/ (keep)
 
 SET UP 301 redirect:
   FROM: https://group1linemarking.com.au/areas-we-serve/plains/
   TO:   https://group1linemarking.com.au/areas-we-serve/browns-plains/
 
-After: search WP content for any internal links to "/plains/" and
-update them to "/browns-plains/".
+Search WP content for any internal links to "/plains/" and update them to "/browns-plains/".
 
 ------------------------------------------------------------
 CHANGE 8 — Fix homepage H1
@@ -158,47 +111,23 @@ CHANGE 8 — Fix homepage H1
 
 PAGE: https://group1linemarking.com.au/
 
-CURRENT H1:
-  Industry-Leading Line Marking in Sydney by Group One Line
-  Marking Sydney
+CURRENT H1: Industry-Leading Line Marking in Sydney by Group One Line Marking Sydney
+NEW H1: Industry-Leading Line Marking in Sydney by Group One
 
-NEW H1:
-  Industry-Leading Line Marking in Sydney by Group One
-
-DESIGN NOTE: The new H1 is ~15 characters shorter. Verify the
-hero section layout still looks correct on desktop and mobile
-after the edit.
+DESIGN NOTE: The new H1 is ~15 characters shorter. Verify the hero section layout still looks correct on desktop and mobile after the edit.
 
 ------------------------------------------------------------
 CHANGE 9 — Remove duplicate BreadcrumbList JSON-LD
 ------------------------------------------------------------
 
-Two BreadcrumbList JSON-LD blocks are output on every service
-and location page — one from Yoast, one from the theme.
-
-Disable the THEME-side breadcrumb JSON-LD only.
-Leave Yoast's breadcrumb schema untouched.
-
-Find the breadcrumb schema output in the theme's functions.php
-or a breadcrumbs.php partial and remove or disable it.
-
-After: Test https://group1linemarking.com.au/services/line-marking/
-and https://group1linemarking.com.au/areas-we-serve/fairfield/
-in Google Rich Results Test — confirm only one BreadcrumbList block.
+Two BreadcrumbList JSON-LD blocks are output on every service and location page — one from Yoast, one from the theme. Disable the THEME-side breadcrumb JSON-LD only. Leave Yoast's breadcrumb schema untouched. Find the breadcrumb schema output in the theme's functions.php or a breadcrumbs.php partial and remove or disable it.
 
 ------------------------------------------------------------
 CHANGE 10 — Fix stale sitemap lastmod dates
 ------------------------------------------------------------
 
-product-sitemap.xml and product_cat-sitemap.xml both show
-lastmod 2022-05-24. Regenerate both sitemaps.
+product-sitemap.xml and product_cat-sitemap.xml both show lastmod 2022-05-24. Regenerate both sitemaps. If lastmod still shows 2022 after regeneration, the WP cron may not be running — also open and resave any one product manually to trigger a lastmod update.
 
-If lastmod still shows 2022 after regeneration, the WP cron
-may not be running. Also open and resave any one product manually
-to trigger a lastmod update.
-
-Verify at https://group1linemarking.com.au/product-sitemap.xml —
-confirm <lastmod> now shows a 2025 or 2026 date.
 
 ============================================================
 SECTION B — ANALYTICS, TRACKING AND TECHNICAL
@@ -208,35 +137,22 @@ SECTION B — ANALYTICS, TRACKING AND TECHNICAL
 CHANGE 11 — Fix GA4 not firing
 ------------------------------------------------------------
 
-GA4 property 372156627 is not firing on page load. Diagnose by
-checking:
-  A) Any analytics plugin (Site Kit, MonsterInsights, GTM4WP)
-     installed but deactivated — reactivate it.
-  B) If using Google Tag Manager: confirm the GTM container ID is
-     correct and the container is published. Confirm the GA4 tag
-     fires on "All Pages."
-  C) Whether a consent management plugin (CookieYes, Cookiebot,
-     similar) is blocking GA4 by default — verify the default
-     consent state allows analytics to fire.
-
-After any fix: verify with Google Tag Assistant on the homepage,
-https://group1linemarking.com.au/contact-us/, and
-https://group1linemarking.com.au/services/line-marking/
+GA4 property 372156627 is not firing on page load. Diagnose by checking:
+A) Any analytics plugin (Site Kit, MonsterInsights, GTM4WP) installed but deactivated — reactivate it.
+B) If using Google Tag Manager: confirm the GTM container ID is correct and the container is published, with the GA4 tag set to fire on "All Pages."
+C) Whether a consent management plugin (CookieYes, Cookiebot, or similar) is blocking GA4 by default — verify the default consent state allows analytics to fire.
 
 ------------------------------------------------------------
 CHANGE 12 — Create and submit a disavow file via GSC
 ------------------------------------------------------------
 
-In Google Search Console for group1linemarking.com.au, create a
-disavow .txt file with this content and upload it via the Disavow
-Links tool:
+In Google Search Console for group1linemarking.com.au, create a disavow .txt file with this content and upload it via the Disavow Links tool:
 
   # Group One Line Marking — disavow file
   # Created: [date]
   domain:seobacklinks.agency
 
-Also check the backlink report in GSC → Links → Top linking sites.
-If any of these domains appear, add them to the disavow file too:
+Also check GSC → Links → Top linking sites. If any of these domains appear, add them to the disavow file:
   domain:anchorurl.cloud
   domain:shortenurls.eu
   domain:bye.fyi
@@ -250,45 +166,23 @@ If any of these domains appear, add them to the disavow file too:
 CHANGE 13 — Identify and disable competitor-site popup redirects
 ------------------------------------------------------------
 
-Scrolling or clicking on any page opens new tabs to:
-  linemarkingaustralia.com.au
-  linemarkers.com.au
-  safetyxpress.com.au
+Scrolling or clicking on any page opens new tabs to linemarkingaustralia.com.au, linemarkers.com.au, and safetyxpress.com.au. Search WP database and plugin files for the strings "linemarkingaustralia.com.au" and "linemarkers.com.au" to locate the source. Once found, disable or remove the plugin/widget.
 
-Search WP database and plugin files for the strings
-"linemarkingaustralia.com.au" and "linemarkers.com.au" to find the
-source. Once located, disable or remove the plugin/widget.
-
-After: Open the homepage in incognito Chrome, scroll and click,
-confirm no new tabs open to those domains.
-
-Note: If these are intentional cross-promotions, confirm with the
-client before disabling. In that case, replace with a static footer
-link only.
+Note: If these are intentional cross-promotions, confirm with the client before disabling. In that case, replace with a static footer link only.
 
 ------------------------------------------------------------
 CHANGE 14 — Fix slow-loading location page template
 ------------------------------------------------------------
 
-28 area-service pages load above 2,500ms. Run Lighthouse on the
-worst-performing page:
-  https://group1linemarking.com.au/areas-we-serve/spotswood/parking-safety-products/
+28 area-service pages load above 2,500ms. Run Lighthouse on https://group1linemarking.com.au/areas-we-serve/spotswood/parking-safety-products/ to identify the slow resource.
 
-Identify the slow resource. Most likely culprits:
-  A) Embedded Google Maps iframe loading on every page
-  B) Unoptimised large image in the shared template
-  C) Third-party widget firing per page load
+Most likely culprits:
+A) Embedded Google Maps iframe loading on every page — replace with a static map image and a click-to-load wrapper: <div onclick="this.innerHTML='<iframe src=...></iframe>'"><img src="static-map.png" alt="Group One service area map"></div>
+B) Unoptimised large image in the shared template — convert to WebP, add width/height attributes, add loading="lazy" to below-fold images.
+C) Third-party widget firing per page load — identify and remove or defer it.
 
-If Maps is the issue: replace the embedded iframe with a static map
-image and a click-to-load wrapper:
-  <div onclick="this.innerHTML='<iframe src=...></iframe>'">
-    <img src="static-map.png" alt="Group One service area map">
-  </div>
+Apply the fix to the shared location-page template (fixes all 28 pages at once).
 
-If images are the issue: convert template images to WebP, add
-width/height attributes, add loading="lazy" to below-fold images.
-
-Apply the fix to the shared location-page template.
 
 ============================================================
 SECTION C — PHONE, NAP AND META FIXES
@@ -304,69 +198,41 @@ The third phone link shows "1300 816 411" but the href is garbled:
   WRONG:   href="tel:+614142015320837"
   CORRECT: href="tel:1300816411"
 
-Also search sitewide for "+614142015320837" and fix every instance.
-
-Also search for "0414 153 937" (typo — 9 instead of 8 at end) in
-meta description fields and fix each to "0414 153 837".
-
-After: tap each phone link on the page on a real mobile and confirm
-all three dial correctly.
+Also search sitewide for "+614142015320837" and fix every instance. Also search for "0414 153 937" (typo — 9 instead of 8 at end) in meta description fields and fix each to "0414 153 837".
 
 ------------------------------------------------------------
 CHANGE 16 — Standardise phone number in meta descriptions
 ------------------------------------------------------------
 
-Meta descriptions use a mix of three numbers:
-  0414 153 837
-  1300 816 411
-  0414 153 937 (typo — this number doesn't exist)
+Meta descriptions use a mix of three numbers: 0414 153 837, 1300 816 411, and 0414 153 937 (typo — this number doesn't exist).
 
-ACTION NEEDED FROM CLIENT FIRST: confirm the canonical primary
-phone number. Recommendation: 1300 816 411.
-
-Once confirmed: find all instances of the mobile and typo variant
-in meta description fields and replace with the canonical number.
-Verify the top 10 pages are consistent.
+ACTION NEEDED FROM CLIENT FIRST: confirm the canonical primary phone number. Recommendation: 1300 816 411. Once confirmed, find all instances of the mobile and typo variant in meta description fields and replace with the canonical number.
 
 ------------------------------------------------------------
-CHANGE 17 — Add label and disclosure to QLD addresses on
-             Contact page
+CHANGE 17 — Add label and disclosure to QLD addresses on Contact page
 ------------------------------------------------------------
 
 PAGE: https://group1linemarking.com.au/contact-us/
 
-The page lists two QLD addresses with no context:
-  1/79 Mattocks Road, Burleigh Waters, Qld 4220
-  29 Moonlight Drive, Jubilee Pocket, Qld 4802
+The page lists two QLD addresses with no context: 1/79 Mattocks Road, Burleigh Waters, Qld 4220 and 29 Moonlight Drive, Jubilee Pocket, Qld 4802.
 
-ADD a label above the QLD addresses:
-  "Queensland — Sales Enquiries"
+ADD a label above the QLD addresses: "Queensland — Sales Enquiries"
+ADD a line below the QLD addresses: "On-site services in Queensland are available via interstate dispatch from our Sydney depot. Please call 1300 816 411 to discuss your project."
 
-ADD a line below the QLD addresses:
-  "On-site services in Queensland are available via interstate
-  dispatch from our Sydney depot. Please call 1300 816 411
-  to discuss your project."
+DESIGN NOTE: Match the exact same font size, weight, and spacing as the "Address(NSW)" heading on the same page. Disclaimer text should match existing body text styling. Do not introduce new design elements.
 
-DESIGN NOTE: The contact page uses heading labels like
-"Address(NSW)" and "Address(QLD)". Match the exact same font size,
-weight, and spacing. Disclaimer text should match existing body text
-styling. Do not introduce new design elements.
+Note: If the client confirms these are staffed offices (being confirmed via authority form), update the text to reflect opening hours instead.
 
-Note: If the client confirms these are staffed offices (being
-confirmed via authority form), update the text to reflect their
-opening hours instead.
 
 ============================================================
 SECTION D — TITLES, META DESCRIPTIONS AND H1 FIXES
 ============================================================
 
 ------------------------------------------------------------
-CHANGE 18 — Fix WooCommerce "Archives" titles on product
-             category pages
+CHANGE 18 — Fix WooCommerce "Archives" titles on product category pages
 ------------------------------------------------------------
 
-All 7 product-category pages have the WooCommerce default title:
-"[Category] Archives ▷ Free Quote - 24/7 | Group One Line Marking"
+All 7 product-category pages have the WooCommerce default title "[Category] Archives ▷ Free Quote - 24/7 | Group One Line Marking".
 
 GLOBAL TEMPLATE CHANGE:
   FROM: %%term_title%% Archives %%sep%% %%sitename%%
@@ -375,30 +241,22 @@ GLOBAL TEMPLATE CHANGE:
 MANUAL OVERRIDES — set these 4 pages individually:
 
   https://group1linemarking.com.au/product-category/bollards/
-    NEW TITLE: Safety Bollards Sydney — Full Range | Group One
-    NEW META: Browse the full range of safety bollards —
-    removable, in-ground, surface-mount, stainless steel.
-    Supply & installation. Call 1300 816 411.
+  NEW TITLE: Safety Bollards Sydney — Full Range | Group One
+  NEW META: Browse the full range of safety bollards — removable, in-ground, surface-mount, stainless steel. Supply & installation. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/wheel-stops/
-    NEW TITLE: Wheel Stops Sydney — Rubber & Concrete | Group One
-    NEW META: Full range of rubber and concrete wheel stops for
-    car parks and loading docks. Supply & installation across
-    Sydney. Call 1300 816 411.
+  NEW TITLE: Wheel Stops Sydney — Rubber & Concrete | Group One
+  NEW META: Full range of rubber and concrete wheel stops for car parks and loading docks. Supply & installation across Sydney. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/speed-calming-devices/
-    NEW TITLE: Speed Calming Devices Sydney | Group One
-    NEW META: Speed humps, cushions, rubber speed humps and
-    traffic calming products. Sydney supply & installation.
-    Call 1300 816 411.
+  NEW TITLE: Speed Calming Devices Sydney | Group One
+  NEW META: Speed humps, cushions, rubber speed humps and traffic calming products. Sydney supply & installation. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/convex-mirrors/
-    NEW TITLE: Convex Mirrors Sydney | Group One Line Marking
-    NEW META: Full range of convex safety mirrors for car parks,
-    warehouses and driveways. Sydney supply. Call 1300 816 411.
+  NEW TITLE: Convex Mirrors Sydney | Group One Line Marking
+  NEW META: Full range of convex safety mirrors for car parks, warehouses and driveways. Sydney supply. Call 1300 816 411.
 
-PAGINATION: Verify the Product Category title template appends
-%%page%% to the paginated pages (/bollards/page/2, /page/3).
+PAGINATION: Verify the Product Category title template appends %%page%% to paginated pages (/bollards/page/2, /page/3).
 
 ------------------------------------------------------------
 CHANGE 19 — Update global title suffix (affects 52 pages)
@@ -410,210 +268,129 @@ GLOBAL TEMPLATE CHANGE:
 
 MANUAL REWRITES — also update these specific pages:
 
-  https://group1linemarking.com.au/areas-we-serve/huntingwood/
-    NEW TITLE: Line Marking Huntingwood | Group One
-
-  https://group1linemarking.com.au/services/factory-warehouse-line-marking/
-    NEW TITLE: Warehouse & Factory Line Marking Sydney | Group One
-
-  https://group1linemarking.com.au/areas-we-serve/fairfield/
-    NEW TITLE: Line Marking Fairfield | Group One Line Marking
-
-  https://group1linemarking.com.au/services/road-traffic-car-park-signs/
-    NEW TITLE: Road & Car Park Signs Sydney | Group One
-
-  https://group1linemarking.com.au/services/concrete-sealer-contractors/
-    NEW TITLE: Concrete Sealing Sydney | Group One Line Marking
-
-  https://group1linemarking.com.au/services/railing-and-protection-accessories/
-    NEW TITLE: Railing & Protection Accessories Sydney | Group One
-
-  https://group1linemarking.com.au/services/commercial-bike-racks/
-    NEW TITLE: Commercial Bike Racks Sydney | Group One
-
-  https://group1linemarking.com.au/services/signs-supply-and-installations/
-    NEW TITLE: Signs Supply & Installation Sydney | Group One
-
-  https://group1linemarking.com.au/services/line-marking/
-    NEW TITLE: Line Marking Sydney — Car Park & Industrial | Group One
-
-  https://group1linemarking.com.au/services/wheel-stops/
-    NEW TITLE: Wheel Stops Sydney — Rubber & Concrete | Group One
+  https://group1linemarking.com.au/areas-we-serve/huntingwood/ → Line Marking Huntingwood | Group One
+  https://group1linemarking.com.au/services/factory-warehouse-line-marking/ → Warehouse & Factory Line Marking Sydney | Group One
+  https://group1linemarking.com.au/areas-we-serve/fairfield/ → Line Marking Fairfield | Group One Line Marking
+  https://group1linemarking.com.au/services/road-traffic-car-park-signs/ → Road & Car Park Signs Sydney | Group One
+  https://group1linemarking.com.au/services/concrete-sealer-contractors/ → Concrete Sealing Sydney | Group One Line Marking
+  https://group1linemarking.com.au/services/railing-and-protection-accessories/ → Railing & Protection Accessories Sydney | Group One
+  https://group1linemarking.com.au/services/commercial-bike-racks/ → Commercial Bike Racks Sydney | Group One
+  https://group1linemarking.com.au/services/signs-supply-and-installations/ → Signs Supply & Installation Sydney | Group One
+  https://group1linemarking.com.au/services/line-marking/ → Line Marking Sydney — Car Park & Industrial | Group One
+  https://group1linemarking.com.au/services/wheel-stops/ → Wheel Stops Sydney — Rubber & Concrete | Group One
 
 ------------------------------------------------------------
 CHANGE 20 — Add meta descriptions to 29 pages with none
 ------------------------------------------------------------
 
-GLOBAL TEMPLATE — Products content type:
-Set the default meta description template to:
-  %%excerpt%% | Supply & installation from Group One Line Marking.
-  Call 1300 816 411.
+GLOBAL TEMPLATE — set the default meta description template for the Products content type to:
+  %%excerpt%% | Supply & installation from Group One Line Marking. Call 1300 816 411.
 
 CUSTOM METAS — set these pages manually:
 
   https://group1linemarking.com.au/product-category/bollards/
-    Browse the full range of safety bollards — removable,
-    in-ground, surface-mount, stainless steel. Sydney supply
-    & installation. Call 1300 816 411.
+  Browse the full range of safety bollards — removable, in-ground, surface-mount, stainless steel. Sydney supply & installation. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/wheel-stops/
-    Full range of rubber and concrete wheel stops for car parks
-    and loading docks. Supply & installation across Sydney.
-    Call 1300 816 411.
+  Full range of rubber and concrete wheel stops for car parks and loading docks. Supply & installation across Sydney. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/speed-calming-devices/
-    Speed humps, cushions and traffic calming products. Sydney
-    supply & installation by Group One. Call 1300 816 411.
+  Speed humps, cushions and traffic calming products. Sydney supply & installation by Group One. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/convex-mirrors/
-    Convex safety mirrors for car parks, warehouses and
-    driveways. Full range. Sydney supply. Call 1300 816 411.
+  Convex safety mirrors for car parks, warehouses and driveways. Full range. Sydney supply. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/bike-racks/
-    Commercial bike racks for offices, schools and retail.
-    Supply & installation across Sydney. Call 1300 816 411.
+  Commercial bike racks for offices, schools and retail. Supply & installation across Sydney. Call 1300 816 411.
 
   https://group1linemarking.com.au/product-category/height-clearance-bars/
-    Height clearance bars and overhead protection systems.
-    Sydney supply & installation. Group One. Call 1300 816 411.
+  Height clearance bars and overhead protection systems. Sydney supply & installation. Group One. Call 1300 816 411.
 
   https://group1linemarking.com.au/products/
-    Safety products for car parks, warehouses and roads —
-    bollards, wheel stops, signs, mirrors and more. Group One
-    Line Marking. Sydney. Call 1300 816 411.
+  Safety products for car parks, warehouses and roads — bollards, wheel stops, signs, mirrors and more. Group One Line Marking. Sydney. Call 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/browns-plains/
-    Group One Line Marking services Browns Plains and nearby
-    suburbs. Line marking, bollards, wheel stops & traffic
-    safety. Free quote — call 1300 816 411.
+  Group One Line Marking services Browns Plains and nearby suburbs. Line marking, bollards, wheel stops & traffic safety. Free quote — call 1300 816 411.
 
 ------------------------------------------------------------
 CHANGE 21 — Shorten 18 meta descriptions over 155 characters
 ------------------------------------------------------------
 
-Rewrite each to under 155 characters using the pattern:
-  [Topic] in [city] — [differentiator]. [Brand]. Call 1300 816 411.
-
-Priority pages:
+Rewrite each to under 155 characters using the pattern: [Topic] in [city] — [differentiator]. [Brand]. Call 1300 816 411.
 
   https://group1linemarking.com.au/services/wheel-stops/
-    NEW META: Sydney wheel stops — rubber & concrete supply and
-    installation. Carpark protection. From Group One.
-    Call 1300 816 411 for a free quote.
+  NEW META: Sydney wheel stops — rubber & concrete supply and installation. Carpark protection. From Group One. Call 1300 816 411 for a free quote.
 
   https://group1linemarking.com.au/areas-we-serve/fairfield/
-    NEW META: Fairfield line marking, concrete sealing & traffic
-    safety. Group One — reliable local service.
-    Free quote: call 1300 816 411.
+  NEW META: Fairfield line marking, concrete sealing & traffic safety. Group One — reliable local service. Free quote: call 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/
-    NEW META: Group One Line Marking services Sydney, Brisbane,
-    Gold Coast & Melbourne. 231 areas covered. Free quote:
-    call 1300 816 411.
+  NEW META: Group One Line Marking services Sydney, Brisbane, Gold Coast & Melbourne. 231 areas covered. Free quote: call 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/gold-coast/road-traffic-car-park-signs/
-    NEW META: Road traffic signs and car park signs on the Gold
-    Coast. Supply & installation. Group One Line Marking.
-    Call 1300 816 411.
+  NEW META: Road traffic signs and car park signs on the Gold Coast. Supply & installation. Group One Line Marking. Call 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/kirrawee/parking-safety-products/
-    NEW META: Parking safety products in Kirrawee — bollards,
-    wheel stops, speed humps, signs. Supply & install.
-    Call Group One on 1300 816 411.
+  NEW META: Parking safety products in Kirrawee — bollards, wheel stops, speed humps, signs. Supply & install. Call Group One on 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/laverton/bollards/
-    NEW META: Bollard installation in Laverton. Removable,
-    in-ground and surface-mount bollards. Free quote from
-    Group One. Call 1300 816 411.
+  NEW META: Bollard installation in Laverton. Removable, in-ground and surface-mount bollards. Free quote from Group One. Call 1300 816 411.
 
   https://group1linemarking.com.au/areas-we-serve/coburg/bollards/
-    NEW META: Bollard installation in Coburg. Full range of
-    safety bollards — supply, install and service. Group One.
-    Call 1300 816 411.
+  NEW META: Bollard installation in Coburg. Full range of safety bollards — supply, install and service. Group One. Call 1300 816 411.
 
   https://group1linemarking.com.au/services/line-marking/
-    NEW META: Sydney's leading line marking contractor — car
-    parks, warehouses, factory floors. 20+ years experience.
-    Free quote on 1300 816 411.
+  NEW META: Sydney's leading line marking contractor — car parks, warehouses, factory floors. 20+ years experience. Free quote on 1300 816 411.
 
-For the remaining 10 pages: pull the current meta, trim to under
-155 characters, keep the phone number and CTA.
+For the remaining 10 pages: pull the current meta, trim to under 155 characters, keep the phone number and CTA.
 
 ------------------------------------------------------------
 CHANGE 22 — Rewrite 14 duplicate product meta descriptions
 ------------------------------------------------------------
 
-14 product variant pages share identical meta descriptions:
-  - 4 convex mirror variants (450mm, 600mm, 800mm, 1000mm)
-  - ~7 removable bollard variants
-  - 3 surface-mount bollard variants
-
-For each variant, update the meta description to include the
-specific size or differentiating feature.
-
-EXAMPLES:
+14 product variant pages share identical meta descriptions: 4 convex mirror variants (450mm, 600mm, 800mm, 1000mm), ~7 removable bollard variants, and 3 surface-mount bollard variants. For each variant, update the meta description to include the specific size or differentiating feature. Size/feature in the first sentence, brand + phone in the last.
 
   https://group1linemarking.com.au/product/convex-mirror-1000mm/
-    Convex Mirror 1000mm — large-area visibility for car parks
-    and loading docks. Steel mounting bracket included.
-    Group One Line Marking. Call 1300 816 411.
+  Convex Mirror 1000mm — large-area visibility for car parks and loading docks. Steel mounting bracket included. Group One Line Marking. Call 1300 816 411.
 
   https://group1linemarking.com.au/product/convex-mirror-600mm/
-    Convex Mirror 600mm — ideal for warehouses and internal
-    corridors. Mounting bracket included. Group One Line Marking.
-    Call 1300 816 411.
+  Convex Mirror 600mm — ideal for warehouses and internal corridors. Mounting bracket included. Group One Line Marking. Call 1300 816 411.
 
   https://group1linemarking.com.au/product/bollard-parking-protector/
-    Bollard parking protector — surface-mount, no excavation
-    required. Ideal for car parks and loading zones. From
-    Group One. Call 1300 816 411.
+  Bollard parking protector — surface-mount, no excavation required. Ideal for car parks and loading zones. From Group One. Call 1300 816 411.
 
-Apply the same pattern to the remaining 11 variants — size/feature
-in the first sentence, brand + phone in the last.
+Apply the same pattern to the remaining 11 variants.
 
 ------------------------------------------------------------
 CHANGE 23 — Fix 24 pages with wrong H1s
 ------------------------------------------------------------
 
-17 suburb sub-service pages have H1 set to the suburb name only —
-e.g. https://group1linemarking.com.au/areas-we-serve/mackay/bollards/
-has H1 "Mackay" instead of "Bollards Mackay".
-
-Fix at the template level (one change updates all affected pages):
-Locate the template for /areas-we-serve/{suburb}/{service}/ pages
-and update the H1 to pull both service and suburb tokens:
-  {Service} {Suburb}
+17 suburb sub-service pages have H1 set to the suburb name only — e.g. https://group1linemarking.com.au/areas-we-serve/mackay/bollards/ has H1 "Mackay" instead of "Bollards Mackay". Fix at the template level (one change updates all affected pages): locate the template for /areas-we-serve/{suburb}/{service}/ pages and update the H1 to pull both service and suburb tokens as {Service} {Suburb}.
 
 CORRECT H1S:
-
-  https://group1linemarking.com.au/areas-we-serve/mackay/bollards/         → Bollards Mackay
+  https://group1linemarking.com.au/areas-we-serve/mackay/bollards/ → Bollards Mackay
   https://group1linemarking.com.au/areas-we-serve/mackay/concrete-sealing/ → Concrete Sealing Mackay
-  https://group1linemarking.com.au/areas-we-serve/mackay/wheel-stops/      → Wheel Stops Mackay
-  https://group1linemarking.com.au/areas-we-serve/townsville/bollards/     → Bollards Townsville
-  https://group1linemarking.com.au/areas-we-serve/townsville/wheel-stops/  → Wheel Stops Townsville
+  https://group1linemarking.com.au/areas-we-serve/mackay/wheel-stops/ → Wheel Stops Mackay
+  https://group1linemarking.com.au/areas-we-serve/townsville/bollards/ → Bollards Townsville
+  https://group1linemarking.com.au/areas-we-serve/townsville/wheel-stops/ → Wheel Stops Townsville
   https://group1linemarking.com.au/areas-we-serve/townsville/concrete-sealing/ → Concrete Sealing Townsville
-  https://group1linemarking.com.au/areas-we-serve/rockhampton/bollards/    → Bollards Rockhampton
+  https://group1linemarking.com.au/areas-we-serve/rockhampton/bollards/ → Bollards Rockhampton
   https://group1linemarking.com.au/areas-we-serve/rockhampton/wheel-stops/ → Wheel Stops Rockhampton
   https://group1linemarking.com.au/areas-we-serve/rockhampton/concrete-sealing/ → Concrete Sealing Rockhampton
-  https://group1linemarking.com.au/areas-we-serve/emerald/bollards/        → Bollards Emerald
+  https://group1linemarking.com.au/areas-we-serve/emerald/bollards/ → Bollards Emerald
   https://group1linemarking.com.au/areas-we-serve/emerald/concrete-sealing/ → Concrete Sealing Emerald
-  https://group1linemarking.com.au/areas-we-serve/emerald/wheel-stops/     → Wheel Stops Emerald
-  https://group1linemarking.com.au/areas-we-serve/yeppoon/bollards/        → Bollards Yeppoon
+  https://group1linemarking.com.au/areas-we-serve/emerald/wheel-stops/ → Wheel Stops Emerald
+  https://group1linemarking.com.au/areas-we-serve/yeppoon/bollards/ → Bollards Yeppoon
   https://group1linemarking.com.au/areas-we-serve/yeppoon/concrete-sealing/ → Concrete Sealing Yeppoon
-  https://group1linemarking.com.au/areas-we-serve/whitsunday/bollards/     → Bollards Whitsunday
+  https://group1linemarking.com.au/areas-we-serve/whitsunday/bollards/ → Bollards Whitsunday
   https://group1linemarking.com.au/areas-we-serve/whitsunday/concrete-sealing/ → Concrete Sealing Whitsunday
-  https://group1linemarking.com.au/areas-we-serve/airlie-beach/bollards/   → Bollards Airlie Beach
+  https://group1linemarking.com.au/areas-we-serve/airlie-beach/bollards/ → Bollards Airlie Beach
   https://group1linemarking.com.au/areas-we-serve/airlie-beach/wheel-stops/ → Wheel Stops Airlie Beach
-
-  Also fix paginated category pages:
   https://group1linemarking.com.au/product-category/bollards/page/2/ → H1: Bollards — Page 2
   https://group1linemarking.com.au/product-category/bollards/page/3/ → H1: Bollards — Page 3
 
-DESIGN NOTE: Sub-service page H1s use the CSS class "small_font".
-Keep this class on the updated H1. The new text is slightly longer
-than a single suburb name — check one page visually before pushing
-the template change to confirm the H1 doesn't overflow in the hero
-area on mobile.
+DESIGN NOTE: Sub-service page H1s use the CSS class "small_font" — keep this class on the updated H1. The new text is slightly longer than a single suburb name. Check one page visually on mobile before pushing the template change to confirm the H1 doesn't overflow in the hero area.
+
 
 ============================================================
 SECTION D — SCHEMA IMPLEMENTATION
@@ -621,8 +398,7 @@ SECTION D — SCHEMA IMPLEMENTATION
 ============================================================
 
 ------------------------------------------------------------
-CHANGE 24 — Remove CreativeWorkSeries schema and implement
-             LocalBusiness JSON-LD site-wide
+CHANGE 24 — Remove CreativeWorkSeries schema and implement LocalBusiness JSON-LD site-wide
 ------------------------------------------------------------
 
 These two tasks must be done in the same deployment.
@@ -634,14 +410,9 @@ PREREQUISITES FROM CLIENT (collecting via authority form):
   □ Facebook URL (currently: facebook.com/group1NSWPTYLTD)
   □ LinkedIn URL (if created)
 
-STEP 1 — Remove CreativeWorkSeries:
-  Search theme files for "CreativeWorkSeries" and remove the
-  entire JSON-LD script block. Do NOT remove any Yoast-generated
-  blocks (BreadcrumbList, WebPage, WebSite).
+STEP 1 — Remove CreativeWorkSeries: search theme files for "CreativeWorkSeries" and remove the entire JSON-LD script block. Do NOT remove any Yoast-generated blocks (BreadcrumbList, WebPage, WebSite).
 
-STEP 2 — Add LocalBusiness JSON-LD to the homepage <head>.
-  Fill in bracketed fields once client data is confirmed.
-  Validate at https://validator.schema.org before deploying.
+STEP 2 — Add LocalBusiness JSON-LD to the homepage <head>. Fill in bracketed fields once client data is confirmed.
 
 ---BEGIN JSON-LD---
 <script type="application/ld+json">
@@ -681,8 +452,7 @@ STEP 2 — Add LocalBusiness JSON-LD to the homepage <head>.
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday",
-                    "Friday","Saturday","Sunday"],
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
       "opens": "00:00",
       "closes": "23:59"
     }
@@ -706,9 +476,7 @@ STEP 2 — Add LocalBusiness JSON-LD to the homepage <head>.
 </script>
 ---END JSON-LD---
 
-STEP 3 — Add Service JSON-LD to the <head> of each service page.
-  The provider field references the homepage LocalBusiness @id.
-  Example for https://group1linemarking.com.au/services/line-marking/:
+STEP 3 — Add Service JSON-LD to the <head> of each service page. The provider field references the homepage LocalBusiness @id. Example for https://group1linemarking.com.au/services/line-marking/:
 
 ---BEGIN JSON-LD---
 <script type="application/ld+json">
@@ -724,32 +492,29 @@ STEP 3 — Add Service JSON-LD to the <head> of each service page.
     "@type": "Place",
     "name": "Sydney, NSW, AU"
   },
-  "description": "Professional line marking services for car
-    parks, warehouses, roads and industrial floors across Sydney."
+  "description": "Professional line marking services for car parks, warehouses, roads and industrial floors across Sydney."
 }
 </script>
 ---END JSON-LD---
 
-  Apply to all 15 service pages:
+Apply to all 15 service pages, updating name, serviceType, and description for each:
+  https://group1linemarking.com.au/services/line-marking/ → Line Marking
+  https://group1linemarking.com.au/services/bollards/ → Bollard Installation
+  https://group1linemarking.com.au/services/wheel-stops/ → Wheel Stop Installation
+  https://group1linemarking.com.au/services/speed-calming-devices/ → Speed Calming Devices
+  https://group1linemarking.com.au/services/safety-barriers-protection-systems/ → Safety Barriers
+  https://group1linemarking.com.au/services/signs-supply-and-installations/ → Signs Supply & Installation
+  https://group1linemarking.com.au/services/commercial-bike-racks/ → Commercial Bike Racks
+  https://group1linemarking.com.au/services/concrete-sealer-contractors/ → Concrete Sealing
+  https://group1linemarking.com.au/services/railing-and-protection-accessories/ → Railing & Protection
+  https://group1linemarking.com.au/services/industrial-line-marking/ → Industrial Line Marking
+  https://group1linemarking.com.au/services/factory-warehouse-line-marking/ → Factory & Warehouse Line Marking
+  https://group1linemarking.com.au/services/road-traffic-car-park-signs/ → Road Traffic & Car Park Signs
+  https://group1linemarking.com.au/services/rhino-stop/ → Rhino Stop
+  https://group1linemarking.com.au/services/convex-mirrors/ → Convex Mirrors
+  https://group1linemarking.com.au/services/ → Line Marking Services
 
-    https://group1linemarking.com.au/services/line-marking/                     → Line Marking
-    https://group1linemarking.com.au/services/bollards/                         → Bollard Installation
-    https://group1linemarking.com.au/services/wheel-stops/                      → Wheel Stop Installation
-    https://group1linemarking.com.au/services/speed-calming-devices/            → Speed Calming Devices
-    https://group1linemarking.com.au/services/safety-barriers-protection-systems/ → Safety Barriers
-    https://group1linemarking.com.au/services/signs-supply-and-installations/   → Signs Supply & Installation
-    https://group1linemarking.com.au/services/commercial-bike-racks/            → Commercial Bike Racks
-    https://group1linemarking.com.au/services/concrete-sealer-contractors/      → Concrete Sealing
-    https://group1linemarking.com.au/services/railing-and-protection-accessories/ → Railing & Protection
-    https://group1linemarking.com.au/services/industrial-line-marking/          → Industrial Line Marking
-    https://group1linemarking.com.au/services/factory-warehouse-line-marking/   → Factory & Warehouse Line Marking
-    https://group1linemarking.com.au/services/road-traffic-car-park-signs/      → Road Traffic & Car Park Signs
-    https://group1linemarking.com.au/services/rhino-stop/                       → Rhino Stop
-    https://group1linemarking.com.au/services/convex-mirrors/                   → Convex Mirrors
-    https://group1linemarking.com.au/services/                                  → Line Marking Services
-
-STEP 4 — Add area-scoped Service JSON-LD at the location page
-  template level (applies to all 231 location pages automatically):
+STEP 4 — Add area-scoped Service JSON-LD at the location page template level (applies to all 231 location pages automatically):
 
 ---BEGIN JSON-LD TEMPLATE---
 <script type="application/ld+json">
@@ -769,20 +534,11 @@ STEP 4 — Add area-scoped Service JSON-LD at the location page
 </script>
 ---END JSON-LD TEMPLATE---
 
-STEP 5 — Validate:
-  Test https://group1linemarking.com.au at
-  https://search.google.com/test/rich-results
-  Confirm: LocalBusiness present, no CreativeWorkSeries,
-  no schema errors. Test a service page and a location page too.
-
 ------------------------------------------------------------
-CHANGE 25 — Add FAQPage schema and FAQ section to homepage
-             and top 4 service pages
+CHANGE 25 — Add FAQPage schema and FAQ section to homepage and top 4 service pages
 ------------------------------------------------------------
 
-For each of the 5 pages below, add:
-  a) A visible FAQ accordion section in the page content
-  b) FAQPage JSON-LD in the <head>
+For each of the 5 pages below, add: (a) a visible FAQ accordion section in the page content, and (b) FAQPage JSON-LD in the <head>.
 
 Pages:
   https://group1linemarking.com.au/
@@ -791,38 +547,24 @@ Pages:
   https://group1linemarking.com.au/services/wheel-stops/
   https://group1linemarking.com.au/services/speed-calming-devices/
 
-DESIGN NOTE: If the site already has an accordion/collapsible
-component on other pages, use the same component. If none exists,
-use a simple Q&A format: question in bold, answer as a paragraph
-below. Do not introduce new design components.
+DESIGN NOTE: If the site already has an accordion/collapsible component on other pages, use the same component. If none exists, use a simple Q&A format: question in bold, answer as a paragraph below. Do not introduce new design components.
 
-HOMEPAGE FAQ CONTENT:
-Add as a new section near the bottom of the homepage, before
-the footer. Heading: "Frequently Asked Questions"
+HOMEPAGE FAQ CONTENT — add as a new section near the bottom of the homepage, before the footer. Heading: "Frequently Asked Questions"
 
-  Q: How long does line marking last in Sydney's climate?
-  A: With professional preparation and high-grade water-borne
-  or solvent-based paints, indoor car park line marking lasts
-  5–8 years. Outdoor markings last 3–5 years depending on
-  traffic volume and direct UV exposure.
+Q: How long does line marking last in Sydney's climate?
+A: With professional preparation and high-grade water-borne or solvent-based paints, indoor car park line marking lasts 5–8 years. Outdoor markings last 3–5 years depending on traffic volume and direct UV exposure.
 
-  Q: Can you complete line marking outside business hours?
-  A: Yes — we operate 24/7 across Sydney metro. Most commercial
-  line-marking jobs are completed overnight or on weekends to
-  avoid disruption to your operations.
+Q: Can you complete line marking outside business hours?
+A: Yes — we operate 24/7 across Sydney metro. Most commercial line-marking jobs are completed overnight or on weekends to avoid disruption to your operations.
 
-  Q: Do you handle small projects?
-  A: Yes — we take on jobs from a single car park line refresh
-  through to multi-thousand-square-metre warehouse or aviation
-  surface marking.
+Q: Do you handle small projects?
+A: Yes — we take on jobs from a single car park line refresh through to multi-thousand-square-metre warehouse or aviation surface marking.
 
-  Q: Are your paints compliant with AS/NZS 1742?
-  A: Yes — all outdoor traffic-control line marking complies
-  with AS/NZS 1742.2 (Manual of Uniform Traffic Control Devices).
+Q: Are your paints compliant with AS/NZS 1742?
+A: Yes — all outdoor traffic-control line marking complies with AS/NZS 1742.2 (Manual of Uniform Traffic Control Devices).
 
-  Q: What's your turnaround time for a quote?
-  A: Quotes are returned within 24 hours of site contact. For
-  urgent jobs, call us on 1300 816 411 for same-day pricing.
+Q: What's your turnaround time for a quote?
+A: Quotes are returned within 24 hours of site contact. For urgent jobs, call us on 1300 816 411 for same-day pricing.
 
 HOMEPAGE FAQPage JSON-LD (add to <head>):
 
@@ -875,10 +617,8 @@ HOMEPAGE FAQPage JSON-LD (add to <head>):
 }
 </script>
 
-For the 4 service pages: use the same structure with service-specific
-questions. Service-specific FAQ copy will be provided separately.
+For the 4 service pages: use the same structure with service-specific questions. Service-specific FAQ copy will be provided separately.
 
-Validate each page at https://search.google.com/test/rich-results
 
 ============================================================
 SECTION E — INTERNAL LINKING
@@ -888,33 +628,25 @@ SECTION E — INTERNAL LINKING
 CHANGE 26 — Add Related Products blocks to service pages
 ------------------------------------------------------------
 
-Add a "Related Products" or "Browse Products" block to these
-service pages, linking to the relevant products:
+Add a "Related Products" or "Browse Products" block to these service pages:
 
   https://group1linemarking.com.au/services/wheel-stops/
-    Link to: premium-wheel-stop, truck-bus-stops, tuff-stop
-    Section title: "Our Wheel Stop Products"
+  Link to: premium-wheel-stop, truck-bus-stops, tuff-stop
+  Section title: "Our Wheel Stop Products"
 
   https://group1linemarking.com.au/services/bollards/
-    Link to: bollard-parking-protector, economy-in-ground-bollard-90mm,
-    flexible-knock-down-bollard
-    Section title: "Browse Our Bollard Range"
+  Link to: bollard-parking-protector, economy-in-ground-bollard-90mm, flexible-knock-down-bollard
+  Section title: "Browse Our Bollard Range"
 
   https://group1linemarking.com.au/services/speed-calming-devices/
-    Link to: plastic-speed-hump-100-tonne-free-fixings,
-    portable-speed-hump, rumble-bar
-    Section title: "Speed Calming Products"
+  Link to: plastic-speed-hump-100-tonne-free-fixings, portable-speed-hump, rumble-bar
+  Section title: "Speed Calming Products"
 
   https://group1linemarking.com.au/services/convex-mirrors/
-    Link to: convex-mirror-1000mm (and other size variants)
-    Section title: "Convex Mirror Range"
+  Link to: convex-mirror-1000mm (and other size variants)
+  Section title: "Convex Mirror Range"
 
-DESIGN NOTE: Use WooCommerce's built-in "Related Products" or
-"Upsell Products" functionality if the theme renders product cards
-in a grid or carousel. If not available automatically, use a simple
-styled link list matching the body text styling of the service page.
-Do not add a new card-style component if one doesn't already exist
-on service pages.
+DESIGN NOTE: Use WooCommerce's built-in "Related Products" or "Upsell Products" functionality if the theme renders product cards in a grid or carousel. If not available automatically, use a simple styled link list matching the body text styling of the service page. Do not add a new card-style component if one doesn't already exist on service pages.
 
 ------------------------------------------------------------
 CHANGE 27 — Fix 2 internal links to pagination redirects
@@ -924,166 +656,112 @@ Two internal links point to paginated URLs that redirect:
   https://group1linemarking.com.au/product-category/bollards/page/2/
   https://group1linemarking.com.au/product-category/bollards/page/3/
 
-Find the source pages (likely a navigation menu, related-products
-block, or custom shortcode) and update the links to point to the
-canonical destination URLs, skipping the redirect.
+Find the source pages (likely a navigation menu, related-products block, or custom shortcode) and update the links to point to the canonical destination URLs, skipping the redirect.
+
 
 ============================================================
 SECTION F — CLIENT TO ACTION (NOT DEVELOPER TASKS)
 ============================================================
 
-These items require the client to log into their Google Business
-Profile themselves. Forward this list to the client.
+Forward this list to the client. These are GBP changes that only the account owner can make.
 
-  GBP-001: UPLOAD PHOTOS
-  Upload 10–15 photos:
-    - 4–5 line-marking project completions (car park, warehouse,
-      school, retail)
-    - 1–2 crew/team photos with named people visible
-    - 2–3 equipment photos (paint trolleys, spray equipment)
-    - 1 Miranda depot exterior photo
-    - 1 logo image
-  Add a descriptive caption to every photo.
+GBP-001: UPLOAD PHOTOS — upload 10–15 photos: 4–5 line-marking project completions (car park, warehouse, school, retail), 1–2 crew/team photos with named people visible, 2–3 equipment photos, 1 Miranda depot exterior, 1 logo. Add a descriptive caption to every photo.
 
-  GBP-002: POPULATE SERVICE AREA
-  Add all Sydney suburbs the business services — at minimum
-  all suburbs that have an /areas-we-serve/ page:
-  Fairfield, Penrith, Ingleburn, Huntingwood, Sutherland Shire,
-  Caringbah, Cronulla, Engadine, Miranda, Liverpool, Campbelltown,
-  Parramatta, and all others in the /areas-we-serve/ list.
+GBP-002: POPULATE SERVICE AREA — add all Sydney suburbs the business services. At minimum: Fairfield, Penrith, Ingleburn, Huntingwood, Sutherland Shire, Caringbah, Cronulla, Engadine, Miranda, Liverpool, Campbelltown, Parramatta, and all others in the /areas-we-serve/ list.
 
-  GBP-003: RESPOND TO ALL 29 EXISTING REVIEWS
-  Write a personalised response to each of the 29 reviews.
-  Use the reviewer's first name. Mention the specific service.
-  Include the phone number in some responses.
-  Going forward: respond within 24 hours to every new review.
+GBP-003: RESPOND TO ALL 29 EXISTING REVIEWS — write a personalised response to each. Use the reviewer's first name. Mention the specific service. Include the phone number in some responses. Going forward: respond within 24 hours to every new review.
 
-  GBP-004: START COLLECTING MORE REVIEWS (TARGET: 8–10/MONTH)
-    - Hand customers a card with a QR code to the Google review
-      page at every job completion.
-    - Send an SMS or email 24–48 hours after job completion with
-      a one-tap review link.
-    - Brief field crew to ask for a review after every job.
+GBP-004: START COLLECTING MORE REVIEWS (TARGET: 8–10/MONTH) — hand customers a card with a QR code to the Google review page at every job completion. Send an SMS or email 24–48 hours after job completion with a one-tap review link. Brief field crew to ask for a review after every job.
 
-  GBP-005: UPDATE PRIMARY PHONE
-  Update primary phone in GBP to: 1300 816 411
-  Keep 0414 153 837 as the secondary phone.
+GBP-005: UPDATE PRIMARY PHONE — update primary phone in GBP to 1300 816 411. Keep 0414 153 837 as the secondary phone.
 
-  CITATION DIRECTORIES:
-  Create a free listing on each using the canonical NAP:
-    Business name: Group One Line Marking
-    Address: 17/205 Port Hacking Rd, Miranda NSW 2228
-    Phone: 1300 816 411
-    Website: https://group1linemarking.com.au
-  Directories:
-    1. truelocal.com.au
-    2. yellowpages.com.au
-    3. zumvu.com
+CITATION DIRECTORIES — create a free listing on each using the canonical NAP (Business name: Group One Line Marking, Address: 17/205 Port Hacking Rd, Miranda NSW 2228, Phone: 1300 816 411, Website: https://group1linemarking.com.au):
+  1. truelocal.com.au
+  2. yellowpages.com.au
+  3. zumvu.com
 
-  Update existing incorrect listings:
-    australia.chamberofcommerce.com — update review count
-    mapquest.com — add "17/" unit prefix to address
+Update existing incorrect listings: australia.chamberofcommerce.com (update review count), mapquest.com (add "17/" unit prefix to address).
+
 
 ============================================================
 SECTION G — BLOCKED — AWAITING CLIENT DATA
 ============================================================
 
-Do not action these until we receive the authority building form
-and client responses.
+Do not action these until we receive the authority building form and client responses.
 
-  BLOCKED-1: REMOVE MELBOURNE CONTENT FROM SERVICE PAGES
-  The homepage has 5 Melbourne H2s and
-  https://group1linemarking.com.au/services/line-marking/
-  has 21 Melbourne mentions. Sydney-target service pages need
-  Melbourne references replaced with Sydney copy. New copy will
-  be written once VIC/QLD service scope is confirmed.
+BLOCKED-1: REMOVE MELBOURNE CONTENT — the homepage has 5 Melbourne H2s and https://group1linemarking.com.au/services/line-marking/ has 21 Melbourne mentions. Sydney-target service pages need Melbourne references replaced with Sydney copy. New copy will be written once VIC/QLD service scope is confirmed.
 
-  BLOCKED-2: ABOUT US PAGE REBUILD
-  Need: owner name, headshot, bio, credentials, founding year,
-  crew count, project volume, insurance details. Collecting via
-  authority form.
+BLOCKED-2: ABOUT US PAGE REBUILD — need owner name, headshot, bio, credentials, founding year, crew count, project volume, insurance details. Collecting via authority form.
 
-  BLOCKED-3: GALLERY PHOTO CAPTIONS
-  69 project photos have placeholder alt text ("Wheel 1",
-  "Road Signs And Line 1"). Need project records from client:
-  suburb, sector, size, year for each photo.
+BLOCKED-3: GALLERY PHOTO CAPTIONS — 69 project photos have placeholder alt text ("Wheel 1", "Road Signs And Line 1"). Need project records from client: suburb, sector, size, year for each photo.
 
-  BLOCKED-4: ESTABLISHMENT YEAR UPDATE
-  5 conflicting year claims on site ("24 years", "since 2017",
-  "19 years", etc.). Update homepage hero, About Us, and GBP
-  description once correct year is confirmed.
+BLOCKED-4: ESTABLISHMENT YEAR UPDATE — 5 conflicting year claims on site ("24 years", "since 2017", "19 years", etc.). Update homepage hero, About Us, and GBP description once correct year is confirmed.
 
-  BLOCKED-5: DIRECTORY CITATION SETUP
-  Awaiting canonical phone number and establishment year from client.
+BLOCKED-5: DIRECTORY CITATION SETUP — awaiting canonical phone number and establishment year from client.
 
-  BLOCKED-6: VIC/QLD LOCATION PAGE STRATEGY
-  21 VIC and 23 QLD location pages. Strategy (rewrite, redirect,
-  or new GBPs) depends on confirmation of whether the business
-  genuinely services those states.
+BLOCKED-6: VIC/QLD LOCATION PAGE STRATEGY — 21 VIC and 23 QLD location pages. Strategy (rewrite, redirect, or new GBPs) depends on confirmation of whether the business genuinely services those states.
+
 
 ============================================================
 SUMMARY TABLE
 ============================================================
 
-  #   Change                                    Who
-  --  ----------------------------------------  ----------
+  #   Change                                          Who
+  --  ----------------------------------------------  ----------
   A — EMERGENCY FIXES
-   1  Fix speed-calming-devices title + meta     Developer
-   2  Fix postcode typo on contact page          Developer
-   3  Fix robots.txt Crawl-delay line            Developer
-   4  Remove user-scalable=no from viewport      Developer
-   5  Add H1 to 3 missing pages                  Developer
-   6  Fix 4xx broken internal link               Developer
-   7  301 redirect /plains/ → /browns-plains/    Developer
-   8  Fix homepage H1                            Developer
-   9  Remove duplicate BreadcrumbList schema     Developer
-  10  Fix stale sitemap lastmod                  Developer
+   1  Fix speed-calming-devices title + meta          Developer
+   2  Fix postcode typo on contact page               Developer
+   3  Fix robots.txt Crawl-delay line                 Developer
+   4  Remove user-scalable=no from viewport           Developer
+   5  Add H1 to 3 missing pages                       Developer
+   6  Fix 4xx broken internal link                    Developer
+   7  301 redirect /plains/ → /browns-plains/         Developer
+   8  Fix homepage H1                                 Developer
+   9  Remove duplicate BreadcrumbList schema          Developer
+  10  Fix stale sitemap lastmod                       Developer
 
   B — ANALYTICS + TECHNICAL
-  11  Fix GA4 not firing                         Developer
-  12  Create + submit disavow file via GSC       Developer
-  13  Disable competitor popup redirects         Developer
-  14  Fix slow location page template            Developer
+  11  Fix GA4 not firing                              Developer
+  12  Create + submit disavow file via GSC            Developer
+  13  Disable competitor popup redirects              Developer
+  14  Fix slow location page template                 Developer
 
   C — PHONE + NAP
-  15  Fix corrupt tel: href on speed pages       Developer
-  16  Standardise phone in meta descriptions     Developer
-  17  Add label + disclosure to QLD contacts     Developer
+  15  Fix corrupt tel: href on speed pages            Developer
+  16  Standardise phone in meta descriptions          Developer
+  17  Add label + disclosure to QLD contacts          Developer
 
   D — TITLES + META + H1
-  18  Fix WooCommerce Archives titles            Developer
-  19  Update global title suffix (52 pages)      Developer
-  20  Add meta to 29 pages with none             Developer
-  21  Shorten 18 long meta descriptions          Developer
-  22  Rewrite 14 duplicate product metas         Developer
-  23  Fix 24 pages with wrong H1s                Developer
+  18  Fix WooCommerce Archives titles                 Developer
+  19  Update global title suffix (52 pages)           Developer
+  20  Add meta to 29 pages with none                  Developer
+  21  Shorten 18 long meta descriptions               Developer
+  22  Rewrite 14 duplicate product metas              Developer
+  23  Fix 24 pages with wrong H1s                     Developer
 
   SCHEMA
-  24  Remove CreativeWorkSeries + add            Developer
-      LocalBusiness JSON-LD site-wide
-  25  FAQPage schema + FAQ sections (5 pages)    Developer
+  24  Remove CreativeWorkSeries + LocalBusiness JSON  Developer
+  25  FAQPage schema + FAQ sections (5 pages)         Developer
 
   INTERNAL LINKING
-  26  Related Products on service pages          Developer
-  27  Fix 2 pagination redirect links            Developer
+  26  Related Products on service pages               Developer
+  27  Fix 2 pagination redirect links                 Developer
 
-  F — CLIENT TO ACTION (GBP + directories)
-      Upload GBP photos                          Client
-      Populate GBP service area                  Client
-      Respond to 29 GBP reviews                  Client
-      Start review collection workflow           Client
-      Update GBP primary phone                   Client
-      Create directory listings                  Client
+  F — CLIENT TO ACTION
+      Upload GBP photos                              Client
+      Populate GBP service area                      Client
+      Respond to 29 GBP reviews                      Client
+      Start review collection workflow               Client
+      Update GBP primary phone                       Client
+      Create directory listings                      Client
 
   G — BLOCKED — AWAITING CLIENT DATA
-      Remove Melbourne content                   Blocked
-      Rebuild About Us page                      Blocked
-      Caption 69 gallery photos                  Blocked
-      Update establishment year everywhere       Blocked
-      Directory citations                        Blocked
-      VIC/QLD location page strategy             Blocked
-
-NOTE: Start with Section A.
+      Remove Melbourne content                       Blocked
+      Rebuild About Us page                          Blocked
+      Caption 69 gallery photos                      Blocked
+      Update establishment year everywhere           Blocked
+      Directory citations                            Blocked
+      VIC/QLD location page strategy                 Blocked
 
 ============================================================
 END OF DOCUMENT

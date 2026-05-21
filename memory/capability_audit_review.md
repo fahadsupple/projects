@@ -267,6 +267,12 @@ Example:
   already communicates urgency. Section A = do first, that's all they need
 - Do not explain WHY the change is needed (SEO impact, Google behaviour, ranking effect)
   — describe only WHAT to change (current value, new value, URL, code)
+- Do not include 'After:' verification steps (e.g. 'flush cache', 'verify in GSC',
+  'check in Google Rich Results Test') — those are the SEO team's job, not the developer's
+- Do not hard-wrap prose lines at 70 characters. Write descriptive text as single long
+  lines so pasting into Google Docs doesn't create unwanted line breaks. Exception:
+  code blocks, URL lists, and structural elements (section headers, dividers) can
+  stay on separate lines
 - Do not include CMS navigation instructions (e.g. "WP Admin → Yoast → Search Appearance")
   — the developer knows their tools. Describe WHAT to change, not HOW to navigate to it
 - Do not use URI paths alone (e.g. `/services/line-marking/`) — always write the full URL
