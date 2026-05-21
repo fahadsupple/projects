@@ -46,9 +46,11 @@ File: `clients/[domain]/developer-requirements.txt`
 Format rules (established from group1linemarking + globallocksmiths):
 - **Plain text** — not HTML, not markdown, so it can be pasted into any PM tool
 - Numbered changes within lettered sections (A1, A2... B11, B12...)
-- Each change has: Priority and a precise description of WHAT needs to change
+- Each change contains only a precise description of WHAT needs to change
   (the exact URL, current value, new value/code). No CMS navigation instructions.
 - No time estimates — do not include "Estimated time" on any change
+- No priority labels — the section grouping itself communicates urgency.
+  Section A = do first, Section B onwards = in order
 - Always use full URLs — `https://[domain]/path/` not URI paths like `/path/`
 - Changes with visual impact: include a DESIGN NOTE explaining existing design patterns
   so the developer matches the site's current look without guessing
@@ -261,6 +263,10 @@ Example:
 - Do not write DESIGN NOTE only when you remember — it is required on every visual change
 - Do not include estimated time on any change — the dev team doesn't need it
   and it's not our job to estimate their work
+- Do not include Priority labels (CRITICAL/HIGH/MEDIUM/LOW) — the section order
+  already communicates urgency. Section A = do first, that's all they need
+- Do not explain WHY the change is needed (SEO impact, Google behaviour, ranking effect)
+  — describe only WHAT to change (current value, new value, URL, code)
 - Do not include CMS navigation instructions (e.g. "WP Admin → Yoast → Search Appearance")
   — the developer knows their tools. Describe WHAT to change, not HOW to navigate to it
 - Do not use URI paths alone (e.g. `/services/line-marking/`) — always write the full URL
