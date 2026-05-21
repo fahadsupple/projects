@@ -1,0 +1,310 @@
+FLOURISH ELC — CASSANDRA CHANGES REVIEW
+Document checked: flourishelc.com.au-21-May-2026.docx
+Cassandra's source: flourishelc.com.au-cassandra-comments.docx
+Date: 21 May 2026
+============================================================
+
+OVERVIEW
+--------
+Total tracked changes by Cassandra: 121 (across 29 pages)
+Correctly applied:                  109
+Partially applied (intent met):       9
+Not applied (clear miss):             3
+
+============================================================
+SECTION A — NOT APPLIED (3 changes — action required)
+============================================================
+
+These 3 changes were clearly not made and need to be fixed.
+
+------------------------------------------------------------
+MISS 1 — Shelley Daycare page
+URL: https://flourishelc.com.au/daycare-childcare-shelley-wa/
+Section: H2 under "Our Unique Programs and Services"
+------------------------------------------------------------
+
+WHAT CASSANDRA ASKED:
+Replace the H2 heading "Foreshore Adventures" and its content
+with a new section headed "Stimulating Child Led Curriculum".
+
+WHAT HAPPENED IN THE MAY 21 DOC:
+Both sections now exist on the page. "Stimulating Child Led
+Curriculum" was added as a new section, but the "Foreshore
+Adventures" content was NOT removed. The page currently reads:
+
+  "Making the Most of Shelley's Natural Environment"  [H3]
+  "Our unique Foreshore Adventures program makes sure your
+   child doesn't miss out on this natural wonder..."
+
+  ...followed separately by...
+
+  "Stimulating Child Led Curriculum"  [H2]
+
+This creates two overlapping sections doing the same job.
+
+FIX:
+Delete the "Foreshore Adventures" content entirely. The
+"Making the Most of Shelley's Natural Environment" H3 and
+its paragraph beginning "Our unique Foreshore Adventures
+program..." must be removed from this page. Only the
+"Stimulating Child Led Curriculum" section should remain.
+
+------------------------------------------------------------
+MISS 2 — Shelley Daycare page
+URL: https://flourishelc.com.au/daycare-childcare-shelley-wa/
+Section: FAQ or body — seasonal menu paragraph
+------------------------------------------------------------
+
+WHAT CASSANDRA ASKED:
+Add a sentence to the seasonal menu paragraph:
+  "Your child's dietary needs can be catered for in
+   consultation with our team."
+
+CURRENT TEXT IN MAY 21 DOC (unchanged from original):
+  "We serve a rotating seasonal menu that includes various
+   cuisines, ensuring children are exposed to different
+   flavors while receiving optimal nutrition."
+
+FIX:
+Append Cassandra's sentence. It should read:
+  "We serve a rotating seasonal menu that includes various
+   cuisines, ensuring children are exposed to different
+   flavors while receiving optimal nutrition. Your child's
+   dietary needs can be catered for in consultation with
+   our team."
+
+------------------------------------------------------------
+MISS 3 — Preschool Gables page
+URL: https://flourishelc.com.au/preschool-gables-nsw/
+Section: Body paragraph about centre location/access
+------------------------------------------------------------
+
+WHAT CASSANDRA ASKED:
+Add "and Boundary Road" to the existing Cataract Road sentence:
+  ORIGINAL:  "Located conveniently near major arterials
+               including Cataract Road, our centre offers:"
+  REVISED:   "Located conveniently near major arterials
+               including Cataract Road and Boundary Road,
+               our centre offers:"
+
+WHAT HAPPENED IN THE MAY 21 DOC:
+The entire paragraph with the road reference was removed.
+Neither Cataract Road nor Boundary Road appears anywhere on
+the Preschool Gables page. Cassandra's intent was to ADD
+Boundary Road — not to delete the sentence.
+
+FIX:
+Reinstate a reference to both roads. Either restore
+Cassandra's exact sentence or add a mention of Boundary Road
+access in the location/access paragraph.
+
+============================================================
+SECTION B — PARTIALLY APPLIED (9 changes)
+============================================================
+
+In these cases the writers substantially rewrote the paragraph
+rather than applying Cassandra's targeted edit. The original
+problematic text is gone in all cases, so there are no factual
+errors. However, Cassandra's exact revised wording was not used.
+
+These are low priority. Flag only if Cassandra cares about
+specific phrasing being preserved.
+
+  Change 6   | Oakville daycare
+              | "bushfire-compliant construction" removed ✓
+              | Cassandra's exact phrase "our compliant
+              | construction" not used — paragraph rewritten
+
+  Change 7   | Oakville daycare FAQ
+              | BAL ratings removed ✓
+              | Cassandra's "recent upgrades ensures" phrase
+              | not used — FAQ paragraph rewritten differently
+
+  Change 13  | Box Hill daycare
+              | "Hills Shire Council's DCP requirements" removed ✓
+              | Cassandra's "achieves high standards of safety,
+              | design" phrase not used — paragraph rewritten
+
+  Change 22  | Vineyard daycare
+              | "We're not just in Vineyard; we're for Vineyard"
+              | removed ✓
+              | Cassandra's "We're here for Vineyard families"
+              | phrase not used — paragraph rewritten differently
+
+  Change 37  | Preschool Oakville
+              | "2027 intake" (outdated year) removed ✓
+              | Cassandra's "2026 and 2027 intake" phrase not
+              | used — sentence removed entirely instead
+
+  Change 52  | Preschool Riverstone
+              | "6:30am" opening reference removed ✓
+              | Cassandra's "Staff members greet children from
+              | 7:00am" sentence not used — sentence removed
+              | entirely instead of being updated
+
+  Change 84  | Kindergarten Leeming
+              | "Government-Approved Excellence:" bullet removed ✓
+              | Cassandra's "Programming Excellence:" label not
+              | used — bullet section restructured differently
+
+  Change 99  | Kindergarten Shelley
+              | "Government-Approved Curriculum:" bullet removed ✓
+              | Cassandra's "EYLF Curriculum: Full kindergarten
+              | program meeting all school readiness benchmarks..."
+              | not used — replaced with "EYLF Based Outcomes:"
+              | (different label and content)
+
+  Changes    | Kindergarten Shelley
+  100 + 101  | "Authentic Local Integration" and "Seasonal
+              | Learning Programs" bullet sections removed ✓
+              | Cassandra's specific revised text for both
+              | bullets ("incursions from educational organisation"
+              | and "ecosystem studies") not used — the entire
+              | bullet section was restructured
+
+============================================================
+SECTION C — CORRECTLY APPLIED (109 changes) ✅
+============================================================
+
+The following categories of changes were all correctly applied
+in the May 21 document:
+
+BUSHFIRE / BAL REFERENCES REMOVED
+  - Oakville meta description (bushfire → generous natural outdoor spaces)
+  - Oakville intro paragraph (aren't afterthoughts → continuously reviewed)
+  - Oakville curriculum (university-developed → qualified teacher-developed)
+  - Oakville BAL/construction paragraphs rewritten
+  - Oakville FAQ bushfire question + answer deleted
+  - Box Hill FAQ (purpose-built → ideally located)
+  - Box Hill hours paragraph updated
+  - Bateman DFES bushfire FAQ deleted
+  - Bateman hours (6:30-6:30 → 7:00-6:00, Christmas closure removed)
+  - Grantham Farm hours (6:30am → 7:00am, 6:30pm → 6:00pm)
+  - Riverstone hours updated
+
+OPENING HOURS CORRECTED (6:30am/6:30pm → 7:00am/6:00pm)
+  - Grantham Farm daycare (3 instances)
+  - Vineyard daycare (opening hours of 7am / 6pm added)
+  - Preschool Vineyard
+  - Preschool Grantham Farm
+  - Kindergarten Brentwood (7:00am until 6:00pm)
+
+YEAR REFERENCES UPDATED
+  - Riverstone: 2027 → 2026 and 2027 (2 instances)
+  - Mulgrave: 2027 → 2026 and 2027
+  - Preschool Vineyard: 2024 → 2026 and 2027
+  - Preschool Grantham Farm: 2027 → 2026 or 2027 (2 instances)
+  - Bateman: 2024 → 2026/2027
+  - Willetton: 2027 → 2026 and 2027
+
+ENROLMENT FEE REWRITES
+  - Rossmoyne: one-time non-refundable fee → no enrolment fee
+  - Kindergarten Brentwood: waitlist fee → no application fee or bond
+
+UNIVERSITY CLAIMS REMOVED
+  - Oakville: university-developed → qualified teacher-developed
+  - Kindergarten Leeming: government-approved, university-teacher-led
+    → university-teacher-led (further removal in content-review issues)
+
+VINEYARD PAGE REWRITES
+  - "located in Vineyard" → "near Vineyard...unique location"
+  - Contemporary design bullet rewritten
+  - "exceed" → "close by to service"
+  - Subject to availability added to guaranteed places
+  - Opening 7am / closing 6pm times added
+  - FAQ question wording updated
+  - Blacktown City Council reference removed
+  - Bus routes removed from transport sentence
+  - "Brand-new, purpose-built" → "Purpose-built"
+  - "We're not just in Vineyard; we're for Vineyard" removed
+  - Before and After School Care section deleted (Preschool Vineyard)
+  - Modestly sized centre paragraph added
+  - 2024 enrolments → 2026 and 2027
+  - Operating in easy commuting distance to Vineyard
+
+BOX HILL PAGE
+  - Climate control: ducted, air conditioned rooms
+  - Unlimited Stay and Play orientation + settle language
+  - Hours: Monday to Friday, 7am until 6pm added
+
+WHAT TO BRING REWRITES
+  - Vineyard: drink bottle, personal bed sheets, nappies added
+  - Bateman: FAQ rewritten (what to bring / what we provide)
+  - Bateman nappies FAQ question reworded
+
+DFES + CITY OF CANNING REFERENCES REMOVED
+  - Shelley daycare: DFES/City of Canning → City of Melville
+  - Shelley daycare: No Hat No Play → strict Sun Smart guidelines
+  - Shelley daycare: Foreshore Adventures safely FAQ deleted
+  - Shelley daycare: Canning River Kids FAQ deleted
+  - Shelley daycare: riverside safety FAQs deleted (×2)
+  - Shelley daycare: Canning River-specific H2s and bullets rewritten
+  - Kindergarten Leeming: City of Melville and City of Canning → City of Melville only
+  - Kindergarten Bateman: Piney Lakes flora FAQ deleted
+  - Bateman: DFES bushfire plan FAQ deleted
+
+PRESCHOOL NSW PAGES
+  - Preschool Gables: Hills Shire Council DCP → Local DCP
+  - Preschool Grantham: Blacktown City Council → Local City Council
+  - Preschool Grantham: Bachelor and Qualified educators added
+  - Preschool Grantham: 2026 or 2027 school readiness program
+  - Preschool Riverstone: Blacktown City Council → Local Council
+  - Preschool Riverstone: Compliance paragraph updated
+
+KINDERGARTEN LEEMING
+  - H2 "in Leeming" → "in the Leeming Area"
+  - "Operating successfully in Leeming" → "in the Leeming area"
+  - Block away from Kwinana Freeway sentence added
+  - Unlimited settling in sessions note added
+  - Government-Approved Excellence → restructured
+
+KINDERGARTEN ROSSMOYNE
+  - H2 "Our Rossmoyne Centre" → "Our Early Learning Centre near Rossmoyne"
+  - Age range: from 3 years old → from 6 months old
+  - "counting birds on the river" → "counting the things around us"
+
+KINDERGARTEN SHELLEY
+  - "riverside environment is woven into" → "inspires our daily learning"
+  - "government-approved program" → "EYLF under-pinned program"
+  - "academic preparation and riverside exploration go hand in hand"
+    → "academic preparation is a significant area of focus"
+  - "documenting discoveries at Shelley Beach Park" removed
+  - City of Canning → City of Melville
+  - "Canning River Kids" program → "dynamic and flexible program"
+  - "only program specifically designed around Shelley's unique
+    riverside" → "program relevant to our children"
+  - Canning River Kids FAQ deleted
+  - Riverside safety FAQs deleted (×2)
+  - EYLF-based terminology applied throughout
+
+KINDERGARTEN WILLETTON
+  - "not just located in Willetton" → "located near Willetton"
+  - 2027 → 2026 and 2027
+
+KINDERGARTEN BRENTWOOD
+  - "Nestled between" → "Nestled near the Canning River"
+  - "at Blue Gum Lake Reserve" → "inspired by the natural environment"
+  - "garden suburb character championed" → "garden suburb character
+    with plenty"
+  - Regular excursions paragraph → "Children learn about local flora"
+  - Long day care service licensed centre added
+  - Transition Statement FAQ deleted
+  - Bird watching/nature sketching → research local area flora/fauna
+  - No application fee or bond
+  - Extended hours from 7:00am until 6:00pm
+  - Open House Saturdays sentence removed
+
+MULGRAVE PAGE
+  - H2 "Why Choose Our Mulgrave Centre" → rewritten with "near Mulgrave"
+  - 2027 → 2026 and 2027
+
+ROSSMOYNE DAYCARE
+  - H2 "Why Choose Our Rossmoyne Centre" →
+    "Why Choose Our Early Learning Centre near Rossmoyne"
+  - No enrolment fee (removed one-time non-refundable admin fee)
+
+============================================================
+END OF REPORT
+Total changes reviewed: 121
+Applied: 109 | Partial: 9 | Not applied: 3
+============================================================
