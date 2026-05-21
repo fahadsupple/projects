@@ -14,6 +14,7 @@
 - [Keyword Research Master](keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards
 - [FAQ Review](capability_faq_review.md) — count existing FAQs per page, write additions to reach 8, save as text file, tone/style matching rules
 - [Meta Titles & Descriptions](capability_meta_tags.md) — full audit process, title/desc format rules, SERP patterns, suburb/service templates, .txt deliverable format
+- [Audit Review](capability_audit_review.md) — translate SEO audit into quick wins plan, developer requirements doc, client data checklist
 - [Keyword → URL Mapping](capability_keyword_url_mapping.md) — consolidated table format, ecommerce URL logic (category > product > legacy), P/S rules, location pairing, SERP pattern method for secondaries
 
 ## SEO — Keyword Research Rules
