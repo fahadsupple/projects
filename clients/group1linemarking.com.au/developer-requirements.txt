@@ -15,11 +15,10 @@ for the client to action themselves.
 Several tasks in Section F are blocked until we receive data from the
 client authority form. Do not start those items yet.
 
-Total estimated dev time: 25–35 hours across all sections.
 
 ============================================================
 SECTION A — EMERGENCY FIXES
-(Do first. Most take under 15 minutes.)
+(Do first.)
 ============================================================
 
 ------------------------------------------------------------
@@ -28,7 +27,6 @@ CHANGE 1 — Fix wrong SEO title and meta description on
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 15 minutes
 
 The speed-calming-devices page has a copy-paste error — its title
 says "Safety Barriers" even though the page body correctly covers
@@ -61,7 +59,6 @@ CHANGE 2 — Fix postcode typo on Contact page
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 5 minutes
 
 PAGE: https://group1linemarking.com.au/contact-us/
 
@@ -78,7 +75,6 @@ CHANGE 3 — Fix robots.txt Crawl-delay directive
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 5 minutes
 
 The first line of robots.txt is "Crawl-delay: 10" placed before
 any User-agent block — a syntax error that Bing and Yandex honour,
@@ -96,7 +92,6 @@ CHANGE 4 — Remove user-scalable=no from viewport meta tag
 ------------------------------------------------------------
 
 Priority: LOW (quick — do while in the theme)
-Estimated time: 5 minutes
 
 FILE: header.php (theme root)
 
@@ -115,7 +110,6 @@ CHANGE 5 — Add H1 to three pages that have none
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 30 minutes
 
 Three pages have zero H1 in the live HTML.
 
@@ -153,7 +147,6 @@ CHANGE 6 — Fix 4xx broken internal link
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 30 minutes
 
 A 404 URL is linked somewhere in the site content:
   https://group1linemarking.com.au/services/bollards/bollardsGoldCoast
@@ -174,7 +167,6 @@ CHANGE 7 — Fix duplicate URL slug for Browns Plains
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 15 minutes
 
 Two URLs exist and both return 200 with identical H1:
   https://group1linemarking.com.au/areas-we-serve/plains/         (non-canonical — remove)
@@ -192,7 +184,6 @@ CHANGE 8 — Fix homepage H1 (duplicate "Sydney" + brand name)
 ------------------------------------------------------------
 
 Priority: LOW
-Estimated time: 5 minutes
 
 PAGE: https://group1linemarking.com.au/ (homepage)
 
@@ -212,7 +203,6 @@ CHANGE 9 — Remove duplicate BreadcrumbList JSON-LD
 ------------------------------------------------------------
 
 Priority: LOW
-Estimated time: 15 minutes
 
 Every service and location page outputs two BreadcrumbList JSON-LD
 blocks — one from Yoast and one from the theme. This causes Rich
@@ -232,7 +222,6 @@ CHANGE 10 — Fix stale sitemap lastmod dates
 ------------------------------------------------------------
 
 Priority: LOW
-Estimated time: 30 minutes
 
 product-sitemap.xml and product_cat-sitemap.xml both show lastmod
 2022-05-24 — 4 years old. Force a sitemap regeneration.
@@ -245,7 +234,6 @@ Verify at:
   https://group1linemarking.com.au/product-sitemap.xml
 Confirm <lastmod> now shows a 2025 or 2026 date.
 
-
 ============================================================
 SECTION B — ANALYTICS, TRACKING AND TECHNICAL
 ============================================================
@@ -255,7 +243,6 @@ CHANGE 11 — Fix GA4 analytics not firing on the site
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 1–2 hours
 
 The audit confirmed zero analytics requests fire on page load.
 GA4 property 372156627 is declared in the config but the tag
@@ -282,7 +269,6 @@ CHANGE 12 — Create and submit a disavow file via GSC
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 30 minutes
 
 The audit identified a domain linking to the site with anchor text
 explicitly saying "PBN links delivered":
@@ -316,7 +302,6 @@ CHANGE 13 — Investigate and disable partner-site popup redirects
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 1–3 hours (investigation time varies)
 
 Scrolling or clicking on any page opens new browser tabs to:
   linemarkingaustralia.com.au
@@ -343,7 +328,6 @@ CHANGE 14 — Fix slow-loading location page template
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 4–6 hours
 
 28 area-service pages load above 2,500ms (worst:
 https://group1linemarking.com.au/areas-we-serve/spotswood/parking-safety-products/ at 2,648ms).
@@ -369,7 +353,6 @@ width/height attributes, add loading="lazy" to below-fold images.
 Apply the fix to the shared location-page template — this will lift
 all 28 flagged pages and likely all 231 location pages at once.
 
-
 ============================================================
 SECTION C — PHONE, NAP AND META FIXES
 ============================================================
@@ -380,7 +363,6 @@ CHANGE 15 — Fix corrupt phone link on speed-calming-devices
 ------------------------------------------------------------
 
 Priority: CRITICAL
-Estimated time: 1–2 hours
 
 PAGE: https://group1linemarking.com.au/services/speed-calming-devices/
 The third phone link has display text "1300 816 411" but the href is:
@@ -404,7 +386,6 @@ CHANGE 16 — Standardise phone number across all meta
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 1–2 hours
 
 Meta descriptions across the site use three different numbers:
   0414 153 837 (mobile)
@@ -425,7 +406,6 @@ CHANGE 17 — Add disclosure language to QLD addresses on
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 30 minutes
 
 PAGE: https://group1linemarking.com.au/contact-us/
 
@@ -451,7 +431,6 @@ Note: If the client confirms these are staffed offices (being
 confirmed via authority form), update the text to reflect their
 opening hours instead.
 
-
 ============================================================
 SECTION D — TITLES, META DESCRIPTIONS AND H1 FIXES
 (Systematic — can be completed in one focused session)
@@ -463,7 +442,6 @@ CHANGE 18 — Fix WooCommerce "Archives" titles on product
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 1 hour
 
 All 7 product-category pages use the WooCommerce default title
 format: "[Category] Archives ▷ Free Quote - 24/7 | Group One
@@ -510,7 +488,6 @@ CHANGE 19 — Change the global title suffix (fixes 52 pages)
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 30 minutes (template change) + 2–3 hours
                 (manual top-page rewrites)
 
 52 pages have titles over 60 characters because the template
@@ -563,7 +540,6 @@ CHANGE 20 — Add meta descriptions to 29 pages that have none
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 2–3 hours
 
 29 pages have no meta description. Google synthesises random
 snippets for them, hurting CTR.
@@ -618,7 +594,6 @@ CHANGE 21 — Shorten 18 meta descriptions that are too long
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 1–2 hours
 
 18 pages have meta descriptions over 155 characters. Google
 truncates them in SERP, hiding the phone number and CTA.
@@ -677,7 +652,6 @@ CHANGE 22 — Rewrite 14 duplicate product meta descriptions
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 1–2 hours
 
 14 WooCommerce product variant pages share identical meta
 descriptions:
@@ -715,7 +689,6 @@ CHANGE 23 — Fix 24 pages with duplicate H1s
 ------------------------------------------------------------
 
 Priority: HIGH
-Estimated time: 3–5 hours (template change recommended)
 
 17 suburb sub-service pages have H1 set to only the suburb name.
 For example: https://group1linemarking.com.au/areas-we-serve/mackay/bollards/ has H1 "Mackay"
@@ -760,7 +733,6 @@ name. Check one page visually before pushing the template change
 to confirm the H1 doesn't overflow or wrap oddly in the hero area
 on mobile.
 
-
 ============================================================
 SECTION D — SCHEMA IMPLEMENTATION
 (Developer task — requires PHP/JSON-LD knowledge)
@@ -772,7 +744,6 @@ CHANGE 24 — Implement LocalBusiness JSON-LD site-wide and
 ------------------------------------------------------------
 
 Priority: CRITICAL (this is the #1 ranking unlock)
-Estimated time: 3–5 hours
 
 Every page currently emits a CreativeWorkSeries JSON-LD block
 with an AggregateRating inside it. CreativeWorkSeries is for
@@ -939,7 +910,6 @@ CHANGE 25 — Add FAQPage schema and FAQ section to homepage
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 2–3 hours (5 pages)
 
 The site has zero FAQ content or FAQPage schema. A direct
 competitor (linemarkingaustralia.com.au) uses FAQPage schema on
@@ -1043,7 +1013,6 @@ questions. Service-specific FAQ copy will be provided separately.
 
 Validate each page at https://search.google.com/test/rich-results
 
-
 ============================================================
 SECTION E — INTERNAL LINKING
 ============================================================
@@ -1053,7 +1022,6 @@ CHANGE 26 — Add Related Products to service pages
 ------------------------------------------------------------
 
 Priority: MEDIUM
-Estimated time: 2–3 hours
 
 52 WooCommerce product pages each have only 1 internal link
 (from their parent category page). Products receive almost no
@@ -1093,7 +1061,6 @@ CHANGE 27 — Fix 2 internal links to pagination redirects
 ------------------------------------------------------------
 
 Priority: LOW
-Estimated time: 30 minutes
 
 Two internal links on the site point to pagination URLs that redirect:
   https://group1linemarking.com.au/product-category/bollards/page/2/ → redirects
@@ -1103,7 +1070,6 @@ Find the source pages linking to these URLs (likely a navigation
 menu, related-products block, or custom shortcode) and update the
 links to point to the canonical destination URLs, skipping the
 redirect hop.
-
 
 ============================================================
 SECTION F — CLIENT TO ACTION (NOT DEVELOPER TASKS)
@@ -1172,7 +1138,6 @@ Please forward this list to the client.
     australia.chamberofcommerce.com — update review count
     mapquest.com — add "17/" unit prefix to address
 
-
 ============================================================
 SECTION G — BLOCKED — AWAITING CLIENT DATA
 ============================================================
@@ -1215,52 +1180,51 @@ our follow-up questions. Do not action these yet.
   Strategy (rewrite vs redirect vs new GBPs) depends on whether
   the client genuinely services those states. Awaiting answer.
 
-
 ============================================================
 SUMMARY TABLE
 ============================================================
 
-  #   Change                                    Time      Who
-  --  ----------------------------------------  --------  ----------
+  #   Change                                    Who
+  --  ----------------------------------------  ----------
   A — EMERGENCY FIXES
-   1  Fix speed-calming-devices title + meta     15 min    Developer
-   2  Fix postcode typo on contact page          5 min     Developer
-   3  Fix robots.txt Crawl-delay line            5 min     Developer
-   4  Remove user-scalable=no from viewport      5 min     Developer
-   5  Add H1 to 3 missing pages                  30 min    Developer
-   6  Fix 4xx broken internal link               30 min    Developer
-   7  301 redirect /plains/ → /browns-plains/    15 min    Developer
-   8  Fix homepage H1 text                       5 min     Developer
-   9  Remove duplicate BreadcrumbList schema     15 min    Developer
-  10  Fix stale sitemap lastmod                  30 min    Developer
+   1  Fix speed-calming-devices title + meta     Developer
+   2  Fix postcode typo on contact page          Developer
+   3  Fix robots.txt Crawl-delay line            Developer
+   4  Remove user-scalable=no from viewport      Developer
+   5  Add H1 to 3 missing pages                  Developer
+   6  Fix 4xx broken internal link               Developer
+   7  301 redirect /plains/ → /browns-plains/    Developer
+   8  Fix homepage H1 text                       Developer
+   9  Remove duplicate BreadcrumbList schema     Developer
+  10  Fix stale sitemap lastmod                  Developer
 
   B — ANALYTICS + TECHNICAL
-  11  Fix GA4 not firing                         1–2 hrs   Developer
-  12  Create + submit disavow file via GSC       30 min    Developer
-  13  Investigate + disable competitor popups    1–3 hrs   Developer
-  14  Fix slow location page template            4–6 hrs   Developer
+  11  Fix GA4 not firing                         Developer
+  12  Create + submit disavow file via GSC       Developer
+  13  Investigate + disable competitor popups    Developer
+  14  Fix slow location page template            Developer
 
   C — PHONE + NAP
-  15  Fix corrupt tel: href on speed pages       1–2 hrs   Developer
-  16  Standardise phone in meta descriptions     1–2 hrs   Developer
-  17  Add disclosure language to QLD contacts    30 min    Developer
+  15  Fix corrupt tel: href on speed pages       Developer
+  16  Standardise phone in meta descriptions     Developer
+  17  Add disclosure language to QLD contacts    Developer
 
   D — TITLES + META + H1
-  18  Fix WooCommerce Archives titles            1 hr      Developer
-  19  Change global title suffix (52 pages)      30 min + 2 hrs  Dev
-  20  Add meta to 29 pages with none             2–3 hrs   Developer
-  21  Shorten 18 long meta descriptions          1–2 hrs   Developer
-  22  Rewrite 14 duplicate product metas         1–2 hrs   Developer
-  23  Fix 24 duplicate H1s                       3–5 hrs   Developer
+  18  Fix WooCommerce Archives titles            Developer
+  19  Change global title suffix (52 pages)      Developer
+  20  Add meta to 29 pages with none             Developer
+  21  Shorten 18 long meta descriptions          Developer
+  22  Rewrite 14 duplicate product metas         Developer
+  23  Fix 24 duplicate H1s                       Developer
 
   SCHEMA
-  24  LocalBusiness JSON-LD + remove misused     3–5 hrs   Developer
+  24  LocalBusiness JSON-LD + remove misused     Developer
       CreativeWorkSeries schema
-  25  FAQPage schema + FAQ sections (5 pages)    2–3 hrs   Developer
+  25  FAQPage schema + FAQ sections (5 pages)    Developer
 
   INTERNAL LINKING
-  26  Related Products on service pages          2–3 hrs   Developer
-  27  Fix 2 pagination redirect links            30 min    Developer
+  26  Related Products on service pages          Developer
+  27  Fix 2 pagination redirect links            Developer
 
   E — CLIENT TO ACTION (GBP + directories)
       Upload GBP photos                          Client
@@ -1278,13 +1242,8 @@ SUMMARY TABLE
       Directory citations                        Blocked
       VIC/QLD location page strategy             Blocked
 
-  -----------------------------------------------
-  TOTAL DEVELOPER TIME: approximately 25–35 hours
-  -----------------------------------------------
-
-NOTE: Changes 1–10 (Section A) can be completed in under 2 hours
-and should be done before anything else. They are causing active
-ranking and trust damage right now.
+NOTE: Changes 1–10 (Section A) should be done before anything else.
+They are causing active ranking and trust damage right now.
 
 ============================================================
 END OF DOCUMENT
