@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Wins Action Plan — group1linemarking.com.au</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --bg2: #161b22;
+  --bg3: #21262d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --dim: #656d76;
+  --border: #30363d;
+  --accent: #58a6ff;
+  --red: #f85149;
+  --orange: #d29922;
+  --yellow: #e3b341;
+  --green: #3fb950;
+  --purple: #bc8cff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 40px 48px; max-width: 1080px; margin: 0 auto; }
+h1 { font-size: 30px; font-weight: 800; margin-bottom: 6px; }
+h2 { font-size: 20px; font-weight: 700; margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+h3 { font-size: 15px; font-weight: 700; margin-bottom: 2px; color: var(--text); }
+p { margin: 6px 0; color: var(--muted); font-size: 14px; }
+.meta { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+.batch-header {
+  display: flex; align-items: center; gap: 12px; margin: 36px 0 4px;
+}
+.batch-tag {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px;
+  padding: 3px 10px; border-radius: 12px;
+}
+.b1 { background: #1c3a1f; color: #3fb950; border: 1px solid #3fb950; }
+.b2 { background: #2d2200; color: #e3b341; border: 1px solid #e3b341; }
+.b3 { background: #2d1b00; color: #d29922; border: 1px solid #d29922; }
+.b4 { background: #1f0f0f; color: #f85149; border: 1px solid #f85149; }
+.b5 { background: #1a1130; color: #bc8cff; border: 1px solid #bc8cff; }
+.batch-subtitle { font-size: 13px; color: var(--muted); }
+.items { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.item {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  gap: 12px;
+  align-items: start;
+}
+.item-id {
+  font-size: 11px; font-weight: 700; font-family: monospace;
+  color: var(--accent); padding-top: 2px;
+}
+.item-body { min-width: 0; }
+.item-effort {
+  font-size: 11px; font-weight: 600; white-space: nowrap;
+  padding: 2px 8px; border-radius: 6px; margin-top: 2px;
+}
+.effort-very-low { background: #1c3a1f; color: #3fb950; }
+.effort-low { background: #1a2d1a; color: #55cc66; }
+.effort-medium { background: #2d2200; color: #e3b341; }
+.effort-high { background: #2d1b00; color: #d29922; }
+.effort-very-high { background: #1f0f0f; color: #f85149; }
+.badge { font-size: 10px; font-weight: 600; padding: 1px 6px; border-radius: 4px; display: inline-block; margin-right: 4px; margin-bottom: 4px; }
+.crit { background: #f8514933; color: #f85149; border: 1px solid #f85149; }
+.high { background: #d2992233; color: #d29922; border: 1px solid #d29922; }
+.med { background: #58a6ff22; color: #58a6ff; border: 1px solid #58a6ff; }
+.low { background: #3fb95022; color: #3fb950; border: 1px solid #3fb950; }
+.context { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.fix { font-size: 13px; color: #7ec8e3; margin-top: 4px; }
+.fix strong { color: #b8e0ed; }
+.summary-bar {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  text-align: center;
+}
+.summary-stat { }
+.summary-stat .num { font-size: 28px; font-weight: 800; }
+.summary-stat .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.n-crit { color: #f85149; }
+.n-b1 { color: #3fb950; }
+.n-b2 { color: #e3b341; }
+.n-b3 { color: #d29922; }
+.n-b4 { color: #f85149; }
+.note-box {
+  background: #1c2333; border: 1px solid #2d3a52; border-radius: 8px;
+  padding: 14px 18px; margin-bottom: 18px; font-size: 13px; color: #8b9ec4;
+}
+.note-box strong { color: #a8bfe0; }
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+</style>
+</head>
+<body>
+
+<h1>Quick Wins Action Plan</h1>
+<p class="meta">Site: group1linemarking.com.au &nbsp;·&nbsp; Based on Hardy's full SEO audit (2026-05-12) &nbsp;·&nbsp; Prepared: 2026-05-21</p>
+
+<div class="summary-bar">
+  <div class="summary-stat"><div class="num n-b1">10</div><div class="lbl">Batch 1 items<br>(today)</div></div>
+  <div class="summary-stat"><div class="num n-b2">10</div><div class="lbl">Batch 2 items<br>(this week)</div></div>
+  <div class="summary-stat"><div class="num n-b3">12</div><div class="lbl">Batch 3 items<br>(weeks 2–4)</div></div>
+  <div class="summary-stat"><div class="num n-b4">8</div><div class="lbl">Batch 4 items<br>(month 1–3)</div></div>
+  <div class="summary-stat"><div class="num" style="color:#bc8cff">7</div><div class="lbl">Batch 5 items<br>(ongoing)</div></div>
+</div>
+
+<div class="note-box">
+  <strong>Overall Health Score: 15/100 (Critical)</strong> — The site has a solid technical foundation (SE Ranking 79/100, mobile CWV passing) but is being commercially suppressed by missing entity schema, geographic mis-targeting (Melbourne content on Sydney pages), 22 Critical issues, and complete absence from the Local Pack on every head-term query. Fixing the Batch 1 items alone costs &lt;3 hours and repairs active SERP damage. Batches 1–3 together can move the needle within 30–60 days.
+</div>
+
+
+<!-- ===================== BATCH 1 ===================== -->
+<div class="batch-header">
+  <span class="batch-tag b1">Batch 1</span>
+  <span class="batch-subtitle">Emergency fixes — do today. Under 3 hours total. Each one repairs active damage.</span>
+</div>
+
+<div class="items">
+
+  <div class="item">
+    <div class="item-id">TITLE-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Fix wrong title on /services/speed-calming-devices/</h3>
+      <p class="context">Page is literally titled "Safety Barriers Sydney" with a safety-barriers meta — but the page is about speed humps. Ranking pos 35 for "speed humps sydney" (30/mo) and getting zero clicks because the SERP snippet says "Safety Barriers."</p>
+      <p class="fix"><strong>Fix:</strong> In WP → Yoast → open Speed Calming Devices page. Change SEO title to: <em>Speed Humps Sydney | Speed Calming Devices | Group One</em> (~54 chars). Change meta to: <em>Group One installs speed humps, cushions and traffic calming devices across Sydney. Reduce car park speeds today. Call 1300 816 411.</em> Flush cache.</p>
+    </div>
+    <div class="item-effort effort-very-low">15 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">NAP-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Fix postcode typo on Jubilee Pocket QLD address</h3>
+      <p class="context">Contact page shows "29 Moonlight Drive, Jubilee Pocket, Qld <strong>49802</strong>" — 5-digit postcode. Australian postcodes are 4 digits. Google has indexed this typo. Breaks entity resolution for QLD location pages and all QLD citation efforts.</p>
+      <p class="fix"><strong>Fix:</strong> Edit /contact-us/ page in WordPress. Change <code>49802</code> → <code>4802</code>. Also check any /areas-we-serve/jubilee-pocket/ sub-pages for the same typo. Submit contact-us to GSC for re-index.</p>
+    </div>
+    <div class="item-effort effort-very-low">15 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-009<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Fix robots.txt orphan Crawl-delay directive</h3>
+      <p class="context">The very first line of robots.txt is <code>Crawl-delay: 10</code> — before any User-agent block. This is a syntax error. Bing and Yandex honour it and may be throttled to 1 request/10 seconds. Audit tools flag it as an error.</p>
+      <p class="fix"><strong>Fix:</strong> In WP Admin → Yoast → Tools → File editor (or FTP), delete the single line <code>Crawl-delay: 10</code>. Save. Done.</p>
+    </div>
+    <div class="item-effort effort-very-low">5 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ONPAGE-004<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Remove user-scalable=no from viewport meta tag</h3>
+      <p class="context">Every page has <code>width=device-width, initial-scale=1.0, user-scalable=no</code> — blocking pinch-zoom on mobile. WCAG 2.1 violation, flagged in Lighthouse accessibility score (80/100). Single template fix.</p>
+      <p class="fix"><strong>Fix:</strong> In theme <code>header.php</code> or Theme Options, remove <code>user-scalable=no</code> from the viewport meta. This is a one-line change affecting all 317 pages.</p>
+    </div>
+    <div class="item-effort effort-very-low">15 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">H1-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Add H1 to 3 pages missing it entirely</h3>
+      <p class="context">3 pages have zero H1: (1) /areas-we-serve/ hub — a 171-page navigation hub with 33 sessions/90d and no H1. (2) /areas-we-serve/gold-coast/speed-humps/ — ranked pos 18-19. (3) /areas-we-serve/brisbane/speed-humps/ — ranked pos 18-19. H1 is the strongest on-page signal. Its absence kills topical relevance.</p>
+      <p class="fix"><strong>Fix:</strong> Open each page in WP page builder. Add:<br>
+      • /areas-we-serve/ → H1: "Service Areas Across Sydney, Brisbane, Gold Coast &amp; Melbourne"<br>
+      • /gold-coast/speed-humps/ → H1: "Speed Humps Gold Coast"<br>
+      • /brisbane/speed-humps/ → H1: "Speed Humps Brisbane"<br>
+      Flush cache. Verify in Inspect Element.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Fix 4xx broken internal link to /services/bollards/bollardsGoldCoast</h3>
+      <p class="context">One internally-linked URL returns 404: <code>https://group1linemarking.com.au/services/bollards/bollardsGoldCoast</code>. This URL exists somewhere in the site content as a link. Wastes crawl budget and creates a 404 error in SE Ranking.</p>
+      <p class="fix"><strong>Fix:</strong> Search WP for "bollardsGoldCoast" (use WP Search or database search via phpMyAdmin/Adminer). Find the source link and update it to <code>/areas-we-serve/gold-coast/bollards/</code>. Alternatively, set up a 301 redirect from the broken URL to the correct Gold Coast bollards page.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ENTITY-003<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Check Knowledge Panel for "Group One Line Marking"</h3>
+      <p class="context">The audit could not verify the Google Knowledge Panel due to bot-blocking. Needs a manual check — takes 2 minutes, gives us a baseline of what Google currently knows about the entity.</p>
+      <p class="fix"><strong>Fix:</strong> Open Chrome Incognito → search "Group One Line Marking" → screenshot the Knowledge Panel. Check: Is the address correct? Is the phone number the 0414 or 1300? Does the website link show? Are there social profile links? Are photos showing? Flag any discrepancies for Batch 2.</p>
+    </div>
+    <div class="item-effort effort-very-low">10 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">GBP-002<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Populate GBP service area field with 30–50 Sydney suburbs</h3>
+      <p class="context">It's unknown whether the service_area field is populated at all. For a Sydney-metro business with a single GBP in Miranda (22km south of CBD), this is the #1 cheapest lever to expand local-pack candidate eligibility across Sydney. Takes 30 minutes.</p>
+      <p class="fix"><strong>Fix:</strong> Log into Google Business Profile → Info → Service Area. Add all suburbs the business services: include all 22 suburbs that have /areas-we-serve/ pages (Fairfield, Penrith, Ingleburn, Huntingwood, Sutherland Shire, Caringbah, Cronulla, Engadine, etc.) + inner Sydney suburbs. Save. Allow 24–48 hours to propagate.</p>
+    </div>
+    <div class="item-effort effort-very-low">30–60 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">GBP-005<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Respond to all 29 existing GBP reviews</h3>
+      <p class="context">No evidence of owner responses to any reviews. Owner replies are a Google-visible engagement signal AND a trust signal for potential customers. The business has a perfect 5.0/5 rating — make the most of it.</p>
+      <p class="fix"><strong>Fix:</strong> Log into GBP → Reviews. Write a personalised response to each of the 29 reviews. Format: thank them by first name, mention the specific service, restate the 1300 number. Going forward: respond within 24 hours to every new review.</p>
+    </div>
+    <div class="item-effort effort-low">1–2 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">GBP-001<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Upload 10+ project photos to GBP (currently only 7)</h3>
+      <p class="context">GBP has only 7 photos vs the recommended 10+ minimum. Photo richness correlates with map-pack CTR and local-pack ranking. This is also directly paired with the gallery captioning work (Batch 5) — use the same photos.</p>
+      <p class="fix"><strong>Fix:</strong> Upload 10–15 photos to GBP covering: 4–5 line-marking project completions (car park, warehouse, school, retail), 1–2 crew/team photos (named individuals), 2–3 equipment shots (paint trolley, safety gear), 1 logo, 1 Miranda depot exterior. Add a caption to every photo in GBP.</p>
+    </div>
+    <div class="item-effort effort-low">2–3 hrs</div>
+  </div>
+
+</div>
+
+
+<!-- ===================== BATCH 2 ===================== -->
+<div class="batch-header">
+  <span class="batch-tag b2">Batch 2</span>
+  <span class="batch-subtitle">High-leverage hygiene fixes — complete within days 2–7. Est. 1 full work day total.</span>
+</div>
+
+<div class="items">
+
+  <div class="item">
+    <div class="item-id">TECH-011<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Fix GA4 / analytics not firing on the site</h3>
+      <p class="context">Zero analytics requests fire on page load. GA4 is declared in the config but completely non-functional. The audit had to rely entirely on GSC for traffic data. The business cannot measure conversions or campaign ROI without this.</p>
+      <p class="fix"><strong>Fix:</strong> Check WP Admin for analytics plugin (Site Kit by Google, MonsterInsights, GTM4WP). If using GTM: check that the container is published and the GA4 tag is active. Check whether a Consent Manager (CookieYes, Cookiebot) is blocking analytics by default. Verify with Google Tag Assistant after fix. Re-test with Playwright or Tag Inspector.</p>
+    </div>
+    <div class="item-effort effort-low">1–2 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ANCHOR-002<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Disavow seobacklinks.agency (PBN link evidence)</h3>
+      <p class="context">A domain called seobacklinks.agency links to group1linemarking.com.au with anchor text that literally reads "PBN links delivered." This is explicit evidence of paid link contact. Must be disavowed before any future link-building begins.</p>
+      <p class="fix"><strong>Fix:</strong> Go to Google Search Console → Links → Top linking sites → verify seobacklinks.agency is listed. Create/update a disavow file including this domain. Submit via GSC Disavow Tool. Also cross-check URL shorteners flagged in audit: anchorurl.cloud, shortenurls.eu, bye.fyi, jake.eu, screenshots.wiki, buzzshrink.website, urls-shortener.eu, quero.party — add any that appear in Group 1's backlink profile.</p>
+    </div>
+    <div class="item-effort effort-very-low">15–30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">NAP-002<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Fix corrupt tel: href (+614142015320837) on speed-calming-devices template</h3>
+      <p class="context">One of the three phone links on /services/speed-calming-devices/ has a garbled href: <code>tel:+614142015320837</code>. Mobile users clicking that CTA get a "number not recognised" error. Pattern likely extends to other speed-related pages.</p>
+      <p class="fix"><strong>Fix:</strong> Search the WP database/source for <code>+614142015320837</code> (and variations). Find the theme shortcode or page-builder block generating the corrupt link. Replace with <code>tel:1300816411</code>. Run sitewide grep after fix to confirm no other instances. Validate via mobile browser click test.</p>
+    </div>
+    <div class="item-effort effort-low">1–2 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">META-004<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Standardise phone number across all meta descriptions</h3>
+      <p class="context">Meta descriptions across the site use a mix of 0414 153 837 (mobile) and 1300 816 411 (1300 number). Two pages have a typo: "0414 153 937" — a non-existent number reaching SERP. NAP inconsistency hurts local SEO citation matching.</p>
+      <p class="fix"><strong>Fix:</strong> Step 1 — Decide canonical phone (recommend 1300 816 411 as the primary, 0414 as secondary). Step 2 — In Yoast, do a bulk-search of meta descriptions and update all to use the canonical number. Step 3 — Find and fix typo "0414 153 937" → "0414 153 837" in all page content and meta. Step 4 — Update GBP primary phone to match (see NAP-004 below).</p>
+    </div>
+    <div class="item-effort effort-low">1–2 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TITLE-003<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Fix WooCommerce "Archives" titles on 7 product-category pages</h3>
+      <p class="context">All 7 product-category pages are titled "{Category} Archives ▷ Free Quote - 24/7 | Group One Line Marking." The word "Archives" is a CMS default that reads as a developer error in SERP. /product-category/bollards/ gets 46 sessions/90d. Quick Yoast template change fixes all 7 at once.</p>
+      <p class="fix"><strong>Fix:</strong> In Yoast → Search Appearance → Taxonomies → Product Category → change the Title template from <code>%%term_title%% Archives %%sep%% %%sitename%%</code> to <code>%%term_title%% Sydney | Group One Line Marking</code>. Then manually override the top 3 (bollards, wheel-stops, speed-calming-devices) with optimised titles like "Safety Bollards Sydney — Full Range | Group One".</p>
+    </div>
+    <div class="item-effort effort-low">1 hr</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ONPAGE-002<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Fix duplicate URL slug — /areas-we-serve/plains/ and /areas-we-serve/browns-plains/</h3>
+      <p class="context">Two separate URLs exist, both returning 200, both with H1 "Line Marking Browns Plains." Classic URL-slug error — "plains" is a malformed version of "browns-plains." Creates duplicate content and split link equity.</p>
+      <p class="fix"><strong>Fix:</strong> In WordPress, set up a 301 redirect from <code>/areas-we-serve/plains/</code> to <code>/areas-we-serve/browns-plains/</code>. Find any internal links pointing to /plains/ and update them to /browns-plains/. Verify in GSC that /plains/ returns 301.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">SCHEMA-004<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Remove duplicate BreadcrumbList JSON-LD on service and location pages</h3>
+      <p class="context">Service pages and location pages emit two separate BreadcrumbList blocks — one from Yoast, one from the theme. 15 service + 231 location pages affected. Adds page weight, can trigger Rich Results Test warnings.</p>
+      <p class="fix"><strong>Fix:</strong> Go to WP Customizer → Theme Options → SEO or Breadcrumbs section. Disable the theme's own breadcrumb JSON-LD (leave Yoast as the single source). Verify with Google Rich Results Test on a service page post-fix.</p>
+    </div>
+    <div class="item-effort effort-very-low">15 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-010<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Fix stale &lt;lastmod&gt; on product/product_cat sitemaps (stuck at 2022)</h3>
+      <p class="context">product-sitemap.xml and product_cat-sitemap.xml both show lastmod 2022-05-24. Google deprioritises crawling URLs it thinks haven't changed in 4+ years. The page-sitemap.xml correctly shows 2025-11-12.</p>
+      <p class="fix"><strong>Fix:</strong> WP Admin → Yoast → Tools → File editor → regenerate sitemap. If lastmod still shows 2022, run <code>wp cron event run wpseo_onpage_fetch</code> via WP-CLI, or flush permalinks (Settings → Permalinks → Save). Manually edit and save any one product to trigger a lastmod update. Confirm in sitemap after.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TITLE-004<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Fix keyword-stuffed homepage H1</h3>
+      <p class="context">Current H1: "Industry-Leading Line Marking in Sydney by Group One Line Marking Sydney" — "Sydney" appears twice and the brand name is repeated. 72 characters of clunky H1. Mild over-optimisation signal.</p>
+      <p class="fix"><strong>Fix:</strong> Edit homepage in WP page builder. Change H1 to: <em>Industry-Leading Line Marking in Sydney by Group One</em> (60 chars, clean, one Sydney mention). Flush cache.</p>
+    </div>
+    <div class="item-effort effort-very-low">15 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ONPAGE-003<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Investigate and stop JS popup redirects to partner brand sites</h3>
+      <p class="context">Live testing found that user events (scroll, click) trigger automatic new browser tabs opening to linemarkingaustralia.com.au, linemarkers.com.au, safetyxpress.com.au — all competitors. This pogo-sticking is a conversion killer and a Google UX signal. Mechanism: a delayed JS plugin or theme module (not WP Rocket itself).</p>
+      <p class="fix"><strong>Fix:</strong> Audit active WP plugins. Disable them one by one in a staging environment and reproduce the popup behaviour. Identify the guilty plugin (likely a "related brands" or affiliate widget). If intentional cross-promotion — move to a non-invasive footer widget only. If unintentional — disable immediately. Verify with a fresh Playwright or browser incognito session post-fix.</p>
+    </div>
+    <div class="item-effort effort-low">1–3 hrs</div>
+  </div>
+
+</div>
+
+
+<!-- ===================== BATCH 3 ===================== -->
+<div class="batch-header">
+  <span class="batch-tag b3">Batch 3</span>
+  <span class="batch-subtitle">On-page systematic fixes — weeks 2–4. These need a dedicated block of time per task but are mostly template-level changes that update hundreds of pages at once.</span>
+</div>
+
+<div class="items">
+
+  <div class="item">
+    <div class="item-id">TITLE-002<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Shorten title template suffix — fix 52 pages with titles over 60 chars</h3>
+      <p class="context">The template suffix "▷ Free Quote - 24/7 | Group One Line Marking" (44 chars) pushes 52 page titles over the 60-char SERP limit. Worst offender: /areas-we-serve/huntingwood/ at 98 chars. Truncated titles lose CTR. /services/line-marking/ has 7,188 impressions and 0.04% CTR — this is a contributor.</p>
+      <p class="fix"><strong>Fix:</strong> In Yoast → Search Appearance → Content Types → change the global Title template suffix from the long version to "| Group One" (12 chars). Then manually rewrite the top service pages with the format: <em>{Service} {City} | Group One Line Marking</em> (~50–55 chars). For area pages: <em>{Service} {Suburb} | Group One</em> (~40–50 chars). This single template change alone fixes ~70% of the 52 over-long titles.</p>
+    </div>
+    <div class="item-effort effort-medium">3–5 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">META-001<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Write meta descriptions for 29 pages missing them</h3>
+      <p class="context">29 pages have no meta description: all 7 product-category pages, 21 product pages, 1 location page (/areas-we-serve/browns-plains/). Google synthesises low-quality random snippets for them. /product-category/bollards/ gets 46 sessions/90d — it deserves a proper meta.</p>
+      <p class="fix"><strong>Fix:</strong> Priority order: (1) manually write unique metas for the 7 product-category pages (Bollards, Wheel Stops, Speed Calming Devices, Convex Mirrors, Bike Racks, Height Clearance Bars, Products). (2) Set a Yoast template for product pages: <em>{product_title} | Buy from Group One Line Marking — Sydney delivery. Call 1300 816 411.</em> (3) Write for /areas-we-serve/browns-plains/. Pattern: &lt;150 chars, include suburb, service, phone.</p>
+    </div>
+    <div class="item-effort effort-medium">2–4 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">META-003<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Shorten 18 meta descriptions over 155 chars</h3>
+      <p class="context">18 pages have meta descriptions that get truncated in SERP — hiding the phone number and CTA. Worst: /areas-we-serve/fairfield/ at 174 chars (this page ranks #2 for line marking fairfield — could win more clicks with a tighter meta). /services/wheel-stops/ at 166 chars has 7,135 impressions and 0.11% CTR — a tighter meta will improve that.</p>
+      <p class="fix"><strong>Fix:</strong> Pull the full list from SE Ranking or from the audit raw data. Rewrite each to &lt;155 chars using the pattern: <em>{Page topic} in {city} from Group One. {Differentiator}. Call {phone}.</em> Typical: 130–150 chars. Priority: /services/wheel-stops/, /areas-we-serve/fairfield/, /areas-we-serve/, /services/line-marking/.</p>
+    </div>
+    <div class="item-effort effort-low">2 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">META-002<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Rewrite 14 duplicate product meta descriptions</h3>
+      <p class="context">14 WooCommerce product pages share identical meta descriptions: 4 convex mirror variants (450mm/600mm/800mm/1000mm) all share one, ~7 removable bollard variants share one, 3 surface-mount bollard variants share one. Duplicate metas weaken each variant's individual indexability.</p>
+      <p class="fix"><strong>Fix:</strong> For each variant, write a unique meta that highlights the specific size/feature. Example: "Convex Mirror 1000mm — large-area visibility for car parks and loading docks. Steel mounting bracket included. From Group One Line Marking. Call 1300 816 411." If Yoast supports <code>{product_attribute_size}</code>, use it to template variants automatically.</p>
+    </div>
+    <div class="item-effort effort-medium">2–3 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">H1-002<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Fix 24 duplicate H1s — 17 pages use only the suburb name as H1</h3>
+      <p class="context">17 sub-service pages (e.g. /areas-we-serve/mackay/bollards/) have H1 = just "Mackay." Title is correct ("Bollards Mackay") but H1 provides zero service signal. Pages like /townsville/bollards/ have 43% bounce, /rockhampton/bollards/ has 47% — the generic H1 is a UX and ranking drag. Template-level fix updates all at once.</p>
+      <p class="fix"><strong>Fix:</strong> Identify the WordPress page template generating sub-service pages. The H1 field likely pulls from the suburb field only. Update the template to pull {Service} + {Suburb}. Expected format: "Bollards Mackay", "Wheel Stops Townsville", "Concrete Sealing Rockhampton". Affected hubs: Mackay, Townsville, Rockhampton, Emerald, Yeppoon, Whitsunday, Airlie Beach + all Fairfield sub-pages.</p>
+    </div>
+    <div class="item-effort effort-medium">3–5 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">NAP-004<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Align GBP primary phone number with site marketing number</h3>
+      <p class="context">GBP lists 0414 153 837 as the primary phone. The site markets 1300 816 411 as the primary number. This inconsistency breaks NAP matching for Google's local entity resolution. The schema fix (Batch 4) will also need to reference the canonical number.</p>
+      <p class="fix"><strong>Fix:</strong> Log into GBP → Info → Phone. Change primary phone to 1300 816 411. Add 0414 153 837 as the secondary/additional phone number. Align with the decision made in META-004 (both should use the same canonical number).</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CITATION-001<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Build 3 missing directory citations + fix 2 inconsistent ones</h3>
+      <p class="context">Group 1 is missing from truelocal.com.au, yellowpages.com.au, and zumvu.com — all three competitors are listed there. Additionally, australia.chamberofcommerce.com shows stale "10 reviews" (actual: 29) and mapquest.com shows the address without the "17/" unit prefix. Citation coverage is a local-pack ranking signal.</p>
+      <p class="fix"><strong>Fix:</strong> Create free listings on: (1) truelocal.com.au, (2) yellowpages.com.au, (3) zumvu.com. Use canonical NAP: Group One Line Marking / 17/205 Port Hacking Rd, Miranda NSW 2228 / 1300 816 411 / group1linemarking.com.au. Update chamberofcommerce.com to correct the review count. Submit address correction on mapquest.com (add "17/" unit prefix).</p>
+    </div>
+    <div class="item-effort effort-medium">3–4 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">NAP-003<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Clarify QLD address labelling on the contact page</h3>
+      <p class="context">Two QLD addresses are listed on /contact-us/ (Burleigh Waters + Jubilee Pocket) without any GBP backing and without any language clarifying whether these are staffed offices, sales contacts, or mail-only. This creates entity-coherence confusion for Google and conversion-killing expectations for B2B leads.</p>
+      <p class="fix"><strong>Fix:</strong> Edit the contact page QLD address blocks. Add clear disclosure language: e.g., "Queensland Sales Contact: 1/79 Mattocks Road, Burleigh Waters, Qld 4220 — project enquiries via 1300 816 411; on-site service delivered via interstate dispatch." This is a 30-minute copy edit. The larger structural question (do they need QLD GBPs?) is addressed in Batch 4.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-006<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Fix oversized image on /gallery/</h3>
+      <p class="context">SE Ranking flagged 1 image on /gallery/ as too large. Gallery page gets 31 sessions/90d and 84% engagement rate — it's a page users actually visit. Slow loading on a gallery page undermines the E-E-A-T value of the project photos.</p>
+      <p class="fix"><strong>Fix:</strong> Use Lighthouse or PageSpeed Insights on /gallery/ to identify the oversized image. Re-export in WebP format at appropriate dimensions. Re-upload to WP Media Library. Add <code>loading="lazy"</code> if the gallery is below the fold. Use WP plugins like Imagify or ShortPixel for bulk WebP conversion.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">GBP-003<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Launch GBP review velocity workflow — target +8–10 reviews/month</h3>
+      <p class="context">Group 1 is ranked 9th of 10 Sydney line-marking businesses by review count (29 reviews vs leader's 372). To reach Sydney Total Linemarking (67 reviews, 5.0 rating — a direct competitor), they need +38 reviews. At 8–10/month this is achievable in 4–5 months. This is the cheapest single lever to move local-pack positions.</p>
+      <p class="fix"><strong>Fix:</strong> (1) Design a QR-code review card for job handover — link direct to GBP review page. Print 100. (2) Build an automated SMS/email sent 24–48 hours after job completion with the one-tap review link. (3) Brief field staff on the 30-second ask: "If happy, can you leave a quick Google review? Here's a QR — takes 60 seconds." (4) Set internal target of 8–10 new reviews/month. Track monthly.</p>
+    </div>
+    <div class="item-effort effort-medium">4–6 hrs setup</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ENTITY-002<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Decide and enforce a single canonical establishment year</h3>
+      <p class="context">Five different establishment-year narratives exist across the site and directories: "24 years experience" (implies ~2002), "since 2017", "19 years experience" (implies ~2007), "20 years", and the GBP description says "since 2017." These contradictions undermine Google's entity trust scoring.</p>
+      <p class="fix"><strong>Fix:</strong> Confirm the actual founding year with the client. Most defensible framing: "Operating since 2017 as Group One Line Marking (founder with 24+ years of line-marking industry experience)." Then: update homepage hero, About Us, area-page templates, GBP description, and all third-party directory listings to the single canonical narrative. Pair with EEAT-002 fixes (Batch 5).</p>
+    </div>
+    <div class="item-effort effort-medium">4–6 hrs total</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-004<br><span class="badge low">Low</span></div>
+    <div class="item-body">
+      <h3>Update 2 internal links pointing to paginated 3xx URLs</h3>
+      <p class="context">Two internal links point to /product-category/bollards/page/2/ and /page/3/ — which redirect to the canonical category URL. Minor redirect-hop waste. Easy fix once source pages are identified.</p>
+      <p class="fix"><strong>Fix:</strong> Search WP content/menus for the source of links to /product-category/bollards/page/2/ and /page/3/. Update those links to point to the final destination URLs (the canonical /product-category/bollards/ URL with the appropriate ?paged= parameter or direct category URL). Takes 30 minutes once source is located.</p>
+    </div>
+    <div class="item-effort effort-very-low">30 min</div>
+  </div>
+
+</div>
+
+
+<!-- ===================== BATCH 4 ===================== -->
+<div class="batch-header">
+  <span class="batch-tag b4">Batch 4</span>
+  <span class="batch-subtitle">Structural fixes — months 1–3. High complexity but these are the real ranking unlocks. Schema and local presence work should start as soon as Batch 1–2 hygiene is done.</span>
+</div>
+
+<div class="items">
+
+  <div class="item">
+    <div class="item-id">SCHEMA-001 + TRUST-001 + ENTITY-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Implement LocalBusiness JSON-LD schema site-wide (the #1 ranking unlock)</h3>
+      <p class="context">Zero pages on the site carry LocalBusiness or Organization JSON-LD. Every page emits a misused CreativeWorkSeries block with a 5.0/31 AggregateRating — this is schema spam-risk per Google's review-snippet policy. Missing schema blocks Knowledge Panel, local-pack eligibility, and rich-result rendering across 317 pages. This single sprint delivers the most ranking impact of anything in this audit.</p>
+      <p class="fix"><strong>Fix (three steps in one sprint):</strong> (1) Remove the CreativeWorkSeries block from the theme footer/functions.php — this is the misused schema that risks a manual action. (2) Implement a proper LocalBusiness JSON-LD on the homepage with: name, url, telephone (1300 816 411), address (17/205 Port Hacking Rd, Miranda NSW 2228), geo coordinates, areaServed array (list all 30+ Sydney suburbs), openingHours (24/7), aggregateRating (5.0, ratingCount: 29), sameAs array (GBP URL, Facebook, LinkedIn, Chamber of Commerce, Zoominfo). (3) On service pages add Service schema; on location pages add area-scoped Service schema with areaServed suburb. Use Yoast Local SEO add-on or a custom functions.php hook. Validate with Google Rich Results Test.</p>
+    </div>
+    <div class="item-effort effort-medium">2–4 hrs implementation</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CONTENT-002<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Strip Melbourne template content from Sydney service pages</h3>
+      <p class="context">/services/line-marking/ has 21 Melbourne mentions vs 14 Sydney. Homepage has 5 Melbourne H2s vs 2 Sydney. /services/wheel-stops/ has 19 Melbourne vs 11 Sydney. These are Sydney-target pages — Melbourne content dilutes topical signals and is likely the main reason /services/line-marking/ is stuck at pos 31 for "line marking sydney" (320/mo) despite 2,371 words of content. This is the biggest single content fix available.</p>
+      <p class="fix"><strong>Fix:</strong> Audit all 15 service pages for Melbourne mention count vs target city. For each Sydney-target page: replace Melbourne H2s with Sydney equivalents or rewrite generically ("Why Choose Group One for Wheel Stops?"). Keep Melbourne content ONLY if Melbourne is a real, separate service page. Create separate Melbourne service landing pages only if the business genuinely services Melbourne. Priority order: line-marking, wheel-stops, bollards, speed-calming-devices, concrete-sealer. Budget 1–2 hours per service page for audit + rewrite.</p>
+    </div>
+    <div class="item-effort effort-high">12–20 hrs total</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">LOCAL-004 + LOCAL-005<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Decide VIC/QLD presence — GBPs or redirects</h3>
+      <p class="context">21 VIC and 23 QLD location hub pages exist with zero GBP backing in those states. These pages carry programmatic content (HCU risk) and deliver no Local Pack presence in Melbourne or Brisbane. Two QLD addresses are advertised on the contact page without GBP verification — a misrepresentation risk. Group 1 is absent from ALL 7 local-pack-triggering Tier 1 queries. This is the biggest commercial unlock.</p>
+      <p class="fix"><strong>Decision required from client:</strong> Option A (genuine presence): Establish Melbourne and Brisbane GBPs with real staffed addresses (a serviced office is acceptable). Populate with project photos and begin building reviews. Keep location hubs, rewrite with local evidence. Option B (NSW-only honest framing): 301-redirect the 44 VIC/QLD hubs to parent service pages. Remove QLD addresses from contact page. Update header nav from "NSW / QLD / VIC" to "Sydney-based / interstate dispatch available." Accept keyword loss in those markets. Option C (middle path): Keep top 5 VIC/QLD hubs (Melbourne, Brisbane, Gold Coast, Townsville, Mackay), rewrite each with "interstate dispatch" framing and local project case studies. Canonicalise the rest. Whichever path: fix NAP-001 postcode typo regardless (already in Batch 1).</p>
+    </div>
+    <div class="item-effort effort-high">Strategic decision + 2–4 wks execution</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CANNIBAL-001 to 008<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Resolve keyword cannibalisation — especially line marking sydney</h3>
+      <p class="context">Severe cannibalisation site-wide. line marking sydney is split across homepage and /services/line-marking/ (5,000+ combined impressions, 0 clicks). Browns Plains and Keilor/Keilor Park each have twin pages competing against each other. line marking brisbane is split 3 ways. The site has 190 keywords ranking top 3 — but head-term click-through is near zero because of this fragmentation.</p>
+      <p class="fix"><strong>Fix:</strong> For each cannibalisation cluster: (1) Identify the stronger URL (better content, more links, higher position) as the canonical. (2) Canonical-tag or 301-redirect the weaker URL to it. (3) Update all internal links to point to the canonical. Priority order: CANNIBAL-002 (Browns Plains/Plains — easy 301), CANNIBAL-001 (Keilor/Keilor Park), CANNIBAL-004 (line marking sydney — homepage should own this; demote /services/line-marking/ to target car-park/industrial variations), CANNIBAL-003 (Brisbane), CANNIBAL-005 (Gold Coast). The /areas-we-serve/plains/ fix is already in Batch 2 (ONPAGE-002).</p>
+    </div>
+    <div class="item-effort effort-medium">2–3 hrs per cluster</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-005 + CWV-002<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Fix slow-loading location page template (28 pages &gt;2.5s)</h3>
+      <p class="context">28 area-service pages are flagged as slow-loading (2,480–2,648ms lab). Mobile TTI is 6.9–7.3s site-wide — all tested pages. The bottleneck is almost certainly a shared template element (embedded Google Map, un-optimised image gallery, or third-party widget on every location page). One template fix updates all 28+ pages.</p>
+      <p class="fix"><strong>Fix:</strong> (1) Run Lighthouse with throttling on the worst page (/areas-we-serve/spotswood/parking-safety-products/) — identify the slow resource in the Performance waterfall. (2) If image-heavy: convert images to WebP, add loading="lazy" below-the-fold, define width/height to prevent CLS. (3) If embedded Google Map: replace with a static map image + click-to-load iframe. (4) Profile JS execution in Chrome DevTools — defer non-critical scripts. Apply to shared template = all 28+ pages fixed at once.</p>
+    </div>
+    <div class="item-effort effort-medium">4–6 hrs diagnostic + fix</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">ONPAGE-001 + TECH-007<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Add internal links to 52 under-linked WooCommerce product pages</h3>
+      <p class="context">52 product pages each have only 1 internal link (from their parent category). The site average is 350 inlinks. /product/premium-wheel-stop/ has 29 GA4 sessions/90d with just 1 inlink — it has commercial value but no PageRank flowing to it. Template-level work can fix many at once.</p>
+      <p class="fix"><strong>Fix:</strong> (1) Add a "Related Products" section to each service page: /services/wheel-stops/ links to all wheel-stop products, /services/bollards/ links to all bollard products, etc. (2) Add a "Top Products" carousel on the homepage. (3) Add product spotlights on relevant area pages (e.g., /areas-we-serve/mackay/bollards/ links to top bollard products). WooCommerce upsell/cross-sell can automate some of this.</p>
+    </div>
+    <div class="item-effort effort-medium">4–6 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CONTENT-003<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Add H3 heading hierarchy to service pages (currently flat)</h3>
+      <p class="context">/services/line-marking/ has 13 H2s and 0 H3s across 2,371 words. /services/bollards/ has 10 H2s, 0 H3s. A flat hierarchy misses featured-snippet eligibility, Table of Contents rich result opportunities, and the topical depth signal Google uses for content assessment.</p>
+      <p class="fix"><strong>Fix:</strong> Audit each service page. Identify H2 sections containing sub-topics. Demote them: H2 "section topic" → H3 nested under a broader H2. Goal: 4–6 H2s, each with 2–4 H3 sub-sections. Example for line-marking page after CONTENT-002 fix: one H2 "Line Marking by City" with H3 sub-sections for each metro. Work through the 5 priority service pages first.</p>
+    </div>
+    <div class="item-effort effort-medium">6–10 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">TECH-008<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Fix 6 accessibility failures (WCAG 2.1)</h3>
+      <p class="context">Lighthouse accessibility score: 80/76 (mobile/desktop). 6 specific failures. Legal exposure under Australia's Disability Discrimination Act. SEO impact is indirect but real (UX signals, Google's accessibility correlation with rankings). Most fixes are single template edits.</p>
+      <p class="fix"><strong>Fix in priority order (cheapest first):</strong> (1) DONE IN BATCH 1 — Remove user-scalable=no. (2) Add &lt;main&gt; landmark wrapper in theme template around primary content area. (3) Add aria-label to icon-only links (hamburger, social icons). (4) Add &lt;label&gt; elements to &lt;select&gt; form fields. (5) Wrap any orphaned &lt;li&gt; items in proper &lt;ul&gt;/&lt;ol&gt; parents. (6) Fix colour contrast across the design system (this is the most work — may need a design pass).</p>
+    </div>
+    <div class="item-effort effort-high">1 day for items 1–5; 1–2 days for colour contrast</div>
+  </div>
+
+</div>
+
+
+<!-- ===================== BATCH 5 ===================== -->
+<div class="batch-header">
+  <span class="batch-tag b5">Batch 5</span>
+  <span class="batch-subtitle">Big content and E-E-A-T work — ongoing investment, 3–6 months. These are the highest-ceiling opportunities but require the most resources.</span>
+</div>
+
+<div class="items">
+
+  <div class="item">
+    <div class="item-id">EEAT-004 + EEAT-001 + EEAT-005<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Rebuild the About Us page and create a Team page</h3>
+      <p class="context">About Us has only ~140 words of unique prose. Zero named individuals, zero credentials, zero history. For a YMYL-adjacent business (workplace safety), this is a foundational E-E-A-T defect — it propagates a low-trust signal to every page on the domain. GA4: /about-us/ has only 98 second average session — users scan and leave because there's nothing to evaluate.</p>
+      <p class="fix"><strong>Fix:</strong> Rewrite About Us to 600–900 words. Must include: founding story + year (confirmed with client), owner/director name + photo + bio + qualifications, team section (2–4 named operators with photos + role + experience), operational facts (crew count, equipment, project volume/year), service area map, insurance and accreditation details (specific insurer name, policy reference, MBA NSW membership number). Build a separate /our-team/ page with 4–8 named team members. Add Person schema for named individuals. Budget: 4–6 hrs copywriting + 2 hrs design + photography coordination.</p>
+    </div>
+    <div class="item-effort effort-high">8–12 hrs total</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">DUPE-001 + CONTENTGAP-001<br><span class="badge crit">Critical</span></div>
+    <div class="item-body">
+      <h3>Rewrite Sydney suburb hubs with unique local evidence</h3>
+      <p class="context">31+ Sydney metro suburb hubs share 65–75% of paragraph content with only the suburb name swapped. This is a textbook Helpful Content Update target. Currently ranking #1–5 on dozens of long-tail suburb queries — but those rankings are vulnerable. The primary commercial keyword "line marking sydney" (320/mo) is stuck at pos 31 because Google has 30+ near-duplicate suburb hubs to pick from instead of one strong Sydney pillar.</p>
+      <p class="fix"><strong>Fix (phased):</strong> Build a suburb-evidence database for each of the 18 priority Sydney suburbs: 3 local landmarks, 2 industrial parks/shopping centres, council name, completed project example (date + size + sector). Inject 5 unique content blocks per suburb hub: Local Project Spotlight, Landmarks We Serve, Council Compliance Note, Local FAQ (4–6 questions, paired with FAQPage schema), Response-Time SLA from Miranda depot. Budget 3–5 hrs per suburb. Start with Fairfield, Huntingwood, Penrith, Ingleburn, Sutherland Shire — the ones with the most GSC impressions.</p>
+    </div>
+    <div class="item-effort effort-very-high">30–60 hrs for 18 priority suburbs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">EEAT-006<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Caption 69 project photos in the Gallery</h3>
+      <p class="context">Gallery has 69 likely project photos with placeholder alt text: "Wheel 1", "Wh 4", "Road Signs And Line 1". Zero captions. Gallery gets 31 sessions/90d with 84% engagement — users visit but the opportunity is completely wasted. These photos are the highest-leverage E-E-A-T asset on a trades site.</p>
+      <p class="fix"><strong>Fix:</strong> For each of 69 photos, write a 30–60 word caption: service type, location/suburb, sector (warehouse/car park/school/retail), approximate size/scope, year. Example: "Line marking, Huntingwood Industrial Estate, 2024 — 1,200m² warehouse floor with safety-line layout for forklift zones and pedestrian walkways. Completed overnight." Update alt text to match (concise, geographically anchored). Add ImageObject schema on the gallery page. Regroup photos by service category in the gallery layout. Pair with the same photos uploaded to GBP (Batch 1 GBP-001).</p>
+    </div>
+    <div class="item-effort effort-high">7–14 hrs</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CONTENTGAP-003<br><span class="badge med">Medium</span></div>
+    <div class="item-body">
+      <h3>Add FAQPage schema and FAQ sections to homepage and top 4 service pages</h3>
+      <p class="context">Zero FAQ sections or FAQPage schema exist anywhere on the site. A direct competitor (linemarkingaustralia.com.au) publishes FAQPage schema with 8 questions. FAQPage schema is one of the few rich-result types that delivers visible SERP real estate for local-service businesses. Relatively quick to implement.</p>
+      <p class="fix"><strong>Fix:</strong> Add a 4–6 question FAQ section to the homepage AND to each of the top 4 service pages (line-marking, bollards, wheel-stops, speed-calming-devices). The audit contains implementation-ready FAQ content and FAQPage JSON-LD in Phase 3 CONTENTGAP-003 — use those as the starting point. Validate with Google Rich Results Test after implementation.</p>
+    </div>
+    <div class="item-effort effort-medium">3–4 hrs per page</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">CONTENTGAP-002<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Launch a /blog/ with 8–12 foundational articles</h3>
+      <p class="context">/blog/, /news/, /articles/, /resources/ all return 404. Zero topical-authority content. This means: no upper-funnel traffic, no internal-link variety, no asset to attract backlinks, no AI Overview citation eligibility. All competitors with higher traffic (linemarkingaustralia.com.au, areasafe.com.au) publish buyer-education content.</p>
+      <p class="fix"><strong>Fix:</strong> Launch /blog/. Publish 8–12 articles over 3–6 months. Suggested topics (from audit): "How often should car park line marking be repainted?", "AS/NZS 1742 compliance for Australian workplaces", "Bollard vs wheel stop vs speed hump — choosing the right traffic-calming device", "Warehouse floor marking colour-coding standards", "Cost guide: car park line marking pricing in 2026." Each article: 1,500–2,500 words, real project photos, named author byline with bio + credentials, Article schema. Internal-link to relevant service + suburb pages.</p>
+    </div>
+    <div class="item-effort effort-very-high">15–30 hrs per article × 8–12 articles</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">EEAT-002 + TRUST-002<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Source the trust claims and add industry credential badges</h3>
+      <p class="context">Every page carries unsourced hero claims: "Over 24 years experience", "Fully Insured", "Accredited Service Provider." No specific insurer, no policy number, no accreditation body number. Only one trust badge in the footer (Master Builder Association). Google's QRGs flag unverifiable trust claims as low-quality signals.</p>
+      <p class="fix"><strong>Fix:</strong> (1) With client: get the actual insurance policy details (insurer + policy number), MBA NSW membership number, any other accreditations. (2) Replace generic claims: "Over 24 years" → "Operating since [year]", "Fully Insured" → "$20M Public Liability + WorkCover NSW (insurer: X)", "Accredited" → "Master Builders Association NSW member (#[number]) since [year]". (3) Build a /credentials/ page listing ABN, insurance certificates, all memberships. (4) Add 3–5 more trust badges to footer: Master Painters Association, IPWEA, AS/NZS 1742 compliance statement, WorkCover NSW registration.</p>
+    </div>
+    <div class="item-effort effort-medium">3–4 hrs total</div>
+  </div>
+
+  <div class="item">
+    <div class="item-id">DUPE-002 + DUPE-003<br><span class="badge high">High</span></div>
+    <div class="item-body">
+      <h3>Rewrite suburb sub-service pages with unique content (or canonicalise)</h3>
+      <p class="context">~125–160 sub-service pages (/areas-we-serve/&lt;suburb&gt;/concrete-sealing/ etc.) are 80%+ duplicate to each other and ~60% duplicate to their parent hub. H1 on these pages is just the suburb name — no service signal. /areas-we-serve/rockhampton/bollards/ has 47% bounce and 55s duration confirming the UX problem. These pages compete with their parent hubs for the same keywords.</p>
+      <p class="fix"><strong>Fix (decision first):</strong> For low-traffic sub-pages (under 10 sessions/90d) in non-priority markets — consider canonicalising to the parent service page (/services/concrete-sealer-contractors/) and keeping only the top hub page per suburb. For priority suburbs: write 350–500 unique words specifically about that service in that suburb — different from the parent hub. Fix H1 on all sub-service pages to "{Service} in {Suburb}" or "{Service} {Suburb}" — this can be a single template change. Budget 2–3 hrs for the template H1 fix; 1–2 hrs per page rewrite for priority pages.</p>
+    </div>
+    <div class="item-effort effort-high">2–3 days for 30 priority sub-pages</div>
+  </div>
+
+</div>
+
+<hr>
+<p style="color: var(--dim); font-size: 12px;">Based on Hardy's SEO Audit Report dated 2026-05-12 &nbsp;·&nbsp; Document prepared by Supple 2026-05-21 &nbsp;·&nbsp; Source of truth: SEO Audit Report by Hardy.html (do not edit)</p>
+
+</body>
+</html>
