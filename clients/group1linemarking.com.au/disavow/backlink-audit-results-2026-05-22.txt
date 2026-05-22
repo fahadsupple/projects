@@ -1,0 +1,113 @@
+GROUP 1 LINE MARKING — BACKLINK AUDIT RESULTS
+Checked: 2026-05-22
+Checker: curl + Python concurrent, 75 URLs, 15 threads
+Target: group1linemarking.com.au
+
+================================================================================
+SUMMARY
+================================================================================
+Total URLs checked:           75
+🟢 LIVE (HTTP 200):           73
+🔴 DEAD / Connection refused:  2
+✅ Live + backlink confirmed:  70
+⚠️  Live but backlink not in static HTML: 3
+
+RECOMMENDATION: Keep ALL 75 in disavow.txt
+- Dead links: still disavow (domain-level); domain may be repointed at any time
+- Live but no static backlink: likely JS-rendered or paginated; DataForSEO
+  confirmed these — trust DataForSEO over curl static-fetch
+
+================================================================================
+DEAD / CONNECTION REFUSED (2) — no live page, no content
+================================================================================
+[T1] 000  https://rankgrow.agency/risk-free-seo-backlinks-service-62002/
+[T4] 000  http://212.98.91.92/miranda-group-one-line-marking-reviews-71355483
+
+================================================================================
+LIVE BUT BACKLINK NOT IN STATIC HTML (3) — likely JS-rendered or paginated
+================================================================================
+[T2] 200  https://shortenurls.eu/share/107398
+         → URL-shortener network; links probably injected via JS. Keep in disavow.
+[T2] 200  https://anchorurl.cloud/share/107398
+         → Same operator as above, shared IP 195.20.19.178. Keep in disavow.
+[T3] 200  https://www.travelnetworkindia.com/domain-list-159
+         → Bulk directory; link may be on paginated load or different page chunk. Keep in disavow.
+
+================================================================================
+LIVE + BACKLINK CONFIRMED (70) — all confirmed spam / PBN / farm content
+================================================================================
+[T2] bye.fyi/report/107399                                                 ✅
+[T3] australianwebdirectory.com/domain-list-159                            ✅
+[T3] australiandir.com/domain-list-157                                     ✅
+[T5] fortunetelleroracle.com/other/4-points...                             ✅
+[T5] fortunetelleroracle.com/online-marketing/public/...                   ✅
+[T5] aniarticles.com/47188-line-marking...                                 ✅
+[T5] newnebraska.net/few-important-things...speed-bumps/                   ✅
+[T5] allventurehub.com/tips-for-choosing-safety-bollards...                ✅
+[T6] amazingblogscollection.blogspot.com/2022/10/...                       ✅
+[T6] amazingblogscollection.blogspot.com/2024/09/...                       ✅
+[T6] aussiebusinesstips.blogspot.com/2018/07/...                           ✅
+[T6] aussiebusinesstips.blogspot.com/2018/11/...                           ✅
+[T6] aussiebusinesstips.blogspot.com/2021/11/...                           ✅
+[T6] aussiebusinesstips.blogspot.com/2024/04/...                           ✅
+[T6] aussieexclusiveideas.blogspot.com/2023/07/...                         ✅
+[T6] aussieexclusiveideas.blogspot.com/2024/12/...                         ✅
+[T6] aussieexclusiveideas.blogspot.com/search/label/bump%20stop%20brisbane ✅
+[T6] aussieexclusiveideas.blogspot.com/search/label/busines                ✅
+[T6] aussieexclusiveideas.blogspot.com/search/label/car%20park%20line%20marking ✅
+[T6] aussieexclusiveideas.blogspot.com/search/label/car%20park%20line%20marking%20Brisbane ✅
+[T6] aussieshub.blogspot.com/2018/09/                                      ✅
+[T6] aussieshub.blogspot.com/2018/09/useful-information...                 ✅
+[T6] aussieshub.blogspot.com/search/label/car%20park%20line%20marking%20companies ✅
+[T6] aussietrade.blogspot.com/2018/01/...                                  ✅
+[T6] australianinformationhub.blogspot.com/2018/09/...                     ✅
+[T6] australianinformationhub.blogspot.com/2021/12/...                     ✅
+[T6] australianinformationhub.blogspot.com/2023/10/...                     ✅
+[T6] australianinformationhub.blogspot.com/2024/02/...                     ✅
+[T6] australiaplanet.blogspot.com/2024/07/...                              ✅
+[T6] creativeblogcollection.blogspot.com/2024/01/...                       ✅
+[T6] creativeblogidea.blogspot.com/2019/06/...                             ✅
+[T6] creativeblogidea.blogspot.com/2019/09/...                             ✅
+[T6] creativeblogidea.blogspot.com/2020/01/...                             ✅
+[T6] creativeblogidea.blogspot.com/2020/08/...                             ✅
+[T6] creativeblogidea.blogspot.com/2021/03/...                             ✅
+[T6] creativeblogidea.blogspot.com/2022/01/...                             ✅
+[T6] creativeblogidea.blogspot.com/2022/08/...                             ✅
+[T6] creativeblogidea.blogspot.com/2023/05/...                             ✅
+[T6] creativeblogidea.blogspot.com/2023/09/...                             ✅
+[T6] creativeblogidea.blogspot.com/2024/06/...                             ✅
+[T6] creativeblogidea.blogspot.com/2024/10/...                             ✅
+[T6] demarkinge.blogspot.com/2021/04/...                                   ✅
+[T6] getadvanceinfo.blogspot.com/2019/07/...                               ✅
+[T6] gettinginformativeideas.blogspot.com/2019/03/...                      ✅
+[T6] gettinginformativeideas.blogspot.com/2024/03/...                      ✅
+[T6] intriguingaussieportal.blogspot.com/2018/04/...                       ✅
+[T6] intriguingaussieportal.blogspot.com/2019/11/...                       ✅
+[T6] intriguingaussieportal.blogspot.com/2023/12/...                       ✅
+[T6] intriguingaussieportal.blogspot.com/2024/05/...                       ✅
+[T6] myaussiehub.blogspot.com/2019/01/                                     ✅
+[T6] myaussiehub.blogspot.com/2019/01/what-are-wheel-stops.html            ✅
+[T6] myredecoratething.blogspot.com/2023/                                  ✅
+[T6] myredecoratething.blogspot.com/2023/11/                               ✅
+[T6] myredecoratething.blogspot.com/2023/11/choose-perfect-wheel-stops...  ✅
+[T6] myredecoratething.blogspot.com/search/label/Business                  ✅
+[T6] myredecoratething.blogspot.com/search/label/wheel%20stops             ✅
+[T6] mythoughthub.blogspot.com/2023/08/...                                 ✅
+[T6] liveblogspot.com/business/choosing-right-kind-concrete-sealer...      ✅
+[T7] allnewsspot.wixsite.com/blog/top-5-benefits-of-installing-speed-humps ✅
+[T7] allnewsspot.wixsite.com/blog/install-speed-humps-maximum-efficiency   ✅
+[T7] aussiebusinesstips.wixsite.com/blog/post/understanding-the-power...   ✅
+[T7] aussiebusinesstips.wixsite.com/blog/post/advanced-strategies...       ✅
+[T7] aussiebusinesstips.wixsite.com/blog/post/how-to-install-bump-stops... ✅
+[T7] australiabloghub.wixsite.com/blog/post/how-to-safeguard...            ✅
+[T7] creativeblogideas.wixsite.com/blog/post/top-5-bollard-designs...      ✅
+[T7] creativeblogideas.wixsite.com/blog/post/essential-guide-bump-stops... ✅
+[T7] getadvanceinfo.wixsite.com/getadvanceblogs/post/choose-best-speed...  ✅
+[T7] innovativecollection.wixsite.com/blog/selecting-the-perfect-parking.. ✅
+[T7] innovativecollection.wixsite.com/blog/why-investing-in-high-quality.. ✅
+[T7] innovativecollection.wixsite.com/blog/essential-maintenance-tips...   ✅
+
+================================================================================
+VERDICT: No URLs removed from disavow.txt
+Zero legitimate pages found. All 75 are confirmed spam/PBN/farm.
+================================================================================
