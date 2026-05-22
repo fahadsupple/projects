@@ -64,6 +64,26 @@ Page: https://example.com/another-page/
 
 ---
 
+## GEO-RELEVANCE — CRITICAL
+
+**Never introduce a city name into body content of a page focused on a different city.** If the source page body text is focused on Melbourne, do not append or insert sentences that mention Brisbane, Sydney, or any other city. If the target link is a city-specific page (e.g., /areas-we-serve/brisbane/bollards/), the source page must already contain copy mentioning that city or national coverage — do not create cross-city mentions by adding new sentences. If no geographically appropriate paragraph exists on that page, find a different source page.
+
+**When writing surrounding sentences for links, match the geographic scope of the paragraph being edited.** If the paragraph mentions "Melbourne", the surrounding sentence should reference Melbourne or Victoria, not Sydney, Brisbane, or other markets. If the linked page is a general service page that covers multiple cities, write the surrounding sentence to reference the source page's city only (e.g., "available across Melbourne and Victoria" not "across Sydney and Melbourne" on a Melbourne page).
+
+**What to look for when selecting a paragraph for a city-specific target link:**
+- The paragraph already mentions that city by name, OR
+- The paragraph describes national/Australia-wide coverage, OR
+- The paragraph is topically generic without any geographic lock-in
+
+**If no suitable paragraph exists on the source page:** Remove the link from the plan. Check whether the target URL is already reached from another valid source page in the plan — if it is, no replacement is needed. If it is not, find a geographically appropriate source page (same city or state as the target) and use a paragraph on that page instead. Only proceed if you have fetched and read the alternative source page.
+
+**City → State generalisations that are always safe:**
+- Melbourne source page → "across Melbourne and Victoria" or "across Victoria"
+- Sydney source page → "across Sydney and NSW"
+- Brisbane/Gold Coast source page → "across Queensland" or "throughout South East Queensland"
+
+---
+
 ## Link selection rules
 
 **Anchor variety across pages**
