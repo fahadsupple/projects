@@ -112,6 +112,16 @@ The anchor covers the service or topic. The geo-context comes from the sentence 
 
 ## Link selection rules
 
+**Scan the full REPLACE block for secondary linking opportunities**
+When writing a REPLACE block for a primary link, scan the entire replacement text for any other mentions that have a corresponding target page and would be logical for a reader to follow. If the link passes the borderline test (connection is obvious from anchor text alone), add it to the same REPLACE block.
+
+Do not treat each REPLACE block as a single-link operation. One paragraph can carry multiple links if the content supports it naturally. Examples of what to look for:
+- A suburb list where some names have dedicated location pages (e.g. "including Berwick, Narre Warren, Pakenham" when /property-lawyer-berwick etc. exist -> link each)
+- A service mentioned in passing that has its own page (e.g. "commercial lease agreements" on a commercial lawyer page -> link to /commercial-lease-lawyer-melbourne)
+- A related practice area referenced in a sentence being modified (e.g. "probate" on a wills page -> link to /probate-lawyer-melbourne)
+
+**Do not link:** names with no corresponding target page, the page itself (no self-links), or anything that fails the borderline test.
+
 **Anchor variety across pages**
 When the same destination can be reached from multiple source pages, prefer the source page where the natural anchor text differs from anchors already chosen for that destination elsewhere in the plan. Avoid using the same anchor string (e.g. "Velux skylights") for the same target URL across multiple pages — it creates a templated footprint.
 
