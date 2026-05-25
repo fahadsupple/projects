@@ -110,6 +110,36 @@ The anchor covers the service or topic. The geo-context comes from the sentence 
 
 ---
 
+## Copy quality — writing rules
+
+These rules exist because AI tools naturally prioritise keyword fitting over natural English. Every Replace With block must pass all four checks before it is final.
+
+**1. Grammar first — no clunky adjective phrases**
+The surrounding sentence must remain grammatically flawless after the link is inserted. Never invert natural English word order just to cram a keyword string in.
+- ❌ `"give our commercial lawyer team a call"` — nobody says this
+- ✅ `"give our team of commercial lawyers a call"`
+- ❌ `"contact our deceased estate lawyer staff today"`
+- ✅ `"contact our deceased estate lawyers today"`
+
+**2. Retain brand adjectives and the company name**
+Do not delete positive brand words ("friendly", "experienced") or the actual company name just to make a link fit. Blend the anchor into the existing brand voice — never overwrite it.
+- ❌ Original: `"contact our experienced and friendly staff today"` → AI deleted "and friendly staff" to force the anchor → wrong
+- ✅ Correct: `"contact our experienced and friendly deceased estate lawyers today"`
+- ❌ Original: `"When you have Wollerman Shacklock prepare..."` → AI stripped the firm name and wrote `"When you have our commercial lawyers in Melbourne prepare..."` → wrong
+- ✅ Correct: `"When you have the commercial lawyers at Wollerman Shacklock prepare..."`
+
+**3. Fix adjacent typos while rewriting**
+If the sentence being modified contains a pre-existing grammar error or typo, fix it as part of the rewrite. Do not leave errors sitting next to newly inserted copy.
+- ❌ Left in place: `"We assist in all aspect of Estate Planning"` (existing typo untouched)
+- ✅ Fixed during edit: `"We assist in all aspects of Estate Planning"`
+
+**4. Read it aloud — it must sound like human writing**
+Read the completed Replace With block aloud. If it sounds like it was assembled by an SEO tool rather than written by a copywriter, rewrite it. The test: would the site's author be comfortable if this sentence appeared under their name?
+
+*Source: wslegal.com.au internal linking review, May 2026.*
+
+---
+
 ## Link selection rules
 
 **Scan the full REPLACE block for secondary linking opportunities**
@@ -135,4 +165,4 @@ If an anchor only works because the link was inserted (rather than because a rea
 
 ## Why
 
-Established during centralskylights.com.au internal linking engagement (April 2026). Developer feedback drove the simplification: group by page so the dev can open one page, make all changes, close it — without hunting across multiple REQUEST blocks for the same page. Link selection rules added April 2026 following quality review of the same engagement.
+Established during centralskylights.com.au internal linking engagement (April 2026). Developer feedback drove the simplification: group by page so the dev can open one page, make all changes, close it — without hunting across multiple REQUEST blocks for the same page. Link selection rules added April 2026 following quality review of the same engagement. Copy quality rules added May 2026 following wslegal.com.au review.

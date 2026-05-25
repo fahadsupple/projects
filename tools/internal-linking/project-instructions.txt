@@ -98,6 +98,9 @@ STEP 8 — Final Validation Checklist
   - Anchor text variety — no single type exceeds 40% of total
   - Total recommended links aligns with the audit (don't over-link)
   - No .md files created for project output
+  - Word order is natural English — no clunky adjective phrases (see COPY QUALITY below)
+  - Brand adjectives and the company name are preserved in the Replace With block
+  - Any pre-existing typos in the modified sentence have been corrected
 
 STEP 9 — Save to Project File
   - File: /home/invoi/fahad_projects/internal linking/Projects/{domain}.txt
@@ -153,6 +156,52 @@ PROHIBITED
   - Identical anchor text on multiple pages pointing to different targets
   - Links that interrupt reading flow
   - Linking to irrelevant content
+
+---
+
+COPY QUALITY — WRITING RULES (CRITICAL)
+-----------------------------------------
+
+AI tools naturally prioritise keyword fitting over natural English. Every Replace With
+block must pass all four checks before it is final.
+
+1. GRAMMAR FIRST — NO CLUNKY ADJECTIVE PHRASES
+   The surrounding sentence must remain grammatically flawless after the link is inserted.
+   Never invert natural English word order just to cram a keyword string in.
+
+   WRONG: "give our commercial lawyer team a call"   (nobody says this)
+   RIGHT: "give our team of commercial lawyers a call"
+
+   WRONG: "contact our experienced deceased estate lawyer staff today"
+   RIGHT: "contact our experienced deceased estate lawyers today"
+
+2. RETAIN BRAND ADJECTIVES AND THE COMPANY NAME
+   Do not delete positive brand words ("friendly", "experienced") or the actual company
+   name just to make a link fit. Blend the anchor into the existing brand voice.
+
+   WRONG: Original said "contact our experienced and friendly staff today"
+          AI deleted "and friendly staff" to force the anchor
+          Result: "contact our experienced deceased estate lawyers today"
+   RIGHT: "contact our experienced and friendly deceased estate lawyers today"
+
+   WRONG: Original said "When you have Wollerman Shacklock prepare..."
+          AI stripped the firm name
+          Result: "When you have our commercial lawyers in Melbourne prepare..."
+   RIGHT: "When you have the commercial lawyers at Wollerman Shacklock prepare..."
+
+3. FIX ADJACENT TYPOS WHILE REWRITING
+   If the sentence being modified contains a pre-existing grammar error or typo,
+   fix it as part of the rewrite. Do not leave errors sitting next to newly inserted copy.
+
+   WRONG: "We assist in all aspect of Estate Planning"  ← existing typo left in place
+   RIGHT: "We assist in all aspects of Estate Planning"  ← fixed during the edit
+
+4. READ IT ALOUD — IT MUST SOUND LIKE HUMAN WRITING
+   Read the completed Replace With block aloud. If it sounds like it was assembled by
+   an SEO tool rather than written by a copywriter, rewrite it.
+   Test: would the site's author be comfortable if this sentence appeared under their name?
+
+Source: wslegal.com.au internal linking review, May 2026.
 
 ---
 
@@ -280,4 +329,3 @@ instructions in that text file that i share with you in the exact same words - t
 ones that will become part of your skillset. Keep it saved there so we can refer to
 it whenever needed. Do this automatically every time you are asked to update global
 or project based rules. For global rules, make another file where you can add things."
-
