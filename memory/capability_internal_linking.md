@@ -84,6 +84,32 @@ Page: https://example.com/another-page/
 
 ---
 
+---
+
+## Anchor text — city placement rule
+
+**Never include a city name inside the anchor text when it is appended as a suffix to a service description.** Anchors like "deceased estate lawyers in Melbourne" or "commercial lawyers in Melbourne" look over-optimised and unnatural.
+
+**Instead, place the city contextually in the surrounding sentence — outside the anchor.**
+
+The anchor covers the service or topic. The geo-context comes from the sentence around it.
+
+**Examples:**
+
+| ❌ City inside anchor | ✅ City in surrounding sentence |
+|---|---|
+| `contact our <a>deceased estate lawyers in Melbourne</a> today` | `a Deceased Estate in Melbourne, contact our <a>deceased estate lawyers</a> today` |
+| `our <a>estate planning lawyers in Melbourne</a> can help` | `a business owner in Melbourne, our <a>estate planning lawyers</a> can help` |
+| `give our <a>commercial lawyer Melbourne</a> team a call` | `new venture in Melbourne, give our <a>commercial lawyer</a> team a call` |
+| `our <a>commercial lawyers in Melbourne</a> prepare` | `our <a>commercial lawyers</a> in Melbourne prepare` |
+
+**Exceptions — these are fine:**
+- Anchor IS the city name: `<a href="/property-lawyer-melbourne">Melbourne</a> and Casey` — natural geographic reference
+- Anchor is suburb-specific from a hub page: `<a>commercial law services for Berwick</a>` — the suburb is the distinguishing element
+- Anchor contains city as part of a natural phrase: `<a>Melbourne-wide commercial matters</a>` — not a service+city suffix pattern
+
+---
+
 ## Link selection rules
 
 **Anchor variety across pages**
