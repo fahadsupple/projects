@@ -1,0 +1,247 @@
+FLOURISH ELC — DEVELOPER CHECKLIST VERIFICATION
+Pages audited: 29 location pages + /areas-we-serve/
+Date: 3 June 2026
+Method: Live scrape — checked all 10 items programmatically across all 29 pages
+
+================================================================================
+QUICK SUMMARY
+================================================================================
+
+✅ PASS   1. Template layout (Beaver Builder sidebar)
+✅ PASS   2. CTA links to forms/pages
+✅ PASS   3. Phone numbers linked (tel:) — see footnote on encoding
+✅ PASS   4. Meta tags updated (title + description)
+✅ PASS   5. Mobile viewport meta
+✅ PASS   6. Manual interlinking
+✅ PASS   7. Maps on all location pages + /areas-we-serve/
+❌ FAIL   8. OG + Twitter tags — Twitter tags wrong on ALL 29 pages
+⚠️  NOTE   9. Click-to-call works, but WA number has encoding bug (all pages)
+✅ PASS  10. No pages set to noindex
+
+3 items need developer attention. See detail below.
+
+
+================================================================================
+CHECK 1 — TEMPLATE LAYOUT
+Result: ✅ PASS
+================================================================================
+All 29 pages use the Beaver Builder two-column layout matching the philosophy
+template (fl-col-group with main content column + fl-col-small sidebar).
+The H1 banner row is present on every page.
+No pages are missing the sidebar column.
+
+
+================================================================================
+CHECK 2 — CTA LINKS
+Result: ✅ PASS
+================================================================================
+Checked for linked enrolment form and tour booking form on every page.
+
+- Enrolment form link (kinderm8.com.au/enrolment-form): ✅ Present on all 29 pages
+- Tour form link (kinderm8.com.au/parent-tour-form): ✅ Present on all 29 pages
+- No unlinked CTA buttons found (no bare button/span text without an <a> wrapper)
+
+All CTAs link to the correct Kinderm8 forms.
+
+
+================================================================================
+CHECK 3 — PHONE NUMBER LINKS (tel:)
+Result: ✅ PASS (with a footnote — see #9 for encoding detail)
+================================================================================
+All 3 centre phone numbers are wrapped in tel: href links on all 29 pages.
+Each page has 9 tel: links total (3 occurrences × 3 numbers).
+
+Numbers confirmed linked:
+  Oakville:    tel:0296272927
+  Watanobbi:   tel:0243534455
+  Bull Creek:  tel:0862348570 (see encoding issue in Check 9)
+
+
+================================================================================
+CHECK 4 — META TAGS
+Result: ✅ PASS
+================================================================================
+All 29 pages have unique, page-specific meta titles and meta descriptions
+matching the approved document.
+- No pages with missing meta title
+- No pages with missing meta description
+- All canonical tags present and self-referencing
+
+
+================================================================================
+CHECK 5 — MOBILE TESTING
+Result: ✅ PASS (viewport confirmed; visual rendering requires browser)
+================================================================================
+All 29 pages have the correct responsive viewport meta:
+  content="width=device-width, initial-scale=1.0"
+
+The site uses Beaver Builder which is a responsive framework — the foundation
+is correct. Actual visual rendering on physical devices cannot be confirmed via
+code scrape, but no viewport-related red flags were found.
+
+
+================================================================================
+CHECK 6 — MANUAL INTERLINKING
+Result: ✅ PASS
+================================================================================
+All 29 pages contain in-body links to other location pages (in the
+"Other Services We Provide" / "Areas We Serve" section within the page content,
+not just header nav).
+
+Internal location link count per page:
+  /daycare-childcare-oakville-nsw/      8 internal location links
+  /daycare-childcare-box-hill-nsw/      9
+  /daycare-childcare-vineyard-nsw/      9
+  /daycare-childcare-gables-nsw/        9
+  /daycare-childcare-grantham-farm-nsw/ 9
+  /daycare-childcare-riverstone-nsw/    9
+  /daycare-childcare-mulgrave-nsw/      9
+  /preschool-oakville-nsw/              8
+  /preschool-box-hill-nsw/              8
+  /preschool-vineyard-nsw/              8
+  /preschool-gables-nsw/               8
+  /preschool-grantham-farm-nsw/         8
+  /preschool-riverstone-nsw/            8
+  /preschool-mulgrave-nsw/              8
+  /daycare-childcare-bull-creek-wa/     8
+  /daycare-childcare-leeming-wa/        8
+  /daycare-childcare-bateman-wa/        8
+  /daycare-childcare-rossmoyne-wa/      8
+  /daycare-childcare-shelley-wa/        8
+  /daycare-childcare-willetton-wa/      8
+  /daycare-childcare-brentwood-wa/      8
+  /kindergarten-bull-creek-wa/          8
+  /kindergarten-leeming-wa/             9
+  /kindergarten-bateman-wa/             9
+  /kindergarten-rossmoyne-wa/           9
+  /kindergarten-shelley-wa/             9
+  /kindergarten-willetton-wa/           9
+  /kindergarten-brentwood-wa/           9
+  /areas-we-serve/                      28
+
+
+================================================================================
+CHECK 7 — MAPS
+Result: ✅ PASS
+================================================================================
+Google Maps embeds confirmed on all 29 pages.
+- 28 individual location pages: Google Maps iframe pointing to the specific
+  suburb/address (maps.google.com/maps/embed)
+- /areas-we-serve/: Custom Google My Maps embed showing all Flourish ELC
+  locations in one map (maps.google.com/maps/d/u/0/embed)
+
+Note: Map iframes do not have a title="" attribute, which is an accessibility
+best practice. Not an SEO blocker but worth fixing (e.g., title="Flourish ELC
+Oakville location map").
+
+
+================================================================================
+CHECK 8 — OG + TWITTER TAGS vs META TAGS
+Result: ❌ FAIL — Twitter tags wrong on ALL 29 pages
+================================================================================
+
+OG TAGS: ✅ PASS
+  og:title matches meta title on all 29 pages — correct.
+  og:description matches meta description on all 29 pages — correct.
+  og:image present on all 29 pages (same brand image across all pages).
+
+TWITTER TAGS: ❌ FAIL — SAME TWO BUGS on all 29 pages
+
+BUG A — twitter:description is hardcoded to the philosophy page text on ALL pages:
+  Wrong value on every location page:
+    "At Flourish Early Learning Centre, we believe every child is a capable,
+     curious, and confident learner with the right to feel safe, valued and
+     empowered."
+  This is the philosophy page's description — it is appearing on every location
+  page instead of the page's own meta description.
+
+BUG B — twitter:title does NOT match the SEO meta title:
+  The twitter:title is pulling from the WordPress page title (e.g., the old
+  slug-style title), not from the SEO plugin-set title.
+
+  Examples of the mismatch:
+  Page                              Meta Title (correct)                 Twitter Title (wrong)
+  /daycare-childcare-oakville-nsw/  Childcare Oakville | Flourish ELC    Daycare Childcare Oakville NSW | Flourish Early Learning Centre
+  /preschool-oakville-nsw/          Preschool Oakville NSW | Flourish ELC  Preschool Oakville NSW | Flourish Early Learning Centre
+  /kindergarten-bull-creek-wa/      Kindergarten Bull Creek | Flourish ELC  Kindergarten Bull Creek WA | Flourish Early Learning Centre
+  /areas-we-serve/                  Childcare Near Me | Flourish ELC     Areas We Serve | Flourish Early Learning Centre
+
+ROOT CAUSE:
+  The WordPress SEO plugin (Yoast/RankMath) correctly sets the meta description
+  and og:title/og:description per page. However, the twitter:title and
+  twitter:description are not inheriting these — they're falling back to the
+  WordPress default page title and a global site description.
+
+  This is most likely because when the location pages were built, the "Social"
+  tab in the SEO plugin was not filled in for each page. The plugin is using a
+  global/fallback value instead of the page-specific SEO values.
+
+FIX REQUIRED (developer action):
+  In WordPress, for each location page:
+  Option A (Recommended): In Yoast SEO → go to the "Social" tab → enable
+  "Use meta title/description for Twitter" (or equivalent toggle in RankMath).
+  This makes Twitter tags automatically mirror the SEO title/description.
+
+  Option B: Manually enter the Twitter title and description for each of the
+  29 pages in the Social tab of the SEO plugin.
+
+  The root cause (philosophy page description appearing everywhere) suggests
+  there may also be a global fallback set — check Yoast/RankMath global
+  settings → Social → default/fallback description and clear it.
+
+OG IMAGE NOTE (not a failure, just an observation):
+  All 29 pages use the same og:image (Flourish-ELC-8-800x534.jpg).
+  When links are shared on Facebook/LinkedIn, they all show the same image.
+  Consider setting page-specific images for location pages to improve social
+  click-through rates.
+
+
+================================================================================
+CHECK 9 — CLICK-TO-CALL (mobile phone number tapping)
+Result: ⚠️  FUNCTIONAL but with encoding bug on Bull Creek number
+================================================================================
+Phone numbers are wrapped in tel: links on all 29 pages — click-to-call works.
+However, the Bull Creek WA number has a URL encoding issue in 2 of its 3
+appearances on every page:
+
+  WRONG:   href="tel:08%206234%208570"  (spaces URL-encoded — may fail on some devices)
+  CORRECT: href="tel:0862348570"        (no spaces — universally compatible)
+
+Impact: This affects all 29 pages (the encoded version is in the global site
+header or footer). On most modern smartphones, both formats work, but the
+encoded version with %20 is technically invalid for tel: URIs and can fail
+on older Android/iOS browsers or certain CRM integrations.
+
+FIX REQUIRED (developer action):
+  In the WordPress template (header/footer or Beaver Builder global row),
+  find the Bull Creek phone anchor and change:
+    href="tel:08%206234%208570"   → href="tel:0862348570"
+  This appears in 2 out of 3 link occurrences per page. The third is already
+  correct. Fix whichever template element generates the two broken instances.
+
+
+================================================================================
+CHECK 10 — NO-INDEX STATUS
+Result: ✅ PASS
+================================================================================
+All 29 pages are fully indexable.
+Robots meta content: "index, follow, max-image-preview:large, max-snippet:-1,
+max-video-preview:-1"
+No page has noindex, nofollow, or any crawl-blocking directive.
+
+
+================================================================================
+ACTIONS FOR DEVELOPER — PRIORITY ORDER
+================================================================================
+
+Priority | Check | Action
+---------|-------|-------
+HIGH     | #8    | Fix twitter:description — all 29 pages showing philosophy page text instead of page meta desc. Fix in SEO plugin Social settings.
+HIGH     | #8    | Fix twitter:title — all 29 pages showing WordPress page title not SEO title. Enable "inherit SEO title" in SEO plugin Twitter settings.
+MEDIUM   | #9    | Fix tel:08%206234%208570 encoding — change to tel:0862348570 in the global template (affects all 29 pages via footer/header).
+LOW      | #7    | Add title="" attribute to all Google Maps iframes (e.g., title="Flourish ELC [suburb] location map") for accessibility.
+LOW      | #8    | Consider adding page-specific og:image per location page for better social sharing appearance.
+
+================================================================================
+END OF CHECKLIST REVIEW
+================================================================================
