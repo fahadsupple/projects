@@ -1,0 +1,156 @@
+FLOURISH ELC — CONTENT & SEO REVIEW
+Approved Doc vs Live Site
+Date: 3 June 2026
+Reviewed by: Claude Code
+Pages audited: 29 (all pages listed in flourishelc.com.au_(Approved).docx)
+Method: Live scrape of all 29 URLs — compared meta tags, H1/H2/H3, body text, schema, coding
+
+All 29 pages returned HTTP 200. No pages missing or broken.
+
+================================================================================
+PART 1 — CONTENT MATCHING
+================================================================================
+
+OVERALL: Strong match across the board. Meta titles, meta descriptions, H1s,
+and body text all match the document for 27/29 pages. Two pages have heading
+variations (detailed below). No pages are missing their content.
+
+MATCHES CONFIRMED (all pages):
+- Meta titles match document ✅
+- Meta descriptions match document ✅
+- H1 text matches document ✅ (exactly 1 H1 per page on all 29 pages)
+- Body text / intro paragraphs match document ✅
+- FAQ question content matches document ✅
+
+VARIATIONS FOUND:
+
+1. /daycare-childcare-bateman-wa/
+   Doc H2:  "Frequently Asked Questions About Our Bateman Centre"
+   Live H2: "Frequently Asked Questions About Childcare Near Bateman"
+   Assessment: Minor text variation. Live version is actually more consistent
+   with the pattern used across other pages ("About Childcare Near [suburb]").
+   Not a critical issue, but document and live are out of sync.
+
+2. /preschool-riverstone-nsw/
+   Extra H2 on live site not in document: "School Readiness Program"
+   Assessment: Appears to be an extra section added after document sign-off.
+   Content itself is relevant and on-topic. Not an error, just an undocumented
+   addition.
+
+DOCUMENT URL TYPO (doc error, not a live issue):
+   Page 5 in the document lists URL as "daycare-childcare-grantham farm-nsw"
+   (with a space instead of a hyphen). The actual live URL is correct:
+   /daycare-childcare-grantham-farm-nsw/. The document should be corrected for
+   record-keeping but no action needed on the site.
+
+
+================================================================================
+PART 2 — CONTENT ISSUES (Spelling, AU English, Wrong Content)
+================================================================================
+
+--- CRITICAL ---
+
+ISSUE 1: WRONG SUBURB IN H2 HEADING — kindergarten-rossmoyne-wa
+URL: https://flourishelc.com.au/kindergarten-rossmoyne-wa/
+Problem: The FAQ section H2 reads:
+         "Frequently Asked Questions About Childcare Near Bull Creek"
+         This is the Bull Creek FAQ heading copy-pasted onto the Rossmoyne page.
+Should be: "Frequently Asked Questions About Kindergarten Near Rossmoyne"
+Action needed: Developer to update the H2 text on this page.
+
+--- MODERATE ---
+
+ISSUE 2: US SPELLING "Enroll" — preschool-mulgrave-nsw
+URL: https://flourishelc.com.au/preschool-mulgrave-nsw/
+Problem: CTA button text says "Enroll now"
+         "Enroll" is US English. Australian English = "Enrol" (single L).
+Should be: "Enrol now"
+Action needed: Developer to update the button text.
+
+ISSUE 3: BRAND NAME TRUNCATION — daycare-childcare-riverstone-nsw
+URL: https://flourishelc.com.au/daycare-childcare-riverstone-nsw/
+Problem: Body text reads "At the Flourish Early Centre, we understand that..."
+         The word "Learning" is missing from the brand name.
+Should be: "At the Flourish Early Learning Centre, we understand that..."
+Action needed: Developer to fix the text in the opening paragraph.
+
+--- MINOR / CONFIRM WITH CLIENT ---
+
+ISSUE 4: POSSIBLE TYPO IN H3 — kindergarten-brentwood-wa
+URL: https://flourishelc.com.au/kindergarten-brentwood-wa/
+Problem: H3 reads "Proving Real Learning Through Play"
+         Could be intentional (as in "proving/demonstrating" that play creates
+         real learning). However, it may be a typo for "Providing Real Learning
+         Through Play". Context below the heading talks about "demonstrating
+         your child's development" which aligns with "proving."
+Action needed: Confirm with writer/client whether "Proving" is intentional.
+Note: This text was in the approved document exactly as-is.
+
+ISSUE 5: KINDERGARTEN PAGES — FAQ HEADING SAYS "CHILDCARE" (All 7 WA Kindergarten pages)
+URLs:
+  /kindergarten-bull-creek-wa/
+  /kindergarten-leeming-wa/
+  /kindergarten-bateman-wa/
+  /kindergarten-shelley-wa/
+  /kindergarten-willetton-wa/
+  /kindergarten-brentwood-wa/
+  (PLUS the Rossmoyne error above — Issue 1)
+Problem: All WA kindergarten pages have FAQ H2 saying
+         "Frequently Asked Questions About Childcare Near [suburb]"
+         These are kindergarten pages, not childcare/daycare pages.
+Should be: "Frequently Asked Questions About Kindergarten Near [suburb]"
+Note: The document just said "Frequently Asked Questions" without specifying
+the full heading — this seems to have been templated from the daycare pages.
+Action needed: Developer to update all 7 kindergarten FAQ headings to say
+"Kindergarten" instead of "Childcare."
+
+
+WHAT IS NOT AN ISSUE:
+- "program" (not "programme") — In Australian English, "program" is the accepted
+  spelling for educational and government programs (e.g. ACECQA uses "program").
+  "Programme" is only used for arts/entertainment events. No changes needed.
+- "waitlist" — Accepted spelling in Australian English. No changes needed.
+- "enrolled" / "enrolling" — These are the same in AU and US English (past
+  tense / gerund of "enrol" both use double-L). No changes needed.
+- Footer references to other suburbs (Bull Creek on NSW pages, Oakville on WA
+  pages) — These are the global site footer listing all Flourish ELC centre
+  locations. Expected and correct.
+
+
+================================================================================
+PART 3 — CODING / SEO ISSUES
+================================================================================
+
+ALL PAGES PASS the following checks:
+
+✅ Robots meta tag: Present on all 29 pages (none set to noindex)
+✅ Canonical tags: Present on all 29 pages, all self-referencing correctly
+✅ H1 count: Exactly 1 H1 per page on all 29 pages
+✅ Meta title: Present on all 29 pages
+✅ Meta description: Present on all 29 pages
+✅ Open Graph (og:title, og:description): Present on all 29 pages
+✅ Schema markup: All 29 pages have WebPage + FAQPage schema
+✅ Page status: All 29 pages return HTTP 200
+✅ No pages are accidentally set to noindex or have broken canonical chains
+
+NO CODING ISSUES FOUND.
+
+
+================================================================================
+SUMMARY — ACTION ITEMS FOR DEVELOPER
+================================================================================
+
+Priority | URL                                          | Issue
+---------|----------------------------------------------|-------------------------------
+HIGH     | /kindergarten-rossmoyne-wa/                  | H2 FAQ says "Bull Creek" — change to "Rossmoyne"
+HIGH     | /kindergarten-rossmoyne-wa/                  | Change "Childcare" → "Kindergarten" in FAQ H2
+HIGH     | (all other 6 kindergarten WA pages)          | Change "Childcare" → "Kindergarten" in FAQ H2
+MEDIUM   | /preschool-mulgrave-nsw/                     | CTA button: "Enroll" → "Enrol"
+MEDIUM   | /daycare-childcare-riverstone-nsw/           | Body text: "Flourish Early Centre" → "Flourish Early Learning Centre"
+LOW      | /kindergarten-brentwood-wa/                  | Confirm if H3 "Proving Real Learning..." is intentional
+LOW      | /daycare-childcare-bateman-wa/               | FAQ H2 wording differs from doc (minor, not an error)
+DOC ONLY | Page 5 in source document                    | URL has space "grantham farm" — fix to "grantham-farm" in doc records
+
+================================================================================
+END OF REVIEW
+================================================================================
