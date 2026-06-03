@@ -1,0 +1,380 @@
+WOLLERMAN SHACKLOCK LAWYERS — MELBOURNE KEYWORD RANKINGS AUDIT
+Date: 3 June 2026
+Pages audited: 6 Melbourne target pages
+Platform: Squarespace
+
+Pages in scope:
+  /property-lawyer-melbourne         → property lawyer melbourne, property law specialist melbourne
+  /wills-estate-planning-melbourne   → wills and estates lawyer melbourne, estate planning lawyer
+  /probate-lawyer-melbourne          → probate lawyer melbourne, deceased estate lawyer melbourne
+  /commercial-lawyer-melbourne       → commercial lawyer melbourne, business lawyer melbourne
+  /commercial-lease-lawyer-melbourne → commercial lease lawyer melbourne
+  /conveyancer-melbourne             → conveyancer melbourne
+
+================================================================================
+QUICK SUMMARY — WHY THESE PAGES AREN'T RANKING
+================================================================================
+
+There are 5 root causes working against these pages simultaneously:
+
+1. CRITICAL — Broken internal links with mid-word anchor text (2 pages)
+2. CRITICAL — No LocalBusiness/LegalService schema on any page
+3. HIGH     — Physical location mismatch (Narre Warren vs Melbourne CBD)
+4. HIGH     — No FAQPage schema (despite FAQ sections on 5 of 6 pages)
+5. MEDIUM   — Thin content + no exact keyword phrases in body text
+
+All fixable except #3 (physical location). Details below.
+
+
+================================================================================
+ISSUE 1 — BROKEN INTERNAL LINKS (CRITICAL)
+Pages: /property-lawyer-melbourne, /commercial-lawyer-melbourne
+================================================================================
+
+On the property lawyer Melbourne page, a sentence was pasted from Microsoft
+Word and the internal links are attached to random mid-word fragments:
+
+  ACTUAL HTML:
+  Purcha<a href="property-lawyer-berwick">se and </a>sale
+  <a href="property-lawyer-cranbourne">of residen</a>tial
+  <a href="property-lawyer-narre-warren"> and commerc</a>ial property.
+
+  This creates anchor texts: "se and", "of residen", "and commerc"
+
+On the commercial lawyer Melbourne page:
+  Anchor text: "al soli" → /commercial-lawyer-berwick
+
+These are meaningless anchor texts that:
+  (a) Tell Google nothing about the destination page
+  (b) Signal low-quality content/spam-like behaviour
+  (c) Are classic Word paste artefacts (note: class="MsoNormal" in the HTML)
+
+WHY THIS MATTERS: Google uses anchor text as a relevance signal. Links to
+Berwick/Cranbourne/Narre Warren pages should use suburb names as anchors.
+Broken anchors actively hurt both the source and destination pages.
+
+FIX: Rebuild these internal links in Squarespace using proper anchor text:
+  "Purchase and sale of residential property in Berwick" → /property-lawyer-berwick
+  etc. Never copy-paste from Word with existing hyperlinks.
+
+
+================================================================================
+ISSUE 2 — NO LOCAL BUSINESS SCHEMA ANYWHERE (CRITICAL)
+All 6 pages + homepage
+================================================================================
+
+Every page on the site — including the homepage — has only this schema:
+
+  {
+    "@type": "WebSite",
+    "url": "https://www.wslegal.com.au",
+    "name": "Wollerman Shacklock Lawyers",
+    "description": "",        ← BLANK
+    "image": "..."
+  }
+
+What's missing:
+  ❌ No LocalBusiness or LegalService schema (Google can't understand it's a law firm)
+  ❌ No address, phone, geo coordinates
+  ❌ No opening hours
+  ❌ No service area
+  ❌ Empty description field
+  ❌ No Attorney type schema
+
+This is significant. Every competitor ranking for "commercial lawyer melbourne"
+or "probate lawyer melbourne" will have LegalService or LocalBusiness schema
+specifying their location, service area, and services. Google uses this to
+assess relevance for local searches.
+
+FIX: Add LegalService + LocalBusiness schema via Squarespace Code Injection.
+Suggested schema for each Melbourne page:
+
+  {
+    "@context": "https://schema.org",
+    "@type": ["LegalService", "LocalBusiness"],
+    "name": "Wollerman Shacklock Lawyers",
+    "description": "Specialist property, commercial and estate lawyers serving Melbourne and South-East Victoria.",
+    "url": "https://www.wslegal.com.au",
+    "telephone": "(03) 9707 1155",
+    "email": "admin@wslegal.com.au",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[Street]",
+      "addressLocality": "Narre Warren",
+      "addressRegion": "VIC",
+      "postalCode": "[Postcode]",
+      "addressCountry": "AU"
+    },
+    "areaServed": ["Melbourne", "Casey", "Narre Warren", "Berwick", "Cranbourne"],
+    "priceRange": "Fixed fee",
+    "openingHours": "Mo-Fr 09:00-17:00"
+  }
+
+Note: On Squarespace, add this via Settings → Advanced → Code Injection →
+Page Header (use per-page injection for the Melbourne service pages).
+
+
+================================================================================
+ISSUE 3 — PHYSICAL LOCATION vs. SEARCH INTENT (HIGH — STRUCTURAL)
+All 6 Melbourne pages
+================================================================================
+
+This is the hardest issue and the primary reason for non-rankings.
+
+Wollerman Shacklock is physically located in Narre Warren (SE Melbourne suburbs).
+When a user searches "conveyancer melbourne" or "commercial lawyer melbourne",
+Google's local algorithm heavily favours businesses:
+  (a) With a Melbourne CBD or inner-suburb address on their Google Business Profile
+  (b) With strong Melbourne location signals across the web
+
+Firms ranking for these terms will typically be located in or near the CBD —
+Carlton, Richmond, Southbank, Fitzroy, St Kilda Rd.
+
+Impact per keyword:
+  "conveyancer melbourne"             → High local intent. Very hard without CBD presence.
+  "commercial lawyer melbourne"       → High local intent. Hard.
+  "commercial lease lawyer melbourne" → Moderate. More achievable via content depth.
+  "property lawyer melbourne"         → High local intent. Hard but more achievable via Accreditation authority.
+  "probate lawyer melbourne"          → Moderate. Lower local intent, more informational.
+  "wills and estates lawyer melbourne" → Similar to probate. More achievable.
+
+WHAT TO DO:
+  Option A: Build Melbourne-specific content authority over time (slower, 6-12 months).
+  Option B: If the firm has any Melbourne-area meeting capacity, set up a secondary
+            GBP listing with a serviced office address in Melbourne CBD.
+  Option C: Shift targeting to "south-east melbourne [keyword]" and "casey [keyword]"
+            where competition is lower and the physical proximity works in their favour.
+  Option D: Continue targeting Melbourne but manage client expectations — these terms
+            take 9-18 months to crack without a Melbourne address.
+
+Note: The Casey/Narre Warren-targeted pages (property-lawyer-pakenham,
+property-lawyer-berwick etc.) are more likely to rank quickly and deliver
+actual client enquiries. Don't neglect these for Melbourne chasing.
+
+
+================================================================================
+ISSUE 4 — NO FAQPage SCHEMA (HIGH)
+Pages with FAQ sections: ALL 5 service pages (not conveyancer)
+================================================================================
+
+Five of the six pages have FAQ sections but zero FAQPage schema markup.
+
+Pages with FAQ sections (confirmed):
+  ✓ /property-lawyer-melbourne
+  ✓ /wills-estate-planning-melbourne
+  ✓ /probate-lawyer-melbourne
+  ✓ /commercial-lawyer-melbourne
+  ✓ /commercial-lease-lawyer-melbourne
+  ✗ /conveyancer-melbourne (has FAQ heading, minimal content)
+
+FAQPage rich snippets:
+  - Appear directly in Google SERP (expanded Q&A under the listing)
+  - Significantly increase SERP real estate and CTR
+  - Help Google understand question-based search intent
+  - Especially powerful for law queries ("how much does probate cost melbourne")
+
+FIX: Add FAQPage schema to each page via Code Injection. Example structure:
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does probate cost in Melbourne?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "..."
+        }
+      }
+    ]
+  }
+
+
+================================================================================
+ISSUE 5 — THIN CONTENT + MISSING EXACT KEYWORDS IN BODY (HIGH/MEDIUM)
+================================================================================
+
+WORD COUNT (actual content, not nav/footer):
+  /property-lawyer-melbourne          1,461 words  ← borderline
+  /wills-estate-planning-melbourne    1,374 words  ← borderline
+  /probate-lawyer-melbourne           2,023 words  ✅ OK
+  /commercial-lawyer-melbourne        1,209 words  ❌ THIN
+  /commercial-lease-lawyer-melbourne  1,286 words  ❌ THIN
+  /conveyancer-melbourne              1,178 words  ❌ THIN
+
+Melbourne legal keyword pages typically need 1,800-2,500 words minimum to
+compete. The three thin pages are up against pages from LawPath, Slater &
+Gordon, and established Melbourne firms that have 2,500-4,000 words.
+
+KEYWORD EXACT PHRASE IN BODY (how many times the target keyword appears in the
+main content, excluding title/H1):
+
+  Page                           Keyword                            Count
+  /property-lawyer-melbourne     property lawyer melbourne              2  ✅
+  /property-lawyer-melbourne     property law specialist melbourne      2  ✅
+  /wills-estate-planning-melb    wills and estates lawyer melbourne     1  ⚠️ low
+  /wills-estate-planning-melb    estate planning lawyer                 2  ✅
+  /probate-lawyer-melbourne      probate lawyer melbourne               0  ❌ MISSING
+  /probate-lawyer-melbourne      deceased estate lawyer melbourne       1  ⚠️ low
+  /commercial-lawyer-melbourne   commercial lawyer melbourne            1  ⚠️ low
+  /commercial-lawyer-melbourne   business lawyer melbourne              2  ✅
+  /commercial-lease-lawyer-melb  commercial lease lawyer melbourne      1  ⚠️ low
+  /conveyancer-melbourne         conveyancer melbourne                  2  ⚠️ should be 3-4
+
+CRITICAL: "probate lawyer melbourne" appears ZERO times in the body of the
+probate page. The page title and H1 have it, but the body content never
+uses this exact phrase. This is a significant on-page signal gap.
+
+CONVEYANCER PAGE — STRUCTURAL ISSUES:
+  - 0 H3 tags (completely flat heading structure)
+  - No H3 content hierarchy under any H2
+  - Only 4 in-body internal links (vs 7-11 on other pages)
+  - No location suburb mentions other than "Casey" (3x)
+
+FIX PRIORITIES:
+  1. Add "probate lawyer melbourne" naturally into the probate page body (2-3 times)
+  2. Expand conveyancer page: add H3s, more detail, local suburb references
+  3. Expand commercial lawyer and commercial lease pages to 1,800+ words
+
+
+================================================================================
+ISSUE 6 — SQUARESPACE PLATFORM TECHNICAL ISSUES (MEDIUM)
+All pages
+================================================================================
+
+The site runs on Squarespace, confirmed by server headers and CDN URLs.
+
+ISSUES SQUARESPACE CAUSES:
+  - Page size: 262KB (property lawyer page) — bloated HTML
+  - No Cache-Control headers set (browser caching not configured)
+  - Limited per-page schema without Code Injection workarounds
+  - Core Web Vitals are typically poor on Squarespace (LCP, CLS issues)
+  - No server-side rendering optimisation
+
+WORD PASTE ARTEFACT:
+  The `class="MsoNormal"` on paragraph tags in the property lawyer content
+  confirms content was pasted from Microsoft Word. This injects dirty HTML
+  that can affect rendering and may confuse parsers.
+
+  FIX: Clean up Word-pasted content in Squarespace by pasting into a plain
+  text editor first, then into Squarespace's Rich Text Editor.
+
+
+================================================================================
+PAGE-BY-PAGE SNAPSHOT
+================================================================================
+
+1. /property-lawyer-melbourne
+   Title [55]:    ✅ Property Lawyer Melbourne | Wollerman Shacklock Lawyers
+   H1:            ✅ Property Lawyer Melbourne
+   Meta desc:     ✅ 168 chars — includes keyword and CTA
+   Keywords OK:   ✅ Both target keywords in content
+   FAQPage schema:❌ Missing
+   LegalService:  ❌ Missing
+   Word count:    ⚠️ 1,461 (borderline)
+   Broken links:  ❌ 3 broken internal anchor texts (se and, of residen, and commerc)
+   Melbourne:     12 mentions ✅
+
+2. /wills-estate-planning-melbourne
+   Title [56]:    ✅ Wills and Estates Lawyer Melbourne | Wollerman Shacklock
+   H1:            ✅ Wills and Estates Lawyer Melbourne
+   Meta desc:     ✅ 155 chars
+   Keywords OK:   ⚠️ "wills and estates lawyer melbourne" only 1x in body
+   FAQPage schema:❌ Missing
+   LegalService:  ❌ Missing
+   Word count:    ⚠️ 1,374
+   Melbourne:     12 mentions ✅
+
+3. /probate-lawyer-melbourne
+   Title [54]:    ✅ Probate Lawyer Melbourne | Wollerman Shacklock Lawyers
+   H1:            ✅ Probate & Deceased Estate Lawyer Melbourne
+   Meta desc:     ✅ 152 chars
+   Keywords OK:   ❌ "probate lawyer melbourne" = 0 times in body content
+   FAQPage schema:❌ Missing
+   LegalService:  ❌ Missing
+   Word count:    ✅ 2,023
+   Melbourne:     ⚠️ 9 mentions (lower than others)
+
+4. /commercial-lawyer-melbourne
+   Title [57]:    ✅ Commercial Lawyer Melbourne | Wollerman Shacklock Lawyers
+   H1:            ✅ Commercial Lawyer Melbourne
+   Meta desc:     ✅ 158 chars
+   Keywords OK:   ⚠️ "commercial lawyer melbourne" only 1x in body
+   FAQPage schema:❌ Missing
+   LegalService:  ❌ Missing
+   Word count:    ❌ 1,209 (thin)
+   Broken links:  ❌ 1 broken anchor ("al soli")
+   Melbourne:     11 mentions ✅
+
+5. /commercial-lease-lawyer-melbourne
+   Title [55]:    ✅ Commercial Lease Lawyer Melbourne | Wollerman Shacklock
+   H1:            ✅ Commercial Lease Lawyer Melbourne
+   Meta desc:     ✅ 156 chars
+   Keywords OK:   ⚠️ "commercial lease lawyer melbourne" only 1x in body
+   FAQPage schema:❌ Missing
+   LegalService:  ❌ Missing
+   Word count:    ❌ 1,286 (thin)
+   Melbourne:     12 mentions ✅
+
+6. /conveyancer-melbourne
+   Title [51]:    ✅ Conveyancer Melbourne | Wollerman Shacklock Lawyers
+   H1:            ✅ Conveyancer Melbourne
+   Meta desc:     ✅ 156 chars
+   Keywords OK:   ⚠️ "conveyancer melbourne" only 2x
+   FAQPage schema:❌ Missing (has FAQ section but nearly empty)
+   LegalService:  ❌ Missing
+   Word count:    ❌ 1,178 (thinnest page)
+   H3 tags:       ❌ ZERO H3s
+   Internal links:⚠️ Only 4 in body (others have 7-11)
+   Melbourne:     15 mentions ✅
+
+
+================================================================================
+PRIORITY ACTION LIST
+================================================================================
+
+IMMEDIATE (week 1) — fix before anything else:
+  1. Fix broken anchor texts on /property-lawyer-melbourne (3 broken links)
+     and /commercial-lawyer-melbourne (1 broken link)
+  2. Add "probate lawyer melbourne" into the body text of /probate-lawyer-melbourne
+     (naturally, 2-3 times)
+  3. Add LocalBusiness + LegalService schema via Squarespace Code Injection
+     (applies to all pages — one template, different service types)
+
+SHORT TERM (weeks 2-4):
+  4. Add FAQPage schema to all 5 pages with FAQ sections
+  5. Expand /conveyancer-melbourne: add H3s, expand to 1,800+ words, add suburb
+     references (Berwick, Cranbourne, Narre Warren as the conveyancing catchment)
+  6. Expand /commercial-lawyer-melbourne and /commercial-lease-lawyer-melbourne
+     to 1,800+ words each
+  7. Clean up Word paste artefacts on /property-lawyer-melbourne (MsoNormal classes)
+  8. Increase "wills and estates lawyer melbourne" and "commercial lease lawyer
+     melbourne" mentions in their respective pages to 3-4 occurrences naturally
+
+STRATEGIC (ongoing):
+  9. Google Business Profile — ensure service area includes Melbourne (not just Casey)
+     and all Melbourne suburb categories are listed
+ 10. Build topic authority through blog posts targeting lower-competition Melbourne
+     legal questions (e.g., "how much does probate cost in melbourne",
+     "commercial lease review melbourne", "what does a conveyancer do in victoria")
+ 11. Manage expectations: pure "melbourne" geo terms for a Narre Warren-based firm
+     require 9-18 months of sustained effort. Suburb/SE Melbourne keywords will
+     deliver faster ROI.
+
+================================================================================
+THINGS THAT ARE FINE (no action needed)
+================================================================================
+✅ All 6 pages return HTTP 200 — no redirect issues
+✅ Canonical tags correctly self-referencing on all pages
+✅ All pages in sitemap.xml
+✅ No noindex on any page (robots: index, follow)
+✅ Mobile viewport meta correct on all pages
+✅ All images have alt text (0 images without alt)
+✅ Meta titles: all 51-57 chars (well within limit)
+✅ Meta descriptions: all 152-168 chars (good)
+✅ Melbourne pages in site nav (confirmed in main navigation)
+✅ Blog sidebar links to Melbourne pages (good internal link flow)
+
+================================================================================
+END OF AUDIT
+================================================================================
