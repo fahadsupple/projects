@@ -385,3 +385,41 @@ The theme migration (Action #1) is the single action that will have the biggest 
 ---
 
 *Audit conducted: 5 June 2026 | triplejfurniture.com.au*
+
+---
+
+## BACKLINKS & AUTHORITY
+
+*Source: Ahrefs April 2026 (from client memory file)*
+
+| Metric | Value |
+|--------|-------|
+| Domain Rating (DR) | 8 |
+| Ranking keywords | 84 |
+| Estimated monthly traffic | 211 |
+
+### Assessment
+
+**DR 8 is workable but tight.** The keyword strategy correctly accounts for this by targeting:
+- Local SERPs where boutique specialists (DR 15–30) hold positions 1–5
+- Material/style sub-categories that national chains (DR 60–80) don't have dedicated pages for
+
+The strategy fails if any target SERP moves chain-heavy before rankings are earned. At DR 8:
+- KD 0–10: winnable within 3–6 months with good on-page
+- KD 11–20: 6–12 months, requires some link acquisition
+- KD 20+: unlikely within 12 months without active link building
+
+### Top Link Building Opportunities (by ease + relevance)
+
+1. **Local Sydney business directories** — True Local, Yellow Pages, Yelp AU, StartLocal — free citations that also improve local entity signals
+2. **Interior design + home décor blogs** — Guest posts or product features on Australian interior design blogs (e.g., The Interiors Addict, Hunting for George blog) targeting DR 25–40 sites
+3. **Google Business Profile** (GBP) — if not already claimed, this is the single highest-impact free action for local authority
+4. **Product PR** — Pitch marble/travertine coffee table collections to home decor media (Domain, Houzz AU, realestate.com.au Home) — material-specific furniture content gets editorial coverage
+5. **Supplier/manufacturer links** — Any furniture brands stocked should link back from their "stockists" pages
+
+### Competitive DR Gap
+
+SERP competitors on target keywords (Sydney Furniture Factory, Known for Lounges, Monster Furniture, Glicks) are estimated DR 15–35. Triple J needs to close from DR 8 to DR 20+ to compete consistently. This requires ~30–50 quality referring domains.
+
+---
+
