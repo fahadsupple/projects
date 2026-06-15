@@ -51,3 +51,4 @@
 - [foodistribute.com.au](project_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
 - [leffler.com.au](../clients/leffler.com.au/memory/client_leffler.md) — H. Leffler & Son, wholesale leather & craft supplier, West Melbourne, 9,500+ lines, meta descriptions written May 2026
 - [brewerschoice.net.au](../clients/brewerschoice.net.au/memory/client_brewerschoice.md) — Brewers Choice Home Brew Supplies, Bayswater physical store + ecommerce, 15G+10L, kwr:init complete 12 May 2026
+- [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026
