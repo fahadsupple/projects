@@ -60,30 +60,64 @@ type: project
 3. Site-experienced project managers
 4. Tier 1 manufacturers only (incl. Sunman eARC lightweight panels)
 5. ISO 45001:2018 (OHS) + ISO 9001:2016 (Quality)
-6. Top 5 C&I Solar Retailer nationally
-7. 55MW+ delivered
-8. 10-year workmanship warranty
+6. Top 3 C&I Solar Retailer nationally (2025)
+7. 100MW+ delivered
+8. **5-year workmanship warranty** (NOTE: previously noted as 10-year — approved content and live pages confirm 5-year)
 9. 1,800+ pricing quotations completed
 10. Notable project: Sydney Art Gallery Extension (300kW, with Richard Crookes)
+11. Tip Top Bakery Chullora — 2,018kW system (largest in baking industry)
+12. 22.5% average annual ROI on systems
 
 ## Certifications
 - NSW Electrical Contractor Licence: 279520C
-- QLD Electrical Contractor Licence: 79103
+- QLD Electrical Contractor Licence: 91482
 - SA Electrical Contractor Licence: PGE 335943
 - Clean Energy Council — Member
 - All subcontractors CEC accredited
 - Master Electricians of Australia — Member
-- New Energy Tech Approved Seller
+- New Energy Tech Approved Seller (NETCC)
 - ISO 9001:2016 | ISO 45001:2018
 
 ## Competitors
 | Competitor | Domain | Notes |
 |------------|--------|-------|
-| Smart Commercial Energy | smartcommercialenergy.com.au | BDM + client mentioned — primary direct competitor, DR rank 241 (weaker than Energus at rank 185) |
-| AGL (commercial solar) | agl.com.au | Large energy retailer — national brand but not a C&I specialist |
-| Todae Solar | todaesolar.com.au | C&I solar specialist — ranks for several service terms |
+| Smart Commercial Energy | smartcommercialenergy.com.au | BDM + client mentioned — primary direct competitor |
+| AGL (commercial solar) | agl.com.au | Large energy retailer — national brand |
+| Todae Solar | todaesolar.com.au | C&I solar specialist |
 | TSP Energy | — | Client-mentioned |
-| Kuga | 13kuga.com.au | Client-mentioned — ranks for Melbourne commercial solar terms |
+| Kuga | 13kuga.com.au | Client-mentioned |
+
+## Deployed Content — Approved Docx (42 pages)
+
+### URL Structure Used in Production
+Pages were deployed with flat URL structure (not the nested `/commercial-solar/[city]/` structure from the original keyword plan):
+
+**15 Core Service Pages:**
+- 5× Commercial Solar: `/commercial-solar-[city]/` (Sydney, Melbourne, Brisbane, Adelaide, Gold Coast)
+- 5× Industrial Solar: `/industrial-solar-[city]/` (Sydney, Melbourne, Brisbane, Adelaide, Gold Coast)
+- 5× Battery Storage: `/commercial-battery-storage-[city]/` (Sydney, Melbourne, Brisbane, Adelaide, Gold Coast)
+
+**20 Location Pages (city-level):**
+NSW: Wetherill Park, Newcastle, Wollongong, Wagga Wagga, Albury, Penrith  
+QLD: Yatala, Townsville, Cairns, Mackay, Toowoomba, Gladstone, Sunshine Coast, Bundaberg  
+VIC: Geelong, Dandenong, Shepparton, Ballarat  
+SA: Whyalla, Mount Gambier
+
+**4 State Pages:** `/commercial-solar-victoria/`, `/commercial-solar-new-south-wales/`, `/commercial-solar-queensland/`, `/commercial-solar-south-australia/`
+
+**3 Other Pages:** `/locations/` (commercial solar near me), `/` (homepage), `/earc-solar-skin/`
+
+### Content Verification Status (2026-06-24)
+See full report: `clients/energus.com.au/content-review/content-verification-2026-06-24.md`
+
+**Summary:**
+- 39 of 42 pages: ✅ Correctly deployed (meta tags, H1 all match approved docx)
+- 3 pages with outstanding issues:
+  1. **Homepage (`/`)**: NOT deployed — old meta title, old H1, old body content
+  2. **`/locations/`**: Meta title wrong (shows "Locations"), meta description missing
+  3. **`/earc-solar-skin/`**: Meta title + meta desc not updated from old values
+- 1 docx typo deployed: Battery Melbourne meta title missing space before pipe character
+- 1 pre-existing issue: Template H3 says "10 YEAR WORKMANSHIP WARRANTY" — contradicts body text "5-year workmanship warranty"
 
 ## Final Keyword Plan — Summary
 
@@ -102,49 +136,15 @@ type: project
 | G9 | /commercial-solar-installer/ | commercial solar installer | 320 | $38.72 | EXISTS — optimise |
 | G10 | /industrial-solar/ | industrial solar panels | 170 | $30.33 | NEW URL (301 from /industrial_solar_energy/) |
 
-### Location Pages (20) — regional & industrial cities
-
-| # | City | State | URL | Primary Keyword | Vol |
-|---|------|-------|-----|----------------|-----|
-| L1 | Gold Coast | QLD | /commercial-solar/gold-coast/ | commercial solar gold coast | 90 |
-| L2 | Sunshine Coast | QLD | /commercial-solar/sunshine-coast/ | commercial solar sunshine coast | 70 |
-| L3 | Newcastle | NSW | /commercial-solar/newcastle/ | commercial solar newcastle | 30 |
-| L4 | Townsville | QLD | /commercial-solar/townsville/ | commercial solar townsville | 20 |
-| L5 | Cairns | QLD | /commercial-solar/cairns/ | commercial solar cairns | 20 |
-| L6 | Mackay | QLD | /commercial-solar/mackay/ | commercial solar mackay | 20 |
-| L7 | Geelong | VIC | /commercial-solar/geelong/ | commercial solar geelong | 10 |
-| L8 | Central Coast | NSW | /commercial-solar/central-coast/ | commercial solar central coast | 10 |
-| L9 | Penrith | NSW | /commercial-solar/penrith/ | commercial solar penrith | 10 |
-| L10 | Albury | NSW | /commercial-solar/albury/ | commercial solar albury | 10 |
-| L11 | Bundaberg | QLD | /commercial-solar/bundaberg/ | commercial solar bundaberg | 10 |
-| L12 | Toowoomba | QLD | /commercial-solar/toowoomba/ | commercial solar toowoomba | 0 |
-| L13 | Wollongong | NSW | /commercial-solar/wollongong/ | commercial solar wollongong | 0 |
-| L14 | Ballarat | VIC | /commercial-solar/ballarat/ | commercial solar ballarat | 0 |
-| L15 | Bendigo | VIC | /commercial-solar/bendigo/ | commercial solar bendigo | 0 |
-| L16 | Whyalla | SA | /commercial-solar/whyalla/ | commercial solar whyalla | 0 |
-| L17 | Port Augusta | SA | /commercial-solar/port-augusta/ | commercial solar port augusta | 0 |
-| L18 | Gladstone | QLD | /commercial-solar/gladstone/ | commercial solar gladstone | 0 |
-| L19 | Ipswich | QLD | /commercial-solar/ipswich/ | commercial solar ipswich | 0 |
-| L20 | Rockhampton | QLD | /commercial-solar/rockhampton/ | commercial solar rockhampton | 0 |
-
-### Key Technical Issues (Urgent)
-1. `/industrial_solar_energy/` — underscore URL → create `/industrial-solar/` + 301 redirect
-2. Battery page cannibalisation — `/battery/`, `/battery-for-business/`, `/commercial-battery-installer/` → consolidate to `/battery-storage/` + 301 all three
-3. `/commercial-solar-panels/` title tag — remove NSW-specific language, update to national scope
-4. `/locations/nsw/`, `/locations/qld/`, `/locations/vic/` — noindex before building new city pages
-
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
-- **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run, keywords.json generated)
-- **HTML deliverable:** COMPLETE v4 — 14 May 2026 (35 client-finalised keyword pages: 15 capital city + 20 regional; v3 had 13G+15L general/location split)
-  - v4 architecture: 15 capital city pages (5 commercial solar + 5 industrial solar + 5 battery storage, all 5 capitals) + 20 regional pages (NSW 6, QLD 8, VIC 4, SA 2)
-  - Industrial solar [city] confirmed strategic zeros — approved as GBP-signal pages, each carrying "industrial solar panels" (210/mo national) as secondary
-  - Battery primary root changed to "commercial battery storage [city]" per client instruction; "battery storage [city]" retained as secondary
-  - Gold Coast elevated from regional to capital city tier (90/mo primary)
-- **Rankings check:** NOT STARTED — to be requested when client begins SEO implementation
+- **KWR pipeline:** Complete — 28 Apr 2026
+- **HTML deliverable:** COMPLETE v4 — 14 May 2026
+- **Content deployment:** 42 pages approved and deployed (39/42 correctly, 3 outstanding — see above)
+- **Content verification:** COMPLETE — 2026-06-24
 
 ## File Paths
 - Questionnaire: `clients/energus.com.au/keyword-research/questionnaire.md`
 - HTML keyword plan: `clients/energus.com.au/keyword-research/keyword-plan.html`
-- Pipeline report (machine-generated): `clients/energus.com.au/keyword-research/report.html`
-- Research data: `/home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/energus.com.au/research/v1/`
+- Pipeline report: `clients/energus.com.au/keyword-research/report.html`
+- Content verification report: `clients/energus.com.au/content-review/content-verification-2026-06-24.md`

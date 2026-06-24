@@ -1,6 +1,6 @@
 ---
 name: energus.com.au client profile
-description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research v3 complete May 2026
+description: Energus Pty Ltd — commercial solar & BESS, B2B only, NSW/QLD/VIC/SA, keyword research v3 complete May 2026, content verification complete Jun 2026
 type: project
 originSessionId: 4119d043-25e3-4b90-b150-4ec41c6634de
 ---
@@ -48,7 +48,11 @@ originSessionId: 4119d043-25e3-4b90-b150-4ec41c6634de
 5. Energy consultants
 
 ## Geographic Scope
-**Client-specified cities (v3):** Sydney, Melbourne, Brisbane, Adelaide, Newcastle/Hunter Valley, Wollongong, Wetherill Park (NSW industrial), Dandenong South (VIC industrial), Townsville (QLD), Yatala (QLD industrial)
+**State-level, not suburb-level.** Capital city level targeting.
+- NSW → Sydney + regional cities (Newcastle, Wollongong, Wagga Wagga, Albury, Penrith, Wetherill Park)
+- QLD → Brisbane + regional (Gold Coast, Yatala, Townsville, Cairns, Mackay, Toowoomba, Gladstone, Sunshine Coast, Bundaberg)
+- VIC → Melbourne + regional (Geelong, Dandenong, Shepparton, Ballarat)
+- SA → Adelaide + regional (Whyalla, Mount Gambier)
 
 ## USPs (Keyword Research Relevant)
 1. End-to-end service (design → install → monitoring)
@@ -56,98 +60,78 @@ originSessionId: 4119d043-25e3-4b90-b150-4ec41c6634de
 3. Site-experienced project managers
 4. Tier 1 manufacturers only (incl. Sunman eARC lightweight panels)
 5. ISO 45001:2018 (OHS) + ISO 9001:2016 (Quality)
-6. Top 5 C&I Solar Retailer nationally
-7. 55MW+ delivered
-8. 10-year workmanship warranty
+6. Top 3 C&I Solar Retailer nationally (2025)
+7. 100MW+ delivered
+8. **5-year workmanship warranty** (body text / approved content — template shows 10 year, pre-existing error)
 9. 1,800+ pricing quotations completed
 10. Notable project: Sydney Art Gallery Extension (300kW, with Richard Crookes)
+11. Tip Top Bakery Chullora — 2,018kW system (one of the largest in the baking industry)
+12. 22.5% average annual ROI on systems
 
 ## Certifications
 - NSW Electrical Contractor Licence: 279520C
-- QLD Electrical Contractor Licence: 79103
+- QLD Electrical Contractor Licence: 91482
 - SA Electrical Contractor Licence: PGE 335943
 - Clean Energy Council — Member
 - All subcontractors CEC accredited
 - Master Electricians of Australia — Member
-- New Energy Tech Approved Seller
+- New Energy Tech Approved Seller (NETCC)
 - ISO 9001:2016 | ISO 45001:2018
 
 ## Competitors (DataForSEO metrics pulled May 2026)
 | Competitor | Domain | Ranked KWs | ETV | Traffic Value | Notes |
 |------------|--------|-----------|-----|--------------|-------|
-| Kuga | 13kuga.com.au | 112 | 1,151/mo | $29,714/mo | Strongest competitor — owns top solar terms |
-| Smart Commercial Energy | smartcommercialenergy.com.au | 357 | 1,173/mo | $17,059/mo | More keywords but lower-value traffic |
+| Kuga | 13kuga.com.au | 112 | 1,151/mo | $29,714/mo | Strongest competitor |
+| Smart Commercial Energy | smartcommercialenergy.com.au | 357 | 1,173/mo | $17,059/mo | More keywords but lower-value |
 | Todae Solar | todaesolar.com.au | 40 | 73/mo | — | Thin SEO presence |
 | Energus current | energus.com.au | 33 | 71/mo | — | Significant gap vs. competitors |
 
-**Keyword gaps no competitor owns:** battery storage terms, solar finance, industrial solar specifically
-**Kuga weakness:** no battery storage content, no finance content — immediate opportunity for Energus
+## Content — Approved Docx Deployment (42 pages)
+
+### URL Structure Actually Used in Production (flat, not nested)
+- 5× Commercial Solar: `/commercial-solar-[city]/`
+- 5× Industrial Solar: `/industrial-solar-[city]/`
+- 5× Battery Storage: `/commercial-battery-storage-[city]/`
+- 20× Location pages: `/commercial-solar-[city-name]/` (flat)
+- 4× State pages: `/commercial-solar-victoria/` etc.
+- `/locations/`, `/` (homepage), `/earc-solar-skin/`
+
+### Verification Status (2026-06-24)
+Full report: `clients/energus.com.au/content-review/content-verification-2026-06-24.md`
+
+- **39/42 pages:** Correctly deployed ✅
+- **3 pages outstanding:**
+  1. Homepage `/`: NOT deployed — old meta title/H1/body content still live
+  2. `/locations/`: Wrong meta title, empty meta description
+  3. `/earc-solar-skin/`: Meta title + meta desc not updated
+- **1 docx typo:** Battery Melbourne title missing space before pipe
+- **1 pre-existing issue:** Template H3 "10 YEAR WORKMANSHIP WARRANTY" contradicts "5-year workmanship warranty" body text
 
 ## Final Keyword Plan — v3 Summary (7 May 2026)
 **Structure: 13 General + 15 Location = 28 pages total**
 
-### Why 13 not 15 general pages
-Client requested 15G+15L. Research produced 13 distinct service pages — each confirmed as a separate search intent cluster by live SERP check. Pages weren't padded to hit 15 because same-intent pages cannibalise each other and dilute authority.
+See full plan: `clients/energus.com.au/keyword-research/keyword-plan.html`
 
-### General Pages (13 service pages — national keywords)
-**Tier 1 — Core Commercial Solar**
-| # | URL | Primary Keyword | Vol | CPC |
-|---|-----|----------------|-----|-----|
-| G1 | /commercial-solar-panels/ | commercial solar panels | 880/mo | $37.97 |
-| G2 | /commercial-solar-power/ | commercial solar power | 880/mo | $37.97 |
-| G3 | /commercial-solar-systems/ | commercial solar system | 720/mo | $39.13 |
-
-**Tier 1 — Battery & Energy Storage**
-| # | URL | Primary Keyword | Vol | CPC |
-|---|-----|----------------|-----|-----|
-| G4 | /battery-storage/ | battery energy storage system australia | 1,000/mo | $5.27 |
-| G5 | /commercial-battery-storage/ | commercial battery storage | 70/mo | $10.68 |
-
-**Tier 2 — Installer & Business Audience**
-| # | URL | Primary Keyword | Vol | CPC |
-|---|-----|----------------|-----|-----|
-| G6 | /commercial-solar-installer/ | commercial solar installer | 320/mo | $38.72 |
-| G7 | /solar-for-business/ | solar for business | 320/mo | $40.99 |
-| G8 | /commercial-solar/ | commercial solar company | 260/mo | $14.49 |
-
-**Tier 3 — Industrial & Specialist**
-| # | URL | Primary Keyword | Vol | CPC |
-|---|-----|----------------|-----|-----|
-| G9 | /industrial-solar/ | industrial solar | 170/mo | $30.33 |
-| G10 | /commercial-solar-finance/ | commercial solar finance | 50/mo | $12.15 |
-
-**Tier 4 — Supporting Service Pages**
-| # | URL | Primary Keyword | Vol | CPC |
-|---|-----|----------------|-----|-----|
-| G11 | /commercial-solar-maintenance/ | commercial solar maintenance | 40/mo | — |
-| G12 | /commercial-solar-contractors/ | commercial solar contractors | 30/mo | — |
-| G13 | /commercial-solar-quote/ | commercial solar quote | 10/mo | — |
-
-### Location Pages (15 pages)
-**10 Commercial Solar city pages:**
-Sydney (140/mo), Melbourne (260/mo), Brisbane (260/mo), Adelaide (210/mo), Newcastle/Hunter (30/mo), Wollongong (0/mo), Wetherill Park (0/mo), Dandenong South (0/mo), Townsville (20/mo), Yatala (0/mo)
-
-**5 Battery Storage city pages:**
-Sydney battery (10/mo), Melbourne battery (10/mo), Brisbane battery (20/mo), Adelaide battery (40/mo), Townsville battery (10/mo)
-
-### Top keyword: battery energy storage system australia — 1,000/mo (highest in plan)
-### Highest CPC: solar for business — $40.99 (B2B buyer intent signal)
-
-### Key Technical Issues (Urgent)
-1. `/industrial_solar_energy/` — underscore URL → create `/industrial-solar/` + 301 redirect
-2. Battery page cannibalisation — `/battery/`, `/battery-for-business/`, `/commercial-battery-installer/` → consolidate to `/battery-storage/` + 301 all three
-3. `/commercial-solar-panels/` title tag — remove NSW-specific language, update to national scope
-4. `/locations/nsw/`, `/locations/qld/`, `/locations/vic/` — noindex before building new city pages
+### Top Keywords
+| URL | Primary Keyword | Vol |
+|-----|----------------|-----|
+| /battery-storage/ | battery energy storage system australia | 1,000/mo |
+| /commercial-solar-panels/ | commercial solar panels | 880/mo |
+| /commercial-solar-power/ | commercial solar power | 880/mo |
+| /commercial-solar-systems/ | commercial solar system | 720/mo |
+| /commercial-solar-installer/ | commercial solar installer | 320/mo |
+| /solar-for-business/ | solar for business | 320/mo |
 
 ## Status
 - **kwr:init:** Complete — 28 Apr 2026
-- **KWR pipeline:** Complete — 28 Apr 2026 (phases 1–5 all run)
-- **HTML deliverable v2:** Complete — 30 Apr 2026 (10G+20L structure)
-- **HTML deliverable v3:** Complete — 7 May 2026 (13G+15L, client feedback addressed, competitor analysis + AEO added)
+- **KWR pipeline:** Complete — 28 Apr 2026
+- **HTML deliverable v3:** Complete — 7 May 2026
+- **Content deployment:** 42 pages approved and deployed (39/42 correct, 3 outstanding)
+- **Content verification:** COMPLETE — 2026-06-24
 - **Rankings check:** NOT STARTED
 
 ## File Paths
 - Questionnaire: `clients/energus.com.au/keyword-research/questionnaire.md`
 - HTML keyword plan: `clients/energus.com.au/keyword-research/keyword-plan.html`
-- Pipeline report (machine-generated): `clients/energus.com.au/keyword-research/report.html`
+- Content verification report: `clients/energus.com.au/content-review/content-verification-2026-06-24.md`
 - Research data: `/home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/energus.com.au/research/v1/`
