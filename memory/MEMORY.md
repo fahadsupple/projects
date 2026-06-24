@@ -52,3 +52,4 @@
 - [leffler.com.au](../clients/leffler.com.au/memory/client_leffler.md) — H. Leffler & Son, wholesale leather & craft supplier, West Melbourne, 9,500+ lines, meta descriptions written May 2026
 - [brewerschoice.net.au](../clients/brewerschoice.net.au/memory/client_brewerschoice.md) — Brewers Choice Home Brew Supplies, Bayswater physical store + ecommerce, 15G+10L, kwr:init complete 12 May 2026
 - [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026
+- [thecakepeople.au](../clients/thecakepeople.au/memory/client_thecakepeople.md) — The Cake People, 100% plant-based celebration cakes Shopify ecommerce, Keilor Park VIC + Melbourne-wide delivery, 30G+0L, full pipeline complete 2026-06-23, report ready for delivery

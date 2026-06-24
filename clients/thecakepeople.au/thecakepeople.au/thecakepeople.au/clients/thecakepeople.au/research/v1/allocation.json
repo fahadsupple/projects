@@ -1,0 +1,168 @@
+{
+  "version": "0.7.1",
+  "client": "thecakepeople.au",
+  "approved_at_utc": "2026-06-23T02:49:56Z",
+  "approved_by": "analyst via /kwr:run Phase 0 AskUserQuestion (Character cakes = Traffic-led: include trademarked)",
+  "package": {
+    "general_keywords": 30,
+    "location_keywords": 0,
+    "total_keywords": 30,
+    "keyword_type": "general_only",
+    "mode": "fresh",
+    "business_type": "ecommerce",
+    "carries_third_party_brands": true,
+    "target_states": [
+      "VIC"
+    ],
+    "target_states_status_for_this_run": "INERT for general_only — documented but does not filter the general pool; Phase 2 suburb discovery SKIPPED. City-level 'Melbourne' terms ride the general bucket.",
+    "secondary_states": []
+  },
+  "strategic_directive": "Traffic-led 30 general keywords: (1) capture the proven character/licensed-cake quick-wins (the conversion engine, pos 4-15 on thousands of impressions), (2) CLOSE the dietary-USP gap (vegan/gluten-free/dairy-free cakes melbourne rank page 3-6 despite being the brand's core differentiator), (3) own the Melbourne category heads the client asked for (Q13). Conversions are poor + client ranks well → quick-wins prioritised.",
+  "directive_source": "BDM brief + analyst Phase 0 decision 2026-06-23 (traffic-led character override)",
+  "business_context": {
+    "name": "The Cake People",
+    "domain": "thecakepeople.au",
+    "business_type": "ecommerce",
+    "client_da": 0,
+    "hq": "13/74 Thomsons Rd, Keilor Park VIC 3042 (Shopify, Melbourne-wide delivery + Click & Collect)",
+    "google_reviews": null,
+    "founded": "2014 (formerly The Compassionate Kitchen)",
+    "brand_identity": "Award-winning 100% plant-based / allergen-friendly custom celebration cakes",
+    "key_finding": "BRAND IDENTITY != ORGANIC TRAFFIC. Actual GSC engine = character/licensed cakes + milestone birthday collections; dietary-USP terms rank page 3-6 (vegan cakes melbourne #28/720mo, gluten free cakes melbourne #38/880mo) = biggest strategic gap. See raw/phase0-gsc-synthesis.json.",
+    "geographic_posture": "Melbourne metro delivery + Keilor Park C&C; general_only (no suburb grid).",
+    "competitive_landscape_summary": "Established Shopify store w/ strong character-cake organic presence (homepage 75,607 imp/90d; kpop demon hunters page 22,106 imp pos 5.9). Seed competitors: foodvoyageur.com, ruwiscakes.com.au, brunettioro.com.au, cheesecake.com.au, fergusonplarre.com.au."
+  },
+  "tier_budgets": {
+    "A": 60,
+    "B": 25,
+    "C": 15,
+    "D": 0
+  },
+  "tier_budgets_note": "Data-driven deviation from default 50/30/20: GSC demand is concentrated across THREE primary clusters (character quick-wins + milestone + dietary-USP gap), so Tier A is weighted up. Documented per Operating Mandate principle 5 (data-driven).",
+  "tier_descriptions": {
+    "A": "Proven-demand + strategic core: character/licensed quick-wins (traffic engine), milestone birthday collections (defensible quick-wins), dietary free-from (USP gap to close).",
+    "B": "Melbourne category heads (client Q13 asks: birthday/custom/celebration/delivery cakes melbourne) — high value, currently page 2-3.",
+    "C": "Specialty styles & formats: vintage, edible-image, gender reveal, cupcakes, number/3D, toppers, local (Keilor Park/Tullamarine)."
+  },
+  "silos": [
+    {
+      "id": "silo_1_character_licensed",
+      "name": "Character & Licensed Cakes",
+      "tier": "A",
+      "budget": 9,
+      "track_lean": "quick_wins",
+      "ip_note": "TRADEMARKED terms — included per analyst TRAFFIC-LED override (carries_third_party_brands flipped true). The conversion engine.",
+      "scope": "3D character / movie / TV / gaming / sport / pop-culture cakes",
+      "existing_surface_evidence": "/products/* (kpop-demon-hunters, lightning-mcqueen, hot-wheels, ronaldo, barbie, etc.)",
+      "anchor_quick_wins_observed": [
+        "kpop demon hunters cake (pos 4.1, 3552 imp)",
+        "barbie cake (6.9, 3941)",
+        "hot wheels cake (5.2, 2576)",
+        "lightning mcqueen cake (4.9, 2145)",
+        "ronaldo cake (5.3, 2559)",
+        "peppa pig cake (6.4, 2481)",
+        "roblox cake (8.0, 2548)",
+        "minecraft cake (12.1, 2566 — striking distance)",
+        "super mario cake (17.0, 963 — page 2)"
+      ],
+      "silo_id": "silo_1_character_licensed"
+    },
+    {
+      "id": "silo_2_milestone_birthday",
+      "name": "Milestone & Birthday Cakes",
+      "tier": "A",
+      "budget": 6,
+      "track_lean": "quick_wins",
+      "scope": "Age-milestone & occasion birthday collections (defensible, generic)",
+      "existing_surface_evidence": "/collections/{16th,30th,40th,60th,70th,80th-90th-100th,1st,18th,kids}-birthday-cakes",
+      "anchor_quick_wins_observed": [
+        "60th birthday cake (7.6, 1330)",
+        "16th birthday cake (9.0, 2360)",
+        "21st birthday cake (10.6, 1237)",
+        "30th birthday cake (7.1, 862)",
+        "70th birthday cake (8.0, 996)",
+        "40th birthday cake (8.7, 815)",
+        "kids birthday cakes (18.5, 635)"
+      ],
+      "silo_id": "silo_2_milestone_birthday"
+    },
+    {
+      "id": "silo_3_dietary_free_from",
+      "name": "Dietary & Free-From Cakes (USP gap)",
+      "tier": "A",
+      "budget": 6,
+      "track_lean": "existing_page_optimisation",
+      "scope": "Vegan / gluten-free / dairy-free / sugar-free / egg-free — the brand differentiator, ranking page 3-6",
+      "existing_surface_evidence": "/collections/{vegan-cakes (pos 15.5),vegan-gluten-free-cakes (16.9),sugar-free-cakes (12.5)}",
+      "anchor_quick_wins_observed": [
+        "vegan cakes melbourne (28.1, vol 720)",
+        "gluten free cakes melbourne (38.4, vol 880)",
+        "sugar free cakes melbourne (13.6)",
+        "dairy free cakes melbourne (15.7)",
+        "eggless cakes near me (43.6)"
+      ],
+      "silo_id": "silo_3_dietary_free_from"
+    },
+    {
+      "id": "silo_4_melbourne_heads",
+      "name": "Melbourne Category Heads (client Q13)",
+      "tier": "B",
+      "budget": 6,
+      "track_lean": "category_gap_fill",
+      "scope": "High-value Melbourne-qualified category heads the client explicitly requested",
+      "existing_surface_evidence": "/collections/{birthday-cakes (pos 9.6),celebration-cakes (13.2),signature-celebration-cakes (18.9)}",
+      "anchor_quick_wins_observed": [
+        "birthday cakes melbourne (19.5, vol 2900)",
+        "cake delivery melbourne (vol 1900)",
+        "custom cakes melbourne (vol 1000)",
+        "celebration cakes melbourne (16.7, vol 170)",
+        "same day cake delivery melbourne (vol 390)",
+        "best birthday cakes melbourne (18.3, vol 720)"
+      ],
+      "silo_id": "silo_4_melbourne_heads"
+    },
+    {
+      "id": "silo_5_specialty_formats",
+      "name": "Specialty Styles & Formats",
+      "tier": "C",
+      "budget": 3,
+      "track_lean": "category_gap_fill",
+      "scope": "Vintage, edible-image, gender reveal, cupcakes, number/3D, toppers, local",
+      "existing_surface_evidence": "/collections/{vintage-cake (15.7),edible-image-cake (19.9),custom-acrylic-cake-toppers}",
+      "anchor_quick_wins_observed": [
+        "vintage cakes melbourne (19.0, vol 480)",
+        "edible image cakes (collection 19.9)",
+        "gender reveal cake (25.6)",
+        "cupcakes melbourne"
+      ],
+      "silo_id": "silo_5_specialty_formats"
+    }
+  ],
+  "tracks": {
+    "quick_wins": {
+      "budget_pct": 45,
+      "eligibility": "gsc.position IN [4,15] AND gsc.impressions>=50",
+      "available": true,
+      "note": "GSC IS connected (fresh client w/ established site) → quick_wins UNLOCKED. Character + milestone silos are mostly here."
+    },
+    "existing_page_optimisation": {
+      "budget_pct": 25,
+      "eligibility": "collection/product page exists AND ranks page 2-3 AND not already quick_win",
+      "note": "Dietary collections (pos 15-17) + some heads."
+    },
+    "category_gap_fill": {
+      "budget_pct": 30,
+      "eligibility": "demand-validated head with weak/no optimised page",
+      "note": "Melbourne heads + specialty."
+    },
+    "geo_expansion": {
+      "budget_pct": 0,
+      "eligibility": "N/A — general_only, no suburb grid",
+      "available": false
+    }
+  },
+  "default_exclusions": {
+    "brand_defence": "STRIP — 'the cake people','cake people','compassionate kitchen' → reputation/AI-overview track (include_brand_defence=false)",
+    "near_me": "KEPT ELIGIBLE — include_near_me=true (client listed 'cakes near me'); competes on merit in Phase 5"
+  }
+}

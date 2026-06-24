@@ -1,0 +1,36 @@
+{
+  "domain": "thecakepeople.au",
+  "mode": "fresh",
+  "business_type": "ecommerce",
+  "keyword_type": "general_only",
+  "general_keywords": 30,
+  "location_keywords": 0,
+  "total_keywords": 30,
+  "carries_third_party_brands": true,
+  "client_da": 17,
+  "primary_cities": [
+    "Melbourne"
+  ],
+  "include_near_me": true,
+  "include_brand_defence": false,
+  "target_states": [
+    "VIC"
+  ],
+  "secondary_states": [],
+  "seed_competitors": [
+    "foodvoyageur.com",
+    "ruwiscakes.com.au",
+    "brunettioro.com.au",
+    "cheesecake.com.au",
+    "fergusonplarre.com.au"
+  ],
+  "analyst_directive": "Fresh ecommerce KWR — 30 general keywords (0 location). Client already ranks well and we have GSC access: prioritise analysing GSC for QUICK WINS (position 5-20 / page-2 terms pushable onto page 1) since conversions are poor and SEO needs to improve. City-level 'Melbourne' cake terms ride the general bucket; no suburb grid. Do not strip the client's preferred head terms (cakes melbourne, celebration cakes, custom cakes melbourne, vegan/gluten-free/dairy-free cakes melbourne, cakes near me) — they are the strategic spine.",
+  "_quick_wins_focus": "BDM + request brief flag GSC quick-wins as the highest-value lever. Phase 4 (gap-agent) must read GSC and surface existing page-2 rankings as quick-win candidates. Deadline 2026-06-24.",
+  "_bare_keyword_policy_note": "Set permissive 2026-06-23 (Phase 5): analyst TRAFFIC-LED decision includes bare character terms (barbie cake, ronaldo cake) which GSC proves rank page 1 (pos 4-7); DA=17 is a conservative DataForSEO proxy that understates real ranking strength (homepage 75k imp/90d, #1 brand). Overrides the data-driven default to avoid the bare-term gate stripping the analyst's chosen quick-wins.",
+  "_notes": "fresh mode -> no seranking_site_id (no existing tracked package). Physical store + Click & Collect at Keilor Park noted but SEO treatment is ecommerce/general-only per analyst confirmation 2026-06-23.",
+  "gsc_site_url": "https://www.thecakepeople.au/",
+  "_character_cakes_decision": "Analyst 2026-06-23 chose TRAFFIC-LED via /kwr:run Phase 0 AskUserQuestion: include trademarked character/licensed-cake quick-wins (overrides init carries_third_party_brands=false). Rationale: they are the proven conversion engine (pos 4-15, thousands of impressions) and BDM mandate is conversions-bad/find-quick-wins.",
+  "bare_keyword_policy": {
+    "mode": "permissive"
+  }
+}

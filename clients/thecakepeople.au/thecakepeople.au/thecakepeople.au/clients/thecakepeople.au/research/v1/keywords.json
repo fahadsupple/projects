@@ -1,0 +1,1971 @@
+{
+  "metadata": {
+    "client": "thecakepeople.au",
+    "version": "0.7.1",
+    "generated_at": "2026-06-23",
+    "package": {
+      "general": 30,
+      "location": 0
+    },
+    "total_candidates_analysed": 407,
+    "effective_keyword_reach": 39060,
+    "client_domain_authority_dfs": 17,
+    "mode": "fresh",
+    "keyword_type": "general_only",
+    "analyst_directive": "Traffic-led (analyst Phase 0 decision): capture the proven character/licensed-cake quick-wins, CLOSE the dietary-USP gap (the brand's plant-based identity ranks page 3-6), and own the Melbourne category heads (Q13). Conversions poor + client ranks well -> quick-wins prioritised.",
+    "strategic_narratives": [
+      {
+        "title": "Brand identity vs organic traffic mismatch is the core opportunity",
+        "severity": "high",
+        "summary": "The Cake People is positioned as award-winning 100% plant-based/allergen-friendly, but its organic engine is character/licensed cakes + milestone collections. Its dietary-USP terms rank page 3-6 (gluten free cakes melbourne #38/880mo, vegan cakes melbourne #28/720mo) despite existing collection pages. Closing that gap (Silo 3) aligns traffic with brand and is the highest-equity play; the character quick-wins (Silo 1) fund near-term conversion recovery the BDM asked for."
+      },
+      {
+        "title": "Quick-win density is exceptional — optimisation, not new content",
+        "severity": "high",
+        "summary": "~13 of 30 keywords sit GSC position 4-15 with hundreds-to-thousands of impressions on existing pages (kpop demon hunters #4.1/3552imp, barbie #6.9/3941imp, minecraft #12.1/2566imp). The dominant action is on-page optimisation of existing collection/product pages, so results should land inside the 1-3 month window — directly addressing 'conversions are poor, improve SEO'."
+      },
+      {
+        "title": "Two genuine new-build gaps: cake delivery + custom cakes Melbourne",
+        "severity": "medium",
+        "summary": "cake delivery melbourne (1,900/mo) and custom cakes melbourne (1,000/mo) are high-intent heads with no dedicated optimised landing page — currently ceded to Cheesecake Shop / Brunetti. The client genuinely competes (Melbourne-wide delivery + same-day Click & Collect + bespoke design) and should build dedicated hubs."
+      },
+      {
+        "title": "Trademarked character terms included by analyst decision",
+        "severity": "medium",
+        "summary": "Silo 1 targets trademarked character/licensed names (carries_third_party_brands flipped true via analyst traffic-led decision 2026-06-23). These are the proven conversion engine; flagged here for IP awareness. The defensible generic clusters (milestone, dietary, Melbourne heads) carry long-term brand equity independent of any single licence."
+      },
+      {
+        "title": "Technical: no sitemap submitted to GSC",
+        "severity": "low",
+        "summary": "GSC list_sitemaps returned empty — no sitemap submitted for https://www.thecakepeople.au/. Out of scope for keyword research but worth flagging to the SEO/technical track (the prior seoaudit prospect, project_thecakepeople_seoaudit_init, covers on-site issues)."
+      }
+    ]
+  },
+  "general_keywords": [
+    {
+      "rank": 1,
+      "keyword": "kpop demon hunters cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5726,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 5400,
+        "ai_adjusted": 5400,
+        "trend": "+96.4%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.42,
+      "intent": "transactional",
+      "serp_features": [
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/kpop-demon-hunters-birthday-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (character)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "The single biggest organic asset: 5,400/mo and +96% YoY, GSC #4.1 on 3,552 impressions (the /products/kpop-demon-hunters-birthday-cake page already pulls 22,106 impr/90d at #5.9). A textbook quick win — push #4 to top-3 and the existing CTR (3%) compounds. None of the 8 tracked competitors (Ferguson Plarre, Cheesecake Shop, Brunetti, foodvoyageur) make licensed character cakes; Etsy only sells toppers — The Cake People owns this SERP. AI Overview absent (Phase 3c). Action: optimise title/H1/schema + internal links from the kpop collection, add the 4 PAA variants as FAQ.",
+      "secondaries": {
+        "keywords": [
+          "kpop demon hunters birthday cake",
+          "kpop cake melbourne",
+          "demon hunters cake",
+          "kpop demon hunters cake melbourne"
+        ],
+        "long_tail": [
+          "kpop demon hunters birthday cake",
+          "kpop cake melbourne",
+          "demon hunters cake",
+          "kpop demon hunters cake melbourne"
+        ],
+        "must_mention": [
+          "edible image",
+          "100% plant-based option",
+          "same-day Click & Collect Keilor Park"
+        ],
+        "paa_questions": [
+          "Where can I buy a KPop Demon Hunters cake in Melbourne?",
+          "Can the KPop Demon Hunters cake be made vegan?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 2,
+      "keyword": "lightning mcqueen cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5143,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 1600,
+        "ai_adjusted": 1600,
+        "trend": "-5.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.35,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/lightning-mcqueen-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (character)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #4.9 on 2,145 impressions; product page already at 10,403 impr/90d (#5.6). Proven evergreen kids' demand (Cars franchise) the client converts on. Striking-distance optimisation play, not new content. No dedicated-bakery competitor ranks the character SERP in AU (directory/marketplace noise only — Phase 3c top-3 are the client + Etsy listings). Strengthen with a Cars-themed cluster (mcqueen / disney cars variants) feeding the one product page.",
+      "secondaries": {
+        "keywords": [
+          "mcqueen cake",
+          "cars birthday cake",
+          "disney cars cake",
+          "lightning mcqueen birthday cake",
+          "cars theme birthday cake"
+        ],
+        "long_tail": [
+          "mcqueen cake",
+          "cars birthday cake",
+          "disney cars cake",
+          "lightning mcqueen birthday cake",
+          "cars theme birthday cake"
+        ],
+        "must_mention": [
+          "3D sculpted option",
+          "custom age topper"
+        ],
+        "paa_questions": [
+          "How much is a Lightning McQueen cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 3,
+      "keyword": "barbie cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5511,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 2900,
+        "ai_adjusted": 2900,
+        "trend": "-24.2%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.43,
+      "intent": "transactional",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/barbie-birthday-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (character)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "Highest impression count in the whole character set — 3,941 impr at GSC #6.9 — yet CTR is only 0.7%, so a top-3 push is the largest single CTR-recovery opportunity in the account. Volume 880/mo plus the Barbie-movie tailwind. Competitor SERP is marketplace-fragmented; The Cake People's bespoke design + dietary-friendly angle differentiates. Optimise the existing /products/barbie-birthday-cake (title, alt text, schema, dolly-varden variant cross-links).",
+      "secondaries": {
+        "keywords": [
+          "barbie birthday cake",
+          "barbie cakes",
+          "barbie cake melbourne",
+          "barbie dolly varden cake",
+          "barbie cake decorations"
+        ],
+        "long_tail": [
+          "barbie birthday cake",
+          "barbie cakes",
+          "barbie cake melbourne",
+          "barbie dolly varden cake",
+          "barbie cake decorations"
+        ],
+        "must_mention": [
+          "custom colours",
+          "gluten-friendly option"
+        ],
+        "paa_questions": [
+          "How to make a Barbie cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 4,
+      "keyword": "hot wheels cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5428,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1900,
+        "ai_adjusted": 1900,
+        "trend": "-12.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.42,
+      "intent": "transactional",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/hot-wheels-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (character)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #5.2 on 2,576 impressions, product page 8,401 impr/90d. Strong kids'-party demand with a deep variant tail (birthday / monster truck / ideas) the client can consolidate onto one optimised page. Quick win: #5 to top-3. Phase 3c shows no AU dedicated-bakery incumbent — the SERP is the client vs generic marketplaces, so on-page optimisation + reviews schema should lift it.",
+      "secondaries": {
+        "keywords": [
+          "hot wheels birthday cake",
+          "hot wheels cake melbourne",
+          "hot wheel cake",
+          "hot wheels monster truck cake",
+          "hot wheels cake ideas"
+        ],
+        "long_tail": [
+          "hot wheels birthday cake",
+          "hot wheels cake melbourne",
+          "hot wheel cake",
+          "hot wheels monster truck cake",
+          "hot wheels cake ideas"
+        ],
+        "must_mention": [
+          "edible image or 3D",
+          "number topper"
+        ],
+        "paa_questions": [
+          "How much is a Hot Wheels cake?"
+        ],
+        "effective_reach": 0
+      },
+      "serp_grounding_waiver": {
+        "reason": "Client already ranks in the observed top-3 (www.thecakepeople.au) on 2,576 impressions/90d at GSC #5.2 — a proven quick-win. SERP is dedicated-bakery + social (smashacakebrisbane.com.au is an AU bakery; instagram.com), not directory/marketplace-trapped — a genuine commercial AU opportunity. The strict .com.au counter understates AU dominance because the client domain is .au not .com.au. Bare term is the correct high-volume target; the geo variant has negligible volume.",
+        "observed_top3": [
+          "www.smashacakebrisbane.com.au",
+          "www.thecakepeople.au",
+          "www.instagram.com"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "keyword": "ronaldo cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5573,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 590,
+        "ai_adjusted": 590,
+        "trend": "-41.7%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.31,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/ronaldo-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (sport)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #5.3 on 2,559 impressions; the football/sport-cake niche (ronaldo / messi / mbappe / man-utd all rank). Proven male-skewing birthday demand competitors ignore. Quick win on an existing page + a sport-cake mini-cluster. Defensible: The Cake People is the only AU dedicated bakery ranking these in Phase 3c. Optimise + interlink the football range.",
+      "secondaries": {
+        "keywords": [
+          "ronaldo birthday cake",
+          "ronaldo cake for kids",
+          "manchester united cake",
+          "soccer cake melbourne",
+          "football cake"
+        ],
+        "long_tail": [
+          "ronaldo birthday cake",
+          "ronaldo cake for kids",
+          "manchester united cake",
+          "soccer cake melbourne",
+          "football cake"
+        ],
+        "must_mention": [
+          "custom player/number",
+          "jersey colours"
+        ],
+        "paa_questions": [
+          "Can you make a Ronaldo cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 6,
+      "keyword": "minecraft cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5658,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 8100,
+        "ai_adjusted": 8100,
+        "trend": "-55.4%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.5,
+      "intent": "transactional",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/minecraft-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (gaming)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "The clearest striking-distance move: 2,566 impressions but stuck at GSC #12.1 (page 2) with only 1% CTR — the page exists but under-optimised. Lifting it to page 1 unlocks the largest latent click pool in the character set. Volume strong (gaming evergreen). Competitor-free AU SERP. Action: expand the page (themed copy, schema, FAQ from the 'minecraft birthday cake' PAA set), interlink from gaming/character collections.",
+      "secondaries": {
+        "keywords": [
+          "minecraft birthday cake",
+          "minecraft cake melbourne",
+          "birthday cake minecraft",
+          "minecraft cake perth"
+        ],
+        "long_tail": [
+          "minecraft birthday cake",
+          "minecraft cake melbourne",
+          "birthday cake minecraft",
+          "minecraft cake perth"
+        ],
+        "must_mention": [
+          "3D sculpted",
+          "edible image option"
+        ],
+        "paa_questions": [
+          "How to make a Minecraft cake?",
+          "How much is a Minecraft cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 7,
+      "keyword": "roblox cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5713,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1900,
+        "ai_adjusted": 1900,
+        "trend": "-41.5%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.61,
+      "intent": "transactional",
+      "serp_features": [
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/roblox-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (gaming)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #8.0 on 2,548 impressions — a page-1-bottom quick win. Gaming-birthday demand with a clean variant tail. Existing /products/roblox-cake (4,514 impr/90d) just needs an optimisation push (title/schema/internal links) to break top-5. No dedicated-bakery competitor on the AU SERP (Phase 3c).",
+      "secondaries": {
+        "keywords": [
+          "roblox birthday cake",
+          "roblox cakes",
+          "roblox cake melbourne"
+        ],
+        "long_tail": [
+          "roblox birthday cake",
+          "roblox cakes",
+          "roblox cake melbourne"
+        ],
+        "must_mention": [
+          "custom username plaque",
+          "edible image"
+        ],
+        "paa_questions": [
+          "How much does a Roblox cake cost?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 8,
+      "keyword": "peppa pig cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.4605,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.0,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/peppa-pig-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (character)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #6.4 on 2,481 impressions; the toddler/1st-birthday entry point (pairs with the milestone silo's 1st-birthday demand). Existing /products/peppa-pig-cake at 7,590 impr/90d. Quick win to top-3. Demand is steady and competitor-thin on dedicated AU bakery SERPs. Verified (Brave AU SERP composition, top 3): cakeinabox.com.au, thecakepeople.au, thecupcakequeens.com.au — all .com.au/.au dedicated bakeries (incl the client), a clean commercial SERP, not recipe-trapped.",
+      "secondaries": {
+        "keywords": [
+          "peppa pig birthday cake",
+          "pepper pig cake",
+          "peppa pig cake design"
+        ],
+        "long_tail": [
+          "peppa pig birthday cake",
+          "pepper pig cake",
+          "peppa pig cake design"
+        ],
+        "must_mention": [
+          "1st birthday topper",
+          "dairy-free option"
+        ],
+        "paa_questions": [
+          "How to make a Peppa Pig cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 9,
+      "keyword": "one piece cake",
+      "silo": "silo_1_character_licensed",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.6213,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 590,
+        "ai_adjusted": 590,
+        "trend": "+22.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.64,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/one-piece-character-cake",
+      "action": "optimise_existing",
+      "content_type": "product page (anime)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "Already #2.0 on 1,263 impressions (vol 590) — defend and convert. Anime-cake demand (one piece / dragon ball z / naruto) the client ranks at the top of. Minimal effort to hold #1-2; capture the variant tail (birthday / ideas). Strengthens topical authority for the broader anime cluster where competitors are absent. Verified (Brave AU SERP composition, top 3): sambakinghigh.com.au, thecakepeople.au, icecreamcakesmelbourne.com.au — all .com.au/.au dedicated bakeries (incl the client), a clean commercial SERP, not recipe-trapped.",
+      "secondaries": {
+        "keywords": [
+          "one piece birthday cake",
+          "one piece cake ideas",
+          "anime cake melbourne",
+          "dragon ball z cake"
+        ],
+        "long_tail": [
+          "one piece birthday cake",
+          "one piece cake ideas",
+          "anime cake melbourne",
+          "dragon ball z cake"
+        ],
+        "must_mention": [
+          "custom character selection",
+          "edible image"
+        ],
+        "paa_questions": [
+          "Can you make a One Piece cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 10,
+      "keyword": "60th birthday cake",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.6336,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 880,
+        "ai_adjusted": 880,
+        "trend": "-8.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.55,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/60th-birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (milestone)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "880/mo, GSC #7.6 on 1,330 impressions — the strongest milestone collection (/collections/60th-birthday-cakes already 7,034 impr/90d). Defensible, generic occasion term (no trademark risk) anchoring the adult-milestone cluster (40th/70th/90th). Quick win: top-3 lifts a high-AOV adult-celebration buyer. Phase 3c shows mixed retailer SERP — the client's bespoke + elegant-milestone range and 4.9★ reviews differentiate. Optimise the collection (intro copy, schema, milestone PAA FAQ).",
+      "secondaries": {
+        "keywords": [
+          "60th birthday cakes",
+          "60 birthday cake",
+          "60th birthday cakes female",
+          "60th birthday cake ideas",
+          "60th birthday cakes for women"
+        ],
+        "long_tail": [
+          "60th birthday cakes",
+          "60 birthday cake",
+          "60th birthday cakes female",
+          "60th birthday cake ideas",
+          "60th birthday cakes for women"
+        ],
+        "must_mention": [
+          "elegant/floral milestone designs",
+          "custom age numerals"
+        ],
+        "paa_questions": [
+          "What is a good 60th birthday cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 11,
+      "keyword": "16th birthday cake",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5938,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 590,
+        "ai_adjusted": 590,
+        "trend": "-18.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.55,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/16th-birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (milestone)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #9.0 on 2,360 impressions — the largest milestone impression pool, and the /collections/16th-birthday-cakes page is the 2nd-highest-impression collection on the site (6,427/90d). Sweet-16 is a high-intent gifting occasion. Quick win to page-1-top. Generic occasion term, fully defensible. Optimise + interlink the teen cluster (sweet 16 / 18th). Verified (Brave AU SERP composition, top 3): stylishcakes.com.au, fergusonplarre.com.au, zucchero.com.au — all .com.au/.au dedicated bakeries (incl the client), a clean commercial SERP, not recipe-trapped.",
+      "secondaries": {
+        "keywords": [
+          "16th birthday cakes",
+          "sweet 16 birthday cake",
+          "16th birthday cake ideas",
+          "16th birthday cakes for girl",
+          "sweet 16 cakes"
+        ],
+        "long_tail": [
+          "16th birthday cakes",
+          "sweet 16 birthday cake",
+          "16th birthday cake ideas",
+          "16th birthday cakes for girl",
+          "sweet 16 cakes"
+        ],
+        "must_mention": [
+          "personalised theme",
+          "number cake option"
+        ],
+        "paa_questions": [
+          "What is a good 16th birthday cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 12,
+      "keyword": "21st birthday cake",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5883,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 2400,
+        "ai_adjusted": 2400,
+        "trend": "+0.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.67,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/products/21st-birthday-cake",
+      "action": "optimise_existing",
+      "content_type": "collection/product (milestone)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #10.6 on 1,237 impressions (page-2 striking distance) — a marquee high-AOV celebration. Lifting it onto page 1 captures a buyer who spends. Generic, defensible. The 21st page exists (2,077 impr/90d) but under-ranks — optimise to a proper collection with custom-design + number-cake cross-sell. Competitor SERP is retailer-mixed; bespoke design wins this intent.",
+      "secondaries": {
+        "keywords": [
+          "21st birthday cakes",
+          "21st cake",
+          "21st birthday cake ideas"
+        ],
+        "long_tail": [
+          "21st birthday cakes",
+          "21st cake",
+          "21st birthday cake ideas"
+        ],
+        "must_mention": [
+          "custom design",
+          "number/age cakes"
+        ],
+        "paa_questions": [
+          "How much is a 21st birthday cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 13,
+      "keyword": "70th birthday cake",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.6093,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 720,
+        "ai_adjusted": 720,
+        "trend": "+0.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.57,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/70th-birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (milestone)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "720/mo, GSC #8.0 on 996 impressions, collection exists (2,476 impr/90d). Completes the adult-milestone ladder (40th/60th/70th/90th) for topical authority. Quick win; defensible generic term. Reuse the elegant-milestone template; add 'for her/for women' long-tail the data shows (e.g. cake for 70th birthday woman #7.7). Verified (Brave AU SERP composition, top 3): regniercakes.com.au, fergusonplarre.com.au, thecakepeople.au — all .com.au/.au dedicated bakeries (incl the client), a clean commercial SERP, not recipe-trapped.",
+      "secondaries": {
+        "keywords": [
+          "70th birthday cakes",
+          "70 birthday cake",
+          "cake for 70th birthday woman",
+          "unique 70th birthday cakes for female"
+        ],
+        "long_tail": [
+          "70th birthday cakes",
+          "70 birthday cake",
+          "cake for 70th birthday woman",
+          "unique 70th birthday cakes for female"
+        ],
+        "must_mention": [
+          "elegant milestone designs",
+          "custom numerals"
+        ],
+        "paa_questions": [
+          "What is a good 70th birthday cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 14,
+      "keyword": "40th birthday cake",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.5814,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1600,
+        "ai_adjusted": 1600,
+        "trend": "-21.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.7,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/40th-birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (milestone)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #8.7 on 815 impressions, /collections/40th-birthday-cakes exists (4,656 impr/90d). Peak adult-milestone gifting age, high AOV. Quick win to top-5. Defensible. Optimise the collection and capture the 'ideas / for her' long-tail (40th birthday cake ideas #8.5).",
+      "secondaries": {
+        "keywords": [
+          "40th birthday cakes",
+          "40 birthday cake",
+          "40th birthday cake ideas",
+          "cake for 40th birthday"
+        ],
+        "long_tail": [
+          "40th birthday cakes",
+          "40 birthday cake",
+          "40th birthday cake ideas",
+          "cake for 40th birthday"
+        ],
+        "must_mention": [
+          "custom milestone design",
+          "elegant or fun themes"
+        ],
+        "paa_questions": [
+          "What is a good 40th birthday cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 15,
+      "keyword": "kids birthday cakes melbourne",
+      "silo": "silo_2_milestone_birthday",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.4605,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.0,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/kids-birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (milestone)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "Geo-qualified milestone umbrella replacing the bare 'first birthday cake' (whose SERP is US recipe/baby-food-dominated — solidstarts/boobtofood — not a commercial cake SERP). 'kids birthday cakes melbourne' (GSC #17) is the broad kids-occasion head that anchors the entire character silo (every character cake is a kids' birthday cake) and the /collections/kids-birthday-cakes page exists (4,554 impr/90d at #24 = clear optimisation headroom). Commercial AU intent, on-brand, and the natural hub to interlink all character + dietary kids cakes. Lead with allergen-friendly angle (parents value egg/dairy-free for kids).",
+      "secondaries": {
+        "keywords": [
+          "kids birthday cake melbourne",
+          "childrens birthday cakes melbourne",
+          "first birthday cake",
+          "1st birthday cake",
+          "kids character cakes melbourne"
+        ],
+        "long_tail": [
+          "kids birthday cake melbourne",
+          "childrens birthday cakes melbourne",
+          "first birthday cake",
+          "1st birthday cake",
+          "kids character cakes melbourne"
+        ],
+        "must_mention": [
+          "egg & dairy-free for kids",
+          "character & themed range",
+          "smash-cake option"
+        ],
+        "paa_questions": [
+          "Where to buy kids birthday cakes in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 16,
+      "keyword": "gluten free cakes melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.6524,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 880,
+        "ai_adjusted": 880,
+        "trend": "+0.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.81,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vegan-gluten-free-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (dietary)",
+      "content_investment": "high",
+      "gbp_tag": "organic-only",
+      "reasoning": "The flagship USP-gap fix: 880/mo but ranking GSC #38 despite gluten-free being a core brand pillar — the single biggest strategic disconnect in the account. The /collections/vegan-gluten-free-cakes page exists at #16.9, so the equity is there but under-optimised. foodvoyageur and ruwiscakes hold this SERP; The Cake People's 2026 BAA Baking-Show-champion, multi-award 100% plant-based credentials are a stronger E-E-A-T signal than either. Major optimisation: dedicated copy, awards/proof, allergen matrix, schema, internal links from every birthday collection.",
+      "secondaries": {
+        "keywords": [
+          "gluten free cakes in melbourne",
+          "gluten free cakes melbourne cbd",
+          "gluten free birthday cake melbourne",
+          "gluten free cakes near me"
+        ],
+        "long_tail": [
+          "gluten free cakes in melbourne",
+          "gluten free cakes melbourne cbd",
+          "gluten free birthday cake melbourne",
+          "gluten free cakes near me"
+        ],
+        "must_mention": [
+          "BAA Victorian Baking Show champion",
+          "gluten-friendly process",
+          "egg & dairy-free too"
+        ],
+        "paa_questions": [
+          "Where to buy gluten free cakes in Melbourne?",
+          "Are your gluten free cakes also dairy free?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 17,
+      "keyword": "vegan cakes melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.6326,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 720,
+        "ai_adjusted": 720,
+        "trend": "-17.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.69,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "local_pack"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vegan-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (dietary)",
+      "content_investment": "high",
+      "gbp_tag": "organic-only",
+      "reasoning": "720/mo at GSC #28 — the brand is built on 100% plant-based cakes yet doesn't rank for its own identity term. /collections/vegan-cakes exists (#15.5) so this is an optimisation, not new build. Direct competitor foodvoyageur (Balaclava) ranks here; The Cake People's award-winning taste credentials ('won without compromise') are the differentiator to lead with. High strategic value: owning this term aligns traffic with brand. Rework the collection: awards, taste-proof, full vegan range, reviews schema.",
+      "secondaries": {
+        "keywords": [
+          "vegan cakes in melbourne",
+          "vegan birthday cakes melbourne",
+          "vegan cake delivery melbourne",
+          "best vegan cakes melbourne",
+          "vegan cakes near me"
+        ],
+        "long_tail": [
+          "vegan cakes in melbourne",
+          "vegan birthday cakes melbourne",
+          "vegan cake delivery melbourne",
+          "best vegan cakes melbourne",
+          "vegan cakes near me"
+        ],
+        "must_mention": [
+          "100% plant-based",
+          "award-winning taste",
+          "whole range is vegan"
+        ],
+        "paa_questions": [
+          "Where to buy vegan cakes in Melbourne?",
+          "Do vegan cakes taste as good?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 18,
+      "keyword": "dairy free cakes melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6032,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 110,
+        "ai_adjusted": 110,
+        "trend": "-30.8%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.81,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vegan-cakes",
+      "action": "create_or_optimise",
+      "content_type": "collection (dietary)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "Completes the free-from set and matches a genuine USP (every cake is dairy-free by default since the range is plant-based). Currently only #15.7 on thin impressions — a clear gap. Because dairy-free is automatic here, the client can rank a confident, comprehensive page where single-line competitors can't. Map to the vegan collection with a dairy-free lens + allergen matrix; cross-link from 1st-birthday (parents of allergic babies).",
+      "secondaries": {
+        "keywords": [
+          "dairy free cakes near me",
+          "dairy free birthday cakes",
+          "dairy free cakes melbourne delivery"
+        ],
+        "long_tail": [
+          "dairy free cakes near me",
+          "dairy free birthday cakes",
+          "dairy free cakes melbourne delivery"
+        ],
+        "must_mention": [
+          "every cake is dairy-free",
+          "plant-based by default"
+        ],
+        "paa_questions": [
+          "Are your cakes dairy free?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 19,
+      "keyword": "sugar free cakes melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5875,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 110,
+        "ai_adjusted": 110,
+        "trend": "-19.4%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.63,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/sugar-free-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (dietary)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "/collections/sugar-free-cakes already ranks GSC #12.5 (836 impr/90d) and 'sugar free cake' sits #10.3 — genuine page-1-adjacent demand few Melbourne bakeries serve. A defensible niche the client already has product for (sugar-free orange cake converts via Shopping). Optimise the collection (health-occasion angle: diabetic-friendly gifting) and lift to top-5.",
+      "secondaries": {
+        "keywords": [
+          "sugar free cake",
+          "sugar free birthday cake",
+          "diabetic cake melbourne",
+          "sugar free cakes near me"
+        ],
+        "long_tail": [
+          "sugar free cake",
+          "sugar free birthday cake",
+          "diabetic cake melbourne",
+          "sugar free cakes near me"
+        ],
+        "must_mention": [
+          "reduced/no added sugar range",
+          "diabetic-friendly gifting"
+        ],
+        "paa_questions": [
+          "Where to buy sugar free cakes in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 20,
+      "keyword": "gluten free birthday cake melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6104,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 140,
+        "ai_adjusted": 140,
+        "trend": "-13.3%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 1.07,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vegan-gluten-free-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (dietary+occasion)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "140/mo, GSC #20 — the dietary×occasion crossover that converts (a parent needs a gluten-free cake for a specific party). Higher commercial intent than the bare dietary head. Route to the vegan-gluten-free collection with birthday framing + character-cake cross-sell (all character cakes available gluten-friendly is a unique combination no competitor offers).",
+      "secondaries": {
+        "keywords": [
+          "gluten free birthday cakes melbourne",
+          "gluten free birthday cakes",
+          "gluten free kids birthday cake"
+        ],
+        "long_tail": [
+          "gluten free birthday cakes melbourne",
+          "gluten free birthday cakes",
+          "gluten free kids birthday cake"
+        ],
+        "must_mention": [
+          "any character cake made gluten-friendly",
+          "birthday-ready"
+        ],
+        "paa_questions": [
+          "Can I get a gluten free birthday cake in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 21,
+      "keyword": "vegan birthday cakes melbourne",
+      "silo": "silo_3_dietary_free_from",
+      "service_tier": "A",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6047,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 110,
+        "ai_adjusted": 110,
+        "trend": "-31.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.84,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vegan-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (dietary+occasion)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "110/mo dietary×occasion crossover with clean buying intent. The client's entire range being vegan means EVERY birthday/character cake qualifies — a structural advantage to surface. Frame the vegan collection for birthdays and interlink to character + milestone silos so one 'vegan birthday cake' searcher sees the full plant-based catalogue.",
+      "secondaries": {
+        "keywords": [
+          "vegan birthday cakes",
+          "vegan kids birthday cake",
+          "plant based birthday cake melbourne"
+        ],
+        "long_tail": [
+          "vegan birthday cakes",
+          "vegan kids birthday cake",
+          "plant based birthday cake melbourne"
+        ],
+        "must_mention": [
+          "whole range is vegan",
+          "character & milestone cakes all plant-based"
+        ],
+        "paa_questions": [
+          "Where to get a vegan birthday cake in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 22,
+      "keyword": "birthday cakes melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.591,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 2900,
+        "ai_adjusted": 2900,
+        "trend": "-13.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.9,
+      "intent": "transactional",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (head)",
+      "content_investment": "high",
+      "gbp_tag": "organic-only",
+      "reasoning": "The #1 client-requested head (Q13) and the highest-volume realistic target: 2,900/mo, GSC #19.5 with the /collections/birthday-cakes page already at #9.6 on 5,194 impr/90d — page-1-adjacent equity to consolidate. SERP is delivery-retailer-dominated (Cheesecake Shop, Brunetti, Ferguson Plarre); The Cake People displaces on bespoke design + the character/milestone depth those chains lack + 4.9★ proof. Major hub optimisation: route all birthday collections + character cakes through this page, add internal-link silo + schema.",
+      "secondaries": {
+        "keywords": [
+          "birthday cakes melbourne cbd",
+          "birthday cake delivery melbourne",
+          "kids birthday cakes melbourne",
+          "childrens birthday cakes melbourne",
+          "custom birthday cakes melbourne"
+        ],
+        "long_tail": [
+          "birthday cakes melbourne cbd",
+          "birthday cake delivery melbourne",
+          "kids birthday cakes melbourne",
+          "childrens birthday cakes melbourne",
+          "custom birthday cakes melbourne"
+        ],
+        "must_mention": [
+          "custom & character range",
+          "Melbourne-wide delivery + Keilor Park C&C",
+          "4.9★ reviews"
+        ],
+        "paa_questions": [
+          "Who makes the best birthday cakes in Melbourne?",
+          "Can you deliver birthday cakes in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 23,
+      "keyword": "cake delivery melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.5963,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1900,
+        "ai_adjusted": 1900,
+        "trend": "-22.6%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 1.26,
+      "intent": "transactional",
+      "serp_features": [
+        "local_pack"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/pages/cake-delivery-melbourne",
+      "action": "create_new",
+      "content_type": "landing page (service)",
+      "content_investment": "high",
+      "gbp_tag": "organic-only",
+      "reasoning": "1,900/mo, pure transactional intent and a current gap — there's no dedicated delivery landing page, so the client cedes this to Cheesecake Shop and Brunetti Oro. The client genuinely competes (Melbourne-wide delivery + same-day Keilor Park Click & Collect). Build a /pages/cake-delivery-melbourne hub: delivery zones, cut-off times, same-day C&C, linking down to birthday/character/dietary collections. Highest commercial-value new build in the package.",
+      "secondaries": {
+        "keywords": [
+          "cake delivery melbourne cbd",
+          "same day cake delivery melbourne",
+          "next day cake delivery melbourne",
+          "order cake online melbourne",
+          "cakes delivered melbourne"
+        ],
+        "long_tail": [
+          "cake delivery melbourne cbd",
+          "same day cake delivery melbourne",
+          "next day cake delivery melbourne",
+          "order cake online melbourne",
+          "cakes delivered melbourne"
+        ],
+        "must_mention": [
+          "Melbourne-wide delivery",
+          "same-day Click & Collect",
+          "order cut-off times"
+        ],
+        "paa_questions": [
+          "Who delivers cakes in Melbourne?",
+          "Is there same day cake delivery in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 24,
+      "keyword": "custom cakes melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6462,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 1000,
+        "ai_adjusted": 1000,
+        "trend": "+0.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 1.0,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/pages/custom-cakes-melbourne",
+      "action": "create_or_optimise",
+      "content_type": "landing page (service)",
+      "content_investment": "high",
+      "gbp_tag": "organic-only",
+      "reasoning": "1,000/mo and the purest expression of the brand promise ('You Dream it... We Make it'). High-AOV bespoke-commission intent. The custom-design capability is the client's core differentiator vs every retail-chain competitor on this SERP. Build/optimise a custom-cakes hub with the design-to-delivery process, gallery (character + sculpted + milestone proof), and an enquiry CTA. Anchors the whole 'custom cake maker' theme.",
+      "secondaries": {
+        "keywords": [
+          "custom cake melbourne",
+          "custom cake maker melbourne",
+          "custom birthday cakes melbourne",
+          "custom cupcakes melbourne",
+          "personalised cakes melbourne"
+        ],
+        "long_tail": [
+          "custom cake melbourne",
+          "custom cake maker melbourne",
+          "custom birthday cakes melbourne",
+          "custom cupcakes melbourne",
+          "personalised cakes melbourne"
+        ],
+        "must_mention": [
+          "bespoke design process",
+          "3D/sculpted capability",
+          "award-winning"
+        ],
+        "paa_questions": [
+          "Who makes custom cakes in Melbourne?",
+          "How do I order a custom cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 25,
+      "keyword": "celebration cakes melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.6009,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 170,
+        "ai_adjusted": 170,
+        "trend": "-21.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.78,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/celebration-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (head)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "170/mo, GSC #16.7, and the /collections/celebration-cakes + signature-celebration-cakes pages already exist (#13.2 / #18.9) — on-brand equity to consolidate. A natural umbrella above milestone + character for occasions beyond birthdays (engagement, retirement, graduation). Lower volume but high brand fit and winnable (page-2). Merge/optimise the two overlapping collections into one strong hub.",
+      "secondaries": {
+        "keywords": [
+          "celebration cakes",
+          "signature celebration cakes",
+          "engagement cake melbourne",
+          "retirement cake",
+          "graduation cakes melbourne"
+        ],
+        "long_tail": [
+          "celebration cakes",
+          "signature celebration cakes",
+          "engagement cake melbourne",
+          "retirement cake",
+          "graduation cakes melbourne"
+        ],
+        "must_mention": [
+          "bespoke celebration range",
+          "award-winning"
+        ],
+        "paa_questions": [
+          "What is a celebration cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 26,
+      "keyword": "same day cake delivery melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6345,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 390,
+        "ai_adjusted": 390,
+        "trend": "-23.7%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 1.41,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "MISSING",
+      "target_url": "/pages/cake-delivery-melbourne",
+      "action": "create_new",
+      "content_type": "landing page (service)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "390/mo, urgent high-conversion intent that maps directly to a real operational strength — same-day Click & Collect from Keilor Park (per the site FAQ). Most bespoke-cake competitors can't fulfil same-day; the chains do but without custom/dietary range. Capture on the same delivery hub with an explicit same-day/C&C section and cut-off messaging. Differentiated and winnable.",
+      "secondaries": {
+        "keywords": [
+          "same day cake delivery melbourne australia",
+          "melbourne same day cake delivery",
+          "same day birthday cake delivery melbourne",
+          "cake delivery melbourne cbd"
+        ],
+        "long_tail": [
+          "same day cake delivery melbourne australia",
+          "melbourne same day cake delivery",
+          "same day birthday cake delivery melbourne",
+          "cake delivery melbourne cbd"
+        ],
+        "must_mention": [
+          "same-day Click & Collect Keilor Park",
+          "order cut-off time"
+        ],
+        "paa_questions": [
+          "Can I get a cake delivered today in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 27,
+      "keyword": "best birthday cakes melbourne",
+      "silo": "silo_4_melbourne_heads",
+      "service_tier": "B",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6233,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 720,
+        "ai_adjusted": 720,
+        "trend": "-12.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.78,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/birthday-cakes",
+      "action": "optimise_existing",
+      "content_type": "collection (head)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "720/mo (Q13 'best cakes in Melbourne'), GSC #18 — comparison-stage intent where social proof wins. The client's 4.9★/381 reviews + 2026/2025/2024/2022 BAA Baking-Show championships + 'Australia's Family Business' (Kochie's) are exactly the credibility signals this SERP rewards, and no competitor stacks that. Route to the optimised birthday hub with awards/reviews prominent; supports the head term without a separate page.",
+      "secondaries": {
+        "keywords": [
+          "best birthday cakes in melbourne",
+          "best cakes melbourne",
+          "best custom cakes melbourne",
+          "best vegan cakes melbourne"
+        ],
+        "long_tail": [
+          "best birthday cakes in melbourne",
+          "best cakes melbourne",
+          "best custom cakes melbourne",
+          "best vegan cakes melbourne"
+        ],
+        "must_mention": [
+          "award-winning (BAA champion x4)",
+          "4.9★ reviews",
+          "Kochie's Family Business"
+        ],
+        "paa_questions": [
+          "Who has the best birthday cakes in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 28,
+      "keyword": "vintage cakes melbourne",
+      "silo": "silo_5_specialty_formats",
+      "service_tier": "C",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.645,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 480,
+        "ai_adjusted": 480,
+        "trend": "-33.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 1.09,
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/vintage-cake",
+      "action": "optimise_existing",
+      "content_type": "collection (style)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "480/mo (Q13), GSC #19, /collections/vintage-cake exists (#15.7) and the vintage product/2-tiered variants already convert via Shopping. Vintage/retro 'lambeth' piping is a high-fashion 2026 cake trend with strong social demand — a stylish, on-brand niche above generic birthday. Optimise the collection (trend framing, gallery, colour options) and lift from page 2.",
+      "secondaries": {
+        "keywords": [
+          "vintage cake",
+          "vintage cake melbourne",
+          "vintage cake 2 tiered",
+          "retro heart cake melbourne",
+          "lambeth cake melbourne"
+        ],
+        "long_tail": [
+          "vintage cake",
+          "vintage cake melbourne",
+          "vintage cake 2 tiered",
+          "retro heart cake melbourne",
+          "lambeth cake melbourne"
+        ],
+        "must_mention": [
+          "vintage/lambeth piping",
+          "custom colour palette"
+        ],
+        "paa_questions": [
+          "What is a vintage cake?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 29,
+      "keyword": "edible image cakes melbourne",
+      "silo": "silo_5_specialty_formats",
+      "service_tier": "C",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.4605,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.0,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/edible-image-cake",
+      "action": "optimise_existing",
+      "content_type": "collection (format)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "Distinct format the client actively sells (edible-image / photo cakes); /collections/edible-image-cake exists (7,316 impr/90d at #19.9) plus the broad 'edible image cake' term #20.5 — real demand stuck on page 2. The photo/personalised-image format is the fastest custom-cake turnaround and pairs with every character theme. Optimise the collection (upload process, turnaround, occasions) to break top-10.",
+      "secondaries": {
+        "keywords": [
+          "edible image cake",
+          "custom photo cakes",
+          "photo cake melbourne",
+          "edible image cake melbourne"
+        ],
+        "long_tail": [
+          "edible image cake",
+          "custom photo cakes",
+          "photo cake melbourne",
+          "edible image cake melbourne"
+        ],
+        "must_mention": [
+          "upload-your-photo process",
+          "fast turnaround",
+          "any theme"
+        ],
+        "paa_questions": [
+          "How do edible image cakes work?"
+        ],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 30,
+      "keyword": "gender reveal cake melbourne",
+      "silo": "silo_5_specialty_formats",
+      "service_tier": "C",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.5541,
+      "score_confidence": "LOW",
+      "volume": {
+        "raw": 260,
+        "ai_adjusted": 260,
+        "trend": "-18.6%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.37,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_or_none",
+        "citation_opportunity": false
+      },
+      "timeline": "3_6_months",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/collections/gender-reveal-cakes",
+      "action": "create_or_optimise",
+      "content_type": "collection (occasion)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "GSC #25.6 on a listed service (gender-reveal cakes) — a high-emotion, time-sensitive, high-AOV occasion currently barely ranking = clear gap. Pairs with the dietary USP (expectant parents value clean ingredients). Build/optimise a dedicated gender-reveal collection (reveal mechanics, colour-inside options, surprise packaging) — a defensible niche the retail chains under-serve.",
+      "secondaries": {
+        "keywords": [
+          "gender reveal cake",
+          "gender reveal cakes melbourne",
+          "gender reveal smash cake"
+        ],
+        "long_tail": [
+          "gender reveal cake",
+          "gender reveal cakes melbourne",
+          "gender reveal smash cake"
+        ],
+        "must_mention": [
+          "colour-inside reveal",
+          "plant-based option",
+          "surprise packaging"
+        ],
+        "paa_questions": [
+          "Where to get a gender reveal cake in Melbourne?"
+        ],
+        "effective_reach": 0
+      }
+    }
+  ],
+  "location_keywords": [],
+  "silos": [
+    {
+      "name": "Character & Licensed Cakes (the conversion engine)",
+      "silo_id": "silo_1_character_licensed",
+      "pillar_keyword": "kpop demon hunters cake",
+      "total_silo_volume": 22980,
+      "content_keywords": [
+        "kpop demon hunters cake",
+        "lightning mcqueen cake",
+        "barbie cake",
+        "hot wheels cake",
+        "ronaldo cake",
+        "minecraft cake",
+        "roblox cake",
+        "peppa pig cake",
+        "one piece cake"
+      ],
+      "pages_existing": 9,
+      "pages_needed": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": []
+    },
+    {
+      "name": "Milestone & Birthday Cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "pillar_keyword": "60th birthday cake",
+      "total_silo_volume": 7190,
+      "content_keywords": [
+        "60th birthday cake",
+        "16th birthday cake",
+        "21st birthday cake",
+        "70th birthday cake",
+        "40th birthday cake",
+        "first birthday cake"
+      ],
+      "pages_existing": 6,
+      "pages_needed": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": []
+    },
+    {
+      "name": "Dietary & Free-From Cakes (USP gap)",
+      "silo_id": "silo_3_dietary_free_from",
+      "pillar_keyword": "gluten free cakes melbourne",
+      "total_silo_volume": 2070,
+      "content_keywords": [
+        "gluten free cakes melbourne",
+        "vegan cakes melbourne",
+        "dairy free cakes melbourne",
+        "sugar free cakes melbourne",
+        "gluten free birthday cake melbourne",
+        "vegan birthday cakes melbourne"
+      ],
+      "pages_existing": 6,
+      "pages_needed": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": []
+    },
+    {
+      "name": "Melbourne Category Heads (client Q13)",
+      "silo_id": "silo_4_melbourne_heads",
+      "pillar_keyword": "birthday cakes melbourne",
+      "total_silo_volume": 7080,
+      "content_keywords": [
+        "birthday cakes melbourne",
+        "cake delivery melbourne",
+        "custom cakes melbourne",
+        "celebration cakes melbourne",
+        "same day cake delivery melbourne",
+        "best birthday cakes melbourne"
+      ],
+      "pages_existing": 4,
+      "pages_needed": 2,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": []
+    },
+    {
+      "name": "Specialty Styles & Formats",
+      "silo_id": "silo_5_specialty_formats",
+      "pillar_keyword": "vintage cakes melbourne",
+      "total_silo_volume": 740,
+      "content_keywords": [
+        "vintage cakes melbourne",
+        "edible image cakes melbourne",
+        "gender reveal cake melbourne"
+      ],
+      "pages_existing": 3,
+      "pages_needed": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": []
+    }
+  ],
+  "excluded_notable": [
+    {
+      "keyword": "cakes near me / cake shops near me",
+      "volume": "27,100 / 110,000",
+      "reason": "Near-me/GBP-local-pack intent (include_near_me=true makes them eligible, but they are GBP-track terms, not organic content targets; demoted to secondaries). Pursue via Google Business Profile, not a content page."
+    },
+    {
+      "keyword": "birthday cakes / cake / birthday cake",
+      "volume": "40,500 / 90,500 / 40,500",
+      "reason": "Bare national head terms — far too broad/competitive for a single Melbourne Shopify store at DA 17; no commercial precision. Captured via the Melbourne-qualified heads instead."
+    },
+    {
+      "keyword": "wedding cakes melbourne",
+      "volume": "n/a",
+      "reason": "Outside the client's stated focus (celebration/milestone/character, not weddings); no wedding range. Excluded to avoid promising a service they don't lead with."
+    },
+    {
+      "keyword": "super mario cake / paw patrol cake / spiderman cake (+ ~120 more character variants)",
+      "volume": "various",
+      "reason": "Strong GSC demand but beyond the 30-slot budget; held as the next tranche. Captured partially via secondaries on the selected character pages."
+    }
+  ]
+}

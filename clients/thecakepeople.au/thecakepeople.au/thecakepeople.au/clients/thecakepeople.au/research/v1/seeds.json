@@ -1,0 +1,3003 @@
+{
+  "client": "thecakepeople.au",
+  "phase": "phase_1_seed_expansion",
+  "version": "v1",
+  "generated_at_utc": "2026-06-23",
+  "keyword_type": "general_only",
+  "candidate_type_note": "All candidates candidate_type=general (general_only; no suburb grid). City-level Melbourne / Keilor Park / Tullamarine terms ride the general bucket.",
+  "carries_third_party_brands": true,
+  "carries_third_party_brands_note": "Trademarked character/licensed terms included as ELIGIBLE seeds per analyst traffic-led override (the proven conversion engine).",
+  "sources_used": [
+    "gsc_query (search_analytics 90d 2026-03-22..06-20, imp>=10, brand-defence excluded)",
+    "service_taxonomy (questionnaire services + 5 allocation silos + city modifiers)",
+    "modifier (intent/occasion/dietary x format/style matrices)",
+    "dataforseo (keyword_suggestions: vegan/gluten-free/delivery/birthday seeds, location Australia en)",
+    "review_vocabulary (Brave: thecakepeople.au + ruwiscakes/competitor reviews)"
+  ],
+  "gsc_site_url": "https://www.thecakepeople.au/",
+  "candidate_count": 407,
+  "review_vocabulary": [
+    {
+      "phrase": "picture perfect",
+      "source": "thecakepeople.au homepage review (Brave)"
+    },
+    {
+      "phrase": "absolutely stunning almost too pretty to eat",
+      "source": "thecakepeople.au homepage review (Brave)"
+    },
+    {
+      "phrase": "tasted delicious",
+      "source": "thecakepeople.au homepage review (Brave)"
+    },
+    {
+      "phrase": "vegan options do not compromise on deliciousness",
+      "source": "wheree.com The Cake People review (Brave)"
+    },
+    {
+      "phrase": "meticulous craftsmanship",
+      "source": "wheree.com The Cake People review (Brave)"
+    },
+    {
+      "phrase": "phenomenal texture and taste",
+      "source": "wheree.com The Cake People review (Brave)"
+    },
+    {
+      "phrase": "outstanding customer service",
+      "source": "wheree.com The Cake People review (Brave)"
+    },
+    {
+      "phrase": "quality and taste of the cakes consistently praised",
+      "source": "Trustpilot thecakepeople.au (Brave)"
+    },
+    {
+      "phrase": "beautiful presentation",
+      "source": "Trustpilot thecakepeople.au (Brave)"
+    },
+    {
+      "phrase": "flexibility in delivery and pickup options",
+      "source": "Trustpilot thecakepeople.au (Brave)"
+    },
+    {
+      "phrase": "4.9 out of 5 stars",
+      "source": "Judge.me thecakepeople.au (381 reviews) (Brave)"
+    },
+    {
+      "phrase": "masterful cakes in melbourne",
+      "source": "thecakepeople.au title tag (Brave)"
+    },
+    {
+      "phrase": "plant-based celebration cakes",
+      "source": "all-opening-hours.com.au The Cake People (Brave)"
+    },
+    {
+      "phrase": "edible image uploads",
+      "source": "all-opening-hours.com.au The Cake People (Brave)"
+    },
+    {
+      "phrase": "character-themed designs",
+      "source": "all-opening-hours.com.au The Cake People (Brave)"
+    },
+    {
+      "phrase": "too sweet (50% less sugar requested)",
+      "source": "Trustpilot thecakepeople.au constructive review (Brave)"
+    },
+    {
+      "phrase": "best custom cake makers in melbourne",
+      "source": "ruwiscakes.com.au competitor (Brave)"
+    },
+    {
+      "phrase": "build your own cake",
+      "source": "ruwiscakes.com.au competitor (Brave)"
+    },
+    {
+      "phrase": "melbourne-wide next day delivery",
+      "source": "ruwiscakes.com.au Instagram competitor (Brave)"
+    },
+    {
+      "phrase": "contactless delivery",
+      "source": "ruwiscakes.com.au competitor (Brave)"
+    },
+    {
+      "phrase": "mini cakes for all occasions",
+      "source": "ruwiscakes.com.au competitor (Brave)"
+    },
+    {
+      "phrase": "spectacularly looking and even better tasting",
+      "source": "ruwiscakes.com.au reviews competitor (Brave)"
+    },
+    {
+      "phrase": "communication, punctuality and product",
+      "source": "ruwiscakes.com.au reviews competitor (Brave)"
+    }
+  ],
+  "candidates": [
+    {
+      "keyword": "barbie cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.9,
+      "gsc_impressions": 3941
+    },
+    {
+      "keyword": "kpop demon hunters cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.1,
+      "gsc_impressions": 3552
+    },
+    {
+      "keyword": "hot wheels cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.2,
+      "gsc_impressions": 2576
+    },
+    {
+      "keyword": "minecraft cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.1,
+      "gsc_impressions": 2566
+    },
+    {
+      "keyword": "ronaldo cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.3,
+      "gsc_impressions": 2559
+    },
+    {
+      "keyword": "roblox cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.0,
+      "gsc_impressions": 2548
+    },
+    {
+      "keyword": "peppa pig cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.4,
+      "gsc_impressions": 2481
+    },
+    {
+      "keyword": "lightning mcqueen cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.9,
+      "gsc_impressions": 2145
+    },
+    {
+      "keyword": "peppa pig cake design",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.1,
+      "gsc_impressions": 2088
+    },
+    {
+      "keyword": "minecraft birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 11.0,
+      "gsc_impressions": 1522
+    },
+    {
+      "keyword": "kpop demon hunter cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.2,
+      "gsc_impressions": 1334
+    },
+    {
+      "keyword": "one piece cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.0,
+      "gsc_impressions": 1263
+    },
+    {
+      "keyword": "kpop cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.2,
+      "gsc_impressions": 1099
+    },
+    {
+      "keyword": "minnie mouse cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.9,
+      "gsc_impressions": 1095
+    },
+    {
+      "keyword": "super mario cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 17.0,
+      "gsc_impressions": 963
+    },
+    {
+      "keyword": "stranger things cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.2,
+      "gsc_impressions": 959
+    },
+    {
+      "keyword": "paw patrol birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.0,
+      "gsc_impressions": 956
+    },
+    {
+      "keyword": "paw patrol cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 13.2,
+      "gsc_impressions": 915
+    },
+    {
+      "keyword": "hulk cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.5,
+      "gsc_impressions": 881
+    },
+    {
+      "keyword": "one piece birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 1.9,
+      "gsc_impressions": 881
+    },
+    {
+      "keyword": "billie eilish cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.6,
+      "gsc_impressions": 776
+    },
+    {
+      "keyword": "k pop demon hunters cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.9,
+      "gsc_impressions": 770
+    },
+    {
+      "keyword": "cars cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.9,
+      "gsc_impressions": 754
+    },
+    {
+      "keyword": "spidey and his amazing friends cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.1,
+      "gsc_impressions": 748
+    },
+    {
+      "keyword": "mario cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 21.9,
+      "gsc_impressions": 693
+    },
+    {
+      "keyword": "kpop birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.9,
+      "gsc_impressions": 664
+    },
+    {
+      "keyword": "avengers cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.6,
+      "gsc_impressions": 656
+    },
+    {
+      "keyword": "disney princess cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.7,
+      "gsc_impressions": 636
+    },
+    {
+      "keyword": "ronaldo cake for kids",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.9,
+      "gsc_impressions": 619
+    },
+    {
+      "keyword": "hot wheels birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.8,
+      "gsc_impressions": 567
+    },
+    {
+      "keyword": "barbie cake decorations",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.7,
+      "gsc_impressions": 557
+    },
+    {
+      "keyword": "peppa pig birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.2,
+      "gsc_impressions": 524
+    },
+    {
+      "keyword": "demon hunter cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.6,
+      "gsc_impressions": 504
+    },
+    {
+      "keyword": "spidey cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.4,
+      "gsc_impressions": 504
+    },
+    {
+      "keyword": "demon hunters cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.8,
+      "gsc_impressions": 498
+    },
+    {
+      "keyword": "kpop demon hunters birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.9,
+      "gsc_impressions": 498
+    },
+    {
+      "keyword": "mario birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 18.2,
+      "gsc_impressions": 487
+    },
+    {
+      "keyword": "brawl stars cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 463
+    },
+    {
+      "keyword": "beyblade cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.6,
+      "gsc_impressions": 461
+    },
+    {
+      "keyword": "hulk birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.6,
+      "gsc_impressions": 454
+    },
+    {
+      "keyword": "minnie mouse birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.0,
+      "gsc_impressions": 452
+    },
+    {
+      "keyword": "my little pony cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.1,
+      "gsc_impressions": 432
+    },
+    {
+      "keyword": "roblox birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.2,
+      "gsc_impressions": 419
+    },
+    {
+      "keyword": "fortnite cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.6,
+      "gsc_impressions": 371
+    },
+    {
+      "keyword": "barbie birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.7,
+      "gsc_impressions": 370
+    },
+    {
+      "keyword": "lightning mcqueen birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.0,
+      "gsc_impressions": 350
+    },
+    {
+      "keyword": "spidey and friends cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.6,
+      "gsc_impressions": 348
+    },
+    {
+      "keyword": "k pop demon hunter cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.4,
+      "gsc_impressions": 332
+    },
+    {
+      "keyword": "one piece cake ideas",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.1,
+      "gsc_impressions": 301
+    },
+    {
+      "keyword": "super mario birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.3,
+      "gsc_impressions": 297
+    },
+    {
+      "keyword": "thomas cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.3,
+      "gsc_impressions": 293
+    },
+    {
+      "keyword": "marvel cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.9,
+      "gsc_impressions": 290
+    },
+    {
+      "keyword": "cars birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.7,
+      "gsc_impressions": 284
+    },
+    {
+      "keyword": "hot wheels cake ideas",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.4,
+      "gsc_impressions": 284
+    },
+    {
+      "keyword": "kpop cake topper",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.7,
+      "gsc_impressions": 265
+    },
+    {
+      "keyword": "mcqueen cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.0,
+      "gsc_impressions": 259
+    },
+    {
+      "keyword": "lightening mcqueen cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.5,
+      "gsc_impressions": 251
+    },
+    {
+      "keyword": "stranger things birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.7,
+      "gsc_impressions": 248
+    },
+    {
+      "keyword": "invader zim cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.7,
+      "gsc_impressions": 246
+    },
+    {
+      "keyword": "kpop demon hunters cake decorations",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 242
+    },
+    {
+      "keyword": "kpop cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.7,
+      "gsc_impressions": 238
+    },
+    {
+      "keyword": "manchester united cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 233
+    },
+    {
+      "keyword": "dragon ball z cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.7,
+      "gsc_impressions": 230
+    },
+    {
+      "keyword": "ronaldo birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.7,
+      "gsc_impressions": 228
+    },
+    {
+      "keyword": "batwheels cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.5,
+      "gsc_impressions": 218
+    },
+    {
+      "keyword": "disney cars cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.2,
+      "gsc_impressions": 215
+    },
+    {
+      "keyword": "kpop demon hunters cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.0,
+      "gsc_impressions": 215
+    },
+    {
+      "keyword": "winnie the pooh birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.1,
+      "gsc_impressions": 206
+    },
+    {
+      "keyword": "hawaiian theme cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 1.6,
+      "gsc_impressions": 203
+    },
+    {
+      "keyword": "k pop cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.1,
+      "gsc_impressions": 200
+    },
+    {
+      "keyword": "t rex cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.9,
+      "gsc_impressions": 198
+    },
+    {
+      "keyword": "godzilla cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.9,
+      "gsc_impressions": 197
+    },
+    {
+      "keyword": "jackson storm cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.0,
+      "gsc_impressions": 196
+    },
+    {
+      "keyword": "mini mouse cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.1,
+      "gsc_impressions": 195
+    },
+    {
+      "keyword": "blaze cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.6,
+      "gsc_impressions": 183
+    },
+    {
+      "keyword": "miraculous ladybug cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.7,
+      "gsc_impressions": 176
+    },
+    {
+      "keyword": "minecraft cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.6,
+      "gsc_impressions": 175
+    },
+    {
+      "keyword": "hot wheel cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.5,
+      "gsc_impressions": 168
+    },
+    {
+      "keyword": "bluey and bingo cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.6,
+      "gsc_impressions": 162
+    },
+    {
+      "keyword": "k-pop demon hunters cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.4,
+      "gsc_impressions": 161
+    },
+    {
+      "keyword": "pokemon cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 17.6,
+      "gsc_impressions": 153
+    },
+    {
+      "keyword": "pepper pig cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.8,
+      "gsc_impressions": 148
+    },
+    {
+      "keyword": "roblox cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.6,
+      "gsc_impressions": 144
+    },
+    {
+      "keyword": "disney princess birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.3,
+      "gsc_impressions": 143
+    },
+    {
+      "keyword": "spiderman cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.6,
+      "gsc_impressions": 143
+    },
+    {
+      "keyword": "thomas the tank cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 143
+    },
+    {
+      "keyword": "kpop demon hunter birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.9,
+      "gsc_impressions": 141
+    },
+    {
+      "keyword": "afl cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 14.0,
+      "gsc_impressions": 132
+    },
+    {
+      "keyword": "kpop demon hunters cake sydney",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.2,
+      "gsc_impressions": 128
+    },
+    {
+      "keyword": "barbie cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.6,
+      "gsc_impressions": 127
+    },
+    {
+      "keyword": "afl birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.2,
+      "gsc_impressions": 124
+    },
+    {
+      "keyword": "ninjago cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.5,
+      "gsc_impressions": 123
+    },
+    {
+      "keyword": "kung fu panda cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.6,
+      "gsc_impressions": 121
+    },
+    {
+      "keyword": "kpop demon cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 120
+    },
+    {
+      "keyword": "spiderman cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 31.3,
+      "gsc_impressions": 120
+    },
+    {
+      "keyword": "star wars cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 15.4,
+      "gsc_impressions": 120
+    },
+    {
+      "keyword": "spidey birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.4,
+      "gsc_impressions": 119
+    },
+    {
+      "keyword": "elsa and anna cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.4,
+      "gsc_impressions": 113
+    },
+    {
+      "keyword": "kpop demon hunters cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.3,
+      "gsc_impressions": 113
+    },
+    {
+      "keyword": "kpop demon hunters cake design for girl",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.8,
+      "gsc_impressions": 109
+    },
+    {
+      "keyword": "thomas and friends cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.0,
+      "gsc_impressions": 108
+    },
+    {
+      "keyword": "kpop demon hunters cake topper",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.5,
+      "gsc_impressions": 107
+    },
+    {
+      "keyword": "bmx cake topper",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.2,
+      "gsc_impressions": 93
+    },
+    {
+      "keyword": "mario cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.9,
+      "gsc_impressions": 86
+    },
+    {
+      "keyword": "k pop demon hunters birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.7,
+      "gsc_impressions": 82
+    },
+    {
+      "keyword": "demon hunter birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.8,
+      "gsc_impressions": 80
+    },
+    {
+      "keyword": "demon hunters cake decorations",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 79
+    },
+    {
+      "keyword": "hot wheels monster truck cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.2,
+      "gsc_impressions": 79
+    },
+    {
+      "keyword": "inside out cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.7,
+      "gsc_impressions": 76
+    },
+    {
+      "keyword": "beyblade birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.1,
+      "gsc_impressions": 75
+    },
+    {
+      "keyword": "incredible hulk cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.9,
+      "gsc_impressions": 74
+    },
+    {
+      "keyword": "kpop demon hunters cake topper australia",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.5,
+      "gsc_impressions": 72
+    },
+    {
+      "keyword": "minecraft cake perth",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.5,
+      "gsc_impressions": 72
+    },
+    {
+      "keyword": "dragon ball z cake topper",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 70
+    },
+    {
+      "keyword": "kpop cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.1,
+      "gsc_impressions": 70
+    },
+    {
+      "keyword": "batwheels cake topper",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.3,
+      "gsc_impressions": 66
+    },
+    {
+      "keyword": "elsa birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 26.2,
+      "gsc_impressions": 63
+    },
+    {
+      "keyword": "barbie dolly varden cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.4,
+      "gsc_impressions": 60
+    },
+    {
+      "keyword": "paw patrol cake brisbane",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.8,
+      "gsc_impressions": 56
+    },
+    {
+      "keyword": "pokemon cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 11.9,
+      "gsc_impressions": 50
+    },
+    {
+      "keyword": "k pop demon hunter cake decorations",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.4,
+      "gsc_impressions": 49
+    },
+    {
+      "keyword": "hot wheels cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.0,
+      "gsc_impressions": 47
+    },
+    {
+      "keyword": "k pop demon hunter birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.2,
+      "gsc_impressions": 47
+    },
+    {
+      "keyword": "birthday cake kpop demon hunters",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.5,
+      "gsc_impressions": 41
+    },
+    {
+      "keyword": "hot wheels cake sydney",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.0,
+      "gsc_impressions": 37
+    },
+    {
+      "keyword": "kids birthday cakes canberra",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.2,
+      "gsc_impressions": 35
+    },
+    {
+      "keyword": "thomas and friends birthday cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.2,
+      "gsc_impressions": 34
+    },
+    {
+      "keyword": "gabby dollhouse cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 16.0,
+      "gsc_impressions": 32
+    },
+    {
+      "keyword": "spiderman birthday cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 27
+    },
+    {
+      "keyword": "barbie cake melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 10.6,
+      "gsc_impressions": 24
+    },
+    {
+      "keyword": "3d character cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "afl cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "bluey cake",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "character birthday cakes",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "character cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "christening cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "football cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gaming cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "movie cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "religious cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sport cakes melbourne",
+      "silo_id": "silo_1_character_licensed",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "16th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.0,
+      "gsc_impressions": 2360
+    },
+    {
+      "keyword": "wedding cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.7,
+      "gsc_impressions": 2287
+    },
+    {
+      "keyword": "birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 16.1,
+      "gsc_impressions": 1577
+    },
+    {
+      "keyword": "birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 20.5,
+      "gsc_impressions": 1440
+    },
+    {
+      "keyword": "60th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.6,
+      "gsc_impressions": 1330
+    },
+    {
+      "keyword": "21st birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 10.6,
+      "gsc_impressions": 1237
+    },
+    {
+      "keyword": "70th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.0,
+      "gsc_impressions": 996
+    },
+    {
+      "keyword": "30th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 862
+    },
+    {
+      "keyword": "40th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.7,
+      "gsc_impressions": 815
+    },
+    {
+      "keyword": "40th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.5,
+      "gsc_impressions": 716
+    },
+    {
+      "keyword": "21st birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 10.6,
+      "gsc_impressions": 693
+    },
+    {
+      "keyword": "kids birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 18.5,
+      "gsc_impressions": 635
+    },
+    {
+      "keyword": "60th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.2,
+      "gsc_impressions": 521
+    },
+    {
+      "keyword": "90th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.2,
+      "gsc_impressions": 468
+    },
+    {
+      "keyword": "sweet 16 birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.3,
+      "gsc_impressions": 306
+    },
+    {
+      "keyword": "16 birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.4,
+      "gsc_impressions": 237
+    },
+    {
+      "keyword": "60 birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.0,
+      "gsc_impressions": 229
+    },
+    {
+      "keyword": "16th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.3,
+      "gsc_impressions": 222
+    },
+    {
+      "keyword": "kids birthday cakes melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 17.0,
+      "gsc_impressions": 218
+    },
+    {
+      "keyword": "60th birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.1,
+      "gsc_impressions": 200
+    },
+    {
+      "keyword": "70th birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 172
+    },
+    {
+      "keyword": "sweet 16 cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.5,
+      "gsc_impressions": 157
+    },
+    {
+      "keyword": "first birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.6,
+      "gsc_impressions": 156
+    },
+    {
+      "keyword": "16th birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.1,
+      "gsc_impressions": 136
+    },
+    {
+      "keyword": "60th birthday cakes for women",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.6,
+      "gsc_impressions": 125
+    },
+    {
+      "keyword": "cake for 70th birthday woman",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.7,
+      "gsc_impressions": 115
+    },
+    {
+      "keyword": "30th birthday cakes for her",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.1,
+      "gsc_impressions": 109
+    },
+    {
+      "keyword": "18th birthday cakes for girls",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 10.8,
+      "gsc_impressions": 107
+    },
+    {
+      "keyword": "60th birthday cake ideas woman",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.1,
+      "gsc_impressions": 107
+    },
+    {
+      "keyword": "birthday cake for mum",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.2,
+      "gsc_impressions": 91
+    },
+    {
+      "keyword": "16th cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.1,
+      "gsc_impressions": 75
+    },
+    {
+      "keyword": "kids birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.8,
+      "gsc_impressions": 74
+    },
+    {
+      "keyword": "60th birthday cakes female",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 2.3,
+      "gsc_impressions": 68
+    },
+    {
+      "keyword": "cake for 40th birthday",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.1,
+      "gsc_impressions": 51
+    },
+    {
+      "keyword": "30th birthday cake for her",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.4,
+      "gsc_impressions": 47
+    },
+    {
+      "keyword": "sweet sixteen birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.1,
+      "gsc_impressions": 44
+    },
+    {
+      "keyword": "unique 70th birthday cakes for female",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.2,
+      "gsc_impressions": 41
+    },
+    {
+      "keyword": "16th birthday cakes for girl",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.1,
+      "gsc_impressions": 39
+    },
+    {
+      "keyword": "60 birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.7,
+      "gsc_impressions": 38
+    },
+    {
+      "keyword": "two tier wedding cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 16.2,
+      "gsc_impressions": 38
+    },
+    {
+      "keyword": "60th birthday cake for her",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 21
+    },
+    {
+      "keyword": "16th birthday cake ideas boy",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.9,
+      "gsc_impressions": 17
+    },
+    {
+      "keyword": "boys cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.5,
+      "gsc_impressions": 12
+    },
+    {
+      "keyword": "100th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "18th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "18th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "18th birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "1st birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "1st birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "21st birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "21st birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "30th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "50th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "50th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "50th birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "70th birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "80th birthday cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "anniversary cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "baby shower cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "baby shower cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best birthday cakes in melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cake ideas",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes delivered melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes for dogs melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes for her",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes for men",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes for women",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes melbourne australia",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "birthday cakes melbourne cbd",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "childrens birthday cakes melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "christening cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "christening cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dog birthday cakes melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "engagement cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "engagement cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "first birthday cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "graduation cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "ice cream birthday cakes melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "milestone birthday cakes",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "retirement cake",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "retirement cake melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "same day birthday cake delivery melbourne",
+      "silo_id": "silo_2_milestone_birthday",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sugar free cake",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 10.3,
+      "gsc_impressions": 428
+    },
+    {
+      "keyword": "gluten free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 38.4,
+      "gsc_impressions": 188
+    },
+    {
+      "keyword": "eggless cakes near me",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 43.6,
+      "gsc_impressions": 106
+    },
+    {
+      "keyword": "vegan cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 28.1,
+      "gsc_impressions": 103
+    },
+    {
+      "keyword": "gluten free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 57.1,
+      "gsc_impressions": 62
+    },
+    {
+      "keyword": "vegan birthday candles",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.9,
+      "gsc_impressions": 44
+    },
+    {
+      "keyword": "sugar free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 13.6,
+      "gsc_impressions": 43
+    },
+    {
+      "keyword": "gluten free vegan birthday cake",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.9,
+      "gsc_impressions": 41
+    },
+    {
+      "keyword": "gluten free birthday cake melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 19.8,
+      "gsc_impressions": 27
+    },
+    {
+      "keyword": "gluten free cakes near me",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.8,
+      "gsc_impressions": 13
+    },
+    {
+      "keyword": "dairy free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 15.7,
+      "gsc_impressions": 10
+    },
+    {
+      "keyword": "gluten free wedding cake",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 35.8,
+      "gsc_impressions": 8
+    },
+    {
+      "keyword": "egg free cake",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.0,
+      "gsc_impressions": 6
+    },
+    {
+      "keyword": "allergy friendly birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "allergy friendly cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "allergy friendly cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "allergy friendly cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best vegan birthday cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best vegan cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom vegan cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dairy free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dairy free birthday cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dairy free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dairy free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "egg free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "egg free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "egg free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "egg free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "eggless birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "eggless cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "eggless cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "eggless cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free birthday cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free cakes in melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free cakes melbourne cbd",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free cupcakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free dairy free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten free vegan cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gluten friendly cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "nut free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "nut free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "nut free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "nut free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "plant based birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "plant based cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "plant based cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "plant based celebration cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "review_vocabulary",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "plant based cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "soy free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "soy free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "soy free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "soy free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sugar free birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sugar free cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sugar free cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan and gluten free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan birthday cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan birthday cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes delivered melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes delivery melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes in melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes melbourne cbd",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cakes near me",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cupcakes",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan cupcakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan custom cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan gluten free birthday cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan gluten free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan sugar free cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "vegan wedding cakes melbourne",
+      "silo_id": "silo_3_dietary_free_from",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake shop",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 23.9,
+      "gsc_impressions": 622
+    },
+    {
+      "keyword": "cake",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 24.2,
+      "gsc_impressions": 471
+    },
+    {
+      "keyword": "birthday cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 19.5,
+      "gsc_impressions": 429
+    },
+    {
+      "keyword": "cake shops",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 30.5,
+      "gsc_impressions": 336
+    },
+    {
+      "keyword": "cakes near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 23.7,
+      "gsc_impressions": 314
+    },
+    {
+      "keyword": "celebration cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 16.7,
+      "gsc_impressions": 251
+    },
+    {
+      "keyword": "cake shop melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 25.0,
+      "gsc_impressions": 237
+    },
+    {
+      "keyword": "birthday cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 37.4,
+      "gsc_impressions": 221
+    },
+    {
+      "keyword": "cake near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 27.1,
+      "gsc_impressions": 186
+    },
+    {
+      "keyword": "cake shop near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 21.6,
+      "gsc_impressions": 185
+    },
+    {
+      "keyword": "cake shops near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 37.1,
+      "gsc_impressions": 176
+    },
+    {
+      "keyword": "biscoff cake melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.4,
+      "gsc_impressions": 88
+    },
+    {
+      "keyword": "best birthday cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 18.3,
+      "gsc_impressions": 78
+    },
+    {
+      "keyword": "custom birthday cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 8.3,
+      "gsc_impressions": 65
+    },
+    {
+      "keyword": "red velvet cake melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.6,
+      "gsc_impressions": 60
+    },
+    {
+      "keyword": "best red velvet cake melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 12.0,
+      "gsc_impressions": 58
+    },
+    {
+      "keyword": "cakes tullamarine",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.1,
+      "gsc_impressions": 48
+    },
+    {
+      "keyword": "cake shop tullamarine",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 6.8,
+      "gsc_impressions": 47
+    },
+    {
+      "keyword": "cake makers near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 32.4,
+      "gsc_impressions": 27
+    },
+    {
+      "keyword": "cakes essendon",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 19.0,
+      "gsc_impressions": 27
+    },
+    {
+      "keyword": "buy rainbow cake",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 9.2,
+      "gsc_impressions": 11
+    },
+    {
+      "keyword": "black forest cake sydney",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 65.8,
+      "gsc_impressions": 8
+    },
+    {
+      "keyword": "graduation cakes near me",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.0,
+      "gsc_impressions": 2
+    },
+    {
+      "keyword": "award winning cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "bespoke cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best cakes in melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "best cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "build your own cake melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "review_vocabulary",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "buy cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake and flower delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake and flowers delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake bakery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake click and collect melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake delivery melbourne australia",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake delivery melbourne cbd",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake makers melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake pick up melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake shops melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes australia",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes delivered melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes delivered to my door",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes in melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes keilor park",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cakes melbourne cbd",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "celebration cakes",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "contactless cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "review_vocabulary",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cake maker melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cake makers melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cake melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "keilor park cakes",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "masterful cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "review_vocabulary",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "melbourne cake delivery",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "dataforseo",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "next day cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "online cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "online cake shop melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "order cake online melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "order cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "personalised cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "same day cake delivery melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "signature cakes melbourne",
+      "silo_id": "silo_4_melbourne_heads",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "green sprinkles",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 7.9,
+      "gsc_impressions": 967
+    },
+    {
+      "keyword": "vintage cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 19.2,
+      "gsc_impressions": 575
+    },
+    {
+      "keyword": "yellow sprinkles",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.4,
+      "gsc_impressions": 513
+    },
+    {
+      "keyword": "gender reveal cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 25.6,
+      "gsc_impressions": 293
+    },
+    {
+      "keyword": "marshmallow cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.7,
+      "gsc_impressions": 246
+    },
+    {
+      "keyword": "frozen cupcake stand",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 3.5,
+      "gsc_impressions": 53
+    },
+    {
+      "keyword": "vintage cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 18.8,
+      "gsc_impressions": 53
+    },
+    {
+      "keyword": "vintage cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 19.0,
+      "gsc_impressions": 29
+    },
+    {
+      "keyword": "3d cake design",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 5.8,
+      "gsc_impressions": 23
+    },
+    {
+      "keyword": "biscoff cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.3,
+      "gsc_impressions": 17
+    },
+    {
+      "keyword": "edible cake images kpop demon hunters",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 4.9,
+      "gsc_impressions": 16
+    },
+    {
+      "keyword": "fairy cake topper",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 24.7,
+      "gsc_impressions": 12
+    },
+    {
+      "keyword": "edible cake images near me",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 22.6,
+      "gsc_impressions": 10
+    },
+    {
+      "keyword": "custom photo cakes",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "gsc_query",
+      "candidate_type": "general",
+      "gsc_position": 11.4,
+      "gsc_impressions": 7
+    },
+    {
+      "keyword": "3d cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "3d cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "acrylic cake toppers melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake toppers",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cake toppers melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "celebration cupcakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cupcakes",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "cupcakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cake toppers melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "custom cupcakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dog birthday cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "dog cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "edible image cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "edible image cakes",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "edible image cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "edible image cakes near me",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gender reveal cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "gender reveal cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "ice cream cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "mini cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "review_vocabulary",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "number birthday cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "number cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "number cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "photo cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "photo cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "rainbow cake melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sculpted cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "sculpted cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "tiered cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "tiered cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "two tier cake",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "modifier",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "two tier cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    },
+    {
+      "keyword": "wedding cakes melbourne",
+      "silo_id": "silo_5_specialty_formats",
+      "source": "service_taxonomy",
+      "candidate_type": "general"
+    }
+  ]
+}

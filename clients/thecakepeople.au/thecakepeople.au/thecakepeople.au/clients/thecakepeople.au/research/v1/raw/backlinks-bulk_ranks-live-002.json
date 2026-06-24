@@ -1,0 +1,83 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0688 sec.",
+    "cost": 0.02027,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06230558-1150-0347-0000-e189b0d4f1f6",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0095 sec.",
+            "cost": 0.02027,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "thecakepeople.au",
+                    "fergusonplarre.com.au",
+                    "brunetticlassico.com.au",
+                    "etsy.com",
+                    "thecupcakequeens.com.au",
+                    "ruwiscakes.com.au",
+                    "foodvoyageur.com",
+                    "brunettioro.com.au",
+                    "cheesecake.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 9,
+                    "items": [
+                        {
+                            "target": "thecakepeople.au",
+                            "rank": 167
+                        },
+                        {
+                            "target": "fergusonplarre.com.au",
+                            "rank": 284
+                        },
+                        {
+                            "target": "brunetticlassico.com.au",
+                            "rank": 181
+                        },
+                        {
+                            "target": "etsy.com",
+                            "rank": 725
+                        },
+                        {
+                            "target": "thecupcakequeens.com.au",
+                            "rank": 203
+                        },
+                        {
+                            "target": "ruwiscakes.com.au",
+                            "rank": 152
+                        },
+                        {
+                            "target": "foodvoyageur.com",
+                            "rank": 171
+                        },
+                        {
+                            "target": "brunettioro.com.au",
+                            "rank": 303
+                        },
+                        {
+                            "target": "cheesecake.com.au",
+                            "rank": 282
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

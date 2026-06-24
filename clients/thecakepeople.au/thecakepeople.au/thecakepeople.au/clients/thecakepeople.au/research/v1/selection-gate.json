@@ -1,0 +1,22 @@
+{
+  "gate": "selection",
+  "passed": true,
+  "errors": 0,
+  "warnings": 1,
+  "keywords_sha256": "39a5d5bec61cd25bf36bdc62d6c45dbec9f0471e5688bb4c179f4f382d5e7f1a",
+  "validated_at_utc": "2026-06-23T03:27:42.085462+00:00",
+  "validator_version": "0.6.1",
+  "serp_grounding_waivers": [
+    {
+      "keyword": "hot wheels cake",
+      "reason": "Client already ranks in the observed top-3 (www.thecakepeople.au) on 2,576 impressions/90d at GSC #5.2 \u2014 a proven quick-win. SERP is dedicated-bakery + social (smashacakebrisbane.com.au is an AU bakery; instagram.com), not directory/marketplace-trapped \u2014 a genuine commercial AU opportunity. The strict .com.au counter understates AU dominance because the client domain is .au not .com.au. Bare term is the correct high-volume target; the geo variant has negligible volume."
+    }
+  ],
+  "issues_summary": [
+    {
+      "check": "bare_term_serp",
+      "severity": "warning",
+      "keyword": "hot wheels cake"
+    }
+  ]
+}
