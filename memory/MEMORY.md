@@ -55,3 +55,5 @@
 - [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026
 - [thecakepeople.au](../clients/thecakepeople.au/memory/client_thecakepeople.md) — The Cake People, 100% plant-based celebration cakes Shopify ecommerce, Keilor Park VIC + Melbourne-wide delivery, 30G+0L, full pipeline complete 2026-06-23, report ready for delivery
 - [shellharbourskin.com.au](../clients/shellharbourskin.com.au/memory/client_shellharbourskin.md) — Shellharbour Skin, medical aesthetic & skin cancer clinic NSW, content verification complete 2026-06-26 (12/14 correct, 2 outstanding: Medical Director title missing, meta title missing "-Hall")
+
+- [eazygleam.com.au](../clients/eazygleam.com.au/memory/client_eazygleam.md) — Eazygleam, B2B/B2C wholesale car detailing products Shopify ecommerce, national; 19 city keywords confirmed via live SERP check 2026-06-26 (5 cities × 4 per city), 1 keyword rejected (car polish adelaide = service intent)
