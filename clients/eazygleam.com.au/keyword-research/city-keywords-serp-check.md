@@ -6,8 +6,13 @@
 
 ## Summary
 
-**19/20 keywords PASS** — all have product/ecommerce-dominated SERPs suitable for eazygleam.com.au  
-**1/20 REJECTED** — `car polish adelaide` is a pure service intent SERP
+**20/20 keywords PASS** — all have product/ecommerce-dominated SERPs suitable for eazygleam.com.au
+
+**Root keyword structure — consistent across all 5 cities:**
+1. car detailing products [city]
+2. car detailing supplies [city]
+3. detailing supplies [city]
+4. car care products [city]
 
 ---
 
@@ -25,7 +30,7 @@
 | 8 | car care products sydney | 140 | ✅ PASS | Knowledge graph: "Car Care Products Sydney" (Leichhardt NSW); related searches: "car care products sydney wholesale" | Wholesale intent confirmed |
 | 9 | car detailing products melbourne | 210 | ✅ PASS | Mostly product stores; 2 service results (primefinish, alphadetails) at pos 8-9 | Minor contamination — acceptable |
 | 10 | car detailing supplies melbourne | 170 | ✅ PASS | Local pack: The Detail Store, Detail Central, Car Care Co; organic = product stores; 1 service at lower pos | Popular products carousel present |
-| 11 | detailing supplies melbourne | 130 | ✅ PASS | carcareco.com.au, detailsupplieswarehouse.com.au, detailcentral.com.au, detailingshed.com.au, The Detail Store | **thedetailmarket.com.au has /collections/car-washing-supplies-melbourne** — competitor city page model |
+| 11 | detailing supplies melbourne | 130 | ✅ PASS | carcareco.com.au, detailsupplieswarehouse.com.au, detailcentral.com.au, detailingshed.com.au, The Detail Store | thedetailmarket.com.au has /collections/car-washing-supplies-melbourne — competitor city page model |
 | 12 | car care products melbourne | 170 | ✅ PASS | Local pack: Car Care Co, AutoBuff, Waxit (all product suppliers); organic = product stores; 1 service at pos 10 | Related searches: "wholesale" |
 | 13 | car detailing products perth | 90 | ✅ PASS | Organic: wics.com.au, detailingshed.com.au, carcareproducts.com.au, professionaldetailingproducts.com.au, autoshield.com.au | Local pack has some service businesses but organic is clean |
 | 14 | car detailing supplies perth | 70 | ✅ PASS | Organic: wics.com.au, detailingshed.com.au, professionaldetailingproducts.com.au, autoshield.com.au | "warehouse" in related searches |
@@ -33,48 +38,65 @@
 | 16 | car care products perth | 90 | ✅ PASS | Organic: carcareproducts.com.au, waxit.com.au, detailingshed.com.au, wics.com.au, supercheapauto.com.au | 100% clean product SERP — cleanest Perth keyword |
 | 17 | car detailing products adelaide | 40 | ✅ PASS | Local pack: Carchem Products SA, Care Distributors SA, Professional Detailing Supplies SA; organic: carchem.com.au, detailingshed.com.au, autosmartadelaide.com.au | 2 service pages at pos 8-9 but top positions clean |
 | 18 | car detailing supplies adelaide | 40 | ✅ PASS | Local pack: Carchem, Care Distributors, Autosmart Adelaide (all product suppliers); organic: autosmartadelaide, detailingshed, carchem | Cleanest Adelaide keyword |
-| 19 | car care products adelaide | 40 | ⚠️ CAUTION | Local pack pos 3: Adelaide Detailing Garage (service); organic pos 8: Matt's Mobile Car Detailing | More service contamination vs. other cities; product stores still dominate organic top 5 |
-| 20 | car polish adelaide | 40 | ❌ REJECT | Local pack: all 3 = detailing service businesses; organic pos 1-9 = all service businesses offering cut-and-polish services | PAA: "How much should it cost to polish a car?"; related searches: "car detailing Adelaide", "car polish adelaide prices" — purely transactional service intent |
+| 19 | detailing supplies adelaide | N/A | ✅ PASS | Local pack: Carchem SA, Professional Detailing Supplies SA, Care Distributors SA; organic: carchem.com.au, autosmartadelaide.com.au, detailingshed.com.au, detailsupplieswarehouse.com.au, The Detail Store | Zero GKP volume but product intent confirmed; 1 service at pos 8 only. Consistent with all other cities |
+| 20 | car care products adelaide | 40 | ✅ PASS | Local pack pos 3: Adelaide Detailing Garage (service); organic pos 8: Matt's Mobile Car Detailing | More service contamination vs. other cities; product stores still dominate organic top 5. Accepted |
 
 ---
 
-## Findings & Recommendations
+## Final Keyword List — 20 Confirmed
 
-### ✅ 19 Keywords Confirmed Relevant (PASS)
+**Brisbane (4):**
+1. car detailing products brisbane
+2. car detailing supplies brisbane
+3. detailing supplies brisbane
+4. car care products brisbane
 
-All 19 keywords have Google SERPs dominated by product/ecommerce stores — exactly the type of intent that eazygleam.com.au can satisfy. The pages ranking are competitors like gleamitproducts.com.au, carcareproducts.com.au, detailingshed.com.au, waxit.com.au and The Detail Store.
+**Sydney (4):**
+5. car detailing products sydney
+6. car detailing supplies sydney
+7. detailing supplies sydney
+8. car care products sydney
 
-**SERP health by city:**
-- **Brisbane & Sydney** — Cleanest SERPs. Pure product intent. Local pack shows physical showrooms selling car care products.
-- **Melbourne** — Very strong product SERPs. Minor service contamination at lower positions only (pos 8-10). Acceptable.
-- **Perth** — Strong product SERPs in organic. Local packs occasionally show service businesses (AutoFX WA, Detailer Co) but these don't affect the organic competition.
-- **Adelaide** — More service contamination than other cities due to thinner pure-product online presence. Still passable for keywords 17-19, but needs attention.
+**Melbourne (4):**
+9. car detailing products melbourne
+10. car detailing supplies melbourne
+11. detailing supplies melbourne
+12. car care products melbourne
 
-### ❌ Keyword 20 Rejected: `car polish adelaide`
+**Perth (4):**
+13. car detailing products perth
+14. car detailing supplies perth
+15. detailing supplies perth
+16. car care products perth
 
-The SERP for "car polish adelaide" is entirely service-dominated:
-- All 3 local pack results = car detailing service businesses
-- All organic results = cut-and-polish service pages with pricing
-- People Also Ask = "How much does it cost to polish a car?"
-- Related searches = "car detailing Adelaide", "car polish adelaide prices"
+**Adelaide (4):**
+17. car detailing products adelaide
+18. car detailing supplies adelaide
+19. detailing supplies adelaide
+20. car care products adelaide
 
-This SERP tells us the searcher intent is: *"I want someone to polish my car."* — NOT: *"I want to buy car polish products."*
+---
 
-**Action needed:** Replace with a product-intent keyword. Recommended replacement: **`detailing supplies adelaide`**
-- Follows the same keyword pattern that returned clean product SERPs in Brisbane, Sydney, Melbourne, and Perth
-- Volume needs confirming via GKP (may be 20-40/mo like other Adelaide terms)
-- If volume is zero, Adelaide can proceed with 3 keywords — still strong coverage with keywords 17-19
+## Findings
 
-### Content Strategy Note for eazygleam
+### SERP health by city
+- **Brisbane & Sydney** — Cleanest SERPs. Pure product intent across all 4 keywords. Local packs show physical showrooms selling car care products.
+- **Melbourne** — Strong product SERPs. Minor service contamination at lower positions only (pos 8-10). Acceptable.
+- **Perth** — Strong product SERPs in organic. Local packs occasionally show service businesses (AutoFX WA, Detailer Co) but organic is clean.
+- **Adelaide** — More service contamination than other cities due to thinner online product supply market. All 4 keywords still passable: top organic positions are product stores, services appear only at pos 8+ or in local pack.
 
+### Note on `detailing supplies adelaide` (keyword 19)
+GKP returned N/A volume (zero recorded monthly searches). This is expected for a thin market like Adelaide. The SERP is product-intent and winnable — the root consistency across all 5 cities justifies its inclusion. As eazygleam creates a city page targeting all 4 Adelaide root terms together, this keyword will be captured as part of the same page.
+
+### Content Strategy for eazygleam
 Competitor `gleamitproducts.com.au` already has city-specific Shopify pages:
 - /car-detailing-products-sydney/
 - /car-detailing-products-brisbane/
 
-Competitor `thedetailmarket.com.au` ranks for "detailing supplies melbourne" via a Shopify /collections/ page:
+Competitor `thedetailmarket.com.au` ranks for "detailing supplies melbourne" via:
 - /collections/car-washing-supplies-melbourne
 
-**eazygleam should create dedicated city pages** — either /pages/[city]-car-detailing-products or /collections/[city]-detailing-supplies — to compete for all 19-20 location keywords. These pages need city-specific content, not just a generic page with a city name injected.
+**eazygleam should create one dedicated landing page per city** — targeting all 4 root keywords per page. Either `/pages/[city]-car-detailing-products` or `/collections/[city]-detailing-supplies`. City-specific content required, not just keyword injection.
 
 ---
 
@@ -104,3 +126,4 @@ Competitor `thedetailmarket.com.au` ranks for "detailing supplies melbourne" via
 | carchem.com.au | Somerton Park; Adelaide manufacturer; dominates Adelaide local packs |
 | caredistributors.com.au | Wingfield SA; DIY + professional detailing products |
 | autosmartadelaide.com.au | Professional vehicle cleaning + workshop products |
+| professionaldetailingsupplies.com.au | Pooraka SA; appears in Adelaide local pack |
