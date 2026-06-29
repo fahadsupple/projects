@@ -1,0 +1,294 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Southbank" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: Southbank’s premium office towers, hospitality venues, and high-end retail spaces set a high bar for interior fitouts, and Danton Developments has the experience and credentials to meet it. Based in Thomastown, we install aluminium, glass, and
+          - link "plasterboard partition systems" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: throughout Southbank’s prestigious commercial precinct, delivering sleek, professional results that reflect the calibre of the businesses operating there. With over 25 years of industry experience and 3,000+ completed projects, we’re well-versed in the exacting standards that Southbank’s commercial environment demands.
+        - paragraph [ref=e82]:
+          - text: From full-height
+          - link "frameless glass walls" [ref=e83] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/glass-partition-walls/
+          - text: and acoustic partitions to fire-rated plasterboard systems and complete office fitouts, every installation is tailored to your specific space and compliance requirements. We coordinate with electricians, HVAC contractors, and other trades throughout the process, ensuring a seamless result with minimal disruption to your operations. Call
+          - link "0403 709 884" [ref=e84] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e85] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free quote on partition walls in Southbank.
+        - heading "Solving Southbank’s Office Space Challenges" [level=2] [ref=e86]:
+          - strong [ref=e87]: Solving Southbank’s Office Space Challenges
+        - paragraph [ref=e88]:
+          - link "Danton Developments" [ref=e89] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: "installs modular partition walls that adapt as your business changes, allowing you to reconfigure spaces quickly without the disruption of traditional renovations. Our systems include:"
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Aluminium and glass partitions" [ref=e92] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: for executive offices
+          - listitem [ref=e93]: Acoustic services for meeting rooms and quiet zones
+          - listitem [ref=e94]: Fire-rated wall systems for compliance requirements
+          - listitem [ref=e95]: Demountable partitions for flexibility
+        - heading "Expert Navigation of High-Rise Logistics" [level=2] [ref=e96]:
+          - strong [ref=e97]: Expert Navigation of High-Rise Logistics
+        - paragraph [ref=e98]: Danton Developments has perfected the logistics of working in high-rise environments, managing everything from service lift bookings to coordinating with facility managers. Our deep experience means we’ve pre-solved the challenges that frustrate generic builders and cause costly delays.
+        - paragraph [ref=e99]: "We handle:"
+        - list [ref=e100]:
+          - listitem [ref=e101]: Compliances and management approvals
+          - listitem [ref=e102]: Loading dock scheduling and material transport
+          - listitem [ref=e103]: After-hours installations to avoid business disruption
+          - listitem [ref=e104]: Clean, low-dust methods suitable for occupied floors
+          - listitem [ref=e105]: Coordination with security and building protocols
+        - heading "Weekend and After-Hours Installation Specialists" [level=3] [ref=e106]:
+          - strong [ref=e107]: Weekend and After-Hours Installation Specialists
+        - paragraph [ref=e108]: Many Southbank businesses can’t afford downtime during critical trading hours. That’s why we specialise in weekend and after-hours installations, often completing entire office reconfigurations over a single weekend. Your team leaves on Friday afternoon and returns Monday morning to a transformed workspace, with zero productivity loss.
+        - heading "Your Local Office Partition Experts in Southbank" [level=2] [ref=e109]:
+          - strong [ref=e110]: Your Local Office Partition Experts in Southbank
+        - paragraph [ref=e111]: "Our knowledge extends beyond simple installations. We provide extensive fitout services including:"
+        - list [ref=e112]:
+          - listitem [ref=e113]: Complete commercial office fitouts
+          - listitem [ref=e114]: Retail space configurations
+          - listitem [ref=e115]: Bulkheads and architectural features
+          - listitem [ref=e116]: Maintenance and emergency repairs
+          - listitem [ref=e117]: Strip out and make-good services for lease endings
+        - paragraph [ref=e118]:
+          - link "Get Your Free Quote" [ref=e119] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: for Office Partitions Southbank
+        - heading "Why Choose Danton Developments" [level=2] [ref=e120]:
+          - strong [ref=e121]: Why Choose Danton Developments
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - strong [ref=e124]: Melbourne’s Trusted Interior Specialists
+            - text: – We’ve earned our reputation through consistent delivery of high-quality partition installations across Melbourne’s most prestigious commercial buildings.
+          - listitem [ref=e125]:
+            - strong [ref=e126]: Premium Materials and Guaranteed Workmanship
+            - text: – Every partition system we install uses superior materials backed by our extensive workmanship guarantee, providing your investment delivers lasting value.
+          - listitem [ref=e127]:
+            - strong [ref=e128]: Industry Experts in Partitions
+            - text: – Our team brings decades of combined experience specifically in commercial partition installations, understanding both the technical requirements and business needs of modern offices.
+          - listitem [ref=e129]:
+            - strong [ref=e130]: Commitment to Minimal Disruption
+            - text: – We recognise that time is money in Southbank’s fast-paced business environment. Our streamlined processes and expert project management keep your business running while we transform your space.
+          - listitem [ref=e131]:
+            - strong [ref=e132]: Reliability You Can Count On
+            - text: – From initial consultation through to project completion, we deliver on our promises with clear communication, adherence to timelines, and transparent pricing.
+        - heading "Frequently Asked Questions" [level=2] [ref=e133]:
+          - strong [ref=e134]: Frequently Asked Questions
+        - paragraph [ref=e135]:
+          - strong [ref=e136]: What types of partition walls are best for Southbank offices?
+        - paragraph [ref=e137]: Glass and aluminium partitions work exceptionally well in modern Southbank towers, maintaining light flow while creating defined spaces. We also recommend acoustic partitions for areas requiring sound control.
+        - paragraph [ref=e138]:
+          - strong [ref=e139]: How long does a typical partition installation take?
+        - paragraph [ref=e140]: Most office partition projects can be completed over a weekend or during after-hours sessions. We work around your schedule to achieve zero business disruption.
+        - paragraph [ref=e141]:
+          - strong [ref=e142]: Do you handle building management requirements?
+        - paragraph [ref=e143]: Yes, we manage all aspects of building compliance, from initial approvals through to coordinating access and adhering to specific contractor rules required in Southbank’s premium towers.
+        - paragraph [ref=e144]:
+          - strong [ref=e145]: Can partitions be reconfigured as our business grows?
+        - paragraph [ref=e146]: Absolutely. We specialise in modular partition systems that can be reconfigured, moved, or expanded as your needs change, protecting your investment long-term.
+        - paragraph [ref=e147]:
+          - strong [ref=e148]: What about fire rating requirements?
+        - paragraph [ref=e149]: We install fire-rated partition systems that meet all relevant Australian standards and building codes, providing full compliance with safety regulations.
+        - paragraph [ref=e150]:
+          - strong [ref=e151]: How do you transport long steel studs into Southbank high-rises?
+        - paragraph [ref=e152]: We coordinate with building management to use the service lifts and, where necessary, use “spliced” studs that meet structural requirements while fitting into elevator cabs.
+        - paragraph [ref=e153]:
+          - strong [ref=e154]: Can you build partitions that incorporate recessed shelving?
+        - paragraph [ref=e155]:
+          - text: Yes, we can frame out custom niches and recessed shelving within our
+          - link "plasterboard walls" [ref=e156] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: to create a sleek, built-in look for Southbank foyers.
+        - paragraph [ref=e157]:
+          - strong [ref=e158]: Do you provide make-good services for lease endings?
+        - paragraph [ref=e159]: Yes, we offer complete strip-out and make-good services, helping you meet lease obligations and avoid penalties when relocating or downsizing.
+        - paragraph [ref=e160]:
+          - iframe [ref=e161]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e162]
+        - generic [ref=e163]:
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Partition Walls Epping" [ref=e167] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e168]:
+              - link "Partition Walls Truganina" [ref=e169] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e170]:
+              - link "Partition Walls Williams Landing" [ref=e171] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e172]:
+              - link "Partition Walls Preston" [ref=e173] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e174]:
+              - link "Partition Walls Cheltenham" [ref=e175] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e177]:
+            - listitem [ref=e178]:
+              - link "Partition Walls Cremorne" [ref=e179] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e180]:
+              - link "Partition Walls Richmond" [ref=e181] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e182]:
+              - link "Partition Walls Port Melbourne" [ref=e183] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e184]:
+              - link "Partition Walls Collingwood" [ref=e185] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e187]:
+            - listitem [ref=e188]: Partition Walls Southbank
+            - listitem [ref=e189]:
+              - link "Partition Walls Geelong" [ref=e190] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e191]:
+              - link "Partition Walls Grovedale" [ref=e192] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e193]:
+              - link "Partition Walls Moolap" [ref=e194] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Southbank" [level=3] [ref=e195]
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link "Suspended Ceilings Southbank" [ref=e200] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-southbank/
+      - generic [ref=e207]:
+        - heading "Send us a message" [level=2] [ref=e209]
+        - form "Contact form" [ref=e214]:
+          - paragraph [ref=e215]:
+            - textbox "Your Name" [ref=e217]
+          - paragraph [ref=e218]:
+            - textbox "Email" [ref=e220]
+          - paragraph [ref=e221]:
+            - textbox "Phone" [ref=e223]
+          - paragraph [ref=e224]:
+            - textbox "Subject" [ref=e226]
+          - paragraph [ref=e227]:
+            - textbox "Your Message" [ref=e229]
+          - paragraph [ref=e230]:
+            - button "Submit" [ref=e231] [cursor=pointer]
+  - contentinfo [ref=e232]:
+    - generic [ref=e233]:
+      - generic [ref=e237]:
+        - generic [ref=e242]:
+          - paragraph [ref=e243]: Quick Links
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Home" [ref=e247] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e248]:
+              - link "About Us" [ref=e249] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e250]:
+              - link "Services" [ref=e251] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e252]:
+              - link "Projects" [ref=e253] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e254]:
+              - link "Areas" [ref=e255] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e256]:
+              - link "Contact Us" [ref=e257] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e258]:
+              - link "Privacy Policy" [ref=e259] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e264]:
+          - paragraph [ref=e265]: Our Services
+          - list [ref=e267]:
+            - listitem [ref=e268]:
+              - link "Ceiling Replacement Repairs" [ref=e269] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e270]:
+              - link "Glass Partition Walls" [ref=e271] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e272]:
+              - link "Partition Walls" [ref=e273] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e274]:
+              - link "Plasterboard Partitions" [ref=e275] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e276]:
+              - link "Suspended Ceilings" [ref=e277] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e278]:
+              - link "Exposed Grid Ceilings" [ref=e279] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e284]:
+          - paragraph [ref=e285]: Contact Us
+          - paragraph [ref=e286]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e287] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e288] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: Social Media
+            - list [ref=e291]:
+              - listitem [ref=e292]:
+                - link "Facebook" [ref=e293] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e294]
+                  - generic [ref=e296]: Facebook
+      - paragraph [ref=e306]: Copyright © 2026 Danton Developments

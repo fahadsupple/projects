@@ -1,0 +1,313 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Richmond" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: Looking to create a more functional and flexible workspace in Richmond? Danton Developments delivers professional
+          - link "partition wall services" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: for businesses ready to optimise their office layouts. Whether you’re dividing an open-plan warehouse in Cremorne’s tech hub or creating private meeting spaces near Swan Street, our team brings over 25 years of experience to every project.
+        - paragraph [ref=e82]: From modern glass partitions that maintain natural light flow to acoustic outcomes that tackle the unique noise challenges of Richmond’s bustling commercial precincts, we handle complete partition wall installations from initial design through to final handover.
+        - heading "Smart Services for Richmond’s Dynamic Business Environment" [level=2] [ref=e83]:
+          - strong [ref=e84]: Smart Services for Richmond’s Dynamic Business Environment
+        - paragraph [ref=e85]: "Richmond’s diverse business landscape demands versatile partition services. From converted warehouses to modern commercial towers, each space requires unique approaches. With 65.5% of Richmond’s workforce in professional, managerial, or clerical roles [Source: Australian Bureau of Statistics, 2021 Census], the need for sophisticated, adaptable workspaces has never been greater."
+        - paragraph [ref=e86]:
+          - strong [ref=e87]: "Common Workspace Challenges We Solve:"
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - strong [ref=e90]: Open-plan noise issues
+            - text: affecting productivity, particularly in warehouse conversions near major arterials like Punt Road and Hoddle Street
+          - listitem [ref=e91]:
+            - strong [ref=e92]: Rigid layouts
+            - text: that can’t adapt to team growth or changing business needs
+          - listitem [ref=e93]:
+            - strong [ref=e94]: Lack of privacy
+            - text: for confidential meetings or focused work zones
+          - listitem [ref=e95]:
+            - strong [ref=e96]: Dated aesthetics
+            - text: that fail to impress clients or attract talented staff
+        - heading "Extensive Partition Wall Services" [level=2] [ref=e97]:
+          - strong [ref=e98]: Extensive Partition Wall Services
+        - paragraph [ref=e99]: "Danton Developments provides a complete range of partition options tailored to Richmond’s unique commercial spaces:"
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - strong [ref=e102]: Aluminium and Glass Partitions
+            - text: ": Perfect for maintaining natural light while creating defined spaces. Our"
+            - link "glass partition systems" [ref=e103] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: work exceptionally well in Richmond’s character buildings, complementing exposed brick walls and original timber features while delivering modern functionality.
+          - listitem [ref=e104]:
+            - strong [ref=e105]: Acoustic and Soundproofing Services
+            - text: ": Essential for businesses dealing with external noise from trams on Swan Street or internal sound transfer in open-plan environments. We design acoustic partition walls that significantly lower noise transmission, creating productive work zones."
+          - listitem [ref=e106]:
+            - strong [ref=e107]: Plasterboard Partitions
+            - text: ": Cost-effective options for creating permanent office divisions, meeting rooms, or storage areas. Our"
+            - link "plasterboard partition walls" [ref=e108] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - text: can be finished to match existing aesthetics or create entirely new looks.
+          - listitem [ref=e109]:
+            - strong [ref=e110]: Fire-Rated Wall Systems
+            - text: ": Compliance is vital, especially when working within Richmond’s mixed-use buildings. We install fire-rated partition systems that meet all relevant standards while maintaining design flexibility."
+          - listitem [ref=e111]:
+            - strong [ref=e112]: Modular Office Partition Walls
+            - text: ": Ideal for growing businesses or anyone with changing space requirements. These systems can be reconfigured without major construction work, protecting your investment as your needs evolve."
+        - heading "Your Local Office Partitions Richmond Experts" [level=2] [ref=e113]:
+          - strong [ref=e114]: Your Local Office Partitions Richmond Experts
+        - paragraph [ref=e115]:
+          - text: Based in Thomastown and working across Melbourne,
+          - link "Danton Developments" [ref=e116] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: understands the specific requirements of Richmond’s commercial properties. Our team regularly works in the Cremorne tech precinct and along Bridge Road’s retail corridors, bringing local knowledge to every project.
+        - paragraph [ref=e117]:
+          - strong [ref=e118]: "Why Richmond Businesses Choose Us:"
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - strong [ref=e121]: Local industry experience
+            - text: – We know the acoustic challenges of warehouse conversions and the compliance requirements for Richmond’s diverse building stock
+          - listitem [ref=e122]:
+            - strong [ref=e123]: Minimal disruption
+            - text: – Our efficient installation process keeps your business running while we transform your space
+          - listitem [ref=e124]:
+            - strong [ref=e125]: Premium materials
+            - text: – High-quality partition systems designed for long-term performance and aesthetic appeal
+          - listitem [ref=e126]:
+            - strong [ref=e127]: Flexible scheduling
+            - text: – Working hours that accommodate your business operations
+        - heading "Why Choose Danton Developments for Your Partition Walls" [level=2] [ref=e128]:
+          - strong [ref=e129]: Why Choose Danton Developments for Your Partition Walls
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - strong [ref=e132]: "Melbourne’s Trusted Interior Specialists:"
+            - text: With over 25 years in the industry, our founder Daniel brings unmatched industry experience to every partition wall project. This extensive experience translates into efficient installations and services that stand the test of time.
+          - listitem [ref=e133]:
+            - strong [ref=e134]: "Premium Materials and Guaranteed Workmanship:"
+            - text: We use only premium partition systems from trusted manufacturers, providing durability, acoustic performance, and aesthetic appeal. Every installation is backed by our workmanship guarantee.
+          - listitem [ref=e135]:
+            - strong [ref=e136]: "Always Committed to Delivering the Highest Standards:"
+            - text: From initial consultation through to project completion, we maintain rigorous quality standards. Our attention to detail makes sure your partition walls not only look professional but perform exactly as intended.
+          - listitem [ref=e137]:
+            - strong [ref=e138]: "Reliable and Professional Service:"
+            - text: Richmond businesses can count on us to deliver on time and within budget. We pride ourselves on clear communication, transparent pricing, and keeping projects on schedule.
+          - listitem [ref=e139]:
+            - strong [ref=e140]: "Extensive Insurance Coverage:"
+            - text: Fully insured with public liability coverage, giving you complete peace of mind throughout your project.
+        - heading "Transform Your Richmond Workspace Today" [level=2] [ref=e141]:
+          - strong [ref=e142]: Transform Your Richmond Workspace Today
+        - paragraph [ref=e143]: Ready to create a more productive, flexible workspace with professional partition walls? Danton Developments is here to help Richmond businesses optimise their office environments with smart partition services.
+        - paragraph [ref=e144]: From startups in converted Cremorne warehouses to established firms in modern commercial buildings, we deliver partition wall systems that improve functionality, refine acoustics, and reflect your professional image.
+        - paragraph [ref=e145]:
+          - link "Contact" [ref=e146] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: Danton Developments at
+          - link "0403 709 884" [ref=e147] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e148] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: to discuss your partition wall requirements. Let’s work together to build your vision into reality.
+        - heading "Frequently Asked Questions" [level=2] [ref=e149]:
+          - strong [ref=e150]: Frequently Asked Questions
+        - paragraph [ref=e151]:
+          - strong [ref=e152]: What types of partition walls work best in Richmond’s warehouse conversions?
+        - paragraph [ref=e153]: Glass and aluminium partitions are ideal for maintaining the character of warehouse spaces while providing necessary divisions. We often recommend acoustic glass systems to address noise from nearby traffic and trams while preserving natural light.
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: How long does a typical office partition installation take?
+        - paragraph [ref=e156]: Most partition wall projects in Richmond can be completed within 1-2 weeks, depending on scope. We work efficiently to minimise disruption and can schedule work outside business hours when needed.
+        - paragraph [ref=e157]:
+          - strong [ref=e158]: Do you handle planning requirements for heritage buildings?
+        - paragraph [ref=e159]: Yes, we’re knowledgeable with Richmond’s diverse building stock and can handle any necessary approvals. We make sure all installations comply with relevant standards and building requirements.
+        - paragraph [ref=e160]:
+          - strong [ref=e161]: Can partition walls be relocated if our needs change?
+        - paragraph [ref=e162]: Absolutely. We specialise in modular partition systems that can be reconfigured as your business grows or requirements change. This flexibility protects your investment long-term.
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: What’s included in your free quote?
+        - paragraph [ref=e165]: Our extensive quotes detail all materials, labour, timeline, and any additional requirements specific to your Richmond location. We provide transparent pricing with no hidden costs.
+        - paragraph [ref=e166]:
+          - strong [ref=e167]: Do you offer acoustic testing for partition walls?
+        - paragraph [ref=e168]: Yes, we can arrange acoustic performance testing to make sure your new partitions meet specific sound reduction requirements, particularly important for Richmond’s noisy commercial areas.
+        - paragraph [ref=e169]:
+          - iframe [ref=e170]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e171]
+        - generic [ref=e172]:
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "Partition Walls Epping" [ref=e176] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e177]:
+              - link "Partition Walls Truganina" [ref=e178] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e179]:
+              - link "Partition Walls Williams Landing" [ref=e180] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e181]:
+              - link "Partition Walls Preston" [ref=e182] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e183]:
+              - link "Partition Walls Cheltenham" [ref=e184] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Partition Walls Cremorne" [ref=e188] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e189]: Partition Walls Richmond
+            - listitem [ref=e190]:
+              - link "Partition Walls Port Melbourne" [ref=e191] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e192]:
+              - link "Partition Walls Collingwood" [ref=e193] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "Partition Walls Southbank" [ref=e197] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e198]:
+              - link "Partition Walls Geelong" [ref=e199] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e200]:
+              - link "Partition Walls Grovedale" [ref=e201] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e202]:
+              - link "Partition Walls Moolap" [ref=e203] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Richmond" [level=3] [ref=e204]
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - link "Suspended Ceilings Richmond" [ref=e209] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-richmond/
+      - generic [ref=e218]:
+        - heading "Send us a message" [level=2] [ref=e220]
+        - form "Contact form" [ref=e225]:
+          - paragraph [ref=e226]:
+            - textbox "Your Name" [ref=e228]
+          - paragraph [ref=e229]:
+            - textbox "Email" [ref=e231]
+          - paragraph [ref=e232]:
+            - textbox "Phone" [ref=e234]
+          - paragraph [ref=e235]:
+            - textbox "Subject" [ref=e237]
+          - paragraph [ref=e238]:
+            - textbox "Your Message" [ref=e240]
+          - paragraph [ref=e241]:
+            - button "Submit" [ref=e242] [cursor=pointer]
+  - contentinfo [ref=e243]:
+    - generic [ref=e244]:
+      - generic [ref=e248]:
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: Quick Links
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link "Home" [ref=e258] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e259]:
+              - link "About Us" [ref=e260] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e261]:
+              - link "Services" [ref=e262] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e263]:
+              - link "Projects" [ref=e264] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e265]:
+              - link "Areas" [ref=e266] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e267]:
+              - link "Contact Us" [ref=e268] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e269]:
+              - link "Privacy Policy" [ref=e270] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e275]:
+          - paragraph [ref=e276]: Our Services
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "Ceiling Replacement Repairs" [ref=e280] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e281]:
+              - link "Glass Partition Walls" [ref=e282] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e283]:
+              - link "Partition Walls" [ref=e284] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e285]:
+              - link "Plasterboard Partitions" [ref=e286] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e287]:
+              - link "Suspended Ceilings" [ref=e288] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e289]:
+              - link "Exposed Grid Ceilings" [ref=e290] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e295]:
+          - paragraph [ref=e296]: Contact Us
+          - paragraph [ref=e297]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e298] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e299] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e300]:
+            - paragraph [ref=e301]: Social Media
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - link "Facebook" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e305]
+                  - generic [ref=e307]: Facebook
+      - paragraph [ref=e317]: Copyright © 2026 Danton Developments

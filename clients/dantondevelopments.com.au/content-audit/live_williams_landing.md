@@ -1,0 +1,331 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Williams Landing" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: For businesses and commercial property owners in Williams Landing, Danton Developments delivers professional
+          - link "partition wall installation" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: and repair services tailored to the suburb’s growing commercial landscape. Based in Thomastown, our experienced teams travel fully equipped to install high-quality aluminium, glass, and
+          - link "plasterboard partition" [ref=e82] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: systems across Williams Landing’s modern office spaces, retail tenancies, and commercial fitouts.
+        - paragraph [ref=e83]:
+          - text: With over 25 years of industry experience and 3,000+ completed projects, we have the expertise and track record that local businesses and property managers rely on. Call
+          - link "0403 709 884" [ref=e84] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e85] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free on-site quote on partition walls in Williams Landing.
+        - heading "Office Partitions Williams Landing – Services for Every Business Need" [level=2] [ref=e86]:
+          - strong [ref=e87]: Office Partitions Williams Landing – Services for Every Business Need
+        - paragraph [ref=e88]:
+          - text: Professional services firms, growing tech companies, and client-focused businesses throughout Williams Landing trust
+          - link "Danton Developments" [ref=e89] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: for
+          - link "office partitions" [ref=e90] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: that solve real workplace challenges. The modern architecture of Williams Landing’s commercial buildings, with their emphasis on glass and steel, requires strategic partition placement to manage both acoustics and thermal comfort.
+        - paragraph [ref=e91]: "Our partition wall services include:"
+        - heading "Glass Partition Systems" [level=3] [ref=e92]:
+          - strong [ref=e93]: Glass Partition Systems
+        - paragraph [ref=e94]: "Perfect for maintaining the bright, modern aesthetic of Williams Landing offices while creating necessary divisions. Our glass partitions provide:"
+        - list [ref=e95]:
+          - listitem [ref=e96]: Visual transparency that keeps spaces feeling open
+          - listitem [ref=e97]: Sound reduction for confidential conversations
+          - listitem [ref=e98]: Professional meeting rooms that impress clients
+          - listitem [ref=e99]: Flexible configurations that evolve with your needs
+        - heading "Acoustic Partition Services" [level=3] [ref=e100]:
+          - strong [ref=e101]: Acoustic Partition Services
+        - paragraph [ref=e102]: "Address the noise challenges common in Williams Landing’s open-plan commercial spaces:"
+        - list [ref=e103]:
+          - listitem [ref=e104]: Soundproof meeting rooms for sensitive discussions
+          - listitem [ref=e105]: Quiet zones for focused work
+          - listitem [ref=e106]: Improved speech privacy throughout the office
+          - listitem [ref=e107]: Improved productivity through better acoustic management
+        - heading "Plasterboard Partitions" [level=3] [ref=e108]:
+          - strong [ref=e109]: Plasterboard Partitions
+        - paragraph [ref=e110]: "Ideal for creating permanent room divisions and private offices:"
+        - list [ref=e111]:
+          - listitem [ref=e112]: Cost-effective services for rapid office transformation
+          - listitem [ref=e113]: Stress-free integration with existing building services
+          - listitem [ref=e114]: Fire-rated options for compliance requirements
+          - listitem [ref=e115]: Custom configurations to maximise your floor plan
+        - paragraph [ref=e116]:
+          - link "Get Your Free Design Consultation" [ref=e117] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: – Transform Your Williams Landing Office Today
+        - heading "Your Local Partition Wall Experts in Williams Landing" [level=2] [ref=e118]:
+          - strong [ref=e119]: Your Local Partition Wall Experts in Williams Landing
+        - paragraph [ref=e120]: Based in nearby Thomastown and operating throughout Melbourne, Danton Developments brings over 25 years of industry experience to every Williams Landing project. We understand the specific requirements of working in the area’s contemporary commercial buildings, from handling building management protocols to coordinating with other trades in active business environments.
+        - paragraph [ref=e121]: Our knowledge extends beyond simple wall installation. We specialise in transforming the “warm shell” tenancies common to Williams Landing’s commercial developments into high-performance workspaces. All our commercial fitouts adhere to the Wyndham City Council’s planning scheme, which encourages first-rate development in the designated town centre, making sure that your project is fully compliant.
+        - heading "Why Choose Danton Developments for Partition Walls Williams Landing" [level=2] [ref=e122]:
+          - strong [ref=e123]: Why Choose Danton Developments for Partition Walls Williams Landing
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: "Melbourne’s Trusted Interior Specialists:"
+          - text: With a commitment to delivering the highest standards, we’ve completed over 3,000 projects across Melbourne and Geelong. Our focus on quality and reliability means nearly all our clients return when they need additional fitout services.
+        - paragraph [ref=e126]:
+          - strong [ref=e127]: "Premium Materials and Guaranteed Workmanship:"
+          - text: We use only first-rate partition systems from trusted manufacturers, providing your investment delivers long-term value. Every installation meets the highest standards, giving you peace of mind.
+        - paragraph [ref=e128]:
+          - strong [ref=e129]: "Knowledgeable Professionals in Partitions and Fitouts:"
+          - text: Our team brings decades of combined experience to your project. We’ve seen our industry evolve and continue to adapt with new tools and methods to deliver exceptional results.
+        - paragraph [ref=e130]:
+          - strong [ref=e131]: "Complete Project Management:"
+          - text: "From initial consultation through to final handover, we manage every aspect of your partition wall installation:"
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Free quotes" [ref=e134] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/contact-us/
+            - text: with transparent pricing
+          - listitem [ref=e135]: Detailed planning and design consultation
+          - listitem [ref=e136]: Professional installation with minimal disruption
+          - listitem [ref=e137]: All works comply with industry codes and safety standards
+        - paragraph [ref=e138]:
+          - strong [ref=e139]: Direct Communication with Experts
+        - paragraph [ref=e140]: When you work with Danton Developments, you deal directly with industry experts who understand your vision. We pride ourselves on clear communication throughout your project, making sure that you’re always informed and satisfied with progress.
+        - heading "Extensive Partition Services for Williams Landing Businesses" [level=2] [ref=e141]:
+          - strong [ref=e142]: Extensive Partition Services for Williams Landing Businesses
+        - paragraph [ref=e143]: "Beyond standard partition walls, Danton Developments offers a complete range of commercial interior services:"
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - strong [ref=e146]: Commercial Office Fitouts
+            - text: ": Complete workspace transformations for new or expanding businesses"
+          - listitem [ref=e147]:
+            - strong [ref=e148]: Retail Fitouts
+            - text: ": Create engaging customer environments that drive sales"
+          - listitem [ref=e149]:
+            - strong [ref=e150]: Bulkheads and Architectural Features
+            - text: ": Define spaces and integrate services smoothly"
+          - listitem [ref=e151]:
+            - strong [ref=e152]: Fire-Rated Wall Systems
+            - text: ": Comply with National Construction Code requirements"
+          - listitem [ref=e153]:
+            - strong [ref=e154]: Maintenance and Emergency Repairs
+            - text: ": Keep your workspace functioning at its peak"
+          - listitem [ref=e155]:
+            - strong [ref=e156]: Strip Out and Make-Good Services
+            - text: ": Perfect for lease changes or reconfigurations"
+        - heading "The Danton Developments Process" [level=2] [ref=e157]:
+          - strong [ref=e158]: The Danton Developments Process
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - strong [ref=e161]: 1Initial Consultation
+            - text: ": After first contact, we arrange a site visit to understand your specific needs and assess your Williams Landing premises. We review any existing plans and discuss your vision for the space."
+          - listitem [ref=e162]:
+            - strong [ref=e163]: Design and Quot
+            - text: ": We calculate a detailed quote based on your requirements, providing transparency in pricing. Our quotes include everything needed for your partition wall project, with no hidden surprises."
+          - listitem [ref=e164]:
+            - strong [ref=e165]: Project Planning
+            - text: ": Once approved, we coordinate with our team and building management to schedule works with minimal disruption to your business operations."
+          - listitem [ref=e166]:
+            - strong [ref=e167]: Professional Installation
+            - text: ": Our well-trained team delivers quality workmanship, with regular inspections at every stage guaranteeing client satisfaction."
+          - listitem [ref=e168]:
+            - strong [ref=e169]: Handover and Support
+            - text: ": We make sure that you’re completely satisfied with the finished result and provide ongoing support for any future needs."
+        - heading "Frequently Asked Questions About Partition Walls Williams Landing" [level=2] [ref=e170]:
+          - strong [ref=e171]: Frequently Asked Questions About Partition Walls Williams Landing
+        - paragraph [ref=e172]:
+          - strong [ref=e173]: What types of businesses do you work with in Williams Landing?
+        - paragraph [ref=e174]: We work with diverse clients including professional services firms, tech companies, medical practices, and retail businesses. Whether you’re a startup in your first office or an established company reconfiguring your space, we tailor services to your needs.
+        - paragraph [ref=e175]:
+          - strong [ref=e176]: How long does partition wall installation take?
+        - paragraph [ref=e177]: Project timelines vary based on scope, but most office partition installations in Williams Landing are completed within 1-3 weeks. We work efficiently to minimise disruption to your business.
+        - paragraph [ref=e178]:
+          - strong [ref=e179]: Do your partition walls meet local building codes?
+        - paragraph [ref=e180]: Yes, all our installations comply with the National Construction Code and Wyndham City Council’s commercial development standards. We verify your fitout meets all regulatory requirements.
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: Can partition walls be reconfigured later?
+        - paragraph [ref=e183]: Absolutely. We specialise in flexible partition systems that can adapt as your Williams Landing business grows. Many of our aluminium and glass systems are designed for easy reconfiguration.
+        - paragraph [ref=e184]:
+          - strong [ref=e185]: What’s included in your free quote?
+        - paragraph [ref=e186]: Our detailed quotes cover all aspects of your partition wall project including materials, labour, compliance requirements, and project management. We believe in transparent pricing with no hidden costs.
+        - paragraph [ref=e187]:
+          - iframe [ref=e188]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e189]
+        - generic [ref=e190]:
+          - list [ref=e192]:
+            - listitem [ref=e193]:
+              - link "Partition Walls Epping" [ref=e194] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e195]:
+              - link "Partition Walls Truganina" [ref=e196] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e197]: Partition Walls Williams Landing
+            - listitem [ref=e198]:
+              - link "Partition Walls Preston" [ref=e199] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e200]:
+              - link "Partition Walls Cheltenham" [ref=e201] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Partition Walls Cremorne" [ref=e205] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e206]:
+              - link "Partition Walls Richmond" [ref=e207] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e208]:
+              - link "Partition Walls Port Melbourne" [ref=e209] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e210]:
+              - link "Partition Walls Collingwood" [ref=e211] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - link "Partition Walls Southbank" [ref=e215] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e216]:
+              - link "Partition Walls Geelong" [ref=e217] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e218]:
+              - link "Partition Walls Grovedale" [ref=e219] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e220]:
+              - link "Partition Walls Moolap" [ref=e221] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Williams Landing" [level=3] [ref=e222]
+        - list [ref=e225]:
+          - listitem [ref=e226]:
+            - link "Suspended Ceilings Williams Landing" [ref=e227] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-williams-landing/
+      - generic [ref=e234]:
+        - heading "Send us a message" [level=2] [ref=e236]
+        - form "Contact form" [ref=e241]:
+          - paragraph [ref=e242]:
+            - textbox "Your Name" [ref=e244]
+          - paragraph [ref=e245]:
+            - textbox "Email" [ref=e247]
+          - paragraph [ref=e248]:
+            - textbox "Phone" [ref=e250]
+          - paragraph [ref=e251]:
+            - textbox "Subject" [ref=e253]
+          - paragraph [ref=e254]:
+            - textbox "Your Message" [ref=e256]
+          - paragraph [ref=e257]:
+            - button "Submit" [ref=e258] [cursor=pointer]
+  - contentinfo [ref=e259]:
+    - generic [ref=e260]:
+      - generic [ref=e264]:
+        - generic [ref=e269]:
+          - paragraph [ref=e270]: Quick Links
+          - list [ref=e272]:
+            - listitem [ref=e273]:
+              - link "Home" [ref=e274] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e275]:
+              - link "About Us" [ref=e276] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e277]:
+              - link "Services" [ref=e278] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e279]:
+              - link "Projects" [ref=e280] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e281]:
+              - link "Areas" [ref=e282] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e283]:
+              - link "Contact Us" [ref=e284] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e285]:
+              - link "Privacy Policy" [ref=e286] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e291]:
+          - paragraph [ref=e292]: Our Services
+          - list [ref=e294]:
+            - listitem [ref=e295]:
+              - link "Ceiling Replacement Repairs" [ref=e296] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e297]:
+              - link "Glass Partition Walls" [ref=e298] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e299]:
+              - link "Partition Walls" [ref=e300] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e301]:
+              - link "Plasterboard Partitions" [ref=e302] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e303]:
+              - link "Suspended Ceilings" [ref=e304] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e305]:
+              - link "Exposed Grid Ceilings" [ref=e306] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e311]:
+          - paragraph [ref=e312]: Contact Us
+          - paragraph [ref=e313]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e314] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e315] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e316]:
+            - paragraph [ref=e317]: Social Media
+            - list [ref=e318]:
+              - listitem [ref=e319]:
+                - link "Facebook" [ref=e320] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e321]
+                  - generic [ref=e323]: Facebook
+      - paragraph [ref=e333]: Copyright © 2026 Danton Developments

@@ -1,0 +1,692 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Danton developments" [ref=e6] [cursor=pointer]:
+        - /url: https://dantondevelstg.wpenginepowered.com
+        - img "Danton developments" [ref=e7]
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Home" [ref=e12] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/
+          - listitem [ref=e13]:
+            - link "About" [ref=e14] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/about/
+          - listitem [ref=e15]:
+            - link "Services " [ref=e16] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/services/
+              - text: Services
+              - generic [ref=e17]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Plaster Ceilings":
+                    - /url: https://dantondevelstg.wpenginepowered.com/plaster-ceilings/
+                - listitem:
+                  - link "Grid Ceilings":
+                    - /url: https://dantondevelstg.wpenginepowered.com/exposed-grid-ceilings/
+                - listitem:
+                  - link "Ceiling Replacement Repairs":
+                    - /url: https://dantondevelstg.wpenginepowered.com/ceiling-replacement-repairs/
+                - listitem:
+                  - link "Drop Ceilings":
+                    - /url: https://dantondevelstg.wpenginepowered.com/drop-ceilings/
+          - listitem [ref=e18]:
+            - link "Project" [ref=e19] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/projects/
+          - listitem [ref=e20]:
+            - link "Areas " [ref=e21] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/areas/
+              - text: Areas
+              - generic [ref=e22]: 
+            - list:
+              - listitem:
+                - link "Partition Walls Collingwood":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-collingwood/
+                  - text: Partition Walls
+                  - strong: Collingwood
+              - listitem:
+                - link "Partition Walls Cheltenham":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-cheltenham/
+                  - text: Partition Walls
+                  - strong: Cheltenham
+              - listitem:
+                - link "Partition Walls Cremorne":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-cremorne/
+                  - text: Partition Walls
+                  - strong: Cremorne
+              - listitem:
+                - link "Partition Walls Epping":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-epping/
+                  - text: Partition Walls
+                  - strong: Epping
+              - listitem:
+                - link "Partition Walls Geelong":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-geelong/
+                  - text: Partition Walls
+                  - strong: Geelong
+              - listitem:
+                - link "Partition Walls Grovedale":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-grovedale/
+                  - text: Partition Walls
+                  - strong: Grovedale
+              - listitem:
+                - link "Partition Walls Moolap":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-moolap/
+                  - text: Partition Walls
+                  - strong: Moolap
+              - listitem:
+                - link "Partition Walls Port Melbourne":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-port-melbourne/
+                  - text: Partition Walls
+                  - strong: Port Melbourne
+              - listitem:
+                - link "Partition Walls Preston":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-preston/
+                  - text: Partition Walls
+                  - strong: Preston
+              - listitem:
+                - link "Partition Walls Richmond":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-richmond/
+                  - text: Partition Walls
+                  - strong: Richmond
+              - listitem:
+                - link "Partition Walls Southbank":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-southbank/
+                  - text: Partition Walls
+                  - strong: Southbank
+              - listitem:
+                - link "Partition Walls Truganina":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-truganina/
+                  - text: Partition Walls
+                  - strong: Truganina
+              - listitem:
+                - link "Partition Walls Williams Landing":
+                  - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-williams-landing/
+                  - text: Partition Walls
+                  - strong: Williams Landing
+            - list:
+              - listitem:
+                - link "Suspended Ceilings Cheltenham":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-cheltenham/
+                  - text: Suspended Ceilings
+                  - strong: Cheltenham
+              - listitem:
+                - link "Suspended Ceilings Collingwood":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-collingwood/
+                  - text: Suspended Ceilings
+                  - strong: Collingwood
+              - listitem:
+                - link "Suspended Ceilings Cremorne":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-cremorne/
+                  - text: Suspended Ceilings
+                  - strong: Cremorne
+              - listitem:
+                - link "Suspended Ceilings Epping":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-epping/
+                  - text: Suspended Ceilings
+                  - strong: Epping
+              - listitem:
+                - link "Suspended Ceilings Geelong":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-geelong/
+                  - text: Suspended Ceilings
+                  - strong: Geelong
+              - listitem:
+                - link "Suspended Ceilings Grovedale":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-grovedale/
+                  - text: Suspended Ceilings
+                  - strong: Grovedale
+              - listitem:
+                - link "Suspended Ceilings Moolap":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-moolap/
+                  - text: Suspended Ceilings
+                  - strong: Moolap
+              - listitem:
+                - link "Suspended Ceilings Port Melbourne":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-port-melbourne/
+                  - text: Suspended Ceilings
+                  - strong: Port Melbourne
+              - listitem:
+                - link "Suspended Ceilings Preston":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-preston/
+                  - text: Suspended Ceilings
+                  - strong: Preston
+              - listitem:
+                - link "Suspended Ceilings Richmond":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-richmond/
+                  - text: Suspended Ceilings
+                  - strong: Richmond
+              - listitem:
+                - link "Suspended Ceilings Southbank":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-southbank/
+                  - text: Suspended Ceilings
+                  - strong: Southbank
+              - listitem:
+                - link "Suspended Ceilings Truganina":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-truganina/
+                  - text: Suspended Ceilings
+                  - strong: Truganina
+              - listitem:
+                - link "Suspended Ceilings Williams Landing":
+                  - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-williams-landing/
+                  - text: Suspended Ceilings
+                  - strong: Williams Landing
+          - listitem [ref=e23]:
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/contact-us/
+      - generic [ref=e26]:
+        - link "Facebook Icon" [ref=e27] [cursor=pointer]:
+          - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+          - img "Facebook Icon" [ref=e28]
+        - link "Phone Icon Talk to Expert 0403 709 884" [ref=e29] [cursor=pointer]:
+          - /url: tel:0403709884
+          - img "Phone Icon" [ref=e31]
+          - generic [ref=e32]:
+            - generic [ref=e33]: Talk to Expert
+            - text: 0403 709 884
+        - link "Get a Free Quote" [ref=e34] [cursor=pointer]:
+          - /url: "#free-quote"
+  - main [ref=e35]:
+    - generic [ref=e36]:
+      - img "Partition Walls Cheltenham" [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Partition Walls Cheltenham" [level=1] [ref=e41]
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - img "Industry Experience" [ref=e45]
+              - generic [ref=e46]: 25+ Years Industry Experience
+            - listitem [ref=e47]:
+              - img "Premium Materials" [ref=e49]
+              - generic [ref=e50]: Premium Materials & Guaranteed Workmanship
+            - listitem [ref=e51]:
+              - img "Successful Projects" [ref=e53]
+              - generic [ref=e54]: 3000+ Successful Projects
+            - listitem [ref=e55]:
+              - img "Fully Insured" [ref=e57]
+              - generic [ref=e58]: Fully Insured & Compliant
+          - link "Get a Free Quote" [ref=e60] [cursor=pointer]:
+            - /url: "#free-quote"
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - generic [ref=e63]:
+                - link "Home" [ref=e65] [cursor=pointer]:
+                  - /url: https://dantondevelstg.wpenginepowered.com/
+                - link "Areas" [ref=e67] [cursor=pointer]:
+                  - /url: https://dantondevelstg.wpenginepowered.com/areas/
+                - generic [ref=e68]: Partition Walls Cheltenham
+        - generic [ref=e70]:
+          - generic [ref=e71]: Get in Touch
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - status
+              - list
+            - form "Contact form" [ref=e74]:
+              - generic [ref=e75]:
+                - textbox "Enter Your First Name*" [ref=e78]:
+                  - /placeholder: Enter Your  First Name*
+                - textbox "Enter Your Last Name*" [ref=e81]:
+                  - /placeholder: Enter Your  Last Name*
+                - textbox "Enter Your Phone*" [ref=e84]
+                - textbox "Enter Your Email*" [ref=e87]
+                - combobox [ref=e90]:
+                  - option "Select Service*" [selected]
+                  - option "Suspended Ceilings"
+                  - option "Partition Walls"
+                  - option "Office Fitouts"
+                  - option "Shop Fitouts"
+                  - option "Plastering"
+                - textbox "Message" [ref=e93]
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - generic: Please leave this field empty.
+                    - textbox "Please leave this field empty." [ref=e96]
+                  - button "Submit" [ref=e97] [cursor=pointer]
+                - paragraph [ref=e99]:
+                  - text: This site is protected by reCAPTCHA and the Google
+                  - link "Privacy Policy" [ref=e100] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                  - text: and
+                  - link "Terms of Service" [ref=e101] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                  - text: apply.
+    - generic [ref=e104]:
+      - img "Partition Walls Cheltenham" [ref=e107]
+      - generic [ref=e108]:
+        - paragraph [ref=e109]: Danton Developments delivers professional partition wall installation and repair services for businesses and commercial property owners throughout Cheltenham and Melbourne’s southeastern suburbs. Based in Thomastown, our experienced teams travel fully equipped to install high-quality aluminium, glass, and plasterboard partition systems across Cheltenham’s established mix of offices, retail spaces, and commercial properties.
+        - paragraph [ref=e110]:
+          - text: With over 25 years of industry experience and 3,000+ completed projects across Melbourne and Geelong, we bring consistent quality and reliability to every partition project we undertake. Call
+          - link "0403 709 884" [ref=e111] [cursor=pointer]:
+            - /url: tel:0403709884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e112] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free on-site quote on partition walls in Cheltenham.
+        - generic [ref=e113]:
+          - link "Get a Free Quote" [ref=e114] [cursor=pointer]:
+            - /url: "#free-quote"
+          - link "Call Icon 0403 709 884" [ref=e115] [cursor=pointer]:
+            - /url: tel:0403709884
+            - img "Call Icon" [ref=e117]
+            - text: 0403 709 884
+    - generic [ref=e119]:
+      - heading "Other Services" [level=3] [ref=e120]
+      - generic [ref=e123]:
+        - link "Shop Shop Arrow Icon" [ref=e127] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/shop-partition-walls/
+          - generic [ref=e128]:
+            - img "Shop" [ref=e129]
+            - generic [ref=e130]:
+              - text: Shop
+              - img "Arrow Icon" [ref=e131]
+        - link "Factory Factory Arrow Icon" [ref=e135] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/factory-partition-walls/
+          - generic [ref=e136]:
+            - img "Factory" [ref=e137]
+            - generic [ref=e138]:
+              - text: Factory
+              - img "Arrow Icon" [ref=e139]
+        - link "Office Office Arrow Icon" [ref=e143] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/office-partitions-walls/
+          - generic [ref=e144]:
+            - img "Office" [ref=e145]
+            - generic [ref=e146]:
+              - text: Office
+              - img "Arrow Icon" [ref=e147]
+        - link [ref=e151] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/commercial-partition-walls/
+          - generic [ref=e152]:
+            - img [ref=e153]
+            - generic [ref=e154]:
+              - text: Commercial
+              - img [ref=e155]
+        - link [ref=e159] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/glass-partition-walls/
+          - generic [ref=e160]:
+            - img [ref=e161]
+            - generic [ref=e162]:
+              - text: Glass
+              - img [ref=e163]
+        - link [ref=e167] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/plasterboard-partitions/
+          - generic [ref=e168]:
+            - img [ref=e169]
+            - generic [ref=e170]:
+              - text: Plasterboard
+              - img [ref=e171]
+    - generic [ref=e174]:
+      - img "Partition Walls Cheltenham" [ref=e177]
+      - generic [ref=e178]:
+        - heading "Complete Office Partition Services in Cheltenham" [level=2] [ref=e179]
+        - paragraph [ref=e180]:
+          - text: Danton Developments provides wide-ranging
+          - link "partition wall services" [ref=e181] [cursor=pointer]:
+            - /url: https://dantondevelstg.wpenginepowered.com/office-partitions-walls/
+          - text: tailored to Cheltenham’s commercial properties. Our services include full office fitouts,
+          - link "plasterboard partitions" [ref=e182] [cursor=pointer]:
+            - /url: https://dantondevelstg.wpenginepowered.com/plasterboard-partitions/
+          - text: for permanent divisions, and demountable systems that offer flexibility for changing business needs. We handle everything from initial design through to completion, making sure we cause minimal disruption to your daily operations.
+        - paragraph [ref=e183]: Our team understands the specific requirements of working in active commercial spaces. We coordinate with other trades, work around your business hours when needed, and make sure all installations comply with the National Construction Code (NCC) and City of Kingston planning guidelines. This end-to-end approach means you can focus on running your business while we transform your workspace.
+    - generic [ref=e186]:
+      - img "Partition Walls Cheltenham" [ref=e189]
+      - generic [ref=e190]:
+        - heading "Your Local Partition Wall Experts in Cheltenham" [level=2] [ref=e191]
+        - paragraph [ref=e192]: With the City of Kingston home to over 7,700 registered businesses, many concentrated in Cheltenham’s commercial precincts, we understand the unique challenges local companies face. Our knowledge spans the area’s diverse building stock, from modernising mid-century brick warehouses to optimising contemporary office suites. This local knowledge makes sure we design partition services that not only meet your functional needs but also work with your building’s specific characteristics.
+        - paragraph [ref=e193]: Based in Thomastown and operating throughout Melbourne, we bring over 25 years of industry experience to every Cheltenham project. Our commitment to quality and reliability has made us Melbourne’s trusted interior specialists, with nearly all our clients returning when they need additional work. This trust comes from consistently delivering what we promise – professional workmanship, fair pricing, and services that genuinely improve your workspace.
+    - generic [ref=e195]:
+      - heading "Our Recent Work" [level=3] [ref=e196]
+      - generic [ref=e199]:
+        - link [ref=e203] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img1.jpg
+          - img [ref=e204]
+        - link [ref=e208] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img2.jpg
+          - img [ref=e209]
+        - link "Ceiling Replacement Melbourne" [ref=e213] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/06/our-work-img1.jpg
+          - img "Ceiling Replacement Melbourne" [ref=e214]
+        - link "Ceiling Replacement Melbourne" [ref=e218] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/06/our-work-img2.jpg
+          - img "Ceiling Replacement Melbourne" [ref=e219]
+        - link [ref=e223] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img1.jpg
+          - img [ref=e224]
+        - link [ref=e228] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img2.jpg
+          - img [ref=e229]
+        - link [ref=e233] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/06/our-work-img1.jpg
+          - img [ref=e234]
+        - link [ref=e238] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/06/our-work-img2.jpg
+          - img [ref=e239]
+        - link [ref=e243] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img1.jpg
+          - img [ref=e244]
+        - link [ref=e248] [cursor=pointer]:
+          - /url: https://dantondevelstg.wpenginepowered.com/wp-content/uploads/2026/05/our-work-img2.jpg
+          - img [ref=e249]
+    - generic [ref=e252]:
+      - img "Partition Walls Cheltenham" [ref=e255]
+      - generic [ref=e256]:
+        - heading "Why Choose Danton Developments" [level=2] [ref=e257]
+        - paragraph [ref=e258]:
+          - text: Our approach sets us apart from generic fitout companies. We don’t just
+          - link "install partition walls" [ref=e259] [cursor=pointer]:
+            - /url: https://dantondevelstg.wpenginepowered.com/office-partitions-walls/
+          - text: ; we create workspace services that improve productivity and professionalism. Our knowledgeable professionals understand how proper space planning can transform your business operations, whether you need private offices for focused work, collaborative areas for team projects, or impressive meeting rooms for client presentations.
+        - paragraph [ref=e260]: Every project benefits from our commitment to the highest standards. We use premium materials and proven construction methods, making sure your partition walls look professional and perform reliably for years. Our work is fully guaranteed, backed by wide-ranging public liability insurance, and completed by qualified tradespeople who take pride in their craft.
+        - paragraph [ref=e261]:
+          - text: The
+          - link "Danton Developments" [ref=e262] [cursor=pointer]:
+            - /url: https://dantondevelstg.wpenginepowered.com/
+          - text: "difference includes:"
+        - list [ref=e263]:
+          - listitem [ref=e264]: Always committed to delivering the highest standards
+          - listitem [ref=e265]: Reliable service from initial consultation through project completion
+          - listitem [ref=e266]: Premium materials and guaranteed workmanship
+          - listitem [ref=e267]: Direct communication with industry experts
+          - listitem [ref=e268]: Flexible scheduling to minimise business disruption
+          - listitem [ref=e269]: Compliance with all relevant building codes and standards
+          - listitem [ref=e270]:
+            - text: Transparent, fair pricing with
+            - link "detailed quotes" [ref=e271] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com/contact-us/
+    - generic [ref=e272]:
+      - img "Ceiling Replacement Melbourne" [ref=e273]
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: Danton Developments
+          - heading "Get in Touch" [level=3] [ref=e278]
+          - generic [ref=e279]: Ready to start your project? Contact us today for a free, no-obligation quote.
+          - text: ; ?>
+          - generic [ref=e280]:
+            - img "Call Icon" [ref=e282]
+            - generic [ref=e283]:
+              - paragraph [ref=e284]: Phone number
+              - link "0403 709 884" [ref=e285] [cursor=pointer]:
+                - /url: tel:0403709884
+          - generic [ref=e286]:
+            - img "Mail icon" [ref=e288]
+            - generic [ref=e289]:
+              - paragraph [ref=e290]: Email address
+              - link "dantondevelopments@outlook.com" [ref=e291] [cursor=pointer]:
+                - /url: mailto:dantondevelopments@outlook.com
+          - img "Theme ark" [ref=e293]
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - status
+            - list
+          - form "Contact form" [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - generic [ref=e301]: First Name*
+                - textbox "Enter Your First Name*" [ref=e303]:
+                  - /placeholder: Enter Your  First Name*
+              - generic [ref=e304]:
+                - generic [ref=e305]: Last Name*
+                - textbox "Enter Your Last Name*" [ref=e307]:
+                  - /placeholder: Enter Your  Last Name*
+              - generic [ref=e308]:
+                - generic [ref=e309]: Phone Number*
+                - textbox "Enter Your Phone*" [ref=e311]
+              - generic [ref=e312]:
+                - generic [ref=e313]: Email Address*
+                - textbox "Enter Your Email*" [ref=e315]
+              - generic [ref=e316]:
+                - generic [ref=e317]: Select Services*
+                - combobox [ref=e319]:
+                  - option "Select Service*" [selected]
+                  - option "Suspended Ceilings"
+                  - option "Partition Walls"
+                  - option "Office Fitouts"
+                  - option "Shop Fitouts"
+                  - option "Plastering"
+              - generic [ref=e320]:
+                - generic [ref=e321]: Message
+                - textbox "Message" [ref=e323]
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - generic: Please leave this field empty.
+                  - textbox "Please leave this field empty." [ref=e326]
+                - button "Submit" [ref=e327] [cursor=pointer]
+              - paragraph [ref=e329]:
+                - text: This site is protected by reCAPTCHA and the Google
+                - link "Privacy Policy" [ref=e330] [cursor=pointer]:
+                  - /url: https://policies.google.com/privacy
+                - text: and
+                - link "Terms of Service" [ref=e331] [cursor=pointer]:
+                  - /url: https://policies.google.com/terms
+                - text: apply.
+    - generic [ref=e333]:
+      - heading "Areas We Serve" [level=3] [ref=e334]
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]: Partition Walls
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - text: Partition Walls
+              - strong [ref=e340]: Cheltenham
+            - listitem [ref=e341]:
+              - link "Partition Walls Collingwood" [ref=e342] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-collingwood/
+                - text: Partition Walls
+                - strong [ref=e343]: Collingwood
+            - listitem [ref=e344]:
+              - link "Partition Walls Cremorne" [ref=e345] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-cremorne/
+                - text: Partition Walls
+                - strong [ref=e346]: Cremorne
+            - listitem [ref=e347]:
+              - link "Partition Walls Epping" [ref=e348] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-epping/
+                - text: Partition Walls
+                - strong [ref=e349]: Epping
+            - listitem [ref=e350]:
+              - link "Partition Walls Geelong" [ref=e351] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-geelong/
+                - text: Partition Walls
+                - strong [ref=e352]: Geelong
+            - listitem [ref=e353]:
+              - link "Partition Walls Grovedale" [ref=e354] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-grovedale/
+                - text: Partition Walls
+                - strong [ref=e355]: Grovedale
+            - listitem [ref=e356]:
+              - link "Partition Walls Moolap" [ref=e357] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-moolap/
+                - text: Partition Walls
+                - strong [ref=e358]: Moolap
+            - listitem [ref=e359]:
+              - link "Partition Walls Port Melbourne" [ref=e360] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-port-melbourne/
+                - text: Partition Walls
+                - strong [ref=e361]: Port Melbourne
+            - listitem [ref=e362]:
+              - link "Partition Walls Preston" [ref=e363] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-preston/
+                - text: Partition Walls
+                - strong [ref=e364]: Preston
+            - listitem [ref=e365]:
+              - link "Partition Walls Richmond" [ref=e366] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-richmond/
+                - text: Partition Walls
+                - strong [ref=e367]: Richmond
+            - listitem [ref=e368]:
+              - link "Partition Walls Southbank" [ref=e369] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-southbank/
+                - text: Partition Walls
+                - strong [ref=e370]: Southbank
+            - listitem [ref=e371]:
+              - link "Partition Walls Truganina" [ref=e372] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-truganina/
+                - text: Partition Walls
+                - strong [ref=e373]: Truganina
+            - listitem [ref=e374]:
+              - link "Partition Walls Williams Landing" [ref=e375] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/partition-walls-williams-landing/
+                - text: Partition Walls
+                - strong [ref=e376]: Williams Landing
+        - generic [ref=e377]:
+          - generic [ref=e378]: Other Services We Provide in Cheltenham
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Suspended Ceilings Cheltenham" [ref=e381] [cursor=pointer]:
+                - /url: https://dantondevelstg.wpenginepowered.com/suspended-ceilings-cheltenham/
+                - text: Suspended Ceilings
+                - strong [ref=e382]: Cheltenham
+      - iframe [ref=e384]:
+        
+    - generic [ref=e386]:
+      - heading "Frequently Asked Questions" [level=3] [ref=e387]
+      - generic [ref=e388]:
+        - generic [ref=e389]:
+          - generic [ref=e390] [cursor=pointer]: What types of partition walls do you install in Cheltenham?
+          - paragraph [ref=e392]: We install a complete range including plasterboard partitions, glass and aluminium systems, acoustic walls, demountable partitions, and fire-rated systems. Each type serves different needs, from permanent office divisions to flexible meeting spaces.
+        - generic [ref=e394] [cursor=pointer]: How long does a typical partition wall installation take?
+        - generic [ref=e396] [cursor=pointer]: Do partition walls require council approval in Cheltenham?
+        - generic [ref=e398] [cursor=pointer]: Can you work around our business hours?
+        - generic [ref=e400] [cursor=pointer]: What's included in your free quote?
+        - generic [ref=e402] [cursor=pointer]: Do you handle repairs and modifications to existing partitions?
+    - generic [ref=e404]:
+      - heading "Built on Experience. Driven by Quality." [level=3] [ref=e405]
+      - generic [ref=e406]:
+        - img "Makita Logo" [ref=e409]
+        - img "Armstrong Logo" [ref=e412]
+        - img "Usg Boral Logo" [ref=e415]
+        - img "Dalken Logo" [ref=e418]
+        - img "Festool Logo" [ref=e421]
+        - img "Gyprock.logo" [ref=e424]
+        - img "Hilti Logo" [ref=e427]
+        - img "Intex Logo" [ref=e430]
+        - img "Rondo Logo" [ref=e433]
+        - img "Dewalt Logo" [ref=e436]
+        - img "Criterion Logo" [ref=e439]
+        - img "Dorma Logo" [ref=e442]
+        - img "Northstar Logo" [ref=e445]
+        - img "Tapepro Logo" [ref=e448]
+        - img "Renhurst Logo" [ref=e451]
+        - img "Wallpro Logo" [ref=e454]
+  - contentinfo [ref=e455]:
+    - generic [ref=e456]:
+      - generic [ref=e458]:
+        - generic [ref=e460]:
+          - generic [ref=e462]: Maintenance & Emergency Repairs
+          - generic [ref=e464]:
+            - link "Call Icon 0403 709 884" [ref=e465] [cursor=pointer]:
+              - /url: tel:0403709884
+              - img "Call Icon" [ref=e467]
+              - text: 0403 709 884
+            - link "Get a Free Quote" [ref=e468] [cursor=pointer]:
+              - /url: "#free-quote"
+        - generic [ref=e469]:
+          - generic [ref=e470]:
+            - link "Danton developments" [ref=e471] [cursor=pointer]:
+              - /url: https://dantondevelstg.wpenginepowered.com
+              - img "Danton developments" [ref=e472]
+            - list [ref=e473]:
+              - listitem [ref=e474]:
+                - img "Call Icon" [ref=e475]
+                - generic [ref=e476]: Phone number
+                - link "0403 709 884" [ref=e477] [cursor=pointer]:
+                  - /url: tel:0403709884
+              - listitem [ref=e478]:
+                - img "Mail Icon" [ref=e479]
+                - generic [ref=e480]: Email address
+                - link "dantondevelopments@outlook.com" [ref=e481] [cursor=pointer]:
+                  - /url: mailto:dantondevelopments@outlook.com
+              - listitem [ref=e482]:
+                - img "Clock Icon" [ref=e483]
+                - generic [ref=e484]: Opening hours
+                - paragraph [ref=e485]:
+                  - generic [ref=e486]: Monday- Friday 7am-5pm
+                  - generic [ref=e487]: Saturday- 8am-5pm
+            - generic [ref=e488]:
+              - link "Facebook Logo Facebook" [ref=e489] [cursor=pointer]:
+                - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                - img "Facebook Logo" [ref=e491]
+                - text: Facebook
+              - link "Instagram Logo Instagram" [ref=e492] [cursor=pointer]:
+                - /url: https://www.instagram.com/danton_developments/
+                - img "Instagram Logo" [ref=e494]
+                - text: Instagram
+          - generic [ref=e495]:
+            - generic [ref=e496]:
+              - generic [ref=e497]: Our Services
+              - list [ref=e498]:
+                - listitem [ref=e499]:
+                  - link "Office Fitouts" [ref=e500] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/office-fitouts/
+                - listitem [ref=e501]:
+                  - link "Shop Fitouts" [ref=e502] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/shop-fitouts/
+                - listitem [ref=e503]:
+                  - link "Plastering" [ref=e504] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/plastering/
+            - generic [ref=e505]:
+              - generic [ref=e506]: Suspended Ceilings
+              - list [ref=e507]:
+                - listitem [ref=e508]:
+                  - link "Plaster Ceilings" [ref=e509] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/plaster-ceilings/
+                - listitem [ref=e510]:
+                  - link "Grid Ceilings" [ref=e511] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/exposed-grid-ceilings/
+                - listitem [ref=e512]:
+                  - link "Ceiling Replacement Repairs" [ref=e513] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/ceiling-replacement-repairs/
+                - listitem [ref=e514]:
+                  - link "Drop Ceilings" [ref=e515] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/drop-ceilings/
+            - generic [ref=e516]:
+              - generic [ref=e517]: Partition Walls
+              - list [ref=e518]:
+                - listitem [ref=e519]:
+                  - link "Shop" [ref=e520] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/shop-partition-walls/
+                - listitem [ref=e521]:
+                  - link "Factory" [ref=e522] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/factory-partition-walls/
+                - listitem [ref=e523]:
+                  - link "Office" [ref=e524] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/office-partitions-walls/
+                - listitem [ref=e525]:
+                  - link "Commercial" [ref=e526] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/commercial-partition-walls/
+                - listitem [ref=e527]:
+                  - link "Glass" [ref=e528] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/glass-partition-walls/
+                - listitem [ref=e529]:
+                  - link "Plasterboard" [ref=e530] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/plasterboard-partitions/
+            - generic [ref=e531]:
+              - list [ref=e532]:
+                - listitem [ref=e533]:
+                  - link "Home" [ref=e534] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/
+                - listitem [ref=e535]:
+                  - link "About" [ref=e536] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/about/
+                - listitem [ref=e537]:
+                  - link "Projects" [ref=e538] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/projects/
+                - listitem [ref=e539]:
+                  - link "Testimonials" [ref=e540] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/testimonials/
+                - listitem [ref=e541]:
+                  - link "Areas" [ref=e542] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/areas/
+                - listitem [ref=e543]:
+                  - link "Contact" [ref=e544] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/contact-us/
+                - listitem [ref=e545]:
+                  - link "Privacy Policy" [ref=e546] [cursor=pointer]:
+                    - /url: https://dantondevelstg.wpenginepowered.com/privacy-policy/
+              - paragraph [ref=e547]: "ABN: 38 105 969 589"
+      - paragraph [ref=e550]:
+        - text: © 2026 Danton Developments.
+        - generic [ref=e551]: All Rights Reserved.
+        - link "signature" [ref=e552] [cursor=pointer]:
+          - /url: https://bit.ly/3RWnvO7
+          - img "signature" [ref=e553]
+    - generic [ref=e555]: 

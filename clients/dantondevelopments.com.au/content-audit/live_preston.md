@@ -1,0 +1,323 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Preston" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]: Danton Developments provides professional partition wall installation and repair services for businesses and commercial property owners throughout Preston and Melbourne’s inner northern suburbs. Based in nearby Thomastown, our experienced teams are ideally positioned to service Preston’s diverse mix of offices, retail spaces, and commercial properties, delivering high-quality aluminium, glass, and plasterboard partition systems tailored to your specific requirements.
+        - paragraph [ref=e81]:
+          - text: With over 25 years of industry experience and more than 3,000 completed projects, we bring the proven expertise and reliability that Preston businesses and property managers count on. Call
+          - link "0403 709 884" [ref=e82] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e83] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free on-site
+          - link "quote" [ref=e84] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: on partition walls in Preston.
+        - heading "Office Partitions Preston – Services for Every Business Challenge" [level=2] [ref=e85]:
+          - strong [ref=e86]: Office Partitions Preston – Services for Every Business Challenge
+        - paragraph [ref=e87]:
+          - text: Preston’s changing business landscape demands flexible, professional spaces that adapt to changing needs. Our
+          - link "office partitions" [ref=e88] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: in Preston address the specific challenges of local commercial properties while supporting your growth.
+        - heading "Acoustic Services for Converted Warehouses" [level=3] [ref=e89]:
+          - strong [ref=e90]: Acoustic Services for Converted Warehouses
+        - paragraph [ref=e91]: The high ceilings and hard surfaces common in Preston’s industrial conversions create acoustic nightmares for modern businesses. Our acoustic partition walls solve this instantly, creating quiet zones for focused work and confidential meetings. We install soundproofing services that work with your building’s character, whether you’re in a converted warehouse near Preston Market or a mixed-use development along High Street.
+        - paragraph [ref=e92]: "Our acoustic partitions feature:"
+        - list [ref=e93]:
+          - listitem [ref=e94]: High-performance sound absorption materials
+          - listitem [ref=e95]: Stress-free integration with existing structures
+          - listitem [ref=e96]: Options for both permanent and demountable systems
+          - listitem [ref=e97]: Fire-rated acoustic services for compliance
+        - heading "Complete Partition Wall Services for Preston Businesses" [level=2] [ref=e98]:
+          - strong [ref=e99]: Complete Partition Wall Services for Preston Businesses
+        - paragraph [ref=e100]:
+          - text: Danton Developments delivers extensive
+          - link "partition services" [ref=e101] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: "designed to meet the Darebin Planning Scheme requirements, making sure that your fitout proceeds smoothly from concept to completion [Source: Darebin Planning Scheme –"
+          - link "planning.vic.gov.au" [ref=e102] [cursor=pointer]:
+            - /url: https://www.planning.vic.gov.au/
+          - text: "]."
+        - paragraph [ref=e103]: "Our partition wall services include:"
+        - list [ref=e104]:
+          - listitem [ref=e105]: Office partition walls for all building types
+          - listitem [ref=e106]: Fire-rated wall systems for compliance
+          - listitem [ref=e107]:
+            - link "Aluminium and glass partitions" [ref=e108] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/glass-partition-walls/
+          - listitem [ref=e109]: Acoustic and soundproofing services
+          - listitem [ref=e110]:
+            - link "Plasterboard partitions" [ref=e111] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - listitem [ref=e112]: Bulkheads and architectural features
+          - listitem [ref=e113]: Commercial office fitouts
+          - listitem [ref=e114]: Maintenance and emergency repairs
+        - paragraph [ref=e115]:
+          - text: Whether you’re a startup in a shared workspace, an established firm upgrading your premises, or a landlord preparing spaces for lease, we provide
+          - link "partition services" [ref=e116] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/partition-walls/
+          - text: tailored to your specific needs and budget.
+        - heading "Your Local Partition Wall Industry Experts in Preston" [level=2] [ref=e117]:
+          - strong [ref=e118]: Your Local Partition Wall Industry Experts in Preston
+        - paragraph [ref=e119]:
+          - text: Based in nearby Thomastown,
+          - link "Danton Developments" [ref=e120] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: brings over 25 years of industry experience to every Preston project. We understand the unique challenges of retrofitting Preston’s diverse building stock – from uninsulated double-brick warehouses to mid-century commercial properties.
+        - paragraph [ref=e121]: "Our local knowledge means:"
+        - list [ref=e122]:
+          - listitem [ref=e123]: Fast response times for Preston businesses
+          - listitem [ref=e124]: Deep understanding of local building types
+          - listitem [ref=e125]: Compliance with all Darebin planning requirements
+          - listitem [ref=e126]: Coordination with other local trades
+          - listitem [ref=e127]: Minimal disruption to your operations
+        - heading "Why Choose Danton Developments Pty Ltd" [level=2] [ref=e128]:
+          - strong [ref=e129]: Why Choose Danton Developments Pty Ltd
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - strong [ref=e132]: Melbourne’s Trusted Interior Specialists
+            - text: ": Our commitment to delivering the highest standards sets us apart. Every partition wall installation reflects our core values of quality, integrity, and teamwork."
+          - listitem [ref=e133]:
+            - strong [ref=e134]: Premium Materials and Guaranteed Workmanship
+            - text: ": We use only high-quality materials suited to Melbourne’s climate and your building’s specific needs. All work comes with our guarantee of excellence."
+          - listitem [ref=e135]:
+            - strong [ref=e136]: Dependable Service You Can Count On
+            - text: ": From initial consultation through to project completion, we maintain clear communication and meet agreed timelines. Our reliability is why nearly all our clients return for future projects."
+          - listitem [ref=e137]:
+            - strong [ref=e138]: Seasoned Professionals
+            - text: ": With decades of combined experience, our team handles projects from $3,000 simple partitions to $300,000 and beyond complete fitouts. We’ve seen it all and solved it all."
+          - listitem [ref=e139]:
+            - strong [ref=e140]: Direct Access to Knowledge
+            - text: ": When you work with us, you get customised attention and direct access to industry professionals who understand your vision and bring it to reality."
+        - heading "The Danton Process – Building Your Vision Into Reality" [level=2] [ref=e141]:
+          - strong [ref=e142]: The Danton Process – Building Your Vision Into Reality
+        - paragraph [ref=e143]: "Our streamlined approach makes sure that your partition wall project runs smoothly:"
+        - paragraph [ref=e144]:
+          - text: "1."
+          - strong [ref=e145]: Initial Consultation
+          - text: – We visit your Preston premises to understand your needs, assess the space, and discuss your vision
+        - paragraph [ref=e146]:
+          - text: "2."
+          - strong [ref=e147]: Custom Design
+          - text: – Our team creates a partition layout that maximises your space while respecting building characteristics
+        - paragraph [ref=e148]:
+          - text: "3."
+          - strong [ref=e149]: Compliance Management
+          - text: – We handle all requirements under the Darebin Planning Scheme
+        - paragraph [ref=e150]:
+          - text: "4."
+          - strong [ref=e151]: Professional Installation
+          - text: – Our talented team installs your partitions with minimal disruption
+        - paragraph [ref=e152]:
+          - text: "5."
+          - strong [ref=e153]: Quality Inspection
+          - text: – Every project undergoes thorough inspection to meet our high standards
+        - paragraph [ref=e154]:
+          - text: "6."
+          - strong [ref=e155]: Ongoing Support
+          - text: – We provide maintenance and emergency repair services when needed
+        - heading "Frequently Asked Questions" [level=2] [ref=e156]:
+          - strong [ref=e157]: Frequently Asked Questions
+        - paragraph [ref=e158]:
+          - strong [ref=e159]: What types of partition walls do you install in Preston?
+        - paragraph [ref=e160]: We install aluminium and glass partitions, plasterboard partitions, acoustic walls, and fire-rated systems. Each service gets chosen based on your building type, compliance requirements, and business needs.
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: How do partition walls improve office productivity?
+        - paragraph [ref=e163]: Partition walls create defined spaces for different activities – quiet zones for focused work, meeting rooms for collaboration, and private offices for confidential discussions. This is especially important in Preston’s converted warehouses where open spaces can be overwhelming.
+        - paragraph [ref=e164]:
+          - strong [ref=e165]: Do you handle planning permissions for Preston offices?
+        - paragraph [ref=e166]: Yes, we navigate the Darebin Planning Scheme requirements for all partition installations, making sure that your project meets local compliance standards without delays.
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: Can partition walls be removed or reconfigured later?
+        - paragraph [ref=e169]: Many of our partition systems are demountable, allowing for future reconfiguration as your business grows. This flexibility is ideal for Preston’s dynamic business environment.
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: How long does a typical partition wall installation take?
+        - paragraph [ref=e172]: Project timelines vary based on scope, but most partition installations in Preston offices are completed within 1-3 weeks. We work around your schedule to minimise disruption.
+        - paragraph [ref=e173]:
+          - iframe [ref=e174]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e175]
+        - generic [ref=e176]:
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Partition Walls Epping" [ref=e180] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e181]:
+              - link "Partition Walls Truganina" [ref=e182] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e183]:
+              - link "Partition Walls Williams Landing" [ref=e184] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e185]: Partition Walls Preston
+            - listitem [ref=e186]:
+              - link "Partition Walls Cheltenham" [ref=e187] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Partition Walls Cremorne" [ref=e191] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e192]:
+              - link "Partition Walls Richmond" [ref=e193] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e194]:
+              - link "Partition Walls Port Melbourne" [ref=e195] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e196]:
+              - link "Partition Walls Collingwood" [ref=e197] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - link "Partition Walls Southbank" [ref=e201] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e202]:
+              - link "Partition Walls Geelong" [ref=e203] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e204]:
+              - link "Partition Walls Grovedale" [ref=e205] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e206]:
+              - link "Partition Walls Moolap" [ref=e207] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Preston" [level=3] [ref=e208]
+        - list [ref=e211]:
+          - listitem [ref=e212]:
+            - link "Suspended Ceilings Preston" [ref=e213] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-preston/
+      - generic [ref=e220]:
+        - heading "Send us a message" [level=2] [ref=e222]
+        - form "Contact form" [ref=e227]:
+          - paragraph [ref=e228]:
+            - textbox "Your Name" [ref=e230]
+          - paragraph [ref=e231]:
+            - textbox "Email" [ref=e233]
+          - paragraph [ref=e234]:
+            - textbox "Phone" [ref=e236]
+          - paragraph [ref=e237]:
+            - textbox "Subject" [ref=e239]
+          - paragraph [ref=e240]:
+            - textbox "Your Message" [ref=e242]
+          - paragraph [ref=e243]:
+            - button "Submit" [ref=e244] [cursor=pointer]
+  - contentinfo [ref=e245]:
+    - generic [ref=e246]:
+      - generic [ref=e250]:
+        - generic [ref=e255]:
+          - paragraph [ref=e256]: Quick Links
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - link "Home" [ref=e260] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e261]:
+              - link "About Us" [ref=e262] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e263]:
+              - link "Services" [ref=e264] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e265]:
+              - link "Projects" [ref=e266] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e267]:
+              - link "Areas" [ref=e268] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e269]:
+              - link "Contact Us" [ref=e270] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e271]:
+              - link "Privacy Policy" [ref=e272] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: Our Services
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - link "Ceiling Replacement Repairs" [ref=e282] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e283]:
+              - link "Glass Partition Walls" [ref=e284] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e285]:
+              - link "Partition Walls" [ref=e286] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e287]:
+              - link "Plasterboard Partitions" [ref=e288] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e289]:
+              - link "Suspended Ceilings" [ref=e290] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e291]:
+              - link "Exposed Grid Ceilings" [ref=e292] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e297]:
+          - paragraph [ref=e298]: Contact Us
+          - paragraph [ref=e299]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e300] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e301] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e302]:
+            - paragraph [ref=e303]: Social Media
+            - list [ref=e304]:
+              - listitem [ref=e305]:
+                - link "Facebook" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e307]
+                  - generic [ref=e309]: Facebook
+      - paragraph [ref=e319]: Copyright © 2026 Danton Developments

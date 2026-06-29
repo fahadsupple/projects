@@ -1,0 +1,258 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Cheltenham" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]: Danton Developments delivers professional partition wall installation and repair services for businesses and commercial property owners throughout Cheltenham and Melbourne’s southeastern suburbs. Based in Thomastown, our experienced teams travel fully equipped to install high-quality aluminium, glass, and plasterboard partition systems across Cheltenham’s established mix of offices, retail spaces, and commercial properties.
+        - paragraph [ref=e81]:
+          - text: With over 25 years of industry experience and 3,000+ completed projects across Melbourne and Geelong, we bring consistent quality and reliability to every partition project we undertake. Call
+          - link "0403 709 884" [ref=e82] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e83] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free on-site quote on partition walls in Cheltenham.
+        - heading "Complete Office Partition Services in Cheltenham" [level=2] [ref=e84]:
+          - strong [ref=e85]: Complete Office Partition Services in Cheltenham
+        - paragraph [ref=e86]:
+          - text: Danton Developments provides wide-ranging
+          - link "partition wall services" [ref=e87] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: tailored to Cheltenham’s commercial properties. Our services include full office fitouts,
+          - link "plasterboard partitions" [ref=e88] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: for permanent divisions, and demountable systems that offer flexibility for changing business needs. We handle everything from initial design through to completion, making sure we cause minimal disruption to your daily operations.
+        - paragraph [ref=e89]: Our team understands the specific requirements of working in active commercial spaces. We coordinate with other trades, work around your business hours when needed, and make sure all installations comply with the National Construction Code (NCC) and City of Kingston planning guidelines. This end-to-end approach means you can focus on running your business while we transform your workspace.
+        - heading "Your Local Partition Wall Experts in Cheltenham" [level=2] [ref=e90]:
+          - strong [ref=e91]: Your Local Partition Wall Experts in Cheltenham
+        - paragraph [ref=e92]: With the City of Kingston home to over 7,700 registered businesses, many concentrated in Cheltenham’s commercial precincts, we understand the unique challenges local companies face. Our knowledge spans the area’s diverse building stock, from modernising mid-century brick warehouses to optimising contemporary office suites. This local knowledge makes sure we design partition services that not only meet your functional needs but also work with your building’s specific characteristics.
+        - paragraph [ref=e93]: Based in Thomastown and operating throughout Melbourne, we bring over 25 years of industry experience to every Cheltenham project. Our commitment to quality and reliability has made us Melbourne’s trusted interior specialists, with nearly all our clients returning when they need additional work. This trust comes from consistently delivering what we promise – professional workmanship, fair pricing, and services that genuinely improve your workspace.
+        - heading "Why Choose Danton Developments" [level=2] [ref=e94]:
+          - strong [ref=e95]: Why Choose Danton Developments
+        - paragraph [ref=e96]:
+          - text: Our approach sets us apart from generic fitout companies. We don’t just
+          - link "install partition walls" [ref=e97] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: ; we create workspace services that improve productivity and professionalism. Our knowledgeable professionals understand how proper space planning can transform your business operations, whether you need private offices for focused work, collaborative areas for team projects, or impressive meeting rooms for client presentations.
+        - paragraph [ref=e98]: Every project benefits from our commitment to the highest standards. We use premium materials and proven construction methods, making sure your partition walls look professional and perform reliably for years. Our work is fully guaranteed, backed by wide-ranging public liability insurance, and completed by qualified tradespeople who take pride in their craft.
+        - paragraph [ref=e99]:
+          - text: The
+          - link "Danton Developments" [ref=e100] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: "difference includes:"
+        - list [ref=e101]:
+          - listitem [ref=e102]: Always committed to delivering the highest standards
+          - listitem [ref=e103]: Reliable service from initial consultation through project completion
+          - listitem [ref=e104]: Premium materials and guaranteed workmanship
+          - listitem [ref=e105]: Direct communication with industry experts
+          - listitem [ref=e106]: Flexible scheduling to minimise business disruption
+          - listitem [ref=e107]: Compliance with all relevant building codes and standards
+          - listitem [ref=e108]:
+            - text: Transparent, fair pricing with
+            - link "detailed quotes" [ref=e109] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/contact-us/
+        - heading "Frequently Asked Questions" [level=2] [ref=e110]:
+          - strong [ref=e111]: Frequently Asked Questions
+        - paragraph [ref=e112]:
+          - strong [ref=e113]: What types of partition walls do you install in Cheltenham?
+        - paragraph [ref=e114]: We install a complete range including plasterboard partitions, glass and aluminium systems, acoustic walls, demountable partitions, and fire-rated systems. Each type serves different needs, from permanent office divisions to flexible meeting spaces.
+        - paragraph [ref=e115]:
+          - strong [ref=e116]: How long does a typical partition wall installation take?
+        - paragraph [ref=e117]: Project timelines vary based on scope and complexity. A simple office partition might take 2-3 days, while a complete fitout could require several weeks. We provide detailed schedules and work efficiently to minimise disruption to your business operations.
+        - paragraph [ref=e118]:
+          - strong [ref=e119]: Do partition walls require council approval in Cheltenham?
+        - paragraph [ref=e120]: Some installations may require building permits from the relevant local council. We ensure all work is carried out in line with NCC requirements and local planning guidelines; however, obtaining any required permits is the responsibility of the property owner.
+        - paragraph [ref=e121]:
+          - strong [ref=e122]: Can you work around our business hours?
+        - paragraph [ref=e123]: Yes, we understand businesses can’t always close for renovations. We offer flexible scheduling including after-hours and weekend work to make sure your operations continue with minimal interruption.
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: What’s included in your free quote?
+        - paragraph [ref=e126]: Our extensive quotes detail all materials, labour, timelines, and compliance requirements. We visit your Cheltenham site to assess the space, discuss your needs, and provide transparent pricing with no hidden costs.
+        - paragraph [ref=e127]:
+          - strong [ref=e128]: Do you handle repairs and modifications to existing partitions?
+        - paragraph [ref=e129]: Absolutely. We provide maintenance, repairs, and modifications to all types of partition systems, helping you adapt your space as your business evolves.
+        - paragraph [ref=e130]:
+          - iframe [ref=e131]:
+            
+      - heading "Areas We Serve" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - list [ref=e135]:
+          - listitem [ref=e136]:
+            - link "Partition Walls Epping" [ref=e137] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-epping/
+          - listitem [ref=e138]:
+            - link "Partition Walls Truganina" [ref=e139] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+          - listitem [ref=e140]:
+            - link "Partition Walls Williams Landing" [ref=e141] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+          - listitem [ref=e142]:
+            - link "Partition Walls Preston" [ref=e143] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-preston/
+          - listitem [ref=e144]: Partition Walls Cheltenham
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Partition Walls Cremorne" [ref=e148] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+          - listitem [ref=e149]:
+            - link "Partition Walls Richmond" [ref=e150] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+          - listitem [ref=e151]:
+            - link "Partition Walls Port Melbourne" [ref=e152] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+          - listitem [ref=e153]:
+            - link "Partition Walls Collingwood" [ref=e154] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - link "Partition Walls Southbank" [ref=e158] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+          - listitem [ref=e159]:
+            - link "Partition Walls Geelong" [ref=e160] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+          - listitem [ref=e161]:
+            - link "Partition Walls Grovedale" [ref=e162] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+          - listitem [ref=e163]:
+            - link "Partition Walls Moolap" [ref=e164] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+      - heading "Other Services We Provide in Cheltenham" [level=3] [ref=e165]
+      - list [ref=e166]:
+        - listitem [ref=e167]:
+          - link "Suspended Ceilings Cheltenham" [ref=e168] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/suspended-ceilings-cheltenham/
+      - generic [ref=e176]:
+        - heading "Send us a message" [level=2] [ref=e178]
+        - form "Contact form" [ref=e183]:
+          - paragraph [ref=e184]:
+            - textbox "Your Name" [ref=e186]
+          - paragraph [ref=e187]:
+            - textbox "Email" [ref=e189]
+          - paragraph [ref=e190]:
+            - textbox "Phone" [ref=e192]
+          - paragraph [ref=e193]:
+            - textbox "Subject" [ref=e195]
+          - paragraph [ref=e196]:
+            - textbox "Your Message" [ref=e198]
+          - paragraph [ref=e199]:
+            - button "Submit" [ref=e200] [cursor=pointer]
+  - contentinfo [ref=e201]:
+    - generic [ref=e202]:
+      - generic [ref=e206]:
+        - generic [ref=e211]:
+          - paragraph [ref=e212]: Quick Links
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "Home" [ref=e216] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e217]:
+              - link "About Us" [ref=e218] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e219]:
+              - link "Services" [ref=e220] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e221]:
+              - link "Projects" [ref=e222] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e223]:
+              - link "Areas" [ref=e224] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e225]:
+              - link "Contact Us" [ref=e226] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e227]:
+              - link "Privacy Policy" [ref=e228] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e233]:
+          - paragraph [ref=e234]: Our Services
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - link "Ceiling Replacement Repairs" [ref=e238] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e239]:
+              - link "Glass Partition Walls" [ref=e240] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e241]:
+              - link "Partition Walls" [ref=e242] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e243]:
+              - link "Plasterboard Partitions" [ref=e244] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e245]:
+              - link "Suspended Ceilings" [ref=e246] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e247]:
+              - link "Exposed Grid Ceilings" [ref=e248] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: Contact Us
+          - paragraph [ref=e255]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e256] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e257] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: Social Media
+            - list [ref=e260]:
+              - listitem [ref=e261]:
+                - link "Facebook" [ref=e262] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e263]
+                  - generic [ref=e265]: Facebook
+      - paragraph [ref=e275]: Copyright © 2026 Danton Developments

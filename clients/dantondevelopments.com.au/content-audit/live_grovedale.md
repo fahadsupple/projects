@@ -1,0 +1,297 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Grovedale" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: Danton Developments specialises in
+          - link "partition walls" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: Grovedale businesses need to create professional, productive zones within their existing premises. We understand that relocating isn’t always practical or affordable. That’s why our custom partition services transform single-storey brick warehouses and concrete tilt-slab buildings, the backbone of Grovedale’s commercial zones, into modern, multi-functional workspaces that support your business growth.
+        - heading "End-to-End Partition Services for Every Business Need" [level=2] [ref=e82]:
+          - strong [ref=e83]: End-to-End Partition Services for Every Business Need
+        - paragraph [ref=e84]: "Danton Developments delivers complete partition wall systems custom to Grovedale’s diverse business community. Whether you operate from a converted warehouse, retail strip shop, or purpose-built commercial unit, we provide:"
+        - list [ref=e85]:
+          - listitem [ref=e86]:
+            - link "Aluminium and glass partitions" [ref=e87] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: for modern, light-filled offices
+          - listitem [ref=e88]:
+            - link "Plasterboard partition walls" [ref=e89] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - text: for permanent room divisions
+          - listitem [ref=e90]: Fire-rated wall systems making sure compliance with Greater Geelong Planning Scheme requirements
+          - listitem [ref=e91]: Acoustic and soundproofing services for noise-sensitive areas
+          - listitem [ref=e92]: Modular partition systems allowing future reconfiguration
+          - listitem [ref=e93]: Bulkheads and architectural features defining different zones
+        - paragraph [ref=e94]: Our knowledgeable team handles everything from initial consultation through to final installation, minimising disruption to your daily operations. We coordinate with other trades and work around your business hours, because we know local owners can’t afford extended downtime.
+        - heading "Your Local Partition Wall Experts in Grovedale" [level=2] [ref=e95]:
+          - strong [ref=e96]: Your Local Partition Wall Experts in Grovedale
+        - paragraph [ref=e97]: Based in Melbourne and servicing the Geelong region, Danton Developments brings over 25 years of industry experience to every project. We specialise in fitting out the exact building types found throughout Grovedale, from 1980s brick warehouses to modern tilt-slab constructions with Colorbond cladding.
+        - paragraph [ref=e98]: Our deep understanding of local building codes means we make sure all installations comply with the Greater Geelong Planning Scheme, focusing on critical aspects like fire safety and structural integrity for internal fitouts. This local knowledge, paired with our commitment to quality and reliability, makes us the trusted choice for businesses seeking practical workspace services.
+        - heading "Why Choose Danton Developments for Your Partition Walls" [level=2] [ref=e99]:
+          - strong [ref=e100]: Why Choose Danton Developments for Your Partition Walls
+        - paragraph [ref=e101]:
+          - text: When selecting a partition contractor for your Grovedale business, you need a partner who understands both your immediate needs and future growth plans. Here’s what sets
+          - link "Danton Developments" [ref=e102] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: "apart:"
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - strong [ref=e105]: Melbourne’s Trusted Interior Specialists
+            - text: – We’ve completed over 3,000 projects across Melbourne and Geelong
+          - listitem [ref=e106]:
+            - strong [ref=e107]: Always Committed to the Highest Standards
+            - text: – Every installation meets industry codes, quality standards, and safety requirements
+          - listitem [ref=e108]:
+            - strong [ref=e109]: Premium Materials and Guaranteed Workmanship
+            - text: – We stand behind our work with extensive guarantees
+          - listitem [ref=e110]:
+            - strong [ref=e111]: Seasoned Professionals
+            - text: – Our team brings decades of combined experience in commercial fitouts
+          - listitem [ref=e112]:
+            - strong [ref=e113]: Reliable and Responsive
+            - text: – We respond to all enquiries quickly and keep projects on schedule
+          - listitem [ref=e114]:
+            - strong [ref=e115]: Flexible Services
+            - text: – From $3,000 minor modifications to $300,000+ complete fitouts
+        - heading "The Danton Developments Installation Process" [level=2] [ref=e116]:
+          - strong [ref=e117]: The Danton Developments Installation Process
+        - paragraph [ref=e118]: "We’ve refined our process to make sure smooth, efficient installations that minimise disruption to your Grovedale business:"
+        - paragraph [ref=e119]:
+          - text: "1."
+          - strong [ref=e120]: Initial Consultation
+          - text: – We visit your site or review your plans to understand your specific needs
+        - paragraph [ref=e121]:
+          - text: "2."
+          - strong [ref=e122]: Custom Design
+          - text: – Our team creates partition layouts that make the most of your existing space
+        - paragraph [ref=e123]:
+          - text: "3."
+          - strong [ref=e124]: Transparent Quoting
+          - text: – Receive a detailed
+          - link "quote" [ref=e125] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: with no hidden costs
+        - paragraph [ref=e126]:
+          - text: "4."
+          - strong [ref=e127]: Planning Compliance
+          - text: – We handle all necessary approvals under the Greater Geelong Planning Scheme
+        - paragraph [ref=e128]:
+          - text: "5."
+          - strong [ref=e129]: Scheduled Installation
+          - text: – Work begins at times that suit your business operations
+        - paragraph [ref=e130]:
+          - text: "6."
+          - strong [ref=e131]: Quality Completion
+          - text: – Final inspection confirms everything meets our high standards
+        - paragraph [ref=e132]: Throughout the process, you’ll work directly with knowledgeable professionals who understand the unique requirements of transforming Grovedale’s industrial and commercial spaces.
+        - heading "Frequently Asked Questions" [level=2] [ref=e133]:
+          - strong [ref=e134]: Frequently Asked Questions
+        - paragraph [ref=e135]:
+          - strong [ref=e136]: What types of partition walls do you install?
+        - paragraph [ref=e137]: We install aluminium and glass partitions, plasterboard walls, fire-rated systems, acoustic partitions, and modular services. Each system is selected based on your specific needs, building type, and compliance requirements.
+        - paragraph [ref=e138]:
+          - strong [ref=e139]: How long does a typical partition wall installation take?
+        - paragraph [ref=e140]:
+          - text: Project timelines vary based on scope, but most
+          - link "office partition installations" [ref=e141] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: in standard Grovedale warehouses take 1-3 weeks. We work efficiently to minimise business disruption.
+        - paragraph [ref=e142]:
+          - strong [ref=e143]: Do partition walls require council approval in Grovedale?
+        - paragraph [ref=e144]: Non-structural internal fitouts typically don’t require extensive approvals, but we make sure all installations comply with the Greater Geelong Planning Scheme and relevant building codes.
+        - paragraph [ref=e145]:
+          - strong [ref=e146]: Can partition walls be reconfigured as our business grows?
+        - paragraph [ref=e147]: Yes, we offer modular partition systems that allow for future reconfiguration. This flexibility is particularly valuable for growing businesses in leased premises.
+        - paragraph [ref=e148]:
+          - strong [ref=e149]: What’s the cost range for partition walls?
+        - paragraph [ref=e150]: Projects range from $3,000 for simple divisions to over $300,000 for complete commercial fitouts. We provide free, detailed quotes based on your specific requirements.
+        - paragraph [ref=e151]:
+          - strong [ref=e152]: Do you work with both landlords and tenants?
+        - paragraph [ref=e153]: Yes, we work with property owners, tenants, and business owners throughout Grovedale and the wider Geelong area, making sure all parties’ requirements are met.
+        - paragraph [ref=e154]:
+          - iframe [ref=e155]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e156]
+        - generic [ref=e157]:
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - link "Partition Walls Epping" [ref=e161] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e162]:
+              - link "Partition Walls Truganina" [ref=e163] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e164]:
+              - link "Partition Walls Williams Landing" [ref=e165] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e166]:
+              - link "Partition Walls Preston" [ref=e167] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e168]:
+              - link "Partition Walls Cheltenham" [ref=e169] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Partition Walls Cremorne" [ref=e173] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e174]:
+              - link "Partition Walls Richmond" [ref=e175] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e176]:
+              - link "Partition Walls Port Melbourne" [ref=e177] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e178]:
+              - link "Partition Walls Collingwood" [ref=e179] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Partition Walls Southbank" [ref=e183] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e184]:
+              - link "Partition Walls Geelong" [ref=e185] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e186]: Partition Walls Grovedale
+            - listitem [ref=e187]:
+              - link "Partition Walls Moolap" [ref=e188] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Grovedale" [level=3] [ref=e189]
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "Suspended Ceilings Grovedale" [ref=e194] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-grovedale/
+      - generic [ref=e201]:
+        - heading "Send us a message" [level=2] [ref=e203]
+        - form "Contact form" [ref=e208]:
+          - paragraph [ref=e209]:
+            - textbox "Your Name" [ref=e211]
+          - paragraph [ref=e212]:
+            - textbox "Email" [ref=e214]
+          - paragraph [ref=e215]:
+            - textbox "Phone" [ref=e217]
+          - paragraph [ref=e218]:
+            - textbox "Subject" [ref=e220]
+          - paragraph [ref=e221]:
+            - textbox "Your Message" [ref=e223]
+          - paragraph [ref=e224]:
+            - button "Submit" [ref=e225] [cursor=pointer]
+  - contentinfo [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e231]:
+        - generic [ref=e236]:
+          - paragraph [ref=e237]: Quick Links
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "Home" [ref=e241] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e242]:
+              - link "About Us" [ref=e243] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e244]:
+              - link "Services" [ref=e245] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e246]:
+              - link "Projects" [ref=e247] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e248]:
+              - link "Areas" [ref=e249] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e250]:
+              - link "Contact Us" [ref=e251] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e252]:
+              - link "Privacy Policy" [ref=e253] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e258]:
+          - paragraph [ref=e259]: Our Services
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link "Ceiling Replacement Repairs" [ref=e263] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e264]:
+              - link "Glass Partition Walls" [ref=e265] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e266]:
+              - link "Partition Walls" [ref=e267] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e268]:
+              - link "Plasterboard Partitions" [ref=e269] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e270]:
+              - link "Suspended Ceilings" [ref=e271] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e272]:
+              - link "Exposed Grid Ceilings" [ref=e273] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: Contact Us
+          - paragraph [ref=e280]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e281] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e282] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e283]:
+            - paragraph [ref=e284]: Social Media
+            - list [ref=e285]:
+              - listitem [ref=e286]:
+                - link "Facebook" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e288]
+                  - generic [ref=e290]: Facebook
+      - paragraph [ref=e300]: Copyright © 2026 Danton Developments

@@ -1,0 +1,299 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Moolap" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: Moolap’s industrial and commercial properties present unique fitout challenges, and Danton Developments has the hands-on experience to handle them. We regularly travel to Moolap and the eastern Geelong region from our Thomastown base, installing aluminium, glass, and
+          - link "plasterboard partition systems" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: for warehouses, factories, and commercial offices that need functional, durable space division solutions. With 25+ years in the industry and 3,000+ projects completed across Melbourne and Geelong, we know what works in these environments.
+        - paragraph [ref=e82]:
+          - text: From basic plasterboard office dividers within warehouse facilities to full aluminium and glass fitouts in commercial tenancies, we tailor every partition solution to the demands of the space. Our team manages trade coordination, compliance requirements, and scheduling to ensure a smooth project from start to finish. Call
+          - link "0403 709 884" [ref=e83] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e84] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free quote on partition walls in Moolap.
+        - heading "Professional Office Partitions Moolap Businesses Trust" [level=2] [ref=e85]:
+          - strong [ref=e86]: Professional Office Partitions Moolap Businesses Trust
+        - paragraph [ref=e87]: Your unprofessional workspace shouldn’t limit your business potential. Danton Developments delivers high-performance office partitions in Moolap that solve the specific challenges of industrial premises. Whether you’re dealing with a factoryette along the Bellarine Highway or a modern warehouse, we create quiet, professional zones that improve productivity and impress clients.
+        - paragraph [ref=e88]: "Our wide-ranging partition services we provide include:"
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - link "Aluminium and glass partitions" [ref=e91] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: for modern, light-filled offices
+          - listitem [ref=e92]: Acoustic soundproofing systems to eliminate factory noise
+          - listitem [ref=e93]: Fire-rated wall systems meeting City of Greater Geelong compliance standards
+          - listitem [ref=e94]:
+            - link "Plasterboard partitions" [ref=e95] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - text: for cost-effective space division
+          - listitem [ref=e96]: Bulkheads and architectural features to define work areas
+        - heading "Your Local Partition Wall Experts in Moolap" [level=2] [ref=e97]:
+          - strong [ref=e98]: Your Local Partition Wall Experts in Moolap
+        - paragraph [ref=e99]:
+          - text: Based in the western suburbs and serving all of Melbourne and Geelong,
+          - link "Danton Developments" [ref=e100] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: brings over 25 years of industry experience to every project. We’re not just builders but commercial fitout specialists who understand the unique requirements of Moolap’s industrial sector.
+        - paragraph [ref=e101]: "Our local knowledge includes:"
+        - list [ref=e102]:
+          - listitem [ref=e103]: Understanding the specific fire-rating and egress requirements for creating office spaces within Industrial 1 zoned warehouses
+          - listitem [ref=e104]: Working with the common uneven concrete slabs in older factoryettes to achieve perfect partition finishes
+          - listitem [ref=e105]: Specifying appropriate materials for the local environment
+          - listitem [ref=e106]: Coordinating with other trades to keep your operations running
+        - heading "Why Choose Danton Developments Pty Ltd" [level=2] [ref=e107]:
+          - strong [ref=e108]: Why Choose Danton Developments Pty Ltd
+        - paragraph [ref=e109]:
+          - strong [ref=e110]: Melbourne’s Trusted Interior Specialists
+        - paragraph [ref=e111]: With a commitment to delivering the highest standards, we’ve built our reputation on reliability and quality. Our mission “Building your vision into Reality” drives everything we do.
+        - paragraph [ref=e112]:
+          - strong [ref=e113]: Premium Materials and Guaranteed Workmanship
+        - paragraph [ref=e114]: We use only high-quality materials and systems that stand the test of time in industrial environments. All our work is guaranteed to the highest standards, making sure that your investment delivers lasting value.
+        - paragraph [ref=e115]:
+          - strong [ref=e116]: Seasoned Professionals in Ceilings and Partitions
+        - paragraph [ref=e117]: "Our knowledge extends beyond basic partitions. We provide complete commercial office and retail fitouts, including:"
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - link "Suspended and grid ceiling systems" [ref=e120] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings/
+          - listitem [ref=e121]: Exposed services ceilings for industrial aesthetics
+          - listitem [ref=e122]: Integrated lighting and air conditioning services we offer
+          - listitem [ref=e123]: Strip out and make-good services for lease requirements
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: Direct Access to Industry Experience
+        - paragraph [ref=e126]: When you work with Danton Developments, you’re dealing directly with professionals who understand your needs. We provide transparent quotes, clear timelines, and consistent communication throughout your project.
+        - heading "Complete Fitout Services We Offer Beyond Partition Walls" [level=2] [ref=e127]:
+          - strong [ref=e128]: Complete Fitout Services We Offer Beyond Partition Walls
+        - paragraph [ref=e129]: "Our versatile service range means we can handle every aspect of your workspace transformation:"
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - strong [ref=e132]: Acoustic Services
+            - text: ": Eliminate noise transfer between office and factory areas"
+          - listitem [ref=e133]:
+            - strong [ref=e134]:
+              - link "Glass Partitions" [ref=e135] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: ": Create modern, light-filled spaces that maintain visual connection"
+          - listitem [ref=e136]:
+            - strong [ref=e137]: Fire-Rated Systems
+            - text: ": Achieve full compliance with safety regulations"
+          - listitem [ref=e138]:
+            - strong [ref=e139]: Ceiling Systems
+            - text: ": From concealed plasterboard to exposed grid options"
+          - listitem [ref=e140]:
+            - strong [ref=e141]: Maintenance and Repairs
+            - text: ": Keep your fitout looking and performing its best"
+        - paragraph [ref=e142]: We specialise in creating mezzanine offices, maximising vertical space in high-clearance warehouses a common opportunity in Moolap’s industrial buildings.
+        - heading "Frequently Asked Questions" [level=2] [ref=e143]:
+          - strong [ref=e144]: Frequently Asked Questions
+        - paragraph [ref=e145]:
+          - strong [ref=e146]: What types of partition walls are best for warehouses?
+        - paragraph [ref=e147]: For Moolap’s industrial buildings, we typically recommend acoustic-rated plasterboard systems for noise control, or aluminium and glass partitions for a modern aesthetic. The choice depends on your specific needs and budget.
+        - paragraph [ref=e148]:
+          - strong [ref=e149]: How long does a typical office fitout take?
+        - paragraph [ref=e150]: Most partition wall projects in Moolap warehouses take 2-4 weeks, depending on size and complexity. We work around your operations to minimise disruption.
+        - paragraph [ref=e151]:
+          - strong [ref=e152]: Do partition walls require council approval?
+        - paragraph [ref=e153]: Creating office spaces within industrial zones often requires compliance with City of Greater Geelong regulations. We handle all necessary compliance documentation and make sure that your fitout meets required standards.
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Can you work in occupied warehouses?
+        - paragraph [ref=e156]: Yes, we regularly install partition walls in operational facilities. We coordinate closely with your team to schedule work that minimises impact on your business.
+        - paragraph [ref=e157]:
+          - strong [ref=e158]: What about electrical and data cabling?
+        - paragraph [ref=e159]: Our partition systems integrate stress-free with services. We coordinate with your electricians and data contractors to verify all cabling is properly routed and accessible.
+        - paragraph [ref=e160]:
+          - strong [ref=e161]: Do you offer financing options?
+        - paragraph [ref=e162]:
+          - text: We provide transparent, competitive quotes for all projects.
+          - link "Contact us" [ref=e163] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: to discuss your budget and timeline requirements.
+        - paragraph [ref=e164]:
+          - iframe [ref=e165]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e166]
+        - generic [ref=e167]:
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Partition Walls Epping" [ref=e171] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e172]:
+              - link "Partition Walls Truganina" [ref=e173] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e174]:
+              - link "Partition Walls Williams Landing" [ref=e175] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e176]:
+              - link "Partition Walls Preston" [ref=e177] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e178]:
+              - link "Partition Walls Cheltenham" [ref=e179] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Partition Walls Cremorne" [ref=e183] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cremorne/
+            - listitem [ref=e184]:
+              - link "Partition Walls Richmond" [ref=e185] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e186]:
+              - link "Partition Walls Port Melbourne" [ref=e187] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e188]:
+              - link "Partition Walls Collingwood" [ref=e189] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e191]:
+            - listitem [ref=e192]:
+              - link "Partition Walls Southbank" [ref=e193] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e194]:
+              - link "Partition Walls Geelong" [ref=e195] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e196]:
+              - link "Partition Walls Grovedale" [ref=e197] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e198]: Partition Walls Moolap
+        - heading "Other Services We Provide in Moolap" [level=3] [ref=e199]
+        - list [ref=e202]:
+          - listitem [ref=e203]:
+            - link "Suspended Ceilings Moolap" [ref=e204] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-moolap/
+      - generic [ref=e211]:
+        - heading "Send us a message" [level=2] [ref=e213]
+        - form "Contact form" [ref=e218]:
+          - paragraph [ref=e219]:
+            - textbox "Your Name" [ref=e221]
+          - paragraph [ref=e222]:
+            - textbox "Email" [ref=e224]
+          - paragraph [ref=e225]:
+            - textbox "Phone" [ref=e227]
+          - paragraph [ref=e228]:
+            - textbox "Subject" [ref=e230]
+          - paragraph [ref=e231]:
+            - textbox "Your Message" [ref=e233]
+          - paragraph [ref=e234]:
+            - button "Submit" [ref=e235] [cursor=pointer]
+  - contentinfo [ref=e236]:
+    - generic [ref=e237]:
+      - generic [ref=e241]:
+        - generic [ref=e246]:
+          - paragraph [ref=e247]: Quick Links
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "Home" [ref=e251] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e252]:
+              - link "About Us" [ref=e253] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e254]:
+              - link "Services" [ref=e255] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e256]:
+              - link "Projects" [ref=e257] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e258]:
+              - link "Areas" [ref=e259] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e260]:
+              - link "Contact Us" [ref=e261] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e262]:
+              - link "Privacy Policy" [ref=e263] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e268]:
+          - paragraph [ref=e269]: Our Services
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "Ceiling Replacement Repairs" [ref=e273] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e274]:
+              - link "Glass Partition Walls" [ref=e275] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e276]:
+              - link "Partition Walls" [ref=e277] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e278]:
+              - link "Plasterboard Partitions" [ref=e279] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e280]:
+              - link "Suspended Ceilings" [ref=e281] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e282]:
+              - link "Exposed Grid Ceilings" [ref=e283] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e288]:
+          - paragraph [ref=e289]: Contact Us
+          - paragraph [ref=e290]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e291] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e292] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e293]:
+            - paragraph [ref=e294]: Social Media
+            - list [ref=e295]:
+              - listitem [ref=e296]:
+                - link "Facebook" [ref=e297] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e298]
+                  - generic [ref=e300]: Facebook
+      - paragraph [ref=e310]: Copyright © 2026 Danton Developments

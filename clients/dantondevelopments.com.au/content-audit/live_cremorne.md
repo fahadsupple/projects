@@ -1,0 +1,291 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation [ref=e6]:
+      - generic [ref=e9]:
+        - link "Danton Developments" [ref=e14] [cursor=pointer]:
+          - /url: https://dantondevelopments.com.au/
+          - img "Danton Development" [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Primary Menu" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/
+              - listitem [ref=e26]:
+                - link "About Us" [ref=e28] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/about/
+              - listitem [ref=e29]:
+                - generic [ref=e30]:
+                  - link "Services" [ref=e31] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/services/
+                    - generic [ref=e32]: Services
+                  - button "Open Submenu" [ref=e33]:
+                    - img "Dropdown" [ref=e35]
+              - listitem [ref=e37]:
+                - link "Projects" [ref=e39] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/projects/
+              - listitem [ref=e40]:
+                - generic [ref=e41]:
+                  - link "Areas" [ref=e42] [cursor=pointer]:
+                    - /url: https://dantondevelopments.com.au/areas/
+                    - generic [ref=e43]: Areas
+                  - button "Open Submenu" [ref=e44]:
+                    - img "Dropdown" [ref=e46]
+              - listitem [ref=e48]:
+                - link "Contact Us" [ref=e50] [cursor=pointer]:
+                  - /url: https://dantondevelopments.com.au/contact-us/
+          - generic [ref=e52]:
+            - link "0403 709 884" [ref=e53] [cursor=pointer]:
+              - /url: tel:0403%20709%20884
+            - link "Get a Free Quote" [ref=e54] [cursor=pointer]:
+              - /url: "#get-a-quote"
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "Facebook" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e58]
+                  - generic [ref=e60]: Facebook
+  - main [ref=e61]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Danton Developments" [ref=e67]
+        - generic [ref=e71]:
+          - heading "Partition Walls Cremorne" [level=1] [ref=e72]
+          - link "Get A Free Quote" [ref=e75] [cursor=pointer]:
+            - /url: "#get-a-quote"
+      - generic [ref=e78]:
+        - paragraph [ref=e80]:
+          - text: From
+          - link "frameless glass partitions" [ref=e81] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/glass-partition-walls/
+          - text: and sleek aluminium-framed systems to solid
+          - link "plasterboard walls" [ref=e82] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+          - text: ", acoustic partitions, and fire-rated assemblies, we customise every installation to suit your space, aesthetic, and operational requirements. Our team coordinates seamlessly with electricians, HVAC contractors, and other trades to ensure clean service integration and a polished finish with minimal disruption to your business. Call"
+          - link "0403 709 884" [ref=e83] [cursor=pointer]:
+            - /url: tel:0403 709 884
+          - text: or email
+          - link "dantondevelopments@outlook.com" [ref=e84] [cursor=pointer]:
+            - /url: mailto:dantondevelopments@outlook.com
+          - text: for a free on-site
+          - link "quote" [ref=e85] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/contact-us/
+          - text: on partition walls in Cremorne.
+        - heading "Your Local Partition Walls Experts in Cremorne" [level=2] [ref=e86]:
+          - strong [ref=e87]: Your Local Partition Walls Experts in Cremorne
+        - paragraph [ref=e88]:
+          - text: Based in Thomastown and working across Melbourne,
+          - link "Danton Developments" [ref=e89] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/
+          - text: understands the unique demands of Cremorne’s business ecosystem. We transform workspaces throughout the precinct, from converted industrial buildings near Punt Road to state-of-the-art commercial developments along the river.
+        - paragraph [ref=e90]: Our team brings over 25 years of industry experience to every project. We coordinate stress-free with building management and other trades, making sure minimal disruption to your daily operations. Whether you plan a complete office fitout or strategic partition installations, we deliver services that improve both productivity and workplace appeal.
+        - paragraph [ref=e91]: Many of Cremorne’s iconic brick warehouses fall under heritage overlays from the City of Yarra, requiring fitout services that preserve the building’s original character and structure. Our non-invasive partition systems meet these requirements specifically, creating functional workspaces without compromising heritage integrity.
+        - heading "Extensive Partition Services for Every Cremorne Business" [level=2] [ref=e92]:
+          - strong [ref=e93]: Extensive Partition Services for Every Cremorne Business
+        - paragraph [ref=e94]:
+          - text: Danton Developments provides a complete range of
+          - link "partition systems" [ref=e95] [cursor=pointer]:
+            - /url: https://dantondevelopments.com.au/office-partitions-walls/
+          - text: "tailored to Cremorne’s diverse business landscape:"
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - strong [ref=e98]:
+              - link "Glass Partitions" [ref=e99] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - text: ": Maintain visual connection while controlling acoustics"
+          - listitem [ref=e100]:
+            - strong [ref=e101]: Aluminium Framing Systems
+            - text: ": Lightweight, modular, and easily reconfigurable"
+          - listitem [ref=e102]:
+            - strong [ref=e103]: Acoustic Partitions
+            - text: ": Create quiet zones for focused work"
+          - listitem [ref=e104]:
+            - strong [ref=e105]: Fire-Rated Walls
+            - text: ": Make sure compliance with commercial building codes"
+          - listitem [ref=e106]:
+            - strong [ref=e107]: Demountable Systems
+            - text: ": Maximum flexibility for growing businesses"
+          - listitem [ref=e108]:
+            - strong [ref=e109]: Executive Office Services
+            - text: ": Impress clients and reward senior staff"
+          - listitem [ref=e110]:
+            - strong [ref=e111]: Meeting Room Configurations
+            - text: ": From phone booths to boardrooms"
+          - listitem [ref=e112]:
+            - strong [ref=e113]: Collaborative Zone Design
+            - text: ": Balance openness with defined spaces"
+        - heading "Why Choose Danton Developments for Your Cremorne Office Partitions" [level=2] [ref=e115]:
+          - strong [ref=e116]: Why Choose Danton Developments for Your Cremorne Office Partitions
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - strong [ref=e119]: "Melbourne’s Trusted Interior Specialists:"
+            - text: With thousands of successful projects completed across Melbourne, we bring proven industry experience to every Cremorne workspace transformation.
+          - listitem [ref=e120]:
+            - strong [ref=e121]: "Commitment to Excellence:"
+            - text: We always commit to delivering the highest standards, making sure your
+            - link "partition walls" [ref=e122] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/office-partitions-walls/
+            - text: meet both aesthetic and functional requirements.
+          - listitem [ref=e123]:
+            - strong [ref=e124]: "Premium Materials and Guaranteed Workmanship:"
+            - text: Every partition system uses quality materials backed by our wide-ranging workmanship guarantee, protecting your investment.
+          - listitem [ref=e125]:
+            - strong [ref=e126]: "Understanding of Local Business Needs:"
+            - text: We know that in Cremorne’s competitive environment, your office design directly impacts your ability to attract and retain talent. We design our services with this strategic goal in mind.
+          - listitem [ref=e127]:
+            - strong [ref=e128]: "Reliable Project Delivery:"
+            - text: Your time holds value, and delays cost money. We pride ourselves on reliable scheduling and consistent communication throughout your project.
+        - heading "Frequently Asked Questions" [level=2] [ref=e129]:
+          - strong [ref=e130]: Frequently Asked Questions
+        - paragraph [ref=e131]:
+          - strong [ref=e132]: What types of businesses in Cremorne benefit from partition walls?
+        - paragraph [ref=e133]: Tech companies, creative agencies, financial services, and any business needing flexible workspace services benefit from our partition systems. Whether you work in a converted warehouse or modern office tower, we design services for your specific needs.
+        - paragraph [ref=e134]:
+          - strong [ref=e135]: How do partition walls help with heritage building requirements?
+        - paragraph [ref=e136]: Our non-invasive partition systems create functional workspaces without structural alterations, meeting City of Yarra heritage overlay requirements while preserving your building’s character.
+        - paragraph [ref=e137]:
+          - strong [ref=e138]: Can partitions really improve employee productivity?
+        - paragraph [ref=e139]: Absolutely. By creating dedicated quiet zones and lowering distractions, acoustic partitions help teams focus on deep work. Many clients report significant improvements in output and employee satisfaction.
+        - paragraph [ref=e140]:
+          - strong [ref=e141]: How quickly can partition walls be installed?
+        - paragraph [ref=e142]: Installation timeframes vary by project size, but we can complete most partition systems within 1-2 weeks with minimal disruption to your operations.
+        - paragraph [ref=e143]:
+          - strong [ref=e144]: Are your partition systems truly flexible for future changes?
+        - paragraph [ref=e145]: Yes, our demountable systems allow for easy reconfiguration as your needs change. You can move, remove, or expand walls without major construction work.
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: What’s included in your partition wall services?
+        - paragraph [ref=e148]: We provide complete project management including design consultation, compliance checking, installation, electrical/data integration, and post-installation support.
+        - paragraph [ref=e149]:
+          - iframe [ref=e150]:
+            
+        - heading "Areas We Serve" [level=2] [ref=e151]
+        - generic [ref=e152]:
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "Partition Walls Epping" [ref=e156] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-epping/
+            - listitem [ref=e157]:
+              - link "Partition Walls Truganina" [ref=e158] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-truganina/
+            - listitem [ref=e159]:
+              - link "Partition Walls Williams Landing" [ref=e160] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-williams-landing/
+            - listitem [ref=e161]:
+              - link "Partition Walls Preston" [ref=e162] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-preston/
+            - listitem [ref=e163]:
+              - link "Partition Walls Cheltenham" [ref=e164] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-cheltenham/
+          - list [ref=e166]:
+            - listitem [ref=e167]: Partition Walls Cremorne
+            - listitem [ref=e168]:
+              - link "Partition Walls Richmond" [ref=e169] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-richmond/
+            - listitem [ref=e170]:
+              - link "Partition Walls Port Melbourne" [ref=e171] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-port-melbourne/
+            - listitem [ref=e172]:
+              - link "Partition Walls Collingwood" [ref=e173] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-collingwood/
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "Partition Walls Southbank" [ref=e177] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-southbank/
+            - listitem [ref=e178]:
+              - link "Partition Walls Geelong" [ref=e179] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-geelong/
+            - listitem [ref=e180]:
+              - link "Partition Walls Grovedale" [ref=e181] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-grovedale/
+            - listitem [ref=e182]:
+              - link "Partition Walls Moolap" [ref=e183] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls-moolap/
+        - heading "Other Services We Provide in Cremorne" [level=3] [ref=e184]
+        - list [ref=e187]:
+          - listitem [ref=e188]:
+            - link "Suspended Ceilings Cremorne" [ref=e189] [cursor=pointer]:
+              - /url: https://dantondevelopments.com.au/suspended-ceilings-cremorne/
+      - generic [ref=e196]:
+        - heading "Send us a message" [level=2] [ref=e198]
+        - form "Contact form" [ref=e203]:
+          - paragraph [ref=e204]:
+            - textbox "Your Name" [ref=e206]
+          - paragraph [ref=e207]:
+            - textbox "Email" [ref=e209]
+          - paragraph [ref=e210]:
+            - textbox "Phone" [ref=e212]
+          - paragraph [ref=e213]:
+            - textbox "Subject" [ref=e215]
+          - paragraph [ref=e216]:
+            - textbox "Your Message" [ref=e218]
+          - paragraph [ref=e219]:
+            - button "Submit" [ref=e220] [cursor=pointer]
+  - contentinfo [ref=e221]:
+    - generic [ref=e222]:
+      - generic [ref=e226]:
+        - generic [ref=e231]:
+          - paragraph [ref=e232]: Quick Links
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Home" [ref=e236] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/
+            - listitem [ref=e237]:
+              - link "About Us" [ref=e238] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/about/
+            - listitem [ref=e239]:
+              - link "Services" [ref=e240] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/services/
+            - listitem [ref=e241]:
+              - link "Projects" [ref=e242] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/projects/
+            - listitem [ref=e243]:
+              - link "Areas" [ref=e244] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/areas/
+            - listitem [ref=e245]:
+              - link "Contact Us" [ref=e246] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/contact-us/
+            - listitem [ref=e247]:
+              - link "Privacy Policy" [ref=e248] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/privacy-policy/
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: Our Services
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link "Ceiling Replacement Repairs" [ref=e258] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/ceiling-replacement-repairs/
+            - listitem [ref=e259]:
+              - link "Glass Partition Walls" [ref=e260] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/glass-partition-walls/
+            - listitem [ref=e261]:
+              - link "Partition Walls" [ref=e262] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/partition-walls/
+            - listitem [ref=e263]:
+              - link "Plasterboard Partitions" [ref=e264] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/plasterboard-partitions/
+            - listitem [ref=e265]:
+              - link "Suspended Ceilings" [ref=e266] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/suspended-ceilings/
+            - listitem [ref=e267]:
+              - link "Exposed Grid Ceilings" [ref=e268] [cursor=pointer]:
+                - /url: https://dantondevelopments.com.au/exposed-grid-ceilings/
+        - generic [ref=e273]:
+          - paragraph [ref=e274]: Contact Us
+          - paragraph [ref=e275]:
+            - text: "Address: Melbourne"
+            - text: "Phone:"
+            - link "0403 709 884" [ref=e276] [cursor=pointer]:
+              - /url: tel:0403 709 884
+            - text: "Email:"
+            - link "dantondevelopments@outlook.com" [ref=e277] [cursor=pointer]:
+              - /url: mailto:dantondevelopments@outlook.com
+          - generic [ref=e278]:
+            - paragraph [ref=e279]: Social Media
+            - list [ref=e280]:
+              - listitem [ref=e281]:
+                - link "Facebook" [ref=e282] [cursor=pointer]:
+                  - /url: https://www.facebook.com/people/Danton-Developments/61588235737369/
+                  - img [ref=e283]
+                  - generic [ref=e285]: Facebook
+      - paragraph [ref=e295]: Copyright © 2026 Danton Developments
