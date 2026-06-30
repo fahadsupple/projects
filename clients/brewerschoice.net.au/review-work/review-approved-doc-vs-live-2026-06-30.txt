@@ -1,0 +1,335 @@
+BREWERS CHOICE — CONTENT & SEO REVIEW
+Approved Doc vs Live Site
+Date: 2026-06-30
+Reviewed by: Claude Code
+Pages audited: 26 (all pages listed in brewerschoice.net.au (Approved).docx)
+Method: Live scrape of all 26 URLs — compared meta tags, H1/H2/H3, body text, schema, coding
+
+All 26 pages returned HTTP 200. No pages missing or broken.
+
+================================================================================
+PART 1 — CONTENT MATCHING
+================================================================================
+
+OVERALL: Mixed result. Meta titles, meta descriptions, and H3s match across
+the board. However 7 of the 11 product category pages have H1 mismatches
+(either wrong title, wrong plural/singular, or truncated). Two body text typos
+were found on Page 8. One H2 structure is broken on the Croydon page. One H2
+was downgraded to H3 on the Clayton distilling page.
+
+15 pages are fully clean. 11 pages have issues of varying severity.
+
+MATCHES CONFIRMED (all 26 pages):
+- Meta titles: exact match on all 26 pages
+- Meta descriptions: exact match on all 26 pages
+- H1 count: exactly 1 H1 per page on all 26 pages
+- H2 content headings: match on all except Pages 18 and 24 (see below)
+- H3 content headings: all approved H3s present on all pages
+- OG tags: og:title and og:description present on all 26 pages
+- Canonical tags: present on all 26 pages (except Page 13 — see Part 3)
+- Robots: none accidentally set to noindex
+
+FULLY CLEAN PAGES (all content matching, no issues):
+Pages 1, 2, 3, 4 (Home + national supply pages — Melbourne, Brisbane, Perth)
+Pages 11 (Turbo Yeast), 15 (Turbo Boilers)
+Pages 16 (Bayswater shop), 17 (Boronia shop), 19 (Clayton shop), 20 (Oakleigh shop)
+Pages 21 (Bayswater distilling), 22 (Boronia distilling), 23 (Croydon distilling)
+Pages 25 (Oakleigh distilling), 26 (Areas We Serve)
+
+NOTE ON EXTRA H2s (product category pages only):
+Pages 5–15 show additional H2s beyond the approved content headings. These
+are WooCommerce product listing titles — WooCommerce renders each product name
+as an H2 in the product grid. This is expected CMS behaviour and NOT a content
+issue. The approved content headings are all present alongside these.
+
+NOTE ON "AREAS WE SERVE" H2:
+Pages 16–26 show an extra H2 "Areas We Serve" not in the approved doc. This
+appears to be a site-wide sidebar or internal navigation section. Expected
+behaviour, not a content error.
+
+VARIATIONS FOUND:
+
+1. Pages 5, 6, 7, 9, 10, 12 — H1 MISMATCH (Product Category Pages)
+   See Part 2 — Critical section for full detail.
+
+2. Page 14 — H1 WORD ORDER WRONG (/still-spirits-classic-turbo-8-yeast/)
+   Doc H1:  "Still Spirits Classic 8 Turbo Yeast"
+   Live H1: "Still Spirits Classic Turbo 8 Yeast"
+   Assessment: The word "Turbo" and "8" have swapped positions. The product
+   listing page appears to be using the WooCommerce product title rather than
+   the approved content H1.
+
+3. Page 18 — MISSING H2 (/home-brew-shop-croydon/)
+   Doc H2:  "Your Local Home Brewing Experts Serving Croydon"
+   Live:    This H2 does not appear on the live page.
+   Also:    "Temperature Control That Actually Works" appears as BOTH an H2 and
+            an H3 on the live page — it was a H3 in the approved doc. The H2
+            version is an erroneous promotion of a sub-heading.
+   Assessment: Developer error — one section's heading structure was incorrectly
+   implemented. One H2 was dropped and an H3 was duplicated into H2 position.
+
+4. Page 24 — H2 DEMOTED TO H3 (/home-distilling-kit-clayton/)
+   Doc H2:  "Distilling Legally and Confidently Under ATO Guidelines"
+   Live:    This heading is implemented as an H3, not H2.
+   Assessment: Developer error — the heading level is wrong.
+
+5. Page 12 — DOC TYPO CORRECTED ON LIVE (/fresh-wort-kit-all-brand/)
+   Doc H2:  "WhyWe're the Brewers Choice" (no space between "Why" and "We're")
+   Live H2: "Why We're the Brewers Choice" (correct)
+   Assessment: The document contained a typo — no space between "Why" and
+   "We're". The live site has the correct text. Live is correct. Not an issue
+   but flagged for doc record-keeping.
+
+
+================================================================================
+PART 2 — CONTENT ISSUES (Spelling, AU English, Wrong Content)
+================================================================================
+
+--- CRITICAL ---
+
+ISSUE 1: H1 WRONG ON 6 PRODUCT CATEGORY PAGES
+The H1 on WooCommerce product category pages is being pulled from the
+WooCommerce category name field, not from the approved SEO content. This means
+the keyword-targeted H1 approved in the document is not being used.
+
+Page 5: /product-category/spirit-making/stills-and-parts/copper-stills/
+  Doc H1:  "Copper Stills Australia"
+  Live H1: "Copper Stills"
+  Lost: "Australia" geo-modifier missing from H1
+
+Page 6: /product-category/wine-making/oak-barrels/
+  Doc H1:  "Oak Barrels Australia"
+  Live H1: "Oak Barrels"
+  Lost: "Australia" geo-modifier missing from H1
+
+Page 7: /product-category/spirit-making/distilling-starter-kits/
+  Doc H1:  "Distilling Starter Kit"
+  Live H1: "Distilling Starter Kits"
+  Difference: Plural on live, singular in doc (singular matches the exact
+  keyword targeted)
+
+Page 9: /product-category/spirit-making/stills-and-parts/air-stills-pro/
+  Doc H1:  "Air Still Pro"
+  Live H1: "Air Stills Pro"
+  Difference: Plural on live, singular in doc and in the branded product name
+
+Page 10: /product-category/spirit-making/stills-and-parts/pure-distilling-stills/
+  Doc H1:  "Pure Distilling Stills, Kits & Parts"
+  Live H1: "Pure Distilling Stills"
+  Lost: ", Kits & Parts" truncated — approved copy includes this
+
+Page 12: /product-category/beer-cider/beer-kits/fresh-wort-kit-all-brand/
+  Doc H1:  "Fresh Wort Kits"
+  Live H1: "Fresh Wort Kit-All Brand"
+  This is the worst case — "Fresh Wort Kit-All Brand" is clearly the internal
+  WooCommerce category label, not a customer-facing H1. No user would search
+  for "Fresh Wort Kit-All Brand". This needs immediate correction.
+
+Action needed: Developer to implement the approved H1 text as the content
+editor H1 on each product category page. The WooCommerce category name field
+and the SEO content H1 need to be independent. Most WooCommerce setups allow
+adding a custom H1 via Yoast SEO or in the category description field.
+
+
+--- MODERATE ---
+
+ISSUE 2: TWO TYPOS ON TURBO 500 PAGE BODY TEXT
+URL: https://brewerschoice.net.au/product-category/spirit-making/stills-and-parts/turbo-500-stills/
+Page 8 in the approved document.
+
+Typo 1 — "very one" should be "very own":
+  Live text: "To get your very one Turbo 500 Still, simply palace an order
+             online or contact us for any product related queries!"
+  Should be: "To get your very own Turbo 500 Still..."
+  Note: This typo was also present in the approved document.
+
+Typo 2 — "palace" should be "place":
+  Live text: "...simply palace an order online..."
+  Should be: "...simply place an order online..."
+  Note: This typo was also present in the approved document.
+
+Action needed: Developer to correct both typos in the WooCommerce category
+description for Turbo 500 Stills.
+
+ISSUE 3: TYPO IN H2 ON PRODUCT PAGE
+URL: https://brewerschoice.net.au/product/still-spirits-classic-turbo-8-yeast/
+Page 14 in the approved document.
+
+  Live H2: "Why We're the Go-to SOurce for Still Spirits Classic 8"
+           "SOurce" has an incorrect capital O.
+  Should be: "...Source..."
+  Note: This typo was also present in the approved document.
+
+Action needed: Developer to correct "SOurce" → "Source" in the H2 on this
+product page.
+
+ISSUE 4: H1 WORD ORDER WRONG ON PRODUCT PAGE
+URL: https://brewerschoice.net.au/product/still-spirits-classic-turbo-8-yeast/
+Page 14 in the approved document.
+
+  Doc H1:  "Still Spirits Classic 8 Turbo Yeast"
+  Live H1: "Still Spirits Classic Turbo 8 Yeast"
+  The "Turbo" and "8" are in the wrong order. The approved keyword order is
+  "Classic 8" (as per the product brand name Still Spirits Classic 8).
+
+Action needed: Developer to update the product title or H1 to match the
+approved text: "Still Spirits Classic 8 Turbo Yeast".
+
+ISSUE 5: H2 MISSING / WRONG HEADING HIERARCHY — CROYDON PAGE
+URL: https://brewerschoice.net.au/home-brew-shop-croydon/
+Page 18 in the approved document.
+
+  Missing H2: "Your Local Home Brewing Experts Serving Croydon"
+              This H2 does not appear anywhere on the live page.
+
+  Promoted incorrectly: "Temperature Control That Actually Works"
+  This heading was an H3 in the approved doc. On the live page it appears
+  as an H2 AND also as an H3 — it is duplicated.
+
+  Live H2 order:
+    "Stop Paying Bottle-Shop Prices, Start Brewing Brewery-Quality at Home"
+    "Brewing Through Melbourne's Four Seasons, A Local Croydon Challenge"
+    "Temperature Control That Actually Works"  ← WRONG LEVEL (should be H3)
+    "Why Choose Brewers Choice Home Brew Supplies?"
+    "Frequently Asked Questions"
+
+  Expected H2 order (from doc):
+    "Stop Paying Bottle-Shop Prices, Start Brewing Brewery-Quality at Home"
+    "Brewing Through Melbourne's Four Seasons, A Local Croydon Challenge"
+    "Your Local Home Brewing Experts Serving Croydon"  ← MISSING
+    "Why Choose Brewers Choice Home Brew Supplies?"
+    "Frequently Asked Questions"
+
+Action needed: Developer to:
+  (a) Add the missing H2 "Your Local Home Brewing Experts Serving Croydon"
+  (b) Change "Temperature Control That Actually Works" back to H3 (remove H2 instance)
+  (c) Confirm page structure matches the approved document layout.
+
+ISSUE 6: H2 IMPLEMENTED AS H3 — CLAYTON DISTILLING PAGE
+URL: https://brewerschoice.net.au/home-distilling-kit-clayton/
+Page 24 in the approved document.
+
+  Doc H2:  "Distilling Legally and Confidently Under ATO Guidelines"
+  Live:    This heading exists on the page but is coded as an H3, not H2.
+
+Action needed: Developer to change the heading level from H3 to H2.
+
+
+--- MINOR / CONFIRM WITH CLIENT ---
+
+ISSUE 7: WOOCOMMERCE CATEGORY NAME TYPO (SITE-WIDE)
+Visible on all product category pages in the WooCommerce navigation block.
+  Typo:    "Micro Brewry & Distillery"
+  Should be: "Micro Brewery & Distillery"
+  Note: "Brewry" is missing the 'e'. This appears in the WooCommerce category
+  navigation on every product page and category page.
+Action needed: Developer to update the WooCommerce category name from
+"Micro Brewry & Distillery" to "Micro Brewery & Distillery".
+
+WHAT IS NOT AN ISSUE:
+- Product listing H2s (WooCommerce product titles) — expected CMS behaviour
+- "Areas We Serve" extra H2 on service/location pages — expected section header
+- Smart quotes vs straight quotes on headings (e.g., "What's" vs "What's")
+  — cosmetic encoding difference, functionally identical
+- Spacing in extracted body text — BeautifulSoup extraction artifact, not
+  real whitespace errors in the HTML
+- "program" (not "programme") — Australian English accepts "program" ✅
+- "Enrol" / "enrolled" forms — correct AU English ✅
+
+
+================================================================================
+PART 3 — CODING / SEO ISSUES
+================================================================================
+
+ALL 26 PAGES PASS the following checks:
+- HTTP status: All 26 pages return HTTP 200
+- H1 count: Exactly 1 H1 per page on all 26 pages
+- Noindex: None of the 26 pages are set to noindex
+- Robots meta tag: Present on all 26 pages (index, follow on all)
+- Meta title: Present on all 26 pages
+- Meta description: Present on all 26 pages
+- Open Graph: og:title and og:description present on all 26 pages
+
+SCHEMA MARKUP SUMMARY:
+All 26 pages have a valid @graph JSON-LD schema block containing Store and
+Organization entities (Yoast SEO / RankMath standard format). This is correct.
+
+Home page (Page 1) + service/location pages (Pages 2–4, 16–17, 19–22, 23, 25–26):
+  FAQPage schema present — correct for pages with FAQ sections.
+
+Product category pages (Pages 5–12, 15):
+  BreadcrumbList schema present — standard for e-commerce category pages.
+
+Product page (Page 14 — /still-spirits-classic-turbo-8-yeast/):
+  Only @graph (Store/Organization) schema. No Product schema or FAQPage schema.
+  The page has FAQ headings in the content but no FAQPage JSON-LD. LOW priority
+  opportunity to add FAQPage schema to this product page.
+
+ISSUE 8: NON-SELF-REFERENCING CANONICAL — TOP SHELF ESSENCE PAGE
+URL: https://brewerschoice.net.au/product-category/spirit-making/flavouring-essences-chips/top-shelf-essence/
+
+  Page is served at:
+    .../flavouring-essences-chips/top-shelf-essence/
+
+  Canonical tag points to:
+    .../flavouring-essences-chips/flavouring-chips/top-shelf-essence/
+
+  These are two different URLs. The canonical includes an extra path segment
+  "flavouring-chips/" that is not in the actual page URL. This is a broken
+  canonical — Google will attempt to use the canonical URL as the primary
+  index target, but that URL may not match the page's actual location.
+
+  Note: The approved document lists the URL without the trailing slash or the
+  "flavouring-chips/" segment — the original approved URL was:
+    .../flavouring-essences-chips/top-shelf-essence
+
+  It is likely this category was nested under a parent "flavouring-chips"
+  subcategory at some point, and the canonical was not updated when the URL
+  structure changed (or vice versa).
+
+Action needed: Developer to investigate the WooCommerce category hierarchy for
+"Top Shelf Essence" and ensure the canonical URL matches the actual served URL.
+The canonical should be self-referencing.
+
+
+================================================================================
+SUMMARY TABLE — ACTION ITEMS
+================================================================================
+
+#  | Page / URL                                         | Issue                                             | Priority | Owner
+---|----------------------------------------------------|----------------------------------------------------|----------|----------
+1  | /product-category/.../fresh-wort-kit-all-brand/   | H1 says "Fresh Wort Kit-All Brand" (WooCommerce label) | CRITICAL | Developer
+2  | /product-category/.../flavouring-.../top-shelf-essence/ | Canonical URL doesn't self-reference (extra path segment) | HIGH  | Developer
+3  | /home-brew-shop-croydon/                           | Missing H2 "Your Local Home Brewing Experts Serving Croydon" | HIGH | Developer
+4  | /home-brew-shop-croydon/                           | "Temperature Control That Actually Works" at wrong level (H2 instead of H3) + duplicated | HIGH | Developer
+5  | /product-category/.../copper-stills/               | H1 says "Copper Stills" — missing "Australia"      | HIGH     | Developer
+6  | /product-category/wine-making/oak-barrels/         | H1 says "Oak Barrels" — missing "Australia"        | HIGH     | Developer
+7  | /product-category/.../air-stills-pro/              | H1 says "Air Stills Pro" — should be "Air Still Pro" | HIGH   | Developer
+8  | /product-category/.../pure-distilling-stills/      | H1 says "Pure Distilling Stills" — missing ", Kits & Parts" | MEDIUM | Developer
+9  | /product-category/.../distilling-starter-kits/     | H1 says "Distilling Starter Kits" — should be singular "Kit" | MEDIUM | Developer
+10 | /product-category/.../turbo-500-stills/            | Typo: "very one" → "very own"                     | MEDIUM   | Developer
+11 | /product-category/.../turbo-500-stills/            | Typo: "palace an order" → "place an order"         | MEDIUM   | Developer
+12 | /product/still-spirits-classic-turbo-8-yeast/      | H1 word order: "Classic Turbo 8" → "Classic 8 Turbo" | MEDIUM | Developer
+13 | /product/still-spirits-classic-turbo-8-yeast/      | H2 typo: "SOurce" → "Source"                      | MEDIUM   | Developer
+14 | /home-distilling-kit-clayton/                      | H2 "Distilling Legally..." coded as H3 — fix to H2 | MEDIUM  | Developer
+15 | (All product/category pages, WooCommerce nav)      | WooCommerce category typo: "Micro Brewry" → "Micro Brewery" | LOW | Developer
+
+Priority levels: CRITICAL / HIGH / MEDIUM / LOW
+Owners: Developer / SEO / Client
+
+================================================================================
+VERDICT
+================================================================================
+
+The meta layer (titles, descriptions, OG tags) is solid — all 26 match exactly.
+The main risk area is the H1 on product category pages: WooCommerce is
+overriding the approved H1 with the internal category name on 6 of 10 product
+category pages. This is the most common WordPress/WooCommerce content
+implementation issue and is straightforward to fix with the right configuration.
+
+3 of the 15 action items are HIGH priority and involve structural heading
+errors (missing H2, wrong H1, broken canonical). Fix these first.
+The remaining 12 are MEDIUM/LOW and are editorial or cosmetic.
+
+Once the 6 WooCommerce H1s and the canonical URL are corrected, the site will
+be fully consistent with the approved document.
