@@ -13,9 +13,10 @@ PART 1 — CONTENT MATCHING
 
 OVERALL: Mixed result. Meta titles, meta descriptions, and H3s match across
 the board. However 7 of the 11 product category pages have H1 mismatches
-(either wrong title, wrong plural/singular, or truncated). Two body text typos
-were found on Page 8. One H2 structure is broken on the Croydon page. One H2
-was downgraded to H3 on the Clayton distilling page.
+(either wrong title, wrong plural/singular, or truncated). The FAQ/CTA section
+order is reversed on 7 product category pages. Two body text typos were found
+on Page 8. One H2 structure is broken on the Croydon page. One H2 was
+downgraded to H3 on the Clayton distilling page.
 
 15 pages are fully clean. 11 pages have issues of varying severity.
 
@@ -23,7 +24,7 @@ MATCHES CONFIRMED (all 26 pages):
 - Meta titles: exact match on all 26 pages
 - Meta descriptions: exact match on all 26 pages
 - H1 count: exactly 1 H1 per page on all 26 pages
-- H2 content headings: match on all except Pages 18 and 24 (see below)
+- H2 content headings: match on all except Pages 5, 6, 7, 9, 10, 11, 12, 18, 24 (see below)
 - H3 content headings: all approved H3s present on all pages
 - OG tags: og:title and og:description present on all 26 pages
 - Canonical tags: present on all 26 pages (except Page 13 — see Part 3)
@@ -59,7 +60,13 @@ VARIATIONS FOUND:
    listing page appears to be using the WooCommerce product title rather than
    the approved content H1.
 
-3. Page 18 — MISSING H2 (/home-brew-shop-croydon/)
+3. Pages 5, 6, 7, 9, 10, 11, 12 — FAQ/CTA SECTION ORDER REVERSED
+   All 7 product category pages have the FAQ and closing CTA sections in
+   the wrong order. The approved document consistently places FAQ before the
+   final CTA. On the live site, the CTA section appears before the FAQ.
+   See Part 2 — Moderate section for full detail.
+
+4. Page 18 — MISSING H2 (/home-brew-shop-croydon/)
    Doc H2:  "Your Local Home Brewing Experts Serving Croydon"
    Live:    This H2 does not appear on the live page.
    Also:    "Temperature Control That Actually Works" appears as BOTH an H2 and
@@ -68,12 +75,12 @@ VARIATIONS FOUND:
    Assessment: Developer error — one section's heading structure was incorrectly
    implemented. One H2 was dropped and an H3 was duplicated into H2 position.
 
-4. Page 24 — H2 DEMOTED TO H3 (/home-distilling-kit-clayton/)
+5. Page 24 — H2 DEMOTED TO H3 (/home-distilling-kit-clayton/)
    Doc H2:  "Distilling Legally and Confidently Under ATO Guidelines"
    Live:    This heading is implemented as an H3, not H2.
    Assessment: Developer error — the heading level is wrong.
 
-5. Page 12 — DOC TYPO CORRECTED ON LIVE (/fresh-wort-kit-all-brand/)
+6. Page 12 — DOC TYPO CORRECTED ON LIVE (/fresh-wort-kit-all-brand/)
    Doc H2:  "WhyWe're the Brewers Choice" (no space between "Why" and "We're")
    Live H2: "Why We're the Brewers Choice" (correct)
    Assessment: The document contained a typo — no space between "Why" and
@@ -133,7 +140,46 @@ adding a custom H1 via Yoast SEO or in the category description field.
 
 --- MODERATE ---
 
-ISSUE 2: TWO TYPOS ON TURBO 500 PAGE BODY TEXT
+ISSUE 2: FAQ AND CLOSING CTA IN WRONG ORDER — 7 PRODUCT CATEGORY PAGES
+The approved document places the FAQ section before the closing CTA on all
+product category pages. On the live site, these two sections are reversed —
+CTA appears first, then FAQ. This affects all 7 pages listed below.
+
+Verified pages (approved order: FAQ → CTA / live order: CTA → FAQ):
+
+Page 5:  /product-category/spirit-making/stills-and-parts/copper-stills/
+  Approved last 2 H2s: "Frequently Asked Questions" → "Start Your Distillation Journey Today"
+  Live last 2 H2s:     "Start Your Distillation Journey Today" → "Frequently Asked Questions"
+
+Page 6:  /product-category/wine-making/oak-barrels/
+  Approved last 2 H2s: "FAQs" → "Order Your Oak Barrels Today"
+  Live last 2 H2s:     "Order Your Oak Barrels Today" → "FAQs"
+
+Page 7:  /product-category/spirit-making/distilling-starter-kits/
+  Approved last 2 H2s: "Frequently Asked Questions" → "Get Your Distilling Setup Sorted Today"
+  Live last 2 H2s:     "Get Your Distilling Setup Sorted Today" → "Frequently Asked Questions"
+
+Page 9:  /product-category/spirit-making/stills-and-parts/air-stills-pro/
+  Approved last 2 H2s: "Frequently Asked Questions" → "Ready to Take Control of Your Top Shelf?"
+  Live last 2 H2s:     "Ready to Take Control of Your Top Shelf?" → "Frequently Asked Questions"
+
+Page 10: /product-category/spirit-making/stills-and-parts/pure-distilling-stills/
+  Approved last 2 H2s: "Frequently Asked Questions" → "Start Crafting with Pure Distilling Today"
+  Live last 2 H2s:     "Start Crafting with Pure Distilling Today" → "Frequently Asked Questions"
+
+Page 11: /product-category/spirit-making/turbo-yeast/
+  Approved last 2 H2s: "Frequently Asked Questions" → "Shop Turbo Yeast Online or In-Store"
+  Live last 2 H2s:     "Shop Turbo Yeast Online or In-Store" → "Frequently Asked Questions"
+
+Page 12: /product-category/beer-cider/beer-kits/fresh-wort-kit-all-brand/
+  Approved last 2 H2s: "Fresh Wort Kit FAQs" → "Order a Fresh Wort Kit Today"
+  Live last 2 H2s:     "Order a Fresh Wort Kit Today" → "Fresh Wort Kit FAQs"
+
+Action needed: Developer to swap the FAQ and closing CTA sections on all 7
+pages so the order matches the approved document: FAQ section comes before
+the closing CTA paragraph.
+
+ISSUE 3: TWO TYPOS ON TURBO 500 PAGE BODY TEXT
 URL: https://brewerschoice.net.au/product-category/spirit-making/stills-and-parts/turbo-500-stills/
 Page 8 in the approved document.
 
@@ -151,7 +197,7 @@ Typo 2 — "palace" should be "place":
 Action needed: Developer to correct both typos in the WooCommerce category
 description for Turbo 500 Stills.
 
-ISSUE 3: TYPO IN H2 ON PRODUCT PAGE
+ISSUE 4: TYPO IN H2 ON PRODUCT PAGE
 URL: https://brewerschoice.net.au/product/still-spirits-classic-turbo-8-yeast/
 Page 14 in the approved document.
 
@@ -163,7 +209,7 @@ Page 14 in the approved document.
 Action needed: Developer to correct "SOurce" → "Source" in the H2 on this
 product page.
 
-ISSUE 4: H1 WORD ORDER WRONG ON PRODUCT PAGE
+ISSUE 5: H1 WORD ORDER WRONG ON PRODUCT PAGE
 URL: https://brewerschoice.net.au/product/still-spirits-classic-turbo-8-yeast/
 Page 14 in the approved document.
 
@@ -175,7 +221,7 @@ Page 14 in the approved document.
 Action needed: Developer to update the product title or H1 to match the
 approved text: "Still Spirits Classic 8 Turbo Yeast".
 
-ISSUE 5: H2 MISSING / WRONG HEADING HIERARCHY — CROYDON PAGE
+ISSUE 6: H2 MISSING / WRONG HEADING HIERARCHY — CROYDON PAGE
 URL: https://brewerschoice.net.au/home-brew-shop-croydon/
 Page 18 in the approved document.
 
@@ -189,14 +235,14 @@ Page 18 in the approved document.
   Live H2 order:
     "Stop Paying Bottle-Shop Prices, Start Brewing Brewery-Quality at Home"
     "Brewing Through Melbourne's Four Seasons, A Local Croydon Challenge"
-    "Temperature Control That Actually Works"  ← WRONG LEVEL (should be H3)
+    "Temperature Control That Actually Works"  <- WRONG LEVEL (should be H3)
     "Why Choose Brewers Choice Home Brew Supplies?"
     "Frequently Asked Questions"
 
   Expected H2 order (from doc):
     "Stop Paying Bottle-Shop Prices, Start Brewing Brewery-Quality at Home"
     "Brewing Through Melbourne's Four Seasons, A Local Croydon Challenge"
-    "Your Local Home Brewing Experts Serving Croydon"  ← MISSING
+    "Your Local Home Brewing Experts Serving Croydon"  <- MISSING
     "Why Choose Brewers Choice Home Brew Supplies?"
     "Frequently Asked Questions"
 
@@ -205,7 +251,7 @@ Action needed: Developer to:
   (b) Change "Temperature Control That Actually Works" back to H3 (remove H2 instance)
   (c) Confirm page structure matches the approved document layout.
 
-ISSUE 6: H2 IMPLEMENTED AS H3 — CLAYTON DISTILLING PAGE
+ISSUE 7: H2 IMPLEMENTED AS H3 — CLAYTON DISTILLING PAGE
 URL: https://brewerschoice.net.au/home-distilling-kit-clayton/
 Page 24 in the approved document.
 
@@ -217,7 +263,7 @@ Action needed: Developer to change the heading level from H3 to H2.
 
 --- MINOR / CONFIRM WITH CLIENT ---
 
-ISSUE 7: WOOCOMMERCE CATEGORY NAME TYPO (SITE-WIDE)
+ISSUE 8: WOOCOMMERCE CATEGORY NAME TYPO (SITE-WIDE)
 Visible on all product category pages in the WooCommerce navigation block.
   Typo:    "Micro Brewry & Distillery"
   Should be: "Micro Brewery & Distillery"
@@ -254,10 +300,10 @@ SCHEMA MARKUP SUMMARY:
 All 26 pages have a valid @graph JSON-LD schema block containing Store and
 Organization entities (Yoast SEO / RankMath standard format). This is correct.
 
-Home page (Page 1) + service/location pages (Pages 2–4, 16–17, 19–22, 23, 25–26):
+Home page (Page 1) + service/location pages (Pages 2-4, 16-17, 19-22, 23, 25-26):
   FAQPage schema present — correct for pages with FAQ sections.
 
-Product category pages (Pages 5–12, 15):
+Product category pages (Pages 5-12, 15):
   BreadcrumbList schema present — standard for e-commerce category pages.
 
 Product page (Page 14 — /still-spirits-classic-turbo-8-yeast/):
@@ -265,7 +311,7 @@ Product page (Page 14 — /still-spirits-classic-turbo-8-yeast/):
   The page has FAQ headings in the content but no FAQPage JSON-LD. LOW priority
   opportunity to add FAQPage schema to this product page.
 
-ISSUE 8: NON-SELF-REFERENCING CANONICAL — TOP SHELF ESSENCE PAGE
+ISSUE 9: NON-SELF-REFERENCING CANONICAL — TOP SHELF ESSENCE PAGE
 URL: https://brewerschoice.net.au/product-category/spirit-making/flavouring-essences-chips/top-shelf-essence/
 
   Page is served at:
@@ -296,23 +342,24 @@ The canonical should be self-referencing.
 SUMMARY TABLE — ACTION ITEMS
 ================================================================================
 
-#  | Page / URL                                         | Issue                                             | Priority | Owner
----|----------------------------------------------------|----------------------------------------------------|----------|----------
-1  | /product-category/.../fresh-wort-kit-all-brand/   | H1 says "Fresh Wort Kit-All Brand" (WooCommerce label) | CRITICAL | Developer
-2  | /product-category/.../flavouring-.../top-shelf-essence/ | Canonical URL doesn't self-reference (extra path segment) | HIGH  | Developer
-3  | /home-brew-shop-croydon/                           | Missing H2 "Your Local Home Brewing Experts Serving Croydon" | HIGH | Developer
-4  | /home-brew-shop-croydon/                           | "Temperature Control That Actually Works" at wrong level (H2 instead of H3) + duplicated | HIGH | Developer
-5  | /product-category/.../copper-stills/               | H1 says "Copper Stills" — missing "Australia"      | HIGH     | Developer
-6  | /product-category/wine-making/oak-barrels/         | H1 says "Oak Barrels" — missing "Australia"        | HIGH     | Developer
-7  | /product-category/.../air-stills-pro/              | H1 says "Air Stills Pro" — should be "Air Still Pro" | HIGH   | Developer
-8  | /product-category/.../pure-distilling-stills/      | H1 says "Pure Distilling Stills" — missing ", Kits & Parts" | MEDIUM | Developer
-9  | /product-category/.../distilling-starter-kits/     | H1 says "Distilling Starter Kits" — should be singular "Kit" | MEDIUM | Developer
-10 | /product-category/.../turbo-500-stills/            | Typo: "very one" → "very own"                     | MEDIUM   | Developer
-11 | /product-category/.../turbo-500-stills/            | Typo: "palace an order" → "place an order"         | MEDIUM   | Developer
-12 | /product/still-spirits-classic-turbo-8-yeast/      | H1 word order: "Classic Turbo 8" → "Classic 8 Turbo" | MEDIUM | Developer
-13 | /product/still-spirits-classic-turbo-8-yeast/      | H2 typo: "SOurce" → "Source"                      | MEDIUM   | Developer
-14 | /home-distilling-kit-clayton/                      | H2 "Distilling Legally..." coded as H3 — fix to H2 | MEDIUM  | Developer
-15 | (All product/category pages, WooCommerce nav)      | WooCommerce category typo: "Micro Brewry" → "Micro Brewery" | LOW | Developer
+#   | Page / URL                                              | Issue                                                                    | Priority | Owner
+----|----------------------------------------------------------|--------------------------------------------------------------------------|----------|----------
+1   | /product-category/.../fresh-wort-kit-all-brand/         | H1 says "Fresh Wort Kit-All Brand" (WooCommerce label, not approved H1)  | CRITICAL | Developer
+2   | /product-category/.../flavouring-.../top-shelf-essence/ | Canonical URL is non-self-referencing (extra /flavouring-chips/ segment) | HIGH     | Developer
+3   | /home-brew-shop-croydon/                                | Missing H2 "Your Local Home Brewing Experts Serving Croydon"             | HIGH     | Developer
+4   | /home-brew-shop-croydon/                                | "Temperature Control That Actually Works" coded as H2 + duplicated as H3 | HIGH     | Developer
+5   | /product-category/.../copper-stills/                    | H1 "Copper Stills" — missing "Australia" geo-modifier                    | HIGH     | Developer
+6   | /product-category/wine-making/oak-barrels/              | H1 "Oak Barrels" — missing "Australia" geo-modifier                      | HIGH     | Developer
+7   | /product-category/.../air-stills-pro/                   | H1 "Air Stills Pro" — should be singular "Air Still Pro"                 | HIGH     | Developer
+8   | 7 product category pages (see Issue 2 above)            | FAQ and CTA sections in wrong order — CTA appears before FAQ             | MEDIUM   | Developer
+9   | /product-category/.../pure-distilling-stills/           | H1 "Pure Distilling Stills" — missing ", Kits & Parts"                   | MEDIUM   | Developer
+10  | /product-category/.../distilling-starter-kits/          | H1 "Distilling Starter Kits" — should be singular "Kit"                  | MEDIUM   | Developer
+11  | /product-category/.../turbo-500-stills/                 | Typo: "very one" should be "very own"                                    | MEDIUM   | Developer
+12  | /product-category/.../turbo-500-stills/                 | Typo: "palace an order" should be "place an order"                       | MEDIUM   | Developer
+13  | /product/still-spirits-classic-turbo-8-yeast/           | H1 word order wrong: "Classic Turbo 8" should be "Classic 8 Turbo"      | MEDIUM   | Developer
+14  | /product/still-spirits-classic-turbo-8-yeast/           | H2 typo: "SOurce" should be "Source"                                     | MEDIUM   | Developer
+15  | /home-distilling-kit-clayton/                           | H2 "Distilling Legally..." coded as H3 — needs to be H2                  | MEDIUM   | Developer
+16  | All product/category pages (WooCommerce nav block)      | Category name typo: "Micro Brewry" should be "Micro Brewery"             | LOW      | Developer
 
 Priority levels: CRITICAL / HIGH / MEDIUM / LOW
 Owners: Developer / SEO / Client
@@ -322,14 +369,24 @@ VERDICT
 ================================================================================
 
 The meta layer (titles, descriptions, OG tags) is solid — all 26 match exactly.
-The main risk area is the H1 on product category pages: WooCommerce is
-overriding the approved H1 with the internal category name on 6 of 10 product
-category pages. This is the most common WordPress/WooCommerce content
-implementation issue and is straightforward to fix with the right configuration.
+The main risk areas are:
 
-3 of the 15 action items are HIGH priority and involve structural heading
-errors (missing H2, wrong H1, broken canonical). Fix these first.
-The remaining 12 are MEDIUM/LOW and are editorial or cosmetic.
+1. WooCommerce H1 overrides — 6 product category pages show the internal
+   WooCommerce category label as the H1 instead of the approved SEO heading.
+   This is the most common WooCommerce implementation issue and is the highest
+   SEO priority to fix.
 
-Once the 6 WooCommerce H1s and the canonical URL are corrected, the site will
-be fully consistent with the approved document.
+2. FAQ/CTA section order — 7 product category pages have the closing sections
+   in the wrong order. Minor SEO impact but means the live content doesn't
+   match the approved document.
+
+3. Broken canonical (Top Shelf Essence) — needs to be corrected before the
+   page can be indexed correctly.
+
+Of the 16 action items: 1 is CRITICAL, 6 are HIGH, 8 are MEDIUM, 1 is LOW.
+Fix the CRITICAL and HIGH items first (items 1-7). Items 1 and 5-7 may all
+resolve through a single WooCommerce H1 configuration change if the developer
+decouples the category name from the page H1.
+
+Once items 1-7 are resolved, the site will be structurally consistent with
+the approved document. Items 8-16 can follow in the next pass.
