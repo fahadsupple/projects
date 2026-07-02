@@ -13,10 +13,11 @@
       "canonical_source": "dataforseo"
     },
     "analyst_addendum_2026_07_02": "Client directive 2026-07-02: focus Sydney & Melbourne only, Melbourne primary, drop Queensland. Removed 'pergola brisbane' and 'pergola kits brisbane' (pergola_qld_geo silo). Added 'folding arm awning sydney' (mirrors existing Melbourne pick, extends folding_arm_awning silo to Sydney) and 'retractable roof systems melbourne' (new retractable_roof silo -- matches Skyflex's own 'Retractable Roof Systems' service line and existing /product/delta-pro-retractable-roof/ page, which is live but untargeted by any head keyword -- same 'keyword-starved new-product page' pattern as the other 4 priority products). Volumes/KD verified live via DataForSEO Google Ads Search Volume + Labs Bulk Keyword Difficulty + SERP Organic Live Advanced on 2026-07-02 (not part of the original 2026-07-01 batch pipeline run). Rejected candidate: 'pergola builders melbourne/sydney' (260/mo, 210/mo) -- live SERP check showed 100% local installer/tradie intent (Mr Verandah, MBV, Totally Outdoors, hipages / Pergola Land, Urban Exteriors, Hi-Craft) which does not match Skyflex's product-retailer + DIY-kit business model.",
+    "analyst_addendum_2026_07_02_v2": "Second client directive relayed 2026-07-02: the 'australia' national qualifier on the 4 new-product keywords is WRONG per the client's location instruction -- they said 'focus Sydney & Melbourne ... main focus Melbourne', which rules out national-qualified primaries entirely, not just QLD expansion. Swapped: 'smart toilet australia'->'smart toilet melbourne' (880->50/mo), 'bidet toilet australia'->'bidet toilet melbourne' (390->40/mo, KD jumps 1->42 because the Melbourne SERP mixes in 2 local installer/plumber local-pack results not present on the bare-Australia SERP), 'outdoor tv australia'->'outdoor tv melbourne' (880->0/mo measured -- FLAGGED, no national or state keyword-planner tool shows ANY measurable monthly volume for this exact phrase; SERP is still winnable/retailer-dominated (outdoortv.com.au, Sylvox, Harvey Norman) but the keyword itself won't register in rank-tracking volume reports -- kept per client instruction but analyst should confirm with client this is acceptable given effective_keyword_reach drops materially), 'bbq pod australia'-> 'bbq pods melbourne' (390->30/mo, switched to plural because singular 'bbq pod melbourne' has 0 measured volume while plural has real volume -- Instagram/Future Shade's own social presence uses 'BBQPODSMELB' handle, confirming plural is the natural local phrasing). Net effect: combined primary volume for these 4 slots drops from 2,150/mo (australia-qualified) to 120/mo (melbourne-qualified) -- a genuine data trade-off from strict geo-consistency, flagged for the analyst/client, not silently absorbed.",
     "business": {},
     "reputation": {},
     "scoring": {
-      "total_scored": 71,
+      "total_scored": 75,
       "diy_filtered": 0,
       "weights": {
         "demand": 0.15,
@@ -74,12 +75,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.7643,
+      "opportunity_score": 0.7644,
       "dimensions": {
         "demand": 0.7794,
         "winnability": 0.816,
         "intent_fit": 0.3,
-        "commercial": 0.9836,
+        "commercial": 0.9844,
         "gap_value": 0.6,
         "serp_opp": 0.55,
         "effort_adjusted": 1.0,
@@ -132,12 +133,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.7508,
+      "opportunity_score": 0.7514,
       "dimensions": {
         "demand": 0.7794,
         "winnability": 0.82,
         "intent_fit": 0.3,
-        "commercial": 0.8361,
+        "commercial": 0.8438,
         "gap_value": 0.6,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
@@ -188,12 +189,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.7252,
+      "opportunity_score": 0.7255,
       "dimensions": {
         "demand": 0.6151,
         "winnability": 0.82,
         "intent_fit": 0.3,
-        "commercial": 0.918,
+        "commercial": 0.9219,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
@@ -301,12 +302,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6794,
+      "opportunity_score": 0.6805,
       "dimensions": {
         "demand": 0.6487,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.7213,
+        "commercial": 0.7344,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -357,12 +358,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "city_modifier",
-      "opportunity_score": 0.6771,
+      "opportunity_score": 0.6775,
       "dimensions": {
         "demand": 0.6159,
         "winnability": 0.758,
         "intent_fit": 0.3,
-        "commercial": 0.9016,
+        "commercial": 0.9062,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 0.7,
@@ -414,12 +415,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "city_modifier",
-      "opportunity_score": 0.6763,
+      "opportunity_score": 0.6765,
       "dimensions": {
         "demand": 0.5222,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.9508,
+        "commercial": 0.9531,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
@@ -472,12 +473,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "city_modifier",
-      "opportunity_score": 0.6721,
+      "opportunity_score": 0.6727,
       "dimensions": {
         "demand": 0.5306,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.8197,
+        "commercial": 0.8281,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -533,12 +534,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "city_modifier_analyst_added_2026-07-02",
-      "opportunity_score": 0.6613,
+      "opportunity_score": 0.6615,
       "dimensions": {
         "demand": 0.5222,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.9508,
+        "commercial": 0.9531,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
@@ -593,12 +594,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "dataforseo_keyword_suggestions_analyst_added_2026-07-02",
-      "opportunity_score": 0.6597,
+      "opportunity_score": 0.6607,
       "dimensions": {
         "demand": 0.4274,
         "winnability": 0.824,
         "intent_fit": 0.3,
-        "commercial": 0.7541,
+        "commercial": 0.7656,
         "gap_value": 0.6,
         "serp_opp": 0.15,
         "effort_adjusted": 1.0,
@@ -651,12 +652,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.6379,
+      "opportunity_score": 0.6383,
       "dimensions": {
         "demand": 0.768,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.8852,
+        "commercial": 0.8906,
         "gap_value": 0.0,
         "serp_opp": 0.55,
         "effort_adjusted": 0.7,
@@ -708,12 +709,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6342,
+      "opportunity_score": 0.6363,
       "dimensions": {
         "demand": 0.5379,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.4262,
+        "commercial": 0.4531,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
@@ -765,12 +766,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6195,
+      "opportunity_score": 0.6215,
       "dimensions": {
         "demand": 0.4138,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.4754,
+        "commercial": 0.5,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -821,12 +822,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6156,
+      "opportunity_score": 0.6162,
       "dimensions": {
         "demand": 0.32,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.8525,
+        "commercial": 0.8594,
         "gap_value": 0.6,
         "serp_opp": 0.0,
         "effort_adjusted": 1.0,
@@ -879,12 +880,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6129,
+      "opportunity_score": 0.6152,
       "dimensions": {
         "demand": 0.4138,
         "winnability": 0.828,
         "intent_fit": 0.3,
-        "commercial": 0.4098,
+        "commercial": 0.4375,
         "gap_value": 0.0,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -937,12 +938,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.6084,
+      "opportunity_score": 0.6092,
       "dimensions": {
         "demand": 0.8666,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.7869,
+        "commercial": 0.7969,
         "gap_value": 0.6,
         "serp_opp": 0.35,
         "effort_adjusted": 1.0,
@@ -995,12 +996,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.6072,
+      "opportunity_score": 0.6089,
       "dimensions": {
         "demand": 0.9559,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.541,
+        "commercial": 0.5625,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -1051,12 +1052,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "city_modifier",
-      "opportunity_score": 0.606,
+      "opportunity_score": 0.6063,
       "dimensions": {
         "demand": 0.4375,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.2623,
+        "commercial": 0.2656,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -1110,12 +1111,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5981,
+      "opportunity_score": 0.5996,
       "dimensions": {
         "demand": 0.737,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.5902,
+        "commercial": 0.6094,
         "gap_value": 0.6,
         "serp_opp": 0.7,
         "effort_adjusted": 1.0,
@@ -1168,12 +1169,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5946,
+      "opportunity_score": 0.5958,
       "dimensions": {
         "demand": 0.802,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.6721,
+        "commercial": 0.6875,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -1227,16 +1228,132 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5927,
+      "opportunity_score": 0.593,
       "dimensions": {
         "demand": 1.0,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.2459,
+        "commercial": 0.25,
         "gap_value": 0.6,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
         "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 50,
+        "average": 50,
+        "trend_yoy": "+35.7%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.38,
+        "dataforseo": 1.38
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "eands.com.au",
+        "smarttoiletaustralia.com.au",
+        "bandh.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.5925,
+      "dimensions": {
+        "demand": 0.4375,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.3438,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.65,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "diy pergola kits brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 40,
+        "trend_yoy": "-33.3%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.0,
+        "dataforseo": 2.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.592,
+      "dimensions": {
+        "demand": 0.3925,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.4219,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -1286,127 +1403,14 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5908,
+      "opportunity_score": 0.5919,
       "dimensions": {
         "demand": 0.7256,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.6885,
+        "commercial": 0.7031,
         "gap_value": 0.4,
         "serp_opp": 0.7,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.95,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "diy pergola kits brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 40,
-        "trend_yoy": "-33.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.0,
-        "dataforseo": 2.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5897,
-      "dimensions": {
-        "demand": 0.3925,
-        "winnability": 0.632,
-        "intent_fit": 0.3,
-        "commercial": 0.3934,
-        "gap_value": 0.6,
-        "serp_opp": 0.0,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.8,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "outdoor television",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+22.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.73,
-        "dataforseo": 2.73
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5865,
-      "dimensions": {
-        "demand": 0.8769,
-        "winnability": 0.1,
-        "intent_fit": 0.3,
-        "commercial": 0.5246,
-        "gap_value": 0.6,
-        "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
         "geography_fit": 1.0
@@ -1456,16 +1460,73 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.586,
+      "opportunity_score": 0.5885,
       "dimensions": {
         "demand": 0.2606,
         "winnability": 0.632,
         "intent_fit": 0.3,
-        "commercial": 0.3443,
+        "commercial": 0.375,
         "gap_value": 0.6,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
         "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor television",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+22.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.73,
+        "dataforseo": 2.73
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5883,
+      "dimensions": {
+        "demand": 0.8769,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.5469,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -1512,12 +1573,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.583,
+      "opportunity_score": 0.5831,
       "dimensions": {
         "demand": 0.7794,
         "winnability": 0.212,
         "intent_fit": 0.3,
-        "commercial": 0.9836,
+        "commercial": 0.9844,
         "gap_value": 0.0,
         "serp_opp": 0.3,
         "effort_adjusted": 1.0,
@@ -1570,12 +1631,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5809,
+      "opportunity_score": 0.5813,
       "dimensions": {
         "demand": 0.768,
         "winnability": 0.212,
         "intent_fit": 0.3,
-        "commercial": 0.8852,
+        "commercial": 0.8906,
         "gap_value": 0.0,
         "serp_opp": 0.55,
         "effort_adjusted": 1.0,
@@ -1629,12 +1690,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5778,
+      "opportunity_score": 0.5801,
       "dimensions": {
         "demand": 0.7153,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.377,
+        "commercial": 0.4062,
         "gap_value": 0.6,
         "serp_opp": 0.7,
         "effort_adjusted": 1.0,
@@ -1686,16 +1747,134 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "taxonomy",
-      "opportunity_score": 0.5776,
+      "opportunity_score": 0.5786,
       "dimensions": {
         "demand": 0.655,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.7377,
+        "commercial": 0.75,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet sydney",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 10,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.56,
+        "dataforseo": 1.56
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5772,
+      "dimensions": {
+        "demand": 0.2606,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.3594,
+        "gap_value": 0.6,
+        "serp_opp": 0.1,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bbq pods melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 30,
+        "average": 30,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-02"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.71,
+        "dataforseo": 0.71
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "futureshade.com.au",
+        "expressportables.com.au",
+        "outdoorlivinghq.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.5766,
+      "dimensions": {
+        "demand": 0.3732,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.1406,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -1759,35 +1938,35 @@
       "timeline": "quick_win"
     },
     {
-      "keyword": "smart toilet sydney",
+      "keyword": "electric awning",
       "type": "general",
       "suburb": "",
       "service": "",
       "tier": "C",
-      "silo": "smart_toilet",
+      "silo": "folding_arm_awning",
       "volume": {
         "dataforseo": 0,
         "google_ads": 0,
-        "average": 10,
-        "trend_yoy": "0%",
+        "average": 720,
+        "trend_yoy": "+1.1%",
         "cross_validation": "OK",
         "volume_source": "dfs_primary"
       },
       "difficulty": 0,
       "cpc": {
-        "average": 1.56,
-        "dataforseo": 1.56
+        "average": 2.82,
+        "dataforseo": 2.82
       },
       "intent": "informational",
       "gap_status": "MISSING_INFORMATIONAL",
       "gap_value_class": "competitor_gap",
       "serp_features": [
         "shopping",
-        "video"
+        "paa"
       ],
       "ai_overview": {
         "classification": "low_deflection",
-        "citation_opportunity": false
+        "citation_opportunity": true
       },
       "ai_overview_label": "low_or_none",
       "content_investment": "light",
@@ -1799,17 +1978,17 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier",
-      "opportunity_score": 0.5747,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5751,
       "dimensions": {
-        "demand": 0.2606,
-        "winnability": 0.632,
+        "demand": 0.7153,
+        "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.3279,
+        "commercial": 0.5938,
         "gap_value": 0.6,
-        "serp_opp": 0.1,
+        "serp_opp": 0.25,
         "effort_adjusted": 1.0,
-        "defensibility": 0.9,
+        "defensibility": 0.95,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -1857,69 +2036,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5736,
+      "opportunity_score": 0.5738,
       "dimensions": {
         "demand": 0.9222,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.2787,
-        "gap_value": 0.6,
-        "serp_opp": 0.25,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.95,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "electric awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+1.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.82,
-        "dataforseo": 2.82
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5735,
-      "dimensions": {
-        "demand": 0.7153,
-        "winnability": 0.1367,
-        "intent_fit": 0.3,
-        "commercial": 0.5738,
+        "commercial": 0.2812,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -1973,12 +2095,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5729,
+      "opportunity_score": 0.5737,
       "dimensions": {
         "demand": 0.8666,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.7869,
+        "commercial": 0.7969,
         "gap_value": 0.4,
         "serp_opp": 0.5,
         "effort_adjusted": 0.7,
@@ -2032,12 +2154,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5678,
+      "opportunity_score": 0.5697,
       "dimensions": {
         "demand": 0.6376,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.4918,
+        "commercial": 0.5156,
         "gap_value": 0.6,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
@@ -2090,12 +2212,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5674,
+      "opportunity_score": 0.5689,
       "dimensions": {
         "demand": 0.6151,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.623,
+        "commercial": 0.6406,
         "gap_value": 0.6,
         "serp_opp": 0.35,
         "effort_adjusted": 1.0,
@@ -2204,14 +2326,71 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5647,
+      "opportunity_score": 0.5654,
       "dimensions": {
         "demand": 0.5005,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.8033,
+        "commercial": 0.8125,
         "gap_value": 0.6,
         "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "waterproof retractable awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "+14.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.8,
+        "dataforseo": 2.8
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5622,
+      "dimensions": {
+        "demand": 0.6376,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.5781,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
         "geography_fit": 1.0
@@ -2263,71 +2442,14 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5607,
+      "opportunity_score": 0.5612,
       "dimensions": {
         "demand": 0.7474,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.1967,
+        "commercial": 0.2031,
         "gap_value": 0.6,
         "serp_opp": 0.5,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.95,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "waterproof retractable awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "+14.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.8,
-        "dataforseo": 2.8
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5606,
-      "dimensions": {
-        "demand": 0.6376,
-        "winnability": 0.1367,
-        "intent_fit": 0.3,
-        "commercial": 0.5574,
-        "gap_value": 0.6,
-        "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
         "geography_fit": 1.0
@@ -2377,12 +2499,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5558,
+      "opportunity_score": 0.5584,
       "dimensions": {
         "demand": 0.737,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.3115,
+        "commercial": 0.3438,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -2434,12 +2556,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5546,
+      "opportunity_score": 0.5567,
       "dimensions": {
         "demand": 0.6591,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.4426,
+        "commercial": 0.4688,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -2492,12 +2614,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5536,
+      "opportunity_score": 0.555,
       "dimensions": {
         "demand": 0.5475,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.6393,
+        "commercial": 0.6562,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -2550,12 +2672,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5534,
+      "opportunity_score": 0.5547,
       "dimensions": {
         "demand": 0.4375,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.6557,
+        "commercial": 0.6719,
         "gap_value": 0.6,
         "serp_opp": 0.55,
         "effort_adjusted": 1.0,
@@ -2608,12 +2730,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5516,
+      "opportunity_score": 0.553,
       "dimensions": {
         "demand": 0.6159,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.623,
+        "commercial": 0.6406,
         "gap_value": 0.4,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
@@ -2666,12 +2788,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "gsc_query",
-      "opportunity_score": 0.5505,
+      "opportunity_score": 0.5516,
       "dimensions": {
         "demand": 0.5482,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.7049,
+        "commercial": 0.7188,
         "gap_value": 0.4,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -2725,12 +2847,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5495,
+      "opportunity_score": 0.5501,
       "dimensions": {
         "demand": 0.6816,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.1803,
+        "commercial": 0.1875,
         "gap_value": 0.6,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
@@ -2782,16 +2904,74 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.545,
+      "opportunity_score": 0.5464,
       "dimensions": {
         "demand": 0.846,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.2951,
+        "commercial": 0.3125,
         "gap_value": 0.4,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet attachment",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1000,
+        "trend_yoy": "+45.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.73,
+        "dataforseo": 0.73
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5447,
+      "dimensions": {
+        "demand": 0.7613,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.1562,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -2841,72 +3021,14 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5443,
+      "opportunity_score": 0.5442,
       "dimensions": {
         "demand": 0.7256,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.0328,
+        "commercial": 0.0312,
         "gap_value": 0.6,
         "serp_opp": 0.5,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.95,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "bidet attachment",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1000,
-        "trend_yoy": "+45.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.73,
-        "dataforseo": 0.73
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.544,
-      "dimensions": {
-        "demand": 0.7613,
-        "winnability": 0.1,
-        "intent_fit": 0.3,
-        "commercial": 0.1475,
-        "gap_value": 0.6,
-        "serp_opp": 0.35,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
         "geography_fit": 1.0
@@ -2956,12 +3078,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5434,
+      "opportunity_score": 0.5431,
       "dimensions": {
         "demand": 0.9004,
         "winnability": 0.1,
         "intent_fit": 0.3,
-        "commercial": 0.0984,
+        "commercial": 0.0938,
         "gap_value": 0.6,
         "serp_opp": 0.15,
         "effort_adjusted": 1.0,
@@ -3013,12 +3135,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5383,
+      "opportunity_score": 0.5407,
       "dimensions": {
         "demand": 0.6273,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.3607,
+        "commercial": 0.3906,
         "gap_value": 0.6,
         "serp_opp": 0.15,
         "effort_adjusted": 1.0,
@@ -3071,13 +3193,70 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5357,
+      "opportunity_score": 0.5354,
       "dimensions": {
         "demand": 0.7256,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.082,
+        "commercial": 0.0781,
         "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+22.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.73,
+        "dataforseo": 2.73
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5345,
+      "dimensions": {
+        "demand": 0.8382,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.5469,
+        "gap_value": 0.0,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.95,
@@ -3128,12 +3307,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5335,
+      "opportunity_score": 0.5339,
       "dimensions": {
         "demand": 0.6822,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.2295,
+        "commercial": 0.2344,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -3186,73 +3365,16 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5329,
+      "opportunity_score": 0.5325,
       "dimensions": {
         "demand": 0.7395,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.1148,
+        "commercial": 0.1094,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
         "defensibility": 0.8,
-        "geography_fit": 1.0
-      },
-      "score_confidence": "MEDIUM",
-      "timeline": "quick_win"
-    },
-    {
-      "keyword": "outdoor tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+22.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.73,
-        "dataforseo": 2.73
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5327,
-      "dimensions": {
-        "demand": 0.8382,
-        "winnability": 0.1,
-        "intent_fit": 0.3,
-        "commercial": 0.5246,
-        "gap_value": 0.0,
-        "serp_opp": 0.25,
-        "effort_adjusted": 1.0,
-        "defensibility": 0.95,
         "geography_fit": 1.0
       },
       "score_confidence": "MEDIUM",
@@ -3359,12 +3481,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5263,
+      "opportunity_score": 0.527,
       "dimensions": {
         "demand": 0.5692,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.1639,
+        "commercial": 0.1719,
         "gap_value": 0.6,
         "serp_opp": 0.4,
         "effort_adjusted": 1.0,
@@ -3416,12 +3538,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "taxonomy",
-      "opportunity_score": 0.5258,
+      "opportunity_score": 0.5254,
       "dimensions": {
         "demand": 0.6591,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.082,
+        "commercial": 0.0781,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -3473,12 +3595,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5236,
+      "opportunity_score": 0.524,
       "dimensions": {
         "demand": 0.6159,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.2295,
+        "commercial": 0.2344,
         "gap_value": 0.6,
         "serp_opp": 0.25,
         "effort_adjusted": 1.0,
@@ -3530,12 +3652,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5215,
+      "opportunity_score": 0.521,
       "dimensions": {
         "demand": 0.6376,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.1311,
+        "commercial": 0.125,
         "gap_value": 0.6,
         "serp_opp": 0.15,
         "effort_adjusted": 1.0,
@@ -3644,12 +3766,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5171,
+      "opportunity_score": 0.5192,
       "dimensions": {
         "demand": 0.5005,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.459,
+        "commercial": 0.4844,
         "gap_value": 0.6,
         "serp_opp": 0.1,
         "effort_adjusted": 1.0,
@@ -3873,12 +3995,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.5043,
+      "opportunity_score": 0.5042,
       "dimensions": {
         "demand": 0.5005,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.0492,
+        "commercial": 0.0469,
         "gap_value": 0.6,
         "serp_opp": 0.5,
         "effort_adjusted": 1.0,
@@ -3945,6 +4067,66 @@
       "timeline": "quick_win"
     },
     {
+      "keyword": "outdoor tv melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "ZERO_MEASURED",
+        "volume_source": "google_ads_live_2026-07-02_no_data"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": null,
+        "dataforseo": null
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "outdoortv.com.au",
+        "sylvoxtv.com.au",
+        "harveynorman.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2_ZERO_VOLUME_FLAG",
+      "opportunity_score": 0.4969,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
       "keyword": "heated bidet",
       "type": "general",
       "suburb": "",
@@ -3987,12 +4169,12 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "google_ads_ideas",
-      "opportunity_score": 0.4883,
+      "opportunity_score": 0.4881,
       "dimensions": {
         "demand": 0.452,
         "winnability": 0.1367,
         "intent_fit": 0.3,
-        "commercial": 0.0328,
+        "commercial": 0.0312,
         "gap_value": 0.6,
         "serp_opp": 0.35,
         "effort_adjusted": 1.0,
@@ -4001,6 +4183,67 @@
       },
       "score_confidence": "MEDIUM",
       "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 40,
+        "average": 40,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-02"
+      },
+      "difficulty": 42,
+      "cpc": {
+        "average": 1.31,
+        "dataforseo": 1.31
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "thebidetshop.com.au",
+        "bidetaustralia.com.au",
+        "Bidet R Us Australia (local pack -- installer)"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.4628,
+      "dimensions": {
+        "demand": 0.4036,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.2969,
+        "gap_value": 0.6,
+        "serp_opp": 0.45,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "HIGH",
+      "timeline": "medium"
     },
     {
       "keyword": "4k outdoor tv",

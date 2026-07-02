@@ -12,7 +12,8 @@
       "dataforseo": 16,
       "canonical_source": "dataforseo"
     },
-    "analyst_addendum_2026_07_02": "Client directive 2026-07-02: focus Sydney & Melbourne only, Melbourne primary, drop Queensland. Removed 'pergola brisbane' and 'pergola kits brisbane' (pergola_qld_geo silo). Added 'folding arm awning sydney' (mirrors existing Melbourne pick, extends folding_arm_awning silo to Sydney) and 'retractable roof systems melbourne' (new retractable_roof silo -- matches Skyflex's own 'Retractable Roof Systems' service line and existing /product/delta-pro-retractable-roof/ page, which is live but untargeted by any head keyword -- same 'keyword-starved new-product page' pattern as the other 4 priority products). Volumes/KD verified live via DataForSEO Google Ads Search Volume + Labs Bulk Keyword Difficulty + SERP Organic Live Advanced on 2026-07-02 (not part of the original 2026-07-01 batch pipeline run). Rejected candidate: 'pergola builders melbourne/sydney' (260/mo, 210/mo) -- live SERP check showed 100% local installer/tradie intent (Mr Verandah, MBV, Totally Outdoors, hipages / Pergola Land, Urban Exteriors, Hi-Craft) which does not match Skyflex's product-retailer + DIY-kit business model."
+    "analyst_addendum_2026_07_02": "Client directive 2026-07-02: focus Sydney & Melbourne only, Melbourne primary, drop Queensland. Removed 'pergola brisbane' and 'pergola kits brisbane' (pergola_qld_geo silo). Added 'folding arm awning sydney' (mirrors existing Melbourne pick, extends folding_arm_awning silo to Sydney) and 'retractable roof systems melbourne' (new retractable_roof silo -- matches Skyflex's own 'Retractable Roof Systems' service line and existing /product/delta-pro-retractable-roof/ page, which is live but untargeted by any head keyword -- same 'keyword-starved new-product page' pattern as the other 4 priority products). Volumes/KD verified live via DataForSEO Google Ads Search Volume + Labs Bulk Keyword Difficulty + SERP Organic Live Advanced on 2026-07-02 (not part of the original 2026-07-01 batch pipeline run). Rejected candidate: 'pergola builders melbourne/sydney' (260/mo, 210/mo) -- live SERP check showed 100% local installer/tradie intent (Mr Verandah, MBV, Totally Outdoors, hipages / Pergola Land, Urban Exteriors, Hi-Craft) which does not match Skyflex's product-retailer + DIY-kit business model.",
+    "analyst_addendum_2026_07_02_v2": "Second client directive relayed 2026-07-02: the 'australia' national qualifier on the 4 new-product keywords is WRONG per the client's location instruction -- they said 'focus Sydney & Melbourne ... main focus Melbourne', which rules out national-qualified primaries entirely, not just QLD expansion. Swapped: 'smart toilet australia'->'smart toilet melbourne' (880->50/mo), 'bidet toilet australia'->'bidet toilet melbourne' (390->40/mo, KD jumps 1->42 because the Melbourne SERP mixes in 2 local installer/plumber local-pack results not present on the bare-Australia SERP), 'outdoor tv australia'->'outdoor tv melbourne' (880->0/mo measured -- FLAGGED, no national or state keyword-planner tool shows ANY measurable monthly volume for this exact phrase; SERP is still winnable/retailer-dominated (outdoortv.com.au, Sylvox, Harvey Norman) but the keyword itself won't register in rank-tracking volume reports -- kept per client instruction but analyst should confirm with client this is acceptable given effective_keyword_reach drops materially), 'bbq pod australia'-> 'bbq pods melbourne' (390->30/mo, switched to plural because singular 'bbq pod melbourne' has 0 measured volume while plural has real volume -- Instagram/Future Shade's own social presence uses 'BBQPODSMELB' handle, confirming plural is the natural local phrasing). Net effect: combined primary volume for these 4 slots drops from 2,150/mo (australia-qualified) to 120/mo (melbourne-qualified) -- a genuine data trade-off from strict geo-consistency, flagged for the analyst/client, not silently absorbed."
   },
   "candidates": [
     {
@@ -3104,6 +3105,192 @@
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
       "seed_source": "dataforseo_keyword_suggestions_analyst_added_2026-07-02"
+    },
+    {
+      "keyword": "smart toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 50,
+        "average": 50,
+        "trend_yoy": "+35.7%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.38,
+        "dataforseo": 1.38
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "eands.com.au",
+        "smarttoiletaustralia.com.au",
+        "bandh.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+    },
+    {
+      "keyword": "bidet toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 40,
+        "average": 40,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-02"
+      },
+      "difficulty": 42,
+      "cpc": {
+        "average": 1.31,
+        "dataforseo": 1.31
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "thebidetshop.com.au",
+        "bidetaustralia.com.au",
+        "Bidet R Us Australia (local pack -- installer)"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+    },
+    {
+      "keyword": "bbq pods melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 30,
+        "average": 30,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-02"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.71,
+        "dataforseo": 0.71
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "futureshade.com.au",
+        "expressportables.com.au",
+        "outdoorlivinghq.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+    },
+    {
+      "keyword": "outdoor tv melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "ZERO_MEASURED",
+        "volume_source": "google_ads_live_2026-07-02_no_data"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": null,
+        "dataforseo": null
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "outdoortv.com.au",
+        "sylvoxtv.com.au",
+        "harveynorman.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2_ZERO_VOLUME_FLAG"
     }
   ]
 }
