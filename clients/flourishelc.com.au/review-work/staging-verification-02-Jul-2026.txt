@@ -11,6 +11,9 @@ Source documents checked against live staging site:
      XML level (word/document.xml) to recover the full list of suggested deletions — see
      correction note below.
 
+Note: all page references below are full staging URLs (https://hardyd21.sg-host.com/...), not
+the live flourishelc.com.au domain. Nothing in this review was checked against the live site.
+
 CORRECTION NOTE: An earlier version of this review under-scoped Task 5. The first pass extracted
 text from the Approved.docx using python-docx's default paragraph.text property, which silently
 DROPS any text wrapped in Word's <w:ins>/<w:del> track-changes elements (they sit one level below
@@ -34,18 +37,45 @@ to all 14 pages in that silo.
 OAKVILLE SILO (14 pages) — ✅ PASS
 All 14 pages carry the correct Oakville block: phone 02 9627 2927, address 16 Harkness Rd
 Oakville NSW, Book a centre tour, Waitlist Form, Enquiry Form, Enrol Now, Find us on Facebook,
-Follow us on Instagram. Confirmed on all of: daycare-childcare-{oakville, box-hill, vineyard,
-gables, grantham-farm, riverstone, mulgrave}-nsw and preschool-{oakville, box-hill, vineyard,
-gables, grantham-farm, riverstone, mulgrave}-nsw.
+Follow us on Instagram. Confirmed on:
+  - https://hardyd21.sg-host.com/daycare-childcare-oakville-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-box-hill-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-gables-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-riverstone-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-mulgrave-nsw/
+  - https://hardyd21.sg-host.com/preschool-oakville-nsw/
+  - https://hardyd21.sg-host.com/preschool-box-hill-nsw/
+  - https://hardyd21.sg-host.com/preschool-vineyard-nsw/
+  - https://hardyd21.sg-host.com/preschool-gables-nsw/
+  - https://hardyd21.sg-host.com/preschool-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/preschool-riverstone-nsw/
+  - https://hardyd21.sg-host.com/preschool-mulgrave-nsw/
 
 BULL CREEK SILO (14 pages) — ⚠️ 1 BUG FOUND
 13 of 14 pages carry the correct Bull Creek block: phone 08 6234 8570, address 2 Bass Rd
 Bull Creek WA, Book a centre tour (mailto:bullcreek@flourishelc.com.au), Waitlist Form,
-Make an enquiry, Enrolment Form, Follow us on Facebook, Follow us on Instagram.
+Make an enquiry, Enrolment Form, Follow us on Facebook, Follow us on Instagram. Confirmed on:
+  - https://hardyd21.sg-host.com/daycare-childcare-bull-creek-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/ (SEE BUG BELOW)
+  - https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-rossmoyne-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-shelley-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-willetton-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-brentwood-wa/
+  - https://hardyd21.sg-host.com/kindergarten-bull-creek-wa/
+  - https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+  - https://hardyd21.sg-host.com/kindergarten-bateman-wa/
+  - https://hardyd21.sg-host.com/kindergarten-rossmoyne-wa/
+  - https://hardyd21.sg-host.com/kindergarten-shelley-wa/
+  - https://hardyd21.sg-host.com/kindergarten-willetton-wa/
+  - https://hardyd21.sg-host.com/kindergarten-brentwood-wa/
 
-BUG: /daycare-childcare-leeming-wa/ — the "Make an enquiry" icon has been replaced with a
-SECOND duplicate "Waitlist Form" icon (both linking to forms.owna.com.au/waitlist.aspx).
-The enquiry form link (forms.owna.com.au/enquiry.aspx) is missing entirely from this page.
+BUG: https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/ — the "Make an enquiry"
+icon has been replaced with a SECOND duplicate "Waitlist Form" icon (both linking to
+forms.owna.com.au/waitlist.aspx). The enquiry form link (forms.owna.com.au/enquiry.aspx)
+is missing entirely from this page.
 Action needed: Developer to fix the second icon module on this page so it links to
 forms.owna.com.au/enquiry.aspx and reads "Make an enquiry", matching every other page in
 the silo.
@@ -54,25 +84,28 @@ the silo.
 TASK 2 — SILO-RELEVANT IMAGES ADDED
 ================================================================================
 Requirement: Post relevant Oakville images on the 14 Oakville pages, relevant Bull Creek
-images on the 14 Bull Creek pages, sourced from each silo's master page.
+images on the 14 Bull Creek pages, sourced from each silo's master page
+(https://hardyd21.sg-host.com/flourish-early-learning-centre-oakville-nsw/ and
+https://hardyd21.sg-host.com/flourish-early-learning-bull-creek-wa/ respectively).
 
 OAKVILLE SILO — ✅ PASS
-Each of the 14 pages uses a distinct pair of real Oakville centre photos (e.g.
-Oakville-early-learning-centre-3 through 14, plus Oakville-front-building), rotated
-across pages so no two pages use an identical pair. Genuine variety, all sourced from
-the Oakville master page's media library.
+Each of the 14 Oakville pages listed under Task 1 above uses a distinct pair of real
+Oakville centre photos (e.g. Oakville-early-learning-centre-3 through 14, plus
+Oakville-front-building), rotated across pages so no two pages use an identical pair.
+Genuine variety, all sourced from the Oakville master page's media library.
 
 BULL CREEK SILO — ℹ️ NOTE (not a defect, but flagging for awareness)
-All 14 pages use the SAME single image (ChatGPT-Image-Mar-3-2026...png). This is not
-a developer error — the Bull Creek master page itself only contains one usable centre
-photo (the other image on that page, joy-1.jpg, is a parent testimonial headshot, not a
-centre photo). With only one source image available, reusing it across all 14 pages is
-the correct execution of the brief as written. Flagging so the client/Nick is aware —
-if more real Bull Creek centre photos exist, forwarding them would let the developer add
-the same variety Oakville has.
+All 14 Bull Creek pages listed under Task 1 above use the SAME single image
+(ChatGPT-Image-Mar-3-2026...png). This is not a developer error — the Bull Creek master
+page (https://hardyd21.sg-host.com/flourish-early-learning-bull-creek-wa/) itself only
+contains one usable centre photo (the other image on that page, joy-1.jpg, is a parent
+testimonial headshot, not a centre photo). With only one source image available, reusing
+it across all 14 pages is the correct execution of the brief as written. Flagging so the
+client/Nick is aware — if more real Bull Creek centre photos exist, forwarding them would
+let the developer add the same variety Oakville has.
 
 ================================================================================
-TASK 3 — CONTACT CTA + NEUTRAL IMAGES ON /areas-we-serve/
+TASK 3 — CONTACT CTA + NEUTRAL IMAGES ON https://hardyd21.sg-host.com/areas-we-serve/
 ================================================================================
 CTA — ✅ PASS
 All three centres' contact blocks are present and correctly separated: Oakville (02 9627
@@ -97,10 +130,11 @@ Scope re-checked across the FULL 37-page sitemap (not just the 2 pages the clien
 flagged), confirming no other page on the site carries this content.
 
 VISIBLE CONTENT — ✅ PASS on both flagged pages
-- /daycare-childcare-bateman-wa/ — the "Do you offer before and after school care?"
-  accordion item is gone from the visible FAQ (7 questions remain, correctly).
-- /areas-we-serve/ — the same accordion item is gone from the visible FAQ (6 questions
+- https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/ — the "Do you offer before
+  and after school care?" accordion item is gone from the visible FAQ (7 questions
   remain, correctly).
+- https://hardyd21.sg-host.com/areas-we-serve/ — the same accordion item is gone from
+  the visible FAQ (6 questions remain, correctly).
 No other page on the site (all 37 checked) contains this phrase in visible content.
 
 FAQ SCHEMA (JSON-LD) — ❌ NOT DONE on either page
@@ -114,7 +148,9 @@ Impact: The page's structured data no longer matches its visible content. This r
 Google Search Console structured-data mismatch flag, and Google could still surface the
 removed FAQ in a rich result even though it's not on the page.
 Action needed: Developer to delete the matching entry from the FAQPage JSON-LD block on
-both /daycare-childcare-bateman-wa/ and /areas-we-serve/.
+both:
+  - https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  - https://hardyd21.sg-host.com/areas-we-serve/
 
 (See Task 5 below — this same schema-lag defect turned out to be much more widespread
 than these 2 pages once the full Approved.docx corrections were checked properly.)
@@ -125,10 +161,28 @@ TASK 5 — COUNCIL / REGION REFERENCE CORRECTIONS (from Approved doc)
 CORRECTED SCOPE: The Approved.docx contains 37 distinct tracked-change blocks (75
 deletions, 20 insertions), still sitting as unaccepted Word suggestions in the file
 itself, spanning 20 pages across BOTH silos — not just Mulgrave. Full list of affected
-pages: daycare-childcare-{oakville, box-hill, vineyard, grantham-farm, riverstone,
-mulgrave}-nsw, preschool-{oakville, vineyard, gables, grantham-farm, riverstone,
-mulgrave}-nsw, daycare-childcare-{bull-creek, leeming, bateman, shelley}-wa,
-kindergarten-{bull-creek, leeming, rossmoyne, shelley, willetton}-wa.
+pages:
+  - https://hardyd21.sg-host.com/daycare-childcare-oakville-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-box-hill-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-riverstone-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-mulgrave-nsw/
+  - https://hardyd21.sg-host.com/preschool-oakville-nsw/
+  - https://hardyd21.sg-host.com/preschool-vineyard-nsw/
+  - https://hardyd21.sg-host.com/preschool-gables-nsw/
+  - https://hardyd21.sg-host.com/preschool-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/preschool-riverstone-nsw/
+  - https://hardyd21.sg-host.com/preschool-mulgrave-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-bull-creek-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  - https://hardyd21.sg-host.com/daycare-childcare-shelley-wa/
+  - https://hardyd21.sg-host.com/kindergarten-bull-creek-wa/
+  - https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+  - https://hardyd21.sg-host.com/kindergarten-rossmoyne-wa/
+  - https://hardyd21.sg-host.com/kindergarten-shelley-wa/
+  - https://hardyd21.sg-host.com/kindergarten-willetton-wa/
 
 Every one of the 37 flagged corrections was checked against the live staging page,
 split into VISIBLE body content vs FAQPage JSON-LD schema.
@@ -142,31 +196,41 @@ correctly removed or rewritten in the VISIBLE body text of every affected page. 
 a genuinely thorough piece of implementation work across two full silos — no visible
 misses found.
 
-(One unrelated, trivial miss: on /daycare-childcare-vineyard-nsw/ the doc also suggested
-changing "What sets our facility apart:" to "Here's what sets our facility apart:" —
-purely a phrasing tweak bundled into the same suggestion batch, not a council reference.
-Not implemented, but cosmetic only — flagging for completeness, not a priority fix.)
+(One unrelated, trivial miss: on https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/
+the doc also suggested changing "What sets our facility apart:" to "Here's what sets our
+facility apart:" — purely a phrasing tweak bundled into the same suggestion batch, not a
+council reference. Not implemented, but cosmetic only — flagging for completeness, not a
+priority fix.)
 
 FAQ SCHEMA (JSON-LD) — ❌ STALE on 10 of the 20 pages
 Same defect as Task 4, now confirmed systemic: wherever one of these council corrections
 touched FAQ accordion answer text, the visible accordion was updated correctly but the
 paired FAQPage JSON-LD script was not. Confirmed stale schema (old council/region wording
 still present in the structured data) on:
-  - /daycare-childcare-oakville-nsw/ — "council safety compliance" phrase
-  - /daycare-childcare-mulgrave-nsw/ — 3 "Hawkesbury" mentions
-  - /preschool-oakville-nsw/ — "exceed council requirements" phrase
-  - /preschool-gables-nsw/ — full sentence re: "The Hills Shire...Santa Sophia Catholic College"
-  - /daycare-childcare-bull-creek-wa/ — "exceeding City of Melville requirements" + "City of Melville child care"
-  - /daycare-childcare-leeming-wa/ — "City of Melville planning requirements" sentence
-  - /daycare-childcare-shelley-wa/ — an entire FAQ question ("What safety measures do you have in place?") plus its "City of Melville specifications" answer text
-  - /kindergarten-bull-creek-wa/ — "City of Melville's Child Care Premises" phrase
-  - /kindergarten-rossmoyne-wa/ — "City of Canning" mention
-  - /kindergarten-willetton-wa/ — "exceed City of Canning requirements..." sentence
+  - https://hardyd21.sg-host.com/daycare-childcare-oakville-nsw/ — "council safety compliance" phrase
+  - https://hardyd21.sg-host.com/daycare-childcare-mulgrave-nsw/ — 3 "Hawkesbury" mentions
+  - https://hardyd21.sg-host.com/preschool-oakville-nsw/ — "exceed council requirements" phrase
+  - https://hardyd21.sg-host.com/preschool-gables-nsw/ — full sentence re: "The Hills Shire...Santa Sophia Catholic College"
+  - https://hardyd21.sg-host.com/daycare-childcare-bull-creek-wa/ — "exceeding City of Melville requirements" + "City of Melville child care"
+  - https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/ — "City of Melville planning requirements" sentence
+  - https://hardyd21.sg-host.com/daycare-childcare-shelley-wa/ — an entire FAQ question ("What safety measures do you have in place?") plus its "City of Melville specifications" answer text
+  - https://hardyd21.sg-host.com/kindergarten-bull-creek-wa/ — "City of Melville's Child Care Premises" phrase
+  - https://hardyd21.sg-host.com/kindergarten-rossmoyne-wa/ — "City of Canning" mention
+  - https://hardyd21.sg-host.com/kindergarten-willetton-wa/ — "exceed City of Canning requirements..." sentence
 
 10 pages had corrections that did NOT touch an FAQ answer, and are fully clean on both
-visible content and schema: box-hill, vineyard, grantham-farm, riverstone (daycare),
-preschool-vineyard, preschool-grantham-farm, preschool-riverstone, preschool-mulgrave,
-bateman-wa (daycare), kindergarten-leeming-wa, kindergarten-shelley-wa.
+visible content and schema:
+  - https://hardyd21.sg-host.com/daycare-childcare-box-hill-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-riverstone-nsw/
+  - https://hardyd21.sg-host.com/preschool-vineyard-nsw/
+  - https://hardyd21.sg-host.com/preschool-grantham-farm-nsw/
+  - https://hardyd21.sg-host.com/preschool-riverstone-nsw/
+  - https://hardyd21.sg-host.com/preschool-mulgrave-nsw/
+  - https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  - https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+  - https://hardyd21.sg-host.com/kindergarten-shelley-wa/
 
 Action needed: Developer to update the FAQPage JSON-LD on the 10 pages listed above so
 the schema text matches the corrected visible FAQ answers (remove/rewrite the stale
@@ -178,34 +242,59 @@ standard checklist item for every future content edit on this site, and do a one
 full audit now to catch anything similar site-wide.
 
 Other pages checked for stray "council"/region mentions that turned out NOT to be
-issues: "Cancer Council WA's SunSmart guidelines" (Willetton) — an unrelated health
-charity name, correctly used regardless of location, not a local-government reference.
+issues: "Cancer Council WA's SunSmart guidelines" on
+https://hardyd21.sg-host.com/kindergarten-willetton-wa/ — an unrelated health charity
+name, correctly used regardless of location, not a local-government reference.
 
 ================================================================================
 SUMMARY — ACTION ITEMS FOR DEVELOPER
 ================================================================================
-Priority | URL                                            | Issue
----------|------------------------------------------------|-------------------------------
-HIGH     | /daycare-childcare-bateman-wa/                  | Delete "before and after school care" Q&A from FAQPage JSON-LD schema (visible content already correct)
-HIGH     | /areas-we-serve/                                | Delete "before and after school care" Q&A from FAQPage JSON-LD schema (visible content already correct)
-HIGH     | 10 pages (see Task 5 list above)                | Update FAQPage JSON-LD to remove stale council/region wording — visible content on all 10 is already correct, only schema needs fixing
-MEDIUM   | /daycare-childcare-leeming-wa/                   | Fix duplicated "Waitlist Form" icon — should be "Make an enquiry" linking to forms.owna.com.au/enquiry.aspx
-MEDIUM   | /areas-we-serve/                                | Swap Oakville-only images (og:image + 2 body photos) for neutral/multi-centre imagery
-LOW      | /daycare-childcare-vineyard-nsw/                | Cosmetic-only text tweak not applied: "What sets" → "Here's what sets our facility apart:" (not a council reference, low priority)
-INFO     | Bull Creek silo (14 pages)                       | All reuse the same single photo — acceptable given only 1 usable source image on the Bull Creek master page; more variety possible only if client supplies more Bull Creek photos
+
+[HIGH] https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  Delete "before and after school care" Q&A from FAQPage JSON-LD schema
+  (visible content already correct)
+
+[HIGH] https://hardyd21.sg-host.com/areas-we-serve/
+  Delete "before and after school care" Q&A from FAQPage JSON-LD schema
+  (visible content already correct)
+
+[HIGH] 10 pages — see full URL list under Task 5 "FAQ SCHEMA (JSON-LD) — STALE" above
+  Update FAQPage JSON-LD to remove stale council/region wording — visible
+  content on all 10 is already correct, only schema needs fixing
+
+[MEDIUM] https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/
+  Fix duplicated "Waitlist Form" icon — should be "Make an enquiry" linking
+  to forms.owna.com.au/enquiry.aspx
+
+[MEDIUM] https://hardyd21.sg-host.com/areas-we-serve/
+  Swap Oakville-only images (og:image + 2 body photos) for neutral/multi-centre imagery
+
+[LOW] https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/
+  Cosmetic-only text tweak not applied: "What sets" → "Here's what sets our
+  facility apart:" (not a council reference, low priority)
+
+[INFO] Bull Creek silo (14 pages — see full URL list under Task 1 above)
+  All reuse the same single photo — acceptable given only 1 usable source
+  image on the Bull Creek master page; more variety possible only if client
+  supplies more Bull Creek photos
 
 ================================================================================
 WHAT IS CONFIRMED WORKING
 ================================================================================
 - Contact/CTA icon block: 13/14 Bull Creek pages + all 14 Oakville pages ✅
+  (full URL lists under Task 1)
 - Silo images: all 14 Oakville pages ✅ (Bull Creek limited by source material, not a bug)
-- /areas-we-serve/ CTA block for all 3 centres ✅
-- "Before and after school care" FAQ removed from VISIBLE content on both required pages,
-  and confirmed absent from all other 37 pages on the site ✅
+- https://hardyd21.sg-host.com/areas-we-serve/ CTA block for all 3 centres ✅
+- "Before and after school care" FAQ removed from VISIBLE content on both required pages
+  (https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/ and
+  https://hardyd21.sg-host.com/areas-we-serve/), and confirmed absent from all other 37
+  pages on the site ✅
 - All 37 council/region reference corrections from the Approved doc implemented
   correctly in VISIBLE content across all 20 affected pages, spanning both silos — a
   thorough and accurate piece of content work ✅
-- Watanobbi pages untouched, as instructed (out of scope for this round) ✅
+- Watanobbi pages (https://hardyd21.sg-host.com/flourish-early-learning-centre-watanobbi-nsw/
+  and https://hardyd21.sg-host.com/watanobbi-special-offer/) untouched, as instructed
+  (out of scope for this round) ✅
 - Remaining gap is isolated entirely to FAQ JSON-LD schema not being updated alongside
   visible FAQ edits — a fixable, well-defined developer task, not a content accuracy
   problem
