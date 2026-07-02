@@ -1,0 +1,173 @@
+FLOURISH ELC — STAGING SITE VERIFICATION
+Staging URL: https://hardyd21.sg-host.com/
+Date: 2 July 2026
+Reviewed by: Claude Code
+Source documents checked against live staging site:
+  1. "Flourishelc.com.au (Adding CTAs & other requests from the client).docx" (5 tasks, agreed with Nick)
+  2. "flourishelc.com.au (Approved).docx" (master content doc — diffed against prior version
+     "council-mentions-removed.docx" to isolate the specific corrections in this round)
+
+Method: Downloaded live HTML for all 37 pages on the staging sitemap (28 silo pages across the
+Oakville NSW and Bull Creek WA silos, 2 silo master pages, areas-we-serve, homepage, and 6 other
+nav pages). Checked contact/CTA block presence, images, FAQ removals, and text corrections against
+both documents, plus schema (JSON-LD) vs visible content consistency.
+
+================================================================================
+TASK 1 — CONTACT/CTA ICON BLOCK ADDED TO 14 + 14 SILO PAGES
+================================================================================
+Requirement: The icon row (phone / address / book a centre tour / waitlist form /
+enquiry form / enrol now / Facebook / Instagram) from each silo's master page added
+to all 14 pages in that silo.
+
+OAKVILLE SILO (14 pages) — ✅ PASS
+All 14 pages carry the correct Oakville block: phone 02 9627 2927, address 16 Harkness Rd
+Oakville NSW, Book a centre tour, Waitlist Form, Enquiry Form, Enrol Now, Find us on Facebook,
+Follow us on Instagram. Confirmed on all of: daycare-childcare-{oakville, box-hill, vineyard,
+gables, grantham-farm, riverstone, mulgrave}-nsw and preschool-{oakville, box-hill, vineyard,
+gables, grantham-farm, riverstone, mulgrave}-nsw.
+
+BULL CREEK SILO (14 pages) — ⚠️ 1 BUG FOUND
+13 of 14 pages carry the correct Bull Creek block: phone 08 6234 8570, address 2 Bass Rd
+Bull Creek WA, Book a centre tour (mailto:bullcreek@flourishelc.com.au), Waitlist Form,
+Make an enquiry, Enrolment Form, Follow us on Facebook, Follow us on Instagram.
+
+BUG: /daycare-childcare-leeming-wa/ — the "Make an enquiry" icon has been replaced with a
+SECOND duplicate "Waitlist Form" icon (both linking to forms.owna.com.au/waitlist.aspx).
+The enquiry form link (forms.owna.com.au/enquiry.aspx) is missing entirely from this page.
+Action needed: Developer to fix the second icon module on this page so it links to
+forms.owna.com.au/enquiry.aspx and reads "Make an enquiry", matching every other page in
+the silo.
+
+================================================================================
+TASK 2 — SILO-RELEVANT IMAGES ADDED
+================================================================================
+Requirement: Post relevant Oakville images on the 14 Oakville pages, relevant Bull Creek
+images on the 14 Bull Creek pages, sourced from each silo's master page.
+
+OAKVILLE SILO — ✅ PASS
+Each of the 14 pages uses a distinct pair of real Oakville centre photos (e.g.
+Oakville-early-learning-centre-3 through 14, plus Oakville-front-building), rotated
+across pages so no two pages use an identical pair. Genuine variety, all sourced from
+the Oakville master page's media library.
+
+BULL CREEK SILO — ℹ️ NOTE (not a defect, but flagging for awareness)
+All 14 pages use the SAME single image (ChatGPT-Image-Mar-3-2026...png). This is not
+a developer error — the Bull Creek master page itself only contains one usable centre
+photo (the other image on that page, joy-1.jpg, is a parent testimonial headshot, not a
+centre photo). With only one source image available, reusing it across all 14 pages is
+the correct execution of the brief as written. Flagging so the client/Nick is aware —
+if more real Bull Creek centre photos exist, forwarding them would let the developer add
+the same variety Oakville has.
+
+================================================================================
+TASK 3 — CONTACT CTA + NEUTRAL IMAGES ON /areas-we-serve/
+================================================================================
+CTA — ✅ PASS
+All three centres' contact blocks are present and correctly separated: Oakville (02 9627
+2927 / 16 Harkness Rd), Watanobbi (02 4353 4455 / 2 The Grove) and Bull Creek (08 6234
+8570 / 2 Bass Rd), each with their own tour/enquiry/enrol/social links.
+
+IMAGES — ❌ NOT NEUTRAL
+The brief asked for "neutral images" on this page since it represents all 3 centres.
+Instead, the page's og:image, schema primaryImage, and both in-body photos are ALL
+Oakville-specific: Oakville-front-building and Oakville-early-learning-centre-9/3.
+There is no Bull Creek or Watanobbi imagery anywhere on the page. This makes the page
+look like it's only representing Oakville, which contradicts its purpose as the
+all-centres landing page.
+Action needed: Developer to swap at least one of the three photos (ideally the hero/
+og:image) for a neutral or multi-centre-representative image, or rotate in a Bull Creek
+photo alongside the Oakville ones.
+
+================================================================================
+TASK 4 — REMOVE "BEFORE AND AFTER SCHOOL CARE" REFERENCES
+================================================================================
+Scope re-checked across the FULL 37-page sitemap (not just the 2 pages the client
+flagged), confirming no other page on the site carries this content.
+
+VISIBLE CONTENT — ✅ PASS on both flagged pages
+- /daycare-childcare-bateman-wa/ — the "Do you offer before and after school care?"
+  accordion item is gone from the visible FAQ (7 questions remain, correctly).
+- /areas-we-serve/ — the same accordion item is gone from the visible FAQ (6 questions
+  remain, correctly).
+No other page on the site (all 37 checked) contains this phrase in visible content.
+
+FAQ SCHEMA (JSON-LD) — ❌ NOT DONE on either page
+On both pages, the FAQPage structured data script still contains the full, unedited
+"Do you offer before and after school care?" question and answer — word for word
+identical to what was removed from the visible accordion. This was explicitly called
+out as a required removal in the original audit brief (basc-removal-audit.md, 16 June
+2026), which specified both the visible accordion item AND the JSON-LD schema entry
+needed deleting. Only the visible half was done.
+Impact: The page's structured data no longer matches its visible content (schema says
+8/7 questions, page shows 7/6). This risks a Google Search Console "Unparsable
+structured data" / mismatch flag, and Google could still surface the removed FAQ in a
+rich result even though it's not on the page.
+Action needed: Developer to delete the matching entry from the FAQPage JSON-LD block on
+both /daycare-childcare-bateman-wa/ and /areas-we-serve/.
+
+BONUS FINDING (same defect class, unrelated to this round's brief): the same
+schema/visible mismatch also exists independently on two other pages —
+/daycare-childcare-shelley-wa/ (schema has an extra "What safety measures do you have in
+place?" question not in the visible accordion) and /preschool-oakville-nsw/ (schema has
+an extra "What qualifications do your educators have?" question not in the visible
+accordion). Worth a wider FAQ-schema audit across all pages while the developer is in
+there fixing the two above — this looks like a recurring pattern of editing the visible
+accordion without updating the paired JSON-LD script.
+
+================================================================================
+TASK 5 — COUNCIL / REGION REFERENCE CORRECTIONS (from Approved doc)
+================================================================================
+Diffing "flourishelc.com.au (Approved).docx" (2 Jul) against the previous
+"council-mentions-removed.docx" (22 Jun) isolated exactly 5 corrected lines, all on one
+page: /daycare-childcare-mulgrave-nsw/ — all "Hawkesbury" region references removed
+(e.g. "Hawkesbury families" → "families", "Hawkesbury region" → removed, "Hawkesbury
+community" → "community", and one full sentence about "Hawkesbury-Nepean Valley" flood
+risk deleted entirely).
+
+VISIBLE CONTENT — ✅ PASS
+Confirmed zero "Hawkesbury" mentions anywhere in the visible body content of
+/daycare-childcare-mulgrave-nsw/ — all 5 corrections implemented exactly as approved.
+
+FAQ SCHEMA (JSON-LD) — ❌ NOT DONE
+Same defect as Task 4: the FAQPage JSON-LD schema on this page still contains the OLD,
+uncorrected text with "Hawkesbury" in 3 places (in the FAQ answers for "What makes your
+childcare near Mulgrave different...", "How do you incorporate sustainability...", and
+"What qualifications do your educators have?"). The visible FAQ accordion text is
+correct — only the paired schema script is stale.
+Action needed: Developer to update the FAQPage JSON-LD on this page to match the
+corrected visible FAQ answers (remove "Hawkesbury" from all 3 schema answer strings).
+
+Other pages checked for stray "council"/region mentions (Oakville silo + Willetton):
+generic, non-specific phrases only ("council safety compliance", "council requirements",
+"Cancer Council WA's SunSmart guidelines") — none of these name a specific/wrong local
+government area, so none require action.
+
+================================================================================
+SUMMARY — ACTION ITEMS FOR DEVELOPER
+================================================================================
+Priority | URL                                          | Issue
+---------|----------------------------------------------|-------------------------------
+HIGH     | /daycare-childcare-bateman-wa/                | Delete "before and after school care" Q&A from FAQPage JSON-LD schema (visible content already correct)
+HIGH     | /areas-we-serve/                              | Delete "before and after school care" Q&A from FAQPage JSON-LD schema (visible content already correct)
+HIGH     | /daycare-childcare-mulgrave-nsw/               | Update FAQPage JSON-LD — remove 3 stale "Hawkesbury" mentions to match corrected visible FAQ text
+MEDIUM   | /daycare-childcare-leeming-wa/                 | Fix duplicated "Waitlist Form" icon — should be "Make an enquiry" linking to forms.owna.com.au/enquiry.aspx
+MEDIUM   | /areas-we-serve/                              | Swap Oakville-only images (og:image + 2 body photos) for neutral/multi-centre imagery
+LOW      | /daycare-childcare-shelley-wa/                 | FAQ schema has an extra question not in visible accordion — audit and sync
+LOW      | /preschool-oakville-nsw/                       | FAQ schema has an extra question not in visible accordion — audit and sync
+INFO     | Bull Creek silo (14 pages)                     | All reuse the same single photo — acceptable given only 1 usable source image on the Bull Creek master page; more variety possible only if client supplies more Bull Creek photos
+
+================================================================================
+WHAT IS CONFIRMED WORKING
+================================================================================
+- Contact/CTA icon block: 13/14 Bull Creek pages + all 14 Oakville pages ✅
+- Silo images: all 14 Oakville pages ✅ (Bull Creek limited by source material, not a bug)
+- /areas-we-serve/ CTA block for all 3 centres ✅
+- "Before and after school care" FAQ removed from VISIBLE content on both required pages,
+  and confirmed absent from all other 37 pages on the site ✅
+- All 5 "Hawkesbury" corrections from the Approved doc implemented in visible content on
+  the Mulgrave page ✅
+- Watanobbi pages untouched, as instructed (out of scope for this round) ✅
+
+================================================================================
+END OF REVIEW
+================================================================================
