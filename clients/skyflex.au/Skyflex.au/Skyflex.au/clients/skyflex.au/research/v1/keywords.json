@@ -1,0 +1,683 @@
+{
+  "metadata": {
+    "client": "",
+    "version": "v1",
+    "generated_at": "2026-07-01",
+    "package": {
+      "general": 10,
+      "location": 0
+    },
+    "total_candidates_analysed": 69,
+    "effective_keyword_reach": 5770,
+    "mode": "expansion",
+    "keyword_type": "general_only",
+    "client_domain_authority_dfs": 16,
+    "analyst_directive": "Client Q10: focus on 4 newly-added products (folding arm awning, BBQ pods, smart outdoor TV, U7 smartoilet) 'as well' \u2014 additive to the pergola core, no per-product split specified. Delivery brief: find quick wins through GSC. Analyst-approved split (2026-07-01): 6 new-product + 4 pergola-net-new (2 untracked GSC quick-wins + 2 QLD geo-expansion). Deduped against the 20 tracked pergola/louvre keywords.",
+    "strategic_narratives": [
+      {
+        "title": "New-product pages already rank but are keyword-starved",
+        "severity": "high",
+        "summary": "u7-smartoilet ranks GSC pos 5.95 and delta-commercial-folding-arm pos 5.47, yet both draw ~0 clicks \u2014 they rank invisibly because nothing targets the terms. 6 of 10 keywords are structured as existing-page-optimisation to convert these latent rankings into traffic fastest."
+      },
+      {
+        "title": "The real GSC quick-wins are untracked pergola terms",
+        "severity": "medium",
+        "summary": "The biggest striking-distance GSC opportunities are NOT in the tracked 20: pergola melbourne (5,038 impr, pos 16.6) and pergola sydney (2,154 impr, pos 9.3). Per the delivery brief, 2 slots capture these; 2 more open QLD (untapped)."
+      },
+      {
+        "title": "QLD demand is thin \u2014 'louvre roof' held in reserve",
+        "severity": "medium",
+        "summary": "Brisbane pergola volume tops out at pergola brisbane 390/mo (variants <=40). The 2 QLD slots are a strategic beachhead, not a traffic driver. If the analyst prefers volume, swap 'pergola kits brisbane' (40/mo) for the national on-brand 'louvre roof' (1,300/mo, score 0.707) held in reserve."
+      },
+      {
+        "title": "Two strategic bets need 6-12 months",
+        "severity": "low",
+        "summary": "bidet toilet (9,900/mo) and retractable awning (6,600/mo) are category umbrella terms \u2014 big prizes but, at DA 16 against category-focused incumbents, they are 6-12 month category-page builds, paired with the exact-match quick-wins (smart toilet, folding arm awning) for near-term ROI."
+      }
+    ],
+    "local_signal_directive": "NEW-PRODUCT PAGES: Skyflex is Melbourne-based (Epping showroom) but ships AU-wide, and geo-modified new-product terms are ~0/mo (outdoor tv melbourne 0, bbq pod melbourne 0, smart toilet melbourne 50) \u2014 so primaries are national heads. Capture the Melbourne edge WITHOUT wasting slots: (1) +melbourne/+australia variants as secondaries [added], (2) LocalBusiness schema + 'visit our Epping showroom' trust block per product page, (3) Melbourne mentions in copy \u2014 helps the bare term auto-localise for Melbourne searchers. PERGOLA pages are already geo-targeted (real geo demand: pergola melbourne/sydney 1,300/mo each).",
+    "geo_strategy_note": "Analyst decision 2026-07-01: ALL new-product primaries geo/national-qualified (winnable-first for DA 16 \u2014 client ranks for NONE of the bare heads: current_position None + ~0 GSC impr). Bare heads retained as aspirational secondaries on each page. This trades raw reach (24,840\u21925,770/mo) for rankable targets."
+  },
+  "general_keywords": [
+    {
+      "rank": 1,
+      "keyword": "smart toilet australia",
+      "silo": "smart_toilet",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.6343,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 880,
+        "ai_adjusted": 880,
+        "trend": "+6.9%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 1.36,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_3_6mo",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/product/u7-smartoilet/",
+      "action": "optimise_existing",
+      "content_type": "product page (optimise)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "880/mo national-qualified head. CORRECTION vs earlier draft: the client does NOT rank for the bare 'smart toilet' (2,400) \u2014 current_position None (not top-50), ~0 GSC impressions for the head (the u7-smartoilet page's GSC avg-position reflected long-tail/brand queries, not this keyword). At DA 16 with no foothold, the winnable target is 'smart toilet australia'. Phase 3c bare-term SERP is .com.au retailers (smarttoiletaustralia.com.au, tradelink.com.au, johnsonsuisse.com.au); the qualified SERP is less contested. U7 is a full integrated smart toilet + 'up to 8x cheaper' USP. Action: optimise /product/u7-smartoilet/ for 'smart toilet australia' + LocalBusiness/Epping-showroom trust; bare 'smart toilet' (2,400) is the aspirational secondary. Page-1 realistic 3-6 months.",
+      "secondaries": {
+        "keywords": [
+          "smart toilet",
+          "smart toilet seat",
+          "japanese smart toilet",
+          "smart toilet melbourne",
+          "electric bidet"
+        ],
+        "long_tail": [
+          "smart toilet",
+          "smart toilet seat",
+          "japanese smart toilet",
+          "smart toilet melbourne",
+          "electric bidet"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 880
+    },
+    {
+      "rank": 2,
+      "keyword": "bidet toilet australia",
+      "silo": "smart_toilet",
+      "service_tier": "A",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 390,
+        "ai_adjusted": 390,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "google_ads"
+      },
+      "difficulty": 1,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 1.03,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_4_6mo",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/smart-toilets/",
+      "action": "create_new",
+      "content_type": "category page (new)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "390/mo. The bare 'bidet toilet' (9,900) is owned by dedicated AU bidet specialists (bidetwarehouse.com.au, bidetsonline.com.au, thebidetshop.com.au) \u2014 not winnable for a DA-16 new entrant inside 12 months, so target the qualified 'bidet toilet australia'. Skyflex's U7 Smartoilet is an integrated bidet toilet; European design + 8x-cheaper USPs differentiate. Action: build a /smart-toilets/ category page for the qualified term + FAQ from the 4 PAA; bare 'bidet toilet' (9,900) is the long-term aspirational secondary. Page-1 for the qualified term realistic 4-6 months.",
+      "secondaries": {
+        "keywords": [
+          "bidet toilet",
+          "bidet toilet seat",
+          "bidet attachment",
+          "toilet with built in bidet"
+        ],
+        "long_tail": [
+          "bidet toilet",
+          "bidet toilet seat",
+          "bidet attachment",
+          "toilet with built in bidet"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 390
+    },
+    {
+      "rank": 3,
+      "keyword": "folding arm awning melbourne",
+      "silo": "folding_arm_awning",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.6555,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 170,
+        "ai_adjusted": 170,
+        "trend": "+24.4%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 3.8,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_3_5mo",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/product/delta-commercial-folding-arm/",
+      "action": "optimise_existing",
+      "content_type": "product page (optimise)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "170/mo local head. CORRECTION: the client does NOT rank for the bare 'folding arm awning' (1,600) \u2014 current_position None, ~0 GSC impressions for the head (the delta-commercial-folding-arm page's avg-position was long-tail/brand, not this keyword). Given the Melbourne base + Epping showroom, the local term (MEDIUM competition vs HIGH on the bare) is the winnable entry. Phase 3c bare-term SERP is .com.au awning retailers (halfpriceblinds.com.au, luxaflex.com.au, franklyn.net.au). European-designed, customisable, 8x-cheaper Delta Commercial range + local showroom is the wedge. Action: optimise /product/delta-commercial-folding-arm/ for the Melbourne term + LocalBusiness schema; bare 'folding arm awning' (1,600) is the aspirational secondary. Local page-1 realistic 3-5 months.",
+      "secondaries": {
+        "keywords": [
+          "folding arm awning",
+          "electric awning",
+          "retractable patio awning",
+          "motorised awning"
+        ],
+        "long_tail": [
+          "folding arm awning",
+          "electric awning",
+          "retractable patio awning",
+          "motorised awning"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 170
+    },
+    {
+      "rank": 4,
+      "keyword": "retractable awning melbourne",
+      "silo": "folding_arm_awning",
+      "service_tier": "B",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6241,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 320,
+        "ai_adjusted": 320,
+        "trend": "-12.3%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 2.77,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_4_6mo",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/retractable-awnings/",
+      "action": "create_new",
+      "content_type": "category page (new)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "320/mo local head. The bare 'retractable awning' (6,600) SERP is luxiliving.com.au (a Phase 3b competitor), budgetawnings.com.au, helioscreen.com.au \u2014 a category front too steep for DA 16 short-term, so target 'retractable awning melbourne'. Folding-arm awnings are the premium type of retractable awning; Delta Commercial range + Melbourne showroom differentiates. Action: build a /retractable-awnings/ page with a Melbourne focus + LocalBusiness signals; bare 'retractable awning' (6,600) is the aspirational secondary. Local page-1 realistic 4-6 months.",
+      "secondaries": {
+        "keywords": [
+          "retractable awning",
+          "electric awning",
+          "waterproof retractable awning",
+          "motorized retractable awning",
+          "awning for patio"
+        ],
+        "long_tail": [
+          "retractable awning",
+          "electric awning",
+          "waterproof retractable awning",
+          "motorized retractable awning",
+          "awning for patio"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 320
+    },
+    {
+      "rank": 5,
+      "keyword": "outdoor tv australia",
+      "silo": "outdoor_tv",
+      "service_tier": "B",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.6636,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 590,
+        "ai_adjusted": 590,
+        "trend": "+1.4%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 2.73,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_4_6mo",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/product/skyflex-4k-android-smart-outdoor-tv/",
+      "action": "optimise_existing",
+      "content_type": "product + category",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "590/mo national-qualified head \u2014 the winnable entry into outdoor TV for a DA-16 own-brand, chosen over bare 'outdoor tv' (2,900) on purpose. Phase 3c shows the bare-term SERP is Harvey Norman + Sylvox (brand) + an AI Overview \u2014 a 12-month climb at DA 16; the qualified term and long-tail 'weatherproof outdoor tv' (secondaries) sit on less retailer-locked .com.au SERPs. Skyflex's 4K Android Smart Outdoor TV is weatherproof/full-sun and own-brand ('up to 8x cheaper' USP) \u2014 the wedge against Harvey Norman's Samsung/Sylvox stock. Action: optimise /product/skyflex-4k-android-smart-outdoor-tv/ + a /outdoor-tvs/ category with a weatherproof buying guide, LocalBusiness + 'visit our Epping showroom' trust signals, and the 4 PAA; the bare 'outdoor tv' (2,900) is the aspirational secondary the page grows into as authority builds. Page-1 for the qualified term realistic in 4-6 months.",
+      "secondaries": {
+        "keywords": [
+          "outdoor tv",
+          "weatherproof outdoor tv",
+          "outdoor television",
+          "outdoor tv melbourne",
+          "4k outdoor tv"
+        ],
+        "long_tail": [
+          "outdoor tv",
+          "weatherproof outdoor tv",
+          "outdoor television",
+          "outdoor tv melbourne",
+          "4k outdoor tv"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 590
+    },
+    {
+      "rank": 6,
+      "keyword": "bbq pod australia",
+      "silo": "bbq_pod",
+      "service_tier": "C",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5965,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 390,
+        "ai_adjusted": 390,
+        "trend": "+104.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 0.55,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "high",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/product/skyflex-bbq-pods/",
+      "action": "optimise_existing",
+      "content_type": "product page (optimise)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "390/mo national-qualified. bbq pod (720 bare) is an emerging term (+268% YoY); the 'australia' qualifier is a cleaner-intent national target. Phase 3c SERP is fragmented .com.au outdoor retailers (expressportables.com.au, outdoorlivinghq.com.au) \u2014 no PAA, no dominant player, a low-competition land-grab either way. Own-brand enclosed BBQ Pods + European design suit the premium alfresco buyer. Action: optimise /product/skyflex-bbq-pods/ for 'bbq pod australia' + support with 'outdoor bbq area'/'bbq shelter' (secondaries); bare 'bbq pod' is a secondary. Rising term, high defensibility.",
+      "secondaries": {
+        "keywords": [
+          "bbq pod",
+          "bbq shelter",
+          "outdoor bbq area",
+          "alfresco bbq",
+          "outdoor kitchen pod"
+        ],
+        "long_tail": [
+          "bbq pod",
+          "bbq shelter",
+          "outdoor bbq area",
+          "alfresco bbq",
+          "outdoor kitchen pod"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "search_volume": 390
+    },
+    {
+      "rank": 7,
+      "keyword": "pergola sydney",
+      "silo": "pergola_quickwins",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.7226,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1300,
+        "ai_adjusted": 1300,
+        "trend": "-8.6%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 8,
+      "winnability": 0.5,
+      "current_position": 5,
+      "cpc": 10.36,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/louvred-pergolas-sydney/",
+      "action": "optimise_existing",
+      "content_type": "location page (optimise)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "A CONFIRMED GSC quick win NOT in the tracked 20: 1,300/mo, GSC pos 9.3 on 2,154 impressions/90d, and /louvred-pergolas-sydney/ already ranks (74 clicks/90d). Phase 3c SERP is local Sydney pergola specialists (pergolaland.com.au, sydneypergolaservices.com.au, pergolux.au) with a local pack \u2014 but Skyflex already sits page 1, so this is an optimisation push, not a build. The European-designed motorised louvred range + Epping showroom credibility differentiates from local installers. Action: strengthen the existing Sydney page (title/H1, internal links from the pergola cluster, 4 PAA as FAQ) to lift pos 9 to top-5. Exactly the GSC quick win the brief asked for, and additive to the tracked 20.",
+      "secondaries": {
+        "keywords": [
+          "pergolas sydney",
+          "louvre pergola sydney",
+          "custom pergola sydney",
+          "motorised pergola sydney"
+        ],
+        "long_tail": [
+          "pergolas sydney",
+          "louvre pergola sydney",
+          "custom pergola sydney",
+          "motorised pergola sydney"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 8,
+      "keyword": "pergola melbourne",
+      "silo": "pergola_quickwins",
+      "service_tier": "A",
+      "track": "quick_wins",
+      "opportunity_score": 0.6024,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1300,
+        "ai_adjusted": 1300,
+        "trend": "-12.1%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": 12,
+      "cpc": 6.51,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_3_5mo",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/outdoor-pergolas/",
+      "action": "optimise_existing",
+      "content_type": "location page (optimise)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "The single biggest untapped impression prize: GSC pos 16.6 on 5,038 impressions/90d (the 'Louvred Pergolas Melbourne' homepage + /outdoor-pergolas/ rank here) \u2014 NOT in the tracked 20. At pos 16.6 it is page-2, just outside the strict quick-win band, but 5,038 impressions means a lift to page 1 unlocks major traffic. Phase 3c SERP is value pergola retailers (affordablepergolas.com.au, pergolux.au, cosydeals.com.au) + local pack \u2014 beatable with Skyflex's premium European louvred positioning and Epping showroom E-E-A-T that 'affordable/cosy deals' players cannot match. Action: give Melbourne a dedicated pergola landing page (the homepage currently double-duties) with the louvred range, price table and PAA FAQ to move pos 16 to page 1 over 3-5 months. Highest-impression lever in the set.",
+      "secondaries": {
+        "keywords": [
+          "pergolas melbourne",
+          "louvre pergola melbourne",
+          "louvre roof melbourne",
+          "aluminium pergola"
+        ],
+        "long_tail": [
+          "pergolas melbourne",
+          "louvre pergola melbourne",
+          "louvre roof melbourne",
+          "aluminium pergola"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 9,
+      "keyword": "pergola brisbane",
+      "silo": "pergola_qld_geo",
+      "service_tier": "B",
+      "track": "geo_expansion",
+      "opportunity_score": 0.6648,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 390,
+        "ai_adjusted": 390,
+        "trend": "+0.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 4.39,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_3_5mo",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/pergolas-brisbane/",
+      "action": "create_new",
+      "content_type": "location page (new)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "QLD geo-expansion of a proven template. 390/mo \u2014 modest (QLD demand is genuinely thinner than Melb/Syd, flagged in strategic_narratives), but the client lists Queensland as a target area (Q11) and has ZERO current QLD presence (no GSC impressions). Phase 3c SERP is local Brisbane specialists (pergolasbrisbane.com.au, apollopatios.com.au) + luxiliving.com.au (a Phase 3b competitor) \u2014 no client footprint to defend, pure greenfield. Skyflex already ranks pos 7-16 for pergola terms in Melb/Syd, proving the louvred-pergola content template works; replicating it for Brisbane (with national DIY-kit shipping + installer network) plants the QLD flag. Action: create a /pergolas-brisbane/ landing page mirroring the Sydney template. Low volume, low competition, net-new \u2014 a strategic beachhead, not a traffic driver.",
+      "secondaries": {
+        "keywords": [
+          "louvred pergola brisbane",
+          "aluminium pergola brisbane",
+          "gazebos brisbane",
+          "louvre roof brisbane"
+        ],
+        "long_tail": [
+          "louvred pergola brisbane",
+          "aluminium pergola brisbane",
+          "gazebos brisbane",
+          "louvre roof brisbane"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 10,
+      "keyword": "pergola kits brisbane",
+      "silo": "pergola_qld_geo",
+      "service_tier": "C",
+      "track": "geo_expansion",
+      "opportunity_score": 0.5997,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 40,
+        "ai_adjusted": 40,
+        "trend": "+180.0%",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 2.58,
+      "intent": "transactional",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "near_term_3_5mo",
+      "defensibility": "medium",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "target_url": "/pergola-kits/",
+      "action": "optimise_existing",
+      "content_type": "product/category (extend)",
+      "content_investment": "low",
+      "gbp_tag": "organic-only",
+      "reasoning": "The DIY-kit angle of the QLD play. 40/mo \u2014 low volume (honestly flagged), currently GSC pos 49 on 28 impressions, effectively unranked. But Skyflex's core model IS nationally-shipped DIY pergola kits, so a Brisbane kit-buyer searching this can actually convert (unlike a fixed-install competitor). Phase 3c SERP is kit retailers (smartkits.com.au, gardenenvi.com, modaprax.com.au) \u2014 .com.au product sellers, Shopping present, no local-install lock \u2014 precisely where Skyflex's shippable kit + 'up to 8x cheaper' pricing wins. Action: extend the /pergola-kits/ page with a Brisbane/QLD shipping section rather than a heavy new build. Lowest-volume pick, justified only as the DIY-kit complement to 'pergola brisbane'; the analyst may prefer to swap this slot for the national 'louvre roof' (1,300/mo) held in reserve.",
+      "secondaries": {
+        "keywords": [
+          "diy pergola kits brisbane",
+          "louvred pergola brisbane",
+          "aluminium pergola brisbane"
+        ],
+        "long_tail": [
+          "diy pergola kits brisbane",
+          "louvred pergola brisbane",
+          "aluminium pergola brisbane"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    }
+  ],
+  "location_keywords": [],
+  "silos": [
+    {
+      "silo_id": "smart_toilet",
+      "name": "Smart Toilet (U7 Smartoilet)",
+      "pillar_keyword": "smart toilet australia",
+      "content_keywords": [
+        "smart toilet australia",
+        "bidet toilet australia"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "folding_arm_awning",
+      "name": "Folding Arm Awning (Delta Commercial)",
+      "pillar_keyword": "folding arm awning melbourne",
+      "content_keywords": [
+        "folding arm awning melbourne",
+        "retractable awning melbourne"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "outdoor_tv",
+      "name": "Outdoor TV (Skyflex 4K)",
+      "pillar_keyword": "outdoor tv australia",
+      "content_keywords": [
+        "outdoor tv australia"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "bbq_pod",
+      "name": "BBQ Pod (Skyflex)",
+      "pillar_keyword": "bbq pod australia",
+      "content_keywords": [
+        "bbq pod australia"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "pergola_quickwins",
+      "name": "Pergola GSC quick-wins (untracked)",
+      "pillar_keyword": "pergola melbourne",
+      "content_keywords": [
+        "pergola sydney",
+        "pergola melbourne"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "pergola_qld_geo",
+      "name": "Pergola QLD geo-expansion",
+      "pillar_keyword": "pergola brisbane",
+      "content_keywords": [
+        "pergola brisbane",
+        "pergola kits brisbane"
+      ],
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    }
+  ],
+  "excluded_notable": []
+}

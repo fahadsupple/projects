@@ -1,0 +1,541 @@
+{
+  "candidate_count": 69,
+  "review_vocabulary": [
+    {
+      "phrase": "awesome job",
+      "source": "twinkleclean.com.au/about-us"
+    },
+    {
+      "phrase": "came early and completed on time",
+      "source": "twinkleclean.com.au/about-us"
+    },
+    {
+      "phrase": "rooms look super clean",
+      "source": "twinkleclean.com.au/about-us"
+    },
+    {
+      "phrase": "great service good value for money",
+      "source": "twinkleclean.com.au/about-us"
+    },
+    {
+      "phrase": "cleaners work with passion and dedication",
+      "source": "twinkleclean.com.au"
+    },
+    {
+      "phrase": "professional company very happy to recommend",
+      "source": "oneflare twinkle-clean"
+    },
+    {
+      "phrase": "amazingly thorough and prompt",
+      "source": "oneflare twinkle-clean"
+    },
+    {
+      "phrase": "on time and the best i've ever seen",
+      "source": "oneflare twinkle-clean"
+    },
+    {
+      "phrase": "100% at her job",
+      "source": "oneflare twinkle-clean"
+    },
+    {
+      "phrase": "very picky customer satisfied",
+      "source": "oneflare twinkle-clean"
+    }
+  ],
+  "candidates": [
+    {
+      "keyword": "commercial cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning services",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaners",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning company",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning companies",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning services",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaners",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning company",
+      "silo_id": "commercial_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "retail cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "medical centre cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "medical cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "gym cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "childcare cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "warehouse cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "strata cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "after builders cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial carpet cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "restaurant cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "school cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "factory cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "vertical_secondary",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning services melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning services melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaners melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning company melbourne",
+      "silo_id": "commercial_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning cost",
+      "silo_id": "commercial_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning prices",
+      "silo_id": "commercial_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning quote",
+      "silo_id": "commercial_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office cleaning cost",
+      "silo_id": "commercial_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning prices",
+      "silo_id": "commercial_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "affordable commercial cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "best commercial cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "professional office cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "reliable commercial cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning contractors",
+      "silo_id": "commercial_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "end of lease office cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "after builders commercial clean",
+      "silo_id": "commercial_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "gym deep cleaning",
+      "silo_id": "commercial_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning services",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaners",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet steam cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "steam cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet dry cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet deep cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "office carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "service_taxonomy",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning melbourne",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet steam cleaning melbourne",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "steam cleaning melbourne",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial carpet cleaning melbourne",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning services melbourne",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "city_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning cost",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning prices",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet steam cleaning price",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet cleaning quote",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "cheap carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "cost_pricing",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "best carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "professional carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "same day carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "intent_modifier",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet stain removal",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "smelly carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "wet carpet drying",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "carpet mould removal",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "end of lease carpet cleaning",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "problem_symptom",
+      "candidate_type": "general",
+      "suburb": null
+    },
+    {
+      "keyword": "commercial cleaning dandenong",
+      "silo_id": "commercial_cleaning",
+      "source": "grid_template",
+      "candidate_type": "location",
+      "suburb": "Dandenong"
+    },
+    {
+      "keyword": "carpet cleaning dandenong",
+      "silo_id": "carpet_steam_cleaning",
+      "source": "grid_template",
+      "candidate_type": "location",
+      "suburb": "Dandenong"
+    }
+  ],
+  "metadata": {
+    "phase": "1_seed_expansion",
+    "generated_by": "kwr:run inline (Phase 1 agent misfired 0-tool-uses; re-run inline)",
+    "silos_scope": [
+      "commercial_cleaning",
+      "carpet_steam_cleaning"
+    ],
+    "excluded": "near-me (include_near_me=false), out-of-scope services (domestic, end-of-tenancy, regular, tile, upholstery, mattress) per allocation.json",
+    "volume_sources": "Google Ads keyword ideas (AU, country_id=2036); Brave review mining (client + Oneflare)",
+    "note": "candidate_type=general head/modifier seeds; Phase 2 emits the location suburb-grid candidates (pillar x approved suburb)."
+  }
+}

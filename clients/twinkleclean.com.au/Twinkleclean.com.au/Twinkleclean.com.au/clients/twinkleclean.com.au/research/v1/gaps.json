@@ -1,0 +1,966 @@
+{
+  "client": "twinkleclean.com.au",
+  "generated_at_utc": "2026-07-01T04:41:15.712959+00:00",
+  "data_sources": [
+    "site_crawl:robots",
+    "volume:metrics.json"
+  ],
+  "site_inventory": [
+    {
+      "url": "https://www.twinkleclean.com.au/",
+      "title": "Home - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": null,
+      "word_count": 911
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/faqs/",
+      "title": "FAQ - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "FAQs",
+      "word_count": 382
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/contact/",
+      "title": "Contact - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "Contact Us",
+      "word_count": 127
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/about-us/",
+      "title": "About Us - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "About us",
+      "word_count": 390
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/our-services/",
+      "title": "Our Services - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "Our Services",
+      "word_count": 104
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/end-of-tenancy-cleaning/",
+      "title": "End of Tenancy Cleaning - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "End of Tenancy Cleaning",
+      "word_count": 291
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/domestic-cleaning/",
+      "title": "Domestic Cleaning - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "Domestic Cleaning",
+      "word_count": 676
+    },
+    {
+      "url": "https://www.twinkleclean.com.au/commercial-cleaning/",
+      "title": "Commercial Cleaning - Commercial Cleaning Services | Office Cleaning in Melbourne",
+      "h1": "Commercial Cleaning",
+      "word_count": 610
+    }
+  ],
+  "candidate_gaps": [
+    {
+      "keyword": "commercial cleaning",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/commercial-cleaning/",
+      "volume": 4400
+    },
+    {
+      "keyword": "commercial cleaning services",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 1600
+    },
+    {
+      "keyword": "commercial cleaners",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 4400
+    },
+    {
+      "keyword": "commercial cleaning company",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 390
+    },
+    {
+      "keyword": "commercial cleaning companies",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 390
+    },
+    {
+      "keyword": "office cleaning",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 2900
+    },
+    {
+      "keyword": "office cleaning services",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 1300
+    },
+    {
+      "keyword": "office cleaners",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 2900
+    },
+    {
+      "keyword": "office cleaning company",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 1300
+    },
+    {
+      "keyword": "retail cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "medical centre cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 210
+    },
+    {
+      "keyword": "medical cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 110
+    },
+    {
+      "keyword": "gym cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 480
+    },
+    {
+      "keyword": "childcare cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 170
+    },
+    {
+      "keyword": "warehouse cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 320
+    },
+    {
+      "keyword": "strata cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 590
+    },
+    {
+      "keyword": "after builders cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 140
+    },
+    {
+      "keyword": "commercial carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 720
+    },
+    {
+      "keyword": "restaurant cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 110
+    },
+    {
+      "keyword": "school cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": null
+    },
+    {
+      "keyword": "factory cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "commercial cleaning melbourne",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 1900
+    },
+    {
+      "keyword": "office cleaning melbourne",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 4400
+    },
+    {
+      "keyword": "commercial cleaning services melbourne",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 320
+    },
+    {
+      "keyword": "office cleaning services melbourne",
+      "gap_class": "EXISTS_OPTIMISED",
+      "mapped_url": "https://www.twinkleclean.com.au/",
+      "volume": 480
+    },
+    {
+      "keyword": "commercial cleaners melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 1900
+    },
+    {
+      "keyword": "commercial cleaning company melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 1900
+    },
+    {
+      "keyword": "commercial cleaning cost",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 140
+    },
+    {
+      "keyword": "office cleaning prices",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "commercial cleaning quote",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "office cleaning cost",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "commercial cleaning prices",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 140
+    },
+    {
+      "keyword": "affordable commercial cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "best commercial cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "professional office cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "reliable commercial cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning contractors",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "end of lease office cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "after builders commercial clean",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": null
+    },
+    {
+      "keyword": "gym deep cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 60500
+    },
+    {
+      "keyword": "carpet cleaning services",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 2900
+    },
+    {
+      "keyword": "carpet cleaners",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 60500
+    },
+    {
+      "keyword": "carpet steam cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 6600
+    },
+    {
+      "keyword": "steam cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 33100
+    },
+    {
+      "keyword": "carpet dry cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 480
+    },
+    {
+      "keyword": "carpet deep cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 880
+    },
+    {
+      "keyword": "office carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 3600
+    },
+    {
+      "keyword": "carpet steam cleaning melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 880
+    },
+    {
+      "keyword": "steam cleaning melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 590
+    },
+    {
+      "keyword": "commercial carpet cleaning melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning services melbourne",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 3600
+    },
+    {
+      "keyword": "carpet cleaning cost",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 880
+    },
+    {
+      "keyword": "carpet cleaning prices",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 880
+    },
+    {
+      "keyword": "carpet steam cleaning price",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 140
+    },
+    {
+      "keyword": "carpet cleaning quote",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 260
+    },
+    {
+      "keyword": "cheap carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 590
+    },
+    {
+      "keyword": "best carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 1600
+    },
+    {
+      "keyword": "professional carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 2400
+    },
+    {
+      "keyword": "same day carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 260
+    },
+    {
+      "keyword": "carpet stain removal",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 590
+    },
+    {
+      "keyword": "smelly carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "wet carpet drying",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 260
+    },
+    {
+      "keyword": "carpet mould removal",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 390
+    },
+    {
+      "keyword": "end of lease carpet cleaning",
+      "gap_class": "MISSING_INFORMATIONAL",
+      "mapped_url": null,
+      "volume": 390
+    },
+    {
+      "keyword": "commercial cleaning dandenong",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 260
+    },
+    {
+      "keyword": "carpet cleaning dandenong",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 320
+    },
+    {
+      "keyword": "commercial cleaning port melbourne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "commercial cleaning richmond",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "commercial cleaning hawthorn",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "commercial cleaning melbourne cbd",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 170
+    },
+    {
+      "keyword": "commercial cleaning mulgrave",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "commercial cleaning dandenong south",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "commercial cleaning malvern",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "commercial cleaning moorabbin",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "commercial cleaning burwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "commercial cleaning clayton",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "commercial cleaning south melbourne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "commercial cleaning chadstone",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning cheltenham",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning docklands",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning glen waverley",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning rowville",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning southbank",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning cremorne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": null
+    },
+    {
+      "keyword": "commercial cleaning notting hill",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": null
+    },
+    {
+      "keyword": "commercial cleaning bayswater",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning bentleigh",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning blackburn",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning box hill",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning braeside",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "commercial cleaning camberwell",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning carnegie",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning caulfield",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning collingwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning croydon",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning doncaster",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning kew",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning keysborough",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning mitcham",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": null
+    },
+    {
+      "keyword": "commercial cleaning mount waverley",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning noble park",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning nunawading",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning oakleigh",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning ringwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning scoresby",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning springvale",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "commercial cleaning wantirna",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "carpet cleaning port melbourne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning richmond",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 210
+    },
+    {
+      "keyword": "carpet cleaning hawthorn",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning melbourne cbd",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 3600
+    },
+    {
+      "keyword": "carpet cleaning mulgrave",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "carpet cleaning dandenong south",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "carpet cleaning malvern",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning moorabbin",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning burwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning clayton",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning south melbourne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning chadstone",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "carpet cleaning cheltenham",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning docklands",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning glen waverley",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning rowville",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning southbank",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning cremorne",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "carpet cleaning notting hill",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 20
+    },
+    {
+      "keyword": "carpet cleaning bayswater",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 110
+    },
+    {
+      "keyword": "carpet cleaning bentleigh",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning blackburn",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 30
+    },
+    {
+      "keyword": "carpet cleaning box hill",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning braeside",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "carpet cleaning camberwell",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning carnegie",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning caulfield",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning collingwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "carpet cleaning croydon",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 110
+    },
+    {
+      "keyword": "carpet cleaning doncaster",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 90
+    },
+    {
+      "keyword": "carpet cleaning kew",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning keysborough",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning mitcham",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning mount waverley",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning noble park",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 70
+    },
+    {
+      "keyword": "carpet cleaning nunawading",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning oakleigh",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    },
+    {
+      "keyword": "carpet cleaning ringwood",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 110
+    },
+    {
+      "keyword": "carpet cleaning scoresby",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 10
+    },
+    {
+      "keyword": "carpet cleaning springvale",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 40
+    },
+    {
+      "keyword": "carpet cleaning wantirna",
+      "gap_class": "MISSING_LOCATION",
+      "mapped_url": null,
+      "volume": 50
+    }
+  ],
+  "crawl_status": {
+    "source": "robots",
+    "pages_fetched": 8,
+    "pages_failed": 0
+  },
+  "client_da": 0
+}

@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "phase": "2_suburb_discovery",
+    "suburb_source": "data-driven",
+    "state_filter": "VIC",
+    "approved_by_analyst": "2026-07-01",
+    "count": 42,
+    "excluded_suburbs": [
+      "Pakenham"
+    ],
+    "signal": "Google Ads exact volume for 'commercial cleaning {suburb}' (country_id=2036). Hyperlocal long-tail \u2014 coverage play (10-260/mo/suburb); Dandenong 260 leads. N/A-volume commercial nodes (Melbourne CBD, Cremorne, Notting Hill, Mitcham) kept on commercial-activity density with nominal score.",
+    "grid_plan": "42 commercial suburbs (all) + 18 carpet suburbs (top subset, chosen data-driven in Phase 5 two-pass). collect_metrics synthesizes {pillar} x suburb from seed templates.",
+    "note": "silos=[commercial_cleaning,carpet_steam_cleaning] on every suburb so the metrics grid covers both; Phase 5 pass-2 selects the best 18 for carpet."
+  },
+  "scored_suburbs": [
+    {
+      "suburb": "Dandenong",
+      "state": "VIC",
+      "ring": 3,
+      "score": 260,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 260,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Port Melbourne",
+      "state": "VIC",
+      "ring": 3,
+      "score": 70,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 70,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Richmond",
+      "state": "VIC",
+      "ring": 3,
+      "score": 70,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 70,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Hawthorn",
+      "state": "VIC",
+      "ring": 2,
+      "score": 50,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 50,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Melbourne CBD",
+      "state": "VIC",
+      "ring": 3,
+      "score": 50,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 50,
+      "volume_measured": false
+    },
+    {
+      "suburb": "Mulgrave",
+      "state": "VIC",
+      "ring": 2,
+      "score": 50,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 50,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Dandenong South",
+      "state": "VIC",
+      "ring": 3,
+      "score": 40,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 40,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Malvern",
+      "state": "VIC",
+      "ring": 2,
+      "score": 40,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 40,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Moorabbin",
+      "state": "VIC",
+      "ring": 3,
+      "score": 40,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 40,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Burwood",
+      "state": "VIC",
+      "ring": 2,
+      "score": 30,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 30,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Clayton",
+      "state": "VIC",
+      "ring": 2,
+      "score": 30,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 30,
+      "volume_measured": true
+    },
+    {
+      "suburb": "South Melbourne",
+      "state": "VIC",
+      "ring": 3,
+      "score": 30,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 30,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Chadstone",
+      "state": "VIC",
+      "ring": 2,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Cheltenham",
+      "state": "VIC",
+      "ring": 3,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Docklands",
+      "state": "VIC",
+      "ring": 3,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Glen Waverley",
+      "state": "VIC",
+      "ring": 2,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Rowville",
+      "state": "VIC",
+      "ring": 2,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Southbank",
+      "state": "VIC",
+      "ring": 3,
+      "score": 20,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 20,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Cremorne",
+      "state": "VIC",
+      "ring": 3,
+      "score": 15,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 15,
+      "volume_measured": false
+    },
+    {
+      "suburb": "Notting Hill",
+      "state": "VIC",
+      "ring": 3,
+      "score": 15,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 15,
+      "volume_measured": false
+    },
+    {
+      "suburb": "Bayswater",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Bentleigh",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Blackburn",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Box Hill",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Braeside",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Camberwell",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Carnegie",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Caulfield",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Collingwood",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Croydon",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Doncaster",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Kew",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Keysborough",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Mitcham",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": false
+    },
+    {
+      "suburb": "Mount Waverley",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Noble Park",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Nunawading",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Oakleigh",
+      "state": "VIC",
+      "ring": 2,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Ringwood",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Scoresby",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Springvale",
+      "state": "VIC",
+      "ring": 3,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    },
+    {
+      "suburb": "Wantirna",
+      "state": "VIC",
+      "ring": 1,
+      "score": 10,
+      "silos": [
+        "commercial_cleaning",
+        "carpet_steam_cleaning"
+      ],
+      "commercial_volume_signal": 10,
+      "volume_measured": true
+    }
+  ],
+  "excluded_suburbs": [
+    {
+      "suburb": "Pakenham",
+      "reason": "client Q15 \u2014 too far"
+    }
+  ]
+}

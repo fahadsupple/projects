@@ -1,0 +1,1312 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.4360 sec.",
+    "cost": 0.0106,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07010733-1150-0381-0000-e99b231a8129",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.3810 sec.",
+            "cost": 0.0106,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "ranked_keywords",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "ranked_keywords",
+                "se_type": "google",
+                "target": "twinkleclean.com.au",
+                "location_code": 2036,
+                "language_code": "en",
+                "limit": 1000,
+                "filters": [
+                    [
+                        "ranked_serp_element.serp_item.rank_group",
+                        "<=",
+                        50
+                    ]
+                ],
+                "order_by": [
+                    "ranked_serp_element.serp_item.rank_group,asc"
+                ]
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "target": "twinkleclean.com.au",
+                    "location_code": 2036,
+                    "language_code": "en",
+                    "total_count": 6,
+                    "items_count": 6,
+                    "metrics": {
+                        "organic": {
+                            "pos_1": 0,
+                            "pos_2_3": 0,
+                            "pos_4_10": 0,
+                            "pos_11_20": 0,
+                            "pos_21_30": 1,
+                            "pos_31_40": 2,
+                            "pos_41_50": 3,
+                            "pos_51_60": 0,
+                            "pos_61_70": 0,
+                            "pos_71_80": 0,
+                            "pos_81_90": 0,
+                            "pos_91_100": 0,
+                            "etv": 0.8819999843835831,
+                            "count": 6,
+                            "estimated_paid_traffic_cost": 4.675439991056919,
+                            "is_new": 3,
+                            "is_up": 1,
+                            "is_down": 2,
+                            "is_lost": 0,
+                            "clickstream_etv": null,
+                            "clickstream_gender_distribution": null,
+                            "clickstream_age_distribution": null
+                        },
+                        "paid": {
+                            "pos_1": 0,
+                            "pos_2_3": 0,
+                            "pos_4_10": 0,
+                            "pos_11_20": 0,
+                            "pos_21_30": 0,
+                            "pos_31_40": 0,
+                            "pos_41_50": 0,
+                            "pos_51_60": 0,
+                            "pos_61_70": 0,
+                            "pos_71_80": 0,
+                            "pos_81_90": 0,
+                            "pos_91_100": 0,
+                            "etv": 0,
+                            "count": 0,
+                            "estimated_paid_traffic_cost": 0,
+                            "is_new": 0,
+                            "is_up": 0,
+                            "is_down": 0,
+                            "is_lost": 0,
+                            "clickstream_etv": null,
+                            "clickstream_gender_distribution": null,
+                            "clickstream_age_distribution": null
+                        },
+                        "featured_snippet": null,
+                        "local_pack": null,
+                        "ai_overview_reference": null
+                    },
+                    "metrics_absolute": null,
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "sleek cleaning",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-11 23:24:39 +00:00",
+                                    "competition": 0.03999999910593033,
+                                    "competition_level": "LOW",
+                                    "cpc": 6.269999980926514,
+                                    "search_volume": 90,
+                                    "low_top_of_page_bid": null,
+                                    "high_top_of_page_bid": null,
+                                    "categories": [
+                                        10009,
+                                        10399
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 140
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 110
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 140
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 140
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 140
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 110
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 110
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 30
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": 27,
+                                        "quarterly": 0,
+                                        "yearly": 367
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": null,
+                                    "synonym_clustering_algorithm": "text_processing",
+                                    "keyword_difficulty": 0,
+                                    "detected_language": "en",
+                                    "is_another_language": false
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=sleek%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "organic",
+                                        "people_also_ask",
+                                        "related_searches",
+                                        "google_reviews",
+                                        "knowledge_graph"
+                                    ],
+                                    "se_results_count": 181,
+                                    "last_updated_time": "2026-06-04 18:10:00 +00:00",
+                                    "previous_updated_time": "2026-04-18 03:49:47 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 3.799999952316284,
+                                    "dofollow": 0.6000000238418579,
+                                    "referring_pages": 3.799999952316284,
+                                    "referring_domains": 3.4000000953674316,
+                                    "referring_main_domains": 3.4000000953674316,
+                                    "rank": 10.5,
+                                    "main_domain_rank": 339.1000061035156,
+                                    "last_updated_time": "2026-06-04 18:11:26 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "commercial",
+                                    "foreign_intent": null,
+                                    "last_updated_time": "2026-04-29 01:33:52 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 30,
+                                    "rank_absolute": 34,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[1]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "Twinkle Clean is an educated, professional, and secure cleaning service that can help you achieve a pristine workplace. Read more",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": [
+                                        "educated",
+                                        "professional",
+                                        "and secure cleaning service"
+                                    ],
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.1889999955892563,
+                                    "estimated_paid_traffic_cost": 1.1850299835205078,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": null,
+                                        "is_new": true,
+                                        "is_up": false,
+                                        "is_down": false
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 162,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=sleek%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "organic",
+                                    "people_also_ask",
+                                    "related_searches",
+                                    "google_reviews",
+                                    "knowledge_graph"
+                                ],
+                                "se_results_count": 181,
+                                "keyword_difficulty": 0,
+                                "is_lost": false,
+                                "last_updated_time": "2026-06-04 18:10:00 +00:00",
+                                "previous_updated_time": "2026-04-18 03:49:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "versatile cleaning",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-18 12:03:38 +00:00",
+                                    "competition": 0.1899999976158142,
+                                    "competition_level": "LOW",
+                                    "cpc": 7.300000190734863,
+                                    "search_volume": 90,
+                                    "low_top_of_page_bid": 2.2300000190734863,
+                                    "high_top_of_page_bid": 10.420000076293945,
+                                    "categories": [
+                                        10004,
+                                        10308
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 90
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 170
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 260
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 260
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 30
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": -47,
+                                        "quarterly": -65,
+                                        "yearly": 200
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": null,
+                                    "synonym_clustering_algorithm": null,
+                                    "keyword_difficulty": 11,
+                                    "detected_language": "en",
+                                    "is_another_language": false
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=versatile%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "organic",
+                                        "people_also_ask",
+                                        "knowledge_graph",
+                                        "google_reviews",
+                                        "third_party_reviews",
+                                        "images"
+                                    ],
+                                    "se_results_count": 108,
+                                    "last_updated_time": "2026-06-17 21:19:40 +00:00",
+                                    "previous_updated_time": "2026-04-26 23:54:35 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 188.3000030517578,
+                                    "dofollow": 167.89999389648438,
+                                    "referring_pages": 182.1999969482422,
+                                    "referring_domains": 5.800000190734863,
+                                    "referring_main_domains": 5.599999904632568,
+                                    "rank": 99.30000305175781,
+                                    "main_domain_rank": 573.7999877929688,
+                                    "last_updated_time": "2026-06-17 21:19:40 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "commercial",
+                                    "foreign_intent": [
+                                        "transactional",
+                                        "informational"
+                                    ],
+                                    "last_updated_time": "2026-04-30 04:43:09 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 31,
+                                    "rank_absolute": 32,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[4]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "Twinkle Clean is an educated, professional, and secure cleaning service that can help you achieve a pristine workplace. Read more",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": [
+                                        "educated",
+                                        "professional",
+                                        "and secure cleaning service"
+                                    ],
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.1889999955892563,
+                                    "estimated_paid_traffic_cost": 1.379699945449829,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": null,
+                                        "is_new": true,
+                                        "is_up": false,
+                                        "is_down": false
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 161,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=versatile%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "organic",
+                                    "people_also_ask",
+                                    "knowledge_graph",
+                                    "google_reviews",
+                                    "third_party_reviews",
+                                    "images"
+                                ],
+                                "se_results_count": 108,
+                                "keyword_difficulty": 11,
+                                "is_lost": false,
+                                "last_updated_time": "2026-06-17 21:19:40 +00:00",
+                                "previous_updated_time": "2026-04-26 23:54:35 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "multiple cleaning",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-14 08:12:09 +00:00",
+                                    "competition": 0.6200000047683716,
+                                    "competition_level": "MEDIUM",
+                                    "cpc": 0.3799999952316284,
+                                    "search_volume": 40,
+                                    "low_top_of_page_bid": null,
+                                    "high_top_of_page_bid": null,
+                                    "categories": [
+                                        10002,
+                                        10029
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 20
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 20
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 110
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": 33,
+                                        "quarterly": 33,
+                                        "yearly": -56
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": null,
+                                    "synonym_clustering_algorithm": null,
+                                    "keyword_difficulty": 8,
+                                    "detected_language": "en",
+                                    "is_another_language": false
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=multiple%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "organic",
+                                        "related_searches"
+                                    ],
+                                    "se_results_count": 1330000000,
+                                    "last_updated_time": "2026-05-13 01:11:44 +00:00",
+                                    "previous_updated_time": "2026-02-21 10:27:55 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 3172.300048828125,
+                                    "dofollow": 1817.199951171875,
+                                    "referring_pages": 2102.800048828125,
+                                    "referring_domains": 27.5,
+                                    "referring_main_domains": 26,
+                                    "rank": 105.0999984741211,
+                                    "main_domain_rank": 427.29998779296875,
+                                    "last_updated_time": "2026-05-13 01:11:45 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "commercial",
+                                    "foreign_intent": [
+                                        "informational"
+                                    ],
+                                    "last_updated_time": "2026-04-29 17:46:13 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 33,
+                                    "rank_absolute": 36,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "Leave the cleaning jobs to us and enjoy your day! All our cleaners are experienced and professional and have devoted themselves to cleaning multiple times. Read more",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": [
+                                        "All our cleaners are experienced and professional"
+                                    ],
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.08399999886751175,
+                                    "estimated_paid_traffic_cost": 0.03192000091075897,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": 38,
+                                        "is_new": false,
+                                        "is_up": true,
+                                        "is_down": false
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 161,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=multiple%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "organic",
+                                    "related_searches"
+                                ],
+                                "se_results_count": 1330000000,
+                                "keyword_difficulty": 8,
+                                "is_lost": false,
+                                "last_updated_time": "2026-05-13 01:11:44 +00:00",
+                                "previous_updated_time": "2026-02-21 10:27:55 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "cleankill",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-12 17:11:34 +00:00",
+                                    "competition": 0.12999999523162842,
+                                    "competition_level": "LOW",
+                                    "cpc": 0.18000000715255737,
+                                    "search_volume": 70,
+                                    "low_top_of_page_bid": null,
+                                    "high_top_of_page_bid": null,
+                                    "categories": [
+                                        10019,
+                                        10168,
+                                        10885,
+                                        13114
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 70
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": 75,
+                                        "quarterly": 40,
+                                        "yearly": 0
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": "a clean kill",
+                                    "synonym_clustering_algorithm": "text_processing",
+                                    "keyword_difficulty": 0,
+                                    "detected_language": "it",
+                                    "is_another_language": true
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=cleankill&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "organic",
+                                        "related_searches",
+                                        "google_reviews",
+                                        "knowledge_graph",
+                                        "images"
+                                    ],
+                                    "se_results_count": 104,
+                                    "last_updated_time": "2026-06-07 03:50:08 +00:00",
+                                    "previous_updated_time": "2026-04-18 15:11:44 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 509.1000061035156,
+                                    "dofollow": 504.29998779296875,
+                                    "referring_pages": 507.8999938964844,
+                                    "referring_domains": 27.700000762939453,
+                                    "referring_main_domains": 27.100000381469727,
+                                    "rank": 64.5999984741211,
+                                    "main_domain_rank": 405,
+                                    "last_updated_time": "2026-06-07 03:52:02 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "informational",
+                                    "foreign_intent": [
+                                        "transactional"
+                                    ],
+                                    "last_updated_time": "2026-04-30 02:56:24 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 49,
+                                    "rank_absolute": 54,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[10]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "Are you looking for spotty commercial cleaning services in Melbourne? If so, you have come to the right place. Twinkle Clean is an educated, professional, ...",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": null,
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.1469999998807907,
+                                    "estimated_paid_traffic_cost": 0.02645999938249588,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": null,
+                                        "is_new": true,
+                                        "is_up": false,
+                                        "is_down": false
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 162,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=cleankill&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "organic",
+                                    "related_searches",
+                                    "google_reviews",
+                                    "knowledge_graph",
+                                    "images"
+                                ],
+                                "se_results_count": 104,
+                                "keyword_difficulty": 0,
+                                "is_lost": false,
+                                "last_updated_time": "2026-06-07 03:50:08 +00:00",
+                                "previous_updated_time": "2026-04-18 15:11:44 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "consolidate cleaner",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-15 16:04:45 +00:00",
+                                    "competition": 0.5799999833106995,
+                                    "competition_level": "MEDIUM",
+                                    "cpc": 10.6899995803833,
+                                    "search_volume": 90,
+                                    "low_top_of_page_bid": 2.0999999046325684,
+                                    "high_top_of_page_bid": 5.119999885559082,
+                                    "categories": [
+                                        10008
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 90
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 90
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 70
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 90
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 90
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 110
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 140
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 110
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 170
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": 40,
+                                        "quarterly": -22,
+                                        "yearly": -59
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": "consolidated cleaners",
+                                    "synonym_clustering_algorithm": "text_processing",
+                                    "keyword_difficulty": 2,
+                                    "detected_language": "en",
+                                    "is_another_language": false
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=consolidate%20cleaner&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "organic",
+                                        "ai_overview",
+                                        "people_also_ask",
+                                        "related_searches"
+                                    ],
+                                    "se_results_count": 180,
+                                    "last_updated_time": "2026-06-03 13:50:16 +00:00",
+                                    "previous_updated_time": "2026-04-20 19:54:08 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 106.30000305175781,
+                                    "dofollow": 53.29999923706055,
+                                    "referring_pages": 80.30000305175781,
+                                    "referring_domains": 20.200000762939453,
+                                    "referring_main_domains": 19.200000762939453,
+                                    "rank": 58.900001525878906,
+                                    "main_domain_rank": 555.7999877929688,
+                                    "last_updated_time": "2026-06-03 13:51:29 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "transactional",
+                                    "foreign_intent": [
+                                        "commercial"
+                                    ],
+                                    "last_updated_time": "2026-04-27 05:26:01 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 50,
+                                    "rank_absolute": 57,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[2]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "Twinkle Clean is an educated, professional, and secure cleaning service that can help you achieve a pristine workplace. Read more",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": [
+                                        "cleaning"
+                                    ],
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.1889999955892563,
+                                    "estimated_paid_traffic_cost": 2.0204100608825684,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": 49,
+                                        "is_new": false,
+                                        "is_up": false,
+                                        "is_down": true
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 162,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=consolidate%20cleaner&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "organic",
+                                    "ai_overview",
+                                    "people_also_ask",
+                                    "related_searches"
+                                ],
+                                "se_results_count": 180,
+                                "keyword_difficulty": 2,
+                                "is_lost": false,
+                                "last_updated_time": "2026-06-03 13:50:16 +00:00",
+                                "previous_updated_time": "2026-04-20 19:54:08 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword_data": {
+                                "se_type": "google",
+                                "keyword": "multi cleaning",
+                                "location_code": 2036,
+                                "language_code": "en",
+                                "keyword_info": {
+                                    "se_type": "google",
+                                    "last_updated_time": "2026-06-14 14:43:57 +00:00",
+                                    "competition": 0.6200000047683716,
+                                    "competition_level": "MEDIUM",
+                                    "cpc": 0.3799999952316284,
+                                    "search_volume": 40,
+                                    "low_top_of_page_bid": null,
+                                    "high_top_of_page_bid": null,
+                                    "categories": [
+                                        10002,
+                                        10029
+                                    ],
+                                    "monthly_searches": [
+                                        {
+                                            "year": 2026,
+                                            "month": 5,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 4,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 3,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 2,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2026,
+                                            "month": 1,
+                                            "search_volume": 20
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 12,
+                                            "search_volume": 20
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 11,
+                                            "search_volume": 30
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 10,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 9,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 8,
+                                            "search_volume": 40
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 7,
+                                            "search_volume": 50
+                                        },
+                                        {
+                                            "year": 2025,
+                                            "month": 6,
+                                            "search_volume": 110
+                                        }
+                                    ],
+                                    "search_volume_trend": {
+                                        "monthly": 33,
+                                        "quarterly": 33,
+                                        "yearly": -56
+                                    }
+                                },
+                                "keyword_info_normalized_with_bing": null,
+                                "keyword_info_normalized_with_clickstream": null,
+                                "clickstream_keyword_info": null,
+                                "keyword_properties": {
+                                    "se_type": "google",
+                                    "core_keyword": "multi clean",
+                                    "synonym_clustering_algorithm": "text_processing",
+                                    "keyword_difficulty": 10,
+                                    "detected_language": "en",
+                                    "is_another_language": false
+                                },
+                                "serp_info": {
+                                    "se_type": "google",
+                                    "check_url": "https:\/\/www.google.com\/search?q=multi%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                    "serp_item_types": [
+                                        "ai_overview",
+                                        "organic",
+                                        "popular_products",
+                                        "video",
+                                        "related_searches",
+                                        "images"
+                                    ],
+                                    "se_results_count": 137,
+                                    "last_updated_time": "2026-06-12 06:48:38 +00:00",
+                                    "previous_updated_time": "2026-04-22 04:17:29 +00:00"
+                                },
+                                "avg_backlinks_info": {
+                                    "se_type": "google",
+                                    "backlinks": 2844.699951171875,
+                                    "dofollow": 1786,
+                                    "referring_pages": 1871.5999755859375,
+                                    "referring_domains": 23,
+                                    "referring_main_domains": 22.399999618530273,
+                                    "rank": 108.30000305175781,
+                                    "main_domain_rank": 464.1000061035156,
+                                    "last_updated_time": "2026-06-12 06:48:39 +00:00"
+                                },
+                                "search_intent_info": {
+                                    "se_type": "google",
+                                    "main_intent": "commercial",
+                                    "foreign_intent": [
+                                        "transactional"
+                                    ],
+                                    "last_updated_time": "2026-04-29 17:20:36 +00:00"
+                                }
+                            },
+                            "ranked_serp_element": {
+                                "se_type": "google",
+                                "serp_item": {
+                                    "se_type": "google",
+                                    "type": "organic",
+                                    "rank_group": 50,
+                                    "rank_absolute": 60,
+                                    "position": "left",
+                                    "xpath": "\/html[1]\/body[1]\/div[3]\/div[1]\/div[12]\/div[1]\/div[2]\/div[2]\/div[1]\/div[1]\/div[3]\/div[1]\/div[1]",
+                                    "domain": "www.twinkleclean.com.au",
+                                    "title": "Home - Commercial Cleaning Services | Office Cleaning in ...",
+                                    "url": "https:\/\/www.twinkleclean.com.au\/",
+                                    "breadcrumb": "https:\/\/www.twinkleclean.com.au",
+                                    "website_name": "twinkleclean.com.au",
+                                    "is_image": false,
+                                    "is_video": false,
+                                    "is_featured_snippet": false,
+                                    "is_malicious": false,
+                                    "description": "... cleaning tools which will make your workplace clean ... All our cleaners are experienced and professional and have devoted themselves to cleaning multiple times. Read more",
+                                    "pre_snippet": null,
+                                    "extended_snippet": null,
+                                    "amp_version": false,
+                                    "rating": null,
+                                    "highlighted": [
+                                        "cleaning",
+                                        "clean",
+                                        "cleaners",
+                                        "cleaning multiple"
+                                    ],
+                                    "links": null,
+                                    "about_this_result": null,
+                                    "main_domain": "twinkleclean.com.au",
+                                    "relative_url": "\/",
+                                    "etv": 0.08399999886751175,
+                                    "estimated_paid_traffic_cost": 0.03192000091075897,
+                                    "clickstream_etv": null,
+                                    "rank_changes": {
+                                        "previous_rank_absolute": 41,
+                                        "is_new": false,
+                                        "is_up": false,
+                                        "is_down": true
+                                    },
+                                    "backlinks_info": {
+                                        "referring_domains": 4,
+                                        "referring_main_domains": 4,
+                                        "referring_pages": 6,
+                                        "dofollow": 6,
+                                        "backlinks": 6,
+                                        "time_update": "2026-06-21 01:52:20 +00:00"
+                                    },
+                                    "rank_info": {
+                                        "page_rank": 162,
+                                        "main_domain_rank": 16
+                                    }
+                                },
+                                "check_url": "https:\/\/www.google.com\/search?q=multi%20cleaning&hl=en&gl=AU&ie=UTF-8&uule=w+CAIQIFISCd_Fh2cH_SsrEVITW5WhZ4JT",
+                                "serp_item_types": [
+                                    "ai_overview",
+                                    "organic",
+                                    "popular_products",
+                                    "video",
+                                    "related_searches",
+                                    "images"
+                                ],
+                                "se_results_count": 137,
+                                "keyword_difficulty": 10,
+                                "is_lost": false,
+                                "last_updated_time": "2026-06-12 06:48:38 +00:00",
+                                "previous_updated_time": "2026-04-22 04:17:29 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+  "business_type": "local_service",
+  "business_context": {
+    "business_type": "local_service",
+    "client_da": 0,
+    "jurisdiction": "Melbourne, Victoria, Australia",
+    "base": "Ringwood VIC 3134",
+    "region_focus": ["Melbourne CBD", "South East Melbourne", "East Melbourne"],
+    "suburb_targeting": "commercial-activity suburbs prioritised; Pakenham excluded (client: too far)",
+    "competitive_landscape": "Melbourne commercial-cleaning SERP contested by national/established cleaners (Clean Group, AMC Commercial Cleaning, ACS) and directories; client-named competitor Whistle Clean Australia (whistlecleanaustralia.com.au). Client DA 0 — fresh entrant; wins come from suburb-level long-tail where incumbents are thin.",
+    "source_counts": "Phase 0 ground truth = questionnaire + live-site crawl (fresh client). Site: 8 sitemap pages, 7 nav items. Commercial-cleaning page EXISTS (/commercial-cleaning/); carpet/steam page MISSING; 0 suburb pages. GSC unavailable (client property not in connected account) — quick-wins track disabled. Domestic + end-of-tenancy pages exist but are OUT of keyword scope per BDM brief.",
+    "data_sources_used": ["questionnaire.json", "live sitemap (page-sitemap.xml, 8 pages)", "homepage nav crawl", "Google Ads keyword ideas (AU/Melbourne volumes)"]
+  },
+  "package": {
+    "keyword_type": "location_only",
+    "general_keywords": 0,
+    "location_keywords": 60
+  },
+  "general_budget": 0,
+  "location_budget": 60,
+  "grid_structure": {
+    "chosen_option": "A_breadth_exact_70_30",
+    "method": "two_pass_score_keywords",
+    "analyst_approved": "2026-07-01",
+    "rationale": "BDM brief mandates 70% commercial / 30% carpet-steam. score_keywords.py select_location_grid builds a UNIFORM grid (N suburbs x M silos, every suburb gets every silo) which cannot express a non-uniform split. Resolution: run score_keywords --select-locations twice with per-silo-filtered candidate pools and per-silo budgets (commercial=42, carpet=18), then merge. Keeps ONE authoritative commercial page per suburb (office cleaning rides as on-page secondary) to avoid commercial-vs-office suburb-page cannibalisation, and casts the widest geographic net (42 commercial suburbs).",
+    "carpet_subset_note": "Carpet's 18 suburbs are the top-scoring subset of the 42 commercial suburbs. Phase 1/2 generate carpet candidates across the full approved suburb set so Phase 5 pass-2 can select the best 18."
+  },
+  "silos": [
+    {
+      "silo_id": "commercial_cleaning",
+      "tier": "A",
+      "share": 0.70,
+      "location_keywords": 42,
+      "target_suburbs": 42,
+      "pillar_term": "commercial cleaning",
+      "secondary_terms": ["office cleaning", "commercial cleaning services"],
+      "landing_template": "/commercial-cleaning-{suburb}/",
+      "existing_page": "/commercial-cleaning/",
+      "track": "category_gap_fill",
+      "eligibility_evidence": "42 new suburb pages (no suburb pages exist). Existing generic /commercial-cleaning/ page is a replication template (geo_expansion flavour) but has no GSC ranking proof, so classified category_gap_fill.",
+      "volume_evidence": "office cleaning melbourne 4,400/mo (LOW); commercial cleaning melbourne 1,900/mo (LOW); commercial cleaning 4,400/mo national; office cleaning 2,900/mo national. Office cleaning captured as on-page secondary, not a separate suburb page, to avoid cannibalisation."
+    },
+    {
+      "silo_id": "carpet_steam_cleaning",
+      "tier": "B",
+      "share": 0.30,
+      "location_keywords": 18,
+      "target_suburbs": 18,
+      "candidate_suburbs": 42,
+      "pillar_term": "carpet cleaning",
+      "secondary_terms": ["carpet steam cleaning", "steam cleaning"],
+      "landing_template": "/carpet-cleaning-{suburb}/",
+      "existing_page": null,
+      "track": "category_gap_fill",
+      "eligibility_evidence": "18 new suburb pages; no carpet/steam page exists anywhere on the site — pure content gap.",
+      "volume_evidence": "carpet cleaning melbourne 3,600/mo (MED); carpet steam cleaning melbourne 880/mo; steam cleaning melbourne 590/mo. National 'carpet cleaning' 60,500 / 'steam cleaning' 33,100 are DIY/product-contaminated (bissell, vax, steam mop) — suburb-modified service terms are the clean signal."
+    }
+  ],
+  "tracks": {
+    "quick_wins": 0,
+    "existing_page_optimisation": 0,
+    "category_gap_fill": 60,
+    "geo_expansion": 0,
+    "note": "Fresh location_only client, zero existing suburb pages, no GSC ranking data -> all 60 keywords are category_gap_fill (new suburb-page content). Commercial silo has an existing generic /commercial-cleaning/ template to clone (geo_expansion flavour, no ranking proof). Quick-wins track unavailable (GSC client property absent)."
+  },
+  "default_exclusions": {
+    "near_me": "excluded (include_near_me=false) — GBP local-pack track",
+    "brand_defence": "excluded (include_brand_defence=false) — reputation track",
+    "out_of_scope_services": ["domestic cleaning", "end of tenancy cleaning", "regular cleaning", "tile and surface cleaning", "upholstery/mattress cleaning"]
+  }
+}

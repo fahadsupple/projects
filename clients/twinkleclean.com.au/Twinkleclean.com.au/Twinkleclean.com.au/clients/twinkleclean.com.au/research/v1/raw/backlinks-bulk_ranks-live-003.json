@@ -1,0 +1,43 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0350 sec.",
+    "cost": 0.02003,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07010733-1150-0347-0000-67a7100adf95",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0100 sec.",
+            "cost": 0.02003,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "twinkleclean.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "target": "twinkleclean.com.au",
+                            "rank": 13
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

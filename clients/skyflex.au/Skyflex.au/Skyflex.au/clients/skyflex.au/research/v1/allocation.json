@@ -1,0 +1,106 @@
+{
+  "client": "skyflex.au",
+  "version": "v1",
+  "created_at": "2026-07-01",
+  "business_type": "hybrid_retail",
+  "business_context": {
+    "business_type": "hybrid_retail",
+    "client_da": 0,
+    "jurisdiction": "VIC / NSW / QLD, Australia",
+    "region": "Melbourne (base: Epping VIC showroom); Sydney; Queensland (stated target area, Q11)",
+    "positioning": "Own-brand outdoor-living retailer (Delta / Skyflex / U7 range). Established pergola/louvre SEO: 20 tracked keywords + strong GSC footprint (/pergola-kits/ 19.6k impr, /outdoor-pergolas/ 26k impr, /louvred-pergolas-sydney/ 74 clicks). EXPANSION pivots into 4 new product lines per client Q10 ('I would like to focus on these newly added products as well') — ADDITIVE to, not replacing, the pergola core.",
+    "client_mode": "expansion",
+    "site_reality": "Live WooCommerce site. New-product PAGES exist (/product/u7-smartoilet/ pos 5.95 · /product/delta-commercial-folding-arm/ pos 5.47 · delta-pro-retractable-roof · skyflex-bbq-pods · skyflex-4k-android-smart-outdoor-tv) but have near-zero keyword targeting / organic visibility. Homepage + primary nav are pergola-centric; the new products have NO category-page presence. The 20 tracked keywords are all pergola/louvre, geo-modified to Melbourne + Sydney only — QLD untapped, and the biggest bare pergola quick-wins (pergola melbourne 3,247 impr pos 16; pergolas sydney 2,442 impr pos 7; louvre roof melbourne pos 9.3) are NOT among the tracked 20.",
+    "ground_truth_sources": "GSC (siteOwner on https://skyflex.au/; 90d pull: 75 queries + 40 pages + 4 sitemaps), SE Ranking project 9256979 (20 tracked kw, read via blog-topics namespace — kwr PROJECT_* unregistered this session), Google Ads AU volume probes (new-product categories), Playwright nav crawl, questionnaire form Be8psUMW. Existing-20 staged at raw/existing_keywords.json.",
+    "strategy_note": "Client Q10 = 4 new products, additive ('as well'), no per-product split specified. Delivery brief = 'find quick wins through GSC'. Reconciled with analyst 2026-07-01: 6 new-product + 4 pergola-net-new. New-product pages already rank ~top-6 invisibly → existing-page-optimisation is the fastest ROI. Pergola slots target UNTRACKED GSC quick-wins + QLD geo-expansion (both net-new vs the tracked 20). Demand-weighted per-product split is analyst-approved, not client-specified."
+  },
+  "package": {
+    "keyword_type": "general_only",
+    "general_keywords": 10,
+    "location_keywords": 0,
+    "total_keywords": 10,
+    "split_rationale": "6 new-product (client Q10) + 4 pergola-net-new (GSC quick-wins + QLD geo). Analyst-approved 2026-07-01."
+  },
+  "general_budget": 10,
+  "location_budget": 0,
+  "silos": [
+    {
+      "silo_id": "smart_toilet",
+      "label": "Smart Toilet (U7 Smartoilet)",
+      "group": "new_product",
+      "tier": "A",
+      "keyword_count": 2,
+      "primary_track": "quick_wins",
+      "target_page": "https://skyflex.au/product/u7-smartoilet/",
+      "demand_signal": "smart toilet 2,400/mo · smart toilet australia 880 · smart toilet seat 590 · electric bidet 480 (bidet toilet 9,900 broad)",
+      "eligibility_evidence": "Product page ranks pos 5.95 with 63 impr/90d — striking-distance quick-win (pos in [4,15] AND impr>=50); strong category demand (smart toilet 2,400/mo). 3rd-party brands (Toto, Kohler, TOTO Washlet) excluded."
+    },
+    {
+      "silo_id": "folding_arm_awning",
+      "label": "Folding Arm Awning (Delta Commercial)",
+      "group": "new_product",
+      "tier": "A",
+      "keyword_count": 2,
+      "primary_track": "existing_page_optimisation",
+      "target_page": "https://skyflex.au/product/delta-commercial-folding-arm/",
+      "demand_signal": "folding arm awning 1,600/mo · retractable awning 6,600 (broad category) · electric awning 720 · motorized retractable awning 110",
+      "eligibility_evidence": "Product page ranks pos 5.47 but 0 clicks / 15 impr — ranks yet invisible, needs keyword anchor + optimisation. Flagship commercial new product. folding arm awning 1,600/mo; retractable awning 6,600/mo umbrella."
+    },
+    {
+      "silo_id": "outdoor_tv",
+      "label": "Outdoor TV (Skyflex 4K Android)",
+      "group": "new_product",
+      "tier": "B",
+      "keyword_count": 1,
+      "primary_track": "category_gap_fill",
+      "target_page": "https://skyflex.au/product/skyflex-4k-android-smart-outdoor-tv/",
+      "demand_signal": "outdoor tv 2,900/mo · outdoor television 2,900 · weatherproof outdoor tv 260 · outdoor smart tv 40",
+      "eligibility_evidence": "Solid category demand (outdoor tv 2,900/mo) but product page has near-zero organic visibility — content/keyword gap. 3rd-party brands (Samsung Terrace, Sylvox, Sunbrite) excluded; target the generic weatherproof/outdoor-tv head."
+    },
+    {
+      "silo_id": "bbq_pod",
+      "label": "BBQ Pod (Skyflex BBQ Pods)",
+      "group": "new_product",
+      "tier": "C",
+      "keyword_count": 1,
+      "primary_track": "category_gap_fill",
+      "target_page": "https://skyflex.au/product/skyflex-bbq-pods/",
+      "demand_signal": "bbq pod 720/mo · outdoor kitchen pod 320",
+      "eligibility_evidence": "Niche/emerging category (bbq pod 720/mo); product page needs a keyword anchor. Smallest of the 4 new lines → single head keyword."
+    },
+    {
+      "silo_id": "pergola_quickwins",
+      "label": "Pergola GSC quick-wins (untracked)",
+      "group": "pergola_net_new",
+      "tier": "A",
+      "keyword_count": 2,
+      "primary_track": "quick_wins",
+      "target_page": "existing pergola/louvre pages (e.g. /outdoor-pergolas/, /louvred-pergolas-sydney/, or a new louvre-roof page)",
+      "demand_signal": "pergola melbourne 3,247 impr pos 16.1 · pergolas melbourne 3,912 impr pos 15.4 · pergolas sydney 2,442 impr pos 7.3 · louvre pergola melbourne 791 impr pos 7.0 · louvre roof melbourne 318 impr pos 9.3",
+      "eligibility_evidence": "GSC striking-distance queries NOT among the 20 tracked (tracked set is all geo-modified 'louvred/outdoor/aluminium pergolas melbourne/sydney'). These bare/variant pergola heads have high impressions on page 1-2 — fastest-ROI quick-wins that satisfy the delivery brief's GSC directive. NET-NEW vs tracked 20."
+    },
+    {
+      "silo_id": "pergola_qld_geo",
+      "label": "Pergola QLD geo-expansion (Brisbane)",
+      "group": "pergola_net_new",
+      "tier": "B",
+      "keyword_count": 2,
+      "primary_track": "geo_expansion",
+      "target_page": "new QLD/Brisbane pergola landing page(s) replicating the Melb/Syd template",
+      "demand_signal": "Brisbane/QLD pergola demand (to be volume-validated in Phase 3a); Melb/Syd template proven (client ranks pos 7-16 for pergola city terms)",
+      "eligibility_evidence": "Existing pergola template proven in Melbourne + Sydney; QLD is a client-stated target area (Q11) with ZERO current pergola tracking or content. Geo-expansion of a proven cluster to a new city in the client's delivery network."
+    }
+  ],
+  "tracks": {
+    "distribution_note": "Deviates from the 30/30/30/10 upgrade default because of this client's specific mix — the new-product pages that already rank invisibly favour existing-page-optimisation, and the real GSC quick-wins live in the pergola space.",
+    "quick_wins": { "target_count": 3, "silos": ["smart_toilet", "pergola_quickwins"] },
+    "existing_page_optimisation": { "target_count": 3, "silos": ["smart_toilet", "folding_arm_awning"] },
+    "category_gap_fill": { "target_count": 2, "silos": ["outdoor_tv", "bbq_pod"] },
+    "geo_expansion": { "target_count": 2, "silos": ["pergola_qld_geo"] }
+  },
+  "default_excluded": {
+    "brand_defence": "skyflex, sky flex, skyflex.com (GSC: 'skyflex' 148 clicks) — reputation/AIO track, not organic. include_brand_defence=false.",
+    "near_me": "pergola shops near me, pergola showroom near me, retractable awnings near me, aluminium pergolas near me — GBP local-pack track. include_near_me=false.",
+    "third_party_brands": "Samsung Terrace, Toto Washlet, Kohler smart toilet, Sylvox/Sunbrite outdoor tv, biobidet — carries_third_party_brands=false."
+  }
+}

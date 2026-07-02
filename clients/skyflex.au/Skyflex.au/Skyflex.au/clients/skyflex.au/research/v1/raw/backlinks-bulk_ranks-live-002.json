@@ -1,0 +1,68 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0338 sec.",
+    "cost": 0.02018,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07010931-1150-0347-0000-4b74442b8451",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0056 sec.",
+            "cost": 0.02018,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "skyflex.au",
+                    "stratco.com.au",
+                    "outmos.com.au",
+                    "luxiliving.com.au",
+                    "bunnings.com.au",
+                    "exceliteplas.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 6,
+                    "items": [
+                        {
+                            "target": "skyflex.au",
+                            "rank": 159
+                        },
+                        {
+                            "target": "stratco.com.au",
+                            "rank": 333
+                        },
+                        {
+                            "target": "outmos.com.au",
+                            "rank": 260
+                        },
+                        {
+                            "target": "luxiliving.com.au",
+                            "rank": 270
+                        },
+                        {
+                            "target": "bunnings.com.au",
+                            "rank": 501
+                        },
+                        {
+                            "target": "exceliteplas.com.au",
+                            "rank": 240
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

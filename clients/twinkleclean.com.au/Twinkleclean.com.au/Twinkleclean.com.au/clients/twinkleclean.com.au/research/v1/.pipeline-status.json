@@ -1,0 +1,24 @@
+{
+  "domain": "twinkleclean.com.au",
+  "version": "v1",
+  "mode": "fresh",
+  "started": "2026-07-01",
+  "plugin_version": "0.9.1",
+  "phases": {
+    "phase_0": "completed",
+    "phase_1": "completed",
+    "phase_2": "completed",
+    "phase_3a": "completed",
+    "phase_3b": "completed",
+    "phase_3c": "completed",
+    "phase_4": "in_progress",
+    "phase_5": "completed",
+    "phase_6": "completed"
+  },
+  "notes": {
+    "phase_1": "GP agent misfired (0 tool uses, prompt-injection bounce to CLAUDE.md task); re-run inline. 67 candidates (40 commercial / 27 carpet).",
+    "phase_3": "metrics 150 cands (81/84 loc w/ vol; DA=1; 5 top-50 ranked); competitors 6 (incl Whistle Clean); serp 40 probes, AIO 8/40, brand rank #1",
+    "phase_5": "two-pass 70/30 grid (42 commercial + 18 carpet); validate_selection 0 issues; primary_cities set to 42 suburbs (location-package convention); gate fresh"
+  },
+  "completed": "2026-07-01"
+}

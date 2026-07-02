@@ -1,0 +1,101 @@
+{
+  "domain": "twinkleclean.com.au",
+  "mode": "fresh",
+  "business_type": "local_service",
+  "keyword_type": "location_only",
+  "general_keywords": 0,
+  "location_keywords": 60,
+  "total_keywords": 60,
+  "suburb_source": "data-driven",
+  "carries_third_party_brands": false,
+  "client_da": 1,
+  "primary_cities": [
+    "Dandenong",
+    "Port Melbourne",
+    "Richmond",
+    "Hawthorn",
+    "Melbourne CBD",
+    "Mulgrave",
+    "Dandenong South",
+    "Malvern",
+    "Moorabbin",
+    "Burwood",
+    "Clayton",
+    "South Melbourne",
+    "Chadstone",
+    "Cheltenham",
+    "Docklands",
+    "Glen Waverley",
+    "Rowville",
+    "Southbank",
+    "Cremorne",
+    "Notting Hill",
+    "Bayswater",
+    "Bentleigh",
+    "Blackburn",
+    "Box Hill",
+    "Braeside",
+    "Camberwell",
+    "Carnegie",
+    "Caulfield",
+    "Collingwood",
+    "Croydon",
+    "Doncaster",
+    "Kew",
+    "Keysborough",
+    "Mitcham",
+    "Mount Waverley",
+    "Noble Park",
+    "Nunawading",
+    "Oakleigh",
+    "Ringwood",
+    "Scoresby",
+    "Springvale",
+    "Wantirna"
+  ],
+  "primary_cities_note": "Location_only package: primary_cities = the 42 analyst-approved target suburbs (data-driven, VIC, Pakenham excluded). validate_selection.check_consistent_secondary_city treats any suburb outside primary_cities as a 'secondary city'; for a suburb-grid package the target suburbs ARE the primaries (same convention as other location clients).",
+  "suburb_constraints": {
+    "include_regions": [
+      "Melbourne CBD",
+      "South East Melbourne",
+      "East Melbourne"
+    ],
+    "prioritise": "commercial-activity / business suburbs (office, retail, industrial density) \u2014 client example: Dandenong",
+    "exclude": [
+      "Pakenham"
+    ],
+    "note": "Commercial-cleaning silo (70%) needs business/commercial suburbs, not residential-density. Pakenham HARD-excluded (Q15 \u2014 too far). Phase 2 data-driven discovery should weight commercial intent."
+  },
+  "location_silos": [
+    {
+      "silo": "commercial_cleaning",
+      "share": 0.7,
+      "keywords": 42,
+      "service_heads": [
+        "commercial cleaning",
+        "office cleaning",
+        "commercial space cleaning"
+      ]
+    },
+    {
+      "silo": "carpet_steam_cleaning",
+      "share": 0.3,
+      "keywords": 18,
+      "service_heads": [
+        "carpet cleaning",
+        "carpet steam cleaning"
+      ]
+    }
+  ],
+  "location_silos_note": "BDM brief: 60 location keywords split commercial x suburb (70% = 42) and steam/carpet x suburb (30% = 18). Phase 0/1 should honour this split when allocating the service-head x suburb grid.",
+  "include_near_me": false,
+  "include_brand_defence": false,
+  "target_states": [
+    "VIC"
+  ],
+  "secondary_states": [],
+  "seed_competitors": [
+    "whistlecleanaustralia.com.au"
+  ],
+  "deadline": "2026-07-06"
+}

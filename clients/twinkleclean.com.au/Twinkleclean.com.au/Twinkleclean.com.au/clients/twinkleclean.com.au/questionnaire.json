@@ -1,0 +1,95 @@
+{
+  "business": {
+    "name": "Twinkle Clean",
+    "abn": "20 785 521 424",
+    "year_established": 2019,
+    "domain": "twinkleclean.com.au",
+    "website": "https://twinkleclean.com.au",
+    "phone": "0498 182 989",
+    "email": "admin@twinkleclean.com.au",
+    "address": "Ringwood VIC 3134",
+    "address_type": "base (single location)",
+    "address_note": "Form Q6 gave 'ringwood 3134' — normalised to Ringwood VIC 3134. Confirm exact street address before publishing GBP/directory citations.",
+    "directory_listing_consent": true,
+    "operating_hours": "24/7 — available 7 days including weekends and public holidays at no extra charge",
+    "google_rating": null,
+    "google_reviews_count": null,
+    "google_reviews_note": "No Google rating/review count in the form. Client states 1,200+ customers served (Q18). Verify GBP profile and brand SERP footprint in Phase 3c."
+  },
+  "owner_and_team": {
+    "owners": ["Tom Su"],
+    "owner_background": "20+ years of experience in the cleaning field. Company was founded by a former cleaner whose services were in high demand and valued by customers. All cleaners are professional, well trained, and hold up-to-date police checks. Full-service cleaning company relying on the experience, professionalism and enthusiasm of a team of specialists.",
+    "why_started": "Twinkle Clean was founded by a former cleaner whose services were in high demand. The business grew out of a passion for cleaning and a recognition of strong demand for a professional, reliable, customer-focused cleaning service in Melbourne — building a full-service company delivering on quality, professionalism and customer satisfaction where other providers were inconsistent.",
+    "team_note": "Cleaners are well trained, hold up-to-date police checks, and are OHS-trained (manual handling, safe chemical handling, basic first aid). Strong English-speaking communication skills (Q14 USP)."
+  },
+  "services": [
+    "Carpet Cleaning",
+    "Commercial Cleaning",
+    "Commercial Space Cleaning",
+    "Domestic Cleaning",
+    "End of Tenancy Cleaning",
+    "Office Cleaning",
+    "Regular Cleaning",
+    "Tile and Surface Cleaning",
+    "Upholstery / Mattress Cleaning"
+  ],
+  "services_note": "9 services (Q12; 'Other:' artifact split into Tile & Surface + Upholstery/Mattress). BDM brief scopes THIS round's 60 location keywords to two silos only: (1) COMMERCIAL cleaning — commercial cleaning, office cleaning, commercial space cleaning; (2) CARPET/STEAM cleaning — carpet cleaning, carpet steam cleaning. Domestic, End of Tenancy, Regular, Tile, Upholstery/Mattress are offered but OUT of scope for the keyword grid this round (kept for context/future expansion).",
+  "client_keyword_priorities": {
+    "source": "Welcome form Q13 (client SEO preference) + BDM brief.",
+    "q13_preferences": ["commercial cleaning / office cleaning", "carpet steam cleaning"],
+    "bdm_brief": "SEO — 60 location keywords, targeting commercial cleaning x suburb (70%) and steam/carpet cleaning x suburb (30%).",
+    "silo_split": {
+      "commercial_cleaning": {"share": 0.70, "keywords": 42, "service_heads": ["commercial cleaning", "office cleaning", "commercial space cleaning"]},
+      "carpet_steam_cleaning": {"share": 0.30, "keywords": 18, "service_heads": ["carpet cleaning", "carpet steam cleaning"]}
+    },
+    "note": "All 60 are LOCATION keywords (service head x suburb). No general/head-term keywords this round (keyword_type=location_only). Suburbs are data-driven within the client's commercial corridors (see locations.targeting_note). Commercial silo (42 kw) needs business/commercial suburbs; carpet-steam silo (18 kw) can span the same suburb pool with residential-carpet demand."
+  },
+  "differentiators_usps": [
+    "100% satisfaction guarantee backed by a quality control system",
+    "20+ years of experience in the cleaning industry",
+    "All cleaners are well trained and hold up-to-date police checks",
+    "Available seven days a week including weekends and public holidays at no extra charge",
+    "Budget-friendly, competitive pricing for workplaces big and small",
+    "Eco-friendly and client-accessible cleaning approach",
+    "Friendly cleaners with strong English-speaking communication skills",
+    "No lock-in contracts — flexibility for customers",
+    "Over 1,200 happy customers served"
+  ],
+  "usp_note": "Form Q14 asked for 10 USPs; client provided 9.",
+  "service_focus": "Ringwood-based full-service cleaner serving Greater Melbourne (CBD, South East and East corridors). KWR spine this round = COMMERCIAL/OFFICE cleaning (70%) + CARPET/STEAM cleaning (30%), targeted at commercial-activity suburbs. Differentiated by 20+ years' experience, 7-day availability at no surcharge, police-checked eco-friendly cleaners, no lock-in contracts, 1,200+ customers, and $20M public liability cover.",
+  "locations": {
+    "headquarters": "Ringwood VIC 3134 (single base)",
+    "suburb_source": "data-driven",
+    "focus_areas": ["Melbourne CBD", "South East Melbourne", "East Melbourne"],
+    "prioritise": "Suburbs with commercial activity (business/office/retail density) — client cited Dandenong as an example target.",
+    "exclusions": ["Pakenham"],
+    "targeting_note": "Q15: 'CBD, South East Melbourne, and East Melbourne — target suburbs with commercial activities like Dandenong. Pakenham is too far away.' Data-driven Phase 2 discovery within VIC, filtered to the CBD/SE/East corridors and weighted toward commercial-activity suburbs. Pakenham HARD-excluded."
+  },
+  "competitors": [
+    {"name": "Whistle Clean Australia", "domain": "whistlecleanaustralia.com.au", "note": "Only competitor named (Q16). Domain verified live (HTTP 200). Seeded into Phase 3b via config.seed_competitors."}
+  ],
+  "ideal_customer": "Small and large business owners in Melbourne needing reliable commercial cleaning for offices, retail stores or restaurants; homeowners and renters needing domestic carpet cleaning or carpet steam/deep cleaning; tenants and landlords needing end-of-tenancy cleaning to secure deposits. Values professionalism, punctuality, competitive pricing, and a trustworthy service without long-term lock-in contracts.",
+  "commercial": {
+    "projects_served": "1,200+ happy customers since 2019, numerous cleans across Melbourne.",
+    "pricing_structure": "Budget-friendly, competitive rates for workplaces big and small. Free quotes. Both regular and one-time cleaning options. No lock-in contracts. Specific pricing figures not listed on the website — customers request a quote directly.",
+    "insurance": "Public liability $20M (under WorkCover insurance covering staff).",
+    "certifications": "Cleaners hold up-to-date police checks. No specific industry certifications, accreditations or licence numbers stated.",
+    "compliance": "In-house standards with a detailed staff handbook. Complies with OHS (Occupational Health & Safety) including manual handling, safe chemical handling, and basic first aid."
+  },
+  "mission": "To help homes and workplaces achieve a pristine, fresh and hygienic environment through professional, experienced and budget-friendly cleaning services delivered with passion and an eye for detail.",
+  "values": [
+    "Customer satisfaction",
+    "Eco-friendliness",
+    "Integrity and trustworthiness",
+    "Passion for cleaning",
+    "Professionalism"
+  ],
+  "meta": {
+    "keywords_budget": "60 location keywords",
+    "deadline": "2026-07-06",
+    "response_id": "wG2tuN5k",
+    "form_submitted": "2026-06-29",
+    "parsed_by": "kwr:init v0.9.1",
+    "parsed_on": "2026-07-01"
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0691 sec.",
+    "cost": 0.02021,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07010734-1150-0347-0000-26152923b155",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0122 sec.",
+            "cost": 0.02021,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "twinkleclean.com.au",
+                    "business.gov.au",
+                    "multicleaning.com.au",
+                    "amazon.com.au",
+                    "cleanwithcare.com.au",
+                    "greenkleenaustralia.com.au",
+                    "whistlecleanaustralia.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 7,
+                    "items": [
+                        {
+                            "target": "twinkleclean.com.au",
+                            "rank": 13
+                        },
+                        {
+                            "target": "business.gov.au",
+                            "rank": 597
+                        },
+                        {
+                            "target": "multicleaning.com.au",
+                            "rank": 277
+                        },
+                        {
+                            "target": "amazon.com.au",
+                            "rank": 714
+                        },
+                        {
+                            "target": "cleanwithcare.com.au",
+                            "rank": 150
+                        },
+                        {
+                            "target": "greenkleenaustralia.com.au",
+                            "rank": 172
+                        },
+                        {
+                            "target": "whistlecleanaustralia.com.au",
+                            "rank": 161
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
