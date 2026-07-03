@@ -3,53 +3,62 @@
 ## Business
 - Skyflex Pty Ltd (est. 2023). Melbourne-based (Epping showroom, appointment-based). ABN 70 670 127 287.
 - Model: online product retailer + DIY kits, plus an "approved installer network" — NOT a construction/installer company.
-- Services/products: Louvred pergolas, DIY pergola kits, Retractable Roof Systems, Folding Arm Awnings, BBQ Pods, Smart Outdoor TVs, Smartoilets.
-- Service areas per questionnaire: Melbourne, Sydney, Queensland — but see directive below, QLD paused.
-- DA (DataForSEO) at time of research: 16.
+- **Exactly 9 SKUs total** (confirmed via sitemap + live product pages): delta-commercial-folding-arm, delta-light-motorised, delta-motorized, delta-open-sky, delta-pro-retractable-roof (5 pergola/awning/roof family), skyflex-4k-android-smart-outdoor-tv (1), skyflex-bbq-pods (1), u6-smartoilet + u7-smartoilet (2). Thin catalog per category — factor this into any category-page content plan.
+- Service areas: Melbourne, Sydney, Queensland (QLD paused per client instruction, see below).
+- DA: report metadata cites 16 (older metric); fresh DataForSEO backlinks_bulk_ranks (0-100 scale) shows skyflex.au = 25 — use this fresher figure for any new competitive DA comparisons, note the source difference if asked.
+- WooCommerce backend: **both U6 and U7 Smartoilet, and the Outdoor TV product, are currently filed under "Uncategorized"** — no custom product category taxonomy exists yet for smart toilets or outdoor TVs. Confirmed by directly visiting the live pages (Playwright), not inferred. This is a real to-do before the new category pages (`/smart-toilets/`) can be built properly.
+- Testimonials block on the U6, U7, and Outdoor TV product pages currently shows **generic pergola/louvre-roof installation reviews** (wrong product) — a trust-signal defect worth flagging to the client separately from the keyword work.
 
 ## Engagement history
-- **Original delivery** (ref: `Skyflex.au-Keyword-URL-Meta.xlsx`): 20 general keywords, all pergola-focused, Melbourne+Sydney pairs across 8 pages:
-  - Homepage → Louvred pergolas melbourne, Louvred roof pergolas melbourne
-  - /louvred-pergolas-sydney/ → Louvred pergolas sydney, Louvred roof pergolas sydney
-  - /aluminium-pergolas/ → Aluminium pergola melbourne/sydney
-  - /outdoor-pergolas/ → Outdoor/Garden pergolas melbourne/sydney
-  - /pergola-kits/ → Pergola kits + Diy pergola melbourne/sydney
-  - /black-pergolas/, /white-pergolas/, /motorised-pergolas/ → melbourne/sydney pairs each
-- **Upgrade round v1** (2026-07-01, pipeline run in `research/v1/`): 10 additional general keywords, weighted toward 4 new priority products (smart toilet, folding arm awning, outdoor TV, BBQ pods) + 2 Melbourne/Sydney GSC quick-wins + 2 QLD geo-expansion picks.
-- **Upgrade round v2** (2026-07-02): client said "focus Sydney & Melbourne only, Melbourne primary, don't get ahead of ourselves on QLD yet." Dropped both QLD keywords (`pergola brisbane` 390/mo, `pergola kits brisbane` 40/mo), replaced with `folding arm awning sydney` and `retractable roof systems melbourne`. Rejected `pergola builders melbourne/sydney` as installer-intent mismatch (see lesson below).
-- **Upgrade round v3** (2026-07-02, same day correction): client's location instruction actually applied to **all 10 keywords**, not just the 2 QLD slots — the 4 new-product keywords still used the "australia" national qualifier, which was wrong per the client's explicit Sydney/Melbourne-only, Melbourne-primary directive. Corrected all 4:
-  - `smart toilet australia` (880/mo) → `smart toilet melbourne` (50/mo, KD0). Clean product-retailer SERP, good swap.
-  - `bidet toilet australia` (390/mo, KD1) → `bidet toilet melbourne` (40/mo, **KD jumps to 42**) — flagged: the Melbourne SERP pulls in 2 local installer/plumber local-pack results ("Bidet R Us Australia", "BIDET AUSTRALIA") not present on the bare-Australia SERP. Timeline pushed from 4-6mo to 6-12mo (strategic) to reflect the harder competitive set.
-  - `outdoor tv australia` (880/mo) → `outdoor tv melbourne` (**0/mo measured — zero, not just low**) — flagged prominently for client sign-off. Outdoor TVs are a nationally-searched product category in Australia; no keyword-planner tool showed ANY Melbourne-qualified volume for this phrase. SERP itself is still winnable/retailer-dominated, but the keyword string won't register in rank-tracking. Recommended the analyst confirm with the client whether this 0-volume label is acceptable or whether the page should keep "outdoor tv"/"outdoor tv australia" as its real tracked target with Melbourne trust signals layered onto the content instead.
-  - `bbq pod australia` (390/mo, singular) → `bbq pods melbourne` (30/mo, **switched to plural** — singular "bbq pod melbourne" measures 0/mo while plural measures 30/mo; even the category's own Instagram handle @bbqpodsmelb uses plural).
-  - **Net effect:** combined volume for these 4 slots dropped from 2,150/mo (australia-qualified) to 120/mo (melbourne-qualified) as the direct cost of full geo-consistency. Flagged transparently rather than absorbed silently — this is a real trade-off, not an error to hide.
-  - **Lesson learned:** when a client gives a location-focus instruction, apply it to the ENTIRE keyword set and re-check every keyword, not just the most obviously location-related ones (the 2 QLD swaps were the obvious fix; the 4 "australia" qualifiers were the same instruction being violated less obviously). Always ask "does this instruction apply narrower or broader than the first thing I fixed?"
-- **Rejected candidate** (both rounds): `pergola builders melbourne/sydney` (260/mo, 210/mo) — live SERP check showed 100% local installer/tradie intent (Mr Verandah, MBV, Totally Outdoors, hipages / Pergola Land, Urban Exteriors, Hi-Craft) — wrong business-model fit for a product/DIY-kit retailer. **Lesson: always live-SERP-check any "builder/installer" style candidate against the client's actual business model before selecting, even if volume/KD look attractive.**
+- **Original delivery** (ref: `Skyflex.au-Keyword-URL-Meta.xlsx`): 20 general keywords, all pergola-focused, Melbourne+Sydney pairs across 8 pages (homepage, /louvred-pergolas-sydney/, /aluminium-pergolas/, /outdoor-pergolas/, /pergola-kits/, /black-pergolas/, /white-pergolas/, /motorised-pergolas/).
+- **Upgrade round v1** (2026-07-01): 10 additional keywords, weighted toward 4 new priority products (smart toilet, folding arm awning, outdoor TV, BBQ pods) + 2 pergola GSC quick-wins + 2 QLD geo-expansion.
+- **v2** (2026-07-02): client said "focus Sydney & Melbourne, Melbourne primary, don't get ahead of ourselves on QLD." Dropped `pergola brisbane`/`pergola kits brisbane`, added `folding arm awning sydney` + `retractable roof systems melbourne`.
+- **v3** (2026-07-02, same day): realized the location instruction applied to ALL 10 keywords, not just the 2 QLD slots — the 4 new-product keywords still used the national "australia" qualifier. Corrected to Melbourne-qualified equivalents.
+- **v4 — FINAL** (2026-07-03): further refinement after deep SERP/competitive/catalog-depth analysis on 3 specific slots. See final table below.
 
-## Final 10 (v3, 2026-07-02 — current/live version)
-1. smart toilet melbourne — 50/mo, KD0 — optimise /product/u7-smartoilet/
-2. bidet toilet melbourne — 40/mo, KD42 (flagged, harder than expected) — new /smart-toilets/
-3. folding arm awning melbourne — 170/mo, KD0 — optimise /product/delta-commercial-folding-arm/
-4. retractable awning melbourne — 320/mo, KD0 — new /retractable-awnings/
-5. outdoor tv melbourne — 0/mo measured (flagged, needs client sign-off) — optimise /product/skyflex-4k-android-smart-outdoor-tv/
-6. bbq pods melbourne — 30/mo, KD0 (plural) — optimise /product/skyflex-bbq-pods/
-7. pergola sydney — 1,300/mo, already #5 — optimise /louvred-pergolas-sydney/
-8. pergola melbourne — 1,300/mo, already #12 — optimise /outdoor-pergolas/
-9. folding arm awning sydney — 110/mo, KD0 — optimise /product/delta-commercial-folding-arm/
-10. retractable roof systems melbourne — 50/mo, KD4 — optimise /product/delta-pro-retractable-roof/
+## Final 10 (v4 — current/live version, validated clean)
+| # | Keyword | Vol/mo | KD | Target | Timeline |
+|---|---|---|---|---|---|
+| 1 | smart toilets melbourne | 50 | 0 | New `/smart-toilets/` category page (U6+U7) | 3-6mo |
+| 2 | japanese toilets melbourne | 70 | 0 | Same `/smart-toilets/` page | 4-6mo |
+| 3 | folding arm awning melbourne | 170 | 0 | Optimise `/product/delta-commercial-folding-arm/` | 3-5mo |
+| 4 | retractable awning melbourne | 320 | 0 | New `/retractable-awnings/` | 4-6mo |
+| 5 | outdoor patio tv | 40 | 0 | Optimise `/product/skyflex-4k-android-smart-outdoor-tv/` | 6-12mo (strategic) |
+| 6 | bbq pods melbourne | 30 | 0 | Optimise `/product/skyflex-bbq-pods/` | Quick win |
+| 7 | pergola sydney | 1,300 | 8 | Optimise `/louvred-pergolas-sydney/` (already #5) | Quick win |
+| 8 | pergola melbourne | 1,300 | 0 | Optimise `/outdoor-pergolas/` (already #12) | 3-5mo |
+| 9 | folding arm awning sydney | 110 | 0 | Optimise `/product/delta-commercial-folding-arm/` | 3-5mo |
+| 10 | retractable roof systems melbourne | 50 | 4 | Optimise `/product/delta-pro-retractable-roof/` | 4-6mo |
 
-Effective keyword reach: 3,370/mo (primary volumes) — down from 5,500/mo in v2 due to the geo-correction above.
+**Effective reach: 3,440/mo.** Validation passed clean (0 errors, 0 warnings).
+
+## Key decisions and lessons from the review process
+
+1. **#1/#2 (smart toilets/japanese toilets):** Switched smart toilet keyword to **plural** ("smart toilets melbourne") once client confirmed they're building a genuine 2-product category page (U6+U7) — plural matched the site structure, not just SEO preference, and Google Ads confirmed identical volume either way.
+2. **#2 replacement (japanese toilets melbourne over bidet toilet melbourne):** `bidet toilet melbourne` was rejected — KD jumped to 42 (vs KD1 nationally) because the Melbourne SERP pulls in local installer/plumber businesses ("Bidet R Us Australia," "BIDET AUSTRALIA") not present nationally. `bidet melbourne` (90/mo, higher volume) was also rejected — live SERP showed the Shopping carousel is **entirely $35-$350 bidet seat attachments**, a completely different, cheaper product than Skyflex's $1,200 integrated units — classic intent contamination. `japanese toilets melbourne` (70/mo) won: zero installer contamination, clean bathroomware-specialist competitors (e&s, Sirius Design Centre, Cook & Bathe, ACS Bathrooms), and **verified directly against the live U6/U7 product pages** that the feature sets (warm water wash, air dry, UV sterilisation, automatic lid, voice control) functionally match the "Japanese toilet" category definition — though neither page currently uses the word "Japanese" (a content gap to fix, confirmed by visiting the live pages with Playwright, not assumed).
+3. **#5 (outdoor TV) — the hardest slot, ~45 keyword variations checked across 3 rounds:**
+   - `outdoor tv melbourne`: 0 measured volume — dropped.
+   - `outdoor tv australia`: 880/mo but SERP has a full AI Overview naming competing brands, a Knowledge Graph entity, RTINGS.com (professional review authority) ranking "best outdoor TVs," and Harvey Norman/JB Hi-Fi/Bunnings/Amazon in Shopping — a mature, editorially-covered, big-box category. Rejected.
+   - Spec-based long-tails (1000 nits, IP55, IP65, "android smart outdoor tv") — **all 0 volume**. Confirmed buyers don't search by exact spec in Australia.
+   - `alfresco tv` (90/mo, deceptively LOW competition) — **false positive**: SERP is 90% about the 1980s British sketch comedy show *Alfresco* (Stephen Fry/Hugh Laurie), confirmed via Knowledge Graph entity. Rejected.
+   - `affordable outdoor tv` (40/mo) — **rejected**: Google's own AI Overview defines this term as "buy a $199-$295 indoor TV + a $35-$100 weatherproof cover," a completely different (and cheaper) product/solution than Skyflex's purpose-built $1,785+ unit.
+   - `outdoor tv enclosure` (320/mo, highest volume found) — **rejected**: wrong product entirely (a protective case for an existing indoor TV, not an outdoor-rated TV).
+   - `waterproof outdoor tv` (260/mo, KD3) — real, substantial volume, but Shopping carousel is ~19/20 slots locked by Sylvox/Englaon/Spark (a brand-comparison query).
+   - **`outdoor patio tv` (40/mo) — WINNER, selected as primary over the higher-volume `waterproof outdoor tv`.** Reasoning: carousel composition analysis showed Skyflex's own product (`SKYFLEX 4K Android Smart Outdoor Tv 55"`, $1,785) **already appears** in this term's Shopping carousel today, alongside another small seller (MWE Display) — versus almost total brand lock-out on "waterproof outdoor tv." This is a genuine signal (not proof) that Google's algorithm treats this as a more open, less brand-locked query. `waterproof outdoor tv` retained as the secondary/aspirational term on the same page.
+   - **Open flag for the client:** if "waterproof"/weatherproof messaging is used anywhere on this page (primary or secondary), confirm the TV has an actual certified IP rating first — the current product page states only 4K UHD / 1000 nits / wide viewing angle, no IP/waterproof claim. Don't let SEO copy get ahead of the actual product spec.
+4. **Rejected across all rounds:** `pergola builders melbourne/sydney` (260/mo, 210/mo — pure local installer/tradie intent, wrong business model), `bidet melbourne` (90/mo — attachment-product intent contamination).
+5. **Meta-lesson:** Google Shopping carousel appearance ≠ organic rankability — they're different ranking systems (Merchant Center feed matching vs. backlinks/content/on-page SEO). Carousel composition is still a useful *diagnostic* signal (how brand-locked is this query?), just not a direct predictor of organic success. Used correctly here to choose between two real-volume candidates, not as a substitute for checking the organic SERP itself.
+6. **Always fact-check "obvious" spec-based keyword suggestions against live Google Ads volume data before recommending** — technical/spec long-tails (nits, IP rating, OS name) consistently returned zero search volume in this vertical, even though they sound like plausible "educated buyer" search terms.
 
 ## File locations
-- Deliverable v1 original: `clients/skyflex.au/Keyword Research Report - skyflex.au.html`
-- Deliverable v2 (QLD dropped, still had "australia" qualifiers — superseded): `clients/skyflex.au/Keyword Research Report - skyflex.au (v2 - Sydney-Melbourne focus).html`
-- **Deliverable v3 (current, all keywords Melbourne/Sydney-qualified): `clients/skyflex.au/Keyword Research Report - skyflex.au (v3 - Melbourne-Sydney corrected).html`**
-- Updated raw JSON (keywords.json, all-candidates.json, merged-candidates.json etc.) for v3: `clients/skyflex.au/research-v3-updated/`
+- **Current/final deliverable:** `clients/skyflex.au/Keyword Research Report - skyflex.au (v4 - FINAL).html`
+- Prior versions kept for audit trail: v1 (original, "australia"-qualified + QLD), v2 (QLD dropped, still "australia"-qualified), v3 (all Melbourne/Sydney-qualified, pre-final-refinement)
+- Current raw JSON (keywords.json, all-candidates.json, merged-candidates.json, etc.): `clients/skyflex.au/research-v4-final/`
 - Reference file for original 20 keywords + meta: `clients/skyflex.au/Skyflex.au-Keyword-URL-Meta.xlsx`
-- Pipeline lives in the plugin cache at runtime (`~/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/<domain>/`) — this client's data was copied in temporarily each round to run `write_keywords.py` / `validate_selection.py` / `generate_report.py`, then removed after regenerating the report to avoid polluting the shared plugin client list. `.active-client` was restored to `naztech.com.au` afterward each time.
+- Pipeline runs via the plugin cache at runtime (`~/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/<domain>/`) — copied in temporarily each round to run `write_keywords.py` / `validate_selection.py` / `generate_report.py`, then removed afterward. `.active-client` restored to `naztech.com.au` each time.
 
-## Open items / next decision points
-- **`outdoor tv melbourne` (rank 5) needs explicit client/analyst sign-off** — it's the one keyword in the final 10 with zero measured search volume. Decide before sending v3 to the client: accept as-is for geo-consistency, or keep the page's real tracked target as "outdoor tv"/"outdoor tv australia" with Melbourne trust signals layered on top of the content only.
-- QLD (Brisbane) pergola expansion is shelved, not abandoned — candidates retained in all-candidates.json appendix for a future round if the client re-opens that market.
-- Client's "approved installer network" USP exists but their site is a DTC/DIY-kit funnel, not a lead-gen quote site — avoid "builder/installer" intent keywords going forward unless the site adds a genuine installer-lead funnel.
-- `bidet toilet melbourne` (rank 2) is now KD42 with a 6-12mo timeline — set client expectations accordingly, this is not a quick win despite being in the "product page" pattern with the others.
+## Open items for the client conversation
+- **Confirm real IP/waterproof rating for the Outdoor TV** before any "waterproof" messaging goes live on that page (rank 5/10 secondary term).
+- **Build the `/smart-toilets/` category page** (currently doesn't exist — both U6 and U7 sit in WooCommerce's default "Uncategorized" bucket) with explicit "Japanese-style toilet" positioning language added to both product descriptions.
+- **Fix the testimonials block** on U6, U7, and Outdoor TV product pages — currently showing unrelated pergola/louvre-roof installation reviews.
+- QLD (Brisbane) pergola expansion is shelved, not abandoned — candidates retained in all-candidates.json for a future round if the client re-opens that market.

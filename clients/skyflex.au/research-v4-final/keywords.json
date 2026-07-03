@@ -8,30 +8,28 @@
       "location": 0
     },
     "total_candidates_analysed": 69,
-    "effective_keyword_reach": 3370
+    "effective_keyword_reach": 3440
   },
   "general_keywords": [
     {
       "rank": 1,
-      "keyword": "smart toilet melbourne",
+      "keyword": "smart toilets melbourne",
       "silo": "smart_toilet",
       "service_tier": "A",
-      "opportunity_score": 0.5925,
+      "opportunity_score": 0.5912,
       "score_confidence": "MEDIUM",
       "volume": {
         "raw": 50,
         "ai_adjusted": 50,
-        "trend": "+35.7%",
+        "trend": "0%",
         "seasonal_peak": "",
         "cross_validation": "PASS"
       },
       "difficulty": 0,
       "winnability": 0.55,
-      "cpc": 1.38,
+      "cpc": 1.05,
       "intent": "transactional",
-      "serp_features": [
-        "paa"
-      ],
+      "serp_features": [],
       "ai_overview": {
         "classification": "none",
         "citation_opportunity": false
@@ -39,86 +37,85 @@
       "timeline": "near_term_3_6mo",
       "defensibility": "high",
       "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "target_url": "/product/u7-smartoilet/",
-      "action": "optimise_existing",
-      "content_type": "product page (optimise)",
-      "content_investment": "low",
+      "target_url": "/smart-toilets/",
+      "action": "create_new",
+      "content_type": "category page (new, 2 products: U6+U7)",
+      "content_investment": "medium",
       "gbp_tag": "organic-only",
-      "reasoning": "CLIENT DIRECTIVE 2026-07-02 (v2 correction): client said 'focus Sydney & Melbourne ... main focus Melbourne' -- the national 'australia' qualifier used in the v1 selection was wrong per this instruction, not just the QLD slots. Replaces 'smart toilet australia' (880/mo). Melbourne-qualified volume is materially lower at 50/mo (verified live via DataForSEO Google Ads Search Volume, 2026-07-02) but KD stays at 0 and the live SERP (checked 2026-07-02) is clean product-retailer territory -- e&s, smarttoiletaustralia.com.au, TOTO (bandh.com.au), Wellsons, Johnson Suisse, Roca -- no installer/plumber local-pack intent mixed in, so it's still a good business-model fit for a DA-16 product retailer. Action unchanged: optimise /product/u7-smartoilet/ + Epping-showroom trust content; bare 'smart toilet' (2,400) and 'smart toilet australia' (880) remain aspirational secondaries the page grows into. Page-1 realistic 3-6 months.",
+      "reasoning": "FINAL CORRECTION 2026-07-03: switched to plural to match the planned category page structure -- client confirmed the site only has 2 smart toilet SKUs (U6 and U7 Smartoilet), so 'smart toilets melbourne' (plural, 50/mo, same volume/trend as singular) is the natural head term for a genuine 2-product category page, mirroring how competitors structure this (e&s, Wellsons, Johnson Suisse, ROCA all rank with category pages, not single product pages, for this term class). Action: build /smart-toilets/ housing both U6 ($1,200) and U7 ($1,200) with comparison content; individual product pages remain live and internally link up. KD 0, no installer contamination in the SERP -- clean bathroomware-specialist competitive set.",
       "secondaries": {
         "must_mention": [],
         "keywords": [
           "smart toilet",
           "smart toilet australia",
-          "smart toilet seat",
-          "japanese smart toilet",
-          "electric bidet"
+          "japanese toilets melbourne",
+          "smart toilet seat"
         ],
         "paa_questions": [],
         "long_tail": [
           "smart toilet",
           "smart toilet australia",
-          "smart toilet seat",
-          "japanese smart toilet",
-          "electric bidet"
+          "japanese toilets melbourne",
+          "smart toilet seat"
         ],
         "effective_reach": 0
       }
     },
     {
       "rank": 2,
-      "keyword": "bidet toilet melbourne",
+      "keyword": "japanese toilets melbourne",
       "silo": "smart_toilet",
       "service_tier": "B",
-      "opportunity_score": 0.4628,
-      "score_confidence": "HIGH",
+      "opportunity_score": 0.5406,
+      "score_confidence": "MEDIUM",
       "volume": {
-        "raw": 40,
-        "ai_adjusted": 40,
+        "raw": 70,
+        "ai_adjusted": 70,
         "trend": "0%",
         "seasonal_peak": "",
         "cross_validation": "PASS"
       },
-      "difficulty": 42,
-      "winnability": 0.3,
-      "cpc": 1.31,
+      "difficulty": 0,
+      "winnability": 0.6,
+      "cpc": 0.4,
       "intent": "commercial_investigation",
       "serp_features": [
-        "local_pack",
         "paa"
       ],
       "ai_overview": {
         "classification": "none",
         "citation_opportunity": false
       },
-      "timeline": "strategic_6_12mo",
+      "timeline": "near_term_4_6mo",
       "defensibility": "medium",
       "gap_status": "MISSING",
       "target_url": "/smart-toilets/",
       "action": "create_new",
-      "content_type": "category page (new)",
+      "content_type": "category page (shared with rank 1)",
       "content_investment": "medium",
       "gbp_tag": "organic-only",
-      "reasoning": "CLIENT DIRECTIVE 2026-07-02 (v2 correction): replaces 'bidet toilet australia' (390/mo, KD 1). WARNING flagged for the analyst: the Melbourne-qualified version is a materially harder target -- volume drops to 40/mo AND KD jumps to 42 (verified via DataForSEO Bulk Keyword Difficulty, 2026-07-02), because the live Melbourne SERP pulls in 2 local-pack installer/plumber results ('Bidet R Us Australia', 'BIDET AUSTRALIA' -- both 'supplied and fitted' businesses) that don't appear on the bare-Australia SERP. Organic results are still retailer-dominated (thebidetshop.com.au, bidetaustralia.com.au) so the page itself is on-topic, but realistic timeline moves from 4-6 months to 6-12 months given the harder competitive set. Action unchanged: build /smart-toilets/ category page + FAQ; bare 'bidet toilet' (9,900) and 'bidet toilet australia' (390) are long-term aspirational secondaries.",
+      "reasoning": "FINAL CORRECTION 2026-07-03: replaces 'bidet toilet melbourne' (40/mo, KD42, 2 installer/plumber businesses in local pack). 'japanese toilets melbourne' (70/mo) is cleanly better on every axis checked: higher volume, KD unmeasured (vs confirmed 42), and the live SERP (checked 2026-07-02) is 100% bathroomware specialists -- e&s, Sirius Design Centre, Cook & Bathe (whose own page states 'smart toilets... also known as... Japanese-style toilets'), ACS Bathrooms, Just Bathroomware -- zero installer/plumber contamination, unlike every bidet-branded variant tested ('bidet toilet melbourne', 'bidet melbourne', 'bidet toilet seat melbourne' all had local-pack install businesses). Verified directly against the live U6/U7 Smartoilet product pages: both have the full functional feature set that defines this category (warm water wash, warm air dry, UV sterilisation, automatic lid, voice control) at $1,200 -- well under the $3,000-$22,000 premium Japanese-toilet brands (TOTO Neorest, e&s) cited in the SERP. CONTENT GAP: neither product page currently uses the word 'Japanese' anywhere -- this must be added to the new /smart-toilets/ category page and both product descriptions for topical relevance. Action: build /smart-toilets/ with explicit 'Japanese-style' positioning + FAQ; realistic page-1 in 4-6 months.",
       "secondaries": {
-        "must_mention": [],
+        "must_mention": [
+          "Japanese-style",
+          "washlet"
+        ],
         "keywords": [
-          "bidet toilet",
+          "smart toilets melbourne",
+          "japanese toilet sydney",
           "bidet toilet australia",
-          "bidet toilet seat",
-          "bidet attachment",
-          "toilet with built in bidet"
+          "bidet toilet"
         ],
         "paa_questions": [
-          "How much to install a bidet in Melbourne?",
-          "Is installing a bidet illegal in Australia?"
+          "Can you get a Japanese toilet in Australia?",
+          "Is it worth getting a Japanese toilet?",
+          "How much does a Japanese toilet cost to install?"
         ],
         "long_tail": [
-          "bidet toilet",
+          "smart toilets melbourne",
+          "japanese toilet sydney",
           "bidet toilet australia",
-          "bidet toilet seat",
-          "bidet attachment",
-          "toilet with built in bidet"
+          "bidet toilet"
         ],
         "effective_reach": 0
       }
@@ -227,58 +224,55 @@
     },
     {
       "rank": 5,
-      "keyword": "outdoor tv melbourne",
+      "keyword": "outdoor patio tv",
       "silo": "outdoor_tv",
       "service_tier": "C",
-      "opportunity_score": 0.4969,
-      "score_confidence": "LOW",
+      "opportunity_score": 0.5653,
+      "score_confidence": "MEDIUM",
       "volume": {
-        "raw": 0,
-        "ai_adjusted": 0,
+        "raw": 40,
+        "ai_adjusted": 40,
         "trend": "0%",
         "seasonal_peak": "",
-        "cross_validation": "ZERO_MEASURED"
+        "cross_validation": "PASS"
       },
       "difficulty": 0,
       "winnability": 0.5,
-      "cpc": 0.0,
+      "cpc": 1.19,
       "intent": "commercial_investigation",
       "serp_features": [
         "paa"
       ],
       "ai_overview": {
         "classification": "medium_deflection",
-        "citation_opportunity": false
+        "citation_opportunity": true
       },
       "timeline": "strategic_6_12mo",
-      "defensibility": "low",
+      "defensibility": "medium",
       "gap_status": "EXISTS_NEEDS_OPTIMISATION",
       "target_url": "/product/skyflex-4k-android-smart-outdoor-tv/",
       "action": "optimise_existing",
-      "content_type": "product + category",
+      "content_type": "product page (optimise)",
       "content_investment": "light",
       "gbp_tag": "organic-only",
-      "reasoning": "CLIENT DIRECTIVE 2026-07-02 (v2 correction): replaces 'outdoor tv australia' (880/mo, score 0.66) -- this is the WEAKEST swap in the revised list and needs explicit analyst/client sign-off. DataForSEO Google Ads Search Volume returned ZERO measurable monthly volume for 'outdoor tv melbourne' -- verified live, 2026-07-02, no data at all, not just a low number. This is a real product-category constraint: Australians search 'outdoor tv' (2,900/mo) or 'outdoor tv australia' (880/mo) generically, not by city -- unlike pergolas, outdoor TVs aren't a local-install-driven purchase. Live SERP for 'outdoor tv melbourne' IS winnable and retailer-dominated (outdoortv.com.au, sylvoxtv.com.au, Harvey Norman) with only 2 install-service results mixed in lower down (tvmagic.com.au, handsonelec.com.au), so the page itself is a fine build -- but the exact keyword string will show 0 in rank-tracking and volume reports. RECOMMENDATION: keep this slot's PAGE optimisation (/product/skyflex-4k-android-smart-outdoor-tv/ + Epping trust content) but confirm with the client whether reported volume showing 0/mo for the primary keyword is acceptable, or whether they'd prefer the page's tracked primary stay as 'outdoor tv australia' with Melbourne trust signals layered on top of the content instead of in the keyword string. Flagging for explicit sign-off rather than silently picking one.",
+      "reasoning": "FINAL CORRECTION 2026-07-03: replaces 'outdoor tv melbourne' (0/mo measured -- dropped entirely, no Melbourne/national/spec-based variant tested across ~45 keywords had both real volume and a winnable competitive fit). Chose 'outdoor patio tv' (40/mo) over the higher-volume 'waterproof outdoor tv' (260/mo, KD3) as PRIMARY based on Shopping carousel composition: the 'waterproof outdoor tv' carousel is ~19/20 slots locked by Sylvox/Englaon/Spark (a brand-comparison query Google treats as closed); the 'outdoor patio tv' carousel already includes Skyflex's own SKYFLEX 4K Android Smart Outdoor Tv 55\" ($1,785) alongside one other small seller (MWE Display) -- Google's own algorithm already treats this as a more open query, with zero SEO investment yet. Organic SERP is still Harvey Norman #1 + RTINGS.com (professional review site) -- this is a genuine 6-12 month strategic play, not a quick win. 'waterproof outdoor tv' held as an aspirational secondary on the same page. IMPORTANT: if 'waterproof'/weatherproof language is used anywhere on the page, confirm the TV has an actual certified IP rating first -- current product page states only 4K UHD / 1000 nits / wide viewing angle, no IP/waterproof claim.",
       "secondaries": {
         "must_mention": [],
         "keywords": [
+          "waterproof outdoor tv",
           "outdoor tv",
           "outdoor tv australia",
-          "weatherproof outdoor tv",
-          "outdoor television",
-          "4k outdoor tv"
+          "patio tv"
         ],
         "paa_questions": [
-          "What kind of TV is best for outdoor use?",
-          "Is it worth buying an outdoor TV?",
-          "How much does an outdoor TV cost?"
+          "What TV is best for an outdoor patio?",
+          "Can you put a TV outside in a covered patio?"
         ],
         "long_tail": [
+          "waterproof outdoor tv",
           "outdoor tv",
           "outdoor tv australia",
-          "weatherproof outdoor tv",
-          "outdoor television",
-          "4k outdoor tv"
+          "patio tv"
         ],
         "effective_reach": 0
       }

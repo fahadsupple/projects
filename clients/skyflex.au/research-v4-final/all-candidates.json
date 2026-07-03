@@ -13,2059 +13,27 @@
       "canonical_source": "dataforseo"
     },
     "analyst_addendum_2026_07_02": "Client directive 2026-07-02: focus Sydney & Melbourne only, Melbourne primary, drop Queensland. Removed 'pergola brisbane' and 'pergola kits brisbane' (pergola_qld_geo silo). Added 'folding arm awning sydney' (mirrors existing Melbourne pick, extends folding_arm_awning silo to Sydney) and 'retractable roof systems melbourne' (new retractable_roof silo -- matches Skyflex's own 'Retractable Roof Systems' service line and existing /product/delta-pro-retractable-roof/ page, which is live but untargeted by any head keyword -- same 'keyword-starved new-product page' pattern as the other 4 priority products). Volumes/KD verified live via DataForSEO Google Ads Search Volume + Labs Bulk Keyword Difficulty + SERP Organic Live Advanced on 2026-07-02 (not part of the original 2026-07-01 batch pipeline run). Rejected candidate: 'pergola builders melbourne/sydney' (260/mo, 210/mo) -- live SERP check showed 100% local installer/tradie intent (Mr Verandah, MBV, Totally Outdoors, hipages / Pergola Land, Urban Exteriors, Hi-Craft) which does not match Skyflex's product-retailer + DIY-kit business model.",
-    "analyst_addendum_2026_07_02_v2": "Second client directive relayed 2026-07-02: the 'australia' national qualifier on the 4 new-product keywords is WRONG per the client's location instruction -- they said 'focus Sydney & Melbourne ... main focus Melbourne', which rules out national-qualified primaries entirely, not just QLD expansion. Swapped: 'smart toilet australia'->'smart toilet melbourne' (880->50/mo), 'bidet toilet australia'->'bidet toilet melbourne' (390->40/mo, KD jumps 1->42 because the Melbourne SERP mixes in 2 local installer/plumber local-pack results not present on the bare-Australia SERP), 'outdoor tv australia'->'outdoor tv melbourne' (880->0/mo measured -- FLAGGED, no national or state keyword-planner tool shows ANY measurable monthly volume for this exact phrase; SERP is still winnable/retailer-dominated (outdoortv.com.au, Sylvox, Harvey Norman) but the keyword itself won't register in rank-tracking volume reports -- kept per client instruction but analyst should confirm with client this is acceptable given effective_keyword_reach drops materially), 'bbq pod australia'-> 'bbq pods melbourne' (390->30/mo, switched to plural because singular 'bbq pod melbourne' has 0 measured volume while plural has real volume -- Instagram/Future Shade's own social presence uses 'BBQPODSMELB' handle, confirming plural is the natural local phrasing). Net effect: combined primary volume for these 4 slots drops from 2,150/mo (australia-qualified) to 120/mo (melbourne-qualified) -- a genuine data trade-off from strict geo-consistency, flagged for the analyst/client, not silently absorbed."
+    "analyst_addendum_2026_07_02_v2": "Second client directive relayed 2026-07-02: the 'australia' national qualifier on the 4 new-product keywords is WRONG per the client's location instruction -- they said 'focus Sydney & Melbourne ... main focus Melbourne', which rules out national-qualified primaries entirely, not just QLD expansion. Swapped: 'smart toilet australia'->'smart toilet melbourne' (880->50/mo), 'bidet toilet australia'->'bidet toilet melbourne' (390->40/mo, KD jumps 1->42 because the Melbourne SERP mixes in 2 local installer/plumber local-pack results not present on the bare-Australia SERP), 'outdoor tv australia'->'outdoor tv melbourne' (880->0/mo measured -- FLAGGED, no national or state keyword-planner tool shows ANY measurable monthly volume for this exact phrase; SERP is still winnable/retailer-dominated (outdoortv.com.au, Sylvox, Harvey Norman) but the keyword itself won't register in rank-tracking volume reports -- kept per client instruction but analyst should confirm with client this is acceptable given effective_keyword_reach drops materially), 'bbq pod australia'-> 'bbq pods melbourne' (390->30/mo, switched to plural because singular 'bbq pod melbourne' has 0 measured volume while plural has real volume -- Instagram/Future Shade's own social presence uses 'BBQPODSMELB' handle, confirming plural is the natural local phrasing). Net effect: combined primary volume for these 4 slots drops from 2,150/mo (australia-qualified) to 120/mo (melbourne-qualified) -- a genuine data trade-off from strict geo-consistency, flagged for the analyst/client, not silently absorbed.",
+    "analyst_addendum_2026_07_03_v4": "Third round of corrections 2026-07-03: (1) smart toilet melbourne -> smart toilets melbourne (plural, matching the planned 2-product U6/U7 category page). (2) bidet toilet melbourne -> japanese toilets melbourne (70/mo vs 40/mo, and critically NO installer/plumber local-pack contamination unlike every bidet-branded variant checked -- SERP is clean bathroomware specialists: e&s, Sirius Design Centre, Cook & Bathe, ACS Bathrooms, Just Bathroomware). Verified live that U6/U7 Smartoilet feature sets (warm water wash, warm air dry, UV sterilisation, automatic lid, voice control) functionally match the 'Japanese toilet' category definition used by competitors, though neither product page currently uses the word 'Japanese' -- content gap to fix. (3) outdoor tv melbourne (0 measured volume) -> outdoor patio tv (40/mo) as PRIMARY, with waterproof outdoor tv (260/mo, KD3) as a SECONDARY/aspirational term on the same page. Chose outdoor patio tv over the higher-volume waterproof outdoor tv because Shopping carousel composition differs meaningfully: 'waterproof outdoor tv' carousel is ~19/20 slots locked by Sylvox/Englaon/Spark (brand-comparison intent); 'outdoor patio tv' carousel already includes Skyflex's own SKYFLEX 4K Android Smart Outdoor Tv 55\" product ($1,785) alongside one other small seller (MWE Display) -- Google's own algorithm already treats this as a more open, less brand-locked query, corroborated by Skyflex's product already surfacing here with zero organic SEO investment. NOTE: if 'waterproof' messaging is used anywhere on the page (even as secondary), the client must confirm the TV has an actual certified IP rating -- product page currently states only 4K UHD / 1000 nits / wide viewing angle, no waterproof/IP rating claim.",
+    "business": {},
+    "reputation": {},
+    "scoring": {
+      "total_scored": 78,
+      "diy_filtered": 0,
+      "weights": {
+        "demand": 0.15,
+        "winnability": 0.2,
+        "intent_fit": 0.15,
+        "commercial": 0.08,
+        "gap_value": 0.08,
+        "serp_opp": 0.05,
+        "effort_adjusted": 0.09,
+        "defensibility": 0.05,
+        "geography_fit": 0.15
+      }
+    }
   },
   "candidates": [
-    {
-      "keyword": "smart toilet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2400,
-        "trend_yoy": "-6.9%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.36,
-        "dataforseo": 1.36
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "gap_value_class": "optimisation",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "smart toilet australia",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 880,
-        "trend_yoy": "+6.9%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.38,
-        "dataforseo": 1.38
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "smart toilet seat",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 590,
-        "trend_yoy": "-11.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.98,
-        "dataforseo": 0.98
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "electric bidet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 480,
-        "trend_yoy": "+23.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.87,
-        "dataforseo": 0.87
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bidet toilet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 9900,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 1,
-      "cpc": {
-        "average": 1.03,
-        "dataforseo": 1.03
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bidet toilet seat",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 4400,
-        "trend_yoy": "+22.2%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.07,
-        "dataforseo": 1.07
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bidet attachment",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1000,
-        "trend_yoy": "+45.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.73,
-        "dataforseo": 0.73
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bidet attachment for toilet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 880,
-        "trend_yoy": "+370.9%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.9,
-        "dataforseo": 0.9
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "japanese smart toilet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 110,
-        "trend_yoy": "-20.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.48,
-        "dataforseo": 0.48
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "heated bidet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 70,
-        "trend_yoy": "-16.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.43,
-        "dataforseo": 0.43
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "toilet with built in bidet",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 170,
-        "trend_yoy": "+40.5%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.8,
-        "dataforseo": 0.8
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "smart toilet melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 50,
-        "trend_yoy": "+35.7%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.05,
-        "dataforseo": 1.05
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "smart toilet sydney",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "smart_toilet",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 10,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.56,
-        "dataforseo": 1.56
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "folding arm awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1600,
-        "trend_yoy": "+9.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 3.8,
-        "dataforseo": 3.8
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "retractable awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 6600,
-        "trend_yoy": "+7.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.77,
-        "dataforseo": 2.77
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "electric awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+1.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.82,
-        "dataforseo": 2.82
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "awnings for homes",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.98,
-        "dataforseo": 1.98
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "awning for patio",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 880,
-        "trend_yoy": "-6.5%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.92,
-        "dataforseo": 2.92
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "retractable patio awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "+43.6%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.63,
-        "dataforseo": 2.63
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "waterproof retractable awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "+14.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.8,
-        "dataforseo": 2.8
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "roll out awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "+8.2%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.81,
-        "dataforseo": 1.81
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "automatic awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 170,
-        "trend_yoy": "-29.2%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 3.21,
-        "dataforseo": 3.21
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "motorized retractable awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 110,
-        "trend_yoy": "-23.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.56,
-        "dataforseo": 2.56
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "commercial folding arm awning",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "inferred_null"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "taxonomy"
-    },
-    {
-      "keyword": "folding arm awning melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 170,
-        "trend_yoy": "+24.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 5.56,
-        "dataforseo": 5.56
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "video"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "folding arm awning sydney",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 110,
-        "trend_yoy": "+14.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 9.67,
-        "dataforseo": 9.67
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "retractable awning melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "folding_arm_awning",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "-12.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 17,
-      "cpc": {
-        "average": 6.77,
-        "dataforseo": 6.77
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "medium",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "outdoor tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+22.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.73,
-        "dataforseo": 2.73
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor television",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+22.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.73,
-        "dataforseo": 2.73
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "weatherproof outdoor tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 260,
-        "trend_yoy": "+90.2%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.93,
-        "dataforseo": 2.93
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor smart tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 40,
-        "trend_yoy": "+37.5%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 2,
-      "cpc": {
-        "average": 2.16,
-        "dataforseo": 2.16
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "waterproof tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 390,
-        "trend_yoy": "+22.7%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.38,
-        "dataforseo": 2.38
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor tvs for sale",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 50,
-        "trend_yoy": "+25.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 3.4,
-        "dataforseo": 3.4
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor tv australia",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 590,
-        "trend_yoy": "+1.4%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 4.72,
-        "dataforseo": 4.72
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "taxonomy"
-    },
-    {
-      "keyword": "4k outdoor tv",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 10,
-        "trend_yoy": "+50.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "taxonomy"
-    },
-    {
-      "keyword": "outdoor tv melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "inferred_null"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "outdoor tv sydney",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "outdoor_tv",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "inferred_null"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "bbq pod",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+267.6%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.55,
-        "dataforseo": 0.55
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bbq shelter",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+39.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.43,
-        "dataforseo": 0.43
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor bbq area",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1000,
-        "trend_yoy": "-23.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.68,
-        "dataforseo": 0.68
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor bbq kitchen",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 4400,
-        "trend_yoy": "-18.2%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.65,
-        "dataforseo": 0.65
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "alfresco bbq",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "-13.5%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.98,
-        "dataforseo": 0.98
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "outdoor kitchen pod",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "+280.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.69,
-        "dataforseo": 0.69
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "bbq pod australia",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 390,
-        "trend_yoy": "+104.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.55,
-        "dataforseo": 0.55
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "taxonomy"
-    },
-    {
-      "keyword": "bbq pod melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "bbq_pod",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "inferred_null"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "video",
-        "images"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "pergola melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1300,
-        "trend_yoy": "-12.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 6.51,
-        "dataforseo": 6.51
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": 12,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "pergolas melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1300,
-        "trend_yoy": "-12.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 20,
-      "cpc": {
-        "average": 6.51,
-        "dataforseo": 6.51
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "medium",
-      "gsc_position": null,
-      "current_position": 1,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
     {
       "keyword": "pergola sydney",
       "type": "general",
@@ -2107,355 +75,21 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "pergolas sydney",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 1300,
-        "trend_yoy": "-8.6%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.7644,
+      "dimensions": {
+        "demand": 0.7794,
+        "winnability": 0.816,
+        "intent_fit": 0.3,
+        "commercial": 0.9851,
+        "gap_value": 0.6,
+        "serp_opp": 0.55,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
       },
-      "difficulty": 0,
-      "cpc": {
-        "average": 10.36,
-        "dataforseo": 10.36
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_OPTIMISED",
-      "gap_value_class": "no_gap",
-      "serp_features": [
-        "local_pack"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "louvre pergola melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 260,
-        "trend_yoy": "+51.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 6,
-      "cpc": {
-        "average": 8.7,
-        "dataforseo": 8.7
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "louvre roof melbourne",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 70,
-        "trend_yoy": "+30.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 6,
-      "cpc": {
-        "average": 18.23,
-        "dataforseo": 18.23
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": 8,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "louvred pergola",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 42,
-      "cpc": {
-        "average": 5.14,
-        "dataforseo": 5.14
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "gap_value_class": "optimisation",
-      "serp_features": [
-        "shopping",
-        "video",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "heavy",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "motorised pergola",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 140,
-        "trend_yoy": "+48.1%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 4.07,
-        "dataforseo": 4.07
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "gap_value_class": "optimisation",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "video"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "aluminium pergola",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 720,
-        "trend_yoy": "+31.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 3.83,
-        "dataforseo": 3.83
-      },
-      "intent": "informational",
-      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "gap_value_class": "optimisation",
-      "serp_features": [
-        "local_pack",
-        "shopping",
-        "images",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "louvre pergolas",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 2900,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 5.14,
-        "dataforseo": 5.14
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
-    },
-    {
-      "keyword": "motorised louvre pergola",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_quickwins",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 90,
-        "trend_yoy": "+18.8%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 5.23,
-        "dataforseo": 5.23
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "video",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "louvre roof",
@@ -2499,10 +133,24 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.752,
+      "dimensions": {
+        "demand": 0.7794,
+        "winnability": 0.82,
+        "intent_fit": 0.3,
+        "commercial": 0.8507,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
-      "keyword": "open pergola",
+      "keyword": "louvre pergola melbourne",
       "type": "general",
       "suburb": "",
       "service": "",
@@ -2511,27 +159,25 @@
       "volume": {
         "dataforseo": 0,
         "google_ads": 0,
-        "average": 320,
-        "trend_yoy": "-17.7%",
+        "average": 260,
+        "trend_yoy": "+51.0%",
         "cross_validation": "OK",
         "volume_source": "dfs_primary"
       },
-      "difficulty": 0,
+      "difficulty": 6,
       "cpc": {
-        "average": 2.93,
-        "dataforseo": 2.93
+        "average": 8.7,
+        "dataforseo": 8.7
       },
       "intent": "informational",
-      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
-      "gap_value_class": "optimisation",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
       "serp_features": [
-        "video",
-        "images",
-        "paa"
+        "local_pack"
       ],
       "ai_overview": {
         "classification": "low_deflection",
-        "citation_opportunity": true
+        "citation_opportunity": false
       },
       "ai_overview_label": "low_or_none",
       "content_investment": "light",
@@ -2543,7 +189,77 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "gsc_query"
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.7258,
+      "dimensions": {
+        "demand": 0.6151,
+        "winnability": 0.82,
+        "intent_fit": 0.3,
+        "commercial": 0.9254,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvre roof melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 70,
+        "trend_yoy": "+30.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 6,
+      "cpc": {
+        "average": 18.23,
+        "dataforseo": 18.23
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": 8,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.7105,
+      "dimensions": {
+        "demand": 0.4735,
+        "winnability": 0.82,
+        "intent_fit": 0.3,
+        "commercial": 1.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "pergola brisbane",
@@ -2586,325 +302,41 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6814,
+      "dimensions": {
+        "demand": 0.6487,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.7463,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
-      "keyword": "gazebos brisbane",
+      "keyword": "retractable awning melbourne",
       "type": "general",
       "suburb": "",
       "service": "",
       "tier": "C",
-      "silo": "pergola_qld_geo",
+      "silo": "folding_arm_awning",
       "volume": {
         "dataforseo": 0,
         "google_ads": 0,
-        "average": 140,
-        "trend_yoy": "+0.0%",
+        "average": 320,
+        "trend_yoy": "-12.3%",
         "cross_validation": "OK",
         "volume_source": "dfs_primary"
       },
-      "difficulty": 0,
+      "difficulty": 17,
       "cpc": {
-        "average": 2.19,
-        "dataforseo": 2.19
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "pergola kits brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 40,
-        "trend_yoy": "+180.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.58,
-        "dataforseo": 2.58
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping",
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "diy pergola kits brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 40,
-        "trend_yoy": "-33.3%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 2.0,
-        "dataforseo": 2.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "louvred pergola brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 30,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "operable louvre roof brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 30,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "paa"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": true
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "louvered pergola brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 20,
-        "trend_yoy": "-25.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 6.15,
-        "dataforseo": 6.15
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "aluminium pergola brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 10,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 1.64,
-        "dataforseo": 1.64
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "local_pack",
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "low_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "low_or_none",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
-    },
-    {
-      "keyword": "louvre roof brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 10,
-        "trend_yoy": "+0.0%",
-        "cross_validation": "OK",
-        "volume_source": "dfs_primary"
-      },
-      "difficulty": 24,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
+        "average": 6.77,
+        "dataforseo": 6.77
       },
       "intent": "informational",
       "gap_status": "MISSING_INFORMATIONAL",
@@ -2926,69 +358,41 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "google_ads_ideas"
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.6778,
+      "dimensions": {
+        "demand": 0.6159,
+        "winnability": 0.758,
+        "intent_fit": 0.3,
+        "commercial": 0.9104,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
-      "keyword": "motorised pergola brisbane",
+      "keyword": "folding arm awning sydney",
       "type": "general",
       "suburb": "",
       "service": "",
       "tier": "C",
-      "silo": "pergola_qld_geo",
+      "silo": "folding_arm_awning",
       "volume": {
         "dataforseo": 0,
         "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
+        "average": 110,
+        "trend_yoy": "+14.3%",
         "cross_validation": "OK",
-        "volume_source": "inferred_null"
+        "volume_source": "dfs_primary"
       },
       "difficulty": 0,
       "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
-      },
-      "intent": "informational",
-      "gap_status": "MISSING_INFORMATIONAL",
-      "gap_value_class": "competitor_gap",
-      "serp_features": [
-        "shopping"
-      ],
-      "ai_overview": {
-        "classification": "medium_deflection",
-        "citation_opportunity": false
-      },
-      "ai_overview_label": "present",
-      "content_investment": "light",
-      "gsc_position": null,
-      "current_position": null,
-      "competitors_ranking": [],
-      "competitor_content_depth": {
-        "avg_word_count": null
-      },
-      "serp_volatility": null,
-      "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
-    },
-    {
-      "keyword": "louvred pergolas brisbane",
-      "type": "general",
-      "suburb": "",
-      "service": "",
-      "tier": "C",
-      "silo": "pergola_qld_geo",
-      "volume": {
-        "dataforseo": 0,
-        "google_ads": 0,
-        "average": 0,
-        "trend_yoy": "0%",
-        "cross_validation": "OK",
-        "volume_source": "inferred_null"
-      },
-      "difficulty": 0,
-      "cpc": {
-        "average": 0.0,
-        "dataforseo": 0.0
+        "average": 9.67,
+        "dataforseo": 9.67
       },
       "intent": "informational",
       "gap_status": "MISSING_INFORMATIONAL",
@@ -3011,7 +415,79 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier"
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.6766,
+      "dimensions": {
+        "demand": 0.5222,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.9552,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "folding arm awning melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 170,
+        "trend_yoy": "+24.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 5.56,
+        "dataforseo": 5.56
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.6734,
+      "dimensions": {
+        "demand": 0.5306,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.8358,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "folding arm awning sydney",
@@ -3058,7 +534,21 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier_analyst_added_2026-07-02"
+      "seed_source": "city_modifier_analyst_added_2026-07-02",
+      "opportunity_score": 0.6616,
+      "dimensions": {
+        "demand": 0.5222,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.9552,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.65,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "retractable roof systems melbourne",
@@ -3104,7 +594,596 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "dataforseo_keyword_suggestions_analyst_added_2026-07-02"
+      "seed_source": "dataforseo_keyword_suggestions_analyst_added_2026-07-02",
+      "opportunity_score": 0.6615,
+      "dimensions": {
+        "demand": 0.4274,
+        "winnability": 0.824,
+        "intent_fit": 0.3,
+        "commercial": 0.7761,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "HIGH",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "pergolas melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1300,
+        "trend_yoy": "-12.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 20,
+      "cpc": {
+        "average": 6.51,
+        "dataforseo": 6.51
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": 1,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.6387,
+      "dimensions": {
+        "demand": 0.768,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.8955,
+        "gap_value": 0.0,
+        "serp_opp": 0.55,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "gazebos brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 140,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.19,
+        "dataforseo": 2.19
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6383,
+      "dimensions": {
+        "demand": 0.5379,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.4776,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "pergola kits brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 40,
+        "trend_yoy": "+180.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.58,
+        "dataforseo": 2.58
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6233,
+      "dimensions": {
+        "demand": 0.4138,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.5224,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor smart tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 40,
+        "trend_yoy": "+37.5%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 2,
+      "cpc": {
+        "average": 2.16,
+        "dataforseo": 2.16
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6172,
+      "dimensions": {
+        "demand": 0.4138,
+        "winnability": 0.828,
+        "intent_fit": 0.3,
+        "commercial": 0.4627,
+        "gap_value": 0.0,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvered pergola brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 20,
+        "trend_yoy": "-25.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 6.15,
+        "dataforseo": 6.15
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6167,
+      "dimensions": {
+        "demand": 0.32,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.8657,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "retractable awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 6600,
+        "trend_yoy": "+7.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.77,
+        "dataforseo": 2.77
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.6105,
+      "dimensions": {
+        "demand": 0.9559,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.5821,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvre pergolas",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 5.14,
+        "dataforseo": 5.14
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.61,
+      "dimensions": {
+        "demand": 0.8666,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.806,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 50,
+        "trend_yoy": "+35.7%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.05,
+        "dataforseo": 1.05
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.6077,
+      "dimensions": {
+        "demand": 0.4375,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.2836,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "awning for patio",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 880,
+        "trend_yoy": "-6.5%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.92,
+        "dataforseo": 2.92
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.601,
+      "dimensions": {
+        "demand": 0.737,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6269,
+        "gap_value": 0.6,
+        "serp_opp": 0.7,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "folding arm awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1600,
+        "trend_yoy": "+9.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 3.8,
+        "dataforseo": 3.8
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5969,
+      "dimensions": {
+        "demand": 0.802,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.7015,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "smart toilet melbourne",
@@ -3150,10 +1229,80 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.5949,
+      "dimensions": {
+        "demand": 0.4375,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.3731,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.65,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
-      "keyword": "bidet toilet melbourne",
+      "keyword": "diy pergola kits brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 40,
+        "trend_yoy": "-33.3%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.0,
+        "dataforseo": 2.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5941,
+      "dimensions": {
+        "demand": 0.3925,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.4478,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet toilet",
       "type": "general",
       "suburb": "",
       "service": "",
@@ -3161,43 +1310,569 @@
       "silo": "smart_toilet",
       "volume": {
         "dataforseo": 0,
-        "google_ads": 40,
-        "average": 40,
+        "google_ads": 0,
+        "average": 9900,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 1,
+      "cpc": {
+        "average": 1.03,
+        "dataforseo": 1.03
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5933,
+      "dimensions": {
+        "demand": 1.0,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.2537,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "aluminium pergola",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 720,
+        "trend_yoy": "+31.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 3.83,
+        "dataforseo": 3.83
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "gap_value_class": "optimisation",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.593,
+      "dimensions": {
+        "demand": 0.7256,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.7164,
+        "gap_value": 0.4,
+        "serp_opp": 0.7,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilets melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 50,
+        "average": 50,
         "trend_yoy": "0%",
         "cross_validation": "OK",
-        "volume_source": "google_ads_live_2026-07-02"
+        "volume_source": "google_ads_live_2026-07-03"
       },
-      "difficulty": 42,
+      "difficulty": 0,
       "cpc": {
-        "average": 1.31,
-        "dataforseo": 1.31
+        "average": 1.05,
+        "dataforseo": 1.05
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-03_v4_plural",
+      "opportunity_score": 0.5912,
+      "dimensions": {
+        "demand": 0.4274,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.2836,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "aluminium pergola brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 10,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.64,
+        "dataforseo": 1.64
       },
       "intent": "informational",
       "gap_status": "MISSING_INFORMATIONAL",
       "gap_value_class": "competitor_gap",
       "serp_features": [
         "local_pack",
-        "paa"
+        "shopping"
       ],
       "ai_overview": {
         "classification": "low_deflection",
         "citation_opportunity": false
       },
       "ai_overview_label": "low_or_none",
-      "content_investment": "medium",
+      "content_investment": "light",
       "gsc_position": null,
       "current_position": null,
-      "competitors_ranking": [
-        "thebidetshop.com.au",
-        "bidetaustralia.com.au",
-        "Bidet R Us Australia (local pack -- installer)"
-      ],
+      "competitors_ranking": [],
       "competitor_content_depth": {
         "avg_word_count": null
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5907,
+      "dimensions": {
+        "demand": 0.2606,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.403,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor television",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+22.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.73,
+        "dataforseo": 2.73
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5899,
+      "dimensions": {
+        "demand": 0.8769,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.5672,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "pergolas sydney",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1300,
+        "trend_yoy": "-8.6%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 10.36,
+        "dataforseo": 10.36
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "local_pack"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5831,
+      "dimensions": {
+        "demand": 0.7794,
+        "winnability": 0.212,
+        "intent_fit": 0.3,
+        "commercial": 0.9851,
+        "gap_value": 0.0,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "awnings for homes",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 720,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.98,
+        "dataforseo": 1.98
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5822,
+      "dimensions": {
+        "demand": 0.7153,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.4328,
+        "gap_value": 0.6,
+        "serp_opp": 0.7,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "pergola melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1300,
+        "trend_yoy": "-12.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 6.51,
+        "dataforseo": 6.51
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": 12,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5817,
+      "dimensions": {
+        "demand": 0.768,
+        "winnability": 0.212,
+        "intent_fit": 0.3,
+        "commercial": 0.8955,
+        "gap_value": 0.0,
+        "serp_opp": 0.55,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet sydney",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 10,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.56,
+        "dataforseo": 1.56
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5795,
+      "dimensions": {
+        "demand": 0.2606,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.3881,
+        "gap_value": 0.6,
+        "serp_opp": 0.1,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tv australia",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 590,
+        "trend_yoy": "+1.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 4.72,
+        "dataforseo": 4.72
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "taxonomy",
+      "opportunity_score": 0.5795,
+      "dimensions": {
+        "demand": 0.655,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.7612,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "bbq pods melbourne",
@@ -3244,7 +1919,2325 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier_analyst_added_2026-07-02_v2"
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.5773,
+      "dimensions": {
+        "demand": 0.3732,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.1493,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "electric awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 720,
+        "trend_yoy": "+1.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.82,
+        "dataforseo": 2.82
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5766,
+      "dimensions": {
+        "demand": 0.7153,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6119,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvred pergola brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 30,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5754,
+      "dimensions": {
+        "demand": 0.3732,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet toilet seat",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 4400,
+        "trend_yoy": "+22.2%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.07,
+        "dataforseo": 1.07
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5752,
+      "dimensions": {
+        "demand": 0.9222,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.2985,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvred pergola",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 42,
+      "cpc": {
+        "average": 5.14,
+        "dataforseo": 5.14
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "gap_value_class": "optimisation",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "heavy",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5745,
+      "dimensions": {
+        "demand": 0.8666,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.806,
+        "gap_value": 0.4,
+        "serp_opp": 0.5,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "medium"
+    },
+    {
+      "keyword": "retractable patio awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "+43.6%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.63,
+        "dataforseo": 2.63
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5715,
+      "dimensions": {
+        "demand": 0.6376,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.5373,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "weatherproof outdoor tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 260,
+        "trend_yoy": "+90.2%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.93,
+        "dataforseo": 2.93
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5701,
+      "dimensions": {
+        "demand": 0.6151,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6567,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "operable louvre roof brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 30,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5673,
+      "dimensions": {
+        "demand": 0.336,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "motorised louvre pergola",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 90,
+        "trend_yoy": "+18.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 5.23,
+        "dataforseo": 5.23
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5661,
+      "dimensions": {
+        "demand": 0.5005,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.8209,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor patio tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 40,
+        "average": 40,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-03"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.19,
+        "dataforseo": 1.19
+      },
+      "intent": "commercial_investigation",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "harveynorman.com.au",
+        "rtings.com",
+        "sylvoxtv.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-03_v4_replaces_outdoor_tv_melbourne_shopping_feed_match_confirmed",
+      "opportunity_score": 0.5653,
+      "dimensions": {
+        "demand": 0.366,
+        "winnability": 0.1367,
+        "intent_fit": 0.85,
+        "commercial": 0.3134,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "waterproof retractable awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "+14.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.8,
+        "dataforseo": 2.8
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5637,
+      "dimensions": {
+        "demand": 0.6376,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.597,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet attachment for toilet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 880,
+        "trend_yoy": "+370.9%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.9,
+        "dataforseo": 0.9
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5617,
+      "dimensions": {
+        "demand": 0.7474,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.209,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet australia",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 880,
+        "trend_yoy": "+6.9%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.38,
+        "dataforseo": 1.38
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5607,
+      "dimensions": {
+        "demand": 0.737,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.3731,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "waterproof tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 390,
+        "trend_yoy": "+22.7%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.38,
+        "dataforseo": 2.38
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5586,
+      "dimensions": {
+        "demand": 0.6591,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.4925,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "automatic awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 170,
+        "trend_yoy": "-29.2%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 3.21,
+        "dataforseo": 3.21
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5562,
+      "dimensions": {
+        "demand": 0.5475,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6716,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tvs for sale",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 50,
+        "trend_yoy": "+25.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 3.4,
+        "dataforseo": 3.4
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5559,
+      "dimensions": {
+        "demand": 0.4375,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6866,
+        "gap_value": 0.6,
+        "serp_opp": 0.55,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "open pergola",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "-17.7%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.93,
+        "dataforseo": 2.93
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "gap_value_class": "optimisation",
+      "serp_features": [
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5543,
+      "dimensions": {
+        "demand": 0.6159,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.6567,
+        "gap_value": 0.4,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "motorised pergola",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_quickwins",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 140,
+        "trend_yoy": "+48.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 4.07,
+        "dataforseo": 4.07
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "gap_value_class": "optimisation",
+      "serp_features": [
+        "local_pack",
+        "shopping",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "gsc_query",
+      "opportunity_score": 0.5526,
+      "dimensions": {
+        "demand": 0.5482,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.7313,
+        "gap_value": 0.4,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "electric bidet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 480,
+        "trend_yoy": "+23.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.87,
+        "dataforseo": 0.87
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5506,
+      "dimensions": {
+        "demand": 0.6816,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.194,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2400,
+        "trend_yoy": "-6.9%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.36,
+        "dataforseo": 1.36
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_NEEDS_OPTIMISATION",
+      "gap_value_class": "optimisation",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5489,
+      "dimensions": {
+        "demand": 0.846,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.3433,
+        "gap_value": 0.4,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet attachment",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1000,
+        "trend_yoy": "+45.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.73,
+        "dataforseo": 0.73
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5453,
+      "dimensions": {
+        "demand": 0.7613,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.1642,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bbq shelter",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 720,
+        "trend_yoy": "+39.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.43,
+        "dataforseo": 0.43
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5453,
+      "dimensions": {
+        "demand": 0.7256,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0448,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor bbq kitchen",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 4400,
+        "trend_yoy": "-18.2%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.65,
+        "dataforseo": 0.65
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5439,
+      "dimensions": {
+        "demand": 0.9004,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.1045,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "roll out awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "+8.2%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 1.81,
+        "dataforseo": 1.81
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5429,
+      "dimensions": {
+        "demand": 0.6273,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.4179,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "japanese toilets melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "B",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 70,
+        "average": 70,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-03"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.4,
+        "dataforseo": 0.4
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "cookandbathe.com.au",
+        "eands.com.au",
+        "siriusdesign.com.au"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-03_v4_replaces_bidet",
+      "opportunity_score": 0.5406,
+      "dimensions": {
+        "demand": 0.4633,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0149,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bbq pod",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 720,
+        "trend_yoy": "+267.6%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.55,
+        "dataforseo": 0.55
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5363,
+      "dimensions": {
+        "demand": 0.7256,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0896,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 2900,
+        "trend_yoy": "+22.4%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.73,
+        "dataforseo": 2.73
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5361,
+      "dimensions": {
+        "demand": 0.8382,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.5672,
+        "gap_value": 0.0,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "smart toilet seat",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 590,
+        "trend_yoy": "-11.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.98,
+        "dataforseo": 0.98
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5343,
+      "dimensions": {
+        "demand": 0.6822,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.2388,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor bbq area",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 1000,
+        "trend_yoy": "-23.3%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.68,
+        "dataforseo": 0.68
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5333,
+      "dimensions": {
+        "demand": 0.7395,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.1194,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bbq pod melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "video",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5319,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.55,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "toilet with built in bidet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 170,
+        "trend_yoy": "+40.5%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.8,
+        "dataforseo": 0.8
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5275,
+      "dimensions": {
+        "demand": 0.5692,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.1791,
+        "gap_value": 0.6,
+        "serp_opp": 0.4,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bbq pod australia",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 390,
+        "trend_yoy": "+104.1%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.55,
+        "dataforseo": 0.55
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "taxonomy",
+      "opportunity_score": 0.5264,
+      "dimensions": {
+        "demand": 0.6591,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0896,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "alfresco bbq",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "-13.5%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.98,
+        "dataforseo": 0.98
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5243,
+      "dimensions": {
+        "demand": 0.6159,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.2388,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor kitchen pod",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "bbq_pod",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 320,
+        "trend_yoy": "+280.8%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.69,
+        "dataforseo": 0.69
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "images"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5217,
+      "dimensions": {
+        "demand": 0.6376,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.1343,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "motorized retractable awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 110,
+        "trend_yoy": "-23.3%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 2.56,
+        "dataforseo": 2.56
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.521,
+      "dimensions": {
+        "demand": 0.5005,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.5075,
+        "gap_value": 0.6,
+        "serp_opp": 0.1,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvred pergolas brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5194,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tv melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5169,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "outdoor tv sydney",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5169,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.25,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "japanese smart toilet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 110,
+        "trend_yoy": "-20.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.48,
+        "dataforseo": 0.48
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "images",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.5052,
+      "dimensions": {
+        "demand": 0.5005,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0597,
+        "gap_value": 0.6,
+        "serp_opp": 0.5,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "motorised pergola brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier",
+      "opportunity_score": 0.5044,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "louvre roof brisbane",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "pergola_qld_geo",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 10,
+        "trend_yoy": "+0.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 24,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.4979,
+      "dimensions": {
+        "demand": 0.2606,
+        "winnability": 0.464,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.3,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
     },
     {
       "keyword": "outdoor tv melbourne",
@@ -3290,7 +4283,254 @@
       },
       "serp_volatility": null,
       "se_ranking_cross_ref": false,
-      "seed_source": "city_modifier_analyst_added_2026-07-02_v2_ZERO_VOLUME_FLAG"
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2_ZERO_VOLUME_FLAG",
+      "opportunity_score": 0.4969,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.632,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.15,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "heated bidet",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 70,
+        "trend_yoy": "-16.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.43,
+        "dataforseo": 0.43
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "google_ads_ideas",
+      "opportunity_score": 0.4892,
+      "dimensions": {
+        "demand": 0.452,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0448,
+        "gap_value": 0.6,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.8,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "MEDIUM",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "bidet toilet melbourne",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "smart_toilet",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 40,
+        "average": 40,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "google_ads_live_2026-07-02"
+      },
+      "difficulty": 42,
+      "cpc": {
+        "average": 1.31,
+        "dataforseo": 1.31
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "local_pack",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "medium",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [
+        "thebidetshop.com.au",
+        "bidetaustralia.com.au",
+        "Bidet R Us Australia (local pack -- installer)"
+      ],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "city_modifier_analyst_added_2026-07-02_v2",
+      "opportunity_score": 0.4653,
+      "dimensions": {
+        "demand": 0.4036,
+        "winnability": 0.1,
+        "intent_fit": 0.3,
+        "commercial": 0.3284,
+        "gap_value": 0.6,
+        "serp_opp": 0.45,
+        "effort_adjusted": 0.7,
+        "defensibility": 0.6,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "HIGH",
+      "timeline": "medium"
+    },
+    {
+      "keyword": "4k outdoor tv",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "outdoor_tv",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 10,
+        "trend_yoy": "+50.0%",
+        "cross_validation": "OK",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "EXISTS_OPTIMISED",
+      "gap_value_class": "no_gap",
+      "serp_features": [
+        "shopping",
+        "video",
+        "paa"
+      ],
+      "ai_overview": {
+        "classification": "medium_deflection",
+        "citation_opportunity": true
+      },
+      "ai_overview_label": "present",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "taxonomy",
+      "opportunity_score": 0.4126,
+      "dimensions": {
+        "demand": 0.2351,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.0,
+        "serp_opp": 0.35,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.95,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
+    },
+    {
+      "keyword": "commercial folding arm awning",
+      "type": "general",
+      "suburb": "",
+      "service": "",
+      "tier": "C",
+      "silo": "folding_arm_awning",
+      "volume": {
+        "dataforseo": 0,
+        "google_ads": 0,
+        "average": 0,
+        "trend_yoy": "0%",
+        "cross_validation": "OK",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "cpc": {
+        "average": 0.0,
+        "dataforseo": 0.0
+      },
+      "intent": "informational",
+      "gap_status": "MISSING_INFORMATIONAL",
+      "gap_value_class": "competitor_gap",
+      "serp_features": [
+        "shopping"
+      ],
+      "ai_overview": {
+        "classification": "low_deflection",
+        "citation_opportunity": false
+      },
+      "ai_overview_label": "low_or_none",
+      "content_investment": "light",
+      "gsc_position": null,
+      "current_position": null,
+      "competitors_ranking": [],
+      "competitor_content_depth": {
+        "avg_word_count": null
+      },
+      "serp_volatility": null,
+      "se_ranking_cross_ref": false,
+      "seed_source": "taxonomy",
+      "opportunity_score": 0.4053,
+      "dimensions": {
+        "demand": 0.0,
+        "winnability": 0.1367,
+        "intent_fit": 0.3,
+        "commercial": 0.0,
+        "gap_value": 0.6,
+        "serp_opp": 0.0,
+        "effort_adjusted": 1.0,
+        "defensibility": 0.9,
+        "geography_fit": 1.0
+      },
+      "score_confidence": "LOW",
+      "timeline": "quick_win"
     }
   ]
 }
