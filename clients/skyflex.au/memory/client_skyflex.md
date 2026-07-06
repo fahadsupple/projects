@@ -62,3 +62,14 @@
 - **Build the `/smart-toilets/` category page** (currently doesn't exist — both U6 and U7 sit in WooCommerce's default "Uncategorized" bucket) with explicit "Japanese-style toilet" positioning language added to both product descriptions.
 - **Fix the testimonials block** on U6, U7, and Outdoor TV product pages — currently showing unrelated pergola/louvre-roof installation reviews.
 - QLD (Brisbane) pergola expansion is shelved, not abandoned — candidates retained in all-candidates.json for a future round if the client re-opens that market.
+
+## Keyword → URL Mapping round (2026-07-06)
+Applied the standard keyword-url-mapping capability (live SERP check, top 20, per keyword) to 10 keywords: smart toilets melbourne, bidet toilets melbourne, waterproof tv australia, bbq pods melbourne, folding arm awning melbourne/sydney, retractable awning melbourne, retractable roof system melbourne, pergolas sydney/melbourne.
+
+**New findings:**
+- **"bidet toilets melbourne" (plural)** — same intent-contamination pattern as the previously-rejected singular version: SERP surfaces "Bidet R Us Australia" and "BIDET AUSTRALIA" local packs + thebidetshop.com.au/bidetaustralia.com.au (cheap bidet-seat/attachment retailers), wrong product tier vs Skyflex's $1,200+ integrated units. Mapped as Secondary only on `/smart-toilets/`, never Primary.
+- **"waterproof tv australia"** — same big-box brand-lock as "waterproof outdoor tv" (ENGLAON/SYLVOX/Spark/JB Hi-Fi/Harvey Norman/Amazon dominate Shopping). Secondary on the Outdoor TV product page; "outdoor patio tv" remains the primary target (unchanged from v4).
+- **"pergolas melbourne" (plural) — NEW discovery, unresolved.** Live SERP shows the **homepage** (not `/outdoor-pergolas/`) ranking at position 11 for this exact query (title "Louvred Pergolas Melbourne"). The v4 plan targets `/outdoor-pergolas/` for "pergola melbourne" (singular, KD0). This is a potential cannibalization risk — two pages chasing near-identical Melbourne pergola intent. Not yet resolved with client; flagged as Secondary on homepage pending a decision on whether to consolidate onto one page.
+- **"pergolas sydney" (plural)** confirmed still ranking at position 5 via `/louvred-pergolas-sydney/` — consistent with existing v4 mapping, no change needed.
+- **"folding arm awning sydney"** has no dedicated Sydney SKU (only 9 total SKUs) — kept as Secondary on the same `/product/delta-commercial-folding-arm/` page rather than forcing a duplicate location page.
+- No other keyword in this batch shows skyflex.au ranking in the top 20 (consistent with DA 25 competing against established Melbourne/Sydney awning, pergola, and bathroomware specialists).
