@@ -78,3 +78,27 @@ Applied the standard keyword-url-mapping capability (live SERP check, top 20, pe
 - Verified live via Playwright: only **1 folding arm awning SKU** exists — `Delta Commercial Folding Arm` (SKU DFA3X25BLK, /product/delta-commercial-folding-arm/). No second folding-arm product; confirmed against the full "Our Products" catalog listing (Pergolas & Shading / Outdoor Products / Indoor Products tabs). **No category page justified** for this term — would be thin/duplicate content over the single product page.
 - The other 4 items in the "5 pergola/awning/roof family" SKUs (`delta-light-motorised`, `delta-motorized`, `delta-open-sky`, `delta-pro-retractable-roof`) are all **louvred pergola / retractable roof products** (category "Pergolas & Shading" per site), not additional awnings — despite "motorised"/"light"/"open sky" names sounding awning-adjacent.
 - **Folding arm awning = retractable awning, confirmed first-party.** The Delta Commercial Folding Arm product page's own description reads: "The SKYFLEX Full Cassette Retractable Awning combines sleek design with high-performance features... Dickson® fabric..." — the client markets this exact SKU as a retractable awning in their own copy. This resolved the "retractable awning melbourne" mapping decision: no standalone `/retractable-awnings/` page needed; mapped as Secondary onto `/product/delta-commercial-folding-arm/` alongside "folding arm awning melbourne" (P) and "folding arm awning sydney" (S). All three keywords/one page, consistent with the "linguistic variants of the same intent → same page" mapping rule.
+
+## Final keyword-URL mapping — 10-keyword round, locked (2026-07-06)
+After volume-check via Google Ads (folding arm awning melbourne 170/mo Medium comp, folding arm awning sydney 110/mo Low comp, retractable awning melbourne 320/mo High comp), analyst chose to swap Primary on `/product/delta-commercial-folding-arm/`:
+- **P = retractable awning melbourne** (320/mo — highest volume of the three, matches client's own product copy "SKYFLEX Full Cassette Retractable Awning", trade-off is High competition vs Medium)
+- S = folding arm awning melbourne (170/mo — matches literal product/SKU name)
+- S = folding arm awning sydney (110/mo — too low-volume to justify its own page, unlike the pergola precedent at 1,300/mo each; recommend naming Sydney directly in an on-page secondary heading, Wynstan-style "Folding Arm Awning Melbourne & Sydney", rather than burying it in body copy only, since the Sydney SERP is local-pack-heavy/local-intent and a buried secondary is unlikely to rank against Sydney-specialist competitors)
+
+Final locked table (10 keywords):
+| # | Keyword | URL | Role | Page | Rank |
+|---|---|---|---|---|---|
+| 1 | smart toilets melbourne | /smart-toilets/ | P | New | Not ranking |
+| 2 | bidet toilets melbourne | /smart-toilets/ | S | New | Not ranking |
+| 3 | waterproof tv australia | /product/skyflex-4k-android-smart-outdoor-tv/ | S | Existing | Not ranking |
+| 4 | bbq pods melbourne | /product/skyflex-bbq-pods/ | P | Existing | Not ranking |
+| 5 | retractable awning melbourne | /product/delta-commercial-folding-arm/ | P | Existing | Not ranking |
+| 6 | folding arm awning melbourne | /product/delta-commercial-folding-arm/ | S | Existing | Not ranking |
+| 7 | folding arm awning sydney | /product/delta-commercial-folding-arm/ | S | Existing | Not ranking |
+| 8 | retractable roof system melbourne | /product/delta-pro-retractable-roof/ | P | Existing | Not ranking |
+| 9 | pergolas sydney | /louvred-pergolas-sydney/ | P | Existing | 5 |
+| 10 | pergolas melbourne | / (homepage) | S* | Existing | 11 (homepage) |
+
+**Only one item still open:** #10 pergolas melbourne — homepage (rank 11, confirmed live) vs `/outdoor-pergolas/` (targets singular "pergola melbourne") cannibalization risk. Not yet resolved with client — needs a decision on whether to consolidate onto one page or keep split.
+
+Also confirmed only 1 folding-arm-awning SKU exists (Delta Commercial Folding Arm) and only 1 retractable-roof SKU (Delta Pro Retractable Roof) — no 2-product category page justified for either "retractable awning" or "retractable roof system"; both stay mapped onto their single existing product pages.
