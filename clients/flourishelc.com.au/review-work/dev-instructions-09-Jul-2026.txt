@@ -2,21 +2,17 @@ FLOURISH ELC — DEVELOPER INSTRUCTIONS: COMPLIANCE / REGULATORY CLAIMS
 Compiled 9 July 2026
 Staging site: https://hardyd21.sg-host.com/ — do not touch the live flourishelc.com.au site.
 
-Scope note: this covers only 3 compliance/regulatory-claim findings. Does not include the
-separate FAQ-schema (council references) or closing-CTA-section findings from earlier reviews —
-those are in review-work/approved-doc-vs-staging-09-Jul-2026.txt and
+Scope note: this covers only 4 find/replace items. Does not include the separate FAQ-schema
+(council references) or closing-CTA-section findings from earlier reviews — those are in
+review-work/approved-doc-vs-staging-09-Jul-2026.txt and
 review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt.
-
-We can't independently verify these claims are accurate, so the instruction below is to REMOVE
-the specific unverifiable wording and replace with safer general language. If the client later
-confirms a claim is accurate, it can be added back in.
 
 ================================================================================
 1. https://hardyd21.sg-host.com/preschool-oakville-nsw/
 ================================================================================
-Location: body paragraph under the "Extensive Emergency Planning for Local Conditions" H3.
+Body paragraph under the "Extensive Emergency Planning for Local Conditions" H3.
 
-REPLACE this exact paragraph:
+REMOVE/REPLACE:
 "Our facility meets the stringent requirements of the relevant Local Environmental Plan (LEP),
 particularly concerning safety and environmental standards in semi-rural (RU4) zones. This deep
 understanding of local compliance makes sure we operate to the highest possible standards."
@@ -25,16 +21,13 @@ WITH:
 "Our facility is purpose-built to suit our semi-rural setting, with safety and environmental
 standards designed specifically for local conditions."
 
-(This removes the specific "Local Environmental Plan (LEP)" and "RU4" zoning references, which we
-can't confirm are accurate for this site, while keeping the rest of the message intact.)
-
 ================================================================================
 2. https://hardyd21.sg-host.com/preschool-vineyard-nsw/
 ================================================================================
-Location: FAQ answer for "What safety measures do you have in place?" — update in BOTH the
-visible accordion text AND the matching FAQPage JSON-LD schema entry.
+FAQ answer for "What safety measures do you have in place?" — update in BOTH the visible accordion
+text AND the matching FAQPage JSON-LD schema entry.
 
-REPLACE this exact answer:
+REMOVE/REPLACE:
 "Beyond standard childcare regulations, we maintain an extensive RFS-compliant bushfire emergency
 plan specific to Vineyard's designation as a Bush Fire Prone Area. Our modern facility includes
 secure entry systems, CCTV monitoring, and regular safety drills."
@@ -43,16 +36,14 @@ WITH:
 "We maintain a comprehensive bushfire emergency plan tailored to our local conditions. Our modern
 facility includes secure entry systems, CCTV monitoring, and regular safety drills."
 
-(This removes the specific "RFS-compliant" and "Bush Fire Prone Area" designation claims, which we
-can't confirm are accurate for this site, while keeping the general safety message intact.)
-
 ================================================================================
 3. https://hardyd21.sg-host.com/preschool-gables-nsw/
 ================================================================================
-Location: FAQ answer for "What Safety Measures Are in Place?" — update in BOTH the visible
-accordion text AND the matching FAQPage JSON-LD schema entry.
+FAQ answer for "What Safety Measures Are in Place?" — update in BOTH the visible accordion text
+AND the matching FAQPage JSON-LD schema entry. Only the first sentence changes; leave the second
+sentence in the same answer unchanged.
 
-REPLACE this exact sentence (keep the second sentence in the same answer unchanged):
+REMOVE/REPLACE:
 "Our centre exceeds all regulatory requirements, including specific provisions for bushfire-prone
 area management."
 
@@ -60,18 +51,14 @@ WITH:
 "Our centre maintains comprehensive safety provisions, including planning for bushfire risk in our
 local area."
 
-(This removes the "exceeds all regulatory requirements" and formal "bushfire-prone area
-management" wording, which we can't confirm is an accurate compliance claim, while keeping the
-safety message intact.)
-
 ================================================================================
 4. https://hardyd21.sg-host.com/kindergarten-shelley-wa/
 ================================================================================
-Two separate mentions to fix on this page:
+Two separate lines to fix on this page:
 
-(a) Body paragraph under the "Safety and Outdoor Learning in Perth's Climate" H2:
+(a) Body paragraph under the "Safety and Outdoor Learning in Perth's Climate" H2.
 
-REPLACE this exact sentence:
+REMOVE/REPLACE:
 "Our extensive SunSmart accreditation isn't merely a certificate on the wall; it's a daily practice
 that allows children to safely investigate and learn outdoors year-round."
 
@@ -80,16 +67,13 @@ WITH:
 that allows children to safely investigate and learn outdoors year-round."
 
 (b) FAQ answer for "How do you handle Perth's hot weather while maintaining outdoor learning?" —
-update in BOTH the visible accordion text AND the matching FAQPage JSON-LD schema entry:
+update in BOTH the visible accordion text AND the matching FAQPage JSON-LD schema entry. Only the
+first sentence changes; leave the rest of the answer unchanged.
 
-REPLACE this exact phrase at the start of the answer:
+REMOVE/REPLACE:
 "Our SunSmart accreditation guides daily practices including UV monitoring, protective clothing
 requirements, and strategic scheduling."
 
 WITH:
 "Our SunSmart-aligned practices guide daily routines including UV monitoring, protective clothing
 requirements, and strategic scheduling."
-
-(This removes the claim of formal SunSmart "accreditation" — which we can't confirm the centre
-holds — and replaces it with "SunSmart-aligned practices," matching the safer language already
-used elsewhere on the site. Leave the rest of each sentence unchanged.)
