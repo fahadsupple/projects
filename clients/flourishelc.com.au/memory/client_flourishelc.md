@@ -71,6 +71,31 @@ this build, not a one-off.**
   total) — same recurring schema-sync defect. areas-we-serve images are Oakville-only,
   not neutral as briefed. Full findings + dev action list at
   review-work/staging-verification-02-Jul-2026.txt
+- 9 Jul 2026 — Full word-for-word check of the (new, much larger — 29-page) "Approved"
+  docx against all 29 matching staging URLs. Meta titles/descriptions: 29/29 exact match.
+  CRITICAL: 8 pages have their closing CTA H2 section (e.g. "Join the Flourish Family
+  Today") misplaced BEFORE the FAQ section instead of after it (systemic build issue) —
+  daycare-childcare-{box-hill,vineyard,gables,mulgrave}-nsw, preschool-{vineyard,
+  riverstone,mulgrave}-nsw, daycare-childcare-bateman-wa. 4 genuine content bugs found:
+  "wecome" typo (preschool-riverstone-nsw), "Kndergarten" typo in FAQ heading
+  (kindergarten-rossmoyne-wa), missing "Cancer Council WA SunSmart guidelines" clause in
+  both visible text AND JSON-LD (daycare-childcare-willetton-wa), and a rewritten
+  (non-approved-wording) FAQ answer on daycare-childcare-bull-creek-wa. Also confirmed:
+  docx itself still contains stale "before and after school care" copy on bull-creek-wa,
+  bateman-wa, areas-we-serve that live correctly excludes per the 16 Jun 2026 removal
+  instruction — docx is NOT the source of truth on this point, live is correct, no
+  action needed. Several docx-side-only typos (live already correct): "Flourish Early
+  Centre" missing "Learning" and double-period on daycare-childcare-riverstone-nsw,
+  stray ":" on daycare-childcare-shelley-wa, "Proving"/"Providing" typo on
+  kindergarten-brentwood-wa. Also flagged (likely intentional, not bugs): "Book a tour
+  or enquiry today." CTA appended on ~24/29 pages, WA-page sidebar CTA block (Follow us
+  on Facebook / Make an enquiry / Enrolment Form) on all 7 WA pages, and FAQ heading
+  enhancement ("Frequently Asked Questions About X") on ~25/29 pages vs generic docx
+  heading — both match the separate "Adding CTAs" task pattern from 2 Jul, needs
+  analyst/client sign-off either way since it deviates from the Approved doc's literal
+  text. Docx also has a URL typo: page 5 URL field says ".../grantham farm-nsw/" (space)
+  instead of "grantham-farm-nsw". Full findings + dev priority list at
+  review-work/approved-doc-vs-staging-09-Jul-2026.txt
 
 ## Working method notes
 - No pandoc/docx2txt on this machine — use `python3 -c "import docx"` (python-docx is

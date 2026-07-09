@@ -1,0 +1,134 @@
+FLOURISH ELC — "flourishelc.com.au (Approved).docx" vs STAGING SITE (hardyd21.sg-host.com)
+Word-for-word content verification — 9 July 2026
+Source doc: clients/flourishelc.com.au/flourishelc.com.au (Approved).docx (29 pages, no open track
+changes — confirmed 0 <w:ins>/<w:del> in word/document.xml)
+Method: parsed docx into per-page structured content (Meta Title, Meta Description, H1/H2/H3, body
+paragraphs, FAQ Q&A) using each page's "URL:" field, fetched the matching staging URL, isolated the
+<article> content block, extracted h1/h2/h3/p/li text in reading order, and diffed against the docx
+element-by-element. All 29 pages checked.
+
+============================================================
+1. META TITLES & META DESCRIPTIONS — 29/29 EXACT MATCH
+============================================================
+Every single Meta Title and Meta Description in the docx matches the live <title> tag and
+name="description" tag on staging, character for character. No action needed.
+
+============================================================
+2. CRITICAL — CLOSING CTA SECTION MISPLACED (8 pages)
+============================================================
+The docx specifies a closing "call to action" H2 section (e.g. "Join the Flourish Family Today",
+"Secure Your Child's Place Today") as the LAST content block on the page — positioned AFTER the FAQ
+section, immediately before the site-wide "Areas We Serve" footer.
+
+On staging, this same section is live and word-for-word correct, but it has been inserted in the
+WRONG position: straight after the "Why Families Choose Us" bullet list, BEFORE the FAQ section —
+not after it as approved. This is consistent across all 8 pages that have this section type, so it
+looks like a systemic template/build issue rather than 8 separate one-off mistakes.
+
+Affected pages (all need the section moved to after the FAQ, before Areas We Serve):
+1. /daycare-childcare-box-hill-nsw/ — "Join the Flourish Family Today"
+2. /daycare-childcare-vineyard-nsw/ — "Secure Your Child's Future in Vineyard"
+3. /daycare-childcare-gables-nsw/ — "Begin Your Child's Journey with Confidence"
+4. /daycare-childcare-mulgrave-nsw/ — "Secure Your Child's Place Today"
+5. /preschool-vineyard-nsw/ — "Join Our Vineyard Family Today"
+6. /preschool-riverstone-nsw/ — "Invest in Your Child's Future Today"
+7. /preschool-mulgrave-nsw/ — "Begin Your Child's Learning Journey"
+8. /daycare-childcare-bateman-wa/ — "Secure Your Child's Educational Foundation Today"
+
+(Note: Oakville daycare, and the other 20 pages, either don't have this dedicated closing-CTA H2 in
+the docx, or the docx doesn't specify one — those pages are unaffected by this issue.)
+
+============================================================
+3. GENUINE CONTENT DISCREPANCIES — wording/typos that don't match approved copy
+============================================================
+a) /preschool-riverstone-nsw/ — TYPO on live site
+   DOCX: "We welcome you to book a tour and speak with your Flourish ELC teacher..."
+   LIVE: "We wecome you to book a tour and speak with your Flourish ELC teacher..." (missing "l")
+
+b) /kindergarten-rossmoyne-wa/ — TYPO on live site (FAQ section heading)
+   DOCX: "Frequently Asked Questions" (generic)
+   LIVE: "Frequently Asked Questions About Kndergarten Near Rossmoyne" (missing "i" in Kindergarten)
+
+c) /daycare-childcare-willetton-wa/ — MISSING CLAUSE on live site (FAQ answer, both visible text
+   and FAQPage JSON-LD schema)
+   DOCX: "...sunscreen is applied 20 minutes before all outdoor activities, following the Cancer
+   Council WA's SunSmart guidelines. We also monitor the UV daily ratings..."
+   LIVE: "...sunscreen is applied 20 minutes before all outdoor activities. We also monitor the UV
+   daily ratings..." — the "following the Cancer Council WA's SunSmart guidelines" clause is missing
+   entirely (checked both the accordion text and the JSON-LD FAQ schema — missing from both).
+
+d) /daycare-childcare-bull-creek-wa/ — FAQ heading + answer rewritten, doesn't match approved copy
+   DOCX heading: "Do you cater to Bull Creek's diverse family needs?" (with question mark)
+   LIVE heading: "Do you cater to Bull Creek's diverse family needs" (missing question mark)
+   DOCX answer: "Absolutely. Whether you're seeking full-time care or part-time options, we offer
+   flexible options. Our educators work closely with families to support each child's unique
+   learning journey."
+   LIVE answer: "We certainly do. We understand that every family is unique, which is why we offer
+   flexible full-time and part-time care options. Our educators work closely with families to
+   support each child's unique learning journey."
+   Same meaning, but not the approved wording — looks like it was rewritten at some point after
+   approval, or an earlier draft answer was never updated to the final approved text.
+
+============================================================
+4. DOCX-SIDE ISSUES — live site is actually correct, docx has the error (no live-site action needed)
+============================================================
+a) /daycare-childcare-riverstone-nsw/ — docx says "At the Flourish Early Centre..." (missing
+   "Learning"); live correctly reads "At the Flourish Early Learning Centre...". Live is right.
+b) /daycare-childcare-riverstone-nsw/ — docx has a double period: "...specific standards.." ; live
+   correctly has a single period. Live is right.
+c) /daycare-childcare-shelley-wa/ — docx has a stray, orphaned ":" line before the "Nature-based
+   science exploration" bullet list; live omits it cleanly. Live is right.
+d) /kindergarten-brentwood-wa/ — docx has a typo "Proving Real Learning Through Play"; live
+   correctly reads "Providing Real Learning Through Play". Live is right.
+e) /daycare-childcare-oakville-nsw/, page 5 URL field — docx lists the URL as
+   ".../daycare-childcare-grantham farm-nsw/" (space instead of hyphen, doesn't resolve). The
+   correct live slug is "grantham-farm-nsw" (confirmed working, and used correctly elsewhere in the
+   same docx on the preschool-grantham-farm-nsw page). Docx typo only, not a live-site issue.
+
+============================================================
+5. STALE DOCX CONTENT — live site is already correct per your 16 Jun 2026 instruction, docx wasn't
+   updated to reflect the removal
+============================================================
+The docx being reviewed still contains "Before and After School Care" copy that you had the team
+strip site-wide back on 16 June 2026 (see review history in client memory file). Live correctly
+excludes this content — so there's nothing to fix on staging, just flagging that this "Approved"
+docx is not the current source of truth on this specific point:
+- /daycare-childcare-bull-creek-wa/ — docx still has "Before and After School Care" as a service
+  list item; correctly absent live.
+- /daycare-childcare-bateman-wa/ — docx still has the "Do you offer before and after school care?"
+  FAQ; correctly absent live.
+- /areas-we-serve/ — docx still has the "Do you offer before and after school care?" FAQ; correctly
+  absent live.
+
+============================================================
+6. SITE-WIDE TEMPLATE ADDITIONS — present on nearly every page, consistent pattern (not in the
+   "Approved" docx body copy, but matches other approved CTA/task work — flagging per your
+   "match every word" instruction, not necessarily a bug)
+============================================================
+a) "Book a tour or enquiry today." — appended to the closing sentence of the intro paragraph on
+   ~24 of 29 pages. Consistent with the separate "Adding CTAs & other requests" docx/task from your
+   2 Jul 2026 review (not part of the Approved doc's body copy), so likely intentional.
+b) "Follow us on Facebook / Make an enquiry / Enrolment Form" — appears as an extra CTA block on all
+   7 Bull Creek/Leeming/Bateman/Rossmoyne/Shelley/Willetton/Brentwood WA pages (daycare + kindergarten),
+   right after the intro paragraph. Same CTA-task pattern as (a).
+c) FAQ section heading enhancement — on ~25 of 29 pages, the docx just says "Frequently Asked
+   Questions" (or a shorter variant) but live has a longer, keyword-specific version, e.g.
+   "Frequently Asked Questions About Childcare Near Bateman" or "...About Preschool in Gables".
+   This is consistent enough across the whole site that it looks like a deliberate/templated SEO
+   enhancement rather than accidental drift — but technically it doesn't match the approved docx
+   text word-for-word, so flagging for your sign-off either way.
+
+============================================================
+RECOMMENDED PRIORITY FOR DEV
+============================================================
+1. Fix the 8-page closing-CTA-section ordering bug (Section 2) — most visible structural issue,
+   content itself is correct, just needs moving to below the FAQ.
+2. Fix 2 typos (Section 3a, 3b) — one-word fixes.
+3. Restore the missing SunSmart clause on Willetton (Section 3c) — both visible copy and JSON-LD.
+4. Decide whether to update Bull Creek's diverse-family-needs FAQ to the exact approved wording, or
+   treat the current live wording as the new approved version (Section 3d) — client/analyst call.
+5. No action needed on Sections 4 and 5 — live site is already correct; flagged for your records
+   only so the docx doesn't get treated as the source of truth on those points in future reviews.
+6. Confirm with client/analyst whether Section 6 template additions are approved as-is (they were
+   not part of the "Approved" doc's body copy, but match the separate CTA task) so future
+   docx-vs-live reviews can be filtered against them without re-flagging every time.
