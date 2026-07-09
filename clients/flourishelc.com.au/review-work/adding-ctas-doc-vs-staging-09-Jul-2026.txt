@@ -1,0 +1,132 @@
+FLOURISH ELC — "Flourishelc.com.au (Adding CTAs & other requests from the client).docx" vs
+STAGING SITE (hardyd21.sg-host.com) — RE-VERIFICATION
+Date: 9 July 2026
+This is a follow-up to review-work/staging-verification-02-Jul-2026.txt, which first checked this
+same 5-task brief on 2 July 2026 and found 5 outstanding issues. Re-checked everything from scratch
+against the current staging site to see what's been fixed since.
+
+Source doc confirmed unchanged in scope: same 5 tasks, same page lists, no Word track changes
+present (0 <w:ins>/<w:del>). File size grew (132KB → 1.79MB) but that's embedded reference
+screenshots, not new text — task content is identical to the version reviewed on 2 July.
+
+============================================================
+TASK 1 — CONTACT/CTA ICON BLOCK ON ALL 14+14 SILO PAGES
+============================================================
+✅ FULL PASS — ALL 28 PAGES (previous bug is now FIXED)
+Every Oakville-silo page (14) has the correct block: phone 02 9627 2927 (tel:0296272927), address
+16 Harkness Rd Oakville NSW, Book a centre tour, Waitlist Form, Enquiry Form, Enrol Now, Find us on
+Facebook, Follow us on Instagram — all linking to the correct kinderm8/facebook/instagram URLs
+matching the Oakville master page exactly.
+
+Every Bull Creek-silo page (14) has the correct block: phone 08 6234 8570, address 2 Bass Rd Bull
+Creek WA, Book a centre tour (mailto:bullcreek@flourishelc.com.au), Waitlist Form, Make an enquiry,
+Enrolment Form, Follow us on Facebook, Follow us on Instagram — all linking to the correct
+forms.owna.com.au/facebook/instagram URLs matching the Bull Creek master page exactly.
+
+FIXED SINCE 2 JULY: https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/ — the duplicated
+"Waitlist Form" icon bug (which had replaced "Make an enquiry" and dropped the enquiry link) is
+resolved. The page now has all 6 correct links, matching every other Bull Creek-silo page.
+
+============================================================
+TASK 2 — SILO-RELEVANT IMAGES
+============================================================
+✅ PASS (unchanged from 2 Jul, still correct)
+Oakville silo: all 14 pages use a distinct, varied pair of real Oakville centre photos.
+Bull Creek silo: all 14 pages use the same single image (ChatGPT-Image-Mar-3-2026...png). Still not
+a bug — the Bull Creek master page only has 1 usable centre photo in its media library (the only
+other photo there, joy-1.jpg, is a staff headshot, not a centre photo). Would need the client to
+supply more Bull Creek photos to add variety.
+
+============================================================
+TASK 3 — CONTACT CTA + NEUTRAL IMAGES ON /areas-we-serve/
+============================================================
+CTA — ✅ PASS
+All three centres' contact blocks present and correctly separated (Oakville, Watanobbi, Bull Creek),
+each with correct phone/address/tour/enquiry/enrol/social links.
+
+IMAGES — ✅ FIXED SINCE 2 JULY
+On 2 Jul, the og:image and both body photos were Oakville-specific (Oakville-front-building,
+Oakville-early-learning-centre-9/3). As of today, og:image and both body photos have been swapped to
+generic "Flourish-ELC-8/9/4.jpg" branded imagery — no longer Oakville-only. Resolved.
+
+============================================================
+TASK 4 — REMOVE "BEFORE AND AFTER SCHOOL CARE" REFERENCES
+============================================================
+VISIBLE CONTENT — ✅ PASS (unchanged, still correct) on both flagged pages plus confirmed absent
+site-wide across all 29 pages checked.
+
+FAQ SCHEMA (JSON-LD) — ✅ FIXED SINCE 2 JULY
+On 2 Jul, both pages still had the full "Do you offer before and after school care?" Q&A sitting in
+their FAQPage JSON-LD even though it had been removed from the visible accordion. As of today, the
+phrase is completely gone from every script tag on both pages — schema now matches visible content.
+Confirmed on:
+  - https://hardyd21.sg-host.com/daycare-childcare-bateman-wa/
+  - https://hardyd21.sg-host.com/areas-we-serve/
+
+============================================================
+TASK 5 — COUNCIL / REGION REFERENCE REMOVAL ("website should have no reference of councils")
+============================================================
+VISIBLE CONTENT — ✅ PASS on all 29 pages (confirmed again today via full word-for-word check of
+the separate Approved.docx against every page — no live-only council/region text found anywhere).
+
+FAQ SCHEMA (JSON-LD) — ❌ STILL STALE — NOT FIXED, IDENTICAL TO 2 JULY FINDING
+Re-scanned every page for "council", "Hawkesbury", "Blacktown", "Hills Shire", "City of Melville",
+"City of Canning" in both visible HTML and JSON-LD. Visible content is clean everywhere. But the
+exact same 10 pages flagged on 2 July still have the exact same stale council/region wording sitting
+in their FAQPage JSON-LD schema, word for word unchanged in 7 days:
+
+  1. https://hardyd21.sg-host.com/daycare-childcare-oakville-nsw/
+     — "...from council safety compliance to modern learning environments..."
+  2. https://hardyd21.sg-host.com/daycare-childcare-mulgrave-nsw/
+     — 3 separate "Hawkesbury" mentions across different FAQ answers
+  3. https://hardyd21.sg-host.com/preschool-oakville-nsw/
+     — "...maintain rigorous standards that exceed council requirements..."
+  4. https://hardyd21.sg-host.com/preschool-gables-nsw/
+     — "...educational standards at schools throughout The Hills Shire, including Santa Sophia
+     Catholic College..."
+  5. https://hardyd21.sg-host.com/daycare-childcare-bull-creek-wa/
+     — "...exceeding City of Melville requirements..." + "...full compliance with City of Melville
+     child care regulations..."
+  6. https://hardyd21.sg-host.com/daycare-childcare-leeming-wa/
+     — "...compliance with City of Melville planning requirements..."
+  7. https://hardyd21.sg-host.com/daycare-childcare-shelley-wa/
+     — entire FAQ question/answer referencing "City of Melville specifications"
+  8. https://hardyd21.sg-host.com/kindergarten-bull-creek-wa/
+     — "...fully complies with City of Melville's Child Care Premises requirements..."
+  9. https://hardyd21.sg-host.com/kindergarten-rossmoyne-wa/
+     — "...exceed City of Canning guidelines..."
+  10. https://hardyd21.sg-host.com/kindergarten-willetton-wa/
+     — "...exceed City of Canning requirements..."
+
+Not a council reference (correctly left alone, unrelated health charity name): "Cancer Council WA's
+SunSmart guidelines" — this one only survives in the docx's approved text; it's actually MISSING
+from live's Willetton FAQ answer entirely (see separate 9 Jul Approved-doc review for that finding).
+
+============================================================
+BONUS — LOW-PRIORITY ITEM FROM 2 JULY REVIEW
+============================================================
+✅ FIXED SINCE 2 JULY: https://hardyd21.sg-host.com/daycare-childcare-vineyard-nsw/ — "What sets our
+facility apart:" has been updated to "Here's what sets our facility apart:" as originally suggested.
+
+============================================================
+SUMMARY — WHAT'S STILL OUTSTANDING
+============================================================
+[HIGH] 10 pages — see full URL list under Task 5 above
+  Delete/rewrite the stale council & region references sitting in the FAQPage JSON-LD schema.
+  Visible content on all 10 is already correct — this is schema-only, same root cause each time:
+  the FAQ accordion module and its JSON-LD script are edited independently on this build, so every
+  content edit that touches an FAQ answer needs the schema updated by hand as a separate step.
+  Recommend making "update FAQ JSON-LD to match the visible accordion" a standard checklist item
+  for every future content edit, since this defect keeps recurring across review rounds.
+
+Everything else in this 5-task brief (Tasks 1–4, plus the bonus phrasing tweak) is now fully
+implemented and matches the brief. Genuinely strong progress since 2 July — 5 of the 6 previously
+flagged items are resolved, only the Task 5 schema gap remains.
+
+============================================================
+CROSS-REFERENCE
+============================================================
+This review only covers the 5 tasks in the "Adding CTAs" doc. A separate word-for-word check of the
+full 29-page "Approved" content doc against staging (done the same day) found additional, unrelated
+issues — most notably a closing-CTA-section ordering bug on 8 pages, plus a handful of typos/missing
+clauses. See review-work/approved-doc-vs-staging-09-Jul-2026.txt for that report.

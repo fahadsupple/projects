@@ -96,6 +96,21 @@ this build, not a one-off.**
   text. Docx also has a URL typo: page 5 URL field says ".../grantham farm-nsw/" (space)
   instead of "grantham-farm-nsw". Full findings + dev priority list at
   review-work/approved-doc-vs-staging-09-Jul-2026.txt
+- 9 Jul 2026 (same day) — Re-verified the "Adding CTAs & other requests" docx's 5 tasks
+  against current staging (follow-up to 2 Jul review). 5 of 6 previously-flagged items
+  now FIXED: Task 1 leeming-wa duplicate-icon bug resolved (all 28 silo pages pass CTA
+  block check incl. correct Bull Creek "Follow us on Facebook" -> FlourishELCBullCreekWA
+  link, verified against master pages); Task 3 areas-we-serve images swapped from
+  Oakville-only to generic Flourish-ELC branding; Task 4 FAQ JSON-LD schema for
+  before/after-school-care now clean on both bateman-wa and areas-we-serve; bonus
+  Vineyard "Here's what sets..." phrasing tweak applied. Task 2 unchanged/still correct
+  (Bull Creek silo reuses 1 image — source material limit, not a bug). ONE ITEM STILL
+  OUTSTANDING, unchanged word-for-word since 2 Jul: Task 5's FAQ JSON-LD schema still has
+  stale council/region references on the same 10 pages (oakville-nsw daycare+preschool,
+  mulgrave-nsw, preschool-gables-nsw, bull-creek-wa daycare+kindergarten, leeming-wa,
+  shelley-wa, rossmoyne-wa kindergarten, willetton-wa kindergarten) — visible content
+  confirmed clean site-wide. Full report at
+  review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt
 
 ## Working method notes
 - No pandoc/docx2txt on this machine — use `python3 -c "import docx"` (python-docx is
