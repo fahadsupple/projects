@@ -75,3 +75,14 @@ Only screenshot pages that need visual/layout instructions (usually the homepage
 - Never assume suburb/location lists match earlier keyword research memory without checking — cross-reference and flag discrepancies (e.g. naztech.com.au's Meta Data sheet had 14 suburbs and "Clyde"; the earlier finalised KWR memory had 15 suburbs including Mooroolbark and "Clyde North" — flagged, not silently reconciled).
 
 *Source: naztech.com.au daily task build, 9 Jul 2026 — first use of this capability, modelled on the acsdebtcollection.com.au sample doc the client provided.*
+
+
+## Template selection can change mid-project — re-check imagery/copy balance every time
+
+The client can override the default "use the most-populated existing page as template" logic at any point (e.g. naztech.com.au: switched from the Pakenham suburb page to the full homepage as the template for all new location pages, after the doc was already built once). When this happens:
+- Rebuild every "using X as the template" reference in the doc, including the rename note for any existing page that used the old template (its content now needs rebuilding to the new template too, not just its URL).
+- **Before finalising, screenshot and check the new template page for business-segment/imagery bias** — if the client serves multiple distinct customer/vehicle/product types, verify the template represents all of them neutrally. Check: hero image/copy, any brand/logo grids (are they empty/broken?), equipment or product list sections (does every service line get a column/tile, or do 1-2 dominate?), and section headings (do they use exclusionary language like "commercial operators" when the business also serves other customer types?).
+- If the template is heavily biased toward one segment and will be replicated across many new pages (suburb pages, location pages), that bias multiplies across the whole site. Flag it as its own numbered section in the doc with annotated screenshots per biased element (hero, logo grid, list columns, tile grid), not folded into the general template instructions.
+- Add an explicit warning against literally duplicating a long/rich template's every section on every new page — trim per-page content to what's realistic for that page's narrower scope (e.g. a single-service suburb page doesn't need the full multi-sector equipment list the homepage has), while keeping the same visual structure/section pattern.
+
+*Source: naztech.com.au, 9 Jul 2026 — client switched the location-page template from Pakenham to the homepage mid-build, which surfaced that the homepage itself was heavily industrial/commercial-skewed (empty brand logo grid, zero light-automotive equipment column, "Trusted by Commercial Operators" heading) and needed its own fix before being scaled across 42 pages.*

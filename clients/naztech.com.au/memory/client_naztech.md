@@ -118,3 +118,10 @@ Source: `Naztech.com.au-Keyword-URL-Meta.xlsx`, "Meta Data" sheet ONLY (client r
 **Nav/footer changes specified:** remove standalone "Cars"/"Pakenham" nav items; add 3 new "Services" dropdown items (Mobile Auto Electrician / Car Aircon Regas / Car Battery Replacement); footer "Services" column gets the same 3 links replacing the single "Air Conditioning" link.
 
 **Content note:** Title/Description/H1/H2/H3/Interlinking words columns are blank for every row in the Meta Data sheet — this daily task doc covers URL structure/redirects/templates/nav/footer only. Page copy is a separate, not-yet-started deliverable.
+
+## Daily Tasks — Update (9 Jul 2026, same day)
+Client requested two changes after initial doc was built:
+1. **Template switch:** use the homepage (not Pakenham) as the template for all 42 location pages. Pakenham's content will be rebuilt to the new homepage-based template too, on top of its URL rename. Doc updated accordingly — trimmed-per-silo instruction added (don't duplicate the full homepage structure verbatim on every suburb page).
+2. **Homepage neutrality fix:** homepage was found to be heavily industrial/commercial-skewed — hero image (truck/toolbox scene), "Brands & Equipment We Work On" 20-tile grid (completely empty, no logos loading), 6 equipment-list columns (Heavy Equipment x3, Trucks, Farming, Mining — zero Light Automotive column), "Industries & Equipment We Service" grid (7/8 tiles industrial, only "General Vehicles" for light auto), and reviews heading "Trusted by Commercial Operators Across Melbourne" (excludes private/light-vehicle customers). New Section 4 added to the daily task doc with 4 annotated screenshots (hero, brands grid, equipment lists, industries grid) specifying what needs to change to represent all 3 service sectors (Light Automotive / Heavy Transport / Heavy Equipment) neutrally.
+
+Updated deliverable still at: `clients/naztech.com.au/daily-task/Naztech.com.au - Daily Tasks.docx` (now 11 sections, 6 embedded screenshots).
