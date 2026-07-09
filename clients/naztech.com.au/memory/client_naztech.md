@@ -94,3 +94,27 @@ South East Melbourne + Gippsland. 10 LGAs (priority order):
 - Phase 1 (seeds): pending
 - Phase 2 (suburbs): skipped — analyst-selected in Phase 0
 - Plugin client dir: `/home/invoi/.claude/plugins/cache/colana-mp/kwr/0.3.0/clients/naztech.com.au/`
+
+## Daily Tasks — Dev Handoff (9 Jul 2026)
+Deliverable: `clients/naztech.com.au/daily-task/Naztech.com.au - Daily Tasks.docx`
+Source: `Naztech.com.au-Keyword-URL-Meta.xlsx`, "Meta Data" sheet ONLY (client rule: always ignore "Hardy" sheets and other sheets in this file).
+
+**Live site structure at time of review (11 pages total):** `/`, `/gallery/`, `/pakenham/`, `/services/`, `/cars/`, `/about/`, `/areas-we-serve/`, `/air-conditioning/`, `/auto-electrical-services/`, `/mobile-air-conditioning-repairs-servicing/`, `/contact/`.
+
+**Meta Data sheet color rule confirmed by client:** yellow-highlighted URL rows = new pages to be created. Redirects only where the sheet has an explicit "Current URL: https://..." note.
+
+**Renames + 301 (2):** `/pakenham/` → `/mobile-auto-electrician-pakenham/`; `/cars/` → `/car-aircon-regas/`.
+
+**New pages (44 total):** 13 mobile-auto-electrician suburb pages (Pakenham excluded, handled via rename) + 14 car-aircon-regas suburb pages + 14 car-battery-replacement suburb pages + `/car-aircon-regas/` (root) + `/car-battery-replacement/` (root) + `/areas-we-serve/` (marked yellow despite already existing — flagged as a full rebuild into the suburb-hub page for all 3 silos).
+
+**Template:** `/pakenham/` (soon `/mobile-auto-electrician-pakenham/`) used as the structural template for all new suburb pages. No existing page in the car-aircon-regas or car-battery-replacement suburb silos — first suburb page built in each becomes that silo's new template.
+
+**Client decision (asked directly, 9 Jul 2026):** `/auto-electrical-services/` and `/mobile-air-conditioning-repairs-servicing/` are richer content matches for `/mobile-auto-electrician/` and `/car-aircon-regas/` respectively, but client chose to follow the Meta Data sheet literally — no redirect from either page, sheet's `/cars/` → `/car-aircon-regas/` note stands as-is.
+
+**Open flag (unresolved):** `/mobile-auto-electrician/` currently 404s but is NOT marked yellow and has no "Current URL" note in the sheet — inconsistent with every other row. Needs client/analyst confirmation before dev starts on that specific page.
+
+**Suburb list discrepancy flagged:** Meta Data sheet uses 14 suburbs incl. "Clyde" (not "Clyde North") and excludes Mooroolbark, vs. the earlier finalised KWR Phase 0 plan (15 suburbs, Mooroolbark included, "Clyde North"). Daily task doc follows the Meta Data sheet per client instruction; discrepancy flagged in the doc's Open Items section for confirmation.
+
+**Nav/footer changes specified:** remove standalone "Cars"/"Pakenham" nav items; add 3 new "Services" dropdown items (Mobile Auto Electrician / Car Aircon Regas / Car Battery Replacement); footer "Services" column gets the same 3 links replacing the single "Air Conditioning" link.
+
+**Content note:** Title/Description/H1/H2/H3/Interlinking words columns are blank for every row in the Meta Data sheet — this daily task doc covers URL structure/redirects/templates/nav/footer only. Page copy is a separate, not-yet-started deliverable.

@@ -16,6 +16,7 @@
 - [Meta Titles & Descriptions](capability_meta_tags.md) — full audit process, title/desc format rules, SERP patterns, suburb/service templates, .txt deliverable format
 - [Audit Review](capability_audit_review.md) — translate SEO audit into quick wins plan, developer requirements doc, client data checklist
 - [Keyword → URL Mapping](capability_keyword_url_mapping.md) — consolidated table format, ecommerce URL logic (category > product > legacy), P/S rules, location pairing, SERP pattern method for secondaries
+- [Daily Task](capability_daily_task.md) — dev handoff doc for URL restructures/redirects/new-page creation from a Meta Data keyword sheet, annotated screenshots, template mapping rules
 - [Content & Image Review](capability_content_review.md) — live Playwright audit of all pages: content accuracy, spelling, image relevance, broken links, systemic issues, issue severity tiers, deliverable format
 
 ## SEO — Keyword Research Rules
@@ -52,7 +53,7 @@
 - [foodistribute.com.au](project_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
 - [leffler.com.au](../clients/leffler.com.au/memory/client_leffler.md) — H. Leffler & Son, wholesale leather & craft supplier, West Melbourne, 9,500+ lines, meta descriptions written May 2026
 - [brewerschoice.net.au](../clients/brewerschoice.net.au/memory/client_brewerschoice.md) — Brewers Choice Home Brew Supplies, Bayswater physical store + ecommerce, 15G+10L, kwr:init complete 12 May 2026
-- [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026
+- [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026; Daily Tasks dev handoff doc complete 9 Jul 2026 (44 new pages, 2 renames+301s, nav/footer/screenshots)
 - [thecakepeople.au](../clients/thecakepeople.au/memory/client_thecakepeople.md) — The Cake People, 100% plant-based celebration cakes Shopify ecommerce, Keilor Park VIC + Melbourne-wide delivery, 30G+0L, full pipeline complete 2026-06-23, report ready for delivery
 - [shellharbourskin.com.au](../clients/shellharbourskin.com.au/memory/client_shellharbourskin.md) — Shellharbour Skin, medical aesthetic & skin cancer clinic NSW, content verification complete 2026-06-26 (12/14 correct, 2 outstanding: Medical Director title missing, meta title missing "-Hall")
 
