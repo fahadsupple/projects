@@ -111,6 +111,24 @@ this build, not a one-off.**
   shelley-wa, rossmoyne-wa kindergarten, willetton-wa kindergarten) — visible content
   confirmed clean site-wide. Full report at
   review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt
+- 9 Jul 2026 (same day) — Confirmed via full 37-page sitemap scan (visible + all JSON-LD
+  scripts) that "before and after school care" no longer appears ANYWHERE on staging —
+  client's original "verify if there are any other references" request from the Adding
+  CTAs doc is now fully closed out, no other instances found.
+- 9 Jul 2026 (same day) — Targeted compliance-statement scan (comply/regulation/NQF/EYLF/
+  LEP/RFS/accreditation etc.) across all 29 location+areas-we-serve pages, visible +
+  schema. Flagged 4 items for client verification (not confirmed wrong, just unverified
+  specific claims, client OK with dev removing entirely if not quickly verifiable): (1)
+  footer "Privacy-and-Confidentiality-Policy-NQF-NSW.pdf" linked site-wide incl. WA pages
+  despite NSW-branded filename; (2) preschool-oakville-nsw cites a specific "Local
+  Environmental Plan (LEP)" + "semi-rural (RU4)" zoning claim; (3) preschool-vineyard-nsw
+  + preschool-gables-nsw cite NSW RFS "Bush Fire Prone Area" designation compliance; (4)
+  kindergarten-shelley-wa claims formal "SunSmart accreditation" (stronger than the
+  generic SunSmart-guidelines language used elsewhere). NQF/EYLF/National Law/Child Care
+  Subsidy/Working with Children references elsewhere are standard Australia-wide
+  language, not flagged. Dev handoff scoped to ONLY these 4 compliance items (client
+  explicitly asked to exclude CTA/FAQ items, those are separate handoffs) written to
+  review-work/dev-instructions-09-Jul-2026.txt.
 
 ## Working method notes
 - No pandoc/docx2txt on this machine — use `python3 -c "import docx"` (python-docx is

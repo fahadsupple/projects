@@ -1,0 +1,79 @@
+FLOURISH ELC — DEVELOPER INSTRUCTIONS: COMPLIANCE / REGULATORY CLAIMS
+Compiled 9 July 2026
+Staging site: https://hardyd21.sg-host.com/ — do not touch the live flourishelc.com.au site.
+
+Scope note: this list is ONLY the compliance/regulatory-claim findings from a targeted scan
+(comply/regulation/NQF/EYLF/LEP/RFS/accreditation etc.). It does not include the separate
+FAQ-schema or closing-CTA-section findings from earlier reviews — those are covered in
+review-work/approved-doc-vs-staging-09-Jul-2026.txt and
+review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt.
+
+These are specific factual claims about regulations, planning law, or accreditation that we
+haven't been able to independently verify. If the client can't quickly confirm each one is true,
+the simplest fix is to delete the specific claim rather than leave an unverified statement live —
+happy for the developer to remove any of these sections entirely rather than rewrite them.
+
+================================================================================
+1. FOOTER PRIVACY POLICY PDF — NSW-BRANDED FILE LINKED FROM WA PAGES TOO
+================================================================================
+Every page on the site (NSW and WA alike) links to the same footer PDF:
+https://hardyd21.sg-host.com/wp-content/uploads/2025/07/Privacy-and-Confidentiality-Policy-NQF-NSW.pdf
+
+The filename itself is NSW-specific ("NQF-NSW"). Confirm whether this is genuinely a NSW-only
+compliance document being wrongly served on WA/Bull Creek pages, or just an unfortunate filename
+with generic content — rename or replace with a WA-appropriate version if needed.
+
+Affects: all 28 location pages + areas-we-serve (footer is site-wide, so this is one fix in the
+footer template, not a per-page change).
+
+================================================================================
+2. SPECIFIC PLANNING/ZONING CLAIM
+================================================================================
+https://hardyd21.sg-host.com/preschool-oakville-nsw/
+
+Current text: "Our facility meets the stringent requirements of the relevant Local Environmental
+Plan (LEP), particularly concerning safety and environmental standards in semi-rural (RU4) zones."
+
+This cites a specific NSW planning instrument and zoning code. Either:
+(a) confirm with the client this is accurate for the Oakville site and leave as-is, or
+(b) remove the LEP/RU4 reference and keep it general, e.g. "purpose-built to suit our semi-rural
+    setting."
+
+================================================================================
+3. BUSHFIRE-PRONE AREA / RFS COMPLIANCE CLAIMS
+================================================================================
+https://hardyd21.sg-host.com/preschool-vineyard-nsw/
+Current text: "Beyond standard childcare regulations, we maintain an extensive RFS-compliant
+bushfire emergency plan specific to Vineyard's designation as a Bush Fire Prone Area."
+
+https://hardyd21.sg-host.com/preschool-gables-nsw/
+Current text: "Our centre exceeds all regulatory requirements, including specific provisions for
+bushfire-prone area management."
+
+Both reference the NSW RFS (Rural Fire Service) and a formal "Bush Fire Prone Area" planning
+designation. Either:
+(a) confirm with the client these centres are actually on the NSW Planning Portal's bushfire-prone
+    land map and leave as-is, or
+(b) remove the specific RFS/designation wording and keep general bushfire-safety language only.
+
+================================================================================
+4. SUNSMART "ACCREDITATION" CLAIM
+================================================================================
+https://hardyd21.sg-host.com/kindergarten-shelley-wa/
+
+Current text: "Our extensive SunSmart accreditation isn't merely a certificate on the wall..." /
+"Our SunSmart accreditation guides daily practices..."
+
+This claims formal SunSmart accreditation (a real Cancer Council program with its own verification
+process) — stronger than the generic "SunSmart guidelines" wording used elsewhere on the site.
+Either:
+(a) confirm the centre actually holds this accreditation and leave as-is, or
+(b) soften to "SunSmart-aligned practices" to match the language used on the rest of the site.
+
+================================================================================
+NOT AN ISSUE — NO ACTION NEEDED
+================================================================================
+For context, these regulatory terms appear across the site and are fine as-is (standard, accurate,
+Australia/state-wide language, not location-specific or risky): National Quality Framework (NQF),
+Early Years Learning Framework (EYLF), Education and Care Services National Law and Regulations,
+Child Care Subsidy, Working with Children checks. No changes needed anywhere these appear.
