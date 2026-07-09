@@ -2,78 +2,94 @@ FLOURISH ELC — DEVELOPER INSTRUCTIONS: COMPLIANCE / REGULATORY CLAIMS
 Compiled 9 July 2026
 Staging site: https://hardyd21.sg-host.com/ — do not touch the live flourishelc.com.au site.
 
-Scope note: this list is ONLY the compliance/regulatory-claim findings from a targeted scan
-(comply/regulation/NQF/EYLF/LEP/RFS/accreditation etc.). It does not include the separate
-FAQ-schema or closing-CTA-section findings from earlier reviews — those are covered in
-review-work/approved-doc-vs-staging-09-Jul-2026.txt and
+Scope note: this covers only 3 compliance/regulatory-claim findings. Does not include the
+separate FAQ-schema (council references) or closing-CTA-section findings from earlier reviews —
+those are in review-work/approved-doc-vs-staging-09-Jul-2026.txt and
 review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt.
 
-These are specific factual claims about regulations, planning law, or accreditation that we
-haven't been able to independently verify. If the client can't quickly confirm each one is true,
-the simplest fix is to delete the specific claim rather than leave an unverified statement live —
-happy for the developer to remove any of these sections entirely rather than rewrite them.
+We can't independently verify these claims are accurate, so the instruction below is to REMOVE
+the specific unverifiable wording and replace with safer general language. If the client later
+confirms a claim is accurate, it can be added back in.
 
 ================================================================================
-1. FOOTER PRIVACY POLICY PDF — NSW-BRANDED FILE LINKED FROM WA PAGES TOO
+1. https://hardyd21.sg-host.com/preschool-oakville-nsw/
 ================================================================================
-Every page on the site (NSW and WA alike) links to the same footer PDF:
-https://hardyd21.sg-host.com/wp-content/uploads/2025/07/Privacy-and-Confidentiality-Policy-NQF-NSW.pdf
+Location: body paragraph under the "Extensive Emergency Planning for Local Conditions" H3.
 
-The filename itself is NSW-specific ("NQF-NSW"). Confirm whether this is genuinely a NSW-only
-compliance document being wrongly served on WA/Bull Creek pages, or just an unfortunate filename
-with generic content — rename or replace with a WA-appropriate version if needed.
+REPLACE this exact paragraph:
+"Our facility meets the stringent requirements of the relevant Local Environmental Plan (LEP),
+particularly concerning safety and environmental standards in semi-rural (RU4) zones. This deep
+understanding of local compliance makes sure we operate to the highest possible standards."
 
-Affects: all 28 location pages + areas-we-serve (footer is site-wide, so this is one fix in the
-footer template, not a per-page change).
+WITH:
+"Our facility is purpose-built to suit our semi-rural setting, with safety and environmental
+standards designed specifically for local conditions."
 
-================================================================================
-2. SPECIFIC PLANNING/ZONING CLAIM
-================================================================================
-https://hardyd21.sg-host.com/preschool-oakville-nsw/
-
-Current text: "Our facility meets the stringent requirements of the relevant Local Environmental
-Plan (LEP), particularly concerning safety and environmental standards in semi-rural (RU4) zones."
-
-This cites a specific NSW planning instrument and zoning code. Either:
-(a) confirm with the client this is accurate for the Oakville site and leave as-is, or
-(b) remove the LEP/RU4 reference and keep it general, e.g. "purpose-built to suit our semi-rural
-    setting."
+(This removes the specific "Local Environmental Plan (LEP)" and "RU4" zoning references, which we
+can't confirm are accurate for this site, while keeping the rest of the message intact.)
 
 ================================================================================
-3. BUSHFIRE-PRONE AREA / RFS COMPLIANCE CLAIMS
+2. https://hardyd21.sg-host.com/preschool-vineyard-nsw/
 ================================================================================
-https://hardyd21.sg-host.com/preschool-vineyard-nsw/
-Current text: "Beyond standard childcare regulations, we maintain an extensive RFS-compliant
-bushfire emergency plan specific to Vineyard's designation as a Bush Fire Prone Area."
+Location: FAQ answer for "What safety measures do you have in place?" — update in BOTH the
+visible accordion text AND the matching FAQPage JSON-LD schema entry.
 
-https://hardyd21.sg-host.com/preschool-gables-nsw/
-Current text: "Our centre exceeds all regulatory requirements, including specific provisions for
-bushfire-prone area management."
+REPLACE this exact answer:
+"Beyond standard childcare regulations, we maintain an extensive RFS-compliant bushfire emergency
+plan specific to Vineyard's designation as a Bush Fire Prone Area. Our modern facility includes
+secure entry systems, CCTV monitoring, and regular safety drills."
 
-Both reference the NSW RFS (Rural Fire Service) and a formal "Bush Fire Prone Area" planning
-designation. Either:
-(a) confirm with the client these centres are actually on the NSW Planning Portal's bushfire-prone
-    land map and leave as-is, or
-(b) remove the specific RFS/designation wording and keep general bushfire-safety language only.
+WITH:
+"We maintain a comprehensive bushfire emergency plan tailored to our local conditions. Our modern
+facility includes secure entry systems, CCTV monitoring, and regular safety drills."
 
-================================================================================
-4. SUNSMART "ACCREDITATION" CLAIM
-================================================================================
-https://hardyd21.sg-host.com/kindergarten-shelley-wa/
-
-Current text: "Our extensive SunSmart accreditation isn't merely a certificate on the wall..." /
-"Our SunSmart accreditation guides daily practices..."
-
-This claims formal SunSmart accreditation (a real Cancer Council program with its own verification
-process) — stronger than the generic "SunSmart guidelines" wording used elsewhere on the site.
-Either:
-(a) confirm the centre actually holds this accreditation and leave as-is, or
-(b) soften to "SunSmart-aligned practices" to match the language used on the rest of the site.
+(This removes the specific "RFS-compliant" and "Bush Fire Prone Area" designation claims, which we
+can't confirm are accurate for this site, while keeping the general safety message intact.)
 
 ================================================================================
-NOT AN ISSUE — NO ACTION NEEDED
+3. https://hardyd21.sg-host.com/preschool-gables-nsw/
 ================================================================================
-For context, these regulatory terms appear across the site and are fine as-is (standard, accurate,
-Australia/state-wide language, not location-specific or risky): National Quality Framework (NQF),
-Early Years Learning Framework (EYLF), Education and Care Services National Law and Regulations,
-Child Care Subsidy, Working with Children checks. No changes needed anywhere these appear.
+Location: FAQ answer for "What Safety Measures Are in Place?" — update in BOTH the visible
+accordion text AND the matching FAQPage JSON-LD schema entry.
+
+REPLACE this exact sentence (keep the second sentence in the same answer unchanged):
+"Our centre exceeds all regulatory requirements, including specific provisions for bushfire-prone
+area management."
+
+WITH:
+"Our centre maintains comprehensive safety provisions, including planning for bushfire risk in our
+local area."
+
+(This removes the "exceeds all regulatory requirements" and formal "bushfire-prone area
+management" wording, which we can't confirm is an accurate compliance claim, while keeping the
+safety message intact.)
+
+================================================================================
+4. https://hardyd21.sg-host.com/kindergarten-shelley-wa/
+================================================================================
+Two separate mentions to fix on this page:
+
+(a) Body paragraph under the "Safety and Outdoor Learning in Perth's Climate" H2:
+
+REPLACE this exact sentence:
+"Our extensive SunSmart accreditation isn't merely a certificate on the wall; it's a daily practice
+that allows children to safely investigate and learn outdoors year-round."
+
+WITH:
+"Our extensive SunSmart-aligned practices aren't merely a policy on paper; they're a daily practice
+that allows children to safely investigate and learn outdoors year-round."
+
+(b) FAQ answer for "How do you handle Perth's hot weather while maintaining outdoor learning?" —
+update in BOTH the visible accordion text AND the matching FAQPage JSON-LD schema entry:
+
+REPLACE this exact phrase at the start of the answer:
+"Our SunSmart accreditation guides daily practices including UV monitoring, protective clothing
+requirements, and strategic scheduling."
+
+WITH:
+"Our SunSmart-aligned practices guide daily routines including UV monitoring, protective clothing
+requirements, and strategic scheduling."
+
+(This removes the claim of formal SunSmart "accreditation" — which we can't confirm the centre
+holds — and replaces it with "SunSmart-aligned practices," matching the safer language already
+used elsewhere on the site. Leave the rest of each sentence unchanged.)

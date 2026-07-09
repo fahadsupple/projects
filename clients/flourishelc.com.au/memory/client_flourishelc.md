@@ -126,9 +126,14 @@ this build, not a one-off.**
   kindergarten-shelley-wa claims formal "SunSmart accreditation" (stronger than the
   generic SunSmart-guidelines language used elsewhere). NQF/EYLF/National Law/Child Care
   Subsidy/Working with Children references elsewhere are standard Australia-wide
-  language, not flagged. Dev handoff scoped to ONLY these 4 compliance items (client
+  language, not flagged. Dev handoff scoped to ONLY these compliance items (client
   explicitly asked to exclude CTA/FAQ items, those are separate handoffs) written to
-  review-work/dev-instructions-09-Jul-2026.txt.
+  review-work/dev-instructions-09-Jul-2026.txt. Client then dropped item 1 (footer PDF)
+  as not needed, and asked for surgical "replace X with Y" instructions instead of
+  descriptive options for the remaining 3 (LEP/RU4, RFS bushfire x2 pages, SunSmart
+  accreditation x2 mentions on 1 page) — file rewritten accordingly with exact current
+  text + exact replacement text for each, specifying visible-content vs FAQ-schema scope
+  per item.
 
 ## Working method notes
 - No pandoc/docx2txt on this machine — use `python3 -c "import docx"` (python-docx is
