@@ -77,3 +77,107 @@ The Barbie Cakes page contains an incomplete sentence with a missing clause and 
 > "A doll cake has to taste as good as it looks once the gown is cut, and that side is on the record. **in the Baking Association of Australia's Victorian Baking Show**, judged beside conventional egg-and-butter bakeries..."
 
 Something has been dropped between "on the record." and "in the Baking Association". Needs repair regardless of the voice work.
+
+---
+
+# Part 2 — Sentence and Paragraph Flow
+
+Sentence *rhythm* is actually healthy (mean 17.5 words, stdev 8.7, 13% under 8 words) — the copy is not monotone at the sentence-length level. The flow problems are elsewhere: at paragraph level, at page level, and in a handful of repeated syntactic tics.
+
+## 1. Every page is built on the identical skeleton — the biggest flow problem
+
+All 34 pages run the same five or six sections in the same order:
+
+**Hook → "The designs you can order" → "The Cake People behind the X" (credentials) → "everyone can eat it" (allergy) → "Ordering / notice" → FAQ → closing CTA**
+
+Read individually each page is fine. Read as a set — which is what a browsing customer does, and what Google does — it is a template with the nouns swapped. The reader hits the same beat in the same place every time.
+
+**Fix:** vary the section order and the number of sections per page. Some pages should lead with allergy, some with the maker story, some should drop a section entirely.
+
+## 2. The credentials paragraph is on all 34 pages, cosmetically reworded each time
+
+| Element | Pages it appears on |
+|---|---|
+| "8,481 orders" | **34 of 34** |
+| "100% plant-based" | 33 |
+| "since 2014" | 31 |
+| "Victorian Baking Show" | 28 |
+| "three years running" | 16 |
+
+Same facts, same order, lightly re-dressed:
+
+> Page 3: *"judged beside conventional bakeries with no allowance for plant-based work, where it has received an award for three years running"*
+> Page 9: *"judged against conventional egg-and-butter bakeries in the open category… with no separate class for vegan work, and have received an award for three years running"*
+> Page 20: *"scored beside conventional bakeries with no allowance for plant-based craft, where they have received an award for three years running"*
+
+The rewording is the tell — it is the same paragraph wearing a different hat. **Fix:** tell a genuinely different slice of the story per page, or cut it to one line on most pages and go deep on a few.
+
+## 3. Paragraphs are stacks of declaratives with no connective tissue
+
+Across 20,600 words: sentence-initial **"But": 0. "However": 2. "So": 3. "Though": 0. "Still": 0.**
+
+Sentences sit next to each other without being *joined* to each other. The logical relationship — this *because* that, this *but* that — is left for the reader to infer. This is the main reason the copy feels flat and list-like despite decent sentence variance.
+
+> *"A snack cake off the supermarket shelf comes in one design and one flavour. A made-to-order cake is built for the birthday in front of you. Joanne and Stephen have owned The Cake People and baked every cake themselves since 2014, now past 8,481 orders across Melbourne."*
+
+Three statements, no bridge. Sentence three does not follow from sentence two — it just arrives.
+
+## 4. The colon tic — 91 mid-sentence colons
+
+Roughly one every 13 sentences, and it is the default way of opening an idea:
+
+> *"the perfect birthday cake looks like the game itself: blocky avatars, the red logo, the bright worlds they build after school"*
+> *"The most popular is an edible-image cake: the flames, the flag and the bold blue-and-orange colours…"*
+> *"Two straight facts worth knowing: the cakes are gluten-friendly rather than certified…"*
+> *"At a party full of kids, this is the part that matters: every Roblox cake we make is 100% plant-based."*
+
+Once or twice it is stylish. Ninety-one times it is a verbal tic.
+
+## 5. Trailing comma-tail clauses — 13% of sentences carry 3+ commas
+
+Sentences make their point and then keep going, hanging qualifiers off the back:
+
+> *"The cake under the Hot Wheels design is the same recipe they put up in the Baking Association of Australia's Victorian Baking Show, judged beside conventional bakeries with no allowance for plant-based work, where it has received an award for three years running."*
+
+That is three clauses stacked after the main statement. The reader has lost the subject by the end.
+
+## 6. The internal-link sentence is bolted onto every page, always in the same slot
+
+Always the last sentence of the "designs" paragraph, always the same shape — and the verb is frequently elided into ungrammatical shorthand:
+
+> *"When the party mixes ages, our Bluey cakes suit the youngest and Barbie cakes **a doll-themed guest**."* ← missing verb
+> *"Our Bluey cakes win over the youngest fans, and Barbie cakes **handle the pink end of the party**."*
+> *"our Bluey cakes suit the little ones and our Hot Wheels cakes cover the race-day crowd"*
+
+**Fix:** move these links into the body where they are contextually earned, and write each one as a full sentence.
+
+## 7. The review quote is always bolted to the end of the credentials paragraph
+
+27 instances of "As one customer put it / As one parent wrote", always in the same position — the final sentence of the credentials block. Combined with the recycled reviews (see Part 1), it reads mechanical.
+
+## 8. "Yes." opens 27 FAQ answers
+
+Fine once or twice. Across the document, every FAQ answer starts the same way.
+
+---
+
+## Specific sentences that need repair
+
+| Page | Problem |
+|---|---|
+| 1 (Barbie) | **Broken sentence — clause missing:** *"…and that side is on the record. in the Baking Association of Australia's Victorian Baking Show, judged beside…"* |
+| 3 (Hot Wheels) | *"**Throwing for more than one theme?**"* — verb object dropped; should be "Throwing a party for more than one theme?" |
+| 3 (Hot Wheels) | *"a Hot Wheels cake **hands the birthday driver a finish line in buttercream and orange flame**"* — mixed metaphor, overcooked |
+| 9 (Roblox) | *"The theme is why it gets ordered; **that everyone can eat it is why parents come back**."* — the noun-clause subject is hard to parse |
+| 20 (Delivery) | *"You have done the choosing; hand us the date and the address, and **the last stretch, getting your cake there safely and on time, is ours to carry**."* — nested clause buries the verb |
+| 20 (Delivery) | Two sentences in the same paragraph both open with **"Because"** |
+
+---
+
+## Priority order for the flow fixes
+
+1. **Break the page template** — vary section order and count. Highest impact, most work.
+2. **Rewrite the credentials paragraph per page** so it is not the same story 34 times.
+3. **Add connective tissue** — "but", "so", "which is why". Cheap, fast, big readability gain.
+4. **Cut the colons by two-thirds** and vary the openers.
+5. **Repair the six broken sentences above.**
