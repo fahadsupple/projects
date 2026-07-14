@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-14T04:29:40Z_
+_Rebuilt: 2026-07-14T05:01:29Z_
 
 ## Snapshot
 
@@ -37,4 +37,6 @@ _Rebuilt: 2026-07-14T04:29:40Z_
 - 2026-07-14T02:20:19.931Z  `client_fact_confirmed`  client:skyflex.au  (success)
 - 2026-07-14T02:20:52.276Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T04:29:30.662Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-14T04:29:40.906Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-14T05:05:00.000Z  `client_fact_split`  client:skyflex.au  (success)
 
