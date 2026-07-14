@@ -1,79 +1,100 @@
-FLOURISH ELC — DEVELOPER INSTRUCTIONS: COMPLIANCE / REGULATORY CLAIMS
-Compiled 9 July 2026
-Staging site: https://hardyd21.sg-host.com/ — do not touch the live flourishelc.com.au site.
-
-Scope note: this covers only 4 find/replace items. Does not include the separate FAQ-schema
-(council references) or closing-CTA-section findings from earlier reviews — those are in
-review-work/approved-doc-vs-staging-09-Jul-2026.txt and
-review-work/adding-ctas-doc-vs-staging-09-Jul-2026.txt.
-
 ================================================================================
 1. https://hardyd21.sg-host.com/preschool-oakville-nsw/
 ================================================================================
-Body paragraph under the "Extensive Emergency Planning for Local Conditions" H3.
+Remove this entire section:
 
-REMOVE/REPLACE:
-"Our facility meets the stringent requirements of the relevant Local Environmental Plan (LEP),
-particularly concerning safety and environmental standards in semi-rural (RU4) zones. This deep
-understanding of local compliance makes sure we operate to the highest possible standards."
-
-WITH:
-"Our facility is purpose-built to suit our semi-rural setting, with safety and environmental
-standards designed specifically for local conditions."
+Extensive Emergency Planning for Local Conditions
+Our facility meets the stringent requirements of the relevant Local Environmental Plan (LEP), particularly concerning safety and environmental standards in semi-rural (RU4) zones. This deep understanding of local compliance makes sure we operate to the highest possible standards.'
 
 ================================================================================
 2. https://hardyd21.sg-host.com/preschool-vineyard-nsw/
 ================================================================================
-FAQ answer for "What safety measures do you have in place?" — update in BOTH the visible accordion
-text AND the matching FAQPage JSON-LD schema entry.
+Remove this FAQ:
 
-REMOVE/REPLACE:
-"Beyond standard childcare regulations, we maintain an extensive RFS-compliant bushfire emergency
-plan specific to Vineyard's designation as a Bush Fire Prone Area. Our modern facility includes
-secure entry systems, CCTV monitoring, and regular safety drills."
-
-WITH:
-"We maintain a comprehensive bushfire emergency plan tailored to our local conditions. Our modern
-facility includes secure entry systems, CCTV monitoring, and regular safety drills."
+What safety measures do you have in place?
+Beyond standard childcare regulations, we maintain an extensive RFS-compliant bushfire emergency plan specific to Vineyard's designation as a Bush Fire Prone Area. Our modern facility includes secure entry systems, CCTV monitoring, and regular safety drills.
 
 ================================================================================
 3. https://hardyd21.sg-host.com/preschool-gables-nsw/
 ================================================================================
-FAQ answer for "What Safety Measures Are in Place?" — update in BOTH the visible accordion text
-AND the matching FAQPage JSON-LD schema entry. Only the first sentence changes; leave the second
-sentence in the same answer unchanged.
 
-REMOVE/REPLACE:
-"Our centre exceeds all regulatory requirements, including specific provisions for bushfire-prone
-area management."
+Remove this entire FAQ:
 
-WITH:
-"Our centre maintains comprehensive safety provisions, including planning for bushfire risk in our
-local area."
+What Safety Measures Are in Place?
+Our centre exceeds all regulatory requirements, including specific provisions for bushfire-prone area management. We maintain wide-ranging emergency procedures, secure access systems, and regular safety audits to ensure your child's protection at all times.
+
+Investing in your child's early education at our preschool near Gables means choosing a partner who understands your aspirations and shares your commitment to excellence. In a suburb where families are building their futures, we provide the educational foundation that makes sure no child is left behind. With limited places available and exceptional demand from our growing community, now is the time to secure your child's position at Gables' premier early learning academy.
+
+Contact us today to book your tour and find how we're shaping the educational future of Sydney's newest premium suburb.
 
 ================================================================================
 4. https://hardyd21.sg-host.com/kindergarten-shelley-wa/
 ================================================================================
-Two separate lines to fix on this page:
 
-(a) Body paragraph under the "Safety and Outdoor Learning in Perth's Climate" H2.
+Remove this paragraph:
 
-REMOVE/REPLACE:
-"Our extensive SunSmart accreditation isn't merely a certificate on the wall; it's a daily practice
-that allows children to safely investigate and learn outdoors year-round."
+Perth's hot summers present real challenges for outdoor-based programs. We don't just cope with this reality, we've built our entire approach around it. Our extensive SunSmart accreditation isn't merely a certificate on the wall; it's a daily practice that allows children to safely investigate and learn outdoors year-round.
 
-WITH:
-"Our extensive SunSmart-aligned practices aren't merely a policy on paper; they're a daily practice
-that allows children to safely investigate and learn outdoors year-round."
+================================================================================
+5. https://hardyd21.sg-host.com/kindergarten-shelley-wa/
+================================================================================
 
-(b) FAQ answer for "How do you handle Perth's hot weather while maintaining outdoor learning?" —
-update in BOTH the visible accordion text AND the matching FAQPage JSON-LD schema entry. Only the
-first sentence changes; leave the rest of the answer unchanged.
+Remove this FAQ:
+How do you handle Perth's hot weather while maintaining outdoor learning?
+Our SunSmart accreditation guides daily practices including UV monitoring, protective clothing requirements, and strategic scheduling. We've invested in quality shade infrastructure and plan our most active outdoor exploration for cooler morning periods, with focused indoor learning during peak heat times.
 
-REMOVE/REPLACE:
-"Our SunSmart accreditation guides daily practices including UV monitoring, protective clothing
-requirements, and strategic scheduling."
+================================================================================
+6. https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+================================================================================
 
-WITH:
-"Our SunSmart-aligned practices guide daily routines including UV monitoring, protective clothing
-requirements, and strategic scheduling."
+Replace:
+Our kindergarten features SunSmart-approved shade sails and well-designed outdoor spaces that allow children to appreciate active play safely throughout the year. During extreme weather, our bright, modern indoor learning areas provide engaging alternatives that maintain the momentum of your child's development.
+
+With:
+Our kindergarten features well-designed outdoor spaces that allow children to appreciate active play safely throughout the year. During extreme weather, our bright, modern indoor learning areas provide engaging alternatives that maintain the momentum of your child's development.
+
+================================================================================
+7. https://hardyd21.sg-host.com/preschool-riverstone-nsw/
+================================================================================
+
+Replace the word "wecome" with "welcome".
+
+================================================================================
+8. https://hardyd21.sg-host.com/kindergarten-rossmoyne-wa/
+================================================================================
+
+Replace the word "Kndergarten" with "kindergarten"
+
+================================================================================
+10. https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+================================================================================
+
+Remove this bullet point:
+SunSmart-compliant outdoor play areas built for Perth's climate
+
+================================================================================
+11. https://hardyd21.sg-host.com/kindergarten-leeming-wa/
+================================================================================
+
+Remove this bullet point:
+SunSmart-compliant outdoor play areas built for Perth's climate
+
+================================================================================
+12. https://hardyd21.sg-host.com/daycare-childcare-willetton-wa/
+================================================================================
+
+Replace:
+What is your approach to sun safety?
+We follow strict Sun Smart guidelines. Children are required to wear a hat, and sunscreen is applied 20 minutes before all outdoor activities. We also monitor the UV daily ratings to ensure that children can safely enjoy their time outside.
+
+With:
+What is your approach to sun safety?
+Children are required to wear a hat, and sunscreen is applied 20 minutes before all outdoor activities. We also monitor the UV daily ratings to ensure that children can safely enjoy their time outside.
+
+================================================================================
+13. https://hardyd21.sg-host.com/daycare-childcare-willetton-wa/
+================================================================================
+
+Remove this FAQ:
+What safety measures do you have in place for Perth's hot climate?
+Our outdoor learning areas have ample shade and sun-smart features. We've invested in purpose-built shade systems that allow for safe outdoor play year-round, so that children can appreciate fresh air and physical activity even during Perth's hottest months.

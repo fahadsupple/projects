@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-14T06:32:43Z_
+_Rebuilt: 2026-07-14T06:33:32Z_
 
 ## Snapshot
 
@@ -29,9 +29,6 @@ _Rebuilt: 2026-07-14T06:32:43Z_
 
 ## Recent events (last 10)
 
-- 2026-07-14T05:02:12.508Z  `client_fact_placement_set`  client:skyflex.au  (success)
-- 2026-07-14T05:02:20.523Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-14T05:05:32.346Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T06:18:14.907Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T06:22:18.603Z  `keyword_research_completed`  entry:delta-commercial-folding-arm  (success)
 - 2026-07-14T06:25:11.920Z  `client_facts_extracted`  client:skyflex.au  (success)
@@ -39,4 +36,7 @@ _Rebuilt: 2026-07-14T06:32:43Z_
 - 2026-07-14T06:28:47.844Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T06:31:38.687Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T06:32:20.118Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-14T06:32:43.128Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-14T06:32:55.436284+00:00  `research.keyword.completed`  entry:skyflex-bbq-pods  ()
+- 2026-07-14T06:33:13.136342+00:00  `research.keyword.completed`  entry:skyflex-4k-android-smart-outdoor-tv  ()
 

@@ -1,0 +1,1347 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "21.0269 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140928-1150-0495-0000-65856a00538a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "20.9943 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://pergolux.au/",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-07-14 03:28:49 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": [
+                    {
+                      "text": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Moving Sale - Ends In",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Strictly necessary cookies",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Functional cookies",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Performance cookies",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Targeting cookies",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Designed in Norway",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Designed in Norway",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Currently Online Offline 02 9098 4751",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Shopping cart",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Moving Sale - Ends In",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Your Pergola Awaits",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Discover models or let us know if you need help :)",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Total due",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Do you have questions?",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "table_content": null
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "Find the support that works for you",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Get instant answers from a pergola specialist. We're online now!",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Pergolux Pty. Ltd.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Choosing a selection results in a full page refresh.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Opens in a new window.",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Call an Expert",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "From 8:30AM to 8PM - 7 days a week",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "02 9098 4751",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Chat with us",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Schedule a Video Call",
+                      "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2iAuY5gXp1FylzGmjlPyqc0Syqi8oq9oF6Q0ERjOVvZ7_P0ooXAU1Yv2bdpqOLagcUiBSbwAIb",
+                      "urls": [
+                        {
+                          "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2iAuY5gXp1FylzGmjlPyqc0Syqi8oq9oF6Q0ERjOVvZ7_P0ooXAU1Yv2bdpqOLagcUiBSbwAIb",
+                          "anchor_text": "Schedule a Video Call"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Show us your space and we'll guide you in choosing the perfect pergola",
+                      "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2iAuY5gXp1FylzGmjlPyqc0Syqi8oq9oF6Q0ERjOVvZ7_P0ooXAU1Yv2bdpqOLagcUiBSbwAIb",
+                      "urls": [
+                        {
+                          "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2iAuY5gXp1FylzGmjlPyqc0Syqi8oq9oF6Q0ERjOVvZ7_P0ooXAU1Yv2bdpqOLagcUiBSbwAIb",
+                          "anchor_text": "Show us your space and we'll guide you in choosing the perfect pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Sydney Warehouse & Showroom",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "415 Pembroke Rd",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Minto NSW 2566",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "02 9098 4751",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "ABN 98 674 622 050",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Copyright \u00a9 2026",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "All rights reserved",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Designed in Norway",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "table_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Save Up to 40% OFF",
+                    "main_title": "Save Up to 40% OFF",
+                    "author": null,
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "Celebrate our move with our biggest deals yet.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The first 50 orders receive a FREE $599 Heater.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Offer ends Sunday at midnight.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Free Delivery Australia Wide*",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "iOS and Android App",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 4 Pergolas Models",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The Ultimate All-Weather Pergola. Engineered for Australian weather, built to last, and ready to transform your outdoor space.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "With a classic profile, our 4th generation manually adjustable, louvered, aluminium pergola provides adjustable shade without motors or wiring.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "SnapFIT channel for tool-free add-ons",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Latest version of our Sundream model. This motorised, louvered, aluminum pergola with integrated beam lighting operates via remote, app, or smart home connection.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Motorized roof operates via remote, app, or smart home",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Integrated dimmable LED lighting",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Pergola 4 Pro Max",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The evolution of our premium Skydance model. An all-climate motorised, louvered, aluminium pergola with an integrated louver lighting, and a thicker structural profile.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Louver-integrated LED lighting for maximum ambiance",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "We're moving - You save BIG! \ud83d\udd25",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The biggest sale of the year.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "FREE $599 Heater for the first 50 orders. Limited stock.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Experience the engineering that made PERGOLUX a market leader. Our previous-generation Series 3 pergolas are now available at exclusive clearance pricing while stocks last.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The classic pergola with manual louvres, optional LED lighting, cyclone resistance, RainLUX\u2122 water protection, and a 10-year warranty.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Electric louvres with optional LED strips, cyclone resistant, RainLUX\u2122 water protection, and a 10-year warranty.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Electric LED louvres, integrated LED lighting, cyclone resistance, RainLUX\u2122 water protection, and a 10-year warranty.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Your backyard, every season",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "More space. More life",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Revolutionary fast assembly thanks to the SnapFIT\u2122 click system, unmatched durability, and maximum customisation with glass walls, screens, heaters and other accessories.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Optimised water drainage. Experience the new RainLUX\u2122 system: precise water drainage combined with quieter louvre operation. The freestanding Pergola 4 Pro Max and Pergola 4 models no longer require silicone during assembly, making setup easier than ever.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Simplified installation. RapidLouver\u2122: our patent-pending technology saves you time. This exclusive system reduces roof installation time by up to 75%. The precisely fitting, pre-assembled panels make installation a quick and straightforward process.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Complete modularity. Limitless customisation without drilling. Thanks to the SnapFIT\u2122 rails integrated into all 4th generation models, walls, glazing, or radiant heaters can be added in no time. This system preserves the integrity of your pergola and its original surface.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Excellent Customer Service. Australian team, quality assured, 10-year warranty, and always-there support. Over 100,000 satisfied customers globally means we're always by your side.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "All Pergolux pergola systems have been certified by a qualified and practicing structural engineer registered in Australia. They meet all relevant Australian Standards:",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 4 is the most advanced evolution of the PERGOLUX range to date, bringing a range of premium features and improvements across all models.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "One of the biggest upgrades is the introduction of RapidLouver\u2122 technology, a patent-pending click-in system that significantly speeds up installation. Compared to Series 3, roof assembly time has been reduced by up to 75%, making installation faster and more straightforward than ever.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "All Series 4 models now come standard with SnapFIT accessory rails, making it easier to add screens, glass walls, lighting and other accessories without the need for drilling or modifications to the frame. The Pro Max model also includes an additional SnapFIT rail integrated into the posts for even greater flexibility.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The Pergola 4 Pro and Pro Max feature an upgraded drip guard system, designed to reduce operating noise and improve water management during wet weather.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "For motorised models, Bluetooth connectivity has been enhanced with improved range and more reliable performance, providing a smoother user experience when controlling your pergola through the app or smart home integrations.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The Pergola 4 Pro Max is now available in the full range of standard sizes and can be configured as either a freestanding or wall-mounted pergola, offering more design flexibility than previous premium models.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Like Series 3, every Series 4 pergola is backed by the same 10-year PERGOLUX warranty, giving you long-term confidence in your investment.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The PERGOLUX Series 4 range includes three models, each designed to suit different needs and lifestyles.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "PERGOLUX Pergola 4 is the manually operated model, featuring an adjustable louvre roof controlled by a hand crank. With no motors, wiring or electricity required, it offers a simple and reliable solution for outdoor living. It includes a SnapFIT accessory rail on each beam, is compatible with optional LED lighting and heating accessories, and is engineered for outstanding durability.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "PERGOLUX Pergola 4 Pro adds motorised operation and integrated lighting. Control the louvre roof via remote, Bluetooth app or your smart home system. Dimmable LED lighting is built into the beams and is available in warm white or RGB. The Pro also features an additional SnapFIT rail on each beam, providing greater flexibility for accessories and customisation.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "PERGOLUX Pergola 4 Pro Max is our premium motorised model. It includes all the smart features of the Pro, while offering larger 150 x 150 mm posts, wider louvres for a more open outlook, integrated dimmable LED lighting within the louvres, and spans of up to 6 metres without the need for a centre post. Its robust design delivers exceptional strength and performance for larger outdoor spaces.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "All Series 4 pergolas are manufactured from premium 6063-T5 aluminium with a durable double-layer powder-coated finish. Every model features the integrated RainLUX drainage system, adjustable louvres with up to 120\u00b0 rotation, and compatibility with PERGOLUX glass walls, screen blinds, louvred walls and outdoor heating accessories.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "PERGOLUX pergolas are available in seven standard sizes to suit most outdoor spaces:",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "In most cases, Pergolux Pergolas do not require planning permission, but requirements can vary depending on state, property type, size, and location. Some councils may classify a pergola as a temporary outdoor structure, while others may request formal approval.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "It is always recommended to check with the local council to confirm what applies to your property. For further guidance, contact the Pergolux team via live chat, email, or phone 7 days a week.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Absolutely not! Every PERGOLUX pergola kit comes with a detailed installation guide, making it easy to assemble your pergola yourself. We recommend having two people for the installation to help steady the frame pieces as they click together.",
+                        "url": "https://pergolux.app/assembly",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.app/assembly",
+                            "anchor_text": "installation guide"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "If you prefer not to assemble it on your own, you can contact our customer service team for recommendations on qualified pergola installers near you.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Pergolux pergolas come as premium DIY kits, engineered for quick and easy self-assembly with clear step-by-step instructions. Many of our customers build their Pergolux pergola in just a few hours.",
+                        "url": "https://pergolux.au/pages/assembly",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/pages/assembly",
+                            "anchor_text": "self-assembly with clear step-by-step instructions"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Pergolux can connect you with trusted local installers.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Real Pergolux Experiences",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Avoca Beach, Central Coast",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Certified low-carbon aluminium for a more sustainable future.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Made for Australians",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Get support 7 days a week",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10-year structural, 2-year electrical warranty.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Our pergolas have won multiple awards and stand for quality and durability.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "iOS, Android and Web Support",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Access assembly guides anytime on iOS, Android, or your browser.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Safe in extreme weather conditions",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Free delivery Australia Wide*",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "PERGOLUX Series 4",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "#1 Pergola Brand Worldwide",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Chat with a specialist \u2192",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Pergola 4",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 4",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Manual Roof",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Manual Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Scandinavian Design",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Scandinavian Design"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Manual Roof",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Manual Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Scandinavian Design",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Scandinavian Design"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Manual Roof",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Manual Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Scandinavian Design",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Scandinavian Design"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Manual Roof",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Manual Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Scandinavian Design",
+                        "url": "https://pergolux.au/products/pergola",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola",
+                            "anchor_text": "Scandinavian Design"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Manual Louvered",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Manual adjustable roof",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3 Colors",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "7 Sizes",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Glass Walls",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Pergola 4 Pro",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 4",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "LED Add-On",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "LED Add-On"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "LED Add-On",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "LED Add-On"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "LED Add-On",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "LED Add-On"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "LED Add-On",
+                        "url": "https://pergolux.au/products/pergola-pro",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro",
+                            "anchor_text": "LED Add-On"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Louvered",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3 Colors",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "7 Sizes",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Glass Walls",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Integrated LED",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Integrated LED"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Integrated LED",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Integrated LED"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Integrated LED",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Integrated LED"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Motorised Roof",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Motorised Roof"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Integrated LED",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Integrated LED"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Premium Motorised Louvered",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3 Colors",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "7 Sizes",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Glass Walls",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Introducing Series 4",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 3 Clearance",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Clearance Models",
+                        "url": "https://pergolux.au/products/pergola-3",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-3",
+                            "anchor_text": "Clearance Models"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Pergola Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Clearance Models",
+                        "url": "https://pergolux.au/products/pergola-sundream",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-sundream",
+                            "anchor_text": "Clearance Models"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Sundream Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Clearance Models",
+                        "url": "https://pergolux.au/products/pergola-pro-max",
+                        "urls": [
+                          {
+                            "url": "https://pergolux.au/products/pergola-pro-max",
+                            "anchor_text": "Clearance Models"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Skydance Series 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Ask a Specialist",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Questions and Answers",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "NCC 2022",
+                        "url": "https://ncc.abcb.gov.au/",
+                        "urls": [
+                          {
+                            "url": "https://ncc.abcb.gov.au/",
+                            "anchor_text": "NCC 2022"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "NCC AS 4100",
+                        "url": "https://ncc.abcb.gov.au/editions/2019-a1/ncc-2019-volume-two-amendment-1/part-34-framing/part-344-structural-steel-members",
+                        "urls": [
+                          {
+                            "url": "https://ncc.abcb.gov.au/editions/2019-a1/ncc-2019-volume-two-amendment-1/part-34-framing/part-344-structural-steel-members",
+                            "anchor_text": "NCC AS 4100"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "AS/NZS 1664",
+                        "url": "https://www.standards.org.au/standards-catalogue/standard-details?designation=as-nzs-1664-1-1997-rec-2020",
+                        "urls": [
+                          {
+                            "url": "https://www.standards.org.au/standards-catalogue/standard-details?designation=as-nzs-1664-1-1997-rec-2020",
+                            "anchor_text": "AS/NZS 1664"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "3m x 3m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3m x 4m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3m x 5m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3m x 6m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4m x 4m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4m x 5m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4m x 6m",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Prefer professional installation?",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Chat with our team today to learn more.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Camberra, ACT",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Tom - Gurneys & Cidery",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Foster, VIC",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sydney, NSW",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Coney's Family",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Green Aluminium",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Designed in Norway",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Questions? Call Us",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "10 Year Warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Award Winning",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "UV Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "UV Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "UV Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "UV Protection",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Video tutorials",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Cyclone Resistant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "UV Protection",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Turn your backyard into the ultimate wellness space with a weatherproof, stylish Pergolux Pergola. Train rain or shine, elevate every workout, and make your gym your rules.",
+                    "main_title": "Save Up to 40% OFF",
+                    "author": null,
+                    "language": "en",
+                    "level": 6,
+                    "primary_content": [
+                      {
+                        "text": "Create the perfect space for outdoor dining. With a pergola, it\u2019s all about good company, great food, and enjoying the outdoors in true Aussie style",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Your pergola is as versatile as your lifestyle. Perfect for relaxing outdoors, hosting friends, or even doubling as a stylish carport to protect your vehicle.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Enjoy your poolside in comfort with a pergola. The perfect shaded spot to relax, unwind, and make the most of your outdoor space",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Extend your summer evenings with a Pergolux heater. Stay cozy outdoors after the sun goes down and make the most of every warm evening in your pergola.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sun when you want, shade when you need it. Your pergola adapts to your day, creating the perfect spot to relax, entertain, or simply enjoy the outdoors.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "A pergola is the perfect extension of your home. Creating a versatile outdoor space to relax, entertain, or work, all while enjoying fresh air and natural light",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Pergolux screens are a premium accessory designed exclusively for your pergola. They\u2019re quick and easy to install, giving you extra privacy, shade, or protection from the elements whenever you need it.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "secondary_topic": null,
+                "ratings": null,
+                "offers": null,
+                "comments": null,
+                "contacts": {
+                  "telephones": [
+                    "0290984751",
+                    "+61 2 9098 4751",
+                    "02 9098 4751"
+                  ],
+                  "emails": [
+                    "customerservice@pergolux.au",
+                    "sales@pergolux.au"
+                  ]
+                }
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

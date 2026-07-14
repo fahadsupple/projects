@@ -365,42 +365,42 @@
     },
     {
       "rank": 8,
-      "keyword": "commercial cleaning dandenong south",
+      "keyword": "commercial cleaning south yarra",
       "service": "commercial_cleaning",
       "silo": "commercial_cleaning",
-      "suburb": "Dandenong South",
+      "suburb": "South Yarra",
       "ring": 0,
-      "distance_km": 0,
-      "opportunity_score": 0.5338,
+      "distance_km": 3.9,
+      "opportunity_score": 0.62,
       "score_confidence": "MEDIUM",
       "track": "category_gap_fill",
       "volume": {
-        "raw": 40,
-        "ai_adjusted": 40,
-        "trend": "",
+        "raw": 90,
+        "ai_adjusted": 90,
+        "trend": "12-month range 10-320, LOW competition (index 7)",
         "volume_source": "dfs_primary"
       },
       "difficulty": 0,
       "current_position": null,
-      "cpc": 7.31,
+      "cpc": 0.0,
       "intent": "local_service",
       "local_pack": true,
       "gbp_tag": "both",
       "timeline": "quick_win",
-      "target_url": "/commercial-cleaning-dandenong-south/",
+      "target_url": "/commercial-cleaning-south-yarra/",
       "action": "create_new",
       "recommended_url": "",
-      "reasoning": "'commercial cleaning dandenong south' — 40/mo, KD low/unavailable (hyperlocal long-tail) (solid local demand). No existing Dandenong South page (gap_status MISSING_LOCATION, land-grab) — a net-new commercial cleaning suburb page. The real cleaning competitors sit at DA 15-28 (cleanwithcare.com.au DA15, whistlecleanaustralia.com.au DA16, greenkleenaustralia.com.au DA17) versus Twinkle Clean's DA 1, so a focused local page is winnable at suburb level. Lead the page with friendly, strong-English-speaking cleaners with a quality-control system. SERP: PAA questions are available to target with FAQ schema on the page.",
+      "reasoning": "'commercial cleaning south yarra' — 90/mo (LOW competition, index 7; 12-month trend ranged 10-320/mo, confirmed live via DataForSEO), KD low/unavailable (hyperlocal long-tail). No existing South Yarra page (gap_status MISSING_LOCATION, land-grab) — a net-new commercial cleaning suburb page. The real cleaning competitors sit at DA 15-28 (cleanwithcare.com.au DA15, whistlecleanaustralia.com.au DA16, greenkleenaustralia.com.au DA17) versus Twinkle Clean's DA 1, so a focused local page is winnable at suburb level. South Yarra is a premier inner-city commercial precinct — Chapel Street retail/boutique strip plus Toorak Road professional offices and allied-health clinics — giving genuine office/retail cleaning demand just 3.9km SE of the CBD, comfortably inside the client's target radius. Lead the page with 20+ years' cleaning experience and police-checked, fully trained cleaners. SERP/competitor detail for this specific suburb was not re-run through the full Phase 3 pipeline (serp-agent/competitor-agent) — volume and competition figures are DataForSEO-confirmed live, but PAA/local-pack presence should be spot-checked before the page briefs are finalised.",
       "secondaries": {
         "keywords": [
           "office cleaning",
           "commercial cleaning services",
-          "childcare cleaning"
+          "retail cleaning"
         ],
         "long_tail": [
           "office cleaning",
           "commercial cleaning services",
-          "childcare cleaning"
+          "retail cleaning"
         ],
         "must_mention": [],
         "paa_questions": [],

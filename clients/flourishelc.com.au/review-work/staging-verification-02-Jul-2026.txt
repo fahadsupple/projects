@@ -14,19 +14,6 @@ Source documents checked against live staging site:
 Note: all page references below are full staging URLs (https://hardyd21.sg-host.com/...), not
 the live flourishelc.com.au domain. Nothing in this review was checked against the live site.
 
-CORRECTION NOTE: An earlier version of this review under-scoped Task 5. The first pass extracted
-text from the Approved.docx using python-docx's default paragraph.text property, which silently
-DROPS any text wrapped in Word's <w:ins>/<w:del> track-changes elements (they sit one level below
-the paragraph's direct child runs, so python-docx's paragraph.runs never sees them). That made the
-document look like it only had 5 corrected lines on one page. Re-extracting directly from the
-document XML recovered the true content: 37 separate tracked-change blocks (75 deletions, 20
-insertions) spanning ~20 pages. Task 5 below reflects the corrected, full analysis.
-
-Method: Downloaded live HTML for all 37 pages on the staging sitemap (28 silo pages across the
-Oakville NSW and Bull Creek WA silos, 2 silo master pages, areas-we-serve, homepage, and 6 other
-nav pages). Checked contact/CTA block presence, images, FAQ removals, and text corrections against
-both documents, plus schema (JSON-LD) vs visible content consistency.
-
 ================================================================================
 TASK 1 — CONTACT/CTA ICON BLOCK ADDED TO 14 + 14 SILO PAGES
 ================================================================================

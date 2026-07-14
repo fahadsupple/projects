@@ -1,0 +1,1096 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.0416 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140927-1150-0495-0000-a5bf1bffcc71",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.4384 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://pergolaland.com.au/",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-07-14 03:27:56 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": null,
+                  "secondary_content": [
+                    {
+                      "text": "Council Application Management",
+                      "url": "https://pergolaland.com.au/services/council-application-management/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/council-application-management/",
+                          "anchor_text": "Council Application Management"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Onsite Measure & Quote",
+                      "url": "https://pergolaland.com.au/services/onsite-measure-quote/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/onsite-measure-quote/",
+                          "anchor_text": "Onsite Measure & Quote"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Clients",
+                      "url": "https://pergolaland.com.au/services/commercial-clients/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/commercial-clients/",
+                          "anchor_text": "Commercial Clients"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Building in Bushfire Areas",
+                      "url": "https://pergolaland.com.au/services/building-in-bushfire-areas/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/building-in-bushfire-areas/",
+                          "anchor_text": "Building in Bushfire Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Heritage Properties",
+                      "url": "https://pergolaland.com.au/services/heritage-properties/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/heritage-properties/",
+                          "anchor_text": "Heritage Properties"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergolas & Patios",
+                      "url": "https://pergolaland.com.au/galleries/pergolas-patios/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/galleries/pergolas-patios/",
+                          "anchor_text": "Pergolas & Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Pergola Gallery",
+                      "url": "https://pergolaland.com.au/galleries/commercial-clients/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/galleries/commercial-clients/",
+                          "anchor_text": "Commercial Pergola Gallery"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergolas & Patios",
+                      "url": "https://pergolaland.com.au/projects/pergolas-patios/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/projects/pergolas-patios/",
+                          "anchor_text": "Pergolas & Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Clients",
+                      "url": "https://pergolaland.com.au/projects/commercial/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/projects/commercial/",
+                          "anchor_text": "Commercial Clients"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Process",
+                      "url": "https://pergolaland.com.au/about/our-process/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/our-process/",
+                          "anchor_text": "Our Process"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "10 Year Warranty",
+                      "url": "https://pergolaland.com.au/about/10-year-warranty/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/10-year-warranty/",
+                          "anchor_text": "10 Year Warranty"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Profile",
+                      "url": "https://pergolaland.com.au/about/our-profile/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/our-profile/",
+                          "anchor_text": "Our Profile"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Hills District",
+                      "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                          "anchor_text": "Hills District"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Inner West",
+                      "url": "https://pergolaland.com.au/service-areas/inner-west/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/inner-west/",
+                          "anchor_text": "Inner West"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "North Shore",
+                      "url": "https://pergolaland.com.au/service-areas/north-shore/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/north-shore/",
+                          "anchor_text": "North Shore"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Northern Beaches",
+                      "url": "https://pergolaland.com.au/service-areas/northern-beaches/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/northern-beaches/",
+                          "anchor_text": "Northern Beaches"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Council Application Management",
+                      "url": "https://pergolaland.com.au/services/council-application-management/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/council-application-management/",
+                          "anchor_text": "Council Application Management"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Onsite Measure & Quote",
+                      "url": "https://pergolaland.com.au/services/onsite-measure-quote/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/onsite-measure-quote/",
+                          "anchor_text": "Onsite Measure & Quote"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Clients",
+                      "url": "https://pergolaland.com.au/services/commercial-clients/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/commercial-clients/",
+                          "anchor_text": "Commercial Clients"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Building in Bushfire Areas",
+                      "url": "https://pergolaland.com.au/services/building-in-bushfire-areas/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/building-in-bushfire-areas/",
+                          "anchor_text": "Building in Bushfire Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Heritage Properties",
+                      "url": "https://pergolaland.com.au/services/heritage-properties/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/services/heritage-properties/",
+                          "anchor_text": "Heritage Properties"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergolas & Patios",
+                      "url": "https://pergolaland.com.au/galleries/pergolas-patios/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/galleries/pergolas-patios/",
+                          "anchor_text": "Pergolas & Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Pergola Gallery",
+                      "url": "https://pergolaland.com.au/galleries/commercial-clients/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/galleries/commercial-clients/",
+                          "anchor_text": "Commercial Pergola Gallery"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergolas & Patios",
+                      "url": "https://pergolaland.com.au/projects/pergolas-patios/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/projects/pergolas-patios/",
+                          "anchor_text": "Pergolas & Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Clients",
+                      "url": "https://pergolaland.com.au/projects/commercial/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/projects/commercial/",
+                          "anchor_text": "Commercial Clients"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Process",
+                      "url": "https://pergolaland.com.au/about/our-process/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/our-process/",
+                          "anchor_text": "Our Process"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "10 Year Warranty",
+                      "url": "https://pergolaland.com.au/about/10-year-warranty/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/10-year-warranty/",
+                          "anchor_text": "10 Year Warranty"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Profile",
+                      "url": "https://pergolaland.com.au/about/our-profile/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/about/our-profile/",
+                          "anchor_text": "Our Profile"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Hills District",
+                      "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                          "anchor_text": "Hills District"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Inner West",
+                      "url": "https://pergolaland.com.au/service-areas/inner-west/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/inner-west/",
+                          "anchor_text": "Inner West"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "North Shore",
+                      "url": "https://pergolaland.com.au/service-areas/north-shore/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/north-shore/",
+                          "anchor_text": "North Shore"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Northern Beaches",
+                      "url": "https://pergolaland.com.au/service-areas/northern-beaches/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/service-areas/northern-beaches/",
+                          "anchor_text": "Northern Beaches"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "Visit the Pergola Land showroom to see our extensive range of outdoor lifestyle products.",
+                      "url": "https://pergolaland.com.au/showroom/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/showroom/",
+                          "anchor_text": "Pergola Land showroom"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Location & Hours 19 / 10 Pioneer Avenue, Thornleigh NSW 2120",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Monday \u2013 Friday: 9am \u2013 3pm",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Saturday: 10am \u2013 1pm",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "\u00a9 2026 Pergola Land",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Licence #261282C",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Privacy Policy",
+                      "url": "https://pergolaland.com.au/privacy-policy/",
+                      "urls": [
+                        {
+                          "url": "https://pergolaland.com.au/privacy-policy/",
+                          "anchor_text": "Privacy Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Site by Sol1",
+                      "url": "https://sol1.com.au/",
+                      "urls": [
+                        {
+                          "url": "https://sol1.com.au/",
+                          "anchor_text": "Site by Sol1"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Realise your outdoor living dream with Pergola Land today.",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "At Pergola Land, we design and build outdoor living spaces that feel like a natural extension of your home. With over 25 years of experience as pergola builders in Sydney, we\u2019ve helped homeowners create functional, well-designed pergolas, decks, patios, and alfresco areas across the Hills District, North Shore, Inner West, and Northern Beaches.",
+                        "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/service-areas/hills-district/",
+                            "anchor_text": "Hills District"
+                          },
+                          {
+                            "url": "https://pergolaland.com.au/service-areas/north-shore/",
+                            "anchor_text": "North Shore"
+                          },
+                          {
+                            "url": "https://pergolaland.com.au/service-areas/inner-west/",
+                            "anchor_text": "Inner West"
+                          },
+                          {
+                            "url": "https://pergolaland.com.au/service-areas/northern-beaches/",
+                            "anchor_text": "Northern Beaches"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "We understand that every home is different. That\u2019s why we take the time to listen, offer practical advice, and design a solution that suits your space, style, and budget. From simple pergolas to fully customised outdoor areas, our focus is on quality workmanship, thoughtful design, and a smooth, reliable process from start to finish.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Our team works closely with you at every stage to ensure the end result not only looks great but is built to last and adds real value to your home.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Get a free quote from the experts in outdoor living.",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Our design experts come to you \u2013 visiting your property to understand your vision, assess the space, and offer tailored advice that brings your ideas to life. The result? An outdoor space your family will genuinely love spending time in.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Visit the Pergola Land Showroom, Thornleigh",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Our Sydney showroom is designed to give you a true feel for how different styles, materials, and finishes look and perform in real life.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Building a pergola, patio or deck is an exciting investment, and visiting our Sydney showroom helps take the guesswork out of the process. You\u2019ll leave with clarity about what works best for your home, budget, and vision \u2013 making your journey smoother and more enjoyable.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "If you\u2019re ready to bring your dream outdoor area to life, visit our\u00a0pergola showroom in Sydney\u00a0today.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "What we can build for you",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "What sets Pergola Land apart?",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Uncompromising Quality: We are committed to delivering superior craftsmanship using only the finest materials. Our structures are engineered to withstand Sydney\u2019s diverse climate while maintaining their aesthetic appeal.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Unparalleled Expertise: Our decades of experience in the industry enable us to provide expert guidance throughout the entire process, from initial concept to final installation.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Endless Design Possibilities: We offer a vast array of styles, materials, and customisation options to ensure your pergola, patio or deck perfectly complements your home\u2019s architecture and your personal taste.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Seamless Installation: Our skilled and insured installation team works efficiently to minimise disruptions and deliver a stress-free experience.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Significant Property Value: A thoughtfully designed pergola, patio or deck can significantly enhance your home\u2019s value and curb appeal.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Imagine your perfect outdoor space:",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Entertaining guests in style under a beautifully designed pergola or patio, complete with comfortable seating and ambient lighting.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Creating a serene retreat for relaxation and rejuvenation, surrounded by lush greenery and the sounds of nature.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Expanding your living area with a spacious deck, perfect for alfresco dining, family gatherings, or simply enjoying the fresh air.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Finding refuge from the elements while still embracing the outdoors with a versatile patio or pergola that provides shade, shelter, and year-round comfort.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Seamlessly connecting your home and garden with a custom-designed outdoor living area tailored to your lifestyle.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Whether you envision a grand entertaining area, a stylish patio, a stunning deck, or a cosy private sanctuary, Pergola Land can make it a reality. Our dedication to customer satisfaction and our commitment to excellence have earned us a reputation as Sydney\u2019s leading outdoor living specialists.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Contact us today for a complimentary consultation.",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 4,
+                    "primary_content": [
+                      {
+                        "text": "Our design experts will visit your property to discuss your ideas, assess your space, and provide expert advice. Let us transform your backyard into an extraordinary outdoor oasis that you and your family will cherish for years to come.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Council-Approved Patios in NSW: What Sydney Homeowners Need to Know",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Thinking about a new patio? Learn how council-approved patios work in NSW, including exempt development, CDCs, DAs and the key approval requirements Sydney homeowners should understand before building.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Council-Approved Patios in NSW: What Sydney Homeowners Need to Know",
+                        "url": "https://pergolaland.com.au/blog/blog-council-approved-patio-sydney/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/blog/blog-council-approved-patio-sydney/",
+                            "anchor_text": "Council-Approved Patios in NSW: What Sydney Homeowners Need to Know"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergola Land Customer Reviews",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "I couldn\u2019t be happier with the experience I had with Pergola Land. From start to finish, the entire process was smooth and well-managed. Every member of their team was friendly, professional, and clearly skilled at what they do.\nThey supported us through every stage \u2014 from the initial measurement and design, to clearly explaining the process, assisting with the DA application, and following up along the way. Their attention to detail and communication gave us great confidence throughout the journey.\nThe construction phase was just as impressive, and the final result exceeded our expectations. The pergola looks solid, beautifully finished, and really enhances our outdoor space.\nI highly recommend Pergola Land to anyone considering building a pergola. Their commitment to quality and customer experience truly stands out.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "I would give 6 stars if the option was there.\nEasy to deal with easy to work with along the way with any small changes. All the boys are awesome to deal with from the start to the finish.\nYou guys rock.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "We\u2019re very happy with both the end result of our build and the overall experience. From inception to finish, the project was well managed, with strong attention to detail and a clear focus on quality and best practice. They brought every element of the design together seamlessly, and the finished space genuinely feels like a premium product.\nWhen deciding who to contract for the project, we approached other builders, but Pergolaland was the only one able to deliver everything as a complete, end to end solution\u2014without needing multiple parties to complete the scope or creating extra layers of coordination, which was also important for avoiding potential insurance complications.\nWe\u2019d also seen their work at a couple of friends\u2019 homes, which gave us confidence to move forward with them, and we have absolutely no regrets. Our goal was to create a space that feels like a natural extension of the home, and they\u2019ve delivered exactly that.\nA standout throughout the process was the project manager. His professionalism, experience, and expertise were evident from day one. He and the small on site team were professional, hands on, responsive, and consistently offered clear advice and reassurance. Even when minor challenges arose, everything was handled with great care, flexibility, and a genuine focus on customer satisfaction.\nOverall, it was a smooth process and a result we\u2019re truly pleased with. We\u2019re happy to recommend them to anyone looking for a reliable, detail driven builder.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "I had been considering building a pergola for quite some time when I came across Pergola Land through an Instagram advertisement. After visiting their showroom, picking up a brochure, and following up a week later to arrange a measure and quote, the entire process was smooth from start to finish.\nMichael arrived right on time, was friendly and efficient, and took the time to listen carefully to my requirements and concerns. I\u2019d also like to thank Reece, Connor, and Tas for their professionalism throughout the build. Connor and Tas worked efficiently and always ensured the area was clean before leaving each day.\nI highly recommend the team at Pergola Land to anyone considering a pergola. Thank you all for making the experience so seamless\u2014I absolutely love my new pergola!",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Very good and professional service and high quality jobs. I have done 2 pergolas after Christmas and they look very nice. When friends come and visit us I am always happy to show them and highly recommend them to have a chat with Pergola Land if they need a pergola solution.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "From prompt response to our enquiry, till completion, Josh and his whole entire team were very responsive, professional and always showed a 'care' factor. They did an amazing job with our pergola. Made our backyard look brighter, bigger & more functional. Absolutely love it! We would not hesitate to use Pergola Land again for future jobs. Highly recommend them. Thanks again guys!",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Very professional and friendly service from the quote to completion. Great team. Thank you Michael, Reece and Sean and the rest of the Team. We\u2019re very happy with our Pergola. Thoroughly recommend Pergola Land Sydney to all.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Our pergola is a lovely addition to our house. Pergola world made it really easy. The price was reasonable, build was on time and tidy.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "C L",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "25 June 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Michael Cox",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "31 May 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Jian Zhang",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "27 May 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Marina Sivkova",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4 May 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Terri Eldeir",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "24 April 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "ziying yao",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "5 April 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Helen Hogben",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3 April 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Brent Sonia Chang",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "26 March 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Nancy Cabrita",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "16 March 2026",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "J T",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "11 March 2026",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  }
+                ],
+                "secondary_topic": [
+                  {
+                    "h_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "TAILORED OUTDOOR LIVING SPECIALISTS",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "The Pergola Land Product Range",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergolas",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Pergolas",
+                        "url": "https://pergolaland.com.au/pergolas/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/pergolas/",
+                            "anchor_text": "Pergolas"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Patios",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Patios",
+                        "url": "https://pergolaland.com.au/patios/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/patios/",
+                            "anchor_text": "Patios"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Alfrescos",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Alfrescos",
+                        "url": "https://pergolaland.com.au/alfrescos/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/alfrescos/",
+                            "anchor_text": "Alfrescos"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Decks",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Decks",
+                        "url": "https://pergolaland.com.au/decks/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/decks/",
+                            "anchor_text": "Decks"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Get a free quote for your outdoor living dream...",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Customer Testimonials",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Our Latest Projects",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "South Turramurra Backyard Transformed Into a Poolside Entertainer\u2019s Retreat",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "South Turramurra Backyard Transformed Into a Poolside Entertainer\u2019s Retreat",
+                        "url": "https://pergolaland.com.au/projects/south-turramurra-backyard-transformation/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/projects/south-turramurra-backyard-transformation/",
+                            "anchor_text": "South Turramurra Backyard Transformed Into a Poolside Entertainer\u2019s Retreat"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "From Sloping Yard to Elevated Alfresco Entertaining",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "From Sloping Yard to Elevated Alfresco Entertaining",
+                        "url": "https://pergolaland.com.au/projects/sloping-yard-elevated-alfresco/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/projects/sloping-yard-elevated-alfresco/",
+                            "anchor_text": "From Sloping Yard to Elevated Alfresco Entertaining"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Private Sanctuary Patio in Mona Vale",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Private Sanctuary Patio in Mona Vale",
+                        "url": "https://pergolaland.com.au/projects/private-sanctuary-patio-mona-vale/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/projects/private-sanctuary-patio-mona-vale/",
+                            "anchor_text": "Private Sanctuary Patio in Mona Vale"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "The Ultimate Poolside Pergola in Duffys Forest",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "The Ultimate Poolside Pergola in Duffys Forest",
+                        "url": "https://pergolaland.com.au/projects/ultimate-poolside-pergola-duffys-forest/",
+                        "urls": [
+                          {
+                            "url": "https://pergolaland.com.au/projects/ultimate-poolside-pergola-duffys-forest/",
+                            "anchor_text": "The Ultimate Poolside Pergola in Duffys Forest"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Latest Updates from Pergola Land",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Free On-Site Measure & Quote",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "I'm interested in a quote for:",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "How did you find out about us?*",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Receive communications from Pergola Land? You may unsubscribe at any time.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Pergola Land services Sydney\u2019s Hills District, Inner West, North Shore and Northern Beaches areas. Pergola Land custom design and build each and every project, we do not offer supply of materials only or repair work to existing structures.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Holiday Closures",
+                    "main_title": "Sydney's Trusted Pergola & Patio Builders",
+                    "author": "sol1",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Merry Christmas and a safe festive period to all our valued customers! Please note that Pergola Land will be closed from the 19th Dec and will be reopening Monday 12th Jan. See you in 2026!",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  }
+                ],
+                "ratings": null,
+                "offers": null,
+                "comments": null,
+                "contacts": {
+                  "telephones": [
+                    "1300 655 979",
+                    "1300%20655%20979",
+                    "1300655979"
+                  ],
+                  "emails": null
+                }
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
