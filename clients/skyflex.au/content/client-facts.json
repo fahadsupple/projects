@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "skyflex.au",
-  "generated_at": "2026-07-14T05:01:29Z",
+  "generated_at": "2026-07-14T05:02:20Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -58,7 +58,7 @@
       "class": "percentage",
       "label": "percentage",
       "unit": "%",
-      "value": 25,
+      "value": 0,
       "sources": [
         {
           "origin": "intake-form",
@@ -96,50 +96,12 @@
           "value_seen": "25%"
         }
       ],
-      "status": "conflict",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "",
-          "candidates": [
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 18,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 8,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 50,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            }
-          ]
-        }
-      ]
+      "conflicts": [],
+      "confirmed_by": "analyst (Fahad) — superseded by split facts; bucket neutralised, never publish",
+      "confirmed_at": "2026-07-14T05:02:11.551Z",
+      "placement": "off-page"
     },
     {
       "id": "social-proof.clients",
@@ -488,14 +450,12 @@
       "confirmed_at": "2026-07-14T00:00:00Z"
     }
   ],
-  "needs_confirmation": [
-    "metrics.percentage"
-  ],
+  "needs_confirmation": [],
   "source_scan": {
     "origins": [
       "client-profile",
       "intake-form"
     ],
-    "scanned_at": "2026-07-14T05:01:29Z"
+    "scanned_at": "2026-07-14T05:02:20Z"
   }
 }
