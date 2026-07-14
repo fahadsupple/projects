@@ -1,16 +1,3 @@
-# skyflex.au — Content Plugin Context
-
-_Rebuilt: 2026-07-14T07:10:02Z_
-
-## 1. Who this client is
-
-- **Domain:** skyflex.au
-- **Audience:** Our ideal customers are homeowners and businesses in Melbourne (and Sydney) looking to transform their outdoor spaces into comfortable, year-round living areas. This includes homeowners wanting to enhance their backyards, patios, and gardens with stylish, adjustable louvred pergolas, as well as commercial property owners seeking to add functional and aesthetically appealing outdoor structures. Our customers value quality, durability, and affordability, and may be either DIY enthusiasts who want to install a pergola kit themselves, or those who prefer to use our approved installer network. They are looking for solutions that handle Melbourne's variable weather conditions and add long-term value to their property.
-- **Services:** BBQ Pods, DIY Pergola Kits, Folding Arm Awnings, Louver Roofs, Pergolas, Retractable Roof Systems, Smart Outdoor TVs, Smartoilets
-- **Locations served:** Melbourne, Sydney, Queensland
-
-## 2. Notes from the analyst
-
 ### Analyst decisions — 2026-07-14 (Fahad)
 
 #### 1. COMMERCIAL MODEL IS PER-PRODUCT — never assume DIY add-to-cart
@@ -82,4 +69,3 @@ The fact extractor bucketed 7 unrelated percentages into one `metrics.percentage
 - **Outdoor TV — 1000 nits is the category floor, not a differentiator.** Competitors filter 1000/1500/2000/3500 nits and class 1000-nit units as *partial sun*. Frame brightness honestly (≈3× an indoor TV's ~300 nits) and lead on **full-sun vs partial-shade placement** — the page currently says nothing about it.
 - **Sydney suburb ground truth is INSUFFICIENT.** Brave returned zero locations/discussions/FAQs. **Do not invent** Sydney climate, council rules, or building-stock claims. The suburb-data file carries an explicit `prohibited_claims` list — honour it.
 - **No FAQ block for the awning or BBQ pod pages from PAA** — both returned **zero** PAA questions and zero Brave discussions. There is nothing data-grounded to seed one from. Do not invent questions.
-

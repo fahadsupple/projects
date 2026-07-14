@@ -2,9 +2,8 @@
   "schema_version": 1,
   "entry_id": "smart-toilets",
   "url": "https://skyflex.au/smart-toilets/",
-  "primary_keyword": "smart toilets melbourne",
+  "primary_keyword": "smart toilets",
   "secondary_keywords": [
-    "smart toilets",
     "bidet toilets",
     "ai smart toilet",
     "intelligent bidet toilet",
@@ -28,12 +27,22 @@
     "automated flushing toilet",
     "wall faced smart toilet",
     "modern bidet toilet combo",
-    "bidet toilets melbourne"
+    "bidet toilets melbourne",
+    "smart toilets melbourne"
   ],
   "page_type": "product-category",
   "content_type": "commercial",
   "cluster_id": "product-categories",
   "mode": "new-page",
   "status": "pending",
-  "notes": "OVERRIDE \u2014 classifier returned page_type=service-location, mode=rewrite-existing. Live probe returned HTTP 404 (page does not exist), so rewrite-existing is impossible; mode is new-page. page_type corrected to product-category: Skyflex is a product retailer, not a service/installer business, and this URL is a NEW category page covering the U6 + U7 Smartoilet SKUs. Blocker: both SKUs currently sit in WooCommerce's default 'Uncategorized' bucket \u2014 the category taxonomy must be created before this page can ship."
+  "notes": "OVERRIDE \u2014 classifier returned page_type=service-location, mode=rewrite-existing. Live probe returned HTTP 404 (page does not exist), so rewrite-existing is impossible; mode is new-page. page_type corrected to product-category: Skyflex is a product retailer, not a service/installer business, and this URL is a NEW category page covering the U6 + U7 Smartoilet SKUs. Blocker: both SKUs currently sit in WooCommerce's default 'Uncategorized' bucket \u2014 the category taxonomy must be created before this page can ship.",
+  "keyword_change_log": [
+    {
+      "from": "smart toilets melbourne",
+      "to": "smart toilets",
+      "date": "2026-07-14",
+      "reason": "geo modifier costs ~98% of addressable demand for zero SERP differentiation (Melbourne and national SERPs share 9 of top 10 domains). Head term 2,400/mo.",
+      "verified_by": "live SERP check (DataForSEO organic live advanced, depth 20)"
+    }
+  ]
 }
