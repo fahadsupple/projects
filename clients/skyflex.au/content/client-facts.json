@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "skyflex.au",
-  "generated_at": "2026-07-14T02:20:52Z",
+  "generated_at": "2026-07-14T04:29:40Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -54,92 +54,118 @@
       "confirmed_at": "2026-07-14T02:20:19.805Z"
     },
     {
-      "id": "metrics.percentage",
+      "id": "social-proof.referral-rate",
       "class": "percentage",
-      "label": "percentage",
+      "label": "new business from referrals",
       "unit": "%",
-      "value": 25,
+      "value": 50,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "any",
       "sources": [
         {
           "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "25%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "18%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "8%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "25%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "100%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
+          "ref": "form2.md#q4-q5",
           "value_seen": "50%"
-        },
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "social-proof.retention-rate",
+      "class": "percentage",
+      "label": "customer retention (client-stated, unverified)",
+      "unit": "%",
+      "value": 100,
+      "status": "confirmed",
+      "confidence": "low",
+      "placement": "off-page",
+      "sources": [
         {
           "origin": "intake-form",
-          "ref": "intake-form#pct",
+          "ref": "form2.md#q4-q5",
+          "value_seen": "100%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "pricing.discount.delta-light-motorised",
+      "class": "percentage",
+      "label": "Delta Light Motorised discount off RRP",
+      "unit": "%",
+      "value": 25,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "off-page",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form1.md#q-pricing",
+          "value_seen": "22-25%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "pricing.discount.delta-motorised-aluminium",
+      "class": "percentage",
+      "label": "Delta Motorised Aluminium Louvred Pergola discount off RRP",
+      "unit": "%",
+      "value": 18,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "off-page",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form1.md#q-pricing",
+          "value_seen": "18%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "pricing.discount.delta-pro-retractable-roof",
+      "class": "percentage",
+      "label": "Delta Pro Retractable Roof discount off RRP",
+      "unit": "%",
+      "value": 8,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "off-page",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form1.md#q-pricing",
+          "value_seen": "8%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "pricing.discount.max-advertised",
+      "class": "percentage",
+      "label": "max advertised savings ('up to X% on selected products')",
+      "unit": "%",
+      "value": 25,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "off-page",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form2.md#q4-q5",
           "value_seen": "25%"
         }
       ],
-      "status": "conflict",
-      "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "",
-          "candidates": [
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 18,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 8,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 50,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 25,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            }
-          ]
-        }
-      ]
+      "confirmed_by": "analyst (Fahad) \u2014 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
     },
     {
       "id": "social-proof.clients",
@@ -359,14 +385,14 @@
       "label": "guarantees",
       "unit": null,
       "value": [
-        "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1–5 years offered by competitors",
+        "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1\u20135 years offered by competitors",
         "Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"
       ],
       "sources": [
         {
           "origin": "client-profile",
           "ref": "client-profile.json#/guarantees",
-          "value_seen": "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1–5 years offered by competitors, Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"
+          "value_seen": "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1\u20135 years offered by competitors, Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"
         }
       ],
       "status": "extracted",
@@ -374,14 +400,12 @@
       "conflicts": []
     }
   ],
-  "needs_confirmation": [
-    "metrics.percentage"
-  ],
+  "needs_confirmation": [],
   "source_scan": {
     "origins": [
       "client-profile",
       "intake-form"
     ],
-    "scanned_at": "2026-07-14T02:20:52Z"
+    "scanned_at": "2026-07-14T04:29:40Z"
   }
 }
