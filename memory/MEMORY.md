@@ -8,6 +8,9 @@
 - [File Structure](feedback_file_structure.md) — all work saved inside /home/invoi/fahad_projects/, canonical folder structure, git sync rules
 - [Skill Command Scope](feedback_skill_commands.md) — skill commands are scoped; do not resume pending session tasks unless explicitly asked
 
+## Infrastructure
+- [DataForSEO MCP npx fix](infra_dataforseo_mcp_npx_fix.md) — all-plugin DataForSEO connect failure = corrupted npx cache, not creds; fix with global npm install
+
 ## Capabilities
 - [Internal Linking](capability_internal_linking.md) — link selection, placement rules, developer handoff format
 - [Pre-Launch Audit](capability_pre_launch_audit.md) — full on-page QA before go-live, deliverable format
@@ -17,7 +20,6 @@
 - [Audit Review](capability_audit_review.md) — translate SEO audit into quick wins plan, developer requirements doc, client data checklist
 - [Keyword → URL Mapping](capability_keyword_url_mapping.md) — consolidated table format, ecommerce URL logic (category > product > legacy), P/S rules, location pairing, SERP pattern method for secondaries
 - [Daily Task](capability_daily_task.md) — dev handoff doc for URL restructures/redirects/new-page creation from a Meta Data keyword sheet, annotated screenshots, template mapping rules
-- [Content & Image Review](capability_content_review.md) — live Playwright audit of all pages: content accuracy, spelling, image relevance, broken links, systemic issues, issue severity tiers, deliverable format
 
 ## SEO — Keyword Research Rules
 - [Keyword Research Master Reference](feedback_seo_keyword_research_master.md) — full process, rules, business-type strategies, SERP rules, HTML deliverable standards, industry insights
@@ -46,8 +48,8 @@
 - [acsdebtcollection.com.au](project_acsdebtcollection.md) — ACS Debt Collection, B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research initialized Apr 2026
 - [anakilawyers.com.au](project_anakilawyers.md) — Anaki Lawyers, solo criminal defence & traffic law, Melbourne CBD, keyword research v1.0 complete + GKP confirmed (21 Apr 2026)
 - [surecash.com.au](project_surecash.md) — Sure Cash Finance, ASIC-regulated short-term lender (SACC/MACC), Sydney+branches, SEO audit initialized Apr 2026
-- [mckinnonheating.com.au](project_mckinnonheating.md) — McKinnon Heating & Cooling, Melbourne Bayside HVAC, 5 general + 50 location, kwr:init complete 24 Apr 2026, content & image audit complete 2026-06-24 (19 issues: 4 critical, 6 high)
-- [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v3 complete 7 May 2026, content verification complete 2026-06-24 (39/42 pages correct, 3 outstanding: homepage, /locations/, /earc-solar-skin/)
+- [mckinnonheating.com.au](project_mckinnonheating.md) — McKinnon Heating & Cooling, Melbourne Bayside HVAC, 5 general + 50 location, kwr:init complete 24 Apr 2026
+- [energus.com.au](project_energus.md) — Energus Pty Ltd, B2B commercial solar & BESS, NSW/QLD/VIC/SA, keyword plan v3 complete 7 May 2026 (13G+15L, client Q&A, competitor analysis, AEO) ✅
 - [styldmelbourne.com.au](project_styld.md) — STYLD Melbourne, home staging & property styling, Melbourne-wide, keyword-plan.html v1.3 complete 5 May 2026 ✅
 - [metrobuildsuppliers.com.au](../clients/metrobuildsuppliers.com.au/memory/client_metrobuildsuppliers.md) — Metrobuild Building & Construction Suppliers, Springvale trade supply store, 15G+10L, keyword plan v1 complete 7 May 2026, keyword-plan.html deliverable complete 8 May 2026 ✅
 - [foodistribute.com.au](project_foodistribute.md) — Foodistribute, national wholesale food distributor B2B+B2C, 50G+4L (Sydney/Melbourne/Brisbane/Adelaide), keyword plan v1 complete 7 May 2026 ✅
@@ -55,7 +57,6 @@
 - [brewerschoice.net.au](../clients/brewerschoice.net.au/memory/client_brewerschoice.md) — Brewers Choice Home Brew Supplies, Bayswater physical store + ecommerce, 15G+10L, kwr:init complete 12 May 2026
 - [naztech.com.au](../clients/naztech.com.au/memory/client_naztech.md) — NAZTECH Mobile Auto Electrical & A/C, Pakenham VIC, South East Melbourne + Gippsland, 40 location keywords, kwr:init complete 15 Jun 2026; Daily Tasks dev handoff doc complete 9 Jul 2026 (44 new pages, 2 renames+301s, nav/footer/screenshots)
 - [thecakepeople.au](../clients/thecakepeople.au/memory/client_thecakepeople.md) — The Cake People, 100% plant-based celebration cakes Shopify ecommerce, Keilor Park VIC + Melbourne-wide delivery, 30G+0L, full pipeline complete 2026-06-23, report ready for delivery
-- [shellharbourskin.com.au](../clients/shellharbourskin.com.au/memory/client_shellharbourskin.md) — Shellharbour Skin, medical aesthetic & skin cancer clinic NSW, content verification complete 2026-06-26 (12/14 correct, 2 outstanding: Medical Director title missing, meta title missing "-Hall")
 
 - [eazygleam.com.au](../clients/eazygleam.com.au/memory/client_eazygleam.md) — Eazygleam, B2B/B2C wholesale car detailing products Shopify ecommerce, national; 19 city keywords confirmed via live SERP check 2026-06-26 (5 cities × 4 per city), 1 keyword rejected (car polish adelaide = service intent)
 - [flourishelc.com.au](../clients/flourishelc.com.au/memory/client_flourishelc.md) — Flourish Early Learning Centre, childcare/preschool/kindergarten NSW (Oakville) + WA (Bull Creek), staging site hardyd21.sg-host.com; staging verification 2026-07-02 (all 37 council/region corrections across 20 pages + CTA/image tasks implemented correctly in visible content; FAQ JSON-LD schema left stale on 12 pages — recurring defect; note: watch for Word track-changes silently dropped by python-docx default extraction)
