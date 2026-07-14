@@ -1,0 +1,188 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1010 sec.",
+ "cost": 0.001344,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0541-0000-61b26fe3571d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0917 sec.",
+   "cost": 0.001344,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "search_intent",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "search_intent",
+    "se_type": "google",
+    "keywords": [
+     "smart toilets melbourne",
+     "smart toilets",
+     "bidet toilets",
+     "smart toilet",
+     "japanese toilet",
+     "intelligent toilet",
+     "electronic bidet seat",
+     "bidet toilet suite",
+     "smart toilets australia",
+     "bidet toilets melbourne",
+     "premium toilets australia",
+     "ai smart toilet"
+    ],
+    "language_name": "English"
+   },
+   "result": [
+    {
+     "language_code": "en",
+     "items_count": 12,
+     "items": [
+      {
+       "keyword": "smart toilets melbourne",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.3403
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.242
+        },
+        {
+         "label": "navigational",
+         "probability": 0.2226
+        }
+       ]
+      },
+      {
+       "keyword": "smart toilets",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.6552
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "informational",
+         "probability": 0.3295
+        }
+       ]
+      },
+      {
+       "keyword": "bidet toilets",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.536
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "smart toilet",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.534
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.3134
+        }
+       ]
+      },
+      {
+       "keyword": "japanese toilet",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.5864
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "intelligent toilet",
+       "keyword_intent": {
+        "label": "informational",
+        "probability": 0.5332
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.3097
+        }
+       ]
+      },
+      {
+       "keyword": "electronic bidet seat",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.9649
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "bidet toilet suite",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.8144
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "smart toilets australia",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.3741
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.3622
+        },
+        {
+         "label": "informational",
+         "probability": 0.2265
+        }
+       ]
+      },
+      {
+       "keyword": "bidet toilets melbourne",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.6301
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "premium toilets australia",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.4667
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.3287
+        }
+       ]
+      },
+      {
+       "keyword": "ai smart toilet",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.8784
+       },
+       "secondary_keyword_intents": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

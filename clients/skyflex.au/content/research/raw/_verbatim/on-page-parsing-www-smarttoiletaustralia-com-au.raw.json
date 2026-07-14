@@ -1,0 +1,1040 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "15.0083 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140929-1150-0495-0000-6b715062eebd",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "14.9638 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.smarttoiletaustralia.com.au/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:29:56 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "About Us",
+           "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "What Happens When",
+           "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+             "anchor_text": "What Happens When"
+            }
+           ]
+          },
+          {
+           "text": "Advanced ECO Mode",
+           "url": "https://www.smarttoiletaustralia.com.au/advanced-eco-mode/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/advanced-eco-mode/",
+             "anchor_text": "Advanced ECO Mode"
+            }
+           ]
+          },
+          {
+           "text": "Foot Warmer",
+           "url": "https://www.smarttoiletaustralia.com.au/foot-warmer/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/foot-warmer/",
+             "anchor_text": "Foot Warmer"
+            }
+           ]
+          },
+          {
+           "text": "Hydro-Air Jet",
+           "url": "https://www.smarttoiletaustralia.com.au/hydro-air-jet/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/hydro-air-jet/",
+             "anchor_text": "Hydro-Air Jet"
+            }
+           ]
+          },
+          {
+           "text": "Instantaneous Water Heating",
+           "url": "https://www.smarttoiletaustralia.com.au/instantaneous-water-heating/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/instantaneous-water-heating/",
+             "anchor_text": "Instantaneous Water Heating"
+            }
+           ]
+          },
+          {
+           "text": "Modesty Toilet Music with adjustable volume",
+           "url": "https://www.smarttoiletaustralia.com.au/modesty-toilet-music-with-adjustable-volume/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/modesty-toilet-music-with-adjustable-volume/",
+             "anchor_text": "Modesty Toilet Music with adjustable volume"
+            }
+           ]
+          },
+          {
+           "text": "Moving Dryer Nozzle",
+           "url": "https://www.smarttoiletaustralia.com.au/moving-dryer-nozzle/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/moving-dryer-nozzle/",
+             "anchor_text": "Moving Dryer Nozzle"
+            }
+           ]
+          },
+          {
+           "text": "Odour Reducing Technology",
+           "url": "https://www.smarttoiletaustralia.com.au/intelligent-toilet-odour-reducing-technology/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/intelligent-toilet-odour-reducing-technology/",
+             "anchor_text": "Odour Reducing Technology"
+            }
+           ]
+          },
+          {
+           "text": "Precision Flush",
+           "url": "https://www.smarttoiletaustralia.com.au/precision-flush-means-correct-flush-volume-every-time/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/precision-flush-means-correct-flush-volume-every-time/",
+             "anchor_text": "Precision Flush"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet Bidet Seats – Our STA 171 & 172 are tough.",
+           "url": "https://www.smarttoiletaustralia.com.au/our-sta-171-172-are-tough/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/our-sta-171-172-are-tough/",
+             "anchor_text": "Smart Toilet Bidet Seats – Our STA 171 & 172 are tough."
+            }
+           ]
+          },
+          {
+           "text": "Ultra-Violet Disinfection of Bidet Washing Water",
+           "url": "https://www.smarttoiletaustralia.com.au/ultra-violet-treatment-of-water/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/ultra-violet-treatment-of-water/",
+             "anchor_text": "Ultra-Violet Disinfection of Bidet Washing Water"
+            }
+           ]
+          },
+          {
+           "text": "User 1 & 2 Function Setting",
+           "url": "https://www.smarttoiletaustralia.com.au/user-1-2-and-3-function-settings-for-up-to-seven-toilet-services/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/user-1-2-and-3-function-settings-for-up-to-seven-toilet-services/",
+             "anchor_text": "User 1 & 2 Function Setting"
+            }
+           ]
+          },
+          {
+           "text": "Feature Comparison",
+           "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+             "anchor_text": "Feature Comparison"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet STA 783",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seat-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seat-dimensions/",
+             "anchor_text": "Smart Toilet STA 783"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet STA 768D & STA 768H",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-dimensions/",
+             "anchor_text": "Smart Toilet STA 768D & STA 768H"
+            }
+           ]
+          },
+          {
+           "text": "Other Smart Toilets",
+           "url": "https://www.smarttoiletaustralia.com.au/other-smart-toilet-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/other-smart-toilet-dimensions/",
+             "anchor_text": "Other Smart Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Bidet Seats",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seats/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seats/",
+             "anchor_text": "Bidet Seats"
+            }
+           ]
+          },
+          {
+           "text": "STA Vans",
+           "url": "https://www.smarttoiletaustralia.com.au/vans/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/vans/",
+             "anchor_text": "STA Vans"
+            }
+           ]
+          },
+          {
+           "text": "Warranty & Returns",
+           "url": "https://www.smarttoiletaustralia.com.au/warranty-and-returns-policy/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/warranty-and-returns-policy/",
+             "anchor_text": "Warranty & Returns"
+            }
+           ]
+          },
+          {
+           "text": "Contact Us",
+           "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+             "anchor_text": "Contact Us"
+            }
+           ]
+          },
+          {
+           "text": "About Us",
+           "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "What Happens When",
+           "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+             "anchor_text": "What Happens When"
+            }
+           ]
+          },
+          {
+           "text": "Advanced ECO Mode",
+           "url": "https://www.smarttoiletaustralia.com.au/advanced-eco-mode/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/advanced-eco-mode/",
+             "anchor_text": "Advanced ECO Mode"
+            }
+           ]
+          },
+          {
+           "text": "Foot Warmer",
+           "url": "https://www.smarttoiletaustralia.com.au/foot-warmer/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/foot-warmer/",
+             "anchor_text": "Foot Warmer"
+            }
+           ]
+          },
+          {
+           "text": "Hydro-Air Jet",
+           "url": "https://www.smarttoiletaustralia.com.au/hydro-air-jet/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/hydro-air-jet/",
+             "anchor_text": "Hydro-Air Jet"
+            }
+           ]
+          },
+          {
+           "text": "Instantaneous Water Heating",
+           "url": "https://www.smarttoiletaustralia.com.au/instantaneous-water-heating/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/instantaneous-water-heating/",
+             "anchor_text": "Instantaneous Water Heating"
+            }
+           ]
+          },
+          {
+           "text": "Modesty Toilet Music with adjustable volume",
+           "url": "https://www.smarttoiletaustralia.com.au/modesty-toilet-music-with-adjustable-volume/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/modesty-toilet-music-with-adjustable-volume/",
+             "anchor_text": "Modesty Toilet Music with adjustable volume"
+            }
+           ]
+          },
+          {
+           "text": "Moving Dryer Nozzle",
+           "url": "https://www.smarttoiletaustralia.com.au/moving-dryer-nozzle/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/moving-dryer-nozzle/",
+             "anchor_text": "Moving Dryer Nozzle"
+            }
+           ]
+          },
+          {
+           "text": "Odour Reducing Technology",
+           "url": "https://www.smarttoiletaustralia.com.au/intelligent-toilet-odour-reducing-technology/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/intelligent-toilet-odour-reducing-technology/",
+             "anchor_text": "Odour Reducing Technology"
+            }
+           ]
+          },
+          {
+           "text": "Precision Flush",
+           "url": "https://www.smarttoiletaustralia.com.au/precision-flush-means-correct-flush-volume-every-time/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/precision-flush-means-correct-flush-volume-every-time/",
+             "anchor_text": "Precision Flush"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet Bidet Seats – Our STA 171 & 172 are tough.",
+           "url": "https://www.smarttoiletaustralia.com.au/our-sta-171-172-are-tough/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/our-sta-171-172-are-tough/",
+             "anchor_text": "Smart Toilet Bidet Seats – Our STA 171 & 172 are tough."
+            }
+           ]
+          },
+          {
+           "text": "Ultra-Violet Disinfection of Bidet Washing Water",
+           "url": "https://www.smarttoiletaustralia.com.au/ultra-violet-treatment-of-water/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/ultra-violet-treatment-of-water/",
+             "anchor_text": "Ultra-Violet Disinfection of Bidet Washing Water"
+            }
+           ]
+          },
+          {
+           "text": "User 1 & 2 Function Setting",
+           "url": "https://www.smarttoiletaustralia.com.au/user-1-2-and-3-function-settings-for-up-to-seven-toilet-services/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/user-1-2-and-3-function-settings-for-up-to-seven-toilet-services/",
+             "anchor_text": "User 1 & 2 Function Setting"
+            }
+           ]
+          },
+          {
+           "text": "Feature Comparison",
+           "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+             "anchor_text": "Feature Comparison"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet STA 783",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seat-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seat-dimensions/",
+             "anchor_text": "Smart Toilet STA 783"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilet STA 768D & STA 768H",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-dimensions/",
+             "anchor_text": "Smart Toilet STA 768D & STA 768H"
+            }
+           ]
+          },
+          {
+           "text": "Other Smart Toilets",
+           "url": "https://www.smarttoiletaustralia.com.au/other-smart-toilet-dimensions/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/other-smart-toilet-dimensions/",
+             "anchor_text": "Other Smart Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Bidet Seats",
+           "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seats/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/smart-toilet-bidet-seats/",
+             "anchor_text": "Bidet Seats"
+            }
+           ]
+          },
+          {
+           "text": "STA Vans",
+           "url": "https://www.smarttoiletaustralia.com.au/vans/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/vans/",
+             "anchor_text": "STA Vans"
+            }
+           ]
+          },
+          {
+           "text": "Warranty & Returns",
+           "url": "https://www.smarttoiletaustralia.com.au/warranty-and-returns-policy/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/warranty-and-returns-policy/",
+             "anchor_text": "Warranty & Returns"
+            }
+           ]
+          },
+          {
+           "text": "Contact Us",
+           "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+           "urls": [
+            {
+             "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+             "anchor_text": "Contact Us"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Media error: Format(s) not supported or source(s) not found",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "STA 762\nFEATURES",
+          "main_title": null,
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "SAFETY AND COMFORT",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 766\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 783\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "SEAMLESS BEAUTY",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 768H\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 766\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "OUR CUSTOMER FOCUS",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 768/H\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 768\nFEATURES",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "SMART TECHNOLOGY",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Showing all 6 results",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-171-172-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-171-172-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+              "anchor_text": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-180-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-180-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+              "anchor_text": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta766-smart-toilet-with-accessory-pack-plus-plumbing-connections-third-product/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta766-smart-toilet-with-accessory-pack-plus-plumbing-connections-third-product/",
+              "anchor_text": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta768-smart-toilet-with-accessory-pack-plus-plumbing-connections-copy/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta768-smart-toilet-with-accessory-pack-plus-plumbing-connections-copy/",
+              "anchor_text": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-768h-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-768h-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+              "anchor_text": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "STA 762\nFEATURES",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-783-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-783-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+              "anchor_text": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA 766 & STA 171/172",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 768/H & STA 783",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 180",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-171-172-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-171-172-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+              "anchor_text": "STA 171/172 Bidet Toilet Seat with Fittings plus Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-180-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-180-bidet-toilet-seat-with-fittings-plus-plumbing-connections/",
+              "anchor_text": "STA 180 Bidet Toilet Seat with Fittings plus Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta766-smart-toilet-with-accessory-pack-plus-plumbing-connections-third-product/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta766-smart-toilet-with-accessory-pack-plus-plumbing-connections-third-product/",
+              "anchor_text": "STA766 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta768-smart-toilet-with-accessory-pack-plus-plumbing-connections-copy/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta768-smart-toilet-with-accessory-pack-plus-plumbing-connections-copy/",
+              "anchor_text": "STA768 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-768h-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-768h-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+              "anchor_text": "STA768H Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections",
+            "url": "https://www.smarttoiletaustralia.com.au/product/sta-783-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/product/sta-783-smart-toilet-with-accessory-pack-plus-plumbing-connections/",
+              "anchor_text": "STA 783 Smart Toilet with Accessory Pack plus, Plumbing connections"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Quick Links",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "About Us",
+            "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/about-us/",
+              "anchor_text": "About Us"
+             }
+            ]
+           },
+           {
+            "text": "Feature Comparison",
+            "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/feature-comparison/",
+              "anchor_text": "Feature Comparison"
+             }
+            ]
+           },
+           {
+            "text": "Technical Spefications",
+            "url": "https://www.smarttoiletaustralia.com.au/technical-specifications/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/technical-specifications/",
+              "anchor_text": "Technical Spefications"
+             }
+            ]
+           },
+           {
+            "text": "What Happens When",
+            "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/what-happens-when/",
+              "anchor_text": "What Happens When"
+             }
+            ]
+           },
+           {
+            "text": "Contact Us",
+            "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+            "urls": [
+             {
+              "url": "https://www.smarttoiletaustralia.com.au/contact-us/",
+              "anchor_text": "Contact Us"
+             }
+            ]
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Contact Info",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Phone :\n1300 768 172",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "+61 401 488667",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Connect With Us",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Opening Hours",
+          "main_title": "All SMART TOILET AUSTRALIA toilets\ncan be used just like a regular toilet.",
+          "author": "Smart Toilet Australia",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Monday to Friday :",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "9:00am – 5:00pm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "10:00am – 1:00pm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sunday : Closed",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Public Holidays : Closed",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "+611300768172",
+          "+61401488667"
+         ],
+         "emails": null
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

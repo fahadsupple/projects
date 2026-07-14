@@ -1,0 +1,102 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.9740 sec.",
+ "cost": 0.0272299,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0612-0000-baae79a1eb7d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.9639 sec.",
+   "cost": 0.0272299,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "chat_gpt",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "chat_gpt",
+    "user_prompt": "smart toilets melbourne",
+    "model_name": "gpt-4o-mini",
+    "web_search": true,
+    "web_search_country_iso_code": "AU"
+   },
+   "result": [
+    {
+     "model_name": "gpt-4o-mini-2024-07-18",
+     "input_tokens": 8174,
+     "output_tokens": 673,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.0266299,
+     "datetime": "2026-07-14 09:27:11 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "Smart toilets are revolutionizing bathroom experiences in Melbourne by integrating advanced technology to enhance comfort, hygiene, and convenience. These innovative fixtures often feature bidet functions, heated seats, automatic flushing, and air-drying capabilities.\n\nHere are some smart toilet options available in Melbourne:\n\n\n[Bidet Toilet Seats, Smart Toilets & Portable Bidets | Tudaloo](https://tudaloo.com.au/?utm_source=openai)\n**Tudaloo Halo Smart Toilet**  \nOffers sensor-activated lid and auto-flush, customizable temperature and wash modes, and a seamless design. ([tudaloo.com.au](https://tudaloo.com.au/?utm_source=openai))\n\n\n\n[Lafeme Neovanta Gloss White Floor Mounted Smart Toilet - MyHomeware](https://www.myhomeware.com.au/products/lafeme-neovanta-floor-mounted-cisternless-luxury-smart-toilet?utm_source=openai)\n**Lafeme Neovanta Smart Toilet**  \nFeatures foot-sensor controls, automatic lid operation, self-cleaning nozzle, multiple wash modes, and a heated seat. ([royalvanities.com.au](https://www.royalvanities.com.au/products/lafeme-neovanta-smart-toilet?utm_source=openai))\n\n\n\n[Zero Rimless Smart Bidet Toilet Suite (Whirlpool Flushing) | Zumi Bathware](https://zumibathware.com.au/product/zero-rimless-toilet-suite-with-smart-bidet-seat/?utm_source=openai)\n**Zumi Zero Smart Bidet Toilet Suite**  \nCombines premium design with concealed plumbing, offering smart washing functions, a rimless pan, and a seamless wall-hugging design. ([royalvanities.com.au](https://www.royalvanities.com.au/products/zumi-zero-smart-bidet-toilet-suite?utm_source=openai))\n\n\n\n[JOMOO Toilet - One Piece Smart Floor Mounted Siphon Flush](https://www.alibaba.com/showroom/jomoo-toilet.html?utm_source=openai)\n**JOMOO Smart Toilet**  \nProvides automatic flushing, seat warming, intelligent cleaning, deodorizing systems, and sleek, minimalist designs. ([rndinteriors.com.au](https://rndinteriors.com.au/category/toilet/smart-toilet/?utm_source=openai))\n\n\n\n[TL-STSF851WH - ANZZI ENVO Aura Elongated 1.28 GPF Smart Bidet Toilet in White with Remote Control, Auto Flush, Heated Seat, and Deodorizer](https://anzzi.com/products/tl-stsf851wh?utm_source=openai)\n**Aura Zenith Smart Toilet**  \nFeatures adjustable bidet spray, heated seat with temperature control, soft-close lid, air dryer function, deodorizer system, and night light illumination. ([oshonic.com.au](https://oshonic.com.au/collections/smart-toiltes?utm_source=openai))\n\n\nWhen considering a smart toilet, ensure it meets Australian standards, including WaterMark certification and WELS (Water Efficiency Labelling and Standards) ratings. Professional installation by licensed plumbers and electricians is recommended to comply with local regulations and ensure optimal performance.\n\nFor personalized advice and to explore these options further, you can visit local showrooms or contact the retailers directly. ",
+         "annotations": [
+          {
+           "title": "Bidet Toilet Seats, Smart Toilets & Portable Bidets | Tudaloo",
+           "url": "https://tudaloo.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Bidet Toilet Seats, Smart Toilets & Portable Bidets | Tudaloo",
+           "url": "https://tudaloo.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Lafeme Neovanta Gloss White Floor Mounted Smart Toilet - MyHomeware",
+           "url": "https://www.myhomeware.com.au/products/lafeme-neovanta-floor-mounted-cisternless-luxury-smart-toilet?utm_source=openai"
+          },
+          {
+           "title": "Buy Lafeme Neovanta Smart Toilet Online Melbourne",
+           "url": "https://www.royalvanities.com.au/products/lafeme-neovanta-smart-toilet?utm_source=openai"
+          },
+          {
+           "title": "Zero Rimless Smart Bidet Toilet Suite (Whirlpool Flushing) | Zumi Bathware",
+           "url": "https://zumibathware.com.au/product/zero-rimless-toilet-suite-with-smart-bidet-seat/?utm_source=openai"
+          },
+          {
+           "title": "Buy Zumi Zero Smart Bidet Toilet Suite Online Melbourne",
+           "url": "https://www.royalvanities.com.au/products/zumi-zero-smart-bidet-toilet-suite?utm_source=openai"
+          },
+          {
+           "title": "JOMOO Toilet - One Piece Smart Floor Mounted Siphon Flush",
+           "url": "https://www.alibaba.com/showroom/jomoo-toilet.html?utm_source=openai"
+          },
+          {
+           "title": "Modern JOMOO Smart Toilet Australia​ | RND Interiors",
+           "url": "https://rndinteriors.com.au/category/toilet/smart-toilet/?utm_source=openai"
+          },
+          {
+           "title": "TL-STSF851WH - ANZZI ENVO Aura Elongated 1.28 GPF Smart Bidet Toilet in White with Remote Control, Auto Flush, Heated Seat, and Deodorizer",
+           "url": "https://anzzi.com/products/tl-stsf851wh?utm_source=openai"
+          },
+          {
+           "title": "Aura Smart Toilets Australia | Bidet, Heated Seat | Oshonic – OSHONIC",
+           "url": "https://oshonic.com.au/collections/smart-toiltes?utm_source=openai"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "smart toilets Melbourne"
+     ]
+    }
+   ]
+  }
+ ]
+}
