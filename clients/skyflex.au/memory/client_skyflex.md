@@ -102,3 +102,27 @@ Final locked table (10 keywords):
 **Only one item still open:** #10 pergolas melbourne — homepage (rank 11, confirmed live) vs `/outdoor-pergolas/` (targets singular "pergola melbourne") cannibalization risk. Not yet resolved with client — needs a decision on whether to consolidate onto one page or keep split.
 
 Also confirmed only 1 folding-arm-awning SKU exists (Delta Commercial Folding Arm) and only 1 retractable-roof SKU (Delta Pro Retractable Roof) — no 2-product category page justified for either "retractable awning" or "retractable roof system"; both stay mapped onto their single existing product pages.
+
+## Content pipeline — intake complete (2026-07-14)
+`/content:init` run in `clients/skyflex.au/content/`. **Upgrade mode.** 7 entries from `Meta-file.xlsx`, 4 clusters (homepage, service-location-pergolas, product-categories, products). Forms 1 + 2 supplied by analyst and stored verbatim in `content/intake/`.
+
+**Live probe — skyflex.au blocks default user-agents.** curl with a default UA returns **403 on every URL**; with normal browser headers the same URLs return true statuses. Any future probe of this domain MUST send browser headers or every page will be misread as blocked. (The Playwright MCP is also unusable here — Chromium isn't installed at `/opt/google/chrome/chrome`.)
+
+**Confirmed by probe:** `/smart-toilets/` returns a real **404** — it does not exist, so it is `new-page`, not a rewrite. The other 6 URLs are 200.
+
+**Client instruction embedded inside the Meta File keyword cells** (would have corrupted the parsed keyword if not stripped — extracted to `content/intake/client-instructions.md`): for BOTH `pergolas melbourne` (homepage) and `pergolas sydney` (/louvred-pergolas-sydney/), *"we just need two paragraphs of content for this keyword as the existing page has content we don't want to change."* → both entries forced to `mode: add-blocks`, 200 words. **Differentiation risk:** two 2-paragraph blocks, same product, same size, adjacent intent (Melbourne vs Sydney) — the planner must differentiate them explicitly or they'll read as swapped-suburb boilerplate.
+
+**Live defects found (independent of content work, worth sending to the dev):**
+- `/product/skyflex-bbq-pods/` page title is `Delta Motorised | Skyflex` — wrong product, copy-pasted from another SKU.
+- `/smart-toilets/` can't ship until the WooCommerce category taxonomy exists (U6 + U7 still sit in "Uncategorized").
+
+**Form-vs-reality conflicts recorded in `client-profile.json:_conflicts`:**
+- Form1 Q11 lists **Queensland** as a focus area; Form2 Q11 names only Melbourne/Sydney, and the Meta File has zero QLD pages. Consistent with the earlier v2 decision to pause QLD — but the client's own form still says QLD, so confirm before any page mentions it.
+- Form1 Q10 asks to focus on the **U7 Smartoilet product page**; the Meta File instead targets the new `/smart-toilets/` **category** page (U6+U7). Confirm the category approach satisfies the request.
+- Form2 Q15 asks for the top 5 customer questions but supplies only 4, all louvred-pergola-specific — no client-supplied FAQs exist for smart toilets, awnings, BBQ pods, or the outdoor TV.
+
+**Cardinal-rule traps in these forms (do not repeat downstream):** Form1 Q7 ("why did you start the business") is answered with agency meta-commentary — *"The website content does not explicitly state why the business was started"* — i.e. an **absence of data, not a founding story**. `why_started` was correctly OMITTED, not populated with that sentence. Form2 Q3 has the same shape ("No further credentials or formal qualifications are listed"). Several form answers are observations *about the website* rather than client statements — read Q&A answers for this client sceptically.
+
+**`client-facts.json` false-positive conflicts.** The fact extractor regex-scrapes every number out of the verbatim form text, so it invented three conflicts: `founding-year=2026` (that's the form **submission date** 30/06/2026, not the founding year), `clients=30` (the `30` from that same date; other candidates were ABN/phone/post-dimension digits), and a `percentage` bucket collapsing six *unrelated* metrics (25%/18%/8% discounts, 100% retention, 50% referrals). Resolved via `facts_cli.py confirm` → founding-year=**2023**, clients=**100+**. `metrics.percentage` left pending — no single value is correct for it.
+
+**Risky claims to fact-gate before they reach any page:** "voted Australia's most affordable motorised louvre roof system" (voted by *whom*? unattributed award = ACCC exposure), "up to 8x cheaper than competitors", "up to 15-year warranty", "maintenance-free", 100% retention / 50% referrals / 5-star. Also still open from the keyword round: **do not assert a waterproof/IP rating on the Outdoor TV** (primary kw is `waterproof tv australia` and 2 secondaries assert `ip55`) until the client confirms a certified IP rating actually exists.
