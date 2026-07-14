@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "entry_id": "louvred-pergolas-sydney",
+  "cluster_id": "service-location-pergolas",
+  "location": "Sydney, New South Wales, Australia",
+  "service": "louvred pergolas",
+  "generated_at": "2026-07-14",
+  "generated_by": "content:research (service-location extension)",
+
+  "brave_local_status": "INSUFFICIENT LOCAL DATA",
+  "brave_local_detail": {
+    "statement": "Brave local search returned ZERO `locations` results for all four queries. No Brave-sourced business listings, no Brave `discussions` results, and no Brave `faq` results were returned for any query. Brave provided web results only.",
+    "queries_run": [
+      "louvred pergolas sydney",
+      "louvre pergola sydney",
+      "pergolas sydney",
+      "opening roof pergola sydney"
+    ],
+    "locations_returned": 0,
+    "discussions_returned": 0,
+    "faq_returned": 0,
+    "web_results_returned": 20,
+    "fixture": "research/raw/brave-local-pergolas-sydney.json",
+    "consequence": "No genuine local-community discussion, review threads, or Brave POI listings exist in the fixture set for this suburb-service pair. Any 'local colour' about Sydney climate, council behaviour, building stock, or homeowner sentiment would be FABRICATED. Writers MUST NOT produce it."
+  },
+
+  "real_local_signal_present": {
+    "note": "Local ground truth below did NOT come from Brave local. It came from the DataForSEO local_pack block and the ChatGPT web-search annotations. Each item cites its fixture. These are the only citable local facts available.",
+
+    "google_local_pack_competitors": {
+      "source_fixture": "research/raw/serp-organic-pergolas-sydney.json",
+      "source_block": "items[].type == 'local_pack'",
+      "count": 3,
+      "businesses": [
+        {
+          "name": "Fresh Outdoor Sydney North Shore",
+          "suburb": "Chatswood NSW",
+          "domain": "www.freshoutdoor.com.au",
+          "phone": "1800 837 374",
+          "rating": 4.7,
+          "votes_count": 130
+        },
+        {
+          "name": "Pergola Land",
+          "suburb": "Thornleigh NSW",
+          "domain": "www.pergolaland.com.au",
+          "phone": "1300 655 979",
+          "rating": 4.9,
+          "votes_count": 114,
+          "attributes": ["On-site services"]
+        },
+        {
+          "name": "Sydney Pergola Pty Ltd",
+          "suburb": "Wetherill Park NSW",
+          "domain": "www.sydneypergolaservices.com.au",
+          "phone": "1300 180 081",
+          "rating": 4.8,
+          "votes_count": 50
+        }
+      ],
+      "skyflex_in_local_pack": false,
+      "interpretation": "All three local-pack holders are installer/builder businesses with physical Sydney premises and GBP listings. Skyflex has no Sydney GBP presence and cannot enter this block without a Sydney address. The local pack is structurally closed to Skyflex."
+    },
+
+    "llm_cited_sydney_businesses": {
+      "source_fixture": "research/raw/ai-overview-pergolas-sydney.json",
+      "source_block": "tasks[0].result[0].items[0].sections[0].annotations",
+      "prompt": "Where can I buy or get a louvred pergola in Sydney? What are the best options?",
+      "model": "gpt-4o-mini-2024-07-18 (web_search enabled)",
+      "skyflex_cited": false,
+      "businesses_cited": [
+        {"name": "Acetech Architectural", "address": "40 Lisbon St, Fairfield East NSW 2165", "category": "Construction material wholesaler", "rating": "5.0 (51 reviews)"},
+        {"name": "Terra Nature Nest", "address": "Unit 1/200 Fairfield Rd, Yennora NSW 2161", "category": "Outdoor furniture store", "rating": "5.0 (8 reviews)"},
+        {"name": "Ozzy Backyards", "address": "40-44 Wellington Rd, South Granville NSW 2142", "category": "Carport and pergola builder", "rating": "5.0 (12 reviews)"},
+        {"name": "Patios Coast2Coast", "address": "Unit 1/2 Apprentice Dr, Berkeley Vale NSW 2261", "category": "Patio enclosure supplier", "rating": "5.0 (59 reviews)"}
+      ],
+      "interpretation": "AEO gap. Skyflex ranks #2 in Google organic for the head term but is invisible in the LLM answer for the same buying question. The LLM answers with Sydney-addressed businesses only."
+    },
+
+    "recurring_sydney_theme_in_competitor_content": {
+      "source_fixtures": [
+        "research/raw/on-page-parsing-aussiepergolas-com-au.json",
+        "research/raw/on-page-parsing-pergolaland-com-au.json",
+        "research/raw/on-page-parsing-apollopatios-com-au.json"
+      ],
+      "theme": "Council approval / planning permission for pergolas in Sydney",
+      "evidence": [
+        {"domain": "aussiepergolas.com.au", "verbatim_heading": "Are there council approval requirements for pergolas or carports in Sydney?"},
+        {"domain": "pergolaland.com.au", "verbatim_heading": "Council-Approved Patios in NSW: What Sydney Homeowners Need to Know"},
+        {"domain": "apollopatios.com.au", "verbatim_heading": "Planning permission & approvals"}
+      ],
+      "second_theme": "Cost to build",
+      "second_theme_evidence": [
+        {"domain": "aussiepergolas.com.au", "verbatim_heading": "How much does it cost to build a pergola in Sydney?"}
+      ],
+      "usage_rule": "These are the ONLY two Sydney-specific themes evidenced in the fixture set. They are evidenced as topics competitors write about — NOT as facts about what Sydney councils actually require. Skyflex content may reference that approval is a common Sydney homeowner question and point to its DIY-kit specs; it MUST NOT state specific council rules, DA thresholds, exempt-development dimensions, or wind ratings, because no fixture contains them."
+    }
+  },
+
+  "prohibited_claims": [
+    "Any statement about Sydney's coastal climate, salt air, humidity, or weather demands — no fixture contains Sydney climate data.",
+    "Any specific council name, DA requirement, exempt-development dimension, or NSW planning threshold — no fixture contains regulatory text.",
+    "Any claim about Sydney building stock, terrace houses, backyard sizes, or suburb character — no fixture contains this.",
+    "Any invented local testimonial or Sydney customer story — the live page's existing reviews reference installer 'Chris' but carry no verified Sydney attribution.",
+    "Any claim that Skyflex has a Sydney showroom, Sydney address, or Sydney phone number — the live page lists a Melbourne number (03 9498 0505)."
+  ],
+
+  "live_page_observations": {
+    "source_fixture": "research/raw/playwright-live-page-pergolas-sydney.json",
+    "url": "https://skyflex.au/louvred-pergolas-sydney/",
+    "http_status": 200,
+    "word_count": 1559,
+    "h1": "LOUVRED PERGOLAS SYDNEY",
+    "existing_content_h2s": [
+      "LOUVRED ROOF PERGOLAS FOR YOUR SYDNEY PROPERTY",
+      "VERSATILE DESIGN OPTIONS FOR LOUVRED PERGOLAS SYDNEY",
+      "WHY CHOOSE SKYFLEX FOR LOUVRED PERGOLAS IN SYDNEY",
+      "BUY LOUVRED PERGOLAS IN SYDNEY FROM SKYFLEX",
+      "FREQUENTLY ASKED QUESTIONS ABOUT LOUVRED PERGOLAS IN SYDNEY"
+    ],
+    "existing_faq_questions": [
+      "What are the benefits of buying our Louvred Pergolas in Sydney?",
+      "How does a Louvred Roof Pergola in Sydney work?",
+      "Can Louvred Pergolas in Sydney be customised to match my home's design?",
+      "Are Louvred Roof Pergolas in Sydney easy to maintain?",
+      "Why should I choose Skyflex for my Louvred Pergola in Sydney?"
+    ],
+    "do_not_duplicate": "The page already covers: adjustable-slat mechanics, design/colour customisation, freestanding vs attached, maintenance, why-choose-Skyflex, and a 5-question FAQ. The two added paragraphs must NOT restate any of these.",
+    "defects_observed_for_analyst": [
+      "Body copy says 'SkyFlex designs and installs these versatile structures' — installer framing that conflicts with the DIY-kit product positioning in client-profile.json.",
+      "CTA paragraph points readers to 'skyflex.com.au' — wrong domain. Live domain is skyflex.au.",
+      "Sydney page lists Melbourne phone number 03 9498 0505."
+    ]
+  }
+}

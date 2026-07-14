@@ -1,0 +1,882 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-07-14T06:32:29.591479+00:00",
+ "entry_id": "skyflex-bbq-pods",
+ "cluster_id": "products",
+ "page_type": "product",
+ "url": "https://skyflex.au/product/skyflex-bbq-pods/",
+ "primary_keyword": "bbq pods melbourne",
+ "geo": {
+  "location_name": "Melbourne,Victoria,Australia",
+  "serp_location_code_used": 1000567,
+  "labs_location_code_used": 2036,
+  "language": "en"
+ },
+ "headline_finding": "PRIMARY KEYWORD HAS NO SEARCH-VOLUME DATA. DataForSEO Labs keyword_overview returned status 20000 'Ok' but NO item for 'bbq pods melbourne' \u2014 it is absent from the keyword database. keyword_suggestions and related_keywords seeded on it both returned items_count: 0. The head term 'bbq pods' (720/mo, AU) is real and its SERP is product-retailer dominated. Recommendation: re-primary to 'bbq pods'.",
+ "metrics": {
+  "search_volume": 0,
+  "search_volume_status": "NO DATA \u2014 keyword absent from DataForSEO Labs database (not a fetch failure; task status_code 20000, items_count 0)",
+  "keyword_difficulty": null,
+  "cpc_aud": null,
+  "competition_level": null,
+  "intent": "navigational",
+  "intent_probability": 0.4207,
+  "source": [
+   "keyword-overview-bbq-pods-melbourne.json",
+   "keyword-suggestions-bbq-pods-melbourne.json",
+   "related-keywords-bbq-pods-melbourne.json",
+   "search-intent-bbq-pods-melbourne.json"
+  ]
+ },
+ "zero_volume_evidence": {
+  "keyword_overview_items_returned_for_primary": 0,
+  "keyword_suggestions_items_count": 0,
+  "related_keywords_items_count": 0,
+  "corroborating_signal": "keyword_suggestions seeded on 'bbq pods' returns city variants for Perth (30), Sydney (30) and Brisbane (10) but NO Melbourne variant \u2014 the Melbourne modifier falls below DataForSEO's reporting threshold.",
+  "keywords_requested_that_returned_no_data": [
+   "bbq pods melbourne",
+   "luxury alfresco kitchen",
+   "custom outdoor bbq area",
+   "weatherproof outdoor cabinetry",
+   "modern bbq layout",
+   "garden bbq room",
+   "luxury backyard entertaining",
+   "backyard bbq pod",
+   "prefabricated alfresco kitchen"
+  ],
+  "source": [
+   "keyword-suggestions-bbq-pods.json",
+   "keyword-overview-bbq-pods-melbourne.json"
+  ]
+ },
+ "intent_verdict": {
+  "dataforseo_label": {
+   "label": "navigational",
+   "probability": 0.4207
+  },
+  "verdict": "PRODUCT-RETAIL, NOT INSTALLER-CONTAMINATED. The top 20 is dominated by prefab BBQ-pod retailers and manufacturers (futureshade, expressportables, konoba, elitepods, bbqpodsydney, pmkpods, outdoorkitchensdepot, stratco, shedcity, outdoorsdomain). Zero custom-build alfresco contractors or cabinetmakers rank. This is the OPPOSITE of the 'retractable awning melbourne' finding \u2014 a product page is the correct page type here.",
+  "page_type_caveat": "Google prefers CATEGORY/COLLECTION and BRAND-HOMEPAGE URLs over single product-detail pages: only 1 of 18 organic URLs is a /product/ URL. Skyflex's target is a WooCommerce /product/ detail page, so it is fighting the dominant page type.",
+  "product_detail_pages_in_top20": 1,
+  "product_detail_urls": [
+   "https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/"
+  ],
+  "local_pack_present": true,
+  "local_pack_count": 3,
+  "shopping_signal": "The sibling SERP for the head term 'bbq pods' (serp-organic-bbq-pods.json) carries a popular_products block plus images and short_videos \u2014 a shopping/transactional SERP.",
+  "source": [
+   "serp-organic-bbq-pods-melbourne.json",
+   "search-intent-bbq-pods-melbourne.json",
+   "serp-organic-bbq-pods.json"
+  ]
+ },
+ "recommended_primary": {
+  "keyword": "bbq pods",
+  "search_volume": 720,
+  "cpc_aud": 0.71,
+  "competition_level": "HIGH",
+  "intent": {
+   "label": "transactional",
+   "probability": 0.5485
+  },
+  "why": "Only viable head term with real volume whose SERP is the same product-retailer SERP as the current primary: 12 organic domains overlap between serp-organic-bbq-pods-melbourne.json (16 organic domains) and serp-organic-bbq-pods.json (15 organic domains) \u2014 including futureshade, expressportables, konoba, elitepods, bbqpodsydney, pmkpods, outdoorlivinghq, madebytait, shedcity and tbkmetal. 'bbq pods melbourne' has no volume data; 'bbq pods' has 720/mo and transactional intent. Melbourne can be carried in the title/H1 as a modifier without being the head term.",
+  "source": [
+   "keyword-overview-bbq-pods-melbourne.json",
+   "search-intent-bbq-pods-melbourne.json",
+   "serp-organic-bbq-pods.json"
+  ],
+  "serp_overlap_with_current_primary": {
+   "overlapping_organic_domains": 12,
+   "melbourne_organic_domains": 16,
+   "head_term_organic_domains": 15,
+   "computed_from": [
+    "serp-organic-bbq-pods-melbourne.json",
+    "serp-organic-bbq-pods.json"
+   ]
+  }
+ },
+ "adjacent_terms_with_real_volume": {
+  "note": "Real volumes for every requested term that DataForSEO returned. Terms absent from this list returned NO item and therefore have no data.",
+  "terms": [
+   {
+    "keyword": "outdoor kitchen",
+    "search_volume": 18100,
+    "cpc_aud": 2.06,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "outdoor bbq kitchen",
+    "search_volume": 4400,
+    "cpc_aud": 0.65,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "outdoor kitchen cabinets",
+    "search_volume": 3600,
+    "cpc_aud": 1.6,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "modular outdoor kitchen",
+    "search_volume": 1000,
+    "cpc_aud": 2.07,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "prefabricated outdoor kitchen",
+    "search_volume": 1000,
+    "cpc_aud": 2.07,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "alfresco kitchen",
+    "search_volume": 720,
+    "cpc_aud": 2.09,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "bbq pod",
+    "search_volume": 720,
+    "cpc_aud": 0.71,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "bbq pods",
+    "search_volume": 720,
+    "cpc_aud": 0.71,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "outdoor kitchen melbourne",
+    "search_volume": 390,
+    "cpc_aud": 4.36,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "outdoor kitchen pods",
+    "search_volume": 320,
+    "cpc_aud": 1.26,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "outdoor kitchens melbourne",
+    "search_volume": 320,
+    "cpc_aud": 3.47,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "modular outdoor kitchen australia",
+    "search_volume": 110,
+    "cpc_aud": 2.54,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "built in bbq melbourne",
+    "search_volume": 20,
+    "cpc_aud": 1.16,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 8,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "alfresco kitchen melbourne",
+    "search_volume": 10,
+    "cpc_aud": 5.04,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 48,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "bbq area melbourne",
+    "search_volume": 10,
+    "cpc_aud": null,
+    "competition_level": "LOW",
+    "keyword_difficulty": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "bbq kitchen melbourne",
+    "search_volume": 10,
+    "cpc_aud": 1.12,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 38,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "modular bbq island",
+    "search_volume": 10,
+    "cpc_aud": 0.53,
+    "competition_level": "HIGH",
+    "keyword_difficulty": null,
+    "intent": "transactional"
+   }
+  ],
+  "source": "keyword-overview-bbq-pods-melbourne.json"
+ },
+ "secondary_keywords_audit": {
+  "with_data": {
+   "outdoor kitchen pods": {
+    "search_volume": 320,
+    "cpc_aud": 1.26,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   "prefabricated outdoor kitchen": {
+    "search_volume": 1000,
+    "cpc_aud": 2.07,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "transactional"
+   },
+   "modular bbq island": {
+    "search_volume": 10,
+    "cpc_aud": 0.53,
+    "competition_level": "HIGH",
+    "keyword_difficulty": null,
+    "intent": "transactional"
+   },
+   "built in bbq melbourne": {
+    "search_volume": 20,
+    "cpc_aud": 1.16,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 8,
+    "intent": "commercial"
+   },
+   "modular outdoor kitchen australia": {
+    "search_volume": 110,
+    "cpc_aud": 2.54,
+    "competition_level": "HIGH",
+    "keyword_difficulty": 0,
+    "intent": "commercial"
+   }
+  },
+  "no_data_returned": [
+   "luxury alfresco kitchen",
+   "custom outdoor bbq area",
+   "weatherproof outdoor cabinetry",
+   "modern bbq layout",
+   "garden bbq room",
+   "luxury backyard entertaining",
+   "backyard bbq pod",
+   "prefabricated alfresco kitchen"
+  ],
+  "source": "keyword-overview-bbq-pods-melbourne.json"
+ },
+ "keyword_suggestions_from_head_term": {
+  "seed": "bbq pods",
+  "items": [
+   {
+    "keyword": "bbq pods",
+    "search_volume": 720,
+    "cpc_aud": 0.71,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods australia",
+    "search_volume": 390,
+    "cpc_aud": 0.94,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "outdoor bbq pods australia",
+    "search_volume": 140,
+    "cpc_aud": 0.81,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "outdoor bbq pods",
+    "search_volume": 110,
+    "cpc_aud": 0.52,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods perth",
+    "search_volume": 30,
+    "cpc_aud": 1.64,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods sydney",
+    "search_volume": 30,
+    "cpc_aud": 0.78,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods for sale",
+    "search_volume": 30,
+    "cpc_aud": 0.22,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "future shade bbq pods",
+    "search_volume": 20,
+    "cpc_aud": null,
+    "competition_level": "LOW"
+   },
+   {
+    "keyword": "bbq pods uk",
+    "search_volume": 10,
+    "cpc_aud": 0.78,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods brisbane",
+    "search_volume": 10,
+    "cpc_aud": 1.27,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods bunnings",
+    "search_volume": 10,
+    "cpc_aud": 0.33,
+    "competition_level": "HIGH"
+   }
+  ],
+  "source": "keyword-suggestions-bbq-pods.json"
+ },
+ "related_keywords_from_head_term": {
+  "seed": "bbq pods",
+  "items": [
+   {
+    "keyword": "bbq pods",
+    "search_volume": 720,
+    "cpc_aud": 0.71,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods australia",
+    "search_volume": 390,
+    "cpc_aud": 0.94,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "pmk pods australia",
+    "search_volume": 320,
+    "cpc_aud": 2.38,
+    "competition_level": "LOW"
+   },
+   {
+    "keyword": "outdoor bbq pods australia",
+    "search_volume": 140,
+    "cpc_aud": 0.81,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "outdoor bbq pods",
+    "search_volume": 110,
+    "cpc_aud": 0.52,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods for sale",
+    "search_volume": 30,
+    "cpc_aud": 0.22,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pod plans",
+    "search_volume": 30,
+    "cpc_aud": null,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "stratco bbq pod",
+    "search_volume": 30,
+    "cpc_aud": null,
+    "competition_level": "MEDIUM"
+   },
+   {
+    "keyword": "bbq pods sydney",
+    "search_volume": 30,
+    "cpc_aud": 0.78,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods bunnings",
+    "search_volume": 10,
+    "cpc_aud": 0.33,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "bbq pods uk",
+    "search_volume": 10,
+    "cpc_aud": 0.78,
+    "competition_level": "HIGH"
+   },
+   {
+    "keyword": "hideaway bbq pod",
+    "search_volume": 10,
+    "cpc_aud": null,
+    "competition_level": "MEDIUM"
+   }
+  ],
+  "source": "related-keywords-bbq-pods.json"
+ },
+ "serp": {
+  "total_items": 25,
+  "item_type_census": {
+   "organic": 18,
+   "ai_overview": 1,
+   "video": 1,
+   "local_pack": 3,
+   "related_searches": 2
+  },
+  "se_results_count": 177,
+  "local_pack_present": true,
+  "local_pack": [
+   {
+    "title": "Melbourne Backyard Pods",
+    "description": "Fairfield VIC \u00b7 0419 122 821  Open \u00b7 Closes 5:30\u202fpm  \"The pod is wonderful, with a seamless finish.\"",
+    "rating": {
+     "rating_type": "Max5",
+     "value": 5,
+     "votes_count": 17,
+     "rating_max": 5
+    }
+   },
+   {
+    "title": "Outdoors Domain \u2013 Melbourne",
+    "description": "Mount Waverley VIC \u00b7 1300 794 839  Closes soon \u00b7 5\u202fpm  \"The BBQs are great quality and the service was fantastic.\"",
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.4,
+     "votes_count": 194,
+     "rating_max": 5
+    }
+   },
+   {
+    "title": "BBQs Plus - Port Melbourne",
+    "description": "Port Melbourne VIC \u00b7 1800 718 432  Closes soon \u00b7 5\u202fpm  \"Incredible range (BBQ's, Smokers, Rubs, Sauces and Accessories).\"",
+    "rating": {
+     "rating_type": "Max5",
+     "value": 4.7,
+     "votes_count": 90,
+     "rating_max": 5
+    }
+   }
+  ],
+  "paa_present": false,
+  "paa_questions": [],
+  "paa_note": "ZERO People-Also-Ask items in the SERP fixture. No PAA questions exist to seed an FAQ block for this keyword \u2014 same as the sibling awning entry.",
+  "related_searches": [
+   "BBQ Pods bunnings",
+   "BBQ pods Sydney",
+   "Best bbq pods melbourne",
+   "Best outdoor bbq pods melbourne",
+   "Cheap bbq pods melbourne",
+   "Outdoor BBQ pod Australia",
+   "Outdoor bbq pods melbourne",
+   "Small outdoor BBQ pod Australia",
+   "Stratco BBQ pod"
+  ],
+  "product_detail_pages_ranking": 1,
+  "results": [
+   {
+    "position": 1,
+    "url": "https://www.futureshade.com.au/bbq-pods",
+    "title": "BBQ Pods | Outdoor Kitchens",
+    "description": "Premium BBQ Pods with built-in grills, fridges & RGB lighting. Weather-resistant, no permits needed. Fully customizable outdoor kitchens delivered ready to\u00a0...",
+    "domain": "www.futureshade.com.au"
+   },
+   {
+    "position": 2,
+    "url": "https://expressportables.com.au/collections/bbq-pods?srsltid=AfmBOor19qomMO690iafyAHr10OOVIc_EuBYl7ezPXCxjFJGT209fONg",
+    "title": "BBQ Pods",
+    "description": "Express BBQ Pods offer the perfect balance between space and functionality. Designed with a larger cooking area, extra bench space, and storage",
+    "domain": "expressportables.com.au"
+   },
+   {
+    "position": 3,
+    "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/",
+    "title": "Diablo 3.5m Outdoor Kitchen Pod",
+    "description": "Huge 3.5m all-in-one outdoor kitchen pod ; 6-burner BBQ; Rangehood; 108L outdoor fridge; 46\u2033 TV; Sink + tap; 304 stainless steel cabinets; Powder-coated exterior\u00a0... Read more",
+    "domain": "outdoorlivinghq.com.au"
+   },
+   {
+    "position": 4,
+    "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+    "title": "BBQ Konoba PODS Australia Wide Delivery",
+    "description": "Premium BBQ Pods Australia-Wide. BBQ PODS From $18,990.00 Shipping We take pride in delivering your order safely and on time. Quality Guarantee Satisfaction\u00a0...",
+    "domain": "konoba.com.au"
+   },
+   {
+    "position": 5,
+    "url": "https://www.instagram.com/bbqpodsmelb/",
+    "title": "BBQ PODS MELBOURNE (@bbqpodsmelb)",
+    "description": "Bbqpodsmelbourne, another quality product. We have pods on display everywhere , and expanding soon. PMK Pods today at www.pmkpods.com \u2026 10 Year Warranty. One\u00a0...",
+    "domain": "www.instagram.com"
+   },
+   {
+    "position": 6,
+    "url": "https://elitepods.com.au/",
+    "title": "Elite Pods: homepage",
+    "description": "Our outdoor Kitchen Pods are redefining how people gather, eat, and enjoy their outdoor spaces. ... Built-in 36inch BBQ grill; Wall-mounted shelf; Stainless steel\u00a0... Read more",
+    "domain": "elitepods.com.au"
+   },
+   {
+    "position": 7,
+    "url": "https://madebytait.com.au/our-range/entertaining/outdoor-kitchen/",
+    "title": "Modern Outdoor BBQ & Kitchen Island | Made by Tait",
+    "description": "Discover our high-end contemporary outdoor kitchen and bbq with premium Australian design and craftsmanship, gas or electric cooktop and optional add-ons.",
+    "domain": "madebytait.com.au"
+   },
+   {
+    "position": 8,
+    "url": "https://www.tbkmetal.com.au/outdoor-bbq-kitchen-pods/",
+    "title": "Outdoor BBQ Kitchen Pods: The Ultimate Guide to Modern ...",
+    "description": "13 June 2026 \u2014 HOREGENER offers a selection of outdoor BBQ kitchen pods designed for various projects, lifestyles, and spaces. Read more",
+    "domain": "www.tbkmetal.com.au"
+   },
+   {
+    "position": 9,
+    "url": "https://www.futureshade.com.au/blog/barbecue-pods-have-arrived-in-australia",
+    "title": "Barbecue Pods Have Arrived in Australia",
+    "description": "20 Feb 2026 \u2014 Melbourne 17-19 April 2026 Melbourne Convention & Exhibition Centre. These events are the perfect opportunity to see the pods up close\u00a0... Read more",
+    "domain": "www.futureshade.com.au"
+   },
+   {
+    "position": 10,
+    "url": "https://www.bbqpodsydney.com.au/",
+    "title": "BBQ Pods Sydney",
+    "description": "Premium outdoor BBQ pods for Sydney. Built with 304-grade stainless steel, aerospace aluminium, and weatherproof finishes.",
+    "domain": "www.bbqpodsydney.com.au"
+   },
+   {
+    "position": 11,
+    "url": "https://www.outdoorkitchensdepot.com.au/",
+    "title": "outdoor kitchen pods",
+    "description": "Outdoor Kitchens Depot designs and delivers engineered stainless steel outdoor kitchen systems purpose-built for Australian conditions, Our BBQ Pods blend\u00a0... Read more",
+    "domain": "www.outdoorkitchensdepot.com.au"
+   },
+   {
+    "position": 12,
+    "url": "https://www.instagram.com/reel/DThk-KAEj6_/",
+    "title": "Future Shade on Instagram: \"This Mini BBQ pod costs less ...",
+    "description": "The Diablo Mini Outdoor BBQ Pod brings your BBQ, sink, fridge space, storage, and prep area together in one sleek outdoor station. Perfect for\u00a0...",
+    "domain": "www.instagram.com"
+   },
+   {
+    "position": 13,
+    "url": "https://www.pmkpods.com/",
+    "title": "PMK Pods: BBQ Pods",
+    "description": "PMK Pod designs and builds premium BBQ pod outdoor kitchens. Custom-built garden BBQ pods combining design, durability and performance.",
+    "domain": "www.pmkpods.com"
+   },
+   {
+    "position": 14,
+    "url": "https://www.stratco.com.au/au/outdoor-kitchens/",
+    "title": "Outdoor Kitchens | Stratco Australia",
+    "description": "Stratco offers fully equipped Alfresco Outdoor Kitchens if you are looking for a proper kitchen set-up in your backyard.",
+    "domain": "www.stratco.com.au"
+   },
+   {
+    "position": 15,
+    "url": "https://www.facebook.com/100063642996716/videos/-our-bbq-pods-are-going-global-from-the-sunny-shores-of-australia-to-the-vibrant/964744212783245/",
+    "title": "Our BBQ Pods are going GLOBAL! From the sunny shores of ...",
+    "description": "Contact us now for a FREE quote and bring home a bbqpod built to last a lifetime Make the smart investment in your future \u2014 create\u00a0...",
+    "domain": "www.facebook.com"
+   },
+   {
+    "position": 16,
+    "url": "https://crossray.com.au/bbqs-melbourne/?srsltid=AfmBOooKLhmm94_rjKW0jWhYMrQx1bjTtwKw_p65RZzcvj7voTwAdgfE",
+    "title": "BBQs Melbourne | Outdoor Kitchens ...",
+    "description": "The CROSSRAY\u00ae BBQ range has Melbourne food lovers salivating. Infrared technology allows cooking with even heat, and our outdoor kitchens complete any home.",
+    "domain": "crossray.com.au"
+   },
+   {
+    "position": 17,
+    "url": "https://shedcity.com.au/pages/shed-city-bbq-kitchen-storage-pod-shed?srsltid=AfmBOoqnY6HCF94lSBRag_zrXFqwfTnLKctZdVCt35pyzQWbOH0UpsAX",
+    "title": "Shed City BBQ, Kitchen, Storage Pod Shed",
+    "description": "Our BBQ, kitchen and storage pods are available in 12 standard frame sizes, giving you flexible options for compact courtyards through to large alfresco\u00a0... Read more",
+    "domain": "shedcity.com.au"
+   },
+   {
+    "position": 18,
+    "url": "https://www.outdoorsdomain.com.au/?srsltid=AfmBOoqYepRMyveWhF1avkFy07C6-WPFTI73-snnSOhrEVT_hU5LFhVV",
+    "title": "Outdoors Domain \u2013 Australia's Best BBQs & Outdoor Kitchen ...",
+    "description": "At Outdoors Domain, we're outdoor living specialists with Australia's best range of BBQs, Outdoor Kitchens, Smokers, Outdoor Furniture, Heating and much more. Read more",
+    "domain": "www.outdoorsdomain.com.au"
+   }
+  ],
+  "source": "serp-organic-bbq-pods-melbourne.json"
+ },
+ "ai_overview": {
+  "present": true,
+  "answer_markdown": "![Explore BBQ Ideas for Your Next Australian Outdoor Feast | TikTok](https://api.dataforseo.com/cdn/i/07140925-1150-0139-0000-c839382c944b:4)\nBBQ Pods offer a premium, plug-and-play outdoor kitchen experience. Local suppliers like **Future Shade** supply models ranging from a 2.2m Mini Pod to a 3.5m Entertainer. They come fully loaded with a built-in BBQ, fridge, sink, and smart integrations, and can be viewed at the **Home Innovations Frankston** display centre.[](https://www.instagram.com/reel/DU79UF1Eo1E/) [[1]](https://www.instagram.com/reel/DU79UF1Eo1E/)[[2]](https://www.instagram.com/reel/DVYXhIfEopg/)[[3]](https://www.instagram.com/bbqpodsmelb/)[[4]](https://www.facebook.com/100063642996716/videos/bbqpods-have-arrived-in-melbourne-sydney-perth-melbourne-display-centre-open-hom/1333258748549859/)\n\n**Pricing & Models:** \n\n- **Mini BBQ Pod:** Roughly $16,999 - $20,000, measuring 2.2m and ideal for smaller spaces.\n- **Entertainer & Social Pods:** Ranging between $19,250 and $23,950, featuring larger layouts, integrated TVs, and extended bench space.[](https://expressportables.com.au/collections/bbq-pods) [[1]](https://expressportables.com.au/collections/bbq-pods)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:1709509888967921798&ibp=oshop)[[3]](https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/)[[4]](https://www.instagram.com/reel/DVYXhIfEopg/)[[5]](https://www.outdoorsdomain.com.au/products/artusi-80cm-316-grade-stainless-steel-built-in-bbq-with-hood)\n\n**Key Features & Delivery:** \n\n- **Weatherproof:** Designed for Australian conditions with 304 marine-grade stainless steel and electric doors that close off to protect the kitchen when not in use.\n- **Installation:** Delivered fully assembled as a plug-and-play unit. You just need to arrange local plumbing and power connections.[](https://www.instagram.com/bbqpodsmelb/) [[1]](https://www.instagram.com/bbqpodsmelb/)[[2]](https://www.instagram.com/reel/DVYXhIfEopg/)[[3]](https://www.futureshade.com.au/bbq-pods)\n\nFor custom builds, full catalogues, and delivery times, view the [Future Shade BBQ Pods](https://www.futureshade.com.au/bbq-pods) page or book a viewing at the Frankston showroom via the [BBQPods Melbourne Instagram](https://www.instagram.com/bbqpodsmelb/).[[1]](https://www.instagram.com/reel/DU79UF1Eo1E/)",
+  "references": [
+   {
+    "title": "BBQ Pods - Express Portables",
+    "domain": "expressportables.com.au",
+    "url": "https://expressportables.com.au/collections/bbq-pods"
+   },
+   {
+    "title": "BBQ Pods | Outdoor Kitchens - Future Shade Melbourne",
+    "domain": "www.futureshade.com.au",
+    "url": "https://www.futureshade.com.au/bbq-pods"
+   },
+   {
+    "title": "Outdoor BBQ Kitchen Pod 3.5m | Built-In 6 Burner BBQ, TV & Fridge",
+    "domain": "outdoorlivinghq.com.au",
+    "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/"
+   },
+   {
+    "title": "Melbourne, the wait is over! we Just installed our very first Bbqpod right ...",
+    "domain": "www.instagram.com",
+    "url": "https://www.instagram.com/reel/DU79UF1Eo1E/"
+   },
+   {
+    "title": "BBQ PODS MELBOURNE (@bbqpodsmelb) - Instagram",
+    "domain": "www.instagram.com",
+    "url": "https://www.instagram.com/bbqpodsmelb/"
+   },
+   {
+    "title": "BBQPODS have arrived in Melbourne, Sydney & Perth ... - Facebook",
+    "domain": "www.facebook.com",
+    "url": "https://www.facebook.com/100063642996716/videos/bbqpods-have-arrived-in-melbourne-sydney-perth-melbourne-display-centre-open-hom/1333258748549859/"
+   },
+   {
+    "title": "Transformed a Mentone backyard today with our sleek Mini BBQ ...",
+    "domain": "www.instagram.com",
+    "url": "https://www.instagram.com/reel/DVYXhIfEopg/"
+   },
+   {
+    "title": "Diablo Mini Outdoor BBQ Pod | Built-In BBQ, Fridge, & Sink",
+    "domain": "www.google.com",
+    "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:1709509888967921798&ibp=oshop"
+   }
+  ],
+  "client_mentioned": false,
+  "note": "Google AI Overview is present and cites competitor pricing ($16,999-$23,950) and named models. Skyflex is NOT cited.",
+  "source": "ai-overview-bbq-pods-melbourne.json (verbatim ai_overview block from the live Google SERP); ai-overview-chatgpt-bbq-pods-melbourne.json holds the ChatGPT llm_responses envelope"
+ },
+ "community_questions": {
+  "discussions": [],
+  "faq": [],
+  "locations": [],
+  "note": "Brave web/search across 1 primary + 2 community-probe queries. discussions=0, faq=0, locations=0, web_results_for_primary=20. Community/forum records reported verbatim; empty means Brave's index returned none. No community/forum questions exist in Brave's index for this query or for the two supplementary probes ('bbq pod reddit', 'outdoor kitchen pod australia forum'). Nothing to seed an FAQ from.",
+  "source": "brave-local-bbq-pods-melbourne.json"
+ },
+ "competitor_pages": {
+  "www-futureshade-com-au": {
+   "url": "https://www.futureshade.com.au/bbq-pods",
+   "fixture": "on-page-parsing-www-futureshade-com-au.json",
+   "status_code": 200,
+   "page_type": "collection/category",
+   "main_topic_word_count": 551,
+   "headings": [
+    {
+     "level": 2,
+     "text": "Our Trusted Pod Partners."
+    }
+   ]
+  },
+  "expressportables-com-au": {
+   "url": "https://expressportables.com.au/collections/bbq-pods",
+   "fixture": "on-page-parsing-expressportables-com-au.json",
+   "status_code": 200,
+   "page_type": "collection/category",
+   "main_topic_word_count": 0,
+   "headings": []
+  },
+  "outdoorlivinghq-com-au": {
+   "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/",
+   "fixture": "on-page-parsing-outdoorlivinghq-com-au.json",
+   "status_code": 200,
+   "page_type": "product-detail",
+   "main_topic_word_count": 158,
+   "headings": [
+    {
+     "level": 1,
+     "text": "Diablo 3.5m Outdoor Kitchen Pod"
+    },
+    {
+     "level": 4,
+     "text": "Description"
+    }
+   ]
+  },
+  "konoba-com-au": {
+   "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+   "fixture": "on-page-parsing-konoba-com-au.json",
+   "status_code": 200,
+   "page_type": "collection/category",
+   "main_topic_word_count": 16,
+   "headings": [
+    {
+     "level": 1,
+     "text": "KONOBA BBQ PODS AUSTRALIA"
+    }
+   ]
+  },
+  "elitepods-com-au": {
+   "url": "https://elitepods.com.au/",
+   "fixture": "on-page-parsing-elitepods-com-au.json",
+   "status_code": 200,
+   "page_type": "homepage",
+   "main_topic_word_count": 497,
+   "headings": [
+    {
+     "level": 2,
+     "text": "MADE FOR MOMENTS"
+    },
+    {
+     "level": 3,
+     "text": "Aesthetic Appeal"
+    },
+    {
+     "level": 3,
+     "text": "CONVENIENCE"
+    },
+    {
+     "level": 3,
+     "text": "Social Connection"
+    },
+    {
+     "level": 3,
+     "text": "Custom-Made"
+    },
+    {
+     "level": 3,
+     "text": "All-Season Enjoyment"
+    },
+    {
+     "level": 3,
+     "text": "INCLUSIONS"
+    },
+    {
+     "level": 3,
+     "text": "INCLUSIONS"
+    },
+    {
+     "level": 3,
+     "text": "INCLUSIONS"
+    },
+    {
+     "level": 3,
+     "text": "INCLUSIONS"
+    },
+    {
+     "level": 3,
+     "text": "INCLUSIONS"
+    },
+    {
+     "level": 2,
+     "text": "CUSTOMIZATION OPTIONS"
+    },
+    {
+     "level": 2,
+     "text": "Need your space transformed? We don\u2019t just build, we take care of everything."
+    },
+    {
+     "level": 2,
+     "text": "OUR SIMPLE PROCESS"
+    },
+    {
+     "level": 3,
+     "text": "Book Your\nSite Visit"
+    },
+    {
+     "level": 3,
+     "text": "Design & Select Your Pod"
+    },
+    {
+     "level": 3,
+     "text": "Site\nAnalysis"
+    },
+    {
+     "level": 3,
+     "text": "Place Your\nOrder"
+    },
+    {
+     "level": 3,
+     "text": "Delivery & Installation"
+    }
+   ]
+  }
+ },
+ "client_page": {
+  "url": "https://skyflex.au/product/skyflex-bbq-pods/",
+  "http_status": 200,
+  "title_tag": "Delta Motorised | Skyflex",
+  "meta_description": "At SkyFlex, we supply a fantastic range of delta motorised louvred pergolas. Follow this link to learn more or contact us directly to learn more!",
+  "on_page_defect": "CRITICAL: the title tag reads 'Delta Motorised | Skyflex' and the meta description is about louvred pergolas \u2014 both are copy-paste leftovers from another product and do not mention BBQ pods at all.",
+  "h1": [
+   "SKYFLEX BBQ PODS"
+  ],
+  "h2": [
+   "Reviews",
+   "RELATED PRODUCTS",
+   "DELTA ROLLER POOL & SPA COVER"
+  ],
+  "h3": [
+   "*Size",
+   "Extra Options",
+   "UP TO 8X CHEAPER",
+   "WHAT OUR CLIENTS SAY ABOUT US",
+   "TALK TO OUR AUSTRALIAN TEAM"
+  ],
+  "price": "$13,500.00",
+  "sku": "SKF22",
+  "variations": [
+   "2200w x 2300h x 770w",
+   "2850w x 2300h x 770w"
+  ],
+  "short_description": "IMPORTANT INFORMATION Custom Order Product \u2013 Not available for direct online purchase Consultation Required \u2013 Speak with our team for pricing, delivery, and customisation",
+  "body_copy": "NONE \u2014 no description tab, no attribute table (tabs: [], attribute_table: []). The only body text is the 'IMPORTANT INFORMATION' block.",
+  "review_count": 0,
+  "rating_text": "(0) + Leave A Review",
+  "add_to_cart_present": true,
+  "positioning_note": "The live page states 'Custom Order Product - Not available for direct online purchase. Consultation Required - Speak with our team for pricing, delivery, and customisation.' This CONTRADICTS the brief's premise that Skyflex sells a DIY, add-to-cart product. It is a consultation-led custom order at $13,500 \u2014 which actually aligns it with the market (elitepods.com.au also markets 'Custom-Made').",
+  "source": "playwright-product-skyflex-bbq-pods.json"
+ },
+ "content_gaps": [
+  "Title tag and meta description are wrong (about louvred pergolas) \u2014 highest-priority fix.",
+  "Page has zero body copy. Competitors carry 158-551 words in their main topic; Skyflex has none.",
+  "No spec/attribute table despite two size variations (2200w x 2300h x 770w, 2850w x 2300h x 770w) and a $13,500 price.",
+  "Zero reviews on-page; three local-pack competitors carry review quotes.",
+  "AI Overview cites competitor pricing and model names; Skyflex is absent from its 8 references."
+ ],
+ "fixtures_used": [
+  "ai-overview-bbq-pods-melbourne.json",
+  "ai-overview-chatgpt-bbq-pods-melbourne.json",
+  "brave-local-bbq-pods-melbourne.json",
+  "keyword-overview-bbq-pods-melbourne.json",
+  "keyword-suggestions-bbq-pods-melbourne.json",
+  "keyword-suggestions-bbq-pods.json",
+  "on-page-parsing-elitepods-com-au.json",
+  "on-page-parsing-expressportables-com-au.json",
+  "on-page-parsing-konoba-com-au.json",
+  "on-page-parsing-outdoorlivinghq-com-au.json",
+  "on-page-parsing-www-futureshade-com-au.json",
+  "playwright-product-skyflex-bbq-pods.json",
+  "related-keywords-bbq-pods-melbourne.json",
+  "related-keywords-bbq-pods.json",
+  "search-intent-bbq-pods-melbourne.json",
+  "serp-organic-bbq-pods-melbourne.json",
+  "serp-organic-bbq-pods.json"
+ ]
+}
