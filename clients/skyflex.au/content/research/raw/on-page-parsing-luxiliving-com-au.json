@@ -1,0 +1,2550 @@
+{
+    "version": "0.1.20260713",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "15.9240 sec.",
+    "cost": 0.0015,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07140916-1150-0495-0000-75cc29fef432",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "15.7093 sec.",
+            "cost": 0.0015,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "on_page",
+                "content_parsing",
+                "live"
+            ],
+            "data": {
+                "api": "on_page",
+                "function": "content_parsing",
+                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings",
+                "enable_javascript": true
+            },
+            "result": [
+                {
+                    "crawl_progress": "finished",
+                    "crawl_status": null,
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "content_parsing_element",
+                            "fetch_time": "2026-07-14 03:16:51 +00:00",
+                            "status_code": 200,
+                            "page_content": {
+                                "header": {
+                                    "primary_content": [
+                                        {
+                                            "text": "Your cart is currently empty.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Lounge Furniture",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Dining Furniture",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Bar Furniture",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Custom Outdoor Shades",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Indoor Living",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "icon-chevron Kitchen & Dining Furniture",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Retractable Awnings",
+                                            "url": null,
+                                            "urls": null
+                                        }
+                                    ],
+                                    "secondary_content": [
+                                        {
+                                            "text": "Our Birthday Sale | Up to 25% Off",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/sales-deals",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/sales-deals",
+                                                    "anchor_text": "Our Birthday Sale | Up to 25% Off"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Teak Lounges",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-sofa",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-sofa",
+                                                    "anchor_text": "Teak Lounges"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Lounges",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-lounges",
+                                                    "anchor_text": "Aluminium Lounges"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Rattan Lounges",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/rattan-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/rattan-lounges",
+                                                    "anchor_text": "Rattan Lounges"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Rope Lounges",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/rope-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/rope-lounges",
+                                                    "anchor_text": "Rope Lounges"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Garden Benches",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/garden-bench",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/garden-bench",
+                                                    "anchor_text": "Garden Benches"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Tub Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/tub-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/tub-chair",
+                                                    "anchor_text": "Tub Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Relaxing Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-relaxing-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-relaxing-chairs",
+                                                    "anchor_text": "Outdoor Relaxing Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Coffee Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-coffee-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-coffee-tables",
+                                                    "anchor_text": "Coffee Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                                    "anchor_text": "Dining Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs",
+                                                    "anchor_text": "Dining Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets-1",
+                                                    "anchor_text": "Dining Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                                    "anchor_text": "Bar Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                                    "anchor_text": "Bar Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                                    "anchor_text": "Bar Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-chairs",
+                                                    "anchor_text": "Counter Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                                    "anchor_text": "Counter Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                                    "anchor_text": "Counter Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Braziers",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-braziers",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-braziers",
+                                                    "anchor_text": "Outdoor Braziers"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Electric Outdoor Heaters",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/electric-outdoor-heaters",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/electric-outdoor-heaters",
+                                                    "anchor_text": "Electric Outdoor Heaters"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Throw blankets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-throw-blanket",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-throw-blanket",
+                                                    "anchor_text": "Outdoor Throw blankets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bench Cushion",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/seat-cushion",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/seat-cushion",
+                                                    "anchor_text": "Bench Cushion"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Wren Aluminium Outdoor Coffee Table (100 x 60 cm)",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/wren-aluminium-outdoor-coffee-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/wren-aluminium-outdoor-coffee-table",
+                                                    "anchor_text": "Wren Aluminium Outdoor Coffee Table (100 x 60 cm)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Shop now →",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/wren-aluminium-outdoor-coffee-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/wren-aluminium-outdoor-coffee-table",
+                                                    "anchor_text": "Shop now →"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Louvred Pergolas",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/louvred-pergolas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/louvred-pergolas",
+                                                    "anchor_text": "Louvred Pergolas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Awning Pergolas",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/awning-pergolas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/awning-pergolas",
+                                                    "anchor_text": "Awning Pergolas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Pergola Accessories",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/pergola-accessories",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/pergola-accessories",
+                                                    "anchor_text": "Pergola Accessories"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Louvred Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                                    "anchor_text": "Custom Louvred Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Side Awnings",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/side-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/side-awnings",
+                                                    "anchor_text": "Side Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Awnings",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings",
+                                                    "anchor_text": "Retractable Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Window \/ Door Awnings",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/window-door-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/window-door-awning",
+                                                    "anchor_text": "Window \/ Door Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Drop Arm Awnings",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/drop-arm-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/drop-arm-awnings",
+                                                    "anchor_text": "Drop Arm Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Single Carports",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/single-carports",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/single-carports",
+                                                    "anchor_text": "Single Carports"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Double Carports",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/double-carports",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/double-carports",
+                                                    "anchor_text": "Double Carports"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Wall Mounted Patio Cover",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                                    "anchor_text": "Wall Mounted Patio Cover"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Cantilever Patio Cover",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/cantilever-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/cantilever-patio-cover",
+                                                    "anchor_text": "Cantilever Patio Cover"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Cantilever Umbrellas",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/cantilever-umbrellas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/cantilever-umbrellas",
+                                                    "anchor_text": "Cantilever Umbrellas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Centrepost Umbrellas",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/centrepost-umbrellas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/centrepost-umbrellas",
+                                                    "anchor_text": "Centrepost Umbrellas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Umbrella Bases",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/umbrella-base",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/umbrella-base",
+                                                    "anchor_text": "Umbrella Bases"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Cantilever Umbrellas",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-cantilever-umbrella",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-cantilever-umbrella",
+                                                    "anchor_text": "Custom Cantilever Umbrellas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Olympus Glasshouse",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse-1",
+                                                    "anchor_text": "Olympus Glasshouse"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Olympus Motorised Roof Shade",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/olympus-motorised-roof-shade",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/olympus-motorised-roof-shade",
+                                                    "anchor_text": "Olympus Motorised Roof Shade"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Louvred Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                                    "anchor_text": "Custom Louvred Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Retractable Louvred Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/custom-maditerranean-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/custom-maditerranean-pergola",
+                                                    "anchor_text": "Custom Retractable Louvred Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Patio Cover",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-patio-cover",
+                                                    "anchor_text": "Custom Patio Cover"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Carport",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-carport",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-carport",
+                                                    "anchor_text": "Custom Carport"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Outdoor Blind",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/custom-outdoor-blind",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/custom-outdoor-blind",
+                                                    "anchor_text": "Custom Outdoor Blind"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Fixed Awning",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-fixed-awning-canopy-for-door-window-patio-deck",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-fixed-awning-canopy-for-door-window-patio-deck",
+                                                    "anchor_text": "Custom Fixed Awning"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Retractable Awning",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-retractable-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-retractable-awning",
+                                                    "anchor_text": "Custom Retractable Awning"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Olympus Motorised Roof Shade",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-olympus-motorised-roof-shade?_pos=3&_psq=olympu&_ss=e&_v=1.0",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-olympus-motorised-roof-shade?_pos=3&_psq=olympu&_ss=e&_v=1.0",
+                                                    "anchor_text": "Custom Olympus Motorised Roof Shade"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Awning Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                                    "anchor_text": "Custom Awning Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Drop-Arm Window Awning",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-solaris-motorised-retractable-drop-arm-window-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-solaris-motorised-retractable-drop-arm-window-awning",
+                                                    "anchor_text": "Custom Drop-Arm Window Awning"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Dover Motorised Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                                    "anchor_text": "Custom Dover Motorised Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Baltic Manual Freestanding Louvre Roof Aluminium Pergola",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/baltic-freestanding-louvre-roof-aluminium-pergola-kit",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/baltic-freestanding-louvre-roof-aluminium-pergola-kit",
+                                                    "anchor_text": "Baltic Manual Freestanding Louvre Roof Aluminium Pergola"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Shop now →",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/baltic-freestanding-louvre-roof-aluminium-pergola-kit",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/baltic-freestanding-louvre-roof-aluminium-pergola-kit",
+                                                    "anchor_text": "Shop now →"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Garden Beds",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/garden-bed",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/garden-bed",
+                                                    "anchor_text": "Garden Beds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Festoon Lights",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/festoon-lights",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/festoon-lights",
+                                                    "anchor_text": "Festoon Lights"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Showers",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-shower",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-shower",
+                                                    "anchor_text": "Outdoor Showers"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Spa Pool Cover Lifter",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/spa-cover-lifter",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/spa-cover-lifter",
+                                                    "anchor_text": "Spa Pool Cover Lifter"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Artificial Green Wall",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/artificial-green-wall",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/artificial-green-wall",
+                                                    "anchor_text": "Artificial Green Wall"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Fences",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence",
+                                                    "anchor_text": "Aluminium Fences"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Gates",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-gate",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-gate",
+                                                    "anchor_text": "Aluminium Gates"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Posts & Accessories",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-accessories",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-accessories",
+                                                    "anchor_text": "Aluminium Posts & Accessories"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Kamado Grills",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/kamado-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/kamado-grills",
+                                                    "anchor_text": "Kamado Grills"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Hibachi Grills",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/hibachi-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/hibachi-grills",
+                                                    "anchor_text": "Hibachi Grills"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "BBQ Smoker",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/smoker",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/smoker",
+                                                    "anchor_text": "BBQ Smoker"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Gas Grills",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-gas-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-gas-grills",
+                                                    "anchor_text": "Gas Grills"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Phoenix 25-S Outdoor Kitchen Island",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/outdoor-kitchen",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/outdoor-kitchen",
+                                                    "anchor_text": "Phoenix 25-S Outdoor Kitchen Island"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Shop now →",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/outdoor-kitchen",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/outdoor-kitchen",
+                                                    "anchor_text": "Shop now →"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Chicken Runs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/chicken-runs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/chicken-runs",
+                                                    "anchor_text": "Chicken Runs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dog Runs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dog-runs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dog-runs",
+                                                    "anchor_text": "Dog Runs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                                    "anchor_text": "Dining Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Chairs & Benches",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs-benches",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs-benches",
+                                                    "anchor_text": "Dining Chairs & Benches"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets",
+                                                    "anchor_text": "Dining Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                                    "anchor_text": "Bar Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Chairs",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                                    "anchor_text": "Bar Chairs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                                    "anchor_text": "Bar Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Tables",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                                    "anchor_text": "Counter Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Sets",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                                    "anchor_text": "Counter Sets"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Hanging Wicker Swing Chair",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/hanging-wicker-swing-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/hanging-wicker-swing-chair",
+                                                    "anchor_text": "Hanging Wicker Swing Chair"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Shop now →",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/hanging-wicker-swing-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/hanging-wicker-swing-chair",
+                                                    "anchor_text": "Shop now →"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Living",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-lounge-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-lounge-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Teak Lounges icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-sofa",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-sofa",
+                                                    "anchor_text": "Teak Lounges\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Lounges icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-lounges",
+                                                    "anchor_text": "Aluminium Lounges\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Rattan Lounges icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/rattan-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/rattan-lounges",
+                                                    "anchor_text": "Rattan Lounges\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Rope Lounges icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/rope-lounges",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/rope-lounges",
+                                                    "anchor_text": "Rope Lounges\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Loungers icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/loungers",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/loungers",
+                                                    "anchor_text": "Loungers\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Garden Benches icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/garden-bench",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/garden-bench",
+                                                    "anchor_text": "Garden Benches\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Tub Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/tub-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/tub-chair",
+                                                    "anchor_text": "Tub Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Relaxing Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-relaxing-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-relaxing-chairs",
+                                                    "anchor_text": "Outdoor Relaxing Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Coffee Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-coffee-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-coffee-tables",
+                                                    "anchor_text": "Coffee Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                                    "anchor_text": "Dining Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs",
+                                                    "anchor_text": "Dining Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets-1",
+                                                    "anchor_text": "Dining Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Benches icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-benches",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-benches",
+                                                    "anchor_text": "Benches\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Stools icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-stool",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-stool",
+                                                    "anchor_text": "Stools\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bar-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bar-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                                    "anchor_text": "Bar Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                                    "anchor_text": "Bar Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                                    "anchor_text": "Bar Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-chairs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-chairs",
+                                                    "anchor_text": "Counter Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                                    "anchor_text": "Counter Tables\nicon-chevron"
+                                                },
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                                    "anchor_text": "Counter Tables"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                                    "anchor_text": "Counter Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Heating",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-heating",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-heating",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Braziers icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-braziers",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-braziers",
+                                                    "anchor_text": "Outdoor Braziers\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Electric Outdoor Heaters icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/electric-outdoor-heaters",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/electric-outdoor-heaters",
+                                                    "anchor_text": "Electric Outdoor Heaters\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Seating Accessories",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/seating-accessories",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/seating-accessories",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Throw blankets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-throw-blanket",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-throw-blanket",
+                                                    "anchor_text": "Outdoor Throw blankets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bench Cushion icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/seat-cushion",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/seat-cushion",
+                                                    "anchor_text": "Bench Cushion\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor TV icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-tv",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-tv",
+                                                    "anchor_text": "Outdoor TV\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Pergolas & Shade",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/pergolas-shade",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/pergolas-shade",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Aluminium Pergolas",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-pergolas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-pergolas",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Louvred Pergolas icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/louvred-pergolas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/louvred-pergolas",
+                                                    "anchor_text": "Louvred Pergolas\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Awning Pergolas icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/awning-pergolas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/awning-pergolas",
+                                                    "anchor_text": "Awning Pergolas\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Pergola Accessories icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/pergola-accessories",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/pergola-accessories",
+                                                    "anchor_text": "Pergola Accessories\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Louvred Pergola icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                                    "anchor_text": "Custom Louvred Pergola\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Blinds icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-track-screen-blinds",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-track-screen-blinds",
+                                                    "anchor_text": "Outdoor Blinds\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Awnings",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/awnings",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Side Awnings icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/side-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/side-awnings",
+                                                    "anchor_text": "Side Awnings\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Awnings icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings",
+                                                    "anchor_text": "Retractable Awnings\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Window \/ Door Awnings icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/window-door-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/window-door-awning",
+                                                    "anchor_text": "Window \/ Door Awnings\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Drop Arm Awnings icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/drop-arm-awnings",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/drop-arm-awnings",
+                                                    "anchor_text": "Drop Arm Awnings\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Carports",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/carport-kits",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/carport-kits",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Single Carports icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/single-carports",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/single-carports",
+                                                    "anchor_text": "Single Carports\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Double Carports icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/double-carports",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/double-carports",
+                                                    "anchor_text": "Double Carports\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Patio Covers",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Wall Mounted Patio Cover icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/wall-mounted-patio-cover",
+                                                    "anchor_text": "Wall Mounted Patio Cover\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Cantilever Patio Cover icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/cantilever-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/cantilever-patio-cover",
+                                                    "anchor_text": "Cantilever Patio Cover\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Umbrellas",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/umbrellas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/umbrellas",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Cantilever Umbrellas icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/cantilever-umbrellas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/cantilever-umbrellas",
+                                                    "anchor_text": "Cantilever Umbrellas\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Centrepost Umbrellas icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/centrepost-umbrellas",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/centrepost-umbrellas",
+                                                    "anchor_text": "Centrepost Umbrellas\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Umbrella Bases icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/umbrella-base",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/umbrella-base",
+                                                    "anchor_text": "Umbrella Bases\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Cantilever Umbrellas icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-cantilever-umbrella",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-cantilever-umbrella",
+                                                    "anchor_text": "Custom Cantilever Umbrellas\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Glasshouse",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Olympus Glasshouse icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/olympus-glasshouse-1",
+                                                    "anchor_text": "Olympus Glasshouse\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Olympus Motorised Roof Shade icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/olympus-motorised-roof-shade",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/olympus-motorised-roof-shade",
+                                                    "anchor_text": "Olympus Motorised Roof Shade\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/custom-shade-structures-awnings-and-screens",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/custom-shade-structures-awnings-and-screens",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Louvred Pergola icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-louvred-pergola",
+                                                    "anchor_text": "Custom Louvred Pergola\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Retractable Louvred Pergola icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/custom-maditerranean-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/custom-maditerranean-pergola",
+                                                    "anchor_text": "Custom Retractable Louvred Pergola\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Patio Cover icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-patio-cover",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-patio-cover",
+                                                    "anchor_text": "Custom Patio Cover\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Carport icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-carport",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-carport",
+                                                    "anchor_text": "Custom Carport\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Outdoor Blind icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/custom-outdoor-blind",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/custom-outdoor-blind",
+                                                    "anchor_text": "Custom Outdoor Blind\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Fixed Awning icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-fixed-awning-canopy-for-door-window-patio-deck",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-fixed-awning-canopy-for-door-window-patio-deck",
+                                                    "anchor_text": "Custom Fixed Awning\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Retractable Awning icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-retractable-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-retractable-awning",
+                                                    "anchor_text": "Custom Retractable Awning\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Olympus Motorised Roof Shade icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-olympus-motorised-roof-shade?_pos=3&_psq=olympu&_ss=e&_v=1.0",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-olympus-motorised-roof-shade?_pos=3&_psq=olympu&_ss=e&_v=1.0",
+                                                    "anchor_text": "Custom Olympus Motorised Roof Shade\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Awning Pergola icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                                    "anchor_text": "Custom Awning Pergola\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Drop-Arm Window Awning icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-solaris-motorised-retractable-drop-arm-window-awning",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-solaris-motorised-retractable-drop-arm-window-awning",
+                                                    "anchor_text": "Custom Drop-Arm Window Awning\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Custom Dover Motorised Pergola icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/products\/custom-dover-motorised-pvc-pergola",
+                                                    "anchor_text": "Custom Dover Motorised Pergola\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Garden",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/garden",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/garden",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Garden Beds icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/garden-bed",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/garden-bed",
+                                                    "anchor_text": "Garden Beds\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Swings icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/swing",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/swing",
+                                                    "anchor_text": "Swings\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Festoon Lights icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/festoon-lights",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/festoon-lights",
+                                                    "anchor_text": "Festoon Lights\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Showers icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-shower",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-shower",
+                                                    "anchor_text": "Outdoor Showers\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Fountain icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/fountain",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/fountain",
+                                                    "anchor_text": "Fountain\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Spa Pool Cover Lifter icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/spa-cover-lifter",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/spa-cover-lifter",
+                                                    "anchor_text": "Spa Pool Cover Lifter\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Artificial Green Wall icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/artificial-green-wall",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/artificial-green-wall",
+                                                    "anchor_text": "Artificial Green Wall\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Fencing",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-gate",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-gate",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Fences icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence",
+                                                    "anchor_text": "Aluminium Fences\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Gates icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-gate",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-gate",
+                                                    "anchor_text": "Aluminium Gates\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Aluminium Posts & Accessories icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-accessories",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/aluminium-fence-accessories",
+                                                    "anchor_text": "Aluminium Posts & Accessories\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor Cooking",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-kitchen",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-kitchen",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Kitchen icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-kitchen-cabinet",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-kitchen-cabinet",
+                                                    "anchor_text": "Outdoor Kitchen icon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Outdoor BBQS",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bbq",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bbq",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Kamado Grills icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/kamado-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/kamado-grills",
+                                                    "anchor_text": "Kamado Grills\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Hibachi Grills icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/hibachi-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/hibachi-grills",
+                                                    "anchor_text": "Hibachi Grills\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "BBQ Smoker icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/smoker",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/smoker",
+                                                    "anchor_text": "BBQ Smoker\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Gas Grills icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-gas-grills",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-gas-grills",
+                                                    "anchor_text": "Gas Grills\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Bar Fridge icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bar-fridge",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-bar-fridge",
+                                                    "anchor_text": "Outdoor Bar Fridge\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "icon-chevron Pets & Farm",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/pets-farm",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/pets-farm",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Chicken Runs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/chicken-runs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/chicken-runs",
+                                                    "anchor_text": "Chicken Runs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dog Runs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dog-runs",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dog-runs",
+                                                    "anchor_text": "Dog Runs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/indoor-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/indoor-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Living Room Furniture icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/living-room-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/living-room-furniture",
+                                                    "anchor_text": "Living Room Furniture\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View all icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/kitchen-dining-furniture",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/kitchen-dining-furniture",
+                                                    "anchor_text": "View all\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/outdoor-dining-tables",
+                                                    "anchor_text": "Dining Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Chairs & Benches icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs-benches",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-chairs-benches",
+                                                    "anchor_text": "Dining Chairs & Benches\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Dining Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/dining-sets",
+                                                    "anchor_text": "Dining Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-bar-tables",
+                                                    "anchor_text": "Bar Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Chairs icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-chair",
+                                                    "anchor_text": "Bar Chairs\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Bar Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/bar-sets",
+                                                    "anchor_text": "Bar Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Tables icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/teak-counter-table",
+                                                    "anchor_text": "Counter Tables\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Counter Sets icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/counter-sets",
+                                                    "anchor_text": "Counter Sets\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Sales icon-chevron",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/sales-deals",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/sales-deals",
+                                                    "anchor_text": "Sales\nicon-chevron"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Pergolas & Shade",
+                                            "url": "https:\/\/luxiliving.com.au\/collections\/pergolas-shade",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/collections\/pergolas-shade",
+                                                    "anchor_text": "Pergolas & Shade"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "table_content": null
+                                },
+                                "footer": {
+                                    "primary_content": [
+                                        {
+                                            "text": "Retractable Awnings for Decks | Starting at $769",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Product looks good and is made with durabl...",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "City Window \/ Door Awn...",
+                                            "url": null,
+                                            "urls": null
+                                        }
+                                    ],
+                                    "secondary_content": [
+                                        {
+                                            "text": "Subscribe now for exclusive sale alerts, early access to new products, and special offers",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Finance Options",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/finance-options-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/finance-options-1",
+                                                    "anchor_text": "Finance Options"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Delivery Information",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/delivery-information-1",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/delivery-information-1",
+                                                    "anchor_text": "Delivery Information"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Track My Order",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/order-lookup",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/order-lookup",
+                                                    "anchor_text": "Track My Order"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Click & Collect",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/click-collect",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/click-collect",
+                                                    "anchor_text": "Click & Collect"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Warranty Information",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/warranty-information",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/warranty-information",
+                                                    "anchor_text": "Warranty Information"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Return & Refund Policy",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/return-refund-policy",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/return-refund-policy",
+                                                    "anchor_text": "Return & Refund Policy"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Terms of Service",
+                                            "url": "https:\/\/luxiliving.com.au\/policies\/terms-of-service",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/policies\/terms-of-service",
+                                                    "anchor_text": "Terms of Service"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Promotion Terms",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/terms-conditions-promotion",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/terms-conditions-promotion",
+                                                    "anchor_text": "Promotion Terms"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Privacy Policy",
+                                            "url": "https:\/\/luxiliving.com.au\/policies\/privacy-policy",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/policies\/privacy-policy",
+                                                    "anchor_text": "Privacy Policy"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "About Us",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/our-story",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/our-story",
+                                                    "anchor_text": "About Us"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Trade Program",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/trade-program",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/trade-program",
+                                                    "anchor_text": "Trade Program"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Our Materials",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/our-materials",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/our-materials",
+                                                    "anchor_text": "Our Materials"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Care & Maintenance",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/care-maintenance-guide",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/care-maintenance-guide",
+                                                    "anchor_text": "Care & Maintenance"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Visit Our Showrooms",
+                                            "url": "https:\/\/luxiliving.com.au\/pages\/visit-our-showroom",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/luxiliving.com.au\/pages\/visit-our-showroom",
+                                                    "anchor_text": "Visit Our Showrooms"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Follow us",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "instagram Instagram",
+                                            "url": "https:\/\/www.instagram.com\/luxilivingau\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/www.instagram.com\/luxilivingau\/",
+                                                    "anchor_text": "instagram\nInstagram"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "We accept",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "American Express",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Apple Pay",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Google Pay",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Shop Pay",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Union Pay",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "© 2026 Luxi Living",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Kamil S.",
+                                            "url": null,
+                                            "urls": null
+                                        }
+                                    ],
+                                    "table_content": null
+                                },
+                                "main_topic": [
+                                    {
+                                        "h_title": "Retractable Awnings",
+                                        "main_title": "Retractable Awnings",
+                                        "author": null,
+                                        "language": "en",
+                                        "level": 1,
+                                        "primary_content": [
+                                            {
+                                                "text": "Price, low to high",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Price, high to low",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Date, old to new",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Date, new to old",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Retractable Awning (5)",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "16 products",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Most relevant",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Best selling",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Alphabetically, A-Z",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Alphabetically, Z-A",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Accessories (11)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "In stock (16)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Out of stock (0)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "16 products",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Most relevant",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Best selling",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Alphabetically, A-Z",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Alphabetically, Z-A",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Accessories (11)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "In stock (16)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Out of stock (0)",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Fuji Manual Retractable Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/fuji-manual-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/fuji-manual-retractable-awning",
+                                                        "anchor_text": "Fuji Manual Retractable Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Etna Half Cassette Motorised Retractable Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/etna-half-cassette-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/etna-half-cassette-retractable-awning",
+                                                        "anchor_text": "Etna Half Cassette Motorised Retractable Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Rainier Full Cassette Motorised Retractable Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/rainier-full-cassette-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/rainier-full-cassette-retractable-awning",
+                                                        "anchor_text": "Rainier Full Cassette Motorised Retractable Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Rainier Pro Full Cassette Motorised Retractable Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/rainier-pro-full-cassette-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/rainier-pro-full-cassette-retractable-awning",
+                                                        "anchor_text": "Rainier Pro Full Cassette Motorised Retractable Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Wireless Wind-Light Sensor For Etna & Rainier Awnings",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/wireless-wind-light-sensor-for-etna-rainier-awnings",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/wireless-wind-light-sensor-for-etna-rainier-awnings",
+                                                        "anchor_text": "Wireless Wind-Light Sensor For Etna & Rainier Awnings"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Application Gateway For Etna & Rainier& Solaris Solar Awnings",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/application-gateway-for-etna-rainier-solaris-solar-awnings",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/application-gateway-for-etna-rainier-solaris-solar-awnings",
+                                                        "anchor_text": "Application Gateway For Etna & Rainier& Solaris Solar Awnings"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Custom Retractable Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/custom-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/custom-retractable-awning",
+                                                        "anchor_text": "Custom Retractable Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Rainier Multi-Channel Wall Controller",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/multi-channel-remote-control-for-rainier-retractable-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/multi-channel-remote-control-for-rainier-retractable-awning",
+                                                        "anchor_text": "Rainier Multi-Channel Wall Controller"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Solaris Multi-Channel Awning Remote",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/multi-channel-remote-for-solaris-window-awnings",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/multi-channel-remote-for-solaris-window-awnings",
+                                                        "anchor_text": "Solaris Multi-Channel Awning Remote"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Awning Plate For Rainier Full Cassette Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-bracket-for-rainier-full-cassette-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-bracket-for-rainier-full-cassette-awning",
+                                                        "anchor_text": "Awning Plate For Rainier Full Cassette Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Awning Plate For Etna Half Cassette Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-bracket-for-etna-half-cassette-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-bracket-for-etna-half-cassette-awning",
+                                                        "anchor_text": "Awning Plate For Etna Half Cassette Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Awning Plate For Etna Half Cassette Awning - 2pcs",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-plate-for-etna-half-cassette-awning-2pcs",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-plate-for-etna-half-cassette-awning-2pcs",
+                                                        "anchor_text": "Awning Plate For Etna Half Cassette Awning - 2pcs"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Awning Plate For Rainier Full Cassette Awning - 2pcs",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-plate-for-rainier-full-cassette-awning-2pcs",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/awning-plate-for-rainier-full-cassette-awning-2pcs",
+                                                        "anchor_text": "Awning Plate For Rainier Full Cassette Awning - 2pcs"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Ceiling Mount Bracket for Rainier Full Awnings",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-full-cassette-awning",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-full-cassette-awning",
+                                                        "anchor_text": "Ceiling Mount Bracket for Rainier Full Awnings"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Ceiling Mount Bracket for Fuji & Etna Awnings",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-full-cassette-awning-copy",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-full-cassette-awning-copy",
+                                                        "anchor_text": "Ceiling Mount Bracket for Fuji & Etna Awnings"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Rafter Mount Bracket for Rainier Full Cassette Awning",
+                                                "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-awnings-copy",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/luxiliving.com.au\/collections\/retractable-awnings\/products\/ceiling-mount-bracket-for-rainier-awnings-copy",
+                                                        "anchor_text": "Rafter Mount Bracket for Rainier Full Cassette Awning"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "text": "Recently viewed",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    }
+                                ],
+                                "secondary_topic": null,
+                                "ratings": null,
+                                "offers": null,
+                                "comments": null,
+                                "contacts": {
+                                    "telephones": [
+                                        "1800 418 419"
+                                    ],
+                                    "emails": null
+                                }
+                            },
+                            "page_as_markdown": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

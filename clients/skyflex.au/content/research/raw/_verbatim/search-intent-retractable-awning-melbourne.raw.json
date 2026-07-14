@@ -1,0 +1,51 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1723 sec.",
+  "cost": 0.001212,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140805-1150-0541-0000-93e8b6111581",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1044 sec.",
+      "cost": 0.001212,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "search_intent",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "search_intent",
+        "se_type": "google",
+        "keywords": [
+          "retractable awning melbourne"
+        ],
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "language_code": "en",
+          "items_count": 1,
+          "items": [
+            {
+              "keyword": "retractable awning melbourne",
+              "keyword_intent": {
+                "label": "navigational",
+                "probability": 0.5969
+              },
+              "secondary_keyword_intents": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

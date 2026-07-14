@@ -1,0 +1,2008 @@
+{
+    "version": "0.1.20260713",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "11.5202 sec.",
+    "cost": 0.0015,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07140916-1150-0495-0000-9e3da894900e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "11.1781 sec.",
+            "cost": 0.0015,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "on_page",
+                "content_parsing",
+                "live"
+            ],
+            "data": {
+                "api": "on_page",
+                "function": "content_parsing",
+                "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/melbourne\/",
+                "enable_javascript": true
+            },
+            "result": [
+                {
+                    "crawl_progress": "finished",
+                    "crawl_status": null,
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "content_parsing_element",
+                            "fetch_time": "2026-07-14 03:16:32 +00:00",
+                            "status_code": 200,
+                            "page_content": {
+                                "header": {
+                                    "primary_content": [
+                                        {
+                                            "text": "Office Hours: 9am – 5pm Weekdays",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Control the entry of natural light & absorb heat.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Superior sun protection: Block glare and absorb heat with precision control.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Roller Blinds screen the entry of natural light, protecting your furnishings from heat and sun radiation.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Blackout Blinds \/ Blockout Blinds are the perfect solution to completely or partially darkening a room.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Enjoy the luxury of full light, partial light or complete light block with double roller blinds.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Tailored to fit your unique architectural requirements",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Provide stylish weather protection for your customers.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Enjoy your patio in comfort, rain or shine.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Create a comfortable outdoor space for your clients.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Smart, retractable shade solutions.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Protection from heat and sun radiation.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Versatile and flexible sun control.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Maintain the perfect temperature in sunroom",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Protection & control of natural light.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Motorised awnings providing dynamic sun control at the touch of a button.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Indoor and outdoor blinds providing dynamic light control.",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Custom built to order",
+                                            "url": null,
+                                            "urls": null
+                                        }
+                                    ],
+                                    "secondary_content": [
+                                        {
+                                            "text": "External Translucent & Blockout",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/external-translucent-blockout\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/external-translucent-blockout\/",
+                                                    "anchor_text": "External Translucent & Blockout"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Internal Sunscreen",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-sunscreen\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-sunscreen\/",
+                                                    "anchor_text": "Internal Sunscreen"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Internal Blockout",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-blockout\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-blockout\/",
+                                                    "anchor_text": "Internal Blockout"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Internal Translucent",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-translucent\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/internal-translucent\/",
+                                                    "anchor_text": "Internal Translucent"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "External Sunscreen",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/external-sunscreen\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/external-sunscreen\/",
+                                                    "anchor_text": "External Sunscreen"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Indoor CAD Drawings",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/cad-drawings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/cad-drawings\/",
+                                                    "anchor_text": "Indoor CAD Drawings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor CAD Drawings",
+                                            "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/cad-drawings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/cad-drawings\/",
+                                                    "anchor_text": "Outdoor CAD Drawings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Blackout Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/blackout-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/blackout-blinds\/",
+                                                    "anchor_text": "Blackout Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Helioshade Awnings",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/helioshade-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/helioshade-awnings\/",
+                                                    "anchor_text": "Helioshade Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/outdoor-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/outdoor-blinds\/",
+                                                    "anchor_text": "Outdoor Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Pergola Systems",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/pergola-systems\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/pergola-systems\/",
+                                                    "anchor_text": "Pergola Systems"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Roof",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/retractable-roof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/retractable-roof\/",
+                                                    "anchor_text": "Retractable Roof"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Roller Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/roller-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/roller-blinds\/",
+                                                    "anchor_text": "Roller Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Sunroof System",
+                                            "url": "https:\/\/helioscreen.com.au\/gallery\/sunroof-system\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/gallery\/sunroof-system\/",
+                                                    "anchor_text": "Sunroof System"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Home Automation",
+                                            "url": "https:\/\/helioscreen.com.au\/accessories\/home-automation\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/accessories\/home-automation\/",
+                                                    "anchor_text": "Home Automation"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Motors \/ Remotes",
+                                            "url": "https:\/\/helioscreen.com.au\/accessories\/motors-remotes\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/accessories\/motors-remotes\/",
+                                                    "anchor_text": "Motors \/ Remotes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Somfy Remotes",
+                                            "url": "https:\/\/helioscreen.com.au\/accessories\/somfy-remotes\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/accessories\/somfy-remotes\/",
+                                                    "anchor_text": "Somfy Remotes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Wind and Sun Sensors",
+                                            "url": "https:\/\/helioscreen.com.au\/accessories\/wind-and-sun-sensors\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/accessories\/wind-and-sun-sensors\/",
+                                                    "anchor_text": "Wind and Sun Sensors"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/awnings\/straight-drop-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awnings\/straight-drop-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/double-roller-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/double-roller-blinds\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/awnings\/custom-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awnings\/custom-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/awnings\/shop-front-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awnings\/shop-front-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/awnings\/patio-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awnings\/patio-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/commercial\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/commercial\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/awnings\/conservatory-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awnings\/conservatory-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/motorised-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/motorised-awnings\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "View Product",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                    "anchor_text": "View Product"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "European engineering",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Australian made",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Roller Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                    "anchor_text": "Roller Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Blackout Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                    "anchor_text": "Blackout Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Double Roller Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/double-roller-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/double-roller-blinds\/",
+                                                    "anchor_text": "Double Roller Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Motorised Awnings",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                    "anchor_text": "Motorised Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Motorised Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                    "anchor_text": "Motorised Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "External Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                    "anchor_text": "External Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Awnings",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                    "anchor_text": "Retractable Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Roof Systems",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                                    "anchor_text": "Retractable Roof Systems"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Sunroofs",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                                    "anchor_text": "Retractable Sunroofs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Pergolas",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                    "anchor_text": "Retractable Pergolas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Indoor Fabrics",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/indoor\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/indoor\/",
+                                                    "anchor_text": "Indoor Fabrics"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Fabrics",
+                                            "url": "https:\/\/helioscreen.com.au\/fabrics\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/fabrics\/",
+                                                    "anchor_text": "Outdoor Fabrics"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Helioscreen Australia",
+                                            "url": null,
+                                            "urls": null
+                                        }
+                                    ],
+                                    "table_content": null
+                                },
+                                "footer": {
+                                    "primary_content": null,
+                                    "secondary_content": [
+                                        {
+                                            "text": "For sales enquiries Australia wide:",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "1300 766 319",
+                                            "url": null,
+                                            "urls": null
+                                        },
+                                        {
+                                            "text": "Awning Price Estimator",
+                                            "url": "https:\/\/helioscreen.com.au\/awning-price-estimator\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/awning-price-estimator\/",
+                                                    "anchor_text": "Awning Price Estimator"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Indoor CAD Drawings",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/cad-drawings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/cad-drawings\/",
+                                                    "anchor_text": "Indoor CAD Drawings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor CAD Drawings",
+                                            "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/cad-drawings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/cad-drawings\/",
+                                                    "anchor_text": "Outdoor CAD Drawings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Blackout Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                    "anchor_text": "Blackout Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Roller Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                    "anchor_text": "Roller Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Motorised Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                    "anchor_text": "Motorised Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Outdoor Blinds",
+                                            "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                    "anchor_text": "Outdoor Blinds"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Awnings",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                    "anchor_text": "Retractable Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Motorised Awnings",
+                                            "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                    "anchor_text": "Motorised Awnings"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Pergolas",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                    "anchor_text": "Retractable Pergolas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Sunroofs",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                                    "anchor_text": "Retractable Sunroofs"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "Retractable Roof",
+                                            "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                                    "anchor_text": "Retractable Roof"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "© Helioscreen",
+                                            "url": "https:\/\/helioscreen.com.au\/",
+                                            "urls": [
+                                                {
+                                                    "url": "https:\/\/helioscreen.com.au\/",
+                                                    "anchor_text": "© Helioscreen"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "table_content": null
+                                },
+                                "main_topic": [
+                                    {
+                                        "h_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 1,
+                                        "primary_content": [
+                                            {
+                                                "text": "Engineered for Melbourne’s changing weather. Designed for beauty, comfort, and control.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "European Engineered Awnings Designed for Melbourne Living",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "Helioscreen’s European-engineered folding arm retractable awnings are the premium choice for Melbourne homes and commercial spaces. Built from high-quality aluminum with robust die-cast parts and steel-reinforced arms, Helio shade awnings set the benchmark for performance and design.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Made for Melbourne’s changing weather — from bright sun to sudden rain — each awning is crafted from construction-grade aluminum, stainless steel fittings, and weather-resistant fabric. Enjoy your outdoor spaces year-round with a custom Helio screen awning, backed by an obligation-free measure and quote anywhere in Melbourne.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Explore Our Melbourne Awnings Collection",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Need inspiration?",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Explore Our Melbourne Awnings Collection",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "All our products have been locally manufactured to thrive in Australia’s harsh and unpredictable climate",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Folding-Arm Awning Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Sleek, retractable shading for terraces and entertaining areas. Ideal for cafés and homes. Manual or motorised operation available, designed and assembled in Australia for durability and style.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Folding-Arm Awning Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                        "anchor_text": "Folding-Arm Awning Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Tailored Custom Awnings for Your Melbourne Home or Business",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "Helioscreen awnings are made-to-measure, designed to perfectly fit your space while complementing your style. Each system is locally designed and assembled in Australia, ensuring exceptional quality, durability, and attention to detail. With premium components and craftsmanship, our awnings are built to last, providing reliable sun control and enhancing the look of your home or commercial space",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Hear from Our Happy Melbourne Clients",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "I have been dealing with Helioscreen for over 15 years.\nTheir products, service and value are exceptional.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Excellent customer service and support,\nOur company has sold hundreds of internal and external Helioscreen products over the last 20 years, being standard and motorised blinds, screens, external venetians, retractable roof systems and awnings.\nWarranty issues have been minimal. and quickly dealt with.\nKeep up the good work, David, Jamie and Team.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "A HUGE thank you to everyone at Helioscreen involved in turning around my very urgent order in record time.\nThey have been installed and look fantastic and that means new tenants can move in asap and we can pay some bills!\nHelioscreen always provide incredible service and quality. Thanks so much.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "I was lucky enough to link up with Richard from Sunteca Blinds in Sydney and he was unreal to deal with ! I live in Dubbo, NSW and Richard handled all the measuring, design and colours remotely from Sydney. The product from Helioscreens was top quality and very well put together. The whole unit fitted like a glove and Richard was on call for the programming on a Saturday ! I cannot recommend them both enough, a very happy and satisfied customer for money well spent !!! Thankyou.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "We got three Helioscreen external blinds about two years ago to close in our outdoor deck and love them. They keep the area cool through summer and help keep heat in on cool winter nights. Great product that gets a fair bit of use.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "In the past year we have installed an awning and replaced most of our aging internal blinds and have used Helioscreen for everything. Really happy with the quality and they look equally great.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Helioscreen are one of our major suppliers and are incredibly friendly and professional to deal with. Their products are of fabulous quality and their systems and processes ensure every product leaves their warehouse able to withstand the toughest of Australian conditions.",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Have had external sunscreens for the past 6 months. Have to say they work really well and have openned up a whole new area of our verandah that we couldn't use in summer before. Highly recommend Helioscreens",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Classic Blinds and Shutters",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "We have used Helioscreen as one of our main suppliers for many years for internal and external blinds and folding arm awnings. Excellent, top quality products with great technical back up and a fantastic attitude to customer service. Cannot rate high enough.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Seamus OHart",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Fiona Shakespeare",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Peter Russell",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "David Kong",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Benny Olsson",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Allison Casey",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "What types of awnings are best for Melbourne homes?",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Melbourne’s weather can change quickly, so retractable or folding arm awnings are ideal. They let you enjoy open sunshine or extend full shade when needed. Helioscreen’s European-engineered systems are designed to handle both strong UV and unexpected rain, making them perfect for Melbourne’s conditions.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Helioshade Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "Please contact us for your local agent in all Melbourne & surrounding areas.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Contact our team",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    }
+                                ],
+                                "secondary_topic": [
+                                    {
+                                        "h_title": "Motorised & Automatic Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Smart shading adapts to the weather. Operate remote or integrated with sensors and smart home systems for effortless control.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Motorised & Automatic Awnings",
+                                                "url": "https:\/\/helioscreen.com.au\/motorisation\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/motorisation\/",
+                                                        "anchor_text": "Motorised & Automatic Awnings"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Cocoon Cassette Awning",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Sleek and fully enclosed, ideal for upper- storey windows and balconies, offering protection, durability, and a clean façade look.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Cocoon Cassette Awning",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/cocoon-cassette-awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/cocoon-cassette-awnings\/",
+                                                        "anchor_text": "Cocoon Cassette Awning"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Cassette Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Compact and stylish, perfect for patios and windows, protecting fabric and mechanisms while keeping a neat, modern look.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Cassette Awnings",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/cassette-awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/cassette-awnings\/",
+                                                        "anchor_text": "Cassette Awnings"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Self-supporting Sunroofs",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Self-supporting Sunroofs",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                        "anchor_text": "Self-supporting Sunroofs"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Motorisation – Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Motorisation – Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                        "anchor_text": "Motorisation – Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Motorisation – Awning",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Motorisation – Awning",
+                                                "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                        "anchor_text": "Motorisation – Awning"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Indoor Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Indoor Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/",
+                                                        "anchor_text": "Indoor Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Roller Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Roller Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                        "anchor_text": "Roller Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Blackout Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Blackout Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                        "anchor_text": "Blackout Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Outdoor Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Outdoor Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                        "anchor_text": "Outdoor Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Venetian Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Venetian Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/venetian\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/venetian\/",
+                                                        "anchor_text": "Venetian Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Privacy Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Privacy Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/privacy-screen\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/privacy-screen\/",
+                                                        "anchor_text": "Privacy Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Awnings",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-awnings\/",
+                                                        "anchor_text": "Retractable Awnings"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Roof Systems",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Roof Systems",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-roof\/",
+                                                        "anchor_text": "Retractable Roof Systems"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Sunroofs",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Sunroofs",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-roof\/sunroof\/",
+                                                        "anchor_text": "Retractable Sunroofs"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Self-supporting Sunroofs",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Self-supporting Sunroofs",
+                                                "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/retractable-roof\/pergola\/",
+                                                        "anchor_text": "Self-supporting Sunroofs"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Motorisation – Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Motorisation – Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/motorisation\/blinds\/",
+                                                        "anchor_text": "Motorisation – Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Motorisation – Awning",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Motorisation – Awning",
+                                                "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/motorisation\/awnings\/",
+                                                        "anchor_text": "Motorisation – Awning"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Indoor Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Indoor Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/",
+                                                        "anchor_text": "Indoor Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Roller Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Roller Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/roller\/",
+                                                        "anchor_text": "Roller Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Blackout Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Blackout Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/indoor-blinds\/blackout\/",
+                                                        "anchor_text": "Blackout Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Outdoor Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Outdoor Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/",
+                                                        "anchor_text": "Outdoor Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Venetian Blinds",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": [
+                                            {
+                                                "text": "Venetian Blinds",
+                                                "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/venetian\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/outdoor-blinds\/venetian\/",
+                                                        "anchor_text": "Venetian Blinds"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Crank or Motorised Operation:",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Sun and Wind Sensor Options",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Powder Coat Colours to Suit:",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Over 100 Fabric Colours Available",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Why Choose Helioscreen With 30 Years Of Experience ?",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "High Quality Components",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "High quality parts and components from the best suppliers worldwide to exceed expectations",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Made In Australia",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "Made in Australia, proven in Australia with more than a quarter of century of feedback from Australians using our products.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Locally Made",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "Locally made premium systems with the best parts sourced worldwide.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Extensive Range",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "Extensive range of fabrics for the perfect intelligent sun control solution.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Automatic Controls",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "Automatic controls such and wind or rain sensors can be integrated for added piece of mind",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "5 Year Warranty",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 5,
+                                        "primary_content": [
+                                            {
+                                                "text": "5 Year warranty that has stood the test of time for more than 30 years in the market",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Frequently Asked Questions",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Are Helioscreen awnings made in Australia?",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "How much do retractable awnings cost in Melbourne?",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Do you install awnings across all Melbourne suburbs?",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": null,
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Frequently Asked Questions",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "This field is for validation purposes and should be left unchanged.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Contact our Team!",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Please contact us for your local agent in all States and Territories.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "\" * \" indicates required fields",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Product Case Studies",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "Get the inspiration your home or business needs!",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Residential Retractable Awning Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Residential, Retractable Awnings",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Residential Retractable Awning Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/residential-retractable-awning-melbourne\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/residential-retractable-awning-melbourne\/",
+                                                        "anchor_text": "Residential Retractable Awning Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Roof Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Commercial, Retractable Roof",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Roof Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-pergola-melbourne\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-pergola-melbourne\/",
+                                                        "anchor_text": "Retractable Roof Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Pool Awnings Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Residential, Retractable Awnings",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Pool Awnings Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/pool-awnings-melbourne\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/pool-awnings-melbourne\/",
+                                                        "anchor_text": "Pool Awnings Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Commercial retractable Roof Systems Victoria",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Commercial, Retractable Roof",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Commercial retractable Roof Systems Victoria",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/commercial-retractable-roof-systems-victoria\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/commercial-retractable-roof-systems-victoria\/",
+                                                        "anchor_text": "Commercial retractable Roof Systems Victoria"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Roof Systems, Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Commercial, Retractable Roof",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Roof Systems, Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-roof-systems-melbourne-4\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-roof-systems-melbourne-4\/",
+                                                        "anchor_text": "Retractable Roof Systems, Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Retractable Roof Systems Melbourne",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 3,
+                                        "primary_content": [
+                                            {
+                                                "text": "Awnings Melbourne, Residential, Retractable Roof",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Retractable Roof Systems Melbourne",
+                                                "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-roof-systems-melbourne\/",
+                                                "urls": [
+                                                    {
+                                                        "url": "https:\/\/helioscreen.com.au\/case-study\/retractable-roof-systems-melbourne\/",
+                                                        "anchor_text": "Retractable Roof Systems Melbourne"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Product Case Studies",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "Proudly Serving All Across Melbourne",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Address: 63\/85 Turner Street, Port Melbourne VIC 3207",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "Melbourne CBD",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "South Yarra",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Visit Our Showroom",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "Phone no : 1300 766 319",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 1,
+                                        "primary_content": [
+                                            {
+                                                "text": "\" (Required) \" indicates required fields",
+                                                "url": null,
+                                                "urls": null
+                                            },
+                                            {
+                                                "text": "This field is for validation purposes and should be left unchanged.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": null,
+                                        "table_content": null
+                                    },
+                                    {
+                                        "h_title": "Contact our team",
+                                        "main_title": "Awnings Melbourne – Premium Retractable & Outdoor Awnings",
+                                        "author": "Helioscreen",
+                                        "language": "en",
+                                        "level": 2,
+                                        "primary_content": [
+                                            {
+                                                "text": "This field is for validation purposes and should be left unchanged.",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "secondary_content": [
+                                            {
+                                                "text": "\" * \" indicates required fields",
+                                                "url": null,
+                                                "urls": null
+                                            }
+                                        ],
+                                        "table_content": null
+                                    }
+                                ],
+                                "ratings": null,
+                                "offers": null,
+                                "comments": null,
+                                "contacts": {
+                                    "telephones": [
+                                        "+61-2-8426-1300",
+                                        "1300 766 319",
+                                        "1300766319"
+                                    ],
+                                    "emails": [
+                                        "customerservice@helioscreen.com.au"
+                                    ]
+                                }
+                            },
+                            "page_as_markdown": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "version": "0.1.20260713",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "6.5754 sec.",
+    "cost": 0.0271585,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07140915-1150-0612-0000-0bf436f1ce3a",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "6.5116 sec.",
+            "cost": 0.0271585,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "user_prompt": "retractable awning melbourne",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "web_search_country_iso_code": "AU"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 554,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0265585,
+                    "datetime": "2026-07-14 09:15:15 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "Retractable awnings, also known as folding arm awnings, are an excellent solution for enhancing outdoor living spaces in Melbourne. They provide shade and protection from the elements while maintaining an open and airy feel. Here are some reputable providers in Melbourne that offer custom retractable awnings:\n\n**[Amaru](http:\/\/amarumelbourne.com.au\/?utm_source=openai)**  \n**Closed · Restaurant · A$200+ · 4.7 (538 reviews)**  \n_1121 High St, Armadale VIC 3143, Australia_  \nSpecializes in custom-made retractable awnings, offering various fabric choices and control options, including motorized systems.\n\n**[MELBOURNE AWNINGS](http:\/\/melbourneawnings.com.au\/?utm_source=openai)**  \n**Closed · Corporate office**  \n_Union St, Brighton East VIC 3187, Australia_  \nProvides a range of retractable awnings, including folding arm and sunroof awnings, with motorization options for ease of use.\n\n**[Nu-Style Home Improvements](http:\/\/www.nustylehomeimprovements.com.au\/?utm_source=openai)**  \n**Open now · Awning supplier · 2.3 (35 reviews)**  \n_1\/90 Derby St, Pascoe Vale VIC 3044, Australia_  \nProvides folding arm awnings suitable for patios, balconies, and commercial environments, with options for customization.\n\n**[Portside Shutters & Blinds | Awnings, Curtains & Plantation Shutters](https:\/\/www.portsideshutters.com.au\/?utm_source=openai)**  \n**Open now · Blinds shop · 4.8 (51 reviews)**  \n_465 High St, Prahran VIC 3181, Australia_  \nOffers both fixed and retractable awning fixtures, including cassette folding arm awnings, tailored for residential and commercial properties.\n\n**[Skyline Shades](https:\/\/skylineshades.com.au\/?utm_medium=GMB+organic&utm_source=openai)**  \n**Open now · Blinds shop · 5.0 (3 reviews)**  \n_14 Lonhro Bvd, Cranbourne West VIC 3977, Australia_  \nDesigns and installs custom folding arm awnings with manual, motorized, and fully automated options, suitable for various outdoor areas.\n\nWhen selecting a retractable awning, consider factors such as the size of the area to be covered, desired fabric material, control options (manual or motorized), and additional features like wind or sun sensors. It's advisable to consult with these providers to determine the best solution tailored to your specific needs and preferences. ",
+                                    "annotations": [
+                                        {
+                                            "title": "Amaru",
+                                            "url": "http:\/\/amarumelbourne.com.au\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "MELBOURNE AWNINGS",
+                                            "url": "http:\/\/melbourneawnings.com.au\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Nu-Style Home Improvements",
+                                            "url": "http:\/\/www.nustylehomeimprovements.com.au\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Portside Shutters & Blinds | Awnings, Curtains & Plantation Shutters",
+                                            "url": "https:\/\/www.portsideshutters.com.au\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Skyline Shades",
+                                            "url": "https:\/\/skylineshades.com.au\/?utm_medium=GMB+organic&utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "retractable awning Melbourne"
+                    ]
+                }
+            ]
+        }
+    ]
+}

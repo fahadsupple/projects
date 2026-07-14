@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-14T05:02:20Z_
+_Rebuilt: 2026-07-14T06:18:14Z_
 
 ## Snapshot
 
@@ -29,8 +29,6 @@ _Rebuilt: 2026-07-14T05:02:20Z_
 
 ## Recent events (last 10)
 
-- 2026-07-14T05:05:00.000Z  `client_fact_split`  client:skyflex.au  (success)
-- 2026-07-14T05:01:29.777Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-14T05:02:11.559Z  `client_fact_confirmed`  client:skyflex.au  (success)
 - 2026-07-14T05:02:11.681Z  `client_fact_placement_set`  client:skyflex.au  (success)
 - 2026-07-14T05:02:11.803Z  `client_fact_placement_set`  client:skyflex.au  (success)
@@ -39,4 +37,6 @@ _Rebuilt: 2026-07-14T05:02:20Z_
 - 2026-07-14T05:02:12.246Z  `client_fact_placement_set`  client:skyflex.au  (success)
 - 2026-07-14T05:02:12.393Z  `client_fact_placement_set`  client:skyflex.au  (success)
 - 2026-07-14T05:02:12.508Z  `client_fact_placement_set`  client:skyflex.au  (success)
+- 2026-07-14T05:02:20.523Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-14T05:05:32.346Z  `client_facts_extracted`  client:skyflex.au  (success)
 
