@@ -62,7 +62,35 @@ Non-subset rule passes ("cleaners" not contained in "house cleaning brighton").
 
 → Freed slots must go to **general keywords**, not a second suburb root.
 
-### 4. "Large / luxury home" keywords DO NOT EXIST — tested exhaustively
+### 4b. ⚠️ CORRECTION (2026-07-14, later in session) — LUXURY *IS* TARGETABLE. §4 below was wrong.
+**The mistake:** concluded "luxury is untargetable" from GKP N/A on Melbourne-modified terms WITHOUT
+SERP-checking. Wrong inference.
+**The truth:** demand sits in the **UNMODIFIED** terms, and there is a real, active Melbourne luxury-cleaning
+market with dedicated pages ranking:
+`luxury cleaning services` **40 LOW** · `high end cleaning services` 30 MED · `upscale cleaning services`
+**30 LOW** · `premium cleaning services` 30 MED · `luxury cleaners` **20 LOW** · `luxury house cleaning` /
+`luxury house cleaners` / `luxury home cleaning` 20 MED · `penthouse cleaners` 10 · `5 star house cleaning` 10 ·
+`exclusive house cleaning services` 10 · `luxury maid service` 10.
+
+**SERP for `luxury cleaning services melbourne` = CLEAN, Australian, dedicated-page market:**
+dustpanandbrush.com.au/luxury-cleaning-melbourne ("boutique premium cleaning for luxury homes in Melbourne") ·
+cleanhousemelbourne.com.au/luxury-cleaning/ · nycleaning.com.au/luxury-cleaning-services-melbourne/ ·
+cleantoconcierge.com.au/luxury-home-cleaning-services/ ("Luxury Executive House Cleaning Service") ·
+thenewblackcleaning.com.au · dazzlingps.com.au ("VIP cleaning for luxury homes") · extremeclean.au.
+**All small independents — beatable. Not Maid To Clean / Jim's.**
+
+**RULE LEARNED (generalise this):** GKP N/A on a modified term ≠ the segment is dead. Always SERP-check
+before writing off a segment the client explicitly wants. The Melbourne modifier can zero out a term that
+has real unmodified demand AND a live dedicated-page SERP. Volume ≠ market existence.
+
+**Page added:** `/luxury-house-cleaning-melbourne/` — P: luxury cleaning services melbourne (40, LOW) ·
+S: high end cleaning services melbourne (30) · S: upscale cleaning services melbourne (30, LOW) ·
+S: luxury house cleaning melbourne (20).
+**Framing:** NOT a traffic play (40/mo vs 5,400 head term). It is a **qualification/positioning asset** —
+the page that speaks to the large-home owner who buys the $250/wk membership tier. Judge on lead quality,
+not sessions.
+
+### 4. "Large / luxury home" keywords DO NOT EXIST — tested exhaustively — ⚠️ SUPERSEDED BY §4b ABOVE (bedroom/size findings still hold; luxury findings do NOT)
 **All returned N/A from GKP:** `luxury house cleaning melbourne`, `mansion cleaning melbourne`,
 `large house cleaning`, `large home cleaning`, `premium cleaning melbourne`, `high end cleaning melbourne`,
 `double storey house cleaning`, `two storey house cleaning`, `4 bedroom house cleaning`,
