@@ -123,9 +123,95 @@ dropped EOL) · `apartment cleaners melbourne` 170 (apartments ≠ large homes) 
 
 ---
 
+## 10. COMPETITOR GAP ANALYSIS (SE Ranking, 2026-07-14)
+Client supplied 4 Ahrefs exports — but they were "Organic keywords **history**" (date + counts only,
+NO keywords). Useless for gap analysis. Pulled real keyword lists via SE Ranking `DATA_getDomainKeywords`.
+
+**Market trend (from the history files):** Maid To Clean 687→675 top-10 kw (flat, entrenched leader,
+339 in top-3) · MyHome 398→502 (+26%) · **Inner City Maids 0→265 in 24 months** (market is winnable
+from a standing start) · Crystal Maids 96→39 (−59%, collapsing, positions up for grabs).
+
+**Inner City Maids' growth engine — every page is a low-KD money page:**
+`/pricing/` → house cleaning prices (590, **KD 6**) · `/once-off-house-cleaning/` → one off cleaning
+services (320, **KD 9**) · `/home-cleaners-in-sunshine-with-prices/` → cleaners sunshine (390, **KD 9**) ·
+`/home-care-package-cleaning-services/` → aged care cleaning service (210, **KD 9**) ·
+`/spring-cleaning/` → spring cleaning company (320, **KD 12**) · `/housekeeping-services/` → housekeeper
+melbourne (210, KD 15).
+
+**Suburb pages are near-free wins:** Maid To Clean ranks **#1 for `house cleaner brighton` at KD 6**
+via `/locations/brighton/`. Confirms keeping all 20 suburb pages incl. zero-volume ones.
+
+**Recurring keywords found only via competitors (5× bigger than GKP gave):**
+`regular home cleaning services` (480, **KD 17**) · `regular house cleaner` (480, **KD 18**).
+
+**Open gap:** NO competitor ranks for any membership/subscription concept. Recurring positioning is unowned.
+
+---
+
+## 11. RULES LEARNED / DECISIONS (2026-07-14)
+
+### housekeeping — REJECTED (I flip-flopped; original reject was right)
+Briefly revived on competitor KD-15 evidence, then killed on 3 independent grounds:
+1. **Job-intent SERP** — Seek, Care.com, Jora, Glassdoor, Elite Private Staff. SE Ranking independently
+   classifies `melbourne housekeeper` as **informational intent (I)**.
+2. **Page-type mismatch** — Inner City Maids' housekeeping wins come from their **HOMEPAGE + local pack**
+   (#1 housekeeping melbourne, #1 housekeepers in melbourne, #5 housekeeper melbourne), NOT the dedicated
+   `/housekeeping-services/` page. A dedicated page fights the page type; homepage placement would dilute
+   the 5,400 head term for a 50/mo crumb.
+3. **Volume** — the CLEAN term (`housekeeping services melbourne`) is only 50/mo. The 210/mo one is the dirty one.
+**Lesson: low KD on a dirty SERP is not an opportunity — it's low KD *because* job boards are the competition.**
+
+### GKP bucket collisions — check before pairing on a page
+`house cleaning melbourne` = `home cleaning melbourne` = `house cleaning services melbourne` =
+`cleaning services melbourne` = `cleaning company melbourne` = `cleaning companies melbourne` =
+`maid service melbourne` = `home cleaners melbourne` = `house cleaners melbourne` = `house cleaner melbourne`
+→ **ALL ONE 5,400 BUCKET.** Adding "company"/"services"/"professional" to a head term does NOT create an
+easier keyword — GKP sees the same query. Only modifiers that change the **head noun** create a distinct,
+lower-comp bucket: `domestic cleaning melbourne` (260/390, LOW), `residential cleaning melbourne` (50, LOW),
+`house cleaning company melbourne` (40, LOW).
+
+### Homepage root switched home → house cleaning (free)
+Same 5,400 bucket, so zero volume lost, and it makes the homepage root consistent with the 20 suburb
+pages (`house cleaning [suburb]`). Consistency rule applied.
+
+### Frequency terms = ONE page, not separate pages
+SERP for `fortnightly house cleaning melbourne` is won by **combined regular-cleaning pages**:
+Maid To Clean `/services/regular-cleaning/`, PG Cleaning titled "Regular House Cleaning Melbourne
+(Weekly & Fortnightly)", Fantastic Cleaners `/melbourne/regular-cleaning/`. Google treats
+regular=weekly=fortnightly=monthly as ONE intent. Splitting cannibalises; `monthly house cleaning` (40)
+would be thin alone.
+
+### `house cleaner melbourne` + `professional cleaners melbourne` = HOMEPAGE SERP
+Both competitors rank for these from their homepages. Cannot be mapped to `/house-clean/` service page.
+
+---
+
+## 12. LOCKED KEYWORD PLAN v1 (60 keywords) — 2026-07-14
+
+### General (20)
+| Page | P | S |
+|---|---|---|
+| `/` | house cleaning melbourne (5,400) | domestic cleaning melbourne (390) |
+| `/regular-house-cleaning-melbourne/` NEW | regular house cleaning melbourne | regular home cleaning services (480, KD17) · regular house cleaner (480, KD18) · fortnightly/weekly/monthly house cleaning melbourne |
+| `/deep-cleaning-melbourne/` NEW | deep cleaning services melbourne (480) | deep clean services melbourne (480) · spring cleaning melbourne (90, KD12) |
+| `/house-clean/` | once off cleaning service (320, KD14) | one off cleaning services (320, KD9) · residential cleaning melbourne (50) · house cleaning company melbourne (40) |
+| `/pricing/` NEW | house cleaning prices melbourne (70) ⚠️AMBER | cleaning services melbourne prices (110) |
+| `/areas-we-serve/` | cleaners near me (6,600) | house cleaning near me (3,600) · house cleaning bayside (30) |
+
+### Location (40) — 20 suburbs, one page each
+**P:** `house cleaning [suburb]` · **S:** `cleaners [suburb]`
+Volumes (hc/cl): brighton 110/90 · cheltenham 50/70 · caulfield 20/20 · carnegie 10/20 · beaumaris 10/20 ·
+bentleigh 10/20 · elsternwick 10/20 · hampton 10/20 · mentone 10/20 · mordialloc 10/20 · aspendale 10/10 ·
+black rock 10/10 · highett 10/10 · moorabbin 10/10 · murrumbeena 10/10 · parkdale 10/10 · sandringham 10/10 ·
+mckinnon –/10 · gardenvale –/– · ormond –/–
+
+---
+
 ## Status & Pending
-- Research complete 2026-07-14. No deliverable written yet.
-- **Open with user:** (1) keyword budget — new structure is ~57 kw vs original 44;
-  (2) whether to pursue the commercial/office cleaning opportunity (§7) given it diverges from the
-  stated large-luxury-house focus.
+- Research + SERP validation complete 2026-07-14. Plan locked at 60 kw. Not yet written to xlsx.
+- **Open with user:** (1) **keyword budget cap** — asked 3×, still unanswered; plan is 60 vs original 44.
+  First cuts if capped: `cleaners [suburb]` secondaries on the 10 lowest-volume suburbs.
+  (2) **commercial/office cleaning** — `office cleaners melbourne` (4,400, **LOW** comp, $33 CPC) and
+  `commercial cleaning melbourne` (1,900, LOW, $33) are the highest-value terms found; client already has
+  `/commercial-clean/` + `/corporate-clean/` pages. Diverges from stated large-luxury-house focus. In or out?
 - Scope confirmed by user: **keyword research only** — no URL/redirect planning needed.
