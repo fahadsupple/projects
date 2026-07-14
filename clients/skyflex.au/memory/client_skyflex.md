@@ -126,3 +126,50 @@ Also confirmed only 1 folding-arm-awning SKU exists (Delta Commercial Folding Ar
 **`client-facts.json` false-positive conflicts.** The fact extractor regex-scrapes every number out of the verbatim form text, so it invented three conflicts: `founding-year=2026` (that's the form **submission date** 30/06/2026, not the founding year), `clients=30` (the `30` from that same date; other candidates were ABN/phone/post-dimension digits), and a `percentage` bucket collapsing six *unrelated* metrics (25%/18%/8% discounts, 100% retention, 50% referrals). Resolved via `facts_cli.py confirm` → founding-year=**2023**, clients=**100+**. `metrics.percentage` left pending — no single value is correct for it.
 
 **Risky claims to fact-gate before they reach any page:** "voted Australia's most affordable motorised louvre roof system" (voted by *whom*? unattributed award = ACCC exposure), "up to 8x cheaper than competitors", "up to 15-year warranty", "maintenance-free", 100% retention / 50% referrals / 5-star. Also still open from the keyword round: **do not assert a waterproof/IP rating on the Outdoor TV** (primary kw is `waterproof tv australia` and 2 secondaries assert `ip55`) until the client confirms a certified IP rating actually exists.
+
+---
+
+## Content plugin — research round (2026-07-14)
+
+Research phase complete for all 6 researchable entries (homepage is `research-skipped`). 90 raw fixtures, 6 synthesized bundles, Sydney suburb ground truth. Clusters: products (4), product-categories (1), service-location-pergolas (1), homepage (1).
+
+### THE BIG FINDING — installer-intent is the recurring trap, but it is NOT universal
+Skyflex's **geo-scoped** keywords skew to installer/vendor-discovery intent (local pack present + zero product pages ranking). **Non-geo** terms skew transactional. Consistent with the earlier "pergola builders" rejection.
+
+**But do not over-apply it.** The right test is NOT "does a `/product/` URL rank" — it is **"do product *retailers* rank"**. On `pergolas sydney`, zero product-detail URLs rank, yet **Skyflex is #2** and DIY brand Pergolux is #7. Verify each SERP; don't pattern-match.
+
+### Keyword corrections applied (all SERP-verified, live check depth 20)
+| Entry | Old | New | Vol |
+|---|---|---|---|
+| delta-commercial-folding-arm | retractable awning melbourne | `waterproof retractable awning` | 320 |
+| delta-pro-retractable-roof | retractable roof system melbourne | `retractable roof pergola` | 720 |
+| skyflex-4k-android-smart-outdoor-tv | waterproof tv australia | `weatherproof tv` | 390 |
+| skyflex-bbq-pods | bbq pods melbourne | `bbq pods` | 720 |
+| smart-toilets | smart toilets melbourne | `smart toilets` | 2,400 |
+| louvred-pergolas-sydney | (unchanged — **already ranks #2**) | `pergolas sydney` | 1,300 |
+
+- **`bbq pods melbourne` and `louvred pergolas sydney` had ZERO volume — they were slugs, not keywords.** ⚠️ **Discrepancy with the v4 table above, which records `bbq pods melbourne` at 30/mo.** This round's DataForSEO pull returns no volume record for it at all, and keyword-suggestions on the head term return bbq pods perth (30) / sydney (30) / brisbane (10) but **no Melbourne variant**. Old figure left in place; treat 30/mo as unverified.
+- **Never trust an agent's replacement keyword without a SERP check.** The first-choice replacement for the retractable-roof page (`retractable fabric roof`) was itself installer-owned (0 product URLs in top 20) — caught only by an explicit live SERP check, not by DataForSEO's intent label.
+
+### Commercial model is PER-PRODUCT (analyst decision, Fahad)
+The "DIY product retailer" premise is contradicted three ways on the live site. Model varies by SKU — each page must reflect its own live terms:
+- `delta-commercial-folding-arm` — **supply-only**, $2,000–2,300 "(Supplied)", add-to-cart, no install.
+- `skyflex-bbq-pods` — **consultation-led custom**, $13,500, *"Custom Order Product – Not available for direct online purchase. Consultation Required."* No buy-now/DIY framing.
+- `louvred-pergolas-sydney` — live page says *"SkyFlex designs and installs"* + DIY kit via approved-installer network.
+
+### Smart toilets — build, but NOT as an organic play (analyst decision, Fahad)
+Research says a new page **will not rank**: 2 SKUs vs competitors' 8–31 faceted products, zero bathroom topical authority, and **no adjacent-vertical retailer ranks anywhere in the top 20**. Range problem, not copy problem. Decision: build as a **paid/direct conversion asset** — head term `smart toilets`, faceted-grid shape (12–13 of top 20 are collection pages; zero PDPs rank), on-page FAQ from 11 real PAAs. **Do not promise the client organic rankings.**
+
+### Content-integrity guardrails (carried into planning/writing)
+- Outdoor TV: **do not write "anti-glare screen" or "corrosion-resistant casing"** — zero volume AND absent from the live page. Both sit in the entry's secondary-keyword list, so they look legitimate. **1000 nits is the category floor, not a differentiator** (competitors class 1000-nit units as *partial sun*).
+- Sydney suburb ground truth = **INSUFFICIENT** (Brave returned zero locations/discussions/FAQs). `prohibited_claims` list bans invented climate/council/building-stock claims.
+- **Awning and BBQ pod pages: zero PAA, zero Brave discussions** — nothing to seed an FAQ from. Do not invent questions.
+
+### Facts ledger
+Extractor bucketed 7 unrelated percentages into one `metrics.percentage` fact. Split into 6 distinct facts. **Publishable:** `social-proof.referral-rate` = 50% of new business from referrals. **Suppressed (`off-page`):** 100% retention (unsubstantiated absolute claim — ACL misleading-representation risk) and all per-product discount figures (volatile promo pricing).
+
+### Live-site defects for the client (independent of content work)
+- BBQ pods page: title tag is `Delta Motorised | Skyflex`; meta description is about **louvred pergolas**. Never mentions BBQ pods.
+- Sydney page: links to **`skyflex.com.au`** (wrong domain — live site is `skyflex.au`); shows a **Melbourne phone number**.
+- Outdoor TV page: has **no body copy at all** (competitors carry 158–551 words); AI Overview cites competitor pricing/models across 8 refs and never mentions Skyflex.
+- AEO gap: ChatGPT asked where to buy a louvred pergola in Sydney cites Acetech, Terra Nature Nest, Ozzy Backyards, Patios Coast2Coast — **not Skyflex**, despite Skyflex ranking #2 in Google. All four cited firms have physical Sydney addresses.
