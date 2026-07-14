@@ -1,0 +1,651 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "8.9837 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140928-1150-0495-0000-db973ab3477f",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "8.9204 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.wellsons.com.au/collections/electric-toilet",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:28:38 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": [
+          {
+           "text": "What are you Looking for?",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "Ideas & Inspiration",
+           "url": "https://www.wellsons.com.au/blogs/bathroom-ideas",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/blogs/bathroom-ideas",
+             "anchor_text": "Ideas & Inspiration"
+            }
+           ]
+          },
+          {
+           "text": "Contact us",
+           "url": "https://www.wellsons.com.au/pages/contact-us",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/contact-us",
+             "anchor_text": "Contact us"
+            }
+           ]
+          },
+          {
+           "text": "Room Ideas",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Outdoor Inspired Oasis",
+           "url": "https://www.wellsons.com.au/collections/outdoor-inspired-oasis",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/outdoor-inspired-oasis",
+             "anchor_text": "Outdoor Inspired Oasis"
+            }
+           ]
+          },
+          {
+           "text": "Coastal Inspired Bathroom",
+           "url": "https://www.wellsons.com.au/collections/coastal-inspired-bathroom",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/coastal-inspired-bathroom",
+             "anchor_text": "Coastal Inspired Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Terrazzo Inspired Bathroom",
+           "url": "https://www.wellsons.com.au/collections/terrazzo-inspired-bathroom",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/terrazzo-inspired-bathroom",
+             "anchor_text": "Terrazzo Inspired Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Hamptons Inspired Bathroom",
+           "url": "https://www.wellsons.com.au/collections/hamptons-inspired-bathroom",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/hamptons-inspired-bathroom",
+             "anchor_text": "Hamptons Inspired Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Modern Country Laundry Room",
+           "url": "https://www.wellsons.com.au/collections/modern-country-laundry-room",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/modern-country-laundry-room",
+             "anchor_text": "Modern Country Laundry Room"
+            }
+           ]
+          },
+          {
+           "text": "Modern Skylight Bathroom",
+           "url": "https://www.wellsons.com.au/collections/modern-skylight-bathroom",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/modern-skylight-bathroom",
+             "anchor_text": "Modern Skylight Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Victorian Inspired Bathtub",
+           "url": "https://www.wellsons.com.au/collections/victorian-inspired-bathtub",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/victorian-inspired-bathtub",
+             "anchor_text": "Victorian Inspired Bathtub"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": {
+         "primary_content": [
+          {
+           "text": "Warehouse: Unit 1, 2-10 Claremont Ave Greenacre NSW 2190",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Please login and you will add product to your wishlist",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "( 1300 265 812 )",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "About Wellsons",
+           "url": "https://www.wellsons.com.au/pages/about-us",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/about-us",
+             "anchor_text": "About Wellsons"
+            }
+           ]
+          },
+          {
+           "text": "Contact us",
+           "url": "https://www.wellsons.com.au/pages/contact-us",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/contact-us",
+             "anchor_text": "Contact us"
+            }
+           ]
+          },
+          {
+           "text": "Blogs & Tips",
+           "url": "https://www.wellsons.com.au/blogs/bathroom-ideas",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/blogs/bathroom-ideas",
+             "anchor_text": "Blogs & Tips"
+            }
+           ]
+          },
+          {
+           "text": "About Zip",
+           "url": "https://www.wellsons.com.au/pages/zip-own-it-now-pay-later",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/zip-own-it-now-pay-later",
+             "anchor_text": "About Zip"
+            }
+           ]
+          },
+          {
+           "text": "Terms of Service",
+           "url": "https://www.wellsons.com.au/policies/terms-of-service",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/policies/terms-of-service",
+             "anchor_text": "Terms of Service"
+            }
+           ]
+          },
+          {
+           "text": "Popular Searches",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Hide Popular Searches",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Bathroom Suppliers",
+           "url": "https://www.wellsons.com.au/",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/",
+             "anchor_text": "Bathroom Suppliers"
+            }
+           ]
+          },
+          {
+           "text": "Vanity Basin",
+           "url": "https://www.wellsons.com.au/collections/basin",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/basin",
+             "anchor_text": "Vanity Basin"
+            }
+           ]
+          },
+          {
+           "text": "Adp Vanity",
+           "url": "https://www.wellsons.com.au/collections/adp-vanities",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/adp-vanities",
+             "anchor_text": "Adp Vanity"
+            }
+           ]
+          },
+          {
+           "text": "Marquis Vanity",
+           "url": "https://www.wellsons.com.au/collections/marquis-vanities",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/marquis-vanities",
+             "anchor_text": "Marquis Vanity"
+            }
+           ]
+          },
+          {
+           "text": "Rifco Vanity",
+           "url": "https://www.wellsons.com.au/collections/rifco",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/rifco",
+             "anchor_text": "Rifco Vanity"
+            }
+           ]
+          },
+          {
+           "text": "Timberline Vanity",
+           "url": "https://www.wellsons.com.au/collections/timberline-vanity",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/timberline-vanity",
+             "anchor_text": "Timberline Vanity"
+            }
+           ]
+          },
+          {
+           "text": "Bathroom Vanities",
+           "url": "https://www.wellsons.com.au/collections/vanities",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/vanities",
+             "anchor_text": "Bathroom Vanities"
+            }
+           ]
+          },
+          {
+           "text": "Toilet Suites",
+           "url": "https://www.wellsons.com.au/collections/toilets",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/toilets",
+             "anchor_text": "Toilet Suites"
+            }
+           ]
+          },
+          {
+           "text": "Square Tiles",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Black Tiles",
+           "url": "https://www.wellsons.com.au/collections/black-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/black-tiles",
+             "anchor_text": "Black Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Charcoal Bathroom Tiles",
+           "url": "https://www.wellsons.com.au/collections/charcoal-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/charcoal-tiles",
+             "anchor_text": "Charcoal Bathroom Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Grey Tiles For Bathroom",
+           "url": "https://www.wellsons.com.au/collections/grey-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/grey-tiles",
+             "anchor_text": "Grey Tiles For Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Green Kitkat Tiles",
+           "url": "https://www.wellsons.com.au/collections/green-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/green-tiles",
+             "anchor_text": "Green Kitkat Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Hexagon Tiles",
+           "url": "https://www.wellsons.com.au/collections/hexagon-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/hexagon-tiles",
+             "anchor_text": "Hexagon Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Kitkat Tiles",
+           "url": "https://www.wellsons.com.au/collections/kitkat-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/kitkat-tiles",
+             "anchor_text": "Kitkat Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Mosaic Tile Bathroom",
+           "url": "https://www.wellsons.com.au/collections/mosaic-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/mosaic-tiles",
+             "anchor_text": "Mosaic Tile Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Pink Tiles",
+           "url": "https://www.wellsons.com.au/collections/pink-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/pink-tiles",
+             "anchor_text": "Pink Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Rectangle Tiles",
+           "url": "https://www.wellsons.com.au/collections/rectangle-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/rectangle-tiles",
+             "anchor_text": "Rectangle Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Small Squiare Tiles",
+           "url": "https://www.wellsons.com.au/collections/square-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/square-tiles",
+             "anchor_text": "Small Squiare Tiles"
+            }
+           ]
+          },
+          {
+           "text": "Subway Tiles",
+           "url": "https://www.wellsons.com.au/collections/subway-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/subway-tiles",
+             "anchor_text": "Subway Tiles"
+            }
+           ]
+          },
+          {
+           "text": "White Tile Bathroom",
+           "url": "https://www.wellsons.com.au/collections/white-tiles",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/white-tiles",
+             "anchor_text": "White Tile Bathroom"
+            }
+           ]
+          },
+          {
+           "text": "Billi Taps",
+           "url": "https://www.wellsons.com.au/collections/billi-tapware",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/billi-tapware",
+             "anchor_text": "Billi Taps"
+            }
+           ]
+          },
+          {
+           "text": "Brushed Nickel Tapware",
+           "url": "https://www.wellsons.com.au/collections/brushed-nickel-tapware",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/brushed-nickel-tapware",
+             "anchor_text": "Brushed Nickel Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Gold Taps",
+           "url": "https://www.wellsons.com.au/collections/gold-tapware",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/gold-tapware",
+             "anchor_text": "Gold Taps"
+            }
+           ]
+          },
+          {
+           "text": "Matte Black Taps",
+           "url": "https://www.wellsons.com.au/collections/matte-black-tap",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/matte-black-tap",
+             "anchor_text": "Matte Black Taps"
+            }
+           ]
+          },
+          {
+           "text": "Meir Tapware",
+           "url": "https://www.wellsons.com.au/collections/meir-tapware",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/meir-tapware",
+             "anchor_text": "Meir Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Nero Tapware",
+           "url": "https://www.wellsons.com.au/collections/nero-tapware",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/nero-tapware",
+             "anchor_text": "Nero Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Brass Shower",
+           "url": "https://www.wellsons.com.au/collections/brushed-brass-shower",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/brushed-brass-shower",
+             "anchor_text": "Brass Shower"
+            }
+           ]
+          },
+          {
+           "text": "Vertical Heated Towel Rail",
+           "url": "https://www.wellsons.com.au/collections/heated-towel-rails-ladder",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/heated-towel-rails-ladder",
+             "anchor_text": "Vertical Heated Towel Rail"
+            }
+           ]
+          },
+          {
+           "text": "Oliveri Sinks",
+           "url": "https://www.wellsons.com.au/collections/oliveri-kitchen-sinks",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/collections/oliveri-kitchen-sinks",
+             "anchor_text": "Oliveri Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Privacy Policy",
+           "url": "https://www.wellsons.com.au/pages/privacy",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/privacy",
+             "anchor_text": "Privacy Policy"
+            }
+           ]
+          },
+          {
+           "text": "Terms and Conditions",
+           "url": "https://www.wellsons.com.au/pages/terms-and-conditions",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/terms-and-conditions",
+             "anchor_text": "Terms and Conditions"
+            }
+           ]
+          },
+          {
+           "text": "Terms of Service",
+           "url": "https://www.wellsons.com.au/pages/terms-of-service",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/terms-of-service",
+             "anchor_text": "Terms of Service"
+            }
+           ]
+          },
+          {
+           "text": "Design Consultant",
+           "url": "https://www.wellsons.com.au/pages/virtual-consultations-wellsons",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/virtual-consultations-wellsons",
+             "anchor_text": "Design Consultant"
+            }
+           ]
+          },
+          {
+           "text": "Help Centre",
+           "url": "https://www.wellsons.com.au/pages/help-and-customer-service-faq",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/help-and-customer-service-faq",
+             "anchor_text": "Help Centre"
+            }
+           ]
+          },
+          {
+           "text": "Trade Account",
+           "url": "https://www.wellsons.com.au/pages/trade-account",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/trade-account",
+             "anchor_text": "Trade Account"
+            }
+           ]
+          },
+          {
+           "text": "Tile Delivery",
+           "url": "https://www.wellsons.com.au/pages/tile-delivery-info",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/tile-delivery-info",
+             "anchor_text": "Tile Delivery"
+            }
+           ]
+          },
+          {
+           "text": "Terms and conditions",
+           "url": "https://www.wellsons.com.au/pages/terms-and-conditions",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/terms-and-conditions",
+             "anchor_text": "Terms and conditions"
+            }
+           ]
+          },
+          {
+           "text": "Privacy & Cookies",
+           "url": "https://www.wellsons.com.au/pages/privacy",
+           "urls": [
+            {
+             "url": "https://www.wellsons.com.au/pages/privacy",
+             "anchor_text": "Privacy & Cookies"
+            }
+           ]
+          },
+          {
+           "text": "© 2025 Wellsons Pty Ltd.",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "table_content": null
+        },
+        "main_topic": null,
+        "secondary_topic": [
+         {
+          "h_title": "Electric Smart Toilets & Bidet",
+          "main_title": "Electric Smart Toilets & Bidet",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "1300265812"
+         ],
+         "emails": [
+          "sales@wellsons.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0688 sec.",
+ "cost": 0.001272,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140926-1150-0541-0000-55446c09aeda",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0406 sec.",
+   "cost": 0.001272,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "search_intent",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "search_intent",
+    "se_type": "google",
+    "keywords": [
+     "bbq pods melbourne",
+     "bbq pods",
+     "outdoor kitchen pods",
+     "prefabricated outdoor kitchen",
+     "modular outdoor kitchen",
+     "outdoor kitchen melbourne"
+    ],
+    "language_code": "en"
+   },
+   "result": [
+    {
+     "language_code": "en",
+     "items_count": 6,
+     "items": [
+      {
+       "keyword": "bbq pods melbourne",
+       "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.4207
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "transactional",
+         "probability": 0.3932
+        }
+       ]
+      },
+      {
+       "keyword": "bbq pods",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.5485
+       },
+       "secondary_keyword_intents": [
+        {
+         "label": "informational",
+         "probability": 0.3457
+        }
+       ]
+      },
+      {
+       "keyword": "outdoor kitchen pods",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.6441
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "prefabricated outdoor kitchen",
+       "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.5877
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "modular outdoor kitchen",
+       "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.9097
+       },
+       "secondary_keyword_intents": null
+      },
+      {
+       "keyword": "outdoor kitchen melbourne",
+       "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.5067
+       },
+       "secondary_keyword_intents": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

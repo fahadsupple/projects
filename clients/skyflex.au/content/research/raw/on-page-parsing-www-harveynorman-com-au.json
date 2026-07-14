@@ -1,0 +1,39 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5576 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140927-1150-0495-0000-de18cf0d8ec1",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.3702 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://www.harveynorman.com.au/buy/outdoor-tvs",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": "Page content is empty",
+          "items_count": 0,
+          "items": null
+        }
+      ]
+    }
+  ]
+}

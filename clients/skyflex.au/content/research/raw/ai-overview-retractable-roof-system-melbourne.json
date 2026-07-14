@@ -1,0 +1,90 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "6.9456 sec.",
+ "cost": 0.0272977,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140926-1150-0612-0000-c9d72bce4c32",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "6.9011 sec.",
+   "cost": 0.0272977,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "chat_gpt",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "chat_gpt",
+    "user_prompt": "retractable roof system melbourne",
+    "model_name": "gpt-4o-mini",
+    "web_search": true,
+    "web_search_country_iso_code": "AU"
+   },
+   "result": [
+    {
+     "model_name": "gpt-4o-mini-2024-07-18",
+     "input_tokens": 8174,
+     "output_tokens": 786,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.0266977,
+     "datetime": "2026-07-14 09:27:03 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "Retractable roof systems are an excellent way to enhance your outdoor living space in Melbourne, offering protection from the elements while allowing you to enjoy natural light and ventilation. Here are some reputable providers in Melbourne that specialize in retractable roof solutions:\n\n**[Helioscreen Australia Pty Ltd](https://helioscreen.com.au/?utm_source=openai)**  \n**Closed · Manufacturer · 3.0 (2 reviews)**  \n_63/85 Turner St, Port Melbourne VIC 3207, Australia_  \nAn Australian leader in retractable roof systems, offering locally manufactured solutions with European components. Their systems are designed to withstand Melbourne's variable climate, providing 100% weather protection year-round.\n\n**[Astral Systems PTY Ltd.](https://www.astralsystems.com.au/?utm_source=openai)**  \n**Open now · Roofing contractor · 3.7 (3 reviews)**  \n_500 Willowmavin Rd, Willowmavin VIC 3764, Australia_  \nWith over 40 years of experience, Astral Systems specializes in glazed roofing solutions, including both fixed and retractable roofs, tailored to residential and commercial clients.\n\n**[Louvretec Melbourne](http://www.louvretecmelbourne.com.au/?utm_source=openai)**  \n**Open now · Manufacturer · 3.4 (15 reviews)**  \n_30 Frankston Gardens Dr, Carrum Downs VIC 3201, Australia_  \nOffers custom-designed retractable roof systems that open up to 135 degrees and retract, leaving approximately 75% open space. Their systems are suitable for both commercial and residential applications.\n\n**[Shade For Life](http://www.shadeforlife.com.au/?utm_source=openai)**  \n**Open now · Awning supplier · 4.7 (15 reviews)**  \n_Unit 4/19 Mills Rd, Braeside VIC 3195, Australia_  \nProvides a range of retractable pergola systems, including models like IZI, MUSE, TERA, HARBOUR, and HALO, designed to create comfortable outdoor environments year-round.\n\n**[Alfresco Blinds Co - Melbourne Outdoor Blinds, Awnings, Plantation Shutters, Curtains & Roller Blinds Specialist](https://alfrescoblindsco.com.au/?utm_medium=organic&utm_source=openai)**  \n**Open now · Blinds shop · 4.9 (115 reviews)**  \n_15/5 Scanlon Dr, Epping VIC 3076, Australia_  \nOffers custom-made retractable roof systems suitable for various residential and commercial applications, focusing on protection from Melbourne's unpredictable weather.\n\n**[Nu-Style Home Improvements](http://www.nustylehomeimprovements.com.au/?utm_source=openai)**  \n**Open now · Awning supplier · 2.3 (35 reviews)**  \n_1/90 Derby St, Pascoe Vale VIC 3044, Australia_  \nSpecializes in customizing and installing retractable roof systems, such as the ZEN Patio Retractable Roof System, adaptable to various designs and buildings.\n\n**[Melbourne Shade Systems Pty Ltd](https://www.shadesystems.com.au/?utm_source=openai)**  \n**Closed · Awning supplier · 3.4 (39 reviews)**  \n_215a Nepean Hwy, Brighton VIC 3185, Australia_  \nSupplies and installs a full range of retractable pergola and sunroof systems, including motorized louvre systems and fabric retractable roofs, tailored to Melbourne's climate.\n\nWhen selecting a retractable roof system, consider factors such as the specific weather conditions of your area, the desired level of automation, and the aesthetic integration with your existing structures. It's advisable to consult with these providers to discuss your requirements and obtain tailored solutions that best fit your needs. ",
+         "annotations": [
+          {
+           "title": "Helioscreen Australia Pty Ltd",
+           "url": "https://helioscreen.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Astral Systems PTY Ltd.",
+           "url": "https://www.astralsystems.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Louvretec Melbourne",
+           "url": "http://www.louvretecmelbourne.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Shade For Life",
+           "url": "http://www.shadeforlife.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Alfresco Blinds Co - Melbourne Outdoor Blinds, Awnings, Plantation Shutters, Curtains & Roller Blinds Specialist",
+           "url": "https://alfrescoblindsco.com.au/?utm_medium=organic&utm_source=openai"
+          },
+          {
+           "title": "Nu-Style Home Improvements",
+           "url": "http://www.nustylehomeimprovements.com.au/?utm_source=openai"
+          },
+          {
+           "title": "Melbourne Shade Systems Pty Ltd",
+           "url": "https://www.shadesystems.com.au/?utm_source=openai"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "retractable roof system Melbourne"
+     ]
+    }
+   ]
+  }
+ ]
+}

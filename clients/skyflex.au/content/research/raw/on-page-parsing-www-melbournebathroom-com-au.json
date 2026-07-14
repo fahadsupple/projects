@@ -1,0 +1,2989 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "19.8907 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140928-1150-0495-0000-c2bbfd2d94ec",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "19.5242 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.melbournebathroom.com.au/collections/smart-toilets",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:29:07 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": [
+          {
+           "text": "Free Delivery on Online orders over $1000 · Within 15km radius Blackburn VIC 3130 · Ends in July",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "Go to Sales Now",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "EOFY Sales",
+           "url": "https://www.melbournebathroom.com.au/collections/current-sale-events",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/current-sale-events",
+             "anchor_text": "EOFY Sales"
+            }
+           ]
+          },
+          {
+           "text": "Go to Clearance",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Display Clearance Sale",
+           "url": "https://www.melbournebathroom.com.au/collections/floor-display-clearance",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/floor-display-clearance",
+             "anchor_text": "Display ClearanceSale"
+            }
+           ]
+          },
+          {
+           "text": "Stock Clearance Sale",
+           "url": "https://www.melbournebathroom.com.au/collections/stock-clearance",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/stock-clearance",
+             "anchor_text": "Stock ClearanceSale"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Colour",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Brushed Nickel",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-nickel",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-nickel",
+             "anchor_text": "Brushed Nickel"
+            }
+           ]
+          },
+          {
+           "text": "Brushed Gold",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-gold",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-gold",
+             "anchor_text": "Brushed Gold"
+            }
+           ]
+          },
+          {
+           "text": "Matt White",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-matt-white",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-matt-white",
+             "anchor_text": "Matt White"
+            }
+           ]
+          },
+          {
+           "text": "Brushed Bronze",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-bronze",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-brushed-bronze",
+             "anchor_text": "Brushed Bronze"
+            }
+           ]
+          },
+          {
+           "text": "Antique Brass",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-antique-brass",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-antique-brass",
+             "anchor_text": "Antique Brass"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Layout",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Fixed Panel (Walk-in)",
+           "url": "https://www.melbournebathroom.com.au/collections/walk-in-shower",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/walk-in-shower",
+             "anchor_text": "Fixed Panel (Walk-in)"
+            }
+           ]
+          },
+          {
+           "text": "Front & Full Return",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-front-full-return",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-front-full-return",
+             "anchor_text": "Front & Full Return"
+            }
+           ]
+          },
+          {
+           "text": "Front & Half Return",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-front-half-return",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-front-half-return",
+             "anchor_text": "Front & Half Return"
+            }
+           ]
+          },
+          {
+           "text": "Front Only (Wall to Wall)",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-to-wall-shower-screen",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-to-wall-shower-screen",
+             "anchor_text": "Front Only (Wall to Wall)"
+            }
+           ]
+          },
+          {
+           "text": "Corner / Dual Entry",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-corner-dual-entry",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-corner-dual-entry",
+             "anchor_text": "Corner / Dual Entry"
+            }
+           ]
+          },
+          {
+           "text": "Bath Panel",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-screens",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-screens",
+             "anchor_text": "Bath Panel"
+            }
+           ]
+          },
+          {
+           "text": "Clearance - Shower Screen",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-shower-screen",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-shower-screen",
+             "anchor_text": "Clearance - Shower Screen"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Door Open",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Pivot / Hinged Door",
+           "url": "https://www.melbournebathroom.com.au/collections/pivot-hinge-door-open",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/pivot-hinge-door-open",
+             "anchor_text": "Pivot / Hinged Door"
+            }
+           ]
+          },
+          {
+           "text": "Sliding Door",
+           "url": "https://www.melbournebathroom.com.au/collections/sliding-shower-screens",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/sliding-shower-screens",
+             "anchor_text": "Sliding Door"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bases, Niches & Wastes",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Shower Bases",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-bases",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-bases",
+             "anchor_text": "Shower Bases"
+            }
+           ]
+          },
+          {
+           "text": "Shower Trays",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-tile-trays",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-tile-trays",
+             "anchor_text": "Shower Trays"
+            }
+           ]
+          },
+          {
+           "text": "Shower Niches",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-niche",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-niche",
+             "anchor_text": "Shower Niches"
+            }
+           ]
+          },
+          {
+           "text": "Shower Walls",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-walls",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-walls",
+             "anchor_text": "Shower Walls"
+            }
+           ]
+          },
+          {
+           "text": "Shower Floor Waste",
+           "url": "https://www.melbournebathroom.com.au/collections/floor-wastes",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/floor-wastes",
+             "anchor_text": "Shower Floor Waste"
+            }
+           ]
+          },
+          {
+           "text": "Shower Channel Grates",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-channel-grates",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-channel-grates",
+             "anchor_text": "Shower Channel Grates"
+            }
+           ]
+          },
+          {
+           "text": "Go to Shower Parts",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Shower Seals",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-seals",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-seals",
+             "anchor_text": "Shower Seals"
+            }
+           ]
+          },
+          {
+           "text": "Hardware & Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/hardwares-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/hardwares-parts",
+             "anchor_text": "Hardware & Parts"
+            }
+           ]
+          },
+          {
+           "text": "Go to Resources & Service",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Product Selection Guide",
+           "url": "https://www.melbournebathroom.com.au/pages/shower-screen-buying-guide",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/pages/shower-screen-buying-guide",
+             "anchor_text": "Product Selection Guide"
+            }
+           ]
+          },
+          {
+           "text": "Shower Screen Installation Service",
+           "url": "https://www.melbournebathroom.com.au/pages/shower-screen-installation-service",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/pages/shower-screen-installation-service",
+             "anchor_text": "Shower Screen Installation Service"
+            }
+           ]
+          },
+          {
+           "text": "Care & Maintenance",
+           "url": "https://www.melbournebathroom.com.au/pages/all-shower-screens",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/pages/all-shower-screens",
+             "anchor_text": "Care & Maintenance"
+            }
+           ]
+          },
+          {
+           "text": "Exclusive Collection",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-screens-exclusive-collection",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-screens-exclusive-collection",
+             "anchor_text": "Exclusive Collection"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Frame Design",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Full Framed",
+           "url": "https://www.melbournebathroom.com.au/collections/framed-shower-screens",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/framed-shower-screens",
+             "anchor_text": "Full Framed"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Size",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Small space < 600mm",
+           "url": "https://www.melbournebathroom.com.au/collections/compact-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/compact-vanities",
+             "anchor_text": "Small space < 600mm"
+            }
+           ]
+          },
+          {
+           "text": "1200mm Double Bowls",
+           "url": "https://www.melbournebathroom.com.au/collections/1200mm-double-bowls-vanities?filter.v.price.gte=&filter.v.price.lte=&filter.v.option.size=1200mm+%28Double+Bowls%29&sort_by=manual",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1200mm-double-bowls-vanities?filter.v.price.gte=&filter.v.price.lte=&filter.v.option.size=1200mm+%28Double+Bowls%29&sort_by=manual",
+             "anchor_text": "1200mm Double Bowls"
+            }
+           ]
+          },
+          {
+           "text": "1500mm Double Bowls",
+           "url": "https://www.melbournebathroom.com.au/collections/1500mm-double-bowls-vanities?filter.v.option.size=1500mm+%28Double+Bowls%29",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1500mm-double-bowls-vanities?filter.v.option.size=1500mm+%28Double+Bowls%29",
+             "anchor_text": "1500mm Double Bowls"
+            }
+           ]
+          },
+          {
+           "text": "1800mm Double Bowls",
+           "url": "https://www.melbournebathroom.com.au/collections/1800mm-double-bowls-vanities?filter.v.price.gte=&filter.v.price.lte=&filter.v.option.size=1800mm+%28Double+Bowls%29&sort_by=manual",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1800mm-double-bowls-vanities?filter.v.price.gte=&filter.v.price.lte=&filter.v.option.size=1800mm+%28Double+Bowls%29&sort_by=manual",
+             "anchor_text": "1800mm Double Bowls"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Colour",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Woodgrain / Timber Veneer",
+           "url": "https://www.melbournebathroom.com.au/collections/timber-vanity",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/timber-vanity",
+             "anchor_text": "Woodgrain / Timber Veneer"
+            }
+           ]
+          },
+          {
+           "text": "Matt White",
+           "url": "https://www.melbournebathroom.com.au/collections/matt-white-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/matt-white-vanities",
+             "anchor_text": "Matt White"
+            }
+           ]
+          },
+          {
+           "text": "Gloss White",
+           "url": "https://www.melbournebathroom.com.au/collections/gloss-white-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/gloss-white-vanities",
+             "anchor_text": "Gloss White"
+            }
+           ]
+          },
+          {
+           "text": "Matt Black",
+           "url": "https://www.melbournebathroom.com.au/collections/matt-black-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/matt-black-vanities",
+             "anchor_text": "Matt Black"
+            }
+           ]
+          },
+          {
+           "text": "Matt Grey",
+           "url": "https://www.melbournebathroom.com.au/collections/matt-grey-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/matt-grey-vanities",
+             "anchor_text": "Matt Grey"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Design",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Wall Hung",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-hung-vanity",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-hung-vanity",
+             "anchor_text": "Wall Hung"
+            }
+           ]
+          },
+          {
+           "text": "Semi Recessed",
+           "url": "https://www.melbournebathroom.com.au/collections/semi-recessed-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/semi-recessed-vanities",
+             "anchor_text": "Semi Recessed"
+            }
+           ]
+          },
+          {
+           "text": "Ensuite Compact",
+           "url": "https://www.melbournebathroom.com.au/collections/small-vanity",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/small-vanity",
+             "anchor_text": "Ensuite Compact"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Vanities",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-vanities",
+             "anchor_text": "Clearance Vanities"
+            }
+           ]
+          },
+          {
+           "text": "Vanity Handles & Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/vanity-handles-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/vanity-handles-parts",
+             "anchor_text": "Vanity Handles & Parts"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Configuration",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Drawers Only",
+           "url": "https://www.melbournebathroom.com.au/collections/drawers-only-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/drawers-only-vanities",
+             "anchor_text": "Drawers Only"
+            }
+           ]
+          },
+          {
+           "text": "Doors and Drawers",
+           "url": "https://www.melbournebathroom.com.au/collections/doors-and-drawers-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/doors-and-drawers-vanities",
+             "anchor_text": "Doors and Drawers"
+            }
+           ]
+          },
+          {
+           "text": "Doors Only",
+           "url": "https://www.melbournebathroom.com.au/collections/doors-only-vanities",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/doors-only-vanities",
+             "anchor_text": "Doors Only"
+            }
+           ]
+          },
+          {
+           "text": "Go to Vanity Benchtops",
+           "url": "https://www.melbournebathroom.com.au/collections/vanity-tops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/vanity-tops",
+             "anchor_text": "Go to Vanity Benchtops"
+            }
+           ]
+          },
+          {
+           "text": "Ceramic Tops",
+           "url": "https://www.melbournebathroom.com.au/collections/ceramic-basin-tops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/ceramic-basin-tops",
+             "anchor_text": "Ceramic Tops"
+            }
+           ]
+          },
+          {
+           "text": "Stone Tops",
+           "url": "https://www.melbournebathroom.com.au/collections/engineered-stone-benchtops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/engineered-stone-benchtops",
+             "anchor_text": "Stone Tops"
+            }
+           ]
+          },
+          {
+           "text": "Solid Surface Tops",
+           "url": "https://www.melbournebathroom.com.au/collections/solid-surface-tops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/solid-surface-tops",
+             "anchor_text": "Solid Surface Tops"
+            }
+           ]
+          },
+          {
+           "text": "Porcelain Slab Tops",
+           "url": "https://www.melbournebathroom.com.au/collections/porcelain-slab-tops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/porcelain-slab-tops",
+             "anchor_text": "Porcelain Slab Tops"
+            }
+           ]
+          },
+          {
+           "text": "Go to Mirrors & Storage",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Mirrors New",
+           "url": "https://www.melbournebathroom.com.au/collections/mirrors",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/mirrors",
+             "anchor_text": "MirrorsNew"
+            }
+           ]
+          },
+          {
+           "text": "Mirrored Shaving Cabinets",
+           "url": "https://www.melbournebathroom.com.au/collections/mirrored-shaving",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/mirrored-shaving",
+             "anchor_text": "Mirrored Shaving Cabinets"
+            }
+           ]
+          },
+          {
+           "text": "LED Mirrors New",
+           "url": "https://www.melbournebathroom.com.au/collections/led-mirrors",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/led-mirrors",
+             "anchor_text": "LED MirrorsNew"
+            }
+           ]
+          },
+          {
+           "text": "LED Mirror Cabinets",
+           "url": "https://www.melbournebathroom.com.au/collections/led-mirror-cabinets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/led-mirror-cabinets",
+             "anchor_text": "LED Mirror Cabinets"
+            }
+           ]
+          },
+          {
+           "text": "Bathroom Tallboys",
+           "url": "https://www.melbournebathroom.com.au/collections/bathroom-tallboys",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bathroom-tallboys",
+             "anchor_text": "Bathroom Tallboys"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bath Types",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Freestanding Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/freestanding-bath",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/freestanding-bath",
+             "anchor_text": "Freestanding Baths"
+            }
+           ]
+          },
+          {
+           "text": "Back to Wall Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/back-to-wall-bath",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/back-to-wall-bath",
+             "anchor_text": "Back to Wall Baths"
+            }
+           ]
+          },
+          {
+           "text": "Corner Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/corner-bath",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/corner-bath",
+             "anchor_text": "Corner Baths"
+            }
+           ]
+          },
+          {
+           "text": "Inset Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/inset-bath",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/inset-bath",
+             "anchor_text": "Inset Baths"
+            }
+           ]
+          },
+          {
+           "text": "Bath Screens",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-screens",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-screens",
+             "anchor_text": "Bath Screens"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Bathtubs",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-bathtubs",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-bathtubs",
+             "anchor_text": "Clearance Bathtubs"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bath Sizes",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Small Baths < 1300mm",
+           "url": "https://www.melbournebathroom.com.au/collections/small-baths-1300mm",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/small-baths-1300mm",
+             "anchor_text": "Small Baths < 1300mm"
+            }
+           ]
+          },
+          {
+           "text": "1400mm Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/1400mm-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1400mm-baths",
+             "anchor_text": "1400mm Baths"
+            }
+           ]
+          },
+          {
+           "text": "1500mm Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/1500mm-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1500mm-baths",
+             "anchor_text": "1500mm Baths"
+            }
+           ]
+          },
+          {
+           "text": "1700mm Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/1700mm-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1700mm-baths",
+             "anchor_text": "1700mm Baths"
+            }
+           ]
+          },
+          {
+           "text": "1800mm Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/1800mm-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/1800mm-baths",
+             "anchor_text": "1800mm Baths"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bath Colours",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Gloss White Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/gloss-white-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/gloss-white-baths",
+             "anchor_text": "Gloss White Baths"
+            }
+           ]
+          },
+          {
+           "text": "Matte White Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/matte-white-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/matte-white-baths",
+             "anchor_text": "Matte White Baths"
+            }
+           ]
+          },
+          {
+           "text": "Black Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/black-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/black-baths",
+             "anchor_text": "Black Baths"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bath Design",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Cast Stone Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/stone-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/stone-baths",
+             "anchor_text": "Cast Stone Baths"
+            }
+           ]
+          },
+          {
+           "text": "Steel Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/steel-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/steel-baths",
+             "anchor_text": "Steel Baths"
+            }
+           ]
+          },
+          {
+           "text": "Round Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/round-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/round-baths",
+             "anchor_text": "Round Baths"
+            }
+           ]
+          },
+          {
+           "text": "Fluted Baths",
+           "url": "https://www.melbournebathroom.com.au/collections/fluted-baths",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/fluted-baths",
+             "anchor_text": "Fluted Baths"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bath Accessories",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Bath Waste & Plugs",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-waste-plugs",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-waste-plugs",
+             "anchor_text": "Bath Waste & Plugs"
+            }
+           ]
+          },
+          {
+           "text": "Go to Basin Type",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Above Counter Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/above-counter-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/above-counter-basins",
+             "anchor_text": "Above Counter Basins"
+            }
+           ]
+          },
+          {
+           "text": "Undermount Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/undermount-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/undermount-basins",
+             "anchor_text": "Undermount Basins"
+            }
+           ]
+          },
+          {
+           "text": "Inset Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/inset-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/inset-basins",
+             "anchor_text": "Inset Basins"
+            }
+           ]
+          },
+          {
+           "text": "Wall Hung Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-hung-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-hung-basins",
+             "anchor_text": "Wall Hung Basins"
+            }
+           ]
+          },
+          {
+           "text": "Semi Recessed Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/semi-recessed-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/semi-recessed-basins",
+             "anchor_text": "Semi Recessed Basins"
+            }
+           ]
+          },
+          {
+           "text": "Accessible Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/accessible-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/accessible-basins",
+             "anchor_text": "Accessible Basins"
+            }
+           ]
+          },
+          {
+           "text": "Pedestal & Freestanding",
+           "url": "https://www.melbournebathroom.com.au/collections/pedestal-freestanding",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/pedestal-freestanding",
+             "anchor_text": "Pedestal & Freestanding"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-basins",
+             "anchor_text": "Clearance Basins"
+            }
+           ]
+          },
+          {
+           "text": "Go to Basin Colour",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Gloss White Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/gloss-white-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/gloss-white-basins",
+             "anchor_text": "Gloss White Basins"
+            }
+           ]
+          },
+          {
+           "text": "Matte White Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/matt-white-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/matt-white-basins",
+             "anchor_text": "Matte White Basins"
+            }
+           ]
+          },
+          {
+           "text": "Black Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/black-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/black-basins",
+             "anchor_text": "Black Basins"
+            }
+           ]
+          },
+          {
+           "text": "Coloured Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/coloured-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/coloured-basins",
+             "anchor_text": "Coloured Basins"
+            }
+           ]
+          },
+          {
+           "text": "Go to Basin Shape",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Small Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/small-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/small-basins",
+             "anchor_text": "Small Basins"
+            }
+           ]
+          },
+          {
+           "text": "Fluted Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/fluted-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/fluted-basins",
+             "anchor_text": "Fluted Basins"
+            }
+           ]
+          },
+          {
+           "text": "Oval Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/oval-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/oval-basins",
+             "anchor_text": "Oval Basins"
+            }
+           ]
+          },
+          {
+           "text": "Square Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/square-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/square-basins",
+             "anchor_text": "Square Basins"
+            }
+           ]
+          },
+          {
+           "text": "Rectangular Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/rectangular-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/rectangular-basins",
+             "anchor_text": "Rectangular Basins"
+            }
+           ]
+          },
+          {
+           "text": "Round Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/round-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/round-basins",
+             "anchor_text": "Round Basins"
+            }
+           ]
+          },
+          {
+           "text": "Go to Basin Accessories",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Basin Wastes",
+           "url": "https://www.melbournebathroom.com.au/collections/basin-wastes",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/basin-wastes",
+             "anchor_text": "Basin Wastes"
+            }
+           ]
+          },
+          {
+           "text": "Bottle Traps",
+           "url": "https://www.melbournebathroom.com.au/collections/bottle-traps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bottle-traps",
+             "anchor_text": "Bottle Traps"
+            }
+           ]
+          },
+          {
+           "text": "Go to Toilet Type",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Back to Wall Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/back-to-wall-toilet",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/back-to-wall-toilet",
+             "anchor_text": "Back to Wall Toilets"
+            }
+           ]
+          },
+          {
+           "text": "In Wall Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/in-wall-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/in-wall-toilets",
+             "anchor_text": "In Wall Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Close Coupled Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/close-coupled-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/close-coupled-toilets",
+             "anchor_text": "Close Coupled Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Compact Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/compact-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/compact-toilets",
+             "anchor_text": "Compact Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Link Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/link-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/link-toilets",
+             "anchor_text": "Link Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Skew Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/skew-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/skew-toilets",
+             "anchor_text": "Skew Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Smart Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/smart-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/smart-toilets",
+             "anchor_text": "Smart Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Care Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/care-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/care-toilets",
+             "anchor_text": "Care Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Junior Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/junior-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/junior-toilets",
+             "anchor_text": "Junior Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-toilets",
+             "anchor_text": "Clearance Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Go to Toilet by Flush",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Rimless Flush",
+           "url": "https://www.melbournebathroom.com.au/collections/rimless-toilet",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/rimless-toilet",
+             "anchor_text": "Rimless Flush"
+            }
+           ]
+          },
+          {
+           "text": "Tornado Flush",
+           "url": "https://www.melbournebathroom.com.au/collections/tornado-flush",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tornado-flush",
+             "anchor_text": "Tornado Flush"
+            }
+           ]
+          },
+          {
+           "text": "Tornado Rimless",
+           "url": "https://www.melbournebathroom.com.au/collections/tornado-rimless",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tornado-rimless",
+             "anchor_text": "Tornado Rimless"
+            }
+           ]
+          },
+          {
+           "text": "Go to Toilet Accessories",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Flush Buttons/Plates",
+           "url": "https://www.melbournebathroom.com.au/collections/toilet-flush-buttons",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/toilet-flush-buttons",
+             "anchor_text": "Flush Buttons/Plates"
+            }
+           ]
+          },
+          {
+           "text": "Toilet Seats",
+           "url": "https://www.melbournebathroom.com.au/collections/toilet-seats",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/toilet-seats",
+             "anchor_text": "Toilet Seats"
+            }
+           ]
+          },
+          {
+           "text": "Bidet Sprays",
+           "url": "https://www.melbournebathroom.com.au/collections/bidet-sprays",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bidet-sprays",
+             "anchor_text": "Bidet Sprays"
+            }
+           ]
+          },
+          {
+           "text": "Toilet Spare Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/toilet-spare-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/toilet-spare-parts",
+             "anchor_text": "Toilet Spare Parts"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Colour",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Brushed Nickel",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-nickel",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-nickel",
+             "anchor_text": "Brushed Nickel"
+            }
+           ]
+          },
+          {
+           "text": "Brushed Gold",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-gold",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-gold",
+             "anchor_text": "Brushed Gold"
+            }
+           ]
+          },
+          {
+           "text": "Brushed Bronze",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-bronze",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-brushed-bronze",
+             "anchor_text": "Brushed Bronze"
+            }
+           ]
+          },
+          {
+           "text": "Matt White",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-matt-white",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-matt-white",
+             "anchor_text": "Matt White"
+            }
+           ]
+          },
+          {
+           "text": "Antique Brass",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-antique-brass",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-shower-antique-brass",
+             "anchor_text": "Antique Brass"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bathroom",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Short Basin Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/short-basin-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/short-basin-mixers",
+             "anchor_text": "Short Basin Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Tall Basin Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/tall-basin-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tall-basin-mixers",
+             "anchor_text": "Tall Basin Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Mid Tall Basin Mixers (suit semi-inset basins)",
+           "url": "https://www.melbournebathroom.com.au/collections/mid-tall-basin-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/mid-tall-basin-mixers",
+             "anchor_text": "Mid Tall Basin Mixers (suit semi-inset basins)"
+            }
+           ]
+          },
+          {
+           "text": "Wall Basin Mixer Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-basin-mixer-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-basin-mixer-sets",
+             "anchor_text": "Wall Basin Mixer Sets"
+            }
+           ]
+          },
+          {
+           "text": "Smart Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/smart-taps-bathroom",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/smart-taps-bathroom",
+             "anchor_text": "Smart Taps"
+            }
+           ]
+          },
+          {
+           "text": "3 Piece Basin Tap Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/3-piece-basin-tap-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/3-piece-basin-tap-sets",
+             "anchor_text": "3 Piece Basin Tap Sets"
+            }
+           ]
+          },
+          {
+           "text": "3 Piece Bath Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/3-piece-bath-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/3-piece-bath-sets",
+             "anchor_text": "3 Piece Bath Sets"
+            }
+           ]
+          },
+          {
+           "text": "Bath Spouts & Outlets",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-spouts-outlets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-spouts-outlets",
+             "anchor_text": "Bath Spouts & Outlets"
+            }
+           ]
+          },
+          {
+           "text": "Wall Bath Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-bath-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-bath-mixers",
+             "anchor_text": "Wall Bath Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Wall Bath Diverter Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-bath-diverter-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-bath-diverter-mixers",
+             "anchor_text": "Wall Bath Diverter Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Bath Shower Tap Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-shower-tap-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-shower-tap-sets",
+             "anchor_text": "Bath Shower Tap Sets"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Bathroom Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-bathroom-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-bathroom-tapware",
+             "anchor_text": "Clearance – Bathroom Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Shower",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Dual Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/dual-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/dual-showers",
+             "anchor_text": "Dual Showers"
+            }
+           ]
+          },
+          {
+           "text": "Rail Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/rail-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/rail-showers",
+             "anchor_text": "Rail Showers"
+            }
+           ]
+          },
+          {
+           "text": "Hand Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/hand-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/hand-showers",
+             "anchor_text": "Hand Showers"
+            }
+           ]
+          },
+          {
+           "text": "Ceiling Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/ceiling-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/ceiling-showers",
+             "anchor_text": "Ceiling Showers"
+            }
+           ]
+          },
+          {
+           "text": "Shower Heads / Roses",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-heads-roses",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-heads-roses",
+             "anchor_text": "Shower Heads / Roses"
+            }
+           ]
+          },
+          {
+           "text": "Shower Arms",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-arms",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-arms",
+             "anchor_text": "Shower Arms"
+            }
+           ]
+          },
+          {
+           "text": "Wall Shower Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-shower-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-shower-mixers",
+             "anchor_text": "Wall Shower Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Wall Diverter Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/wall-diverter-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/wall-diverter-mixers",
+             "anchor_text": "Wall Diverter Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Shower Tap Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-tap-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-tap-sets",
+             "anchor_text": "Shower Tap Sets"
+            }
+           ]
+          },
+          {
+           "text": "Clearance - Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-showers",
+             "anchor_text": "Clearance - Showers"
+            }
+           ]
+          },
+          {
+           "text": "Go to Kitchen",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Sink Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/sink-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/sink-mixers",
+             "anchor_text": "Sink Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Pullout / Pulldown Sink Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/pullout-pulldown-sink-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/pullout-pulldown-sink-mixers",
+             "anchor_text": "Pullout / Pulldown Sink Mixers"
+            }
+           ]
+          },
+          {
+           "text": "3 Piece Sink Tap Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/3-piece-sink-tap-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/3-piece-sink-tap-sets",
+             "anchor_text": "3 Piece Sink Tap Sets"
+            }
+           ]
+          },
+          {
+           "text": "Pot Fillers",
+           "url": "https://www.melbournebathroom.com.au/collections/pot-fillers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/pot-fillers",
+             "anchor_text": "Pot Fillers"
+            }
+           ]
+          },
+          {
+           "text": "Filtered Water Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/filtered-water-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/filtered-water-taps",
+             "anchor_text": "Filtered Water Taps"
+            }
+           ]
+          },
+          {
+           "text": "Smart Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/smart-taps-kitchen",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/smart-taps-kitchen",
+             "anchor_text": "Smart Taps"
+            }
+           ]
+          },
+          {
+           "text": "Boiling & Chilled Water",
+           "url": "https://www.melbournebathroom.com.au/collections/boiling-chilled-water-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/boiling-chilled-water-taps",
+             "anchor_text": "Boiling & Chilled Water"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Kitchen Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-kitchen-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-kitchen-tapware",
+             "anchor_text": "Clearance – Kitchen Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Laundry",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Sink Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/sink-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/sink-mixers",
+             "anchor_text": "Sink Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Pullout / Pulldown Sink Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/pullout-pulldown-sink-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/pullout-pulldown-sink-mixers",
+             "anchor_text": "Pullout / Pulldown Sink Mixers"
+            }
+           ]
+          },
+          {
+           "text": "3 Piece Sink Tap Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/3-piece-sink-tap-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/3-piece-sink-tap-sets",
+             "anchor_text": "3 Piece Sink Tap Sets"
+            }
+           ]
+          },
+          {
+           "text": "Washing Machine Sets",
+           "url": "https://www.melbournebathroom.com.au/collections/washing-machine-sets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/washing-machine-sets",
+             "anchor_text": "Washing Machine Sets"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Laundry Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-laundry-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-laundry-tapware",
+             "anchor_text": "Clearance – Laundry Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Toilet",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Bidet Mixers",
+           "url": "https://www.melbournebathroom.com.au/collections/bidet-mixers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bidet-mixers",
+             "anchor_text": "Bidet Mixers"
+            }
+           ]
+          },
+          {
+           "text": "Bidet Sprays",
+           "url": "https://www.melbournebathroom.com.au/collections/bidet-sprays",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bidet-sprays",
+             "anchor_text": "Bidet Sprays"
+            }
+           ]
+          },
+          {
+           "text": "Cistern mini stops",
+           "url": "https://www.melbournebathroom.com.au/collections/cistern-mini-stops",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/cistern-mini-stops",
+             "anchor_text": "Cistern mini stops"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Toilet Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-toilet-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-toilet-tapware",
+             "anchor_text": "Clearance – Toilet Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Outdoor",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Outdoor Showers",
+           "url": "https://www.melbournebathroom.com.au/collections/outdoor-showers",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/outdoor-showers",
+             "anchor_text": "Outdoor Showers"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/outdoor-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/outdoor-taps",
+             "anchor_text": "Outdoor Taps"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Outdoor Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-outdoor-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-outdoor-tapware",
+             "anchor_text": "Clearance – Outdoor Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Commercial & Care Accessible",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Care Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/care-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/care-taps",
+             "anchor_text": "Care Taps"
+            }
+           ]
+          },
+          {
+           "text": "Smart Sensor Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/smart-sensor-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/smart-sensor-taps",
+             "anchor_text": "Smart Sensor Taps"
+            }
+           ]
+          },
+          {
+           "text": "Time Stop Taps",
+           "url": "https://www.melbournebathroom.com.au/collections/time-stop-taps",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/time-stop-taps",
+             "anchor_text": "Time Stop Taps"
+            }
+           ]
+          },
+          {
+           "text": "Clearance – Commercial Range",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-commercial-range",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-commercial-range",
+             "anchor_text": "Clearance – Commercial Range"
+            }
+           ]
+          },
+          {
+           "text": "Go to Sink Types",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Kitchen Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/kitchen-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/kitchen-sinks",
+             "anchor_text": "Kitchen Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Laundry Sinks & Troughs",
+           "url": "https://www.melbournebathroom.com.au/collections/laundry-sinks-troughs",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/laundry-sinks-troughs",
+             "anchor_text": "Laundry Sinks & Troughs"
+            }
+           ]
+          },
+          {
+           "text": "Granite Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/granite-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/granite-sinks",
+             "anchor_text": "Granite Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Fireclay Butler Sink",
+           "url": "https://www.melbournebathroom.com.au/collections/butler-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/butler-sinks",
+             "anchor_text": "Fireclay Butler Sink"
+            }
+           ]
+          },
+          {
+           "text": "Sink Wastes & Accessories",
+           "url": "https://www.melbournebathroom.com.au/collections/sink-waste-and-accessories",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/sink-waste-and-accessories",
+             "anchor_text": "Sink Wastes & Accessories"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-sinks",
+             "anchor_text": "Clearance Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Go to Sink Colours",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Black Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/black-sink",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/black-sink",
+             "anchor_text": "Black Sinks"
+            }
+           ]
+          },
+          {
+           "text": "White Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/white-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/white-sinks",
+             "anchor_text": "White Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Stainless Steel Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/stainless-steel-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/stainless-steel-sinks",
+             "anchor_text": "Stainless Steel Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Gold / Brass Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/gold-brass-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/gold-brass-sinks",
+             "anchor_text": "Gold / Brass Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Gunmetal Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/gunmetal-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/gunmetal-sinks",
+             "anchor_text": "Gunmetal Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Go to Sinks By Design",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Small Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/small-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/small-sinks",
+             "anchor_text": "Small Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Undermount Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/undermount-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/undermount-sinks",
+             "anchor_text": "Undermount Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Single Bowl Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/single-bowl-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/single-bowl-sinks",
+             "anchor_text": "Single Bowl Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Double Bowl Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/double-bowl-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/double-bowl-sinks",
+             "anchor_text": "Double Bowl Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Sinks with Drainer",
+           "url": "https://www.melbournebathroom.com.au/collections/sinks-with-drainer",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/sinks-with-drainer",
+             "anchor_text": "Sinks with Drainer"
+            }
+           ]
+          },
+          {
+           "text": "Top Mount Sinks",
+           "url": "https://www.melbournebathroom.com.au/collections/top-mount-sinks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/top-mount-sinks",
+             "anchor_text": "Top Mount Sinks"
+            }
+           ]
+          },
+          {
+           "text": "Go to Kitchen Appliances",
+           "url": "https://www.melbournebathroom.com.au/collections/kitchen-appliances",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/kitchen-appliances",
+             "anchor_text": "Go to Kitchen Appliances"
+            }
+           ]
+          },
+          {
+           "text": "Go to Bathroom Accessories",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Toilet Roll Holders",
+           "url": "https://www.melbournebathroom.com.au/collections/toilet-roll-holders",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/toilet-roll-holders",
+             "anchor_text": "Toilet Roll Holders"
+            }
+           ]
+          },
+          {
+           "text": "Single Towel Rails",
+           "url": "https://www.melbournebathroom.com.au/collections/single-towel-rails",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/single-towel-rails",
+             "anchor_text": "Single Towel Rails"
+            }
+           ]
+          },
+          {
+           "text": "Double Towel Rails",
+           "url": "https://www.melbournebathroom.com.au/collections/double-towel-rails",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/double-towel-rails",
+             "anchor_text": "Double Towel Rails"
+            }
+           ]
+          },
+          {
+           "text": "Hand Towel Holders",
+           "url": "https://www.melbournebathroom.com.au/collections/hand-towel-rails",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/hand-towel-rails",
+             "anchor_text": "Hand Towel Holders"
+            }
+           ]
+          },
+          {
+           "text": "Towel Rings",
+           "url": "https://www.melbournebathroom.com.au/collections/towel-rings",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/towel-rings",
+             "anchor_text": "Towel Rings"
+            }
+           ]
+          },
+          {
+           "text": "Robe Hooks",
+           "url": "https://www.melbournebathroom.com.au/collections/robe-hooks",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/robe-hooks",
+             "anchor_text": "Robe Hooks"
+            }
+           ]
+          },
+          {
+           "text": "Heated Towel Rails",
+           "url": "https://www.melbournebathroom.com.au/collections/heated-towel-rails",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/heated-towel-rails",
+             "anchor_text": "Heated Towel Rails"
+            }
+           ]
+          },
+          {
+           "text": "Towel Ladders",
+           "url": "https://www.melbournebathroom.com.au/collections/towel-ladders",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/towel-ladders",
+             "anchor_text": "Towel Ladders"
+            }
+           ]
+          },
+          {
+           "text": "Shower Shelves",
+           "url": "https://www.melbournebathroom.com.au/collections/shower-shelves",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/shower-shelves",
+             "anchor_text": "Shower Shelves"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Bathroom Accessories",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-bathroom-accessories",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-bathroom-accessories",
+             "anchor_text": "Clearance Bathroom Accessories"
+            }
+           ]
+          },
+          {
+           "text": "Go to Heaters & Exhaust",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Heaters & Exhaust Fans",
+           "url": "https://www.melbournebathroom.com.au/collections/heaters-exhaust-fans",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/heaters-exhaust-fans",
+             "anchor_text": "Heaters & Exhaust Fans"
+            }
+           ]
+          },
+          {
+           "text": "Go to Plugs & Wastes",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Basin Wastes",
+           "url": "https://www.melbournebathroom.com.au/collections/basin-wastes",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/basin-wastes",
+             "anchor_text": "Basin Wastes"
+            }
+           ]
+          },
+          {
+           "text": "Shower Wastes",
+           "url": "https://www.melbournebathroom.com.au/collections/floor-wastes",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/floor-wastes",
+             "anchor_text": "Shower Wastes"
+            }
+           ]
+          },
+          {
+           "text": "Bath Wastes",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-waste-plugs",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-waste-plugs",
+             "anchor_text": "Bath Wastes"
+            }
+           ]
+          },
+          {
+           "text": "Go to Mirrors & Storage",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Bathroom Mirrors",
+           "url": "https://www.melbournebathroom.com.au/collections/mirrors",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/mirrors",
+             "anchor_text": "Bathroom Mirrors"
+            }
+           ]
+          },
+          {
+           "text": "Mirrors Cabinets",
+           "url": "https://www.melbournebathroom.com.au/collections/mirrored-shaving",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/mirrored-shaving",
+             "anchor_text": "Mirrors Cabinets"
+            }
+           ]
+          },
+          {
+           "text": "LED Mirrors New",
+           "url": "https://www.melbournebathroom.com.au/collections/led-mirrors",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/led-mirrors",
+             "anchor_text": "LED MirrorsNew"
+            }
+           ]
+          },
+          {
+           "text": "LED Mirror Cabinet",
+           "url": "https://www.melbournebathroom.com.au/collections/led-mirror-cabinets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/led-mirror-cabinets",
+             "anchor_text": "LED Mirror Cabinet"
+            }
+           ]
+          },
+          {
+           "text": "Storage Cabinets & Tallboys",
+           "url": "https://www.melbournebathroom.com.au/collections/storage-cabinets-tallboys",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/storage-cabinets-tallboys",
+             "anchor_text": "Storage Cabinets & Tallboys"
+            }
+           ]
+          },
+          {
+           "text": "Clearance Mirror Storage",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-mirrors-storage",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-mirrors-storage",
+             "anchor_text": "Clearance Mirror Storage"
+            }
+           ]
+          },
+          {
+           "text": "Go to Spare Parts",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Bath Spare Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/bath-spare-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/bath-spare-parts",
+             "anchor_text": "Bath Spare Parts"
+            }
+           ]
+          },
+          {
+           "text": "Tapware Spare Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/tapware-spare-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/tapware-spare-parts",
+             "anchor_text": "Tapware Spare Parts"
+            }
+           ]
+          },
+          {
+           "text": "Vanity Spare Parts",
+           "url": "https://www.melbournebathroom.com.au/collections/vanity-spare-parts",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/vanity-spare-parts",
+             "anchor_text": "Vanity Spare Parts"
+            }
+           ]
+          },
+          {
+           "text": "Go to Care Accessories",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Care Accessories Products",
+           "url": "https://www.melbournebathroom.com.au/collections/care-accessories-products",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/care-accessories-products",
+             "anchor_text": "Care Accessories Products"
+            }
+           ]
+          },
+          {
+           "text": "Go to Care Basins",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Commercial/Care Basins",
+           "url": "https://www.melbournebathroom.com.au/collections/care-basins",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/care-basins",
+             "anchor_text": "Commercial/Care Basins"
+            }
+           ]
+          },
+          {
+           "text": "Go to Care Tapware",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Commercial/Care Tapware",
+           "url": "https://www.melbournebathroom.com.au/collections/commercial-care-tapware",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/commercial-care-tapware",
+             "anchor_text": "Commercial/Care Tapware"
+            }
+           ]
+          },
+          {
+           "text": "Go to Care Toilets",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Commercial/Care Toilets",
+           "url": "https://www.melbournebathroom.com.au/collections/commercial-toilets",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/commercial-toilets",
+             "anchor_text": "Commercial/Care Toilets"
+            }
+           ]
+          },
+          {
+           "text": "Go to Clearance Care",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Clearance Care",
+           "url": "https://www.melbournebathroom.com.au/collections/clearance-care",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/clearance-care",
+             "anchor_text": "Clearance Care"
+            }
+           ]
+          },
+          {
+           "text": "Go to By Type",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Laminate Flooring",
+           "url": "https://www.melbournebathroom.com.au/collections/laminate-flooring",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/laminate-flooring",
+             "anchor_text": "Laminate Flooring"
+            }
+           ]
+          },
+          {
+           "text": "Hybrid Flooring",
+           "url": "https://www.melbournebathroom.com.au/collections/hybrid-flooring",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/hybrid-flooring",
+             "anchor_text": "Hybrid Flooring"
+            }
+           ]
+          },
+          {
+           "text": "Engineered Timber Flooring",
+           "url": "https://www.melbournebathroom.com.au/collections/engineered-timber-flooring",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/engineered-timber-flooring",
+             "anchor_text": "Engineered Timber Flooring"
+            }
+           ]
+          },
+          {
+           "text": "Parquetry Flooring",
+           "url": "https://www.melbournebathroom.com.au/collections/parquetry-flooring",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/parquetry-flooring",
+             "anchor_text": "Parquetry Flooring"
+            }
+           ]
+          },
+          {
+           "text": "Stair Nosings",
+           "url": "https://www.melbournebathroom.com.au/collections/stair-nosings",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/stair-nosings",
+             "anchor_text": "Stair Nosings"
+            }
+           ]
+          },
+          {
+           "text": "Solid Timber Flooring",
+           "url": "https://www.melbournebathroom.com.au/collections/solid-timber-flooring",
+           "urls": [
+            {
+             "url": "https://www.melbournebathroom.com.au/collections/solid-timber-flooring",
+             "anchor_text": "Solid Timber Flooring"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Smart Toilets",
+          "main_title": "Smart Toilets",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Price, low to high",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Price, high to low",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, old to new",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, new to old",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "© 2026 Melbourne Bathroom Shop. All Rights Reserved.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Choosing a selection results in a full page refresh.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "This email has been registered!",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "this is just a warning",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Most relevant",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Best selling",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, A-Z",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, Z-A",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Contact us",
+            "url": "https://www.melbournebathroom.com.au/pages/contact-us",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/contact-us",
+              "anchor_text": "Contact us"
+             }
+            ]
+           },
+           {
+            "text": "Schedule an Appointment",
+            "url": "https://www.melbournebathroom.com.au/pages/booking",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/booking",
+              "anchor_text": "Schedule an Appointment"
+             }
+            ]
+           },
+           {
+            "text": "Trade Account",
+            "url": "https://trade.melbournebathroom.com.au/",
+            "urls": [
+             {
+              "url": "https://trade.melbournebathroom.com.au/",
+              "anchor_text": "Trade Account"
+             }
+            ]
+           },
+           {
+            "text": "Warranty & Returns Form",
+            "url": "https://www.melbournebathroom.com.au/pages/warranty-returns",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/warranty-returns",
+              "anchor_text": "Warranty & Returns Form"
+             }
+            ]
+           },
+           {
+            "text": "Areas We Serve",
+            "url": "https://www.melbournebathroom.com.au/pages/areas-we-serve",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/areas-we-serve",
+              "anchor_text": "Areas We Serve"
+             }
+            ]
+           },
+           {
+            "text": "About us",
+            "url": "https://www.melbournebathroom.com.au/pages/about-us",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/about-us",
+              "anchor_text": "About us"
+             }
+            ]
+           },
+           {
+            "text": "Customer Reviews",
+            "url": "https://www.melbournebathroom.com.au/pages/customer-reviews",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/customer-reviews",
+              "anchor_text": "Customer Reviews"
+             }
+            ]
+           },
+           {
+            "text": "Price Match Guarantee",
+            "url": "https://www.melbournebathroom.com.au/pages/price-match",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/price-match",
+              "anchor_text": "Price Match Guarantee"
+             }
+            ]
+           },
+           {
+            "text": "Warranty Policy",
+            "url": "https://www.melbournebathroom.com.au/pages/warranty-policy",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/warranty-policy",
+              "anchor_text": "Warranty Policy"
+             }
+            ]
+           },
+           {
+            "text": "Shipping Policy",
+            "url": "https://www.melbournebathroom.com.au/pages/pickup-delivery",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/pickup-delivery",
+              "anchor_text": "Shipping Policy"
+             }
+            ]
+           },
+           {
+            "text": "Return & Change of Mind Policy",
+            "url": "https://www.melbournebathroom.com.au/pages/refunds-policy",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/refunds-policy",
+              "anchor_text": "Return & Change of Mind Policy"
+             }
+            ]
+           },
+           {
+            "text": "Privacy Policy",
+            "url": "https://www.melbournebathroom.com.au/pages/privacy-policy",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/privacy-policy",
+              "anchor_text": "Privacy Policy"
+             }
+            ]
+           },
+           {
+            "text": "Terms & Conditions",
+            "url": "https://www.melbournebathroom.com.au/pages/terms-conditions",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/pages/terms-conditions",
+              "anchor_text": "Terms & Conditions"
+             }
+            ]
+           },
+           {
+            "text": "Shower Screens",
+            "url": "https://www.melbournebathroom.com.au/collections/shower-screens",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/collections/shower-screens",
+              "anchor_text": "Shower Screens"
+             }
+            ]
+           },
+           {
+            "text": "Tapware & Showers",
+            "url": "https://www.melbournebathroom.com.au/collections/tapware-shower",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/collections/tapware-shower",
+              "anchor_text": "Tapware & Showers"
+             }
+            ]
+           },
+           {
+            "text": "Kitchen & Laundry",
+            "url": "https://www.melbournebathroom.com.au/collections/sinks",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/collections/sinks",
+              "anchor_text": "Kitchen & Laundry"
+             }
+            ]
+           },
+           {
+            "text": "Commercial & Care",
+            "url": "https://www.melbournebathroom.com.au/collections/commercial",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/collections/commercial",
+              "anchor_text": "Commercial & Care"
+             }
+            ]
+           },
+           {
+            "text": "Shop 1A, 214-218 Whitehorse Rd, Blackburn VIC 3130",
+            "url": "https://g.page/melbournebathroom?share",
+            "urls": [
+             {
+              "url": "https://g.page/melbournebathroom?share",
+              "anchor_text": "Shop 1A, 214-218 Whitehorse Rd, Blackburn VIC 3130"
+             }
+            ]
+           },
+           {
+            "text": "Opening Hours",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mon – Fri: 9.00am to 5.00pm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Saturday: 10.00am to 4.00pm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sunday by appointment only",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Call us at 03 8822 3368 / 0416 889 877",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "American Express",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Apple Pay",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Google Pay",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Shop Pay",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "user Account",
+            "url": "https://www.melbournebathroom.com.au/customer_authentication/redirect?locale=en&region_country=AU",
+            "urls": [
+             {
+              "url": "https://www.melbournebathroom.com.au/customer_authentication/redirect?locale=en&region_country=AU",
+              "anchor_text": "user\nAccount"
+             }
+            ]
+           },
+           {
+            "text": "Cart 0 0 items",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Thanks for subscribing!",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Facebook Facebook",
+            "url": "https://www.facebook.com/melbournebathroom/",
+            "urls": [
+             {
+              "url": "https://www.facebook.com/melbournebathroom/",
+              "anchor_text": "Facebook"
+             }
+            ]
+           },
+           {
+            "text": "Instagram Instagram",
+            "url": "https://www.instagram.com/melbournebathroom/",
+            "urls": [
+             {
+              "url": "https://www.instagram.com/melbournebathroom/",
+              "anchor_text": "Instagram"
+             }
+            ]
+           },
+           {
+            "text": "Twitter Twitter",
+            "url": "https://twitter.com/Melbathroomshop/",
+            "urls": [
+             {
+              "url": "https://twitter.com/Melbathroomshop/",
+              "anchor_text": "Twitter"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Sort by:",
+          "main_title": "Smart Toilets",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Price, low to high",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Price, high to low",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, old to new",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, new to old",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Back To Wall Smart Bidet Suite The Smart Bidet Toilet Suite features a hidden water and electrical supply point. This design element ensures a clean and streamlined look by concealing the water and electrical connections within the unit. Additionally, this feature helps prevent potential...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Features:\nRimless Tornado Smart Toilet\nExtra Height\nAuto Lid\nSeat heating\nFeminine/Rear wash\nWarm air drying\nHot/Cold Massage\nWater heating\nSoft closing\nRemote controller\nSide Control Knob with Soft Night Light\nAVB - High Hazard Backflow Prevention Device",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Touchless Sensor Button\nThe sensor touchless push plate and concealed cistern system can be installed with various pan options such as the Java pan\nVoltage Input: 100-240V AC 50-60HZ; Output: 12v DC/06Amp",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Features:\nWarranty: Smart Seat & Toilet - 2 years on parts & in-house labour; In wall cistern - 10 years on parts & 2 years labour; Flush Plate & Valves - 2 years",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Features: Microwave Sensor, Foot Sensor, Auto Flushing, Siphon Flushing, Power Outage Flushing, Activated Carbon Deodorization, Instant Heating, Heated Seat, Warm Air Drying, Damping Close Lid, Nozzle Self-Cleaning, Water Pressure Control, Tube Adjustment, Water Temperature Control, Night Light, Rear Wash, Front Wash, Center Wash, Cold...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Adjustable water temperature and pressure: You can customize the water temperature and pressure to your liking, ensuring a comfortable and refreshing cleansing experience. Rear and front cleansing: The bidet seat provides both rear and front cleansing options, allowing for thorough and gentle cleaning. Warm...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Features: Modern wall-faced design with rimless vortex and comes with an integrated in-tank cistern No in-wall cistern is required due to the integrated in-tank cistern No RPZ valve is required The Tornado Flush delivers superior performance with a highly efficient, hygienic, quiet, yet powerful...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "*Size:730 x 410 x 845mm Hands Free Rimless Tornado Flush WELS rating: 4 star, 4.6L/3.0L (3.5 litres per flush) Built in Backflow prevention valve. Back (LH top), Left or Right Bottom inlet connection Available in S-Trap or P-Trap S-Trap: 160-260mm P-Trap:180mm IP rating: lPX4...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lafeme Thea Luxury Bidet Seat 505mm X 375mm X 93mm Gloss White Maximum Power 1150W Operational By Side Control & Remote Ultra Thin Cover Design Auto Lid Heated Seat Feminine / Rear Wash Warm Air Drying Hot / Cold Massage Soft Closing AVB-High Hazard...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Z-Tech Heated Toilet Seat Suitable for all Zumi back to wall toilet suites and toilets that meet the required measurement Seat Soft Closing Quick Release Certificate SAA APPROVED Installation Same as normal toilet SeatPower cord on right hand side when facing the toilet The...",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Smart Toilets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Smart toilets are a premium upgrade for modern bathrooms, combining toilet, bidet seat and advanced hygiene features in one sleek design. With functions such as integrated washing, remote control operation and comfort-focused settings on selected models, they offer a cleaner, more convenient and more luxurious everyday experience. Ideal for ensuites, family bathrooms, accessible-friendly renovations and customers looking for a modern Japanese-style toilet solution. Smart toilets also help create a high-end bathroom finish while improving personal hygiene and daily comfort. Explore smart toilets at Melbourne Bathroom Shop.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Most relevant",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Best selling",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, A-Z",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, Z-A",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 323687726",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 102086048",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 462521790",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 322501503",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 689210058",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 709705409",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 486126601",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 908497936",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 028962618",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 336565622",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "SKU: 273524807",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "secondary_topic": null,
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "03 8822 3368"
+         ],
+         "emails": [
+          "info@melbournebathroom.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,663 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "7.7221 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0495-0000-2afdbe1d9881",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "7.1328 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.shadeforlife.com.au/products/retractable-roof-systems/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:28:00 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "CALL US TODAY 9587 5296",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Semi Cassette Folding Arm Awnings",
+           "url": "https://www.shadeforlife.com.au/products/semi-cassette-folding-arm-awnings-pr200/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/semi-cassette-folding-arm-awnings-pr200/",
+             "anchor_text": "Semi Cassette Folding Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Full Cassette Folding Arm Awnings",
+           "url": "https://www.shadeforlife.com.au/products/full-cassette-folding-arm-awnings-bx260/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/full-cassette-folding-arm-awnings-bx260/",
+             "anchor_text": "Full Cassette Folding Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Open Roll",
+           "url": "https://www.shadeforlife.com.au/products/open-roll/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/open-roll/",
+             "anchor_text": "Open Roll"
+            }
+           ]
+          },
+          {
+           "text": "Toga Awnings",
+           "url": "https://www.shadeforlife.com.au/products/toga-awnings/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/toga-awnings/",
+             "anchor_text": "Toga Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Awnings",
+           "url": "https://www.shadeforlife.com.au/products/retractable-awnings/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/retractable-awnings/",
+             "anchor_text": "Retractable Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Exterior Vertical Blinds",
+           "url": "https://www.shadeforlife.com.au/products/exterior-vertical-blinds/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/exterior-vertical-blinds/",
+             "anchor_text": "Exterior Vertical Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Skylight Blinds",
+           "url": "https://www.shadeforlife.com.au/products/skylight-blinds/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/skylight-blinds/",
+             "anchor_text": "Skylight Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Exterior Venetian Blinds",
+           "url": "https://www.shadeforlife.com.au/products/exterior-venetian-blinds/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/exterior-venetian-blinds/",
+             "anchor_text": "Exterior Venetian Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Dutch Hood Canopy",
+           "url": "https://www.shadeforlife.com.au/products/dutch-hood-canopy/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/dutch-hood-canopy/",
+             "anchor_text": "Dutch Hood Canopy"
+            }
+           ]
+          },
+          {
+           "text": "French Canopy",
+           "url": "https://www.shadeforlife.com.au/products/french-canopy/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/french-canopy/",
+             "anchor_text": "French Canopy"
+            }
+           ]
+          },
+          {
+           "text": "Wedge Canopy",
+           "url": "https://www.shadeforlife.com.au/products/wedge-canopy/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/wedge-canopy/",
+             "anchor_text": "Wedge Canopy"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Umbrellas",
+           "url": "https://www.shadeforlife.com.au/products/outdoor-umbrellas/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/outdoor-umbrellas/",
+             "anchor_text": "Outdoor Umbrellas"
+            }
+           ]
+          },
+          {
+           "text": "Aluminium Window Shutters",
+           "url": "https://www.shadeforlife.com.au/products/aluminium-window-shutters/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/products/aluminium-window-shutters/",
+             "anchor_text": "Aluminium Window Shutters"
+            }
+           ]
+          },
+          {
+           "text": "Video Gallery",
+           "url": "https://www.shadeforlife.com.au/video-gallery/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/video-gallery/",
+             "anchor_text": "Video Gallery"
+            }
+           ]
+          },
+          {
+           "text": "About Us",
+           "url": "https://www.shadeforlife.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "No Interest Ever",
+           "url": "https://www.shadeforlife.com.au/faq/no-interest-ever/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/faq/no-interest-ever/",
+             "anchor_text": "No Interest Ever"
+            }
+           ]
+          },
+          {
+           "text": "How to Select Folding Arm Awnings",
+           "url": "https://www.shadeforlife.com.au/faq/how-to-select-folding-arm-awnings/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/faq/how-to-select-folding-arm-awnings/",
+             "anchor_text": "How to Select Folding Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Roof System’s FAQ",
+           "url": "https://www.shadeforlife.com.au/faq/retractable-roof-systems-faq/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/faq/retractable-roof-systems-faq/",
+             "anchor_text": "Retractable Roof System’s FAQ"
+            }
+           ]
+          },
+          {
+           "text": "Contact Us",
+           "url": "https://www.shadeforlife.com.au/contact-us/",
+           "urls": [
+            {
+             "url": "https://www.shadeforlife.com.au/contact-us/",
+             "anchor_text": "Contact Us"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Retractable Pergola Systems",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Shade for All Seasons",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "At last, you can put an outdoor roof over your head with Shade for Life top-end retractable systems at Melbourne’s most attractive prices. Retractable Pergola Systems (also called retractable roof systems) are the latest must-have trend for creating a distinctive outdoor room.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "You can’t control the weather, but you can control your lifestyle – get a climate advantage and put the power in your hands with jam-free remote control operation.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Precision engineering and architectural quality at an attractive price – sophisticated European know-how and Aussie smarts combine to offer you innovative technology for your price point.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Add value to your home – a smart investment in your home that will be enjoyed for years, and return tenfold over time. Add lighting, timber cladding, vertical blinds and heating as desired.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "A Shade for Life retractable pergola system is just like a roof, but better! – As Australia’s market leaders, Shade for Life is ahead in attention to detail, service, price and quality.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Need plans, permits, lighting or design advice? – Ask us how, we have over 10 years of experience and a reputation that you can rely on.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Explore our quality range of retractable systems today….",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "SHOWROOM LOCATION",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Unit 4/19 Mills Road Braeside Vic 3195",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Terms of Use",
+            "url": "https://www.shadeforlife.com.au/terms-of-use/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/terms-of-use/",
+              "anchor_text": "Terms of Use"
+             }
+            ]
+           },
+           {
+            "text": "Privacy Policy",
+            "url": "https://www.shadeforlife.com.au/privacy-policy/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/privacy-policy/",
+              "anchor_text": "Privacy Policy"
+             }
+            ]
+           },
+           {
+            "text": "© 2016 Shade For Life. All Rights Reserved",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "IZI",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Be inspired to live your dream every day, in an outdoor oasis you love. It’s easy with IZI.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "IZI easily integrates into existing structures, or can have support poles built in, to transform your pergola or patio into a tranquil haven.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "MUSE",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Imagine being able to enjoy elegant and sophisticated outdoor living all year round at the touch of a button. Let MUSE inspire you!",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "MUSE is an adaptable all-rounder that will instantly create a beautiful sanctuary for alfresco living.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "TERA",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "For those who appreciate design innovation and a luxury look in seamless indoor-outdoor living.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "TERA is your genius retractable solution that will add panache to your spacious patio, deck or terrace areas.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "HARBOUR",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Stand out from the crowd with grand entertaining and generous style, safely sheltered under a full-dome roof.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "HARBOUR is exquisite for creating spacious pavilioned roof covering over outdoor areas. Superb for restaurants, beer gardens and wineries.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "HALO",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "For when you want your generous outdoor zone to radiate welcoming architectural sophistication.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "HALO’s semi-dome retractable cover can be customised to integrate with your lifestyle home or to create impressive commercial alfresco areas.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "Check our Project Gallery",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Residential | Commercial",
+            "url": "https://www.shadeforlife.com.au/residential/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/residential/",
+              "anchor_text": "Residential"
+             },
+             {
+              "url": "https://www.shadeforlife.com.au/commercial/",
+              "anchor_text": "Commercial"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Check our Video Gallery",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Check our Video Gallery",
+            "url": "https://www.shadeforlife.com.au/video-gallery/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/video-gallery/",
+              "anchor_text": "Check our Video Gallery"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "More Information",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "PDF Fabric Choices",
+            "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/DicksonLAC650%E2%81%83FabricChoices.pdf",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/DicksonLAC650%E2%81%83FabricChoices.pdf",
+              "anchor_text": "PDF Fabric Choices"
+             }
+            ]
+           },
+           {
+            "text": "PDF Powder Coat Colours",
+            "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/Dulux-Powder-Coat-Colour-Chart.pdf",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/Dulux-Powder-Coat-Colour-Chart.pdf",
+              "anchor_text": "PDF Powder Coat Colours"
+             }
+            ]
+           },
+           {
+            "text": "PDF Automation Options",
+            "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/Somfy-AutomationOptions.pdf",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/wp-content/uploads/2016/08/Somfy-AutomationOptions.pdf",
+              "anchor_text": "PDF Automation Options"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Products",
+          "main_title": "Retractable Pergola Systems",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Semi Cassette",
+            "url": "https://www.shadeforlife.com.au/products/semi-cassette-folding-arm-awnings-pr200/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/semi-cassette-folding-arm-awnings-pr200/",
+              "anchor_text": "Semi Cassette"
+             }
+            ]
+           },
+           {
+            "text": "Full Cassette Folding Arm Awnings",
+            "url": "https://www.shadeforlife.com.au/products/full-cassette-folding-arm-awnings-bx260/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/full-cassette-folding-arm-awnings-bx260/",
+              "anchor_text": "Full Cassette Folding Arm Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Open Roll",
+            "url": "https://www.shadeforlife.com.au/products/open-roll/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/open-roll/",
+              "anchor_text": "Open Roll"
+             }
+            ]
+           },
+           {
+            "text": "Toga Awnings",
+            "url": "https://www.shadeforlife.com.au/products/toga-awnings/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/toga-awnings/",
+              "anchor_text": "Toga Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Retractable Awnings",
+            "url": "https://www.shadeforlife.com.au/products/retractable-awnings/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/retractable-awnings/",
+              "anchor_text": "Retractable Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Exterior Vertical Blinds",
+            "url": "https://www.shadeforlife.com.au/products/exterior-vertical-blinds/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/exterior-vertical-blinds/",
+              "anchor_text": "Exterior Vertical Blinds"
+             }
+            ]
+           },
+           {
+            "text": "Skylight Blinds",
+            "url": "https://www.shadeforlife.com.au/products/skylight-blinds/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/skylight-blinds/",
+              "anchor_text": "Skylight Blinds"
+             }
+            ]
+           },
+           {
+            "text": "Exterior Venetian Blinds",
+            "url": "https://www.shadeforlife.com.au/products/exterior-venetian-blinds/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/exterior-venetian-blinds/",
+              "anchor_text": "Exterior Venetian Blinds"
+             }
+            ]
+           },
+           {
+            "text": "Canopy Awnings",
+            "url": "https://www.shadeforlife.com.au/products/canopy-awnings/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/canopy-awnings/",
+              "anchor_text": "Canopy Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Outdoor Umbrellas",
+            "url": "https://www.shadeforlife.com.au/products/outdoor-umbrellas/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/outdoor-umbrellas/",
+              "anchor_text": "Outdoor Umbrellas"
+             }
+            ]
+           },
+           {
+            "text": "Aluminium Window Shutters",
+            "url": "https://www.shadeforlife.com.au/products/aluminium-window-shutters/",
+            "urls": [
+             {
+              "url": "https://www.shadeforlife.com.au/products/aluminium-window-shutters/",
+              "anchor_text": "Aluminium Window Shutters"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "9587 5296"
+         ],
+         "emails": null
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,938 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "8.3208 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0495-0000-6e36e05f3db1",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "8.0804 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:27:13 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "About Us",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "Canopy Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+             "anchor_text": "Canopy Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Conservatory and Pergola Shades",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+             "anchor_text": "Conservatory and Pergola Shades"
+            }
+           ]
+          },
+          {
+           "text": "Covered Melbourne",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/covered-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/covered-melbourne/",
+             "anchor_text": "Covered Melbourne"
+            }
+           ]
+          },
+          {
+           "text": "Drop Arm Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+             "anchor_text": "Drop Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Folding Arm Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+             "anchor_text": "Folding Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Blinds and Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/outdoor-blinds-and-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/outdoor-blinds-and-awnings/",
+             "anchor_text": "Outdoor Blinds and Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Awning Motorisation",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-awning-motorisation/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-awning-motorisation/",
+             "anchor_text": "Retractable Awning Motorisation"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Roof and Pergola Systems",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+             "anchor_text": "Retractable Roof and Pergola Systems"
+            }
+           ]
+          },
+          {
+           "text": "Contact Us",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+             "anchor_text": "Contact Us"
+            }
+           ]
+          },
+          {
+           "text": "About Us",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "Canopy Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+             "anchor_text": "Canopy Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Conservatory and Pergola Shades",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+             "anchor_text": "Conservatory and Pergola Shades"
+            }
+           ]
+          },
+          {
+           "text": "Covered Melbourne",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/covered-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/covered-melbourne/",
+             "anchor_text": "Covered Melbourne"
+            }
+           ]
+          },
+          {
+           "text": "Drop Arm Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+             "anchor_text": "Drop Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Folding Arm Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+             "anchor_text": "Folding Arm Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Blinds and Awnings",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/outdoor-blinds-and-awnings/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/outdoor-blinds-and-awnings/",
+             "anchor_text": "Outdoor Blinds and Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Awning Motorisation",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-awning-motorisation/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-awning-motorisation/",
+             "anchor_text": "Retractable Awning Motorisation"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Roof and Pergola Systems",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+             "anchor_text": "Retractable Roof and Pergola Systems"
+            }
+           ]
+          },
+          {
+           "text": "Contact Us",
+           "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+           "urls": [
+            {
+             "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+             "anchor_text": "Contact Us"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Visit Us",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Retractable Pergola Systems",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Warehouse: 40/23-25 Bunney RD, Oakleigh South VIC 3167/",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Display Centre: 215A Nepean HWY, Brighton VIC 3185",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "© Copyright 2026. Pergola Systems Victoria. All Rights Reserved. Million Hits",
+            "url": "https://millionhits.com.au/",
+            "urls": [
+             {
+              "url": "https://millionhits.com.au/",
+              "anchor_text": "Million Hits"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 1,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Weinor Pergotex ll Retractable Pergola",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Weinor WGM Top NEW design Opti-Stretch",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Weinor for the Ultimate experience in Folding arm awnings",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Rising Flat",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "The Rising Flat retractable pergola system offers a stylish covering to allow outdoor areas to…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Rising Flat",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-flat/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-flat/",
+              "anchor_text": "Rising Flat"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Weinor Paravento",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Paravento | Side Panel Awning Offering protection from bright sun and cooler winds, Paravento…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Weinor Paravento",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/weinor-paravento/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/weinor-paravento/",
+              "anchor_text": "Weinor Paravento"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Rising BioClimatic Louvre Pergolas",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "B CUBE CLASSIC B Cube Classic Judged over a period of time to be…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Rising BioClimatic Louvre Pergolas",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-bioclimatic-louvre-pergolas/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-bioclimatic-louvre-pergolas/",
+              "anchor_text": "Rising BioClimatic Louvre Pergolas"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Rising Retractable Pergolas",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "The Rising retractable pergola system provides the user with a designer outdoor covering to…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Rising Retractable Pergolas",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-retractable-pergolas/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/rising-retractable-pergolas/",
+              "anchor_text": "Rising Retractable Pergolas"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Bow Canopy",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Description A Florentine design Bow Canopy from Retractable Awning Geelong adds a touch of Mediterranean style…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Bow Canopy",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/bow-canopy/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/bow-canopy/",
+              "anchor_text": "Bow Canopy"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Spring Wedge",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Minimalist design used widely in domestichomes as an entrance canopy Sun & rain protection…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Spring Wedge",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/spring-wedge/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/spring-wedge/",
+              "anchor_text": "Spring Wedge"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Wedge",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Wedge CanopyFeaturing simple, clean-line design preferred by Architects. Featuring: An ideal weather protection solution…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Wedge",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/wedge/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/wedge/",
+              "anchor_text": "Wedge"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "French Canopy",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Retractable Pergola Systems Victoria's French canopies are constructed with extruded aluminium frames or optionally…",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "French Canopy",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product/french-canopy/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product/french-canopy/",
+              "anchor_text": "French Canopy"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "RETRACTABLE PERGOLA SYSTEMS VICTORIA – LEADING PROVIDERS OF SHADE SYSTEMS & RETRACTABLE AWNINGS IN MELBOURNE",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 1,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Your Local Distributors of European All Weather Awnings and More",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Ever wished you could entertain family and friends at home more often, or accommodate more customers at your Melbourne cafe or restaurant, but the physical indoor space makes it impossible? Transform your property by adding stylish external awnings from Retractable Pergola Systems Victoria that allow you to extend the indoors outdoors.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "THE VERY BEST AWNINGS IN MELBOURNE",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "We’re proud to stock the very best in European designed external blinds and awnings that will suit any Melbourne home or business. With a range of options to choose from, you’ll be able to create the ultimate covered entertaining area that guests and customers will be clamouring to enjoy. In addition to balcony awnings and retractable pergola awnings, we also offer extendable shade awnings and canopies that can provide windows, doors and other areas with effective protection from sun, heat, rain or wind.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Pergola Systems Victoria covers areas from Melbourne to Geelong and Melbourne to Portsea, covering Port Arlington, Apollo Bay, Lorne, Colac, Bacchus Marsh, Melton, Caroline Springs, Sunbury, Wallen, Kilmore, Seymour, Shepparton, Mansfield, Brighton, Frankston, Berwick, Portsea and beyond. We also aim to cover all the western areas and eastern Suburbs too – we don’t want anyone to miss out on benefitting from our external awnings in Melbourne!",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/apollo-bay/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/apollo-bay/",
+              "anchor_text": "Apollo Bay"
+             },
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/caroline-springs/",
+              "anchor_text": "Caroline Springs"
+             },
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/sunbury/",
+              "anchor_text": "Sunbury"
+             },
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/products/",
+              "anchor_text": "external awnings in Melbourne!"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "ENJOY THE MANY BENEFITS OF RETRACTABLE AWNINGS AND BLINDS",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Retractable awnings and blinds aren’t simply about extending your home or business into the outdoors; they also offer a wealth of additional benefits as well. Whether you’re looking for pergola shade systems or you need exterior canvas awnings, the benefits of getting retractable awnings in Melbourne include:",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+              "anchor_text": "pergola shade systems"
+             }
+            ]
+           },
+           {
+            "text": "As the sun goes down, the last thing you want is to have the glare pouring through your window, making everything difficult to see. Our superior-quality awnings and shade systems are capable of reducing up to 100% of sun glare.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "External awning blinds can reduce the amount of heat coming through by up to 75%. This means you’ll be able to save money on your cooling bills throughout the summer months.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Blinds and awnings enhance the privacy of your residential or commercial property.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Our products and designs come in a terrific array of fabrics and colours, ensuring that you’ll be able to see out but no one will be able to see in.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "We can also provide retractable roof systems, a solution that can be opened and closed as you please for superior protection from sun and rain.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "To learn more about retractable roof systems for your Melbourne home or business, get in touch with our team.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Retractable Pergola Systems Victoria",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Warehouse: 40/23-25 Bunney RD, Oakleigh South VIC 3167",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Display centre: 215A Nepean HWY, Brighton VIC 3185",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Telephone (03) 9595 9055",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Request a Quote",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Fields marked with * are mandatory field",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Preferred Suppliers",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Quick Links",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Our Product Categories",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Visit Us",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Quick Links",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "About us",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/about-us/",
+              "anchor_text": "About us"
+             }
+            ]
+           },
+           {
+            "text": "Awnings Online",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+              "anchor_text": "Awnings Online"
+             }
+            ]
+           },
+           {
+            "text": "Request a quote",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+              "anchor_text": "Request a quote"
+             }
+            ]
+           },
+           {
+            "text": "Areas we serve",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/areas-we-serve/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/areas-we-serve/",
+              "anchor_text": "Areas we serve"
+             }
+            ]
+           },
+           {
+            "text": "Contact Us",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/contact/",
+              "anchor_text": "Contact Us"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Our Product Categories",
+          "main_title": "For effortless operation choose the convenience of Retractable Pergola Systems Victoria",
+          "author": "Retractablepergolasystemsvictoria",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Awning Fabrics",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/awning-fabrics/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/awning-fabrics/",
+              "anchor_text": "Awning Fabrics"
+             }
+            ]
+           },
+           {
+            "text": "Canopy Awnings",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/canopy-awnings/",
+              "anchor_text": "Canopy Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Clear PVC Bistro Blinds",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/clear-pvc-bistro-blinds/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/clear-pvc-bistro-blinds/",
+              "anchor_text": "Clear PVC Bistro Blinds"
+             }
+            ]
+           },
+           {
+            "text": "Conservatory and Pergola Shades",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/conservatory-and-pergola-shades/",
+              "anchor_text": "Conservatory and Pergola Shades"
+             }
+            ]
+           },
+           {
+            "text": "Drop Arm Awnings",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/drop-arm-awnings/",
+              "anchor_text": "Drop Arm Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Folding Arm Awnings",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/folding-arm-awnings/",
+              "anchor_text": "Folding Arm Awnings"
+             }
+            ]
+           },
+           {
+            "text": "Retractable Pergola and Roof Systems",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/retractable-roof-and-pergola-systems/",
+              "anchor_text": "Retractable Pergola and Roof Systems"
+             }
+            ]
+           },
+           {
+            "text": "Awnings Online",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/",
+              "anchor_text": "Awnings Online"
+             }
+            ]
+           },
+           {
+            "text": "SunScreen Mesh Blinds",
+            "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/sunscreen-mesh-blinds/",
+            "urls": [
+             {
+              "url": "https://www.retractablepergolasystemsvictoria.com.au/product-category/sunscreen-mesh-blinds/",
+              "anchor_text": "SunScreen Mesh Blinds"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "%20(03)%209595%209055",
+          "+61395959055",
+          "0395959055"
+         ],
+         "emails": [
+          "sales@retractablepergolasystemsvictoria.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

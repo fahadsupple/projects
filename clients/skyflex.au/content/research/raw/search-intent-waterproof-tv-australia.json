@@ -1,0 +1,52 @@
+{
+  "language_code": "en",
+  "items_count": 4,
+  "items": [
+    {
+      "keyword": "waterproof tv australia",
+      "keyword_intent": {
+        "label": "informational",
+        "probability": 0.3914
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "commercial",
+          "probability": 0.379
+        }
+      ]
+    },
+    {
+      "keyword": "outdoor tv",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.8471
+      },
+      "secondary_keyword_intents": null
+    },
+    {
+      "keyword": "outdoor tv australia",
+      "keyword_intent": {
+        "label": "informational",
+        "probability": 0.4111
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "navigational",
+          "probability": 0.2885
+        },
+        {
+          "label": "commercial",
+          "probability": 0.2812
+        }
+      ]
+    },
+    {
+      "keyword": "weatherproof tv",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.8607
+      },
+      "secondary_keyword_intents": null
+    }
+  ]
+}

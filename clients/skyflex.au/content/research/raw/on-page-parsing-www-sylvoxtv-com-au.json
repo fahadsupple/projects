@@ -1,0 +1,1641 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "21.6668 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140926-1150-0495-0000-2dfc807dc6b5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "21.6367 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-07-14 03:26:40 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": [
+                    {
+                      "text": "Hassle-free returns. 30-day postage paid returns",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "FREE delivery across Australia(all TVs)",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Select your country or region",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Your cart is currently empty.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Streamline your kitchen with this sleek under-cabinet TV. Its flip-down design saves space, while the waterproof screen ensures durability.",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "ABN: 96 113 191 913 GST: 304637015",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "North America",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "United States",
+                      "url": "https://sylvoxtv.com/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.com/",
+                          "anchor_text": "United States"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / $ USD",
+                      "url": "https://sylvoxtv.com/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.com/",
+                          "anchor_text": "English / $ USD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / $ CAD",
+                      "url": "https://sylvoxtv.ca/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.ca/",
+                          "anchor_text": "English / $ CAD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "United Kingdom",
+                      "url": "https://www.sylvoxtv.uk/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.uk/",
+                          "anchor_text": "United Kingdom"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / £ GBP",
+                      "url": "https://www.sylvoxtv.uk/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.uk/",
+                          "anchor_text": "English / £ GBP"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Deutsch / € EUR",
+                      "url": "https://sylvoxtv.eu/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.eu/",
+                          "anchor_text": "Deutsch / € EUR"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / $ AUD",
+                      "url": "https://www.sylvoxtv.com.au/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/",
+                          "anchor_text": "English / $ AUD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "For Partial Sun Areas",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-partial-sun-series",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-partial-sun-series",
+                          "anchor_text": "For Partial Sun Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "For Full Sun Areas",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-full-sun-series",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-full-sun-series",
+                          "anchor_text": "For Full Sun Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Outdoor TV Lift Cabinet",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-lift-cabinet",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-lift-cabinet",
+                          "anchor_text": "Outdoor TV Lift Cabinet"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "How to Choose",
+                      "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                          "anchor_text": "How to Choose"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Portable TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                          "anchor_text": "Portable TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "RV TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                          "anchor_text": "RV TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Kitchen TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                          "anchor_text": "Kitchen TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Bathroom TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                          "anchor_text": "Bathroom TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Digital Signage",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                          "anchor_text": "Digital Signage"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Explore Support Contact Us Support Center Order Tracking User Manual Video Tutorial FAQs Activate Your Device Your Warranty List Policy Shipping Policy Return & Refund Policy Warranty Policy Seel Terms of Service Company Blog About Us Become a Reseller Discount & Membership Affiliate Program Buy in Bulk Buying Guide How to Choose How to Buy Where to Buy",
+                      "url": "https://www.sylvoxtv.com.au/pages/support-hub",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/support-hub",
+                          "anchor_text": "Support"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/contact",
+                          "anchor_text": "Contact Us"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/support-hub",
+                          "anchor_text": "Support Center"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/apps/17TRACK",
+                          "anchor_text": "Order Tracking"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/user-manual",
+                          "anchor_text": "User Manual"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/video-tutorial",
+                          "anchor_text": "Video Tutorial"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/manual-faqs",
+                          "anchor_text": "FAQs"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/activate-your-device",
+                          "anchor_text": "Activate Your Device"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/extend-warranty-list",
+                          "anchor_text": "Your Warranty List"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/policies",
+                          "anchor_text": "Policy"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/shipping-policy",
+                          "anchor_text": "Shipping Policy"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/return-refund-policy",
+                          "anchor_text": "Return & Refund Policy"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/warranty-policy",
+                          "anchor_text": "Warranty Policy"
+                        },
+                        {
+                          "url": "https://www.seel.com/seel-terms-of-service",
+                          "anchor_text": "Seel Terms of Service"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                          "anchor_text": "Company"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/blogs/main-blog",
+                          "anchor_text": "Blog"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                          "anchor_text": "About Us"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/become-a-reseller",
+                          "anchor_text": "Become a Reseller"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/credits-rewards-program",
+                          "anchor_text": "Discount & Membership"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/affiliate",
+                          "anchor_text": "Affiliate Program"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/business-account-application",
+                          "anchor_text": "Buy in Bulk"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-buy",
+                          "anchor_text": "Buying Guide"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                          "anchor_text": "How to Choose"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-buy",
+                          "anchor_text": "How to Buy"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/where-to-buy",
+                          "anchor_text": "Where to Buy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "43\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0",
+                      "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-43-inch",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-43-inch",
+                          "anchor_text": "43\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-43-inch",
+                          "anchor_text": "43\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "55\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0",
+                      "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-55-inch",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-55-inch",
+                          "anchor_text": "55\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-55-inch",
+                          "anchor_text": "55\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "65\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0",
+                      "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-65-inch",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-65-inch",
+                          "anchor_text": "65\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        },
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/partial-sun-qled-outdoor-tv-65-inch",
+                          "anchor_text": "65\" 1000Nit Advanced QLED Google Outdoor TV (Partial Sun) - 2026 Deck Pro QLED 2.0"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Reasons to Choose Sylvox!",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Fast and Free Shipping",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "30-Day Money-Back Guarantee",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Hassle-Free Warranty",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Lifetime Customer Support",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "For Partial Sun Areas",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-partial-sun-series",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-partial-sun-series",
+                          "anchor_text": "For Partial Sun Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "For Full Sun Areas",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-full-sun-series",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-full-sun-series",
+                          "anchor_text": "For Full Sun Areas"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Outdoor TV Lift Cabinet",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-lift-cabinet",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv-lift-cabinet",
+                          "anchor_text": "Outdoor TV Lift Cabinet"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "How to Choose",
+                      "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                          "anchor_text": "How to Choose"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Portable TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                          "anchor_text": "Portable TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "RV TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                          "anchor_text": "RV TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Kitchen TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                          "anchor_text": "Kitchen TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Bathroom TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                          "anchor_text": "Bathroom TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Digital Signage",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                          "anchor_text": "Digital Signage"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact Us",
+                      "url": "https://www.sylvoxtv.com.au/pages/contact",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/contact",
+                          "anchor_text": "Contact Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Support Center",
+                      "url": "https://www.sylvoxtv.com.au/pages/support-hub",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/support-hub",
+                          "anchor_text": "Support Center"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Order Tracking",
+                      "url": "https://www.sylvoxtv.com.au/apps/17TRACK",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/apps/17TRACK",
+                          "anchor_text": "Order Tracking"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "User Manual",
+                      "url": "https://www.sylvoxtv.com.au/pages/user-manual",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/user-manual",
+                          "anchor_text": "User Manual"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Video Tutorial",
+                      "url": "https://www.sylvoxtv.com.au/pages/video-tutorial",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/video-tutorial",
+                          "anchor_text": "Video Tutorial"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Activate Your Device",
+                      "url": "https://www.sylvoxtv.com.au/pages/activate-your-device",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/activate-your-device",
+                          "anchor_text": "Activate Your Device"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Your Warranty List",
+                      "url": "https://www.sylvoxtv.com.au/pages/extend-warranty-list",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/extend-warranty-list",
+                          "anchor_text": "Your Warranty List"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Shipping Policy",
+                      "url": "https://www.sylvoxtv.com.au/pages/shipping-policy",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/shipping-policy",
+                          "anchor_text": "Shipping Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Return & Refund Policy",
+                      "url": "https://www.sylvoxtv.com.au/pages/return-refund-policy",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/return-refund-policy",
+                          "anchor_text": "Return & Refund Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Warranty Policy",
+                      "url": "https://www.sylvoxtv.com.au/pages/warranty-policy",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/warranty-policy",
+                          "anchor_text": "Warranty Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Seel Terms of Service",
+                      "url": "https://www.seel.com/seel-terms-of-service",
+                      "urls": [
+                        {
+                          "url": "https://www.seel.com/seel-terms-of-service",
+                          "anchor_text": "Seel Terms of Service"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "About Us",
+                      "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                          "anchor_text": "About Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Become a Reseller",
+                      "url": "https://www.sylvoxtv.com.au/pages/become-a-reseller",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/become-a-reseller",
+                          "anchor_text": "Become a Reseller"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Affiliate Program",
+                      "url": "https://www.sylvoxtv.com.au/pages/affiliate",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/affiliate",
+                          "anchor_text": "Affiliate Program"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Buy in Bulk",
+                      "url": "https://www.sylvoxtv.com.au/pages/business-account-application",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/business-account-application",
+                          "anchor_text": "Buy in Bulk"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "How to Choose",
+                      "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-choose",
+                          "anchor_text": "How to Choose"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "How to Buy",
+                      "url": "https://www.sylvoxtv.com.au/pages/how-to-buy",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/how-to-buy",
+                          "anchor_text": "How to Buy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Where to Buy",
+                      "url": "https://www.sylvoxtv.com.au/pages/where-to-buy",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/where-to-buy",
+                          "anchor_text": "Where to Buy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Kitchen TV",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Mini Modle",
+                      "url": "https://www.sylvoxtv.com.au/products/sylvox-15-6-under-cabinet-tv-2024-new-model",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/products/sylvox-15-6-under-cabinet-tv-2024-new-model",
+                          "anchor_text": "Mini Modle"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "View All",
+                      "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                          "anchor_text": "View All"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Shop by Category",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "table_content": null
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "Sylvox Outdoor TVs Australia | Waterproof 4K TVs for Full Sun & Patio Use",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Facebook Community",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Be the first to know about product launches and all-things inside Sylvox.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Outdoor TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-tv",
+                          "anchor_text": "Outdoor TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Displays",
+                      "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/outdoor-digital-signage",
+                          "anchor_text": "Commercial Displays"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Portable TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/portable-tv",
+                          "anchor_text": "Portable TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "12V RV TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/12v-rv-tv",
+                          "anchor_text": "12V RV TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Kitchen TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/kitchen-tv",
+                          "anchor_text": "Kitchen TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Bathroom TV",
+                      "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/collections/bathroom-tv",
+                          "anchor_text": "Bathroom TV"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Order Tracking",
+                      "url": "https://www.sylvoxtv.com.au/apps/17TRACK",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/apps/17TRACK",
+                          "anchor_text": "Order Tracking"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact Us",
+                      "url": "https://www.sylvoxtv.com.au/pages/contact",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/contact",
+                          "anchor_text": "Contact Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "User Manual",
+                      "url": "https://www.sylvoxtv.com.au/pages/manual-faqs",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/manual-faqs",
+                          "anchor_text": "User Manual"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Video Tutorial",
+                      "url": "https://www.sylvoxtv.com.au/pages/video-tutorial",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/video-tutorial",
+                          "anchor_text": "Video Tutorial"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "About Us",
+                      "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/about-us",
+                          "anchor_text": "About Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Become a Reseller",
+                      "url": "https://www.sylvoxtv.com.au/pages/become-a-reseller",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/become-a-reseller",
+                          "anchor_text": "Become a Reseller"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Affiliate Program",
+                      "url": "https://www.sylvoxtv.com.au/pages/affiliate",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/pages/affiliate",
+                          "anchor_text": "Affiliate Program"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Select your country or region",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "United States",
+                      "url": "https://sylvoxtv.com/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.com/",
+                          "anchor_text": "United States"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / $ USD",
+                      "url": "https://sylvoxtv.com/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.com/",
+                          "anchor_text": "English / $ USD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / $ CAD",
+                      "url": "https://sylvoxtv.ca/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.ca/",
+                          "anchor_text": "English / $ CAD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "United Kingdom",
+                      "url": "https://www.sylvoxtv.uk/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.uk/",
+                          "anchor_text": "United Kingdom"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "English / £ GBP",
+                      "url": "https://www.sylvoxtv.uk/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.uk/",
+                          "anchor_text": "English / £ GBP"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Deutsch / € EUR",
+                      "url": "https://sylvoxtv.eu/",
+                      "urls": [
+                        {
+                          "url": "https://sylvoxtv.eu/",
+                          "anchor_text": "Deutsch / € EUR"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Asia Pacific",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "English / $ AUD",
+                      "url": "https://www.sylvoxtv.com.au/",
+                      "urls": [
+                        {
+                          "url": "https://www.sylvoxtv.com.au/",
+                          "anchor_text": "English / $ AUD"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Have a question ? We are here to help.",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Check out the most common questions our customers asked. Still have questions? Contact our customer support.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "For orders within the Australia, delivery typically takes 3-7 business days after the order is placed.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "We offer a 30-day money-back guarantee. If you are not completely satisfied with your purchase, you may request a return within 30 days of delivery. For full details, including eligibility and return conditions, please refer to our Return & Refund Policy page.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "We offer a 2-year standard warranty. For full details, please refer to our Warranty Policy page.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "secondary_topic": [
+                  {
+                    "h_title": "Outdoor TV",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "IP55 waterproof design with 3× higher brightness than indoor TVs. Built with a durable metal enclosure to withstand harsh outdoor conditions and ensure long-lasting performance.\nIdeal for: patios, covered decks, poolside areas, and partially shaded outdoor spaces.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Price, low to high",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Price, high to low",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Date, old to new",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Date, new to old",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2025 Cinema Pro Helio QLED",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2025 Cinema Pro Helio QLED",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "86\" 2025 Cinema Pro Helio QLED",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "110\" 2025 Cinema Pro Helio QLED",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Most relevant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Best selling",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alphabetically, A-Z",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alphabetically, Z-A",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Price, low to high",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Price, high to low",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Date, old to new",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Date, new to old",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "32'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43'' 6",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55'' 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65'' 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75'' 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "86'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "110'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "IP55 27",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "IP56 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "1000 Nits 15",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "1500 Nits 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "2000 Nits 15",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3500 Nits 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "5000 Nits 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "60Hz 25",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "120Hz 10",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "400×200mm 10",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "400×400mm 5",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "600×400mm 18",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "800×600mm 2",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Full HD (1920 × 1080) 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4K UHD (3840 × 2160) 34",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "LCD 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "LED 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "QLED 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Google TV 35",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Framed 27",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Frameless 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "In stock 35",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Out of stock 21",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sort By",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "IP Rating",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Refresh Rate",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Vesa Pattern",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Display Technology",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Operating System",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Bezel Design",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Most relevant",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Best selling",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alphabetically, A-Z",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alphabetically, Z-A",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "32'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43'' 6",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55'' 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65'' 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75'' 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "86'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "110'' 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "IP55 27",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "IP56 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "1000 Nits 15",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "1500 Nits 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "2000 Nits 15",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "3500 Nits 3",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "5000 Nits 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "60Hz 25",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "120Hz 10",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "400×200mm 10",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "400×400mm 5",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "600×400mm 18",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "800×600mm 2",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Full HD (1920 × 1080) 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "4K UHD (3840 × 2160) 34",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "LCD 1",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "LED 9",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "QLED 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Google TV 35",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Framed 27",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Frameless 8",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "In stock 35",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Out of stock 21",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2024 Deck Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2024 Deck Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2024 Deck Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2024 Deck Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2026 Deck Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2026 Deck Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2026 Deck Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2026 Deck Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2026 Frameless Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2026 Frameless Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2026 Frameless Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2026 Frameless Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2025 Gaming Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2025 Gaming Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2025 Gaming Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "32\" 2025 Pool SE",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2024 Pool Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2024 Pool Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2024 Pool Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2024 Pool Pro 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2026 Frameless Pro Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2026 Frameless Pro Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2026 Frameless Pro Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2026 Frameless Pro Series",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "43\" 2026 Pool Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2026 Pool Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2026 Pool Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2026 Pool Pro QLED 2.0",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "55\" 2025 Cinema Helio QLED",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "65\" 2025 Cinema Helio QLED",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "75\" 2025 Cinema Helio QLED",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Explore by Category",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Selected to Compare ( 0 /3)",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 4,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Not Sure What Outdoor TV Fits you Best?",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "You May Also Lke",
+                    "main_title": "Outdoor TV",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "ratings": null,
+                "offers": null,
+                "comments": null,
+                "contacts": null
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

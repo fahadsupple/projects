@@ -1,0 +1,1931 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.3431 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140929-1150-0495-0000-c44881783153",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.2780 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://apollopatios.com.au/products/pergolas-sydney/",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-07-14 03:29:28 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": null,
+                  "secondary_content": [
+                    {
+                      "text": "Become a dealer",
+                      "url": "https://www.apollopatios.com.au/become-a-dealer/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/become-a-dealer/",
+                          "anchor_text": "Become a dealer"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios",
+                      "url": "https://www.apollopatios.com.au/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/",
+                          "anchor_text": "Apollo Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Roofing Solutions",
+                      "url": "https://www.apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                      "urls": [
+                        {
+                          "url": "https://www.apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                          "anchor_text": "Apollo Roofing Solutions"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Warranty Registration",
+                      "url": "https://www.apollopatios.com.au/warranty/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/warranty/",
+                          "anchor_text": "Warranty Registration"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Join our team",
+                      "url": "https://www.apollopatios.com.au/join-our-team/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/join-our-team/",
+                          "anchor_text": "Join our team"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Payment Plans",
+                      "url": "https://www.apollopatios.com.au/payment-plans/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/payment-plans/",
+                          "anchor_text": "Payment Plans"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios QLD",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-qld/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-qld/",
+                          "anchor_text": "Apollo Patios QLD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios North QLD",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-north-qld/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-north-qld/",
+                          "anchor_text": "Apollo Patios North QLD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios NSW",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-nsw/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-nsw/",
+                          "anchor_text": "Apollo Patios NSW"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios ACT",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-act/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-act/",
+                          "anchor_text": "Apollo Patios ACT"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Patio",
+                      "url": "https://www.apollopatios.com.au/products/skillion-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-patio/",
+                          "anchor_text": "Skillion Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Patio",
+                      "url": "https://www.apollopatios.com.au/products/gable-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-patio/",
+                          "anchor_text": "Gable Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Patio",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-patio/",
+                          "anchor_text": "Flat Roof Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flyover Patio",
+                      "url": "https://www.apollopatios.com.au/products/flyover-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flyover-patio/",
+                          "anchor_text": "Flyover Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Patio",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-patio/",
+                          "anchor_text": "Free-standing Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Alfresco Patio",
+                      "url": "https://www.apollopatios.com.au/products/alfresco-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/alfresco-patio/",
+                          "anchor_text": "Alfresco Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Breezeway Patio",
+                      "url": "https://www.apollopatios.com.au/products/breezeway-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/breezeway-patio/",
+                          "anchor_text": "Breezeway Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Extension",
+                      "url": "https://www.apollopatios.com.au/products/patio-extension/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-extension/",
+                          "anchor_text": "Patio Extension"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Pergola",
+                      "url": "https://www.apollopatios.com.au/products/skillion-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-pergola/",
+                          "anchor_text": "Skillion Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Pergola",
+                      "url": "https://www.apollopatios.com.au/products/gable-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-pergola/",
+                          "anchor_text": "Gable Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Pergola",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-pergola/",
+                          "anchor_text": "Flat Roof Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flyover Pergola",
+                      "url": "https://www.apollopatios.com.au/products/flyover-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flyover-pergola/",
+                          "anchor_text": "Flyover Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Pergola",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-pergola/",
+                          "anchor_text": "Free-standing Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Alfresco Pergola",
+                      "url": "https://www.apollopatios.com.au/products/alfresco-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/alfresco-pergola/",
+                          "anchor_text": "Alfresco Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Breezeway Pergola",
+                      "url": "https://www.apollopatios.com.au/products/breezeway-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/breezeway-pergola/",
+                          "anchor_text": "Breezeway Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Enclosed Pergola",
+                      "url": "https://www.apollopatios.com.au/products/enclosed-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/enclosed-pergola/",
+                          "anchor_text": "Enclosed Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pool Pergola",
+                      "url": "https://www.apollopatios.com.au/products/pool-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pool-pergola/",
+                          "anchor_text": "Pool Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Pergola",
+                      "url": "https://www.apollopatios.com.au/products/commercial-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-pergola/",
+                          "anchor_text": "Commercial Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergola Extension",
+                      "url": "https://www.apollopatios.com.au/products/pergola-extension/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pergola-extension/",
+                          "anchor_text": "Pergola Extension"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Single Carport",
+                      "url": "https://www.apollopatios.com.au/products/single-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/single-carports/",
+                          "anchor_text": "Single Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Double Carport",
+                      "url": "https://www.apollopatios.com.au/products/double-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/double-carports/",
+                          "anchor_text": "Double Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Triple Carport",
+                      "url": "https://www.apollopatios.com.au/products/triple-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/triple-carports/",
+                          "anchor_text": "Triple Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "4 Bay Carport",
+                      "url": "https://www.apollopatios.com.au/products/4-bay-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/4-bay-carports/",
+                          "anchor_text": "4 Bay Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-carports/",
+                          "anchor_text": "Flat Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/gable-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-carports/",
+                          "anchor_text": "Gable Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/skillion-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-carports/",
+                          "anchor_text": "Skillion Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Carport",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-carports/",
+                          "anchor_text": "Free-standing Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Carports",
+                      "url": "https://www.apollopatios.com.au/products/commercial-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-carports/",
+                          "anchor_text": "Commercial Carports"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Timber Deck Framing",
+                      "url": "https://www.apollopatios.com.au/products/timber-deck-framing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/timber-deck-framing/",
+                          "anchor_text": "Timber Deck Framing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Steel Deck Framing",
+                      "url": "https://www.apollopatios.com.au/products/steel-deck-framing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/steel-deck-framing/",
+                          "anchor_text": "Steel Deck Framing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Single Skin Roofing",
+                      "url": "https://www.apollopatios.com.au/products/single-skin-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/single-skin-roofing/",
+                          "anchor_text": "Single Skin Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Roofing for Waterside Living",
+                      "url": "https://www.apollopatios.com.au/products/waterside-living/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/waterside-living/",
+                          "anchor_text": "Roofing for Waterside Living"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Roofing",
+                      "url": "https://www.apollopatios.com.au/products/patio-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-roofing/",
+                          "anchor_text": "Patio Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Insulated Panel Roofing",
+                      "url": "https://www.apollopatios.com.au/products/insulated-panel-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/insulated-panel-roofing/",
+                          "anchor_text": "Insulated Panel Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Carport Roof Sheets",
+                      "url": "https://www.apollopatios.com.au/products/carport-roof-sheets/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/carport-roof-sheets/",
+                          "anchor_text": "Carport Roof Sheets"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergola Roofing",
+                      "url": "https://www.apollopatios.com.au/products/pergola-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pergola-roofing/",
+                          "anchor_text": "Pergola Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "External Awnings",
+                      "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                          "anchor_text": "External Awnings"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Glass Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/glass-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/glass-patio-enclosures/",
+                          "anchor_text": "Glass Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Screen Enclosure",
+                      "url": "https://www.apollopatios.com.au/products/patio-screen-enclosure/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-screen-enclosure/",
+                          "anchor_text": "Patio Screen Enclosure"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Weatherproof Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/weatherproof-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/weatherproof-patio-enclosures/",
+                          "anchor_text": "Weatherproof Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/commercial-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-patio-enclosures/",
+                          "anchor_text": "Commercial Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Boat Carport",
+                      "url": "https://www.apollopatios.com.au/products/boat-carport/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/boat-carport/",
+                          "anchor_text": "Boat Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Caravan Carport",
+                      "url": "https://www.apollopatios.com.au/products/caravan-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/caravan-carports/",
+                          "anchor_text": "Caravan Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Colour Range",
+                      "url": "https://www.apollopatios.com.au/products/colour-range/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/colour-range/",
+                          "anchor_text": "Colour Range"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Difference",
+                      "url": "https://www.apollopatios.com.au/our-difference/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/our-difference/",
+                          "anchor_text": "Our Difference"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Join our team",
+                      "url": "https://www.apollopatios.com.au/join-our-team/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/join-our-team/",
+                          "anchor_text": "Join our team"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Payment Plans",
+                      "url": "https://www.apollopatios.com.au/payment-plans/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/payment-plans/",
+                          "anchor_text": "Payment Plans"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios QLD",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-qld/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-qld/",
+                          "anchor_text": "Apollo Patios QLD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios North QLD",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-north-qld/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-north-qld/",
+                          "anchor_text": "Apollo Patios North QLD"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios NSW",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-nsw/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-nsw/",
+                          "anchor_text": "Apollo Patios NSW"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios ACT",
+                      "url": "https://www.apollopatios.com.au/locations/apollo-patios-act/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/apollo-patios-act/",
+                          "anchor_text": "Apollo Patios ACT"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Become a dealer",
+                      "url": "https://www.apollopatios.com.au/become-a-dealer/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/become-a-dealer/",
+                          "anchor_text": "Become a dealer"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Patios",
+                      "url": "https://www.apollopatios.com.au/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/",
+                          "anchor_text": "Apollo Patios"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Roofing Solutions",
+                      "url": "https://www.apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                      "urls": [
+                        {
+                          "url": "https://www.apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                          "anchor_text": "Apollo Roofing Solutions"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Warranty Registration",
+                      "url": "https://www.apollopatios.com.au/warranty/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/warranty/",
+                          "anchor_text": "Warranty Registration"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Patio",
+                      "url": "https://www.apollopatios.com.au/products/skillion-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-patio/",
+                          "anchor_text": "Skillion Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Patio",
+                      "url": "https://www.apollopatios.com.au/products/gable-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-patio/",
+                          "anchor_text": "Gable Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Patio",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-patio/",
+                          "anchor_text": "Flat Roof Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flyover Patio",
+                      "url": "https://www.apollopatios.com.au/products/flyover-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flyover-patio/",
+                          "anchor_text": "Flyover Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Patio",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-patio/",
+                          "anchor_text": "Free-standing Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Alfresco Patio",
+                      "url": "https://www.apollopatios.com.au/products/alfresco-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/alfresco-patio/",
+                          "anchor_text": "Alfresco Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Breezeway Patio",
+                      "url": "https://www.apollopatios.com.au/products/breezeway-patio/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/breezeway-patio/",
+                          "anchor_text": "Breezeway Patio"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Extension",
+                      "url": "https://www.apollopatios.com.au/products/patio-extension/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-extension/",
+                          "anchor_text": "Patio Extension"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Pergola",
+                      "url": "https://www.apollopatios.com.au/products/skillion-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-pergola/",
+                          "anchor_text": "Skillion Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Pergola",
+                      "url": "https://www.apollopatios.com.au/products/gable-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-pergola/",
+                          "anchor_text": "Gable Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Pergola",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-pergola/",
+                          "anchor_text": "Flat Roof Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flyover Pergola",
+                      "url": "https://www.apollopatios.com.au/products/flyover-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flyover-pergola/",
+                          "anchor_text": "Flyover Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Pergola",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-pergola/",
+                          "anchor_text": "Free-standing Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Alfresco Pergola",
+                      "url": "https://www.apollopatios.com.au/products/alfresco-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/alfresco-pergola/",
+                          "anchor_text": "Alfresco Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Breezeway Pergola",
+                      "url": "https://www.apollopatios.com.au/products/breezeway-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/breezeway-pergola/",
+                          "anchor_text": "Breezeway Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Enclosed Pergola",
+                      "url": "https://www.apollopatios.com.au/products/enclosed-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/enclosed-pergola/",
+                          "anchor_text": "Enclosed Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pool Pergola",
+                      "url": "https://www.apollopatios.com.au/products/pool-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pool-pergola/",
+                          "anchor_text": "Pool Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Pergola",
+                      "url": "https://www.apollopatios.com.au/products/commercial-pergola/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-pergola/",
+                          "anchor_text": "Commercial Pergola"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergola Extension",
+                      "url": "https://www.apollopatios.com.au/products/pergola-extension/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pergola-extension/",
+                          "anchor_text": "Pergola Extension"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Single Carport",
+                      "url": "https://www.apollopatios.com.au/products/single-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/single-carports/",
+                          "anchor_text": "Single Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Double Carport",
+                      "url": "https://www.apollopatios.com.au/products/double-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/double-carports/",
+                          "anchor_text": "Double Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Triple Carport",
+                      "url": "https://www.apollopatios.com.au/products/triple-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/triple-carports/",
+                          "anchor_text": "Triple Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "4 Bay Carport",
+                      "url": "https://www.apollopatios.com.au/products/4-bay-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/4-bay-carports/",
+                          "anchor_text": "4 Bay Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Flat Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/flat-roof-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/flat-roof-carports/",
+                          "anchor_text": "Flat Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Gable Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/gable-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/gable-carports/",
+                          "anchor_text": "Gable Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Skillion Roof Carport",
+                      "url": "https://www.apollopatios.com.au/products/skillion-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/skillion-carports/",
+                          "anchor_text": "Skillion Roof Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Free-standing Carport",
+                      "url": "https://www.apollopatios.com.au/products/free-standing-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/free-standing-carports/",
+                          "anchor_text": "Free-standing Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Carports",
+                      "url": "https://www.apollopatios.com.au/products/commercial-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-carports/",
+                          "anchor_text": "Commercial Carports"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Timber Deck Framing",
+                      "url": "https://www.apollopatios.com.au/products/timber-deck-framing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/timber-deck-framing/",
+                          "anchor_text": "Timber Deck Framing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Steel Deck Framing",
+                      "url": "https://www.apollopatios.com.au/products/steel-deck-framing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/steel-deck-framing/",
+                          "anchor_text": "Steel Deck Framing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Single Skin Roofing",
+                      "url": "https://www.apollopatios.com.au/products/single-skin-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/single-skin-roofing/",
+                          "anchor_text": "Single Skin Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Roofing for Waterside Living",
+                      "url": "https://www.apollopatios.com.au/products/waterside-living/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/waterside-living/",
+                          "anchor_text": "Roofing for Waterside Living"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Roofing",
+                      "url": "https://www.apollopatios.com.au/products/patio-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-roofing/",
+                          "anchor_text": "Patio Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Insulated Panel Roofing",
+                      "url": "https://www.apollopatios.com.au/products/insulated-panel-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/insulated-panel-roofing/",
+                          "anchor_text": "Insulated Panel Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Carport Roof Sheets",
+                      "url": "https://www.apollopatios.com.au/products/carport-roof-sheets/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/carport-roof-sheets/",
+                          "anchor_text": "Carport Roof Sheets"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Pergola Roofing",
+                      "url": "https://www.apollopatios.com.au/products/pergola-roofing/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/pergola-roofing/",
+                          "anchor_text": "Pergola Roofing"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "External Awnings",
+                      "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                          "anchor_text": "External Awnings"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Glass Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/glass-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/glass-patio-enclosures/",
+                          "anchor_text": "Glass Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Patio Screen Enclosure",
+                      "url": "https://www.apollopatios.com.au/products/patio-screen-enclosure/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/patio-screen-enclosure/",
+                          "anchor_text": "Patio Screen Enclosure"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Weatherproof Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/weatherproof-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/weatherproof-patio-enclosures/",
+                          "anchor_text": "Weatherproof Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Commercial Patio Enclosures",
+                      "url": "https://www.apollopatios.com.au/products/commercial-patio-enclosures/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/commercial-patio-enclosures/",
+                          "anchor_text": "Commercial Patio Enclosures"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Boat Carport",
+                      "url": "https://www.apollopatios.com.au/products/boat-carport/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/boat-carport/",
+                          "anchor_text": "Boat Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Caravan Carport",
+                      "url": "https://www.apollopatios.com.au/products/caravan-carports/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/caravan-carports/",
+                          "anchor_text": "Caravan Carport"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Colour Range",
+                      "url": "https://www.apollopatios.com.au/products/colour-range/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/colour-range/",
+                          "anchor_text": "Colour Range"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Our Difference",
+                      "url": "https://www.apollopatios.com.au/our-difference/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/our-difference/",
+                          "anchor_text": "Our Difference"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "We\u2019re here to help you create a space you love to come home to.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "E: Send us an enquiry",
+                      "url": "https://www.apollopatios.com.au/contact",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/contact",
+                          "anchor_text": "enquiry"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Please select your state so we can show you the correct information for your location",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Dealer Locator",
+                      "url": "https://www.apollopatios.com.au/locations/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/locations/",
+                          "anchor_text": "Dealer Locator"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Colour Range",
+                      "url": "https://www.apollopatios.com.au/products/colour-range/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/colour-range/",
+                          "anchor_text": "Colour Range"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Help Centre",
+                      "url": "https://www.apollopatios.com.au/help-centre/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/help-centre/",
+                          "anchor_text": "Help Centre"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Apollo Roofing Solutions",
+                      "url": "https://apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                      "urls": [
+                        {
+                          "url": "https://apolloroofingsolutions.com.au/?__hstc=159731810.5a258aab551fa4d8658233712997d639.1784010566066.1784010566066.1784010566066.1&__hssc=159731810.1.1784010566067&__hsfp=4a9b0b84518f125f1df885198beaa0e4",
+                          "anchor_text": "Apollo Roofing Solutions"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "External Awnings",
+                      "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/external-awnings/",
+                          "anchor_text": "External Awnings"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Caravan and Boat Shelters",
+                      "url": "https://www.apollopatios.com.au/products/caravans-and-boat-shelters/",
+                      "urls": [
+                        {
+                          "url": "https://www.apollopatios.com.au/products/caravans-and-boat-shelters/",
+                          "anchor_text": "Caravan and Boat Shelters"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "\u00a9 Apollo Patios 2026",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "table_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Pergolas Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "Enjoy the best outdoor living in Sydney with a pergola from Apollo Patios. Whether you\u2019re looking to build an outdoor living space, a patio cover, or something unique and eye-catching, we have the perfect solution for you. With our custom designs and quality materials, you can transform your outdoor space into a place where you and your family can relax and enjoy the great outdoors.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Apollo Patios is one of Sydney\u2019s leading pergola builders. Since 1995, we have demonstrated experience and expertise in designing and constructing outdoor designs which are ready to withstand the challenging Australian elements. We use our in-depth knowledge of building materials to create a solution designed for maximum protection, durability and timeless good looks so that your outdoor living area can be enjoyed for many summers to come.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Whether you\u2019re looking for an open-air structure with insulated roofing panels or a revamp of your old pergola for your outdoor furniture, Apollo Patios can create the perfect solution for your Sydney property. Our innovative designs will add visual appeal and practicality to any outdoor living area.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Contact us for an obligation-free quote and see how we can bring your pergola vision to life.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergola design to suit your lifestyle",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Our bespoke pergola designs are tailored to suit your lifestyle. Whether you\u2019re looking for a modern, minimalist look or something more traditional and classic, our team of experienced pergola builder professionals can help you create the perfect outdoor living space.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Planning permission & approvals",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Choosing Apollo Patios means you can rest assured that all necessary permits & planning permission requirements are taken care of. Our team will work with you throughout the whole process to ensure your design is compliant with local council regulations and building codes.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Quality materials built to last",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "When it comes to quality, Apollo Patios only uses the best materials available. Our experienced builders in Sydney will ensure your pergola is built with utmost precision and attention to detail.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Apollo Patios warranty",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "We understand the importance of providing peace of mind when it comes to constructing outdoor living spaces. Apollo Patios offers a comprehensive warranty package, including a 15-year service guarantee on our exclusive Durasheen paint coat finish and a 6-year, 6-month structural warranty on your new pergola.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Flexible financing options",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "We offer flexible financing options to suit different budgets. We understand that not everyone has the same financial situation, so we offer a range of payment plans to make it easier for everyone to enjoy the benefits of a beautiful pergola at an affordable price.",
+                        "url": "https://apollopatios.com.au/payment-plans/",
+                        "urls": [
+                          {
+                            "url": "https://apollopatios.com.au/payment-plans/",
+                            "anchor_text": "payment plans"
+                          }
+                        ]
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergolas Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "Designed and manufactured in Australia",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "On Durasheen paint coat finishes",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Standard Colorbond equivalent colours available*",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Proudly Australian",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Operating Since",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "+27 years in business",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "15 year warranty",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Range of colours",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergolas Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "Flat roof pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Find your nearest pergola builder",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Apollo Patios dealers service locally throughout QLD, NSW, and the ACT. Our team of experienced builders are here to help you create your dream outdoor living area.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Free-standing pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Breezeway pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alfresco pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Flyover pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Gable pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Skillion roof pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Free-standing pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Breezeway pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Alfresco pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Flyover pergolas",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Gable pergolas",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Other pergola builder locations",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "If you are located outside Sydney, we do service Cairns all the way to Canberra. Whether you\u2019re after a gable pergola, flat pergola, skillion roof pergola, free-standing pergola or an alfresco pergola, Apollo Patios is here to help make your vision come alive.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Here are some of the locations we service:",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Central Coast",
+                        "url": "https://www.apollopatios.com.au/products/pergolas-central-coast/",
+                        "urls": [
+                          {
+                            "url": "https://www.apollopatios.com.au/products/pergolas-central-coast/",
+                            "anchor_text": "Central Coast"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Gold Coast",
+                        "url": "https://www.apollopatios.com.au/products/pergolas-gold-coast/",
+                        "urls": [
+                          {
+                            "url": "https://www.apollopatios.com.au/products/pergolas-gold-coast/",
+                            "anchor_text": "Gold Coast"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "Sunshine Coast",
+                        "url": "https://www.apollopatios.com.au/products/pergolas-sunshine-coast/",
+                        "urls": [
+                          {
+                            "url": "https://www.apollopatios.com.au/products/pergolas-sunshine-coast/",
+                            "anchor_text": "Sunshine Coast"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergolas Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "This is our third renovation now and each time we\u2019ve worked with Apollo Patios to resolve dark, hot and fairly uninviting patio spaces. The consultation from start to finish is always seamless. Apollo Patios always have that \u2018wow factor\u2019, the quality is excellent and they\u2019ve delivered everything we never had before \u2013 unbelievably functional spaces with raised roofs that are well ventilated and cool. We\u2019ve got grandkids and it\u2019s such an inviting area to bring everyone together. It\u2019s given us more space in our house to use every day. If you\u2019re sitting on the fence, pick up the phone and give Apollo a call.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "\u201cWe wanted to create outdoor spaces to give us areas to enjoy the pool, eat meals together and relax and read the paper.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Living by the ocean, I didn\u2019t want it to rust out and need replacing. That\u2019s why we chose insulated panel roofing manufactured by Apollo Patios using UniCote\u00ae Coastal steel.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Adding the patios has doubled the size of our home but also made the inside of the house more comfortable. Sun would stream into the house, making it too hot. Now, it\u2019s open and light and we get lovely sea breezes flowing through the house in summer. \u201d",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "\u201cApollo Patios NSW was a pleasure to deal with, from initial measure, build plan and quote to installation.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The builder was very experienced, detailed with good workmanship and we are very happy with our new carport.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Excellent service and overall satisfaction. Great quality all around! Thank you. \u201d",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "\u201cSo amazing. Wow no one could have done better on service, quality and price, the whole process was fantastic from start to finish.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The material used and installation is first class, so very impressed.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "I would highly recommend Apollo Patios, they do what they say. Don\u2019t go anywhere else, I\u2019ve done the homework they\u2019re the best out there. \u201d",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "\u201cI\u2019m thrilled with my carport. It has exceeded my expectations.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The timeframe for the build was spot on, advice about the materials and look were perfect.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Excellent service and workmanship.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "I looked at many options, but this one is perfect. \u201d",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "\u201cWe wanted an outdoor space that was useable, great on the eye and having a relaxed feel. From start to finish Apollo Patios were so easy to deal with. Our patio is a few years old and still looks new.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "It\u2019s an everyday event using it and we are so happy we chose Apollo over other companies. Thank you guys for building such a beautiful patio for us and the service provided. 100% recommend you.\u201d",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Our expectations for our new patio was for a company to produce a design that incorporated the existing design of our home and providing a drawing of the result. The use of premium materials that shows the structure is part of the home was important to us. To this end Apollo Patios delivered. The materials and workmanship in the construction was outstanding and is a pleasure to use and entertain with friends and family. This allows us to have an outdoor entertainment area to use all year round and be proud to own. Thank You Apollo, job well done!",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "John and Jennifer Lhotka",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Apollo Patios has given us a wonderful experience and the finished result is far better than we imagined. Sitting out on our deck has become a regular morning and evening routine. We love our pancake Saturdays giving us quality family time. My wife and I also really enjoy watching the stunning sunsets which has really helped us both destress after a busy work day. Thank you Apollo Patios for helping us transform our house into the family home we\u2019ve been dreaming of.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Own it now with Handypay payment plans",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Low rate, flexible and affordable payment solutions so you can renovate now and pay later. Responsible lending that puts you first.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Greg and Karen",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Brisbane QLD",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Edwin & family",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Sippy Downs",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "West End",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Trevor and Christine",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Capalaba, Queensland",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Aaron and Rebekah",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Brisbane QLD",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Greg and Karen",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Brisbane QLD",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Do I need council approval for a pergola in Sydney?",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 6,
+                    "primary_content": [
+                      {
+                        "text": "Generally speaking, if the proposal for your pergola meets the requirements set out in the State Environmental Planning Policy (Exempt and Compliance Development Codes) 2008, then your proposal would be deemed as exempt development and, therefore, not require council approval. However, with Apollo Patios, you don\u2019t have to worry about navigating the process yourself. Our experienced team will work with you to ensure your pergola meets all council regulations and building codes.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "How much does a pergola cost in Sydney?",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 6,
+                    "primary_content": [
+                      {
+                        "text": "The best way to determine the pergola cost is to contact Apollo Patios directly to discuss your project. Each pergola is unique, and therefore, the cost will depend on a variety of factors, including size, design, materials and labour.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "secondary_topic": [
+                  {
+                    "h_title": "Pergolas Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor living",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Custom-designed pergolas for Sydney conditions",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Custom designed",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Why build your pergola with Apollo Patios?",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Our difference",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "We\u2019ve perfected the art of outdoor living spaces",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Apollo Roofing",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Our range of pergola designs in Sydney",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Explore",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Inspired spaces",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Pergola gallery",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Be inspired. Explore these images of pergolas we\u2019ve recently built for our customers.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "What they say",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 5,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Satisfied Customers",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "FAQs",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Download our brochure",
+                    "main_title": "Pergolas Sydney",
+                    "author": "https://www.facebook.com/apollopatios/",
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "ratings": null,
+                "offers": null,
+                "comments": null,
+                "contacts": {
+                  "telephones": [
+                    "1800 007 321"
+                  ],
+                  "emails": null
+                }
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

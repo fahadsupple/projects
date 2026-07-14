@@ -1,0 +1,94 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.9562 sec.",
+  "cost": 0.0272929,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140925-1150-0612-0000-d56fcfeb681a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.9136 sec.",
+      "cost": 0.0272929,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "chat_gpt",
+        "user_prompt": "waterproof tv australia",
+        "model_name": "gpt-4o-mini",
+        "web_search": true,
+        "web_search_country_iso_code": "AU"
+      },
+      "result": [
+        {
+          "model_name": "gpt-4o-mini-2024-07-18",
+          "input_tokens": 8174,
+          "output_tokens": 778,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.0266929,
+          "datetime": "2026-07-14 09:25:37 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "If you're looking for waterproof TVs in Australia, here are some options to consider:\n\n\n[Englaon 4K IP65 Waterproof Outdoor Smart LED TV for Full Sunshine Area - 55inch | Harvey Norman](https://www.harveynorman.com.au/englaon-4k-ip65-waterproof-outdoor-smart-led-tv-for-full-sunshine-area-55inch.html?utm_source=openai)\n**ENGLAON 55’’ 4K Outdoor SMART IP65 Waterproof LED TV**  \nThis 55-inch TV features a 4K UHD resolution, 1500 Nit brightness for clear visibility in sunlight, and an IP65 water resistance rating, making it suitable for full sunshine areas. It operates on Android 11 and includes built-in speakers. ([jbhifi.com.au](https://www.jbhifi.com.au/products/englaon-55-4k-outdoor-smart-ip65-waterproof-led-tv-for-full-sunshine-areas?utm_source=openai))\n\n\n\n\n**Sylvox Cinema 75\" Helio QLED Outdoor TV**  \nThis 75-inch TV boasts a 2000 Nits brightness, cinematic motion with 120Hz refresh rate, and an IP55 waterproof rating, ideal for garden, patio, deck, and poolside setups. It operates reliably in temperatures from -30°C to 50°C. ([sylvoxtv.com.au](https://sylvoxtv.com.au/products/sylvox-cinema-75-helio-qled-outdoor-tv-2500-nits-cinematic-motion-with-120hz-2025-model?utm_source=openai))\n\n\n\n\n**ENGLAON 24\" Full HD SMART Waterproof LED TV**  \nDesigned for bathrooms, kitchens, pools, and spas, this 24-inch TV offers Full HD resolution, IP65 water resistance, and operates on Android 11. It includes built-in Wi-Fi, Bluetooth, and an integrated HD tuner. ([bigw.com.au](https://www.bigw.com.au/product/englaon-24-full-hd-smart-waterproof-led-tv-for-bathroom-kitchen-and-spa-in-white-finish/p/9902439699?utm_source=openai))\n\n\n\n[1000 Satellite TV Channels - H.264 & Android Smart TV Box](https://www.alibaba.com/showroom/1000-satellite-tv.html?utm_source=openai)\n**Liquifi OWM-55GBH 55 Inch Full HD LED Outdoor Waterproof TV**  \nThis 55-inch TV features a Full HD display, waterproof remote, and dustproof design, making it suitable for outdoor use. It includes two HDMI ports and a 100Hz refresh rate. ([appliancesonline.com.au](https://www.appliancesonline.com.au/product/liquifi-owm-55gbh-55-inch-full-hd-led-outdoor-waterproof-tv?utm_source=openai))\n\n\n\n[Spark Alfresco 2 Outdoor TV 75\"\n – Outdoor TVs Australia](https://outdoortv.com.au/products/spark-alfresco-2-outdoor-tv-75?utm_source=openai)\n**Spark Alfresco 2 Outdoor TV 75\"**  \nThis 75-inch TV offers 4K LED HDR10 picture quality with 1500-nit brightness, IP55 weatherproofing, and active temperature control. It's designed for covered outdoor areas and operates reliably in various weather conditions. ([outdoortv.com.au](https://outdoortv.com.au/products/spark-alfresco-2-outdoor-tv-75?utm_source=openai))\n\n\nWhen selecting a waterproof TV, consider factors such as screen size, resolution, brightness, water resistance rating, and the intended installation environment to ensure it meets your specific needs. ",
+                  "annotations": [
+                    {
+                      "title": "Englaon 4K IP65 Waterproof Outdoor Smart LED TV for Full Sunshine Area - 55inch | Harvey Norman",
+                      "url": "https://www.harveynorman.com.au/englaon-4k-ip65-waterproof-outdoor-smart-led-tv-for-full-sunshine-area-55inch.html?utm_source=openai"
+                    },
+                    {
+                      "title": "ENGLAON 55’’ 4K Outdoor SMART IP65 Waterproof LED TV for Full Sunshine Areas - JB Hi-Fi",
+                      "url": "https://www.jbhifi.com.au/products/englaon-55-4k-outdoor-smart-ip65-waterproof-led-tv-for-full-sunshine-areas?utm_source=openai"
+                    },
+                    {
+                      "title": "Sylvox Cinema 75\" Helio QLED Outdoor TV – 2000 Nits, Cinematic Motion – Sylvox AU",
+                      "url": "https://sylvoxtv.com.au/products/sylvox-cinema-75-helio-qled-outdoor-tv-2500-nits-cinematic-motion-with-120hz-2025-model?utm_source=openai"
+                    },
+                    {
+                      "title": "ENGLAON 24″ Full HD SMART Waterproof LED TV for Bathroom, Kitchen and Spa in White Finish | BIG W",
+                      "url": "https://www.bigw.com.au/product/englaon-24-full-hd-smart-waterproof-led-tv-for-bathroom-kitchen-and-spa-in-white-finish/p/9902439699?utm_source=openai"
+                    },
+                    {
+                      "title": "1000 Satellite TV Channels - H.264 & Android Smart TV Box",
+                      "url": "https://www.alibaba.com/showroom/1000-satellite-tv.html?utm_source=openai"
+                    },
+                    {
+                      "title": "Liquifi OWM-55GBH 55 Inch Full HD LED Outdoor Waterproof TV | Appliances Online",
+                      "url": "https://www.appliancesonline.com.au/product/liquifi-owm-55gbh-55-inch-full-hd-led-outdoor-waterproof-tv?utm_source=openai"
+                    },
+                    {
+                      "title": "Spark Alfresco 2 Outdoor TV 75\"\n – Outdoor TVs Australia",
+                      "url": "https://outdoortv.com.au/products/spark-alfresco-2-outdoor-tv-75?utm_source=openai"
+                    },
+                    {
+                      "title": "Spark Alfresco 2 Outdoor TV 75\" – Outdoor TV Australia",
+                      "url": "https://outdoortv.com.au/products/spark-alfresco-2-outdoor-tv-75?utm_source=openai"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": [
+            "waterproof TV Australia"
+          ]
+        }
+      ]
+    }
+  ]
+}

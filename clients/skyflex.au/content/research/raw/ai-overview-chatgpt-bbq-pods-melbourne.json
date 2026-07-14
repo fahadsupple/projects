@@ -1,0 +1,70 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.5746 sec.",
+ "cost": 0.0269737,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0612-0000-142a9bdbeb94",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.5584 sec.",
+   "cost": 0.0269737,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "ai_optimization",
+    "chat_gpt",
+    "llm_responses",
+    "live"
+   ],
+   "data": {
+    "api": "ai_optimization",
+    "function": "llm_responses",
+    "se": "chat_gpt",
+    "user_prompt": "bbq pods melbourne",
+    "model_name": "gpt-4o-mini",
+    "web_search": true,
+    "web_search_country_iso_code": "AU"
+   },
+   "result": [
+    {
+     "model_name": "gpt-4o-mini-2024-07-18",
+     "input_tokens": 8174,
+     "output_tokens": 246,
+     "reasoning_tokens": 0,
+     "web_search": true,
+     "money_spent": 0.0263737,
+     "datetime": "2026-07-14 09:27:33 +00:00",
+     "items": [
+      {
+       "type": "message",
+       "sections": [
+        {
+         "type": "text",
+         "text": "If you're looking to enhance your outdoor cooking experience in Melbourne, several companies offer premium BBQ pods designed for durability and style. Here are some options to consider:\n\n\n\nFor a more hands-on experience, you can visit Future Shade's Home Innovations Display Centre in Frankston to see their BBQ pods in person. They are located at 111 Cranbourne Rd, Frankston VIC 3199. You can contact them at (03) 8738 9036 for more information. ([futureshade.com.au](https://www.futureshade.com.au/bbq-pods?utm_source=openai))\n\nAdditionally, Future Shade will be exhibiting at the Melbourne Home Show from August 21-23, 2026, at the Melbourne Convention & Exhibition Centre. This event provides an excellent opportunity to explore their products and discuss customization options. ([homeshows.com.au](https://homeshows.com.au/melbourne/exhibitor/future-shade/?utm_source=openai))\n\nBefore making a decision, consider factors such as the size of your outdoor space, desired features, and budget to choose the BBQ pod that best fits your needs. ",
+         "annotations": [
+          {
+           "title": "BBQ Pods | Outdoor Kitchens | Future Shade Melbourne",
+           "url": "https://www.futureshade.com.au/bbq-pods?utm_source=openai"
+          },
+          {
+           "title": "Future Shade - Melbourne Home Show",
+           "url": "https://homeshows.com.au/melbourne/exhibitor/future-shade/?utm_source=openai"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "fan_out_queries": [
+      "BBQ pods Melbourne"
+     ]
+    }
+   ]
+  }
+ ]
+}

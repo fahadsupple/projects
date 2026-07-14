@@ -1,0 +1,996 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.6891 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140928-1150-0495-0000-05038d4f3e78",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.6534 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://elitepods.com.au/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:28:38 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "Elite Pods",
+           "url": "https://elitepods.com.au/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/",
+             "anchor_text": "Elite Pods"
+            }
+           ]
+          },
+          {
+           "text": "COTTESLOE RANGE",
+           "url": "https://elitepods.com.au/kitchen-pods/cottesloe-range/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/kitchen-pods/cottesloe-range/",
+             "anchor_text": "COTTESLOE RANGE"
+            }
+           ]
+          },
+          {
+           "text": "SORRENTO RANGE",
+           "url": "https://elitepods.com.au/kitchen-pods/sorrento-range/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/kitchen-pods/sorrento-range/",
+             "anchor_text": "SORRENTO RANGE"
+            }
+           ]
+          },
+          {
+           "text": "FREO RANGE",
+           "url": "https://elitepods.com.au/kitchen-pods/freo-range/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/kitchen-pods/freo-range/",
+             "anchor_text": "FREO RANGE"
+            }
+           ]
+          },
+          {
+           "text": "COOGEE RANGE",
+           "url": "https://elitepods.com.au/kitchen-pods/coogee-range/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/kitchen-pods/coogee-range/",
+             "anchor_text": "COOGEE RANGE"
+            }
+           ]
+          },
+          {
+           "text": "ILUKA RANGE",
+           "url": "https://elitepods.com.au/kitchen-pods/iluka-range/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/kitchen-pods/iluka-range/",
+             "anchor_text": "ILUKA RANGE"
+            }
+           ]
+          },
+          {
+           "text": "AUS LOAN",
+           "url": "https://elitepods.com.au/aus-loan/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/aus-loan/",
+             "anchor_text": "AUS LOAN"
+            }
+           ]
+          },
+          {
+           "text": "CONTACT US",
+           "url": "https://elitepods.com.au/contact-us/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/contact-us/",
+             "anchor_text": "CONTACT US"
+            }
+           ]
+          },
+          {
+           "text": "GET A QUOTE",
+           "url": "https://elitepods.com.au/order/",
+           "urls": [
+            {
+             "url": "https://elitepods.com.au/order/",
+             "anchor_text": "GET A QUOTE"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "Edison Rise Wangara 6065",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Mark - 0422 308 143",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Miceal - 0456 862 453",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "\u00a9 2026 All Rights Reserved.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Designed & Developed by Artemis Consultive",
+           "url": "https://artemisconsultive.com.au/",
+           "urls": [
+            {
+             "url": "https://artemisconsultive.com.au/",
+             "anchor_text": "Artemis Consultive"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "main_topic": [
+         {
+          "h_title": "MADE FOR MOMENTS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Imagine cooking, dining, and entertaining all in the open air and surrounded by great company.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Our outdoor Kitchen Pods are redefining how people gather, eat, and enjoy their outdoor spaces.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Aesthetic Appeal",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Designed to elevate any backyard, garden, or patio with clean lines and premium materials.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "CONVENIENCE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Everything you need is right where you need it - sink, grill, storage and prep space all built into a compact, stylish pod.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Social Connection",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Because great food tastes even better when shared outside with friends and family.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Custom-Made",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Our kitchen pods are customizable to meet your needs. Choose from finishes, fittings, and features that reflect your style and functionality. Every detail is tailored for your ideal kitchen.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "All-Season Enjoyment",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Built tough for the outdoors, so you're ready to host whether it's a warm summer day or a crisp autumn evening and with a click of button you can keep your pod safe from sun and rain.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "INCLUSIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Single door beer fridge",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Built-in 36 inch BBQ grill",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Electric lift spice cabinet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel sink & pull-out faucet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel pod, drawers & cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "LED lighting (ceiling and skirting area)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Stainless steel countertop",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "INCLUSIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Electric door with remote control",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Built-in 30 inch BBQ grill",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Single door 21 inch beer fridge",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel pod, drawers & cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel sink & pull-out faucet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "LED lighting (ceiling and skirting area)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Range hood",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel countertop",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "INCLUSIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Electric door with remote control",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Built-in 30 inch BBQ grill",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Single door 24 inch beer fridge",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel pod, drawers & cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel sink & pull-out faucet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "LED lighting (ceiling and skirting area)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "32\" Smart TV",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Range hood",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel countertop",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "INCLUSIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Electric door with remote control",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Built-in 36 inch BBQ grill",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Single door 24 inch beer fridge",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Electric lift spice cabinet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Exterior lights \u2013 white light",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel pod, drawers & cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel sink & pull-out faucet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "LED lighting (ceiling and skirting area)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "42\" Smart TV",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Range hood",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel countertop",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "INCLUSIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Electric lift spice cabinet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Built-in 36inch BBQ grill",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless steel sink &\u2028pull-out faucet",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless-steel pod, drawers & cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "LED lighting (ceiling, sides and skirting area)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Stainless-steel texture counter top 40mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lithe Bluetooth high-performance speakers",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Reticulated wall herb-garden (exterior sides)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "42\" Smart TV",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Range hood",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Electric door",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Waste Bin",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wine glass holder",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wall-mounted shelf",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "CUSTOMIZATION OPTIONS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "SINTERTED STONE WITH STAINLESS STEEL",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "STAINLESS STEEL OR SINTERED STONE",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "DOOR MATERIAL",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "EXTERIOR AND",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "CABINETS COLOUR",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "WALL MOUNTED",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "STORAGE SHELF",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "CUSTOMIZABLE LEVELS",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Need your space transformed? We don\u2019t just build, we take care of everything.",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "From the ground up, we bring your vision to life.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "We custom-build premium entertainment pods, handling every detail, starting with the concrete slab, through to crane lifting, plumbing and electrical, all the way to decking, full installation and final finish.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "OUR SIMPLE PROCESS",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "We've made it easy for you to get the kitchen pod you love - here's how it works:",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Book Your\nSite Visit",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Get in touch with us to arrange a convenient time for a site visit. We\u2019ll come to you, see your space, and get a feel for what\u2019s possible.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Design & Select Your Pod",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "We\u2019ll discuss your needs and style, exploring colours, finishes, and features. We\u2019ll ensure everything suits your space.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Site\nAnalysis",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "On-site, we\u2019ll check practical details to fit your pod perfectly. We\u2019ll assess plumbing and electrical needs for readiness.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Place Your\nOrder",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Once happy with the design, we\u2019ll finalize your order. A deposit secures your pod, and we\u2019ll manage logistics.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Delivery & Installation",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "A crane will place your pod. Our team will ensure everything is ready for you. Crane hire is not included.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "CRAFTED FOR\u2028COMFORT",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 1,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "WHY CHOOSE OUR\u2028OUTDOOR KITCHEN POD",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "COTTESLOE RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 3822mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1060mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2379mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "KITCHEN POD TYPES",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "ILUKA RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 3139mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1290mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2379mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "COOGEE RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 2210mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1002mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2350mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "FREO RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 2690mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1002mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2350mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "SORRENTO RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 3500mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1002mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2350mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "COTTESLOE RANGE",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "L: 3822mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "W: 1060mm",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "H: 2379mm",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "PLANNING FOR AN UPGRADE?",
+          "main_title": "CRAFTED FOR\u2028COMFORT",
+          "author": "Elite Pods",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Six Burner with Hot Plate $1,800",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Ice Maker $400",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Four Burner $1,400",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "kegerator $850",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sink $150",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Spice Rack $400",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": null,
+         "emails": [
+          "info@elitepods.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

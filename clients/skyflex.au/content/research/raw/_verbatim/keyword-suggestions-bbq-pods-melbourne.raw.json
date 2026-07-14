@@ -1,0 +1,53 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.2098 sec.",
+ "cost": 0.012,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140926-1150-0399-0000-e799f79fd175",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1995 sec.",
+   "cost": 0.012,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "bbq pods melbourne",
+    "location_code": 2036,
+    "language_code": "en",
+    "include_serp_info": false,
+    "limit": 100,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "bbq pods melbourne",
+     "seed_keyword_data": null,
+     "location_code": 2036,
+     "language_code": "en",
+     "total_count": null,
+     "items_count": 0,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmJxIHBvZHMgbWVsYm91cm5lIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOmZhbHNlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjIwMzYsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxMDAsIm9mZnNldCI6MCwiYWlkIjoxMTUwNTgsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA3MTQwOTI2LTExNTAtMDM5OS0wMDAwLWU3OTlmNzlmZDE3NSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiNTA5ZjhkNjQtNTc1Ny00NjllLWJjZGEtYmZjYjJlMTUzZTA1IiwiU2VhcmNoQWZ0ZXJEYXRhIjpudWxsLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+     "items": null
+    }
+   ]
+  }
+ ]
+}

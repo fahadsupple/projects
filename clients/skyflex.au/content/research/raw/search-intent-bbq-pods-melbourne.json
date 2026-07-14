@@ -1,0 +1,64 @@
+{
+ "language_code": "en",
+ "items_count": 6,
+ "items": [
+  {
+   "keyword": "bbq pods melbourne",
+   "keyword_intent": {
+    "label": "navigational",
+    "probability": 0.4207
+   },
+   "secondary_keyword_intents": [
+    {
+     "label": "transactional",
+     "probability": 0.3932
+    }
+   ]
+  },
+  {
+   "keyword": "bbq pods",
+   "keyword_intent": {
+    "label": "transactional",
+    "probability": 0.5485
+   },
+   "secondary_keyword_intents": [
+    {
+     "label": "informational",
+     "probability": 0.3457
+    }
+   ]
+  },
+  {
+   "keyword": "outdoor kitchen pods",
+   "keyword_intent": {
+    "label": "commercial",
+    "probability": 0.6441
+   },
+   "secondary_keyword_intents": null
+  },
+  {
+   "keyword": "prefabricated outdoor kitchen",
+   "keyword_intent": {
+    "label": "transactional",
+    "probability": 0.5877
+   },
+   "secondary_keyword_intents": null
+  },
+  {
+   "keyword": "modular outdoor kitchen",
+   "keyword_intent": {
+    "label": "commercial",
+    "probability": 0.9097
+   },
+   "secondary_keyword_intents": null
+  },
+  {
+   "keyword": "outdoor kitchen melbourne",
+   "keyword_intent": {
+    "label": "navigational",
+    "probability": 0.5067
+   },
+   "secondary_keyword_intents": null
+  }
+ ]
+}

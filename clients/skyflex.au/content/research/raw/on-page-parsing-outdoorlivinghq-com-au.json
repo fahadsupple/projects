@@ -1,0 +1,904 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "9.6243 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140928-1150-0495-0000-c7bf646c18f5",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "9.5904 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-kitchen-pod/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:28:12 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "About us",
+           "url": "https://outdoorlivinghq.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/about-us/",
+             "anchor_text": "About us"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Kitchen",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen/",
+             "anchor_text": "Outdoor Kitchen"
+            }
+           ]
+          },
+          {
+           "text": "Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+             "anchor_text": "Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Furniture",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+             "anchor_text": "Outdoor Furniture"
+            }
+           ]
+          },
+          {
+           "text": "Smokeless Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+             "anchor_text": "Smokeless Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Infrared Heaters",
+           "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+             "anchor_text": "Infrared Heaters"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Dining Table",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+             "anchor_text": "Outdoor Dining Table"
+            }
+           ]
+          },
+          {
+           "text": "Shop All",
+           "url": "https://outdoorlivinghq.com.au/shop/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/shop/",
+             "anchor_text": "Shop All"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": {
+         "primary_content": [
+          {
+           "text": "Call us for help",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Outdoor Living HQ is set to become Australia\u2019s premier online destination for outdoor furniture, capturing the vibrant spirit of Aussie outdoor living. Our vision is to create a dynamic, user-friendly online store that offers exceptional products and enhances the outdoor lifestyle experience for Australians everywhere.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Be the First to Know. Sign up to newsletter today",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "Australia Wide",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Payment methods",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "View our benefits",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Easy Ordering",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "18 Enmore Street, North Geelong, VIC 3215",
+           "url": "https://maps.app.goo.gl/YBc5piYWTBT4Q5fv6",
+           "urls": [
+            {
+             "url": "https://maps.app.goo.gl/YBc5piYWTBT4Q5fv6",
+             "anchor_text": "18 Enmore Street, North Geelong, VIC 3215"
+            }
+           ]
+          },
+          {
+           "text": "Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+             "anchor_text": "Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Furniture",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+             "anchor_text": "Outdoor Furniture"
+            }
+           ]
+          },
+          {
+           "text": "Smokeless Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+             "anchor_text": "Smokeless Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Infrared Heaters",
+           "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+             "anchor_text": "Infrared Heaters"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Dining Table",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+             "anchor_text": "Outdoor Dining Table"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Kitchen BBQ Pods",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen-bbq-pods/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen-bbq-pods/",
+             "anchor_text": "Outdoor Kitchen BBQ Pods"
+            }
+           ]
+          },
+          {
+           "text": "Privacy Policy",
+           "url": "https://outdoorlivinghq.com.au/privacy-policy/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/privacy-policy/",
+             "anchor_text": "Privacy Policy"
+            }
+           ]
+          },
+          {
+           "text": "Returns & Shipping",
+           "url": "https://outdoorlivinghq.com.au/returns/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/returns/",
+             "anchor_text": "Returns & Shipping"
+            }
+           ]
+          },
+          {
+           "text": "Terms of Use",
+           "url": "https://outdoorlivinghq.com.au/terms-of-use/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/terms-of-use/",
+             "anchor_text": "Terms of Use"
+            }
+           ]
+          },
+          {
+           "text": "My Account",
+           "url": "https://outdoorlivinghq.com.au/my-account/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/my-account/",
+             "anchor_text": "My Account"
+            }
+           ]
+          },
+          {
+           "text": "About Us",
+           "url": "https://outdoorlivinghq.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/about-us/",
+             "anchor_text": "About Us"
+            }
+           ]
+          },
+          {
+           "text": "\u00a9 2025 Outdoor Living HQ",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Outdoor Kitchen",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-kitchen/",
+             "anchor_text": "Outdoor Kitchen"
+            }
+           ]
+          },
+          {
+           "text": "Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/fire-pits/",
+             "anchor_text": "Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Furniture",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-furniture/",
+             "anchor_text": "Outdoor Furniture"
+            }
+           ]
+          },
+          {
+           "text": "Smokeless Fire Pits",
+           "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/smokeless-fire-pits/",
+             "anchor_text": "Smokeless Fire Pits"
+            }
+           ]
+          },
+          {
+           "text": "Infrared Heaters",
+           "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/infrared-heaters/",
+             "anchor_text": "Infrared Heaters"
+            }
+           ]
+          },
+          {
+           "text": "Outdoor Dining Table",
+           "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/product-category/outdoor-dining-table/",
+             "anchor_text": "Outdoor Dining Table"
+            }
+           ]
+          },
+          {
+           "text": "Shop All",
+           "url": "https://outdoorlivinghq.com.au/shop/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/shop/",
+             "anchor_text": "Shop All"
+            }
+           ]
+          },
+          {
+           "text": "About us",
+           "url": "https://outdoorlivinghq.com.au/about-us/",
+           "urls": [
+            {
+             "url": "https://outdoorlivinghq.com.au/about-us/",
+             "anchor_text": "About us"
+            }
+           ]
+          },
+          {
+           "text": "No account yet?",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "table_content": null
+        },
+        "main_topic": [
+         {
+          "h_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Shipping: Price on Application",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Due to the size and weight of this product, shipping costs vary by location. Our team will contact the you after checkout to confirm delivery pricing before order processing.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Additional costs may apply for upgrades.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Shipping costs are available upon application.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "From $19,999 GST included*",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Shipping and returns",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Product care",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Product care",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Description",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 4,
+          "primary_content": [
+           {
+            "text": "or Powder-coated stainless steel (black)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Huge 3.5m all-in-one outdoor kitchen pod",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "108L outdoor fridge",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "AGA + SAA certified components",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Fully enclosed for weather protection",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Product Specifications:",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Product Features:",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "6-burner BBQ",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "46\u2033 TV",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sink + tap",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "304 stainless steel cabinets",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Powder-coated exterior",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Honeycomb aluminium internals",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Plug-and-play installation",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": [
+           {
+            "header": [
+             {
+              "row_cells": [
+               {
+                "text": "Feature",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Specification",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             }
+            ],
+            "body": [
+             {
+              "row_cells": [
+               {
+                "text": "Fridge",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "108L (443 \u00d7 445 \u00d7 835mm)",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "TV",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "46-inch",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "BBQ",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "6-burner (AGA certified)",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Rangehood",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Included",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Cabinetry",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "304 stainless steel",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Exterior Material",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Powder-coated galvanised steel (black) or Powder-coated stainless steel (black)",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Internal Structure",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Honeycomb aluminium",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Electrical",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "SAA approved",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Sink",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Included",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Lighting",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Included",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             },
+             {
+              "row_cells": [
+               {
+                "text": "Enclosure",
+                "urls": null,
+                "is_header": false
+               },
+               {
+                "text": "Fully weather-protected pod",
+                "urls": null,
+                "is_header": false
+               }
+              ]
+             }
+            ],
+            "footer": null
+           }
+          ]
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Smokeless Fire Pits, Heaters & Plants \u2013 Free Shipping Australia-Wide",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 4,
+          "primary_content": [
+           {
+            "text": "Celebrating 25 Years of Trusted Service!",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Introductory Sale Price",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "From $ 19,999.00",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Product details",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 4,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Customer Reviews",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 4,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "0 reviews",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Reviews",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "There are no reviews yet.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Your email address will not be published. Required fields are marked *",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Save my name, email, and website in this browser for the next time I comment.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "1 of 5 stars 2 of 5 stars 3 of 5 stars 4 of 5 stars 5 of 5 stars",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Your review\u00a0*",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Related Products",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 4,
+          "primary_content": null,
+          "secondary_content": null,
+          "table_content": null
+         },
+         {
+          "h_title": "Diablo Mini Outdoor BBQ Pod \u2013 Presale Price",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Diablo Mini Outdoor BBQ Pod \u2013 Presale Price",
+            "url": "https://outdoorlivinghq.com.au/product/diablo-mini-outdoor-bbq-pod/",
+            "urls": [
+             {
+              "url": "https://outdoorlivinghq.com.au/product/diablo-mini-outdoor-bbq-pod/",
+              "anchor_text": "Diablo Mini Outdoor BBQ Pod \u2013 Presale Price"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Diablo Outdoor Gas Pizza Oven 16\u2033 (Stand Included)",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Diablo Outdoor Gas Pizza Oven 16\u2033 (Stand Included)",
+            "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-pizza-oven-16-inch-gas/",
+            "urls": [
+             {
+              "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-pizza-oven-16-inch-gas/",
+              "anchor_text": "Diablo Outdoor Gas Pizza Oven 16\u2033 (Stand Included)"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Diablo Outdoor Electric Pizza Oven 13\u2033 (Stand Included)",
+          "main_title": "Diablo 3.5m Outdoor Kitchen Pod",
+          "author": null,
+          "language": "en",
+          "level": 3,
+          "primary_content": null,
+          "secondary_content": [
+           {
+            "text": "Diablo Outdoor Electric Pizza Oven 13\u2033 (Stand Included)",
+            "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-pizza-oven-13-inch-electric/",
+            "urls": [
+             {
+              "url": "https://outdoorlivinghq.com.au/product/diablo-outdoor-pizza-oven-13-inch-electric/",
+              "anchor_text": "Diablo Outdoor Electric Pizza Oven 13\u2033 (Stand Included)"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": [
+         {
+          "name": null,
+          "price": 19999,
+          "price_currency": "AUD",
+          "price_valid_until": "2027-12-31 00:00:00 +00:00"
+         }
+        ],
+        "comments": null,
+        "contacts": null
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

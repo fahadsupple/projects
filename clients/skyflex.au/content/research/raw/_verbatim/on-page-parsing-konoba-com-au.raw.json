@@ -1,0 +1,628 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "17.2262 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140928-1150-0495-0000-ed36139ac664",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "17.1821 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:28:31 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": [
+          {
+           "text": "Durasa Lux BBQ Range Durasa Lux BBQ Range",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Not sure where to start?",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "This site uses cookies for better user experience and analytics.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "KONOBA BBQ PODS AUSTRALIA",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "FREE KONOBA Board with orders over $500",
+           "url": "https://konoba.com.au/products/wood-cutting-board",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/products/wood-cutting-board",
+             "anchor_text": "FREE KONOBA Board with orders over $500"
+            }
+           ]
+          },
+          {
+           "text": "Products Products",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Brands Brands",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Home Home",
+           "url": "https://konoba.com.au/",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/",
+             "anchor_text": "HomeHome"
+            }
+           ]
+          },
+          {
+           "text": "Built in Parrilla",
+           "url": "https://konoba.com.au/collections/built-in-parrilla",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/built-in-parrilla",
+             "anchor_text": "Built in Parrilla"
+            }
+           ]
+          },
+          {
+           "text": "Portable Parrilla Grill",
+           "url": "https://konoba.com.au/collections/mobil-parrilla",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/mobil-parrilla",
+             "anchor_text": "Portable Parrilla Grill"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Konoba PODS",
+           "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+             "anchor_text": "BBQ Konoba PODS"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Accessories",
+           "url": "https://konoba.com.au/collections/bbq-accessories",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/bbq-accessories",
+             "anchor_text": "BBQ Accessories"
+            }
+           ]
+          },
+          {
+           "text": "Konoba Mali Hibachi",
+           "url": "https://konoba.com.au/collections/konoba-mali-hibachi",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/konoba-mali-hibachi",
+             "anchor_text": "Konoba Mali Hibachi"
+            }
+           ]
+          },
+          {
+           "text": "Caliu Grill",
+           "url": "https://konoba.com.au/collections/caliu-grill",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/caliu-grill",
+             "anchor_text": "Caliu Grill"
+            }
+           ]
+          },
+          {
+           "text": "Asado Cross/Basket",
+           "url": "https://konoba.com.au/collections/asado-cross-basket",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/asado-cross-basket",
+             "anchor_text": "Asado Cross/Basket"
+            }
+           ]
+          },
+          {
+           "text": "Gourmet Wall Grill",
+           "url": "https://konoba.com.au/collections/gourmet-wall-grill",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/gourmet-wall-grill",
+             "anchor_text": "Gourmet Wall Grill"
+            }
+           ]
+          },
+          {
+           "text": "Firebox Frame Covers",
+           "url": "https://konoba.com.au/collections/firebox-frame-covers",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/firebox-frame-covers",
+             "anchor_text": "Firebox Frame Covers"
+            }
+           ]
+          },
+          {
+           "text": "P25 Side",
+           "url": "https://konoba.com.au/collections/p25-side",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/p25-side",
+             "anchor_text": "P25 Side"
+            }
+           ]
+          },
+          {
+           "text": "P25 Central",
+           "url": "https://konoba.com.au/collections/p25-central",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/p25-central",
+             "anchor_text": "P25 Central"
+            }
+           ]
+          },
+          {
+           "text": "Portable Parrilla",
+           "url": "https://konoba.com.au/collections/portable-parrilla",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/portable-parrilla",
+             "anchor_text": "Portable Parrilla"
+            }
+           ]
+          },
+          {
+           "text": "Grill Accessories",
+           "url": "https://konoba.com.au/collections/grill-accessories",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/grill-accessories",
+             "anchor_text": "Grill Accessories"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Hoods",
+           "url": "https://konoba.com.au/collections/bbq-hoods",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/bbq-hoods",
+             "anchor_text": "BBQ Hoods"
+            }
+           ]
+          },
+          {
+           "text": "Durasa BBQ Pods",
+           "url": "https://konoba.com.au/products/durasa-gourmet-module",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/products/durasa-gourmet-module",
+             "anchor_text": "Durasa BBQ Pods"
+            }
+           ]
+          },
+          {
+           "text": "Contact Contact",
+           "url": "https://konoba.com.au/pages/contact-us",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/contact-us",
+             "anchor_text": "ContactContact"
+            }
+           ]
+          },
+          {
+           "text": "Resellers Resellers",
+           "url": "https://konoba.com.au/pages/resellers",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/resellers",
+             "anchor_text": "ResellersResellers"
+            }
+           ]
+          },
+          {
+           "text": "SALE SALE",
+           "url": "https://konoba.com.au/collections/sale",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/sale",
+             "anchor_text": "SALESALE"
+            }
+           ]
+          },
+          {
+           "text": "Konoba BBQ",
+           "url": "https://konoba.com.au/",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/",
+             "anchor_text": "Konoba BBQ"
+            }
+           ]
+          },
+          {
+           "text": "Cart 0",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Recently viewed",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Try these collections:",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Continue shopping",
+           "url": "https://konoba.com.au/collections/all",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/all",
+             "anchor_text": "Continue shopping"
+            }
+           ]
+          },
+          {
+           "text": "Taxes included and shipping calculated at checkout.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "$0.00 AUD",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "table_content": null
+        },
+        "footer": {
+         "primary_content": [
+          {
+           "text": "We take pride in delivering your order safely and on time. Every product is carefully packed and shipped with trusted carriers. Once dispatched, you\u2019ll receive a tracking number so you can follow your delivery every step of the way.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Shop with confidence! We offer secure payment options, ensuring that your personal and financial information is protected with the highest encryption standards.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Satisfaction guaranteed! We take pride in the design and quality of our BBQ products. If you're not completely satisfied with your purchase, let us know.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "We're always open to exciting partnerships that spark creativity, innovation, and mutual growth. If you're looking to team up with a brand that values quality, bold ideas, and authentic connections \u2014 let\u2019s chat.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Stay in the loop with our weekly newsletter",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Choosing a selection results in a full page refresh.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Opens in a new window.",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "Secure payment",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Quality Guarantee",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Let\u2019s Collaborate",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Durasa Lux BBQ Range",
+           "url": "https://konoba.com.au/",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/",
+             "anchor_text": "Durasa Lux BBQ Range"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Konoba PODS",
+           "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/bbq-konoba-pods",
+             "anchor_text": "BBQ Konoba PODS"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Accessories",
+           "url": "https://konoba.com.au/collections/bbq-accessories",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/bbq-accessories",
+             "anchor_text": "BBQ Accessories"
+            }
+           ]
+          },
+          {
+           "text": "Table Top Grills",
+           "url": "https://konoba.com.au/collections/table-top-grills",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/table-top-grills",
+             "anchor_text": "Table Top Grills"
+            }
+           ]
+          },
+          {
+           "text": "Asado Cross/Basket",
+           "url": "https://konoba.com.au/collections/asado-cross-basket",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/collections/asado-cross-basket",
+             "anchor_text": "Asado Cross/Basket"
+            }
+           ]
+          },
+          {
+           "text": "Our Story",
+           "url": "https://konoba.com.au/pages/our-story",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/our-story",
+             "anchor_text": "Our Story"
+            }
+           ]
+          },
+          {
+           "text": "How to Videos",
+           "url": "https://konoba.com.au/pages/how-to-videos",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/how-to-videos",
+             "anchor_text": "How to Videos"
+            }
+           ]
+          },
+          {
+           "text": "Contact US",
+           "url": "https://konoba.com.au/pages/contact-us",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/contact-us",
+             "anchor_text": "Contact US"
+            }
+           ]
+          },
+          {
+           "text": "Product care tips",
+           "url": "https://konoba.com.au/pages/product-care-tips",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/product-care-tips",
+             "anchor_text": "Product care tips"
+            }
+           ]
+          },
+          {
+           "text": "Warranty info",
+           "url": "https://konoba.com.au/pages/warranty-information",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/warranty-information",
+             "anchor_text": "Warranty info"
+            }
+           ]
+          },
+          {
+           "text": "Shipping and delivery",
+           "url": "https://konoba.com.au/pages/shipping-and-delivery",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/shipping-and-delivery",
+             "anchor_text": "Shipping and delivery"
+            }
+           ]
+          },
+          {
+           "text": "Design and Ordering Process",
+           "url": "https://konoba.com.au/pages/design-and-ordering-process",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/pages/design-and-ordering-process",
+             "anchor_text": "Design and Ordering Process"
+            }
+           ]
+          },
+          {
+           "text": "Konoba BBQ",
+           "url": "https://konoba.com.au/",
+           "urls": [
+            {
+             "url": "https://konoba.com.au/",
+             "anchor_text": "Konoba BBQ"
+            }
+           ]
+          },
+          {
+           "text": "American Express",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Apple Pay",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Google Pay",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Shop Pay",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Union Pay",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "table_content": null
+        },
+        "main_topic": [
+         {
+          "h_title": "KONOBA BBQ PODS AUSTRALIA",
+          "main_title": "KONOBA BBQ PODS AUSTRALIA",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Price, low to high",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Price, high to low",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, old to new",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Date, new to old",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Most relevant",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Best selling",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, A-Z",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Alphabetically, Z-A",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Durasa Gourmet Module",
+            "url": "https://konoba.com.au/collections/bbq-konoba-pods/products/durasa-gourmet-module",
+            "urls": [
+             {
+              "url": "https://konoba.com.au/collections/bbq-konoba-pods/products/durasa-gourmet-module",
+              "anchor_text": "Durasa Gourmet Module"
+             }
+            ]
+           },
+           {
+            "text": "KONOBA OUTDOOR BBQ PODS",
+            "url": "https://konoba.com.au/collections/bbq-konoba-pods/products/konoba-outdoor-pods",
+            "urls": [
+             {
+              "url": "https://konoba.com.au/collections/bbq-konoba-pods/products/konoba-outdoor-pods",
+              "anchor_text": "KONOBA OUTDOOR BBQ PODS"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "secondary_topic": null,
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "0403264298"
+         ],
+         "emails": [
+          "sales@konoba.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

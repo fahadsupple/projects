@@ -1,0 +1,83 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "8.7798 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140929-1150-0495-0000-824576e447a6",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "8.7248 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.winnings.com.au/c/bathroom/toilets/smart-toilets",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:29:21 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": null,
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Hi, It looks like you have scripts disabled!",
+          "main_title": "Hi, It looks like you have scripts disabled!",
+          "author": null,
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Please enable scripts for the best experience on our website.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "If you wish to purchase please call us on 1300 050 050",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": null,
+          "table_content": null
+         }
+        ],
+        "secondary_topic": null,
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "1300 050 050"
+         ],
+         "emails": null
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

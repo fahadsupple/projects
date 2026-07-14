@@ -1,0 +1,1250 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "26.1814 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140926-1150-0495-0000-d32c90796db9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "26.0055 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "content_parsing",
+        "live"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "content_parsing",
+        "url": "https://outdoortv.com.au/",
+        "enable_javascript": true
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "items_count": 1,
+          "items": [
+            {
+              "type": "content_parsing_element",
+              "fetch_time": "2026-07-14 03:27:10 +00:00",
+              "status_code": 200,
+              "page_content": {
+                "header": {
+                  "primary_content": [
+                    {
+                      "text": "Your cart is empty",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Have an account?",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Log in to check out faster.",
+                      "url": "https://outdoortv.com.au/customer_authentication/redirect?locale=en&region_country=AU",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/customer_authentication/redirect?locale=en&region_country=AU",
+                          "anchor_text": "Log in"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Your cart",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Estimated total",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "$0.00 AUD",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Full Sun",
+                      "url": "https://outdoortv.com.au/pages/full-sun-outdoor-tvs-for-backyards",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/full-sun-outdoor-tvs-for-backyards",
+                          "anchor_text": "Full Sun"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Partial Sun",
+                      "url": "https://outdoortv.com.au/pages/partial-sun-outdoor-tvs-for-backyards",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/partial-sun-outdoor-tvs-for-backyards",
+                          "anchor_text": "Partial Sun"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Beer Gardens",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-beer-gardens",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-beer-gardens",
+                          "anchor_text": "Beer Gardens"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Sports Bars",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-sports-bars",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-sports-bars",
+                          "anchor_text": "Sports Bars"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Film & Art",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-film-art-events",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-film-art-events",
+                          "anchor_text": "Film & Art"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Building Projects",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-building-projects",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-building-projects",
+                          "anchor_text": "Building Projects"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Alfresco 2",
+                      "url": "https://outdoortv.com.au/collections/spark-alfresco-2",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-alfresco-2",
+                          "anchor_text": "Spark Alfresco 2"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Element",
+                      "url": "https://outdoortv.com.au/collections/spark-element",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-element",
+                          "anchor_text": "Spark Element"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Pavilion 2",
+                      "url": "https://outdoortv.com.au/collections/spark-pavilion-2",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-pavilion-2",
+                          "anchor_text": "Spark Pavilion 2"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Lumin",
+                      "url": "https://outdoortv.com.au/collections/spark-lumin",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-lumin",
+                          "anchor_text": "Spark Lumin"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Compare Models",
+                      "url": "https://outdoortv.com.au/pages/compare-models",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/compare-models",
+                          "anchor_text": "Compare Models"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "55\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/55-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/55-outdoor-tvs",
+                          "anchor_text": "55\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "65\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/65-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/65-outdoor-tvs",
+                          "anchor_text": "65\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "75\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/75-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/75-outdoor-tvs",
+                          "anchor_text": "75\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "86\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/86-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/86-outdoor-tvs",
+                          "anchor_text": "86\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "About Us",
+                      "url": "https://outdoortv.com.au/pages/about-us",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/about-us",
+                          "anchor_text": "About Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact Us",
+                      "url": "https://outdoortv.com.au/pages/contact",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/contact",
+                          "anchor_text": "Contact Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Help Me Choose",
+                      "url": "https://outdoortv.com.au/pages/help-me-choose?utm_source=nav_bar&utm_medium=cta&utm_campaign=quiz",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/help-me-choose?utm_source=nav_bar&utm_medium=cta&utm_campaign=quiz",
+                          "anchor_text": "Help Me Choose"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Trade Sign-Up",
+                      "url": "https://outdoortv.com.au/pages/trade-sign-up?utm_source=nav_bar&utm_medium=internal&utm_campaign=trade_signup",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/trade-sign-up?utm_source=nav_bar&utm_medium=internal&utm_campaign=trade_signup",
+                          "anchor_text": "Trade Sign-Up"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Full Sun",
+                      "url": "https://outdoortv.com.au/pages/full-sun-outdoor-tvs-for-backyards",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/full-sun-outdoor-tvs-for-backyards",
+                          "anchor_text": "Full Sun"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Partial Sun",
+                      "url": "https://outdoortv.com.au/pages/partial-sun-outdoor-tvs-for-backyards",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/partial-sun-outdoor-tvs-for-backyards",
+                          "anchor_text": "Partial Sun"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Beer Gardens",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-beer-gardens",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-beer-gardens",
+                          "anchor_text": "Beer Gardens"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Sports Bars",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-sports-bars",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-sports-bars",
+                          "anchor_text": "Sports Bars"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Film & Art",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-film-art-events",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-film-art-events",
+                          "anchor_text": "Film & Art"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Building Projects",
+                      "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-building-projects",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-building-projects",
+                          "anchor_text": "Building Projects"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Alfresco 2",
+                      "url": "https://outdoortv.com.au/collections/spark-alfresco-2",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-alfresco-2",
+                          "anchor_text": "Spark Alfresco 2"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Element",
+                      "url": "https://outdoortv.com.au/collections/spark-element",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-element",
+                          "anchor_text": "Spark Element"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Pavilion 2",
+                      "url": "https://outdoortv.com.au/collections/spark-pavilion-2",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-pavilion-2",
+                          "anchor_text": "Spark Pavilion 2"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Spark Lumin",
+                      "url": "https://outdoortv.com.au/collections/spark-lumin",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/spark-lumin",
+                          "anchor_text": "Spark Lumin"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Compare Models",
+                      "url": "https://outdoortv.com.au/pages/compare-models",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/compare-models",
+                          "anchor_text": "Compare Models"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "55\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/55-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/55-outdoor-tvs",
+                          "anchor_text": "55\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "65\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/65-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/65-outdoor-tvs",
+                          "anchor_text": "65\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "75\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/75-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/75-outdoor-tvs",
+                          "anchor_text": "75\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "86\" Outdoor TVs",
+                      "url": "https://outdoortv.com.au/collections/86-outdoor-tvs",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/collections/86-outdoor-tvs",
+                          "anchor_text": "86\" Outdoor TVs"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "About Us",
+                      "url": "https://outdoortv.com.au/pages/about-us",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/about-us",
+                          "anchor_text": "About Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact Us",
+                      "url": "https://outdoortv.com.au/pages/contact",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/contact",
+                          "anchor_text": "Contact Us"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Help Me Choose",
+                      "url": "https://outdoortv.com.au/pages/help-me-choose?utm_source=nav_bar&utm_medium=cta&utm_campaign=quiz",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/help-me-choose?utm_source=nav_bar&utm_medium=cta&utm_campaign=quiz",
+                          "anchor_text": "Help Me Choose"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Trade Sign-Up",
+                      "url": "https://outdoortv.com.au/pages/trade-sign-up?utm_source=nav_bar&utm_medium=internal&utm_campaign=trade_signup",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/trade-sign-up?utm_source=nav_bar&utm_medium=internal&utm_campaign=trade_signup",
+                          "anchor_text": "Trade Sign-Up"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "footer": {
+                  "primary_content": [
+                    {
+                      "text": "Inspired by the great Aussie outdoors, Outdoor TV Australia was born from a simple idea: to bring entertainment beyond the living room. We design and curate weatherproof TVs built to thrive under Australia’s harshest conditions, from blazing summers to stormy nights.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Proudly Australian owned, our mission is to make every backyard, patio, and open space the perfect place to gather, relax, and enjoy moments that last - rain, shine, or anything in between.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Choosing a selection results in a full page refresh.",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Opens in a new window.",
+                      "url": null,
+                      "urls": null
+                    }
+                  ],
+                  "secondary_content": [
+                    {
+                      "text": "Privacy Policy",
+                      "url": "https://outdoortv.com.au/policies/privacy-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/privacy-policy",
+                          "anchor_text": "Privacy Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Shipping Policy",
+                      "url": "https://outdoortv.com.au/policies/shipping-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/shipping-policy",
+                          "anchor_text": "Shipping Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Refund Policy",
+                      "url": "https://outdoortv.com.au/policies/refund-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/refund-policy",
+                          "anchor_text": "Refund Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Warranty Policy",
+                      "url": "https://outdoortv.com.au/pages/warranty",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/pages/warranty",
+                          "anchor_text": "Warranty Policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Terms of Service",
+                      "url": "https://outdoortv.com.au/policies/terms-of-service",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/terms-of-service",
+                          "anchor_text": "Terms of Service"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Phone - 02 9090 4204",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Sales Enquiries - sales@outdoortv.com.au",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Accounts Enquiries - accounts@outdoortv.com.au",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "American Express",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Apple Pay",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Google Pay",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Shop Pay",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Union Pay",
+                      "url": null,
+                      "urls": null
+                    },
+                    {
+                      "text": "Refund policy",
+                      "url": "https://outdoortv.com.au/policies/refund-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/refund-policy",
+                          "anchor_text": "Refund policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Privacy policy",
+                      "url": "https://outdoortv.com.au/policies/privacy-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/privacy-policy",
+                          "anchor_text": "Privacy policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Terms of service",
+                      "url": "https://outdoortv.com.au/policies/terms-of-service",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/terms-of-service",
+                          "anchor_text": "Terms of service"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Shipping policy",
+                      "url": "https://outdoortv.com.au/policies/shipping-policy",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/shipping-policy",
+                          "anchor_text": "Shipping policy"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Contact information",
+                      "url": "https://outdoortv.com.au/policies/contact-information",
+                      "urls": [
+                        {
+                          "url": "https://outdoortv.com.au/policies/contact-information",
+                          "anchor_text": "Contact information"
+                        }
+                      ]
+                    }
+                  ],
+                  "table_content": null
+                },
+                "main_topic": [
+                  {
+                    "h_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "The best seat in the house is still outside. Footy season, cooler evenings, longer nights - there's never been a better reason to get your outdoor setup right. Built for Australian conditions, all year round.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Our Outdoor TVs in Action",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 1,
+                    "primary_content": [
+                      {
+                        "text": "See how our outdoor TVs bring bright, waterproof entertainment to Australia’s favourite events, from backyard parties to the Australian Open.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Am I Sacrificing Quality for an Outdoor TV?",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "All our Spark TVs boast 4K LED/QLED capabilities, delivering incredibly sharp and vibrant images.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "With high brightness levels and an advanced cooling system, it performs flawlessly no matter the conditions. All Spark TVs include multiple HDMI ports, Wi-Fi connectivity & Smart TV operating systems, which make connecting all your devices a breeze! Plus, access the App Store to make sure you can download all your favourite apps.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Weatherproof",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "Spark TVs are crafted to be tough and durable, ready to face whatever mother nature throws at them.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "All Spark TVs are built to IP55 standard, which in plain terms means they are designed to be outside and endure rain, a spray from the hose, dust, and even extreme temperature changes.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "The Outdoor TV range is packed full of features to keep them working year round including in built cooling fans and corrosion-resistant and heatproof metal casing, allowing the TVs to withstand harsh weather conditions up to 65 degrees.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "NITS - What are they?",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": [
+                      {
+                        "text": "When you're talking about outdoor TVs, you'll often hear about \"NITS.\" NITS are a way of measuring how bright the screen gets. The higher the number of nits, the brighter the TV and therefore the clearer the picture in bright conditions.",
+                        "url": null,
+                        "urls": null
+                      },
+                      {
+                        "text": "Whilst indoor TVs average around 300 NITS, our Spark range starts at 5x that brightness starting at 1500 NITS. Our range has models for every scenario and venue, going all the way up to the brightest TV on the market – The Spark Lumin at 4000 NITS which is 13x brighter than an indoor TV.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Outdoor TV Series",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "The Spark Element Series is designed for Australians who want reliable, high-performance outdoor entertainment, without overcomplicating things.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Outdoor TV Series",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/spark-element-outdoor-tv-series",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/spark-element-outdoor-tv-series",
+                            "anchor_text": "Spark Element Outdoor TV Series"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Outdoor TV Series",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "The Spark Element Series is designed for Australians who want reliable, high-performance outdoor entertainment, without overcomplicating things.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Outdoor TV Series",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/spark-element-outdoor-tv-series",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/spark-element-outdoor-tv-series",
+                            "anchor_text": "Spark Element Outdoor TV Series"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor TV FAQs",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Thinking about installing a TV outside but not sure where to start?\nIn this video, we answer the most common questions we get about outdoor TVs.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Outdoor TV FAQs",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-faqs",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-faqs",
+                            "anchor_text": "Outdoor TV FAQs"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor TV FAQs",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Thinking about installing a TV outside but not sure where to start?\nIn this video, we answer the most common questions we get about outdoor TVs.",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Outdoor TV FAQs",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-faqs",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-faqs",
+                            "anchor_text": "Outdoor TV FAQs"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor TV Australia Enhances Luxury at Cable B...",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Outdoor TV Australia Enhances Luxury at Cable Beach Club with Spark Pavilion Waterproof Outdoor TVs Outdoor TV Australia’s premium Spark Pavilion Outdoor TVs have found a new home at one...",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Outdoor TV Australia Enhances Luxury at Cable B...",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-australia-enhances-luxury-at-cable-beach-club-with-spark-pavilion-waterproof-outdoor-tvs",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-australia-enhances-luxury-at-cable-beach-club-with-spark-pavilion-waterproof-outdoor-tvs",
+                            "anchor_text": "Outdoor TV Australia Enhances Luxury at Cable B..."
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor TV Australia Enhances Luxury at Cable B...",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": [
+                      {
+                        "text": "Outdoor TV Australia Enhances Luxury at Cable Beach Club with Spark Pavilion Waterproof Outdoor TVs Outdoor TV Australia’s premium Spark Pavilion Outdoor TVs have found a new home at one...",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "secondary_content": [
+                      {
+                        "text": "Outdoor TV Australia Enhances Luxury at Cable B...",
+                        "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-australia-enhances-luxury-at-cable-beach-club-with-spark-pavilion-waterproof-outdoor-tvs",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/blogs/learning-hub/outdoor-tv-australia-enhances-luxury-at-cable-beach-club-with-spark-pavilion-waterproof-outdoor-tvs",
+                            "anchor_text": "Outdoor TV Australia Enhances Luxury at Cable B..."
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  }
+                ],
+                "secondary_topic": [
+                  {
+                    "h_title": "Featured TVs",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Alfresco 2 Outdoor TV 65\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Alfresco 2 Outdoor TV 65\"",
+                        "url": "https://outdoortv.com.au/products/spark-alfresco-2-65-outdoor-tv",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-alfresco-2-65-outdoor-tv",
+                            "anchor_text": "Spark Alfresco 2 Outdoor TV 65\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Alfresco 2 Outdoor TV 65\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Alfresco 2 Outdoor TV 65\"",
+                        "url": "https://outdoortv.com.au/products/spark-alfresco-2-65-outdoor-tv",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-alfresco-2-65-outdoor-tv",
+                            "anchor_text": "Spark Alfresco 2 Outdoor TV 65\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Pro Outdoor TV 55\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Pro Outdoor TV 55\"",
+                        "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-55",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-55",
+                            "anchor_text": "Spark Element Pro Outdoor TV 55\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Pro Outdoor TV 55\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Pro Outdoor TV 55\"",
+                        "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-55",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-55",
+                            "anchor_text": "Spark Element Pro Outdoor TV 55\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Pro Outdoor TV 75\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Pro Outdoor TV 75\"",
+                        "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-75",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-75",
+                            "anchor_text": "Spark Element Pro Outdoor TV 75\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Element Pro Outdoor TV 75\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Element Pro Outdoor TV 75\"",
+                        "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-75",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-element-pro-outdoor-tv-75",
+                            "anchor_text": "Spark Element Pro Outdoor TV 75\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Lumin Outdoor TV 65\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Lumin Outdoor TV 65\"",
+                        "url": "https://outdoortv.com.au/products/spark-lumin-outdoor-tv-65",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-lumin-outdoor-tv-65",
+                            "anchor_text": "Spark Lumin Outdoor TV 65\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Lumin Outdoor TV 65\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Lumin Outdoor TV 65\"",
+                        "url": "https://outdoortv.com.au/products/spark-lumin-outdoor-tv-65",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-lumin-outdoor-tv-65",
+                            "anchor_text": "Spark Lumin Outdoor TV 65\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Pavilion 2 Pro Outdoor TV 75\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Pavilion 2 Pro Outdoor TV 75\"",
+                        "url": "https://outdoortv.com.au/products/spark-pavilion-2-pro-outdoor-tv-75",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-pavilion-2-pro-outdoor-tv-75",
+                            "anchor_text": "Spark Pavilion 2 Pro Outdoor TV 75\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Spark Pavilion 2 Pro Outdoor TV 75\"",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 3,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Spark Pavilion 2 Pro Outdoor TV 75\"",
+                        "url": "https://outdoortv.com.au/products/spark-pavilion-2-pro-outdoor-tv-75",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/products/spark-pavilion-2-pro-outdoor-tv-75",
+                            "anchor_text": "Spark Pavilion 2 Pro Outdoor TV 75\""
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Australian Open 2025",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Canadian Club Bar",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Cable Beach Club",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Western Australia",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Middleton Tavern",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "South Australia",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Residential Install",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "Western Australia",
+                        "url": null,
+                        "urls": null
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Outdoor TVs for:",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": [
+                      {
+                        "text": "PUBS & HOSPITALITY",
+                        "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-pubs-hospitality",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-pubs-hospitality",
+                            "anchor_text": "PUBS & HOSPITALITY"
+                          }
+                        ]
+                      },
+                      {
+                        "text": "EDUCATION & COMMERCIAL PROJECTS",
+                        "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-education-commercial-projects",
+                        "urls": [
+                          {
+                            "url": "https://outdoortv.com.au/pages/outdoor-tvs-for-education-commercial-projects",
+                            "anchor_text": "EDUCATION & COMMERCIAL PROJECTS"
+                          }
+                        ]
+                      }
+                    ],
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "What Customers Are Saying",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  },
+                  {
+                    "h_title": "Learning Hub",
+                    "main_title": "Outdoor TV Australia, Waterproof Anti-Glare Outdoor Televisions",
+                    "author": null,
+                    "language": "en",
+                    "level": 2,
+                    "primary_content": null,
+                    "secondary_content": null,
+                    "table_content": null
+                  }
+                ],
+                "ratings": null,
+                "offers": null,
+                "comments": null,
+                "contacts": {
+                  "telephones": [
+                    "+61290904204"
+                  ],
+                  "emails": [
+                    "sales@outdoortv.com.au",
+                    "accounts@outdoortv.com.au"
+                  ]
+                }
+              },
+              "page_as_markdown": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

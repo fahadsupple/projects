@@ -1,0 +1,77 @@
+{
+  "version": "0.1.20260713",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.4117 sec.",
+  "cost": 0.0270937,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "07140927-1150-0612-0000-fb3313fd1afd",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.3822 sec.",
+      "cost": 0.0270937,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "chat_gpt",
+        "user_prompt": "Where can I buy or get a louvred pergola in Sydney? What are the best options?",
+        "model_name": "gpt-4o-mini",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "gpt-4o-mini-2024-07-18",
+          "input_tokens": 8174,
+          "output_tokens": 446,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.0264937,
+          "datetime": "2026-07-14 09:27:49 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "If you're looking to purchase a louvred pergola in Sydney, here are some reputable options to consider:\n\n**[Acetech Architectural](https://acetecharch.com.au/?utm_source=openai)**  \n**Open now \u00b7 Construction material wholesaler \u00b7 5.0 (51 reviews)**  \n_40 Lisbon St, Fairfield East NSW 2165, Australia_  \nOffers the AC Series louvred pergolas with motorized louvre blades rotating up to 90 degrees, integrated LED lighting, and optional rain sensors for enhanced outdoor living.\n\n**[Terra Nature Nest](https://terranaturenest.com.au/?utm_source=openai)**  \n**Open now \u00b7 Outdoor furniture store \u00b7 5.0 (8 reviews)**  \n_Unit 1/200 Fairfield Rd, Yennora NSW 2161, Australia_  \nOffers the Terra Classic Modular Louvred Pergola, a modular system designed for fast installation and flexible sizing, built for Australian weather conditions.\n\n**[Ozzy Backyards](https://ozzybackyards.com.au/?utm_source=openai)**  \n**Open now \u00b7 Carport and pergola builder \u00b7 5.0 (12 reviews)**  \n_40-44 Wellington Rd, South Granville NSW 2142, Australia_  \nSpecializes in custom louvred pergola systems that blend style, functionality, and durability, with options for motorized outdoor blinds and decking services.\n\n**[Patios Coast2Coast](https://patioscoast2coast.com.au/?utm_source=openai)**  \n**Open now \u00b7 Patio enclosure supplier \u00b7 5.0 (59 reviews)**  \n_Unit 1/2 Apprentice Dr, Berkeley Vale NSW 2261, Australia_  \nProvides opening louvre roof and patio solutions, including insulated and retractable patio roofs, designed to enhance outdoor living spaces.\n\nWhen selecting a louvred pergola, consider factors such as material quality, design flexibility, warranty, and additional features like motorization or integrated lighting. It's advisable to contact these providers directly to discuss your specific requirements and obtain quotes tailored to your needs. ",
+                  "annotations": [
+                    {
+                      "title": "Acetech Architectural",
+                      "url": "https://acetecharch.com.au/?utm_source=openai"
+                    },
+                    {
+                      "title": "Terra Nature Nest",
+                      "url": "https://terranaturenest.com.au/?utm_source=openai"
+                    },
+                    {
+                      "title": "Ozzy Backyards",
+                      "url": "https://ozzybackyards.com.au/?utm_source=openai"
+                    },
+                    {
+                      "title": "Patios Coast2Coast",
+                      "url": "https://patioscoast2coast.com.au/?utm_source=openai"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": [
+            "buy louvred pergola Sydney"
+          ]
+        }
+      ]
+    }
+  ]
+}

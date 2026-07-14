@@ -1,0 +1,5682 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "8.7849 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0495-0000-334b9d2836bd",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "8.1336 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.theblindsspotco.com.au/retractable-roof-melbourne/",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:27:23 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": null,
+         "secondary_content": [
+          {
+           "text": "eZip Blinds",
+           "url": "https://www.theblindsspotco.com.au/ezip-blinds-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/ezip-blinds-melbourne/",
+             "anchor_text": "eZip Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Siena Awnings",
+           "url": "https://www.theblindsspotco.com.au/siena-awnings-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/siena-awnings-melbourne/",
+             "anchor_text": "Siena Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Roller Blinds",
+           "url": "https://www.theblindsspotco.com.au/roller-blinds-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/roller-blinds-melbourne/",
+             "anchor_text": "Roller Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Roman Blinds",
+           "url": "https://www.theblindsspotco.com.au/roman-blinds-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/roman-blinds-melbourne/",
+             "anchor_text": "Roman Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Screen Blinds",
+           "url": "https://www.theblindsspotco.com.au/screen-blinds-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/screen-blinds-melbourne/",
+             "anchor_text": "Screen Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Motorised Blinds",
+           "url": "https://www.theblindsspotco.com.au/motorised-blinds/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/motorised-blinds/",
+             "anchor_text": "Motorised Blinds"
+            }
+           ]
+          },
+          {
+           "text": "Sheer Curtains",
+           "url": "https://www.theblindsspotco.com.au/sheer-curtains-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/sheer-curtains-melbourne/",
+             "anchor_text": "Sheer Curtains"
+            }
+           ]
+          },
+          {
+           "text": "Motorised Curtains",
+           "url": "https://www.theblindsspotco.com.au/motorised-curtains/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/motorised-curtains/",
+             "anchor_text": "Motorised Curtains"
+            }
+           ]
+          },
+          {
+           "text": "Blockout Curtains",
+           "url": "https://www.theblindsspotco.com.au/blockout-curtains/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/blockout-curtains/",
+             "anchor_text": "Blockout Curtains"
+            }
+           ]
+          },
+          {
+           "text": "Auto Awnings",
+           "url": "https://www.theblindsspotco.com.au/auto-awnings-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/auto-awnings-melbourne/",
+             "anchor_text": "Auto Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Rubix Cassette",
+           "url": "https://www.theblindsspotco.com.au/rubix-cassette/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/rubix-cassette/",
+             "anchor_text": "Rubix Cassette"
+            }
+           ]
+          },
+          {
+           "text": "Cocoon Cassette",
+           "url": "https://www.theblindsspotco.com.au/cacoon-cassette/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/cacoon-cassette/",
+             "anchor_text": "Cocoon Cassette"
+            }
+           ]
+          },
+          {
+           "text": "Kumo Cassette",
+           "url": "https://www.theblindsspotco.com.au/kumo-cassette/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/kumo-cassette/",
+             "anchor_text": "Kumo Cassette"
+            }
+           ]
+          },
+          {
+           "text": "Siena Awnings",
+           "url": "https://www.theblindsspotco.com.au/siena-awnings-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/siena-awnings-melbourne/",
+             "anchor_text": "Siena Awnings"
+            }
+           ]
+          },
+          {
+           "text": "Basswood Shutters",
+           "url": "https://www.theblindsspotco.com.au/basswood-shutters/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/basswood-shutters/",
+             "anchor_text": "Basswood Shutters"
+            }
+           ]
+          },
+          {
+           "text": "Aluminium Shutters",
+           "url": "https://www.theblindsspotco.com.au/aluminium-shutters/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/aluminium-shutters/",
+             "anchor_text": "Aluminium Shutters"
+            }
+           ]
+          },
+          {
+           "text": "PVC Shutters",
+           "url": "https://www.theblindsspotco.com.au/pvc-shutters/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/pvc-shutters/",
+             "anchor_text": "PVC Shutters"
+            }
+           ]
+          },
+          {
+           "text": "Retractable Roof Systems",
+           "url": "https://www.theblindsspotco.com.au/retractable-roof-melbourne/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/retractable-roof-melbourne/",
+             "anchor_text": "Retractable Roof Systems"
+            }
+           ]
+          },
+          {
+           "text": "Vario Screen Retractable Sunroof",
+           "url": "https://www.theblindsspotco.com.au/vario-screen-retractable-sunroof/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/vario-screen-retractable-sunroof/",
+             "anchor_text": "Vario Screen Retractable Sunroof"
+            }
+           ]
+          },
+          {
+           "text": "Vario Pergola",
+           "url": "https://www.theblindsspotco.com.au/vario-pergola/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/vario-pergola/",
+             "anchor_text": "Vario Pergola"
+            }
+           ]
+          },
+          {
+           "text": "Product Brochures",
+           "url": "https://www.theblindsspotco.com.au/brochures/",
+           "urls": [
+            {
+             "url": "https://www.theblindsspotco.com.au/brochures/",
+             "anchor_text": "Product Brochures"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "Looking to provide shade with roof cloth when needed, without the requirement to install a permanent fixture? Look no further. Our incredible range of retractable roofing systems is one of the most effective outdoor roofing system solutions in Melbourne for both residential and commercial properties.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Our impressive track record in the professional and efficient installation of roof systems, including pergola roofs and pergola awnings, has established us as the first destination for retractable roofing across Melbourne.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "GET A FREE QUOTE",
+            "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+            "urls": [
+             {
+              "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+              "anchor_text": "GET A FREE QUOTE"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Cost-Effective Protection from the Elements",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "Our range of outdoor roofing systems represents some of the most accessible and reliable products on the market. We take extra care when installing your new retractable awnings to ensure they are in full working order. This attention to detail, combined with our competitive pricing, is just another reason we cover all your curtain, blind, and awning requirements.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "GET A FREE QUOTE",
+            "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+            "urls": [
+             {
+              "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+              "anchor_text": "GET A FREE QUOTE"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Design Your Ideal Outdoor Setting with a Sliding Roof",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "With the increased accessibility of motorised mechanisms, your arm awnings can now be deployed or retracted at the touch of a button, ensuring your outdoor roofing system in Melbourne responds instantly to changing weather conditions. Having delivered these systems to homeowners across Australia, we are well placed to advise on the solution that best suits your needs and requirements.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "GET A FREE QUOTE",
+            "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+            "urls": [
+             {
+              "url": "https://www.theblindsspotco.com.au/get-a-free-quote/",
+              "anchor_text": "GET A FREE QUOTE"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Retractable Roofing System Features",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "• Maximum projection of 8–10m",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Maximum width of up to 9m in a single system",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Optional integrated LED lighting",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• High-grade aluminium and stainless steel components",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Over 120 standard frame colours",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Rated up to 11 on the Beaufort wind scale",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Wind and rain sensors available",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "• 5-year warranty",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• 100% waterproof fabric",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "• Custom installation options",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Products Interested In *",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Louvred Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Outdoor Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Folding Arm Awnings",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Sunroof",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Outdoor Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Helioscreen Systems",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Commercial Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Plantation Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aluminium Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sheer Curtains",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Roller Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Day/Night Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Products Interested In *",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Louvred Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Outdoor Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Folding Arm Awnings",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Sunroof",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Outdoor Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Helioscreen Systems",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Commercial Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Plantation Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aluminium Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sheer Curtains",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Roller Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Day/Night Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "secondary_topic": [
+         {
+          "h_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "British Indian Ocean Territory (+246)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Falkland Islands (Islas Malvinas) (+500)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Louvred Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Outdoor Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "2/85-91 Keilor Park Drive, Tullamarine, VIC 3043",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Copyright © 2026 | The Blinds Spot Co. | All Rights Reserved.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "United States (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Kingdom (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Afghanistan (+93)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Åland Islands (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Albania (+355)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Algeria (+213)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "American Samoa (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Andorra (+376)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Angola (+244)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Anguilla (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Antigua & Barbuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Argentina (+54)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Armenia (+374)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aruba (+297)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ascension Island (+247)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Australia (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Austria (+43)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Azerbaijan (+994)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahamas (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahrain (+973)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bangladesh (+880)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Barbados (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belarus (+375)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belgium (+32)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belize (+501)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Benin (+229)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bermuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bhutan (+975)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bolivia (+591)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bosnia & Herzegovina (+387)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Botswana (+267)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brazil (+55)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "British Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brunei (+673)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bulgaria (+359)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burkina Faso (+226)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burundi (+257)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cambodia (+855)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cameroon (+237)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Canada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cape Verde (+238)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Caribbean Netherlands (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cayman Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Central African Republic (+236)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chad (+235)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chile (+56)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "China (+86)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Christmas Island (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cocos (Keeling) Islands (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Colombia (+57)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Comoros (+269)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Brazzaville (+242)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Kinshasa (+243)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cook Islands (+682)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Costa Rica (+506)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Côte d’Ivoire (+225)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Croatia (+385)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cuba (+53)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Curaçao (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cyprus (+357)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Czechia (+420)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Denmark (+45)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Djibouti (+253)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominican Republic (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ecuador (+593)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Egypt (+20)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "El Salvador (+503)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Equatorial Guinea (+240)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eritrea (+291)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Estonia (+372)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eswatini (+268)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ethiopia (+251)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Faroe Islands (+298)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Fiji (+679)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Finland (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "France (+33)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Guiana (+594)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Polynesia (+689)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gabon (+241)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gambia (+220)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Georgia (+995)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Germany (+49)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ghana (+233)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gibraltar (+350)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greece (+30)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greenland (+299)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Grenada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guadeloupe (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guam (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guatemala (+502)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guernsey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea (+224)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea-Bissau (+245)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guyana (+592)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Haiti (+509)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Honduras (+504)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hong Kong (+852)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hungary (+36)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iceland (+354)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "India (+91)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Indonesia (+62)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iran (+98)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iraq (+964)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ireland (+353)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Isle of Man (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Israel (+972)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Italy (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jamaica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Japan (+81)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jersey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jordan (+962)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kazakhstan (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kenya (+254)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kiribati (+686)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kosovo (+383)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kuwait (+965)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kyrgyzstan (+996)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Laos (+856)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Latvia (+371)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lebanon (+961)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lesotho (+266)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liberia (+231)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Libya (+218)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liechtenstein (+423)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lithuania (+370)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Luxembourg (+352)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Macao (+853)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Madagascar (+261)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malawi (+265)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malaysia (+60)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Maldives (+960)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mali (+223)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malta (+356)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Marshall Islands (+692)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Martinique (+596)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritania (+222)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritius (+230)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mayotte (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mexico (+52)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Micronesia (+691)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Moldova (+373)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Monaco (+377)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mongolia (+976)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montenegro (+382)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montserrat (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Morocco (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mozambique (+258)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Myanmar (Burma) (+95)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Namibia (+264)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nauru (+674)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nepal (+977)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Netherlands (+31)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Caledonia (+687)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Zealand (+64)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nicaragua (+505)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niger (+227)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nigeria (+234)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niue (+683)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norfolk Island (+672)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Korea (+850)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Macedonia (+389)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Northern Mariana Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norway (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Oman (+968)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Pakistan (+92)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palau (+680)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palestine (+970)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Panama (+507)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Papua New Guinea (+675)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Paraguay (+595)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Peru (+51)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Philippines (+63)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Poland (+48)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Portugal (+351)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Puerto Rico (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Qatar (+974)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Réunion (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Romania (+40)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Russia (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Rwanda (+250)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Samoa (+685)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "San Marino (+378)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "São Tomé & Príncipe (+239)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Saudi Arabia (+966)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Senegal (+221)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Serbia (+381)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Seychelles (+248)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sierra Leone (+232)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Singapore (+65)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sint Maarten (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovakia (+421)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovenia (+386)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Solomon Islands (+677)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Somalia (+252)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Africa (+27)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Korea (+82)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Sudan (+211)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Spain (+34)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sri Lanka (+94)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Barthélemy (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Helena (+290)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Kitts & Nevis (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Lucia (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Martin (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Pierre & Miquelon (+508)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Vincent & Grenadines (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sudan (+249)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Suriname (+597)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Svalbard & Jan Mayen (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sweden (+46)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Switzerland (+41)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Syria (+963)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Taiwan (+886)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tajikistan (+992)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tanzania (+255)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Thailand (+66)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Timor-Leste (+670)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Togo (+228)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tokelau (+690)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tonga (+676)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Trinidad & Tobago (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tunisia (+216)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Türkiye (+90)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turkmenistan (+993)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turks & Caicos Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tuvalu (+688)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "U.S. Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uganda (+256)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ukraine (+380)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Arab Emirates (+971)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uruguay (+598)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uzbekistan (+998)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vanuatu (+678)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vatican City (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Venezuela (+58)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vietnam (+84)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wallis & Futuna (+681)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Western Sahara (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yemen (+967)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zambia (+260)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zimbabwe (+263)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Folding Arm Awnings",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Sunroof",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Outdoor Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Helioscreen Systems",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Commercial Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Plantation Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aluminium Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sheer Curtains",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Roller Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Day/Night Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Get A Free Quote",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 4,
+          "primary_content": [
+           {
+            "text": "British Indian Ocean Territory (+246)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Falkland Islands (Islas Malvinas) (+500)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "United States (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Kingdom (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Afghanistan (+93)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Åland Islands (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Albania (+355)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Algeria (+213)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "American Samoa (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Andorra (+376)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Angola (+244)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Anguilla (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Antigua & Barbuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Argentina (+54)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Armenia (+374)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aruba (+297)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ascension Island (+247)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Australia (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Austria (+43)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Azerbaijan (+994)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahamas (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahrain (+973)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bangladesh (+880)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Barbados (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belarus (+375)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belgium (+32)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belize (+501)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Benin (+229)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bermuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bhutan (+975)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bolivia (+591)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bosnia & Herzegovina (+387)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Botswana (+267)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brazil (+55)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "British Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brunei (+673)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bulgaria (+359)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burkina Faso (+226)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burundi (+257)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cambodia (+855)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cameroon (+237)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Canada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cape Verde (+238)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Caribbean Netherlands (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cayman Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Central African Republic (+236)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chad (+235)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chile (+56)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "China (+86)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Christmas Island (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cocos (Keeling) Islands (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Colombia (+57)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Comoros (+269)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Brazzaville (+242)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Kinshasa (+243)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cook Islands (+682)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Costa Rica (+506)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Côte d’Ivoire (+225)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Croatia (+385)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cuba (+53)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Curaçao (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cyprus (+357)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Czechia (+420)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Denmark (+45)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Djibouti (+253)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominican Republic (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ecuador (+593)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Egypt (+20)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "El Salvador (+503)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Equatorial Guinea (+240)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eritrea (+291)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Estonia (+372)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eswatini (+268)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ethiopia (+251)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Faroe Islands (+298)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Fiji (+679)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Finland (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "France (+33)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Guiana (+594)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Polynesia (+689)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gabon (+241)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gambia (+220)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Georgia (+995)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Germany (+49)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ghana (+233)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gibraltar (+350)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greece (+30)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greenland (+299)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Grenada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guadeloupe (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guam (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guatemala (+502)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guernsey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea (+224)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea-Bissau (+245)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guyana (+592)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Haiti (+509)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Honduras (+504)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hong Kong (+852)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hungary (+36)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iceland (+354)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "India (+91)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Indonesia (+62)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iran (+98)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iraq (+964)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ireland (+353)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Isle of Man (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Israel (+972)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Italy (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jamaica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Japan (+81)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jersey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jordan (+962)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kazakhstan (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kenya (+254)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kiribati (+686)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kosovo (+383)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kuwait (+965)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kyrgyzstan (+996)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Laos (+856)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Latvia (+371)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lebanon (+961)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lesotho (+266)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liberia (+231)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Libya (+218)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liechtenstein (+423)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lithuania (+370)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Luxembourg (+352)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Macao (+853)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Madagascar (+261)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malawi (+265)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malaysia (+60)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Maldives (+960)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mali (+223)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malta (+356)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Marshall Islands (+692)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Martinique (+596)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritania (+222)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritius (+230)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mayotte (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mexico (+52)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Micronesia (+691)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Moldova (+373)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Monaco (+377)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mongolia (+976)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montenegro (+382)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montserrat (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Morocco (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mozambique (+258)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Myanmar (Burma) (+95)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Namibia (+264)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nauru (+674)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nepal (+977)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Netherlands (+31)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Caledonia (+687)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Zealand (+64)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nicaragua (+505)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niger (+227)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nigeria (+234)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niue (+683)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norfolk Island (+672)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Korea (+850)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Macedonia (+389)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Northern Mariana Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norway (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Oman (+968)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Pakistan (+92)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palau (+680)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palestine (+970)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Panama (+507)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Papua New Guinea (+675)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Paraguay (+595)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Peru (+51)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Philippines (+63)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Poland (+48)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Portugal (+351)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Puerto Rico (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Qatar (+974)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Réunion (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Romania (+40)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Russia (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Rwanda (+250)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Samoa (+685)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "San Marino (+378)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "São Tomé & Príncipe (+239)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Saudi Arabia (+966)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Senegal (+221)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Serbia (+381)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Seychelles (+248)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sierra Leone (+232)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Singapore (+65)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sint Maarten (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovakia (+421)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovenia (+386)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Solomon Islands (+677)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Somalia (+252)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Africa (+27)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Korea (+82)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Sudan (+211)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Spain (+34)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sri Lanka (+94)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Barthélemy (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Helena (+290)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Kitts & Nevis (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Lucia (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Martin (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Pierre & Miquelon (+508)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Vincent & Grenadines (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sudan (+249)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Suriname (+597)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Svalbard & Jan Mayen (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sweden (+46)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Switzerland (+41)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Syria (+963)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Taiwan (+886)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tajikistan (+992)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tanzania (+255)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Thailand (+66)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Timor-Leste (+670)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Togo (+228)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tokelau (+690)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tonga (+676)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Trinidad & Tobago (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tunisia (+216)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Türkiye (+90)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turkmenistan (+993)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turks & Caicos Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tuvalu (+688)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "U.S. Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uganda (+256)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ukraine (+380)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Arab Emirates (+971)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uruguay (+598)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uzbekistan (+998)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vanuatu (+678)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vatican City (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Venezuela (+58)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vietnam (+84)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wallis & Futuna (+681)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Western Sahara (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yemen (+967)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zambia (+260)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zimbabwe (+263)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Products Interested In *",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 3,
+          "primary_content": [
+           {
+            "text": "Louvred Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Roof System",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Outdoor Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Folding Arm Awnings",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Retractable Sunroof",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Outdoor Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Helioscreen Systems",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Commercial Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Plantation Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aluminium Shutters",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sheer Curtains",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Roller Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Motorised Blinds",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Day/Night Blinds",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Quick Enquiry",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 4,
+          "primary_content": [
+           {
+            "text": "British Indian Ocean Territory (+246)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Falkland Islands (Islas Malvinas) (+500)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "United States (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Kingdom (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Afghanistan (+93)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Åland Islands (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Albania (+355)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Algeria (+213)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "American Samoa (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Andorra (+376)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Angola (+244)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Anguilla (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Antigua & Barbuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Argentina (+54)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Armenia (+374)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aruba (+297)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ascension Island (+247)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Australia (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Austria (+43)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Azerbaijan (+994)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahamas (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahrain (+973)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bangladesh (+880)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Barbados (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belarus (+375)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belgium (+32)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belize (+501)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Benin (+229)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bermuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bhutan (+975)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bolivia (+591)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bosnia & Herzegovina (+387)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Botswana (+267)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brazil (+55)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "British Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brunei (+673)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bulgaria (+359)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burkina Faso (+226)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burundi (+257)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cambodia (+855)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cameroon (+237)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Canada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cape Verde (+238)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Caribbean Netherlands (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cayman Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Central African Republic (+236)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chad (+235)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chile (+56)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "China (+86)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Christmas Island (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cocos (Keeling) Islands (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Colombia (+57)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Comoros (+269)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Brazzaville (+242)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Kinshasa (+243)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cook Islands (+682)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Costa Rica (+506)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Côte d’Ivoire (+225)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Croatia (+385)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cuba (+53)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Curaçao (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cyprus (+357)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Czechia (+420)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Denmark (+45)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Djibouti (+253)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominican Republic (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ecuador (+593)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Egypt (+20)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "El Salvador (+503)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Equatorial Guinea (+240)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eritrea (+291)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Estonia (+372)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eswatini (+268)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ethiopia (+251)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Faroe Islands (+298)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Fiji (+679)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Finland (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "France (+33)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Guiana (+594)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Polynesia (+689)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gabon (+241)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gambia (+220)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Georgia (+995)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Germany (+49)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ghana (+233)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gibraltar (+350)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greece (+30)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greenland (+299)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Grenada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guadeloupe (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guam (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guatemala (+502)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guernsey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea (+224)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea-Bissau (+245)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guyana (+592)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Haiti (+509)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Honduras (+504)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hong Kong (+852)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hungary (+36)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iceland (+354)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "India (+91)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Indonesia (+62)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iran (+98)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iraq (+964)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ireland (+353)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Isle of Man (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Israel (+972)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Italy (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jamaica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Japan (+81)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jersey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jordan (+962)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kazakhstan (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kenya (+254)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kiribati (+686)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kosovo (+383)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kuwait (+965)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kyrgyzstan (+996)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Laos (+856)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Latvia (+371)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lebanon (+961)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lesotho (+266)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liberia (+231)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Libya (+218)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liechtenstein (+423)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lithuania (+370)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Luxembourg (+352)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Macao (+853)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Madagascar (+261)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malawi (+265)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malaysia (+60)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Maldives (+960)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mali (+223)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malta (+356)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Marshall Islands (+692)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Martinique (+596)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritania (+222)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritius (+230)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mayotte (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mexico (+52)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Micronesia (+691)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Moldova (+373)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Monaco (+377)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mongolia (+976)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montenegro (+382)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montserrat (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Morocco (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mozambique (+258)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Myanmar (Burma) (+95)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Namibia (+264)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nauru (+674)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nepal (+977)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Netherlands (+31)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Caledonia (+687)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Zealand (+64)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nicaragua (+505)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niger (+227)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nigeria (+234)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niue (+683)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norfolk Island (+672)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Korea (+850)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Macedonia (+389)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Northern Mariana Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norway (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Oman (+968)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Pakistan (+92)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palau (+680)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palestine (+970)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Panama (+507)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Papua New Guinea (+675)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Paraguay (+595)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Peru (+51)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Philippines (+63)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Poland (+48)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Portugal (+351)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Puerto Rico (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Qatar (+974)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Réunion (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Romania (+40)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Russia (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Rwanda (+250)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Samoa (+685)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "San Marino (+378)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "São Tomé & Príncipe (+239)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Saudi Arabia (+966)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Senegal (+221)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Serbia (+381)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Seychelles (+248)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sierra Leone (+232)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Singapore (+65)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sint Maarten (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovakia (+421)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovenia (+386)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Solomon Islands (+677)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Somalia (+252)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Africa (+27)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Korea (+82)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Sudan (+211)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Spain (+34)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sri Lanka (+94)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Barthélemy (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Helena (+290)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Kitts & Nevis (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Lucia (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Martin (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Pierre & Miquelon (+508)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Vincent & Grenadines (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sudan (+249)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Suriname (+597)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Svalbard & Jan Mayen (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sweden (+46)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Switzerland (+41)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Syria (+963)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Taiwan (+886)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tajikistan (+992)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tanzania (+255)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Thailand (+66)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Timor-Leste (+670)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Togo (+228)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tokelau (+690)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tonga (+676)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Trinidad & Tobago (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tunisia (+216)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Türkiye (+90)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turkmenistan (+993)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turks & Caicos Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tuvalu (+688)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "U.S. Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uganda (+256)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ukraine (+380)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Arab Emirates (+971)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uruguay (+598)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uzbekistan (+998)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vanuatu (+678)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vatican City (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Venezuela (+58)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vietnam (+84)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wallis & Futuna (+681)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Western Sahara (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yemen (+967)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zambia (+260)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zimbabwe (+263)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         },
+         {
+          "h_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "main_title": "Retractable Roof Systems Tailored for Your Home or Business",
+          "author": "The Blinds Spot Co",
+          "language": "en",
+          "level": 1,
+          "primary_content": [
+           {
+            "text": "British Indian Ocean Territory (+246)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Falkland Islands (Islas Malvinas) (+500)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "United States (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Kingdom (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Afghanistan (+93)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Åland Islands (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Albania (+355)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Algeria (+213)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "American Samoa (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Andorra (+376)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Angola (+244)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Anguilla (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Antigua & Barbuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Argentina (+54)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Armenia (+374)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Aruba (+297)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ascension Island (+247)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Australia (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Austria (+43)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Azerbaijan (+994)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahamas (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bahrain (+973)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bangladesh (+880)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Barbados (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belarus (+375)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belgium (+32)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Belize (+501)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Benin (+229)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bermuda (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bhutan (+975)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bolivia (+591)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bosnia & Herzegovina (+387)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Botswana (+267)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brazil (+55)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "British Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Brunei (+673)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Bulgaria (+359)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burkina Faso (+226)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Burundi (+257)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cambodia (+855)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cameroon (+237)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Canada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cape Verde (+238)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Caribbean Netherlands (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cayman Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Central African Republic (+236)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chad (+235)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Chile (+56)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "China (+86)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Christmas Island (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cocos (Keeling) Islands (+61)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Colombia (+57)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Comoros (+269)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Brazzaville (+242)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Congo - Kinshasa (+243)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cook Islands (+682)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Costa Rica (+506)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Côte d’Ivoire (+225)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Croatia (+385)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cuba (+53)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Curaçao (+599)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Cyprus (+357)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Czechia (+420)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Denmark (+45)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Djibouti (+253)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Dominican Republic (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ecuador (+593)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Egypt (+20)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "El Salvador (+503)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Equatorial Guinea (+240)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eritrea (+291)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Estonia (+372)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Eswatini (+268)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ethiopia (+251)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Faroe Islands (+298)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Fiji (+679)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Finland (+358)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "France (+33)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Guiana (+594)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "French Polynesia (+689)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gabon (+241)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gambia (+220)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Georgia (+995)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Germany (+49)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ghana (+233)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Gibraltar (+350)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greece (+30)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Greenland (+299)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Grenada (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guadeloupe (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guam (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guatemala (+502)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guernsey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea (+224)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guinea-Bissau (+245)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Guyana (+592)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Haiti (+509)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Honduras (+504)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hong Kong (+852)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Hungary (+36)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iceland (+354)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "India (+91)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Indonesia (+62)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iran (+98)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Iraq (+964)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ireland (+353)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Isle of Man (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Israel (+972)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Italy (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jamaica (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Japan (+81)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jersey (+44)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Jordan (+962)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kazakhstan (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kenya (+254)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kiribati (+686)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kosovo (+383)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kuwait (+965)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Kyrgyzstan (+996)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Laos (+856)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Latvia (+371)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lebanon (+961)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lesotho (+266)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liberia (+231)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Libya (+218)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Liechtenstein (+423)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Lithuania (+370)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Luxembourg (+352)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Macao (+853)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Madagascar (+261)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malawi (+265)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malaysia (+60)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Maldives (+960)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mali (+223)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Malta (+356)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Marshall Islands (+692)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Martinique (+596)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritania (+222)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mauritius (+230)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mayotte (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mexico (+52)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Micronesia (+691)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Moldova (+373)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Monaco (+377)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mongolia (+976)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montenegro (+382)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Montserrat (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Morocco (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Mozambique (+258)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Myanmar (Burma) (+95)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Namibia (+264)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nauru (+674)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nepal (+977)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Netherlands (+31)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Caledonia (+687)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "New Zealand (+64)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nicaragua (+505)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niger (+227)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Nigeria (+234)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Niue (+683)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norfolk Island (+672)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Korea (+850)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "North Macedonia (+389)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Northern Mariana Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Norway (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Oman (+968)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Pakistan (+92)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palau (+680)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Palestine (+970)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Panama (+507)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Papua New Guinea (+675)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Paraguay (+595)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Peru (+51)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Philippines (+63)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Poland (+48)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Portugal (+351)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Puerto Rico (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Qatar (+974)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Réunion (+262)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Romania (+40)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Russia (+7)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Rwanda (+250)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Samoa (+685)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "San Marino (+378)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "São Tomé & Príncipe (+239)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Saudi Arabia (+966)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Senegal (+221)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Serbia (+381)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Seychelles (+248)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sierra Leone (+232)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Singapore (+65)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sint Maarten (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovakia (+421)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Slovenia (+386)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Solomon Islands (+677)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Somalia (+252)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Africa (+27)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Korea (+82)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "South Sudan (+211)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Spain (+34)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sri Lanka (+94)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Barthélemy (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Helena (+290)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Kitts & Nevis (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Lucia (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Martin (+590)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Pierre & Miquelon (+508)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "St. Vincent & Grenadines (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sudan (+249)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Suriname (+597)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Svalbard & Jan Mayen (+47)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Sweden (+46)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Switzerland (+41)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Syria (+963)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Taiwan (+886)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tajikistan (+992)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tanzania (+255)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Thailand (+66)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Timor-Leste (+670)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Togo (+228)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tokelau (+690)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tonga (+676)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Trinidad & Tobago (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tunisia (+216)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Türkiye (+90)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turkmenistan (+993)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Turks & Caicos Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Tuvalu (+688)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "U.S. Virgin Islands (+1)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uganda (+256)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ukraine (+380)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "United Arab Emirates (+971)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uruguay (+598)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Uzbekistan (+998)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vanuatu (+678)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vatican City (+39)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Venezuela (+58)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Vietnam (+84)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Wallis & Futuna (+681)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Western Sahara (+212)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yemen (+967)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zambia (+260)",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Zimbabwe (+263)",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "ratings": null,
+        "offers": null,
+        "comments": null,
+        "contacts": {
+         "telephones": [
+          "0393103730"
+         ],
+         "emails": [
+          "sales@theblindsspotco.com.au"
+         ]
+        }
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

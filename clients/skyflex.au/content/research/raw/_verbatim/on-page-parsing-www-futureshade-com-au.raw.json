@@ -1,0 +1,447 @@
+{
+ "version": "0.1.20260713",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "3.5551 sec.",
+ "cost": 0.0015,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "07140927-1150-0495-0000-97a66852100e",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "3.5125 sec.",
+   "cost": 0.0015,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "on_page",
+    "content_parsing",
+    "live"
+   ],
+   "data": {
+    "api": "on_page",
+    "function": "content_parsing",
+    "url": "https://www.futureshade.com.au/bbq-pods",
+    "enable_javascript": true
+   },
+   "result": [
+    {
+     "crawl_progress": "finished",
+     "crawl_status": null,
+     "items_count": 1,
+     "items": [
+      {
+       "type": "content_parsing_element",
+       "fetch_time": "2026-07-14 03:27:38 +00:00",
+       "status_code": 200,
+       "page_content": {
+        "header": {
+         "primary_content": [
+          {
+           "text": "Outdoor Living, Redefined - Entertainment Starts Here",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Crafted for those who value both durability and design, our BBQ Pods combine high-end stainless steel with premium finishes. Choose from sintered stone, powder-coated colors, or wood-grain textures to create a look that\u2019s uniquely yours. Every material is built to withstand the outdoors while delivering a sleek, modern aesthetic.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Smart design, no permits needed",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Smart design, no permits needed",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Smart design, no permits needed",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Explore our curated collection of high-quality products",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "From weekend entertaining to daily family dinners, our BBQ Pods bring durability, smart design, and timeless style to your outdoor space.",
+           "url": null,
+           "urls": null
+          }
+         ],
+         "secondary_content": [
+          {
+           "text": "Main Site",
+           "url": "https://www.futureshade.com.au/",
+           "urls": [
+            {
+             "url": "https://www.futureshade.com.au/",
+             "anchor_text": "Main Site"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Pods",
+           "url": "https://future-shade.webflow.io/bbq-pods",
+           "urls": [
+            {
+             "url": "https://future-shade.webflow.io/bbq-pods",
+             "anchor_text": "BBQ Pods"
+            }
+           ]
+          },
+          {
+           "text": "Enquire Now",
+           "url": "https://www.futureshade.com.au/bbq-pods-enquiry",
+           "urls": [
+            {
+             "url": "https://www.futureshade.com.au/bbq-pods-enquiry",
+             "anchor_text": "Enquire Now"
+            }
+           ]
+          },
+          {
+           "text": "BBQ Pods",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "See products",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Strong, stylish, and built to last \u2014 the ultimate upgrade for your outdoor lifestyle.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Features designed to make outdoor cooking simple, stylish, and stress-free.",
+           "url": null,
+           "urls": null
+          },
+          {
+           "text": "Learn More",
+           "url": "https://www.futureshade.com.au/bbq-pods-details",
+           "urls": [
+            {
+             "url": "https://www.futureshade.com.au/bbq-pods-details",
+             "anchor_text": "Learn More"
+            }
+           ]
+          }
+         ],
+         "table_content": null
+        },
+        "footer": null,
+        "main_topic": [
+         {
+          "h_title": "Our Trusted Pod Partners.",
+          "main_title": "Our Trusted Pod Partners.",
+          "author": "Future Shade Melbourne",
+          "language": "en",
+          "level": 2,
+          "primary_content": [
+           {
+            "text": "IDEAL FOR OUTDOOR MOMENTS",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Smart Living in Every Pod",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Whether you\u2019re hosting friends, enjoying family dinners, or simply unwinding after a long day, our BBQ Pods bring comfort, convenience, and style to your backyard. Designed with premium materials and modern features, they turn every evening into an experience.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Let our BBQ Pods be the centerpiece that helps you create memories, elevate your space, and enjoy life outdoors with ease and elegance.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "QUALITY, CUSTOMIsATION, AND STYLE",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Luxury Meets Personal Choice",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Crafted for those who value both durability and design, our BBQ Pods combine high-end stainless steel with premium finishes. Choose from sintered stone, powder-coated colors, or wood-grain textures to create a look that\u2019s uniquely yours. Every material is built to withstand the outdoors while delivering a sleek, modern aesthetic.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Whether you prefer a classic stainless finish, a bold contemporary tone, or a natural stone touch, your BBQ Pod can be customised to reflect your taste \u2014 making your outdoor kitchen truly one of a kind.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "BBQ Pod Products",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Is any special preparation required for installation?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Ground Requirements: The pod must be installed on a flat and solid surface, such as a 10 cm-thick concrete platform or a treated wood frame. Avoid placing it directly on soil or uneven ground. Space Clearance: Leave at least 15 cm of ventilation space on all sides and a minimum of 50 cm above the unit from flammable structures Water & Power: If your pod includes a refrigerator or sink, pre-plan for power outlets and plumbing for water in/out as needed.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Do I need professional installation?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "No, since the BBQ pod is delivered fully assembled, most units are plug-and-play.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "How is the BBQ pod delivered?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "The BBQ pod is delivered fully assembled. Please ensure there\u2019s sufficient access (gate width, path clearance) for forklifts or moving equipment for a fully assembled unit.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Can I customize the layout or add features?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yes, we offer customization for size, layout, surface finishes, and accessories (e.g., fridges, sinks, power outlets, grills) with additional costs. Share your design or requirements with our team, and we will create a tailored solution.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "What are the Suitable Use Scenarios?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Backyards: Perfect for daily family BBQs or small gatherings. Weather-resistant and low-maintenance. Commercial Venues: Ideal for restaurant patios or guesthouse BBQ zones \u2013 durable, hygienic, and easy to clean. Coastal Villas: Excellent salt-air resistance makes it a great fit for outdoor kitchens near the sea.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Are the BBQ Pods weather-resistant?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Absolutely. Built from reinforced stainless steel with premium finishes, our pods are made to withstand rain, sun, and coastal conditions for years to come.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Do I need a building permit to install a BBQ Pod?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "No, our BBQ Pods are designed as standalone outdoor kitchens and generally do not require a building permit, making setup simple and stress-free.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "What surfaces can a BBQ Pod be placed on?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "We recommend installing on a flat, solid base such as a concrete slab or treated timber platform for best stability and performance.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "How is the BBQ Pod delivered?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Each pod is delivered fully assembled and ready to use. Please ensure access for forklifts or moving equipment during delivery.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Can I customise the look of my BBQ Pod?",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Yes, you can choose from stainless steel, sintered stone, wood-grain textures, and a wide range of powder-coated colors to match your outdoor style.",
+            "url": null,
+            "urls": null
+           }
+          ],
+          "secondary_content": [
+           {
+            "text": "Mini BBQ Pod",
+            "url": "https://www.futureshade.com.au/bbq-pods/mini",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/mini",
+              "anchor_text": "Mini BBQ Pod"
+             }
+            ]
+           },
+           {
+            "text": "2210 \u00d7 1002 \u00d7 2350mm",
+            "url": "https://www.futureshade.com.au/bbq-pods/mini",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/mini",
+              "anchor_text": "2210 \u00d7 1002 \u00d7 2350mm"
+             }
+            ]
+           },
+           {
+            "text": "Plus BBQ Pod",
+            "url": "https://www.futureshade.com.au/bbq-pods/plus",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/plus",
+              "anchor_text": "Plus BBQ Pod"
+             }
+            ]
+           },
+           {
+            "text": "2690 \u00d7 1002 \u00d7 2350mm",
+            "url": "https://www.futureshade.com.au/bbq-pods/plus",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/plus",
+              "anchor_text": "2690 \u00d7 1002 \u00d7 2350mm"
+             }
+            ]
+           },
+           {
+            "text": "Pro BBQ Pod",
+            "url": "https://www.futureshade.com.au/bbq-pods/pro",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/pro",
+              "anchor_text": "Pro BBQ Pod"
+             }
+            ]
+           },
+           {
+            "text": "3180 \u00d7 1290 \u00d7 2350mm",
+            "url": "https://www.futureshade.com.au/bbq-pods/pro",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/pro",
+              "anchor_text": "3180 \u00d7 1290 \u00d7 2350mm"
+             }
+            ]
+           },
+           {
+            "text": "Max BBQ Pod",
+            "url": "https://www.futureshade.com.au/bbq-pods/max",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/max",
+              "anchor_text": "Max BBQ Pod"
+             }
+            ]
+           },
+           {
+            "text": "3500 \u00d7 1002 \u00d7 2350mm",
+            "url": "https://www.futureshade.com.au/bbq-pods/max",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/max",
+              "anchor_text": "3500 \u00d7 1002 \u00d7 2350mm"
+             }
+            ]
+           },
+           {
+            "text": "Ultra BBQ Pod",
+            "url": "https://www.futureshade.com.au/bbq-pods/ultra",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/ultra",
+              "anchor_text": "Ultra BBQ Pod"
+             }
+            ]
+           },
+           {
+            "text": "3760 \u00d7 1002 \u00d7 2350mm",
+            "url": "https://www.futureshade.com.au/bbq-pods/ultra",
+            "urls": [
+             {
+              "url": "https://www.futureshade.com.au/bbq-pods/ultra",
+              "anchor_text": "3760 \u00d7 1002 \u00d7 2350mm"
+             }
+            ]
+           },
+           {
+            "text": "Frequently asked questions",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "BBQ Pods",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "\u00a9 Future Shade Melbourne 2025. All Rights Reserved.",
+            "url": null,
+            "urls": null
+           },
+           {
+            "text": "Design & Developed by Mica Design",
+            "url": "https://www.micadesign.com.au/",
+            "urls": [
+             {
+              "url": "https://www.micadesign.com.au/",
+              "anchor_text": "Mica Design"
+             }
+            ]
+           }
+          ],
+          "table_content": null
+         }
+        ],
+        "secondary_topic": null,
+        "ratings": null,
+        "offers": [
+         {
+          "name": null,
+          "price": 29700,
+          "price_currency": "AUD",
+          "price_valid_until": null
+         }
+        ],
+        "comments": null,
+        "contacts": null
+       },
+       "page_as_markdown": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
