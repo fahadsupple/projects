@@ -28,26 +28,34 @@ Research verdict is that a new page **will not rank organically**, and writing i
 - Include the on-page FAQ block (11 real PAA questions captured in research).
 - **Set expectations with the client: do not promise organic rankings.**
 
-#### 3. Keyword swaps applied — all SERP-verified 2026-07-14
+#### 3. Keywords are FIXED page targets — do not swap them (corrected 2026-07-16)
 
-Four of six primaries were mis-targeted. Two (`bbq pods melbourne`, `louvred pergolas sydney`) had **zero search volume — they were slugs, not keywords.**
+The primary keyword on each entry is the **client-assigned target** from the prior keyword→URL engagement, mapped to a specific live URL. **The pipeline's job is to optimise each page to serve its assigned keyword — not to second-guess the keyword.** An earlier analyst pass wrongly swapped 5 primaries on the reasoning that low/zero DataForSEO volume meant a keyword was "wrong." That was overreach and has been reverted: **zero *measured* volume is not zero searches** (DataForSEO floors low counts to null), and an exact product-plus-location match is a legitimate target for a niche product page.
 
-| Entry | Old primary | New primary | Vol |
-|---|---|---|---|
-| delta-commercial-folding-arm | retractable awning melbourne | `waterproof retractable awning` | 320 |
-| delta-pro-retractable-roof | retractable roof system melbourne | `retractable roof pergola` | 720 |
-| skyflex-4k-android-smart-outdoor-tv | waterproof tv australia | `weatherproof tv` | 390 |
-| skyflex-bbq-pods | bbq pods melbourne *(zero volume)* | `bbq pods` | 720 |
-| smart-toilets | smart toilets melbourne | `smart toilets` | 2,400 |
-| louvred-pergolas-sydney | — unchanged, **already ranks #2** | `pergolas sydney` | 1,300 |
+**Assigned primaries (authoritative — use these):**
 
-Old terms retained as secondaries. Every replacement was verified with a live SERP check (local pack present? product URLs in top 20?), **not** taken from DataForSEO intent labels alone — the first-choice replacement for the retractable-roof page (`retractable fabric roof`) was itself found to be installer-owned (0 product URLs) and rejected.
+| Entry | Primary (assigned) | Lead secondary (higher-volume, same-SERP capture) |
+|---|---|---|
+| delta-commercial-folding-arm | `retractable awning melbourne` | `waterproof retractable awning` (320) |
+| delta-pro-retractable-roof | `retractable roof system melbourne` | `retractable roof pergola` (720) |
+| skyflex-4k-android-smart-outdoor-tv | `waterproof tv australia` | `weatherproof tv` (390) |
+| skyflex-bbq-pods | `bbq pods melbourne` | `bbq pods` (720) |
+| smart-toilets | `smart toilets melbourne` | `smart toilets` (2,400) |
+| louvred-pergolas-sydney | `pergolas sydney` (**ranks #2**) | `louvred pergolas sydney` |
 
-#### 4. INSTALLER-INTENT is the recurring trap for this client
+**How the research is used (advisory, not a swap):** where the exact assigned term has low measured volume, the SAME page also targets the higher-volume head term as a lead secondary — they share a SERP (e.g. `bbq pods melbourne` and `bbq pods` overlap on 12 of ~16 organic domains), so one well-optimised page ranks for both. The assigned term goes in the title tag / H1 (exact match); the head term is worked naturally into headings and body. **No keyword is dropped.**
 
-Skyflex's **geo-scoped** keywords skew to installer/vendor-discovery intent (local pack + zero product pages ranking); **non-geo** terms skew transactional. This client previously rejected "pergola builders" terms for the same reason.
+The SERP-intent findings below (installer-domination on some geo terms) are **page-strategy input** — they tell the writer what the page must do to compete and what a realistic timeline is — **not** a licence to change the target keyword.
 
-**But it is not universal** — `pergolas sydney` and `bbq pods` are both winnable by a product retailer. The test that matters is not "does a `/product/` URL rank" but **"do product *retailers* rank"**. On `pergolas sydney`, zero product-detail URLs rank yet Skyflex sits at #2 and DIY brand Pergolux at #7. Check the SERP, don't assume the pattern.
+#### 4. INSTALLER-INTENT on some geo terms — a page-difficulty signal, not a keyword verdict
+
+Some of Skyflex's **geo-scoped** keywords have SERPs skewed to installer/vendor-discovery intent (local pack present + few/no product pages ranking) — notably `retractable awning melbourne` and `retractable roof system melbourne`. This does **not** mean the keyword is wrong; it means the page has to work harder and the timeline is longer. What it tells the writer:
+
+- The page must look like a credible **buy-here** destination (clear product, price/enquiry path, specs, differentiation) to stand out in a SERP of service pages.
+- Capturing the higher-volume non-geo head term as a lead secondary is the realistic near-term traffic path while the exact geo term matures.
+- Set client expectations on timeline for the geo term; don't promise a fast win against a local pack.
+
+**And the pattern is not universal** — `pergolas sydney` and `bbq pods` are winnable by a product retailer. The test is not "does a `/product/` URL rank" but **"do product *retailers* rank"**. On `pergolas sydney`, zero product-detail URLs rank yet Skyflex sits at #2 and DIY brand Pergolux at #7. Read each SERP; don't assume the pattern.
 
 #### 5. Live-site defects to send to the client (independent of content work)
 

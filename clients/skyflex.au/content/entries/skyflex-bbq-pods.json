@@ -2,9 +2,9 @@
   "schema_version": 1,
   "entry_id": "skyflex-bbq-pods",
   "url": "https://skyflex.au/product/skyflex-bbq-pods/",
-  "primary_keyword": "bbq pods",
+  "primary_keyword": "bbq pods melbourne",
   "secondary_keywords": [
-    "bbq pods melbourne",
+    "bbq pods",
     "outdoor kitchen pods",
     "prefabricated outdoor kitchen",
     "modular bbq island",
@@ -32,6 +32,13 @@
       "date": "2026-07-14",
       "reason": "original has ZERO volume \u2014 not a real keyword (no Melbourne variant exists in DataForSEO at all). Head term 720/mo, transactional; 12 of ~16 organic domains overlap between the two SERPs so Melbourne can ride in title/H1 as modifier.",
       "verified_by": "live SERP check (DataForSEO organic live advanced, depth 20)"
+    },
+    {
+      "from": "bbq pods",
+      "to": "bbq pods melbourne",
+      "date": "2026-07-16",
+      "reason": "REVERT \u2014 restored the client-assigned primary. The prior swap was analyst overreach: zero DataForSEO volume is not evidence a keyword is wrong (low counts floor to null), and these are deliberate page targets. Higher-volume research term retained as lead secondary; SERP/intent findings kept as advisory for page optimisation, not keyword replacement.",
+      "verified_by": "analyst correction (Fahad, 2026-07-16)"
     }
   ]
 }
