@@ -1,13 +1,13 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T00:25:54Z_
+_Rebuilt: 2026-07-16T02:09:13Z_
 
 ## Snapshot
 
 - **Domain:** skyflex.au
 - **Intake mode:** upgrade
 - **Entries:** 7 total | 0 generated | 0 audited | 0 approved
-- **Clusters:** 4 | 1 locked
+- **Clusters:** 4 | 4 locked
 - **Halt state:** none
 
 ## File map
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-16T00:25:54Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T00:09:46.604Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T00:30:00.000Z  `cluster_plan_generated`  cluster:products  (success)
-- 2026-07-16T00:10:19.382Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T00:35:00.000Z  `plan_locked`  cluster:products  (success)
-- 2026-07-16T00:22:57.067Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T00:24:33.843Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T00:25:36.274Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-16T00:45:00.000Z  `cluster_plan_generated`  cluster:product-categories  (success)
 - 2026-07-16T00:45:00.000Z  `cluster_plan_generated`  cluster:service-location-pergolas  (success)
 - 2026-07-16T00:45:00.000Z  `cluster_plan_generated`  cluster:homepage  (success)
+- 2026-07-16T00:25:55.043Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:08:16.331Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:08:24.913Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:08:47.957Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:product-categories  (success)
+- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:service-location-pergolas  (success)
+- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:homepage  (success)
 

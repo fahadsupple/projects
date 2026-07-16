@@ -1,6 +1,6 @@
 # skyflex.au — Content Plugin Context
 
-_Rebuilt: 2026-07-16T00:25:54Z_
+_Rebuilt: 2026-07-16T02:09:13Z_
 
 ## 1. Who this client is
 
@@ -10,6 +10,21 @@ _Rebuilt: 2026-07-16T00:25:54Z_
 - **Locations served:** Melbourne, Sydney, Queensland
 
 ## 2. Notes from the analyst
+
+### Deliverable format — existing vs new content (analyst directive, 2026-07-16, Fahad)
+
+**Every final deliverable must visually distinguish EXISTING content from NEW content**, so the client/developer can see at a glance what is being reused unchanged versus what is being added, and where.
+
+- **Existing content** = text copied VERBATIM from the current live page (nothing changed). Render it on a **yellow background** (`background:#fff3b0` / highlight) in the combined review HTML export.
+- **New content** = anything newly written for this engagement. Render it plainly (no highlight).
+- This applies to **every entry**, per page-mode:
+  - `add-blocks` (homepage, louvred-pergolas-sydney): the existing page body is preserved verbatim → shown yellow; the added blocks → shown plainly. This is where the distinction matters most.
+  - `rewrite-existing` (the 4 product pages): most of the body is newly written, but any sentence/spec/price copied verbatim from the existing page must still be marked yellow.
+  - `new-page` (smart-toilets): all new → nothing yellow.
+- **Provenance is a writer-agent responsibility:** the writer must retain and label which spans are copied-existing vs newly-written so the exporter can highlight them. The exporter renders the yellow-vs-plain distinction in the combined review document.
+- **Existing content must be captured** for the add-blocks + rewrite pages (fetch the current live page) so there is a verbatim source to mark yellow. Homepage is research-skipped, so its current content must be fetched at generate/export time.
+
+---
 
 ### Analyst decisions — 2026-07-14 (Fahad)
 

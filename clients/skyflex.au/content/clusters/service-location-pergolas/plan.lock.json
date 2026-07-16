@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "cluster_id": "service-location-pergolas",
+  "member_entries": [
+    "louvred-pergolas-sydney"
+  ],
+  "universal_required": [
+    "Preserve the assigned primary 'pergolas sydney' exactly where it already ranks — in the existing title tag, H1, and opening — and keep 'louvred pergolas sydney' as a supporting secondary. This is an add-blocks pass on a page already ranking top-5 for a 1,300/mo term; added content reinforces, it does not restructure.",
+    "A LEAN named business-identity block for a spoke page — an H2 such as 'About Skyflex' carrying only the trust floor (founder Christopher Mitsopoulos, established 2023, 100+ customers, 50% referral rate) plus a link to the About/hub page for full credentials. Do NOT stack the full USP set here.",
+    "The Sydney fulfilment model, stated plainly in the first half: Skyflex supplies DIY louvred-pergola kits shipped to Sydney and an approved-installer network — Melbourne-based, with NO Sydney premises. Never imply a Sydney branch or local-pack presence.",
+    "Grounded product substance for the louvred pergola: adjustable slats for sun/rain control, all-weather aluminium construction, motorised operation — pulled from the real product/range data, no invented specs.",
+    "A clear next-step CTA matched to the model (order a kit / request a quote / enquire), reachable in the first half of the page."
+  ],
+  "cluster_specific_required": [
+    "NO fabricated local content — this is the hard rule for this page. The Sydney suburb ground truth is INSUFFICIENT (Brave returned zero local records). Honour the suburb-data prohibited_claims list verbatim: no statement about Sydney coastal climate / salt air / humidity / weather demands; no specific council name, DA requirement, exempt-development dimension, or NSW planning threshold; no claim about Sydney building stock, terraces, backyard sizes or suburb character; no invented Sydney testimonial or customer story.",
+    "Council approval may be addressed only GENERALLY (competitors cover it), never as regulatory fact: no NSW council names, DA thresholds, or exempt-development dimensions (none exist in the fixtures). If mentioned, keep it general and direct the reader to check with their local council.",
+    "Differentiate the Sydney page from the Melbourne pergola page by the ONE grounded differentiator only — commercial posture / supply model (Sydney = kit shipped + approved-installer network, no local presence). Do NOT suburb-swap boilerplate: 'pergolas sydney' and 'pergolas melbourne' share identical volume and intent, so templated sameness is a real risk the coherence gate will catch.",
+    "FAQ is data-gated and this keyword returned ZERO PAA — do not fabricate a Sydney FAQ. If an FAQ is added at all, it may only answer genuinely grounded product questions (kit vs installed, delivery to Sydney, how the slats operate), never invented local questions.",
+    "Because the pergola USPs are genuinely on-topic here, product-quality claims (15-year warranty, the louvre-roof affordability award, double-walled sealed louvres, 150x150 posts) MAY be used — but only as they appear in the client's own product data, and the warranty/award stay attached to the specific product line they belong to."
+  ],
+  "per_entry_unique_angle": {
+    "louvred-pergolas-sydney": "The Sydney louvred-pergola page for a DIY-kit-plus-approved-installer model shipped into a market where Skyflex has no physical presence. Already ranks top-5 for 'pergolas sydney' (1,300/mo), so this is a reinforce-and-extend pass. Differentiated by the honest kit-to-Sydney supply story and adjustable-slat all-weather product substance — NOT by invented Sydney local colour, which the research explicitly prohibits."
+  },
+  "word_count_baseline": {
+    "floor": 600,
+    "per_entry_targets": {
+      "louvred-pergolas-sydney": 600
+    }
+  },
+  "execution_order_within_cluster": [
+    "louvred-pergolas-sydney"
+  ],
+  "research_sha": "3a4362a034d041be86fb110dd63cdb62ed9846e8314168998496429d21dd22b1",
+  "generated_at": "2026-07-16T00:24:38Z",
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2023,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2023"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2023"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake (form1 Q3)",
+      "confirmed_at": "2026-07-14T02:20:19.805Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": "100+",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "28"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "70"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "670"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "127"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "287"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "100"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "22"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "51"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "29"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "110"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "120"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "100+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake (form1 Q12)",
+      "confirmed_at": "2026-07-14T02:20:19.922Z"
+    },
+    "social-proof.referral-rate": {
+      "id": "social-proof.referral-rate",
+      "class": "percentage",
+      "label": "new business from referrals",
+      "unit": "%",
+      "value": 50,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "any",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form2.md#q4-q5",
+          "value_seen": "50%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) — 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    }
+  },
+  "client_data_signals": {
+    "business_name": "Skyflex",
+    "founder_name": "Christopher Mitsopoulos",
+    "year_established": 2023,
+    "years_in_business": 3,
+    "phone": "03 9498 0505",
+    "email": "info@skyflex.au",
+    "showroom": "Epping, VIC (by appointment) — Melbourne HQ; NO Sydney premises",
+    "team_size": "5",
+    "client_count": "100+",
+    "review_average": 5,
+    "referral_rate_pct": 50,
+    "years_of_combined_experience": "Over 20 years",
+    "awards": [
+      "Voted Australia's Most Affordable Motorised Louvre Roof System (Delta Light Motorised)."
+    ],
+    "guarantees": [
+      "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1–5 years offered by competitors",
+      "Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"
+    ],
+    "usps_verbatim": [
+      "Voted Australia's most affordable motorised louvre roof system (Delta Light Motorised), starting from just $2,700",
+      "Up to 8x cheaper than comparable products on the market",
+      "Up to a 15-year warranty — significantly longer than the 1–5 years offered by competitors",
+      "High-quality aluminium construction with stainless steel hardware and high-quality powder coating with dipping",
+      "Double-walled louvre blades with gasket weatherproof sealing (competitors offer double-walled louvres with no weather sealing)",
+      "150x150 sturdy posts versus the standard 110 or 120 posts used by others",
+      "Unique hidden post anchoring design gives a floating aesthetic look",
+      "Clean beam-to-post transition provides a seamless finish with no step-in",
+      "Remote-operated slat and perimeter lighting as standard on all motorised units, with no upcharge",
+      "Delta Open Sky system allows blades to both rotate and fully retract",
+      "Products are designed in Europe with ethically sourced components",
+      "Fully customisable to any size, setting, and colour",
+      "Both DIY assembly kits with easy-to-follow instructions and an approved installer network at affordable rates",
+      "Maintenance-free products",
+      "Reseller programme for trade customers"
+    ],
+    "audience": "Our ideal customers are homeowners and businesses in Melbourne (and Sydney) looking to transform their outdoor spaces into comfortable, year-round living areas. This includes homeowners wanting to enhance their backyards, patios, and gardens with stylish, adjustable louvred pergolas, as well as commercial property owners seeking to add functional and aesthetically appealing outdoor structures. Our customers value quality, durability, and affordability, and may be either DIY enthusiasts who want to install a pergola kit themselves, or those who prefer to use our approved installer network. They are looking for solutions that handle Melbourne's variable weather conditions and add long-term value to their property.",
+    "sydney_supply_model": "DIY louvred-pergola kits shipped to Sydney + an approved-installer network. Skyflex has NO Sydney address and cannot appear in the Sydney local pack — do not imply a local branch.",
+    "_suppressed_do_not_publish": {
+      "repeat_customer_rate_pct": "100 — UNSUBSTANTIATED absolute retention claim; DO NOT PUBLISH (fact ledger off-page)",
+      "product_discounts": "volatile promo pricing; DO NOT hard-code (fact ledger off-page)"
+    }
+  },
+  "lock_status": "locked",
+  "lock_sha": "9d61f95baab9c9ea702327c7adcd86eb60c7cf80c3a5684830695d84bd00aeec"
+}

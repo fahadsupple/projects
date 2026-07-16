@@ -3,19 +3,24 @@
 
 ## Universal required (every page must cover)
 
-- Exactly two paragraphs of new copy targeting 'pergolas melbourne', written to sit alongside the existing homepage content without altering, restructuring, or removing any of it (explicit client instruction from the Meta File).
-- The phrase 'pergolas melbourne' worked naturally into the two paragraphs (as a reader would say it), not keyword-stuffed; the copy frames Skyflex's Melbourne louvred-pergola range and the DIY-kit / approved-installer model.
-- Grounded claims only — no fabricated statistics, and any product-quality claim (adjustable louvres, 15-year warranty, most-affordable louvre-roof award) used only as it appears in the client's own product data.
+- Enough new copy to make the homepage a genuinely strong page for 'pergolas melbourne' — the site's highest-value commercial term (1,300/mo). The earlier two-paragraph cap is LIFTED by analyst direction (2026-07-16); write to the depth the keyword warrants. All new content is ADDED to the existing homepage without altering, restructuring, or removing any existing content (add-blocks).
+- 'pergolas melbourne' placed naturally and prominently — in the new section's heading/opening and worked through the body as a reader would say it, not keyword-stuffed. The copy frames Skyflex's Melbourne louvred-pergola range, the DIY-kit + approved-installer model, and the Epping showroom.
+- A FULL business-identity / credibility block (homepage gets the full block, not the lean spoke version): an H2 such as 'About Skyflex' (never 'Why Choose Us') carrying founder Christopher Mitsopoulos, established 2023, 100+ customers, the 50% referral rate, and the genuine product differentiators — adjustable louvres, up-to-15-year warranty, the 'most affordable motorised louvre roof' award, double-walled gasket-sealed louvres, 150x150 posts. These are pergola claims on a pergola page, so they are on-target.
+- The product proposition: the louvred-pergola range and how it delivers year-round outdoor living in Melbourne's variable weather — grounded in the client's real product data, no invented specs.
+- A clear next-step CTA (browse the range / order a DIY kit / request a quote / visit the Epping showroom), reachable within the new content.
+- Grounded claims only — no fabricated statistics; warranty/award claims stay attached to the pergola line they belong to (correct on this page).
 
 ## Cluster-specific required
 
-- Honour the client instruction to the letter: this is an add-blocks task of TWO paragraphs only. Do not propose a homepage rewrite, a new credibility section, or any change to existing homepage content.
-- Keep it Melbourne-scoped and product-honest: Skyflex is a Melbourne-based outdoor-living brand offering DIY louvred-pergola kits and an approved-installer network from an Epping showroom — no invented local colour, no unsubstantiated superlatives beyond the awards/USPs the client actually holds.
+- add-blocks discipline: ADD content to the existing homepage; do NOT rewrite, restructure, or remove any existing homepage content. The existing content is preserved verbatim and will be marked as 'existing' (yellow) in the deliverable — see the deliverable-format directive in client-notes.
+- Make it a genuinely strong 'pergolas melbourne' page, not a token insert: cover the range, the Melbourne angle, the DIY-vs-approved-installer choice, the warranty/quality differentiators, and social proof — enough depth to compete for a 1,300/mo commercial term.
+- Honest positioning: a Melbourne-based outdoor-living brand offering DIY louvred-pergola kits and an approved-installer network from an Epping showroom — no invented local colour, no unsubstantiated superlatives beyond the awards/USPs the client actually holds.
 - No suppressed facts: do not use the 100% retention figure or per-product discount percentages.
+- Deliverable: mark existing homepage content (preserved verbatim) distinctly from the newly added content, per the client-notes deliverable-format rule (existing = yellow highlight, new = plain).
 
 ## Word count baseline
 
-- **Cluster floor:** 200
+- **Cluster floor:** 500
 
 ## Client data signals (writer-agent: reference these in content)
 
@@ -45,7 +50,7 @@ _Per writer-agent.md — publish only the values in plan.lock.json > publishable
 
 | ID | Word count | Unique angle |
 |---|---|---|
-| homepage | 200 | A tightly-scoped two-paragraph addition to the existing Skyflex homepage targeting 'pergolas melbourne', per the explicit client instruction to add content for this keyword without changing the existing page. Frames the Melbourne louvred-pergola range and the DIY-kit / installer model — nothing more. |
+| homepage | 500 | The Skyflex homepage elevated into a strong 'pergolas melbourne' landing experience — new content ADDED to the existing page (not a rewrite) that frames the Melbourne louvred-pergola range, the DIY-kit + approved-installer model, and the brand's quality/warranty differentiators, anchored by a full credibility block. The site's primary commercial page for its highest-value term. |
 
 ## Execution order
 

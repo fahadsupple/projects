@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "cluster_id": "product-categories",
+  "member_entries": [
+    "smart-toilets"
+  ],
+  "universal_required": [
+    "Category framing at the top: what a smart toilet is and exactly what Skyflex offers — the two models in the range (U6 and U7 Smartoilet) — so a researcher lands on a clear, honest picture of the range, not an implied deep catalogue.",
+    "A product spec / comparison block for the two SKUs (U6 vs U7): dimensions, key features (bidet wash, warm-air dryer, seat vs integrated suite, mount type, any UV/self-clean), and the commercial basis — sourced from each model's own live page, no invented specs.",
+    "The assigned primary keyword 'smart toilets melbourne' in the title tag, H1, and first paragraph as an exact match, with a product-accurate title tag and meta description; the same page is written to also capture the higher-volume head term 'smart toilets' (Melbourne and national SERPs share 9 of the top 10 domains, so one page serves both).",
+    "The commercial terms stated plainly in the first half: price-from where a live page shows one, or an explicit 'enquire / consultation' line where it does not, plus the supply basis — matching what the live product pages say.",
+    "A named business-identity passage — an H2 such as 'About Skyflex' (never 'Why Choose Us') carrying founder Christopher Mitsopoulos, established 2023, 100+ customers, and the 50% referral rate — in wording unique to this page.",
+    "An FAQ block answering the real buyer questions captured in research (cost, is-it-worth-it, disadvantages, power-outage behaviour, toilet-paper use, what-plumbers-recommend, and the power-point/electrical requirement) — sourced from the 11 real Google PAAs plus real Reddit/Whirlpool/OzBargain threads; no invented Q&A.",
+    "A clear next-step CTA matched to the commercial model (enquire / book a showroom viewing / add-to-cart only if the live page supports it)."
+  ],
+  "cluster_specific_required": [
+    "Present the range using the facet/comparison axes competitors actually expose — brand/model, product type (integrated suite vs bidet seat), mount type (floor vs wall), price, and dimensions — as an honest comparison scaffold for the two SKUs. Do NOT pad the page with placeholder or fabricated products to imitate a deep catalogue.",
+    "Compensate for the thin catalogue with education-led depth, since Google rewards a category page here: cover the category-level questions the SERP and forums reward — what a smart toilet does, realistic cost range, the disadvantages, the power-point/electrical requirement, and behaviour in a power outage — grounded in the 11 real PAAs and the real Reddit/Whirlpool/OzBargain threads captured in research. Never invent a statistic, review, or specification.",
+    "Honest positioning — this is a conversion/showcase page for an outdoor-living brand adding a bathroom category with NO topical authority in it. Do NOT write authority claims Skyflex has not earned ('leading smart toilet retailer', 'Australia's best smart toilets', years of bathroom expertise). Confine claims to what is true: the two models, their real specs, price, and any warranty the product's own page states.",
+    "The power-point / electrical-connection requirement and WELS/water rating (only where a product page states it) must be covered — the top real buyer concern from the forums; stating it builds trust and reduces mismatched-expectation returns.",
+    "Product-claim scoping: the 15-year warranty, the 'most affordable louvre roof' award, and the pergola USPs are for a different product line and MUST NOT appear on this smart-toilet page. Any warranty/price/spec claim here must come from the U6/U7 product pages or research bundle."
+  ],
+  "per_entry_unique_angle": {
+    "smart-toilets": "Skyflex's two-model smart-toilet range (U6, U7) presented as an honest, education-led category page for the Melbourne/AU buyer researching cost, power requirements and the 'is it worth it' question — a conversion/showcase asset, not a deep-catalogue specialist. Differentiated by transparency on the real buyer concerns (power-outage behaviour, electrical requirement, cost) rather than by breadth of range."
+  },
+  "word_count_baseline": {
+    "floor": 1100,
+    "per_entry_targets": {
+      "smart-toilets": 1100
+    }
+  },
+  "execution_order_within_cluster": [
+    "smart-toilets"
+  ],
+  "research_sha": "3f85557eaa59eacf4e70bb49587e5c64250299e79c69918e3a3d86b4ed5235a0",
+  "generated_at": "2026-07-16T00:23:01Z",
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2023,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2023"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2023"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake (form1 Q3)",
+      "confirmed_at": "2026-07-14T02:20:19.805Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": "100+",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "28"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "70"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "670"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "127"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "287"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "100"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "22"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "51"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "29"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "110"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "120"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "03"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "100+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake (form1 Q12)",
+      "confirmed_at": "2026-07-14T02:20:19.922Z"
+    },
+    "social-proof.referral-rate": {
+      "id": "social-proof.referral-rate",
+      "class": "percentage",
+      "label": "new business from referrals",
+      "unit": "%",
+      "value": 50,
+      "status": "confirmed",
+      "confidence": "medium",
+      "placement": "any",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "form2.md#q4-q5",
+          "value_seen": "50%"
+        }
+      ],
+      "confirmed_by": "analyst (Fahad) — 2026-07-14 split of extractor-bucketed metrics.percentage",
+      "confirmed_at": "2026-07-14T00:00:00Z"
+    }
+  },
+  "client_data_signals": {
+    "business_name": "Skyflex",
+    "founder_name": "Christopher Mitsopoulos",
+    "year_established": 2023,
+    "years_in_business": 3,
+    "phone": "03 9498 0505",
+    "email": "info@skyflex.au",
+    "showroom": "Epping, VIC (by appointment)",
+    "team_size": "5",
+    "client_count": "100+",
+    "review_average": 5,
+    "referral_rate_pct": 50,
+    "years_of_combined_experience": "Over 20 years",
+    "awards": [
+      "Voted Australia's Most Affordable Motorised Louvre Roof System (Delta Light Motorised)."
+    ],
+    "guarantees": [
+      "Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1–5 years offered by competitors",
+      "Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"
+    ],
+    "usps_verbatim": [
+      "Voted Australia's most affordable motorised louvre roof system (Delta Light Motorised), starting from just $2,700",
+      "Up to 8x cheaper than comparable products on the market",
+      "Up to a 15-year warranty — significantly longer than the 1–5 years offered by competitors",
+      "High-quality aluminium construction with stainless steel hardware and high-quality powder coating with dipping",
+      "Double-walled louvre blades with gasket weatherproof sealing (competitors offer double-walled louvres with no weather sealing)",
+      "150x150 sturdy posts versus the standard 110 or 120 posts used by others",
+      "Unique hidden post anchoring design gives a floating aesthetic look",
+      "Clean beam-to-post transition provides a seamless finish with no step-in",
+      "Remote-operated slat and perimeter lighting as standard on all motorised units, with no upcharge",
+      "Delta Open Sky system allows blades to both rotate and fully retract",
+      "Products are designed in Europe with ethically sourced components",
+      "Fully customisable to any size, setting, and colour",
+      "Both DIY assembly kits with easy-to-follow instructions and an approved installer network at affordable rates",
+      "Maintenance-free products",
+      "Reseller programme for trade customers"
+    ],
+    "audience": "Our ideal customers are homeowners and businesses in Melbourne (and Sydney) looking to transform their outdoor spaces into comfortable, year-round living areas. This includes homeowners wanting to enhance their backyards, patios, and gardens with stylish, adjustable louvred pergolas, as well as commercial property owners seeking to add functional and aesthetically appealing outdoor structures. Our customers value quality, durability, and affordability, and may be either DIY enthusiasts who want to install a pergola kit themselves, or those who prefer to use our approved installer network. They are looking for solutions that handle Melbourne's variable weather conditions and add long-term value to their property.",
+    "_suppressed_do_not_publish": {
+      "repeat_customer_rate_pct": "100 — UNSUBSTANTIATED absolute retention claim; DO NOT PUBLISH (fact ledger social-proof.retention-rate off-page)",
+      "product_discounts": "volatile promo pricing; DO NOT hard-code (fact ledger pricing.discount.* off-page)",
+      "pergola_usps": "guarantees/awards/usps_verbatim are PERGOLA-line claims — the 15-yr warranty and 'most affordable louvre roof' award MUST NOT appear on the smart-toilet page (a different product entirely). See cluster_specific_required."
+    }
+  },
+  "lock_status": "locked",
+  "lock_sha": "4be5e243d3bc7acb5bab803f569a05dff3f1937fc059ce403ad0afe781ed8ad5"
+}
