@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T06:53:43Z_
+_Rebuilt: 2026-07-16T06:58:52Z_
 
 ## delta-commercial-folding-arm
 

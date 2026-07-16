@@ -58,7 +58,7 @@ def add_inline(par, text, base_bold=False, highlight=None):
 def heading_para(doc, level, text, highlight=None):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(8); p.paragraph_format.space_after = Pt(2)
-    tag = p.add_run(f"H{level} ")
+    tag = p.add_run(f"H{level}: ")
     tag.bold = True; tag.font.color.rgb = GREY
     if highlight: tag.font.highlight_color = highlight
     add_inline(p, text, base_bold=True, highlight=highlight)
@@ -113,10 +113,7 @@ except Exception: pass
 
 # cover
 t = doc.add_paragraph(); r = t.add_run("Skyflex — Content Deliverable"); r.bold = True; r.font.size = Pt(11)
-doc.add_paragraph("7 pages. Headings are tagged H1/H2/H3 and bold, at the same size as body text, so the developer can apply the correct heading level. FAQ questions are H3. Existing page content that is kept is highlighted yellow. Internal links are live hyperlinks. Generated 2026-07-16.")
-sep = doc.add_paragraph(); sep.add_run("Legend: ").bold = True
-sep.add_run("plain = new content to add.  ")
-hr = sep.add_run("yellow = existing content on the live page, keep as-is."); hr.font.highlight_color = WD_COLOR_INDEX.YELLOW
+doc.add_paragraph("7 pages. Headings are tagged H1:/H2:/H3: and bold, at the same size as body text, so the developer can apply the correct heading level. FAQ questions are H3. Internal links are live hyperlinks. Generated 2026-07-16.")
 
 for idx, (slug, name, mode, kw, url) in enumerate(ORDER):
     doc.add_page_break()
@@ -134,29 +131,10 @@ for idx, (slug, name, mode, kw, url) in enumerate(ORDER):
     dp = doc.add_paragraph(); dp.add_run("Meta description: ").bold = True; dp.add_run(desc)
     doc.add_paragraph()
     if mode == "add-blocks":
-        lab = doc.add_paragraph(); lr = lab.add_run("NEW CONTENT (add these sections; they lead the page):"); lr.bold = True
-        render_markdown(doc, md)
-        # existing content, yellow, in position (after new sections)
-        ex = json.loads((CLIENT / EXISTING_JSON[slug]).read_text())
-        doc.add_paragraph()
-        el = doc.add_paragraph(); er = el.add_run("EXISTING PAGE CONTENT BELOW — keep as-is (highlighted yellow):"); er.bold = True; er.font.highlight_color = WD_COLOR_INDEX.YELLOW
-        n2 = doc.add_paragraph(); n2r = n2.add_run("Note: the new sections above supply the page H1. Demote the existing H1 below to H2 so the page has a single H1. On the Sydney page also fix the 'designs and installs' intro, the skyflex.com.au link and the Melbourne phone; rename any 'Why Choose SkyFlex' heading; fill or remove empty U6/U7 grid tiles."); n2r.italic = True
-        st = doc.add_paragraph(); st.add_run("Current SEO title: ").bold = True
-        stt = st.add_run(ex.get("title","")); stt.font.highlight_color = WD_COLOR_INDEX.YELLOW
-        st.add_run("  (replace with the new SEO title above)")
-        for h in ex.get("headings", []):
-            tg = h.get("tag","H2"); tx = h.get("text","").strip()
-            if not tx or 'cart' in tx.lower(): continue
-            lvl = tg[1] if tg.startswith('H') and tg[1:].isdigit() else '2'
-            heading_para(doc, lvl, tx, highlight=WD_COLOR_INDEX.YELLOW)
-        paras = [p for p in ex.get("paragraphs", []) if len(p) > 50 and 'reCAPTCHA' not in p and '$0.00' not in p][:5]
-        if paras:
-            note = doc.add_paragraph(); note.add_run("Sample of existing body copy (kept):").bold = True
-            for p in paras: body_para(doc, p, highlight=WD_COLOR_INDEX.YELLOW)
-    else:
-        if mode == "rewrite-existing":
-            note = doc.add_paragraph(); nr = note.add_run("Rewrite: the content below replaces the current page body."); nr.italic = True
-        render_markdown(doc, md)
+        note = doc.add_paragraph(); nr = note.add_run("Add-blocks: these sections are added to the existing page (existing content stays)."); nr.italic = True
+    elif mode == "rewrite-existing":
+        note = doc.add_paragraph(); nr = note.add_run("Rewrite: the content below replaces the current page body."); nr.italic = True
+    render_markdown(doc, md)
 
 outdir = CLIENT / "exports" / "delivery-2026-07-16T05-22"
 out = outdir / "skyflex-content-deliverable.docx"
