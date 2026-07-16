@@ -43,11 +43,13 @@ Skyflex was founded in 2023 by Christopher Mitsopoulos and is based in Melbourne
 
 ## What buyers want to know before choosing one
 
-**Is a smart toilet worth it?** Opinions genuinely split. Some owners call it worth every cent for the daily comfort, while others decide the cost is not justified for their household. The wash, warm seat and dryer are what long-term owners rave about; if those matter to you, the value follows. If they do not, a standard suite is the sensible call.
+**Is a smart toilet worth it?** Opinions genuinely split. Some owners call it worth every cent for the daily comfort, while others decide the cost is not justified for their household. The wash, warm seat and dryer are what long-term owners rave about. If those matter to you, the value follows.
 
 **How much do smart toilets cost?** Bidet-seat setups start near $1,500, integrated suites usually sit between about $2,000 and $4,500, and premium models run past $6,000. Skyflex confirms current U6 and U7 pricing on enquiry.
 
 **What are the disadvantages?** The main ones are the upfront cost, the need for a power point and possibly an electrician, and the fact that the wash, dryer and heated seat depend on power. There are more electronic parts than a standard toilet, so servicing is a consideration over the years.
+
+**How is a smart toilet installed?** It needs a plumber for the water connection and, in many bathrooms, an electrician to add a power point near the pan. If your bathroom has no outlet close by, factor that work into the budget from the start.
 
 **Do smart toilets work when the power goes out?** The electronic functions stop, but most models retain a manual or mechanical flush so the toilet still works. Check the specific model's power-out behaviour before buying.
 

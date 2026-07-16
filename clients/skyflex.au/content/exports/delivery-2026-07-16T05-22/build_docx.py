@@ -133,7 +133,7 @@ for idx, (slug, name, mode, kw, url) in enumerate(ORDER):
     if mode == "add-blocks":
         note = doc.add_paragraph(); nr = note.add_run("Add-blocks: these sections are added to the existing page (existing content stays)."); nr.italic = True
     elif mode == "rewrite-existing":
-        note = doc.add_paragraph(); nr = note.add_run("Rewrite: the content below replaces the current page body."); nr.italic = True
+        note = doc.add_paragraph(); nr = note.add_run("Product page: use the H1 below to replace the existing product-page title at the top of the page. The rest of the content (from the first H2 down) is added lower on the page, so it starts at H2, not under the H1."); nr.italic = True
     render_markdown(doc, md)
 
 outdir = CLIENT / "exports" / "delivery-2026-07-16T05-22"

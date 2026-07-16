@@ -3,6 +3,8 @@ meta_description: A fully enclosed, motorised retractable awning. Melbourne supp
 
 # Delta Commercial Folding Arm: A Retractable Awning Melbourne Buyers Own Outright
 
+## The Delta Commercial Folding Arm awning
+
 Shopping for a retractable awning Melbourne suppliers stock usually comes down to one choice: an open folding arm that leaves the fabric and arms exposed year round, or a fully enclosed cassette that folds everything away out of the weather. The Delta Commercial Folding Arm is the second kind. It is a motorised, full-cassette folding-arm awning with fade-resistant Dickson fabric and a dimmable LED strip built into the housing. Skyflex supplies it from $2,000, so you own the unit outright and fit it where it suits your space.
 
 ## What sets a full-cassette, waterproof retractable awning apart
@@ -37,6 +39,24 @@ Pricing runs from $2,000 to $2,300, supplied, depending on which of the two size
 ## About Skyflex
 
 Skyflex is a Melbourne [outdoor-living retailer](https://skyflex.au/about-us/) founded in 2023 by Christopher Mitsopoulos. In a short span the business has served more than 100 customers, and around half of its new work now comes through referral, which is the kind of number a supplier only reaches when the products hold up after they leave the warehouse. The team works from a showroom in Epping that you can visit by appointment, and every enquiry is handled by staff based here in Australia rather than an offshore line.
+
+## Folding arm awning questions
+
+**Is the Delta Commercial Folding Arm weatherproof?** When it retracts, the fabric and both folding arms seal inside a full aluminium cassette, so the parts that wear are shielded whenever the awning is not extended. The fabric is fade-resistant Dickson and the motor carries an IP67 seal against water and dust.
+
+**Is it motorised?** Yes. A Dooya Silent 40W motor runs it by remote, with an integrated dimmable LED strip set into the cassette at no extra charge.
+
+**What sizes does it come in?** Two sizes, 3000W x 2500P or 4000W x 3000P, in Black or White, with the projection angle adjustable up to 30 degrees to set your shade line.
+
+**What fabric is used?** Fade-resistant Dickson, the long-run benchmark for outdoor awning fabric, on a box body and folding arms in 6063 aluminium alloy.
+
+**How is it mounted?** Wall or ceiling brackets are included, so it suits most frontages. The full-cassette installation manual is included in the box.
+
+**Can it be customised?** If the two standard sizes or colours do not fit your opening, customisation is available on request, with any additional charges quoted before you commit.
+
+**Do I install it myself?** It is sold on a supply basis. You receive the awning and mount it yourself or hand it to your own contractor. Skyflex does not run an install crew for this product, and the pricing reflects that.
+
+**How much does it cost?** Pricing runs from $2,000 to $2,300, supplied, depending on which of the two sizes you choose. It is a pre-order item with a 50% deposit per unit, and orders of five or more qualify for trade pricing.
 
 ## Talk to the Skyflex team
 

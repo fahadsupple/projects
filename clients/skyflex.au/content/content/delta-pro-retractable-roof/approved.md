@@ -3,6 +3,8 @@ meta_description: A motorised, 100% waterproof retractable roof system for Melbo
 
 # Delta Pro Retractable Roof System Melbourne
 
+## A motorised roof for year-round outdoor living
+
 Melbourne weather rarely commits to a plan, and an outdoor area that only works on clear days ends up half used. The Delta Pro is a motorised retractable roof system Melbourne homeowners can open to the sun on a warm afternoon and close over dinner when the rain sweeps in. It is a free-standing unit with a fabric roof that glides along an aluminium track at the press of a remote. Supplied from $5,200, it is a finished product with a set price, ready to ship. You place your order through a simple add-to-cart checkout and a 50% deposit.
 
 Retract the roof and the frame opens to the sky, good for a sunny lunch or a clear evening. Draw it closed and the fabric seals out the water and cuts the heat coming through. One remote runs all of it: open, close, or stop anywhere in between for exactly the shade you want.
@@ -36,17 +38,21 @@ Skyflex is a Melbourne [outdoor-living company](https://skyflex.au/about-us/) st
 
 ## Common questions about retractable roofs
 
-**How much does a retractable roof cost in Australia?**
+**How much does a retractable roof cost in Australia?** Prices swing widely because these roofs are usually sold as custom installs quoted per site. The Delta Pro takes the guesswork out: it is supplied from $5,200 for the 3x3 size up to $7,800 for the 6x4, with the figure set by the size, fabric and frame you pick. Fitting is separate.
 
-Prices swing widely, mostly because these roofs are sold as custom installs quoted per site. The Delta Pro takes the guesswork out: it is supplied from $5,200 for the 3x3 size up to $7,800 for the 6x4, with the figure set by the size, fabric and frame you pick. Fitting is separate and depends on whether you install it yourself or bring in an installer.
+**Are retractable roofs worth it?** If you have an outdoor area you only use in good weather, an opening roof turns it into a space that works across the year. You get sun when you want it and a sealed, waterproof cover when you do not, from one structure and one remote.
 
-**Are retractable roofs worth it?**
+**What is the disadvantage of a retractable roof?** A fabric retractable roof runs on a motor and mains power, so it pays to choose one with a properly sealed drive. The Delta Pro answers that with its IP67-rated Dooya motor and mildew-resistant PVC fabric. The main thing to plan for is the footprint, since it is a free-standing unit.
 
-If you have an outdoor area you only use in good weather, an opening roof turns it into a space that works across the year. You get sun when you want it and a sealed, waterproof cover when you do not, from one structure and one remote. For a patio, deck or poolside that would otherwise sit idle half the time, that is where the value lands.
+**Is the Delta Pro fully waterproof?** Yes. Closed, the roof seals to 100% waterproof and blocks direct sun, which keeps the space beneath it noticeably cooler through summer.
 
-**What is the disadvantage of a retractable roof?**
+**Can I open and close it when it rains?** Yes. One handheld remote runs the motorised roof, so you open it to the sun, close it over when the weather turns, or stop it anywhere in between for the shade you want.
 
-A fabric retractable roof runs on a motor and mains power, so it pays to choose one with a properly sealed drive. The Delta Pro answers that with its IP67-rated Dooya motor and mildew-resistant PVC fabric, so weather and damp are designed out rather than left to chance. The main thing to plan for is the footprint, since this is a free-standing unit that needs clear space to stand over the area you want covered.
+**Does it need power?** Yes. The Dooya drive motor is a 40W, DC 24V unit on a standard AU plug-in, sealed to IP67 so it withstands dust and water where it sits out in the weather.
+
+**What sizes does it come in?** The free-standing unit comes in 3x3, 3x4, 3x5, 4x4, 4x5 and 6x4 metres, with fabric in Beige, Black or White and frames in Black, Charcoal or White.
+
+**Do I install it myself?** It is supplied on a buy basis with a 50% deposit to order, so fitting is yours to arrange, either as a capable weekend project or through an approved installer.
 
 ## Order your Delta Pro
 

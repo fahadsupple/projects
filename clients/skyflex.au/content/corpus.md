@@ -1,19 +1,21 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T06:58:52Z_
+_Rebuilt: 2026-07-16T07:20:23Z_
 
 ## delta-commercial-folding-arm
 
 - **Primary keyword:** retractable awning melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 746
+- **Word count:** 1030
 - **Headings:**
   - Delta Commercial Folding Arm: A Retractable Awning Melbourne Buyers Own Outright
+  - The Delta Commercial Folding Arm awning
   - What sets a full-cassette, waterproof retractable awning apart
   - Build, motor and fabric
   - Pricing, sizes and how to order
   - About Skyflex
+  - Folding arm awning questions
   - Talk to the Skyflex team
 - **First paragraph:** title: Retractable Awning Melbourne | Delta Commercial Folding Arm meta_description: A fully enclosed, motorised retractable awning. Melbourne supply of the Delta Commercial Folding Arm, with Dickson 
 
@@ -22,9 +24,10 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** retractable roof system melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 974
+- **Word count:** 1099
 - **Headings:**
   - Delta Pro Retractable Roof System Melbourne
+  - A motorised roof for year-round outdoor living
   - Built for open sun and sudden rain
   - Delta Pro specifications
   - A retractable roof pergola you can order today
@@ -38,11 +41,12 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** pergolas melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 567
+- **Word count:** 903
 - **Headings:**
   - Pergolas Melbourne
   - Louvred Pergolas Melbourne
   - About Skyflex
+  - Louvred pergola questions Melbourne buyers ask
 - **First paragraph:** title: Pergolas Melbourne | Louvred Pergola Kits and Installation | Skyflex meta_description: Pergolas Melbourne from Skyflex. Adjustable louvred pergolas, motorised roofs and awnings, sold as DIY kit
 
 ## louvred-pergolas-sydney
@@ -50,11 +54,12 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** pergolas sydney
 - **Page type:** service-location
 - **Cluster:** service-location-pergolas
-- **Word count:** 529
+- **Word count:** 836
 - **Headings:**
   - Pergolas Sydney
   - Louvred Pergolas Sydney
   - About Skyflex
+  - Pergola questions from Sydney buyers
 - **First paragraph:** title: Pergolas Sydney | Louvred Pergola Kits Shipped and Installed | Skyflex meta_description: Pergolas Sydney from Skyflex. Adjustable louvred pergola kits shipped to Sydney and fitted by approved i
 
 ## skyflex-4k-android-smart-outdoor-tv
@@ -62,9 +67,10 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** waterproof tv australia
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 1070
+- **Word count:** 1195
 - **Headings:**
   - Skyflex 4K Android Smart Outdoor TV: A Waterproof TV Australia Backyards Can Actually Use
+  - An outdoor TV built to stay outside
   - Full sun or partial shade? Start here
   - What "weatherproof" means here, and what IP55 really covers
   - The full specification
@@ -79,13 +85,15 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** bbq pods melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 717
+- **Word count:** 1036
 - **Headings:**
   - Skyflex BBQ Pods Melbourne: An Outdoor Kitchen Made to Your Configuration
+  - The Skyflex BBQ pod
   - How a made-to-order BBQ pod comes together
   - Two sizes to plan your space around
   - What you are buying, and how these BBQ pods compare
   - About Skyflex
+  - BBQ pod questions
   - Book a BBQ pod consultation
 - **First paragraph:** title: BBQ Pods Melbourne | Skyflex Outdoor Kitchen Pods meta_description: A made-to-order BBQ pod outdoor kitchen for Melbourne. Configure the size and layout with the Skyflex team by consultation, t
 
@@ -94,7 +102,7 @@ _Rebuilt: 2026-07-16T06:58:52Z_
 - **Primary keyword:** smart toilets melbourne
 - **Page type:** product-category
 - **Cluster:** product-categories
-- **Word count:** 1345
+- **Word count:** 1379
 - **Headings:**
   - Smart Toilets Melbourne: The U6 and U7 Smartoilet from Skyflex
   - What a smart toilet actually does

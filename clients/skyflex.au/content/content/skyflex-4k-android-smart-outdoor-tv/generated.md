@@ -3,6 +3,8 @@ meta_description: A weatherproof 4K outdoor TV for Australian patios and covered
 
 # Skyflex 4K Android Smart Outdoor TV: A Waterproof TV Australia Backyards Can Actually Use
 
+## An outdoor TV built to stay outside
+
 Yes, a television built to live outside really does exist, and this is one. As a waterproof TV Australia buyers can leave mounted on a patio or under an alfresco, the Skyflex 4K Android Smart Outdoor TV is sealed to an IP55 rating, runs Google Android TV, and comes in 55, 65, 75 and 85 inch sizes. The detail most listings skip is the one that decides whether you are happy with it: where it goes. At 1000 nits of brightness this is a screen for covered and partly shaded spots, not a panel to bake in full afternoon sun. Before you pick a size, start with placement.
 
 ## Full sun or partial shade? Start here
@@ -49,21 +51,21 @@ Skyflex is an Australian [outdoor-living brand](https://skyflex.au/about-us/), s
 
 ## Questions buyers ask before going outdoors
 
-**Is there a TV that is genuinely waterproof?**
+**Is there a TV that is genuinely waterproof?** This one is sealed to IP55, which means dust cannot get inside in a harmful amount and water jets from any direction will not reach the electronics. It is made to stay mounted outdoors through rain and the seasons, unlike an indoor set that needs bringing in.
 
-This one is sealed to IP55, which means dust cannot get inside in a harmful amount and water jets from any direction will not reach the electronics. It is made to stay mounted outdoors through rain and the seasons, unlike an indoor set that needs bringing in or boxing up.
+**Will it work in full, direct sun?** Its 1000-nit screen is made for covered and partly shaded areas, a roofed alfresco, a verandah or under a pergola. In open sun with nothing overhead you want a brighter panel built for that. Match it to your spot and it performs well.
 
-**Will it work in full, direct sun?**
+**How bright is 1000 nits compared with a normal TV?** About three times brighter. A typical indoor television sits near 300 nits, which washes out the moment you carry it outside. At 1000 nits this screen holds a clear picture in shaded daylight.
 
-Its 1000-nit screen is made for covered and partly shaded areas, a roofed alfresco, a verandah or under a pergola. In open sun with nothing overhead you want a brighter panel built for that. Match it to your spot and it performs well.
+**Can I not just put a regular TV outside instead?** An indoor TV is not sealed against dust or water and is not bright enough for daylight, so it fails outdoors quickly. A purpose-built unit like this one is sealed, brighter and rated to stay put.
 
-**How bright is 1000 nits compared with a normal TV?**
+**What sizes does it come in?** Four sizes: 55, 65, 75 and 85 inch. All run 4K UHD at 3840 x 2160 on Google Android TV.
 
-About three times brighter. A typical indoor television sits near 300 nits, which washes out the moment you carry it outside. At 1000 nits this screen holds a clear picture in shaded daylight.
+**What operating system does it run?** Google Android TV, with a 100 Hz refresh rate, built-in waterproof speakers, and three HDMI plus two USB inputs.
 
-**Can I not just put a regular TV outside instead?**
+**How does pre-order work?** It ships as a pre-order item. A 50% deposit per unit places the order, and the balance follows before dispatch. Buying five or more for a venue or a fit-out opens trade pricing.
 
-An indoor TV is not sealed against dust or water and is not bright enough for daylight, so it fails outdoors quickly. A purpose-built unit like this one is sealed, brighter and rated to stay put.
+**Do I mount it myself?** It is supplied wall-mount compatible, so you or your installer mount it. With no bundled install cost, the same outdoor-TV specification lands well below many competing systems.
 
 ## Pre-order your Skyflex outdoor TV
 

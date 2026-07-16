@@ -22,3 +22,21 @@ Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied it
 To start, tell us the area you want to cover and the look you are after, and we will quote the kit, the colour and the installer option in one go. Request a quote or send an enquiry through the site, and the Skyflex team will handle it from there.
 
 **Call us now on 03 9498 0505** to get started.
+
+## Pergola questions from Sydney buyers
+
+**How does ordering a pergola work if I am in Sydney?** Skyflex is based in Melbourne and ships nationwide. You order the louvred pergola as a kit, we make and deliver it to your Sydney address, and you either assemble it with the instructions or have one of our approved installers fit it.
+
+**Is there a Skyflex installer in Sydney?** Fitting in Sydney is handled through our approved-installer network, or by you with the supplied kit. There is no in-house Skyflex crew in Sydney, which is part of what keeps the finished pergola well under a custom-built one.
+
+**How do louvred pergolas handle the weather?** The adjustable aluminium slats open for sun and air or close flat against rain. The aluminium frame with stainless steel hardware and double-walled, gasket-sealed louvre blades is built to stay outside through every season.
+
+**Do I need council approval in Sydney?** It depends on the property and where the structure sits, and requirements vary by area. Check with your local council before you order, and we can supply the specifications and dimensions they may ask to see.
+
+**What warranty do I get?** Up to a 15-year product warranty, well beyond the 1 to 5 years common across the market.
+
+**How much maintenance is involved?** Little to none. The aluminium structure does not rot or rust, so it needs no regular servicing beyond an occasional clean.
+
+**Can I choose the size, colour and configuration?** Yes. The pergolas are fully customisable to the size, setting and colour of your space, from earthy tones through to black or white.
+
+**How do I get a price for my space?** Request a quote through the site with your size and configuration, and the Skyflex team will come back with the kit price, the colour and the approved-installer option in one go.
