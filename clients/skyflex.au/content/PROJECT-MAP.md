@@ -1,12 +1,12 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T02:31:57Z_
+_Rebuilt: 2026-07-16T02:53:43Z_
 
 ## Snapshot
 
 - **Domain:** skyflex.au
 - **Intake mode:** upgrade
-- **Entries:** 7 total | 0 generated | 0 audited | 0 approved
+- **Entries:** 7 total | 4 generated | 0 audited | 0 approved
 - **Clusters:** 4 | 4 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-16T02:31:57Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T00:45:00.000Z  `cluster_plan_generated`  cluster:homepage  (success)
-- 2026-07-16T00:25:55.043Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:08:16.331Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:08:24.913Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:08:47.957Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:product-categories  (success)
-- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:service-location-pergolas  (success)
-- 2026-07-16T01:00:00.000Z  `plan_locked`  cluster:homepage  (success)
-- 2026-07-16T02:09:13.647Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:31:30.376Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:44:11.226Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:45:04.774Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:46:37.532Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:50:37.921Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:51:14.111Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:53:13.886Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T02:50:00.000Z  `entry_generated`  entry:delta-pro-retractable-roof  (success)
+- 2026-07-16T02:50:00.000Z  `entry_generated`  entry:delta-commercial-folding-arm  (success)
+- 2026-07-16T02:50:00.000Z  `entry_generated`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
+- 2026-07-16T02:50:00.000Z  `entry_generated`  entry:skyflex-bbq-pods  (success)
 
