@@ -1,0 +1,75 @@
+# Cluster: products
+**Members:** 4 entries
+
+## Universal required (every page must cover)
+
+- Product specification block for THIS product — dimensions, materials/construction, motorisation, finish, and available variants — sourced from this product's own live page and research bundle, never from another Skyflex product.
+- The exact commercial terms for THIS product, stated plainly in the first half of the page: price or price-from where the live page shows one, OR an explicit 'consultation required / enquire' line where it does not; the supply-vs-install basis; and any deposit / pre-order terms — matching what the live product page actually says.
+- What outdoor conditions the product is built to handle and the specific features that deliver it (weather sealing, IP rating, brightness, fabric, motorisation) — grounded in the product's real attributes, no invented specs.
+- The page's assigned primary keyword in the title tag, the H1, and the first paragraph as an exact match; the title tag and meta description must describe this actual product (several live pages carry copy-paste meta from other products and must be corrected).
+- A named business-identity passage — an H2 such as 'About Skyflex' (never 'Why Choose Us') carrying founder Christopher Mitsopoulos, established 2023, 100+ customers, and the 50% referral rate — written in different words on every page in the cluster.
+- A single clear next-step CTA matched to this product's commercial model: add-to-cart / buy for supply-basis items, enquiry-or-consultation for custom/consultation products.
+
+## Cluster-specific required
+
+- Product-specification comparison against the category norm, drawn from the competitor spec-lead research: frame each product's specs honestly against what competitors lead on (for the outdoor TV, brightness stated against the 1000-nit category floor and the full-sun vs partial-shade distinction — NOT nits presented as a hero differentiator; for the awning, the enclosed full-cassette + Dickson fabric + motor spec).
+- Product-claim scoping: any warranty length, price, 'up to 8x cheaper', or supplied-vs-installed claim must come from THIS product's own live page or research bundle. The 15-year warranty and the 'most affordable louvre roof' award are PERGOLA-line claims and must NOT be asserted on the awning, retractable-roof, outdoor-TV, or BBQ-pod pages unless that product's own page states them.
+- Installer-intent handling for the geo-scoped keywords (retractable awning melbourne, retractable roof system melbourne): the page must read as a credible buy-here destination against a SERP of installer/service pages, and must additionally work the higher-volume non-geo head term (the lead secondary — 'waterproof retractable awning' / 'retractable roof pergola') naturally into a subheading and body. Keep the assigned geo keyword as the title/H1 exact match.
+- FAQ policy is data-gated: include an FAQ section ONLY where the research captured real PAA or community questions. Retractable roof (8 cost/worth-it PAAs) and outdoor TV (waterproofing + sun-exposure PAAs) get an FAQ answering those real questions. The folding-arm awning and BBQ-pod pages returned ZERO PAA and zero community questions — do NOT fabricate an FAQ for them; omit the block.
+- On-page meta repair is in-scope for the rewrite: where the live title tag or meta description describes a different product (the BBQ-pod page's title reads 'Delta Motorised | Skyflex' with a louvred-pergola meta description), replace them with product-accurate copy.
+
+## Word count baseline
+
+- **Cluster floor:** 650
+
+## Client data signals (writer-agent: reference these in content)
+
+_Per writer-agent.md Cardinal rule 3 — quantified signals MUST appear in generated content where editorially natural. See plan.lock.json for the structured form._
+
+- **business_name:** Skyflex
+- **founder_name:** Christopher Mitsopoulos
+- **year_established:** 2023
+- **years_in_business:** 3
+- **phone:** 03 9498 0505
+- **email:** info@skyflex.au
+- **showroom:** Epping, VIC (by appointment)
+- **team_size:** 5
+- **client_count:** 100+
+- **review_average:** 5
+- **referral_rate_pct:** 50
+- **years_of_combined_experience:** Over 20 years
+- **awards:** `["Voted Australia's Most Affordable Motorised Louvre Roof System (Delta Light Motorised)."]`
+- **guarantees:** `["Up to a 15-year product warranty on our SkyFlex pergolas, which significantly exceeds the industry standard of 1–5 years offered by competitors", "Remote-operated slat and perimeter lighting as standard on all motorised units at no extra charge"]`
+- **usps_verbatim:** `["Voted Australia's most affordable motorised louvre roof system (Delta Light Motorised), starting from just $2,700", "Up to 8x cheaper than comparable products on the market", "Up to a 15-year warranty — significantly longer than the 1–5 years offered by competitors", "High-quality aluminium construction with stainless steel hardware and high-quality powder coating with dipping", "Double-walled louvre blades with gasket weatherproof sealing (competitors offer double-walled louvres with no weather sealing)", "150x150 sturdy posts versus the standard 110 or 120 posts used by others", "Unique hidden post anchoring design gives a floating aesthetic look", "Clean beam-to-post transition provides a seamless finish with no step-in", "Remote-operated slat and perimeter lighting as standard on all motorised units, with no upcharge", "Delta Open Sky system allows blades to both rotate and fully retract", "Products are designed in Europe with ethically sourced components", "Fully customisable to any size, setting, and colour", "Both DIY assembly kits with easy-to-follow instructions and an approved installer network at affordable rates", "Maintenance-free products", "Reseller programme for trade customers"]`
+- **success_stories:** `["One of our most memorable wins involves a customer from Caroline Springs who was referred to us by a friend. They were looking for a quality louvred pergola solution that would transform their outdoor space without any hassle. We supplied and installed a SkyFlex louvred roof system, handling the entire process in a straightforward and efficient manner. The outcome was a louvred pergola that looked great and made a real difference to their backyard — and the customer was so pleased they noted it was a no-fuss experience with a fantastic result."]`
+- **customer_process:** `["Initial contact — by phone on 03 9498 0505, via email at info@skyflex.au, or by booking an appointment at our Epping showroom", "We discuss their needs and help them choose the right product from our range (Delta Light Motorised, Delta Motorised, Delta Open Sky, or Delta Pro Retractable Roof system)", "Customers can also browse and order directly through our online store", "For custom projects, we work with the customer to tailor the size, setting, and colour to suit their space", "Once an order is placed, we arrange prompt delivery", "Customers can install the pergola themselves using our DIY kits with easy-to-follow instructions, or engage one of our approved partner installers at affordable rates", "Our team provides comprehensive support and advice throughout the entire process"]`
+- **audience:** Our ideal customers are homeowners and businesses in Melbourne (and Sydney) looking to transform their outdoor spaces into comfortable, year-round living areas. This includes homeowners wanting to enhance their backyards, patios, and gardens with stylish, adjustable louvred pergolas, as well as commercial property owners seeking to add functional and aesthetically appealing outdoor structures. Our customers value quality, durability, and affordability, and may be either DIY enthusiasts who want to install a pergola kit themselves, or those who prefer to use our approved installer network. They are looking for solutions that handle Melbourne's variable weather conditions and add long-term value to their property.
+- **_suppressed_do_not_publish:** `{"repeat_customer_rate_pct": "100 — UNSUBSTANTIATED absolute retention claim; ACL misleading-representation risk; DO NOT PUBLISH (mirrors fact ledger social-proof.retention-rate placement=off-page)", "product_discounts": "per-product % off RRP is volatile promo pricing; DO NOT hard-code in body copy (fact ledger pricing.discount.* placement=off-page)"}`
+
+## Publishable facts (writer-agent: publish ONLY these confirmed values)
+
+_Per writer-agent.md — publish only the values in plan.lock.json > publishable_facts. Any specific not present here (and not in the entry's research bundle) MUST use on-quote phrasing, never an invented figure._
+
+- **company.founding-year** (`scalar_year`): scalar year
+- **social-proof.clients** (`count`): clients
+- **social-proof.referral-rate** (`percentage`): new business from referrals
+
+## Entries
+
+| ID | Word count | Unique angle |
+|---|---|---|
+| delta-pro-retractable-roof | 950 | The waterproof, motorised opening-roof over an existing pergola or alfresco — a retractable FABRIC roof at $5,200–$7,800 with add-to-cart. Leans on all-weather sealing and the 'open it in sun, close it in rain' use case. The page already carries ~1,117 words, so this is a refine-and-differentiate pass, not a build-from-scratch. |
+| delta-commercial-folding-arm | 750 | The fully enclosed, motorised full-cassette folding-arm awning with integrated dimmable LED lighting and fade-resistant Dickson fabric — positioned for the heavy-duty / commercial enclosed-cassette buyer versus open folding arms. Supply basis, with customisation available on request. |
+| skyflex-4k-android-smart-outdoor-tv | 850 | A weatherproof 4K outdoor TV sold on HONEST placement guidance — full-sun vs partial-shade, with IP55 and 1000 nits explained rather than oversold (1000 nits is the category floor, framed as ~3× an indoor screen). Supply-only pre-order with 55"–85" size variants and a 50% deposit. |
+| skyflex-bbq-pods | 650 | A consultation-led, made-to-configuration modular BBQ pod at the premium tier ($13,500) — the 'prefabricated outdoor kitchen you configure, we build and deliver' angle. The live page currently has zero body copy, so this is build-from-scratch; enquiry/consultation CTA only, and no fabricated FAQ (no PAA data exists). |
+
+## Execution order
+
+1. delta-pro-retractable-roof
+2. delta-commercial-folding-arm
+3. skyflex-4k-android-smart-outdoor-tv
+4. skyflex-bbq-pods
+
+## Notes (analyst, free text)
+
+_Add any overrides or guidance here. Agent reads these at generate time._
