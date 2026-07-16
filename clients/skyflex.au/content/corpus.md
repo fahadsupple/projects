@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T04:51:34Z_
+_Rebuilt: 2026-07-16T05:11:07Z_
 
 ## delta-commercial-folding-arm
 
@@ -32,6 +32,20 @@ _Rebuilt: 2026-07-16T04:51:34Z_
   - Common questions about retractable roofs
   - Order your Delta Pro
 - **First paragraph:** title: Retractable Roof System Melbourne | Delta Pro | Skyflex meta_description: A motorised, 100% waterproof retractable roof system for Melbourne. Open it in the sun, close it in the rain. Supplied 
+
+## louvred-pergolas-sydney
+
+- **Primary keyword:** pergolas sydney
+- **Page type:** service-location
+- **Cluster:** service-location-pergolas
+- **Word count:** 585
+- **Headings:**
+  - Pergolas Sydney: Louvred Pergola Kits Shipped by Skyflex
+  - What arrives in a Skyflex louvred pergola
+  - Does a pergola need council approval
+  - About Skyflex
+  - Order a louvred pergola for your Sydney space
+- **First paragraph:** title: Pergolas Sydney | Louvred Pergola Kits Shipped by Skyflex meta_description: Louvred pergolas Sydney from Skyflex: kits shipped and fitted by approved installers. Adjustable aluminium slats, mot
 
 ## skyflex-4k-android-smart-outdoor-tv
 
