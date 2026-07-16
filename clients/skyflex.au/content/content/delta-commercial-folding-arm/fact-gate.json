@@ -1,0 +1,42 @@
+{
+  "entry_id": "delta-commercial-folding-arm",
+  "gated_at": "2026-07-16T05:22:57.279Z",
+  "blocking_count": 2,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 6,
+      "excerpt": "$2,000,",
+      "rationale": "Numeric specific '$2,000,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 31,
+      "excerpt": "The Delta Commercial Folding Arm is sold on a supply basis. You receive the awning and mount it yourself, or hand it to your own contractor, with the full-cassette installation manual included in the ",
+      "rationale": "Fact 'pricing.discount.delta-pro-retractable-roof' ('8') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 33,
+      "excerpt": "$2,000",
+      "rationale": "Numeric specific '$2,000' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 33,
+      "excerpt": "$2,300,",
+      "rationale": "Numeric specific '$2,300,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 37,
+      "excerpt": "Skyflex is a Melbourne outdoor-living retailer founded in 2023 by Christopher Mitsopoulos. In a short span the business has served more than 100 customers, and around half of its new work now comes th",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    }
+  ]
+}

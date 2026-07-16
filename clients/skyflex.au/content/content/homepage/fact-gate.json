@@ -1,0 +1,21 @@
+{
+  "entry_id": "homepage",
+  "gated_at": "2026-07-16T05:22:57.275Z",
+  "blocking_count": 1,
+  "findings": [
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 20,
+      "excerpt": "Skyflex was founded in 2023 by Christopher Mitsopoulos and has since fitted out more than 100 outdoor spaces across Melbourne and Sydney. Around half of every new job now comes through a customer refe",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'homepage' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 23,
+      "excerpt": "$2,700",
+      "rationale": "Numeric specific '$2,700' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T05:20:00Z_
+_Rebuilt: 2026-07-16T05:26:15Z_
 
 ## Snapshot
 
@@ -24,19 +24,19 @@ _Rebuilt: 2026-07-16T05:20:00Z_
 | Generated content | `content/` | ✓ |
 | Forensic log | `events.jsonl` | ✓ |
 | Approved corpus seeds | `approved/` | — |
-| Coherence findings | `coherence/` | — |
-| Exports | `exports/` | — |
+| Coherence findings | `coherence/` | ✓ |
+| Exports | `exports/` | ✓ |
 
 ## Recent events (last 10)
 
-- 2026-07-16T05:10:35.664Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:11:07.397Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T03:45:00.000Z  `entry_generated`  entry:louvred-pergolas-sydney  (success)
-- 2026-07-16T03:50:00.000Z  `entry_audited`  entry:louvred-pergolas-sydney  (success)
-- 2026-07-16T05:15:50.370Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:17:48.386Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:18:13.149Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:18:51.965Z  `audit_gate_blocked`  entry:homepage  (halted)
-- 2026-07-16T04:00:00.000Z  `entry_generated`  entry:homepage  (success)
-- 2026-07-16T04:05:00.000Z  `entry_audited`  entry:homepage  (success)
+- 2026-07-16T05:22:48.827Z  `fact_gate_blocked`  entry:louvred-pergolas-sydney  (halted)
+- 2026-07-16T05:22:48.828Z  `fact_gate_blocked`  entry:homepage  (halted)
+- 2026-07-16T05:22:57.275Z  `fact_gate_blocked`  entry:homepage  (halted)
+- 2026-07-16T05:22:57.277Z  `fact_gate_blocked`  entry:delta-pro-retractable-roof  (halted)
+- 2026-07-16T05:22:57.279Z  `fact_gate_blocked`  entry:delta-commercial-folding-arm  (halted)
+- 2026-07-16T05:22:57.281Z  `fact_gate_blocked`  entry:skyflex-4k-android-smart-outdoor-tv  (halted)
+- 2026-07-16T05:22:57.283Z  `fact_gate_blocked`  entry:skyflex-bbq-pods  (halted)
+- 2026-07-16T05:22:57.285Z  `fact_gate_blocked`  entry:smart-toilets  (halted)
+- 2026-07-16T05:22:57.286Z  `fact_gate_blocked`  entry:louvred-pergolas-sydney  (halted)
+- 2026-07-16T05:24:50.412Z  `client_facts_extracted`  client:skyflex.au  (success)
 

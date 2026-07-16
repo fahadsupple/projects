@@ -1,0 +1,14 @@
+{
+  "entry_id": "louvred-pergolas-sydney",
+  "gated_at": "2026-07-16T05:22:57.286Z",
+  "blocking_count": 1,
+  "findings": [
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 22,
+      "excerpt": "Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied its outdoor-living range to more than 100 customers. Half of the new business now comes through referrals from those custo",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'service-location' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    }
+  ]
+}

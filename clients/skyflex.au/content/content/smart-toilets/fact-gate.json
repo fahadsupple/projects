@@ -1,0 +1,77 @@
+{
+  "entry_id": "smart-toilets",
+  "gated_at": "2026-07-16T05:22:57.285Z",
+  "blocking_count": 1,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 28,
+      "excerpt": "$1,500",
+      "rationale": "Numeric specific '$1,500' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 28,
+      "excerpt": "$2,000",
+      "rationale": "Numeric specific '$2,000' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 28,
+      "excerpt": "$4,500",
+      "rationale": "Numeric specific '$4,500' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 28,
+      "excerpt": "$6,000,",
+      "rationale": "Numeric specific '$6,000,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 28,
+      "excerpt": "$11,000",
+      "rationale": "Numeric specific '$11,000' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 40,
+      "excerpt": "Skyflex was founded in 2023 by Christopher Mitsopoulos and is based in Melbourne, working with homeowners and businesses across the city and in Sydney. The core of the business is outdoor living, and ",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'product-category' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 46,
+      "excerpt": "$1,500,",
+      "rationale": "Numeric specific '$1,500,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 46,
+      "excerpt": "$2,000",
+      "rationale": "Numeric specific '$2,000' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 46,
+      "excerpt": "$4,500,",
+      "rationale": "Numeric specific '$4,500,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 46,
+      "excerpt": "$6,000",
+      "rationale": "Numeric specific '$6,000' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}

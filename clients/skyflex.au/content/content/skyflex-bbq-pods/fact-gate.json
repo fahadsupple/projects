@@ -1,0 +1,42 @@
+{
+  "entry_id": "skyflex-bbq-pods",
+  "gated_at": "2026-07-16T05:22:57.283Z",
+  "blocking_count": 2,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 6,
+      "excerpt": "$13,500,",
+      "rationale": "Numeric specific '$13,500,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 23,
+      "excerpt": "$13,500",
+      "rationale": "Numeric specific '$13,500' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 23,
+      "excerpt": "$18,990",
+      "rationale": "Numeric specific '$18,990' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 23,
+      "excerpt": "The Skyflex BBQ pod is a custom order that starts from $13,500. Treat that as a starting point rather than a final quote, because the finished price follows the size you pick and the way you fit the p",
+      "rationale": "Fact 'pricing.discount.delta-motorised-aluminium' ('18') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 29,
+      "excerpt": "A BBQ pod is a sizeable addition to a home, so it is worth knowing who stands behind it. Skyflex is run by Christopher Mitsopoulos, who founded the business in 2023 and has since worked with more than",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    }
+  ]
+}

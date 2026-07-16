@@ -1,0 +1,63 @@
+{
+  "entry_id": "skyflex-4k-android-smart-outdoor-tv",
+  "gated_at": "2026-07-16T05:22:57.281Z",
+  "blocking_count": 2,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 2,
+      "excerpt": "85 inch",
+      "rationale": "Numeric specific '85 inch' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 28,
+      "excerpt": "- Refresh rate: 100 Hz",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 30,
+      "excerpt": "2G",
+      "rationale": "Numeric specific '2G' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 30,
+      "excerpt": "64G",
+      "rationale": "Numeric specific '64G' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 31,
+      "excerpt": "- Speakers: built-in waterproof, 8 ohm, 10W x 2",
+      "rationale": "Fact 'pricing.discount.delta-pro-retractable-roof' ('8') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 34,
+      "excerpt": "85 inch",
+      "rationale": "Numeric specific '85 inch' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 40,
+      "excerpt": "$1,785",
+      "rationale": "Numeric specific '$1,785' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 40,
+      "excerpt": "$4,400",
+      "rationale": "Numeric specific '$4,400' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}

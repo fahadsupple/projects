@@ -1,0 +1,49 @@
+{
+  "entry_id": "delta-pro-retractable-roof",
+  "gated_at": "2026-07-16T05:22:57.277Z",
+  "blocking_count": 1,
+  "findings": [
+    {
+      "severity": "blocking",
+      "category": "fact_placement",
+      "line_number": 2,
+      "excerpt": "meta_description: A motorised, 100% waterproof retractable roof system for Melbourne. Open it in the sun, close it in the rain. Supplied by Skyflex, ready to order online.",
+      "rationale": "Fact 'social-proof.retention-rate' ('100') is marked placement=off-page in the ledger, but appears on a 'product' page. The analyst restricted this fact class (volatile operational policy \u2014 editorial findings [n]/[ab]). REMOVE it from this page or change the placement via /content:facts."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 6,
+      "excerpt": "$5,200,",
+      "rationale": "Numeric specific '$5,200,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 27,
+      "excerpt": "$5,200",
+      "rationale": "Numeric specific '$5,200' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 27,
+      "excerpt": "$7,800",
+      "rationale": "Numeric specific '$7,800' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 39,
+      "excerpt": "$5,200",
+      "rationale": "Numeric specific '$5,200' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 39,
+      "excerpt": "$7,800",
+      "rationale": "Numeric specific '$7,800' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}
