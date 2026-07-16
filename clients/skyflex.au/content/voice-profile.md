@@ -1,6 +1,6 @@
 # Voice Profile
 
-_Rebuilt: 2026-07-16T06:36:32Z_
+_Rebuilt: 2026-07-16T06:44:13Z_
 
 ## Brand voice (from intake)
 
