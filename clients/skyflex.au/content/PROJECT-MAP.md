@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T06:44:13Z_
+_Rebuilt: 2026-07-16T06:53:43Z_
 
 ## Snapshot
 
@@ -29,8 +29,6 @@ _Rebuilt: 2026-07-16T06:44:13Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T06:35:18.721Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T06:36:18.535Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-16T06:36:32.401Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-16T07:30:00.000Z  `entry_approved`  entry:homepage  (success)
 - 2026-07-16T07:30:00.000Z  `entry_approved`  entry:louvred-pergolas-sydney  (success)
@@ -39,4 +37,6 @@ _Rebuilt: 2026-07-16T06:44:13Z_
 - 2026-07-16T07:30:00.000Z  `entry_approved`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
 - 2026-07-16T07:30:00.000Z  `entry_approved`  entry:skyflex-bbq-pods  (success)
 - 2026-07-16T07:30:00.000Z  `entry_approved`  entry:smart-toilets  (success)
+- 2026-07-16T06:44:13.152Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:52:56.769Z  `client_facts_extracted`  client:skyflex.au  (success)
 
