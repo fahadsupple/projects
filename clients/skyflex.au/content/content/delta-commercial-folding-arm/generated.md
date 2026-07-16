@@ -26,6 +26,8 @@ Every figure below comes from this product's own specification, not a general aw
 
 There is no separate lighting upcharge and no add-on motor kit. The LED and the motor are part of the unit as supplied.
 
+**Not sure which size fits your frontage? Call us now on 03 9498 0505.**
+
 ## Pricing, sizes and how to order
 
 The Delta Commercial Folding Arm is sold on a supply basis. You receive the awning and mount it yourself, or hand it to your own contractor, with the full-cassette installation manual included in the box. Skyflex does not run an install crew for this product, and the pricing reflects that. Because you are buying the awning rather than a bundled measure-and-install job, the same specification lands up to 8x cheaper than comparable systems.

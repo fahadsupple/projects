@@ -35,6 +35,8 @@ This is the detail that catches the most buyers out, and it is worth reading bef
 
 Two related points come up constantly. First, power outages: the heated seat, the wash and the dryer all rely on the power being on, while most smart toilets keep a manual or mechanical flush so the toilet still flushes when the power drops. Confirm the exact power-out behaviour of any specific model before you buy. Second, water: smart toilets should run on fresh mains water, not recycled greywater, and a WELS water-efficiency rating tells you how the suite uses water. We can confirm the WELS rating and the connection requirements for the U6 and U7 when you enquire.
 
+**Call us now on 03 9498 0505** to check U6 and U7 availability and current pricing.
+
 ## About Skyflex
 
 Skyflex was founded in 2023 by Christopher Mitsopoulos and is based in Melbourne, working with homeowners and businesses across the city and in Sydney. The core of the business is outdoor living, and smart toilets are a category we have added to that range, so we will be straight with you: we are not a decades-old bathroom specialist, and this page reflects that. What we can point to is a customer base that has grown past 100, with about half of all new business coming through referrals from people who bought from us and told someone else. Our showroom is in Epping and open by appointment, and the same team that answers the phone handles your enquiry from the first question to delivery.

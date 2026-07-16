@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T05:53:27Z_
+_Rebuilt: 2026-07-16T06:10:13Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T05:22:57.285Z  `fact_gate_blocked`  entry:smart-toilets  (halted)
-- 2026-07-16T05:22:57.286Z  `fact_gate_blocked`  entry:louvred-pergolas-sydney  (halted)
-- 2026-07-16T05:24:50.412Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:26:15.208Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:30:00.000Z  `project_delivered`  client:skyflex.au  (success)
-- 2026-07-16T05:50:11.131Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T05:50:50.968Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T06:30:00.000Z  `entry_audited`  entry:homepage  (success)
-- 2026-07-16T06:30:00.000Z  `entry_audited`  entry:louvred-pergolas-sydney  (success)
-- 2026-07-16T05:52:51.665Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:08:05.513Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:08:11.942Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:08:16.355Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:08:22.953Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:08:27.350Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:09:11.864Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:09:16.763Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:09:27.095Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:09:31.951Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:09:36.272Z  `client_facts_extracted`  client:skyflex.au  (success)
 

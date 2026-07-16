@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T05:53:27Z_
+_Rebuilt: 2026-07-16T06:10:13Z_
 
 ## delta-commercial-folding-arm
 
 - **Primary keyword:** retractable awning melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 732
+- **Word count:** 746
 - **Headings:**
   - Delta Commercial Folding Arm: A Retractable Awning Melbourne Buyers Own Outright
   - What sets a full-cassette, waterproof retractable awning apart
@@ -22,7 +22,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** retractable roof system melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 965
+- **Word count:** 980
 - **Headings:**
   - Delta Pro Retractable Roof System Melbourne
   - Built for open sun and sudden rain
@@ -38,7 +38,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** pergolas melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 527
+- **Word count:** 573
 - **Headings:**
   - Pergolas Melbourne
   - Louvred Pergolas Melbourne
@@ -50,7 +50,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** pergolas sydney
 - **Page type:** service-location
 - **Cluster:** service-location-pergolas
-- **Word count:** 492
+- **Word count:** 529
 - **Headings:**
   - Pergolas Sydney
   - Louvred Pergolas Sydney
@@ -62,7 +62,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** waterproof tv australia
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 1052
+- **Word count:** 1070
 - **Headings:**
   - Skyflex 4K Android Smart Outdoor TV: A Waterproof TV Australia Backyards Can Actually Use
   - Full sun or partial shade? Start here
@@ -79,7 +79,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** bbq pods melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 708
+- **Word count:** 723
 - **Headings:**
   - Skyflex BBQ Pods Melbourne: An Outdoor Kitchen Made to Your Configuration
   - How a made-to-order BBQ pod comes together
@@ -94,7 +94,7 @@ _Rebuilt: 2026-07-16T05:53:27Z_
 - **Primary keyword:** smart toilets melbourne
 - **Page type:** product-category
 - **Cluster:** product-categories
-- **Word count:** 1329
+- **Word count:** 1345
 - **Headings:**
   - Smart Toilets Melbourne: The U6 and U7 Smartoilet from Skyflex
   - What a smart toilet actually does

@@ -35,6 +35,8 @@ Every figure here is from this product, not a general outdoor-TV template:
 - Warranty: 1 year
 - In the box: remote control, power cord, wall-mount instructions and warranty card
 
+**Unsure which size suits your space or where to mount it? Call us now on 03 9498 0505.**
+
 ## Pricing, sizes and pre-order
 
 The Skyflex outdoor TV is sold on a supply basis, priced by the size you choose, from $1,785 up to $4,400. Supplied means you receive the TV and mount it yourself or hand it to your own installer. It is wall-mount compatible, and with no bundled install cost inflating the price, the same outdoor-TV specification lands up to eight times cheaper here than through some competing systems.

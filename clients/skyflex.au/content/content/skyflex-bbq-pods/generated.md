@@ -18,6 +18,8 @@ The pod comes in two footprints, both standing 2.3 metres tall. The measurements
 
 Beyond the footprint, a made-to-configuration pod leaves the important details open until you have chosen them. Because it lives outdoors permanently, the finish and the way it is fitted out are confirmed with you during the consultation rather than fixed to a single spec sheet. The idea is that the weather-facing build is matched to where the pod will stand and how hard it will be worked, not averaged across every backyard.
 
+**Ready to plan yours? Call us now on 03 9498 0505** to start the conversation.
+
 ## What you are buying, and how these BBQ pods compare
 
 The Skyflex BBQ pod is a custom order that starts from $13,500. Treat that as a starting point rather than a final quote, because the finished price follows the size you pick and the way you fit the pod out. Comparable BBQ pods on the Australian market usually start well above it, with rival pods commonly advertised from around $18,990 upward before any customisation. Buying a configured pod direct, rather than a bundled design-and-install package, is a large part of what keeps the entry price where it is.

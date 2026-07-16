@@ -22,6 +22,8 @@ The roof panel is a durable PVC fabric that resists mildew and holds its finish 
 - Lighting: integrated LED along the frame
 - Weather rating: 100% waterproof when closed
 
+**Call us now on 03 9498 0505** to check the right size for your space.
+
 ## A retractable roof pergola you can order today
 
 An opening fabric roof is usually sold as a custom job, with the price revealed only after a site visit. The Delta Pro works the other way around. Every size, fabric and frame colour carries a published price, and you add it to the cart like any other purchase. It is supplied on a buy basis, from $5,200 up to $7,800 for the largest 6x4, with the exact figure set by the size and finish you choose. A 50% deposit per item places the order, and the balance follows before dispatch. Fitting is yours to arrange, either as a capable weekend project or through an approved installer, and if you need five or more units for a build or a venue, a bulk enquiry opens up trade pricing.
