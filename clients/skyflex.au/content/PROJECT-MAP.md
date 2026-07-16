@@ -1,12 +1,12 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T02:53:43Z_
+_Rebuilt: 2026-07-16T04:34:48Z_
 
 ## Snapshot
 
 - **Domain:** skyflex.au
 - **Intake mode:** upgrade
-- **Entries:** 7 total | 4 generated | 0 audited | 0 approved
+- **Entries:** 7 total | 4 generated | 4 audited | 0 approved
 - **Clusters:** 4 | 4 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-16T02:53:43Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T02:44:11.226Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:45:04.774Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:46:37.532Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:50:37.921Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:51:14.111Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:53:13.886Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-16T02:50:00.000Z  `entry_generated`  entry:delta-pro-retractable-roof  (success)
 - 2026-07-16T02:50:00.000Z  `entry_generated`  entry:delta-commercial-folding-arm  (success)
 - 2026-07-16T02:50:00.000Z  `entry_generated`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
 - 2026-07-16T02:50:00.000Z  `entry_generated`  entry:skyflex-bbq-pods  (success)
+- 2026-07-16T02:53:43.743Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T04:32:01.116Z  `audit_gate_blocked`  entry:delta-pro-retractable-roof  (halted)
+- 2026-07-16T04:32:25.462Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T03:10:00.000Z  `entry_audited`  entry:delta-pro-retractable-roof  (success)
+- 2026-07-16T03:10:00.000Z  `entry_audited`  entry:delta-commercial-folding-arm  (success)
+- 2026-07-16T03:10:00.000Z  `entry_audited`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
+- 2026-07-16T03:10:00.000Z  `entry_audited`  entry:skyflex-bbq-pods  (success)
 

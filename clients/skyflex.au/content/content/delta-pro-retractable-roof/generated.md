@@ -3,7 +3,7 @@ meta_description: A motorised, 100% waterproof retractable roof system for Melbo
 
 # Delta Pro Retractable Roof System Melbourne
 
-Melbourne weather rarely commits to a plan, and an outdoor area that only works on clear days ends up half used. The Delta Pro is a motorised retractable roof system Melbourne homeowners can open to the sun on a warm afternoon and close over dinner when the rain sweeps in. It is a free-standing unit with a fabric roof that glides along an aluminium track at the press of a remote. Supplied from $5,200 with a simple add-to-cart order and a 50% deposit to place it, you are buying a finished product with a set price, ready to ship.
+Melbourne weather rarely commits to a plan, and an outdoor area that only works on clear days ends up half used. The Delta Pro is a motorised retractable roof system Melbourne homeowners can open to the sun on a warm afternoon and close over dinner when the rain sweeps in. It is a free-standing unit with a fabric roof that glides along an aluminium track at the press of a remote. Supplied from $5,200, it is a finished product with a set price, ready to ship. You place your order through a simple add-to-cart checkout and a 50% deposit.
 
 Retract the roof and the frame opens to the sky, good for a sunny lunch or a clear evening. Draw it closed and the fabric seals out the water and cuts the heat coming through. One remote runs all of it: open, close, or stop anywhere in between for exactly the shade you want.
 
