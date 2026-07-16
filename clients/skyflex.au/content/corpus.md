@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T05:11:07Z_
+_Rebuilt: 2026-07-16T05:20:00Z_
 
 ## delta-commercial-folding-arm
 
@@ -32,6 +32,20 @@ _Rebuilt: 2026-07-16T05:11:07Z_
   - Common questions about retractable roofs
   - Order your Delta Pro
 - **First paragraph:** title: Retractable Roof System Melbourne | Delta Pro | Skyflex meta_description: A motorised, 100% waterproof retractable roof system for Melbourne. Open it in the sun, close it in the rain. Supplied 
+
+## homepage
+
+- **Primary keyword:** pergolas melbourne
+- **Page type:** homepage
+- **Cluster:** homepage
+- **Word count:** 631
+- **Headings:**
+  - Pergolas Melbourne: Louvred Outdoor Living Made for the Local Climate
+  - A louvred pergola range built for Melbourne weather
+  - See the range in Epping, then choose a kit or an installer
+  - About Skyflex
+  - Browse the range or book a showroom visit
+- **First paragraph:** title: Pergolas Melbourne | Louvred Pergolas & Outdoor Living | Skyflex meta_description: Pergolas Melbourne from Skyflex: adjustable louvred pergolas, motorised roofs and awnings. See the range at ou
 
 ## louvred-pergolas-sydney
 
