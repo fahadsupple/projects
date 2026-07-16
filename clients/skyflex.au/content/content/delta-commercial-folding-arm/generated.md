@@ -40,6 +40,10 @@ Pricing runs from $2,000 to $2,300, supplied, depending on which of the two size
 
 Skyflex is a Melbourne [outdoor-living retailer](https://skyflex.au/about-us/) founded in 2023 by Christopher Mitsopoulos. In a short span the business has served more than 100 customers, and around half of its new work now comes through referral, which is the kind of number a supplier only reaches when the products hold up after they leave the warehouse. The team works from a showroom in Epping that you can visit by appointment, and every enquiry is handled by staff based here in Australia rather than an offshore line.
 
+## Who the Delta Commercial Folding Arm suits
+
+The Delta Commercial Folding Arm suits buyers who want a folding-arm awning built to last outdoors rather than the cheapest option on the shelf. The full cassette makes it a strong fit for a cafe or shopfront frontage, a deck exposed to Melbourne's swing from sun to sudden shower, or a home alfresco you want to keep for years. Because it is supplied for you or your contractor to fit, it works for owners comfortable arranging their own installation and keen to avoid a bundled measure-and-install cost. If you want a lightweight, occasional-use patio arm at the lowest price, an open folding arm will be cheaper.
+
 ## Folding arm awning questions
 
 **Is the Delta Commercial Folding Arm weatherproof?** When it retracts, the fabric and both folding arms seal inside a full aluminium cassette, so the parts that wear are shielded whenever the awning is not extended. The fabric is fade-resistant Dickson and the motor carries an IP67 seal against water and dust.

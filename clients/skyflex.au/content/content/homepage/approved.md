@@ -28,6 +28,10 @@ The products are designed in Europe with ethically sourced components and made f
 
 **Call us now on 03 9498 0505** to get started.
 
+## Who a Skyflex louvred pergola suits
+
+Skyflex louvred pergolas suit Melbourne homeowners and businesses who want an outdoor space they can use all year, not only on still, sunny days. They fit the DIY enthusiast happy to assemble a kit over a weekend just as well as the owner who would rather an approved installer handled it. At home the common settings are backyards, patios and gardens; cafes, restaurants and other commercial properties use them to make an outdoor area work in any weather. If you value durability and a fixed, upfront price over an open-ended bespoke build, this is the range built for that.
+
 ## Louvred pergola questions Melbourne buyers ask
 
 **How do louvred pergolas handle Melbourne's weather?** The adjustable aluminium slats tilt open to let sun and air through, or close flat to shed rain, so you control the space through heat, wind and a sudden downpour. The aluminium frame with stainless steel hardware is built to sit outside through every season.

@@ -32,6 +32,10 @@ There is no add-to-cart button here, and that is deliberate. A pod at this level
 
 A BBQ pod is a sizeable addition to a home, so it is worth knowing who stands behind it. Skyflex is run by Christopher Mitsopoulos, who founded the business in 2023 and has since worked with more than 100 customers. Around half of the new enquiries the team takes now arrive by referral from those earlier customers, which for a purchase of this kind says more than any pitch could. Day to day the team works from a [showroom in Epping](https://skyflex.au/contact-us/) that you are welcome to visit by appointment.
 
+## Who a Skyflex BBQ pod is for
+
+A Skyflex BBQ pod is for homeowners and venues planning a premium outdoor kitchen who want it configured to their space rather than bought off a shelf or built bespoke on site. It is a considered purchase settled through a consultation, so it suits buyers who want to tailor the size, finish and fit-out and are comfortable with a made-to-order timeline. If you want the look and function of a custom outdoor kitchen at a lower entry price than a fully bespoke build, this is the route. For a small, off-the-shelf grill on a budget, it is more than you need.
+
 ## BBQ pod questions
 
 **How much does a Skyflex BBQ pod cost?** It is a custom order that starts from $13,500. Treat that as a starting point rather than a final quote, because the finished price follows the size you pick and the way you fit the pod out.

@@ -41,6 +41,10 @@ Two related points come up constantly. First, power outages: the heated seat, th
 
 Skyflex was founded in 2023 by Christopher Mitsopoulos and is based in Melbourne, working with homeowners and businesses across the city and in Sydney. The core of the business is outdoor living, and smart toilets are a category we have added to that range, so we will be straight with you: we are not a decades-old bathroom specialist, and this page reflects that. What we can point to is a customer base that has grown past 100, with about half of all new business coming through referrals from people who bought from us and told someone else. Our showroom is in Epping and open by appointment, and the same team that answers the phone handles your enquiry from the first question to delivery.
 
+## Who a smart toilet is best for
+
+A smart toilet is best for buyers who value the daily comfort of a warm seat, a warm-water wash and a dryer, and who are renovating or building where the plumbing and a power point can be planned in. The U6 and U7 suit a household happy to add an electrical outlet near the pan if there is not one already. It is less suited to anyone unwilling to run power to the toilet, or who does not want the extra electronic parts to maintain over the years. If the wash and warm seat appeal and the bathroom can take a power point, the value follows.
+
 ## What buyers want to know before choosing one
 
 **Is a smart toilet worth it?** Opinions genuinely split. Some owners call it worth every cent for the daily comfort, while others decide the cost is not justified for their household. The wash, warm seat and dryer are what long-term owners rave about. If those matter to you, the value follows.

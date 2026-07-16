@@ -36,6 +36,10 @@ Because it stands on its own frame, the Delta Pro suits a patio, a deck, a pools
 
 Skyflex is a Melbourne [outdoor-living company](https://skyflex.au/about-us/) started in 2023 by Christopher Mitsopoulos, working from a showroom in Epping that you are welcome to visit by appointment. In a few short years the team has served more than 100 customers, and around half of every new job now arrives through a customer referral. That word-of-mouth says more than any slogan could. The Delta Pro belongs to [a range](https://skyflex.au/our-products/) built on one idea: a genuinely weatherproof outdoor room should not be priced only for the top end of town.
 
+## Who the Delta Pro is best for
+
+The Delta Pro is best for anyone with a patio, deck, poolside corner or open area that has nothing over it and who wants shade on a hot day and cover when it rains, from one structure. Because it is free-standing and carries a published price, it suits buyers who want a fixed cost and a product they can order today rather than a custom install quoted per site. It fits a capable DIY owner or someone who would rather bring in an installer, and anyone who uses an outdoor area often enough that losing it to the weather is a real cost. If your space already has a solid roof over it, a fixed awning or blind may suit better.
+
 ## Common questions about retractable roofs
 
 **How much does a retractable roof cost in Australia?** Prices swing widely because these roofs are usually sold as custom installs quoted per site. The Delta Pro takes the guesswork out: it is supplied from $5,200 for the 3x3 size up to $7,800 for the 6x4, with the figure set by the size, fabric and frame you pick. Fitting is separate.
