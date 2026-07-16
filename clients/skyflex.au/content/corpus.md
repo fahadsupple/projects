@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T04:34:48Z_
+_Rebuilt: 2026-07-16T04:51:34Z_
 
 ## delta-commercial-folding-arm
 
@@ -64,4 +64,21 @@ _Rebuilt: 2026-07-16T04:34:48Z_
   - About Skyflex
   - Book a BBQ pod consultation
 - **First paragraph:** title: BBQ Pods Melbourne | Skyflex Outdoor Kitchen Pods meta_description: A made-to-order BBQ pod outdoor kitchen for Melbourne. Configure the size and layout with the Skyflex team by consultation, t
+
+## smart-toilets
+
+- **Primary keyword:** smart toilets melbourne
+- **Page type:** product-category
+- **Cluster:** product-categories
+- **Word count:** 1329
+- **Headings:**
+  - Smart Toilets Melbourne: The U6 and U7 Smartoilet from Skyflex
+  - What a smart toilet actually does
+  - The Skyflex range: U6 and U7 Smartoilet
+  - What smart toilets cost in Australia
+  - The power point every smart toilet needs
+  - About Skyflex
+  - What buyers want to know before choosing one
+  - Enquire about a Skyflex Smartoilet
+- **First paragraph:** title: Smart Toilets Melbourne | U6 & U7 Smartoilet | Skyflex meta_description: Smart toilets in Melbourne from Skyflex: the U6 and U7 Smartoilet, plus a plain guide to features, power needs and what 
 

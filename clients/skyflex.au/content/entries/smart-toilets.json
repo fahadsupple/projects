@@ -34,7 +34,7 @@
   "content_type": "commercial",
   "cluster_id": "product-categories",
   "mode": "new-page",
-  "status": "pending",
+  "status": "audited",
   "notes": "OVERRIDE \u2014 classifier returned page_type=service-location, mode=rewrite-existing. Live probe returned HTTP 404 (page does not exist), so rewrite-existing is impossible; mode is new-page. page_type corrected to product-category: Skyflex is a product retailer, not a service/installer business, and this URL is a NEW category page covering the U6 + U7 Smartoilet SKUs. Blocker: both SKUs currently sit in WooCommerce's default 'Uncategorized' bucket \u2014 the category taxonomy must be created before this page can ship.",
   "keyword_change_log": [
     {

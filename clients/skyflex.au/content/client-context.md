@@ -1,6 +1,6 @@
 # skyflex.au — Content Plugin Context
 
-_Rebuilt: 2026-07-16T04:34:48Z_
+_Rebuilt: 2026-07-16T04:51:34Z_
 
 ## 1. Who this client is
 
@@ -17,6 +17,7 @@ _Rebuilt: 2026-07-16T04:34:48Z_
 
 - **Existing content** = text copied VERBATIM from the current live page (nothing changed). Render it on a **yellow background** (`background:#fff3b0` / highlight) in the combined review HTML export.
 - **New content** = anything newly written for this engagement. Render it plainly (no highlight).
+- **CRITICAL — existing content is shown IN POSITION, embedded in the final content, not listed separately (2026-07-16 clarification).** The deliverable for any page that has existing content must present the INTENDED FINAL PAGE: the existing content (yellow) interleaved with the new content (plain) in the exact order they should appear, so the developer sees at a glance what to keep AND where it sits relative to the new blocks. For `add-blocks` pages this is the whole point: show the existing page body (yellow) with the new blocks (plain) placed where they belong around it. For `rewrite-existing` pages: show the new content (plain) with any verbatim-retained existing spans (yellow) in place, and reference the existing content being replaced. Do NOT just append a list of existing spans at the end — position them.
 - This applies to **every entry**, per page-mode:
   - `add-blocks` (homepage, louvred-pergolas-sydney): the existing page body is preserved verbatim → shown yellow; the added blocks → shown plainly. This is where the distinction matters most.
   - `rewrite-existing` (the 4 product pages): most of the body is newly written, but any sentence/spec/price copied verbatim from the existing page must still be marked yellow.
