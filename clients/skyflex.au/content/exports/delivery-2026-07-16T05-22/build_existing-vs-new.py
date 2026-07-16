@@ -23,10 +23,23 @@ TITLES = {
 def esc(s): return html.escape(s)
 
 def md_inline(s):
-    s = esc(s)
-    s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
-    s = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', s)
-    return s
+    # render markdown links [text](url) as anchors, escaping around them
+    out, last = [], 0
+    for m in re.finditer(r'\[([^\]]+)\]\((https?://[^)]+)\)', s):
+        out.append(("t", s[last:m.start()]))
+        out.append(("a", m.group(1), m.group(2)))
+        last = m.end()
+    out.append(("t", s[last:]))
+    res = []
+    for p in out:
+        if p[0] == "t":
+            t = esc(p[1])
+            t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
+            t = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', t)
+            res.append(t)
+        else:
+            res.append(f'<a href="{esc(p[2])}" style="color:#1758c4">{esc(p[1])}</a>')
+    return "".join(res)
 
 def md_block_to_html(lines):
     """Convert a list of plain markdown lines (no markers) to HTML."""

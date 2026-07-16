@@ -28,7 +28,7 @@ There is no add-to-cart button here, and that is deliberate. A pod at this level
 
 ## About Skyflex
 
-A BBQ pod is a sizeable addition to a home, so it is worth knowing who stands behind it. Skyflex is run by Christopher Mitsopoulos, who founded the business in 2023 and has since worked with more than 100 customers. Around half of the new enquiries the team takes now arrive by referral from those earlier customers, which for a purchase of this kind says more than any pitch could. Day to day the team works from a showroom in Epping that you are welcome to visit by appointment.
+A BBQ pod is a sizeable addition to a home, so it is worth knowing who stands behind it. Skyflex is run by Christopher Mitsopoulos, who founded the business in 2023 and has since worked with more than 100 customers. Around half of the new enquiries the team takes now arrive by referral from those earlier customers, which for a purchase of this kind says more than any pitch could. Day to day the team works from a [showroom in Epping](https://skyflex.au/contact-us/) that you are welcome to visit by appointment.
 
 ## Book a BBQ pod consultation
 

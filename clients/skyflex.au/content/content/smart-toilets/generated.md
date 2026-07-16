@@ -3,7 +3,7 @@ meta_description: Smart toilets in Melbourne from Skyflex: the U6 and U7 Smartoi
 
 # Smart Toilets Melbourne: The U6 and U7 Smartoilet from Skyflex
 
-Two questions come up before almost any smart toilet purchase: what one actually costs, and whether it is genuinely worth the money. This page answers both for anyone shopping for smart toilets Melbourne wide, and introduces the two models Skyflex stocks, the U6 Smartoilet and the U7 Smartoilet. Skyflex is a Melbourne outdoor-living brand, and smart toilets are a newer part of what we offer, so what follows is a straight buyer's guide rather than a page of sales copy. Current pricing on both models is confirmed on enquiry. The rest reads like a guide: what a smart toilet does, what people pay across the market, the one electrical requirement that catches buyers out, and where the U6 and U7 sit.
+Two questions come up before almost any smart toilet purchase: what one actually costs, and whether it is genuinely worth the money. This page answers both for anyone shopping for smart toilets Melbourne wide, and introduces the two models Skyflex stocks, the [U6 Smartoilet](https://skyflex.au/product/u6-smartoilet/) and the [U7 Smartoilet](https://skyflex.au/product/u7-smartoilet/). Skyflex is a Melbourne [outdoor-living brand](https://skyflex.au/about-us/), and smart toilets are a newer part of what we offer, so what follows is a straight buyer's guide rather than a page of sales copy. Current pricing on both models is confirmed on enquiry. The rest reads like a guide: what a smart toilet does, what people pay across the market, the one electrical requirement that catches buyers out, and where the U6 and U7 sit.
 
 ## What a smart toilet actually does
 

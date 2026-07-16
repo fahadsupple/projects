@@ -9,7 +9,7 @@ Shopping for a retractable awning Melbourne suppliers stock usually comes down t
 
 An open folding arm parks its fabric and arms in the open when it is rolled up. Sun, dust and rain get at them between uses, and that is what tends to age a cheaper awning first. A full cassette closes over the lot. When the Delta Commercial Folding Arm retracts, the fabric and both folding arms seal inside an aluminium housing, so the parts that wear are shielded whenever the awning is not extended.
 
-That enclosed build is the reason this model sits in the heavy-duty, commercial end of the range rather than beside the lightweight patio arms. If you are weighing up a waterproof retractable awning for a café frontage, a deck that copes with Melbourne's swing from full sun to a sudden shower, or a home alfresco you want to last, the cassette is doing the quiet work. The fabric is Dickson, the fade-resistant standard for outdoor awnings, and the motor carries an IP67 seal against water and dust.
+That enclosed build is the reason this model sits in the heavy-duty, commercial end of [the range](https://skyflex.au/our-products/) rather than beside the lightweight patio arms. If you are weighing up a waterproof retractable awning for a café frontage, a deck that copes with Melbourne's swing from full sun to a sudden shower, or a home alfresco you want to last, the cassette is doing the quiet work. The fabric is Dickson, the fade-resistant standard for outdoor awnings, and the motor carries an IP67 seal against water and dust.
 
 ## Build, motor and fabric
 
@@ -36,7 +36,7 @@ Pricing runs from $2,000 to $2,300, supplied, depending on which of the two size
 
 ## About Skyflex
 
-Skyflex is a Melbourne outdoor-living retailer founded in 2023 by Christopher Mitsopoulos. In a short span the business has served more than 100 customers, and around half of its new work now comes through referral, which is the kind of number a supplier only reaches when the products hold up after they leave the warehouse. The team works from a showroom in Epping that you can visit by appointment, and every enquiry is handled by staff based here in Australia rather than an offshore line.
+Skyflex is a Melbourne [outdoor-living retailer](https://skyflex.au/about-us/) founded in 2023 by Christopher Mitsopoulos. In a short span the business has served more than 100 customers, and around half of its new work now comes through referral, which is the kind of number a supplier only reaches when the products hold up after they leave the warehouse. The team works from a showroom in Epping that you can visit by appointment, and every enquiry is handled by staff based here in Australia rather than an offshore line.
 
 ## Talk to the Skyflex team
 

@@ -32,7 +32,7 @@ Because it stands on its own frame, the Delta Pro suits a patio, a deck, a pools
 
 ## About Skyflex
 
-Skyflex is a Melbourne outdoor-living company started in 2023 by Christopher Mitsopoulos, working from a showroom in Epping that you are welcome to visit by appointment. In a few short years the team has served more than 100 customers, and around half of every new job now arrives through a customer referral. That word-of-mouth says more than any slogan could. The Delta Pro belongs to a range built on one idea: a genuinely weatherproof outdoor room should not be priced only for the top end of town.
+Skyflex is a Melbourne [outdoor-living company](https://skyflex.au/about-us/) started in 2023 by Christopher Mitsopoulos, working from a showroom in Epping that you are welcome to visit by appointment. In a few short years the team has served more than 100 customers, and around half of every new job now arrives through a customer referral. That word-of-mouth says more than any slogan could. The Delta Pro belongs to [a range](https://skyflex.au/our-products/) built on one idea: a genuinely weatherproof outdoor room should not be priced only for the top end of town.
 
 ## Common questions about retractable roofs
 

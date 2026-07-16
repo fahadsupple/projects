@@ -45,7 +45,7 @@ It ships as a pre-order item. A 50% deposit per unit places the order, and the b
 
 ## About Skyflex
 
-Skyflex is an Australian outdoor-living brand, started in 2023 by Christopher Mitsopoulos and run from an Epping showroom you are welcome to visit by appointment. The range grew out of pergolas and louvred roofs, the covered spaces this TV is designed to sit under, so an outdoor screen was a natural next step. More than 100 customers have bought from Skyflex so far, and close to half of each month's new orders come from someone passing the name to a friend. For a screen you are trusting to live outside, buying from a team that answers its own phone here in Australia counts for something.
+Skyflex is an Australian [outdoor-living brand](https://skyflex.au/about-us/), started in 2023 by Christopher Mitsopoulos and run from an Epping showroom you are welcome to visit by appointment. The range grew out of [pergolas and louvred roofs](https://skyflex.au/outdoor-pergolas/), the covered spaces this TV is designed to sit under, so an outdoor screen was a natural next step. More than 100 customers have bought from Skyflex so far, and close to half of each month's new orders come from someone passing the name to a friend. For a screen you are trusting to live outside, buying from a team that answers its own phone here in Australia counts for something.
 
 ## Questions buyers ask before going outdoors
 
