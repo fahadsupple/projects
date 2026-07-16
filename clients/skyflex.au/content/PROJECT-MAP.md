@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-16T05:26:15Z_
+_Rebuilt: 2026-07-16T05:53:27Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-16T05:26:15Z_
 
 ## Recent events (last 10)
 
-- 2026-07-16T05:22:48.827Z  `fact_gate_blocked`  entry:louvred-pergolas-sydney  (halted)
-- 2026-07-16T05:22:48.828Z  `fact_gate_blocked`  entry:homepage  (halted)
-- 2026-07-16T05:22:57.275Z  `fact_gate_blocked`  entry:homepage  (halted)
-- 2026-07-16T05:22:57.277Z  `fact_gate_blocked`  entry:delta-pro-retractable-roof  (halted)
-- 2026-07-16T05:22:57.279Z  `fact_gate_blocked`  entry:delta-commercial-folding-arm  (halted)
-- 2026-07-16T05:22:57.281Z  `fact_gate_blocked`  entry:skyflex-4k-android-smart-outdoor-tv  (halted)
-- 2026-07-16T05:22:57.283Z  `fact_gate_blocked`  entry:skyflex-bbq-pods  (halted)
 - 2026-07-16T05:22:57.285Z  `fact_gate_blocked`  entry:smart-toilets  (halted)
 - 2026-07-16T05:22:57.286Z  `fact_gate_blocked`  entry:louvred-pergolas-sydney  (halted)
 - 2026-07-16T05:24:50.412Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T05:26:15.208Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T05:30:00.000Z  `project_delivered`  client:skyflex.au  (success)
+- 2026-07-16T05:50:11.131Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T05:50:50.968Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-16T06:30:00.000Z  `entry_audited`  entry:homepage  (success)
+- 2026-07-16T06:30:00.000Z  `entry_audited`  entry:louvred-pergolas-sydney  (success)
+- 2026-07-16T05:52:51.665Z  `client_facts_extracted`  client:skyflex.au  (success)
 

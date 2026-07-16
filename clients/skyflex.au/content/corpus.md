@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T05:26:15Z_
+_Rebuilt: 2026-07-16T05:53:27Z_
 
 ## delta-commercial-folding-arm
 
@@ -38,28 +38,24 @@ _Rebuilt: 2026-07-16T05:26:15Z_
 - **Primary keyword:** pergolas melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 631
+- **Word count:** 527
 - **Headings:**
-  - Pergolas Melbourne: Louvred Outdoor Living Made for the Local Climate
-  - A louvred pergola range built for Melbourne weather
-  - See the range in Epping, then choose a kit or an installer
+  - Pergolas Melbourne
+  - Louvred Pergolas Melbourne
   - About Skyflex
-  - Browse the range or book a showroom visit
-- **First paragraph:** title: Pergolas Melbourne | Louvred Pergolas & Outdoor Living | Skyflex meta_description: Pergolas Melbourne from Skyflex: adjustable louvred pergolas, motorised roofs and awnings. See the range at ou
+- **First paragraph:** title: Pergolas Melbourne | Louvred Pergola Kits and Installation | Skyflex meta_description: Pergolas Melbourne from Skyflex. Adjustable louvred pergolas, motorised roofs and awnings, sold as DIY kit
 
 ## louvred-pergolas-sydney
 
 - **Primary keyword:** pergolas sydney
 - **Page type:** service-location
 - **Cluster:** service-location-pergolas
-- **Word count:** 585
+- **Word count:** 492
 - **Headings:**
-  - Pergolas Sydney: Louvred Pergola Kits Shipped by Skyflex
-  - What arrives in a Skyflex louvred pergola
-  - Does a pergola need council approval
+  - Pergolas Sydney
+  - Louvred Pergolas Sydney
   - About Skyflex
-  - Order a louvred pergola for your Sydney space
-- **First paragraph:** title: Pergolas Sydney | Louvred Pergola Kits Shipped by Skyflex meta_description: Louvred pergolas Sydney from Skyflex: kits shipped and fitted by approved installers. Adjustable aluminium slats, mot
+- **First paragraph:** title: Pergolas Sydney | Louvred Pergola Kits Shipped and Installed | Skyflex meta_description: Pergolas Sydney from Skyflex. Adjustable louvred pergola kits shipped to Sydney and fitted by approved i
 
 ## skyflex-4k-android-smart-outdoor-tv
 

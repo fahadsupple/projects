@@ -11,6 +11,6 @@
   "cluster_id": "service-location-pergolas",
   "mode": "add-blocks",
   "status": "audited",
-  "target_word_count": 200,
+  "target_word_count": 500,
   "notes": "CLIENT INSTRUCTION (Meta File): 'we just need two paragraphs of content for this keyword as the existing page has content we don't want to change. This would be the primary keyword on the page.' Mode forced to add-blocks. Live probe: HTTP 200. DIFFERENTIATION RISK: this page's 2 added paragraphs target 'pergolas sydney' while the homepage's 2 added paragraphs target 'pergolas melbourne' \u2014 same product, same block size, adjacent intent. Planner must differentiate these two explicitly or they will read as swapped-suburb boilerplate. | ANALYST OVERRIDE 2026-07-16 (Fahad): 2-paragraph cap LIFTED (same as homepage). Expand to a fuller add that corrects the \"designs and installs\" contradiction, adds the honest DIY-kit + approved-installer Sydney fulfilment model and a lean About block (~600 words). Differentiate from the homepage pergolas-melbourne treatment: Sydney angle = NO local presence, kit shipped + installer network; Melbourne = local presence/showroom."
 }

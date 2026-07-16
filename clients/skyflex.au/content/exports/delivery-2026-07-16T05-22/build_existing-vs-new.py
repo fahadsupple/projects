@@ -141,14 +141,63 @@ def render_existing_replaced(slug):
             "(being replaced by the new content above) — click to view</summary>"
             f"<div class='existing pre'>{excerpt}</div></details>")
 
+EXISTING_JSON = {
+    "homepage": "content/homepage-existing.json",
+    "louvred-pergolas-sydney": "content/louvred-pergolas-sydney-existing.json",
+}
+DEFECTS = {
+    "homepage": [
+        'Existing H1 "Louvred Pergolas Melbourne" and its "designs and supplies" intro are superseded by the new "Pergolas Melbourne" lead section. Demote the old H1 to H2 or fold it into the new structure; do not keep two competing intros.',
+        '"Why Choose SkyFlex for Louvred Pergolas in Melbourne?" heading is a self-praise recital pattern. Rename to a plain-language heading or fold its real points into the new About section.',
+        "U6 Smartoilet and U7 Smartoilet product tiles in the grid are empty (no body/price). Populate or remove until the SKUs are ready.",
+    ],
+    "louvred-pergolas-sydney": [
+        '"SkyFlex designs and installs these versatile structures... across the city" intro implies an in-house Sydney build crew Skyflex does not have. Superseded by the new "Pergolas Sydney" lead section; replace it.',
+        'Wrong domain: the "Buy" block links to skyflex.com.au. The live site is skyflex.au. Fix the link.',
+        "A Melbourne phone number is shown on this Sydney page. Use a Sydney-appropriate contact path or the general enquiry form.",
+        '"WHY CHOOSE SKYFLEX FOR LOUVRED PERGOLAS IN SYDNEY" heading is a self-praise recital pattern. Rename or fold into the new About section.',
+    ],
+}
+def render_existing_json(slug):
+    d = json.loads((CLIENT / EXISTING_JSON[slug]).read_text())
+    parts = ["<div class='blabel existing-l'>EXISTING — KEEP (current live page, shown below the new sections; highlight yellow)</div>"]
+    # existing title/meta
+    tt = d.get("title",""); mt = d.get("meta","")
+    if tt or mt:
+        parts.append(f"<div class='existing'><p><strong>Current SEO title:</strong> {esc(tt)}</p>" +
+                     (f"<p><strong>Current meta:</strong> {esc(mt)}</p>" if mt else "") +
+                     "<p class='note'>Replace with the new title/description shown at the top of this entry.</p></div>")
+    # existing section headings (the page structure that stays)
+    heads = [h for h in d.get("headings",[]) if h.get("tag") in ("H2","H3") and "cart" not in h.get("text","").lower()]
+    seen=set(); uniq=[]
+    for h in heads:
+        t=h["text"].strip()
+        if t and t.lower() not in seen: seen.add(t.lower()); uniq.append(h)
+    if uniq:
+        parts.append("<div class='existing'><p><strong>Existing page sections kept, in order:</strong></p><ul>" +
+                     "".join(f"<li>{esc(h['text'])}</li>" for h in uniq[:22]) + "</ul></div>")
+    # a few representative existing paragraphs
+    paras=[p for p in d.get("paragraphs",[]) if len(p)>50 and "reCAPTCHA" not in p and "$0.00" not in p][:4]
+    if paras:
+        parts.append("<div class='existing'><p><strong>Sample of existing body copy (kept verbatim):</strong></p>" +
+                     "".join(f"<p>{esc(p)}</p>" for p in paras) + "</div>")
+    if d.get("existing_faq_questions"):
+        parts.append("<div class='existing'><p><strong>Existing FAQs (kept):</strong></p><ul>" +
+                     "".join(f"<li>{esc(q)}</li>" for q in d['existing_faq_questions']) + "</ul></div>")
+    # defects
+    parts.append("<div class='blabel existfix-l'>EXISTING — FIX BEFORE SHIPPING</div>")
+    parts.append("<div class='existfix'><ul>" + "".join(f"<li>{esc(x)}</li>" for x in DEFECTS[slug]) + "</ul></div>")
+    return "\n".join(parts)
+
 # ---- assemble ----
 sections = []
 for slug, cluster, mode, kw in ORDER:
     ent = json.loads((CLIENT / f"entries/{slug}.json").read_text())
     url = ent.get("url","")
-    if mode == "add-blocks" and (CLIENT / f"content/{slug}/deliverable.md").exists():
-        body = render_deliverable(slug)
-        modenote = "Add-blocks: existing content is kept (yellow) and shown in its intended position; new content is plain. Yellow blocks marked FIX must be corrected before shipping."
+    if slug in EXISTING_JSON:
+        body = ("<div class='blabel new-l'>NEW — the three new sections that lead the page (Pergolas → Louvred Pergolas → About)</div>"
+                + render_generated(slug) + render_existing_json(slug))
+        modenote = "Add-blocks: the new sections above lead the page; existing content (yellow) is kept below in its current order. Yellow FIX items must be corrected before shipping."
     elif mode == "new-page":
         body = render_generated(slug) + "<div class='allnew'>Brand-new page. No existing content to keep — everything here is new.</div>"
         modenote = "New page: all content is new."
