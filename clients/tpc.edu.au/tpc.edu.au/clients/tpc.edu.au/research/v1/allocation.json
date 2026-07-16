@@ -1,0 +1,204 @@
+{
+  "client": "tpc.edu.au",
+  "version": "v1",
+  "created_at": "2026-07-14",
+  "business_type": "local_service",
+  "business_context": {
+    "business_type": "local_service",
+    "client_da": 0,
+    "jurisdiction": "VIC, Australia",
+    "region": "Greater Melbourne (base: Melbourne CBD \u2014 Level 5, 398 Lonsdale Street)",
+    "positioning": "Career-focused Registered Training Organisation (RTO 46069) + CRICOS provider (04180C) delivering nationally recognised AQF vocational qualifications. DUAL-AUDIENCE: domestic students (flexible online + live Zoom) and international students (on-campus Melbourne CBD). Care-sector-led \u2014 Early Childhood Education & Care and Individual Support (ageing/disability) are the flagship verticals by both client priority (Q13) and measured demand. Strategic pivot noted (BDM): was international-only, now open to all Australians (domestic added).",
+    "client_mode": "fresh",
+    "site_reality": "LIVE WordPress site. 9 tpc_course pages across 4 verticals: ECEC x4 (/certificate-in-child-care/, /certificate-iii-in-early-childhood-education-and-care-online-course/, /diploma-of-early-childhood-education-and-care/, /diploma-of-early-childhood-education-and-care-online-course/), Individual Support x1 (/certificate-iii-in-individual-support-ageing-and-disability/), Community Services x1 (/diploma-of-community-services/), Leadership x3 (/diploma-of-leadership/, /advanced-diploma-of-leadership-management/, /graduate-diploma-of-management/). Site splits Domestic (/courses/domestic/) vs International (/courses/international/) via student_type taxonomy. Construction (CPC40120/CPC50220), Cabinet Making (MSF30322), First Aid/CPR (HLTAID009/011/012), White Card (CPCWHS1001) and Child Protection (CHCPRT025) from the questionnaire have NO web page \u2014 content gap, not this package.",
+    "ground_truth_sources": "Live sitemap (9 tpc_course + 9 static pages + student_type taxonomy) + homepage nav crawl + 27 DataForSEO Google Ads volume probes (Melbourne city-level + suburb-level). No GSC property for tpc.edu.au (fresh \u2014 verified absent in connected account). No SE Ranking project (fresh). SOURCE LIMITATION: demand signal is keyword-tool volume + questionnaire + live-site content, NOT the client's own search footprint."
+  },
+  "package": {
+    "keyword_type": "fixed_split",
+    "general_keywords": 5,
+    "location_keywords": 69,
+    "total_keywords": 74,
+    "grid": {
+      "suburbs": 23,
+      "silos": 3,
+      "grid_total": 69,
+      "bonus_keywords": 9,
+      "note": "Analyst chose KEEP ALL 23 client suburbs at the Phase 2 checkpoint (2026-07-14) rather than trimming to 20. 3 care silos x 23 suburbs = 69 location keywords (9 above the original 60 request \u2014 accepted bonus to honor the full Q15 list). Long-tail local play: only 6/23 suburbs have measured demand."
+    }
+  },
+  "general_budget": 5,
+  "location_budget": 69,
+  "silo_decision_log": {
+    "summary": "Tiers and silos decided EMPIRICALLY from 27 DataForSEO Google Ads volume probes (Melbourne city-level + suburb-level), cross-referenced with client Q13 preferences and live-site content \u2014 not assumed.",
+    "findings": [
+      "City-level Melbourne demand ranks: aged care course melbourne 260 (Individual Support) > childcare course(s) melbourne 90 (ECEC) > certificate 3 in individual support melbourne 50 > diploma of community services melbourne 30 > individual support course melbourne 20 > certificate 3 in childcare / diploma ECEC / early childhood course / leadership diplomas 10 each.",
+      "'aged care' OUTSEARCHES 'childcare' for courses in Melbourne (260 vs 90) \u2014 Individual Support is the biggest head-term vertical, even though the client led Q13 with childcare. Both are clearly co-primary.",
+      "Suburb-level course demand is NEGLIGIBLE: 'childcare course {suburb}' and 'aged care course {suburb}' return the 10/mo Google Ads floor (Werribee, Geelong) or NO DATA (Point Cook, Tarneit, Dandenong). VET course search is city-level, not suburb-level.",
+      "Leadership/Management diplomas ~10/mo and declining (diploma of leadership melbourne was 50 in Jul-2025, now 10); national/international audience \u2014 weak local play. Excluded from the tight 5-slot general budget; covered as on-page content; future international-market package candidate.",
+      "Construction, Cabinet Making, First Aid, White Card, Child Protection: no live site page, no Q13 preferences, no demand probed \u2014 Tier D, excluded from this package; flagged as future content-gap opportunities."
+    ],
+    "decision": "Care-sector focus. GENERAL (5): 2 ECEC + 2 Individual Support + 1 Community Services (analyst-approved 2/2/1, 2026-07-14). LOCATION (60): 3 care silos \u2014 childcare (ECEC Cert III), aged care (Individual Support), ECEC diploma \u2014 x top 20 client suburbs, honoured as a long-tail local play (analyst-approved 'proceed as requested', 2026-07-14)."
+  },
+  "default_excluded": {
+    "brand_defence": "STRIPPED \u2014 'the performance college' / 'tpc' queries route to the reputation / AI-overview track. config.include_brand_defence=false.",
+    "near_me": "STRIPPED \u2014 'near me' variants route to the GBP local-pack track. config.include_near_me=false.",
+    "tier_d_excluded": "Construction (CPC40120/CPC50220), Cabinet Making (MSF30322), First Aid/CPR (HLTAID009/011/012), White Card (CPCWHS1001), Child Protection (CHCPRT025) \u2014 no site page, no Q13 prefs, no measured demand. Not targeted; future content-gap opportunities.",
+    "suburb_volume_caveat": "The 60 location keywords are ~10/mo-floor long-tail (analyst approved to proceed 2026-07-14). Value = local-intent capture from the growth-corridor catchments where students live + low competition + local/topical authority \u2014 NOT direct search volume, which lives at the Melbourne city level (covered by the 5 general)."
+  },
+  "service_tiers": {
+    "A": [
+      {
+        "service": "Early Childhood Education & Care (ECEC)",
+        "evidence": "childcare course(s) melbourne 90/mo (HIGH comp, CPC $8.73). Client Q13 #1 vertical (14 Cert III + 7 Diploma prefs). 4 live pages. GRID SILOS x2 (childcare Cert III + ECEC Diploma). General slots: 2."
+      },
+      {
+        "service": "Individual Support (Ageing & Disability)",
+        "evidence": "aged care course melbourne 260/mo (MED, highest head term); certificate 3 in individual support melbourne 50; individual support course melbourne 20. Client Q13 (10 prefs). Live page /certificate-iii-in-individual-support-ageing-and-disability/. GRID SILO x1 (aged care). General slots: 2."
+      }
+    ],
+    "B": [
+      {
+        "service": "Community Services",
+        "evidence": "diploma of community services melbourne 30/mo (MED). No Q13 prefs but care-sector-adjacent + live page /diploma-of-community-services/. General slots: 1. NOT a location silo (suburb demand ~0)."
+      }
+    ],
+    "C": [
+      {
+        "service": "Leadership & Management (Diploma / Advanced Diploma / Graduate Diploma)",
+        "evidence": "diploma of leadership and management melbourne 10/mo (declining); national/international audience. 3 live pages. Excluded from the 5-slot general budget; covered as on-page content; future international-market package candidate."
+      }
+    ],
+    "D": [
+      {
+        "service": "Construction, Cabinet Making, First Aid, White Card, Child Protection",
+        "evidence": "No site page, no Q13 prefs, no demand probed. Excluded this package; flagged as future content-gap opportunities (esp. First Aid/White Card which have broad AU demand)."
+      }
+    ]
+  },
+  "silos": [
+    {
+      "silo_id": "ecec-childcare",
+      "name": "Childcare (ECEC Certificate III)",
+      "tier": "A",
+      "pillar_term": "childcare course",
+      "suburb_pattern": "childcare course {suburb}",
+      "head_volume_melbourne": 90,
+      "evidence": "Client Q13 flagship (14 prefs). childcare course(s) melbourne 90/mo city-level; suburb-level ~10/mo floor. Colloquial 'childcare' beats formal 'certificate III in early childhood' at search. Secondaries: certificate 3 in childcare, early childhood education course, childcare training, childcare qualification. Live pages: /certificate-in-child-care/, /certificate-iii-in-early-childhood-education-and-care-online-course/.",
+      "existing_page": "/certificate-in-child-care/",
+      "track": "category_gap_fill",
+      "eligibility_evidence": "Course page exists but NO suburb landing pages \u2014 net-new '{suburb} childcare course' content required for the location grid."
+    },
+    {
+      "silo_id": "individual-support-aged-care",
+      "name": "Aged Care / Individual Support",
+      "tier": "A",
+      "pillar_term": "aged care course",
+      "suburb_pattern": "aged care course {suburb}",
+      "head_volume_melbourne": 260,
+      "evidence": "Highest-volume vertical: aged care course melbourne 260/mo. Client Q13 (10 prefs). 'aged care' is the higher-volume colloquial for 'Certificate III in Individual Support (Ageing and Disability)'. Suburb-level ~10/mo floor. Secondaries: individual support course, certificate 3 in individual support, disability support course, support worker course, CHC33021. Live page: /certificate-iii-in-individual-support-ageing-and-disability/.",
+      "existing_page": "/certificate-iii-in-individual-support-ageing-and-disability/",
+      "track": "category_gap_fill",
+      "eligibility_evidence": "Course page exists but NO suburb landing pages \u2014 net-new '{suburb} aged care course' content required for the location grid."
+    },
+    {
+      "silo_id": "ecec-diploma",
+      "name": "Diploma of Early Childhood Education & Care",
+      "tier": "A",
+      "pillar_term": "diploma of early childhood education and care",
+      "suburb_pattern": "diploma of early childhood education and care {suburb}",
+      "head_volume_melbourne": 10,
+      "evidence": "Client Q13 group 3 (7 prefs) \u2014 the higher-value ECEC qualification (Diploma vs Cert III). diploma of early childhood education and care melbourne 10/mo city; suburb-level ~0. Secondaries: childcare diploma, diploma of childcare, early childhood diploma, diploma of early childhood education. Live pages: /diploma-of-early-childhood-education-and-care/, /diploma-of-early-childhood-education-and-care-online-course/.",
+      "existing_page": "/diploma-of-early-childhood-education-and-care/",
+      "track": "category_gap_fill",
+      "eligibility_evidence": "Course page exists but NO suburb landing pages \u2014 net-new '{suburb} diploma of early childhood' content required for the location grid."
+    }
+  ],
+  "general_allocation": {
+    "budget": 5,
+    "split": {
+      "tier_A_ecec": 2,
+      "tier_A_individual_support": 2,
+      "tier_B_community_services": 1
+    },
+    "track": "existing_page_optimisation",
+    "candidate_heads": [
+      {
+        "keyword": "childcare courses melbourne",
+        "vol": 90,
+        "vertical": "ECEC Cert III",
+        "page": "/certificate-in-child-care/"
+      },
+      {
+        "keyword": "diploma of early childhood education and care melbourne",
+        "vol": 10,
+        "vertical": "ECEC Diploma",
+        "page": "/diploma-of-early-childhood-education-and-care/"
+      },
+      {
+        "keyword": "aged care course melbourne",
+        "vol": 260,
+        "vertical": "Individual Support",
+        "page": "/certificate-iii-in-individual-support-ageing-and-disability/"
+      },
+      {
+        "keyword": "certificate iii in individual support melbourne",
+        "vol": 50,
+        "vertical": "Individual Support",
+        "page": "/certificate-iii-in-individual-support-ageing-and-disability/"
+      },
+      {
+        "keyword": "diploma of community services melbourne",
+        "vol": 30,
+        "vertical": "Community Services",
+        "page": "/diploma-of-community-services/"
+      }
+    ],
+    "note": "These 5 are the highest-volume Melbourne heads per vertical and map to EXISTING course pages (existing_page_optimisation track). Final head selection confirmed in Phase 5 against full metrics.json. All 5 have real city-level demand \u2014 the general budget is where this client's measurable volume lives."
+  },
+  "location_allocation": {
+    "budget": 60,
+    "M_silos": 3,
+    "N_suburbs": 23,
+    "grid_total": 69,
+    "suburb_source": "client-provided",
+    "track": "category_gap_fill",
+    "client_suburbs_23": [
+      "Werribee",
+      "Point Cook",
+      "Tarneit",
+      "Truganina",
+      "Hoppers Crossing",
+      "Sunshine",
+      "St Albans",
+      "Craigieburn",
+      "Epping",
+      "Dandenong",
+      "Bendigo",
+      "Geelong",
+      "Warrnambool",
+      "Cranbourne",
+      "Frankston",
+      "Docklands",
+      "Southbank",
+      "North Melbourne",
+      "South Melbourne",
+      "Brunswick",
+      "Fitzroy",
+      "Pakenham",
+      "St Kilda"
+    ],
+    "suburb_selection": "ALL 23 client Q15 suburbs retained (analyst decision, Phase 2 checkpoint 2026-07-14) \u2014 no trim. Ranked by care-catchment for reference: leaders Werribee/Dandenong/Geelong; inner suburbs (Southbank/South Melbourne/St Kilda etc.) lowest but kept.",
+    "target_states": [
+      "VIC"
+    ],
+    "secondary_states": [],
+    "caveat": "Suburb-level volumes: only 6/23 register any search (Geelong 40, Werribee 30, Dandenong 20, Bendigo/Frankston/Pakenham 10); 17/23 zero. Approved as a long-tail local play 2026-07-14. 69 zero/low-volume suburb keywords \u2014 value is local-intent capture + low competition, not traffic."
+  },
+  "tracks": {
+    "quick_wins": 0.0,
+    "existing_page_optimisation": 0.068,
+    "category_gap_fill": 0.932,
+    "geo_expansion": 0.0,
+    "note": "Reflects the fixed 5 general + 69 location package (23-suburb grid). 5 general -> EXISTING course pages (existing_page_optimisation). 69 location -> net-new suburb landing pages (category_gap_fill). quick_wins=0 (no GSC property). geo_expansion=0 (fresh, no proven ranking template)."
+  }
+}

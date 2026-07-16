@@ -1,0 +1,633 @@
+{
+  "metadata": {
+    "client": "tpc.edu.au",
+    "version": "v1",
+    "phase": "2",
+    "generated_at": "2026-07-14",
+    "suburb_source": "client-provided",
+    "target_states": [
+      "VIC"
+    ],
+    "secondary_states": [],
+    "candidate_count": 23,
+    "volume_location": "Australia (suburb in keyword)",
+    "method": "Client-provided 23-suburb list (Q15) VALIDATED + ENRICHED. Suburb-level Google Ads volume pulled for the 2 flagship silos (childcare course {suburb}, aged care course {suburb}) via DataForSEO; ECEC-diploma ~0 at suburb level. competitor_density not_sampled (suburb-level competitor density is not meaningful for VET course terms \u2014 competitors are metro RTOs, not suburb-specific).",
+    "scoring": "score = 0.35*volume_score + 0.55*catchment_score + 0.10*proximity_score. volume_score = grid_volume_total/40*100. catchment_score = expert care-sector student-catchment demographic (multicultural/growth-corridor care-worker pipeline HIGH; inner gentrified LOW; far regional LOW). proximity_score by ring (1=100..4=35), DOWN-weighted because suburb value for this client is catchment-driven, not campus-proximity-driven.",
+    "reality_note": "CRITICAL: only 6 of 23 suburbs register ANY measured course search (Geelong 40, Werribee 30, Dandenong 20, Bendigo/Frankston/Pakenham 10). 17 of 23 return ZERO. Analyst approved (Phase 0, 2026-07-14) to proceed with the suburb grid as a long-tail local play; ranking below is for the trim-to-20 decision, driven by care-catchment since volume can't differentiate.",
+    "grid": "3 silos x 23 suburbs = 69 location keywords (all 23 client suburbs retained).",
+    "checkpoint_decision": "Phase 2 checkpoint 2026-07-14: analyst chose KEEP ALL 23 suburbs (no trim to 20). Grid = 3 silos x 23 = 69 location keywords."
+  },
+  "scored_suburbs": [
+    {
+      "suburb": "Werribee",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 10,
+        "individual-support-aged-care": 20,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 30,
+      "competitor_density": "not_sampled",
+      "score": 79.0,
+      "score_components": {
+        "volume_score": 75,
+        "catchment_score": 85,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 1,
+      "recommended": true
+    },
+    {
+      "suburb": "Dandenong",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 20,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 20,
+      "competitor_density": "not_sampled",
+      "score": 78.5,
+      "score_components": {
+        "volume_score": 50,
+        "catchment_score": 100,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 2,
+      "recommended": true
+    },
+    {
+      "suburb": "Geelong",
+      "state": "VIC",
+      "ring": 4,
+      "volumes": {
+        "ecec-childcare": 10,
+        "individual-support-aged-care": 30,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 40,
+      "competitor_density": "not_sampled",
+      "score": 78.1,
+      "score_components": {
+        "volume_score": 100,
+        "catchment_score": 72,
+        "proximity_score": 35
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 3,
+      "recommended": true
+    },
+    {
+      "suburb": "Frankston",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 10,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 10,
+      "competitor_density": "not_sampled",
+      "score": 59.9,
+      "score_components": {
+        "volume_score": 25,
+        "catchment_score": 82,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 4,
+      "recommended": true
+    },
+    {
+      "suburb": "Sunshine",
+      "state": "VIC",
+      "ring": 2,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 56.4,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 88,
+        "proximity_score": 80
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 5,
+      "recommended": true
+    },
+    {
+      "suburb": "St Albans",
+      "state": "VIC",
+      "ring": 2,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 56.4,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 88,
+        "proximity_score": 80
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 6,
+      "recommended": true
+    },
+    {
+      "suburb": "Pakenham",
+      "state": "VIC",
+      "ring": 4,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 10,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 10,
+      "competitor_density": "not_sampled",
+      "score": 54.1,
+      "score_components": {
+        "volume_score": 25,
+        "catchment_score": 76,
+        "proximity_score": 35
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 7,
+      "recommended": true
+    },
+    {
+      "suburb": "Tarneit",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 51.1,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 82,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 8,
+      "recommended": true
+    },
+    {
+      "suburb": "Point Cook",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 50.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 80,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 9,
+      "recommended": true
+    },
+    {
+      "suburb": "Truganina",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 50.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 80,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 10,
+      "recommended": true
+    },
+    {
+      "suburb": "Hoppers Crossing",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 50.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 80,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 11,
+      "recommended": true
+    },
+    {
+      "suburb": "Cranbourne",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 50.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 80,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 12,
+      "recommended": true
+    },
+    {
+      "suburb": "Craigieburn",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 48.9,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 78,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 13,
+      "recommended": true
+    },
+    {
+      "suburb": "Bendigo",
+      "state": "VIC",
+      "ring": 4,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 10,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 10,
+      "competitor_density": "not_sampled",
+      "score": 48.0,
+      "score_components": {
+        "volume_score": 25,
+        "catchment_score": 65,
+        "proximity_score": 35
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 14,
+      "recommended": true
+    },
+    {
+      "suburb": "Epping",
+      "state": "VIC",
+      "ring": 3,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 47.2,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 75,
+        "proximity_score": 60
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 15,
+      "recommended": true
+    },
+    {
+      "suburb": "Brunswick",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 37.5,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 50,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 16,
+      "recommended": true
+    },
+    {
+      "suburb": "North Melbourne",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 36.4,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 48,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 17,
+      "recommended": true
+    },
+    {
+      "suburb": "Fitzroy",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 33.1,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 42,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 18,
+      "recommended": true
+    },
+    {
+      "suburb": "Docklands",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 32.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 40,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 19,
+      "recommended": true
+    },
+    {
+      "suburb": "St Kilda",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 32.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 40,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 20,
+      "recommended": true
+    },
+    {
+      "suburb": "South Melbourne",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 30.9,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 38,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 21,
+      "recommended": true
+    },
+    {
+      "suburb": "Southbank",
+      "state": "VIC",
+      "ring": 1,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 29.2,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 35,
+        "proximity_score": 100
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 22,
+      "recommended": true
+    },
+    {
+      "suburb": "Warrnambool",
+      "state": "VIC",
+      "ring": 4,
+      "volumes": {
+        "ecec-childcare": 0,
+        "individual-support-aged-care": 0,
+        "ecec-diploma": 0
+      },
+      "grid_volume_total": 0,
+      "competitor_density": "not_sampled",
+      "score": 20.0,
+      "score_components": {
+        "volume_score": 0,
+        "catchment_score": 30,
+        "proximity_score": 35
+      },
+      "silos": [
+        "ecec-childcare",
+        "individual-support-aged-care",
+        "ecec-diploma"
+      ],
+      "recommendation_rank": 23,
+      "recommended": true
+    }
+  ],
+  "recommended_suburbs": [
+    "Werribee",
+    "Dandenong",
+    "Geelong",
+    "Frankston",
+    "Sunshine",
+    "St Albans",
+    "Pakenham",
+    "Tarneit",
+    "Point Cook",
+    "Truganina",
+    "Hoppers Crossing",
+    "Cranbourne",
+    "Craigieburn",
+    "Bendigo",
+    "Epping",
+    "Brunswick",
+    "North Melbourne",
+    "Fitzroy",
+    "Docklands",
+    "St Kilda",
+    "South Melbourne",
+    "Southbank",
+    "Warrnambool"
+  ],
+  "excluded_suburbs": [],
+  "grid_keywords": {
+    "silos": [
+      "ecec-childcare",
+      "individual-support-aged-care",
+      "ecec-diploma"
+    ],
+    "n_suburbs": 23,
+    "grid_total": 69,
+    "status": "approved_all_23_analyst_2026-07-14"
+  }
+}

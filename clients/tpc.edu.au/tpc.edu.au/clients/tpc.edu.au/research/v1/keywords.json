@@ -1,0 +1,3456 @@
+{
+  "metadata": {
+    "client": "tpc.edu.au",
+    "version": "v1",
+    "generated_at": "2026-07-14",
+    "package": {
+      "general": 5,
+      "location": 69
+    },
+    "total_candidates_analysed": 249,
+    "effective_keyword_reach": 0,
+    "keyword_type": "fixed_split",
+    "client_da": 7,
+    "business_type": "local_service",
+    "grid": {
+      "suburbs": 23,
+      "silos": 3,
+      "total_cells": 69
+    },
+    "phase_outputs_consumed": [
+      "allocation.json",
+      "seeds.json",
+      "suburbs.json",
+      "metrics.json",
+      "competitors.json",
+      "serp.json",
+      "gaps.json",
+      "questionnaire.json"
+    ],
+    "strategic_narratives": [
+      {
+        "title": "Location grid is a long-tail LOCAL play — suburb course demand is near-zero",
+        "severity": "high",
+        "summary": "Only 6/23 suburbs register any measured course search (Geelong 40, Werribee 30, Dandenong 20, Bendigo/Frankston/Pakenham 10); 17/23 are zero. The 69-keyword grid (analyst-approved, keep-all-23) captures high-intent local '[course] {suburb}' queries + low competition, NOT volume. Real demand is city-level (the 5 general) and online. SET CLIENT EXPECTATIONS: location pages build slowly; measure by local rankings + enquiries, not traffic. Build genuine local landing pages (campus access, transport, local placement partners) — not thin doorways — to avoid a doorway-page penalty across 69 near-duplicate pages."
+      },
+      {
+        "title": "AI Overviews dominate course SERPs (80%)",
+        "severity": "high",
+        "summary": "64/80 probed course queries trigger an AI Overview, suppressing organic CTR. Every page must be built for AI-citation: clear qualification facts, structured data (Course/FAQ schema), and answers to the 256 available PAA questions. Ranking #1 organically no longer guarantees the click."
+      },
+      {
+        "title": "National qualification terms are unwinnable for DA 7 (government-TAFE wall)",
+        "severity": "medium",
+        "summary": "Bare terms (certificate iii in individual support 18,100; diploma of community services 9,900) show tempting low DataForSEO KD, but the SERPs are held by government TAFEs (tafeqld 56x, tafensw 49x; DA 41-54) + AI Overviews. All 5 general keywords are deliberately Melbourne-qualified to face reachable rivals (itac DA14, laurus DA18). Revisit the online-national terms (childcare course online 1,000/KD2; diploma of community services online 1,300/KD3; cert 3 aged care online 590/KD3) as DA grows — they are the strongest FUTURE general package."
+      }
+    ],
+    "deferred_to_future_general_package": {
+      "online_national": [
+        "childcare course online (1,000/KD2)",
+        "diploma of community services online (1,300/KD3)",
+        "certificate 3 in aged care online (590/KD3)",
+        "online diploma of early childhood education and care (210/KD7)"
+      ],
+      "bare_national_as_DA_grows": [
+        "certificate iii in individual support (18,100)",
+        "diploma of community services (9,900)",
+        "cert 3 childcare (4,400)"
+      ],
+      "untargeted_verticals_content_gap": [
+        "First Aid / CPR (HLTAID) + White Card (CPCWHS1001) — broad AU demand, NO site page",
+        "Construction (CPC40120/CPC50220)",
+        "Cabinet Making (MSF30322) — all Tier D, no page, no Q13 prefs this round"
+      ]
+    },
+    "data_limitations": "No GSC property for tpc.edu.au (fresh) -> no quick-wins track, no striking-distance data. Demand = keyword-tool volume + questionnaire + live-site content."
+  },
+  "general_keywords": [
+    {
+      "rank": 1,
+      "keyword": "aged care course melbourne",
+      "silo": "individual-support-aged-care",
+      "service_tier": "",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.5438,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 4.94,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/",
+      "action": "optimise_existing",
+      "content_type": "course page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "320/mo, KD 0 — the HIGHEST-volume general term (aged care outsearches childcare for courses in Melbourne). 'Aged care' is the colloquial for the client's Certificate III in Individual Support (Ageing & Disability, CHC33021). Deliberately Melbourne-qualified: the bare 'certificate iii in individual support' (18,100/mo) SERP is a wall of government TAFEs (tafeqld 56x, tafensw 49x, DA 41-54) + 80% AI Overview — unwinnable for DA 7 — whereas this Melbourne SERP (AI Overview low_or_none) faces only reachable local rivals (itac DA14, laurus DA18). Sector tailwind: acute aged-care workforce shortage. USP: guaranteed real-facility work-placement (client reports students employed straight after placement). Existing page /certificate-iii-in-individual-support-ageing-and-disability/ (gap EXISTS) — optimise as primary head for 'aged care course melbourne'. Winnable top-5 in 3-4 months at KD 0 vs DA 7.",
+      "secondaries": {
+        "keywords": [
+          "aged care courses melbourne",
+          "certificate iii in individual support melbourne",
+          "aged care training melbourne",
+          "support worker course melbourne",
+          "chc33021"
+        ],
+        "long_tail": [
+          "aged care courses melbourne",
+          "certificate iii in individual support melbourne",
+          "aged care training melbourne",
+          "support worker course melbourne",
+          "chc33021"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 2,
+      "keyword": "certificate iii in individual support melbourne",
+      "silo": "individual-support-aged-care",
+      "service_tier": "",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.5934,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 6.81,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/",
+      "action": "optimise_existing",
+      "content_type": "course page (secondary head)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "90/mo, KD 0 — the FORMAL AQF qualification title (CHC33021), dual-targeted on the SAME /certificate-iii-in-individual-support-ageing-and-disability/ page as the colloquial 'aged care course melbourne'. Captures searchers who use the exact course name rather than 'aged care'. Melbourne-qualified (the bare 18,100 form is TAFE-walled). AI Overview low_or_none = clean organic slot. No new page — reinforces the Individual Support pillar's topical relevance. Winnable near-term (KD 0, DA 7 vs itac DA14).",
+      "secondaries": {
+        "keywords": [
+          "cert 3 in individual support melbourne",
+          "chc33021 melbourne",
+          "disability support course melbourne",
+          "individual support course melbourne"
+        ],
+        "long_tail": [
+          "cert 3 in individual support melbourne",
+          "chc33021 melbourne",
+          "disability support course melbourne",
+          "individual support course melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 3,
+      "keyword": "childcare courses melbourne",
+      "silo": "ecec-childcare",
+      "service_tier": "",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.6167,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 8.61,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "https://tpc.edu.au/certificate-in-child-care/",
+      "action": "optimise_existing",
+      "content_type": "course page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "110/mo, KD 0, CPC ~$9 — flagship ECEC head and the client's Q13 #1 vertical (14 Cert III prefs). Melbourne-qualified on purpose: the bare 'certificate iii in early childhood education and care' (4,400) is TAFE-walled (tafeqld/tafensw) + AI Overview — this Melbourne SERP (AI Overview low_or_none) is a clean, winnable local slot vs reachable rivals itac (DA14)/laurus (DA18). USP: CRICOS + guaranteed work-placement + flexible online/Zoom delivery for domestic students. Existing page /certificate-in-child-care/ (gap EXISTS) — optimise for 'melbourne' + local trust signals (CBD campus, placement partners, graduate outcomes: 100+ domestic grads, ~75% working while studying). Top-5 achievable in 3-4 months at KD 0 vs DA 7.",
+      "secondaries": {
+        "keywords": [
+          "childcare course melbourne",
+          "cert 3 childcare melbourne",
+          "certificate iii in early childhood education and care melbourne",
+          "early childhood course melbourne",
+          "study childcare melbourne"
+        ],
+        "long_tail": [
+          "childcare course melbourne",
+          "cert 3 childcare melbourne",
+          "certificate iii in early childhood education and care melbourne",
+          "early childhood course melbourne",
+          "study childcare melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 4,
+      "keyword": "early childhood diploma melbourne",
+      "silo": "ecec-diploma",
+      "service_tier": "",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.491,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 13,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 3.66,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "https://tpc.edu.au/diploma-of-early-childhood-education-and-care/",
+      "action": "optimise_existing",
+      "content_type": "course page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "70/mo, KD 13 — the Diploma-tier ECEC head (client Q13 group 3, 7 prefs), the pathway-up qualification from Cert III with higher course value (~$3,500 vs $2,500). Chosen over 'diploma of early childhood education and care melbourne' (KD 47, harder) as the better-winnable Melbourne Diploma term. Bare 'early childhood diploma' (4,400) is TAFE-walled. AI Overview present (citation_opportunity) — structure the page for AI citation + FAQ schema on the PAA questions. Existing pages /diploma-of-early-childhood-education-and-care/ (+ online variant) — the client's flexible online + live-Zoom delivery differentiates vs on-campus-only rivals. Optimise the Diploma page for Melbourne. Winnable in 4-6 months (KD 13, DA 7).",
+      "secondaries": {
+        "keywords": [
+          "diploma of early childhood education and care melbourne",
+          "childcare diploma melbourne",
+          "diploma of childcare melbourne",
+          "study childcare diploma melbourne"
+        ],
+        "long_tail": [
+          "diploma of early childhood education and care melbourne",
+          "childcare diploma melbourne",
+          "diploma of childcare melbourne",
+          "study childcare diploma melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 5,
+      "keyword": "diploma of community services melbourne",
+      "silo": "general-community-services",
+      "service_tier": "",
+      "track": "category_gap_fill",
+      "opportunity_score": 0.5552,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 4.63,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "https://tpc.edu.au/diploma-of-community-services/",
+      "action": "optimise_existing",
+      "content_type": "course page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "90/mo, KD 0 — Tier-B care-sector pathway qualification (Diploma of Community Services, CHC52021). No Q13 prefs but a natural progression for the client's Individual Support/ECEC students and a live page /diploma-of-community-services/ already exists (existing_page_optimisation). Melbourne-qualified: the bare 'diploma of community services' (9,900) SERP is walled by TAFEs + Victoria University + AI Overview — this local SERP is winnable (KD 0, DA 7 vs itac DA14). AI Overview present — add FAQ schema on the PAA questions. Rounds out the care-sector general coverage (ECEC + Individual Support + Community Services) the analyst approved 2/2/1.",
+      "secondaries": {
+        "keywords": [
+          "community services diploma melbourne",
+          "community services course melbourne",
+          "chc52021 melbourne",
+          "diploma of community services for international students"
+        ],
+        "long_tail": [
+          "community services diploma melbourne",
+          "community services course melbourne",
+          "chc52021 melbourne",
+          "diploma of community services for international students"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    }
+  ],
+  "location_keywords": [
+    {
+      "rank": 1,
+      "keyword": "childcare course werribee",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Werribee",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.5899,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 12.82,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-werribee/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Werribee' queries from Werribee's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Werribee CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses werribee",
+          "cert 3 childcare werribee",
+          "certificate iii in early childhood education and care werribee"
+        ],
+        "long_tail": [
+          "childcare courses werribee",
+          "cert 3 childcare werribee",
+          "certificate iii in early childhood education and care werribee"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 2,
+      "keyword": "diploma of early childhood education and care werribee",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Werribee",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.5001,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-werribee/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Werribee' queries from Werribee's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Werribee CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma werribee",
+          "diploma of early childhood education werribee",
+          "early childhood diploma werribee"
+        ],
+        "long_tail": [
+          "childcare diploma werribee",
+          "diploma of early childhood education werribee",
+          "early childhood diploma werribee"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 3,
+      "keyword": "aged care course werribee",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Werribee",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4551,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 14,
+      "current_position": null,
+      "cpc": 3.88,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-werribee/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "20/mo measured, KD 14. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Werribee' queries from Werribee's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Werribee CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course werribee",
+          "certificate iii in individual support werribee",
+          "disability support course werribee"
+        ],
+        "long_tail": [
+          "individual support course werribee",
+          "certificate iii in individual support werribee",
+          "disability support course werribee"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 4,
+      "keyword": "childcare course dandenong",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Dandenong",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-dandenong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Dandenong' queries from Dandenong's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Dandenong CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses dandenong",
+          "cert 3 childcare dandenong",
+          "certificate iii in early childhood education and care dandenong"
+        ],
+        "long_tail": [
+          "childcare courses dandenong",
+          "cert 3 childcare dandenong",
+          "certificate iii in early childhood education and care dandenong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 5,
+      "keyword": "diploma of early childhood education and care dandenong",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Dandenong",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4943,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-dandenong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Dandenong' queries from Dandenong's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview present. Action: light LOCAL landing page (Dandenong CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma dandenong",
+          "diploma of early childhood education dandenong",
+          "early childhood diploma dandenong"
+        ],
+        "long_tail": [
+          "childcare diploma dandenong",
+          "diploma of early childhood education dandenong",
+          "early childhood diploma dandenong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 6,
+      "keyword": "aged care course dandenong",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Dandenong",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4835,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 11,
+      "current_position": null,
+      "cpc": 3.98,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-dandenong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "20/mo measured, KD 11. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Dandenong' queries from Dandenong's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Dandenong CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course dandenong",
+          "certificate iii in individual support dandenong",
+          "disability support course dandenong"
+        ],
+        "long_tail": [
+          "individual support course dandenong",
+          "certificate iii in individual support dandenong",
+          "disability support course dandenong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 7,
+      "keyword": "childcare course bendigo",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Bendigo",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-bendigo/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Bendigo' queries from Bendigo's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Bendigo CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses bendigo",
+          "cert 3 childcare bendigo",
+          "certificate iii in early childhood education and care bendigo"
+        ],
+        "long_tail": [
+          "childcare courses bendigo",
+          "cert 3 childcare bendigo",
+          "certificate iii in early childhood education and care bendigo"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 8,
+      "keyword": "diploma of early childhood education and care bendigo",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Bendigo",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-bendigo/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Bendigo' queries from Bendigo's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Bendigo CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma bendigo",
+          "diploma of early childhood education bendigo",
+          "early childhood diploma bendigo"
+        ],
+        "long_tail": [
+          "childcare diploma bendigo",
+          "diploma of early childhood education bendigo",
+          "early childhood diploma bendigo"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 9,
+      "keyword": "aged care course bendigo",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Bendigo",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.505,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 2.83,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-bendigo/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Bendigo' queries from Bendigo's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Bendigo CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course bendigo",
+          "certificate iii in individual support bendigo",
+          "disability support course bendigo"
+        ],
+        "long_tail": [
+          "individual support course bendigo",
+          "certificate iii in individual support bendigo",
+          "disability support course bendigo"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 10,
+      "keyword": "childcare course frankston",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Frankston",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-frankston/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Frankston' queries from Frankston's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Frankston CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses frankston",
+          "cert 3 childcare frankston",
+          "certificate iii in early childhood education and care frankston"
+        ],
+        "long_tail": [
+          "childcare courses frankston",
+          "cert 3 childcare frankston",
+          "certificate iii in early childhood education and care frankston"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 11,
+      "keyword": "diploma of early childhood education and care frankston",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Frankston",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-frankston/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Frankston' queries from Frankston's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Frankston CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma frankston",
+          "diploma of early childhood education frankston",
+          "early childhood diploma frankston"
+        ],
+        "long_tail": [
+          "childcare diploma frankston",
+          "diploma of early childhood education frankston",
+          "early childhood diploma frankston"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 12,
+      "keyword": "aged care course frankston",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Frankston",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.5008,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.97,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-frankston/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Frankston' queries from Frankston's established multicultural care-worker heartland (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Frankston CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course frankston",
+          "certificate iii in individual support frankston",
+          "disability support course frankston"
+        ],
+        "long_tail": [
+          "individual support course frankston",
+          "certificate iii in individual support frankston",
+          "disability support course frankston"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 13,
+      "keyword": "childcare course hoppers crossing",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Hoppers Crossing",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-hoppers-crossing/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Hoppers Crossing' queries from Hoppers Crossing's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Hoppers Crossing CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses hoppers crossing",
+          "cert 3 childcare hoppers crossing",
+          "certificate iii in early childhood education and care hoppers crossing"
+        ],
+        "long_tail": [
+          "childcare courses hoppers crossing",
+          "cert 3 childcare hoppers crossing",
+          "certificate iii in early childhood education and care hoppers crossing"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 14,
+      "keyword": "diploma of early childhood education and care hoppers crossing",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Hoppers Crossing",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4914,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-hoppers-crossing/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Hoppers Crossing' queries from Hoppers Crossing's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Hoppers Crossing CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma hoppers crossing",
+          "diploma of early childhood education hoppers crossing",
+          "early childhood diploma hoppers crossing"
+        ],
+        "long_tail": [
+          "childcare diploma hoppers crossing",
+          "diploma of early childhood education hoppers crossing",
+          "early childhood diploma hoppers crossing"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 15,
+      "keyword": "aged care course hoppers crossing",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Hoppers Crossing",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-hoppers-crossing/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Hoppers Crossing' queries from Hoppers Crossing's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Hoppers Crossing CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course hoppers crossing",
+          "certificate iii in individual support hoppers crossing",
+          "disability support course hoppers crossing"
+        ],
+        "long_tail": [
+          "individual support course hoppers crossing",
+          "certificate iii in individual support hoppers crossing",
+          "disability support course hoppers crossing"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 16,
+      "keyword": "childcare course brunswick",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Brunswick",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-brunswick/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Brunswick' queries from Brunswick's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Brunswick CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses brunswick",
+          "cert 3 childcare brunswick",
+          "certificate iii in early childhood education and care brunswick"
+        ],
+        "long_tail": [
+          "childcare courses brunswick",
+          "cert 3 childcare brunswick",
+          "certificate iii in early childhood education and care brunswick"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 17,
+      "keyword": "diploma of early childhood education and care brunswick",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Brunswick",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-brunswick/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Brunswick' queries from Brunswick's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Brunswick CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma brunswick",
+          "diploma of early childhood education brunswick",
+          "early childhood diploma brunswick"
+        ],
+        "long_tail": [
+          "childcare diploma brunswick",
+          "diploma of early childhood education brunswick",
+          "early childhood diploma brunswick"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 18,
+      "keyword": "aged care course brunswick",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Brunswick",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-brunswick/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Brunswick' queries from Brunswick's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Brunswick CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course brunswick",
+          "certificate iii in individual support brunswick",
+          "disability support course brunswick"
+        ],
+        "long_tail": [
+          "individual support course brunswick",
+          "certificate iii in individual support brunswick",
+          "disability support course brunswick"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 19,
+      "keyword": "childcare course craigieburn",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Craigieburn",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-craigieburn/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Craigieburn' queries from Craigieburn's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Craigieburn CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses craigieburn",
+          "cert 3 childcare craigieburn",
+          "certificate iii in early childhood education and care craigieburn"
+        ],
+        "long_tail": [
+          "childcare courses craigieburn",
+          "cert 3 childcare craigieburn",
+          "certificate iii in early childhood education and care craigieburn"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 20,
+      "keyword": "diploma of early childhood education and care craigieburn",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Craigieburn",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-craigieburn/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Craigieburn' queries from Craigieburn's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Craigieburn CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma craigieburn",
+          "diploma of early childhood education craigieburn",
+          "early childhood diploma craigieburn"
+        ],
+        "long_tail": [
+          "childcare diploma craigieburn",
+          "diploma of early childhood education craigieburn",
+          "early childhood diploma craigieburn"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 21,
+      "keyword": "aged care course craigieburn",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Craigieburn",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-craigieburn/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Craigieburn' queries from Craigieburn's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Craigieburn CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course craigieburn",
+          "certificate iii in individual support craigieburn",
+          "disability support course craigieburn"
+        ],
+        "long_tail": [
+          "individual support course craigieburn",
+          "certificate iii in individual support craigieburn",
+          "disability support course craigieburn"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 22,
+      "keyword": "childcare course cranbourne",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Cranbourne",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-cranbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Cranbourne' queries from Cranbourne's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Cranbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses cranbourne",
+          "cert 3 childcare cranbourne",
+          "certificate iii in early childhood education and care cranbourne"
+        ],
+        "long_tail": [
+          "childcare courses cranbourne",
+          "cert 3 childcare cranbourne",
+          "certificate iii in early childhood education and care cranbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 23,
+      "keyword": "diploma of early childhood education and care cranbourne",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Cranbourne",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-cranbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Cranbourne' queries from Cranbourne's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Cranbourne CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma cranbourne",
+          "diploma of early childhood education cranbourne",
+          "early childhood diploma cranbourne"
+        ],
+        "long_tail": [
+          "childcare diploma cranbourne",
+          "diploma of early childhood education cranbourne",
+          "early childhood diploma cranbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 24,
+      "keyword": "aged care course cranbourne",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Cranbourne",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-cranbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Cranbourne' queries from Cranbourne's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Cranbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course cranbourne",
+          "certificate iii in individual support cranbourne",
+          "disability support course cranbourne"
+        ],
+        "long_tail": [
+          "individual support course cranbourne",
+          "certificate iii in individual support cranbourne",
+          "disability support course cranbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 25,
+      "keyword": "childcare course docklands",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Docklands",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-docklands/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Docklands' queries from Docklands's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Docklands CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses docklands",
+          "cert 3 childcare docklands",
+          "certificate iii in early childhood education and care docklands"
+        ],
+        "long_tail": [
+          "childcare courses docklands",
+          "cert 3 childcare docklands",
+          "certificate iii in early childhood education and care docklands"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 26,
+      "keyword": "diploma of early childhood education and care docklands",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Docklands",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-docklands/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Docklands' queries from Docklands's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Docklands CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma docklands",
+          "diploma of early childhood education docklands",
+          "early childhood diploma docklands"
+        ],
+        "long_tail": [
+          "childcare diploma docklands",
+          "diploma of early childhood education docklands",
+          "early childhood diploma docklands"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 27,
+      "keyword": "aged care course docklands",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Docklands",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-docklands/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Docklands' queries from Docklands's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Docklands CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course docklands",
+          "certificate iii in individual support docklands",
+          "disability support course docklands"
+        ],
+        "long_tail": [
+          "individual support course docklands",
+          "certificate iii in individual support docklands",
+          "disability support course docklands"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 28,
+      "keyword": "childcare course epping",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Epping",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-epping/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Epping' queries from Epping's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Epping CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses epping",
+          "cert 3 childcare epping",
+          "certificate iii in early childhood education and care epping"
+        ],
+        "long_tail": [
+          "childcare courses epping",
+          "cert 3 childcare epping",
+          "certificate iii in early childhood education and care epping"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 29,
+      "keyword": "diploma of early childhood education and care epping",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Epping",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-epping/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Epping' queries from Epping's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Epping CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma epping",
+          "diploma of early childhood education epping",
+          "early childhood diploma epping"
+        ],
+        "long_tail": [
+          "childcare diploma epping",
+          "diploma of early childhood education epping",
+          "early childhood diploma epping"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 30,
+      "keyword": "aged care course epping",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Epping",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-epping/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Epping' queries from Epping's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Epping CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course epping",
+          "certificate iii in individual support epping",
+          "disability support course epping"
+        ],
+        "long_tail": [
+          "individual support course epping",
+          "certificate iii in individual support epping",
+          "disability support course epping"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 31,
+      "keyword": "childcare course fitzroy",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Fitzroy",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-fitzroy/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Fitzroy' queries from Fitzroy's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Fitzroy CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses fitzroy",
+          "cert 3 childcare fitzroy",
+          "certificate iii in early childhood education and care fitzroy"
+        ],
+        "long_tail": [
+          "childcare courses fitzroy",
+          "cert 3 childcare fitzroy",
+          "certificate iii in early childhood education and care fitzroy"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 32,
+      "keyword": "diploma of early childhood education and care fitzroy",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Fitzroy",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-fitzroy/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Fitzroy' queries from Fitzroy's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Fitzroy CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma fitzroy",
+          "diploma of early childhood education fitzroy",
+          "early childhood diploma fitzroy"
+        ],
+        "long_tail": [
+          "childcare diploma fitzroy",
+          "diploma of early childhood education fitzroy",
+          "early childhood diploma fitzroy"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 33,
+      "keyword": "aged care course fitzroy",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Fitzroy",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-fitzroy/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Fitzroy' queries from Fitzroy's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Fitzroy CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course fitzroy",
+          "certificate iii in individual support fitzroy",
+          "disability support course fitzroy"
+        ],
+        "long_tail": [
+          "individual support course fitzroy",
+          "certificate iii in individual support fitzroy",
+          "disability support course fitzroy"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 34,
+      "keyword": "childcare course north melbourne",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "North Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-north-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course North Melbourne' queries from North Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (North Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses north melbourne",
+          "cert 3 childcare north melbourne",
+          "certificate iii in early childhood education and care north melbourne"
+        ],
+        "long_tail": [
+          "childcare courses north melbourne",
+          "cert 3 childcare north melbourne",
+          "certificate iii in early childhood education and care north melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 35,
+      "keyword": "diploma of early childhood education and care north melbourne",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "North Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-north-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care North Melbourne' queries from North Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (North Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma north melbourne",
+          "diploma of early childhood education north melbourne",
+          "early childhood diploma north melbourne"
+        ],
+        "long_tail": [
+          "childcare diploma north melbourne",
+          "diploma of early childhood education north melbourne",
+          "early childhood diploma north melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 36,
+      "keyword": "aged care course north melbourne",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "North Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-north-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course North Melbourne' queries from North Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (North Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course north melbourne",
+          "certificate iii in individual support north melbourne",
+          "disability support course north melbourne"
+        ],
+        "long_tail": [
+          "individual support course north melbourne",
+          "certificate iii in individual support north melbourne",
+          "disability support course north melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 37,
+      "keyword": "childcare course point cook",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Point Cook",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-point-cook/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Point Cook' queries from Point Cook's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Point Cook CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses point cook",
+          "cert 3 childcare point cook",
+          "certificate iii in early childhood education and care point cook"
+        ],
+        "long_tail": [
+          "childcare courses point cook",
+          "cert 3 childcare point cook",
+          "certificate iii in early childhood education and care point cook"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 38,
+      "keyword": "diploma of early childhood education and care point cook",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Point Cook",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-point-cook/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Point Cook' queries from Point Cook's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Point Cook CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma point cook",
+          "diploma of early childhood education point cook",
+          "early childhood diploma point cook"
+        ],
+        "long_tail": [
+          "childcare diploma point cook",
+          "diploma of early childhood education point cook",
+          "early childhood diploma point cook"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 39,
+      "keyword": "aged care course point cook",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Point Cook",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-point-cook/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Point Cook' queries from Point Cook's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Point Cook CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course point cook",
+          "certificate iii in individual support point cook",
+          "disability support course point cook"
+        ],
+        "long_tail": [
+          "individual support course point cook",
+          "certificate iii in individual support point cook",
+          "disability support course point cook"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 40,
+      "keyword": "childcare course south melbourne",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "South Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-south-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course South Melbourne' queries from South Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (South Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses south melbourne",
+          "cert 3 childcare south melbourne",
+          "certificate iii in early childhood education and care south melbourne"
+        ],
+        "long_tail": [
+          "childcare courses south melbourne",
+          "cert 3 childcare south melbourne",
+          "certificate iii in early childhood education and care south melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 41,
+      "keyword": "diploma of early childhood education and care south melbourne",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "South Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-south-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care South Melbourne' queries from South Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (South Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma south melbourne",
+          "diploma of early childhood education south melbourne",
+          "early childhood diploma south melbourne"
+        ],
+        "long_tail": [
+          "childcare diploma south melbourne",
+          "diploma of early childhood education south melbourne",
+          "early childhood diploma south melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 42,
+      "keyword": "aged care course south melbourne",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "South Melbourne",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-south-melbourne/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course South Melbourne' queries from South Melbourne's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (South Melbourne CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course south melbourne",
+          "certificate iii in individual support south melbourne",
+          "disability support course south melbourne"
+        ],
+        "long_tail": [
+          "individual support course south melbourne",
+          "certificate iii in individual support south melbourne",
+          "disability support course south melbourne"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 43,
+      "keyword": "childcare course southbank",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Southbank",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-southbank/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Southbank' queries from Southbank's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Southbank CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses southbank",
+          "cert 3 childcare southbank",
+          "certificate iii in early childhood education and care southbank"
+        ],
+        "long_tail": [
+          "childcare courses southbank",
+          "cert 3 childcare southbank",
+          "certificate iii in early childhood education and care southbank"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 44,
+      "keyword": "diploma of early childhood education and care southbank",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Southbank",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-southbank/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Southbank' queries from Southbank's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Southbank CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma southbank",
+          "diploma of early childhood education southbank",
+          "early childhood diploma southbank"
+        ],
+        "long_tail": [
+          "childcare diploma southbank",
+          "diploma of early childhood education southbank",
+          "early childhood diploma southbank"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 45,
+      "keyword": "aged care course southbank",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Southbank",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-southbank/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Southbank' queries from Southbank's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Southbank CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course southbank",
+          "certificate iii in individual support southbank",
+          "disability support course southbank"
+        ],
+        "long_tail": [
+          "individual support course southbank",
+          "certificate iii in individual support southbank",
+          "disability support course southbank"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 46,
+      "keyword": "childcare course st albans",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "St Albans",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-st-albans/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course St Albans' queries from St Albans's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Albans CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses st albans",
+          "cert 3 childcare st albans",
+          "certificate iii in early childhood education and care st albans"
+        ],
+        "long_tail": [
+          "childcare courses st albans",
+          "cert 3 childcare st albans",
+          "certificate iii in early childhood education and care st albans"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 47,
+      "keyword": "diploma of early childhood education and care st albans",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "St Albans",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-st-albans/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care St Albans' queries from St Albans's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Albans CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma st albans",
+          "diploma of early childhood education st albans",
+          "early childhood diploma st albans"
+        ],
+        "long_tail": [
+          "childcare diploma st albans",
+          "diploma of early childhood education st albans",
+          "early childhood diploma st albans"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 48,
+      "keyword": "aged care course st albans",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "St Albans",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-st-albans/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course St Albans' queries from St Albans's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Albans CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course st albans",
+          "certificate iii in individual support st albans",
+          "disability support course st albans"
+        ],
+        "long_tail": [
+          "individual support course st albans",
+          "certificate iii in individual support st albans",
+          "disability support course st albans"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 49,
+      "keyword": "childcare course st kilda",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "St Kilda",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-st-kilda/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course St Kilda' queries from St Kilda's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Kilda CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses st kilda",
+          "cert 3 childcare st kilda",
+          "certificate iii in early childhood education and care st kilda"
+        ],
+        "long_tail": [
+          "childcare courses st kilda",
+          "cert 3 childcare st kilda",
+          "certificate iii in early childhood education and care st kilda"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 50,
+      "keyword": "diploma of early childhood education and care st kilda",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "St Kilda",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-st-kilda/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care St Kilda' queries from St Kilda's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Kilda CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma st kilda",
+          "diploma of early childhood education st kilda",
+          "early childhood diploma st kilda"
+        ],
+        "long_tail": [
+          "childcare diploma st kilda",
+          "diploma of early childhood education st kilda",
+          "early childhood diploma st kilda"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 51,
+      "keyword": "aged care course st kilda",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "St Kilda",
+      "ring": 1,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-st-kilda/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course St Kilda' queries from St Kilda's inner-Melbourne catchment (campus-proximate; lower care-worker density) (ring 1). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (St Kilda CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course st kilda",
+          "certificate iii in individual support st kilda",
+          "disability support course st kilda"
+        ],
+        "long_tail": [
+          "individual support course st kilda",
+          "certificate iii in individual support st kilda",
+          "disability support course st kilda"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 52,
+      "keyword": "childcare course sunshine",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Sunshine",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-sunshine/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Sunshine' queries from Sunshine's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Sunshine CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses sunshine",
+          "cert 3 childcare sunshine",
+          "certificate iii in early childhood education and care sunshine"
+        ],
+        "long_tail": [
+          "childcare courses sunshine",
+          "cert 3 childcare sunshine",
+          "certificate iii in early childhood education and care sunshine"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 53,
+      "keyword": "diploma of early childhood education and care sunshine",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Sunshine",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-sunshine/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Sunshine' queries from Sunshine's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Sunshine CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma sunshine",
+          "diploma of early childhood education sunshine",
+          "early childhood diploma sunshine"
+        ],
+        "long_tail": [
+          "childcare diploma sunshine",
+          "diploma of early childhood education sunshine",
+          "early childhood diploma sunshine"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 54,
+      "keyword": "aged care course sunshine",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Sunshine",
+      "ring": 2,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-sunshine/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Sunshine' queries from Sunshine's established multicultural care-worker heartland (ring 2). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Sunshine CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course sunshine",
+          "certificate iii in individual support sunshine",
+          "disability support course sunshine"
+        ],
+        "long_tail": [
+          "individual support course sunshine",
+          "certificate iii in individual support sunshine",
+          "disability support course sunshine"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 55,
+      "keyword": "childcare course tarneit",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Tarneit",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-tarneit/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Tarneit' queries from Tarneit's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Tarneit CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses tarneit",
+          "cert 3 childcare tarneit",
+          "certificate iii in early childhood education and care tarneit"
+        ],
+        "long_tail": [
+          "childcare courses tarneit",
+          "cert 3 childcare tarneit",
+          "certificate iii in early childhood education and care tarneit"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 56,
+      "keyword": "diploma of early childhood education and care tarneit",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Tarneit",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-tarneit/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Tarneit' queries from Tarneit's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Tarneit CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma tarneit",
+          "diploma of early childhood education tarneit",
+          "early childhood diploma tarneit"
+        ],
+        "long_tail": [
+          "childcare diploma tarneit",
+          "diploma of early childhood education tarneit",
+          "early childhood diploma tarneit"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 57,
+      "keyword": "aged care course tarneit",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Tarneit",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-tarneit/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Tarneit' queries from Tarneit's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Tarneit CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course tarneit",
+          "certificate iii in individual support tarneit",
+          "disability support course tarneit"
+        ],
+        "long_tail": [
+          "individual support course tarneit",
+          "certificate iii in individual support tarneit",
+          "disability support course tarneit"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 58,
+      "keyword": "childcare course truganina",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Truganina",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-truganina/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Truganina' queries from Truganina's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Truganina CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses truganina",
+          "cert 3 childcare truganina",
+          "certificate iii in early childhood education and care truganina"
+        ],
+        "long_tail": [
+          "childcare courses truganina",
+          "cert 3 childcare truganina",
+          "certificate iii in early childhood education and care truganina"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 59,
+      "keyword": "diploma of early childhood education and care truganina",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Truganina",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-truganina/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Truganina' queries from Truganina's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Truganina CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma truganina",
+          "diploma of early childhood education truganina",
+          "early childhood diploma truganina"
+        ],
+        "long_tail": [
+          "childcare diploma truganina",
+          "diploma of early childhood education truganina",
+          "early childhood diploma truganina"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 60,
+      "keyword": "aged care course truganina",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Truganina",
+      "ring": 3,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-truganina/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Truganina' queries from Truganina's high young-family/migrant growth-corridor care-worker catchment (ring 3). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Truganina CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course truganina",
+          "certificate iii in individual support truganina",
+          "disability support course truganina"
+        ],
+        "long_tail": [
+          "individual support course truganina",
+          "certificate iii in individual support truganina",
+          "disability support course truganina"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 61,
+      "keyword": "childcare course warrnambool",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Warrnambool",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-warrnambool/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Warrnambool' queries from Warrnambool's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Warrnambool CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses warrnambool",
+          "cert 3 childcare warrnambool",
+          "certificate iii in early childhood education and care warrnambool"
+        ],
+        "long_tail": [
+          "childcare courses warrnambool",
+          "cert 3 childcare warrnambool",
+          "certificate iii in early childhood education and care warrnambool"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 62,
+      "keyword": "diploma of early childhood education and care warrnambool",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Warrnambool",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-warrnambool/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Warrnambool' queries from Warrnambool's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Warrnambool CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma warrnambool",
+          "diploma of early childhood education warrnambool",
+          "early childhood diploma warrnambool"
+        ],
+        "long_tail": [
+          "childcare diploma warrnambool",
+          "diploma of early childhood education warrnambool",
+          "early childhood diploma warrnambool"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 63,
+      "keyword": "aged care course warrnambool",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Warrnambool",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/aged-care-course-warrnambool/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Warrnambool' queries from Warrnambool's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Warrnambool CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course warrnambool",
+          "certificate iii in individual support warrnambool",
+          "disability support course warrnambool"
+        ],
+        "long_tail": [
+          "individual support course warrnambool",
+          "certificate iii in individual support warrnambool",
+          "disability support course warrnambool"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 64,
+      "keyword": "childcare course pakenham",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Pakenham",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/childcare-course-pakenham/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Pakenham' queries from Pakenham's high young-family/migrant growth-corridor care-worker catchment (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Pakenham CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses pakenham",
+          "cert 3 childcare pakenham",
+          "certificate iii in early childhood education and care pakenham"
+        ],
+        "long_tail": [
+          "childcare courses pakenham",
+          "cert 3 childcare pakenham",
+          "certificate iii in early childhood education and care pakenham"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 65,
+      "keyword": "diploma of early childhood education and care pakenham",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Pakenham",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4561,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-pakenham/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "0/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Pakenham' queries from Pakenham's high young-family/migrant growth-corridor care-worker catchment (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Pakenham CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma pakenham",
+          "diploma of early childhood education pakenham",
+          "early childhood diploma pakenham"
+        ],
+        "long_tail": [
+          "childcare diploma pakenham",
+          "diploma of early childhood education pakenham",
+          "early childhood diploma pakenham"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 66,
+      "keyword": "aged care course pakenham",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Pakenham",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.3487,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 38,
+      "current_position": null,
+      "cpc": 6.62,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "medium_term",
+      "target_url": "https://tpc.edu.au/aged-care-course-pakenham/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 38. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Pakenham' queries from Pakenham's high young-family/migrant growth-corridor care-worker catchment (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Pakenham CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course pakenham",
+          "certificate iii in individual support pakenham",
+          "disability support course pakenham"
+        ],
+        "long_tail": [
+          "individual support course pakenham",
+          "certificate iii in individual support pakenham",
+          "disability support course pakenham"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 67,
+      "keyword": "childcare course geelong",
+      "service": "childcare course",
+      "silo": "ecec-childcare",
+      "suburb": "Geelong",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.3285,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 38,
+      "current_position": null,
+      "cpc": 6.1,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "medium_term",
+      "target_url": "https://tpc.edu.au/childcare-course-geelong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 38. Grid cell in the analyst-approved 23-suburb childcare long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'childcare course Geelong' queries from Geelong's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Geelong CBD-campus access + transport + local work-placement partners) linking up to the /certificate-in-child-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare courses geelong",
+          "cert 3 childcare geelong",
+          "certificate iii in early childhood education and care geelong"
+        ],
+        "long_tail": [
+          "childcare courses geelong",
+          "cert 3 childcare geelong",
+          "certificate iii in early childhood education and care geelong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 68,
+      "keyword": "diploma of early childhood education and care geelong",
+      "service": "diploma of early childhood education and care",
+      "silo": "ecec-diploma",
+      "suburb": "Geelong",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.4914,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "https://tpc.edu.au/diploma-early-childhood-geelong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "10/mo measured, KD 0. Grid cell in the analyst-approved 23-suburb diploma of early childhood long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'diploma of early childhood education and care Geelong' queries from Geelong's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Geelong CBD-campus access + transport + local work-placement partners) linking up to the /diploma-of-early-childhood-education-and-care/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "childcare diploma geelong",
+          "diploma of early childhood education geelong",
+          "early childhood diploma geelong"
+        ],
+        "long_tail": [
+          "childcare diploma geelong",
+          "diploma of early childhood education geelong",
+          "early childhood diploma geelong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    },
+    {
+      "rank": 69,
+      "keyword": "aged care course geelong",
+      "service": "aged care course",
+      "silo": "individual-support-aged-care",
+      "suburb": "Geelong",
+      "ring": 4,
+      "distance_km": 0,
+      "opportunity_score": 0.3657,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 39,
+      "current_position": null,
+      "cpc": 8.03,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "medium_term",
+      "target_url": "https://tpc.edu.au/aged-care-course-geelong/",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "30/mo measured, KD 39. Grid cell in the analyst-approved 23-suburb aged care / individual support long-tail play (2026-07-14): VET course search is city-level so most suburbs read ~0, but this targets high-intent 'aged care course Geelong' queries from Geelong's regional-city catchment (domestic online delivery) (ring 4). Winnable for a DA-7 provider — suburb-level local intent excludes the national government TAFEs (tafeqld/tafensw, DA 41-54) that wall the bare qualification terms; only reachable Melbourne RTOs compete locally. AI Overview low_or_none. Action: light LOCAL landing page (Geelong CBD-campus access + transport + local work-placement partners) linking up to the /certificate-iii-in-individual-support-ageing-and-disability/ pillar — genuine local content, NOT a thin doorway page.",
+      "secondaries": {
+        "keywords": [
+          "individual support course geelong",
+          "certificate iii in individual support geelong",
+          "disability support course geelong"
+        ],
+        "long_tail": [
+          "individual support course geelong",
+          "certificate iii in individual support geelong",
+          "disability support course geelong"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      }
+    }
+  ],
+  "silos": [
+    {
+      "silo_id": "ecec-childcare",
+      "name": "Childcare (ECEC Certificate III)",
+      "pillar_url": "https://tpc.edu.au/certificate-in-child-care/",
+      "internal_linking": "23 suburb childcare landing pages -> Cert III pillar; pillar -> Diploma pillar (upsell pathway).",
+      "pillar_keyword": "",
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "ecec-diploma",
+      "name": "Diploma of Early Childhood Education & Care",
+      "pillar_url": "https://tpc.edu.au/diploma-of-early-childhood-education-and-care/",
+      "internal_linking": "23 suburb diploma landing pages -> Diploma pillar; Diploma <-> Cert III cross-links (pathway).",
+      "pillar_keyword": "",
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "individual-support-aged-care",
+      "name": "Aged Care / Individual Support",
+      "pillar_url": "https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/",
+      "internal_linking": "23 suburb aged-care landing pages -> Individual Support pillar; pillar -> Diploma of Community Services (pathway).",
+      "pillar_keyword": "",
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    },
+    {
+      "silo_id": "general-community-services",
+      "name": "Community Services (general only)",
+      "pillar_url": "https://tpc.edu.au/diploma-of-community-services/",
+      "internal_linking": "General head only; links from Individual Support pillar as a care-sector pathway.",
+      "pillar_keyword": "",
+      "total_silo_volume": 0,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 0
+    }
+  ],
+  "excluded_notable": [
+    {
+      "keyword": "certificate iii in individual support (bare, 18,100)",
+      "reason": "TAFE QLD/NSW wall + AI Overview — unwinnable for DA 7; Melbourne-qualified form selected instead."
+    },
+    {
+      "keyword": "childcare course online (1,000)",
+      "reason": "Analyst chose Local Melbourne lean over online-national; strongest FUTURE general-package candidate."
+    },
+    {
+      "keyword": "Leadership/Management diplomas (BSB50420/60420/80120)",
+      "reason": "~10/mo, national/international audience; Tier C, excluded from the 5-slot general budget."
+    },
+    {
+      "keyword": "Construction / Cabinet Making / First Aid / White Card / Child Protection",
+      "reason": "Tier D — no site page, no Q13 prefs, no measured demand; future content-gap opportunities."
+    }
+  ]
+}

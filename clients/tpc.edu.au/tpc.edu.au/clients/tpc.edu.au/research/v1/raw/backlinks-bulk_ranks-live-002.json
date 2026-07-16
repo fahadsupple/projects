@@ -1,0 +1,93 @@
+{
+    "version": "0.1.20260713",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0710 sec.",
+    "cost": 0.024396,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07140645-1150-0347-0000-e7c50de6998e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0084 sec.",
+            "cost": 0.024396,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "tpc.edu.au",
+                    "courses.com.au",
+                    "kiranacolleges.edu.au",
+                    "melbournepolytechnic.edu.au",
+                    "tafeqld.edu.au",
+                    "selmar.edu.au",
+                    "actac.com.au",
+                    "alg.edu.au",
+                    "itac.edu.au",
+                    "lauruseducation.com.au",
+                    "mcfe.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 11,
+                    "items": [
+                        {
+                            "target": "tpc.edu.au",
+                            "rank": 71
+                        },
+                        {
+                            "target": "courses.com.au",
+                            "rank": 288
+                        },
+                        {
+                            "target": "kiranacolleges.edu.au",
+                            "rank": 539
+                        },
+                        {
+                            "target": "melbournepolytechnic.edu.au",
+                            "rank": 328
+                        },
+                        {
+                            "target": "tafeqld.edu.au",
+                            "rank": 414
+                        },
+                        {
+                            "target": "selmar.edu.au",
+                            "rank": 271
+                        },
+                        {
+                            "target": "actac.com.au",
+                            "rank": 251
+                        },
+                        {
+                            "target": "alg.edu.au",
+                            "rank": 238
+                        },
+                        {
+                            "target": "itac.edu.au",
+                            "rank": 144
+                        },
+                        {
+                            "target": "lauruseducation.com.au",
+                            "rank": 182
+                        },
+                        {
+                            "target": "mcfe.com.au",
+                            "rank": 268
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

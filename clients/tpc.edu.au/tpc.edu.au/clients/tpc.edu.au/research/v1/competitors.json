@@ -1,0 +1,2324 @@
+{
+  "client": {
+    "domain": "tpc.edu.au",
+    "domain_authority": 7
+  },
+  "competitors": [
+    {
+      "domain": "courses.com.au",
+      "domain_authority": 29,
+      "organic_keywords": 84,
+      "monthly_traffic": 68,
+      "organic_traffic": 68,
+      "avg_position": 61.023809523809526,
+      "intersections": 84,
+      "overlap_pct": 74.3
+    },
+    {
+      "domain": "kiranacolleges.edu.au",
+      "domain_authority": 54,
+      "organic_keywords": 80,
+      "monthly_traffic": 66,
+      "organic_traffic": 66,
+      "avg_position": 9.125,
+      "intersections": 80,
+      "overlap_pct": 70.8
+    },
+    {
+      "domain": "melbournepolytechnic.edu.au",
+      "domain_authority": 33,
+      "organic_keywords": 80,
+      "monthly_traffic": 65,
+      "organic_traffic": 65,
+      "avg_position": 37.9875,
+      "intersections": 80,
+      "overlap_pct": 70.8
+    },
+    {
+      "domain": "tafeqld.edu.au",
+      "domain_authority": 41,
+      "organic_keywords": 79,
+      "monthly_traffic": 66,
+      "organic_traffic": 66,
+      "avg_position": 16.936708860759495,
+      "intersections": 79,
+      "overlap_pct": 69.9
+    },
+    {
+      "domain": "selmar.edu.au",
+      "domain_authority": 27,
+      "organic_keywords": 78,
+      "monthly_traffic": 65,
+      "organic_traffic": 65,
+      "avg_position": 15.987179487179487,
+      "intersections": 78,
+      "overlap_pct": 69.0
+    },
+    {
+      "domain": "actac.com.au",
+      "domain_authority": 25,
+      "organic_keywords": null,
+      "monthly_traffic": null,
+      "organic_traffic": null,
+      "avg_position": null,
+      "intersections": null,
+      "overlap_pct": null
+    },
+    {
+      "domain": "alg.edu.au",
+      "domain_authority": 24,
+      "organic_keywords": null,
+      "monthly_traffic": null,
+      "organic_traffic": null,
+      "avg_position": null,
+      "intersections": null,
+      "overlap_pct": null
+    },
+    {
+      "domain": "itac.edu.au",
+      "domain_authority": 14,
+      "organic_keywords": null,
+      "monthly_traffic": null,
+      "organic_traffic": null,
+      "avg_position": null,
+      "intersections": null,
+      "overlap_pct": null
+    },
+    {
+      "domain": "lauruseducation.com.au",
+      "domain_authority": 18,
+      "organic_keywords": null,
+      "monthly_traffic": null,
+      "organic_traffic": null,
+      "avg_position": null,
+      "intersections": null,
+      "overlap_pct": null
+    },
+    {
+      "domain": "mcfe.com.au",
+      "domain_authority": 27,
+      "organic_keywords": null,
+      "monthly_traffic": null,
+      "organic_traffic": null,
+      "avg_position": null,
+      "intersections": null,
+      "overlap_pct": null
+    }
+  ],
+  "keyword_gaps": [
+    {
+      "keyword": "juris doctorate",
+      "volume": 135000,
+      "keyword_difficulty": 16,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "juris doctor",
+      "volume": 135000,
+      "keyword_difficulty": 18,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pathologist",
+      "volume": 74000,
+      "keyword_difficulty": 16,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "metro training",
+      "volume": 49500,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "medical lab science",
+      "volume": 49500,
+      "keyword_difficulty": 12,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "probationary officer",
+      "volume": 49500,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "charles sturt university",
+      "volume": 49500,
+      "keyword_difficulty": 22,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "uni of newcastle",
+      "volume": 49500,
+      "keyword_difficulty": 21,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "holmesglen",
+      "volume": 40500,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certified fund specialist",
+      "volume": 33100,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "educational assistant",
+      "volume": 33100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "ivet",
+      "volume": 27100,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "exercise physiology",
+      "volume": 22200,
+      "keyword_difficulty": 16,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "box hill institute australia",
+      "volume": 22200,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "medical information management",
+      "volume": 18100,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individual support certificate 3",
+      "volume": 18100,
+      "keyword_difficulty": 2,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "anthropologists",
+      "volume": 18100,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iii individual support",
+      "volume": 18100,
+      "keyword_difficulty": 12,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "chisholm institute tafe vic",
+      "volume": 18100,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iii in individual support",
+      "volume": 18100,
+      "keyword_difficulty": 9,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "polytechnic melbourne",
+      "volume": 18100,
+      "keyword_difficulty": 19,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "anthropologist",
+      "volume": 18100,
+      "keyword_difficulty": 5,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "melbourne polytechnic",
+      "volume": 18100,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "australian catholic university",
+      "volume": 18100,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "chisholm institute",
+      "volume": 18100,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "phlebotomist",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 in individual support",
+      "volume": 18100,
+      "keyword_difficulty": 13,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "william angliss institute",
+      "volume": 18100,
+      "keyword_difficulty": 13,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "health information management",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "phlebotomy",
+      "volume": 18100,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 individual support",
+      "volume": 18100,
+      "keyword_difficulty": 9,
+      "competition_level": "HIGH",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "health information and management",
+      "volume": 18100,
+      "keyword_difficulty": 9,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "ausc",
+      "volume": 18100,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "courses.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma of community services",
+      "volume": 9900,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in community services",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 4 in mental health",
+      "volume": 4400,
+      "keyword_difficulty": 3,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iv in community services",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma in early childhood teaching",
+      "volume": 4400,
+      "keyword_difficulty": 11,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma of counselling",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 in aged care",
+      "volume": 4400,
+      "keyword_difficulty": 10,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma early education",
+      "volume": 4400,
+      "keyword_difficulty": 6,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iii in aged care",
+      "volume": 4400,
+      "keyword_difficulty": 12,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma in early childhood education",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in mental health",
+      "volume": 4400,
+      "keyword_difficulty": 5,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate three aged care",
+      "volume": 4400,
+      "keyword_difficulty": 17,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate three in aged care",
+      "volume": 4400,
+      "keyword_difficulty": 6,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 4 community services",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 111 aged care",
+      "volume": 4400,
+      "keyword_difficulty": 6,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "community services cert 4",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 111 in aged care",
+      "volume": 4400,
+      "keyword_difficulty": 22,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 aged care",
+      "volume": 4400,
+      "keyword_difficulty": 7,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iv community services",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 111 early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 10,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "courses for counselling",
+      "volume": 3600,
+      "keyword_difficulty": 2,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood and education courses",
+      "volume": 3600,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "eced courses",
+      "volume": 3600,
+      "keyword_difficulty": 20,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood care course",
+      "volume": 3600,
+      "keyword_difficulty": 15,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early education course",
+      "volume": 3600,
+      "keyword_difficulty": 4,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood teacher courses",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early year education courses",
+      "volume": 3600,
+      "keyword_difficulty": 15,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early years education course",
+      "volume": 3600,
+      "keyword_difficulty": 20,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood courses",
+      "volume": 3600,
+      "keyword_difficulty": 18,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood teaching courses",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "counsellor courses",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood education courses",
+      "volume": 3600,
+      "keyword_difficulty": 16,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "counselling courses",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "community services courses",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "course in community services",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "careers in community services",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma of early childhood education and care",
+      "volume": 2400,
+      "keyword_difficulty": 5,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "eca code of ethics",
+      "volume": 2400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "kktc login",
+      "volume": 2400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early childhood australia code of ethics",
+      "volume": 2400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma in early childhood care & education",
+      "volume": 2400,
+      "keyword_difficulty": 5,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "support worker course",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "courses support worker",
+      "volume": 1900,
+      "keyword_difficulty": 5,
+      "competition_level": "HIGH",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "recognition of prior learning",
+      "volume": 1900,
+      "keyword_difficulty": 4,
+      "competition_level": "MEDIUM",
+      "source_competitor": "kiranacolleges.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "staff links",
+      "volume": 60500,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "hairdressing salon",
+      "volume": 60500,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pearson language test",
+      "volume": 60500,
+      "keyword_difficulty": 20,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte test booking",
+      "volume": 40500,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte exam booking",
+      "volume": 40500,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "booking for pte exam",
+      "volume": 40500,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "book pte exam",
+      "volume": 40500,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte book test",
+      "volume": 40500,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "book pte test",
+      "volume": 40500,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "level 3",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte pearson test",
+      "volume": 18100,
+      "keyword_difficulty": 14,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pearson pte",
+      "volume": 18100,
+      "keyword_difficulty": 14,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "book pte",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte booking",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pte book",
+      "volume": 18100,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "poly melbourne",
+      "volume": 18100,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 4 in training and assessment",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 4 training assessment",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in training and assessing",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 4 in training and assessment",
+      "volume": 14800,
+      "keyword_difficulty": 1,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "melbourne polytechnic preston campus",
+      "volume": 14800,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iv training and assessment",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "free tafe courses",
+      "volume": 14800,
+      "keyword_difficulty": 13,
+      "competition_level": "MEDIUM",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "pearson professional centers",
+      "volume": 14800,
+      "keyword_difficulty": 10,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in training assessment",
+      "volume": 14800,
+      "keyword_difficulty": 2,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 4 training and assessment",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "epping victoria",
+      "volume": 12100,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "civil engineering",
+      "volume": 12100,
+      "keyword_difficulty": 4,
+      "competition_level": "LOW",
+      "source_competitor": "melbournepolytechnic.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "hairdresser near me",
+      "volume": 201000,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "nearest mechanic to me",
+      "volume": 135000,
+      "keyword_difficulty": 4,
+      "competition_level": "HIGH",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "sunny bank",
+      "volume": 74000,
+      "keyword_difficulty": 15,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "tafe connect",
+      "volume": 74000,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "sper",
+      "volume": 60500,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "bank holiday qld",
+      "volume": 60500,
+      "keyword_difficulty": 21,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "stanthorpe australia",
+      "volume": 33100,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "electrician",
+      "volume": 33100,
+      "keyword_difficulty": 1,
+      "competition_level": "MEDIUM",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "prepl",
+      "volume": 27100,
+      "keyword_difficulty": 11,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "brackenridge brisbane",
+      "volume": 27100,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "sper login",
+      "volume": 27100,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "brackenridge queensland",
+      "volume": 27100,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "student connect",
+      "volume": 27100,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "sper log in",
+      "volume": 27100,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "bracken ridge queensland",
+      "volume": 27100,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "brackenridge australia",
+      "volume": 27100,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "weather mooloolaba",
+      "volume": 22200,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "white pages directory residential",
+      "volume": 22200,
+      "keyword_difficulty": 11,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "redcliffe qld weather",
+      "volume": 22200,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate of advanced study",
+      "volume": 22200,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "tafe queensland south bank campus",
+      "volume": 22200,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "property cairns",
+      "volume": 18100,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "student caf\u00e9",
+      "volume": 18100,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "tafeqld.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "usi",
+      "volume": 90500,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "book week books",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "book week",
+      "volume": 14800,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "customer service",
+      "volume": 5400,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "serve customer",
+      "volume": 5400,
+      "keyword_difficulty": 12,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "5 senses",
+      "volume": 5400,
+      "keyword_difficulty": 12,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 childcare",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 111 in childcare",
+      "volume": 4400,
+      "keyword_difficulty": 2,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 in childcare",
+      "volume": 4400,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "e-learning",
+      "volume": 4400,
+      "keyword_difficulty": 14,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma early childhood",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert three in childcare",
+      "volume": 4400,
+      "keyword_difficulty": 1,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 111 childcare",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iii in early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "festival of colours",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 in early childhood education",
+      "volume": 3600,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 in early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 2,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "monarch institute",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 111 in early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iii early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 9,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "early education courses",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "staying healthy in childcare",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "edsmart",
+      "volume": 2400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "what is a usi",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "learning styles",
+      "volume": 1900,
+      "keyword_difficulty": 9,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "recognition of prior learning certificate",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "upskilling",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "educators day",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "selmar.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "usi number",
+      "volume": 49500,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teacher's aide course",
+      "volume": 5400,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teaching aide course",
+      "volume": 5400,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teaching aide courses",
+      "volume": 5400,
+      "keyword_difficulty": 4,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teachers aide course",
+      "volume": 5400,
+      "keyword_difficulty": 3,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teacher aide course",
+      "volume": 5400,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "itac",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 early childhood education and care",
+      "volume": 3600,
+      "keyword_difficulty": 5,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 111 in early childhood education",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "acta",
+      "volume": 2400,
+      "keyword_difficulty": 13,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 in education support",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "dcac",
+      "volume": 1900,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "working ethically",
+      "volume": 1900,
+      "keyword_difficulty": 4,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "actac",
+      "volume": 1900,
+      "keyword_difficulty": 11,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 3 education support",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "education support certificate 3",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iii in education support",
+      "volume": 1900,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teaching aid for teachers",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teaching aids",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "diploma in childcare",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teachers aide pay",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "daycare diploma",
+      "volume": 1600,
+      "keyword_difficulty": 12,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "australian colleges of community services and care",
+      "volume": 1600,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teachers aids",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "childcare course",
+      "volume": 1600,
+      "keyword_difficulty": 7,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "accco",
+      "volume": 1600,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "actac login",
+      "volume": 1600,
+      "keyword_difficulty": 5,
+      "competition_level": "LOW",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "daycare course",
+      "volume": 1600,
+      "keyword_difficulty": 21,
+      "competition_level": "HIGH",
+      "source_competitor": "actac.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "harvard referencing",
+      "volume": 27100,
+      "keyword_difficulty": 19,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "my equals",
+      "volume": 27100,
+      "keyword_difficulty": 15,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "my equal",
+      "volume": 27100,
+      "keyword_difficulty": 15,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "myequal",
+      "volume": 27100,
+      "keyword_difficulty": 9,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "ikon institute",
+      "volume": 18100,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "rpl",
+      "volume": 8100,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "equals",
+      "volume": 8100,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "graduate diploma early childhood teaching",
+      "volume": 6600,
+      "keyword_difficulty": 11,
+      "competition_level": "MEDIUM",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "community services",
+      "volume": 6600,
+      "keyword_difficulty": 4,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "grad dip early childhood",
+      "volume": 6600,
+      "keyword_difficulty": 11,
+      "competition_level": "MEDIUM",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "graduate diploma in early childhood education",
+      "volume": 6600,
+      "keyword_difficulty": 11,
+      "competition_level": "MEDIUM",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "portals login",
+      "volume": 4400,
+      "keyword_difficulty": 20,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "my equals login",
+      "volume": 4400,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "myequal login",
+      "volume": 4400,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "australian learning group",
+      "volume": 3600,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "aldi academy",
+      "volume": 3600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "alg.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "sso",
+      "volume": 6600,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "teachers aide career",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "metacognitive",
+      "volume": 4400,
+      "keyword_difficulty": 21,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "meta-cognition",
+      "volume": 4400,
+      "keyword_difficulty": 20,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individual learning plan",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individual education plans",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individualised education plan",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individualized education plan",
+      "volume": 2900,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "individualized education program",
+      "volume": 2900,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "itac.edu.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "regional educational laboratory",
+      "volume": 6600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "barista classes melbourne",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "gurus",
+      "volume": 4400,
+      "keyword_difficulty": 14,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "document checklist tool",
+      "volume": 2900,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "davey lodge",
+      "volume": 2400,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "rl education",
+      "volume": 1900,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "aurora training institute",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "dormitory",
+      "volume": 1300,
+      "keyword_difficulty": 13,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "dorm",
+      "volume": 1300,
+      "keyword_difficulty": 15,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "aurora colleges",
+      "volume": 1300,
+      "keyword_difficulty": 20,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "y suites",
+      "volume": 1300,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "dormitories",
+      "volume": 1300,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "ursula hall laurus wing",
+      "volume": 1000,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "laurus education",
+      "volume": 1000,
+      "keyword_difficulty": 7,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "laureate",
+      "volume": 1000,
+      "keyword_difficulty": 3,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "tls education",
+      "volume": 880,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "checklist of documents",
+      "volume": 880,
+      "keyword_difficulty": 12,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "doc checklist",
+      "volume": 880,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "universal higher education",
+      "volume": 880,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "central courtyard accommodation",
+      "volume": 880,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "city groves student accommodation",
+      "volume": 720,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "graduate house",
+      "volume": 590,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "laneway education",
+      "volume": 590,
+      "keyword_difficulty": 4,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "o'connell residence",
+      "volume": 590,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "graduation house",
+      "volume": 590,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "document checklist tool australia",
+      "volume": 480,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "academie house",
+      "volume": 480,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "my rooms",
+      "volume": 480,
+      "keyword_difficulty": 16,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "southeastern education",
+      "volume": 390,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "student lounge",
+      "volume": 390,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "apollo education",
+      "volume": 260,
+      "keyword_difficulty": 9,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "educational living",
+      "volume": 210,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "realus education",
+      "volume": 210,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "laurus higher education",
+      "volume": 210,
+      "keyword_difficulty": 1,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "aurora training toowoomba",
+      "volume": 170,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "riversdale residence",
+      "volume": 170,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "university mews",
+      "volume": 170,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "what do i need",
+      "volume": 170,
+      "keyword_difficulty": 14,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "tours for teachers",
+      "volume": 170,
+      "keyword_difficulty": 4,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "laurels education and training",
+      "volume": 140,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "australia student guide",
+      "volume": 140,
+      "keyword_difficulty": 21,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certification vs diploma",
+      "volume": 140,
+      "keyword_difficulty": 0,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "masters housing",
+      "volume": 140,
+      "keyword_difficulty": 17,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "what is a certificate",
+      "volume": 140,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "novus education",
+      "volume": 140,
+      "keyword_difficulty": 6,
+      "competition_level": "LOW",
+      "source_competitor": "lauruseducation.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "centre for adult education",
+      "volume": 4400,
+      "keyword_difficulty": 18,
+      "competition_level": "LOW",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in workplace health and safety",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "whs cert iv",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iv in work health and safety",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 4 in health and safety",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "health and safety certificate iv",
+      "volume": 4400,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "career education corporation",
+      "volume": 3600,
+      "keyword_difficulty": 2,
+      "competition_level": "LOW",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "mc portal",
+      "volume": 2400,
+      "keyword_difficulty": 8,
+      "competition_level": "LOW",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 4 ohs",
+      "volume": 1900,
+      "keyword_difficulty": 8,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "education support cert 4",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "infection control certificate",
+      "volume": 1600,
+      "keyword_difficulty": 3,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate iv in education support",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert 4 education support",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 4 in education support",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "cert iv education support",
+      "volume": 1600,
+      "keyword_difficulty": 0,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "courses in childcare",
+      "volume": 1600,
+      "keyword_difficulty": 7,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "childcare courses",
+      "volume": 1600,
+      "keyword_difficulty": 3,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "aged care certificate",
+      "volume": 1300,
+      "keyword_difficulty": 6,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate 3 individual support online",
+      "volume": 1000,
+      "keyword_difficulty": 3,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "education support course",
+      "volume": 1000,
+      "keyword_difficulty": 0,
+      "competition_level": "HIGH",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    },
+    {
+      "keyword": "certificate three early childhood",
+      "volume": 1000,
+      "keyword_difficulty": 4,
+      "competition_level": "MEDIUM",
+      "source_competitor": "mcfe.com.au",
+      "kd_basis": "dataforseo"
+    }
+  ],
+  "data_sources": [
+    "dataforseo:labs/competitors_domain",
+    "dataforseo:backlinks/bulk_ranks",
+    "dataforseo:labs/domain_intersection"
+  ],
+  "generated_at_utc": "2026-07-14T03:46:20.334426+00:00"
+}

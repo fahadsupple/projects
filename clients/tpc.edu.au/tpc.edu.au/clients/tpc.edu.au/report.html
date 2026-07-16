@@ -1,0 +1,4623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyword Research Report - The Performance College</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #16213e;
+      --text: #e8e8e8;
+      --muted: #a0a0b0;
+      --accent: #0f3460;
+      --success: #4ecca3;
+      --warning: #f0a500;
+      --danger: #e74c3c;
+      --highlight: #533483;
+      --sidebar-w: 240px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "SF Mono", "Cascadia Code", "Fira Code", monospace;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-width: 1024px;
+    }
+    h1, h2, h3, h4 {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin-bottom: 0.5em;
+    }
+    h2 { color: var(--text); border-bottom: 2px solid var(--accent); padding-bottom: 0.3em; margin-bottom: 1em; font-size: 1.5rem; }
+    h3 { color: var(--muted); margin-top: 1.5em; font-size: 1.15rem; }
+    h4 { font-size: 1rem; }
+    a { color: var(--success); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0; left: 0;
+      width: var(--sidebar-w);
+      height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--accent);
+      overflow-y: auto;
+      padding: 1rem 0;
+      z-index: 100;
+    }
+    .sidebar h3 {
+      padding: 0 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+    .sidebar a {
+      display: block;
+      padding: 0.35rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text);
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .sidebar a:hover, .sidebar a:focus {
+      background: var(--accent);
+      border-left-color: var(--success);
+      text-decoration: none;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: var(--sidebar-w);
+      padding: 2rem 3rem;
+      max-width: 1400px;
+    }
+
+    /* Sections */
+    .section { margin-bottom: 3rem; }
+    .section-intro { color: var(--muted); margin-bottom: 1.5em; }
+    .section-note { color: var(--muted); font-size: 0.85rem; margin-top: 1em; font-style: italic; }
+
+    /* Cover */
+    .cover-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--surface), var(--accent));
+      border-radius: 8px;
+      margin-bottom: 3rem;
+    }
+    .cover-title { font-size: 2.5rem; margin-bottom: 0.3em; }
+    .cover-domain { font-size: 1.3rem; color: var(--success); margin-bottom: 0.2em; }
+    .cover-business { font-size: 1.1rem; color: var(--muted); margin-bottom: 2em; }
+    .cover-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; text-align: left; max-width: 800px; margin: 0 auto; }
+    .cover-meta-item { background: rgba(0,0,0,0.2); padding: 0.6rem 1rem; border-radius: 4px; }
+    .meta-label { display: block; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+    .meta-value { font-size: 0.95rem; font-weight: bold; }
+
+    /* Stats grid */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--surface); padding: 1.2rem; border-radius: 6px; text-align: center; border: 1px solid var(--accent); }
+    .stat-value { font-size: 1.6rem; font-weight: bold; color: var(--success); font-family: system-ui, sans-serif; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3em; }
+
+    /* Tables */
+    .table-scroll { overflow-x: auto; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .data-table th {
+      background: var(--accent);
+      color: var(--text);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .data-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+    .data-table tbody tr:hover { background: rgba(78,204,163,0.08); }
+    .compact-table td, .compact-table th { padding: 0.35rem 0.6rem; }
+    .kw-row { cursor: pointer; }
+    .kw-row:hover { background: rgba(78,204,163,0.12); }
+    .kw-name { font-weight: bold; }
+
+    /* Score badge */
+    .score-badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    /* Timeline badge */
+    .tl-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
+    .tl-quick_win { background: var(--success); color: #000; }
+    .tl-medium_term { background: var(--warning); color: #000; }
+    .tl-strategic { background: var(--highlight); color: #fff; }
+
+    /* Status */
+    .status-pass { color: var(--success); font-weight: bold; }
+    .status-fail { color: var(--danger); }
+
+    /* Volume provenance marker (P0.32) */
+    .vol-marker { color: var(--warning); cursor: help; font-weight: bold; }
+
+    /* Callout blocks (P0.14) */
+    .callout { padding: 1em; border-left: 4px solid; border-radius: 4px; margin: 1em 0; }
+    .callout-warning { background: rgba(240, 165, 0, 0.1); border-color: var(--warning); }
+    .callout-danger { background: rgba(231, 76, 60, 0.1); border-color: var(--danger); }
+    .callout-danger h3 { color: var(--danger); }
+    .callout-info { background: rgba(15, 52, 96, 0.1); border-color: var(--accent); }
+    .callout-info h3 { color: var(--accent); }
+    .callout h3 { margin-top: 0; color: var(--warning); }
+
+    /* Info card */
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-left: 4px solid var(--warning);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+    }
+    .info-icon { font-size: 1.4rem; color: var(--warning); flex-shrink: 0; }
+    .info-card p { margin: 0; color: var(--muted); }
+
+    /* Limitations */
+    .limitations { background: var(--surface); border-radius: 4px; padding: 1rem; margin-top: 1.5rem; }
+    .limitations h4 { color: var(--warning); }
+    .limitations ul { padding-left: 1.5rem; color: var(--muted); }
+    .limitations li { margin-bottom: 0.3em; }
+
+    /* Charts */
+    .chart-row { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .chart-block { flex: 1; min-width: 280px; }
+    .chart-block h4 { margin-bottom: 0.8rem; }
+
+    /* Detail row */
+    .detail-row td { background: var(--surface); }
+    .detail-content { padding: 1rem; }
+    .detail-grid { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem; }
+    .detail-info p { margin-bottom: 0.3em; font-size: 0.85rem; }
+    .reasoning { font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; padding: 0.8rem; background: rgba(0,0,0,0.2); border-radius: 4px; }
+    .secondaries-detail { font-size: 0.85rem; }
+    .sec-group { margin-bottom: 0.5rem; }
+    .sec-group ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Silo cards */
+    .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .silo-card { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .silo-card h4 { color: var(--success); }
+    .silo-meta { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .silo-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; font-size: 0.8rem; }
+    .silo-lists ul { padding-left: 1.2rem; color: var(--muted); }
+
+    /* Heatmap */
+    .heatmap-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+    .heatmap-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      color: var(--text);
+    }
+    .heatmap-label { font-weight: bold; font-size: 0.65rem; }
+    .heatmap-score { font-size: 0.6rem; color: rgba(255,255,255,0.7); }
+
+    /* Calendar grid */
+    .calendar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+    .calendar-cell {
+      padding: 0.8rem 0.5rem;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .cal-month { font-weight: bold; }
+    .cal-count { font-size: 0.7rem; color: rgba(255,255,255,0.7); }
+
+    /* Tier grid */
+    .tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .def-tier { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; }
+    .def-tier ul { padding-left: 1.2rem; color: var(--muted); font-size: 0.85rem; }
+
+    /* Expansion */
+    .expansion-ring { background: var(--surface); border: 1px solid var(--accent); border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+    .expansion-ring h3 { margin-top: 0; }
+
+    /* Methodology */
+    .methodology-content p { margin-bottom: 0.8em; }
+    .feature-list { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .feature-list li { margin-bottom: 0.3em; }
+
+    /* Brand */
+    .brand-details p { color: var(--muted); }
+
+    /* Sortable table header cue */
+    .sortable-table th { cursor: pointer; }
+    .sortable-table th:hover { background: var(--highlight); }
+    .sort-asc::after { content: " \25B2"; font-size: 0.65em; }
+    .sort-desc::after { content: " \25BC"; font-size: 0.65em; }
+
+    /* Print styles */
+    @media print {
+      body { background: #fff; color: #111; min-width: auto; }
+      .sidebar { display: none; }
+      .main-content { margin-left: 0; padding: 1rem; max-width: 100%; }
+      .section { page-break-inside: avoid; margin-bottom: 1rem; }
+      .cover-section { page-break-after: always; background: none; padding: 2rem 0; }
+      #confidence { page-break-after: always; }
+      #executive { page-break-after: always; }
+      #general_keywords { page-break-before: always; }
+      #location_keywords { page-break-before: always; }
+      #silo_architecture { page-break-before: always; }
+      #methodology { page-break-before: always; }
+      #appendix { page-break-before: always; }
+      .data-table th { background: #ddd; color: #111; position: static; }
+      .data-table td { border-bottom: 1px solid #ccc; }
+      .data-table tbody tr:nth-child(even) { background: #f5f5f5; }
+      .stat-card { border: 1px solid #ccc; }
+      .stat-value { color: #333; }
+      .info-card { border-color: #ccc; }
+      .score-badge { border: 1px solid #999; }
+      .cover-section { border: 1px solid #ccc; border-radius: 0; }
+      a { color: #333; }
+      svg text { fill: #111; }
+      svg circle[stroke="#2a2a4a"] { stroke: #ddd; }
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .main-content { padding: 1.5rem 2rem; }
+      .chart-row { flex-direction: column; }
+    }
+</style>
+</head>
+<body>
+<nav class="sidebar">
+  <h3>Navigation</h3>
+    <a href="#cover">Cover Page</a>
+    <a href="#confidence">Data Confidence Summary</a>
+    <a href="#strategic_narratives">Strategic Narratives</a>
+    <a href="#executive">Executive Summary</a>
+    <a href="#allocation">Package Allocation</a>
+    <a href="#general_keywords">Selected General Keywords</a>
+    <a href="#location_keywords">Selected Location Keywords</a>
+    <a href="#current_rankings">Ranking Snapshot (DataForSEO)</a>
+    <a href="#silo_architecture">Keyword Silo Architecture</a>
+    <a href="#competitor_analysis">Competitor Analysis</a>
+    <a href="#content_gap">Content Gap Map</a>
+    <a href="#quick_wins">Quick Wins</a>
+    <a href="#serp_features">SERP Feature Opportunities</a>
+    <a href="#gbp_opportunities">GBP &amp; Near Me Opportunities</a>
+    <a href="#ai_overview">AI Overview Impact</a>
+    <a href="#geographic_expansion">Geographic Expansion Plan</a>
+    <a href="#excluded_keywords">Excluded Keywords</a>
+    <a href="#tam">Researched Market Coverage</a>
+    <a href="#brand_serp">Brand SERP Health Check</a>
+    <a href="#methodology">Methodology</a>
+    <a href="#appendix">Appendix: Full Candidate Database</a>
+</nav>
+<main class="main-content">
+<section id="cover" class="section cover-section">
+  <div class="cover-content">
+    <h1 class="cover-title">Keyword Research Report</h1>
+    <div class="cover-domain">tpc.edu.au</div>
+    <div class="cover-business">The Performance College</div>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="meta-label">Package</span><span class="meta-value">Standard (5 general + 69 location)</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Mode</span><span class="meta-value">Fresh</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Version</span><span class="meta-value">v1</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Candidates Analysed</span><span class="meta-value">249</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Effective Keyword Reach</span><span class="meta-value">0</span></div>
+      <div class="cover-meta-item"><span class="meta-label">Generated</span><span class="meta-value">2026-07-14 04:14 UTC</span></div>
+    </div>
+  </div>
+</section>
+<section id="confidence" class="section">
+  <h2>Data Confidence Summary</h2>
+  <p class="section-intro">10 of 10 data sources available.</p>
+  <table class="data-table compact-table">
+    <thead><tr><th>Data Source</th><th>Status</th></tr></thead>
+    <tbody><tr><td>Questionnaire</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Config</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Keywords</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Candidates</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Allocation</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Competitors</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>SERP Data</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Content Gaps</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Suburbs</td><td class="status-pass">&#10003; Available</td></tr>
+<tr><td>Metrics</td><td class="status-pass">&#10003; Available</td></tr></tbody>
+  </table>
+  
+  
+</section>
+<section id="strategic_narratives" class="section">
+  <h2>Strategic Narratives</h2>
+  <p class="section-intro">3 critical finding(s) for this run.</p>
+  <div class="callout callout-danger">
+  <h3>Location grid is a long-tail LOCAL play — suburb course demand is near-zero</h3>
+  <p>Only 6/23 suburbs register any measured course search (Geelong 40, Werribee 30, Dandenong 20, Bendigo/Frankston/Pakenham 10); 17/23 are zero. The 69-keyword grid (analyst-approved, keep-all-23) captures high-intent local &#x27;[course] {suburb}&#x27; queries + low competition, NOT volume. Real demand is city-level (the 5 general) and online. SET CLIENT EXPECTATIONS: location pages build slowly; measure by local rankings + enquiries, not traffic. Build genuine local landing pages (campus access, transport, local placement partners) — not thin doorways — to avoid a doorway-page penalty across 69 near-duplicate pages.</p>
+</div>
+<div class="callout callout-danger">
+  <h3>AI Overviews dominate course SERPs (80%)</h3>
+  <p>64/80 probed course queries trigger an AI Overview, suppressing organic CTR. Every page must be built for AI-citation: clear qualification facts, structured data (Course/FAQ schema), and answers to the 256 available PAA questions. Ranking #1 organically no longer guarantees the click.</p>
+</div>
+<div class="callout callout-warning">
+  <h3>National qualification terms are unwinnable for DA 7 (government-TAFE wall)</h3>
+  <p>Bare terms (certificate iii in individual support 18,100; diploma of community services 9,900) show tempting low DataForSEO KD, but the SERPs are held by government TAFEs (tafeqld 56x, tafensw 49x; DA 41-54) + AI Overviews. All 5 general keywords are deliberately Melbourne-qualified to face reachable rivals (itac DA14, laurus DA18). Revisit the online-national terms (childcare course online 1,000/KD2; diploma of community services online 1,300/KD3; cert 3 aged care online 590/KD3) as DA grows — they are the strongest FUTURE general package.</p>
+</div>
+</section>
+<section id="executive" class="section">
+  <h2>Executive Summary</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">5</div>
+      <div class="stat-label">General Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">69</div>
+      <div class="stat-label">Location Keywords</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Effective Keyword Reach</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">249</div>
+      <div class="stat-label">Candidates Analysed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.56</div>
+      <div class="stat-label">Avg Opportunity Score</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">4</div>
+      <div class="stat-label">Content Silos</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">71</div>
+      <div class="stat-label">Quick Wins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Strategic Targets</div>
+    </div>
+  </div>
+  <div class="chart-row">
+    <div class="chart-block"><h4>Intent Distribution</h4><svg width="360" height="180" class="chart-donut">
+  <circle cx="90" cy="90" r="54" fill="#1a1a2e" />
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#4ecca3" stroke-width="24" stroke-dasharray="439.82 439.82" stroke-dashoffset="0.00" transform="rotate(-90 90 90)" />
+  <rect x="190" y="12" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="208" y="22" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Commercial Investigation (100%)</text>
+</svg></div>
+    <div class="chart-block"><h4>Timeline Distribution</h4><svg width="460" height="88" viewBox="0 0 460 88" class="chart-stacked">
+  <text x="112" y="49" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">All Keywords</text>
+  <rect x="120.0" y="30" width="307.0" height="30" fill="#4ecca3" />
+  <rect x="427.0" y="30" width="13.0" height="30" fill="#f0a500" />
+  <rect x="120" y="68" width="12" height="12" rx="2" fill="#4ecca3" />
+  <text x="136" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Quick Win</text>
+  <rect x="230" y="68" width="12" height="12" rx="2" fill="#f0a500" />
+  <text x="246" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Medium Term</text>
+  <rect x="340" y="68" width="12" height="12" rx="2" fill="#533483" />
+  <text x="356" y="78" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">Strategic</text>
+</svg></div>
+  </div>
+</section>
+<section id="allocation" class="section">
+  <h2>Package Allocation</h2>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">Standard</div><div class="stat-label">Package Tier</div></div>
+    <div class="stat-card"><div class="stat-value">5</div><div class="stat-label">General Budget</div></div>
+    <div class="stat-card"><div class="stat-value">69</div><div class="stat-label">Location Budget</div></div>
+  </div>
+  <h3>Service Tier Distribution</h3>
+  <table class="data-table compact-table">
+    <thead><tr><th>Service Tier</th><th>Keywords Allocated</th></tr></thead>
+    <tbody><tr><td>Tier N/A</td><td>5</td></tr></tbody>
+  </table>
+  <p>Allocation data available from research pipeline.</p>
+</section>
+<section id="general_keywords" class="section">
+  <h2>Selected General Keywords</h2>
+  <p class="section-intro">5 general keywords selected. Click any row to expand details.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table">
+    <thead><tr>
+      <th>#</th><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th>
+      <th>Current Position</th>
+      <th>CPC</th><th>Intent</th><th>Track</th><th>Timeline</th><th>Confidence</th>
+    </tr></thead>
+    <tbody><tr class="kw-row" onclick="toggleDetail('detail-0')">
+  <td>1</td>
+  <td class="kw-name">aged care course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>$4.94</td>
+  <td>Commercial Investigation</td>
+  <td>Gap Fill</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-0" class="detail-row" style="display:none">
+  <td colspan="11">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="51.25194255066388 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.54</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> individual-support-aged-care</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Course Page</p>
+          <p><strong>Target URL:</strong> https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 320/mo, KD 0 — the HIGHEST-volume general term (aged care outsearches childcare for courses in Melbourne). &#x27;Aged care&#x27; is the colloquial for the client&#x27;s Certificate III in Individual Support (Ageing &amp; Disability, CHC33021). Deliberately Melbourne-qualified: the bare &#x27;certificate iii in individual support&#x27; (18,100/mo) SERP is a wall of government TAFEs (tafeqld 56x, tafensw 49x, DA 41-54) + 80% AI Overview — unwinnable for DA 7 — whereas this Melbourne SERP (AI Overview low_or_none) faces only reachable local rivals (itac DA14, laurus DA18). Sector tailwind: acute aged-care workforce shortage. USP: guaranteed real-facility work-placement (client reports students employed straight after placement). Existing page /certificate-iii-in-individual-support-ageing-and-disability/ (gap EXISTS) — optimise as primary head for &#x27;aged care course melbourne&#x27;. Winnable top-5 in 3-4 months at KD 0 vs DA 7.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Long Tail:</strong><ul><li>aged care courses melbourne ()</li><li>certificate iii in individual support melbourne ()</li><li>aged care training melbourne ()</li><li>support worker course melbourne ()</li><li>chc33021 ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-1')">
+  <td>2</td>
+  <td class="kw-name">certificate iii in individual support melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>$6.81</td>
+  <td>Commercial Investigation</td>
+  <td>Gap Fill</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-1" class="detail-row" style="display:none">
+  <td colspan="11">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="55.9266324192055 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.59</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> individual-support-aged-care</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Course Page (Secondary Head)</p>
+          <p><strong>Target URL:</strong> https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 90/mo, KD 0 — the FORMAL AQF qualification title (CHC33021), dual-targeted on the SAME /certificate-iii-in-individual-support-ageing-and-disability/ page as the colloquial &#x27;aged care course melbourne&#x27;. Captures searchers who use the exact course name rather than &#x27;aged care&#x27;. Melbourne-qualified (the bare 18,100 form is TAFE-walled). AI Overview low_or_none = clean organic slot. No new page — reinforces the Individual Support pillar&#x27;s topical relevance. Winnable near-term (KD 0, DA 7 vs itac DA14).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Long Tail:</strong><ul><li>cert 3 in individual support melbourne ()</li><li>chc33021 melbourne ()</li><li>disability support course melbourne ()</li><li>individual support course melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-2')">
+  <td>3</td>
+  <td class="kw-name">childcare courses melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>$8.61</td>
+  <td>Commercial Investigation</td>
+  <td>Gap Fill</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-2" class="detail-row" style="display:none">
+  <td colspan="11">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="58.12260568406476 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.62</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> ecec-childcare</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Course Page</p>
+          <p><strong>Target URL:</strong> https://tpc.edu.au/certificate-in-child-care/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 110/mo, KD 0, CPC ~$9 — flagship ECEC head and the client&#x27;s Q13 #1 vertical (14 Cert III prefs). Melbourne-qualified on purpose: the bare &#x27;certificate iii in early childhood education and care&#x27; (4,400) is TAFE-walled (tafeqld/tafensw) + AI Overview — this Melbourne SERP (AI Overview low_or_none) is a clean, winnable local slot vs reachable rivals itac (DA14)/laurus (DA18). USP: CRICOS + guaranteed work-placement + flexible online/Zoom delivery for domestic students. Existing page /certificate-in-child-care/ (gap EXISTS) — optimise for &#x27;melbourne&#x27; + local trust signals (CBD campus, placement partners, graduate outcomes: 100+ domestic grads, ~75% working while studying). Top-5 achievable in 3-4 months at KD 0 vs DA 7.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Long Tail:</strong><ul><li>childcare course melbourne ()</li><li>cert 3 childcare melbourne ()</li><li>certificate iii in early childhood education and care melbourne ()</li><li>early childhood course melbourne ()</li><li>study childcare melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-3')">
+  <td>4</td>
+  <td class="kw-name">early childhood diploma melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>13</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>$3.66</td>
+  <td>Commercial Investigation</td>
+  <td>Gap Fill</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-3" class="detail-row" style="display:none">
+  <td colspan="11">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="46.27565978737765 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.49</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> ecec-diploma</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Course Page</p>
+          <p><strong>Target URL:</strong> https://tpc.edu.au/diploma-of-early-childhood-education-and-care/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 70/mo, KD 13 — the Diploma-tier ECEC head (client Q13 group 3, 7 prefs), the pathway-up qualification from Cert III with higher course value (~$3,500 vs $2,500). Chosen over &#x27;diploma of early childhood education and care melbourne&#x27; (KD 47, harder) as the better-winnable Melbourne Diploma term. Bare &#x27;early childhood diploma&#x27; (4,400) is TAFE-walled. AI Overview present (citation_opportunity) — structure the page for AI citation + FAQ schema on the PAA questions. Existing pages /diploma-of-early-childhood-education-and-care/ (+ online variant) — the client&#x27;s flexible online + live-Zoom delivery differentiates vs on-campus-only rivals. Optimise the Diploma page for Melbourne. Winnable in 4-6 months (KD 13, DA 7).</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Long Tail:</strong><ul><li>diploma of early childhood education and care melbourne ()</li><li>childcare diploma melbourne ()</li><li>diploma of childcare melbourne ()</li><li>study childcare diploma melbourne ()</li></ul></div></div>
+    </div>
+  </td>
+</tr>
+<tr class="kw-row" onclick="toggleDetail('detail-4')">
+  <td>5</td>
+  <td class="kw-name">diploma of community services melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>$4.63</td>
+  <td>Commercial Investigation</td>
+  <td>Gap Fill</td>
+  <td><span class="tl-badge tl-quick_win">Quick Win (1-3 mo)</span></td>
+  <td><span style="color:#f0a500">MEDIUM</span></td>
+</tr>
+<tr id="detail-4" class="detail-row" style="display:none">
+  <td colspan="11">
+    <div class="detail-content">
+      <div class="detail-grid">
+        <div class="detail-gauge"><svg width="60" height="60" viewBox="0 0 60 60" class="chart-gauge">
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#2a2a4a" stroke-width="8"
+    stroke-dasharray="94.24777960769379 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#f0a500" stroke-width="8"
+    stroke-dasharray="52.326367238191594 125.66370614359172" stroke-linecap="round"
+    transform="rotate(135 30 30)" />
+  <text x="30" y="26" text-anchor="middle" fill="#e8e8e8"
+    font-size="20" font-weight="bold" font-family="system-ui, sans-serif">0.56</text>
+  <text x="30" y="46" text-anchor="middle" fill="#a0a0b0"
+    font-size="10" font-family="system-ui, sans-serif">Score</text>
+</svg></div>
+        <div class="detail-info">
+          <p><strong>Silo:</strong> general-community-services</p>
+          <p><strong>Action:</strong> Optimise Existing</p>
+          <p><strong>Content Type:</strong> Course Page</p>
+          <p><strong>Target URL:</strong> https://tpc.edu.au/diploma-of-community-services/</p>
+          <p><strong>AI Adjusted Vol:</strong> 0 <span class="muted">()</span></p>
+        </div>
+      </div>
+      <div class="reasoning"><strong>Reasoning:</strong> 90/mo, KD 0 — Tier-B care-sector pathway qualification (Diploma of Community Services, CHC52021). No Q13 prefs but a natural progression for the client&#x27;s Individual Support/ECEC students and a live page /diploma-of-community-services/ already exists (existing_page_optimisation). Melbourne-qualified: the bare &#x27;diploma of community services&#x27; (9,900) SERP is walled by TAFEs + Victoria University + AI Overview — this local SERP is winnable (KD 0, DA 7 vs itac DA14). AI Overview present — add FAQ schema on the PAA questions. Rounds out the care-sector general coverage (ECEC + Individual Support + Community Services) the analyst approved 2/2/1.</div>
+      <div class='secondaries-detail'><div class='sec-group'><strong>Long Tail:</strong><ul><li>community services diploma melbourne ()</li><li>community services course melbourne ()</li><li>chc52021 melbourne ()</li><li>diploma of community services for international students ()</li></ul></div></div>
+    </div>
+  </td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="location_keywords" class="section">
+  <h2>Selected Location Keywords</h2>
+  <p class="section-intro">69 location keywords across 4 geographic rings.</p>
+  <h3>Ring 1 (21 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Current Position</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>childcare course brunswick</td>
+  <td>Brunswick</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care brunswick</td>
+  <td>Brunswick</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course brunswick</td>
+  <td>Brunswick</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course docklands</td>
+  <td>Docklands</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care docklands</td>
+  <td>Docklands</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course docklands</td>
+  <td>Docklands</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course fitzroy</td>
+  <td>Fitzroy</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care fitzroy</td>
+  <td>Fitzroy</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course fitzroy</td>
+  <td>Fitzroy</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course north melbourne</td>
+  <td>North Melbourne</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care north melbourne</td>
+  <td>North Melbourne</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course north melbourne</td>
+  <td>North Melbourne</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course south melbourne</td>
+  <td>South Melbourne</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care south melbourne</td>
+  <td>South Melbourne</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course south melbourne</td>
+  <td>South Melbourne</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course southbank</td>
+  <td>Southbank</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care southbank</td>
+  <td>Southbank</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course southbank</td>
+  <td>Southbank</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course st kilda</td>
+  <td>St Kilda</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st kilda</td>
+  <td>St Kilda</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course st kilda</td>
+  <td>St Kilda</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr></tbody>
+</table>
+</div><h3>Ring 2 (6 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Current Position</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>childcare course st albans</td>
+  <td>St Albans</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st albans</td>
+  <td>St Albans</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course st albans</td>
+  <td>St Albans</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course sunshine</td>
+  <td>Sunshine</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care sunshine</td>
+  <td>Sunshine</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course sunshine</td>
+  <td>Sunshine</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr></tbody>
+</table>
+</div><h3>Ring 3 (30 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Current Position</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>childcare course werribee</td>
+  <td>Werribee</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care werribee</td>
+  <td>Werribee</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course werribee</td>
+  <td>Werribee</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>14</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course dandenong</td>
+  <td>Dandenong</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care dandenong</td>
+  <td>Dandenong</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course dandenong</td>
+  <td>Dandenong</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>11</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course frankston</td>
+  <td>Frankston</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care frankston</td>
+  <td>Frankston</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course frankston</td>
+  <td>Frankston</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course hoppers crossing</td>
+  <td>Hoppers Crossing</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care hoppers crossing</td>
+  <td>Hoppers Crossing</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course hoppers crossing</td>
+  <td>Hoppers Crossing</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course craigieburn</td>
+  <td>Craigieburn</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care craigieburn</td>
+  <td>Craigieburn</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course craigieburn</td>
+  <td>Craigieburn</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course cranbourne</td>
+  <td>Cranbourne</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care cranbourne</td>
+  <td>Cranbourne</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course cranbourne</td>
+  <td>Cranbourne</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course epping</td>
+  <td>Epping</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care epping</td>
+  <td>Epping</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course epping</td>
+  <td>Epping</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course point cook</td>
+  <td>Point Cook</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care point cook</td>
+  <td>Point Cook</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course point cook</td>
+  <td>Point Cook</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course tarneit</td>
+  <td>Tarneit</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care tarneit</td>
+  <td>Tarneit</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course tarneit</td>
+  <td>Tarneit</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course truganina</td>
+  <td>Truganina</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care truganina</td>
+  <td>Truganina</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course truganina</td>
+  <td>Truganina</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr></tbody>
+</table>
+</div><h3>Ring 4 (12 keywords)</h3>
+<div class="table-scroll">
+<table class="data-table compact-table">
+  <thead><tr><th>Keyword</th><th>Suburb</th><th>Service</th><th>Score</th>
+    <th>Volume</th><th>KD</th><th>Current Position</th><th>Timeline</th><th>Distance</th></tr></thead>
+  <tbody><tr>
+  <td>childcare course bendigo</td>
+  <td>Bendigo</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care bendigo</td>
+  <td>Bendigo</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course bendigo</td>
+  <td>Bendigo</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course warrnambool</td>
+  <td>Warrnambool</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care warrnambool</td>
+  <td>Warrnambool</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course warrnambool</td>
+  <td>Warrnambool</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course pakenham</td>
+  <td>Pakenham</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care pakenham</td>
+  <td>Pakenham</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course pakenham</td>
+  <td>Pakenham</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.35</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>38</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>childcare course geelong</td>
+  <td>Geelong</td>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>38</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>diploma of early childhood education and care geelong</td>
+  <td>Geelong</td>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Quick Win (1-3 mo)</td>
+  <td>0 km</td>
+</tr><tr>
+  <td>aged care course geelong</td>
+  <td>Geelong</td>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>39</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Medium Term (3-6 mo)</td>
+  <td>0 km</td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section id="current_rankings" class="section">
+  <h2>Ranking Snapshot (DataForSEO)</h2>
+  <p class="section-intro">10 recent top-50 positions from DataForSEO's snapshot (crawl date shown per row) — 0 targeted by this plan, 10 not. <strong>This is a snapshot, not live:</strong> verify head terms via live SERP or GSC before sharing with a client. Untargeted rankings are existing assets to protect or build on.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table">
+    <thead><tr><th>Position</th><th>Keyword</th><th>Volume</th><th>Crawled</th><th>Targeted?</th></tr></thead>
+    <tbody><tr><td><span class="score-badge" style="background:#1a7f37">#4</span></td><td>tpc</td><td>—</td><td>2026-07-06</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#b8860b">#17</span></td><td>performance education melbourne</td><td>—</td><td>2026-07-05</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#b8860b">#21</span></td><td>day care certificate online</td><td>—</td><td>2026-07-02</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#b8860b">#22</span></td><td>performance education adelaide</td><td>—</td><td>2026-07-05</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#b8860b">#25</span></td><td>community service course in melbourne</td><td>—</td><td>2026-06-18</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#b8860b">#25</span></td><td>community services courses in melbourne</td><td>—</td><td>2026-06-19</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#8a6d3b">#32</span></td><td>certificate 111 childcare online</td><td>—</td><td>2026-06-16</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#8a6d3b">#44</span></td><td>ect course online</td><td>—</td><td>2026-07-01</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#8a6d3b">#44</span></td><td>tfpc</td><td>—</td><td>2026-06-17</td><td><span class="muted">Not targeted</span></td></tr><tr><td><span class="score-badge" style="background:#8a6d3b">#46</span></td><td>diploma of ecec</td><td>—</td><td>2026-06-18</td><td><span class="muted">Not targeted</span></td></tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="silo_architecture" class="section">
+  <h2>Keyword Silo Architecture</h2>
+  <p class="section-intro">4 content silos identified.</p>
+  <div class="chart-row">
+    <div class="chart-block"><svg width="400" height="174" viewBox="0 0 400 174" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Client Topical Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Childcare (ECEC Certificate III)</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Diploma of Early Childhood Education &amp; Care</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Aged Care / Individual Support</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Community Services (general only)</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+    <div class="chart-block"><svg width="400" height="174" viewBox="0 0 400 174" class="chart-bar">
+  <text x="200" y="14" text-anchor="middle" fill="#e8e8e8" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Competitor Avg Authority</text>
+  <text x="112" y="38" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Childcare (ECEC Certificate III)</text>
+  <rect x="120" y="20" width="2.0" height="28" rx="3" fill="#533483" />
+  <text x="128.0" y="38" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="74" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Diploma of Early Childhood Education &amp; Care</text>
+  <rect x="120" y="56" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="74" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="110" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Aged Care / Individual Support</text>
+  <rect x="120" y="92" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="110" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>  <text x="112" y="146" text-anchor="end" fill="#e8e8e8" font-size="11" font-family="system-ui, sans-serif">Community Services (general only)</text>
+  <rect x="120" y="128" width="2.0" height="28" rx="3" fill="#0f3460" />
+  <text x="128.0" y="146" fill="#a0a0b0" font-size="10" font-family="system-ui, sans-serif">0</text>
+</svg></div>
+  </div>
+  <div class="silo-grid"><div class="silo-card">
+  <h4>Childcare (ECEC Certificate III)</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong></strong></span>
+    <span>Volume: <strong>0</strong></span>
+    <span>Pages: 0 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>Diploma of Early Childhood Education &amp; Care</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong></strong></span>
+    <span>Volume: <strong>0</strong></span>
+    <span>Pages: 0 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>Aged Care / Individual Support</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong></strong></span>
+    <span>Volume: <strong>0</strong></span>
+    <span>Pages: 0 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div><div class="silo-card">
+  <h4>Community Services (general only)</h4>
+  <div class="silo-meta">
+    <span>Pillar: <strong></strong></span>
+    <span>Volume: <strong>0</strong></span>
+    <span>Pages: 0 existing / 0 needed</span>
+  </div>
+  <div class="silo-lists">
+    <div><strong>Supporting:</strong><ul><li>None</li></ul></div>
+    <div><strong>Location:</strong><ul><li>None</li></ul></div>
+    <div><strong>Content:</strong><ul><li>None</li></ul></div>
+  </div>
+</div></div>
+</section>
+<section id="competitor_analysis" class="section">
+  <h2>Competitor Analysis</h2>
+  
+  <h3>Direct Competitors</h3>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Domain</th><th>DA</th><th>Keywords</th><th>Traffic</th><th>Ref Domains</th><th>Overlap</th></tr></thead>
+    <tbody><tr>
+  <td>courses.com.au</td>
+  <td>29</td>
+  <td>84</td>
+  <td>68</td>
+  <td>N/A</td>
+  <td>74.3%</td>
+</tr><tr>
+  <td>kiranacolleges.edu.au</td>
+  <td>54</td>
+  <td>80</td>
+  <td>66</td>
+  <td>N/A</td>
+  <td>70.8%</td>
+</tr><tr>
+  <td>melbournepolytechnic.edu.au</td>
+  <td>33</td>
+  <td>80</td>
+  <td>65</td>
+  <td>N/A</td>
+  <td>70.8%</td>
+</tr><tr>
+  <td>tafeqld.edu.au</td>
+  <td>41</td>
+  <td>79</td>
+  <td>66</td>
+  <td>N/A</td>
+  <td>69.9%</td>
+</tr><tr>
+  <td>selmar.edu.au</td>
+  <td>27</td>
+  <td>78</td>
+  <td>65</td>
+  <td>N/A</td>
+  <td>69.0%</td>
+</tr><tr>
+  <td>actac.com.au</td>
+  <td>25</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>alg.edu.au</td>
+  <td>24</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>itac.edu.au</td>
+  <td>14</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>lauruseducation.com.au</td>
+  <td>18</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr><tr>
+  <td>mcfe.com.au</td>
+  <td>27</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+  <td>N/A</td>
+</tr></tbody>
+  </table>
+  </div>
+  
+</section>
+<section id="content_gap" class="section">
+  <h2>Content Gap Map</h2>
+  <h3>Keyword Gap Status</h3><div class="table-scroll"><table class="data-table"><thead><tr><th>Keyword</th><th>Current Position</th><th>Gap Status</th><th>Target URL</th><th>Action</th><th>Investment</th></tr></thead><tbody><tr>
+  <td>aged care course melbourne</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td class="status-fail">Missing</td>
+  <td>https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>certificate iii in individual support melbourne</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td class="status-fail">Missing</td>
+  <td>https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>childcare courses melbourne</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td class="status-fail">Missing</td>
+  <td>https://tpc.edu.au/certificate-in-child-care/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>early childhood diploma melbourne</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td class="status-fail">Missing</td>
+  <td>https://tpc.edu.au/diploma-of-early-childhood-education-and-care/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr><tr>
+  <td>diploma of community services melbourne</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td class="status-fail">Missing</td>
+  <td>https://tpc.edu.au/diploma-of-community-services/</td>
+  <td>Optimise Existing</td>
+  <td>Medium</td>
+</tr></tbody></table></div>
+  
+  
+  
+</section>
+<section id="quick_wins" class="section">
+  <h2>Quick Wins</h2>
+  <p class="section-intro">71 quick win opportunities identified (achievable in 1-3 months).</p>
+  <div class="table-scroll">
+  <table class="data-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Current Position</th><th>Action</th><th>Target URL</th></tr></thead>
+    <tbody><tr>
+  <td>aged care course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Optimise Existing</td>
+  <td>https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</td>
+</tr><tr>
+  <td>certificate iii in individual support melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Optimise Existing</td>
+  <td>https://tpc.edu.au/certificate-iii-in-individual-support-ageing-and-disability/</td>
+</tr><tr>
+  <td>childcare courses melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Optimise Existing</td>
+  <td>https://tpc.edu.au/certificate-in-child-care/</td>
+</tr><tr>
+  <td>early childhood diploma melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>13</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Optimise Existing</td>
+  <td>https://tpc.edu.au/diploma-of-early-childhood-education-and-care/</td>
+</tr><tr>
+  <td>diploma of community services melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Optimise Existing</td>
+  <td>https://tpc.edu.au/diploma-of-community-services/</td>
+</tr><tr>
+  <td>childcare course werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-werribee/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-werribee/</td>
+</tr><tr>
+  <td>aged care course werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>14</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-werribee/</td>
+</tr><tr>
+  <td>childcare course dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-dandenong/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-dandenong/</td>
+</tr><tr>
+  <td>aged care course dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>11</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-dandenong/</td>
+</tr><tr>
+  <td>childcare course bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-bendigo/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-bendigo/</td>
+</tr><tr>
+  <td>aged care course bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-bendigo/</td>
+</tr><tr>
+  <td>childcare course frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-frankston/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-frankston/</td>
+</tr><tr>
+  <td>aged care course frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-frankston/</td>
+</tr><tr>
+  <td>childcare course hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-hoppers-crossing/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-hoppers-crossing/</td>
+</tr><tr>
+  <td>aged care course hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-hoppers-crossing/</td>
+</tr><tr>
+  <td>childcare course brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-brunswick/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-brunswick/</td>
+</tr><tr>
+  <td>aged care course brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-brunswick/</td>
+</tr><tr>
+  <td>childcare course craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-craigieburn/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-craigieburn/</td>
+</tr><tr>
+  <td>aged care course craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-craigieburn/</td>
+</tr><tr>
+  <td>childcare course cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-cranbourne/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-cranbourne/</td>
+</tr><tr>
+  <td>aged care course cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-cranbourne/</td>
+</tr><tr>
+  <td>childcare course docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-docklands/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-docklands/</td>
+</tr><tr>
+  <td>aged care course docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-docklands/</td>
+</tr><tr>
+  <td>childcare course epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-epping/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-epping/</td>
+</tr><tr>
+  <td>aged care course epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-epping/</td>
+</tr><tr>
+  <td>childcare course fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-fitzroy/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-fitzroy/</td>
+</tr><tr>
+  <td>aged care course fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-fitzroy/</td>
+</tr><tr>
+  <td>childcare course north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-north-melbourne/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-north-melbourne/</td>
+</tr><tr>
+  <td>aged care course north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-north-melbourne/</td>
+</tr><tr>
+  <td>childcare course point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-point-cook/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-point-cook/</td>
+</tr><tr>
+  <td>aged care course point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-point-cook/</td>
+</tr><tr>
+  <td>childcare course south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-south-melbourne/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-south-melbourne/</td>
+</tr><tr>
+  <td>aged care course south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-south-melbourne/</td>
+</tr><tr>
+  <td>childcare course southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-southbank/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-southbank/</td>
+</tr><tr>
+  <td>aged care course southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-southbank/</td>
+</tr><tr>
+  <td>childcare course st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-st-albans/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-st-albans/</td>
+</tr><tr>
+  <td>aged care course st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-st-albans/</td>
+</tr><tr>
+  <td>childcare course st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-st-kilda/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-st-kilda/</td>
+</tr><tr>
+  <td>aged care course st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-st-kilda/</td>
+</tr><tr>
+  <td>childcare course sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-sunshine/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-sunshine/</td>
+</tr><tr>
+  <td>aged care course sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-sunshine/</td>
+</tr><tr>
+  <td>childcare course tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-tarneit/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-tarneit/</td>
+</tr><tr>
+  <td>aged care course tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-tarneit/</td>
+</tr><tr>
+  <td>childcare course truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-truganina/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-truganina/</td>
+</tr><tr>
+  <td>aged care course truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-truganina/</td>
+</tr><tr>
+  <td>childcare course warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-warrnambool/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-warrnambool/</td>
+</tr><tr>
+  <td>aged care course warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/aged-care-course-warrnambool/</td>
+</tr><tr>
+  <td>childcare course pakenham</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/childcare-course-pakenham/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care pakenham</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-pakenham/</td>
+</tr><tr>
+  <td>diploma of early childhood education and care geelong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Create New</td>
+  <td>https://tpc.edu.au/diploma-early-childhood-geelong/</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+<section id="serp_features" class="section">
+  <h2>SERP Feature Opportunities</h2>
+  <div class="info-card"><span class="info-icon">&#9432;</span><p>No SERP features detected in keyword data or SERP analysis. This may improve with additional research phases.</p></div>
+</section>
+<section id="gbp_opportunities" class="section">
+  <h2>GBP &amp; Near Me Opportunities</h2>
+  <p class="section-intro">No "near me" keywords found in the candidate pool.</p>
+</section>
+<section id="ai_overview" class="section">
+  <h2>AI Overview Impact</h2>
+  
+  <h3>Keyword-Level Classifications</h3><table class="data-table"><thead><tr><th>Classification</th><th>Keywords</th><th>Volume Impact</th></tr></thead><tbody><tr><td>None</td><td>5</td><td>No volume deflection</td></tr></tbody></table>
+  
+</section>
+<section id="geographic_expansion" class="section">
+  <h2>Geographic Expansion Plan</h2>
+  <p class="section-intro">Ring-by-ring build-out sequence for 4 geographic rings.</p>
+  <div class="expansion-ring">
+  <h3>Ring 1</h3>
+  <p><strong>Suburbs:</strong> Brunswick, Docklands, Fitzroy, North Melbourne, South Melbourne, Southbank, St Kilda</p>
+  <p><strong>Keywords:</strong> 21 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build first -- closest to business location</p>
+</div><div class="expansion-ring">
+  <h3>Ring 2</h3>
+  <p><strong>Suburbs:</strong> St Albans, Sunshine</p>
+  <p><strong>Keywords:</strong> 6 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build after Ring 1 pages are indexed</p>
+</div><div class="expansion-ring">
+  <h3>Ring 3</h3>
+  <p><strong>Suburbs:</strong> Craigieburn, Cranbourne, Dandenong, Epping, Frankston, Hoppers Crossing, Point Cook, Tarneit, Truganina, Werribee</p>
+  <p><strong>Keywords:</strong> 30 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build after Ring 2 pages are indexed</p>
+</div><div class="expansion-ring">
+  <h3>Ring 4</h3>
+  <p><strong>Suburbs:</strong> Bendigo, Geelong, Pakenham, Warrnambool</p>
+  <p><strong>Keywords:</strong> 12 | <strong>Total Volume:</strong> 0</p>
+  <p><strong>Strategy:</strong> Build after Ring 3 pages are indexed</p>
+</div>
+</section>
+<section id="excluded_keywords" class="section">
+  <h2>Excluded Keywords</h2>
+  <p class="section-intro">4 notable keywords excluded with reasoning.</p>
+  <table class="data-table">
+    <thead><tr><th>Keyword</th><th>Volume</th><th>Score</th><th>Current Position</th><th>Exclusion Reason</th></tr></thead>
+    <tbody><tr>
+  <td>certificate iii in individual support (bare, 18,100)</td>
+  <td>0</td>
+  <td>0.00</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td></td>
+</tr><tr>
+  <td>childcare course online (1,000)</td>
+  <td>0</td>
+  <td>0.00</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td></td>
+</tr><tr>
+  <td>Leadership/Management diplomas (BSB50420/60420/80120)</td>
+  <td>0</td>
+  <td>0.00</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td></td>
+</tr><tr>
+  <td>Construction / Cabinet Making / First Aid / White Card / Child Protection</td>
+  <td>0</td>
+  <td>0.00</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td></td>
+</tr></tbody>
+  </table>
+</section>
+<section id="tam" class="section">
+  <h2>Researched Market Coverage</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">155,600</div>
+      <div class="stat-label">Researched Pool Volume /mo</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Selected Primary Volume /mo</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0.0%</div>
+      <div class="stat-label">Share of Researched Pool</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Effective Reach (incl. secondaries)</div>
+    </div>
+  </div>
+  <p class="section-note">Researched pool volume is the sum of measured monthly search volumes across all 249 researched candidates — it describes the researched pool, not total market size. Effective reach additionally counts secondary keyword volumes, so it can exceed the selected primary volume. Share can exceed 100% when volume figures differ between the selection and research passes.</p>
+</section>
+<section id="brand_serp" class="section">
+  <h2>Brand SERP Health Check</h2>
+  <p class="section-intro">Analysis of search results for "<strong>The Performance College</strong>"</p>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value status-pass">1</div><div class="stat-label">Brand Position</div></div>
+    <div class="stat-card"><div class="stat-value status-pass">Yes</div><div class="stat-label">Knowledge Panel</div></div>
+    <div class="stat-card"><div class="stat-value status-pass">No</div><div class="stat-label">Competitor Ads on Brand</div></div>
+    <div class="stat-card"><div class="stat-value">14.3%</div><div class="stat-label">Page 1 Control</div></div>
+  </div>
+  <p class="status-warn">Negative results could not be determined.</p>
+  <p class="status-warn">Review snippet data not available.</p>
+</section>
+<section id="methodology" class="section">
+  <h2>Methodology</h2>
+  <div class="methodology-content">
+    <h3>Scoring Model</h3>
+    <p>Keywords are evaluated across 8 dimensions, each scored 0.0 to 1.0:</p>
+    <table class="data-table compact-table">
+      <thead><tr><th>Dimension</th><th>Weight</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>Demand</td><td>18%</td><td>Search volume adjusted for AI deflection and trend</td></tr>
+        <tr><td>Winnability</td><td>22%</td><td>Keyword difficulty vs client domain authority</td></tr>
+        <tr><td>Intent Fit</td><td>18%</td><td>SERP-based intent classification alignment</td></tr>
+        <tr><td>Commercial</td><td>10%</td><td>CPC percentile indicating conversion value</td></tr>
+        <tr><td>Gap Value</td><td>10%</td><td>Competitive gap opportunity assessment</td></tr>
+        <tr><td>SERP Opportunity</td><td>5%</td><td>Available SERP feature slots</td></tr>
+        <tr><td>Effort Adjusted</td><td>10%</td><td>Content investment efficiency</td></tr>
+        <tr><td>Defensibility</td><td>7%</td><td>Long-term ranking holdability</td></tr>
+      </tbody>
+    </table>
+    <h3>Confidence Levels</h3>
+    <ul class="feature-list">
+      <li><strong>HIGH</strong> -- 3+ data sources agree, cross-validation passed</li>
+      <li><strong>MEDIUM</strong> -- 2 sources or minor divergence in cross-validation</li>
+      <li><strong>LOW</strong> -- Single source or significant data gaps</li>
+    </ul>
+    <h3>Timeline Assignment</h3>
+    <ul class="feature-list">
+      <li><strong>Quick Win (1-3 months)</strong> -- Low KD relative to DA, existing content or thin competition</li>
+      <li><strong>Medium Term (3-6 months)</strong> -- Moderate KD, new content required</li>
+      <li><strong>Strategic (6-12 months)</strong> -- High KD or authority-building required</li>
+    </ul>
+    <h3>SERP Data Source &mdash; AI Overview / PAA classification: AVAILABLE</h3>
+    <p>SERP data was collected via dataforseo with full AI Overview and PAA classification.</p>
+    <h3>Volume Provenance Markers</h3>
+    <ul class="feature-list">
+      <li><strong>*</strong> &mdash; Volume sourced from competitor gap analysis. DataForSEO
+      did not return a Phase 3a metric for this keyword; demand is validated by competitor
+      coverage rather than direct search volume.</li>
+      <li><strong>&#8224;</strong> (dagger) &mdash; Volume from Phase 0 manual estimate
+      (analyst-provided, not from a primary data source).</li>
+      <li><strong>&#8709;</strong> (empty set) &mdash; No volume data from any source.
+      Treat as unranked; consider removing from the selection in the next revision.</li>
+    </ul>
+    <h3>Data Sources</h3>
+    <p>This report aggregates data from multiple sources including SE Ranking, DataForSEO,
+    Google Search Console (when connected), Google Ads keyword planner, and manual SERP analysis.
+    Volume figures are cross-validated across sources when available.</p>
+  </div>
+</section>
+<section id="appendix" class="section">
+  <h2>Appendix: Full Candidate Database</h2>
+  <p class="section-intro">249 total candidates analysed.</p>
+  <div class="table-scroll">
+  <table class="data-table sortable-table" id="appendix-table">
+    <thead><tr><th>Keyword</th><th>Score</th><th>Volume</th><th>KD</th><th>Current Position</th><th>Intent</th><th>Silo</th><th>Timeline</th></tr></thead>
+    <tbody><tr>
+  <td>certificate 3 in early childhood education and care</td>
+  <td><span class="score-badge" style="background:#4ecca3">0.70</span></td>
+  <td>4,400</td>
+  <td>2</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare courses</td>
+  <td><span class="score-badge" style="background:#f0a500">0.70</span></td>
+  <td>1,600</td>
+  <td>3</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.70</span></td>
+  <td>4,400</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.69</span></td>
+  <td>1,600</td>
+  <td>7</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.68</span></td>
+  <td>1,000</td>
+  <td>2</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>4,400</td>
+  <td>9</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 childcare online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.66</span></td>
+  <td>720</td>
+  <td>8</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>1,300</td>
+  <td>3</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.65</span></td>
+  <td>18,100</td>
+  <td>13</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cert 3 aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>4,400</td>
+  <td>7</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>individual support course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>1,600</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>online childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>1,000</td>
+  <td>11</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>18,100</td>
+  <td>9</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in aged care online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.64</span></td>
+  <td>590</td>
+  <td>3</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>individual support courses</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>1,600</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood education and care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>260</td>
+  <td>4</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc33021 certificate iii in individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>320</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.63</span></td>
+  <td>170</td>
+  <td>6</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services course online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>480</td>
+  <td>9</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care certificate</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>1,300</td>
+  <td>6</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>4,400</td>
+  <td>9</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare courses melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study childcare melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc30125 certificate iii in early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.62</span></td>
+  <td>4,400</td>
+  <td>10</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>4,400</td>
+  <td>1</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in early childhood education and care melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.61</span></td>
+  <td>1,000</td>
+  <td>12</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare courses online government funded</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood education course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>3,600</td>
+  <td>16</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc50125</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>260</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care courses in melbourne for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>70</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>2,400</td>
+  <td>12</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc50125 diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>70</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>210</td>
+  <td>7</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>online diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>210</td>
+  <td>7</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood education course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become a childcare worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.60</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care courses 6 weeks</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>390</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in individual support melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in individual support melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>90</td>
+  <td>1</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>2,400</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>2,400</td>
+  <td>7</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare qualification</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>140</td>
+  <td>2</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in individual support for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become an early childhood educator</td>
+  <td><span class="score-badge" style="background:#f0a500">0.59</span></td>
+  <td>90</td>
+  <td>1</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>government funded childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc52021</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>320</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services worker course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care training</td>
+  <td><span class="score-badge" style="background:#f0a500">0.58</span></td>
+  <td>880</td>
+  <td>14</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free diploma of community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood educator course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>3,600</td>
+  <td>16</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in individual support free</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare worker course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course fees</td>
+  <td><span class="score-badge" style="background:#f0a500">0.57</span></td>
+  <td>320</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>individual support traineeship</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>50</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare traineeship</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,000</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc30125</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>170</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare courses online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>1,000</td>
+  <td>16</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in aged care fast track</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc33021</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>880</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma in early childhood education australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>50</td>
+  <td>6</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free childcare courses</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>210</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services diploma melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.56</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free cert 3 childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>30</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cricos aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>70</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>government funded aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in childcare for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>disability support course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>390</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare certificate</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>260</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cert 3 childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>4,400</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care cost</td>
+  <td><span class="score-badge" style="background:#f0a500">0.55</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care worker course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>320</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>3,600</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course fees</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become an aged care worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>90</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>fast track certificate iii in individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>government funded diploma of community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care courses</td>
+  <td><span class="score-badge" style="background:#f0a500">0.54</span></td>
+  <td>2,400</td>
+  <td>16</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become a disability support worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>260</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>40</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare training</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>110</td>
+  <td>15</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free tafe community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>30</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in individual support ageing and disability</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>720</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care training melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.53</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care fees</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free tafe aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>2,900</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care courses melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>320</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become an early childhood teacher</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>90</td>
+  <td>15</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services tafe</td>
+  <td><span class="score-badge" style="background:#f0a500">0.52</span></td>
+  <td>720</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood educator diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>260</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>individual support course online</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>320</td>
+  <td>18</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course cost</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>disability support worker course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>1,600</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate iii in early childhood education and care online free</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>320</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>become an aged care worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>become a childcare worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare short course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>20</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.51</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free aged care courses</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>260</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services australia</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course cost</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>support worker course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>1,900</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care short course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>90</td>
+  <td>12</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services fees</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>fast track cert 3 childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>support worker course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.50</span></td>
+  <td>1,600</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood education traineeship</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>110</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare training melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study childcare diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care geelong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>10</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>210</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>early childhood diploma melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.49</span></td>
+  <td>70</td>
+  <td>13</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>20</td>
+  <td>11</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>chc52021 diploma of community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>170</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>1,600</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>community services diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.48</span></td>
+  <td>9,900</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>work in aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>1,000</td>
+  <td>18</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>9,900</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>260</td>
+  <td>17</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare qualification melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare certificate melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course victoria</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course melbourne cbd</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>career change childcare</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>funded childcare course victoria</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course with work placement</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare courses in melbourne for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cricos childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free tafe childcare course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course with placement</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>disability support course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>disability support training melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study individual support melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course melbourne cbd</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>in home care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>career change aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>certificate 3 in aged care free</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>funded aged care course victoria</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cheap aged care course</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course with work placement</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>individual support course for international students</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free tafe individual support</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>recognition of prior learning aged care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>entry into care roles skillset</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma childcare course melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study childcare diploma melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>study diploma of early childhood education melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>fast track diploma of early childhood education</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>career progression childcare diploma</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>funded diploma childcare victoria</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care with work placement</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cricos diploma of early childhood education and care</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>free tafe diploma of early childhood education</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>how to become a community services worker</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services with work placement</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>cricos diploma of community services</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course dandenong</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course pakenham</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>childcare course st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course hoppers crossing</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care point cook</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care tarneit</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care truganina</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care sunshine</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st albans</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care craigieburn</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care epping</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care bendigo</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care warrnambool</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care cranbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care frankston</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care docklands</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care southbank</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care north melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care south melbourne</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care brunswick</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care fitzroy</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care pakenham</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education and care st kilda</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of early childhood education</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>4,400</td>
+  <td>0</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course werribee</td>
+  <td><span class="score-badge" style="background:#f0a500">0.46</span></td>
+  <td>20</td>
+  <td>14</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>government funded diploma of early childhood education</td>
+  <td><span class="score-badge" style="background:#f0a500">0.45</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>5</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>become an early childhood educator</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>20</td>
+  <td>50</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>medium</td>
+</tr><tr>
+  <td>disability care course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>15</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>disability support training</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.38</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>15</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>aged care course geelong</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.37</span></td>
+  <td>30</td>
+  <td>39</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>medium</td>
+</tr><tr>
+  <td>individual support course melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.36</span></td>
+  <td>20</td>
+  <td>42</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>medium</td>
+</tr><tr>
+  <td>diploma of childcare melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.36</span></td>
+  <td>10</td>
+  <td>39</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cert 3 childcare melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.35</span></td>
+  <td>40</td>
+  <td>40</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>medium</td>
+</tr><tr>
+  <td>aged care course pakenham</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.35</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>individual-support-aged-care</td>
+  <td>medium</td>
+</tr><tr>
+  <td>diploma of early childhood education and care melbourne</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>20</td>
+  <td>47</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>medium</td>
+</tr><tr>
+  <td>childcare course geelong</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.33</span></td>
+  <td>10</td>
+  <td>38</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>medium</td>
+</tr><tr>
+  <td>child care course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.31</span></td>
+  <td>0 <span class="vol-marker" title="No volume data from any source.">&#8709;</span></td>
+  <td>19</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>Quick Win (1-3 mo)</td>
+</tr><tr>
+  <td>diploma of community services cost</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.31</span></td>
+  <td>30</td>
+  <td>46</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>general-community-services</td>
+  <td>medium</td>
+</tr><tr>
+  <td>cheap childcare course</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.31</span></td>
+  <td>10</td>
+  <td>42</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-childcare</td>
+  <td>medium</td>
+</tr><tr>
+  <td>diploma of early childhood education and care victoria</td>
+  <td><span class="score-badge" style="background:#e74c3c">0.29</span></td>
+  <td>10</td>
+  <td>41</td>
+  <td><span class="muted">Not in top 50</span></td>
+  <td>Informational</td>
+  <td>ecec-diploma</td>
+  <td>medium</td>
+</tr></tbody>
+  </table>
+  </div>
+</section>
+</main>
+<script>
+function toggleDetail(id) {
+  var row = document.getElementById(id);
+  if (row) {
+    row.style.display = row.style.display === 'none' ? '' : 'none';
+  }
+}
+
+function sortTable(table, col) {
+  var tbody = table.tBodies[0];
+  var rows = Array.from(tbody.rows).filter(function(r) { return !r.classList.contains('detail-row'); });
+  var th = table.tHead.rows[0].cells[col];
+  var asc = !th.classList.contains('sort-asc');
+  Array.from(table.tHead.rows[0].cells).forEach(function(c) {
+    c.classList.remove('sort-asc', 'sort-desc');
+  });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+  rows.sort(function(a, b) {
+    var va = a.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var vb = b.cells[col].textContent.trim().replace(/[,$%]/g, '');
+    var na = parseFloat(va), nb = parseFloat(vb);
+    if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
+    return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(function(row) {
+    tbody.appendChild(row);
+    var detailId = row.querySelector('[onclick]');
+    if (detailId) {
+      var match = detailId.getAttribute('onclick').match(/'([^']+)'/);
+      if (match) {
+        var detail = document.getElementById(match[1]);
+        if (detail) tbody.appendChild(detail);
+      }
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.sortable-table').forEach(function(table) {
+    Array.from(table.tHead.rows[0].cells).forEach(function(th, i) {
+      th.addEventListener('click', function() { sortTable(table, i); });
+    });
+  });
+});
+</script>
+</body>
+</html>
