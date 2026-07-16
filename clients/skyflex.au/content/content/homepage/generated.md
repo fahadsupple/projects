@@ -17,7 +17,7 @@ The Delta line covers the choices most Melbourne yards call for. The Delta Light
 
 ## About Skyflex
 
-Skyflex was founded in 2023 by Christopher Mitsopoulos and has since fitted out more than 100 outdoor spaces across Melbourne and Sydney. Around half of every new job now comes through a customer referral, which for a business this young is the clearest sign the product holds up. A few specifics behind that:
+Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied more than 100 customers. Around half of every new job now comes through a customer referral, which for a business this young is the clearest sign the product holds up. A few specifics behind that:
 
 - Up to a 15-year product warranty, well beyond the 1 to 5 years common across the market.
 - The Delta Light Motorised was voted Australia's most affordable motorised louvre roof system, from $2,700.

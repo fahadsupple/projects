@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-16T06:10:13Z_
+_Rebuilt: 2026-07-16T06:22:32Z_
 
 ## delta-commercial-folding-arm
 
@@ -22,7 +22,7 @@ _Rebuilt: 2026-07-16T06:10:13Z_
 - **Primary keyword:** retractable roof system melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 980
+- **Word count:** 974
 - **Headings:**
   - Delta Pro Retractable Roof System Melbourne
   - Built for open sun and sudden rain
@@ -38,7 +38,7 @@ _Rebuilt: 2026-07-16T06:10:13Z_
 - **Primary keyword:** pergolas melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 573
+- **Word count:** 567
 - **Headings:**
   - Pergolas Melbourne
   - Louvred Pergolas Melbourne
@@ -79,7 +79,7 @@ _Rebuilt: 2026-07-16T06:10:13Z_
 - **Primary keyword:** bbq pods melbourne
 - **Page type:** product
 - **Cluster:** products
-- **Word count:** 723
+- **Word count:** 717
 - **Headings:**
   - Skyflex BBQ Pods Melbourne: An Outdoor Kitchen Made to Your Configuration
   - How a made-to-order BBQ pod comes together
