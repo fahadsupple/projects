@@ -181,3 +181,40 @@ Fine once or twice. Across the document, every FAQ answer starts the same way.
 3. **Add connective tissue** — "but", "so", "which is why". Cheap, fast, big readability gain.
 4. **Cut the colons by two-thirds** and vary the openers.
 5. **Repair the six broken sentences above.**
+
+---
+
+# RE-CHECK — revised document (16 July 2026)
+
+Re-ran every check against the updated `Thecakepeople.au.docx` (now 24,171 words / 1,397 paragraphs, expanded from 20,600). No track-changes markup present, so extraction is clean. Apostrophes in the revision are curly (’) — counts below normalise them.
+
+## Verdict: the high-priority issues are fixed. A few low-priority polish items remain.
+
+### FIXED ✅
+| # | Issue | Before → After |
+|---|---|---|
+| P1-1 | Contractions absent | ~1 → **118 casual contractions** (it's 25, you're 9, we've 20, that's 11, can't 3, n't negatives 19). Register is now genuinely warmer. |
+| P1-2 | Happy/fun lexicon absent | joy 0→**16**, celebrate 0→**78**, fun 2→**11**, love 2→**29**, excited 0→**4**, exclamations 6→**24** |
+| P1-3 | Recycled review formula | "As one customer/parent…" 27 → **1**. Near-verbatim review recycling gone. |
+| P2-1 | Identical page skeleton | Every page now has **unique, page-specific H3 headings** in varied order/number (e.g. "Why parents skip the packet cake", "The taste behind the blocks", "So no one at the party misses out"). Template-with-nouns-swapped is gone. |
+| P2-2 | Credentials block on all 34 pages | "8,481 orders" 34 → **5 pages**. No longer bolted to every page. |
+| Broken | Barbie Page-1 broken sentence ("…on the record. in the…") | **Repaired / gone** |
+| Broken | Roblox "that everyone can eat it is why parents…" | **Gone** |
+| Broken | Missing-verb link ("Barbie cakes a doll-themed guest") | **Gone** |
+| P2-flow | Delivery "Because…Because…" same paragraph | **Gone** |
+
+### PARTIAL ⚠️
+- **Formal forms still coexist with contractions.** "we will" 51 vs "we'll" 6; "it is" 40 vs "it's" 25; "here is" 10 vs "here's" 0. The register is now *mixed* rather than converted — much better, but a second contractions pass on the remaining formal constructions would finish the job.
+- **Connective tissue** — improved but sentence-initial **"But" is still 0** (So 9, However 3, Because 6). Adding a handful of "But…" openers would help.
+- **Awards story still recurs** — "Victorian Baking Show" 30, "since 2014" 36. Less mechanical than before (rewording tell reduced) but still frequent.
+
+### NOT FIXED ❌ (low priority)
+- **Colon tic** — 1 colon every **11.3 sentences** (was ~1 in 13). Essentially unchanged; the "cut by two-thirds" recommendation was not applied.
+- **"Yes." FAQ openers** — 27 → **38** (grew with the doc). Still every FAQ answer opening the same way.
+- **Cheekiness** — still **0** playful/cheeky lines. The one explicit guideline still unmet.
+- **3 of 6 flagged sentences still present:**
+  - Hot Wheels: *"Throwing for more than one theme?"* — verb object still dropped ("Throwing a party…")
+  - Hot Wheels: *"…hands the birthday driver a finish line in buttercream and orange flame"* — mixed metaphor unchanged
+  - Delivery: *"…getting your cake there safely and on time, is ours to carry"* — nested clause still buries the verb
+
+**Bottom line:** all four top-priority fixes (contractions, warmth lexicon, review repetition, page-template variance) plus credentials de-duplication and the main broken sentence are done. Remaining items are polish — colons, "Yes." openers, cheek, and three awkward sentences.
