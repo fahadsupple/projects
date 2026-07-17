@@ -15,8 +15,8 @@ Most pods are sold as a finished unit in a set size. Skyflex works the other way
 
 The pod comes in two footprints, both standing 2.3 metres tall. The measurements below are the ones carried on the current listing:
 
-- 2200w x 2300h x 770w: the compact unit, suited to a courtyard, a smaller deck, or a tighter alfresco corner
-- 2850w x 2300h x 770w: the wider unit, giving more bench and cooking space along the run
+- 2200W x 2300H x 720D: the compact unit, suited to a courtyard, a smaller deck, or a tighter alfresco corner
+- 2850W x 2300H x 720D: the wider unit, giving more bench and cooking space along the run
 
 Beyond the footprint, a made-to-configuration pod leaves the important details open until you have chosen them. Because it lives outdoors permanently, the finish and the way it is fitted out are confirmed with you during the consultation rather than fixed to a single spec sheet. The idea is that the weather-facing build is matched to where the pod will stand and how hard it will be worked, not averaged across every backyard.
 
@@ -42,7 +42,7 @@ A BBQ pod is a sizeable addition to a home, so it is worth knowing who stands be
 
 **Can I buy a BBQ pod online?** No. It is a custom-order product, not available for direct online purchase, so pricing, delivery and any customisation are settled by speaking with the team first. There is no add-to-cart button, and that is deliberate.
 
-**What sizes are available?** Two footprints, both standing 2.3 metres tall: 2200w x 2300h x 770w for a courtyard or a tighter alfresco corner, and 2850w x 2300h x 770w for a larger space.
+**What sizes are available?** Two footprints, both standing 2.3 metres tall: 2200W x 2300H x 720D for a courtyard or a tighter alfresco corner, and 2850W x 2300H x 720D for a larger space.
 
 **Is the pod built to stay outdoors?** Yes. It lives outdoors permanently, and the finish and the way it is fitted out are confirmed with you during the consultation so the weather-facing build is matched to where the pod will stand.
 

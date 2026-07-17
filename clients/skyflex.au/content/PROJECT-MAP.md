@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-17T00:03:35Z_
+_Rebuilt: 2026-07-17T00:11:06Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-17T00:03:35Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T00:00:00.000Z  `entry_approved`  entry:smart-toilets  (success)
-- 2026-07-16T23:51:46.986Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-17T00:03:05.614Z  `client_facts_extracted`  client:skyflex.au  (success)
-- 2026-07-17T01:00:00.000Z  `entry_approved`  entry:homepage  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:louvred-pergolas-sydney  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:delta-pro-retractable-roof  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:delta-commercial-folding-arm  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:skyflex-bbq-pods  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:smart-toilets  (success)
+- 2026-07-17T00:03:35.577Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-17T00:10:46.085Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-17T00:10:51.516Z  `client_facts_extracted`  client:skyflex.au  (success)
+- 2026-07-17T02:00:00.000Z  `content_corrected`  entry:skyflex-bbq-pods  (success)
 
