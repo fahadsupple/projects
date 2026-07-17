@@ -15,6 +15,10 @@ Because it is aluminium rather than timber, the structure stays outdoors through
 
 **Questions about your build? Call us now on 03 9498 0505.**
 
+## Who a Skyflex pergola in Sydney suits
+
+A Skyflex pergola suits Sydney homeowners and businesses who want a quality louvred pergola without commissioning a bespoke on-site build. Because it ships as a kit and is fitted through approved installers, it works for the hands-on owner who will assemble it and for the buyer who would rather an installer took it on. It is the right fit if you want a fixed, upfront price and a product engineered for the weather, rather than an open-ended custom quote.
+
 ## About Skyflex
 
 Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied its outdoor-living range to more than 100 customers. Half of the new business now comes through referrals from those customers, which for a young brand is the reference that matters most. This page covers the louvred pergola range for Sydney orders. For the full product range, the warranty detail and more on the people behind it, see our [About page](https://skyflex.au/about-us/).
@@ -22,10 +26,6 @@ Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied it
 To start, tell us the area you want to cover and the look you are after, and we will quote the kit, the colour and the installer option in one go. Request a quote or send an enquiry through the site, and the Skyflex team will handle it from there.
 
 **Call us now on 03 9498 0505** to get started.
-
-## Who a Skyflex pergola in Sydney suits
-
-A Skyflex pergola suits Sydney homeowners and businesses who want a quality louvred pergola without commissioning a bespoke on-site build. Because it ships as a kit and is fitted through approved installers, it works for the hands-on owner who will assemble it and for the buyer who would rather an installer took it on. It is the right fit if you want a fixed, upfront price and a product engineered for the weather, rather than an open-ended custom quote.
 
 ## Pergola questions from Sydney buyers
 

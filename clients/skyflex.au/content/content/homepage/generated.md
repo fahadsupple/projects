@@ -15,6 +15,10 @@ The Delta line covers the choices most Melbourne yards call for. The [Delta Ligh
 
 **Want to see the range in person? Call us now on 03 9498 0505** or visit our Epping showroom.
 
+## Who a Skyflex louvred pergola suits
+
+Skyflex louvred pergolas suit Melbourne homeowners and businesses who want an outdoor space they can use all year, not only on still, sunny days. They fit the DIY enthusiast happy to assemble a kit over a weekend just as well as the owner who would rather an approved installer handled it. At home the common settings are backyards, patios and gardens; cafes, restaurants and other commercial properties use them to make an outdoor area work in any weather. If you value durability and a fixed, upfront price over an open-ended bespoke build, this is the range built for that.
+
 ## About Skyflex
 
 Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied more than 100 customers. Around half of every new job now comes through a customer referral, which for a business this young is the clearest sign the product holds up. A few specifics behind that:
@@ -27,10 +31,6 @@ Skyflex was founded in 2023 by Christopher Mitsopoulos and has since supplied mo
 The products are designed in Europe with ethically sourced components and made fully customisable to your space. See the range in person at our Epping showroom, order a DIY kit, or request a quote for a custom project, and the Skyflex team will match it to the right model and finish.
 
 **Call us now on 03 9498 0505** to get started.
-
-## Who a Skyflex louvred pergola suits
-
-Skyflex louvred pergolas suit Melbourne homeowners and businesses who want an outdoor space they can use all year, not only on still, sunny days. They fit the DIY enthusiast happy to assemble a kit over a weekend just as well as the owner who would rather an approved installer handled it. At home the common settings are backyards, patios and gardens; cafes, restaurants and other commercial properties use them to make an outdoor area work in any weather. If you value durability and a fixed, upfront price over an open-ended bespoke build, this is the range built for that.
 
 ## Louvred pergola questions Melbourne buyers ask
 

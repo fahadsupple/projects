@@ -39,6 +39,10 @@ Every figure here is from this product, not a general outdoor-TV template:
 
 **Unsure which size suits your space or where to mount it? Call us now on 03 9498 0505.**
 
+## Who the Skyflex outdoor TV is best for
+
+This TV is best for a covered or partly shaded outdoor spot: a roofed alfresco, a verandah, a pergola, or a corner that catches only glancing light. It suits homeowners who already have a shaded entertaining area and want a screen that can stay mounted outside through the seasons. It is not the right choice for a wall in open, direct sun through the middle of the day, where a brighter panel built for full sun performs better. If your spot has something overhead, this is the screen for it.
+
 ## Pricing, sizes and pre-order
 
 The Skyflex outdoor TV is sold on a supply basis, priced by the size you choose, from $1,785 up to $4,400. Supplied means you receive the TV and mount it yourself or hand it to your own installer. It is wall-mount compatible, and with no bundled install cost inflating the price, the same outdoor-TV specification lands up to eight times cheaper here than through some competing systems.
@@ -48,10 +52,6 @@ It ships as a pre-order item. A 50% deposit per unit places the order, and the b
 ## About Skyflex
 
 Skyflex is an Australian [outdoor-living brand](https://skyflex.au/about-us/), started in 2023 by Christopher Mitsopoulos and run from an Epping showroom you are welcome to visit by appointment. The range grew out of [pergolas and louvred roofs](https://skyflex.au/outdoor-pergolas/), the covered spaces this TV is designed to sit under, so an outdoor screen was a natural next step. More than 100 customers have bought from Skyflex so far, and close to half of each month's new orders come from someone passing the name to a friend. For a screen you are trusting to live outside, buying from a team that answers its own phone here in Australia counts for something.
-
-## Who the Skyflex outdoor TV is best for
-
-This TV is best for a covered or partly shaded outdoor spot: a roofed alfresco, a verandah, a pergola, or a corner that catches only glancing light. It suits homeowners who already have a shaded entertaining area and want a screen that can stay mounted outside through the seasons. It is not the right choice for a wall in open, direct sun through the middle of the day, where a brighter panel built for full sun performs better. If your spot has something overhead, this is the screen for it.
 
 ## Questions buyers ask before going outdoors
 
