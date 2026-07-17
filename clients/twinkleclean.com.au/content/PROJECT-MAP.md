@@ -1,13 +1,13 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-17T04:13:35Z_
+_Rebuilt: 2026-07-17T04:46:27Z_
 
 ## Snapshot
 
 - **Domain:** twinkleclean.com.au
 - **Intake mode:** greenfield
 - **Entries:** 63 total | 0 generated | 0 audited | 0 approved
-- **Clusters:** 4 | 0 locked
+- **Clusters:** 4 | 1 locked
 - **Halt state:** none
 
 ## File map
@@ -29,9 +29,6 @@ _Rebuilt: 2026-07-17T04:13:35Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-port-melbourne  (success)
-- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-richmond  (success)
-- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-ringwood  (success)
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-rowville  (success)
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-scoresby  (success)
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-south-melbourne  (success)
@@ -39,4 +36,7 @@ _Rebuilt: 2026-07-17T04:13:35Z_
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-southbank  (success)
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-springvale  (success)
 - 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-wantirna  (success)
+- 2026-07-17T04:13:35.493Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T04:46:27.292Z  `cluster_plan_generated`  cluster:service-hubs  (success)
+- 2026-07-17T04:46:27.295Z  `plan_locked`  cluster:service-hubs  (success)
 
