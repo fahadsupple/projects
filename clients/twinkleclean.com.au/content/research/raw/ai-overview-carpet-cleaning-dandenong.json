@@ -1,0 +1,44 @@
+{
+  "id": "07170615-1150-0629-0000-c2b713cf2010",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "endpoint": "ai_optimization_chat_gpt_scraper",
+  "keyword": "carpet cleaning dandenong",
+  "location_name": "Australia",
+  "language_code": "en",
+  "force_web_search": true,
+  "items": [
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "If you're looking for carpet cleaning in Dandenong, here are several well-reviewed local options:\n\n- Spotless Cleaner – 4.9★ (173 reviews). Steam carpet cleaning, upholstery, mattress cleaning, and stain removal.\n- Professional Carpet Clean – 5.0★ (70 reviews). Open extended hours with residential and commercial services.\n- VBEST Carpet Cleaning – 4.9★ (91 reviews). Carpet steam cleaning and related services.\n- Neat Clean – Residential & Commercial Cleaners – 5.0★ (61 reviews). Carpet cleaning plus general residential and commercial cleaning.\n- Carpet Cleaning Dandenong – 5.0★. Offers steam cleaning, stain treatment, deodorising, rug and upholstery cleaning. Their website also lists room-based pricing and same-week bookings. [carpetcleaningdandenong.com.au](https://carpetcleaningdandenong.com.au/?utm_source=chatgpt.com)\n\nIf you're booking, it's worth asking:\n- Whether they use **hot water extraction (steam cleaning)** or **dry cleaning**.\n- Whether stain treatment and deodorising are included.\n- The expected drying time (typically several hours for steam cleaning, depending on ventilation). [www.bhg.com](https://www.bhg.com/how-long-does-it-take-carpet-to-dry-after-cleaning-7567484?utm_source=chatgpt.com)\n\nIf you tell me:\n- how many bedrooms or rooms need cleaning,\n- whether it's for an **end-of-lease** clean or a regular clean, and\n- if there are pet stains or heavy soiling,\n\nI can help estimate a reasonable price and recommend the best option.",
+      "sources": [
+        {
+          "type": "chat_gpt_source",
+          "title": "Professional Carpet Cleaning Services | Carpet Cleaning Dandenong",
+          "domain": "carpetcleaningdandenong.com.au",
+          "url": "https://carpetcleaningdandenong.com.au/?utm_source=chatgpt.com",
+          "source_name": "Carpet Cleaning Dandenong",
+          "publication_date": "2020-03-29 07:22:07 +00:00"
+        },
+        {
+          "type": "chat_gpt_source",
+          "title": "Here's How Long It Takes Carpet to Dry After Cleaning",
+          "snippet": "This article from Better Homes & Gardens outlines the key factors affecting how long carpets take to dry after cleaning, as well as tips to speed up the process. Carpet drying time depends on the cleaning method used, carpet material and thickness, and environmental conditions. Steam cleaning or hot water extraction typically requires 6-12 hours for drying, while dry cleaning methods can take less than an hour. Thicker, plush carpets, particularly those made from nylon or wool, take longer to dry, while polypropylene and polyester carpets dry more quickly.\n\nEnvironmental factors like humidity, temperature, and airflow significantly influence drying times. To speed up the process, experts like Prerna Jain suggest increasing air circulation using fans, dehumidifiers, or open windows. It's also important to avoid walking on wet carpet and to wait at least 12-24 hours before replacing furniture to prevent mildew or odor issues.\n\nFor effective cleaning, professionals or rental machines may be necessary, especially for complex layouts. Ultimately, thorough drying ensures a clean, allergen-free carpet without risk of mold or damage.",
+          "domain": "www.bhg.com",
+          "url": "https://www.bhg.com/how-long-does-it-take-carpet-to-dry-after-cleaning-7567484?utm_source=chatgpt.com",
+          "source_name": "Better Homes & Gardens",
+          "publication_date": "2023-08-19 13:00:00 +00:00"
+        }
+      ],
+      "brand_entities": [
+        {"type": "chat_gpt_brand_entity", "title": "Spotless Cleaner", "category": "local_business", "urls": [{"url": "http://spotlesscleaner.com.au/", "domain": "spotlesscleaner.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Professional Carpet Clean", "category": "local_business", "urls": []},
+        {"type": "chat_gpt_brand_entity", "title": "VBEST Carpet Cleaning", "category": "local_business", "urls": [{"url": "https://www.facebook.com/vbestpropertyservices", "domain": "www.facebook.com"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Neat Clean – Residential & Commercial Cleaners", "category": "local_business", "urls": [{"url": "http://neatclean.com.au/", "domain": "neatclean.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Carpet Cleaning Dandenong", "category": "local_business", "urls": [{"url": "http://carpetcleaningdandenong.com.au/", "domain": "carpetcleaningdandenong.com.au"}]}
+      ]
+    }
+  ]
+}

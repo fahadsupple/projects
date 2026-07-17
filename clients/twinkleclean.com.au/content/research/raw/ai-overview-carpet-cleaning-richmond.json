@@ -1,0 +1,34 @@
+{
+  "id": "07170615-1150-0629-0000-234a61db269b",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "keyword": "carpet cleaning richmond",
+  "location_name": "Australia",
+  "language_code": "en",
+  "force_web_search": true,
+  "items": [
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "If you mean **Richmond, South Australia (near Adelaide)**, here are some well-reviewed carpet cleaning services that can service the area:\n\n- ChemDry Locals – 5.0★ (830+ reviews), open 24 hours.\n- Electrodry – 4.8★ (500+ reviews), offers carpet, upholstery, and stain removal.\n- Delight Carpet Care – 5.0★ (225+ reviews), steam cleaning and stain treatment.\n- Carpet And Tile Cleaning Adelaide – 5.0★ (45+ reviews), carpet and tile cleaning, open daily.\n- I Clean Carpets & Windows – 4.9★ (55+ reviews), located in nearby Clarence Gardens.\n\nFor most homes, professional carpet cleaning typically starts around **A$80–150** for a few rooms, with larger homes or end-of-lease cleans costing more. Prices vary depending on the number of rooms, carpet condition, and whether stain or pet odour treatments are needed. [thatcarpetguy.com.au](https://thatcarpetguy.com.au/?utm_source=chatgpt.com)\n\nIf you meant **Richmond in another state or country** (such as Richmond VIC, Richmond NSW, or Richmond BC), let me know which one and I can recommend local services there.",
+      "sources": [
+        {
+          "type": "chat_gpt_source",
+          "title": "That Carpet Guy | Adelaide carpet cleaning - Thatcarpetguy.com.au",
+          "domain": "thatcarpetguy.com.au",
+          "url": "https://thatcarpetguy.com.au/?utm_source=chatgpt.com",
+          "source_name": "Carpet Guy Adelaide"
+        }
+      ],
+      "brand_entities": [
+        {"type": "chat_gpt_brand_entity", "title": "ChemDry Locals", "category": "local_business", "markdown": "ChemDry Locals", "urls": [{"url": "http://www.chemdrylocals.com.au/", "domain": "www.chemdrylocals.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Electrodry", "category": "local_business", "markdown": "Electrodry", "urls": [{"url": "https://www.electrodry.com.au/adelaide/", "domain": "www.electrodry.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Delight Carpet Care", "category": "local_business", "markdown": "Delight Carpet Care", "urls": [{"url": "https://delightcarpetcare.com.au/", "domain": "delightcarpetcare.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Carpet And Tile Cleaning Adelaide", "category": "local_business", "markdown": "Carpet And Tile Cleaning Adelaide", "urls": [{"url": "http://carpettilecleaningadelaide.com.au/", "domain": "carpettilecleaningadelaide.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "I Clean Carpets & Windows", "category": "local_business", "markdown": "I Clean Carpets & Windows", "urls": [{"url": "https://icleancarpetsadelaide.com.au/?utm_source=google&utm_medium=local&utm_campaign=GBP", "domain": "icleancarpetsadelaide.com.au"}]}
+      ]
+    }
+  ],
+  "_analysis_note": "ChatGPT web-search response geo-disambiguated 'Richmond' to Richmond, South Australia (Adelaide) rather than Richmond VIC 3121. Twinkle Clean is NOT mentioned. No Melbourne/VIC carpet cleaners cited."
+}

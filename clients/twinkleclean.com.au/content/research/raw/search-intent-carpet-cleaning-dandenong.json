@@ -1,0 +1,40 @@
+{
+  "id": "07170618-1150-0541-0000-46ec472ab775",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "language_code": "en",
+  "items": [
+    {
+      "keyword": "carpet cleaning dandenong",
+      "keyword_intent": { "label": "informational", "probability": 0.458 },
+      "secondary_keyword_intents": [ { "label": "transactional", "probability": 0.354 } ]
+    },
+    {
+      "keyword": "carpet cleaning dandenong prices",
+      "keyword_intent": { "label": "commercial", "probability": 0.878 }
+    },
+    {
+      "keyword": "professional carpet cleaning dandenong",
+      "keyword_intent": { "label": "commercial", "probability": 0.747 }
+    },
+    {
+      "keyword": "cheapest carpet cleaning dandenong",
+      "keyword_intent": { "label": "commercial", "probability": 0.785 }
+    },
+    {
+      "keyword": "best carpet cleaning dandenong",
+      "keyword_intent": { "label": "informational", "probability": 0.513 },
+      "secondary_keyword_intents": [ { "label": "commercial", "probability": 0.484 } ]
+    },
+    {
+      "keyword": "carpet cleaning keysborough",
+      "keyword_intent": { "label": "commercial", "probability": 0.464 },
+      "secondary_keyword_intents": [ { "label": "navigational", "probability": 0.301 } ]
+    },
+    {
+      "keyword": "carpet steam cleaning dandenong",
+      "keyword_intent": { "label": "informational", "probability": 0.449 },
+      "secondary_keyword_intents": [ { "label": "transactional", "probability": 0.293 } ]
+    }
+  ]
+}

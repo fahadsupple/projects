@@ -1,0 +1,29 @@
+{
+  "id": "07170618-1150-0541-0000-4d87cb2c4623",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "keyword": "carpet cleaning glen waverley",
+      "keyword_intent": {"label": "navigational", "probability": 0.472},
+      "secondary_keyword_intents": [
+        {"label": "informational", "probability": 0.282}
+      ]
+    },
+    {
+      "keyword": "carpet steam cleaning glen waverley",
+      "keyword_intent": {"label": "navigational", "probability": 0.752}
+    },
+    {
+      "keyword": "end of lease carpet cleaning glen waverley",
+      "keyword_intent": {"label": "navigational", "probability": 0.417},
+      "secondary_keyword_intents": [
+        {"label": "informational", "probability": 0.286}
+      ]
+    },
+    {
+      "keyword": "carpet cleaners glen waverley",
+      "keyword_intent": {"label": "navigational", "probability": 0.7}
+    }
+  ]
+}

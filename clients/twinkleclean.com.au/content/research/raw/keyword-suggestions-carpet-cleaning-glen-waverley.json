@@ -1,0 +1,83 @@
+{
+  "id": "07170618-1150-0399-0000-a21df67e1e5b",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "se_type": "google",
+      "keyword": "carpet cleaning glen waverley",
+      "location_code": 2036,
+      "language_code": "en",
+      "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-13 01:27:15 +00:00",
+        "competition": 0.53,
+        "competition_level": "MEDIUM",
+        "cpc": 10.27,
+        "search_volume": 90,
+        "low_top_of_page_bid": 3.61,
+        "high_top_of_page_bid": 12.83,
+        "categories": [10009, 10399, 11524],
+        "monthly_searches": {
+          "2026-06": 40, "2026-05": 50, "2026-04": 30, "2026-03": 40,
+          "2026-02": 30, "2026-01": 90, "2025-12": 70, "2025-11": 70,
+          "2025-10": 40, "2025-09": 480, "2025-08": 140, "2025-07": 90
+        },
+        "search_volume_trend": {"monthly": -20, "quarterly": 33, "yearly": 33}
+      },
+      "keyword_properties": {
+        "se_type": "google",
+        "detected_language": "en",
+        "words_count": 4
+      },
+      "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 8.1,
+        "dofollow": 6.2,
+        "referring_pages": 7.8,
+        "referring_domains": 6.3,
+        "referring_main_domains": 6.2,
+        "rank": 25.7,
+        "main_domain_rank": 270.6,
+        "last_updated_time": "2026-01-28 20:44:20 +00:00"
+      },
+      "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": ["navigational"],
+        "last_updated_time": "2026-04-29 16:49:31 +00:00"
+      }
+    },
+    {
+      "se_type": "google",
+      "keyword": "carpet steam cleaning glen waverley",
+      "location_code": 2036,
+      "language_code": "en",
+      "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-10 15:57:17 +00:00",
+        "competition": 0.2,
+        "competition_level": "LOW",
+        "search_volume": 20,
+        "categories": [10009, 10399, 11524],
+        "monthly_searches": {
+          "2026-06": 10, "2026-04": 20, "2026-03": 30, "2026-02": 20,
+          "2026-01": 30, "2025-12": 10, "2025-11": 10, "2025-10": 10,
+          "2025-09": 10, "2025-08": 110, "2025-07": 50
+        },
+        "search_volume_trend": {"quarterly": -50, "yearly": -50}
+      },
+      "keyword_properties": {
+        "se_type": "google",
+        "detected_language": "en",
+        "words_count": 5
+      },
+      "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": ["commercial", "transactional"],
+        "last_updated_time": "2026-04-29 08:23:38 +00:00"
+      }
+    }
+  ]
+}
