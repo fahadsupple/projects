@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "client": "twinkleclean.com.au",
+  "generated_at": "2026-07-17T01:20:14Z",
+  "extractor_version": "0.5.0",
+  "facts": [
+    {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2019,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2019"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2019"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake-agent",
+      "confirmed_at": "2026-07-17T01:21:09.477Z"
+    },
+    {
+      "id": "metrics.percentage",
+      "class": "percentage",
+      "label": "percentage",
+      "unit": "%",
+      "value": 100,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "90%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "40%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "90%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "40%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        }
+      ],
+      "status": "conflict",
+      "confidence": "low",
+      "conflicts": [
+        {
+          "subject": "",
+          "candidates": [
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 90,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 40,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 90,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 40,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": 1000,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "29"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "32"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20785521424"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "07"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "52"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "31"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "1,000+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake-agent",
+      "confirmed_at": "2026-07-17T01:21:09.587Z"
+    },
+    {
+      "id": "dimensions.dimension",
+      "class": "dimension",
+      "label": "dimension",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dim",
+          "value_seen": "20M"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "catalog.services",
+      "class": "enum_set",
+      "label": "services",
+      "unit": null,
+      "value": [
+        "Commercial Cleaning",
+        "Office Cleaning",
+        "Carpet Cleaning",
+        "Carpet Steam Cleaning",
+        "Tile and Grout Cleaning",
+        "Upholstery and Mattress Cleaning",
+        "Domestic Cleaning",
+        "End of Tenancy Cleaning",
+        "Regular Cleaning",
+        "Window Cleaning",
+        "Deep Cleaning"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/services",
+          "value_seen": "Commercial Cleaning, Office Cleaning, Carpet Cleaning, Carpet Steam Cleaning, Tile and Grout Cleaning, Upholstery and Mattress Cleaning, Domestic Cleaning, End of Tenancy Cleaning, Regular Cleaning, Window Cleaning, Deep Cleaning"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "catalog.guarantees",
+      "class": "enum_set",
+      "label": "guarantees",
+      "unit": null,
+      "value": [
+        "100% Satisfaction Guarantee — corrective cleaning arranged where an agreed-scope area falls short",
+        "No lock-in contracts",
+        "Bond-back cleaning guarantee for end-of-tenancy work, subject to agreed scope and inspection conditions"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/guarantees",
+          "value_seen": "100% Satisfaction Guarantee — corrective cleaning arranged where an agreed-scope area falls short, No lock-in contracts, Bond-back cleaning guarantee for end-of-tenancy work, subject to agreed scope and inspection conditions"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    }
+  ],
+  "needs_confirmation": [
+    "metrics.percentage"
+  ],
+  "source_scan": {
+    "origins": [
+      "client-profile",
+      "intake-form"
+    ],
+    "scanned_at": "2026-07-17T01:20:14Z"
+  }
+}

@@ -1,6 +1,6 @@
 # skyflex.au — Project Map
 
-_Rebuilt: 2026-07-17T00:11:06Z_
+_Rebuilt: 2026-07-17T01:01:33Z_
 
 ## Snapshot
 
@@ -29,7 +29,6 @@ _Rebuilt: 2026-07-17T00:11:06Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T01:00:00.000Z  `entry_approved`  entry:louvred-pergolas-sydney  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:delta-pro-retractable-roof  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:delta-commercial-folding-arm  (success)
 - 2026-07-17T01:00:00.000Z  `entry_approved`  entry:skyflex-4k-android-smart-outdoor-tv  (success)
@@ -39,4 +38,5 @@ _Rebuilt: 2026-07-17T00:11:06Z_
 - 2026-07-17T00:10:46.085Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-17T00:10:51.516Z  `client_facts_extracted`  client:skyflex.au  (success)
 - 2026-07-17T02:00:00.000Z  `content_corrected`  entry:skyflex-bbq-pods  (success)
+- 2026-07-17T00:11:06.915Z  `client_facts_extracted`  client:skyflex.au  (success)
 
