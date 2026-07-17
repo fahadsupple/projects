@@ -1,6 +1,41 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T07:43:26Z_
+_Rebuilt: 2026-07-17T07:52:39Z_
+
+## carpet-cleaning-bayswater
+
+- **Primary keyword:** carpet cleaning bayswater
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 1020
+- **Headings:**
+  - Carpet Cleaning Bayswater
+  - Homes and workplaces under one suburb
+  - Commercial and industrial carpet maintenance
+  - Hot water extraction that reaches the base of the pile
+  - End of lease carpet cleaning in Bayswater
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book a Bayswater carpet clean
+- **First paragraph:** A carpet in Bayswater rarely gets an easy life. In a family home it takes the shoes off the driveway, the daily march across the lounge and the corner a pet has claimed; in an office, shop or factory 
+
+## carpet-cleaning-bentleigh
+
+- **Primary keyword:** carpet cleaning bentleigh
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 922
+- **Headings:**
+  - Carpet Cleaning Bentleigh
+  - Family homes and Centre Road businesses
+  - Our carpet cleaning method
+  - End of lease carpet cleaning in Bentleigh
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Bentleigh carpet clean
+- **First paragraph:** In a full family home, the carpet in the lounge and the hallway wears faster than anywhere else, soaking up shoes, pet traffic and the week's spills. By the time it starts to look tired, a vacuum has 
 
 ## carpet-cleaning-box-hill
 
@@ -86,6 +121,24 @@ _Rebuilt: 2026-07-17T07:43:26Z_
   - Book your Dandenong carpet clean
 - **First paragraph:** Between family foot traffic, a busy household and the odd spill that never quite came out, carpets in Dandenong homes take a beating. Twinkle Clean provides professional carpet cleaning in Dandenong t
 
+## carpet-cleaning-glen-waverley
+
+- **Primary keyword:** carpet cleaning glen waverley
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 953
+- **Headings:**
+  - Carpet Cleaning Glen Waverley
+  - Carpet cleaning for established Glen Waverley homes
+  - End-of-lease carpet cleaning for townhouses and rentals
+  - Commercial carpet cleaning near The Glen
+  - Our carpet cleaning method
+  - About Twinkle Clean
+  - Pricing and quotes
+  - Frequently asked questions
+  - Book your Glen Waverley carpet clean
+- **First paragraph:** The carpet in an established Glen Waverley home has usually been down for years, quietly soaking up everything a busy household walks in: grit from the garden, the traffic lane worn into the hallway, 
+
 ## carpet-cleaning-hawthorn
 
 - **Primary keyword:** carpet cleaning hawthorn
@@ -153,6 +206,36 @@ _Rebuilt: 2026-07-17T07:43:26Z_
   - Frequently asked questions
   - Book a carpet clean in Moorabbin
 - **First paragraph:** The carpet in a long-lived Moorabbin home has usually seen decades of family life, and it shows: the traffic lane worn down the hallway, the dulled patch in front of the couch, the faint smell a pet l
+
+## carpet-cleaning-mount-waverley
+
+- **Primary keyword:** carpet cleaning mount waverley
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 941
+- **Headings:**
+  - Carpet Cleaning Mount Waverley
+  - Carpet cleaning for Mount Waverley's long-settled family homes
+  - About Twinkle Clean
+  - Pricing and quotes
+  - Frequently asked questions
+  - Book your Mount Waverley carpet clean
+- **First paragraph:** Some carpet has been underfoot since the day the family first moved in, and years of that quiet wear leave their mark: the wool pile pressed flat down the hallway, the lounge floor gone a shade duller
+
+## carpet-cleaning-oakleigh
+
+- **Primary keyword:** carpet cleaning oakleigh
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 847
+- **Headings:**
+  - Carpet Cleaning Oakleigh
+  - Carpet cleaning for Oakleigh homes and businesses
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Oakleigh carpet clean
+- **First paragraph:** A family home works its carpet hard. The lounge where everyone lands after school and work, the hallway that funnels every trip to the kitchen, the corner a pet has quietly claimed: those are the spot
 
 ## carpet-cleaning-richmond
 
