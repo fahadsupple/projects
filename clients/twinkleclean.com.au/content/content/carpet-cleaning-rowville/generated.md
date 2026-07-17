@@ -28,24 +28,24 @@ Because a Rowville job might be a couple of bedrooms or a whole five-bedroom hou
 
 ## Frequently asked questions
 
-**How much does carpet cleaning cost in Rowville?**
-It comes down to the number of rooms, the size and condition of the carpet, and any stain or odour work needed. A free quote means the price reflects your actual carpet rather than a one-size-fits-all rate.
+**Can you clean a whole house of carpet in one visit?**
+Yes, and it is a big part of what we do in Rowville, where homes often carry carpet through several bedrooms, a lounge, a family room and the halls between them. Our team works room by room in the one appointment, so everything comes up fresh together.
 
-**How much is carpet steam cleaning?**
-Steam cleaning, or hot water extraction, is our standard method, so for most jobs it is already built into the quote. Larger areas and heavier stain treatment add to the total, which is why we quote on the specifics.
+**Do you clean large open-plan living areas?**
+Yes. Wide open-plan lounges and family rooms take most of the foot traffic, so they tend to show wear first. We steam clean the full area in one go, blending the traffic lanes back in with the rest of the carpet.
 
-**Is professional carpet cleaning worth it?**
-For ground-in dirt, worn traffic lanes, stains and pet odours, it makes a real difference. Hot water extraction reaches soil that a household vacuum or a hire machine leaves in the pile, and it draws the moisture back out instead of leaving the carpet soaked.
+**Do you cover the Rowville estates and nearby Knox suburbs?**
+Yes. We clean carpets right across the Rowville estates, including Rowville Lakes and Park Ridge, and through the surrounding City of Knox and the wider south-east.
 
-**How long does carpet take to dry?**
+**How long does carpet take to dry after cleaning?**
 Most carpets are dry within a few hours of a steam clean. Heavier fabrics, cooler weather and low airflow can stretch that out, and we can advise on walk-on timing for your carpet.
 
-**Do you remove pet stains and odours?**
-Yes. Targeted stain, odour and urine treatment is a dedicated part of the clean, which is how we deal with the marks and smells that a general vacuum leaves behind.
+**Can you remove pet stains and odours?**
+Yes. Targeted stain, odour and urine treatment is a dedicated step, which is how we lift the marks and smells a household vacuum leaves behind.
 
-**Do you clean carpets for end of lease?**
+**Do you offer end-of-lease or bond-back carpet cleaning?**
 Yes. We carry out end-of-tenancy carpet cleaning with a bond-back guarantee, subject to the agreed scope and inspection conditions, to help protect your deposit.
 
 ## Book your Rowville carpet clean
 
-Ready to see your carpets look their best again? Call Twinkle Clean on 0498 182 989 or email admin@twinkleclean.com.au for a free quote, and we will match the right method to your carpet and get it booked in.
+Give Twinkle Clean a call on 0498 182 989 to talk through your rooms and any problem areas, and we will book a time that suits the household. Prefer to put it in writing? Email admin@twinkleclean.com.au and we will send a free, no-obligation quote for your Rowville home.
