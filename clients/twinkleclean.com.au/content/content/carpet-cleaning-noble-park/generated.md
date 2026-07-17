@@ -37,8 +37,8 @@ Yes, and it is a large part of our Noble Park work. We clean to the standard a f
 **Can you clean carpet in apartments?**
 Yes. Many Noble Park homes are apartments and units, and we are set up for them: our equipment reaches upper-floor flats, and we plan around lift access and parking so the clean stays tidy and low-fuss for the neighbours.
 
-**Do you cover nearby Greater Dandenong suburbs?**
-Yes. As well as Noble Park, our vans are regularly out in Dandenong, Springvale, Keysborough and Noble Park North, so wherever you are across the wider Greater Dandenong area we can usually reach you.
+**Do you clean carpet in older units and walk-up flats?**
+Yes. A lot of Noble Park carpet sits in older units and walk-up blocks, and we clean it the same way we would a house, working around stairs and shared entrances so the job stays tidy for you and your neighbours.
 
 ## Book your Noble Park carpet clean
 

@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T07:52:39Z_
+_Rebuilt: 2026-07-17T08:03:54Z_
 
 ## carpet-cleaning-bayswater
 
@@ -103,6 +103,40 @@ _Rebuilt: 2026-07-17T07:52:39Z_
   - Frequently asked questions
   - Book your Caulfield carpet clean
 - **First paragraph:** Caulfield homes tend to hold their history in the floor. Grand old rooms, wool carpet that has softened underfoot over decades, and a favourite rug that has quietly gone grey at the edges: much of wha
+
+## carpet-cleaning-cheltenham
+
+- **Primary keyword:** carpet cleaning cheltenham
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 969
+- **Headings:**
+  - Carpet Cleaning Cheltenham
+  - Carpet cleaning across Cheltenham's homes and businesses
+  - Our carpet cleaning method
+  - End of lease and bond-back carpet cleaning
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Cheltenham carpet clean
+- **First paragraph:** A carpet in a settled Cheltenham home quietly records years of everyday life: the worn strip down the hallway, the flattened patch by the couch, the mark near the back door that never fully came out. 
+
+## carpet-cleaning-croydon
+
+- **Primary keyword:** carpet cleaning croydon
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 950
+- **Headings:**
+  - Carpet Cleaning Croydon
+  - Carpet cleaning for Croydon's established family homes
+  - End-of-lease carpet cleaning for Croydon townhouses and units
+  - How we clean your carpet
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Croydon carpet clean
+- **First paragraph:** Carpet in a long-lived family home rarely gives up its dirt willingly. Years of school shoes, pets curling into the same warm spot and the weekend traffic in and out of the backyard all press grit dee
 
 ## carpet-cleaning-dandenong
 
@@ -222,6 +256,22 @@ _Rebuilt: 2026-07-17T07:52:39Z_
   - Book your Mount Waverley carpet clean
 - **First paragraph:** Some carpet has been underfoot since the day the family first moved in, and years of that quiet wear leave their mark: the wool pile pressed flat down the hallway, the lounge floor gone a shade duller
 
+## carpet-cleaning-noble-park
+
+- **Primary keyword:** carpet cleaning noble park
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 967
+- **Headings:**
+  - Carpet Cleaning Noble Park
+  - Bond-back carpet cleaning for Noble Park rentals
+  - Carpet cleaning for Noble Park apartments and units
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Noble Park carpet clean
+- **First paragraph:** Plenty of renters in Noble Park hit the same worry at move-out time: will the carpet pass a final inspection, and is the bond safe? A big share of homes here are apartments and units, and after a year
+
 ## carpet-cleaning-oakleigh
 
 - **Primary keyword:** carpet cleaning oakleigh
@@ -254,6 +304,23 @@ _Rebuilt: 2026-07-17T07:52:39Z_
   - Frequently asked questions
   - Book your Richmond carpet clean
 - **First paragraph:** In a converted warehouse apartment off Swan Street, the carpet is usually the first thing to show a hard year: a matted track from the front door to the kitchen, a wine mark that has quietly set besid
+
+## carpet-cleaning-ringwood
+
+- **Primary keyword:** carpet cleaning ringwood
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 940
+- **Headings:**
+  - Carpet Cleaning Ringwood
+  - Carpet cleaning close to home
+  - The method we use
+  - Older homes and delicate carpet
+  - End of lease carpet cleaning
+  - About Twinkle Clean
+  - Frequently asked questions
+  - Book your Ringwood carpet clean
+- **First paragraph:** When your carpet has lost the spring it had the day you moved in, no amount of vacuuming quite brings it back. The colour goes flat in the walkways and a spill you meant to deal with has set. This is 
 
 ## carpet-cleaning-rowville
 

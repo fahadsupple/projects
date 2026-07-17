@@ -40,7 +40,7 @@ Yes. Established family homes with high-traffic lounges and long hallways and ne
 Yes. We carry out end-of-tenancy carpet cleaning in Croydon's units and townhouses with a bond-back guarantee, subject to the agreed scope and inspection conditions, to give tenants the best chance of protecting their deposit.
 
 **Do you cover nearby eastern suburbs like Kilsyth and Mooroolbark?**
-Yes. As well as Croydon we clean carpet throughout the neighbouring eastern suburbs, Kilsyth and Mooroolbark included, along with the wider Maroondah area.
+Yes. Croydon is one of our regular patches, and the surrounding outer-east is on the same route, so Kilsyth, Mooroolbark and the rest of the Maroondah area are easy for us to reach.
 
 ## Book your Croydon carpet clean
 
