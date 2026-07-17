@@ -1,9 +1,24 @@
 {
   "schema_version": 1,
   "client": "twinkleclean.com.au",
-  "generated_at": "2026-07-17T06:42:24Z",
+  "generated_at": "2026-07-17T06:54:06Z",
   "extractor_version": "0.5.0",
   "facts": [
+    {
+      "id": "pricing.price-ladder",
+      "class": "price_ladder",
+      "label": "Pricing by subject",
+      "unit": "AUD",
+      "entries": [],
+      "coverage": {
+        "priced_subjects": [],
+        "quote_only_subjects": []
+      },
+      "sources": [],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
     {
       "id": "company.founding-year",
       "class": "scalar_year",
@@ -43,8 +58,43 @@
       "class": "percentage",
       "label": "percentage",
       "unit": "%",
-      "value": 100,
+      "value": 90,
       "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "90%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "40%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "90%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "40%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
         {
           "origin": "intake-form",
           "ref": "intake-form#pct",
@@ -92,6 +142,41 @@
         {
           "subject": "",
           "candidates": [
+            {
+              "value": 90,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 40,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 90,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 40,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
             {
               "value": 100,
               "origin": "intake-form",
@@ -316,6 +401,43 @@
       "confirmed_at": "2026-07-17T01:44:05.798Z"
     },
     {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "high",
+      "conflicts": []
+    },
+    {
       "id": "dimensions.dimension",
       "class": "dimension",
       "label": "dimension",
@@ -326,28 +448,6 @@
           "origin": "intake-form",
           "ref": "intake-form#dim",
           "value_seen": "20M"
-        }
-      ],
-      "status": "extracted",
-      "confidence": "low",
-      "conflicts": []
-    },
-    {
-      "id": "contact.phone",
-      "class": "identifier",
-      "label": "phone",
-      "unit": null,
-      "value": null,
-      "sources": [
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#phone",
-          "value_seen": "0498 182 989"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#phone",
-          "value_seen": "0498 182 989"
         }
       ],
       "status": "extracted",
@@ -411,8 +511,9 @@
   "source_scan": {
     "origins": [
       "client-profile",
+      "existing-site",
       "intake-form"
     ],
-    "scanned_at": "2026-07-17T06:42:24Z"
+    "scanned_at": "2026-07-17T06:54:06Z"
   }
 }

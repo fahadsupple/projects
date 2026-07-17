@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T06:42:24Z_
+_Rebuilt: 2026-07-17T06:54:06Z_
 
 ## carpet-cleaning
 
