@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-17T03:30:57Z_
+_Rebuilt: 2026-07-17T04:13:35Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-17T03:30:57Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T03:30:57.104Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-hawthorn  (success)
-- 2026-07-17T03:30:57.104Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-kew  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-malvern  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-moorabbin  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-mount-waverley  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-noble-park  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-oakleigh  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-richmond  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-ringwood  (success)
-- 2026-07-17T03:30:57.105Z  `suburb_service_ground_truth_completed`  entry:carpet-cleaning-rowville  (success)
+- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-port-melbourne  (success)
+- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-richmond  (success)
+- 2026-07-17T04:13:35.456Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-ringwood  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-rowville  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-scoresby  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-south-melbourne  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-south-yarra  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-southbank  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-springvale  (success)
+- 2026-07-17T04:13:35.457Z  `suburb_service_ground_truth_completed`  entry:commercial-cleaning-wantirna  (success)
 

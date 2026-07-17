@@ -1,0 +1,28 @@
+{
+  "endpoint": "ai_optimization_chat_gpt_scraper",
+  "id": "07170700-1150-0629-0000-fa30d678394f",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "keyword": "commercial cleaning box hill",
+  "language_code": "en",
+  "location_name": "Australia",
+  "note": "No native Google AI Overview element present in the SERP fixture (PAA elements reference asynchronous_ai_overview but no rendered AIO block was returned). This fixture captures the ChatGPT-search answer as the AI-answer proxy. Twinkle Clean is NOT mentioned.",
+  "items": [
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "If you're looking for **commercial cleaning in Box Hill, VIC**, these providers offer business cleaning services such as office cleaning, retail cleaning, medical/clinic cleaning, and ongoing workplace maintenance. [www.onedirectionaustralia.com.au]\n\nSome options to consider:\n\n- Zecco Property Services — Box Hill-based cleaning service offering commercial property cleaning.\n- Select Cleaning - Box Hill — Local janitorial service in Box Hill.\n- Niro Pro Cleaning — Box Hill cleaning provider with commercial cleaning capability.\n- Cleaning Works — Cleaning service located in the Box Hill business area.\n- Performance Property Services Group — Property cleaning services serving the area.\n\nLarger commercial cleaning companies also advertise Box Hill services, including office, medical, retail, hospitality, and after-hours cleaning programs.",
+      "sources": [
+        {"type": "chat_gpt_source", "title": "Commercial Cleaning Box Hill VIC | Office & Business Cleaning Services", "domain": "www.onedirectionaustralia.com.au", "url": "https://www.onedirectionaustralia.com.au/box-hill-commercial-cleaning/", "source_name": "One Direction Australia"}
+      ],
+      "brand_entities": [
+        {"type": "chat_gpt_brand_entity", "title": "Zecco Property Services", "category": "local_business", "urls": [{"url": "http://zecco.com.au/", "domain": "zecco.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Select Cleaning - Box Hill", "category": "local_business", "urls": [{"url": "https://selectcleaningmelbourne.com/house-cleaning/box-hill/", "domain": "selectcleaningmelbourne.com"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Niro Pro Cleaning", "category": "local_business", "urls": [{"url": "https://niroprocleaning.com.au/", "domain": "niroprocleaning.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Cleaning Works", "category": "local_business", "urls": [{"url": "http://www.cleaningworks.com.au/", "domain": "www.cleaningworks.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Performance Property Services Group", "category": "local_business", "urls": [{"url": "https://www.performancecleaning.com.au/", "domain": "www.performancecleaning.com.au"}]}
+      ]
+    }
+  ]
+}

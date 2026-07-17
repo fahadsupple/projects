@@ -1,0 +1,42 @@
+{
+  "id": "07170701-1150-0541-0000-2ac0693eccf6",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "language_code": "en",
+  "items": [
+    {
+      "keyword": "commercial cleaning melbourne cbd",
+      "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.777
+      }
+    },
+    {
+      "keyword": "office cleaning melbourne cbd",
+      "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.671
+      }
+    },
+    {
+      "keyword": "commercial cleaners melbourne cbd",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.637
+      }
+    },
+    {
+      "keyword": "commercial cleaning melbourne",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.476
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "navigational",
+          "probability": 0.371
+        }
+      ]
+    }
+  ]
+}

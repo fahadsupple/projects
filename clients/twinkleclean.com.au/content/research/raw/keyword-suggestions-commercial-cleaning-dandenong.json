@@ -1,0 +1,17 @@
+{
+  "endpoint": "dataforseo_labs_google_keyword_suggestions",
+  "id": "07170701-1150-0399-0000-332884fb135a",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "seed_keyword": "commercial cleaning dandenong",
+  "location_name": "Australia",
+  "language_code": "en",
+  "limit": 25,
+  "items": [
+    {"keyword": "commercial cleaning dandenong", "search_volume": 210, "competition_level": "LOW", "cpc": 24.1, "main_intent": "navigational", "monthly_searches_recent": {"2026-06": 260, "2026-05": 260, "2026-04": 210}},
+    {"keyword": "commercial cleaning dandenong south", "search_volume": 30, "competition_level": "LOW", "cpc": 55.75, "main_intent": "navigational", "monthly_searches_recent": {"2026-06": 30, "2026-05": 20, "2026-04": 20}},
+    {"keyword": "commercial window cleaning dandenong", "search_volume": 10, "competition_level": null, "main_intent": "navigational", "foreign_intent": ["commercial"]},
+    {"keyword": "commercial cleaning services dandenong", "search_volume": 10, "competition_level": "LOW", "main_intent": "navigational", "monthly_searches_recent": {"2026-06": 10, "2026-05": 10, "2026-04": 10}}
+  ],
+  "_note": "Only 4 suggestions returned by the API for this seed despite limit=25. Verbatim from response."
+}

@@ -1,0 +1,48 @@
+{
+  "suburb": "melbourne-cbd",
+  "service": "commercial cleaning",
+  "local_signals": [
+    {
+      "title": "Supa's Cleaning - Office & Commercial Cleaners Melbourne",
+      "url": "https://supascleaning.com.au/"
+    },
+    {
+      "title": "Commercial Cleaning Melbourne | ISO Certified | Clean Group Melbourne",
+      "url": "https://commercialcleaning.au/melbourne/"
+    },
+    {
+      "title": "Commercial Cleaning Office Cleaning Services Melbourne",
+      "url": "https://www.amcclean.com.au/vic/melbourne/"
+    },
+    {
+      "title": "Office Cleaners Near Me Melbourne | Commercial Cleaning Services | Beem Cleaners",
+      "url": "https://www.beemcleaners.com.au/"
+    },
+    {
+      "title": "Professional Cleaning Melbourne | Nationwide Commercial Cleaning",
+      "url": "https://www.nationwidecleaning.com.au/"
+    },
+    {
+      "title": "Office Cleaning Services Melbourne CBD | Commercial Cleaning Services Melbourne CBD",
+      "url": "https://www.melbournecbdofficecleaning.com.au/"
+    }
+  ],
+  "synthesis": {
+    "climate_context": "Shared Melbourne-metro temperate climate — rain, mud and grit tracked into high-traffic entrances, foyers and washrooms; general Melbourne context, not a suburb-specific measured claim.",
+    "building_stock": "main commercial and financial district of Melbourne; CBD core of Greater Melbourne with lanes/arcades, retail, cultural and hospitality institutions [source: https://en.wikipedia.org/wiki/Melbourne_City_Centre]",
+    "council_notes": "LGA: City of Melbourne (with some parts in City of Port Phillip) | postcode 3000, 3001, 3004 (plus 8001 PO Box)",
+    "demographic_skew": "population 54,941 (2021 census)",
+    "content_angles_for_commercial_page": [
+      "Office & corporate cleaning (after-hours servicing, common areas & washrooms)",
+      "Retail & shopfront cleaning (shopping strips & centres)",
+      "Medical / clinic cleaning (clinics & healthcare rooms)",
+      "Hospitality venue cleaning (cafes, restaurants, venues)"
+    ],
+    "local_competitor_note": null,
+    "grounding": {
+      "source_url": "https://en.wikipedia.org/wiki/Melbourne_City_Centre",
+      "census_year": "2021",
+      "note": "Building-stock/commercial-character/council/population facts are quote-grounded in the Wikipedia profile fixture; content_angles are planning guidance ranked by keyword prevalence in that character text."
+    }
+  }
+}

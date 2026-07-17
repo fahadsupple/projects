@@ -1,0 +1,13 @@
+{
+  "endpoint": "dataforseo_labs_search_intent",
+  "id": "07170701-1150-0541-0000-51a548dd726a",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "language_code": "en",
+  "items": [
+    {"keyword": "commercial cleaning dandenong", "keyword_intent": {"label": "commercial", "probability": 0.92}},
+    {"keyword": "commercial cleaners dandenong", "keyword_intent": {"label": "commercial", "probability": 0.973}},
+    {"keyword": "office cleaning dandenong", "keyword_intent": {"label": "informational", "probability": 0.547}, "secondary_keyword_intents": [{"label": "commercial", "probability": 0.329}]},
+    {"keyword": "commercial cleaning services dandenong", "keyword_intent": {"label": "commercial", "probability": 0.986}}
+  ]
+}

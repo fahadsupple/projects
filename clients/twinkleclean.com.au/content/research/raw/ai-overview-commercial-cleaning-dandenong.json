@@ -1,0 +1,58 @@
+{
+  "endpoint": "ai_optimization_chat_gpt_scraper",
+  "id": "07170658-1150-0629-0000-f8326bffcad5",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "keyword": "best commercial cleaning services in Dandenong Melbourne",
+  "language_code": "en",
+  "location_name": "Australia",
+  "_note": "This is a ChatGPT (AI answer) response used as the AI-Overview signal. The Google organic SERP itself returned NO ai_overview element. Twinkle Clean is NOT mentioned anywhere in the ChatGPT answer.",
+  "items": [
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "If you're looking for a reliable commercial cleaning company in Dandenong or Melbourne's south-east, these are some of the strongest options based on local ratings, reputation, and the range of commercial services they offer.\n\n"
+    },
+    {
+      "type": "chat_gpt_table",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "markdown": "| Company | Best for | Highlights |\n|--------|----------|------------|\n| Maxtreme Cleaning Services | Offices, warehouses, retail | 5.0 stars (137 reviews), 24/7 availability, strong local reputation. |\n| Neat Clean - Residential & Commercial Cleaners | Small to medium businesses | 5.0 stars (61 reviews), commercial and office cleaning. |\n| EC Maintenance Cleaning Services | Industrial and commercial facilities | 5.0 stars (60 reviews), 24-hour service. |\n| CIOS Integrated Facility Services | Large commercial sites | 24/7 facility management and commercial cleaning. |\n| Dandenong Commercial Cleaning Office Cleaning Dandenong | Office cleaning | Family-owned business with 25+ years' experience, tailored office cleaning plans starting from around $45/hour. |\n| Brilliant Office Cleaning | Offices and corporate spaces | 24-hour availability and dedicated office cleaning. |\n| SM&MN Cleaning Service Company | Warehouses and commercial premises | Highly rated with experience across industrial sites. |\n| Ivory Cleaning Services Dandenong | General commercial cleaning | Well-established company with many positive customer reviews. |\n",
+      "table": {
+        "table_header": ["Company", "Best for", "Highlights"],
+        "table_content": [
+          ["Maxtreme Cleaning Services", "Offices, warehouses, retail", "5.0 stars (137 reviews), 24/7 availability, strong local reputation."],
+          ["Neat Clean - Residential & Commercial Cleaners", "Small to medium businesses", "5.0 stars (61 reviews), commercial and office cleaning."],
+          ["EC Maintenance Cleaning Services", "Industrial and commercial facilities", "5.0 stars (60 reviews), 24-hour service."],
+          ["CIOS Integrated Facility Services", "Large commercial sites", "24/7 facility management and commercial cleaning."],
+          ["Dandenong Commercial Cleaning Office Cleaning Dandenong", "Office cleaning", "Family-owned business with 25+ years' experience, tailored office cleaning plans starting from around $45/hour."],
+          ["Brilliant Office Cleaning", "Offices and corporate spaces", "24-hour availability and dedicated office cleaning."],
+          ["SM&MN Cleaning Service Company", "Warehouses and commercial premises", "Highly rated with experience across industrial sites."],
+          ["Ivory Cleaning Services Dandenong", "General commercial cleaning", "Well-established company with many positive customer reviews."]
+        ]
+      },
+      "brand_entities": [
+        {"title": "Maxtreme Cleaning Services", "category": "local_business", "domain": "www.maxtremecleaning.com.au"},
+        {"title": "Neat Clean - Residential & Commercial Cleaners", "category": "local_business", "domain": "neatclean.com.au"},
+        {"title": "EC Maintenance Cleaning Services", "category": "local_business", "domain": "www.ecmcleaning.com.au"},
+        {"title": "CIOS Integrated Facility Services", "category": "local_business", "domain": "www.cios.com.au"},
+        {"title": "Dandenong Commercial Cleaning Office Cleaning Dandenong", "category": "local_business", "domain": "www.commercialcleaningdandenong.com"},
+        {"title": "Brilliant Office Cleaning", "category": "local_business", "domain": "www.brilliantofficecleaning.com.au"},
+        {"title": "SM&MN Cleaning Service Company", "category": "local_business", "domain": "smmnclean.com.au"},
+        {"title": "Ivory Cleaning Services Dandenong", "category": "local_business", "domain": "www.cleaningservicesmelbourne.com.au"}
+      ]
+    },
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "markdown": "### Melbourne-wide companies servicing Dandenong\n\nIf you're after a larger commercial cleaning provider with broader coverage across Melbourne:\n\n- Workspace Cleaners - Dedicated account managers, customised cleaning schedules, police-checked staff, and strong customer reviews.\n- DMD Cleaning & Facility Services - Suitable for offices, healthcare, education, government, and construction sectors, with 24/7 emergency response.\n- Cleaning Space - Offers office cleaning, carpet cleaning, window cleaning, post-construction cleans, and tailored maintenance plans.\n\n### What to look for when choosing a commercial cleaner\n\nBefore signing a contract, ask about:\n\n- Public liability and workers' compensation insurance\n- Police-checked and trained staff\n- Flexible after-hours cleaning\n- Industry experience (medical, warehouse, office, retail, childcare, etc.)\n- Quality inspections and account management\n- No lock-in contracts\n- Eco-friendly cleaning products if required",
+      "sources": [
+        {"title": "Professional Cleaning for Dandenong Businesses | Workspace Cleaners", "domain": "www.workspacecleaners.com.au", "url": "https://www.workspacecleaners.com.au/locations/commercial-cleaning/dandenong", "source_name": "Workspace Cleaners"},
+        {"title": "DMD Cleaning - Melbourne's Most Trusted Commercial Cleaning Partner", "domain": "www.dmdcleaning.com.au", "url": "https://www.dmdcleaning.com.au/", "source_name": "DMD Cleaning and Facility Services"},
+        {"title": "Commercial Cleaners Dandenong | Cleaning Space", "domain": "csscleaning.com.au", "url": "https://csscleaning.com.au/", "source_name": "Cleaning Space Services"}
+      ]
+    }
+  ]
+}

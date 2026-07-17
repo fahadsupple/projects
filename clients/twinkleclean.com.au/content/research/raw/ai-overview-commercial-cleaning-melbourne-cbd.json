@@ -1,0 +1,42 @@
+{
+  "id": "07170658-1150-0629-0000-d598e3170f16",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "endpoint": "ai_optimization_chat_gpt_scraper",
+  "keyword": "commercial cleaning melbourne cbd",
+  "location_name": "Australia",
+  "language_code": "en",
+  "note": "Google SERP for this keyword contained NO ai_overview element. This fixture captures the ChatGPT search response (AI-answer surface). Twinkle Clean is NOT mentioned.",
+  "items": [
+    {
+      "type": "chat_gpt_text",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "markdown": "If you're looking for **commercial cleaning services in Melbourne CBD**, here are several well-reviewed providers:\n\n- Yes Cleaning - Commercial and Office Cleaning Melbourne – Offers office, retail, and commercial cleaning with 24/7 availability and a strong customer review profile.\n- Supa's Cleaning - Commercial Cleaning and Office Cleaning Melbourne – Specialises in commercial and office cleaning with flexible scheduling.\n- Clean Group - Commercial Cleaning and Office Cleaning Melbourne – Provides daily, weekly, and customised cleaning services for businesses.\n- ACS Commercial Cleaning Melbourne – Triple ISO-certified company offering office, medical, education, hospitality, and industrial cleaning. [acscommercialcleaning.com.au](https://acscommercialcleaning.com.au/commercial-cleaning-melbourne/cbd/?utm_source=chatgpt.com)\n- Beem Cleaners Melbourne – Offers after-hours commercial cleaning, window cleaning, floor care, and waste management for CBD businesses. [www.beemcleaners.com.au](https://www.beemcleaners.com.au/services/commercial-cleaning-melbourne-cbd/?utm_source=chatgpt.com)\n- Spiffy Clean - Commercial and Office Cleaning Services Melbourne – Suitable for offices and commercial spaces with flexible service plans.\n\nMost commercial cleaners in the CBD can provide:\n- Daily, weekly, or fortnightly cleaning\n- After-hours and weekend cleaning\n- Office workstations and common area cleaning\n- Kitchen and bathroom sanitisation\n- Carpet and hard floor cleaning\n- Window cleaning\n- End-of-lease and builders cleans\n- Waste removal and recycling programs [www.beemcleaners.com.au](https://www.beemcleaners.com.au/services/commercial-cleaning-melbourne-cbd/?utm_source=chatgpt.com)\n\nIf you're requesting quotes, it's helpful to have the following information ready:\n- Office size (m² or number of workstations)\n- Number of bathrooms and kitchens\n- Desired cleaning frequency\n- Preferred cleaning times (business hours or after hours)\n- Any specialised requirements (carpet steam cleaning, consumables, window cleaning, etc.)\n\nIf you tell me:\n- your office size,\n- how many days per week you need cleaning, and\n- your approximate budget,\n\nI can recommend the most suitable commercial cleaning company for your needs.",
+      "sources": [
+        {
+          "type": "chat_gpt_source",
+          "title": "Commercial Cleaning Melbourne CBD | ACS Commercial Cleaning",
+          "domain": "acscommercialcleaning.com.au",
+          "url": "https://acscommercialcleaning.com.au/commercial-cleaning-melbourne/cbd/?utm_source=chatgpt.com",
+          "source_name": "ACS Commercial Cleaning"
+        },
+        {
+          "type": "chat_gpt_source",
+          "title": "Melbourne CBD Commercial Cleaning Services | Beem Cleaners",
+          "domain": "www.beemcleaners.com.au",
+          "url": "https://www.beemcleaners.com.au/services/commercial-cleaning-melbourne-cbd/?utm_source=chatgpt.com",
+          "source_name": "Beem Cleaners"
+        }
+      ],
+      "brand_entities": [
+        {"type": "chat_gpt_brand_entity", "title": "Yes Cleaning - Commercial and Office Cleaning Melbourne", "category": "local_business", "markdown": "Yes Cleaning - Commercial and Office Cleaning Melbourne", "urls": [{"url": "http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office", "domain": "yescleaning.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Supa's Cleaning - Commercial Cleaning and Office Cleaning Melbourne", "category": "local_business", "markdown": "Supa's Cleaning - Commercial Cleaning and Office Cleaning Melbourne", "urls": [{"url": "https://supascleaning.com.au/", "domain": "supascleaning.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Clean Group - Commercial Cleaning and Office Cleaning Melbourne", "category": "local_business", "markdown": "Clean Group - Commercial Cleaning and Office Cleaning Melbourne", "urls": [{"url": "https://commercialcleaning.au/melbourne/", "domain": "commercialcleaning.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "ACS Commercial Cleaning Melbourne", "category": "local_business", "markdown": "ACS Commercial Cleaning Melbourne", "urls": [{"url": "https://acscommercialcleaning.com.au/", "domain": "acscommercialcleaning.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Beem Cleaners Melbourne", "category": "local_business", "markdown": "Beem Cleaners Melbourne", "urls": [{"url": "https://www.beemcleaners.com.au/", "domain": "www.beemcleaners.com.au"}]},
+        {"type": "chat_gpt_brand_entity", "title": "Spiffy Clean - Commercial and Office Cleaning Services Melbourne", "category": "local_business", "markdown": "Spiffy Clean - Commercial and Office Cleaning Services Melbourne", "urls": [{"url": "https://www.spiffyclean.com.au/commercial-cleaning-melbourne/", "domain": "www.spiffyclean.com.au"}]}
+      ]
+    }
+  ]
+}
