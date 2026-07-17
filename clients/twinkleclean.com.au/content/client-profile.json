@@ -12,14 +12,14 @@
     "banned_terms": [],
     "usps": [
       "100% satisfaction guarantee backed by a quality control system",
-      "Over 10 years of industry experience",
+      "20+ years of combined industry experience",
       "All cleaners are well trained and hold up-to-date police checks",
       "Available seven days a week including weekends and public holidays at no extra charge",
       "Budget-friendly, competitive pricing for workplaces big and small",
       "Eco-friendly, client-accessible cleaning approach",
       "Friendly cleaners with strong English-speaking communication skills",
       "No lock-in contracts",
-      "Over 1,000 happy customers served"
+      "Over 1,200 happy customers served"
     ],
     "founder_name": "Tom Su",
     "year_established": 2019,
@@ -95,12 +95,12 @@
     "Whistle Clean Australia"
   ],
   "team_size": "20 cleaners",
-  "client_count": "1,000+",
+  "client_count": "1,200+",
   "review_count": 16,
   "review_average": 5.0,
   "referral_rate_pct": 40,
   "repeat_customer_rate_pct": 90,
-  "years_of_combined_experience": "10+ years",
+  "years_of_combined_experience": "20+ years",
   "customer_process": [
     "Initial enquiry by phone (0498 182 989), email (admin@twinkleclean.com.au) or website quote request, stating the service required and preferred contact method",
     "Discuss requirements, priorities, service frequency, property size, access arrangements and any specific concerns; arrange an onsite inspection for larger or ongoing commercial work",
@@ -159,19 +159,19 @@
       "field": "years_of_combined_experience / year_established",
       "form1_value": "Form 1 Q3 year established = 2019; Q10/Q14 claim '20+ years of experience in the cleaning industry'",
       "form2_value": "Form 2 Q2/Q14/Q15 state 'over 10 years of industry experience'",
-      "note": "Three different signals: founded 2019 (~7 years as a business), '20+ years' (likely the founder's personal hands-on experience, not company age), and '10 years' company experience. Stored years_of_combined_experience as '10+ years' (the most recent form) and kept year_established=2019. Writer must NOT claim the company has been operating for 20 years. Analyst to confirm the exact framing before generation."
+      "note": "RESOLVED (analyst, 2026-07-17): use '20+ years' as COMBINED/hands-on industry experience; ignore the '10 years' figure. year_established stays 2019 — the writer must frame 20+ years as combined team/founder experience, NOT as company operating age (do not claim the company has traded since ~2005)."
     },
     {
       "field": "client_count",
       "form1_value": "Form 1: 'Over 1,200 happy customers served'",
       "form2_value": "Form 2: 'Over 1,000 customers served across Melbourne' + 'more than 200 active long-term regular clients'",
-      "note": "Stored the conservative '1,000+' figure and normalised the USP wording to match. Analyst to confirm whether 1,200 is current."
+      "note": "RESOLVED (analyst, 2026-07-17): use '1,200+' happy customers served."
     },
     {
       "field": "google_review_rating",
       "form1_value": "not asked",
       "form2_value": "Form 2 Q21 Google Business rating = n/a; Q22 = 5/5 on Oneflare.com.au from 16 reviews",
-      "note": "No Google rating available. Only third-party proof is Oneflare (5/5, 16 reviews). Reviews should be attributed to Oneflare, not Google."
+      "note": "RESOLVED (analyst, 2026-07-17): no Google rating. Attribute reviews to Oneflare (5/5 from 16 reviews) — never say 'Google reviews'."
     }
   ]
 }
