@@ -1,0 +1,62 @@
+{
+  "id": "07170451-1150-0541-0000-e98fe5dd25ec",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "keyword": "carpet cleaning services melbourne",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.671
+      }
+    },
+    {
+      "keyword": "professional carpet cleaners in melbourne",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.852
+      }
+    },
+    {
+      "keyword": "residential and commercial carpet cleaning",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.952
+      }
+    },
+    {
+      "keyword": "office carpet steam cleaning",
+      "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.577
+      }
+    },
+    {
+      "keyword": "carpet steam cleaning melbourne",
+      "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.693
+      }
+    },
+    {
+      "keyword": "commercial carpet cleaning melbourne",
+      "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.586
+      }
+    },
+    {
+      "keyword": "end of lease carpet cleaning melbourne",
+      "keyword_intent": {
+        "label": "transactional",
+        "probability": 0.406
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "informational",
+          "probability": 0.252
+        }
+      ]
+    }
+  ]
+}

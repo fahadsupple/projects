@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-17T01:44:05Z_
+_Rebuilt: 2026-07-17T02:01:21Z_
 
 ## Snapshot
 
@@ -29,10 +29,14 @@ _Rebuilt: 2026-07-17T01:44:05Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T01:18:33.705Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T01:20:14.466Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T01:20:14.466Z  `intake_complete`  client:twinkleclean.com.au  (success)
-- 2026-07-17T01:21:09.484Z  `client_fact_confirmed`  client:twinkleclean.com.au  (success)
-- 2026-07-17T01:21:09.594Z  `client_fact_confirmed`  client:twinkleclean.com.au  (success)
-- 2026-07-17T01:44:05.807Z  `client_fact_confirmed`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:54:43.845Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:54:55.616Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:55:06.878Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:55:59.641Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:56:51.797Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:57:14.163Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:57:40.498Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T01:58:10.339Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T02:01:21.299Z  `serp_research_completed`  entry:commercial-cleaning  (success)
+- 2026-07-17T02:01:21.299Z  `serp_research_completed`  entry:carpet-cleaning  (success)
 
