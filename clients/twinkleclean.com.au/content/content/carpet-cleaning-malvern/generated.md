@@ -40,7 +40,7 @@ Most carpets are walkable within a few hours of a steam clean, because we draw t
 Usually, yes. Pet marks and smells get a dedicated stain and odour treatment rather than a single general pass, which is how we shift what a surface clean leaves sitting in the pile.
 
 **Do you offer end-of-lease or bond-back carpet cleaning?**
-Yes. We carry out end-of-tenancy carpet cleaning to inspection standard and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, giving Malvern tenants the best shot at their full deposit.
+Yes. For tenants leaving a Malvern rental, we clean carpet to the standard a final inspection looks for and stand behind it with a bond-back guarantee, within the agreed scope and inspection terms, so your deposit is protected.
 
 ## Book carpet cleaning in Malvern
 

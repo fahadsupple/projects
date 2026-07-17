@@ -37,11 +37,11 @@ Yes. Burwood is split between the City of Monash and the City of Whitehorse, and
 Clearing small items and floor clutter helps, since it lets us reach more carpet, though there is no need to shift heavy pieces yourself. Our team can move sofas and beds where it is safe to, and we clean around anything better left in place.
 
 **How soon can you come out?**
-Often within a day or two, and sooner when a move-out or inspection date is tight. Give us a call with your timing and we will offer you the earliest slot we have, including weekends and public holidays at no extra charge.
+Often within a day or two, and sooner when a move-out or inspection date is tight. Call us with your timing and we will offer the earliest slot we have, including weekends and public holidays at no extra charge.
 
 **What is the difference between steam and dry carpet cleaning?**
 Steam cleaning, or hot water extraction, flushes hot water and solution deep into the pile and vacuums it back out, lifting embedded soil and leaving the carpet damp for a few hours. Dry, or low-moisture, cleaning uses far less water and a compound worked through the surface, so the carpet is walkable almost straight away while the clean stays shallower. For most Burwood carpets we lean on steam for the deeper result, using low-moisture where a delicate rug or quick turnaround calls for it.
 
 ## Book a carpet clean in Burwood
 
-Whether you are turning around a share house near the campus or freshening the family lounge before the season changes, we will get your Burwood carpet sorted. Call 0498 182 989 or email admin@twinkleclean.com.au with your address and your ideal timing, and we will book in a clean that works around your week.
+Whether you are turning around a share house near the campus or freshening the family lounge, we will get your Burwood carpet sorted. Call 0498 182 989 or email admin@twinkleclean.com.au with your address and your ideal timing, and we will book in a clean that works around your week.

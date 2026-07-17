@@ -40,7 +40,7 @@ Clearing small and breakable items beforehand helps. We can gently shift sofas a
 Often within a few days, and we work seven days a week including weekends and public holidays at no extra charge. If you are working to a settlement or inspection date, tell us and we will do our best to fit you in ahead of it.
 
 **What is the difference between steam and dry carpet cleaning?**
-Steam cleaning, or hot water extraction, rinses water and solution through the pile and vacuums it back out for a deeper clean, leaving the carpet damp for a few hours. Dry, or low-moisture, cleaning uses far less water and is ready to walk on sooner, which is why we lean on it for delicate wool and rugs.
+Steam cleaning is the deeper of the two. Hot water and solution are worked into the pile, then drawn back out under strong suction, which is what shifts embedded soil and leaves carpet damp for a few hours. Low-moisture or dry cleaning uses much less water and is ready to walk on sooner, so we prefer it for delicate wool and antique rugs in Kew homes.
 
 ## Book your Kew carpet clean
 

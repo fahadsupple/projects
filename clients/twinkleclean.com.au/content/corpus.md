@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T07:26:01Z_
+_Rebuilt: 2026-07-17T07:43:26Z_
 
 ## carpet-cleaning-box-hill
 
@@ -18,6 +18,56 @@ _Rebuilt: 2026-07-17T07:26:01Z_
   - Frequently asked questions
   - Book a carpet clean in Box Hill
 - **First paragraph:** Handing back the keys on a Box Hill apartment usually comes down to one last thing: the carpet. A final inspection looks hard at the floors, and everyday marks can stand between a tenant and a full bo
+
+## carpet-cleaning-burwood
+
+- **Primary keyword:** carpet cleaning burwood
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 956
+- **Headings:**
+  - Carpet Cleaning Burwood
+  - End-of-lease cleaning for student rentals and share houses
+  - Whole-house refreshes for established Burwood homes
+  - Steam cleaning matched to your carpet
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book a carpet clean in Burwood
+- **First paragraph:** A carpet in a busy Burwood household takes a beating that a weekend vacuum barely touches, whether it is a family lounge worn into grey traffic lanes or a student share house that has seen a few too m
+
+## carpet-cleaning-camberwell
+
+- **Primary keyword:** carpet cleaning camberwell
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 973
+- **Headings:**
+  - Carpet Cleaning Camberwell
+  - Room by room through Camberwell's grand period homes
+  - Gentle steam cleaning for wool and natural fibres
+  - Bond-back cleaning for Camberwell rentals
+  - About Twinkle Clean
+  - Free quotes and competitive pricing
+  - Frequently asked questions
+  - Fresher carpets in your Camberwell home
+- **First paragraph:** A large Camberwell home tends to show its wear one room at a time: the formal lounge that has held the same wool carpet for decades, the hallway runner everyone crosses at the front door, the good rug
+
+## carpet-cleaning-caulfield
+
+- **Primary keyword:** carpet cleaning caulfield
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 908
+- **Headings:**
+  - Carpet Cleaning Caulfield
+  - Carpet care for Caulfield's established homes
+  - End-of-lease carpet cleaning near the university
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book your Caulfield carpet clean
+- **First paragraph:** Caulfield homes tend to hold their history in the floor. Grand old rooms, wool carpet that has softened underfoot over decades, and a favourite rug that has quietly gone grey at the edges: much of wha
 
 ## carpet-cleaning-dandenong
 
@@ -52,6 +102,40 @@ _Rebuilt: 2026-07-17T07:26:01Z_
   - Frequently asked questions
   - Ready for fresher carpets in your Hawthorn home?
 - **First paragraph:** The wool carpet on a Hawthorn staircase, the natural-fibre runner down a wide Victorian hallway, the good rug that came with the house: these are the pieces that make an established home feel settled,
+
+## carpet-cleaning-kew
+
+- **Primary keyword:** carpet cleaning kew
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 962
+- **Headings:**
+  - Carpet Cleaning Kew
+  - Wool carpets and fine rugs in Kew's established homes
+  - A clean matched to the fibre
+  - Bond-back cleaning for Kew rentals
+  - About Twinkle Clean
+  - Free quotes and competitive pricing
+  - Frequently asked questions
+  - Book your Kew carpet clean
+- **First paragraph:** A good wool carpet in a large Kew home carries years of quiet living in its pile: the soft track worn between the sitting room and the hall, the hand-knotted rug walked over by three generations. Fibr
+
+## carpet-cleaning-malvern
+
+- **Primary keyword:** carpet cleaning malvern
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 949
+- **Headings:**
+  - Carpet Cleaning Malvern
+  - Malvern's period homes and their delicate carpets
+  - Commercial carpet for the Glenferrie Road and High Street strips
+  - Our method, matched to your carpet
+  - End-of-lease and bond-back carpet cleaning
+  - About Twinkle Clean
+  - Frequently asked questions
+  - Book carpet cleaning in Malvern
+- **First paragraph:** A wool carpet in an old Malvern home and the broadloom through a Glenferrie Road office have more in common than they look: both take a daily beating a vacuum only skims off the top. The good rug grey
 
 ## carpet-cleaning-moorabbin
 

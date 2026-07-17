@@ -1,12 +1,12 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-17T07:26:01Z_
+_Rebuilt: 2026-07-17T07:43:26Z_
 
 ## Snapshot
 
 - **Domain:** twinkleclean.com.au
 - **Intake mode:** greenfield
-- **Entries:** 63 total | 8 generated | 8 audited | 2 approved
+- **Entries:** 63 total | 13 generated | 13 audited | 2 approved
 - **Clusters:** 4 | 2 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-17T07:26:01Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T07:25:31.887Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T07:25:33.905Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T07:25:35.701Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T07:25:44.646Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-17T07:26:01.092Z  `entry_audited`  entry:carpet-cleaning-dandenong  (success)
-- 2026-07-17T07:26:01.093Z  `entry_audited`  entry:carpet-cleaning-richmond  (success)
-- 2026-07-17T07:26:01.093Z  `entry_audited`  entry:carpet-cleaning-hawthorn  (success)
-- 2026-07-17T07:26:01.094Z  `entry_audited`  entry:carpet-cleaning-moorabbin  (success)
-- 2026-07-17T07:26:01.094Z  `entry_audited`  entry:carpet-cleaning-box-hill  (success)
-- 2026-07-17T07:26:01.094Z  `entry_audited`  entry:carpet-cleaning-rowville  (success)
+- 2026-07-17T07:42:05.096Z  `audit_gate_blocked`  entry:carpet-cleaning-kew  (halted)
+- 2026-07-17T07:42:05.186Z  `audit_gate_blocked`  entry:carpet-cleaning-malvern  (halted)
+- 2026-07-17T07:42:05.274Z  `audit_gate_blocked`  entry:carpet-cleaning-burwood  (halted)
+- 2026-07-17T07:43:08.758Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T07:43:14.565Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-17T07:43:26.207Z  `entry_audited`  entry:carpet-cleaning-kew  (success)
+- 2026-07-17T07:43:26.208Z  `entry_audited`  entry:carpet-cleaning-camberwell  (success)
+- 2026-07-17T07:43:26.208Z  `entry_audited`  entry:carpet-cleaning-malvern  (success)
+- 2026-07-17T07:43:26.209Z  `entry_audited`  entry:carpet-cleaning-caulfield  (success)
+- 2026-07-17T07:43:26.209Z  `entry_audited`  entry:carpet-cleaning-burwood  (success)
 
