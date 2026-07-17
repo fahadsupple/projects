@@ -1,6 +1,23 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T06:54:06Z_
+_Rebuilt: 2026-07-17T07:04:18Z_
+
+## carpet-cleaning-dandenong
+
+- **Primary keyword:** carpet cleaning dandenong
+- **Page type:** service-location
+- **Cluster:** service-location-carpet-cleaning
+- **Word count:** 752
+- **Headings:**
+  - Carpet Cleaning Dandenong
+  - Local carpet cleaning across Dandenong
+  - How we clean your carpet
+  - End of lease carpet cleaning in Dandenong
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book a carpet clean in Dandenong
+- **First paragraph:** Between family foot traffic, a busy household and the odd spill that never quite came out, carpets in Dandenong homes take a beating. Twinkle Clean provides professional carpet cleaning in Dandenong t
 
 ## carpet-cleaning
 
@@ -26,7 +43,7 @@ _Rebuilt: 2026-07-17T06:54:06Z_
 - **Primary keyword:** commercial cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1336
+- **Word count:** 1330
 - **Headings:**
   - Commercial Cleaning Services Melbourne
   - Industries we clean across Melbourne

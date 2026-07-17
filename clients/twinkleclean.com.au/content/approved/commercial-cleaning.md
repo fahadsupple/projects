@@ -14,7 +14,7 @@ Every workplace has its own standard to meet, and the cleaning has to match it. 
 - Gyms and fitness studios
 - Warehouses and factories
 
-A medical clinic and a warehouse do not need the same clean, so we do not give them the same one. For larger or ongoing sites we arrange an onsite inspection first, then build a cleaning plan around how the space is actually used.
+A medical clinic and a warehouse do not need the same clean, so we tailor the scope to each site. For larger or ongoing sites we arrange an onsite inspection first, then build a cleaning plan around how the space is actually used.
 
 ## What a commercial clean covers
 
@@ -51,7 +51,7 @@ The practical trust points matter just as much:
 
 ## How pricing and quotes work
 
-We do not publish a flat rate, because a fair price depends on your site: its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job. Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
+We price each site individually, because a fair quote depends on its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job. Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
 
 ## Areas we service across Melbourne
 
@@ -78,7 +78,7 @@ Yes. Every cleaner holds a current police check and workplace safety training, a
 Wherever possible, yes. We assign consistent cleaners to each site so they know your premises, which is a large part of how we keep quality steady.
 
 **Am I locked into a contract?**
-No. We do not use lock-in contracts. We rely on consistent service and a satisfaction guarantee to keep your business.
+No. We work without lock-in contracts. We rely on consistent service and a satisfaction guarantee to keep your business.
 
 **What happens if I am not happy with a clean?**
 Tell us. Under our 100% satisfaction guarantee we review the issue promptly and return to re-clean any area within the agreed scope that fell short.

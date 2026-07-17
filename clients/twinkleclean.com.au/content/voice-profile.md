@@ -1,6 +1,6 @@
 # Voice Profile
 
-_Rebuilt: 2026-07-17T06:54:06Z_
+_Rebuilt: 2026-07-17T07:04:18Z_
 
 ## Brand voice (from intake)
 
@@ -11,5 +11,5 @@ Professional, warm and practical — a hands-on cleaning company that speaks pla
 The following pieces are treated as voice anchors. Generation prompts include their voice signal.
 
 - **carpet-cleaning** — 1212 words
-- **commercial-cleaning** — 1336 words
+- **commercial-cleaning** — 1330 words
 
