@@ -24,24 +24,24 @@ Carpet cleaning is priced on the job, so the fairest number comes from the detai
 
 ## Frequently asked questions
 
-**How much does carpet cleaning cost in Dandenong?**
-It depends on the number of rooms and the condition of the carpet, plus any stain or odour treatment needed. We give free quotes so the price fits your carpet rather than a flat rate.
+**Do you clean commercial carpet as well as homes?**
+Yes. Alongside houses and rentals, we maintain carpet in Dandenong offices, shops and other workplaces, and we can schedule the work around your trading hours.
 
-**How much is carpet steam cleaning?**
-Steam cleaning, or hot water extraction, is our standard method, so it is built into most quotes. Larger areas and heavy stain work add to the price, which is why we quote on the specifics.
+**Can you handle heavily soiled or high-traffic carpet?**
+Yes. Heavy soil, worn traffic lanes and ground-in dirt are everyday work for us. We prespray and agitate before extraction so the clean reaches dirt a lighter pass would leave behind.
 
-**Is professional carpet steam cleaning worth it?**
-For ground-in dirt, traffic lanes and odours, yes. It reaches soil a domestic vacuum or hire machine leaves behind, and it lifts the moisture back out rather than leaving carpet soaked.
+**Do you cover nearby suburbs like Noble Park and Keysborough?**
+Yes. As well as Dandenong we clean carpet across the surrounding south-east, including Dandenong South, Noble Park, Keysborough and Springvale.
 
-**How long does carpet take to dry?**
-Most carpets are dry within a few hours. Cooler weather, heavier fabric and low airflow can lengthen that, and we can advise on timing for your carpet.
+**How much does carpet cleaning cost?**
+It depends on the number of rooms and the condition of the carpet, plus any stain or odour treatment. We provide free quotes so the price fits your carpet rather than a flat rate.
 
-**Do you remove pet stains and odours?**
-Yes. We use targeted stain, odour and urine treatments as a dedicated step, which is how we shift marks and smells a general clean leaves behind.
+**How much does carpet steam cleaning cost?**
+Steam cleaning, or hot water extraction, is our standard method, so it is built into most quotes. Larger areas and heavier stain work add to the price.
 
-**Do you do end-of-lease carpet cleaning?**
-Yes, with a bond-back guarantee, subject to the agreed scope and inspection conditions, to help you protect your deposit.
+**Is professional carpet cleaning worth it?**
+For ground-in dirt, traffic lanes and odours, yes. It reaches soil a domestic vacuum or hire machine leaves behind and draws the moisture back out.
 
-## Book a carpet clean in Dandenong
+## Book your Dandenong carpet clean
 
-Call Twinkle Clean on 0498 182 989 or email admin@twinkleclean.com.au for a free quote, and we will match the right method to your carpet and get it booked in.
+If your carpet has seen better days, a professional clean is the quickest way to bring it back. Call 0498 182 989 to talk through what you need in Dandenong, from a single room to a whole house or a commercial floor. You can also reach us at admin@twinkleclean.com.au, and we will put together a quote and a time that works for you.
