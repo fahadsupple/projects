@@ -38,7 +38,7 @@ That habit of paying attention has paid off in ways a checklist never could. Dur
 
 ## About Twinkle Clean
 
-Twinkle Clean was started in 2019 by Tom Su, a former cleaner whose own work was in steady demand well before there was a company name on it. That hands-on background still shapes how we operate: we know what can realistically be achieved on site, how to train cleaners properly, and how to react when something unexpected comes up. Since then we have served more than 1,200 customers across Melbourne, keep around 90% of our regular commercial clients year to year, and earn close to 40% of our new work through referrals.
+Twinkle Clean was started in 2019 by Tom Su, a former cleaner whose own work was in steady demand well before there was a company name on it. That hands-on background still shapes how we operate: we know what can realistically be achieved on site, how to train cleaners properly, and how to react when something unexpected comes up. Based in Ringwood, we service commercial sites right across Melbourne. Since then we have served more than 1,200 customers across Melbourne, keep around 90% of our regular commercial clients year to year, and earn close to 40% of our new work through referrals.
 
 The practical trust points matter just as much:
 

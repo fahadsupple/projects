@@ -39,7 +39,7 @@ A professional steam clean leaves carpet damp, not soaked, and most carpets are 
 
 ## About Twinkle Clean
 
-Twinkle Clean grew out of hands-on cleaning, not a boardroom. Founder Tom Su was a cleaner whose work was in high demand long before the business had a name, and that practical grounding still shapes how the team assesses a carpet and picks a method. Since starting in 2019, we have served more than 1,200 customers across Melbourne, held on to roughly 90% of our regular clients year to year, and earned about 40% of our new work through word of mouth.
+Twinkle Clean grew out of hands-on cleaning, not a boardroom. Founder Tom Su was a cleaner whose work was in high demand long before the business had a name, and that practical grounding still shapes how the team assesses a carpet and picks a method. Based in Ringwood, we clean carpets for homes and businesses right across Melbourne. Since starting in 2019, we have served more than 1,200 customers across Melbourne, held on to roughly 90% of our regular clients year to year, and earned about 40% of our new work through word of mouth.
 
 What stands behind the work:
 

@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T06:35:25Z_
+_Rebuilt: 2026-07-17T06:42:24Z_
 
 ## carpet-cleaning
 
 - **Primary keyword:** carpet cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1199
+- **Word count:** 1212
 - **Headings:**
   - Carpet Cleaning Services Melbourne
   - How we clean carpets
@@ -26,7 +26,7 @@ _Rebuilt: 2026-07-17T06:35:25Z_
 - **Primary keyword:** commercial cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1326
+- **Word count:** 1336
 - **Headings:**
   - Commercial Cleaning Services Melbourne
   - Industries we clean across Melbourne
