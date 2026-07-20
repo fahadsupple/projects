@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "twinkleclean.com.au",
-  "generated_at": "2026-07-20T04:42:46Z",
+  "generated_at": "2026-07-20T06:00:10Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -58,8 +58,208 @@
       "class": "percentage",
       "label": "percentage",
       "unit": "%",
-      "value": 90,
+      "value": 100,
       "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
         {
           "origin": "existing-site",
           "ref": "existing-site#pct",
@@ -142,6 +342,206 @@
         {
           "subject": "",
           "candidates": [
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
             {
               "value": 90,
               "origin": "existing-site",
@@ -401,6 +801,28 @@
       "confirmed_at": "2026-07-17T01:44:05.798Z"
     },
     {
+      "id": "service.duration",
+      "class": "duration",
+      "label": "duration",
+      "unit": "months",
+      "value": 18,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#dur",
+          "value_seen": "18 months"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#dur",
+          "value_seen": "18 months"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
       "id": "contact.phone",
       "class": "identifier",
       "label": "phone",
@@ -514,6 +936,6 @@
       "existing-site",
       "intake-form"
     ],
-    "scanned_at": "2026-07-20T04:42:46Z"
+    "scanned_at": "2026-07-20T06:00:10Z"
   }
 }
