@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "cluster_id": "service-location-commercial-cleaning",
+  "member_entries": [
+    "commercial-cleaning-bayswater",
+    "commercial-cleaning-bentleigh",
+    "commercial-cleaning-blackburn",
+    "commercial-cleaning-box-hill",
+    "commercial-cleaning-braeside",
+    "commercial-cleaning-burwood",
+    "commercial-cleaning-camberwell",
+    "commercial-cleaning-carnegie",
+    "commercial-cleaning-caulfield",
+    "commercial-cleaning-chadstone",
+    "commercial-cleaning-cheltenham",
+    "commercial-cleaning-clayton",
+    "commercial-cleaning-collingwood",
+    "commercial-cleaning-croydon",
+    "commercial-cleaning-dandenong",
+    "commercial-cleaning-docklands",
+    "commercial-cleaning-doncaster",
+    "commercial-cleaning-glen-waverley",
+    "commercial-cleaning-hawthorn",
+    "commercial-cleaning-kew",
+    "commercial-cleaning-keysborough",
+    "commercial-cleaning-malvern",
+    "commercial-cleaning-melbourne-cbd",
+    "commercial-cleaning-mitcham",
+    "commercial-cleaning-moorabbin",
+    "commercial-cleaning-mount-waverley",
+    "commercial-cleaning-mulgrave",
+    "commercial-cleaning-noble-park",
+    "commercial-cleaning-nunawading",
+    "commercial-cleaning-oakleigh",
+    "commercial-cleaning-port-melbourne",
+    "commercial-cleaning-richmond",
+    "commercial-cleaning-ringwood",
+    "commercial-cleaning-rowville",
+    "commercial-cleaning-scoresby",
+    "commercial-cleaning-south-melbourne",
+    "commercial-cleaning-south-yarra",
+    "commercial-cleaning-southbank",
+    "commercial-cleaning-springvale",
+    "commercial-cleaning-wantirna"
+  ],
+  "universal_required": [
+    "H1 leads with the primary keyword (commercial cleaning + the suburb); the intro opens on the business owner's problem (a workplace that has to look presentable to staff, customers or an inspection), never on postcodes or council names.",
+    "Lean credibility block under an H2 that names the business ('About Twinkle Clean'): founder Tom Su, founded 2019, 1,200+ customers served, 20+ years of combined experience, and the 100% satisfaction guarantee, then link to the Commercial Cleaning Melbourne hub for the full method and credentials. Do NOT restate the full trust block that lives on the hub.",
+    "One or two sentences of genuine local grounding drawn from this entry's suburb-data commercial_anchors / building_stock that land on a SERVICE consequence for the reader. Local colour that never reaches a service point is cut.",
+    "A short, real method reference (scheduled scope, after-hours servicing, washroom and high-touch sanitation) with a link to the hub for the detailed method rather than repeating it in full.",
+    "Pricing handled honestly: priced per site, free quotes, competitive, one-off or regular schedule, no lock-in contracts. Never publish a flat rate.",
+    "Exactly 6 FAQs: 3 from the assigned generic triple, then 3 SUBURB-SPECIFIC questions LAST, immediately before the CTA.",
+    "Zero em-dashes. Zero 'we do not <verb>' constructions (they poison the honesty gate for every sibling page)."
+  ],
+  "cluster_specific_required": [
+    "This is a suburb SPOKE: link up to the Commercial Cleaning Melbourne hub, and keep the credibility block lean.",
+    "Suburb-specific local proof MUST come from this entry's suburb-data file and entry notes, never invented. Where notes carry a BOUNDARY WARNING (a centre/park/hospital in an ADJOINING suburb), refer to it as nearby or omit it, never as in-suburb.",
+    "Where notes record NO industrial land (Camberwell, Kew) or no verified hospital (Ringwood, Moorabbin), never claim warehouse/factory or hospital work there.",
+    "Lead with the assigned angle rather than defaulting every page to corporate office cleaning.",
+    "Content MUST be visibly different from sibling suburb pages: grounding, opening, angle, FAQ answers and CTA all vary per suburb."
+  ],
+  "per_entry_unique_angle": {
+    "commercial-cleaning-bayswater": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Mixed residential and industrial suburb; grew around the 1889 railway station with post-war settlement (incl. German Templer community). Explicitly described as both residential and industrial; no detailed dwelling-type breakdown stated in source. [source: https://en.wikipedia.org/wiki/Bayswater,_Victoria] COUNCIL: LGA: City of Knox | postcode 3153 | 28 km (17 mi) east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-bentleigh": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): not explicitly described in the article; suburb is anchored by the large Centre Road strip shopping centre. Formerly known as East Brighton, renamed Bentleigh in 1908. [source: https://en.wikipedia.org/wiki/Bentleigh,_Victoria] COUNCIL: LGA: City of Glen Eira | postcode 3204 | 13 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-blackburn": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Predominantly residential; strict planning controls have retained a village atmosphere. Local shops sit around the railway station; the major shopping hub of Box Hill is two train stops away. [source: https://en.wikipedia.org/wiki/Blackburn,_Victoria] COUNCIL: LGA: City of Whitehorse | postcode 3130. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-box-hill": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Major metropolitan activity centre with its own CBD; building stock ranges from post-war Housing Commission housing (Box Hill South) to a recent boom in high-rise residential and commercial towers clustered around the station — home to the tallest buildings outside central Melbourne. Large Chinese community (46.6% Chinese ancestry, 2021). [source: https://en.wikipedia.org/wiki/Box_Hill,_Victoria] COUNCIL: LGA: City of Whitehorse | postcode 3128 | 14 km (8.7 mi) east. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-braeside": "LEAD ANGLE: Industrial. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): Primarily/largely INDUSTRIAL suburb with very little residential; dominated by factory units and the Woodlands Industrial Estate; also commercial enterprises along Springvale Road. Tiny residential population (25). [source: https://en.wikipedia.org/wiki/Braeside,_Victoria] COUNCIL: LGA: City of Kingston | postcode 3195. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-burwood": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): Burwood's commercial base is anchored by Deakin University's Burwood Campus and by Greenwood Business Park at 301 Burwood Highway, a three-building, roughly 20,000 sqm office park that includes serviced office suites. Street-level trade is concentrated in the Warrigal Road / Burwood Highway shopping centre and the smaller Bennettswood strip, while the suburb also carries a cluster of independent schools, aged care homes and retirement villages. Larger retail and corporate premises (Burwood One, Burwood Brickworks and the Tally Ho Business Park) sit immediately over the boundary in Burwood East. COUNCIL: LGA: Split across City of Monash and City of Whitehorse | postcode 3125 | 14 km east. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-camberwell": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Camberwell's business premises are overwhelmingly retail, hospitality and small-office rather than industrial — Wikipedia records that there is almost no industrial land in the suburb and that commercial uses cluster around the Burke Road precinct. The centre of gravity is Camberwell Junction, a designated Principal Activity Centre and the subject of a Council-adopted structure plan, with the Burke Road strip running about 600 m north of it plus the Camberwell Fresh Food Market and the weekly Sunday Market. Larger commercial tenants include the head offices of Pacific Brands and Bakers Delight, alongside Epworth Camberwell, Camberwell Town Hall and several primary and secondary schools. COUNCIL: LGA: City of Boroondara | postcode 3124 | 10 km east of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-carnegie": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): Main shopping/hospitality precinct is a well-regarded 'eat street' with cafes and restaurants along Koornang Road (Dandenong Road to Neerim Road); substantial commercial area since the 1920s; retail strip served by Carnegie railway station; nearby Monash University Caulfield campus draws international students. [source: https://en.wikipedia.org/wiki/Carnegie,_Victoria] COUNCIL: LGA: City of Glen Eira | postcode 3163 | 12 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-caulfield": "LEAD ANGLE: Medical. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): The suburb of Caulfield itself is small (1.5 sq km, 5,748 residents at the 2021 census) but it sits inside the 122-hectare Caulfield Major Activity Centre, the highest-order centre in the City of Glen Eira, which Glen Eira has divided into nine precincts including Derby Road, Caulfield Station, Racecourse Reserve and Campus. Premises that generate commercial cleaning demand are dominated by institutions and hospitality rather than offices: Caulfield Hospital on Kooyong Road (Alfred Health rehabilitation and aged care), the Glenhuntly tram depot, the Monash University Caulfield campus and Caulfield Racecourse Reserve just over the boundary in Caulfield East, plus the Derby Road dining strip a COUNCIL: LGA: City of Glen Eira | postcode 3162 | 10 km south-east of Melbourne CBD (infobox); lead also states south-east of CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-chadstone": "LEAD ANGLE: Childcare. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Small suburb whose defining commercial landmarks are Chadstone Shopping Centre (major regional retail centre) and the Chadstone campus of Holmesglen Institute of TAFE (both now technically in Malvern East but retaining the Chadstone name); Monash Freeway runs through the suburb; Waverley Basketball Centre and Matthew Flinders Hotel among landmarks. [source: https://en.wikipedia.org/wiki/Chadstone,_Victoria] COUNCIL: LGA: City of Monash | postcode 3148 | 14 km (8.7 mi) south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-cheltenham": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): predominantly post-WWII residential development (late 1940s continuing into the 1980s), plus a large industrial area on the eastern edge and a smaller industrial area at the far western edge; major retail anchor is Westfield Southland [source: https://en.wikipedia.org/wiki/Cheltenham,_Victoria] COUNCIL: LGA: City of Bayside and City of Kingston (spans two LGAs) | postcode 3192 | 18 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-clayton": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): One of Australia's largest centres of science, technology and research; located in Melbourne's south-east which has Victoria's highest density of high-technology industries; hub for local and international businesses with a long history of local manufacturing; home to Monash University (Australia's largest university, Clayton campus); retail focus is the Clayton Road shopping strip anchored by Clayton railway station. [source: https://en.wikipedia.org/wiki/Clayton,_Victoria] COUNCIL: LGA: City of Monash | postcode 3168 | 18 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-collingwood": "LEAD ANGLE: Industrial. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Inner-city former industrial suburb now a nightlife/retail and creative-arts hub. Main commercial area is Smith Street (a major retail/nightlife strip); many former warehouses and factories converted into apartments and creative-arts businesses. [source: https://en.wikipedia.org/wiki/Collingwood,_Victoria] COUNCIL: LGA: City of Yarra | postcode 3066. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-croydon": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): Croydon (City of Maroondah, postcode 3136) is built around a Major Activity Centre with nine planning precincts, so its business premises span several distinct types. There is a traditional main-street retail and eatery strip on Main Street with more than 187 traders, two standalone shopping centres (Croydon Central and Civic Square) plus the Arndale Centre on Mt Dandenong Road, and upper-level office space that council is actively encouraging. Beyond retail, Croydon has genuine light-industrial and urban-services stock — warehousing and self-storage, auto sales and repair, trade supplies, light engineering and a bus depot around Tarralla Creek and Dorset Road — alongside education and commu COUNCIL: LGA: City of Maroondah | postcode 3136 | 30 km (19 mi) east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-dandenong": "LEAD ANGLE: Industrial. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Not described as a distinct residential housing-stock profile in the article; character is framed as a regional transport hub and manufacturing centre undergoing long-term urban renewal. Historic building stock includes 19th-century stucco-rendered brick civic buildings (e.g. Dandenong Town Hall). [source: https://en.wikipedia.org/wiki/Dandenong,_Victoria] COUNCIL: LGA: City of Greater Dandenong (council seat) | postcode 3175 | about 29 km (18 mi). Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-docklands": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): inner-city waterfront precinct on the western end of the CBD; contemporary architecture, mixed residential and commercial towers, Docklands Stadium, Southern Cross railway station; historically a dock/port and light-industry area redeveloped through urban renewal [source: https://en.wikipedia.org/wiki/Docklands,_Victoria] COUNCIL: LGA: City of Melbourne | postcode 3008. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-doncaster": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): Anchored by Westfield Doncaster, a well-known major shopping complex built 1969 at Doncaster and Williamsons Roads; a significant retail centre serving Melbourne's east. [source: https://en.wikipedia.org/wiki/Doncaster,_Victoria] COUNCIL: LGA: City of Manningham | postcode 3108. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-glen-waverley": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): Large 1950s-70s housing on big (~800m2) blocks, built to a high standard, now ageing and being renewed via subdivision into townhouses; commercial core with high-rise apartment development around the station. [source: https://en.wikipedia.org/wiki/Glen_Waverley] COUNCIL: LGA: City of Monash | postcode 3150 | 19 km (12 mi) southeast of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-hawthorn": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Hawthorn (City of Boroondara, postcode 3122) is an inner-eastern suburb 6 km east of the CBD whose commercial life is concentrated on named strips rather than business parks. Glenferrie Road is the major shopping strip (two supermarkets, major banks, chain and specialty stores) and sits within the Glenferrie civic precinct; further retail runs along Auburn Road, Church Street, and the Burwood Road corridor, which the council's Glenferrie Structure Plan and West Hawthorn Urban Design Framework treat as retail and commercial land. The suburb's largest single demand generator is Swinburne University of Technology's Hawthorn campus, supported by Glenferrie Private Hospital, the Hawthorn Arts Cen COUNCIL: LGA: City of Boroondara | postcode 3122 | 6 km east of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-kew": "LEAD ANGLE: Medical. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): Kew (City of Boroondara, postcode 3101) sits 5 km east of the CBD and concentrates its business premises in the Kew Junction activity centre around High Street, which the council describes as an eclectic mix of specialty shops, neighbourhood cafes, restaurants, supermarkets, fresh produce stores and professional and health services; a second heritage retail node sits at Cotham Village where Glenferrie and Cotham roads meet. Office and institutional demand comes from the Kew Junction professional-services cluster, the historic 1888 civic and bank buildings at the Junction, and the VicRoads headquarters on the former Kew railway station site. Kew also carries an unusually heavy healthcare and  COUNCIL: LGA: City of Boroondara | postcode 3101 | 5 km east of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-keysborough": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Split into three sections — southern market gardens/semi-rural, a middle portion with large residential AND industrial development begun in the 2000s, and a northern section; served by Parkmore Shopping Centre (major retail). [source: https://en.wikipedia.org/wiki/Keysborough,_Victoria] COUNCIL: LGA: City of Greater Dandenong | postcode 3173. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-malvern": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Established inner south-eastern suburb with significant heritage building stock (Victoria Heritage Register listings include Stonington mansion (1890), Malvern tram depot, former ES&A Bank, Malvern railway station) and several Victorian-era parks and gardens; Glenferrie Road and High Street are the main shopping/retail strips. [source: https://en.wikipedia.org/wiki/Malvern,_Victoria] COUNCIL: LGA: City of Stonnington | postcode 3144 | 8 km south-east of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-melbourne-cbd": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): main commercial and financial district of Melbourne; CBD core of Greater Melbourne with lanes/arcades, retail, cultural and hospitality institutions [source: https://en.wikipedia.org/wiki/Melbourne_City_Centre] COUNCIL: LGA: City of Melbourne (with some parts in City of Port Phillip) | postcode 3000, 3001, 3004 (plus 8001 PO Box). Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-mitcham": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): Has a defined main shopping precinct at the Whitehorse Road / Mitcham Road intersection with supermarket, cafes and fast food outlets; served by Mitcham railway station on the Belgrave and Lilydale lines. [source: https://en.wikipedia.org/wiki/Mitcham,_Victoria] COUNCIL: LGA: City of Whitehorse | postcode 3132. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-moorabbin": "LEAD ANGLE: Industrial. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Moorabbin combines a state-designated Major Activity Centre along Nepean Highway around Moorabbin station with a large light-industrial belt across the eastern side of the suburb that has been in place since the mid-1960s. The Cochranes Road corridor is the commercial heart of that belt, holding office/warehouse business parks such as M-Inc and CLIK Collective plus Morris Moor, an adaptive re-use of the former Philip Morris factory now housing creative offices, showrooms, co-warehousing and hospitality. Institutional premises include the Holmesglen TAFE Moorabbin campus on South Road, Kingston City Hall, several primary schools, a police station and the St Kilda Football Club base at Moorabb COUNCIL: LGA: City of Kingston | postcode 3189 | 15 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-mount-waverley": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): Mount Waverley pairs two suburban retail strips - Mount Waverley Village on Stephensons Road beside the station, and Pinewood Shopping Centre in the south-east - with a genuine office and light-industrial employment corridor along its southern edge. That corridor runs along Ferntree Gully Road, Ricketts Road and Forster Road and includes the multi-building Urban Acres business park, converted-warehouse offices and the Melway publishing premises, sitting inside what leasing agents describe as Melbourne's largest employment hub outside the CBD. Health and education premises add further commercial floor space, led by the 98-bed Waverley Private Hospital on Blackburn Road, Mount Waverley Seconda COUNCIL: LGA: City of Monash | postcode 3149 | 16 km (9.9 mi) south-east. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-mulgrave": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Eastern Monash suburb bisected by the Monash Freeway (Jacksons Road Interchange, a VicRoads timing point); retail anchored by Waverley Gardens Shopping Centre; other points of interest include the Village Green Hotel (Springvale/Ferntree Gully Roads) and the Sunday Mulgrave Farmers' Market (Jacksons/Wellington Roads). Note: Wikipedia does not explicitly name the adjoining office/business-park precincts; commercial character stated here is limited to what the source describes. [source: https://en.wikipedia.org/wiki/Mulgrave,_Victoria] COUNCIL: LGA: City of Monash | postcode 3170 | 21 km (13 mi) south-east of Melbourne city centre. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-noble-park": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Mixed residential/commercial/industrial zoning with a notably high proportion of apartments (about one third of homes, twice the metro Melbourne rate); highly multicultural, majority-migrant population; owner-occupancy below the metro average. [source: https://en.wikipedia.org/wiki/Noble_Park,_Victoria] COUNCIL: LGA: City of Greater Dandenong | postcode 3174 | 25 km (16 mi) southeast. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-nunawading": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): Strong commercial/retail character: site of the City of Whitehorse main office plus large retail; historically home to a large Pacific Brands clothing factory and a brick factory. [source: https://en.wikipedia.org/wiki/Nunawading,_Victoria] COUNCIL: LGA: City of Whitehorse | postcode 3131. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-oakleigh": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): not explicitly described as residential building stock in the article; suburb has a large historic Central Business District (some nine city blocks of older commercial buildings, banks and retail dating to the early days of the city) and a strong Greek cultural character [source: https://en.wikipedia.org/wiki/Oakleigh,_Victoria] COUNCIL: LGA: City of Monash | postcode 3166 | 14 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-port-melbourne": "LEAD ANGLE: Hospitality. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): formerly industrial inner-city suburb subject to intense urban renewal; mix of industrial and port areas along the Yarra, plus Bay Street restaurants/cafes, exclusive apartments and bayside beaches; includes the Fishermans Bend, Garden City and Beacon Cove localities [source: https://en.wikipedia.org/wiki/Port_Melbourne,_Victoria] COUNCIL: LGA: City of Melbourne (north of West Gate Freeway) and City of Port Phillip (south) | postcode 3207. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-richmond": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): Gentrified inner-city suburb; mix of converted warehouse residences, public housing high-rise flats, and Victorian-era terrace houses, alongside a lively retail sector and commercial strips (Victoria Street, Bridge Road, Swan Street). [source: https://en.wikipedia.org/wiki/Richmond,_Victoria] COUNCIL: LGA: City of Yarra | postcode 3121 | 3 km east of the Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-ringwood": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Ringwood is a Plan Melbourne Metropolitan Activity Centre and the principal retail, commercial and civic hub of Melbourne's outer east, built around Eastland Shopping Centre - Australia's fourth-largest centre, with 347 stores, a Hoyts cinema, a hotel, a library and a large outdoor dining precinct - together with Costco and Bunnings large-format retail. The activity centre masterplan formally splits the area into a Town Square Precinct of civic, commercial and retail uses around Ringwood station and bus interchange, and a Commercial Precinct along the Maroondah Highway Boulevard holding office buildings and mixed-use developments. Beyond retail and offices, Ringwood hosts the ConnectEast hea COUNCIL: LGA: City of Maroondah | postcode 3134 | 25 km (16 mi) east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-rowville": "LEAD ANGLE: Industrial. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Large master-planned family suburb of 1980s-90s residential estates (Rowville Lakes, Park Ridge, Timbertop, etc.) plus light-industrial premises; predominantly detached homes on estate subdivisions, one of the largest south-east suburbs. [source: https://en.wikipedia.org/wiki/Rowville,_Victoria] COUNCIL: LGA: City of Knox | postcode 3178 | 27 km (17 mi) south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-scoresby": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T4 hygiene (washrooms & staff kitchens / high-touch disinfection / waste & recycling). LOCAL GROUNDING (use, do not invent): Contains extensive industrial estates home to major national and international corporations (including Nintendo's Australian headquarters); Scoresby village is the main shopping precinct with a supermarket and small stores/services. [source: https://en.wikipedia.org/wiki/Scoresby,_Victoria] COUNCIL: LGA: City of Knox | postcode 3179. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-south-melbourne": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T5 surfaces+extras (commercial carpet & hard floors / internal windows & glass / commercial end-of-lease). LOCAL GROUNDING (use, do not invent): historic inner suburb with a commercial district centred on Clarendon Street and South Melbourne Market (retailers, cafes, eateries, art galleries); high-rise office buildings toward the St Kilda Road complex; former light-industrial land to the west; well-preserved Victorian-era streetscapes [source: https://en.wikipedia.org/wiki/South_Melbourne] COUNCIL: LGA: City of Port Phillip | postcode 3205. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-south-yarra": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T0 commercials/terms (cost / after-hours+weekends / lock-in contracts). LOCAL GROUNDING (use, do not invent): Upmarket inner-city retail/hospitality strips along Toorak Road and Chapel Street (fashion, restaurants, nightclubs, cafes); commercial corridor along Commercial Road; The Jam Factory (converted factories now shopping/cinema centre); The Como Centre shopping centre with South Yarra's tallest office building housing TV production HQ. [source: https://en.wikipedia.org/wiki/South_Yarra,_Victoria] COUNCIL: LGA: Cities of Melbourne and Stonnington (split between two LGAs) | postcode 3141 | 4 km south-east of Melbourne CBD. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-southbank": "LEAD ANGLE: Office. FAQ GENERIC TRIPLE: T1 scope+scheduling (what a standard office clean includes / how often / equipment+supplies). LOCAL GROUNDING (use, do not invent): densely populated high-rise apartment and office district; one of the primary business centres in Greater Melbourne, HQ to major corporations with 340,000+ sqm of office space; major entertainment/hospitality precinct (Southbank Promenade, Southgate, Crown Casino); southernmost area considered part of the CBD [source: https://en.wikipedia.org/wiki/Southbank,_Victoria] COUNCIL: LGA: City of Melbourne (with parts in City of Port Phillip) | postcode 3006. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-springvale": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T2 trust+compliance (insured & police-checked / workplace-safety training / OH&S-compliant products). LOCAL GROUNDING (use, do not invent): Mostly residential with scattered small industrial areas in the northwest and northeast; historically a pastoral, residential and industrial township with market gardens. Springvale has a major retail/commercial shopping strip (noted for its Vietnamese/Asian retail precinct, though Wikipedia intro emphasises residential+industrial mix). [source: https://en.wikipedia.org/wiki/Springvale,_Victoria] COUNCIL: LGA: City of Greater Dandenong | postcode 3171. Entry notes carry boundary warnings and no-claim facts - obey them exactly.",
+    "commercial-cleaning-wantirna": "LEAD ANGLE: Retail. FAQ GENERIC TRIPLE: T3 flexibility (working around staff & trading hours / one-off vs regular / changing scope later). LOCAL GROUNDING (use, do not invent): Largely residential suburb; home to Knox Private Hospital (medical) and Westfield Knox shopping centre (major retail centre) — Wikipedia gives no explicit industrial-estate description. [source: https://en.wikipedia.org/wiki/Wantirna,_Victoria] COUNCIL: LGA: City of Knox | postcode 3152. Entry notes carry boundary warnings and no-claim facts - obey them exactly."
+  },
+  "word_count_baseline": {
+    "floor": 800,
+    "per_entry_targets": {
+      "commercial-cleaning-bayswater": 800,
+      "commercial-cleaning-bentleigh": 800,
+      "commercial-cleaning-blackburn": 800,
+      "commercial-cleaning-box-hill": 800,
+      "commercial-cleaning-braeside": 800,
+      "commercial-cleaning-burwood": 800,
+      "commercial-cleaning-camberwell": 800,
+      "commercial-cleaning-carnegie": 800,
+      "commercial-cleaning-caulfield": 800,
+      "commercial-cleaning-chadstone": 800,
+      "commercial-cleaning-cheltenham": 800,
+      "commercial-cleaning-clayton": 800,
+      "commercial-cleaning-collingwood": 800,
+      "commercial-cleaning-croydon": 800,
+      "commercial-cleaning-dandenong": 800,
+      "commercial-cleaning-docklands": 800,
+      "commercial-cleaning-doncaster": 800,
+      "commercial-cleaning-glen-waverley": 800,
+      "commercial-cleaning-hawthorn": 800,
+      "commercial-cleaning-kew": 800,
+      "commercial-cleaning-keysborough": 800,
+      "commercial-cleaning-malvern": 800,
+      "commercial-cleaning-melbourne-cbd": 800,
+      "commercial-cleaning-mitcham": 800,
+      "commercial-cleaning-moorabbin": 800,
+      "commercial-cleaning-mount-waverley": 800,
+      "commercial-cleaning-mulgrave": 800,
+      "commercial-cleaning-noble-park": 800,
+      "commercial-cleaning-nunawading": 800,
+      "commercial-cleaning-oakleigh": 800,
+      "commercial-cleaning-port-melbourne": 800,
+      "commercial-cleaning-richmond": 800,
+      "commercial-cleaning-ringwood": 800,
+      "commercial-cleaning-rowville": 800,
+      "commercial-cleaning-scoresby": 800,
+      "commercial-cleaning-south-melbourne": 800,
+      "commercial-cleaning-south-yarra": 800,
+      "commercial-cleaning-southbank": 800,
+      "commercial-cleaning-springvale": 800,
+      "commercial-cleaning-wantirna": 800
+    }
+  },
+  "execution_order_within_cluster": [
+    "commercial-cleaning-bayswater",
+    "commercial-cleaning-bentleigh",
+    "commercial-cleaning-blackburn",
+    "commercial-cleaning-box-hill",
+    "commercial-cleaning-braeside",
+    "commercial-cleaning-burwood",
+    "commercial-cleaning-camberwell",
+    "commercial-cleaning-carnegie",
+    "commercial-cleaning-caulfield",
+    "commercial-cleaning-chadstone",
+    "commercial-cleaning-cheltenham",
+    "commercial-cleaning-clayton",
+    "commercial-cleaning-collingwood",
+    "commercial-cleaning-croydon",
+    "commercial-cleaning-dandenong",
+    "commercial-cleaning-docklands",
+    "commercial-cleaning-doncaster",
+    "commercial-cleaning-glen-waverley",
+    "commercial-cleaning-hawthorn",
+    "commercial-cleaning-kew",
+    "commercial-cleaning-keysborough",
+    "commercial-cleaning-malvern",
+    "commercial-cleaning-melbourne-cbd",
+    "commercial-cleaning-mitcham",
+    "commercial-cleaning-moorabbin",
+    "commercial-cleaning-mount-waverley",
+    "commercial-cleaning-mulgrave",
+    "commercial-cleaning-noble-park",
+    "commercial-cleaning-nunawading",
+    "commercial-cleaning-oakleigh",
+    "commercial-cleaning-port-melbourne",
+    "commercial-cleaning-richmond",
+    "commercial-cleaning-ringwood",
+    "commercial-cleaning-rowville",
+    "commercial-cleaning-scoresby",
+    "commercial-cleaning-south-melbourne",
+    "commercial-cleaning-south-yarra",
+    "commercial-cleaning-southbank",
+    "commercial-cleaning-springvale",
+    "commercial-cleaning-wantirna"
+  ],
+  "research_sha": "5be12b8439cac69c102a56de967d3fdadb0f34cfd4117363a884e459cfc7dbad",
+  "generated_at": "2026-07-20T01:26:41Z",
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2019,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2019"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2019"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake-agent",
+      "confirmed_at": "2026-07-17T01:21:09.477Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": 1200,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "29"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "32"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20785521424"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "07"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "52"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "31"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "1,000+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-17T01:44:05.798Z"
+    },
+    "contact.phone": {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "high",
+      "conflicts": []
+    }
+  },
+  "client_data_signals": {
+    "founder_name": "Tom Su",
+    "year_established": 2019,
+    "client_count": "1,200+",
+    "phone": "0498 182 989",
+    "review_count": 16,
+    "review_average": 5.0,
+    "review_source": "Oneflare.com.au (NOT Google)",
+    "years_of_combined_experience": "20+ years",
+    "guarantees": [
+      "100% Satisfaction Guarantee — corrective cleaning arranged where an agreed-scope area falls short",
+      "No lock-in contracts",
+      "Bond-back cleaning guarantee for end-of-tenancy work, subject to agreed scope and inspection conditions"
+    ],
+    "business_address": {
+      "locality": "Ringwood",
+      "region": "VIC",
+      "postcode": "3134",
+      "country": "AU"
+    },
+    "usps_verbatim": [
+      "100% satisfaction guarantee backed by a quality control system",
+      "20+ years of combined industry experience",
+      "All cleaners are well trained and hold up-to-date police checks",
+      "Available seven days a week including weekends and public holidays at no extra charge",
+      "Budget-friendly, competitive pricing for workplaces big and small",
+      "Eco-friendly, client-accessible cleaning approach",
+      "Friendly cleaners with strong English-speaking communication skills",
+      "No lock-in contracts",
+      "Over 1,200 happy customers served"
+    ],
+    "hub_link_note": "Link to the Carpet Cleaning Melbourne hub for full method + credentials."
+  },
+  "lock_status": "locked",
+  "lock_sha": "0761de73b1d479d22faf6a634f431bfca525adea90aca8bd75866cfd33d47497"
+}
