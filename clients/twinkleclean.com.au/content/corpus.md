@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T01:24:33Z_
+_Rebuilt: 2026-07-20T01:48:03Z_
 
 ## carpet-cleaning-bayswater
 
@@ -358,6 +358,87 @@ _Rebuilt: 2026-07-20T01:24:33Z_
   - Frequently asked questions
   - Book a carpet clean
 - **First paragraph:** A carpet holds onto far more than it shows. Ground-in traffic lanes, an old spill you have stopped noticing, the faint smell a pet left behind: most carpets look worse up close than their owners reali
+
+## commercial-cleaning-braeside
+
+- **Primary keyword:** commercial cleaning braeside
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 831
+- **Headings:**
+  - Commercial Cleaning Braeside for Factories, Warehouses and Site Offices
+  - An industrial suburb needs an industrial scope
+  - Working around shifts, not against them
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Get a price for your Braeside site
+- **First paragraph:** A factory unit is unforgiving about a skipped clean. Dust settles on stock, the lunchroom sink backs up, and the first thing a visiting auditor or a prospective customer notices is the state of the am
+
+## commercial-cleaning-caulfield
+
+- **Primary keyword:** commercial cleaning caulfield
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 950
+- **Headings:**
+  - Commercial Cleaning Caulfield for Medical, Aged Care and Care-Facing Premises
+  - Why Caulfield is a care-and-services suburb, not an office district
+  - Infection control, high-touch surfaces and working around people
+  - About Twinkle Clean
+  - How we price Caulfield sites
+  - Frequently asked questions
+  - Arrange a site visit
+- **First paragraph:** A practice manager rarely rings a cleaner because the floors look dull. The call usually comes after something more specific: a treatment room that was not turned over properly between patients, a wai
+
+## commercial-cleaning-chadstone
+
+- **Primary keyword:** commercial cleaning chadstone
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 967
+- **Headings:**
+  - Commercial Cleaning Chadstone for Retail and Shopfront Sites
+  - Retail gravity, and the businesses that sit around it
+  - What retail and shopfront cleaning covers
+  - After-hours scheduling that respects trading
+  - About Twinkle Clean
+  - Pricing for Chadstone sites
+  - Frequently asked questions
+  - Book a walkthrough of your Chadstone site
+- **First paragraph:** When your trade runs seven days and your quiet window is a ninety-minute gap before doors open, cleaning stops being a chore and becomes a scheduling problem. That is the version of commercial cleanin
+
+## commercial-cleaning-melbourne-cbd
+
+- **Primary keyword:** commercial cleaning melbourne cbd
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 924
+- **Headings:**
+  - Commercial Cleaning Melbourne CBD
+  - Office cleaning built around an after-hours window
+  - Towers, multi-tenant floors and end-of-trip facilities
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Book a walk-through of your CBD site
+- **First paragraph:** Staff arrive at eight, clients arrive at nine, and the lift lobby has to look like nobody was ever there. That is the real brief behind commercial cleaning Melbourne CBD tenants ask for, and it is why
+
+## commercial-cleaning-springvale
+
+- **Primary keyword:** commercial cleaning springvale
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 897
+- **Headings:**
+  - Commercial Cleaning Springvale for Shops, Food Premises and Small Business Sites
+  - Retail and shopfront cleaning built around long trading hours
+  - Offices and the scattered light industrial units
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Book a clean for your Springvale premises
+- **First paragraph:** Most shopkeepers along the Springvale strip have the same complaint: the shop is open long hours, foot traffic never really stops, and there is no quiet window in the day when anyone can properly clea
 
 ## commercial-cleaning
 
