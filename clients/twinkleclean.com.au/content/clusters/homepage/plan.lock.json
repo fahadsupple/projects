@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "cluster_id": "homepage",
+  "member_entries": [
+    "homepage"
+  ],
+  "universal_required": [
+    "Every claim traces to client-profile.json / client-facts.json — no invented stats, certifications or testimonials.",
+    "Australian English and Twinkle Clean voice: plain, warm, practical; no puffery.",
+    "Primary keyword appears naturally in H1 and opening; never stuffed.",
+    "Verified trust facts only: police checks, workplace/chemical safety training, $20M public liability + WorkCover, 100% satisfaction guarantee with re-clean, no lock-in contracts, seven days incl. public holidays at no extra charge.",
+    "Contact details exactly: 0498 182 989 / admin@twinkleclean.com.au."
+  ],
+  "cluster_specific_required": [
+    "Homepage is an OVERVIEW that routes, not a duplicate of either hub — link both the commercial-cleaning and carpet-cleaning hubs and let them carry method depth and suburb lists.",
+    "Cover BOTH service roots (commercial/office and carpet) plus the secondary services actually listed in client-profile.json.",
+    "State the 20+ years as COMBINED industry experience, never as company age — the company was founded in 2019.",
+    "No superiority claims (\"#1\", \"best\"), no ISO/HACCP/NDIS/TGA accreditation, no \"100% eco\" or \"chemical-free\".",
+    "Do not reproduce the existing site testimonials — they are not in the verified fact ledger."
+  ],
+  "per_entry_unique_angle": {
+    "homepage": "LEAD ANGLE: whole-business overview keyed to \"commercial cleaning company melbourne\". Commercial-led (the entry primary keyword), carpet second, other services listed briefly. Routes to both hubs rather than repeating them. Rewrite-existing: the live page has a duplicated opening paragraph, \"spotty\" for \"spotless\", an unsubstantiated #1 claim, and 20+ years framed as company age — all must be corrected, not carried over."
+  },
+  "word_count_baseline": {
+    "floor": 800,
+    "per_entry_targets": {
+      "homepage": 800
+    }
+  },
+  "execution_order_within_cluster": [
+    "homepage"
+  ],
+  "research_sha": "5be12b8439cac69c102a56de967d3fdadb0f34cfd4117363a884e459cfc7dbad",
+  "generated_at": "2026-07-20T07:00:00Z",
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2019,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2019"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2026"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2019"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "intake-agent",
+      "confirmed_at": "2026-07-17T01:21:09.477Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": 1200,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "29"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "06"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "32"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20785521424"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "07"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "52"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "31"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "182"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "200"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "1,000+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-17T01:44:05.798Z"
+    },
+    "contact.phone": {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0498 182 989"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "high",
+      "conflicts": []
+    }
+  },
+  "client_data_signals": {
+    "founder_name": "Tom Su",
+    "year_established": 2019,
+    "client_count": "1,200+",
+    "phone": "0498 182 989",
+    "review_count": 16,
+    "review_average": 5.0,
+    "review_source": "Oneflare.com.au (NOT Google)",
+    "years_of_combined_experience": "20+ years",
+    "guarantees": [
+      "100% Satisfaction Guarantee — corrective cleaning arranged where an agreed-scope area falls short",
+      "No lock-in contracts",
+      "Bond-back cleaning guarantee for end-of-tenancy work, subject to agreed scope and inspection conditions"
+    ],
+    "business_address": {
+      "locality": "Ringwood",
+      "region": "VIC",
+      "postcode": "3134",
+      "country": "AU"
+    },
+    "usps_verbatim": [
+      "100% satisfaction guarantee backed by a quality control system",
+      "20+ years of combined industry experience",
+      "All cleaners are well trained and hold up-to-date police checks",
+      "Available seven days a week including weekends and public holidays at no extra charge",
+      "Budget-friendly, competitive pricing for workplaces big and small",
+      "Eco-friendly, client-accessible cleaning approach",
+      "Friendly cleaners with strong English-speaking communication skills",
+      "No lock-in contracts",
+      "Over 1,200 happy customers served"
+    ],
+    "hub_link_note": "Link to the Carpet Cleaning Melbourne hub for full method + credentials."
+  },
+  "lock_status": "locked",
+  "lock_sha": "05606d5ea8d90f4dfc88f7557476f0176fbca42fab977695a7498cd36e1b8422"
+}

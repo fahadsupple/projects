@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "twinkleclean.com.au",
-  "generated_at": "2026-07-20T06:21:49Z",
+  "generated_at": "2026-07-20T06:36:39Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -484,6 +484,11 @@
           "origin": "existing-site",
           "ref": "existing-site#pct",
           "value_seen": "40%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
         },
         {
           "origin": "existing-site",
@@ -979,6 +984,11 @@
             },
             {
               "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
               "origin": "intake-form",
               "ref": "intake-form#pct"
             },
@@ -1368,6 +1378,6 @@
       "existing-site",
       "intake-form"
     ],
-    "scanned_at": "2026-07-20T06:21:49Z"
+    "scanned_at": "2026-07-20T06:36:39Z"
   }
 }

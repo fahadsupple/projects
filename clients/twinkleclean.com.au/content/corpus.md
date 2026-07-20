@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T06:21:48Z_
+_Rebuilt: 2026-07-20T06:36:39Z_
 
 ## carpet-cleaning-bayswater
 
@@ -1029,4 +1029,21 @@ _Rebuilt: 2026-07-20T06:21:48Z_
   - Frequently asked questions
   - Talk to us about your site
 - **First paragraph:** Keeping a workplace presentable is one of those jobs that only gets noticed when it slips. A smeared glass door, a bin that was missed, a tired reception carpet: small things on their own, but togethe
+
+## homepage
+
+- **Primary keyword:** commercial cleaning company melbourne
+- **Page type:** homepage
+- **Cluster:** homepage
+- **Word count:** 825
+- **Headings:**
+  - A Commercial Cleaning Company Melbourne Businesses Keep Calling Back
+  - What we clean
+  - How we work
+  - Who turns up
+  - About Twinkle Clean
+  - Pricing and quotes
+  - Frequently asked questions
+  - Talk to us
+- **First paragraph:** Most cleaning problems are not really about cleaning. They are about whether the same person turns up, whether the work is done when the building is empty, and whether anyone notices the thing that go
 

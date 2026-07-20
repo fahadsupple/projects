@@ -1,6 +1,6 @@
 # Voice Profile
 
-_Rebuilt: 2026-07-20T06:21:48Z_
+_Rebuilt: 2026-07-20T06:36:39Z_
 
 ## Brand voice (from intake)
 
@@ -72,4 +72,5 @@ The following pieces are treated as voice anchors. Generation prompts include th
 - **commercial-cleaning-springvale** — 917 words
 - **commercial-cleaning-wantirna** — 1119 words
 - **commercial-cleaning** — 1478 words
+- **homepage** — 825 words
 
