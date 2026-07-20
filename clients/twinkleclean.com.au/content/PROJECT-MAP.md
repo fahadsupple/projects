@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-20T01:04:35Z_
+_Rebuilt: 2026-07-20T01:21:49Z_
 
 ## Snapshot
 
@@ -29,8 +29,6 @@ _Rebuilt: 2026-07-20T01:04:35Z_
 
 ## Recent events (last 10)
 
-- 2026-07-17T08:01:33.959Z  `audit_gate_blocked`  entry:carpet-cleaning-croydon  (halted)
-- 2026-07-17T08:03:04.153Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-17T08:03:05.961Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-17T08:03:27.002Z  `entry_audited`  entry:carpet-cleaning-noble-park  (success)
 - 2026-07-17T08:03:27.002Z  `entry_audited`  entry:carpet-cleaning-ringwood  (success)
@@ -39,4 +37,6 @@ _Rebuilt: 2026-07-20T01:04:35Z_
 - 2026-07-17T08:03:27.051Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-17T08:03:55.066Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-20T01:04:16.089Z  `links_injected`  cluster:service-location-carpet-cleaning  (success)
+- 2026-07-20T01:04:35.563Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T01:19:14.373Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 
