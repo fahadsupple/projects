@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T02:01:20Z_
+_Rebuilt: 2026-07-20T04:26:06Z_
 
 ## carpet-cleaning-bayswater
 
@@ -359,6 +359,54 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Book a carpet clean
 - **First paragraph:** A carpet holds onto far more than it shows. Ground-in traffic lanes, an old spill you have stopped noticing, the faint smell a pet left behind: most carpets look worse up close than their owners reali
 
+## commercial-cleaning-bayswater
+
+- **Primary keyword:** commercial cleaning bayswater
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1020
+- **Headings:**
+  - Commercial Cleaning Bayswater: Offices Kept to One Standard
+  - Office suites near working premises
+  - After-hours work around a shift pattern
+  - About Twinkle Clean
+  - What a Bayswater clean costs
+  - Frequently asked questions
+  - Book a walkthrough of your Bayswater premises
+- **First paragraph:** A Bayswater office rarely gets judged on its best day. It gets judged on the Tuesday a supplier drops in unannounced, or the morning a new staff member walks through reception and quietly forms an opi
+
+## commercial-cleaning-bentleigh
+
+- **Primary keyword:** commercial cleaning bentleigh
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1008
+- **Headings:**
+  - Commercial Cleaning Bentleigh for Shops, Studios and Strip Traders
+  - Shopfronts, floors and the parts customers notice
+  - Cleaning between close and open
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Get a price for your Bentleigh shop
+- **First paragraph:** Retail is unforgiving about presentation. A customer walking the Centre Road strip makes a decision about your shop in the second or two it takes to pass the window, and smeared glass, a scuffed thres
+
+## commercial-cleaning-blackburn
+
+- **Primary keyword:** commercial cleaning blackburn
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 989
+- **Headings:**
+  - Commercial Cleaning Blackburn for Village Shops and Small Premises
+  - Retail and shopfront cleaning in a small-footprint village centre
+  - Working around short trading hours
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Talk to us about your Blackburn premises
+- **First paragraph:** Small premises leave nowhere to hide. In a shop or consulting suite of a few hundred square metres, a customer standing at the counter can see the whole room, including the corner behind the display s
+
 ## commercial-cleaning-box-hill
 
 - **Primary keyword:** commercial cleaning box hill
@@ -390,6 +438,54 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Frequently asked questions
   - Get a price for your Braeside site
 - **First paragraph:** A factory unit is unforgiving about a skipped clean. Dust settles on stock, the lunchroom sink backs up, and the first thing a visiting auditor or a prospective customer notices is the state of the am
+
+## commercial-cleaning-burwood
+
+- **Primary keyword:** commercial cleaning burwood
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1035
+- **Headings:**
+  - Commercial Cleaning Burwood for Offices, Suites and Institutions
+  - Office cleaning across shared-building tenancies
+  - Scheduling around campus and school hours
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Arrange a quote for your Burwood site
+- **First paragraph:** An office park tenancy has a particular problem: your name is on the door, but the standard of the building around you is set by somebody else. When the lobby, the shared amenities and the neighbourin
+
+## commercial-cleaning-camberwell
+
+- **Primary keyword:** commercial cleaning camberwell
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1040
+- **Headings:**
+  - Commercial Cleaning Camberwell for Professional Offices and Suites
+  - Office cleaning above and behind the Burke Road strip
+  - Scheduling around trams, trade and the Sunday market
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Ask for a written scope and price
+- **First paragraph:** Professional practices in Camberwell sell judgement, and clients form a view about judgement before the first appointment starts. A waiting room with dusty blinds, a bathroom that ran out of hand towe
+
+## commercial-cleaning-carnegie
+
+- **Primary keyword:** commercial cleaning carnegie
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1074
+- **Headings:**
+  - Commercial Cleaning Carnegie for Shops, Cafes and Offices
+  - Cleaning built around the Koornang Road trade
+  - Working after close, or before you open
+  - About Twinkle Clean
+  - What a Carnegie clean costs
+  - Frequently asked questions
+  - Get a quote for your Carnegie site
+- **First paragraph:** A shopfront on a busy eating strip is judged in about three seconds, from the footpath, before anyone touches the door handle. Smeared glass, a sticky entry mat or a bin area that has started to smell
 
 ## commercial-cleaning-caulfield
 
@@ -424,6 +520,40 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Book a walkthrough of your Chadstone site
 - **First paragraph:** When your trade runs seven days and your quiet window is a ninety-minute gap before doors open, cleaning stops being a chore and becomes a scheduling problem. That is the version of commercial cleanin
 
+## commercial-cleaning-cheltenham
+
+- **Primary keyword:** commercial cleaning cheltenham
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1154
+- **Headings:**
+  - Commercial Cleaning Cheltenham: Retail Tenancies and Industrial Sites
+  - Retail floors, and the Southland end of the suburb
+  - The industrial belt on both edges
+  - Scheduling across two councils and around your shift
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Book a walkthrough
+- **First paragraph:** Two very different cleaning problems sit inside the one suburb here. On one side there is a retail tenancy where a customer's whole impression is formed at the entry glass and the fitting-room floor. 
+
+## commercial-cleaning-clayton
+
+- **Primary keyword:** commercial cleaning clayton
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1131
+- **Headings:**
+  - Commercial Cleaning Clayton for Offices, Labs and Technical Workplaces
+  - A suburb of technical workplaces
+  - What we clean, zone by zone
+  - Cleaning outside working hours
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Talk to us about your Clayton premises
+- **First paragraph:** An office attached to a research or manufacturing operation is harder to keep presentable than a plain office suite, and the people running it know it. Visitors walk from a workshop or a lab into a me
+
 ## commercial-cleaning-collingwood
 
 - **Primary keyword:** commercial cleaning collingwood
@@ -439,6 +569,24 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Frequently asked questions
   - Book a clean for your Collingwood site
 - **First paragraph:** A converted warehouse looks fantastic in photographs and behaves very differently once twenty people work in it five days a week. Concrete floors show every scuff, exposed steel and high ledges collec
+
+## commercial-cleaning-croydon
+
+- **Primary keyword:** commercial cleaning croydon
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1259
+- **Headings:**
+  - Commercial Cleaning Croydon: Main Street Shops to Tarralla Creek Sheds
+  - A centre with nine different kinds of premises
+  - Shopfronts, eateries and the strip
+  - Sheds, workshops and urban services sites
+  - Hours that suit a trading strip or a depot
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Arrange a Croydon site visit
+- **First paragraph:** Ask two Croydon business owners what a clean building looks like and you will get two unrelated answers. The trader on Main Street means glass with no hand marks and a floor that still looks good at 4
 
 ## commercial-cleaning-dandenong
 
@@ -488,6 +636,40 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Get a quote for your Doncaster premises
 - **First paragraph:** Retail is a presentation business. A customer notices a smeared display case, a sticky floor near the counter or a fitting room that smells stale, and they notice it faster than they notice your prici
 
+## commercial-cleaning-glen-waverley
+
+- **Primary keyword:** commercial cleaning glen waverley
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1199
+- **Headings:**
+  - Commercial Cleaning Glen Waverley for Offices and Business Suites
+  - An office core that keeps getting denser
+  - What an office visit actually covers
+  - Access, hours and building rules
+  - About Twinkle Clean
+  - What a Glen Waverley clean costs
+  - Frequently asked questions
+  - Ask us for a price on your office
+- **First paragraph:** The lift doors open, and whatever your visitor sees in the next four seconds is the reputation your business gets. Marked glass, a lobby floor with grey traffic lanes, a bin that was emptied but not w
+
+## commercial-cleaning-hawthorn
+
+- **Primary keyword:** commercial cleaning hawthorn
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1065
+- **Headings:**
+  - Commercial cleaning Hawthorn offices can book around a full working day
+  - Hawthorn offices sit above and behind the shopping strips
+  - Consulting rooms, campus tenancies and schools each answer to a different standard
+  - Getting in after hours without any drama
+  - About Twinkle Clean
+  - What a Hawthorn clean costs
+  - Frequently asked questions
+  - Arrange a walkthrough of your Hawthorn premises
+- **First paragraph:** An office off Glenferrie Road says plenty before anyone in it speaks. Streaked entry glass, a kitchen bin still holding yesterday, carpet worn flat along the main walkway: your own staff stop noticing
+
 ## commercial-cleaning-kew
 
 - **Primary keyword:** commercial cleaning kew
@@ -499,10 +681,44 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Consulting rooms, allied health and aged care premises
   - Kew Junction offices, Cotham Village and school campuses
   - About Twinkle Clean
-  - How we price Kew work
+  - What a Kew clean costs
   - Frequently asked questions
   - Book a walk-through of your Kew premises
 - **First paragraph:** A waiting room says something about clinical standards before a patient meets anyone. Dust on a skirting board or a mark on a treatment room floor reads as carelessness, fairly or not, and in a practi
+
+## commercial-cleaning-keysborough
+
+- **Primary keyword:** commercial cleaning keysborough
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1012
+- **Headings:**
+  - Commercial cleaning Keysborough shops and units can trust to be done properly
+  - One suburb, three quite different working environments
+  - Retail and shopfront cleaning built around trading hours
+  - Front offices attached to Keysborough warehouses
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Get a price for your Keysborough site
+- **First paragraph:** Retail is judged in the first three seconds. A customer clocks the floor at the entry, the smudge on the glass door and the state of the counter long before they look at what you sell. Commercial clea
+
+## commercial-cleaning-malvern
+
+- **Primary keyword:** commercial cleaning malvern
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1033
+- **Headings:**
+  - Commercial cleaning Malvern retailers and practices can rely on week to week
+  - Two strips, two rhythms
+  - Cleaning old surfaces without wearing them out
+  - Professional suites and consulting rooms above the shops
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Book a Malvern site visit
+- **First paragraph:** A boutique on High Street lives or dies on presentation, and so does the accounting practice two doors up. When the timber floor looks tired, when the brass handle is dull, when the front glass carrie
 
 ## commercial-cleaning-melbourne-cbd
 
@@ -520,6 +736,122 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Book a walk-through of your CBD site
 - **First paragraph:** Staff arrive at eight, clients arrive at nine, and the lift lobby has to look like nobody was ever there. That is the real brief behind commercial cleaning Melbourne CBD tenants ask for, and it is why
 
+## commercial-cleaning-mitcham
+
+- **Primary keyword:** commercial cleaning mitcham
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1005
+- **Headings:**
+  - Commercial cleaning Mitcham traders can fit around an early-morning rush
+  - A compact precinct with a station feeding it
+  - Food and hospitality tenancies carry the heaviest load
+  - Offices, clinics and the smaller tenancies behind the strip
+  - About Twinkle Clean
+  - What a Mitcham clean costs
+  - Frequently asked questions
+  - Ask us about your Mitcham premises
+- **First paragraph:** Neighbourhood shopping precincts have a punishing first hour. Commuters come through before eight, the cafe queue builds, and by nine the floor already carries whatever the footpath handed over. If th
+
+## commercial-cleaning-moorabbin
+
+- **Primary keyword:** commercial cleaning moorabbin
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1113
+- **Headings:**
+  - Commercial cleaning Moorabbin warehouses and factories can schedule around production
+  - The eastern industrial belt and the Cochranes Road corridor
+  - Concrete, dust migration and the front office problem
+  - Amenities and lunchrooms are what your own crew judges
+  - Retail, civic and training premises on the western side
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Get your Moorabbin site quoted
+- **First paragraph:** Industrial sites accumulate mess in ways an office never does. Forklift rubber marks the concrete, cardboard dust settles on everything at head height, the roller door feeds the yard indoors every tim
+
+## commercial-cleaning-mount-waverley
+
+- **Primary keyword:** commercial cleaning mount waverley
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1134
+- **Headings:**
+  - Commercial cleaning Mount Waverley offices and business parks can plan around
+  - The office corridor along Ferntree Gully, Ricketts and Forster Roads
+  - Village shopfronts, Pinewood traders and the schools
+  - Out-of-hours access and building rules
+  - About Twinkle Clean
+  - What a Mount Waverley clean costs
+  - Frequently asked questions
+  - Talk to us about your site
+- **First paragraph:** The first thing anyone reads about a workplace is the floor, the glass on the front door and the state of the kitchen sink. Staff notice it every morning, and so does the client who has driven out fro
+
+## commercial-cleaning-mulgrave
+
+- **Primary keyword:** commercial cleaning mulgrave
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 993
+- **Headings:**
+  - Commercial cleaning Mulgrave retailers and traders can trade around
+  - Shopfront and tenancy work around Waverley Gardens
+  - Freeway-side sites and the early-morning window
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Get a price for your Mulgrave premises
+- **First paragraph:** Retail is judged in the first three seconds. A smeared entry door, a bin that was full at closing and still full at opening, a floor that squeaks under a shopping trolley: customers register all of it
+
+## commercial-cleaning-noble-park
+
+- **Primary keyword:** commercial cleaning noble park
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1037
+- **Headings:**
+  - Commercial cleaning Noble Park businesses can arrange without the runaround
+  - A suburb where offices sit next to workshops and homes
+  - Clear communication and a quote you can actually read
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Arrange a walkthrough
+- **First paragraph:** Most people running a small workplace here are running everything else too: the roster, the invoices, the supplier who did not turn up. The cleaning is the thing that quietly slips until a customer me
+
+## commercial-cleaning-nunawading
+
+- **Primary keyword:** commercial cleaning nunawading
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1022
+- **Headings:**
+  - Commercial cleaning Nunawading showrooms, shops and counters can rely on
+  - Large retail floors and public-facing counters
+  - Warehouse-shell retail and the old industrial footprint
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Book a site visit
+- **First paragraph:** A big retail floor is unforgiving. Every scuff on a polished aisle, every fingerprint on a display cabinet and every overflowing bin near the checkout is visible from thirty metres away, and on a Satu
+
+## commercial-cleaning-oakleigh
+
+- **Primary keyword:** commercial cleaning oakleigh
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1075
+- **Headings:**
+  - Commercial cleaning Oakleigh offices above the old high street
+  - Nine blocks of older commercial buildings
+  - The dining strip and after-hours access
+  - About Twinkle Clean
+  - What an Oakleigh clean costs
+  - Frequently asked questions
+  - Speak to us about your building
+- **First paragraph:** Working out of a period building has its charms and its costs. The floors are timber or tile rather than modern vinyl, the windows are tall and single-glazed, the stairwell collects everything that wa
+
 ## commercial-cleaning-port-melbourne
 
 - **Primary keyword:** commercial cleaning port melbourne
@@ -535,6 +867,22 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Frequently asked questions
   - Talk to us about your Port Melbourne premises
 - **First paragraph:** Hospitality has a short window and no forgiveness in it. Service ends late, the room has to be spotless before the first coffee goes out the next morning, and a health inspector can arrive on any day 
+
+## commercial-cleaning-richmond
+
+- **Primary keyword:** commercial cleaning richmond
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1061
+- **Headings:**
+  - Commercial Cleaning Richmond Offices and Converted Warehouse Workspaces Can Count On
+  - Offices built inside old industrial shells
+  - Cleaning around a working week that starts early
+  - About Twinkle Clean
+  - What a Richmond clean costs
+  - Frequently asked questions
+  - Book a walkthrough of your Richmond premises
+- **First paragraph:** A studio in an old brick warehouse looks brilliant in photographs and behaves very differently at 8am on a Monday, when the polished concrete shows every scuff from the weekend and the glazed meeting 
 
 ## commercial-cleaning-ringwood
 
@@ -552,6 +900,54 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Talk to your local team
 - **First paragraph:** Retail and office tenants in a busy activity centre share one problem: the space has to look ready every single morning, and there is no slack in the schedule if something is missed. Twinkle Clean is 
 
+## commercial-cleaning-rowville
+
+- **Primary keyword:** commercial cleaning rowville
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1043
+- **Headings:**
+  - Commercial Cleaning Rowville Workshops, Warehouses and Estate Offices Rely On
+  - Workshop floors, amenities and the front office
+  - Fitting a clean around production hours
+  - About Twinkle Clean
+  - How we quote
+  - Frequently asked questions
+  - Get a price for your Rowville site
+- **First paragraph:** Dust in a light-industrial unit is not the same problem as dust in an office. It settles on stock, it gets tracked into the front counter area on forklift tyres, and it is the first thing a supplier o
+
+## commercial-cleaning-scoresby
+
+- **Primary keyword:** commercial cleaning scoresby
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1078
+- **Headings:**
+  - Commercial Cleaning Scoresby Shops, Counters and Corporate Sites Book Regularly
+  - Shopfronts, floors and the customer path
+  - Trading hours, corporate sites and access
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Arrange a quote for your Scoresby premises
+- **First paragraph:** A customer decides what they think of a shop somewhere between the doorway and the counter. Smeared entry glass, a dull vinyl floor or a bin that should have gone out yesterday does the damage before 
+
+## commercial-cleaning-south-melbourne
+
+- **Primary keyword:** commercial cleaning south melbourne
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1089
+- **Headings:**
+  - Commercial Cleaning South Melbourne Offices, Studios and Showrooms Depend On
+  - Older buildings, modern office standards
+  - Working with a district that trades all week
+  - About Twinkle Clean
+  - What it costs
+  - Frequently asked questions
+  - Talk to us about your South Melbourne site
+- **First paragraph:** Heritage buildings make wonderful offices and demanding ones. Timber floors, tall sash windows, ornate cornices and a narrow entry hall all look superb to a client arriving for a meeting, and every on
+
 ## commercial-cleaning-south-yarra
 
 - **Primary keyword:** commercial cleaning south yarra
@@ -568,6 +964,22 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Book a walkthrough
 - **First paragraph:** Nothing undoes an expensive fitout faster than a fingerprinted entry door at nine in the morning. On a street where the shop next door is also trading on how it looks, presentation is not housekeeping
 
+## commercial-cleaning-southbank
+
+- **Primary keyword:** commercial cleaning southbank
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1094
+- **Headings:**
+  - Commercial Cleaning Southbank Tower Tenancies and Corporate Floors Trust
+  - Floor plates, lobbies and meeting rooms
+  - Building access, security and after-hours work
+  - About Twinkle Clean
+  - Pricing and free quotes
+  - Frequently asked questions
+  - Request a scope and price for your Southbank floor
+- **First paragraph:** When a client steps out of a lift on level 22, the first thing they read is the state of the reception desk, the glass and the carpet edge along the lift lobby. Nothing about a high-rise tenancy forgi
+
 ## commercial-cleaning-springvale
 
 - **Primary keyword:** commercial cleaning springvale
@@ -583,6 +995,22 @@ _Rebuilt: 2026-07-20T02:01:20Z_
   - Frequently asked questions
   - Book a clean for your Springvale premises
 - **First paragraph:** Most shopkeepers along the Springvale strip have the same complaint: the shop is open long hours, foot traffic never really stops, and there is no quiet window in the day when anyone can properly clea
+
+## commercial-cleaning-wantirna
+
+- **Primary keyword:** commercial cleaning wantirna
+- **Page type:** service-location
+- **Cluster:** service-location-commercial-cleaning
+- **Word count:** 1101
+- **Headings:**
+  - Commercial Cleaning Wantirna Shops, Clinics and Small Business Premises Book
+  - Front of house, back of house
+  - Cleaning that fits around opening hours
+  - About Twinkle Clean
+  - What a Wantirna clean costs
+  - Frequently asked questions
+  - Ask us for a Wantirna quote
+- **First paragraph:** Retail staff notice the floor before customers do, and customers notice it about a second later. In a small suburban shop or a consulting suite there is nowhere for a tired entry mat, a marked vinyl f
 
 ## commercial-cleaning
 
