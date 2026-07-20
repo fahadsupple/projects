@@ -31,7 +31,7 @@ Yes. Alongside houses and rentals, we maintain carpet in Dandenong offices, shop
 Yes. Heavy soil, worn traffic lanes and ground-in dirt are everyday work for us. We prespray and agitate before extraction so the clean reaches dirt a lighter pass would leave behind.
 
 **Do you cover nearby suburbs like Noble Park and Keysborough?**
-Yes. As well as Dandenong we clean carpet across the surrounding south-east, including Dandenong South, Noble Park, Keysborough and Springvale.
+Yes. As well as Dandenong we clean carpet across the surrounding south-east, including Dandenong South, Keysborough and Springvale. Our [carpet cleaning in Noble Park](https://www.twinkleclean.com.au/carpet-cleaning-noble-park/) page covers that suburb in more detail.
 
 **How much does carpet cleaning cost?**
 It depends on the number of rooms and the condition of the carpet, plus any stain or odour treatment. We provide free quotes so the price fits your carpet rather than a flat rate.

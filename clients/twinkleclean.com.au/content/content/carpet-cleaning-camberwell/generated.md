@@ -4,7 +4,7 @@ A large Camberwell home tends to show its wear one room at a time: the formal lo
 
 ## Room by room through Camberwell's grand period homes
 
-Camberwell is one of Melbourne's most prestigious inner-eastern suburbs, its leafy streets lined with grand historic residences on generous original blocks, many of them fine Victorian and Edwardian houses and period villas. A home on that scale rarely has one kind of flooring throughout: delicate wool broadloom in the formal rooms, a softer pile in the bedrooms, hard-wearing carpet on the stairs and main hallway. Cleaning it well means reading each space on its own rather than running one aggressive setting end to end, so a treasured rug and a busy entrance are handled as the separate jobs they are. It also means allowing for the pollen, grit and damp the suburb's tree-lined streets carry indoors year-round.
+Camberwell is one of Melbourne's most prestigious inner-eastern suburbs, its leafy streets lined with grand historic residences on generous original blocks, many of them fine Victorian and Edwardian houses. A home on that scale rarely has one kind of flooring throughout: delicate wool broadloom in the formal rooms, a softer pile in the bedrooms, hard-wearing carpet on the stairs and main hallway. Cleaning it well means reading each space on its own, so a treasured rug and a busy entrance are handled as the separate jobs they are, and allowing for the pollen and grit the suburb's tree-lined streets carry indoors year-round.
 
 ## Gentle steam cleaning for wool and natural fibres
 
@@ -20,7 +20,7 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Free quotes and competitive pricing
 
-Carpet cleaning is priced on the job, so the fairest number comes from the details: how many rooms, the size and condition of each carpet, and any stain or odour treatment needed. We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with a one-off clean or a regular schedule to suit. You will have the scope and price before any work begins.
+Carpet cleaning is priced on the job: how many rooms, the size and condition of each carpet, and any stain or odour treatment needed. Quotes are free, our pricing stays competitive, and you can book a one-off clean or a regular schedule. You will have the scope and price before any work begins.
 
 ## Frequently asked questions
 
@@ -31,7 +31,7 @@ Yes, and it is how we prefer to work in Camberwell's bigger houses. A grand home
 Yes. Wool broadloom, sisal and other natural fibres mark easily and react badly to heavy moisture, so we check the pile and backing first, then moderate the heat and water and often step down to a gentler low-moisture clean. That suits the suburb's older carpets and rugs.
 
 **Do you cover nearby Boroondara suburbs?**
-Yes. Alongside Camberwell we clean carpets across the surrounding area, including Canterbury, Balwyn, Surrey Hills, Glen Iris, Hawthorn and Kew.
+Yes. Alongside Camberwell we clean carpets across the surrounding area, including Canterbury, Balwyn, Surrey Hills and Glen Iris. Two neighbours have pages of their own: [carpet cleaning in Hawthorn](https://www.twinkleclean.com.au/carpet-cleaning-hawthorn/) and [carpet cleaning in Kew](https://www.twinkleclean.com.au/carpet-cleaning-kew/).
 
 **How much does carpet cleaning cost?**
 There is no flat rate, because the cost tracks the number of rooms, the size and condition of the carpet, and any stain or odour work involved. A couple of rooms and a full grand house are very different jobs, so we quote on your carpet rather than a set price.

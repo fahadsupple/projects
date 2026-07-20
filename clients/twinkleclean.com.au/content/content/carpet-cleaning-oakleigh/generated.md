@@ -34,7 +34,7 @@ Yes. We maintain carpet for offices, retail spaces and eateries around the Oakle
 Yes. Established family homes are much of our local work, from a worn lounge and hallway to a whole-house refresh, with targeted treatment for pet stains and the odours that come with a busy household.
 
 **Do you cover nearby Monash suburbs?**
-Yes. As well as Oakleigh itself, our carpet team regularly works the neighbouring Monash suburbs, so a job in Chadstone, Clayton, Mulgrave or Glen Waverley is all part of the same local run.
+Yes. As well as Oakleigh itself, our carpet team regularly works the neighbouring Monash suburbs, so a job in Chadstone, Clayton or Mulgrave is all part of the same local run. Further east, [carpet cleaning in Glen Waverley](https://www.twinkleclean.com.au/carpet-cleaning-glen-waverley/) is covered on its own page.
 
 ## Book your Oakleigh carpet clean
 

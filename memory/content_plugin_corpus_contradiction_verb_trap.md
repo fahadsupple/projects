@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: e224f522-a1de-49f4-b1f1-0dc9ce2fbea6
+  modified: 2026-07-20T01:04:34.864Z
 ---
 
 Colana **content plugin** — the `honesty_corpus_contradiction` audit gate (blocking) works by extracting NEGATIVE assertions from `approved/*.md` (the voice corpus), reducing each `we do not/don't <verb>` line to just the **verb**, then flagging ANY later page whose body contains `we <verb>`. It does not understand meaning.
@@ -37,5 +38,14 @@ Working recipe for N suburb pages (proven on twinkleclean carpet cluster, 20 pag
 Dispatch writers with the ASSIGNED FAQ set + these bans baked in; then run scripts.audit_gate.run_audit_gate per page and reword the 1-2 residual tail/FAQ collisions (a fast targeted edit). Batches got cleaner as the recipe tightened (batch1 needed 5 reworks, batch3 needed 1).
 
 **Path gotcha:** the content-plugin client folder is itself named `content/`, so generated pages live at `clients/<domain>/content/content/<entry>/generated.md` (doubled `content`). Tell subagents explicitly or they write one level too high.
+
+**Word counts: use the gate's counter, not `wc -w`.** `wc -w` counts markdown syntax (headings, `**bold**`, link URLs) and over-reports by ~5-10%, which makes pages look over-length when they are not. Use `scripts.audit_gate_inputs.assemble(client_dir, entry_id).content.split()`. The gate only flags "Extreme word count drift" against `target_word_count` (the plan's floor) — moderate over-length is NOT a finding.
+
+**Re-link pass — hub→spoke cross-cluster leakage (link_graph.py).** `compute_link_graph` hub-spoke selection does:
+`related = [loc for loc in target_location_pages if hub_service in loc.entry_id]` then `if not related: related = target_location_pages[:link_cap]`.
+So a hub whose OWN spokes are not yet live (status filtered out by `require_link_target_status=DEFAULT_LIVE_STATUSES`) silently falls back to **another cluster's** spokes — e.g. the commercial-cleaning hub was handed 20 carpet-suburb targets. Always inspect edges per source before injecting; skip any hub whose spokes are not generated yet rather than accepting the fallback.
+Also: `link_cap` defaults to 8, which truncates a 20-spoke hub **alphabetically**. Raise `link_cap` for the hub and place all spokes as a nav-list.
+
+**Anchor placement rule (linker-agent):** prose placement must use the edge's `anchor_natural` VERBATIM ("carpet cleaning in Rowville"); nav-lists use Title-Case `anchor_text`. Injecting the Title-Case label mid-sentence is a BLOCKING `anchor_grammar` finding. Consequence: you cannot simply hyperlink a bare suburb name already sitting in a prose list — add a short clause carrying `anchor_natural` instead, and VARY that clause per page or you re-introduce `closing_pattern_overlap`. Only link pairs that are actually in the computed graph (cardinal rule: an unlinked entry beats a spammy link).
 
 Discovered on twinkleclean.com.au (Twinkle Clean cleaning) carpet-location cluster, 2026-07-17.

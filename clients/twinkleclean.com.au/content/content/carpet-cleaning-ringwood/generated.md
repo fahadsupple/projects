@@ -40,7 +40,7 @@ Yes, genuinely local. Twinkle Clean is based right here in Ringwood, so this is 
 Yes. The newer apartments and townhouses around Eastland and the station are well inside our regular patch, and we clean carpet in units, apartments and houses alike. Tighter layouts and shared building access are routine for us, so a unit near the centre is no harder to book than a house on a side street.
 
 **Do you cover the wider Maroondah area?**
-Yes. Ringwood falls within the City of Maroondah, and our vans reach comfortably past it into neighbouring outer-eastern suburbs like Ringwood East and Croydon. If you are unsure whether we make it to your street, a quick call will confirm it.
+Yes. Ringwood falls within the City of Maroondah, and our vans reach comfortably past it into neighbouring outer-eastern suburbs like Ringwood East. Next door, [carpet cleaning in Croydon](https://www.twinkleclean.com.au/carpet-cleaning-croydon/) has a page of its own. If you are unsure whether we make it to your street, a quick call will confirm it.
 
 ## Book your Ringwood carpet clean
 

@@ -56,7 +56,28 @@ Carpet cleaning is priced on the job, so the fairest number comes from the detai
 
 ## Suburbs we cover for carpet cleaning
 
-We clean carpets across Melbourne, with strong coverage through the inner east, the south-east and the eastern suburbs. From period homes and apartments closer to the city to established family homes further out, we bring the same equipment and care to every job. Browse the suburbs we service to find carpet cleaning near you, including Richmond, Dandenong, Glen Waverley and the areas around them.
+We clean carpets across Melbourne, with strong coverage through the inner east, the south-east and the eastern suburbs. From period homes and apartments closer to the city to established family homes further out, we bring the same equipment and care to every job. Find carpet cleaning near you:
+
+- [Carpet Cleaning Bayswater](https://www.twinkleclean.com.au/carpet-cleaning-bayswater/)
+- [Carpet Cleaning Bentleigh](https://www.twinkleclean.com.au/carpet-cleaning-bentleigh/)
+- [Carpet Cleaning Box Hill](https://www.twinkleclean.com.au/carpet-cleaning-box-hill/)
+- [Carpet Cleaning Burwood](https://www.twinkleclean.com.au/carpet-cleaning-burwood/)
+- [Carpet Cleaning Camberwell](https://www.twinkleclean.com.au/carpet-cleaning-camberwell/)
+- [Carpet Cleaning Caulfield](https://www.twinkleclean.com.au/carpet-cleaning-caulfield/)
+- [Carpet Cleaning Cheltenham](https://www.twinkleclean.com.au/carpet-cleaning-cheltenham/)
+- [Carpet Cleaning Croydon](https://www.twinkleclean.com.au/carpet-cleaning-croydon/)
+- [Carpet Cleaning Dandenong](https://www.twinkleclean.com.au/carpet-cleaning-dandenong/)
+- [Carpet Cleaning Glen Waverley](https://www.twinkleclean.com.au/carpet-cleaning-glen-waverley/)
+- [Carpet Cleaning Hawthorn](https://www.twinkleclean.com.au/carpet-cleaning-hawthorn/)
+- [Carpet Cleaning Kew](https://www.twinkleclean.com.au/carpet-cleaning-kew/)
+- [Carpet Cleaning Malvern](https://www.twinkleclean.com.au/carpet-cleaning-malvern/)
+- [Carpet Cleaning Moorabbin](https://www.twinkleclean.com.au/carpet-cleaning-moorabbin/)
+- [Carpet Cleaning Mount Waverley](https://www.twinkleclean.com.au/carpet-cleaning-mount-waverley/)
+- [Carpet Cleaning Noble Park](https://www.twinkleclean.com.au/carpet-cleaning-noble-park/)
+- [Carpet Cleaning Oakleigh](https://www.twinkleclean.com.au/carpet-cleaning-oakleigh/)
+- [Carpet Cleaning Richmond](https://www.twinkleclean.com.au/carpet-cleaning-richmond/)
+- [Carpet Cleaning Ringwood](https://www.twinkleclean.com.au/carpet-cleaning-ringwood/)
+- [Carpet Cleaning Rowville](https://www.twinkleclean.com.au/carpet-cleaning-rowville/)
 
 ## Frequently asked questions
 

@@ -27,7 +27,7 @@ Yes. The rentals around the Caulfield campus are some of our most frequent booki
 Yes, and Caulfield's period homes are exactly where our approach earns its keep. We assess the fibre and the age of the carpet first, then use controlled steam or a low-moisture clean on delicate wool and natural-fibre pile so it comes up fresh without being stressed or over-wet.
 
 **Do you cover nearby Glen Eira suburbs?**
-Yes. As well as Caulfield we clean carpet right across the City of Glen Eira and its neighbours, including Caulfield North, Caulfield South, Carnegie, Bentleigh and Malvern.
+Yes. As well as Caulfield we clean carpet right across the City of Glen Eira and its neighbours, including Caulfield North, Caulfield South, Carnegie and Malvern. If you are south of us, see [carpet cleaning in Bentleigh](https://www.twinkleclean.com.au/carpet-cleaning-bentleigh/).
 
 **How often should carpets be professionally cleaned?**
 For most Caulfield households, once every 12 to 18 months keeps carpet healthy and looking its best. Homes with pets, children or heavy foot traffic through the main living areas usually benefit from a clean every six to twelve months, and rentals are best done at each changeover.

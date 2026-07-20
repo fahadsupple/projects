@@ -1,18 +1,18 @@
 # Carpet Cleaning Bayswater
 
-A carpet in Bayswater rarely gets an easy life. In a family home it takes the shoes off the driveway, the daily march across the lounge and the corner a pet has claimed; in an office, shop or factory it wears the grit and damp that staff and customers carry through the same doors week after week. Either way the pile fills with soil long before the surface looks dirty. Twinkle Clean provides professional carpet cleaning Bayswater homes and businesses rely on to draw that ground-in wear back out, treating stains and odours as their own step rather than skimming over the top. We clean with hot water extraction, the deep steam-cleaning method, and back the result with a 100% satisfaction guarantee.
+A carpet in Bayswater rarely gets an easy life. In a family home it takes the shoes off the driveway, the daily march across the lounge and the corner a pet has claimed; in an office, shop or factory it wears the grit that staff and customers carry through the same doors week after week. Either way the pile fills with soil long before the surface looks dirty. Twinkle Clean provides professional carpet cleaning Bayswater homes and businesses rely on to draw that ground-in wear back out, with hot water extraction, stains and odours treated as their own step, and a 100% satisfaction guarantee behind the result.
 
 ## Homes and workplaces under one suburb
 
-Bayswater grew up around its railway station from the late 1800s and settled into a genuine mix of the residential and the industrial, family homes on one side and offices, shops and light-industrial premises on the other. For carpet that means two different jobs in the same postcode: a busy household grinds everyday soil through its bedrooms, lounge and hallways, while a workplace floor wears the concentrated foot traffic of staff and visitors all week. We bring the same truck-mounted equipment and stain know-how to both.
+Bayswater grew up around its railway station from the late 1800s and settled into a genuine mix of the residential and the industrial: family homes on one side, offices, shops and light-industrial premises on the other. For carpet that means two different jobs in the same postcode. A busy household grinds everyday soil through bedrooms, lounge and hallways, while a workplace floor wears the concentrated foot traffic of staff and visitors all week. We bring the same truck-mounted equipment and stain know-how to both.
 
 ## Commercial and industrial carpet maintenance
 
-With Bayswater's spread of offices, retail units and factories, plenty of the carpet here is under a business, not a household. Reception areas need to look presentable to customers, meeting rooms show every coffee ring, and amenities carpet takes grit straight off the factory floor. We work around your trading hours, cleaning after close or on weekends at no extra charge, and can set up a regular schedule so the floors stay ahead of the traffic. With no lock-in contracts, a clean can be a one-off or ongoing.
+With Bayswater's spread of offices, retail units and factories, plenty of the carpet here is under a business, not a household. Reception areas need to look presentable, meeting rooms show every coffee ring, and amenities carpet takes grit straight off the factory floor. We work around your trading hours, cleaning after close or on weekends at no extra charge, and can set up a regular schedule so the floors stay ahead of the traffic. With no lock-in contracts, a clean can be one-off or ongoing.
 
 ## Hot water extraction that reaches the base of the pile
 
-Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water and solution into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet. Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet. Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease carpet cleaning in Bayswater
 
@@ -20,16 +20,16 @@ Rentals sit among Bayswater's homes and above some of its shopfronts, and when a
 
 ## About Twinkle Clean
 
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet and chooses a method. Between them, our cleaners bring more than 20 years of combined experience to the work. We have served over 1,200 customers across Melbourne and stand behind every job with a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet. Between them our cleaners bring more than 20 years of combined experience and have served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Pricing and free quotes
 
-Because a Bayswater job might be a two-bedroom unit or a full office floor of carpet, we price on the details rather than a flat rate: the rooms or floor area, the carpet's condition, and any stain or odour treatment. Our quotes are free, our pricing stays competitive and budget-friendly, and you can choose a single clean or a regular schedule.
+A Bayswater job might be a two-bedroom unit or a full office floor, so we price on the details rather than a flat rate: the rooms or floor area, the carpet's condition, and any stain treatment. Quotes are free, our pricing stays competitive, and you can choose a single clean or a regular schedule.
 
 ## Frequently asked questions
 
 **Do I need to move furniture before you arrive?**
-A quick tidy helps, but the heavy lifting is on us. If you can clear smaller items such as toys, lamps and floor rugs, we will shift the larger furniture and work around anything awkward. Let us know at booking about any pieces you would rather we left in place.
+A quick tidy helps, but the heavy lifting is on us. Clear the smaller items such as toys, lamps and floor rugs, and we will shift the larger furniture. Let us know at booking about any pieces you would rather we left in place.
 
 **How soon can you come out?**
 Often within a day or two, and sometimes the same week you call. We work seven days, including weekends and public holidays at no extra charge, so we can usually fit around a work roster or a move-out date.
@@ -44,7 +44,7 @@ Yes. Alongside houses, we maintain carpet in Bayswater offices, retail spaces, w
 Yes. Bayswater mixes family homes with a solid base of commercial and industrial premises, and we clean carpet across both. The same equipment and stain treatment that revive a family lounge also bring a tired office floor back.
 
 **Do you cover nearby Knox suburbs?**
-Yes. Bayswater sits in the City of Knox, and we clean carpet right across the surrounding area, including Wantirna, Scoresby, Rowville and the wider eastern suburbs. If you are close by and unsure whether we reach you, just ask when you call.
+Yes. Bayswater sits in the City of Knox, and we clean carpet right across the surrounding area, including Wantirna, Scoresby and the wider eastern suburbs. There is a separate page on [carpet cleaning in Rowville](https://www.twinkleclean.com.au/carpet-cleaning-rowville/) if that is closer to you. If you are unsure whether we reach your street, just ask when you call.
 
 ## Book a Bayswater carpet clean
 

@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-17T08:03:54Z_
+_Rebuilt: 2026-07-20T01:04:35Z_
 
 ## carpet-cleaning-bayswater
 
 - **Primary keyword:** carpet cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1020
+- **Word count:** 988
 - **Headings:**
   - Carpet Cleaning Bayswater
   - Homes and workplaces under one suburb
@@ -25,7 +25,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 922
+- **Word count:** 933
 - **Headings:**
   - Carpet Cleaning Bentleigh
   - Family homes and Centre Road businesses
@@ -76,7 +76,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning camberwell
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 973
+- **Word count:** 960
 - **Headings:**
   - Carpet Cleaning Camberwell
   - Room by room through Camberwell's grand period homes
@@ -93,7 +93,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 908
+- **Word count:** 918
 - **Headings:**
   - Carpet Cleaning Caulfield
   - Carpet care for Caulfield's established homes
@@ -143,7 +143,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 779
+- **Word count:** 790
 - **Headings:**
   - Carpet Cleaning Dandenong
   - Local carpet cleaning across Dandenong
@@ -229,7 +229,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1091
+- **Word count:** 964
 - **Headings:**
   - Carpet Cleaning Moorabbin
   - Carpet cleaning for Moorabbin's established brick homes
@@ -277,7 +277,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning oakleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 847
+- **Word count:** 858
 - **Headings:**
   - Carpet Cleaning Oakleigh
   - Carpet cleaning for Oakleigh homes and businesses
@@ -310,7 +310,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 940
+- **Word count:** 950
 - **Headings:**
   - Carpet Cleaning Ringwood
   - Carpet cleaning close to home
@@ -345,7 +345,7 @@ _Rebuilt: 2026-07-17T08:03:54Z_
 - **Primary keyword:** carpet cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1212
+- **Word count:** 1280
 - **Headings:**
   - Carpet Cleaning Services Melbourne
   - How we clean carpets

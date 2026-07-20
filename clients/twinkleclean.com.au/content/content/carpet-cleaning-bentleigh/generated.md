@@ -40,7 +40,7 @@ Yes. Alongside homes we maintain carpet for the businesses along the Centre Road
 Yes. High-traffic lounges, hallways and stairs in full family homes are everyday work for us. We prespray and agitate the worn lanes before extraction so the clean lifts soil that a lighter surface pass leaves sitting deep in the pile.
 
 **Do you cover nearby Glen Eira suburbs?**
-Yes. As well as Bentleigh we clean carpet across the wider Glen Eira area and the neighbouring south-east, including Bentleigh East, McKinnon, Ormond and Caulfield.
+Yes. As well as Bentleigh we clean carpet across the wider Glen Eira area and the neighbouring south-east, including Bentleigh East, McKinnon and Ormond. Just north of here, [carpet cleaning in Caulfield](https://www.twinkleclean.com.au/carpet-cleaning-caulfield/) has its own page.
 
 ## Book your Bentleigh carpet clean
 
