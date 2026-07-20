@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-20T01:48:03Z_
+_Rebuilt: 2026-07-20T02:01:20Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-20T01:48:03Z_
 
 ## Recent events (last 10)
 
-- 2026-07-20T01:46:58.021Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:01.938Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:05.841Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:10.799Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:18.164Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:24.265Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:32.409Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:37.954Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:47.338Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T01:47:51.591Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:00:28.153Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:00:35.783Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:00:44.562Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:00:49.929Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:00:54.843Z  `audit_gate_blocked`  entry:commercial-cleaning-ringwood  (halted)
+- 2026-07-20T02:00:57.240Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:01:00.385Z  `audit_gate_blocked`  entry:commercial-cleaning-ringwood  (halted)
+- 2026-07-20T02:01:08.504Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:01:14.325Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T02:01:16.927Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 
