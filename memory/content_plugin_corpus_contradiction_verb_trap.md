@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: e224f522-a1de-49f4-b1f1-0dc9ce2fbea6
-  modified: 2026-07-20T01:04:34.864Z
+  modified: 2026-07-20T04:44:24.282Z
 ---
 
 Colana **content plugin** — the `honesty_corpus_contradiction` audit gate (blocking) works by extracting NEGATIVE assertions from `approved/*.md` (the voice corpus), reducing each `we do not/don't <verb>` line to just the **verb**, then flagging ANY later page whose body contains `we <verb>`. It does not understand meaning.
@@ -45,6 +45,12 @@ Dispatch writers with the ASSIGNED FAQ set + these bans baked in; then run scrip
 `related = [loc for loc in target_location_pages if hub_service in loc.entry_id]` then `if not related: related = target_location_pages[:link_cap]`.
 So a hub whose OWN spokes are not yet live (status filtered out by `require_link_target_status=DEFAULT_LIVE_STATUSES`) silently falls back to **another cluster's** spokes — e.g. the commercial-cleaning hub was handed 20 carpet-suburb targets. Always inspect edges per source before injecting; skip any hub whose spokes are not generated yet rather than accepting the fallback.
 Also: `link_cap` defaults to 8, which truncates a 20-spoke hub **alphabetically**. Raise `link_cap` for the hub and place all spokes as a nav-list.
+
+**ROOT CAUSE of that leak — entry `status` is never auto-advanced.** Writing `content/<entry>/generated.md` does NOT change `entries/<entry>.json` `status`; it stays `researched`, which is NOT in `DEFAULT_LIVE_STATUSES` ({generated, audited, approved, published}). So a freshly-written cluster is invisible to link_graph and every hub falls through to the cross-cluster fallback. **Before any re-link pass, set `status` to `generated` on the written entries** (assert `generated.md` exists first), then re-check that no foreign-cluster target appears in the hub's edges. Confirmed on the commercial cluster 2026-07-20: 40 spokes sat at `researched` after passing the gate.
+
+**`anchor_grammar` — bulleted list vs inline.** Title-Case `anchor_text` is fine in a `- [Label](url)` **bulleted list** but blocks as "raw Title-Case label injected mid-sentence" in an inline comma-separated run (40 findings, one per link). For a large nav block prefer the bulleted list (also far more readable than 40 inline links); reserve `anchor_natural` for genuine prose sentences. Watch the label caser: it produces "Melbourne Cbd" — fix to "Melbourne CBD".
+
+**`seo_vocab_leak` false positive: "dwell time".** Blocks as an SEO term, but in cleaning copy it means disinfectant contact time. Reword ("left on the surface long enough to work") rather than waive — the phrase usually also asserts a procedure not in the verified method facts.
 
 **Anchor placement rule (linker-agent):** prose placement must use the edge's `anchor_natural` VERBATIM ("carpet cleaning in Rowville"); nav-lists use Title-Case `anchor_text`. Injecting the Title-Case label mid-sentence is a BLOCKING `anchor_grammar` finding. Consequence: you cannot simply hyperlink a bare suburb name already sitting in a prose list — add a short clause carrying `anchor_natural` instead, and VARY that clause per page or you re-introduce `closing_pattern_overlap`. Only link pairs that are actually in the computed graph (cardinal rule: an unlinked entry beats a spammy link).
 
