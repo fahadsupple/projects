@@ -6,7 +6,7 @@ A factory unit is unforgiving about a skipped clean. Dust settles on stock, the 
 
 Braeside is unusual. It sits in the City of Kingston with postcode 3195, and it has almost no residential land at all, with a recorded population of just 25 people. What it has instead is factory units, the Woodlands Industrial Estate and a run of commercial enterprises along Springvale Road. So nearly every job here is a workplace, not a home.
 
-That changes what cleaning means. Instead of soft furnishings and reception polish, the priorities are hard-floor sweeping and machine scrubbing, dust control on racking and ledges, degreasing around workbenches, and keeping amenity blocks in a condition your staff will actually use. Warehouse and factory cleaning also has to respect stock zones and forklift lanes, so our crews work to the traffic map your supervisor gives us.
+That changes what cleaning means. Instead of soft furnishings and reception polish, the priorities are hard-floor sweeping and machine scrubbing, dust control on racking and ledges, degreasing around workbenches, and keeping amenity blocks in a condition your staff will actually use. Warehouse and factory cleaning also has to respect stock zones and forklift lanes, so our crews work to the traffic map your supervisor gives us. Operators with a second site nearby can also see how we handle [commercial cleaning in Cheltenham](https://www.twinkleclean.com.au/commercial-cleaning-cheltenham/) on its dedicated page.
 
 ## Working around shifts, not against them
 

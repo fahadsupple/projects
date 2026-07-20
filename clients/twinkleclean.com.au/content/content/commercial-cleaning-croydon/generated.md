@@ -12,7 +12,7 @@ Then the picture changes entirely. Precinct 7 around Tarralla Creek holds three 
 
 For traders on Main Street and in the three centres, retail and shopfront cleaning is about the customer's line of sight. Entry and display glass done with proper window-cleaning tools so nothing streaks under shop lighting. Hard floors scrubbed rather than mopped over, because a strip with this much foot traffic marks floors faster than owners expect. Counters, handrails, fitting rooms and mirrors every visit. Customer washrooms cleaned and restocked with dedicated colour-coded equipment.
 
-Eateries get the extra work food premises need: degreasing front-of-house floors, working the grout, wiping seating and table bases rather than just the tops, and cleaning the bin area. Because Main Street has rear parking and shared service access behind many tenancies, we agree in writing which part of the rear area sits inside your scope before we start.
+Eateries get the extra work food premises need: degreasing front-of-house floors, working the grout, wiping seating and table bases rather than just the tops, and cleaning the bin area. Because Main Street has rear parking and shared service access behind many tenancies, we agree in writing which part of the rear area sits inside your scope before we start. A separate [commercial cleaning in Ringwood](https://www.twinkleclean.com.au/commercial-cleaning-ringwood/) page covers that centre in its own right, for anyone comparing the two.
 
 ## Sheds, workshops and urban services sites
 

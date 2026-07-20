@@ -8,7 +8,7 @@ Ringwood is the principal retail, commercial and civic hub of Melbourne's outer 
 
 Tenancy cleaning around a centre this size runs to somebody else's clock. Access windows, loading dock rules and trading hours shape what can happen and when, and we build the schedule around them instead of asking the tenant to work around us. That covers entry glass and display windows cleaned with professional window tools, floors machine-cleaned or vacuumed to suit the surface, counters and fitting areas reset, and staff amenities done properly rather than skimmed.
 
-Dining tenancies in the outdoor precinct and at cinema level carry their own load. Bathrooms, dining floors and service areas turn over hard, so our teams use colour-coded microfibre cloths and mops to keep bathroom, bar and food areas separate, with hospital-grade disinfectants selected for what each site handles. Environmentally conscious products are used wherever they suit the surface.
+Dining tenancies in the outdoor precinct and at cinema level carry their own load. Bathrooms, dining floors and service areas turn over hard, so our teams use colour-coded microfibre cloths and mops to keep bathroom, bar and food areas separate, with hospital-grade disinfectants selected for what each site handles. Environmentally conscious products are used wherever they suit the surface. Croydon traders after the same tenancy-first scheduling can read about it on our [commercial cleaning in Croydon](https://www.twinkleclean.com.au/commercial-cleaning-croydon/) page.
 
 ## Office, civic and school sites along Maroondah Highway
 

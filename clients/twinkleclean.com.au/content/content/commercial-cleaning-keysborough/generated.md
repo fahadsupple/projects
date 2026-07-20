@@ -6,7 +6,7 @@ Retail is judged in the first three seconds. A customer clocks the floor at the 
 
 Keysborough does not read as a single place. The southern end is still market gardens and semi-rural land. The middle section filled out through the 2000s with a large mix of housing and industrial development. The north sits closer to the established residential grid. Sitting over the top of all of it is Parkmore Shopping Centre, the suburb's major retail anchor and the reason a lot of foot traffic behaves the way it does.
 
-That spread changes what a clean has to achieve. A specialty tenancy near Parkmore is fighting trolley grit and constant handprints on glass. A unit in the middle-belt industrial development is fighting warehouse dust migrating into a front office, plus a lunchroom that takes a hammering. Both are commercial cleaning services Keysborough businesses need, and they are scoped very differently.
+That spread changes what a clean has to achieve. A specialty tenancy near Parkmore is fighting trolley grit and constant handprints on glass. A unit in the middle-belt industrial development is fighting warehouse dust migrating into a front office, plus a lunchroom that takes a hammering. Both are commercial cleaning services Keysborough businesses need, and they are scoped very differently. The industrial side of that same pattern is written up on our [commercial cleaning in Dandenong](https://www.twinkleclean.com.au/commercial-cleaning-dandenong/) page.
 
 ## Retail and shopfront cleaning built around trading hours
 

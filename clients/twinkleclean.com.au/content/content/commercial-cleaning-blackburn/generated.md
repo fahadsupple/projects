@@ -8,7 +8,7 @@ Blackburn is predominantly residential, and strict planning controls have kept a
 
 Retail and shopfront cleaning around the station means tight tenancies with limited back-of-house, often with stock stored where storage was never really designed. The job comes down to a handful of things done properly and repeatedly. Window and door glass cleaned edge to edge with professional window-cleaning tools. Floors vacuumed or scrubbed into the corners and under fixed shelving rather than along the obvious walking line. Counters, handles, card terminals and any surface a customer touches disinfected rather than wiped. Bathrooms and staff kitchens brought back to a standard your own team is comfortable with.
 
-Because these tenancies are small, we build the checklist tightly. A five-item generic list wastes a visit; a written list naming your actual fixtures means the crew covering a night your regular cleaner is away does the same job to the same standard.
+Because these tenancies are small, we build the checklist tightly. A five-item generic list wastes a visit; a written list naming your actual fixtures means the crew covering a night your regular cleaner is away does the same job to the same standard. For the larger tower and ground-floor stock two stops down the line, our [commercial cleaning in Box Hill](https://www.twinkleclean.com.au/commercial-cleaning-box-hill/) page covers that scale of site in its own right.
 
 ## Working around short trading hours
 

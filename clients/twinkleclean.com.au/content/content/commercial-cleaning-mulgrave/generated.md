@@ -8,7 +8,7 @@ Waverley Gardens is the retail heart of the suburb, and tenancies inside a centr
 
 Our retail and shopfront cleaning covers the parts customers see and the parts they should never have to think about. Entry glass and internal partitions cleaned with professional window-cleaning tools. Hard floors scrubbed and polished rather than pushed around with a damp mop. Carpeted areas vacuumed with commercial machines that actually lift grit out of the pile instead of skating over it. Fitting rooms, counters, EFTPOS terminals and door handles wiped with hospital-grade disinfectant chosen to suit the surfaces in your fit-out.
 
-Back-of-house gets the same attention, because that is where a health inspection or a staff complaint usually starts. Staff kitchens, stock rooms, cool-room surrounds and the amenities behind the shop floor all sit on the checklist, with colour-coded microfibre cloths and mops keeping washroom gear separate from anywhere food is handled.
+Back-of-house gets the same attention, because that is where a health inspection or a staff complaint usually starts. Staff kitchens, stock rooms, cool-room surrounds and the amenities behind the shop floor all sit on the checklist, with colour-coded microfibre cloths and mops keeping washroom gear separate from anywhere food is handled. Shopping-centre tenancies of a similar kind are covered on our [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page too.
 
 ## Freeway-side sites and the early-morning window
 

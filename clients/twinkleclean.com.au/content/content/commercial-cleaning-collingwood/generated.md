@@ -8,7 +8,7 @@ Collingwood spent most of its life as an industrial suburb, and the building sto
 
 Our crews work these sites with commercial vacuum cleaners, floor scrubbers and polishers rather than domestic gear, because the square metreage and the surfaces demand it. Colour-coded microfibre cloths and mops keep kitchen, bathroom and workspace equipment separate, which matters more in an open-plan warehouse where a single bench serves as lunch table, packing station and meeting spot.
 
-For sites that still run a production or dispatch function, warehouse and factory cleaning covers the parts a general office clean skips: racking bays, loading areas, amenities blocks and the walkways between them. We follow detailed cleaning checklists and site-specific procedures so the same areas get the same attention regardless of which cleaner is rostered.
+For sites that still run a production or dispatch function, warehouse and factory cleaning covers the parts a general office clean skips: racking bays, loading areas, amenities blocks and the walkways between them. We follow detailed cleaning checklists and site-specific procedures so the same areas get the same attention regardless of which cleaner is rostered. We also run a dedicated [commercial cleaning in Richmond](https://www.twinkleclean.com.au/commercial-cleaning-richmond/) page, for owners comparing a similar warehouse conversion there.
 
 ## Smith Street trading hours and everything around them
 

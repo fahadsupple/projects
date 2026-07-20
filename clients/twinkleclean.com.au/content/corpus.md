@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T04:26:06Z_
+_Rebuilt: 2026-07-20T04:42:46Z_
 
 ## carpet-cleaning-bayswater
 
@@ -364,7 +364,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1020
+- **Word count:** 1042
 - **Headings:**
   - Commercial Cleaning Bayswater: Offices Kept to One Standard
   - Office suites near working premises
@@ -380,7 +380,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1008
+- **Word count:** 1031
 - **Headings:**
   - Commercial Cleaning Bentleigh for Shops, Studios and Strip Traders
   - Shopfronts, floors and the parts customers notice
@@ -396,7 +396,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning blackburn
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 989
+- **Word count:** 1017
 - **Headings:**
   - Commercial Cleaning Blackburn for Village Shops and Small Premises
   - Retail and shopfront cleaning in a small-footprint village centre
@@ -412,7 +412,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning box hill
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1089
+- **Word count:** 1111
 - **Headings:**
   - Commercial Cleaning Box Hill: Tower Offices, Suites and Ground-Floor Tenancies
   - Working inside a tower, not just inside an office
@@ -428,7 +428,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning braeside
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 831
+- **Word count:** 851
 - **Headings:**
   - Commercial Cleaning Braeside for Factories, Warehouses and Site Offices
   - An industrial suburb needs an industrial scope
@@ -476,7 +476,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning carnegie
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1074
+- **Word count:** 1097
 - **Headings:**
   - Commercial Cleaning Carnegie for Shops, Cafes and Offices
   - Cleaning built around the Koornang Road trade
@@ -492,7 +492,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 950
+- **Word count:** 972
 - **Headings:**
   - Commercial Cleaning Caulfield for Medical, Aged Care and Care-Facing Premises
   - Why Caulfield is a care-and-services suburb, not an office district
@@ -508,7 +508,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning chadstone
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 967
+- **Word count:** 991
 - **Headings:**
   - Commercial Cleaning Chadstone for Retail and Shopfront Sites
   - Retail gravity, and the businesses that sit around it
@@ -525,7 +525,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1154
+- **Word count:** 1172
 - **Headings:**
   - Commercial Cleaning Cheltenham: Retail Tenancies and Industrial Sites
   - Retail floors, and the Southland end of the suburb
@@ -542,7 +542,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning clayton
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1131
+- **Word count:** 1149
 - **Headings:**
   - Commercial Cleaning Clayton for Offices, Labs and Technical Workplaces
   - A suburb of technical workplaces
@@ -559,7 +559,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning collingwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 918
+- **Word count:** 936
 - **Headings:**
   - Commercial Cleaning Collingwood: Warehouse, Studio and Retail Sites Kept Presentable
   - Buildings that used to make things
@@ -575,7 +575,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1259
+- **Word count:** 1278
 - **Headings:**
   - Commercial Cleaning Croydon: Main Street Shops to Tarralla Creek Sheds
   - A centre with nine different kinds of premises
@@ -593,7 +593,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 978
+- **Word count:** 999
 - **Headings:**
   - Commercial Cleaning Dandenong Factories and Offices Can Rely On
   - Warehouse and factory cleaning that respects how the site runs
@@ -609,7 +609,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning docklands
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 876
+- **Word count:** 935
 - **Headings:**
   - Commercial Cleaning Docklands for Waterfront Offices and Tower Tenancies
   - Tower floors have their own rhythm
@@ -641,7 +641,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning glen waverley
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1199
+- **Word count:** 1215
 - **Headings:**
   - Commercial Cleaning Glen Waverley for Offices and Business Suites
   - An office core that keeps getting denser
@@ -691,7 +691,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning keysborough
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1012
+- **Word count:** 1029
 - **Headings:**
   - Commercial cleaning Keysborough shops and units can trust to be done properly
   - One suburb, three quite different working environments
@@ -708,7 +708,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning malvern
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1033
+- **Word count:** 1048
 - **Headings:**
   - Commercial cleaning Malvern retailers and practices can rely on week to week
   - Two strips, two rhythms
@@ -725,7 +725,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning melbourne cbd
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 924
+- **Word count:** 974
 - **Headings:**
   - Commercial Cleaning Melbourne CBD
   - Office cleaning built around an after-hours window
@@ -741,7 +741,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning mitcham
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1005
+- **Word count:** 1025
 - **Headings:**
   - Commercial cleaning Mitcham traders can fit around an early-morning rush
   - A compact precinct with a station feeding it
@@ -758,7 +758,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1113
+- **Word count:** 1126
 - **Headings:**
   - Commercial cleaning Moorabbin warehouses and factories can schedule around production
   - The eastern industrial belt and the Cochranes Road corridor
@@ -793,7 +793,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning mulgrave
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 993
+- **Word count:** 1009
 - **Headings:**
   - Commercial cleaning Mulgrave retailers and traders can trade around
   - Shopfront and tenancy work around Waverley Gardens
@@ -809,7 +809,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1037
+- **Word count:** 1060
 - **Headings:**
   - Commercial cleaning Noble Park businesses can arrange without the runaround
   - A suburb where offices sit next to workshops and homes
@@ -825,7 +825,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning nunawading
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1022
+- **Word count:** 1040
 - **Headings:**
   - Commercial cleaning Nunawading showrooms, shops and counters can rely on
   - Large retail floors and public-facing counters
@@ -841,7 +841,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning oakleigh
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1075
+- **Word count:** 1092
 - **Headings:**
   - Commercial cleaning Oakleigh offices above the old high street
   - Nine blocks of older commercial buildings
@@ -857,7 +857,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning port melbourne
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 873
+- **Word count:** 934
 - **Headings:**
   - Commercial Cleaning Port Melbourne for Cafes, Restaurants and Trade Sites
   - Bay Street after last service
@@ -873,7 +873,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning richmond
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1061
+- **Word count:** 1081
 - **Headings:**
   - Commercial Cleaning Richmond Offices and Converted Warehouse Workspaces Can Count On
   - Offices built inside old industrial shells
@@ -889,7 +889,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1001
+- **Word count:** 1019
 - **Headings:**
   - Commercial Cleaning Ringwood Businesses Can Get To Quickly
   - Retail and shopfront cleaning around the activity centre
@@ -905,7 +905,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning rowville
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1043
+- **Word count:** 1059
 - **Headings:**
   - Commercial Cleaning Rowville Workshops, Warehouses and Estate Offices Rely On
   - Workshop floors, amenities and the front office
@@ -921,7 +921,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning scoresby
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1078
+- **Word count:** 1098
 - **Headings:**
   - Commercial Cleaning Scoresby Shops, Counters and Corporate Sites Book Regularly
   - Shopfronts, floors and the customer path
@@ -937,7 +937,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning south melbourne
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1089
+- **Word count:** 1152
 - **Headings:**
   - Commercial Cleaning South Melbourne Offices, Studios and Showrooms Depend On
   - Older buildings, modern office standards
@@ -953,7 +953,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning south yarra
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 976
+- **Word count:** 994
 - **Headings:**
   - Commercial Cleaning South Yarra Shopfronts, Studios and Offices Depend On
   - Retail and shopfront cleaning on the strips
@@ -969,7 +969,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning southbank
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1094
+- **Word count:** 1159
 - **Headings:**
   - Commercial Cleaning Southbank Tower Tenancies and Corporate Floors Trust
   - Floor plates, lobbies and meeting rooms
@@ -985,7 +985,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning springvale
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 897
+- **Word count:** 917
 - **Headings:**
   - Commercial Cleaning Springvale for Shops, Food Premises and Small Business Sites
   - Retail and shopfront cleaning built around long trading hours
@@ -1001,7 +1001,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning wantirna
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1101
+- **Word count:** 1119
 - **Headings:**
   - Commercial Cleaning Wantirna Shops, Clinics and Small Business Premises Book
   - Front of house, back of house
@@ -1017,7 +1017,7 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 - **Primary keyword:** commercial cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1330
+- **Word count:** 1478
 - **Headings:**
   - Commercial Cleaning Services Melbourne
   - Industries we clean across Melbourne

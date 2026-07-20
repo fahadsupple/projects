@@ -6,7 +6,7 @@ A boutique on High Street lives or dies on presentation, and so does the account
 
 Malvern runs its trade along Glenferrie Road and High Street, and the two behave differently. High Street leans toward specialty retail, homewares and food. Glenferrie Road carries a broader mix of shops and professional suites above them. A clean that suits one rarely transfers straight across to the other without adjusting the timing, and the retail and shopfront cleaning we do here is planned strip by strip rather than as one blanket run.
 
-What both share is age. This is an established inner south-eastern suburb with a serious amount of heritage building stock, including Victoria Heritage Register listings such as Stonington mansion, completed in 1890, the Malvern tram depot, the former ES&A Bank and Malvern railway station. The tenancies around them inherited that character: original timber, decorative tile thresholds, leadlight, deep skirtings and window frames that were never designed for a pressure washer.
+What both share is age. This is an established inner south-eastern suburb with a serious amount of heritage building stock, including Victoria Heritage Register listings such as Stonington mansion, completed in 1890, the Malvern tram depot, the former ES&A Bank and Malvern railway station. The tenancies around them inherited that character: original timber, decorative tile thresholds, leadlight, deep skirtings and window frames that were never designed for a pressure washer. We cover a comparable heritage-retail mix on our separate [commercial cleaning in South Yarra](https://www.twinkleclean.com.au/commercial-cleaning-south-yarra/) page.
 
 ## Cleaning old surfaces without wearing them out
 

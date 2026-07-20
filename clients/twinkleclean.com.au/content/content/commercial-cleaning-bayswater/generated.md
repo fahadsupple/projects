@@ -10,7 +10,7 @@ The practical consequence of that mix shows up on the floors first. Foot traffic
 
 Our crews work to a written checklist built around the actual site rather than a generic office list: reception glass and entry doors, meeting-room tables, kitchenettes and staff break areas, bathroom fixtures and touchpoints, desk surfaces, vacuuming to edges rather than the middle of the room, and hard floors mopped with colour-coded equipment so the mop that cleans a bathroom never touches a kitchen floor. Colour-coded microfibre cloths and mops are standard across every site, which keeps cross-contamination out of a building where one crew moves between amenities and food areas in a single visit.
 
-Where a site needs disinfection rather than surface tidying, we use hospital-grade disinfectants selected for that particular building, and environmentally conscious products wherever they suit the surface.
+Where a site needs disinfection rather than surface tidying, we use hospital-grade disinfectants selected for that particular building, and environmentally conscious products wherever they suit the surface. If you're weighing us up against a quote for a different address, we keep a separate page for [commercial cleaning in Rowville](https://www.twinkleclean.com.au/commercial-cleaning-rowville/).
 
 ## After-hours work around a shift pattern
 

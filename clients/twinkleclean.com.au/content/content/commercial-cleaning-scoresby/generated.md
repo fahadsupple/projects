@@ -10,7 +10,7 @@ Retail and shopfront cleaning is largely about the surfaces customers touch and 
 
 The counter itself, display units, shelf edges, EFTPOS terminals and door handles get wiped and disinfected, using hospital-grade disinfectants selected according to what each site requires and colour-coded microfibre cloths and mops so nothing carries from a washroom to a serving surface.
 
-Back of house matters more than most people expect, because it is where staff spend their breaks and where an inspector looks first. Storerooms, staff kitchens, washrooms and bin areas all sit in the standard scope. Where your site runs to its own written cleaning procedure, our cleaners follow that document.
+Back of house matters more than most people expect, because it is where staff spend their breaks and where an inspector looks first. Storerooms, staff kitchens, washrooms and bin areas all sit in the standard scope. Where your site runs to its own written cleaning procedure, our cleaners follow that document. Shop owners checking out Bayswater as an alternative can compare our back-of-house scope on the [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
 ## Trading hours, corporate sites and access
 

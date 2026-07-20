@@ -18,7 +18,7 @@ Retail presentation is a sales tool, not housekeeping. Entry glass, door handles
 - Counters, POS stations, shelving and touch points
 - Staff kitchens, stockrooms, and amenities restock and sanitising
 
-Office cleaning Chadstone runs on the same principles for the suites and agencies between the retail strips: desks, meeting rooms, kitchens and shared bathrooms, on a rhythm that keeps the place presentable without anyone noticing the work happened. For the full breakdown of methods and site setup, see our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Office cleaning Chadstone runs on the same principles for the suites and agencies between the retail strips: desks, meeting rooms, kitchens and shared bathrooms, on a rhythm that keeps the place presentable without anyone noticing the work happened. Sites with a lab or workshop component instead of a retail frontage are covered in more depth on our [commercial cleaning in Clayton](https://www.twinkleclean.com.au/commercial-cleaning-clayton/) page. For the full breakdown of methods and site setup, see our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## After-hours scheduling that respects trading
 

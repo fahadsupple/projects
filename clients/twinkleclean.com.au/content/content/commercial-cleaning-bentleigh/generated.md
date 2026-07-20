@@ -8,7 +8,7 @@ Bentleigh sits roughly 13 kilometres south-east of the city in the City of Glen 
 
 Retail and shopfront cleaning is a different job to office cleaning, and the difference is mostly about surfaces the public touches and looks through. Entry glass and window frames get worked from both sides. Door handles, EFTPOS terminals, counters and handrails are treated as touchpoints rather than surfaces. Floors matter more than anywhere else in a shop, because a strip-front business tracks in whatever is on the footpath all day, and good vinyl or tile looks neglected surprisingly fast once the grout darkens.
 
-We work off a written checklist for each shop rather than a generic retail list, because a bakery, a physio clinic and a homewares store on the same block need different things. Fitting rooms, display shelving, counter undersides, bin areas, staff kitchens and the back-of-house corridor customers never see all get their place on it.
+We work off a written checklist for each shop rather than a generic retail list, because a bakery, a physio clinic and a homewares store on the same block need different things. Fitting rooms, display shelving, counter undersides, bin areas, staff kitchens and the back-of-house corridor customers never see all get their place on it. Traders comparing notes with a shop further along the eat streets can find the equivalent write-up on our [commercial cleaning in Carnegie](https://www.twinkleclean.com.au/commercial-cleaning-carnegie/) page.
 
 ## Cleaning between close and open
 

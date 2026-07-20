@@ -10,7 +10,7 @@ Warehouse and factory cleaning starts with the floor, because that is what gener
 
 Amenities are the second half of the job and usually the half that decides whether staff are happy. Toilets, showers, lunchrooms and change areas get disinfected with hospital-grade products chosen for the site, with colour-coded microfibre cloths and mops so nothing crosses from a washroom to a food surface. Bench tops, microwaves, sinks and bins sit in the standard routine.
 
-Then there is the front. Almost every industrial unit here has an office, counter or small showroom where customers and reps actually stand, and that area gets office-standard treatment: desks, glass, carpet or vinyl floors and a tidy entry. Racking uprights, dock edges and mezzanine stairs go in where you want them.
+Then there is the front. Almost every industrial unit here has an office, counter or small showroom where customers and reps actually stand, and that area gets office-standard treatment: desks, glass, carpet or vinyl floors and a tidy entry. Racking uprights, dock edges and mezzanine stairs go in where you want them. We've documented the equivalent front-office treatment for Bayswater on its own [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
 If your premises operate to a documented procedure covering chemical storage, PPE or restricted zones, our cleaners work to that written procedure. They are police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
 

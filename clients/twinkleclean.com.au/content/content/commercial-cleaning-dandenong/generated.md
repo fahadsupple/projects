@@ -8,7 +8,7 @@ Dandenong has been a manufacturing centre and a transport hub for a long time, a
 
 Production schedules decide everything. When a line is running, cleaning happens around it or outside it, and our teams are used to both. That means hard floor work with commercial scrubbers and polishers in the aisles and dispatch areas, entry matting kept clear, lunchrooms turned over properly, and bin runs that keep up with volume rather than falling a day behind.
 
-Amenities carry the most complaint risk on an industrial site. Staff toilets, showers and crib rooms get heavy use and get judged harshly. We clean them with colour-coded microfibre cloths and mops so cloths used in a bathroom never travel to a kitchen bench, and we use hospital-grade disinfectants selected according to what the site actually needs. Where an environmentally conscious product or method suits the surface and the setting, we use it.
+Amenities carry the most complaint risk on an industrial site. Staff toilets, showers and crib rooms get heavy use and get judged harshly. We clean them with colour-coded microfibre cloths and mops so cloths used in a bathroom never travel to a kitchen bench, and we use hospital-grade disinfectants selected according to what the site actually needs. Where an environmentally conscious product or method suits the surface and the setting, we use it. Operators with a second facility in Keysborough can see how we scope that site on our [commercial cleaning in Keysborough](https://www.twinkleclean.com.au/commercial-cleaning-keysborough/) page.
 
 ## Office cleaning inside an industrial site
 

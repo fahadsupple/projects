@@ -6,7 +6,7 @@ Neighbourhood shopping precincts have a punishing first hour. Commuters come thr
 
 Mitcham's trade concentrates around the Whitehorse Road and Mitcham Road intersection, where a supermarket, a run of cafes and fast food outlets sit within a short walk of each other. Mitcham railway station on the Belgrave and Lilydale lines pushes people through that intersection on a predictable daily curve. The precinct is not large, which is exactly why standards travel: a tired shopfront here is compared directly against the one next door within the same thirty seconds of walking.
 
-That compactness works in your favour on scheduling. Our crews can cover several tenancies within one visit window, which keeps travel costs out of your quote and means the strip is serviced in the quiet hours rather than spread across the day.
+That compactness works in your favour on scheduling. Our crews can cover several tenancies within one visit window, which keeps travel costs out of your quote and means the strip is serviced in the quiet hours rather than spread across the day. We also keep a dedicated page for [commercial cleaning in Blackburn](https://www.twinkleclean.com.au/commercial-cleaning-blackburn/), covering a similarly compact strip in its own right.
 
 ## Food and hospitality tenancies carry the heaviest load
 

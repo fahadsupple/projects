@@ -6,7 +6,7 @@ An office attached to a research or manufacturing operation is harder to keep pr
 
 Clayton is one of Australia's largest centres of science, technology and research, sitting in the part of Melbourne's south-east that carries Victoria's highest density of high-technology industries. It is a hub for local and international businesses and has a long history of local manufacturing behind it, and Monash University's Clayton campus, the largest university in the country, anchors the whole thing. Retail life runs along the Clayton Road shopping strip around the railway station.
 
-Practically, that means the buildings we are asked into vary enormously. A twenty-desk software or engineering office. A head office with a demonstration space and a workshop out the back. An older manufacturing building with an admin wing bolted on. A professional suite over the shops on Clayton Road. Office cleaning Clayton businesses ask for is rarely just desks and bins, and quoting it as though it were leads to a scope that fails in the first month.
+Practically, that means the buildings we are asked into vary enormously. A twenty-desk software or engineering office. A head office with a demonstration space and a workshop out the back. An older manufacturing building with an admin wing bolted on. A professional suite over the shops on Clayton Road. Office cleaning Clayton businesses ask for is rarely just desks and bins, and quoting it as though it were leads to a scope that fails in the first month. Retail tenancies rather than labs or workshops get their own treatment on our [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
 
 ## What we clean, zone by zone
 

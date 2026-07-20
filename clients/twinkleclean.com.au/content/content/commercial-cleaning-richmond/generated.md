@@ -8,7 +8,7 @@ This is Richmond in the City of Yarra, postcode 3121, about three kilometres eas
 
 Converted warehouse offices have their own quirks. Mezzanine edges and steel balustrades shed dust onto desks below, so we work top down rather than floor first. Exposed ductwork and beam ledges get scheduled attention rather than being left until someone notices a grey line along a girder. Where the floor is sealed concrete or timber, we use commercial machines suited to the surface.
 
-The desk-level work is standard and it still has to be right: bins emptied, desks and shared benches wiped, kitchens reset, glass partitions cleared of handprints, washrooms restocked and disinfected. We use colour-coded microfibre cloths and mops so a cloth from a washroom never turns up on a kitchen bench, and hospital-grade disinfectants chosen to suit what each site actually needs. Where a shared stairwell, lobby or entry mat falls inside your lease, tell us and we will build it into the run.
+The desk-level work is standard and it still has to be right: bins emptied, desks and shared benches wiped, kitchens reset, glass partitions cleared of handprints, washrooms restocked and disinfected. We use colour-coded microfibre cloths and mops so a cloth from a washroom never turns up on a kitchen bench, and hospital-grade disinfectants chosen to suit what each site actually needs. Where a shared stairwell, lobby or entry mat falls inside your lease, tell us and we will build it into the run. Collingwood businesses working through comparable industrial conversions have their own [commercial cleaning in Collingwood](https://www.twinkleclean.com.au/commercial-cleaning-collingwood/) page describing the same top-down method.
 
 ## Cleaning around a working week that starts early
 

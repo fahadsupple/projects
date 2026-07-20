@@ -1,12 +1,12 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-20T04:26:06Z_
+_Rebuilt: 2026-07-20T04:42:46Z_
 
 ## Snapshot
 
 - **Domain:** twinkleclean.com.au
 - **Intake mode:** greenfield
-- **Entries:** 63 total | 22 generated | 22 audited | 2 approved
+- **Entries:** 63 total | 62 generated | 22 audited | 2 approved
 - **Clusters:** 4 | 3 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-20T04:26:06Z_
 
 ## Recent events (last 10)
 
-- 2026-07-20T02:41:01.875Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:04.551Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:11.139Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:11.491Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:16.928Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:17.890Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:31.363Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T02:41:53.239Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T04:25:19.726Z  `audit_gate_blocked`  entry:commercial-cleaning-scoresby  (halted)
-- 2026-07-20T04:25:33.851Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:11.668Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:13.584Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:15.724Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:17.344Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:19.236Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:20.670Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:23.049Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:25.434Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:27.478Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T04:42:28.568Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 

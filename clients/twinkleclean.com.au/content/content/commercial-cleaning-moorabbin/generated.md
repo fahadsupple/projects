@@ -6,7 +6,7 @@ Industrial sites accumulate mess in ways an office never does. Forklift rubber m
 
 Most of the eastern side of Moorabbin has operated as an industrial area from the mid-1960s onwards, and it remains the suburb's employment engine. The commercial heart of that belt is the Cochranes Road corridor, holding office and warehouse business parks including M-Inc Business Park and CLIK Collective, alongside Morris Moor, the adaptive re-use of the former Philip Morris factory now filled with creative offices, showrooms, co-warehousing and hospitality. The Moorabbin Airport business estates, including Chifley Business Park, sit immediately adjacent to the suburb rather than within it, and plenty of operators run premises on both sides of that line.
 
-The building stock varies enormously. A 1970s tilt-slab shed with a mezzanine office is a different proposition to a fitted-out co-warehousing suite at Morris Moor, and the warehouse and factory cleaning we scope reflects which one you are standing in.
+The building stock varies enormously. A 1970s tilt-slab shed with a mezzanine office is a different proposition to a fitted-out co-warehousing suite at Morris Moor, and the warehouse and factory cleaning we scope reflects which one you are standing in. The same industrial-and-retail split appears again on our [commercial cleaning in Cheltenham](https://www.twinkleclean.com.au/commercial-cleaning-cheltenham/) page.
 
 ## Concrete, dust migration and the front office problem
 

@@ -6,17 +6,17 @@ Corporate tenancies get judged fast. A client walking from the lift into your re
 
 Docklands is a waterfront precinct at the western end of the CBD, built through urban renewal on what was once dock and light-industry land. What stands there now is contemporary architecture: mixed residential and commercial towers, with Southern Cross railway station and Docklands Stadium shaping how people move through the area. That geography matters for cleaning in practical ways.
 
-Foot traffic arrives in concentrated bursts from the station, which loads the lift lobbies, entry mats and carpet runs near reception far harder than the rest of a floor. Full-height glazing facing the water shows every mark, and the light off the harbour is unforgiving about smears. Kitchens on a shared floor plate absorb the lunch rush of an entire tenancy in ninety minutes.
+Foot traffic arrives in concentrated bursts from the station, which loads the lift lobbies, entry mats and carpet runs near reception far harder than the rest of a floor. Full-height glazing facing the water shows every mark, and the light off the harbour is unforgiving about smears. Kitchens on a shared floor plate absorb the lunch rush of an entire tenancy in ninety minutes. Tenancies that sit just across that boundary inside the CBD itself are covered on our own [commercial cleaning in Melbourne CBD](https://www.twinkleclean.com.au/commercial-cleaning-melbourne-cbd/) page.
 
 We build the scope around those pressure points instead of treating every square metre identically. That means commercial vacuum cleaners across the carpet, professional window-cleaning tools on internal glass and partitions, and hospital-grade disinfectants chosen for the specific surfaces in your kitchens and bathrooms. Colour-coded microfibre cloths and mops keep bathroom equipment from ever touching a boardroom table.
 
 ## Working while the building is empty
 
-Most Docklands offices prefer the cleaning done outside business hours, and building management usually has views about access, loading docks and after-hours lift operation. We work to those rules. After-hours office cleaning gives cleaners the run of the floor and gives your staff a finished workspace at start of day.
+Most Docklands offices prefer the cleaning done outside business hours, and building management usually has views about access, loading docks and after-hours lift operation. We work to those rules. After-hours office cleaning gives cleaners the run of the floor and gives your staff a finished workspace at start of day. We keep the same detail for a second address on our [commercial cleaning in Port Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-port-melbourne/) page.
 
 Our cleaners are police-checked, trained in workplace and chemical safety and communicate clearly in English, which matters when a building manager or concierge needs to speak with someone on site at 9pm. We cover seven days a week including weekends and public holidays at no extra charge, so a Sunday reset before a Monday board meeting is a normal booking rather than a special favour. Our approach, equipment and credentials are set out in full on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
-Commercial cleaning services Docklands tenants ask for most often are daily or three-times-weekly office rounds, end-of-lease and make-good cleans, and periodic deep work on carpet and hard floors. Each is quoted and scheduled separately so you pay for what you actually book.
+Commercial cleaning services Docklands tenants ask for most often are daily or three-times-weekly office rounds, end-of-lease and make-good cleans, and periodic deep work on carpet and hard floors. Each is quoted and scheduled separately so you pay for what you actually book. We take the same approach on our separate [commercial cleaning in South Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-south-melbourne/) page, for owners comparing the two precincts.
 
 ## About Twinkle Clean
 

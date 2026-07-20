@@ -10,7 +10,7 @@ Retail and shopfront cleaning is a question of sequence. The entry does the most
 
 Behind the counter the work is less visible and just as important. Staff kitchens, storerooms, washrooms and bin areas go in the standard scope, disinfected with hospital-grade products chosen for the site. Colour-coded microfibre cloths and mops keep washroom gear separate from anything that touches a bench or a serving surface.
 
-Clinics and consulting suites here get a scope written around their own requirements. Where your practice runs a documented cleaning procedure covering treatment rooms, waiting areas or waste handling, our cleaners work to that written procedure, and the schedule is built so rooms are ready before the first appointment of the day.
+Clinics and consulting suites here get a scope written around their own requirements. Where your practice runs a documented cleaning procedure covering treatment rooms, waiting areas or waste handling, our cleaners work to that written procedure, and the schedule is built so rooms are ready before the first appointment of the day. Bayswater clinics after the same tailored approach can read about it on our [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
 ## Cleaning that fits around opening hours
 

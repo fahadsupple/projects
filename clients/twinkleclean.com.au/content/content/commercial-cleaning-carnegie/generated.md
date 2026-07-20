@@ -8,7 +8,7 @@ Koornang Road between Dandenong Road and Neerim Road is the reason most people c
 
 What food-adjacent tenancies need is a routine that gets the greasy surfaces properly, not just the visible ones. That means degreasing the front-of-house floor rather than mopping over it, working the grout lines, wiping menu boards and counter edges, and giving the entry glass a streak-free finish with proper window-cleaning tools instead of a spray bottle and paper towel. Bins and the area around them get attention every visit, because a back-of-house smell finds its way to the dining room faster than owners expect.
 
-For the retail tenancies along the same strip, retail and shopfront cleaning is mostly about the parts customers touch and the parts they see from outside. Fitting-room floors and mirrors, counters, display glass, door frames, and the customer toilet if there is one.
+For the retail tenancies along the same strip, retail and shopfront cleaning is mostly about the parts customers touch and the parts they see from outside. Fitting-room floors and mirrors, counters, display glass, door frames, and the customer toilet if there is one. Shops weighing us up against a provider on a neighbouring strip can read the equivalent breakdown on our [commercial cleaning in Bentleigh](https://www.twinkleclean.com.au/commercial-cleaning-bentleigh/) page.
 
 ## Working after close, or before you open
 

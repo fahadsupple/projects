@@ -8,7 +8,7 @@ South Yarra puts a lot of very different businesses within a few blocks of each 
 
 Street-facing glass is the whole job in retail. Entry doors, display windows, frames and sill lines get cleaned with professional window-cleaning tools rather than a bottle and a rag, because streaking in direct morning sun is obvious from the footpath. Inside, floors are vacuumed or machine-cleaned depending on the surface, fitting rooms and counters are reset, and back-of-house areas and staff amenities get proper attention.
 
-Hospitality sites carry a different risk profile again. Front of house, bathrooms and dining floors are what customers judge, and they need to be turned around between late close and early service. We use colour-coded microfibre cloths and mops so nothing crosses between bathroom, bar and food areas, and hospital-grade disinfectants chosen for what each site actually handles. Where an environmentally conscious product suits the surface and the setting, that is what goes on it.
+Hospitality sites carry a different risk profile again. Front of house, bathrooms and dining floors are what customers judge, and they need to be turned around between late close and early service. We use colour-coded microfibre cloths and mops so nothing crosses between bathroom, bar and food areas, and hospital-grade disinfectants chosen for what each site actually handles. Where an environmentally conscious product suits the surface and the setting, that is what goes on it. Malvern hospitality venues run under the same food-and-bar separation rules, detailed on our [commercial cleaning in Malvern](https://www.twinkleclean.com.au/commercial-cleaning-malvern/) page.
 
 ## Office cleaning above and behind the retail
 

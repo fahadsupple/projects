@@ -8,7 +8,7 @@ Nunawading carries an unusually commercial character for an eastern suburb. Alon
 
 Those two settings need different handling. Large-format retail is fundamentally a floor-care problem: long runs of hard flooring that need machine scrubbing and polishing rather than mopping, entrance zones that collect grit from the car park, and glass that has to be done at a height customers actually look at. Counter-based and public-facing offices are a touch-point problem: reception desks, screens, seating in waiting areas, door furniture and washrooms that are used by visitors rather than staff, all wiped down with hospital-grade disinfectant chosen to suit the surfaces.
 
-Both get commercial vacuums, scrubbers and polishers brought to site, plus professional window-cleaning tools for internal glass and entry doors. Both get a written checklist agreed before the first shift, so nobody is guessing whether the back corridor was in scope.
+Both get commercial vacuums, scrubbers and polishers brought to site, plus professional window-cleaning tools for internal glass and entry doors. Both get a written checklist agreed before the first shift, so nobody is guessing whether the back corridor was in scope. Retailers weighing up Blackburn instead will find the identical written-checklist process on our [commercial cleaning in Blackburn](https://www.twinkleclean.com.au/commercial-cleaning-blackburn/) page.
 
 ## Warehouse-shell retail and the old industrial footprint
 
