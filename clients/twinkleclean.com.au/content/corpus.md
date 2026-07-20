@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T06:36:39Z_
+_Rebuilt: 2026-07-20T07:25:11Z_
 
 ## carpet-cleaning-bayswater
 
@@ -143,7 +143,7 @@ _Rebuilt: 2026-07-20T06:36:39Z_
 - **Primary keyword:** carpet cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 790
+- **Word count:** 855
 - **Headings:**
   - Carpet Cleaning Dandenong
   - Local carpet cleaning across Dandenong

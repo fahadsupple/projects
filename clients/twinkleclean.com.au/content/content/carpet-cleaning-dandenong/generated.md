@@ -8,7 +8,7 @@ Dandenong sits at the centre of Melbourne's south-east as a busy commercial and 
 
 ## How we clean your carpet
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Stubborn marks, pet odours and worn traffic lanes get their own targeted treatment instead of a single pass and hope. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Stubborn marks, pet odours and worn traffic lanes get their own targeted treatment instead of a single pass and hope. Where a room needs to be usable again quickly, we book the appointment for a time that gives the carpet room to dry before you need it, and we work seven days a week including public holidays at no extra charge. Upholstery, mattress, and tile and grout cleaning can be added to the same visit if you would rather have it all done at once. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease carpet cleaning in Dandenong
 

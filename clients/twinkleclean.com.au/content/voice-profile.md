@@ -1,6 +1,6 @@
 # Voice Profile
 
-_Rebuilt: 2026-07-20T06:36:39Z_
+_Rebuilt: 2026-07-20T07:25:11Z_
 
 ## Brand voice (from intake)
 
@@ -18,7 +18,7 @@ The following pieces are treated as voice anchors. Generation prompts include th
 - **carpet-cleaning-caulfield** — 918 words
 - **carpet-cleaning-cheltenham** — 969 words
 - **carpet-cleaning-croydon** — 950 words
-- **carpet-cleaning-dandenong** — 790 words
+- **carpet-cleaning-dandenong** — 855 words
 - **carpet-cleaning-glen-waverley** — 953 words
 - **carpet-cleaning-hawthorn** — 958 words
 - **carpet-cleaning-kew** — 962 words

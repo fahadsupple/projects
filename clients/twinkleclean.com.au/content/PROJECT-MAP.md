@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-20T06:36:39Z_
+_Rebuilt: 2026-07-20T07:25:11Z_
 
 ## Snapshot
 
@@ -25,18 +25,18 @@ _Rebuilt: 2026-07-20T06:36:39Z_
 | Forensic log | `events.jsonl` | ✓ |
 | Approved corpus seeds | `approved/` | ✓ |
 | Coherence findings | `coherence/` | ✓ |
-| Exports | `exports/` | — |
+| Exports | `exports/` | ✓ |
 
 ## Recent events (last 10)
 
-- 2026-07-20T04:42:46.800Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T04:43:53.489Z  `links_injected`  cluster:service-location-commercial-cleaning  (success)
-- 2026-07-20T06:00:10.438Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T06:00:43.630Z  `entries_approved`  cluster:service-location-carpet-cleaning  (success)
 - 2026-07-20T06:00:43.631Z  `status_changed`  cluster:service-location-commercial-cleaning  (success)
 - 2026-07-20T06:21:49.072Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-20T06:22:21.051Z  `entries_approved`  cluster:service-location-commercial-cleaning  (success)
 - 2026-07-20T06:35:26.906Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-20T06:36:05.767Z  `audit_gate_blocked`  entry:homepage  (halted)
 - 2026-07-20T06:36:31.083Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T06:36:39.686Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T06:37:12.514Z  `entry_generated`  entry:homepage  (success)
+- 2026-07-20T07:20:48.675Z  `coherence_sweep`  project:twinkleclean.com.au  (success)
+- 2026-07-20T07:25:03.245Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 
