@@ -4,15 +4,29 @@ Between family foot traffic, a busy household and the odd spill that never quite
 
 ## Local carpet cleaning across Dandenong
 
-Dandenong sits at the centre of Melbourne's south-east as a busy commercial and residential hub, and that mix shows up in its carpets. In a single week we might refresh a high-traffic family lounge, turn a rental around for a final inspection, and maintain the carpet in a local office or shop. We bring the same equipment and care to each of those jobs, and we also cover the areas around Dandenong, including Dandenong South, Noble Park, Keysborough and Springvale.
+Dandenong sits at the centre of Melbourne's south-east as a busy commercial and residential hub, and that mix shows up in its carpets. In a single week we might refresh a high-traffic family lounge, turn a rental around for a final inspection, and maintain the carpet in a local office or shop.
+
+We bring the same equipment and care to each of those jobs, and we also cover the areas around Dandenong, including Dandenong South, Noble Park, Keysborough and Springvale.
 
 ## How we clean your carpet
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Stubborn marks, pet odours and worn traffic lanes get their own targeted treatment instead of a single pass and hope. Where a room needs to be usable again quickly, we book the appointment for a time that gives the carpet room to dry before you need it, and we work seven days a week including public holidays at no extra charge. Upholstery, mattress, and tile and grout cleaning can be added to the same visit if you would rather have it all done at once. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked.
+
+Stubborn marks, pet odours and worn traffic lanes get their own targeted treatment instead of a single pass and hope. Where a room needs to be usable again quickly, we book the appointment for a time that gives the carpet room to dry before you need it, and we work seven days a week including public holidays at no extra charge.
+
+Upholstery, mattress, and tile and grout cleaning can be added to the same visit if you would rather have it all done at once. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease carpet cleaning in Dandenong
 
 With so many rentals across Dandenong, end-of-lease cleaning is some of our most requested local work. Property managers inspect carpets closely, and a poor result can hold up a bond. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of getting their deposit back without a second thought about the floors.
+
+## The homes and rentals we clean in Dandenong
+
+Carpet cleaning in Dandenong covers a genuine mix of customers:
+
+- Family homes with high-traffic lounges and hallways, wanting a regular steam clean that lifts ground-in dirt
+- Tenants and landlords managing end-of-lease turnovers, cleaned to the standard a final inspection expects and backed by a bond-back guarantee
+- Local offices and shops, with carpet maintained around trading hours
 
 ## About Twinkle Clean
 

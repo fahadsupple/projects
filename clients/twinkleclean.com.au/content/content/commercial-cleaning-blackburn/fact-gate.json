@@ -1,19 +1,19 @@
 {
   "entry_id": "commercial-cleaning-blackburn",
-  "gated_at": "2026-07-20T07:25:58.951Z",
+  "gated_at": "2026-07-21T00:48:58.161Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 17,
+      "line_number": 22,
       "excerpt": "$20",
       "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 30,
+      "line_number": 53,
       "excerpt": "$20",
       "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

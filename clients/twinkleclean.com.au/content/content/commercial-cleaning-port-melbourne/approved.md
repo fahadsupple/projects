@@ -4,19 +4,39 @@ Hospitality has a short window and no forgiveness in it. Service ends late, the 
 
 ## Bay Street after last service
 
-Bay Street carries the suburb's restaurants and cafes, and the cleaning demands there are specific. Timber and tiled floors take a beating from foot traffic and spilled drinks. Banquette seating traps crumbs along its seams. Front glass facing the street shows fingerprints from every pram and shopfront browser. Bathrooms turn over dozens of times a night and are the single thing customers judge hardest.
+Bay Street carries the suburb's restaurants and cafes, and the cleaning demands there are specific:
 
-Cafe and restaurant cleaning from our team works through that list on a defined checklist rather than by eye: floors scrubbed with commercial equipment, tables and seating wiped down, glass finished with professional window-cleaning tools, and bathrooms disinfected with hospital-grade products chosen for the surfaces in question. Colour-coded microfibre cloths and mops mean the cloth used in a toilet cubicle never appears near a service counter. Where the products suit the site, we choose environmentally conscious options. Hospitality operators researching South Melbourne instead can see how the same checklist plays out on our [commercial cleaning in South Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-south-melbourne/) page.
+- Timber and tiled floors take a beating from foot traffic and spilled drinks
+- Banquette seating traps crumbs along its seams
+- Front glass facing the street shows fingerprints from every pram and shopfront browser
+- Bathrooms turn over dozens of times a night and are the single thing customers judge hardest
+
+Cafe and restaurant cleaning from our team works through that list on a defined checklist rather than by eye: floors scrubbed with commercial equipment, tables and seating wiped down, glass finished with professional window-cleaning tools, and bathrooms disinfected with hospital-grade products chosen for the surfaces in question. Colour-coded microfibre cloths and mops mean the cloth used in a toilet cubicle never appears near a service counter.
+
+Where the products suit the site, we choose environmentally conscious options. Hospitality operators researching South Melbourne instead can see how the same checklist plays out on our [commercial cleaning in South Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-south-melbourne/) page.
 
 To be clear about scope: we cover the cleaning side of your premises. Commercial kitchen equipment servicing, exhaust canopy certification and food-safety accreditation sit with your specialist providers, and we work alongside them rather than replacing them.
 
 ## Beyond the strip: Fishermans Bend and the port side
 
-Port Melbourne is more than one thing. Alongside Bay Street and the bayside apartments there are industrial and port areas along the Yarra, plus the Fishermans Bend, Garden City and Beacon Cove localities. Businesses there look nothing like a cafe: warehouses, workshops, showrooms and office suites attached to operational sites. For premises sitting in the CBD proper rather than the port side, our [commercial cleaning in Melbourne CBD](https://www.twinkleclean.com.au/commercial-cleaning-melbourne-cbd/) page covers the equivalent scope.
+Port Melbourne is more than one thing. Alongside Bay Street and the bayside apartments there are industrial and port areas along the Yarra, plus the Fishermans Bend, Garden City and Beacon Cove localities.
+
+Businesses there look nothing like a cafe: warehouses, workshops, showrooms and office suites attached to operational sites. For premises sitting in the CBD proper rather than the port side, our [commercial cleaning in Melbourne CBD](https://www.twinkleclean.com.au/commercial-cleaning-melbourne-cbd/) page covers the equivalent scope.
 
 Businesses on that side of the suburb tend to need amenities blocks, staff lunchrooms, offices attached to a working floor, and hard-floor maintenance across large areas. We use commercial vacuums, floor scrubbers and polishers sized for the space, and follow site-specific procedures so a workshop is cleaned as a workshop and not as an office. The full method, equipment list and credentials sit on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
-After-hours commercial cleaning suits both halves of the suburb. Venues get their clean between close and open. Trade sites get theirs before the first shift walks in. We operate seven days a week including weekends and public holidays with no extra charge for those slots, and our cleaners are police-checked and trained in workplace and chemical safety. Southbank tenants running similar after-hours arrangements are covered on a separate [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page.
+After-hours commercial cleaning suits both halves of the suburb. Venues get their clean between close and open. Trade sites get theirs before the first shift walks in.
+
+We operate seven days a week including weekends and public holidays with no extra charge for those slots, and our cleaners are police-checked and trained in workplace and chemical safety. Southbank tenants running similar after-hours arrangements are covered on a separate [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page.
+
+## Who books us in Port Melbourne
+
+Port Melbourne work splits into two groups:
+
+- Cafes and restaurants along Bay Street needing a clean between service and opening
+- Warehouses, workshops and showrooms across Fishermans Bend and the port side
+- Office suites attached to an operational trade site
+- Venues preparing for a food-safety inspection
 
 ## About Twinkle Clean
 
@@ -24,7 +44,9 @@ Founded in 2019 by Tom Su, who came up through the trade as a cleaner before sta
 
 ## What a Port Melbourne clean costs
 
-Each venue and each site gets its own quote. A 60 seat cafe with one bathroom prices differently to a 200 seat restaurant, and both price differently to a workshop with a lunchroom and amenities block. We look at area, surfaces, frequency and access hours, then give you a number in writing at no cost. Our rates stay competitive against comparable operators, and we run both one-off cleans and ongoing schedules without lock-in contracts.
+Each venue and each site gets its own quote. A 60 seat cafe with one bathroom prices differently to a 200 seat restaurant, and both price differently to a workshop with a lunchroom and amenities block.
+
+We look at area, surfaces, frequency and access hours, then give you a number in writing at no cost. Our rates stay competitive against comparable operators, and we run both one-off cleans and ongoing schedules without lock-in contracts.
 
 ## Frequently asked questions
 

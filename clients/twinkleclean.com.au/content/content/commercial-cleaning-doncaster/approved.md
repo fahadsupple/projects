@@ -6,17 +6,40 @@ Doncaster's commercial life orbits Westfield Doncaster, the major shopping compl
 
 ## Retail and shopfront cleaning that keeps up with trade
 
-Shop floors take punishment during trading hours and get roughly twelve hours to recover. Our retail and shopfront cleaning covers the surfaces customers actually touch and look at: entry glass and door furniture, counters and point-of-sale areas, display cabinets, shelving faces, fitting rooms, and hard floors that need a scrubber rather than a mop to come back properly.
+Shop floors take punishment during trading hours and get roughly twelve hours to recover. Our retail and shopfront cleaning covers the surfaces customers actually touch and look at:
+
+- Entry glass and door furniture
+- Counters and point-of-sale areas
+- Display cabinets
+- Shelving faces
+- Fitting rooms
+- Hard floors that need a scrubber rather than a mop to come back properly
 
 Behind the counter the work continues into stockrooms, staff amenities and back-of-house corridors, the areas that quietly determine whether the front of house stays clean. We bring commercial vacuums, floor scrubbers and polishers, professional window-cleaning tools and colour-coded microfibre cloths and mops so washroom gear never crosses into a food prep or counter area. Hospital-grade disinfectants are matched to each site.
 
 ## Office suites, and cleaning around the trading day
 
-Not every business in Doncaster sells across a counter. Professional suites, agencies and administrative offices are a steady part of the mix, and office cleaning Doncaster tenants book with us follows the familiar rhythm: workstations, meeting rooms, kitchens, washrooms, internal glass and floors, all on a checklist tied to the specific site.
+Not every business in Doncaster sells across a counter. Professional suites, agencies and administrative offices are a steady part of the mix, and office cleaning Doncaster tenants book with us follows the familiar rhythm:
+
+- Workstations
+- Meeting rooms
+- Kitchens
+- Washrooms
+- Internal glass and floors
+
+All of it sits on a checklist tied to the specific site.
 
 Timing is where retail and office work diverge. After-hours commercial cleaning suits both, but a shop that trades until nine needs a much later start than an office that empties at six, and a food outlet may want a pre-open clean instead. We run seven days a week, including weekends and public holidays, with no surcharge for either, so a Sunday-night reset before a Monday trading week costs the same as a Tuesday.
 
 Broader service detail and our full credentials live on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+
+## Who we clean for in Doncaster
+
+Our commercial cleaning in Doncaster suits:
+
+- Retail shopfronts and specialty stores around Westfield Doncaster
+- Food outlets and late-trading businesses needing a pre-open or after-close clean
+- Professional suites, agencies and administrative offices
 
 ## About Twinkle Clean
 
@@ -24,7 +47,17 @@ Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before
 
 ## Quoting and pricing
 
-Retail sites vary too widely for a published rate to be honest. A compact specialty store and a large showroom with three washrooms are different jobs, and trading hours change what is possible in a shift. We price each site individually after looking at floor area, surfaces, amenities, access windows and frequency. Quotes cost nothing, our pricing stays competitive among commercial cleaners Doncaster businesses shortlist, and we work without lock-in contracts.
+Retail sites vary too widely for a published rate to be honest. A compact specialty store and a large showroom with three washrooms are different jobs, and trading hours change what is possible in a shift.
+
+We price each site individually after looking at:
+
+- Floor area
+- Surfaces
+- Amenities
+- Access windows
+- Frequency
+
+Quotes cost nothing, our pricing stays competitive among commercial cleaners Doncaster businesses shortlist, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

@@ -1,12 +1,12 @@
 {
   "entry_id": "commercial-cleaning-braeside",
-  "gated_at": "2026-07-20T07:25:58.953Z",
+  "gated_at": "2026-07-21T00:48:58.164Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 43,
+      "line_number": 63,
       "excerpt": "$20",
       "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

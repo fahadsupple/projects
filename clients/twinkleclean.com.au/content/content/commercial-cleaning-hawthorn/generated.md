@@ -16,7 +16,21 @@ We deal with that by cleaning to your site's own written procedure rather than a
 
 ## Getting in after hours without any drama
 
-Most Hawthorn sites we quote want the work done from 6pm onwards, or early on a Sunday before the strip wakes up. After-hours office cleaning only functions when access is boring: one agreed key or fob holder, a written alarm procedure, and a cleaner who already knows your site rather than a new face every week. Our people are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when a building manager wants a straight answer at 9pm. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Most Hawthorn sites we quote want the work done from 6pm onwards, or early on a Sunday before the strip wakes up. After-hours office cleaning only functions when access is boring:
+
+- One agreed key or fob holder
+- A written alarm procedure
+- A cleaner who already knows your site rather than a new face every week
+
+Our people are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when a building manager wants a straight answer at 9pm. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## The Hawthorn businesses we suit best
+
+Commercial cleaning in Hawthorn suits a mix of premises:
+
+- Offices above and behind the Glenferrie Road, Auburn Road and Church Street strips, with after-hours cleans that fit small floorplates and short loading windows
+- Clinical and consulting spaces, using hospital-grade disinfectants and colour-coded equipment matched to each room
+- Teaching and admin areas near the Swinburne campus, with a schedule that can lift during teaching weeks and ease off over breaks
 
 ## About Twinkle Clean
 
@@ -24,7 +38,17 @@ Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, a
 
 ## What a Hawthorn clean costs
 
-Pricing is worked out per site, because a 90 square metre suite above a Glenferrie Road shopfront and a three-level Burwood Road tenancy with a staff kitchen are not remotely the same job. We look at floor area, surface mix, frequency, bin volume and access, then quote a figure you can budget against. Quotes are free, rates stay competitive with the other commercial cleaners Hawthorn businesses approach, and there is no published flat rate, because a single published number would overcharge half the suburb. One-off cleans and regular weekly, fortnightly or nightly schedules are both available, and we work without lock-in contracts.
+Pricing is worked out per site, because a 90 square metre suite above a Glenferrie Road shopfront and a three-level Burwood Road tenancy with a staff kitchen are not remotely the same job. We look at:
+
+- Floor area
+- Surface mix
+- Frequency
+- Bin volume
+- Access
+
+Then we quote a figure you can budget against.
+
+Quotes are free, rates stay competitive with the other commercial cleaners Hawthorn businesses approach, and there is no published flat rate, because a single published number would overcharge half the suburb. One-off cleans and regular weekly, fortnightly or nightly schedules are both available, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

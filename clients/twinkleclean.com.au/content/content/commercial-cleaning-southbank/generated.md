@@ -6,7 +6,14 @@ Southbank, postcode 3006, sits mostly within the City of Melbourne with parts in
 
 ## Floor plates, lobbies and meeting rooms
 
-A tower tenancy clean is a route, not a room. Reception and the lift lobby edge get done first because they carry the most visual weight. Open-plan workstations follow: bins emptied and relined, desks and shared benches wiped, monitors and keyboards left undisturbed unless you ask otherwise. Meeting rooms get reset with the table cleared and polished, chairs squared and glass walls cleaned, often the single largest glass task on the floor. Southbank's own southern tip already counts as CBD territory, and we cover that side of the boundary separately on our [commercial cleaning in Melbourne CBD](https://www.twinkleclean.com.au/commercial-cleaning-melbourne-cbd/) page.
+A tower tenancy clean is a route, not a room. Reception and the lift lobby edge get done first because they carry the most visual weight.
+
+Open-plan workstations follow:
+- Bins emptied and relined
+- Desks and shared benches wiped
+- Monitors and keyboards left undisturbed unless you ask otherwise
+
+Meeting rooms get reset with the table cleared and polished, chairs squared and glass walls cleaned, often the single largest glass task on the floor. Southbank's own southern tip already counts as CBD territory, and we cover that side of the boundary separately on our [commercial cleaning in Melbourne CBD](https://www.twinkleclean.com.au/commercial-cleaning-melbourne-cbd/) page.
 
 Breakout areas and end-of-trip facilities take more work than people expect in a high-rise. Kitchens with coffee machines and dishwashers, staff lockers and showers all need consistent attention. Washrooms are disinfected with hospital-grade products chosen for the site and restocked to the schedule you set, and colour-coded microfibre cloths and mops keep washroom work from ever crossing into a kitchen bench.
 
@@ -14,9 +21,26 @@ Floors across a large plate get commercial vacuuming with extra passes on the tr
 
 ## Building access, security and after-hours work
 
-High-rise cleaning lives or dies on access. Southbank towers run swipe access, after-hours lift cards, loading dock bookings, security sign-in and rules on when service lifts may be used. We work all of that out with building management and your facilities contact before the first visit. Port Melbourne sites needing similar access coordination are covered on our [commercial cleaning in Port Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-port-melbourne/) page.
+High-rise cleaning lives or dies on access. Southbank towers run:
+- Swipe access
+- After-hours lift cards
+- Loading dock bookings
+- Security sign-in
+- Rules on when service lifts may be used
 
-After-hours commercial cleaning is the norm here, most often starting once the floor empties in the evening. Our teams work seven days a week including weekends and public holidays at no extra charge, which suits tenants whose floors are quietest on a Sunday. Cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when they hold building credentials for a secured floor. Twinkle Clean carries $20 million public liability insurance plus WorkCover. The full method and quality-control detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+We work all of that out with building management and your facilities contact before the first visit. Port Melbourne sites needing similar access coordination are covered on our [commercial cleaning in Port Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-port-melbourne/) page.
+
+After-hours commercial cleaning is the norm here, most often starting once the floor empties in the evening. Our teams work seven days a week including weekends and public holidays at no extra charge, which suits tenants whose floors are quietest on a Sunday.
+
+Cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when they hold building credentials for a secured floor. Twinkle Clean carries $20 million public liability insurance plus WorkCover. The full method and quality-control detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who typically books us in Southbank
+
+Southbank bookings usually come from one of these groups:
+- Corporate tenants on tower floors, keeping reception, lift lobbies and meeting rooms boardroom-ready
+- Multi-level occupiers, covering end-of-trip facilities, breakout areas and kitchens
+- Hospitality and function spaces around the Promenade and Southgate precinct
+- Ground-floor and podium tenancies, needing a heavier frequency for street-level traffic
 
 ## About Twinkle Clean
 
@@ -24,7 +48,9 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he r
 
 ## Pricing and free quotes
 
-Cost follows the floor plate, the fit-out and the frequency. A single-floor tenancy with 30 desks, two meeting rooms and a kitchen is a very different number from a multi-level occupier with reception, boardroom and end-of-trip facilities. We walk the tenancy, count what is actually there and quote from that. Quotes are free with nothing owed if you decide against it. There is no lock-in contract, so frequency moves up or down as your headcount does. Rates are competitive against other commercial cleaners Southbank tenants will be shortlisting.
+Cost follows the floor plate, the fit-out and the frequency. A single-floor tenancy with 30 desks, two meeting rooms and a kitchen is a very different number from a multi-level occupier with reception, boardroom and end-of-trip facilities. We walk the tenancy, count what is actually there and quote from that.
+
+Quotes are free with nothing owed if you decide against it. There is no lock-in contract, so frequency moves up or down as your headcount does. Rates are competitive against other commercial cleaners Southbank tenants will be shortlisting.
 
 ## Frequently asked questions
 

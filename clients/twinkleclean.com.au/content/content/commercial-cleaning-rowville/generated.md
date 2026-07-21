@@ -10,13 +10,32 @@ Warehouse and factory cleaning starts with the floor, because that is what gener
 
 Amenities are the second half of the job and usually the half that decides whether staff are happy. Toilets, showers, lunchrooms and change areas get disinfected with hospital-grade products chosen for the site, with colour-coded microfibre cloths and mops so nothing crosses from a washroom to a food surface. Bench tops, microwaves, sinks and bins sit in the standard routine.
 
-Then there is the front. Almost every industrial unit here has an office, counter or small showroom where customers and reps actually stand, and that area gets office-standard treatment: desks, glass, carpet or vinyl floors and a tidy entry. Racking uprights, dock edges and mezzanine stairs go in where you want them. We've documented the equivalent front-office treatment for Bayswater on its own [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
+Then there is the front. Almost every industrial unit here has an office, counter or small showroom where customers and reps actually stand, and that area gets office-standard treatment:
+
+- Desks
+- Glass
+- Carpet or vinyl floors
+- A tidy entry
+
+Racking uprights, dock edges and mezzanine stairs go in where you want them. We've documented the equivalent front-office treatment for Bayswater on its own [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
 If your premises operate to a documented procedure covering chemical storage, PPE or restricted zones, our cleaners work to that written procedure. They are police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
 
 ## Fitting a clean around production hours
 
-Most Rowville sites cannot stop work to be cleaned. Machines run, pick and pack keeps moving, and the yard is busy through the day. After-hours commercial cleaning is the usual answer, and because we work seven days a week including weekends and public holidays at no extra charge, a Saturday slot between shifts costs the same as a weeknight one. Where a site cannot be left unattended, we work alongside your team in staged zones instead. Estate offices and professional suites on the residential side get the same flexibility, usually early morning or evening. Fuller details of our equipment and quality-control processes sit on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Most Rowville sites cannot stop work to be cleaned. Machines run, pick and pack keeps moving, and the yard is busy through the day.
+
+After-hours commercial cleaning is the usual answer, and because we work seven days a week including weekends and public holidays at no extra charge, a Saturday slot between shifts costs the same as a weeknight one. Where a site cannot be left unattended, we work alongside your team in staged zones instead.
+
+Estate offices and professional suites on the residential side get the same flexibility, usually early morning or evening. Fuller details of our equipment and quality-control processes sit on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Businesses that book us in Rowville
+
+Commercial cleaning in Rowville suits a mix of industrial and office sites:
+
+- Workshops, warehouses and factory units, with floor, amenities and front-office cleaning scoped as one job
+- Front offices, counters and showrooms inside industrial units, given office-standard treatment for the space customers actually see
+- Estate offices and professional suites on the residential side, with the same early morning or evening flexibility
 
 ## About Twinkle Clean
 
@@ -24,7 +43,15 @@ Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself. T
 
 ## How we quote
 
-Every quote is built from a walkthrough rather than a rate card. For an industrial site we look at slab area and surface condition, the number of amenities, whether there is a mezzanine, how much office and counter area is in scope, and how often you need us. Quotes are free. We work without lock-in contracts, so you can start weekly, move to fortnightly in a quiet stretch, or book a single deep clean before an inspection. Pricing stays competitive and is set per site rather than to a published flat figure.
+Every quote is built from a walkthrough rather than a rate card. For an industrial site we look at:
+
+- Slab area and surface condition
+- The number of amenities
+- Whether there is a mezzanine
+- How much office and counter area is in scope
+- How often you need us
+
+Quotes are free. We work without lock-in contracts, so you can start weekly, move to fortnightly in a quiet stretch, or book a single deep clean before an inspection. Pricing stays competitive and is set per site rather than to a published flat figure.
 
 ## Frequently asked questions
 

@@ -4,19 +4,38 @@ A carpet in Bayswater rarely gets an easy life. In a family home it takes the sh
 
 ## Homes and workplaces under one suburb
 
-Bayswater grew up around its railway station from the late 1800s and settled into a genuine mix of the residential and the industrial: family homes on one side, offices, shops and light-industrial premises on the other. For carpet that means two different jobs in the same postcode. A busy household grinds everyday soil through bedrooms, lounge and hallways, while a workplace floor wears the concentrated foot traffic of staff and visitors all week. We bring the same truck-mounted equipment and stain know-how to both.
+Bayswater grew up around its railway station from the late 1800s and settled into a genuine mix of the residential and the industrial: family homes on one side, offices, shops and light-industrial premises on the other. For carpet that means two different jobs in the same postcode.
+
+A busy household grinds everyday soil through bedrooms, lounge and hallways, while a workplace floor wears the concentrated foot traffic of staff and visitors all week. We bring the same truck-mounted equipment and stain know-how to both.
 
 ## Commercial and industrial carpet maintenance
 
-With Bayswater's spread of offices, retail units and factories, plenty of the carpet here is under a business, not a household. Reception areas need to look presentable, meeting rooms show every coffee ring, and amenities carpet takes grit straight off the factory floor. We work around your trading hours, cleaning after close or on weekends at no extra charge, and can set up a regular schedule so the floors stay ahead of the traffic. With no lock-in contracts, a clean can be one-off or ongoing.
+With Bayswater's spread of offices, retail units and factories, plenty of the carpet here is under a business, not a household. Every workplace clean accounts for the different areas under one roof:
+
+- Reception areas that need to look presentable
+- Meeting rooms where every coffee ring shows
+- Amenities carpet that takes grit straight off the factory floor
+
+We work around your trading hours, cleaning after close or on weekends at no extra charge, and can set up a regular schedule so the floors stay ahead of the traffic. With no lock-in contracts, a clean can be one-off or ongoing.
 
 ## Hot water extraction that reaches the base of the pile
 
-Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet. Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet.
+
+Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease carpet cleaning in Bayswater
 
 Rentals sit among Bayswater's homes and above some of its shopfronts, and when a tenancy ends the carpet is one of the first things a property manager checks. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, giving tenants a fair shot at their full deposit.
+
+## Who we clean carpets for in Bayswater
+
+Our Bayswater carpet cleaning suits a mix of households and workplaces:
+
+- Family homes with everyday soil ground into bedrooms, lounges and hallways
+- Renters preparing carpet for a final inspection
+- Landlords and property managers wanting a bond-back result
+- Offices, retail units and light-industrial premises with commercial carpet
 
 ## About Twinkle Clean
 
@@ -24,7 +43,13 @@ Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before
 
 ## Pricing and free quotes
 
-A Bayswater job might be a two-bedroom unit or a full office floor, so we price on the details rather than a flat rate: the rooms or floor area, the carpet's condition, and any stain treatment. Quotes are free, our pricing stays competitive, and you can choose a single clean or a regular schedule.
+A Bayswater job might be a two-bedroom unit or a full office floor, so we price on the details rather than a flat rate:
+
+- The rooms or floor area
+- The carpet's condition
+- Any stain treatment
+
+Quotes are free, our pricing stays competitive, and you can choose a single clean or a regular schedule.
 
 ## Frequently asked questions
 

@@ -6,9 +6,17 @@ Ringwood is the principal retail, commercial and civic hub of Melbourne's outer 
 
 ## Retail and shopfront cleaning around the activity centre
 
-Tenancy cleaning around a centre this size runs to somebody else's clock. Access windows, loading dock rules and trading hours shape what can happen and when, and we build the schedule around them instead of asking the tenant to work around us. That covers entry glass and display windows cleaned with professional window tools, floors machine-cleaned or vacuumed to suit the surface, counters and fitting areas reset, and staff amenities done properly rather than skimmed.
+Tenancy cleaning around a centre this size runs to somebody else's clock. Access windows, loading dock rules and trading hours shape what can happen and when, and we build the schedule around them instead of asking the tenant to work around us.
 
-Dining tenancies in the outdoor precinct and at cinema level carry their own load. Bathrooms, dining floors and service areas turn over hard, so our teams use colour-coded microfibre cloths and mops to keep bathroom, bar and food areas separate, with hospital-grade disinfectants selected for what each site handles. Environmentally conscious products are used wherever they suit the surface. Croydon traders after the same tenancy-first scheduling can read about it on our [commercial cleaning in Croydon](https://www.twinkleclean.com.au/commercial-cleaning-croydon/) page.
+That covers:
+- Entry glass and display windows cleaned with professional window tools
+- Floors machine-cleaned or vacuumed to suit the surface
+- Counters and fitting areas reset
+- Staff amenities done properly rather than skimmed
+
+Dining tenancies in the outdoor precinct and at cinema level carry their own load. Bathrooms, dining floors and service areas turn over hard, so our teams use colour-coded microfibre cloths and mops to keep bathroom, bar and food areas separate, with hospital-grade disinfectants selected for what each site handles.
+
+Environmentally conscious products are used wherever they suit the surface. Croydon traders after the same tenancy-first scheduling can read about it on our [commercial cleaning in Croydon](https://www.twinkleclean.com.au/commercial-cleaning-croydon/) page.
 
 ## Office, civic and school sites along Maroondah Highway
 
@@ -16,13 +24,23 @@ Away from the shopfronts, the demand here is offices, courts, civic buildings an
 
 For most of these, after-hours commercial cleaning is the only workable answer, and we run seven days a week including weekends and public holidays at no extra charge. Being a short drive away means an early start or a late finish is genuinely practical for us rather than something we tolerate. Our full method, equipment and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+## The site types we look after in Ringwood
+
+Around the activity centre we work with a range of tenants:
+- Retail tenancies around Eastland, covering shopfronts, fitting areas and staff amenities
+- Dining and cinema-level tenancies, where bathrooms and service areas turn over hard
+- Offices along the Maroondah Highway Boulevard
+- Civic buildings and schools, where amenities and high-touch surfaces matter most
+
 ## About Twinkle Clean
 
 Twinkle Clean has run out of Ringwood since Tom Su founded it in 2019, after years spent working as a cleaner rather than managing them. The team holds 20 or more years of combined experience and has served over 1,200 customers across Melbourne. Work is covered by a 100% satisfaction guarantee backed by a quality control system: an area inside the agreed scope that falls short gets re-cleaned. Our Oneflare rating is 5 out of 5 from 16 reviews. The main commercial cleaning page carries the full credential and method detail.
 
 ## Pricing
 
-Sites are priced individually. A single retail tenancy, a full office floor and a school block have different surface mixes, glass loads, bathroom counts and access rules, so a flat published rate would be wrong for almost everyone. Quotes are free and follow a site visit, and our rates stay competitive with the other commercial cleaners Ringwood businesses are getting prices from. Schedules run daily, weekly, fortnightly or as a single clean before an inspection, a handover or an event, and we work without lock-in contracts.
+Sites are priced individually. A single retail tenancy, a full office floor and a school block have different surface mixes, glass loads, bathroom counts and access rules, so a flat published rate would be wrong for almost everyone.
+
+Quotes are free and follow a site visit, and our rates stay competitive with the other commercial cleaners Ringwood businesses are getting prices from. Schedules run daily, weekly, fortnightly or as a single clean before an inspection, a handover or an event, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

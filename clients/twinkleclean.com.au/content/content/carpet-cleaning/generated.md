@@ -31,11 +31,23 @@ Heavily soiled carpet, high-traffic wear, difficult stains, pet odours and urine
 
 ## End of lease and bond-back carpet cleaning
 
-Moving out is where carpet cleaning suddenly matters most. Property managers inspect carpets closely, and a poor result can put a bond at risk. We carry out detailed end-of-tenancy carpet cleaning to the standard a final inspection expects, and we back it with a bond-back cleaning guarantee: if a property manager flags an issue within the original agreed scope, we return to put it right, subject to the scope and inspection conditions. It gives tenants the best chance of getting their deposit back without a second thought about the floors.
+Moving out is where carpet cleaning suddenly matters most. Property managers inspect carpets closely, and a poor result can put a bond at risk.
+
+We carry out detailed end-of-tenancy carpet cleaning to the standard a final inspection expects, and we back it with a bond-back cleaning guarantee: if a property manager flags an issue within the original agreed scope, we return to put it right, subject to the scope and inspection conditions. It gives tenants the best chance of getting their deposit back without a second thought about the floors.
 
 ## What to expect on the day
 
 A professional steam clean leaves carpet damp, not soaked, and most carpets are dry within a few hours, though heavier fabrics, cooler weather and low airflow can extend that. We can advise on walk-on and furniture timing for your specific carpet before we start. You get a clear sense of the process up front, so there are no surprises about drying time or what the carpet will look like once it settles.
+
+## Who our carpet cleaning suits
+
+Our carpet cleaning covers a broad mix of customers across Melbourne:
+
+- Homeowners and families with everyday wear across houses, units and apartments
+- Renters and tenants needing a bond-back clean at the end of a lease
+- Landlords and property managers preparing a property for the next tenant
+- Offices, retail spaces and other workplaces with commercial carpet
+- Households with rugs, stairs or upholstery that need attention alongside the carpet
 
 ## About Twinkle Clean
 
@@ -52,7 +64,13 @@ What stands behind the work:
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest number comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the option of a one-off clean or regular scheduled cleaning. You will have the scope and the price before any work begins.
+Carpet cleaning is priced on the job, so the fairest number comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the option of a one-off clean or regular scheduled cleaning. You will have the scope and the price before any work begins.
 
 ## Suburbs we cover for carpet cleaning
 

@@ -4,15 +4,27 @@ A carpet in a settled Cheltenham home quietly records years of everyday life: th
 
 ## Carpet cleaning across Cheltenham's homes and businesses
 
-Cheltenham is an unusual mix for this part of Melbourne. Most of it is post-war housing put up from the late 1940s through to the 1980s, the kind of established family home where carpet has settled in for the long haul and the busy rooms show it first. Industrial pockets sit on the eastern and western edges, and Westfield Southland anchors plenty of retail and office activity close by. Our week here often runs from a whole-house refresh in a family home to commercial carpet in a local office, shop or workplace. It also means Cheltenham genuinely straddles two councils, the City of Bayside and the City of Kingston, and we clean carpet on both sides of that line with the same equipment and care.
+Cheltenham is an unusual mix for this part of Melbourne. Most of it is post-war housing put up from the late 1940s through to the 1980s, the kind of established family home where carpet has settled in for the long haul and the busy rooms show it first. Industrial pockets sit on the eastern and western edges, and Westfield Southland anchors plenty of retail and office activity close by.
+
+Our week here often runs from a whole-house refresh in a family home to commercial carpet in a local office, shop or workplace. It also means Cheltenham genuinely straddles two councils, the City of Bayside and the City of Kingston, and we clean carpet on both sides of that line with the same equipment and care.
 
 ## Our carpet cleaning method
 
-We match the clean to the carpet rather than running one setting across the house. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which drives heated water and solution into the pile then draws it straight back out, so carpet is left damp rather than saturated. Where a set-in stain, a pet odour or a worn traffic lane needs more, we treat that spot on its own before the main clean, which is how marks a general pass tends to miss actually come up. For the full rundown of our equipment and how we work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+We match the clean to the carpet rather than running one setting across the house. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which drives heated water and solution into the pile then draws it straight back out, so carpet is left damp rather than saturated.
+
+Where a set-in stain, a pet odour or a worn traffic lane needs more, we treat that spot on its own before the main clean, which is how marks a general pass tends to miss actually come up. For the full rundown of our equipment and how we work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease and bond-back carpet cleaning
 
 With family homes and rentals changing hands across Cheltenham, end-of-lease carpet cleaning is steady local work for us. Property managers look closely at carpet during a final inspection, and a weak result can hold up a bond. We clean to the standard those inspections expect and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, giving tenants the best chance of getting their deposit back.
+
+## Homes and renters we help in Cheltenham
+
+Carpet cleaning in Cheltenham works best for:
+
+- Established family homes with worn traffic lanes and pet odours
+- Tenants and property managers needing an end-of-lease bond-back clean
+- Offices, shops and industrial premises needing commercial carpet care
 
 ## About Twinkle Clean
 
@@ -20,7 +32,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. We give free quotes, keep our pricing competitive and budget-friendly, and leave the choice of a one-off clean or a regular schedule with you, with the scope and price clear before any work starts.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free quotes, keep our pricing competitive and budget-friendly, and leave the choice of a one-off clean or a regular schedule with you, with the scope and price clear before any work starts.
 
 ## Frequently asked questions
 

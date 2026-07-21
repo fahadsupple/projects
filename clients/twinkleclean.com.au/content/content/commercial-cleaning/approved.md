@@ -32,9 +32,24 @@ We also take on periodic and specialist work, including commercial carpet steam 
 
 ## How we keep the standard consistent
 
-Consistency is where most cleaning contracts fall down, so it is where we put the most structure. Wherever possible we assign the same cleaners to your site, so they learn your premises and your expectations instead of starting fresh each visit. Every cleaner works to a site-specific checklist, and our management team runs regular inspections and reviews customer feedback, with photographic reporting where a site calls for it. When something is missed, we correct it and update the site instructions so it does not happen twice.
+Consistency is where most cleaning contracts fall down, so it is where we put the most structure. Wherever possible we assign the same cleaners to your site, so they learn your premises and your expectations instead of starting fresh each visit.
 
-That habit of paying attention has paid off in ways a checklist never could. During an evening clean at an obstetrics clinic we look after, our team noticed a burst kitchen pipe spreading water through the premises. We called the client straight away and arranged emergency flood restoration overnight, which contained the damage and stopped it reaching the tenant below. Our job that night was cleaning. We treated it as looking after the client's business, which is how we approach every site.
+Every cleaner works to a site-specific checklist, and our management team runs regular inspections and reviews customer feedback, with photographic reporting where a site calls for it. When something is missed, we correct it and update the site instructions so it does not happen twice.
+
+That habit of paying attention has paid off in ways a checklist never could. During an evening clean at an obstetrics clinic we look after, our team noticed a burst kitchen pipe spreading water through the premises.
+
+We called the client straight away and arranged emergency flood restoration overnight, which contained the damage and stopped it reaching the tenant below. Our job that night was cleaning. We treated it as looking after the client's business, which is how we approach every site.
+
+## Who we work with
+
+We clean for a wide range of Melbourne businesses, including:
+
+- Offices and corporate workplaces, from single tenancies to multi-floor sites
+- Medical centres, clinics and other health premises
+- Childcare and aged care facilities
+- Retail stores, showrooms and fitness studios
+- Restaurants, cafes and hospitality venues
+- Warehouses and factories
 
 ## About Twinkle Clean
 
@@ -51,7 +66,9 @@ The practical trust points matter just as much:
 
 ## How pricing and quotes work
 
-We price each site individually, because a fair quote depends on its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job. Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
+We price each site individually, because a fair quote depends on its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job.
+
+Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
 
 ## Areas we service across Melbourne
 

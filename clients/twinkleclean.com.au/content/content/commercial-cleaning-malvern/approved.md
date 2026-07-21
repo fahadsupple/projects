@@ -4,7 +4,9 @@ A boutique on High Street lives or dies on presentation, and so does the account
 
 ## Two strips, two rhythms
 
-Malvern runs its trade along Glenferrie Road and High Street, and the two behave differently. High Street leans toward specialty retail, homewares and food. Glenferrie Road carries a broader mix of shops and professional suites above them. A clean that suits one rarely transfers straight across to the other without adjusting the timing, and the retail and shopfront cleaning we do here is planned strip by strip rather than as one blanket run.
+Malvern runs its trade along Glenferrie Road and High Street, and the two behave differently. High Street leans toward specialty retail, homewares and food.
+
+Glenferrie Road carries a broader mix of shops and professional suites above them. A clean that suits one rarely transfers straight across to the other without adjusting the timing, and the retail and shopfront cleaning we do here is planned strip by strip rather than as one blanket run.
 
 What both share is age. This is an established inner south-eastern suburb with a serious amount of heritage building stock, including Victoria Heritage Register listings such as Stonington mansion, completed in 1890, the Malvern tram depot, the former ES&A Bank and Malvern railway station. The tenancies around them inherited that character: original timber, decorative tile thresholds, leadlight, deep skirtings and window frames that were never designed for a pressure washer. We cover a comparable heritage-retail mix on our separate [commercial cleaning in South Yarra](https://www.twinkleclean.com.au/commercial-cleaning-south-yarra/) page.
 
@@ -12,11 +14,32 @@ What both share is age. This is an established inner south-eastern suburb with a
 
 Heritage fabric rewards restraint. On original timber and tessellated tile we use methods and product strengths suited to the surface rather than the fastest option available, and pH-neutral routines instead of aggressive stripping. Commercial vacuums, floor scrubbers and polishers all have their place, but which one comes off the van depends on what is actually underfoot in your tenancy.
 
-Detail work is where these sites are won. Skirtings, sills, door furniture, stair nosings and the top edge of a display plinth all show dust in the sort of light these buildings get. Colour-coded microfibre cloths and mops keep the retail floor, the kitchenette and the bathroom strictly separate. Internal glass, mirrors and display cabinets are finished with professional window-cleaning tools so nothing dries streaky in afternoon sun.
+Detail work is where these sites are won. Skirtings, sills, door furniture, stair nosings and the top edge of a display plinth all show dust in the sort of light these buildings get.
+
+Colour-coded microfibre cloths and mops keep the retail floor, the kitchenette and the bathroom strictly separate. Internal glass, mirrors and display cabinets are finished with professional window-cleaning tools so nothing dries streaky in afternoon sun.
 
 ## Professional suites and consulting rooms above the shops
 
-A good share of the commercial cleaning services Malvern businesses book is not retail at all. It is the legal, financial, allied health and design practices occupying the upper floors along both strips. Those sites want quiet, consistent work: bins out, kitchen reset, glass done, carpets vacuumed, bathrooms properly turned over, and no trace that anyone was in the building. For treatment and consulting rooms we clean to the practice's own written procedure and use hospital-grade disinfectants selected for those surfaces. Our team is police-checked and trained in workplace and chemical safety, and the wider method is documented on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+A good share of the commercial cleaning services Malvern businesses book is not retail at all. It is the legal, financial, allied health and design practices occupying the upper floors along both strips. Those sites want quiet, consistent work:
+
+- Bins out
+- Kitchen reset
+- Glass done
+- Carpets vacuumed
+- Bathrooms properly turned over
+
+No trace is left that anyone was in the building.
+
+For treatment and consulting rooms we clean to the practice's own written procedure and use hospital-grade disinfectants selected for those surfaces. Our team is police-checked and trained in workplace and chemical safety, and the wider method is documented on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who books us across Malvern's strips
+
+Commercial cleaning in Malvern is best suited to:
+
+- Boutique and specialty retail shopfronts on High Street
+- Shops and food tenancies along Glenferrie Road
+- Legal, financial, allied health and design practices in upper-floor suites
+- Consulting and treatment rooms needing disinfection to a written procedure
 
 ## About Twinkle Clean
 
@@ -24,7 +47,15 @@ Tom Su founded Twinkle Clean in 2019, having spent years cleaning sites himself 
 
 ## Pricing and free quotes
 
-Each Malvern site is priced individually. A narrow High Street shopfront with a timber floor and a single bathroom sits a long way from a two-level Glenferrie Road suite with five consulting rooms, and pricing follows the actual work: floor area, surface mix, frequency, bin volume and how the building is accessed after close. Quotes are free, our rates stay competitive with the other commercial cleaners Malvern businesses compare, and there is no published flat rate because the honest number only exists once we have seen the space. Regular schedules and one-off cleans are equally available, and we work without lock-in contracts.
+Each Malvern site is priced individually. A narrow High Street shopfront with a timber floor and a single bathroom sits a long way from a two-level Glenferrie Road suite with five consulting rooms, and pricing follows the actual work:
+
+- Floor area
+- Surface mix
+- Frequency
+- Bin volume
+- How the building is accessed after close
+
+Quotes are free, our rates stay competitive with the other commercial cleaners Malvern businesses compare, and there is no published flat rate because the honest number only exists once we have seen the space. Regular schedules and one-off cleans are equally available, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

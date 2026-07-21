@@ -8,13 +8,30 @@ South Yarra puts a lot of very different businesses within a few blocks of each 
 
 Street-facing glass is the whole job in retail. Entry doors, display windows, frames and sill lines get cleaned with professional window-cleaning tools rather than a bottle and a rag, because streaking in direct morning sun is obvious from the footpath. Inside, floors are vacuumed or machine-cleaned depending on the surface, fitting rooms and counters are reset, and back-of-house areas and staff amenities get proper attention.
 
-Hospitality sites carry a different risk profile again. Front of house, bathrooms and dining floors are what customers judge, and they need to be turned around between late close and early service. We use colour-coded microfibre cloths and mops so nothing crosses between bathroom, bar and food areas, and hospital-grade disinfectants chosen for what each site actually handles. Where an environmentally conscious product suits the surface and the setting, that is what goes on it. Malvern hospitality venues run under the same food-and-bar separation rules, detailed on our [commercial cleaning in Malvern](https://www.twinkleclean.com.au/commercial-cleaning-malvern/) page.
+Hospitality sites carry a different risk profile again. Front of house, bathrooms and dining floors are what customers judge, and they need to be turned around between late close and early service.
+
+We use colour-coded microfibre cloths and mops so nothing crosses between bathroom, bar and food areas, and hospital-grade disinfectants chosen for what each site actually handles. Where an environmentally conscious product suits the surface and the setting, that is what goes on it. Malvern hospitality venues run under the same food-and-bar separation rules, detailed on our [commercial cleaning in Malvern](https://www.twinkleclean.com.au/commercial-cleaning-malvern/) page.
 
 ## Office cleaning above and behind the retail
 
-South Yarra's office tenancies sit above the strips and inside centres like Como, and the expectation there is invisible service. Workstations, meeting rooms, kitchens and breakout areas, internal glass, and bathrooms cleaned to a standard nobody has to think about. Our teams work from detailed cleaning checklists and site-specific procedures with quality-control processes behind them, which is what keeps a Tuesday clean identical to a Friday one.
+South Yarra's office tenancies sit above the strips and inside centres like Como, and the expectation there is invisible service. That covers:
+
+- Workstations, meeting rooms, kitchens and breakout areas
+- Internal glass
+- Bathrooms cleaned to a standard nobody has to think about
+
+Our teams work from detailed cleaning checklists and site-specific procedures with quality-control processes behind them, which is what keeps a Tuesday clean identical to a Friday one.
 
 Because a lot of these sites cannot have cleaners on the floor during trade, after-hours commercial cleaning is the default rather than the exception. We work seven days including weekends and public holidays at no extra charge, so a Sunday night reset before Monday trade is priced the same as any other night. The full method, equipment and credential detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who trusts us in South Yarra
+
+We're the right fit for:
+
+- Fashion and specialty retail boutiques on Chapel Street and Toorak Road
+- Restaurants, cafes and late-trading hospitality venues
+- Office tenancies above the strips and inside centres like Como
+- Tenancies inside The Jam Factory or Como needing centre access rules followed
 
 ## About Twinkle Clean
 
@@ -22,7 +39,18 @@ Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, w
 
 ## How we price it
 
-Every site is priced on its own: floor area, surface types, glass frontage, how many bathrooms, how often, and what time of day. That is why there is no published flat rate anywhere on this site. Quotes are free and come after we have actually looked at the space. We stay competitive against the other commercial cleaners South Yarra businesses will be quoting, and we work without lock-in contracts, whether you want six nights a week, one morning a week, or a single clean before a launch or a lease handback.
+Every site is priced on its own:
+
+- Floor area
+- Surface types
+- Glass frontage
+- How many bathrooms
+- How often
+- What time of day
+
+That is why there is no published flat rate anywhere on this site.
+
+Quotes are free and come after we have actually looked at the space. We stay competitive against the other commercial cleaners South Yarra businesses will be quoting, and we work without lock-in contracts, whether you want six nights a week, one morning a week, or a single clean before a launch or a lease handback.
 
 ## Frequently asked questions
 

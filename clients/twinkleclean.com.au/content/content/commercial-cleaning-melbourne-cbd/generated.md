@@ -4,9 +4,22 @@ Staff arrive at eight, clients arrive at nine, and the lift lobby has to look li
 
 ## Office cleaning built around an after-hours window
 
-Most CBD tenancies cannot spare a daytime interruption. Vacuuming a floor of open-plan desks while a sales team is on calls helps nobody. Our after-hours commercial cleaning model puts the noisy work into the evening: desk surfaces wiped, bins emptied and consolidated, carpet vacuumed, glass partitions and meeting room tables cleaned, kitchens reset for the morning.
+Most CBD tenancies cannot spare a daytime interruption. Vacuuming a floor of open-plan desks while a sales team is on calls helps nobody.
 
-After-hours office cleaning also gives us room to do the jobs that get skipped when a team is in the room. Skirtings, cable trays, under-desk dust, the greasy patch above the coffee machine. Our city teams work to a checklist agreed with you at the start, so you know exactly what is covered each visit and what sits on a monthly or quarterly cycle. We run the same after-hours model on our separate [commercial cleaning in Port Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-port-melbourne/) page.
+Our after-hours commercial cleaning model puts the noisy work into the evening:
+- Desk surfaces wiped
+- Bins emptied and consolidated
+- Carpet vacuumed
+- Glass partitions and meeting room tables cleaned
+- Kitchens reset for the morning
+
+After-hours office cleaning also gives us room to do the jobs that get skipped when a team is in the room, including:
+- Skirtings
+- Cable trays
+- Under-desk dust
+- The greasy patch above the coffee machine
+
+Our city teams work to a checklist agreed with you at the start, so you know exactly what is covered each visit and what sits on a monthly or quarterly cycle. We run the same after-hours model on our separate [commercial cleaning in Port Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-port-melbourne/) page.
 
 Availability runs seven days, weekends and public holidays included, at no extra charge. If your floor turns over on a Sunday night or your fit-out handover lands on a public holiday, that is a normal booking for us, not a premium one.
 
@@ -14,9 +27,20 @@ Availability runs seven days, weekends and public holidays included, at no extra
 
 The CBD is Melbourne's main commercial and financial district, and a lot of the work here is not just one office. It is a tower with shared lobbies, lift cars, stairwells and a basement end-of-trip area that gets hammered by riders every morning. Showers, lockers, change benches and drying racks need a consistent daily routine or they turn quickly.
 
-Washrooms are the same story. On a shared floor, several tenancies use the same amenities, so the standard has to hold all day, not just at seven in the morning. We set consumable restocking, sanitising and fixture cleaning to the traffic each area actually gets. Multi-tenant buildings of a similar scale are covered on our [commercial cleaning in South Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-south-melbourne/) page as well.
+Washrooms are the same story. On a shared floor, several tenancies use the same amenities, so the standard has to hold all day, not just at seven in the morning.
 
-The district also carries retail, hospitality and cultural venues through its lanes and arcades, which means trade patterns vary enormously from one address to the next. A ground-floor cafe tenancy and a level-twenty legal practice in the same building need different schedules. We build the roster around each site instead of imposing one. The same variety of trade shows up on our [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page, written up separately. For the full method behind our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) programs, see the main service page.
+We set consumable restocking, sanitising and fixture cleaning to the traffic each area actually gets. Multi-tenant buildings of a similar scale are covered on our [commercial cleaning in South Melbourne](https://www.twinkleclean.com.au/commercial-cleaning-south-melbourne/) page as well.
+
+The district also carries retail, hospitality and cultural venues through its lanes and arcades, which means trade patterns vary enormously from one address to the next. A ground-floor cafe tenancy and a level-twenty legal practice in the same building need different schedules. We build the roster around each site instead of imposing one.
+
+The same variety of trade shows up on our [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page, written up separately. For the full method behind our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) programs, see the main service page.
+
+## The Melbourne CBD tenants we suit best
+
+CBD work tends to come from a few groups:
+- Office tenancies wanting desks, meeting rooms and kitchens ready before staff arrive
+- Building managers and multi-tenant towers, covering lobbies, lift cars and end-of-trip facilities
+- Retail, hospitality and cultural venues in the lanes and arcades, scheduled around trading hours
 
 ## About Twinkle Clean
 
@@ -24,7 +48,13 @@ Twinkle Clean was started in 2019 by Tom Su, who cleaned sites himself long befo
 
 ## What it costs
 
-There is no published flat rate, because a 200 square metre tenancy and a four-floor multi-tenant building are different jobs. We price per site after looking at floor area, surface types, amenity count and how often you want us in. Quotes are free and there is no charge for the site walk-through. You can book a one-off clean, a nightly service or anything between, and we work without lock-in contracts, so the schedule can flex if your headcount or hours change. Our pricing stays competitive against comparable operators in the city.
+There is no published flat rate, because a 200 square metre tenancy and a four-floor multi-tenant building are different jobs. We price per site after looking at:
+- Floor area
+- Surface types
+- Amenity count
+- How often you want us in
+
+Quotes are free and there is no charge for the site walk-through. You can book a one-off clean, a nightly service or anything between, and we work without lock-in contracts, so the schedule can flex if your headcount or hours change. Our pricing stays competitive against comparable operators in the city.
 
 ## Frequently asked questions
 

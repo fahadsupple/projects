@@ -8,15 +8,34 @@ Malvern holds a serious amount of heritage building stock, from the 1890 Stoning
 
 ## Commercial carpet for the Glenferrie Road and High Street strips
 
-Malvern is far more than its houses. Glenferrie Road and High Street carry the suburb's main retail trade, and behind those shopfronts sit offices, studios and consulting rooms with carpet that soaks up foot traffic all day. Office carpet greys fastest at the entry, along the walkways and under desks, and a dull, gritty floor undercuts how a place reads to customers. We clean commercial carpet around trading hours so a shop or office is ready for the next morning, at no extra charge for evenings and weekends.
+Malvern is far more than its houses. Glenferrie Road and High Street carry the suburb's main retail trade, and behind those shopfronts sit offices, studios and consulting rooms with carpet that soaks up foot traffic all day.
+
+Office carpet greys fastest at the entry, along the walkways and under desks, and a dull, gritty floor undercuts how a place reads to customers. We clean commercial carpet around trading hours so a shop or office is ready for the next morning, at no extra charge for evenings and weekends.
 
 ## Our method, matched to your carpet
 
-The core clean is hot water extraction, the deep steam method, which flushes soil out of the pile and pulls the moisture straight back so the carpet is left damp rather than drenched. Stains, pet odours and worn traffic lanes each get a targeted treatment of their own instead of one hopeful pass. Where a delicate wool rug or natural-fibre runner calls for it, we ease down to a gentler, low-moisture approach that protects the fibre and shortens drying. For the full detail on our equipment and stain treatments, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+The core clean is hot water extraction, the deep steam method, which flushes soil out of the pile and pulls the moisture straight back so the carpet is left damp rather than drenched.
+
+Rather than one hopeful pass, each carpet gets a targeted treatment of its own for:
+- Stains
+- Pet odours
+- Worn traffic lanes
+
+Where a delicate wool rug or natural-fibre runner calls for it, we ease down to a gentler, low-moisture approach that protects the fibre and shortens drying. For the full detail on our equipment and stain treatments, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End-of-lease and bond-back carpet cleaning
 
-Around its period houses, Malvern keeps a steady turnover of tenants through apartments and rentals, and end-of-lease carpet is some of our most requested local work. Property managers across Stonnington inspect floors closely, and a tired carpet can stall a bond. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants move on with the deposit sorted. Carpet cleaning is priced on the job, quoted free, and kept competitive whether you want a one-off refresh or a regular schedule.
+Around its period houses, Malvern keeps a steady turnover of tenants through apartments and rentals, and end-of-lease carpet is some of our most requested local work. Property managers across Stonnington inspect floors closely, and a tired carpet can stall a bond.
+
+We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants move on with the deposit sorted. Carpet cleaning is priced on the job, quoted free, and kept competitive whether you want a one-off refresh or a regular schedule.
+
+## The Malvern homes we look after
+
+This service suits a few different Malvern customers:
+- Homeowners in period houses, with wool and natural-fibre carpets and rugs that need gentle handling
+- Shops, offices and studios along Glenferrie Road and High Street, cleaned around trading hours
+- Renters and tenants needing a bond-back clean before handover
+- Property managers across Stonnington coordinating turnovers between tenants
 
 ## About Twinkle Clean
 

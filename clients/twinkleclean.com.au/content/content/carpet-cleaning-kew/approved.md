@@ -4,15 +4,27 @@ A good wool carpet in a large Kew home carries years of quiet living in its pile
 
 ## Wool carpets and fine rugs in Kew's established homes
 
-Kew is one of Melbourne's more affluent inner-eastern suburbs, set on a bend of the Yarra and known for its grand 19th-century Italianate mansions, among them Raheen and Villa Alba, alongside streets of exceptional Edwardian and Victorian houses. Homes of that calibre are often furnished with wool broadloom, natural-fibre stair runners and antique or hand-knotted rugs. Those materials hold colour beautifully, yet they mark more readily than synthetics and dislike being saturated, and a rough, over-wet clean can leave wool looking flat or felted. That is why we read the pile and backing before a drop of water goes down, treating a formal sitting-room rug and a busy hallway as the separate jobs they are.
+Kew is one of Melbourne's more affluent inner-eastern suburbs, set on a bend of the Yarra and known for its grand 19th-century Italianate mansions, among them Raheen and Villa Alba, alongside streets of exceptional Edwardian and Victorian houses. Homes of that calibre are often furnished with wool broadloom, natural-fibre stair runners and antique or hand-knotted rugs.
+
+Those materials hold colour beautifully, yet they mark more readily than synthetics and dislike being saturated, and a rough, over-wet clean can leave wool looking flat or felted. That is why we read the pile and backing before a drop of water goes down, treating a formal sitting-room rug and a busy hallway as the separate jobs they are.
 
 ## A clean matched to the fibre
 
-Our core method is hot water extraction, the deep steam clean, which flushes soil out of the pile and draws the moisture back with strong suction, so the carpet is left damp rather than soaked. On wool and softer natural fibres we ease back the heat and moisture, often stepping down to a low-moisture treatment that guards the pile and shortens drying. Set-in marks, pet odours and worn traffic lanes each get a targeted treatment instead of one hopeful pass. For the full detail on our equipment, presprays and stain work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core method is hot water extraction, the deep steam clean, which flushes soil out of the pile and draws the moisture back with strong suction, so the carpet is left damp rather than soaked. On wool and softer natural fibres we ease back the heat and moisture, often stepping down to a low-moisture treatment that guards the pile and shortens drying.
+
+Set-in marks, pet odours and worn traffic lanes each get a targeted treatment instead of one hopeful pass. For the full detail on our equipment, presprays and stain work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Bond-back cleaning for Kew rentals
 
 Kew is far from only owner-occupied, and end-of-lease carpet cleaning near the tram routes is regular local work. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants can hand back the keys with the floors already sorted.
+
+## Who calls us in Kew
+
+Our Kew carpet cleaning suits:
+
+- Owners of quality wool carpet and antique or hand-knotted rugs in period homes
+- Tenants needing a bond-back clean at the end of a Kew lease
+- Larger households with busy staircases and landings that take concentrated traffic
 
 ## About Twinkle Clean
 
@@ -20,7 +32,14 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Free quotes and competitive pricing
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the carpet's size and condition, any delicate rugs, and any stain or odour treatment. We give free quotes and keep our pricing competitive and budget-friendly, and you will have the scope and the price before any work begins.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+
+- How many rooms
+- The carpet's size and condition
+- Any delicate rugs
+- Any stain or odour treatment
+
+We give free quotes and keep our pricing competitive and budget-friendly, and you will have the scope and the price before any work begins.
 
 ## Frequently asked questions
 

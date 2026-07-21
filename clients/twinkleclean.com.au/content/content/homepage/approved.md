@@ -12,7 +12,15 @@ Our work splits into two main areas, and each has its own page with the full met
 
 **Carpet cleaning.** Carpet steam and deep cleaning for homes, rentals and workplaces, including pet stain and odour treatment and end-of-lease work. The [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) page explains the methods we use and where we work.
 
-Alongside those we also handle tile and grout cleaning, upholstery and mattress cleaning, window cleaning, domestic and regular cleaning, deep cleans and end of tenancy cleaning. If you are not sure which one your job falls under, describe the site and we will tell you.
+Alongside those we also handle:
+
+- Tile and grout cleaning
+- Upholstery and mattress cleaning
+- Window cleaning
+- Domestic and regular cleaning
+- Deep cleans and end of tenancy cleaning
+
+If you are not sure which one your job falls under, describe the site and we will tell you.
 
 ## How we work
 
@@ -23,6 +31,15 @@ Every site runs to a written scope. Detailed checklists and site-specific proced
 ## Who turns up
 
 Our cleaners are police-checked, trained in workplace and chemical safety as well as cleaning technique, and communicate clearly in English. The business carries $20 million public liability insurance and WorkCover. For sites where our team holds keys, alarm codes or after-hours access to an empty building, that matters more than anything else on this page.
+
+## Who we work with
+
+Twinkle Clean works with:
+
+- Offices, shops and warehouses booking a scheduled commercial clean
+- Clinics and consulting rooms needing hospital-grade disinfection
+- Homeowners and families wanting a carpet steam clean
+- Renters and landlords needing an end-of-lease carpet clean
 
 ## About Twinkle Clean
 

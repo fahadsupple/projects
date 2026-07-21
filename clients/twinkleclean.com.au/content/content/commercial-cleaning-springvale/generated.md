@@ -6,7 +6,17 @@ Most shopkeepers along the Springvale strip have the same complaint: the shop is
 
 Springvale's retail and commercial shopping strip is one of the busiest in Melbourne's south-east, and its Vietnamese and Asian retail precinct draws shoppers across the full sweep of the day. Traders here open early and close late. Some are seven days.
 
-That changes what a cleaning schedule has to look like. We run early morning, late evening and weekend attendances, and there is no surcharge for a Saturday, a Sunday or a public holiday. For shopfront work the priorities are usually the same: entry glass and door frames that fingerprint constantly, floors that show every wet footprint, counter and till areas, fitting rooms, and the customer toilet if you have one. Food retail adds another layer, with hard floor degreasing, bin areas, splashbacks and the back-of-house prep zones that get skipped when staff are already stretched. Dandenong shopfronts on a similar trading pattern have their own [commercial cleaning in Dandenong](https://www.twinkleclean.com.au/commercial-cleaning-dandenong/) page covering the same early-and-late scheduling.
+That changes what a cleaning schedule has to look like. We run early morning, late evening and weekend attendances, and there is no surcharge for a Saturday, a Sunday or a public holiday.
+
+For shopfront work the priorities are usually the same:
+
+- Entry glass and door frames that fingerprint constantly
+- Floors that show every wet footprint
+- Counter and till areas
+- Fitting rooms
+- The customer toilet, if you have one
+
+Food retail adds another layer, with hard floor degreasing, bin areas, splashbacks and the back-of-house prep zones that get skipped when staff are already stretched. Dandenong shopfronts on a similar trading pattern have their own [commercial cleaning in Dandenong](https://www.twinkleclean.com.au/commercial-cleaning-dandenong/) page covering the same early-and-late scheduling.
 
 Small single-shop premises are welcome. Plenty of our Springvale-area work is a modest tenancy cleaned three times a week, not a tower. You can read more about how the wider service is run on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
@@ -14,7 +24,21 @@ Small single-shop premises are welcome. Plenty of our Springvale-area work is a 
 
 Springvale is mostly residential, with pockets of small industrial activity in the northwest and northeast of the suburb. Those units are a different job again: warehouse amenities, lunchrooms, staff toilets, office areas at the front and hard floors that pick up dust from the workshop side.
 
-Office cleaning Springvale clients typically want desks and shared surfaces wiped, kitchens and bathrooms restocked and sanitised, bins emptied and carpets vacuumed on a fixed rhythm. We also handle periodic tasks that fall outside the weekly routine, such as internal glass, high dusting and hard floor machine work. Whether you need after-hours commercial cleaning at a warehouse or a mid-morning visit to a quiet consulting suite, the roster is set to suit the site.
+Office cleaning Springvale clients typically want:
+
+- Desks and shared surfaces wiped
+- Kitchens and bathrooms restocked and sanitised
+- Bins emptied and carpets vacuumed on a fixed rhythm
+
+We also handle periodic tasks that fall outside the weekly routine, such as internal glass, high dusting and hard floor machine work. Whether you need after-hours commercial cleaning at a warehouse or a mid-morning visit to a quiet consulting suite, the roster is set to suit the site.
+
+## Who Twinkle Clean serves in Springvale
+
+Commercial cleaning in Springvale suits a range of trading businesses:
+
+- Shops along the retail strip with long trading hours, cleaned early morning, late evening or on weekends at no extra charge
+- Food retail premises, with degreasing, bin areas and back-of-house prep zones covered as standard
+- Offices and light industrial units in the northwest and northeast pockets, with desks, amenities and hard floors kept to a fixed rhythm
 
 ## About Twinkle Clean
 
@@ -24,7 +48,9 @@ Every job carries our 100% satisfaction guarantee. If an area inside the agreed 
 
 ## What it costs
 
-Pricing is worked out site by site. A single shopfront cleaned twice a week and a light industrial unit with amenities are two very different jobs, so we quote against the actual floor area, the surfaces involved, your trading pattern and how often you want us there. Quotes are free and we keep our rates competitive against other commercial cleaners Springvale businesses will be comparing us with. One-off cleans, seasonal deep cleans and ongoing weekly or daily schedules are all available, and we operate without lock-in contracts.
+Pricing is worked out site by site. A single shopfront cleaned twice a week and a light industrial unit with amenities are two very different jobs, so we quote against the actual floor area, the surfaces involved, your trading pattern and how often you want us there.
+
+Quotes are free and we keep our rates competitive against other commercial cleaners Springvale businesses will be comparing us with. One-off cleans, seasonal deep cleans and ongoing weekly or daily schedules are all available, and we operate without lock-in contracts.
 
 ## Frequently asked questions
 

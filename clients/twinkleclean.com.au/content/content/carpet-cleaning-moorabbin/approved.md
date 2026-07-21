@@ -4,15 +4,27 @@ The carpet in a long-lived Moorabbin home has usually seen decades of family lif
 
 ## Carpet cleaning for Moorabbin's established brick homes
 
-Much of Moorabbin is made up of three-bedroom red and cream brick houses built between the 1940s and 1970s, the kind of solid family home that stays in the family for years. Carpet in those homes tends to be well settled, with high-traffic hallways and lounges carrying the heaviest wear and older fibres holding onto odour and ground-in soil. The newer villa units and townhouses across the suburb bring their own carpet in bedrooms and living areas that see constant use. Whichever you have, a professional steam clean gives tired carpet a visible lift, pulling out grit and dulling that built up slowly enough that you stopped noticing them.
+Much of Moorabbin is made up of three-bedroom red and cream brick houses built between the 1940s and 1970s, the kind of solid family home that stays in the family for years. Carpet in those homes tends to be well settled, with high-traffic hallways and lounges carrying the heaviest wear and older fibres holding onto odour and ground-in soil.
+
+The newer villa units and townhouses across the suburb bring their own carpet in bedrooms and living areas that see constant use. Whichever you have, a professional steam clean gives tired carpet a visible lift, pulling out grit and dulling that built up slowly enough that you stopped noticing them.
 
 ## How we clean carpet in Moorabbin homes
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so carpet is left damp rather than soaked. Where a decades-old traffic lane or a set-in pet mark needs it, we treat that spot separately before the main clean, which is how we shift smells a general pass leaves behind. On the older wool and blended carpets common in Moorabbin's brick homes, that measured approach lifts the dulling without soaking the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so carpet is left damp rather than soaked.
+
+Where a decades-old traffic lane or a set-in pet mark needs it, we treat that spot separately before the main clean, which is how we shift smells a general pass leaves behind. On the older wool and blended carpets common in Moorabbin's brick homes, that measured approach lifts the dulling without soaking the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End of lease and bond-back carpet cleaning
 
 Moorabbin's villa units and townhouses see plenty of tenants moving through, and end-of-lease cleaning is regular local work for us. Property managers inspect carpets closely, and a poor result can hold up a bond. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions.
+
+## Who we look after in Moorabbin
+
+Moorabbin carpet cleaning fits a few kinds of household:
+
+- Long-settled brick family homes, wanting a steam clean that lifts decades of ground-in grit and dulling
+- Owners of newer villa units and townhouses, with bedroom and living-area carpet that sees constant use
+- Tenants moving out of villa units and townhouses, needing an end-of-lease clean backed by a bond-back guarantee, subject to the agreed scope and inspection conditions
 
 ## About Twinkle Clean
 
@@ -20,7 +32,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. Quotes are free, our pricing stays competitive, and you can book a one-off clean or a regular schedule. You will know the scope and the price before any work begins.
+Carpet cleaning is priced on the job:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+Quotes are free, our pricing stays competitive, and you can book a one-off clean or a regular schedule. You will know the scope and the price before any work begins.
 
 ## Frequently asked questions
 

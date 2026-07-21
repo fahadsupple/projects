@@ -4,25 +4,58 @@ Ask two Croydon business owners what a clean building looks like and you will ge
 
 ## A centre with nine different kinds of premises
 
-Croydon is built around a Major Activity Centre made up of nine planning precincts, which is why its business stock is so mixed. Main Street is the traditional retail and eatery strip, a thriving hub with over 187 traders covering eateries, clothing, music, toys, hairdressers and plenty besides. Croydon Central sits beside the station and bus terminal as a strong-performing food and services-based neighbourhood centre, Civic Square next to Fred Geale Oval handles convenience retail, and the Arndale Centre on Mt Dandenong Road runs to more than 20 retail outlets across 44,980 square metres. Above the shops, council is actively encouraging office space in upper levels.
+Croydon is built around a Major Activity Centre made up of nine planning precincts, which is why its business stock is so mixed. Main Street is the traditional retail and eatery strip, a thriving hub with over 187 traders covering eateries, clothing, music, toys, hairdressers and plenty besides.
 
-Then the picture changes entirely. Precinct 7 around Tarralla Creek holds three areas of light industrial land, with warehousing and self-storage, auto servicing and repair, light engineering and electronics housed in large former industrial sheds. Precinct 5 carries auto sales and repairs, a bus depot and trade supplies, and council intends to transition it into a high-quality urban services precinct. Add Swinburne University's Norton Road campus, Swinburne TAFE, Melba College, six primary schools, the Croydon Library and the Wyreena Community Arts Centre, and you have a suburb where no two cleaning briefs are alike.
+Croydon Central sits beside the station and bus terminal as a strong-performing food and services-based neighbourhood centre, Civic Square next to Fred Geale Oval handles convenience retail, and the Arndale Centre on Mt Dandenong Road runs to more than 20 retail outlets across 44,980 square metres. Above the shops, council is actively encouraging office space in upper levels.
+
+Then the picture changes entirely. Precinct 7 around Tarralla Creek holds three areas of light industrial land, with warehousing and self-storage, auto servicing and repair, light engineering and electronics housed in large former industrial sheds.
+
+Precinct 5 carries auto sales and repairs, a bus depot and trade supplies, and council intends to transition it into a high-quality urban services precinct. Add Swinburne University's Norton Road campus, Swinburne TAFE, Melba College, six primary schools, the Croydon Library and the Wyreena Community Arts Centre, and you have a suburb where no two cleaning briefs are alike.
 
 ## Shopfronts, eateries and the strip
 
-For traders on Main Street and in the three centres, retail and shopfront cleaning is about the customer's line of sight. Entry and display glass done with proper window-cleaning tools so nothing streaks under shop lighting. Hard floors scrubbed rather than mopped over, because a strip with this much foot traffic marks floors faster than owners expect. Counters, handrails, fitting rooms and mirrors every visit. Customer washrooms cleaned and restocked with dedicated colour-coded equipment.
+For traders on Main Street and in the three centres, retail and shopfront cleaning is about the customer's line of sight:
 
-Eateries get the extra work food premises need: degreasing front-of-house floors, working the grout, wiping seating and table bases rather than just the tops, and cleaning the bin area. Because Main Street has rear parking and shared service access behind many tenancies, we agree in writing which part of the rear area sits inside your scope before we start. A separate [commercial cleaning in Ringwood](https://www.twinkleclean.com.au/commercial-cleaning-ringwood/) page covers that centre in its own right, for anyone comparing the two.
+- Entry and display glass done with proper window-cleaning tools so nothing streaks under shop lighting
+- Hard floors scrubbed rather than mopped over, because a strip with this much foot traffic marks floors faster than owners expect
+- Counters, handrails, fitting rooms and mirrors every visit
+- Customer washrooms cleaned and restocked with dedicated colour-coded equipment
+
+Eateries get the extra work food premises need:
+
+- Degreasing front-of-house floors
+- Working the grout
+- Wiping seating and table bases rather than just the tops
+- Cleaning the bin area
+
+Because Main Street has rear parking and shared service access behind many tenancies, we agree in writing which part of the rear area sits inside your scope before we start. A separate [commercial cleaning in Ringwood](https://www.twinkleclean.com.au/commercial-cleaning-ringwood/) page covers that centre in its own right, for anyone comparing the two.
 
 ## Sheds, workshops and urban services sites
 
-The light industrial stock around Tarralla Creek and Dorset Road is a different job. Large sheds need machine sweeping or scrubbing on a frequency the traffic justifies rather than a token pass. Auto servicing premises need the reception and waiting area genuinely presentable, because it is the only part most customers see, while the workshop gets floors and amenities. Trade supply counters, self-storage offices and depot crib rooms follow the same pattern: a small customer-facing area that must look sharp and a working area that must be safe.
+The light industrial stock around Tarralla Creek and Dorset Road is a different job. Large sheds need machine sweeping or scrubbing on a frequency the traffic justifies rather than a token pass.
+
+Auto servicing premises need the reception and waiting area genuinely presentable, because it is the only part most customers see, while the workshop gets floors and amenities. Trade supply counters, self-storage offices and depot crib rooms follow the same pattern: a small customer-facing area that must look sharp and a working area that must be safe.
 
 Our cleaners are police-checked, trained in workplace and chemical safety and communicate clearly in English, which matters on a working site. Full method and credentials are on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Hours that suit a trading strip or a depot
 
-Retail wants the building finished before opening. A depot or workshop wants the cleaners in after the last vehicle is off the apron. Upper-level offices generally want an evening pass. We run after-hours commercial cleaning across all three windows and operate seven days a week including weekends and public holidays at no extra charge, so a Saturday-heavy trading pattern does not attract a premium.
+Different site types want the clean timed differently:
+
+- Retail wants the building finished before opening
+- A depot or workshop wants the cleaners in after the last vehicle is off the apron
+- Upper-level offices generally want an evening pass
+
+We run after-hours commercial cleaning across all three windows and operate seven days a week including weekends and public holidays at no extra charge, so a Saturday-heavy trading pattern does not attract a premium.
+
+## Sites we look after in Croydon
+
+Croydon's commercial cleaning spans several very different site types:
+
+- Main Street traders, cafes and shopfronts, with shopfront cleaning and degreasing tuned to a busy eating strip
+- Tenancies inside Croydon Central, Civic Square and the Arndale Centre, cleaned within whatever access hours the centre sets
+- Sheds, workshops and auto servicing sites around Tarralla Creek and Dorset Road, with machine floor work and a presentable customer-facing area
+- Upper-level offices above the shops, given an evening pass that fits around trading hours
 
 ## About Twinkle Clean
 
@@ -30,7 +63,17 @@ Twinkle Clean began in 2019 under Tom Su, who spent years cleaning for a living 
 
 ## What it costs
 
-Croydon prices land across a wide range for a reason. A single shopfront on Main Street, a 600 square metre workshop with an office and amenities, and a suite of upper-level consulting rooms are three unrelated jobs. We inspect, then quote in writing against floor area, surface types, amenities, frequency and hours. Quotes are free, and we work without lock-in contracts so you can change the arrangement when your trade does.
+Croydon prices land across a wide range for a reason. A single shopfront on Main Street, a 600 square metre workshop with an office and amenities, and a suite of upper-level consulting rooms are three unrelated jobs.
+
+We inspect, then quote in writing against:
+
+- Floor area
+- Surface types
+- Amenities
+- Frequency
+- Hours
+
+Quotes are free, and we work without lock-in contracts so you can change the arrangement when your trade does.
 
 ## Frequently asked questions
 

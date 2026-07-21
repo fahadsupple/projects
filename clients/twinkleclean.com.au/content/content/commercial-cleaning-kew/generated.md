@@ -8,7 +8,16 @@ Kew sits 5 km east of the city, and for a suburb this residential it carries a r
 
 Medical and aged care cleaning is a discipline of sequence and separation. Our teams work to site-specific procedures written for the room type: reception and waiting areas, consulting and treatment rooms, staff areas and washrooms each get their own place in the order of work, so a cloth never travels the wrong way through a practice.
 
-Colour-coded microfibre cloths and mops enforce that separation physically rather than relying on memory. Hospital-grade disinfectants are selected according to what each site requires and applied to the high-touch points that matter clinically: door handles and push plates, bed and chair rails, treatment couch frames, reception counters, EFTPOS terminals, taps and switches. Floors are done with commercial equipment suited to the surface, and internal glass is finished with professional window-cleaning tools.
+Colour-coded microfibre cloths and mops enforce that separation physically rather than relying on memory. Hospital-grade disinfectants are selected according to what each site requires and applied to the high-touch points that matter clinically:
+
+- Door handles and push plates
+- Bed and chair rails
+- Treatment couch frames
+- Reception counters
+- EFTPOS terminals
+- Taps and switches
+
+Floors are done with commercial equipment suited to the surface, and internal glass is finished with professional window-cleaning tools.
 
 Where a practice has its own infection control policy or an accrediting body's requirements to satisfy, we clean to the written procedure you give us and document what was done.
 
@@ -16,9 +25,26 @@ Where a practice has its own infection control policy or an accrediting body's r
 
 The suburb's business premises cluster at Kew Junction on High Street, which the council describes as an eclectic mix of specialty shops, neighbourhood cafes, restaurants, supermarkets, fresh produce stores and professional and health services. A second heritage retail node sits at Cotham Village, where Glenferrie and Cotham roads meet, and the former Kew railway station site now houses the VicRoads headquarters. The Junction's 1888 civic and bank buildings mean plenty of local offices occupy older stock with timber, tile and decorative plaster that wants a gentler hand than a modern fitout.
 
-Office cleaning Kew tenants book from us covers desks, meeting rooms, kitchens, washrooms, internal glass and floors. School and campus work follows the calendar instead: term-time routines around timetabled use, and heavier resets during breaks when classrooms, halls and shared amenities are empty. After-hours commercial cleaning covers most of it, and because we work seven days including public holidays at no extra charge, holiday-period work is simple to schedule.
+Office cleaning Kew tenants book from us covers:
+
+- Desks
+- Meeting rooms
+- Kitchens
+- Washrooms
+- Internal glass
+- Floors
+
+School and campus work follows the calendar instead: term-time routines around timetabled use, and heavier resets during breaks when classrooms, halls and shared amenities are empty. After-hours commercial cleaning covers most of it, and because we work seven days including public holidays at no extra charge, holiday-period work is simple to schedule.
 
 Our full service range and method detail are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Sites we look after in Kew
+
+Our Kew work is concentrated among:
+
+- Medical, allied health and aged care practices needing infection control and a documented clean
+- Professional offices around Kew Junction and Cotham Village, including older heritage stock
+- Schools and campuses working to term-time and holiday scheduling
 
 ## About Twinkle Clean
 
@@ -26,7 +52,16 @@ Founded in 2019 by Tom Su, a cleaner by trade well before he was a business owne
 
 ## What a Kew clean costs
 
-Every quote is built from the site. A three-room allied health practice, a Junction office floor and a school building are three different scopes at three different frequencies, so a single advertised rate would be meaningless. We assess floor area, room types, surfaces, amenities, access windows and how often you need us, then quote. Quotes are free, our rates stay competitive among commercial cleaning services Kew businesses are comparing, and we work without lock-in contracts.
+Every quote is built from the site. A three-room allied health practice, a Junction office floor and a school building are three different scopes at three different frequencies, so a single advertised rate would be meaningless. We assess:
+
+- Floor area
+- Room types
+- Surfaces
+- Amenities
+- Access windows
+- How often you need us
+
+Then we quote. Quotes are free, our rates stay competitive among commercial cleaning services Kew businesses are comparing, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

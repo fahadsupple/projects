@@ -4,7 +4,12 @@ Carpet in a long-lived family home rarely gives up its dirt willingly. Years of 
 
 ## Carpet cleaning for Croydon's established family homes
 
-Croydon grew up as an orchard district before it settled into one of Melbourne's established eastern suburbs, and plenty of its streets are lined with family homes that have kept the same households for years. That longevity is exactly what shows in the carpet: the traffic lane worn into the hallway, the faded patch in front of the television, the darker stretch by the back door. We refresh a whole house in a single visit, working room to room so bedrooms, lounge and hallways come up evenly instead of leaving one bright patch beside a tired one. High-traffic wear, pet odours and the marks a busy household leaves behind are ordinary work for us.
+Croydon grew up as an orchard district before it settled into one of Melbourne's established eastern suburbs, and plenty of its streets are lined with family homes that have kept the same households for years. That longevity is exactly what shows in the carpet:
+- The traffic lane worn into the hallway
+- The faded patch in front of the television
+- The darker stretch by the back door
+
+We refresh a whole house in a single visit, working room to room so bedrooms, lounge and hallways come up evenly instead of leaving one bright patch beside a tired one. High-traffic wear, pet odours and the marks a busy household leaves behind are ordinary work for us.
 
 ## End-of-lease carpet cleaning for Croydon townhouses and units
 
@@ -12,7 +17,21 @@ Since the late 1990s, many of Croydon's large single-dwelling blocks have been s
 
 ## How we clean your carpet
 
-Our team matches the method to the carpet rather than running one setting across everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and pulls the moisture back out, so carpet is left damp rather than soaked. Stubborn stains, pet odours and worn traffic lanes get their own targeted treatment instead of a single hopeful pass. For the full detail on our equipment and approach, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our team matches the method to the carpet rather than running one setting across everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and pulls the moisture back out, so carpet is left damp rather than soaked.
+
+Rather than a single hopeful pass, each carpet gets its own targeted treatment for:
+- Stubborn stains
+- Pet odours
+- Worn traffic lanes
+
+For the full detail on our equipment and approach, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## Who we help with carpet in Croydon
+
+Our Croydon carpet cleaning is built around a few household types:
+- Families in established homes, refreshing carpet worn by years of foot traffic and pets
+- Renters and tenants preparing for a final inspection
+- Property managers coordinating bond-back cleans across Croydon's townhouses and units
 
 ## About Twinkle Clean
 
@@ -20,7 +39,12 @@ Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. Whether it is a single bedroom or a whole Croydon family home, we give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+Whether it is a single bedroom or a whole Croydon family home, we give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
 
 ## Frequently asked questions
 

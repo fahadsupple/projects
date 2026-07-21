@@ -4,11 +4,22 @@ Caulfield homes tend to hold their history in the floor. Grand old rooms, wool c
 
 ## Carpet care for Caulfield's established homes
 
-Caulfield has long been known for its grand, established homes, and that older housing stock often comes with the kind of carpet and rugs that reward a careful hand. Wool and natural-fibre pile, delicate runners on staircases and heirloom rugs in formal rooms all respond better to controlled steam and, where a piece suits it, a low-moisture approach that avoids over-wetting. Our team reads the fibre and the condition first, then chooses the gentlest method that will still shift years of embedded grit, rather than running one aggressive setting across everything. Hot water extraction flushes soil out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked, and any set-in marks or lingering odours get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Caulfield has long been known for its grand, established homes, and that older housing stock often comes with the kind of carpet and rugs that reward a careful hand. Wool and natural-fibre pile, delicate runners on staircases and heirloom rugs in formal rooms all respond better to controlled steam and, where a piece suits it, a low-moisture approach that avoids over-wetting.
+
+Our team reads the fibre and the condition first, then chooses the gentlest method that will still shift years of embedded grit, rather than running one aggressive setting across everything. Hot water extraction flushes soil out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked, and any set-in marks or lingering odours get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## End-of-lease carpet cleaning near the university
 
 Caulfield is also a university suburb, and the rental pockets around the campus mean end-of-lease carpet cleaning is some of our most requested local work. Sharehouses and investment flats change hands often, and property managers inspect carpets closely before a bond is returned. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants can hand back the keys without worrying about the floors costing them their deposit.
+
+## The Caulfield households we help
+
+This page is written for:
+
+- Owners of established homes with wool and natural-fibre carpet or rugs
+- Households with heirloom rugs in formal rooms
+- Students and tenants in sharehouses and investment flats near the campus
+- Property managers checking carpet before a bond is returned
 
 ## About Twinkle Clean
 
@@ -16,7 +27,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the size and condition of the carpet, and any stain, odour or rug treatment involved. We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off refresh or a regular schedule. You will know the full scope and the price before any work starts.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain, odour or rug treatment involved
+
+We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off refresh or a regular schedule. You will know the full scope and the price before any work starts.
 
 ## Frequently asked questions
 

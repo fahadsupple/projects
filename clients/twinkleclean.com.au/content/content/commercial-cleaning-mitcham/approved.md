@@ -10,13 +10,35 @@ That compactness works in your favour on scheduling. Our crews can cover several
 
 ## Food and hospitality tenancies carry the heaviest load
 
-Cafes and takeaway outlets around the intersection generate the most demanding retail and shopfront cleaning in the suburb. Grease migrates further than most operators expect, floors go tacky before they look dirty, and the surfaces customers touch turn over hundreds of times a day. We work through those sites with colour-coded microfibre cloths and mops so a bathroom cloth never crosses into a food preparation area, hospital-grade disinfectants selected for the specific surfaces involved, and hard floor work done with commercial scrubbers rather than a mop pushing dilute grease around.
+Cafes and takeaway outlets around the intersection generate the most demanding retail and shopfront cleaning in the suburb. Grease migrates further than most operators expect, floors go tacky before they look dirty, and the surfaces customers touch turn over hundreds of times a day.
+
+We work through those sites with:
+
+- Colour-coded microfibre cloths and mops so a bathroom cloth never crosses into a food preparation area
+- Hospital-grade disinfectants selected for the specific surfaces involved
+- Hard floor work done with commercial scrubbers rather than a mop pushing dilute grease around
 
 Where a tenancy has its own food-safety documentation, we clean to that written procedure and record what was done, so your compliance folder and your cleaning log actually agree with one another.
 
 ## Offices, clinics and the smaller tenancies behind the strip
 
-Behind and above the retail frontage sit the suburb's smaller offices, allied health rooms and service businesses. Those jobs are quieter but no less exact: carpets vacuumed with commercial machines, hard floors scrubbed and polished, kitchens and bathrooms reset, bins out, internal glass and partitions finished with professional window-cleaning tools. Every cleaner attending is police-checked, trained in workplace and chemical safety, and works from a checklist built for that address. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Behind and above the retail frontage sit the suburb's smaller offices, allied health rooms and service businesses. Those jobs are quieter but no less exact:
+
+- Carpets vacuumed with commercial machines
+- Hard floors scrubbed and polished
+- Kitchens and bathrooms reset
+- Bins out
+- Internal glass and partitions finished with professional window-cleaning tools
+
+Every cleaner attending is police-checked, trained in workplace and chemical safety, and works from a checklist built for that address. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who we work with in Mitcham
+
+Commercial cleaning in Mitcham suits a few kinds of premises:
+
+- Cafes and takeaway outlets around the Whitehorse Road and Mitcham Road intersection, with degreasing and food-safe cleaning scheduled around the morning rush
+- Offices, allied health rooms and service businesses behind and above the strip, held to the same checklist-driven standard in a quieter setting
+- Shops and traders across the precinct generally, finished before the early commuter crowd arrives
 
 ## About Twinkle Clean
 
@@ -24,7 +46,15 @@ Twinkle Clean started in 2019 under Tom Su, a cleaner by trade well before he wa
 
 ## What a Mitcham clean costs
 
-We price per site, not per suburb. A single-fronted cafe with a small back-of-house and a two-level office suite behind the strip involve completely different labour, so the quote is built from floor area, surface types, how much of the site is food or wet area, frequency and bin volume. Quotes are free, our rates stay competitive with the other commercial cleaners Mitcham operators call, and there is no published flat rate here because the number that matters is the one written after we have seen your premises. Both one-off cleans and standing schedules are available, and we work without lock-in contracts.
+We price per site, not per suburb. A single-fronted cafe with a small back-of-house and a two-level office suite behind the strip involve completely different labour, so the quote is built from:
+
+- Floor area
+- Surface types
+- How much of the site is food or wet area
+- Frequency
+- Bin volume
+
+Quotes are free, our rates stay competitive with the other commercial cleaners Mitcham operators call, and there is no published flat rate here because the number that matters is the one written after we have seen your premises. Both one-off cleans and standing schedules are available, and we work without lock-in contracts.
 
 ## Frequently asked questions
 

@@ -6,7 +6,12 @@ Burwood sits about 14 kilometres east of the CBD at postcode 3125, split for loc
 
 ## Office cleaning across shared-building tenancies
 
-Office cleaning Burwood tenancies need is mostly about consistency in the details that accumulate. Bins emptied and relined every visit rather than when they look full. Kitchen benches, sinks and appliance fronts done properly, because a shared tea point is the first thing staff complain about. Bathroom fixtures and touchpoints disinfected with hospital-grade product selected for that building. Meeting-room tables cleared of marks, glass partitions cleaned so they read as glass rather than handprints, and vacuuming to room edges and under desk returns.
+Office cleaning Burwood tenancies need is mostly about consistency in the details that accumulate:
+
+- Bins emptied and relined every visit rather than when they look full
+- Kitchen benches, sinks and appliance fronts done properly, because a shared tea point is the first thing staff complain about
+- Bathroom fixtures and touchpoints disinfected with hospital-grade product selected for that building
+- Meeting-room tables cleared of marks, glass partitions cleaned so they read as glass rather than handprints, and vacuuming to room edges and under desk returns
 
 In serviced and flexible suites the turnover of people is higher and amenities are shared, so touchpoint work carries more weight: door handles, light switches, printer panels and meeting-room controls. Colour-coded microfibre cloths and mops keep bathroom, kitchen and general-area equipment separate, which matters more on a shared floor than in a standalone building.
 
@@ -14,9 +19,20 @@ For sites with a duty of care to residents, students or families, we clean to th
 
 ## Scheduling around campus and school hours
 
-Burwood's rhythms are set by teaching timetables and business hours rather than shifts. After-hours office cleaning is the usual arrangement, either from early evening once staff leave or before the building fills. Schools and colleges often want work concentrated in the late afternoon and holidays. We run seven days a week including weekends and public holidays at no extra charge for the day, which makes term-break deep cleans easy to organise.
+Burwood's rhythms are set by teaching timetables and business hours rather than shifts. After-hours office cleaning is the usual arrangement, either from early evening once staff leave or before the building fills.
+
+Schools and colleges often want work concentrated in the late afternoon and holidays. We run seven days a week including weekends and public holidays at no extra charge for the day, which makes term-break deep cleans easy to organise.
 
 Every cleaner is police-checked and trained in workplace and chemical safety, and we carry $20 million public liability insurance plus WorkCover. Our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page sets out equipment, checklists and quality control in full.
+
+## Sites we look after in Burwood
+
+We're a good fit for:
+
+- Office tenants in serviced and flexible suites, such as Greenwood Business Park
+- Schools and colleges needing work scheduled around term dates and holidays
+- Aged care homes and retirement villages with a duty of care to residents
+- Retail and shopfront businesses along the Warrigal Road and Bennettswood strips
 
 ## About Twinkle Clean
 
@@ -24,7 +40,15 @@ Twinkle Clean was started in 2019 by Tom Su, a cleaner by trade long before he r
 
 ## What it costs
 
-Pricing is calculated for the individual tenancy. In an office park the number is driven by leased area, how many staff use it, whether you have your own amenities or share the floor's, the carpet-to-hard-floor split, and how many nights a week you want a crew on site. Larger tenancies with several visits a week usually work out lower per square metre than a small suite cleaned weekly, which is worth knowing before you set frequency. Quotes are free and prices are set per site rather than from a published flat rate. Regular schedules and one-off cleans are both available, without lock-in contracts.
+Pricing is calculated for the individual tenancy. In an office park the number is driven by:
+
+- Leased area
+- How many staff use it
+- Whether you have your own amenities or share the floor's
+- The carpet-to-hard-floor split
+- How many nights a week you want a crew on site
+
+Larger tenancies with several visits a week usually work out lower per square metre than a small suite cleaned weekly, which is worth knowing before you set frequency. Quotes are free and prices are set per site rather than from a published flat rate. Regular schedules and one-off cleans are both available, without lock-in contracts.
 
 ## Frequently asked questions
 

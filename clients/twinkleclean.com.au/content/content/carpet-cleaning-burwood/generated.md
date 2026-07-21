@@ -4,7 +4,15 @@ A carpet in a busy Burwood household takes a beating that a weekend vacuum barel
 
 ## End-of-lease cleaning for student rentals and share houses
 
-Burwood sits right beside Deakin University's main campus, which scatters student rentals and share houses among its long-settled family streets. When a lease ends near the campus, the carpet is usually the last thing between a departing tenant and a full bond refund. We fit move-out cleans around the handover date, clean to the standard a final inspection looks for, and back the result with a bond-back guarantee, subject to the agreed scope and inspection conditions. When several housemates are clearing out at once, we can get the whole floor inspection-ready in a single visit.
+Burwood sits right beside Deakin University's main campus, which scatters student rentals and share houses among its long-settled family streets. When a lease ends near the campus, the carpet is usually the last thing between a departing tenant and a full bond refund.
+
+Our move-out cleans are built around the handover:
+
+- We fit the clean around the handover date
+- We clean to the standard a final inspection looks for
+- We back the result with a bond-back guarantee, subject to the agreed scope and inspection conditions
+
+When several housemates are clearing out at once, we can get the whole floor inspection-ready in a single visit.
 
 ## Whole-house refreshes for established Burwood homes
 
@@ -12,7 +20,17 @@ Established homes here carry a different kind of wear. Many were built out along
 
 ## Steam cleaning matched to your carpet
 
-We match the approach to the carpet in front of us rather than running one setting over every floor. The core of the clean is hot water extraction, the method most people call steam cleaning, which drives hot water and solution into the pile and vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than wet through. Set-in marks, pet odours and worn traffic lanes each get a targeted treatment. For the full detail on our equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+We match the approach to the carpet in front of us rather than running one setting over every floor. The core of the clean is hot water extraction, the method most people call steam cleaning, which drives hot water and solution into the pile and vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than wet through.
+
+Set-in marks, pet odours and worn traffic lanes each get a targeted treatment. For the full detail on our equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## Who books a carpet clean in Burwood
+
+Carpet cleaning in Burwood suits a few clear groups:
+
+- Long-settled family homes across the suburb's brick housing, wanting a whole-house steam clean that lifts years of ground-in grit and wear
+- Students and share-house tenants near Deakin University, needing an end-of-lease clean timed to the handover and backed by a bond-back guarantee
+- Households on either side of the Monash and Whitehorse boundary, all served by the same crew and equipment
 
 ## About Twinkle Clean
 
@@ -20,7 +38,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest number comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour work involved. We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, for a one-off clean or a regular schedule. You will have the scope and the price before any work begins.
+Carpet cleaning is priced on the job, so the fairest number comes from the details:
+
+- How many rooms need cleaning
+- The size and condition of the carpet
+- Any stain or odour work involved
+
+We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, for a one-off clean or a regular schedule. You will have the scope and the price before any work begins.
 
 ## Frequently asked questions
 

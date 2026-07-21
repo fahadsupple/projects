@@ -4,19 +4,46 @@ In a converted warehouse apartment off Swan Street, the carpet is usually the fi
 
 ## Apartment and rental carpets across Richmond
 
-Richmond is a gentrified inner-city mix of converted warehouse residences, high-rise flats and Victorian-era terraces, wrapped around the retail strips of Victoria Street, Bridge Road and Swan Street. A lot of that carpet turns over with tenants, so in a single week we might refresh the lounge of an owner-occupied loft, reset a one-bedroom flat between renters, and freshen a share house near the station. Apartments bring their own quirks, from tight stair access to carpet that has to be walk-on ready quickly, and we plan the clean around how you use the space.
+Richmond is a gentrified inner-city mix of converted warehouse residences, high-rise flats and Victorian-era terraces, wrapped around the retail strips of Victoria Street, Bridge Road and Swan Street. A lot of that carpet turns over with tenants, so in a single week we might:
+- Refresh the lounge of an owner-occupied loft
+- Reset a one-bedroom flat between renters
+- Freshen a share house near the station
+
+Apartments bring their own quirks, from tight stair access to carpet that has to be walk-on ready quickly, and we plan the clean around how you use the space.
 
 ## Gentle care for wool carpets and rugs in period terraces
 
-The older terraces off Bridge Road often hide the carpets that reward the most care: wool broadloom, natural-fibre runners on the stairs, and loose rugs that have travelled from house to house. These fibres respond well to a measured clean and poorly to a heavy, one-setting approach. We check the fibre and backing first, then match water temperature, moisture and agitation to suit, using low-moisture cleaning on delicate pieces to protect the pile and speed up drying.
+The older terraces off Bridge Road often hide the carpets that reward the most care:
+- Wool broadloom
+- Natural-fibre runners on the stairs
+- Loose rugs that have travelled from house to house
+
+These fibres respond well to a measured clean and poorly to a heavy, one-setting approach. We check the fibre and backing first, then match water temperature, moisture and agitation to suit, using low-moisture cleaning on delicate pieces to protect the pile and speed up drying.
 
 ## End-of-lease and bond-back carpet cleaning
 
-With so many rentals packed into Richmond, end-of-lease work is some of our most requested local cleaning. Property managers here inspect carpets closely, and a tired result can stall a bond return. We clean to the standard a final inspection expects and stand behind it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants can hand back the keys with the floors sorted. It is the same detailed clean whether you are leaving a studio above a shopfront or a terrace.
+With so many rentals packed into Richmond, end-of-lease work is some of our most requested local cleaning. Property managers here inspect carpets closely, and a tired result can stall a bond return.
+
+We clean to the standard a final inspection expects and stand behind it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants can hand back the keys with the floors sorted. It is the same detailed clean whether you are leaving a studio above a shopfront or a terrace.
 
 ## How we clean your carpet
 
-Our core method is truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back with strong suction, so carpet is left damp rather than soaked. Stubborn marks, pet odours and worn traffic lanes each get a targeted treatment instead of a single hopeful pass. For the full rundown of our equipment and process, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core method is truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back with strong suction, so carpet is left damp rather than soaked.
+
+Rather than a single hopeful pass, each carpet gets a targeted treatment for:
+- Stubborn marks
+- Pet odours
+- Worn traffic lanes
+
+For the full rundown of our equipment and process, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## Who we clean for across Richmond
+
+Richmond's carpet work tends to fall into a few groups:
+- Apartment and warehouse-loft residents, whether owner-occupied or rented
+- Share houses and renters needing a quick, walk-on-ready turnaround
+- Homeowners in period terraces with wool carpets and natural-fibre rugs
+- Property managers arranging bond-back cleans for end-of-lease inspections
 
 ## About Twinkle Clean
 
@@ -24,7 +51,12 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Free quotes and pricing
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price in hand before any work begins.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price in hand before any work begins.
 
 ## Frequently asked questions
 

@@ -6,11 +6,23 @@ An office attached to a research or manufacturing operation is harder to keep pr
 
 Clayton is one of Australia's largest centres of science, technology and research, sitting in the part of Melbourne's south-east that carries Victoria's highest density of high-technology industries. It is a hub for local and international businesses and has a long history of local manufacturing behind it, and Monash University's Clayton campus, the largest university in the country, anchors the whole thing. Retail life runs along the Clayton Road shopping strip around the railway station.
 
-Practically, that means the buildings we are asked into vary enormously. A twenty-desk software or engineering office. A head office with a demonstration space and a workshop out the back. An older manufacturing building with an admin wing bolted on. A professional suite over the shops on Clayton Road. Office cleaning Clayton businesses ask for is rarely just desks and bins, and quoting it as though it were leads to a scope that fails in the first month. Retail tenancies rather than labs or workshops get their own treatment on our [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
+Practically, that means the buildings we are asked into vary enormously:
+- A twenty-desk software or engineering office
+- A head office with a demonstration space and a workshop out the back
+- An older manufacturing building with an admin wing bolted on
+- A professional suite over the shops on Clayton Road
+
+Office cleaning Clayton businesses ask for is rarely just desks and bins, and quoting it as though it were leads to a scope that fails in the first month. Retail tenancies rather than labs or workshops get their own treatment on our [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
 
 ## What we clean, zone by zone
 
-For office and administration areas we work through desks and shared surfaces, meeting rooms, breakout areas, kitchens and washrooms, then vacuum carpet and mop hard floors. High-touch points get hospital-grade disinfectants chosen for the site. Colour-coded microfibre cloths and mops keep washroom, kitchen and general-surface equipment separate, which matters more in a shared-kitchen office than most people assume.
+For office and administration areas we work through:
+- Desks and shared surfaces
+- Meeting rooms
+- Breakout areas
+- Kitchens and washrooms
+
+Then we vacuum carpet and mop hard floors. High-touch points get hospital-grade disinfectants chosen for the site. Colour-coded microfibre cloths and mops keep washroom, kitchen and general-surface equipment separate, which matters more in a shared-kitchen office than most people assume.
 
 Where a site has controlled areas, whether that is a laboratory, a clean area, a production floor or a store holding regulated stock, we clean those to the site's own written procedure, following the document your team has already produced and signed off. Access, sequence, permitted chemicals and who signs the log all stay under your control. Our people are trained in chemical and workplace safety and are used to working inside someone else's system.
 
@@ -18,7 +30,18 @@ Reception and visitor-facing areas get more attention than their floor area just
 
 ## Cleaning outside working hours
 
-Research and technical sites often have people in the building at odd times, so a fixed 6pm clean rarely fits. We run after-hours office cleaning across evenings, early mornings and weekends, and because we work seven days a week including public holidays at no extra charge, a shutdown week or a weekend-only window is straightforward to arrange. Every cleaner is police-checked, which matters where there is equipment, sample material or intellectual property in the building, and we carry $20 million public liability insurance plus WorkCover. Our full method and credentials sit on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Research and technical sites often have people in the building at odd times, so a fixed 6pm clean rarely fits. We run after-hours office cleaning across evenings, early mornings and weekends, and because we work seven days a week including public holidays at no extra charge, a shutdown week or a weekend-only window is straightforward to arrange.
+
+Every cleaner is police-checked, which matters where there is equipment, sample material or intellectual property in the building, and we carry $20 million public liability insurance plus WorkCover. Our full method and credentials sit on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Sites we look after in Clayton
+
+Clayton's technical mix means we work with a wide range of site types:
+- Software, engineering and administration offices
+- Labs and other controlled areas, cleaned to your own written procedure
+- Manufacturing buildings with an office wing kept separate from production dust
+- Professional suites over the shops on Clayton Road
+- Businesses vacating a tenancy, cleaned to match the lease make-good clause
 
 ## About Twinkle Clean
 
@@ -26,7 +49,14 @@ Twinkle Clean was started in 2019 by Tom Su, a cleaner by trade well before he w
 
 ## Pricing and free quotes
 
-Every Clayton site gets priced on its own merits. The variables that move the number are floor area, the mix of carpet and hard floor, washrooms and kitchens, whether there are controlled zones with their own procedure, and the hours we are on site. We inspect, then quote in writing. Quotes are free. Take it as a one-off deep clean, a weekly or fortnightly visit, or a nightly service, and we work without lock-in contracts, so the arrangement can flex as your headcount does.
+Every Clayton site gets priced on its own merits. The variables that move the number are:
+- Floor area
+- The mix of carpet and hard floor
+- Washrooms and kitchens
+- Whether there are controlled zones with their own procedure
+- The hours we are on site
+
+We inspect, then quote in writing. Quotes are free. Take it as a one-off deep clean, a weekly or fortnightly visit, or a nightly service, and we work without lock-in contracts, so the arrangement can flex as your headcount does.
 
 ## Frequently asked questions
 

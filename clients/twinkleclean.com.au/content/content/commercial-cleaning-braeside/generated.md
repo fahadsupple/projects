@@ -4,9 +4,18 @@ A factory unit is unforgiving about a skipped clean. Dust settles on stock, the 
 
 ## An industrial suburb needs an industrial scope
 
-Braeside is unusual. It sits in the City of Kingston with postcode 3195, and it has almost no residential land at all, with a recorded population of just 25 people. What it has instead is factory units, the Woodlands Industrial Estate and a run of commercial enterprises along Springvale Road. So nearly every job here is a workplace, not a home.
+Braeside is unusual. It sits in the City of Kingston with postcode 3195, and it has almost no residential land at all, with a recorded population of just 25 people.
 
-That changes what cleaning means. Instead of soft furnishings and reception polish, the priorities are hard-floor sweeping and machine scrubbing, dust control on racking and ledges, degreasing around workbenches, and keeping amenity blocks in a condition your staff will actually use. Warehouse and factory cleaning also has to respect stock zones and forklift lanes, so our crews work to the traffic map your supervisor gives us. Operators with a second site nearby can also see how we handle [commercial cleaning in Cheltenham](https://www.twinkleclean.com.au/commercial-cleaning-cheltenham/) on its dedicated page.
+What it has instead is factory units, the Woodlands Industrial Estate and a run of commercial enterprises along Springvale Road. So nearly every job here is a workplace, not a home.
+
+That changes what cleaning means. Instead of soft furnishings and reception polish, the priorities here are:
+
+- Hard-floor sweeping and machine scrubbing
+- Dust control on racking and ledges
+- Degreasing around workbenches
+- Keeping amenity blocks in a condition your staff will actually use
+
+Warehouse and factory cleaning also has to respect stock zones and forklift lanes, so our crews work to the traffic map your supervisor gives us. Operators with a second site nearby can also see how we handle [commercial cleaning in Cheltenham](https://www.twinkleclean.com.au/commercial-cleaning-cheltenham/) on its dedicated page.
 
 ## Working around shifts, not against them
 
@@ -14,13 +23,24 @@ Plenty of Braeside operations run early starts, double shifts or overnight despa
 
 The office side still matters. Most units have a small administration area, a meeting room and a customer-facing entry, and those get the standard commercial treatment: desks, glass, carpet, kitchenette. Our teams handle both halves of the site in one visit rather than sending separate crews. The broader method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+## Who books us in Braeside
+
+Braeside work comes almost entirely from:
+
+- Factory and warehouse operators needing floors, amenities and lunchrooms kept up to standard
+- Small front offices and admin areas attached to a factory unit
+- Operators running shift work who need cleaning fitted around production hours
+- Businesses wanting one provider to cover both the warehouse and the office
+
 ## About Twinkle Clean
 
 Tom Su founded Twinkle Clean in 2019 after years working as a cleaner by trade. The business has since looked after more than 1,200 customers around Melbourne, with 20+ years of combined experience sitting behind the team. Every job carries a 100% satisfaction guarantee, meaning any area inside the agreed scope that falls short gets re-cleaned. Oneflare reviewers rate us 5 out of 5 across 16 reviews. Insurance, staffing and full service detail live on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
 
 ## How we quote
 
-No two industrial units are alike, so we quote each address on its own terms rather than publishing a rate card. Floor area, floor surface, amenity count, how much of the site is production versus office, and how often you need us all feed into the number. Quotes cost nothing. Choose a one-off clean, a weekly service or a daily routine, and change it later if your production volume shifts, because we operate without lock-in contracts. Our pricing stays competitive with other operators servicing Kingston's industrial belt.
+No two industrial units are alike, so we quote each address on its own terms rather than publishing a rate card. Floor area, floor surface, amenity count, how much of the site is production versus office, and how often you need us all feed into the number. Quotes cost nothing.
+
+Choose a one-off clean, a weekly service or a daily routine, and change it later if your production volume shifts, because we operate without lock-in contracts. Our pricing stays competitive with other operators servicing Kingston's industrial belt.
 
 ## Frequently asked questions
 

@@ -6,7 +6,9 @@ When your trade runs seven days and your quiet window is a ninety-minute gap bef
 
 Chadstone is a compact suburb in the City of Monash, postcode 3148, roughly 14 km south-east of the Melbourne CBD, with the Monash Freeway cutting through. It is a small pocket, but the retail pull of the wider Chadstone centre precinct means the surrounding streets carry far more commercial activity than the suburb's size suggests. Offices, showrooms, salons, clinics and food outlets all keep hours shaped by shopper traffic.
 
-One boundary quirk is worth naming, because it affects who can service you. Both the Chadstone Shopping Centre and the Holmesglen Institute Chadstone campus carry the Chadstone name but are addressed just over the line in adjoining Malvern East. Cleaning companies that draw service maps off postcodes often tell a business on one side of that line it falls outside their run. Twinkle Clean services both sides of it.
+One boundary quirk is worth naming, because it affects who can service you. Both the Chadstone Shopping Centre and the Holmesglen Institute Chadstone campus carry the Chadstone name but are addressed just over the line in adjoining Malvern East.
+
+Cleaning companies that draw service maps off postcodes often tell a business on one side of that line it falls outside their run. Twinkle Clean services both sides of it.
 
 ## What retail and shopfront cleaning covers
 
@@ -26,13 +28,24 @@ After-hours commercial cleaning is the default here, not a premium add-on. Most 
 
 We work without lock-in contracts, so if your trading hours shift with a seasonal peak, the clean shifts with them. Our cleaners are police-checked and trained in workplace and chemical safety, and we carry $20 million public liability insurance plus WorkCover, which is what most landlords ask for before anyone gets keys.
 
+## The Chadstone businesses we suit best
+
+Around Chadstone, we mostly work with:
+
+- Retail shops and shopfronts that trade long hours and can't close to be cleaned
+- Showrooms, salons and clinics near the centre precinct
+- Offices and agencies in the suites between the retail strips
+- Businesses on either side of the Chadstone or Malvern East boundary
+
 ## About Twinkle Clean
 
 Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner by trade long before he ran a business. That shows up in how scopes are written. The team brings 20+ years of combined experience, has served over 1,200 customers across Melbourne, and is rated 5 out of 5 on Oneflare from 16 reviews. Every clean carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we come back and re-clean it. Full method and credentials are set out on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Pricing for Chadstone sites
 
-We price each site individually. A 60 square metre shopfront and a 400 square metre glass-fronted showroom are different jobs, so publishing a flat rate would only mislead you. Quotes are free and based on floor area, surface types, traffic levels and how often you want us on site. Commercial cleaning services Chadstone businesses book range from a one-off deep clean before a fit-out handover through to daily or weekly schedules. Our rates stay competitive, and you will know the full figure before we start.
+We price each site individually. A 60 square metre shopfront and a 400 square metre glass-fronted showroom are different jobs, so publishing a flat rate would only mislead you. Quotes are free and based on floor area, surface types, traffic levels and how often you want us on site.
+
+Commercial cleaning services Chadstone businesses book range from a one-off deep clean before a fit-out handover through to daily or weekly schedules. Our rates stay competitive, and you will know the full figure before we start.
 
 ## Frequently asked questions
 

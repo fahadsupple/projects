@@ -6,15 +6,37 @@ Dandenong has been a manufacturing centre and a transport hub for a long time, a
 
 ## Warehouse and factory cleaning that respects how the site runs
 
-Production schedules decide everything. When a line is running, cleaning happens around it or outside it, and our teams are used to both. That means hard floor work with commercial scrubbers and polishers in the aisles and dispatch areas, entry matting kept clear, lunchrooms turned over properly, and bin runs that keep up with volume rather than falling a day behind.
+Production schedules decide everything. When a line is running, cleaning happens around it or outside it, and our teams are used to both. That means:
 
-Amenities carry the most complaint risk on an industrial site. Staff toilets, showers and crib rooms get heavy use and get judged harshly. We clean them with colour-coded microfibre cloths and mops so cloths used in a bathroom never travel to a kitchen bench, and we use hospital-grade disinfectants selected according to what the site actually needs. Where an environmentally conscious product or method suits the surface and the setting, we use it. Operators with a second facility in Keysborough can see how we scope that site on our [commercial cleaning in Keysborough](https://www.twinkleclean.com.au/commercial-cleaning-keysborough/) page.
+- Hard floor work with commercial scrubbers and polishers in the aisles and dispatch areas
+- Entry matting kept clear
+- Lunchrooms turned over properly
+- Bin runs that keep up with volume rather than falling a day behind
+
+Amenities carry the most complaint risk on an industrial site. Staff toilets, showers and crib rooms get heavy use and get judged harshly.
+
+We clean them with colour-coded microfibre cloths and mops so cloths used in a bathroom never travel to a kitchen bench, and we use hospital-grade disinfectants selected according to what the site actually needs. Where an environmentally conscious product or method suits the surface and the setting, we use it. Operators with a second facility in Keysborough can see how we scope that site on our [commercial cleaning in Keysborough](https://www.twinkleclean.com.au/commercial-cleaning-keysborough/) page.
 
 ## Office cleaning inside an industrial site
 
-Front-of-house is where the impression is made. Reception, the boardroom, the estimator's desks and the internal glass all need a different standard and different frequency to the shed. We handle desks and workstations, kitchens and breakout areas, internal glazing, and professional window cleaning where access allows. Our teams follow detailed cleaning checklists and site-specific procedures, so the person cleaning your site on a Thursday does the same job as the person who cleaned it on Monday.
+Front-of-house is where the impression is made. Reception, the boardroom, the estimator's desks and the internal glass all need a different standard and different frequency to the shed. We handle:
+
+- Desks and workstations
+- Kitchens and breakout areas
+- Internal glazing
+- Professional window cleaning where access allows
+
+Our teams follow detailed cleaning checklists and site-specific procedures, so the person cleaning your site on a Thursday does the same job as the person who cleaned it on Monday.
 
 For sites that cannot have cleaners moving through during production, after-hours commercial cleaning is straightforward to arrange. We work seven days a week including weekends and public holidays at no extra charge, so an early Sunday reset before a Monday audit costs the same as a Wednesday night. Our broader [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) service covers the full method and equipment list if you want the detail.
+
+## The Dandenong sites we suit best
+
+We're set up for:
+
+- Factory and warehouse operators needing production-hours-friendly cleaning across the shed and amenities
+- Front-of-house offices sitting inside an industrial site
+- Businesses running both a warehouse and an office under one schedule
 
 ## About Twinkle Clean
 
@@ -22,7 +44,16 @@ Twinkle Clean was founded in 2019 by Tom Su, who was a cleaner by trade long bef
 
 ## What it costs
 
-Pricing is worked out per site, because a 4,000 square metre shed with two amenity blocks and a 200 square metre office have almost nothing in common. We quote free, we price competitively against other commercial cleaners Dandenong businesses will be comparing us with, and there is no published flat rate for a reason. Scheduling can be daily, several nights a week, weekly, or a single one-off clean before an inspection or a handover. We work without lock-in contracts, so the arrangement continues because it is working.
+Pricing is worked out per site, because a 4,000 square metre shed with two amenity blocks and a 200 square metre office have almost nothing in common. We quote free, we price competitively against other commercial cleaners Dandenong businesses will be comparing us with, and there is no published flat rate for a reason.
+
+Scheduling can be:
+
+- Daily
+- Several nights a week
+- Weekly
+- A single one-off clean before an inspection or a handover
+
+We work without lock-in contracts, so the arrangement continues because it is working.
 
 ## Frequently asked questions
 

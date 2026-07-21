@@ -6,7 +6,15 @@ Wantirna, postcode 3152, sits in the City of Knox and is largely residential in 
 
 ## Front of house, back of house
 
-Retail and shopfront cleaning is a question of sequence. The entry does the most work, so glass doors, entry glazing and matting get the most consistent attention, cleaned with professional window-cleaning tools instead of a cloth and spray that leaves streaks. From there we work the customer path: floors along the traffic lane, counter and service surfaces, display fittings and shelf edges, waiting-area seating, and the door handles and terminals every customer touches.
+Retail and shopfront cleaning is a question of sequence. The entry does the most work, so glass doors, entry glazing and matting get the most consistent attention, cleaned with professional window-cleaning tools instead of a cloth and spray that leaves streaks.
+
+From there we work the customer path:
+
+- Floors along the traffic lane
+- Counter and service surfaces
+- Display fittings and shelf edges
+- Waiting-area seating
+- Door handles and terminals every customer touches
 
 Behind the counter the work is less visible and just as important. Staff kitchens, storerooms, washrooms and bin areas go in the standard scope, disinfected with hospital-grade products chosen for the site. Colour-coded microfibre cloths and mops keep washroom gear separate from anything that touches a bench or a serving surface.
 
@@ -18,13 +26,29 @@ Suburban trade in Wantirna spreads right across the week, so a Monday-to-Friday 
 
 Because our cleaners often hold keys or an alarm code for premises holding stock or patient records, it matters who turns up. Every cleaner is police-checked and trained in workplace and chemical safety, with strong English communication, and the business carries $20 million public liability insurance plus WorkCover. Our full method and equipment list are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+## Sites we look after in Wantirna
+
+Wantirna commercial cleaning suits:
+
+- Shops and salons needing a customer-ready space before opening
+- Clinics and consulting suites working to their own documented cleaning procedures
+- Professional offices and services across the suburb
+
 ## About Twinkle Clean
 
 Twinkle Clean was set up in 2019 by Tom Su, who worked as a cleaner by trade for years before starting the business. The team carries more than 20 years of combined experience and has served over 1,200 customers around Melbourne. Every clean comes with a 100% satisfaction guarantee backed by a quality control system, so anything within the agreed scope that falls short gets re-cleaned. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
 
 ## What a Wantirna clean costs
 
-We quote per site after seeing it, because a small salon and a six-room clinic have almost nothing in common on paper. The variables are floor area, surface types, how much glass is at the front, the number of washrooms and kitchens, and how many visits a week you want. Quotes are free and nothing is owed if you go elsewhere. We operate without lock-in contracts, so a schedule can be lifted for a busy season or wound back for a quiet one. Our pricing is competitive against the other commercial cleaning services Wantirna operators will be getting numbers from, and each price is set individually.
+We quote per site after seeing it, because a small salon and a six-room clinic have almost nothing in common on paper. The variables are:
+
+- Floor area
+- Surface types
+- How much glass is at the front
+- The number of washrooms and kitchens
+- How many visits a week you want
+
+Quotes are free and nothing is owed if you go elsewhere. We operate without lock-in contracts, so a schedule can be lifted for a busy season or wound back for a quiet one. Our pricing is competitive against the other commercial cleaning services Wantirna operators will be getting numbers from, and each price is set individually.
 
 ## Frequently asked questions
 

@@ -8,15 +8,33 @@ Noble Park is zoned residential, commercial and industrial in overlapping pocket
 
 About a third of homes in the suburb are apartments, roughly twice the rate across metropolitan Melbourne, which means a lot of commercial premises sit directly beneath or beside people who are asleep at eleven at night. We plan after-hours office cleaning accordingly. Vacuuming and machine work go early in the shift, quieter tasks go late, and the crew parks and loads without turning the car park into an event.
 
-For the office side itself the scope is straightforward: workstations and reception surfaces, meeting rooms reset, bins emptied and relined, kitchens and washrooms cleaned and restocked, floors vacuumed or mopped as the surface requires, and high-touch points wiped with hospital-grade disinfectant. Colour-coded microfibre cloths and mops keep the amenities work separate from the kitchen work, which is the single most useful habit a cleaner can have in a small tenancy where everything is close together. If Dandenong is a better fit for your business, we've written up the same approach on a dedicated [commercial cleaning in Dandenong](https://www.twinkleclean.com.au/commercial-cleaning-dandenong/) page.
+For the office side itself the scope is straightforward:
+- Workstations and reception surfaces
+- Meeting rooms reset
+- Bins emptied and relined
+- Kitchens and washrooms cleaned and restocked
+- Floors vacuumed or mopped as the surface requires
+- High-touch points wiped with hospital-grade disinfectant
+
+Colour-coded microfibre cloths and mops keep the amenities work separate from the kitchen work, which is the single most useful habit a cleaner can have in a small tenancy where everything is close together. If Dandenong is a better fit for your business, we've written up the same approach on a dedicated [commercial cleaning in Dandenong](https://www.twinkleclean.com.au/commercial-cleaning-dandenong/) page.
 
 ## Clear communication and a quote you can actually read
 
 Noble Park is one of the most multicultural pockets in Melbourne, with a majority of residents born overseas, and plenty of the businesses here are run by people whose first language is not English. That is worth naming for one practical reason: a cleaning quote should be legible to whoever is signing it.
 
-So we keep it plain. The walkthrough produces a written checklist of exactly which areas are covered and how often. The price is a single figure against that checklist rather than a set of line items that expand later. Our cleaners communicate clearly in English, and if something needs to be explained twice, it gets explained twice. Every cleaner is police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
+So we keep it plain. The walkthrough produces a written checklist of exactly which areas are covered and how often. The price is a single figure against that checklist rather than a set of line items that expand later.
+
+Our cleaners communicate clearly in English, and if something needs to be explained twice, it gets explained twice. Every cleaner is police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
 
 There are no lock-in contracts, so nobody is signing away a year on the strength of a first impression. Our approach across the wider region is described on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## The businesses that book us in Noble Park
+
+Noble Park's mixed zoning means our customers here vary:
+- Small offices above a shop
+- Workshops with a front counter, where the office side is kept separate from workshop grit
+- Suites in mixed-use buildings, cleaned quietly around residents living above
+- Office units attached to workshops or warehouses, with shared amenities quoted separately
 
 ## About Twinkle Clean
 
@@ -24,7 +42,13 @@ Tom Su founded Twinkle Clean in 2019, having spent years on the tools as a clean
 
 ## How we quote
 
-Pricing is worked out per site, never off a published rate card, because the honest answer depends on floor area, surface mix, how many amenities you have and how often you want us there. We walk the premises, agree the scope, and give you a number in writing. Quotes cost nothing, our rates hold up against other operators in the south-east, and you can book us as a one-off or as a standing weekly, fortnightly or daily schedule.
+Pricing is worked out per site, never off a published rate card, because the honest answer depends on:
+- Floor area
+- Surface mix
+- How many amenities you have
+- How often you want us there
+
+We walk the premises, agree the scope, and give you a number in writing. Quotes cost nothing, our rates hold up against other operators in the south-east, and you can book us as a one-off or as a standing weekly, fortnightly or daily schedule.
 
 ## Frequently asked questions
 

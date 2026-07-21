@@ -4,15 +4,28 @@ The wool carpet on a Hawthorn staircase, the natural-fibre runner down a wide Vi
 
 ## Caring for carpets and rugs in period Hawthorn homes
 
-Hawthorn grew up during the 1880s land boom, and its tree-lined streets still hold a fine collection of grand Victorian and Edwardian houses, including the heritage-listed Grace Park Estate. Homes of that era were often laid with wool and other natural-fibre carpets and rugs, and those fibres behave differently to modern synthetics: they hold warmth and depth beautifully, yet they mark more easily and dislike being over-wet. That is why we assess the pile before we start rather than running one aggressive setting over everything. A period lounge with a delicate rug and a family entrance with hard-wearing carpet get treated as the two different jobs they are, and the leafy streets that make Hawthorn so pleasant also mean more pollen, grit and damp tracked indoors across the year.
+Hawthorn grew up during the 1880s land boom, and its tree-lined streets still hold a fine collection of grand Victorian and Edwardian houses, including the heritage-listed Grace Park Estate. Homes of that era were often laid with wool and other natural-fibre carpets and rugs, and those fibres behave differently to modern synthetics: they hold warmth and depth beautifully, yet they mark more easily and dislike being over-wet.
+
+That is why we assess the pile before we start rather than running one aggressive setting over everything. A period lounge with a delicate rug and a family entrance with hard-wearing carpet get treated as the two different jobs they are, and the leafy streets that make Hawthorn so pleasant also mean more pollen, grit and damp tracked indoors across the year.
 
 ## Method matched to the fibre, not a generic pass
 
-Our core clean uses hot water extraction, the deep steam-cleaning method, which flushes soil out of the pile and draws the moisture straight back out so the carpet is left damp rather than soaked. On wool and softer natural fibres we can dial the approach back to a gentler, low-moisture treatment where the piece calls for it, which protects the fibre and shortens drying. Stubborn marks, pet odours and worn traffic lanes each get their own targeted step instead of one hopeful pass. For the full detail on our equipment, presprays and stain treatments, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core clean uses hot water extraction, the deep steam-cleaning method, which flushes soil out of the pile and draws the moisture straight back out so the carpet is left damp rather than soaked. On wool and softer natural fibres we can dial the approach back to a gentler, low-moisture treatment where the piece calls for it, which protects the fibre and shortens drying.
+
+Stubborn marks, pet odours and worn traffic lanes each get their own targeted step instead of one hopeful pass. For the full detail on our equipment, presprays and stain treatments, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Bond-back cleaning for Hawthorn rentals
 
 Alongside its period houses, Hawthorn has a steady flow of tenants through its apartments and share homes, and end-of-lease is some of our most requested local work. Property managers inspect carpets closely, and a poor result can hold up a bond. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of getting their deposit back without a second thought about the floors.
+
+## Best suited to Hawthorn homes and rentals
+
+We're set up for:
+
+- Period homes with wool and natural-fibre carpet, runners and rugs
+- Households with carpeted staircases in older houses
+- Tenants in apartments and share homes needing an end-of-lease clean
+- Property managers who inspect carpet closely before a bond is returned
 
 ## About Twinkle Clean
 
@@ -20,7 +33,14 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Free quotes and competitive pricing
 
-Carpet cleaning is priced on the job, so the fairest number comes from the details: how many rooms, the size and condition of the carpet, any delicate rugs involved, and any stain or odour treatment needed. We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off clean or a regular schedule. You will know the scope and the price before any work begins.
+Carpet cleaning is priced on the job, so the fairest number comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any delicate rugs involved
+- Any stain or odour treatment needed
+
+We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off clean or a regular schedule. You will know the scope and the price before any work begins.
 
 ## Frequently asked questions
 

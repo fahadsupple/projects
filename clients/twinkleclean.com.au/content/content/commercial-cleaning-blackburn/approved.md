@@ -6,7 +6,12 @@ Blackburn is predominantly residential, and strict planning controls have kept a
 
 ## Retail and shopfront cleaning in a small-footprint village centre
 
-Retail and shopfront cleaning around the station means tight tenancies with limited back-of-house, often with stock stored where storage was never really designed. The job comes down to a handful of things done properly and repeatedly. Window and door glass cleaned edge to edge with professional window-cleaning tools. Floors vacuumed or scrubbed into the corners and under fixed shelving rather than along the obvious walking line. Counters, handles, card terminals and any surface a customer touches disinfected rather than wiped. Bathrooms and staff kitchens brought back to a standard your own team is comfortable with.
+Retail and shopfront cleaning around the station means tight tenancies with limited back-of-house, often with stock stored where storage was never really designed. The job comes down to a handful of things done properly and repeatedly:
+
+- Window and door glass cleaned edge to edge with professional window-cleaning tools
+- Floors vacuumed or scrubbed into the corners and under fixed shelving rather than along the obvious walking line
+- Counters, handles, card terminals and any surface a customer touches disinfected rather than wiped
+- Bathrooms and staff kitchens brought back to a standard your own team is comfortable with
 
 Because these tenancies are small, we build the checklist tightly. A five-item generic list wastes a visit; a written list naming your actual fixtures means the crew covering a night your regular cleaner is away does the same job to the same standard. For the larger tower and ground-floor stock two stops down the line, our [commercial cleaning in Box Hill](https://www.twinkleclean.com.au/commercial-cleaning-box-hill/) page covers that scale of site in its own right.
 
@@ -16,13 +21,31 @@ Village-centre businesses often close earlier than a big centre and open earlier
 
 Commercial cleaners Blackburn businesses let into a shop after close should be people you have no reservations about. Ours are police-checked, trained in workplace and chemical safety, and communicate clearly. We hold $20 million public liability insurance plus WorkCover, and there is more on how sites are run and supervised on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+## Who books us in Blackburn
+
+Commercial cleaning in Blackburn suits businesses built around the village centre:
+
+- Small shops and boutiques around the station, tight tenancies with limited back-of-house cleaned to the same standard every visit
+- Consulting suites and small professional premises, using the same checklist-driven approach in a compact footprint
+- Village-centre traders with short trading hours, cleaned in the early evening or the hour before opening
+
 ## About Twinkle Clean
 
 Twinkle Clean opened in 2019 under Tom Su, who cleaned for a living well before he employed anyone. More than 20 years of combined experience sits across the team, and over 1,200 customers around Melbourne have used us. Work is covered by a 100% satisfaction guarantee, which in practice means we return and re-clean anything inside the agreed scope that missed the mark. On Oneflare we hold 5 out of 5 from 16 reviews. The hub page has the full method and credentials.
 
 ## Pricing and free quotes
 
-Prices are set per premises after a look through. The variables that move the number are floor area and type, the amount of glass at the front, how many amenities you have, current condition, and visit frequency. Small Blackburn tenancies often price better than owners expect once the scope is honest about what is really needed each visit and what only needs doing monthly. Quotes are free, our rates stay competitive with other operators working the eastern suburbs, and pricing is set per site rather than published as a flat rate. One-off cleans and ongoing schedules are equally welcome, with no lock-in contract either way.
+Prices are set per premises after a look through. The variables that move the number are:
+
+- Floor area and type
+- The amount of glass at the front
+- How many amenities you have
+- Current condition
+- Visit frequency
+
+Small Blackburn tenancies often price better than owners expect once the scope is honest about what is really needed each visit and what only needs doing monthly.
+
+Quotes are free, our rates stay competitive with other operators working the eastern suburbs, and pricing is set per site rather than published as a flat rate. One-off cleans and ongoing schedules are equally welcome, with no lock-in contract either way.
 
 ## Frequently asked questions
 

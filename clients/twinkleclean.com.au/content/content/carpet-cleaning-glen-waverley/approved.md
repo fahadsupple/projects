@@ -16,7 +16,18 @@ Glen Waverley has a busy commercial core around the station and The Glen shoppin
 
 ## Our carpet cleaning method
 
-We match the method to the carpet rather than running one setting across every floor. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back out, leaving the carpet damp instead of soaked. Delicate wool and natural-fibre rugs get a gentler, low-moisture approach where the fibre calls for it. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+We match the method to the carpet rather than running one setting across every floor. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back out, leaving the carpet damp instead of soaked.
+
+Delicate wool and natural-fibre rugs get a gentler, low-moisture approach where the fibre calls for it. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## Who our Glen Waverley carpet cleaning suits
+
+Glen Waverley carpet cleaning suits a range of callers:
+
+- Homeowners in the suburb's established family homes, with plenty of carpet to steam clean in one visit
+- Renters and tenants in newer townhouses preparing for a bond-back inspection
+- Property managers checking carpet condition at the end of a tenancy
+- Offices, consulting suites and retail spaces around the station and The Glen with commercial carpet to maintain
 
 ## About Twinkle Clean
 
@@ -24,7 +35,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and quotes
 
-Every carpet is different, so we price on the details rather than a flat rate: the number of rooms, the size and condition of the carpet, and any stain or odour treatment involved. Our quotes are free and carry no obligation, our pricing stays competitive and budget-friendly, and you can choose a one-off refresh or a regular schedule.
+Every carpet is different, so we price on the details rather than a flat rate:
+
+- The number of rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+Our quotes are free and carry no obligation, our pricing stays competitive and budget-friendly, and you can choose a one-off refresh or a regular schedule.
 
 ## Frequently asked questions
 

@@ -6,9 +6,25 @@ Bentleigh sits roughly 13 kilometres south-east of the city in the City of Glen 
 
 ## Shopfronts, floors and the parts customers notice
 
-Retail and shopfront cleaning is a different job to office cleaning, and the difference is mostly about surfaces the public touches and looks through. Entry glass and window frames get worked from both sides. Door handles, EFTPOS terminals, counters and handrails are treated as touchpoints rather than surfaces. Floors matter more than anywhere else in a shop, because a strip-front business tracks in whatever is on the footpath all day, and good vinyl or tile looks neglected surprisingly fast once the grout darkens.
+Retail and shopfront cleaning is a different job to office cleaning, and the difference is mostly about surfaces the public touches and looks through. Entry glass and window frames get worked from both sides.
 
-We work off a written checklist for each shop rather than a generic retail list, because a bakery, a physio clinic and a homewares store on the same block need different things. Fitting rooms, display shelving, counter undersides, bin areas, staff kitchens and the back-of-house corridor customers never see all get their place on it. Traders comparing notes with a shop further along the eat streets can find the equivalent write-up on our [commercial cleaning in Carnegie](https://www.twinkleclean.com.au/commercial-cleaning-carnegie/) page.
+Every visit treats these as touchpoints rather than surfaces:
+- Door handles
+- EFTPOS terminals
+- Counters
+- Handrails
+
+Floors matter more than anywhere else in a shop, because a strip-front business tracks in whatever is on the footpath all day, and good vinyl or tile looks neglected surprisingly fast once the grout darkens.
+
+We work off a written checklist for each shop rather than a generic retail list, because a bakery, a physio clinic and a homewares store on the same block need different things. Every checklist covers:
+- Fitting rooms
+- Display shelving
+- Counter undersides
+- Bin areas
+- Staff kitchens
+- The back-of-house corridor customers never see
+
+Traders comparing notes with a shop further along the eat streets can find the equivalent write-up on our [commercial cleaning in Carnegie](https://www.twinkleclean.com.au/commercial-cleaning-carnegie/) page.
 
 ## Cleaning between close and open
 
@@ -16,13 +32,30 @@ The realistic window for a Bentleigh shop is between close and open, and that is
 
 Commercial cleaning services Bentleigh businesses book through us are handled by police-checked cleaners trained in workplace and chemical safety, with $20 million public liability insurance and WorkCover behind them. Our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page carries the full detail on equipment, checklists and quality control.
 
+## Who we clean for in Bentleigh
+
+Our Bentleigh commercial cleaning suits a specific mix of businesses:
+- Retail shops along Centre Road, with fitting rooms and display areas kept presentable
+- Cafes, bakeries and takeaway shops, cleaned to your own food safety procedure
+- Physio clinics, consulting rooms and similar small practices
+- Owners running two or more shops on the strip, scheduled back to back
+
 ## About Twinkle Clean
 
 Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, which is why scoping conversations here tend to be practical rather than salesy. The team carries more than 20 years of combined experience and has worked for over 1,200 customers around Melbourne. Everything is covered by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned. Our Oneflare rating is 5 out of 5 from 16 reviews. Full credentials sit on the hub page.
 
 ## How we quote
 
-Every quote is built from the premises, not from a rate card. For a shop we look at floor area and type, the amount of glass, whether there is a food handling area, how many amenities there are, and how many nights a week you want us. A 60 square metre boutique and a 60 square metre cafe are not the same job. Quotes are free, pricing stays competitive against other operators on the strip, and there is no published flat rate for that reason. Book a single deep clean before an opening, or set a regular schedule and change it whenever trade changes.
+Every quote is built from the premises, not from a rate card. For a shop we look at:
+- Floor area and type
+- The amount of glass
+- Whether there is a food handling area
+- How many amenities there are
+- How many nights a week you want us
+
+A 60 square metre boutique and a 60 square metre cafe are not the same job.
+
+Quotes are free, pricing stays competitive against other operators on the strip, and there is no published flat rate for that reason. Book a single deep clean before an opening, or set a regular schedule and change it whenever trade changes.
 
 ## Frequently asked questions
 

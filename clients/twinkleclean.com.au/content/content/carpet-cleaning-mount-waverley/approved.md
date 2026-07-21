@@ -6,7 +6,17 @@ Some carpet has been underfoot since the day the family first moved in, and year
 
 Mount Waverley is an established suburb of detached family homes, its heritage streets first laid out in the 1930s though most of the houses were not built until the early 1950s, held back by the Great Depression. Homes that have stayed with the same family that long tend to carry carpet of a similar vintage: settled wool and wool-blend pile through the lounge and bedrooms, and the occasional delicate natural-fibre rug that asks for a gentler touch than a hired machine can offer. That is the kind of floor a professional steam clean rewards most, lifting decades of dulling and ground-in grit that build up slowly enough that you stop noticing them.
 
-Our team reads the fibre and its condition before settling on an approach, rather than running one setting across the whole floor. Hot water extraction flushes grit and oils out of the pile and draws the moisture back out, so carpet is left damp rather than soaked, while a decades-old traffic lane or a set-in pet mark is treated separately with targeted stain and odour work before the main pass. On the older wool common in these homes, that measured touch brings back colour and texture without stressing the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our team reads the fibre and its condition before settling on an approach, rather than running one setting across the whole floor. Hot water extraction flushes grit and oils out of the pile and draws the moisture back out, so carpet is left damp rather than soaked, while a decades-old traffic lane or a set-in pet mark is treated separately with targeted stain and odour work before the main pass.
+
+On the older wool common in these homes, that measured touch brings back colour and texture without stressing the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## Carpet clients we help in Mount Waverley
+
+This page is written for:
+
+- Homeowners in Mount Waverley's long-settled family homes, where carpet has aged alongside the household
+- Households with older wool and natural-fibre carpet that needs a gentler, moisture-controlled clean
+- Multi-level homes wanting a whole house done in one visit, stairs and landings included
 
 ## About Twinkle Clean
 
@@ -14,7 +24,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the specifics: how many rooms, the size and state of the carpet, and any stain or odour work involved. Our quotes are free, and our pricing stays competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price in front of you before any work begins.
+Carpet cleaning is priced on the job, so the fairest figure comes from the specifics:
+
+- How many rooms
+- The size and state of the carpet
+- Any stain or odour work involved
+
+Our quotes are free, and our pricing stays competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price in front of you before any work begins.
 
 ## Frequently asked questions
 

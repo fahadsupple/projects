@@ -4,11 +4,24 @@ A big family home in Rowville comes with big stretches of carpet, and those open
 
 ## Carpet cleaning built for large Rowville homes
 
-Rowville grew through the 1980s and 90s as a master-planned family suburb, with estates like Rowville Lakes and Park Ridge filling out into some of the largest detached homes in Melbourne's south-east. That means a lot of carpet under one roof: several bedrooms, a formal lounge, a family room and the hallways that tie them together. When a whole house needs doing at once, our team works room to room in a single visit, so the carpet comes up evenly across the house.
+Rowville grew through the 1980s and 90s as a master-planned family suburb, with estates like Rowville Lakes and Park Ridge filling out into some of the largest detached homes in Melbourne's south-east. That means a lot of carpet under one roof:
+
+- Several bedrooms
+- A formal lounge
+- A family room
+- The hallways that tie them together
+
+When a whole house needs doing at once, our team works room to room in a single visit, so the carpet comes up evenly across the house.
 
 ## Pet stains and odours, treated at the source
 
-With children and pets sharing all that space, the wear turns up in predictable places: the traffic lane in from the back door, the patch beside the couch, the corner a pet has quietly claimed. We treat stains and odours as their own step, using targeted stain, odour and urine treatments rather than trusting a single general pass to lift them. That is how we shift the marks and smells that a household vacuum or a hire machine leaves behind, and it is the step that makes the biggest difference in a busy family home.
+With children and pets sharing all that space, the wear turns up in predictable places:
+
+- The traffic lane in from the back door
+- The patch beside the couch
+- The corner a pet has quietly claimed
+
+We treat stains and odours as their own step, using targeted stain, odour and urine treatments rather than trusting a single general pass to lift them. That is how we shift the marks and smells that a household vacuum or a hire machine leaves behind, and it is the step that makes the biggest difference in a busy family home.
 
 ## How we clean your carpet
 
@@ -18,13 +31,27 @@ Our carpet team matches the method to the carpet rather than running one setting
 
 Rowville is mostly owner-occupied family homes, but plenty of rentals sit among the estates too, and when a lease ends the carpet is one of the first things a property manager checks. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of getting their deposit back.
 
+## The households and renters we help in Rowville
+
+Rowville carpet cleaning is built around:
+
+- Families in large estate homes dealing with kids, pets and high-traffic open-plan carpet
+- Renters and tenants preparing for a bond-back inspection at the end of a lease
+- Property managers checking carpet condition before handing back a tenancy
+
 ## About Twinkle Clean
 
 Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on background still guides how our team reads a carpet and picks a method. Between them, our cleaners bring more than 20 years of combined experience to the work. We have served over 1,200 customers across Melbourne, and we back every job with a 100% satisfaction guarantee: if an area in the agreed scope is not right, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Pricing and free quotes
 
-Because a Rowville job might be a couple of bedrooms or a whole five-bedroom house, we price on the details rather than a flat rate: the number of rooms, the size and condition of the carpet, and any stain or odour treatment involved. Our quotes are free and come with no obligation, our pricing stays competitive and budget-friendly, and you can choose a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
+Because a Rowville job might be a couple of bedrooms or a whole five-bedroom house, we price on the details rather than a flat rate:
+
+- The number of rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+Our quotes are free and come with no obligation, our pricing stays competitive and budget-friendly, and you can choose a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
 
 ## Frequently asked questions
 

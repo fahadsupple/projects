@@ -6,17 +6,35 @@ Working out of a period building has its charms and its costs. The floors are ti
 
 Oakleigh has something most south-eastern suburbs lack: a genuine central business district, roughly nine blocks of older commercial buildings, former bank premises and retail stock dating to the early days of the city. A lot of that space now houses accountants, agents, medical and allied health rooms, and small professional practices, usually on the first floor with a shop underneath.
 
-That building type sets the job. Shared stairwells and landings get walked on all day, so they need their own cycle rather than being an afterthought at the end of the office scope. Original floors need a polisher and an appropriate product on sealed hard surfaces, with controlled moisture rather than a flooded mop. Deep window sills hold dust a quick wipe misses, and older washrooms retrofitted into space never designed for them take longer than their size suggests.
+That building type sets the job. Shared stairwells and landings get walked on all day, so they need their own cycle rather than being an afterthought at the end of the office scope.
 
-We agree all of this in writing at the walkthrough, area by area, so the price reflects the building you actually occupy. Cleaners work with colour-coded microfibre cloths and mops, commercial vacuums, scrubbers and polishers, and hospital-grade disinfectants selected to suit the site, which matters for the consulting and treatment rooms scattered through this precinct. Where a practice has its own written infection-control or clinical procedure, we clean to that document rather than substituting a generic office routine. Chadstone premises get the same building-by-building treatment, set out on its own [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
+Original floors need a polisher and an appropriate product on sealed hard surfaces, with controlled moisture rather than a flooded mop. Deep window sills hold dust a quick wipe misses, and older washrooms retrofitted into space never designed for them take longer than their size suggests.
+
+We agree all of this in writing at the walkthrough, area by area, so the price reflects the building you actually occupy. Cleaners work with:
+
+- Colour-coded microfibre cloths and mops
+- Commercial vacuums, scrubbers and polishers
+- Hospital-grade disinfectants selected to suit the site
+
+That matters for the consulting and treatment rooms scattered through this precinct. Where a practice has its own written infection-control or clinical procedure, we clean to that document rather than substituting a generic office routine. Chadstone premises get the same building-by-building treatment, set out on its own [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
 
 ## The dining strip and after-hours access
 
 Oakleigh's Greek dining strip gives the centre a second working day. Venues here trade late, and the offices around them share footpaths, laneways, bins and car parking with hospitality that is still going at eleven at night. That has two consequences for anyone booking a cleaner.
 
-The first is timing. After-hours office cleaning in a building that also holds a late-trading tenancy needs a shift that fits both, which usually means starting once the professional floors empty rather than waiting for the whole street to close. The second is access: shared entries, older locks, alarm systems installed at different times by different tenants. We settle keys, codes and entry arrangements before the first shift.
+The first is timing. After-hours office cleaning in a building that also holds a late-trading tenancy needs a shift that fits both, which usually means starting once the professional floors empty rather than waiting for the whole street to close.
+
+The second is access: shared entries, older locks, alarm systems installed at different times by different tenants. We settle keys, codes and entry arrangements before the first shift.
 
 We work seven days a week including weekends and public holidays without a surcharge, and there are no lock-in contracts, so a schedule that turns out to be wrong for your practice can simply be changed. The wider service is described on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## The Oakleigh businesses we suit best
+
+We're best suited to:
+
+- Professional suites in Oakleigh's older commercial buildings, including accountants, agents and small practices
+- Consulting and treatment rooms with their own infection-control procedures
+- Offices and shops sharing the precinct with the late-trading dining strip, needing after-hours timing that fits both
 
 ## About Twinkle Clean
 
@@ -24,7 +42,9 @@ The business was founded in 2019 by Tom Su, who cleaned professionally for years
 
 ## What an Oakleigh clean costs
 
-We price each building individually. A first-floor suite in a period block with a shared stair and original flooring is a different proposition from a modern ground-floor tenancy of the same square metreage, and pretending otherwise produces a quote that goes wrong in month two. After a walkthrough you get a written scope and a single price against it. Quotes are free, our rates are competitive for the Monash area, and you can book a one-off clean or a standing schedule at whatever frequency suits.
+We price each building individually. A first-floor suite in a period block with a shared stair and original flooring is a different proposition from a modern ground-floor tenancy of the same square metreage, and pretending otherwise produces a quote that goes wrong in month two.
+
+After a walkthrough you get a written scope and a single price against it. Quotes are free, our rates are competitive for the Monash area, and you can book a one-off clean or a standing schedule at whatever frequency suits.
 
 ## Frequently asked questions
 

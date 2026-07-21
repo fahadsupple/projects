@@ -1,19 +1,20 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-20T07:25:11Z_
+_Rebuilt: 2026-07-21T00:47:49Z_
 
 ## carpet-cleaning-bayswater
 
 - **Primary keyword:** carpet cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 988
+- **Word count:** 1064
 - **Headings:**
   - Carpet Cleaning Bayswater
   - Homes and workplaces under one suburb
   - Commercial and industrial carpet maintenance
   - Hot water extraction that reaches the base of the pile
   - End of lease carpet cleaning in Bayswater
+  - Who we clean carpets for in Bayswater
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -25,12 +26,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 933
+- **Word count:** 989
 - **Headings:**
   - Carpet Cleaning Bentleigh
   - Family homes and Centre Road businesses
   - Our carpet cleaning method
   - End of lease carpet cleaning in Bentleigh
+  - Carpet cleaning for Bentleigh households
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -42,12 +44,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning box hill
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 929
+- **Word count:** 999
 - **Headings:**
   - Carpet Cleaning Box Hill
   - End-of-lease and bond-back carpet cleaning in Box Hill
   - Apartment and high-rise carpet cleaning
   - Our carpet cleaning method
+  - The kinds of Box Hill homes we clean
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -59,12 +62,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning burwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 956
+- **Word count:** 1052
 - **Headings:**
   - Carpet Cleaning Burwood
   - End-of-lease cleaning for student rentals and share houses
   - Whole-house refreshes for established Burwood homes
   - Steam cleaning matched to your carpet
+  - Who books a carpet clean in Burwood
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -76,12 +80,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning camberwell
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 960
+- **Word count:** 1025
 - **Headings:**
   - Carpet Cleaning Camberwell
   - Room by room through Camberwell's grand period homes
   - Gentle steam cleaning for wool and natural fibres
   - Bond-back cleaning for Camberwell rentals
+  - The Camberwell customers we clean for
   - About Twinkle Clean
   - Free quotes and competitive pricing
   - Frequently asked questions
@@ -93,11 +98,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 918
+- **Word count:** 973
 - **Headings:**
   - Carpet Cleaning Caulfield
   - Carpet care for Caulfield's established homes
   - End-of-lease carpet cleaning near the university
+  - The Caulfield households we help
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -109,12 +115,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 969
+- **Word count:** 1017
 - **Headings:**
   - Carpet Cleaning Cheltenham
   - Carpet cleaning across Cheltenham's homes and businesses
   - Our carpet cleaning method
   - End of lease and bond-back carpet cleaning
+  - Homes and renters we help in Cheltenham
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -126,12 +133,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 950
+- **Word count:** 1014
 - **Headings:**
   - Carpet Cleaning Croydon
   - Carpet cleaning for Croydon's established family homes
   - End-of-lease carpet cleaning for Croydon townhouses and units
   - How we clean your carpet
+  - Who we help with carpet in Croydon
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -143,12 +151,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 855
+- **Word count:** 923
 - **Headings:**
   - Carpet Cleaning Dandenong
   - Local carpet cleaning across Dandenong
   - How we clean your carpet
   - End of lease carpet cleaning in Dandenong
+  - The homes and rentals we clean in Dandenong
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -160,13 +169,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning glen waverley
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 953
+- **Word count:** 1032
 - **Headings:**
   - Carpet Cleaning Glen Waverley
   - Carpet cleaning for established Glen Waverley homes
   - End-of-lease carpet cleaning for townhouses and rentals
   - Commercial carpet cleaning near The Glen
   - Our carpet cleaning method
+  - Who our Glen Waverley carpet cleaning suits
   - About Twinkle Clean
   - Pricing and quotes
   - Frequently asked questions
@@ -178,12 +188,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning hawthorn
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 958
+- **Word count:** 1015
 - **Headings:**
   - Carpet Cleaning Hawthorn
   - Caring for carpets and rugs in period Hawthorn homes
   - Method matched to the fibre, not a generic pass
   - Bond-back cleaning for Hawthorn rentals
+  - Best suited to Hawthorn homes and rentals
   - About Twinkle Clean
   - Free quotes and competitive pricing
   - Frequently asked questions
@@ -195,12 +206,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning kew
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 962
+- **Word count:** 1015
 - **Headings:**
   - Carpet Cleaning Kew
   - Wool carpets and fine rugs in Kew's established homes
   - A clean matched to the fibre
   - Bond-back cleaning for Kew rentals
+  - Who calls us in Kew
   - About Twinkle Clean
   - Free quotes and competitive pricing
   - Frequently asked questions
@@ -212,13 +224,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning malvern
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 949
+- **Word count:** 1018
 - **Headings:**
   - Carpet Cleaning Malvern
   - Malvern's period homes and their delicate carpets
   - Commercial carpet for the Glenferrie Road and High Street strips
   - Our method, matched to your carpet
   - End-of-lease and bond-back carpet cleaning
+  - The Malvern homes we look after
   - About Twinkle Clean
   - Frequently asked questions
   - Book carpet cleaning in Malvern
@@ -229,12 +242,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 964
+- **Word count:** 1042
 - **Headings:**
   - Carpet Cleaning Moorabbin
   - Carpet cleaning for Moorabbin's established brick homes
   - How we clean carpet in Moorabbin homes
   - End of lease and bond-back carpet cleaning
+  - Who we look after in Moorabbin
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -246,10 +260,11 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning mount waverley
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 941
+- **Word count:** 1000
 - **Headings:**
   - Carpet Cleaning Mount Waverley
   - Carpet cleaning for Mount Waverley's long-settled family homes
+  - Carpet clients we help in Mount Waverley
   - About Twinkle Clean
   - Pricing and quotes
   - Frequently asked questions
@@ -261,11 +276,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 967
+- **Word count:** 1034
 - **Headings:**
   - Carpet Cleaning Noble Park
   - Bond-back carpet cleaning for Noble Park rentals
   - Carpet cleaning for Noble Park apartments and units
+  - Who trusts us with carpet in Noble Park
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -277,10 +293,11 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning oakleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 858
+- **Word count:** 908
 - **Headings:**
   - Carpet Cleaning Oakleigh
   - Carpet cleaning for Oakleigh homes and businesses
+  - The Oakleigh homes and rentals we service
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -292,13 +309,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning richmond
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 958
+- **Word count:** 1024
 - **Headings:**
   - Carpet Cleaning Richmond
   - Apartment and rental carpets across Richmond
   - Gentle care for wool carpets and rugs in period terraces
   - End-of-lease and bond-back carpet cleaning
   - How we clean your carpet
+  - Who we clean for across Richmond
   - About Twinkle Clean
   - Free quotes and pricing
   - Frequently asked questions
@@ -310,13 +328,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 950
+- **Word count:** 1025
 - **Headings:**
   - Carpet Cleaning Ringwood
   - Carpet cleaning close to home
   - The method we use
   - Older homes and delicate carpet
   - End of lease carpet cleaning
+  - Best suited to Ringwood households
   - About Twinkle Clean
   - Frequently asked questions
   - Book your Ringwood carpet clean
@@ -327,13 +346,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning rowville
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 959
+- **Word count:** 1022
 - **Headings:**
   - Carpet Cleaning Rowville
   - Carpet cleaning built for large Rowville homes
   - Pet stains and odours, treated at the source
   - How we clean your carpet
   - End of lease carpet cleaning in Rowville
+  - The households and renters we help in Rowville
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -345,13 +365,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** carpet cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1280
+- **Word count:** 1360
 - **Headings:**
   - Carpet Cleaning Services Melbourne
   - How we clean carpets
   - What we clean
   - End of lease and bond-back carpet cleaning
   - What to expect on the day
+  - Who our carpet cleaning suits
   - About Twinkle Clean
   - Pricing and free quotes
   - Suburbs we cover for carpet cleaning
@@ -364,11 +385,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1042
+- **Word count:** 1112
 - **Headings:**
   - Commercial Cleaning Bayswater: Offices Kept to One Standard
   - Office suites near working premises
   - After-hours work around a shift pattern
+  - Who books us in Bayswater
   - About Twinkle Clean
   - What a Bayswater clean costs
   - Frequently asked questions
@@ -380,11 +402,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1031
+- **Word count:** 1109
 - **Headings:**
   - Commercial Cleaning Bentleigh for Shops, Studios and Strip Traders
   - Shopfronts, floors and the parts customers notice
   - Cleaning between close and open
+  - Who we clean for in Bentleigh
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -396,11 +419,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning blackburn
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1017
+- **Word count:** 1095
 - **Headings:**
   - Commercial Cleaning Blackburn for Village Shops and Small Premises
   - Retail and shopfront cleaning in a small-footprint village centre
   - Working around short trading hours
+  - Who books us in Blackburn
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -412,11 +436,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning box hill
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1111
+- **Word count:** 1190
 - **Headings:**
   - Commercial Cleaning Box Hill: Tower Offices, Suites and Ground-Floor Tenancies
   - Working inside a tower, not just inside an office
   - After-hours work, weekends and the ground-floor tenancies
+  - Who books us in Box Hill
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -428,11 +453,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning braeside
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 851
+- **Word count:** 918
 - **Headings:**
   - Commercial Cleaning Braeside for Factories, Warehouses and Site Offices
   - An industrial suburb needs an industrial scope
   - Working around shifts, not against them
+  - Who books us in Braeside
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -444,11 +470,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning burwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1035
+- **Word count:** 1106
 - **Headings:**
   - Commercial Cleaning Burwood for Offices, Suites and Institutions
   - Office cleaning across shared-building tenancies
   - Scheduling around campus and school hours
+  - Sites we look after in Burwood
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -460,11 +487,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning camberwell
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1040
+- **Word count:** 1119
 - **Headings:**
   - Commercial Cleaning Camberwell for Professional Offices and Suites
   - Office cleaning above and behind the Burke Road strip
   - Scheduling around trams, trade and the Sunday market
+  - The Camberwell businesses we suit best
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -476,11 +504,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning carnegie
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1097
+- **Word count:** 1200
 - **Headings:**
   - Commercial Cleaning Carnegie for Shops, Cafes and Offices
   - Cleaning built around the Koornang Road trade
   - Working after close, or before you open
+  - Who we clean for in Carnegie
   - About Twinkle Clean
   - What a Carnegie clean costs
   - Frequently asked questions
@@ -492,11 +521,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 972
+- **Word count:** 1044
 - **Headings:**
   - Commercial Cleaning Caulfield for Medical, Aged Care and Care-Facing Premises
   - Why Caulfield is a care-and-services suburb, not an office district
   - Infection control, high-touch surfaces and working around people
+  - Who we clean for in Caulfield
   - About Twinkle Clean
   - How we price Caulfield sites
   - Frequently asked questions
@@ -508,12 +538,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning chadstone
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 991
+- **Word count:** 1051
 - **Headings:**
   - Commercial Cleaning Chadstone for Retail and Shopfront Sites
   - Retail gravity, and the businesses that sit around it
   - What retail and shopfront cleaning covers
   - After-hours scheduling that respects trading
+  - The Chadstone businesses we suit best
   - About Twinkle Clean
   - Pricing for Chadstone sites
   - Frequently asked questions
@@ -525,12 +556,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1172
+- **Word count:** 1227
 - **Headings:**
   - Commercial Cleaning Cheltenham: Retail Tenancies and Industrial Sites
   - Retail floors, and the Southland end of the suburb
   - The industrial belt on both edges
   - Scheduling across two councils and around your shift
+  - The Cheltenham businesses we suit best
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -542,12 +574,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning clayton
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1149
+- **Word count:** 1233
 - **Headings:**
   - Commercial Cleaning Clayton for Offices, Labs and Technical Workplaces
   - A suburb of technical workplaces
   - What we clean, zone by zone
   - Cleaning outside working hours
+  - Sites we look after in Clayton
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -559,11 +592,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning collingwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 936
+- **Word count:** 1047
 - **Headings:**
   - Commercial Cleaning Collingwood: Warehouse, Studio and Retail Sites Kept Presentable
   - Buildings that used to make things
   - Smith Street trading hours and everything around them
+  - Who we clean for in Collingwood
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -575,13 +609,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1278
+- **Word count:** 1390
 - **Headings:**
   - Commercial Cleaning Croydon: Main Street Shops to Tarralla Creek Sheds
   - A centre with nine different kinds of premises
   - Shopfronts, eateries and the strip
   - Sheds, workshops and urban services sites
   - Hours that suit a trading strip or a depot
+  - Sites we look after in Croydon
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -593,11 +628,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 999
+- **Word count:** 1052
 - **Headings:**
   - Commercial Cleaning Dandenong Factories and Offices Can Rely On
   - Warehouse and factory cleaning that respects how the site runs
   - Office cleaning inside an industrial site
+  - The Dandenong sites we suit best
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -609,11 +645,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning docklands
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 935
+- **Word count:** 1001
 - **Headings:**
   - Commercial Cleaning Docklands for Waterfront Offices and Tower Tenancies
   - Tower floors have their own rhythm
   - Working while the building is empty
+  - Sites we look after in Docklands
   - About Twinkle Clean
   - Pricing for tower tenancies
   - Frequently asked questions
@@ -625,11 +662,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning doncaster
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 996
+- **Word count:** 1054
 - **Headings:**
   - Commercial Cleaning Doncaster for Retail, Shopfronts and Offices
   - Retail and shopfront cleaning that keeps up with trade
   - Office suites, and cleaning around the trading day
+  - Who we clean for in Doncaster
   - About Twinkle Clean
   - Quoting and pricing
   - Frequently asked questions
@@ -641,12 +679,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning glen waverley
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1215
+- **Word count:** 1300
 - **Headings:**
   - Commercial Cleaning Glen Waverley for Offices and Business Suites
   - An office core that keeps getting denser
   - What an office visit actually covers
   - Access, hours and building rules
+  - Who books us in Glen Waverley
   - About Twinkle Clean
   - What a Glen Waverley clean costs
   - Frequently asked questions
@@ -658,12 +697,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning hawthorn
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1065
+- **Word count:** 1151
 - **Headings:**
   - Commercial cleaning Hawthorn offices can book around a full working day
   - Hawthorn offices sit above and behind the shopping strips
   - Consulting rooms, campus tenancies and schools each answer to a different standard
   - Getting in after hours without any drama
+  - The Hawthorn businesses we suit best
   - About Twinkle Clean
   - What a Hawthorn clean costs
   - Frequently asked questions
@@ -675,11 +715,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning kew
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1098
+- **Word count:** 1166
 - **Headings:**
   - Commercial Cleaning Kew for Medical Rooms, Schools and Professional Suites
   - Consulting rooms, allied health and aged care premises
   - Kew Junction offices, Cotham Village and school campuses
+  - Sites we look after in Kew
   - About Twinkle Clean
   - What a Kew clean costs
   - Frequently asked questions
@@ -691,12 +732,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning keysborough
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1029
+- **Word count:** 1095
 - **Headings:**
   - Commercial cleaning Keysborough shops and units can trust to be done properly
   - One suburb, three quite different working environments
   - Retail and shopfront cleaning built around trading hours
   - Front offices attached to Keysborough warehouses
+  - Who we clean for in Keysborough
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -708,12 +750,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning malvern
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1048
+- **Word count:** 1112
 - **Headings:**
   - Commercial cleaning Malvern retailers and practices can rely on week to week
   - Two strips, two rhythms
   - Cleaning old surfaces without wearing them out
   - Professional suites and consulting rooms above the shops
+  - Who books us across Malvern's strips
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -725,11 +768,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning melbourne cbd
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 974
+- **Word count:** 1045
 - **Headings:**
   - Commercial Cleaning Melbourne CBD
   - Office cleaning built around an after-hours window
   - Towers, multi-tenant floors and end-of-trip facilities
+  - The Melbourne CBD tenants we suit best
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -741,12 +785,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning mitcham
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1025
+- **Word count:** 1114
 - **Headings:**
   - Commercial cleaning Mitcham traders can fit around an early-morning rush
   - A compact precinct with a station feeding it
   - Food and hospitality tenancies carry the heaviest load
   - Offices, clinics and the smaller tenancies behind the strip
+  - Who we work with in Mitcham
   - About Twinkle Clean
   - What a Mitcham clean costs
   - Frequently asked questions
@@ -758,13 +803,14 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1126
+- **Word count:** 1198
 - **Headings:**
   - Commercial cleaning Moorabbin warehouses and factories can schedule around production
   - The eastern industrial belt and the Cochranes Road corridor
   - Concrete, dust migration and the front office problem
   - Amenities and lunchrooms are what your own crew judges
   - Retail, civic and training premises on the western side
+  - Who books us in Moorabbin
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -776,12 +822,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning mount waverley
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1134
+- **Word count:** 1218
 - **Headings:**
   - Commercial cleaning Mount Waverley offices and business parks can plan around
   - The office corridor along Ferntree Gully, Ricketts and Forster Roads
   - Village shopfronts, Pinewood traders and the schools
   - Out-of-hours access and building rules
+  - The Mount Waverley sites we suit best
   - About Twinkle Clean
   - What a Mount Waverley clean costs
   - Frequently asked questions
@@ -793,11 +840,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning mulgrave
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1009
+- **Word count:** 1051
 - **Headings:**
   - Commercial cleaning Mulgrave retailers and traders can trade around
   - Shopfront and tenancy work around Waverley Gardens
   - Freeway-side sites and the early-morning window
+  - Sites we look after around Mulgrave
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -809,11 +857,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1060
+- **Word count:** 1132
 - **Headings:**
   - Commercial cleaning Noble Park businesses can arrange without the runaround
   - A suburb where offices sit next to workshops and homes
   - Clear communication and a quote you can actually read
+  - The businesses that book us in Noble Park
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -825,11 +874,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning nunawading
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1040
+- **Word count:** 1125
 - **Headings:**
   - Commercial cleaning Nunawading showrooms, shops and counters can rely on
   - Large retail floors and public-facing counters
   - Warehouse-shell retail and the old industrial footprint
+  - The kinds of Nunawading sites we clean
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -841,11 +891,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning oakleigh
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1092
+- **Word count:** 1147
 - **Headings:**
   - Commercial cleaning Oakleigh offices above the old high street
   - Nine blocks of older commercial buildings
   - The dining strip and after-hours access
+  - The Oakleigh businesses we suit best
   - About Twinkle Clean
   - What an Oakleigh clean costs
   - Frequently asked questions
@@ -857,11 +908,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning port melbourne
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 934
+- **Word count:** 994
 - **Headings:**
   - Commercial Cleaning Port Melbourne for Cafes, Restaurants and Trade Sites
   - Bay Street after last service
   - Beyond the strip: Fishermans Bend and the port side
+  - Who books us in Port Melbourne
   - About Twinkle Clean
   - What a Port Melbourne clean costs
   - Frequently asked questions
@@ -873,11 +925,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning richmond
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1081
+- **Word count:** 1132
 - **Headings:**
   - Commercial Cleaning Richmond Offices and Converted Warehouse Workspaces Can Count On
   - Offices built inside old industrial shells
   - Cleaning around a working week that starts early
+  - Who we clean for in Richmond's converted workspaces
   - About Twinkle Clean
   - What a Richmond clean costs
   - Frequently asked questions
@@ -889,11 +942,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1019
+- **Word count:** 1086
 - **Headings:**
   - Commercial Cleaning Ringwood Businesses Can Get To Quickly
   - Retail and shopfront cleaning around the activity centre
   - Office, civic and school sites along Maroondah Highway
+  - The site types we look after in Ringwood
   - About Twinkle Clean
   - Pricing
   - Frequently asked questions
@@ -905,11 +959,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning rowville
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1059
+- **Word count:** 1137
 - **Headings:**
   - Commercial Cleaning Rowville Workshops, Warehouses and Estate Offices Rely On
   - Workshop floors, amenities and the front office
   - Fitting a clean around production hours
+  - Businesses that book us in Rowville
   - About Twinkle Clean
   - How we quote
   - Frequently asked questions
@@ -921,11 +976,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning scoresby
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1098
+- **Word count:** 1151
 - **Headings:**
   - Commercial Cleaning Scoresby Shops, Counters and Corporate Sites Book Regularly
   - Shopfronts, floors and the customer path
   - Trading hours, corporate sites and access
+  - Who we clean for around Scoresby
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -937,11 +993,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning south melbourne
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1152
+- **Word count:** 1215
 - **Headings:**
   - Commercial Cleaning South Melbourne Offices, Studios and Showrooms Depend On
   - Older buildings, modern office standards
   - Working with a district that trades all week
+  - Sites we look after in South Melbourne
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -953,11 +1010,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning south yarra
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 994
+- **Word count:** 1058
 - **Headings:**
   - Commercial Cleaning South Yarra Shopfronts, Studios and Offices Depend On
   - Retail and shopfront cleaning on the strips
   - Office cleaning above and behind the retail
+  - Who trusts us in South Yarra
   - About Twinkle Clean
   - How we price it
   - Frequently asked questions
@@ -969,11 +1027,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning southbank
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1159
+- **Word count:** 1229
 - **Headings:**
   - Commercial Cleaning Southbank Tower Tenancies and Corporate Floors Trust
   - Floor plates, lobbies and meeting rooms
   - Building access, security and after-hours work
+  - Who typically books us in Southbank
   - About Twinkle Clean
   - Pricing and free quotes
   - Frequently asked questions
@@ -985,11 +1044,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning springvale
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 917
+- **Word count:** 1001
 - **Headings:**
   - Commercial Cleaning Springvale for Shops, Food Premises and Small Business Sites
   - Retail and shopfront cleaning built around long trading hours
   - Offices and the scattered light industrial units
+  - Who Twinkle Clean serves in Springvale
   - About Twinkle Clean
   - What it costs
   - Frequently asked questions
@@ -1001,11 +1061,12 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning wantirna
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1119
+- **Word count:** 1167
 - **Headings:**
   - Commercial Cleaning Wantirna Shops, Clinics and Small Business Premises Book
   - Front of house, back of house
   - Cleaning that fits around opening hours
+  - Sites we look after in Wantirna
   - About Twinkle Clean
   - What a Wantirna clean costs
   - Frequently asked questions
@@ -1017,12 +1078,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1478
+- **Word count:** 1535
 - **Headings:**
   - Commercial Cleaning Services Melbourne
   - Industries we clean across Melbourne
   - What a commercial clean covers
   - How we keep the standard consistent
+  - Who we work with
   - About Twinkle Clean
   - How pricing and quotes work
   - Areas we service across Melbourne
@@ -1035,12 +1097,13 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - **Primary keyword:** commercial cleaning company melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 825
+- **Word count:** 875
 - **Headings:**
   - A Commercial Cleaning Company Melbourne Businesses Keep Calling Back
   - What we clean
   - How we work
   - Who turns up
+  - Who we work with
   - About Twinkle Clean
   - Pricing and quotes
   - Frequently asked questions

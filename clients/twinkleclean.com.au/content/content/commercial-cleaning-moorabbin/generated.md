@@ -10,17 +10,43 @@ The building stock varies enormously. A 1970s tilt-slab shed with a mezzanine of
 
 ## Concrete, dust migration and the front office problem
 
-Almost every industrial site we quote in Moorabbin has the same underlying issue: dust moves from the warehouse toward the office, and it moves constantly. We treat those as separate zones with separate methods. Warehouse concrete gets floor scrubbers rather than mops, with attention to the roller-door threshold and the main forklift runs where marking concentrates. Racking uprights, ledges and the tops of partitions are dusted on a rotating cycle so high-level build-up never gets away from you.
+Almost every industrial site we quote in Moorabbin has the same underlying issue: dust moves from the warehouse toward the office, and it moves constantly. We treat those as separate zones with separate methods.
 
-The office end gets commercial vacuums with proper filtration, workstations wiped down, internal glass and partitions finished with professional window-cleaning tools, and floors polished where the surface calls for it. Colour-coded microfibre cloths and mops keep amenities entirely separate from the office and lunchroom.
+Warehouse concrete gets floor scrubbers rather than mops, with attention to the roller-door threshold and the main forklift runs where marking concentrates. Racking uprights, ledges and the tops of partitions are dusted on a rotating cycle so high-level build-up never gets away from you.
+
+The office end gets:
+
+- Commercial vacuums with proper filtration
+- Workstations wiped down
+- Internal glass and partitions finished with professional window-cleaning tools
+- Floors polished where the surface calls for it
+
+Colour-coded microfibre cloths and mops keep amenities entirely separate from the office and lunchroom.
 
 ## Amenities and lunchrooms are what your own crew judges
 
-The floor is what a visitor sees, but the bathrooms and the lunchroom are what your workforce talks about, and they quietly decide whether people believe the site is well run. We put them on a fixed checklist with a documented order of work: bins, benches, sinks, appliances, tables, then floors, with amenities cleaned last using dedicated equipment and hospital-grade disinfectants chosen to suit them. Our cleaners are police-checked and trained in workplace and chemical safety, which matters on a site with an inductions process and a safety officer. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method is on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+The floor is what a visitor sees, but the bathrooms and the lunchroom are what your workforce talks about, and they quietly decide whether people believe the site is well run. We put them on a fixed checklist with a documented order of work:
+
+- Bins
+- Benches
+- Sinks
+- Appliances
+- Tables
+- Floors
+
+Amenities are cleaned last, using dedicated equipment and hospital-grade disinfectants chosen to suit them. Our cleaners are police-checked and trained in workplace and chemical safety, which matters on a site with an inductions process and a safety officer. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method is on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Retail, civic and training premises on the western side
 
 Not all of the suburb is industrial. The Moorabbin Major Activity Centre runs along Nepean Highway around the station, and the suburb also holds Kingston City Hall, the Holmesglen TAFE Moorabbin campus on South Road and the St Kilda Football Club base at Moorabbin Oval. Those premises need scheduling that respects public access and teaching hours, a different constraint from a production line.
+
+## Who books us in Moorabbin
+
+Moorabbin commercial cleaning suits:
+
+- Warehouse and factory operators across the eastern industrial belt, including Cochranes Road corridor tenancies
+- The office component sitting inside an industrial site, cleaned to a different standard to the shed
+- Retail, civic and training premises on the suburb's western side working around public access and teaching hours
 
 ## About Twinkle Clean
 
@@ -28,7 +54,15 @@ Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself, w
 
 ## What it costs
 
-Industrial pricing runs on different variables to office pricing. Warehouse square metreage matters, but so does ceiling height, the amount of racking, how much floor is genuinely accessible when we attend, whether there is a mezzanine, and how heavy the debris load is from your process. We price each site individually against those factors, quotes are free, and rates stay competitive with the other commercial cleaners Moorabbin businesses shortlist. There is no published flat rate, because the same floor area can be double the labour depending on what you manufacture or store. We work without lock-in contracts.
+Industrial pricing runs on different variables to office pricing. Warehouse square metreage matters, but so does:
+
+- Ceiling height
+- The amount of racking
+- How much floor is genuinely accessible when we attend
+- Whether there is a mezzanine
+- How heavy the debris load is from your process
+
+We price each site individually against those factors, quotes are free, and rates stay competitive with the other commercial cleaners Moorabbin businesses shortlist. There is no published flat rate, because the same floor area can be double the labour depending on what you manufacture or store. We work without lock-in contracts.
 
 ## Frequently asked questions
 

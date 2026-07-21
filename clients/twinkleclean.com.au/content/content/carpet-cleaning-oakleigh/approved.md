@@ -4,9 +4,21 @@ A family home works its carpet hard. The lounge where everyone lands after schoo
 
 ## Carpet cleaning for Oakleigh homes and businesses
 
-Oakleigh is one of Melbourne's older south-eastern centres, with a large historic commercial precinct of some nine city blocks of period shopfronts, banks and retail buildings, and a strong Greek community that has shaped its cafes and eateries for generations. That mix means our local work tends to run across two kinds of carpet. In established family homes it is the high-traffic lounges and hallways, the pet marks and the everyday wear that a vacuum stops touching. Along the Oakleigh shopping and dining strip it is commercial carpet in offices, shops and eateries that has to stay presentable through constant foot traffic. We bring the same equipment and the same care to a single lounge room as we do to a busy shopfront floor.
+Oakleigh is one of Melbourne's older south-eastern centres, with a large historic commercial precinct of some nine city blocks of period shopfronts, banks and retail buildings, and a strong Greek community that has shaped its cafes and eateries for generations. That mix means our local work tends to run across two kinds of carpet.
 
-Our team matches the method to the carpet rather than running one setting over everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Stubborn marks, pet odours and worn traffic lanes each get their own targeted treatment instead of a single hopeful pass. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+In established family homes it is the high-traffic lounges and hallways, the pet marks and the everyday wear that a vacuum stops touching. Along the Oakleigh shopping and dining strip it is commercial carpet in offices, shops and eateries that has to stay presentable through constant foot traffic. We bring the same equipment and the same care to a single lounge room as we do to a busy shopfront floor.
+
+Our team matches the method to the carpet rather than running one setting over everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked.
+
+Stubborn marks, pet odours and worn traffic lanes each get their own targeted treatment instead of a single hopeful pass. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
+## The Oakleigh homes and rentals we service
+
+Carpet cleaning in Oakleigh suits:
+
+- Established family homes with high-traffic lounges, hallways and pet marks
+- Households wanting anything from a single room to a whole-house refresh
+- Offices, shops and eateries along the Oakleigh dining and shopping strip
 
 ## About Twinkle Clean
 
@@ -14,7 +26,13 @@ Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he r
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the details: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off refresh at home or a regular schedule for a workplace. You will know the scope and the price before any work starts.
+Carpet cleaning is priced on the job, so the fairest figure comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off refresh at home or a regular schedule for a workplace. You will know the scope and the price before any work starts.
 
 ## Frequently asked questions
 

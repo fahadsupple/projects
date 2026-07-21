@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-20T07:25:11Z_
+_Rebuilt: 2026-07-21T00:47:49Z_
 
 ## Snapshot
 
@@ -29,9 +29,6 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 
 ## Recent events (last 10)
 
-- 2026-07-20T06:00:43.631Z  `status_changed`  cluster:service-location-commercial-cleaning  (success)
-- 2026-07-20T06:21:49.072Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-20T06:22:21.051Z  `entries_approved`  cluster:service-location-commercial-cleaning  (success)
 - 2026-07-20T06:35:26.906Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-20T06:36:05.767Z  `audit_gate_blocked`  entry:homepage  (halted)
 - 2026-07-20T06:36:31.083Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
@@ -39,4 +36,7 @@ _Rebuilt: 2026-07-20T07:25:11Z_
 - 2026-07-20T06:37:12.514Z  `entry_generated`  entry:homepage  (success)
 - 2026-07-20T07:20:48.675Z  `coherence_sweep`  project:twinkleclean.com.au  (success)
 - 2026-07-20T07:25:03.245Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-20T07:25:11.656Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T00:41:51.861Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T00:44:41.221Z  `readability_audience_pass`  project:twinkleclean.com.au  (success)
 

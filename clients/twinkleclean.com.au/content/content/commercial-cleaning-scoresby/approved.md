@@ -8,15 +8,35 @@ Scoresby, postcode 3179, sits in the City of Knox and has two distinct commercia
 
 Retail and shopfront cleaning is largely about the surfaces customers touch and look at. Entry doors and window glass get cleaned with professional window-cleaning tools rather than a spray bottle and paper towel, which is what leaves the streaks you notice at four in the afternoon when the sun is low. Floors are matched to the surface: vinyl and tile respond to machine scrubbing and periodic polishing, while carpet gets commercial vacuuming with attention to the traffic lane running from the door to the counter.
 
-The counter itself, display units, shelf edges, EFTPOS terminals and door handles get wiped and disinfected, using hospital-grade disinfectants selected according to what each site requires and colour-coded microfibre cloths and mops so nothing carries from a washroom to a serving surface.
+Wiped and disinfected on every visit:
 
-Back of house matters more than most people expect, because it is where staff spend their breaks and where an inspector looks first. Storerooms, staff kitchens, washrooms and bin areas all sit in the standard scope. Where your site runs to its own written cleaning procedure, our cleaners follow that document. Shop owners checking out Bayswater as an alternative can compare our back-of-house scope on the [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
+- The counter itself
+- Display units
+- Shelf edges
+- EFTPOS terminals
+- Door handles
+
+We use hospital-grade disinfectants selected according to what each site requires, and colour-coded microfibre cloths and mops so nothing carries from a washroom to a serving surface.
+
+Back of house matters more than most people expect, because it is where staff spend their breaks and where an inspector looks first. Storerooms, staff kitchens, washrooms and bin areas all sit in the standard scope.
+
+Where your site runs to its own written cleaning procedure, our cleaners follow that document. Shop owners checking out Bayswater as an alternative can compare our back-of-house scope on the [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
 ## Trading hours, corporate sites and access
 
 Shops cannot be cleaned properly with customers walking through, so most of our retail work here happens before opening or after close. After-hours commercial cleaning is the default rather than an add-on, and our teams work seven days a week including weekends and public holidays at no extra charge, which matters when your busiest trading day is Saturday.
 
-The corporate and industrial estate side of Scoresby runs differently, usually wanting an evening clean once staff have left, coordinated with building security, swipe access and after-hours alarm procedures. Our cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which is what a facilities manager handing over access credentials wants to hear. The business carries $20 million public liability insurance and WorkCover. Our full method and equipment list are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+The corporate and industrial estate side of Scoresby runs differently, usually wanting an evening clean once staff have left, coordinated with building security, swipe access and after-hours alarm procedures. Our cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which is what a facilities manager handing over access credentials wants to hear.
+
+The business carries $20 million public liability insurance and WorkCover. Our full method and equipment list are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who we clean for around Scoresby
+
+Scoresby commercial cleaning covers:
+
+- Retail shops and services in the Scoresby village precinct
+- Corporate and industrial estate offices with staffed reception areas
+- Businesses running a shop alongside a nearby storage or distribution unit
 
 ## About Twinkle Clean
 
@@ -24,7 +44,16 @@ Twinkle Clean began in 2019 under Tom Su, who had spent years cleaning sites him
 
 ## Pricing and free quotes
 
-We price each site after seeing it. For a shop we look at floor area and surface type, how much glass there is, whether there is a staff kitchen and washroom, and your trading pattern. For a larger corporate site the number of floors, meeting rooms and washrooms drives most of the cost. Quotes are free and carry no obligation. There is no lock-in contract, so a schedule can be changed or paused, and one-off jobs are welcome on their own. Rates are competitive against other commercial cleaners Scoresby businesses will compare us with, and prices are set per site rather than to a single flat rate.
+We price each site after seeing it. For a shop we look at:
+
+- Floor area and surface type
+- How much glass there is
+- Whether there is a staff kitchen and washroom
+- Your trading pattern
+
+For a larger corporate site the number of floors, meeting rooms and washrooms drives most of the cost.
+
+Quotes are free and carry no obligation. There is no lock-in contract, so a schedule can be changed or paused, and one-off jobs are welcome on their own. Rates are competitive against other commercial cleaners Scoresby businesses will compare us with, and prices are set per site rather than to a single flat rate.
 
 ## Frequently asked questions
 

@@ -6,7 +6,18 @@ A big retail floor is unforgiving. Every scuff on a polished aisle, every finger
 
 Nunawading carries an unusually commercial character for an eastern suburb. Alongside its large retail holdings it is home to the City of Whitehorse main office, and a suburb with a council headquarters in it has a lot of premises where the public walks up to a counter and forms an opinion.
 
-Those two settings need different handling. Large-format retail is fundamentally a floor-care problem: long runs of hard flooring that need machine scrubbing and polishing rather than mopping, entrance zones that collect grit from the car park, and glass that has to be done at a height customers actually look at. Counter-based and public-facing offices are a touch-point problem: reception desks, screens, seating in waiting areas, door furniture and washrooms that are used by visitors rather than staff, all wiped down with hospital-grade disinfectant chosen to suit the surfaces.
+Those two settings need different handling. Large-format retail is fundamentally a floor-care problem:
+
+- Long runs of hard flooring that need machine scrubbing and polishing rather than mopping
+- Entrance zones that collect grit from the car park
+- Glass that has to be done at a height customers actually look at
+
+Counter-based and public-facing offices are a touch-point problem, all wiped down with hospital-grade disinfectant chosen to suit the surfaces:
+
+- Reception desks and screens
+- Seating in waiting areas
+- Door furniture
+- Washrooms used by visitors rather than staff
 
 Both get commercial vacuums, scrubbers and polishers brought to site, plus professional window-cleaning tools for internal glass and entry doors. Both get a written checklist agreed before the first shift, so nobody is guessing whether the back corridor was in scope. Retailers weighing up Blackburn instead will find the identical written-checklist process on our [commercial cleaning in Blackburn](https://www.twinkleclean.com.au/commercial-cleaning-blackburn/) page.
 
@@ -14,9 +25,23 @@ Both get commercial vacuums, scrubbers and polishers brought to site, plus profe
 
 Nunawading's commercial stock owes a lot to its manufacturing past. The suburb was home to a large Pacific Brands clothing factory and a brick factory, and the pattern of big, deep buildings on generous sites has outlasted the industries that built them. A good deal of today's retail and trade counter space sits in exactly that kind of shell.
 
-Those buildings clean differently from a purpose-built shop. Ceilings are high enough that dust accumulates on beams, ledges and light fittings well out of sightline until it drops. Concrete and sealed floors respond to a scrubber and a polish and shrug off a mop. Roller-door thresholds and loading areas track dirt straight onto the retail floor unless the entry zone is treated as its own task. We scope those areas explicitly rather than folding them into a general floor line.
+Those buildings clean differently from a purpose-built shop:
+
+- Ceilings are high enough that dust accumulates on beams, ledges and light fittings well out of sightline until it drops
+- Concrete and sealed floors respond to a scrubber and a polish and shrug off a mop
+- Roller-door thresholds and loading areas track dirt straight onto the retail floor unless the entry zone is treated as its own task
+
+We scope those areas explicitly rather than folding them into a general floor line.
 
 Retail and shopfront cleaning here runs early morning, evening, or as after-hours commercial cleaning where a site would rather have nobody working during trade. Weekends and public holidays carry no extra charge, which is useful in a retail suburb where Saturday is the biggest day of the week. You can see how this fits our wider service on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## The kinds of Nunawading sites we clean
+
+Commercial cleaning in Nunawading suits a mix of retail and office premises:
+
+- Large-format retail floors and showrooms, with machine floor care sized to long runs of hard flooring
+- Counter-based and public-facing offices, including council premises, given touch-point cleaning for reception desks, screens and washrooms
+- Warehouse-shell retail and trade counter sites in the old industrial footprint, scoped around high ceilings, sealed floors and loading thresholds
 
 ## About Twinkle Clean
 
@@ -24,7 +49,14 @@ Twinkle Clean began in 2019 under Tom Su, a cleaner by trade before he was a bus
 
 ## What it costs
 
-Nothing about a price for a 900 square metre showroom transfers usefully to a price for a three-room office above a shop, so we quote per site instead of publishing a rate. The figure comes from floor area, the mix of hard floor and carpet, how many washrooms and kitchens are involved, and the visit frequency you want. Quotes are free, the rate stays competitive for the eastern suburbs, and we operate without lock-in contracts. Book us once or put us on a standing roster.
+Nothing about a price for a 900 square metre showroom transfers usefully to a price for a three-room office above a shop, so we quote per site instead of publishing a rate. The figure comes from:
+
+- Floor area
+- The mix of hard floor and carpet
+- How many washrooms and kitchens are involved
+- The visit frequency you want
+
+Quotes are free, the rate stays competitive for the eastern suburbs, and we operate without lock-in contracts. Book us once or put us on a standing roster.
 
 ## Frequently asked questions
 

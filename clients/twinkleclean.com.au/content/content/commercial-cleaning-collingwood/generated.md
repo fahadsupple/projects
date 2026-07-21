@@ -4,11 +4,21 @@ A converted warehouse looks fantastic in photographs and behaves very differentl
 
 ## Buildings that used to make things
 
-Collingwood spent most of its life as an industrial suburb, and the building stock still says so. Former warehouses and factories now hold creative-arts businesses, studios, small manufacturers and apartments, and each conversion carries its own cleaning problem. Roller-door thresholds drag grit inside. Polished or sealed concrete needs a scrubber rather than a mop and bucket if it is going to keep an even finish. Original brickwork and high open ceilings mean dust settles in places a general tidy-up never touches.
+Collingwood spent most of its life as an industrial suburb, and the building stock still says so. Former warehouses and factories now hold creative-arts businesses, studios, small manufacturers and apartments, and each conversion carries its own cleaning problem:
+
+- Roller-door thresholds drag grit inside all day.
+- Polished or sealed concrete needs a scrubber rather than a mop and bucket to keep an even finish.
+- Original brickwork and high open ceilings collect dust in places a general tidy-up never touches.
 
 Our crews work these sites with commercial vacuum cleaners, floor scrubbers and polishers rather than domestic gear, because the square metreage and the surfaces demand it. Colour-coded microfibre cloths and mops keep kitchen, bathroom and workspace equipment separate, which matters more in an open-plan warehouse where a single bench serves as lunch table, packing station and meeting spot.
 
-For sites that still run a production or dispatch function, warehouse and factory cleaning covers the parts a general office clean skips: racking bays, loading areas, amenities blocks and the walkways between them. We follow detailed cleaning checklists and site-specific procedures so the same areas get the same attention regardless of which cleaner is rostered. We also run a dedicated [commercial cleaning in Richmond](https://www.twinkleclean.com.au/commercial-cleaning-richmond/) page, for owners comparing a similar warehouse conversion there.
+For sites that still run a production or dispatch function, warehouse and factory cleaning covers the parts a general office clean skips:
+
+- Racking bays and storage runs.
+- Loading areas and roller-door thresholds.
+- Amenities blocks and the walkways between them.
+
+We follow detailed cleaning checklists and site-specific procedures so the same areas get the same attention regardless of which cleaner is rostered. We also run a dedicated [commercial cleaning in Richmond](https://www.twinkleclean.com.au/commercial-cleaning-richmond/) page, for owners comparing a similar warehouse conversion there.
 
 ## Smith Street trading hours and everything around them
 
@@ -16,7 +26,22 @@ Smith Street is a retail and nightlife strip, which sets the clock for a lot of 
 
 After-hours commercial cleaning solves this. We schedule early mornings, evenings or overnight so the work happens in an empty building and staff arrive to a finished result. Cleaners are police-checked and carry keys or access codes under agreed arrangements, and we work seven days a week including weekends and public holidays at no extra charge, which suits venues that trade hardest exactly when other providers stop answering.
 
-The office cleaning that Collingwood studios and agencies book usually runs to desks, meeting rooms, kitchens, bathrooms, glass and internal waste, with hospital-grade disinfectants selected according to what the site actually needs. Where it is appropriate to the surface and the space, we use environmentally conscious products and methods. Full detail on our method and equipment sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+The office cleaning that Collingwood studios and agencies book usually runs to:
+
+- Desks, meeting rooms and shared work areas.
+- Kitchens, bathrooms and staff amenities.
+- Internal glass, waste collection and high-touch surfaces.
+
+Those surfaces are cleaned with hospital-grade disinfectants selected according to what the site actually needs, and where it is appropriate to the surface and the space, we use environmentally conscious products and methods. Full detail on our method and equipment sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who we clean for in Collingwood
+
+Collingwood's mix of converted industrial space and a busy retail strip means our commercial work here suits a particular set of businesses:
+
+- Creative studios, agencies and small manufacturers working out of warehouse conversions.
+- Sites still running a production or dispatch function, with racking, loading areas and amenities.
+- Smith Street shopfronts and hospitality venues that need the work done outside trading hours.
+- Office tenancies wanting a consistent, checklist-based clean rather than a quick tidy-up.
 
 ## About Twinkle Clean
 

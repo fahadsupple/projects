@@ -4,17 +4,57 @@ A shopfront on a busy eating strip is judged in about three seconds, from the fo
 
 ## Cleaning built around the Koornang Road trade
 
-Koornang Road between Dandenong Road and Neerim Road is the reason most people come to Carnegie. It is a genuine eat street, with cafes and restaurants sitting shoulder to shoulder with retail, and the whole strip has been a substantial commercial area from the 1920s. That history shows up in the buildings. Narrow frontages, older tiled floors, awnings that collect grime, back lanes shared between several tenancies. None of that suits a one-size vacuum-and-go approach.
+Koornang Road between Dandenong Road and Neerim Road is the reason most people come to Carnegie. It is a genuine eat street, with cafes and restaurants sitting shoulder to shoulder with retail, and the whole strip has been a substantial commercial area from the 1920s.
 
-What food-adjacent tenancies need is a routine that gets the greasy surfaces properly, not just the visible ones. That means degreasing the front-of-house floor rather than mopping over it, working the grout lines, wiping menu boards and counter edges, and giving the entry glass a streak-free finish with proper window-cleaning tools instead of a spray bottle and paper towel. Bins and the area around them get attention every visit, because a back-of-house smell finds its way to the dining room faster than owners expect.
+That history shows up in the buildings:
 
-For the retail tenancies along the same strip, retail and shopfront cleaning is mostly about the parts customers touch and the parts they see from outside. Fitting-room floors and mirrors, counters, display glass, door frames, and the customer toilet if there is one. Shops weighing us up against a provider on a neighbouring strip can read the equivalent breakdown on our [commercial cleaning in Bentleigh](https://www.twinkleclean.com.au/commercial-cleaning-bentleigh/) page.
+- Narrow frontages
+- Older tiled floors
+- Awnings that collect grime
+- Back lanes shared between several tenancies
+
+None of that suits a one-size vacuum-and-go approach.
+
+What food-adjacent tenancies need is a routine that gets the greasy surfaces properly, not just the visible ones. That means:
+
+- Degreasing the front-of-house floor rather than mopping over it
+- Working the grout lines
+- Wiping menu boards and counter edges
+- Giving the entry glass a streak-free finish with proper window-cleaning tools instead of a spray bottle and paper towel
+
+Bins and the area around them get attention every visit, because a back-of-house smell finds its way to the dining room faster than owners expect.
+
+For the retail tenancies along the same strip, retail and shopfront cleaning is mostly about the parts customers touch and the parts they see from outside:
+
+- Fitting-room floors and mirrors
+- Counters
+- Display glass
+- Door frames
+- The customer toilet, if there is one
+
+Shops weighing us up against a provider on a neighbouring strip can read the equivalent breakdown on our [commercial cleaning in Bentleigh](https://www.twinkleclean.com.au/commercial-cleaning-bentleigh/) page.
 
 ## Working after close, or before you open
 
-Most Carnegie businesses on the strip cannot have cleaners moving through the floor while customers are seated. Our teams work after-hours commercial cleaning shifts as a matter of course, and they also cover early morning starts where a cafe would rather open onto a finished room than close onto one. Because we operate seven days a week including weekends and public holidays at no extra charge, a Sunday trading pattern is a scheduling detail rather than a surcharge conversation. The nearby Monash University Caulfield campus brings a large student population through the area, and businesses near the station tell us weekday evenings and weekend afternoons are heaviest, so we set the clean to land after those peaks.
+Most Carnegie businesses on the strip cannot have cleaners moving through the floor while customers are seated. Our teams work after-hours commercial cleaning shifts as a matter of course, and they also cover early morning starts where a cafe would rather open onto a finished room than close onto one.
 
-Away from the strip, office cleaning Carnegie clients ask for tends to sit above the shops or in the professional suites through the side streets. Those sites get desks and shared surfaces wiped with hospital-grade disinfectants chosen for the site, colour-coded microfibre cloths and mops so kitchen and washroom equipment never crosses over, and kitchens and bathrooms restocked. On medical or allied health sites we clean to the practice's own written procedure. Our full method, equipment list and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Because we operate seven days a week including weekends and public holidays at no extra charge, a Sunday trading pattern is a scheduling detail rather than a surcharge conversation. The nearby Monash University Caulfield campus brings a large student population through the area, and businesses near the station tell us weekday evenings and weekend afternoons are heaviest, so we set the clean to land after those peaks.
+
+Away from the strip, office cleaning Carnegie clients ask for tends to sit above the shops or in the professional suites through the side streets. Those sites get:
+
+- Desks and shared surfaces wiped with hospital-grade disinfectants chosen for the site
+- Colour-coded microfibre cloths and mops so kitchen and washroom equipment never crosses over
+- Kitchens and bathrooms restocked
+
+On medical or allied health sites we clean to the practice's own written procedure. Our full method, equipment list and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who we clean for in Carnegie
+
+Commercial cleaning in Carnegie suits a mix of Koornang Road and side-street businesses:
+
+- Cafes and restaurants along the strip, with degreasing, grout work and bin-area attention scheduled after service or before opening
+- Retail tenancies on the strip, with counters, display glass and fitting rooms kept to a customer-ready standard
+- Offices and professional suites above the shops or in the side streets, including medical and allied health sites cleaned to their own written procedure
 
 ## About Twinkle Clean
 
@@ -22,7 +62,17 @@ Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before
 
 ## What a Carnegie clean costs
 
-Pricing is worked out site by site. A 40-seat restaurant with a commercial kitchen and a three-room office suite are different jobs, and quoting them off a flat rate would only mean one of you overpays. We look at floor area, surface types, washrooms, frequency and the hours we are working, then give you a written figure. Quotes are free. One-off cleans, weekly, or six nights a week are all available, and we work without lock-in contracts, so a schedule that stops suiting you can change.
+Pricing is worked out site by site. A 40-seat restaurant with a commercial kitchen and a three-room office suite are different jobs, and quoting them off a flat rate would only mean one of you overpays.
+
+We look at a few variables, then give you a written figure:
+
+- Floor area
+- Surface types
+- Washrooms
+- Frequency
+- The hours we are working
+
+Quotes are free. One-off cleans, weekly, or six nights a week are all available, and we work without lock-in contracts, so a schedule that stops suiting you can change.
 
 ## Frequently asked questions
 

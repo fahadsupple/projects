@@ -8,13 +8,33 @@ This is Richmond in the City of Yarra, postcode 3121, about three kilometres eas
 
 Converted warehouse offices have their own quirks. Mezzanine edges and steel balustrades shed dust onto desks below, so we work top down rather than floor first. Exposed ductwork and beam ledges get scheduled attention rather than being left until someone notices a grey line along a girder. Where the floor is sealed concrete or timber, we use commercial machines suited to the surface.
 
-The desk-level work is standard and it still has to be right: bins emptied, desks and shared benches wiped, kitchens reset, glass partitions cleared of handprints, washrooms restocked and disinfected. We use colour-coded microfibre cloths and mops so a cloth from a washroom never turns up on a kitchen bench, and hospital-grade disinfectants chosen to suit what each site actually needs. Where a shared stairwell, lobby or entry mat falls inside your lease, tell us and we will build it into the run. Collingwood businesses working through comparable industrial conversions have their own [commercial cleaning in Collingwood](https://www.twinkleclean.com.au/commercial-cleaning-collingwood/) page describing the same top-down method.
+The desk-level work is standard and it still has to be right:
+
+- Bins emptied
+- Desks and shared benches wiped
+- Kitchens reset
+- Glass partitions cleared of handprints
+- Washrooms restocked and disinfected
+
+We use colour-coded microfibre cloths and mops so a cloth from a washroom never turns up on a kitchen bench, and hospital-grade disinfectants chosen to suit what each site actually needs.
+
+Where a shared stairwell, lobby or entry mat falls inside your lease, tell us and we will build it into the run. Collingwood businesses working through comparable industrial conversions have their own [commercial cleaning in Collingwood](https://www.twinkleclean.com.au/commercial-cleaning-collingwood/) page describing the same top-down method.
 
 ## Cleaning around a working week that starts early
 
 Richmond keeps long hours. Retail along Bridge Road and Victoria Street opens early, hospitality runs late, and offices in between want a clean space at the start of the day without a vacuum running through a client presentation. After-hours commercial cleaning solves most of that, and our teams work seven days a week including weekends and public holidays at no extra charge, so an evening or Sunday run costs the same as a Wednesday one.
 
-Access is the other Richmond constraint. Street parking is tight and many converted buildings have narrow service entries, coded doors or one freight lift shared by every tenant. We sort all of that before the first clean rather than discovering it on the night. Our cleaners are police-checked and trained in workplace and chemical safety, which matters when they hold keys to your premises, and the business carries $20 million public liability insurance plus WorkCover. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Access is the other Richmond constraint. Street parking is tight and many converted buildings have narrow service entries, coded doors or one freight lift shared by every tenant. We sort all of that before the first clean rather than discovering it on the night.
+
+Our cleaners are police-checked and trained in workplace and chemical safety, which matters when they hold keys to your premises, and the business carries $20 million public liability insurance plus WorkCover. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who we clean for in Richmond's converted workspaces
+
+We're a good fit for:
+
+- Studios and offices inside converted warehouse buildings
+- Small offices above shops on Bridge Road and Victoria Street
+- Businesses combining a working office with a customer-facing showroom
 
 ## About Twinkle Clean
 
@@ -22,7 +42,14 @@ Twinkle Clean was started in 2019 by Tom Su, who was a cleaner by trade well bef
 
 ## What a Richmond clean costs
 
-Pricing is worked out per site, because a 60 square metre studio above a shop and a two-level converted warehouse are not the same job. We look at floor area, surface types, how many washrooms and kitchens there are, and how often you want us. Quotes are free with no obligation to proceed. We work without lock-in contracts, so you can run a weekly schedule, book a one-off detail before an event, or start with a trial clean. Our rates stay competitive against other commercial cleaners Richmond businesses will be quoting, and each site is priced individually rather than to a flat rate.
+Pricing is worked out per site, because a 60 square metre studio above a shop and a two-level converted warehouse are not the same job. We look at:
+
+- Floor area
+- Surface types
+- How many washrooms and kitchens there are
+- How often you want us
+
+Quotes are free with no obligation to proceed. We work without lock-in contracts, so you can run a weekly schedule, book a one-off detail before an event, or start with a trial clean. Our rates stay competitive against other commercial cleaners Richmond businesses will be quoting, and each site is priced individually rather than to a flat rate.
 
 ## Frequently asked questions
 

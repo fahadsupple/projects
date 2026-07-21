@@ -6,21 +6,47 @@ Two very different cleaning problems sit inside the one suburb here. On one side
 
 Westfield Southland is the retail anchor for this part of Melbourne, and the trading pattern of everything around it follows the centre. Weekends are heavy, school holidays heavier again, and the standard a customer expects from a shop in Cheltenham is set by the centre next door whether you trade inside it or not.
 
-Retail and shopfront cleaning here is largely a floors and glass job done properly. Hard floors get scrubbed rather than smeared, which is the difference between a floor that looks clean under the ceiling lights and one that only looks clean at night. Entry and display glass are done with professional window-cleaning tools so no film is left in the corners. Counters, handrails, fitting rooms, mirrors and the customer washroom are worked through every visit. Where a tenancy has a food component, we degrease rather than just wipe, and the bin area is treated as part of the clean.
+Retail and shopfront cleaning here is largely a floors and glass job done properly:
+
+- Hard floors scrubbed rather than smeared, the difference between a floor that looks clean under the ceiling lights and one that only looks clean at night
+- Entry and display glass done with professional window-cleaning tools so no film is left in the corners
+- Counters, handrails, fitting rooms, mirrors and the customer washroom worked through every visit
+
+Where a tenancy has a food component, we degrease rather than just wipe, and the bin area is treated as part of the clean.
 
 ## The industrial belt on both edges
 
-Cheltenham has a large industrial area along its eastern edge and a smaller one at the far western edge, and those sites are a genuinely different job. The floor is concrete or epoxy, not carpet. The dust load is heavier and finer. The amenities block gets used by people coming off physical work, which puts a much bigger demand on washrooms and the crib room than an equivalent headcount in an office would.
+Cheltenham has a large industrial area along its eastern edge and a smaller one at the far western edge, and those sites are a genuinely different job. The floor is concrete or epoxy, not carpet.
 
-So we separate the areas properly. Warehouse and workshop floors are machine-swept or scrubbed on the frequency the traffic justifies. Office and administration space in the same building is cleaned as office space, with its own equipment, so warehouse grit is never carried onto the carpet. Colour-coded microfibre cloths and mops keep amenities, kitchen and general surfaces apart. Staff lockers, lunch rooms and first aid rooms are listed individually on the checklist so nothing gets assumed. The same office-and-industrial split turns up in Moorabbin too, which has its own [commercial cleaning in Moorabbin](https://www.twinkleclean.com.au/commercial-cleaning-moorabbin/) write-up.
+The dust load is heavier and finer. The amenities block gets used by people coming off physical work, which puts a much bigger demand on washrooms and the crib room than an equivalent headcount in an office would.
+
+So we separate the areas properly:
+
+- Warehouse and workshop floors machine-swept or scrubbed on the frequency the traffic justifies
+- Office and administration space in the same building cleaned as office space, with its own equipment, so warehouse grit is never carried onto the carpet
+- Colour-coded microfibre cloths and mops keeping amenities, kitchen and general surfaces apart
+- Staff lockers, lunch rooms and first aid rooms listed individually on the checklist so nothing gets assumed
+
+The same office-and-industrial split turns up in Moorabbin too, which has its own [commercial cleaning in Moorabbin](https://www.twinkleclean.com.au/commercial-cleaning-moorabbin/) write-up.
 
 The residential streets between the two industrial edges are mostly post-war housing built from the late 1940s into the 1980s, which is why many smaller trade and professional businesses here sit in converted or purpose-built premises rather than a single office park. Commercial cleaners Cheltenham operators call on need to be comfortable walking into all of it, and ours are.
 
 ## Scheduling across two councils and around your shift
 
-Cheltenham sits across both the City of Bayside and the City of Kingston, and businesses on opposite sides of the suburb often run to very different clocks. A retail tenancy wants the clean before doors open. A warehouse wants it after the last shift clears the floor. We run after-hours commercial cleaning as standard and work seven days a week, including weekends and public holidays, at no extra charge, so the schedule is set by your operation rather than by our roster.
+Cheltenham sits across both the City of Bayside and the City of Kingston, and businesses on opposite sides of the suburb often run to very different clocks. A retail tenancy wants the clean before doors open.
+
+A warehouse wants it after the last shift clears the floor. We run after-hours commercial cleaning as standard and work seven days a week, including weekends and public holidays, at no extra charge, so the schedule is set by your operation rather than by our roster.
 
 Every cleaner is police-checked, trained in workplace and chemical safety and communicates clearly in English, which matters on an industrial site. We carry $20 million public liability insurance and WorkCover, and our full method and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+
+## The Cheltenham businesses we suit best
+
+Commercial cleaning in Cheltenham is built for:
+
+- Retail tenancies and shopfronts near Westfield Southland, including food tenancies
+- Warehouses and industrial sites needing separate floor and amenity care
+- Office and administration space attached to an industrial building
+- Trade and professional businesses in converted or purpose-built premises
 
 ## About Twinkle Clean
 
@@ -28,7 +54,9 @@ Tom Su started Twinkle Clean in 2019, having spent years working as a cleaner be
 
 ## How we quote
 
-There is no published flat rate, because a 200 square metre shop and a 2,000 square metre warehouse with an attached office share almost nothing. We walk the site, note the floor types, the amenities, the frequency and the hours, and put a written price in front of you. Quotes are free. You can book a single deep clean, a weekly or fortnightly visit, or a nightly schedule, and we work without lock-in contracts so you can adjust it as your trade changes.
+There is no published flat rate, because a 200 square metre shop and a 2,000 square metre warehouse with an attached office share almost nothing. We walk the site, note the floor types, the amenities, the frequency and the hours, and put a written price in front of you.
+
+Quotes are free. You can book a single deep clean, a weekly or fortnightly visit, or a nightly schedule, and we work without lock-in contracts so you can adjust it as your trade changes.
 
 ## Frequently asked questions
 

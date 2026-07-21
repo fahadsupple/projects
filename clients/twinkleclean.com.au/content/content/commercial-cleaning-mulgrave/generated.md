@@ -6,7 +6,12 @@ Retail is judged in the first three seconds. A smeared entry door, a bin that wa
 
 Waverley Gardens is the retail heart of the suburb, and tenancies inside a centre like it carry rules the standalone shop down the road has never had to think about. Centre management sets the trading hours, the loading-dock access times and often the rubbish-removal arrangements, and a cleaner who ignores any of those creates a problem for the tenant rather than solving one.
 
-Our retail and shopfront cleaning covers the parts customers see and the parts they should never have to think about. Entry glass and internal partitions cleaned with professional window-cleaning tools. Hard floors scrubbed and polished rather than pushed around with a damp mop. Carpeted areas vacuumed with commercial machines that actually lift grit out of the pile instead of skating over it. Fitting rooms, counters, EFTPOS terminals and door handles wiped with hospital-grade disinfectant chosen to suit the surfaces in your fit-out.
+Our retail and shopfront cleaning covers the parts customers see and the parts they should never have to think about:
+
+- Entry glass and internal partitions cleaned with professional window-cleaning tools
+- Hard floors scrubbed and polished rather than pushed around with a damp mop
+- Carpeted areas vacuumed with commercial machines that actually lift grit out of the pile instead of skating over it
+- Fitting rooms, counters, EFTPOS terminals and door handles wiped with hospital-grade disinfectant chosen to suit the surfaces in your fit-out
 
 Back-of-house gets the same attention, because that is where a health inspection or a staff complaint usually starts. Staff kitchens, stock rooms, cool-room surrounds and the amenities behind the shop floor all sit on the checklist, with colour-coded microfibre cloths and mops keeping washroom gear separate from anywhere food is handled. Shopping-centre tenancies of a similar kind are covered on our [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page too.
 
@@ -18,13 +23,23 @@ So we build Mulgrave rosters around the trading day rather than around our own c
 
 Regular customers get a consistent crew rather than a different face each visit. People who have cleaned your site before know which display fixture is fragile, which floor finish marks, and where the mop water is allowed to go.
 
+## Sites we look after around Mulgrave
+
+Commercial cleaning in Mulgrave suits:
+
+- Retail shopfronts and tenancies inside Waverley Gardens
+- Hospitality venues with their own food-handling procedures
+- Businesses needing early-morning or after-hours cleaning around freeway traffic
+
 ## About Twinkle Clean
 
 Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team carries 20+ years of combined experience and has now served over 1,200 customers around Melbourne, holding a 5 out of 5 rating on Oneflare from 16 reviews. Work is backed by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned at no charge. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Pricing and free quotes
 
-Each site is priced on its own merits. A compact specialty tenancy, a large-format showroom and a food-adjacent shop with heavy floor traffic all take different hours and different equipment, so we walk the site, agree a scope in writing and quote against that. Quotes are free, rates stay competitive locally, and there are no lock-in contracts to sign. One-off deep cleans, weekly visits and seven-day schedules are all on the table.
+Each site is priced on its own merits. A compact specialty tenancy, a large-format showroom and a food-adjacent shop with heavy floor traffic all take different hours and different equipment, so we walk the site, agree a scope in writing and quote against that.
+
+Quotes are free, rates stay competitive locally, and there are no lock-in contracts to sign. One-off deep cleans, weekly visits and seven-day schedules are all on the table.
 
 ## Frequently asked questions
 

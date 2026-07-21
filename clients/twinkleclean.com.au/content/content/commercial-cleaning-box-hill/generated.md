@@ -6,9 +6,26 @@ Box Hill is unusual among Melbourne's eastern suburbs. It is a metropolitan acti
 
 ## Working inside a tower, not just inside an office
 
-A suite in a high-rise carries constraints a standalone building never imposes. Loading dock windows, service lift bookings, after-hours building access and security sign-in all shape when work can happen. Our teams are comfortable operating inside those systems and work to whatever protocol your building manager has set.
+A suite in a high-rise carries constraints a standalone building never imposes:
 
-Inside the tenancy the work is straightforward and thorough: desks and workstations, meeting rooms, reception and breakout areas, kitchens, washrooms, internal glass and partitions, hard floors and carpet. We use commercial vacuum cleaners, floor scrubbers and polishers where the surface calls for it, plus professional window-cleaning tools for internal glazing. Colour-coded microfibre cloths and mops keep washroom equipment separate from kitchen and desk equipment, the simplest reliable way to reduce cross-contamination. Hospital-grade disinfectants are selected according to what each site requires.
+- Loading dock windows
+- Service lift bookings
+- After-hours building access
+- Security sign-in
+
+These all shape when work can happen. Our teams are comfortable operating inside those systems and work to whatever protocol your building manager has set.
+
+Inside the tenancy the work is straightforward and thorough. Every visit covers:
+
+- Desks and workstations
+- Meeting rooms
+- Reception and breakout areas
+- Kitchens
+- Washrooms
+- Internal glass and partitions
+- Hard floors and carpet
+
+We use commercial vacuum cleaners, floor scrubbers and polishers where the surface calls for it, plus professional window-cleaning tools for internal glazing. Colour-coded microfibre cloths and mops keep washroom equipment separate from kitchen and desk equipment, the simplest reliable way to reduce cross-contamination. Hospital-grade disinfectants are selected according to what each site requires.
 
 Every site runs off a detailed cleaning checklist and site-specific procedures, so the standard holds when a different cleaner covers a shift. If something within the agreed scope falls short, our quality control process brings us back to re-clean it.
 
@@ -16,9 +33,19 @@ Every site runs off a detailed cleaning checklist and site-specific procedures, 
 
 Most of the office cleaning Box Hill tenants ask us for happens after the last person leaves. After-hours commercial cleaning keeps vacuums and floor machines out of the working day, so your team walks into a finished room rather than around a cleaning trolley. For businesses that want a visible daytime presence, a light daytime service covering washrooms, kitchens and bins can sit alongside it.
 
-Box Hill's ground and podium levels are a different beast. Consulting rooms, agencies, training providers and the many businesses serving the suburb's large Chinese community all trade at street level, where entry glass, floor mats and thresholds carry visible dirt from the footpath. Those spaces usually want an early-morning or late-evening slot. Owners running a village-scale shop rather than a tower tenancy may find the closer match on our [commercial cleaning in Blackburn](https://www.twinkleclean.com.au/commercial-cleaning-blackburn/) page. We schedule seven days a week, including weekends and public holidays, at no extra charge, which makes those slots easy to arrange.
+Box Hill's ground and podium levels are a different beast. Consulting rooms, agencies, training providers and the many businesses serving the suburb's large Chinese community all trade at street level, where entry glass, floor mats and thresholds carry visible dirt from the footpath.
+
+Those spaces usually want an early-morning or late-evening slot. Owners running a village-scale shop rather than a tower tenancy may find the closer match on our [commercial cleaning in Blackburn](https://www.twinkleclean.com.au/commercial-cleaning-blackburn/) page. We schedule seven days a week, including weekends and public holidays, at no extra charge, which makes those slots easy to arrange.
 
 For the full picture of our methods, equipment and credentials across every service type, see our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
+## Who books us in Box Hill
+
+Box Hill commercial cleaning suits:
+
+- Office and professional suites in the suburb's high-rise towers, working within building access and security protocols
+- Consulting rooms, agencies, training providers and other ground-floor businesses trading at street level
+- Body corporates and building managers needing lift lobbies, corridors and shared amenities covered alongside individual tenancies
 
 ## About Twinkle Clean
 
@@ -26,7 +53,15 @@ Tom Su started Twinkle Clean in 2019. He was a cleaner by trade for years before
 
 ## What it costs
 
-Pricing is worked out per site. Floor area, the number of washrooms and kitchens, floor types, the hours access is available and how often you want us all move the number, so there is no published flat rate that would mean anything. Quotes are free, our rates stay competitive against other commercial cleaners Box Hill businesses will be comparing, and we work without lock-in contracts. Book a one-off clean, a weekly service or anything between, and adjust it as the business changes.
+Pricing is worked out per site. A few things move the number:
+
+- Floor area
+- The number of washrooms and kitchens
+- Floor types
+- The hours access is available
+- How often you want us
+
+There is no published flat rate that would mean anything. Quotes are free, our rates stay competitive against other commercial cleaners Box Hill businesses will be comparing, and we work without lock-in contracts. Book a one-off clean, a weekly service or anything between, and adjust it as the business changes.
 
 ## Frequently asked questions
 

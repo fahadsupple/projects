@@ -4,13 +4,26 @@ Plenty of renters in Noble Park hit the same worry at move-out time: will the ca
 
 ## Bond-back carpet cleaning for Noble Park rentals
 
-Fewer homes in Noble Park are owner-occupied than the Melbourne average, which means a steady flow of tenants moving in and out and plenty of end-of-lease work for us. Property managers look hard at carpet during the final walkthrough, and a tired floor can hold up a bond that should have come back in full. We clean to the standard that inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants get the best chance at a full deposit and agents can lease the unit again quickly.
+Fewer homes in Noble Park are owner-occupied than the Melbourne average, which means a steady flow of tenants moving in and out and plenty of end-of-lease work for us. Property managers look hard at carpet during the final walkthrough, and a tired floor can hold up a bond that should have come back in full.
+
+We clean to the standard that inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants get the best chance at a full deposit and agents can lease the unit again quickly.
 
 ## Carpet cleaning for Noble Park apartments and units
 
-About a third of homes in Noble Park are apartments, roughly twice the metro Melbourne rate, so many of our local jobs are in flats and units rather than freestanding houses. That brings its own considerations, from lift access and parking to keeping noise down for the neighbours, and we plan each clean around the building so the day runs smoothly. Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+About a third of homes in Noble Park are apartments, roughly twice the metro Melbourne rate, so many of our local jobs are in flats and units rather than freestanding houses. That brings its own considerations, from lift access and parking to keeping noise down for the neighbours, and we plan each clean around the building so the day runs smoothly.
+
+Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 Noble Park is also one of Melbourne's most multicultural pockets, so we keep things plain and clear from the first call: straightforward advice, an honest quote, and no jargon. If English is a second language at home, you will still get a friendly cleaner who explains the job in simple terms before we start.
+
+## Who trusts us with carpet in Noble Park
+
+Most of our Noble Park work comes from:
+
+- Renters and tenants moving out and needing a bond-back clean
+- Property managers and agents preparing a unit for the next lease
+- Owners and residents of apartments and units, including older walk-up blocks
+- Households where English is a second language, who want plain, jargon-free advice
 
 ## About Twinkle Clean
 
@@ -18,7 +31,13 @@ Twinkle Clean was started in 2019 by Tom Su, who worked as a cleaner by trade lo
 
 ## Pricing and free quotes
 
-Carpet cleaning is priced on the job, so the fairest figure comes from the specifics: how many rooms, the size and condition of the carpet, and any stain or odour treatment involved. We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price before any work starts.
+Carpet cleaning is priced on the job, so the fairest figure comes from the specifics:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price before any work starts.
 
 ## Frequently asked questions
 

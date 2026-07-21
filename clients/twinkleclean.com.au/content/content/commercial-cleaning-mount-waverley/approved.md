@@ -4,9 +4,17 @@ The first thing anyone reads about a workplace is the floor, the glass on the fr
 
 ## The office corridor along Ferntree Gully, Ricketts and Forster Roads
 
-Mount Waverley's southern strip is where most of its working population actually turns up each day. The multi-building Urban Acres estate at the Ferntree Gully Road end, the multi-tenancy and converted-warehouse buildings on Ricketts Road, and the office addresses on Forster Road together make up one of the larger concentrations of commercial floor space anywhere east of the city. Melway Publishing has operated from Ricketts Road for years, and the mix around it runs from open-plan tech floors to showroom-and-office combinations in old warehouse shells.
+Mount Waverley's southern strip is where most of its working population actually turns up each day. The multi-building Urban Acres estate at the Ferntree Gully Road end, the multi-tenancy and converted-warehouse buildings on Ricketts Road, and the office addresses on Forster Road together make up one of the larger concentrations of commercial floor space anywhere east of the city.
 
-Converted-warehouse space is its own job. High ceilings mean dust settles on ledges nobody has looked at in months, sealed concrete floors need a scrubber rather than a mop and bucket, and the glazing that makes those buildings attractive to tenants also shows every mark. Our teams carry commercial vacuums, floor scrubbers and polishers to site, along with professional window-cleaning tools for internal glass and entry doors.
+Melway Publishing has operated from Ricketts Road for years, and the mix around it runs from open-plan tech floors to showroom-and-office combinations in old warehouse shells.
+
+Converted-warehouse space is its own job, and it brings its own set of problems:
+
+- High ceilings mean dust settles on ledges nobody has looked at in months
+- Sealed concrete floors need a scrubber rather than a mop and bucket
+- The glazing that makes those buildings attractive to tenants also shows every mark
+
+Our teams carry commercial vacuums, floor scrubbers and polishers to site, along with professional window-cleaning tools for internal glass and entry doors.
 
 In multi-tenancy buildings we work to a written checklist agreed at the walkthrough, so the person signing the invoice knows exactly which bins, kitchens, meeting rooms and amenities are covered. Colour-coded microfibre cloths and mops keep washroom equipment away from kitchen benches, which matters more on a shared-amenity floor than almost anywhere else.
 
@@ -20,7 +28,19 @@ Twinkle Clean covers this suburb as part of our wider [commercial cleaning Melbo
 
 ## Out-of-hours access and building rules
 
-Business-park tenancies come with conditions: swipe cards, loading-dock windows, building managers who want to know who is on site at ten at night. After-hours commercial cleaning only works if those details are settled before the first shift, so we confirm access, alarm codes and building-specific rules during the quote rather than discovering them on night one. Every cleaner is police-checked and trained in workplace and chemical safety, and the company carries $20 million public liability insurance plus WorkCover.
+Business-park tenancies come with conditions: swipe cards, loading-dock windows, building managers who want to know who is on site at ten at night. After-hours commercial cleaning only works if those details are settled before the first shift, so we confirm access, alarm codes and building-specific rules during the quote rather than discovering them on night one.
+
+Every cleaner is police-checked and trained in workplace and chemical safety, and the company carries $20 million public liability insurance plus WorkCover.
+
+## The Mount Waverley sites we suit best
+
+We look after a wide spread of Mount Waverley premises:
+
+- Offices and business-park tenancies along the Ferntree Gully, Ricketts and Forster Roads corridor
+- Converted-warehouse buildings with showroom-and-office layouts
+- Retail traders at Mount Waverley Village and Pinewood Shopping Centre
+- Schools and other education premises with their own cleaning requirements
+- Health premises such as Waverley Private Hospital, cleaned to their own written procedure
 
 ## About Twinkle Clean
 
@@ -28,7 +48,9 @@ Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, a
 
 ## What a Mount Waverley clean costs
 
-There is no published flat rate, because a 180 square metre suite on Centreway and a two-level converted warehouse on Ricketts Road are not the same job. We quote each site after a walkthrough, based on floor area, surface types, amenity count and how often you want us in. Quotes are free, pricing stays competitive against other operators in the area, and we work without lock-in contracts. One-off cleans, weekly visits and daily schedules are all available.
+There is no published flat rate, because a 180 square metre suite on Centreway and a two-level converted warehouse on Ricketts Road are not the same job. We quote each site after a walkthrough, based on floor area, surface types, amenity count and how often you want us in.
+
+Quotes are free, pricing stays competitive against other operators in the area, and we work without lock-in contracts. One-off cleans, weekly visits and daily schedules are all available.
 
 ## Frequently asked questions
 

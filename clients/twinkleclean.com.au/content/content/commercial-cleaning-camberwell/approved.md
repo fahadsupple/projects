@@ -6,9 +6,26 @@ Camberwell sits roughly 10 kilometres east of the CBD in the City of Boroondara,
 
 ## Office cleaning above and behind the Burke Road strip
 
-A lot of Camberwell's office space sits above shops or just behind the strip: first-floor suites, converted terraces, consulting rooms shared by several practitioners. These are not big open floorplates, and cleaning them well is a different discipline. Stairwells and landings need attention because they are the first thing a visitor climbs. Waiting-room chairs, magazine tables and window sills collect dust faster than anyone expects when the front windows face a busy tram route. Bathrooms are often small, single and heavily used, so they need doing properly every visit.
+A lot of Camberwell's office space sits above shops or just behind the strip:
+- First-floor suites
+- Converted terraces
+- Consulting rooms shared by several practitioners
 
-Our crews work from a written checklist naming the actual rooms and fixtures: reception and entry glass, consulting or meeting rooms, desks, kitchenette surfaces and sinks, bathroom fixtures and touchpoints, bins emptied and relined, carpets vacuumed to the edges, hard floors mopped using colour-coded microfibre equipment so bathroom and kitchen gear never mix. Where disinfection is needed rather than surface cleaning, we use hospital-grade disinfectants chosen for that site, and clinical rooms are cleaned to the practice's own written procedure.
+These are not big open floorplates, and cleaning them well is a different discipline.
+
+Stairwells and landings need attention because they are the first thing a visitor climbs. Waiting-room chairs, magazine tables and window sills collect dust faster than anyone expects when the front windows face a busy tram route. Bathrooms are often small, single and heavily used, so they need doing properly every visit.
+
+Our crews work from a written checklist naming the actual rooms and fixtures:
+- Reception and entry glass
+- Consulting or meeting rooms
+- Desks
+- Kitchenette surfaces and sinks
+- Bathroom fixtures and touchpoints
+- Bins emptied and relined
+- Carpets vacuumed to the edges
+- Hard floors mopped using colour-coded microfibre equipment so bathroom and kitchen gear never mix
+
+Where disinfection is needed rather than surface cleaning, we use hospital-grade disinfectants chosen for that site, and clinical rooms are cleaned to the practice's own written procedure.
 
 ## Scheduling around trams, trade and the Sunday market
 
@@ -16,13 +33,28 @@ Parking and access shape scheduling here more than in most suburbs. Around the J
 
 Commercial cleaners Camberwell practices give keys to need to be trustworthy without supervision. Every cleaner is police-checked, trained in workplace and chemical safety, and communicates clearly in English, and we hold $20 million public liability insurance plus WorkCover. There is more on our method and quality control on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+## The Camberwell businesses we suit best
+
+Camberwell work usually comes from one of these groups:
+- Professional practices and consulting suites, with waiting rooms kept presentation-ready
+- Small offices above and behind the Burke Road strip, including converted terraces
+- Shops and cafes on the strip, cleaned to their own food safety procedure
+- Practices running Saturday clinics, scheduled around the appointment book
+
 ## About Twinkle Clean
 
 Tom Su founded Twinkle Clean in 2019, having worked as a cleaner by trade long before running a business. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every job comes with a 100% satisfaction guarantee: anything inside the agreed scope that falls short is re-cleaned. We hold 5 out of 5 on Oneflare from 16 reviews, and the hub page has the rest.
 
 ## Pricing and free quotes
 
-We price each site individually after seeing it. For a Camberwell suite the drivers are usually room count rather than raw floor area, how many practitioners use the space, how many bathrooms there are, whether stairs and shared landings are included, and how many visits a week you want. Quotes cost nothing, rates stay competitive with other operators working Boroondara, and there is no published flat rate because a rate card would misprice most tenancies around the Junction. Take a one-off clean before an inspection or set a standing schedule, with no lock-in contract either way.
+We price each site individually after seeing it. For a Camberwell suite the drivers are usually:
+- Room count rather than raw floor area
+- How many practitioners use the space
+- How many bathrooms there are
+- Whether stairs and shared landings are included
+- How many visits a week you want
+
+Quotes cost nothing, rates stay competitive with other operators working Boroondara, and there is no published flat rate because a rate card would misprice most tenancies around the Junction. Take a one-off clean before an inspection or set a standing schedule, with no lock-in contract either way.
 
 ## Frequently asked questions
 
