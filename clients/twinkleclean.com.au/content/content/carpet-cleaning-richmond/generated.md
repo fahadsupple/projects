@@ -37,6 +37,8 @@ Rather than a single hopeful pass, each carpet gets a targeted treatment for:
 
 For the full rundown of our equipment and process, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to book a Richmond carpet clean.
+
 ## Who we clean for across Richmond
 
 Richmond's carpet work tends to fall into a few groups:
@@ -44,10 +46,6 @@ Richmond's carpet work tends to fall into a few groups:
 - Share houses and renters needing a quick, walk-on-ready turnaround
 - Homeowners in period terraces with wool carpets and natural-fibre rugs
 - Property managers arranging bond-back cleans for end-of-lease inspections
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on grounding still shapes how the team reads a carpet and picks a method, backed by more than 20 years of combined experience. We have served over 1,200 customers across Melbourne, and we stand behind every job with a 100% satisfaction guarantee: if an area in the agreed scope falls short, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit the [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Free quotes and pricing
 
@@ -58,25 +56,37 @@ Carpet cleaning is priced on the job, so the fairest figure comes from the detai
 
 We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, whether you want a one-off clean or a regular schedule. You will have the scope and the price in hand before any work begins.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on grounding still shapes how the team reads a carpet and picks a method, backed by more than 20 years of combined experience. We have served over 1,200 customers across Melbourne, and we stand behind every job with a 100% satisfaction guarantee: if an area in the agreed scope falls short, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit the [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Can you clean carpet in an apartment or converted warehouse?**
+### Can you clean carpet in an apartment or converted warehouse?
 Yes, and much of our Richmond work is exactly that. We bring the equipment up through lifts and narrow stairwells and manage water and drying so a loft or a flat above a Bridge Road shopfront is left fresh.
 
-**Is steam cleaning suitable for older wool carpet in a period terrace?**
+### Is steam cleaning suitable for older wool carpet in a period terrace?
 It can be, once the carpet is treated properly. We check the fibre and backing on wool broadloom and natural-fibre runners, then dial back moisture and heat and often use low-moisture cleaning to protect the pile.
 
-**Do you cover inner-Melbourne suburbs near Richmond?**
+### Do you cover inner-Melbourne suburbs near Richmond?
 Yes. Alongside Richmond we clean carpets across neighbouring pockets such as Collingwood, Cremorne, Hawthorn, Kew and South Yarra.
 
-**How long does carpet take to dry after cleaning?**
+### How long does carpet take to dry after cleaning?
 Most carpets are walk-on ready within a few hours of a steam clean. A closed-up flat with little airflow, cooler weather or heavier fabric can stretch that out, and a window or fan speeds up drying.
 
-**Can you remove pet stains and odours?**
+### Can you remove pet stains and odours?
 Yes. Stains, odours and urine get their own targeted treatment, not a single general pass, which lifts the marks and smells that ordinary cleaning leaves behind.
 
-**Do you offer end-of-lease or bond-back carpet cleaning?**
+### Do you offer end-of-lease or bond-back carpet cleaning?
 Yes. End-of-lease work is among our busiest Richmond jobs, backed by a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of a full deposit back.
+
+### How much does carpet cleaning cost in Richmond?
+It is priced on the job rather than a flat rate, based on the number of rooms, the size and condition of the carpet, and any stain or odour treatment involved. A free quote gives you a figure built around your actual apartment or terrace rather than a guess.
+
+### Can you clean carpet in a share house near the station?
+Yes. Share houses near the station are ordinary work for us, and we plan the visit around housemates' schedules so the carpet gets freshened with the least disruption to whoever is home.
 
 ## Book your Richmond carpet clean
 

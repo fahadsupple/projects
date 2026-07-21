@@ -29,6 +29,8 @@ After-hours commercial cleaning is the usual answer, and because we work seven d
 
 Estate offices and professional suites on the residential side get the same flexibility, usually early morning or evening. Fuller details of our equipment and quality-control processes sit on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your production schedule.
+
 ## Businesses that book us in Rowville
 
 Commercial cleaning in Rowville suits a mix of industrial and office sites:
@@ -36,10 +38,6 @@ Commercial cleaning in Rowville suits a mix of industrial and office sites:
 - Workshops, warehouses and factory units, with floor, amenities and front-office cleaning scoped as one job
 - Front offices, counters and showrooms inside industrial units, given office-standard treatment for the space customers actually see
 - Estate offices and professional suites on the residential side, with the same early morning or evening flexibility
-
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself. The team carries more than 20 years of combined experience and has now looked after over 1,200 customers around Melbourne. Work is backed by a 100% satisfaction guarantee and a quality control system, so anything inside the agreed scope that falls short gets re-cleaned at no charge. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
 
 ## How we quote
 
@@ -53,25 +51,37 @@ Every quote is built from a walkthrough rather than a rate card. For an industri
 
 Quotes are free. We work without lock-in contracts, so you can start weekly, move to fortnightly in a quiet stretch, or book a single deep clean before an inspection. Pricing stays competitive and is set per site rather than to a published flat figure.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself. The team carries more than 20 years of combined experience and has now looked after over 1,200 customers around Melbourne. Work is backed by a 100% satisfaction guarantee and a quality control system, so anything inside the agreed scope that falls short gets re-cleaned at no charge. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
+
 ## Frequently asked questions
 
-**Can you work around our staff and trading hours?**
+### Can you work around our staff and trading hours?
 Yes, and on industrial sites it is usually essential. We can clean after the last shift, before the first one, or on a weekend day between production runs. If part of your floor has to stay operational, we work it in zones. Access, alarm and key arrangements are settled before the first visit.
 
-**Do you offer one-off cleans as well as regular schedules?**
+### Do you offer one-off cleans as well as regular schedules?
 We do. One-off work is common here: a warehouse clear-out before new racking goes in, a pre-audit tidy, a post-fitout clean, or a heavy amenities reset that has been put off. You can book a single job with no expectation of anything further.
 
-**Can we change the scope or frequency later?**
+### Can we change the scope or frequency later?
 Yes, at any point, because there is no lock-in contract to renegotiate. You add a shift, you take on the unit next door, you drop back over the January shutdown. Tell us and we adjust the schedule and the price to match.
 
-**Do you clean warehouses and factory units as well as offices?**
+### Do you clean warehouses and factory units as well as offices?
 Yes. Warehouse and factory cleaning is a core part of what we do in Rowville, covering concrete floors, dock and roller-door areas, racking aisles, amenities blocks and the front office, with machine floor work scheduled to suit the traffic on your slab.
 
-**Do you cover the offices and suites in the residential estates?**
+### Do you cover the offices and suites in the residential estates?
 We do. Consulting rooms, professional suites and small offices within or beside the estates get a standard office scope: desks, waiting areas, glass, kitchens, washrooms and floors, usually outside client hours.
 
-**Can you deal with dust that keeps coming back on stock and racking?**
+### Can you deal with dust that keeps coming back on stock and racking?
 Recurring dust usually traces back to the floor rather than the shelves. Machine-scrubbing the slab on a proper cycle, plus scheduled attention to racking uprights and ledges, works far better than wiping stock repeatedly.
+
+### Are your cleaners insured and police-checked?
+Yes. Every cleaner is police-checked and trained in workplace and chemical safety, and we carry $20 million public liability insurance plus WorkCover. On an industrial site that is usually part of the induction paperwork before our crew is given a key or an access code.
+
+### Can you follow our site's own safety procedure for chemical storage or PPE?
+Yes. Where a premises operates to a documented procedure covering chemical storage, PPE or restricted zones, our cleaners work to that written procedure exactly as you have it, rather than a generic checklist.
 
 ## Get a price for your Rowville site
 

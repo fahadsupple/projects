@@ -24,6 +24,8 @@ Our core clean is truck-mounted hot water extraction, the method most people cal
 
 Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to talk through the carpet in your Bayswater home or workplace.
+
 ## End of lease carpet cleaning in Bayswater
 
 Rentals sit among Bayswater's homes and above some of its shopfronts, and when a tenancy ends the carpet is one of the first things a property manager checks. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, giving tenants a fair shot at their full deposit.
@@ -37,10 +39,6 @@ Our Bayswater carpet cleaning suits a mix of households and workplaces:
 - Landlords and property managers wanting a bond-back result
 - Offices, retail units and light-industrial premises with commercial carpet
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet. Between them our cleaners bring more than 20 years of combined experience and have served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
-
 ## Pricing and free quotes
 
 A Bayswater job might be a two-bedroom unit or a full office floor, so we price on the details rather than a flat rate:
@@ -51,25 +49,37 @@ A Bayswater job might be a two-bedroom unit or a full office floor, so we price 
 
 Quotes are free, our pricing stays competitive, and you can choose a single clean or a regular schedule.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet. Between them our cleaners bring more than 20 years of combined experience and have served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Do I need to move furniture before you arrive?**
+### Do I need to move furniture before you arrive?
 A quick tidy helps, but the heavy lifting is on us. Clear the smaller items such as toys, lamps and floor rugs, and we will shift the larger furniture. Let us know at booking about any pieces you would rather we left in place.
 
-**How soon can you come out?**
+### How soon can you come out?
 Often within a day or two, and sometimes the same week you call. We work seven days, including weekends and public holidays at no extra charge, so we can usually fit around a work roster or a move-out date.
 
-**What is the difference between steam and dry carpet cleaning?**
+### What is the difference between steam and dry carpet cleaning?
 Steam cleaning, or hot water extraction, pushes hot water and solution deep into the pile and vacuums it back out, giving the most thorough result for soiled or stained carpet. Dry, or low-moisture, cleaning uses far less water and lets a carpet be walked on sooner, so it suits lighter refreshes. We pick whichever fits your carpet.
 
-**Do you clean commercial and industrial carpet?**
+### Do you clean commercial and industrial carpet?
 Yes. Alongside houses, we maintain carpet in Bayswater offices, retail spaces, warehouses and factory amenities areas. Because workplace carpet takes constant foot traffic, we can steam clean after hours or on weekends, one-off or on a regular schedule.
 
-**Can you clean carpet in both homes and workplaces?**
+### Can you clean carpet in both homes and workplaces?
 Yes. Bayswater mixes family homes with a solid base of commercial and industrial premises, and we clean carpet across both. The same equipment and stain treatment that revive a family lounge also bring a tired office floor back.
 
-**Do you cover nearby Knox suburbs?**
+### Do you cover nearby Knox suburbs?
 Yes. Bayswater sits in the City of Knox, and we clean carpet right across the surrounding area, including Wantirna, Scoresby and the wider eastern suburbs. There is a separate page on [carpet cleaning in Rowville](https://www.twinkleclean.com.au/carpet-cleaning-rowville/) if that is closer to you. If you are unsure whether we reach your street, just ask when you call.
+
+### Do you clean carpet in Bayswater's older homes near the railway station?
+Yes. Bayswater's older weatherboard homes near the station often still have original carpet or underlay that has absorbed decades of soil, and we treat those floors on their own merits, matching the method to the fibre and condition rather than running one setting over everything.
+
+### Can you set up a regular carpet cleaning schedule for our Bayswater office or factory?
+Yes. Alongside one-off cleans we can put a Bayswater workplace on a regular schedule, weekly, fortnightly or whatever suits the traffic through reception, meeting rooms and amenities carpet, and because we work without lock-in contracts you can adjust or stop the arrangement at any time.
 
 ## Book a Bayswater carpet clean
 

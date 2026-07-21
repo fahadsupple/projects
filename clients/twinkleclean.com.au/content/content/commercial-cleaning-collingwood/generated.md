@@ -34,6 +34,8 @@ The office cleaning that Collingwood studios and agencies book usually runs to:
 
 Those surfaces are cleaned with hospital-grade disinfectants selected according to what the site actually needs, and where it is appropriate to the surface and the space, we use environmentally conscious products and methods. Full detail on our method and equipment sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your building's access.
+
 ## Who we clean for in Collingwood
 
 Collingwood's mix of converted industrial space and a busy retail strip means our commercial work here suits a particular set of businesses:
@@ -43,33 +45,41 @@ Collingwood's mix of converted industrial space and a busy retail strip means ou
 - Smith Street shopfronts and hospitality venues that need the work done outside trading hours.
 - Office tenancies wanting a consistent, checklist-based clean rather than a quick tidy-up.
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team brings 20 or more years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we come back and re-clean it. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews. Our hub page covers the full credentials, insurance and quality-control detail.
-
 ## What it costs
 
 Pricing is worked out per site. A 200 square metre studio with two bathrooms and a kitchenette is a different job to a warehouse with a dispatch floor and amenities, so there is no published flat rate that would mean anything. We quote after understanding your floor area, surfaces, frequency and access, and quotes are free. One-off cleans and regular schedules are both available, and we work without lock-in contracts, so the arrangement continues because it suits you.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team brings 20 or more years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we come back and re-clean it. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews. Our hub page covers the full credentials, insurance and quality-control detail.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 It depends on the size of the site, the surfaces involved, how often you want us and when we can access the building. We look at those factors and give you a written price with no charge for the quote.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes. We operate seven days a week including weekends and public holidays, with no extra charge for those times. Early morning, evening and overnight slots are all available.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. Our schedules run without lock-in contracts. Clients stay because the work holds up.
 
-**Can you handle sealed or polished concrete floors in a converted warehouse?**
+### Can you handle sealed or polished concrete floors in a converted warehouse?
 Yes. We use commercial floor scrubbers and polishers suited to hard floors rather than domestic equipment, and we agree the method with you before the first clean.
 
-**We run a creative studio with expensive gear on the floor. How do you work around it?**
+### We run a creative studio with expensive gear on the floor. How do you work around it?
 We build a site-specific procedure that lists what is cleaned, what is left untouched and how equipment areas are approached, then follow it every visit.
 
-**Do you service both the Smith Street retail end and the industrial side of Collingwood?**
+### Do you service both the Smith Street retail end and the industrial side of Collingwood?
 Yes. Our commercial cleaners cover the whole of Collingwood in the City of Yarra, from shopfronts and studios to warehouse and factory sites.
+
+### Are your cleaners insured and police-checked?
+Yes. All cleaners are police-checked and trained in workplace and chemical safety, and we hold $20 million public liability insurance plus WorkCover. In a converted warehouse that often means working alone in a large space out of hours, so that cover matters to both of us.
+
+### Can you reach dust on exposed brick, high ledges and open ceilings?
+Where it is safely accessible, yes. High dusting on exposed brick, steel beams and open ceilings is written into the site-specific procedure as a periodic task rather than left off the list because it is out of easy reach.
 
 ## Book a clean for your Collingwood site
 

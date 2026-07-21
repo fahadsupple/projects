@@ -14,6 +14,8 @@ The suburb's largest single demand generator is Swinburne University of Technolo
 
 We deal with that by cleaning to your site's own written procedure rather than a generic checklist. Clinical and consulting spaces get hospital-grade disinfectants selected for the surfaces in that room, colour-coded microfibre cloths and mops so a bathroom cloth never reaches a desk, and a documented order of work. Teaching and admin areas get commercial vacuums, floor scrubbers and polishers across hard floors, and professional window-cleaning tools on the internal glass that shows fingerprints fastest.
 
+Call us now on 0498 182 989 to book a walkthrough of your site.
+
 ## Getting in after hours without any drama
 
 Most Hawthorn sites we quote want the work done from 6pm onwards, or early on a Sunday before the strip wakes up. After-hours office cleaning only functions when access is boring:
@@ -32,10 +34,6 @@ Commercial cleaning in Hawthorn suits a mix of premises:
 - Clinical and consulting spaces, using hospital-grade disinfectants and colour-coded equipment matched to each room
 - Teaching and admin areas near the Swinburne campus, with a schedule that can lift during teaching weeks and ease off over breaks
 
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, and that background shows in how jobs get scoped. The team carries 20+ years of combined experience, has served over 1,200 customers across Melbourne, and holds a 5 out of 5 rating on Oneflare from 16 reviews. Every clean is backed by a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we return and re-clean it. Full credentials, equipment and method are set out on the hub page linked above.
-
 ## What a Hawthorn clean costs
 
 Pricing is worked out per site, because a 90 square metre suite above a Glenferrie Road shopfront and a three-level Burwood Road tenancy with a staff kitchen are not remotely the same job. We look at:
@@ -50,25 +48,37 @@ Then we quote a figure you can budget against.
 
 Quotes are free, rates stay competitive with the other commercial cleaners Hawthorn businesses approach, and there is no published flat rate, because a single published number would overcharge half the suburb. One-off cleans and regular weekly, fortnightly or nightly schedules are both available, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, and that background shows in how jobs get scoped. The team carries 20+ years of combined experience, has served over 1,200 customers across Melbourne, and holds a 5 out of 5 rating on Oneflare from 16 reviews. Every clean is backed by a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we return and re-clean it. Full credentials, equipment and method are set out on the hub page linked above.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 There is no single figure. The variables that move a Hawthorn quote most are floor area, how many bathrooms and kitchens are in scope, how often you want us on site, and how easy the building is to enter after hours. Send an approximate square metreage and a frequency and we can give you a realistic range before we visit.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes. We operate seven days a week with no surcharge for weekend or public holiday work. Most Hawthorn offices we service run an evening slot from around 6pm, though early-morning starts suit some tenancies better.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. Work runs on an ongoing arrangement you can adjust or end when your circumstances change. Businesses stay because the standard holds, not because a document says they have to.
 
-**Can you work around the Swinburne teaching calendar?**
+### Can you work around the Swinburne teaching calendar?
 Yes. Tenancies near the Hawthorn campus tend to swing hard between semester and break. We can lift frequency during teaching weeks and drop back over the quieter periods, with the schedule agreed in advance rather than renegotiated each month.
 
-**Do you clean the internal glass on Glenferrie Road shopfronts?**
+### Do you clean the internal glass on Glenferrie Road shopfronts?
 We do. Internal glass, entry doors, partitions and display windows are cleaned with professional window-cleaning tools. External high-level glass is assessed separately at the walkthrough so you know what is covered.
 
-**Our Burwood Road building has no off-street parking. Is that a workable site?**
+### Our Burwood Road building has no off-street parking. Is that a workable site?
 It is. Plenty of the tenancies we clean along Burwood Road and Auburn Road have kerbside access only. We bring compact equipment and confirm the access route with your building manager before the first clean rather than on the night.
+
+### Do you clean restaurants, hotels and nightclubs in Hawthorn?
+Yes. Hawthorn's restaurants, hotels and nightclubs are part of our regular work, cleaned after close once the last table or the last patron has gone, so the venue is ready before the next service.
+
+### Do you clean light industrial premises on Burwood Road?
+Yes. The light industry between Power Street and Auburn Road on Burwood Road gets the same police-checked, safety-trained cleaners as our office and clinical sites, with the working area and any customer-facing front treated as separate zones.
 
 ## Arrange a walkthrough of your Hawthorn premises
 

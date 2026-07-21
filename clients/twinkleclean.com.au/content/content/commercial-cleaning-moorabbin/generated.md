@@ -23,6 +23,8 @@ The office end gets:
 
 Colour-coded microfibre cloths and mops keep amenities entirely separate from the office and lunchroom.
 
+Call us now on 0498 182 989 to book a site visit.
+
 ## Amenities and lunchrooms are what your own crew judges
 
 The floor is what a visitor sees, but the bathrooms and the lunchroom are what your workforce talks about, and they quietly decide whether people believe the site is well run. We put them on a fixed checklist with a documented order of work:
@@ -48,10 +50,6 @@ Moorabbin commercial cleaning suits:
 - The office component sitting inside an industrial site, cleaned to a different standard to the shed
 - Retail, civic and training premises on the suburb's western side working around public access and teaching hours
 
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself, which is why scoping starts with what a site actually generates rather than a template. The team brings 20+ years of combined experience, over 1,200 customers served across Melbourne, and a 5 out of 5 rating on Oneflare from 16 reviews. A 100% satisfaction guarantee applies to every job: an area inside the agreed scope that falls short brings us back to re-clean it. Full credentials sit on the hub page above.
-
 ## What it costs
 
 Industrial pricing runs on different variables to office pricing. Warehouse square metreage matters, but so does:
@@ -64,25 +62,37 @@ Industrial pricing runs on different variables to office pricing. Warehouse squa
 
 We price each site individually against those factors, quotes are free, and rates stay competitive with the other commercial cleaners Moorabbin businesses shortlist. There is no published flat rate, because the same floor area can be double the labour depending on what you manufacture or store. We work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself, which is why scoping starts with what a site actually generates rather than a template. The team brings 20+ years of combined experience, over 1,200 customers served across Melbourne, and a 5 out of 5 rating on Oneflare from 16 reviews. A 100% satisfaction guarantee applies to every job: an area inside the agreed scope that falls short brings us back to re-clean it. Full credentials sit on the hub page above.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 For an industrial site the cost tracks the debris load, not just the size. Two 800 square metre warehouses quote very differently if one stores palletised goods and the other cuts and finishes materials on site. We look at the process, the accessible floor area, the mezzanine and office component, the high-level dusting cycle and the amenities count.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes, and on industrial sites this is usually the point. We can work a night shift after production stops, slot into a scheduled changeover between runs, or take the whole job on a Saturday or Sunday when the floor is clear. Weekends and public holidays carry no surcharge.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. Arrangements run month to month, which suits businesses with seasonal volumes. Operators here regularly scale frequency up through a busy production period and back down afterwards without renegotiating anything binding.
 
-**Do you clean the co-warehousing and creative office spaces at Morris Moor?**
+### Do you clean the co-warehousing and creative office spaces at Morris Moor?
 Yes. Those tenancies mix showroom, office and warehousing in one footprint, so we scope each part separately: presentation standard at the showroom end, an office routine in the workspace, and warehouse floor treatment behind it.
 
-**Can you also service our premises in the adjacent airport business estates?**
+### Can you also service our premises in the adjacent airport business estates?
 We can. The estates around Moorabbin Airport, including Chifley Business Park, sit next to the suburb rather than inside it, and many operators hold space in both. Multiple addresses run on one schedule with a single point of contact.
 
-**Do you handle forklift marks and heavy traffic lanes on concrete?**
+### Do you handle forklift marks and heavy traffic lanes on concrete?
 Yes. Rubber marking and traffic lanes are treated as their own task with floor scrubbers and appropriate product strength, on a cycle agreed with you, rather than left to a general floor pass that will never shift them.
+
+### Do you clean civic or training premises such as Kingston City Hall or the Holmesglen TAFE campus?
+We can. Civic and training premises on Moorabbin's western side, such as council buildings and TAFE campuses, need scheduling around public access and teaching hours rather than a production line, and we plan the visit to suit.
+
+### Do you dust high-level racking and ledges as part of a regular clean?
+Yes. High-level dusting on racking uprights, ledges and partition tops is set on a rotating cycle rather than left until it is visible from the floor, so build-up never gets ahead of the schedule.
 
 ## Get your Moorabbin site quoted
 

@@ -42,6 +42,8 @@ Most offices here want the cleaners in after the last person leaves or before th
 
 Where a building requires induction, an access card register, a signed contractor agreement or a booked lift, we complete that paperwork before the first shift instead of discovering it on the night. Commercial cleaners Glen Waverley tenants recommend to each other are usually the ones who make the building manager's life easy, and that is deliberate on our part.
 
+Call us now on 0498 182 989 to talk through your building's access rules.
+
 ## Who books us in Glen Waverley
 
 This service suits a mix of Glen Waverley workplaces:
@@ -49,10 +51,6 @@ This service suits a mix of Glen Waverley workplaces:
 - Professional and allied health practices in converted houses along the arterials
 - Client-facing businesses wanting extra attention on reception and the visitor path
 - Tenancies vacating a floor, cleaned to the condition report
-
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne, holding a 5 out of 5 rating on Oneflare from 16 reviews. Every job is covered by our 100% satisfaction guarantee, so if any area inside the agreed scope falls short we return and re-clean it. Our credentials and quality-control system are set out in full on the hub page above.
 
 ## What a Glen Waverley clean costs
 
@@ -64,25 +62,37 @@ The price is built from the site, not from a rate card. The variables that move 
 
 We look at the space, then send a written quote. Quotes are free. Choose a one-off deep clean, a weekly or fortnightly visit, or nightly service, and we work without lock-in contracts, so if you take another floor or give one back the arrangement changes with you.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019 after years working as a cleaner himself. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne, holding a 5 out of 5 rating on Oneflare from 16 reviews. Every job is covered by our 100% satisfaction guarantee, so if any area inside the agreed scope falls short we return and re-clean it. Our credentials and quality-control system are set out in full on the hub page above.
+
 ## Frequently asked questions
 
-**Do you clean commercial carpet and hard floors?**
+### Do you clean commercial carpet and hard floors?
 Yes. Day to day that means commercial vacuuming on carpet and mopping on hard surfaces. In denser buildings around the station the harder problem is the lobby and lift lobby, where stone and tile take a beating from constant traffic and lose their finish quickly, so those areas want machine scrubbing and polishing on a set cycle rather than mopping alone. Entrance matting is worth doing properly too, since matting that has stopped holding grit sends it straight onto your carpet.
 
-**Do you clean internal windows and glass?**
+### Do you clean internal windows and glass?
 Yes, with professional window-cleaning tools rather than a spray bottle. Standard scope covers reception and entry glass, glass office fronts and partitions, glass doors and internal balustrades where they are safely reachable from the floor. Glass in an office is mostly a fingerprint and film problem, so technique matters more than frequency. Anything requiring height access equipment or external facade work is quoted separately once we have looked at how it is reached.
 
-**Do you do end-of-lease cleaning for commercial premises?**
+### Do you do end-of-lease cleaning for commercial premises?
 Yes. On a Glen Waverley office vacate the practical issue is timing and coordination, because you are working to a handover date with the agent, the building manager and often an owners corporation involved. We schedule the clean into the window between your fit-out removal and the inspection, work from the condition report and make-good requirements so the result matches what will be checked, and cover floors, glass, kitchens, washrooms and the marks left by removed furniture and signage.
 
-**Do you clean tenancies in the buildings around Glen Waverley station?**
+### Do you clean tenancies in the buildings around Glen Waverley station?
 Yes. The commercial core near the station is where most of our Glen Waverley work sits, and we are used to booking lifts, completing contractor inductions and working to a building's after-hours access rules.
 
-**Can you clean a small practice operating from a converted house on an arterial?**
+### Can you clean a small practice operating from a converted house on an arterial?
 Yes. Plenty of professional and allied health practices here work from that kind of premises. On health sites we clean to the practice's own written procedure, following it exactly as your team has documented it.
 
-**Do you also cover the surrounding Monash suburbs?**
+### Do you also cover the surrounding Monash suburbs?
 Yes. We service commercial premises across Glen Waverley and the neighbouring suburbs in the City of Monash, and one team can cover several of your sites on the same run if you operate from more than one address.
+
+### Are your cleaners insured and police-checked?
+Yes. Every cleaner is police-checked and trained in workplace and chemical safety, and we carry $20 million public liability insurance plus WorkCover. In a high-rise near the station that is usually a building manager's first question before access is approved.
+
+### Can you give extra attention to reception for client-facing offices?
+Yes. Where a business sees regular client foot traffic we write reception, entry glass, the lobby floor and the visitor washroom in as a daily item rather than leaving them on the general rotation, since that is the space a visitor judges first.
 
 ## Ask us for a price on your office
 

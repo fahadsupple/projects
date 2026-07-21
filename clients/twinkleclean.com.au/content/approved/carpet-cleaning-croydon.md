@@ -26,16 +26,14 @@ Rather than a single hopeful pass, each carpet gets its own targeted treatment f
 
 For the full detail on our equipment and approach, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to book a Croydon carpet clean.
+
 ## Who we help with carpet in Croydon
 
 Our Croydon carpet cleaning is built around a few household types:
 - Families in established homes, refreshing carpet worn by years of foot traffic and pets
 - Renters and tenants preparing for a final inspection
 - Property managers coordinating bond-back cleans across Croydon's townhouses and units
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet and settles on a method. Across the crew we bring more than 20 years of combined experience to the work. We have served over 1,200 customers around Melbourne, and every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For the full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Pricing and free quotes
 
@@ -46,25 +44,37 @@ Carpet cleaning is priced on the job, so the fairest figure comes from the detai
 
 Whether it is a single bedroom or a whole Croydon family home, we give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business, and that hands-on start still shapes how the team reads a carpet and settles on a method. Across the crew we bring more than 20 years of combined experience to the work. We have served over 1,200 customers around Melbourne, and every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For the full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**How much does carpet cleaning cost?**
+### How much does carpet cleaning cost?
 It depends on the number of rooms, the size and condition of the carpet, and any stain or odour treatment needed. We provide free quotes so the figure reflects your actual carpet rather than a flat rate.
 
-**How much does carpet steam cleaning cost?**
+### How much does carpet steam cleaning cost?
 Steam cleaning, or hot water extraction, is our standard method, so it is already built into most quotes. Larger areas and heavier stain work add to the price, which is why we quote on the specifics.
 
-**Is professional carpet cleaning worth it?**
+### Is professional carpet cleaning worth it?
 Usually, yes. A professional clean lifts embedded grit and revives colour that a surface vacuum cannot restore, clears trapped allergens and odour that build up over time, and helps a good carpet last years longer before it needs replacing, which works out far cheaper than new flooring.
 
-**Can you clean carpet in family homes and townhouses?**
+### Can you clean carpet in family homes and townhouses?
 Yes. Established family homes with high-traffic lounges and long hallways and newer townhouses with tighter, denser layouts are both everyday work for us, and we bring the same equipment and care to each.
 
-**Do you do end-of-lease cleaning for newer units?**
+### Do you do end-of-lease cleaning for newer units?
 Yes. We carry out end-of-tenancy carpet cleaning in Croydon's units and townhouses with a bond-back guarantee, subject to the agreed scope and inspection conditions, to give tenants the best chance of protecting their deposit.
 
-**Do you cover nearby eastern suburbs like Kilsyth and Mooroolbark?**
+### Do you cover nearby eastern suburbs like Kilsyth and Mooroolbark?
 Yes. Croydon is one of our regular patches, and the surrounding outer-east is on the same route, so Kilsyth, Mooroolbark and the rest of the Maroondah area are easy for us to reach.
+
+### Can you shift pet odours from an older family carpet?
+Yes. Pet odours get their own targeted treatment rather than a single general pass, which matters in Croydon's long-lived family homes where a pet has often claimed the same spot for years.
+
+### Do you treat worn traffic lanes and faded patches as well as stains?
+Yes. The worn hallway lane, the faded patch in front of the television and the darker stretch by the back door are all ordinary work for us, treated alongside any stains so the whole room comes up evenly.
 
 ## Book your Croydon carpet clean
 

@@ -32,6 +32,8 @@ The realistic window for a Bentleigh shop is between close and open, and that is
 
 Commercial cleaning services Bentleigh businesses book through us are handled by police-checked cleaners trained in workplace and chemical safety, with $20 million public liability insurance and WorkCover behind them. Our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page carries the full detail on equipment, checklists and quality control.
 
+Call us now on 0498 182 989 to book a Bentleigh site visit.
+
 ## Who we clean for in Bentleigh
 
 Our Bentleigh commercial cleaning suits a specific mix of businesses:
@@ -39,10 +41,6 @@ Our Bentleigh commercial cleaning suits a specific mix of businesses:
 - Cafes, bakeries and takeaway shops, cleaned to your own food safety procedure
 - Physio clinics, consulting rooms and similar small practices
 - Owners running two or more shops on the strip, scheduled back to back
-
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, which is why scoping conversations here tend to be practical rather than salesy. The team carries more than 20 years of combined experience and has worked for over 1,200 customers around Melbourne. Everything is covered by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned. Our Oneflare rating is 5 out of 5 from 16 reviews. Full credentials sit on the hub page.
 
 ## How we quote
 
@@ -57,25 +55,37 @@ A 60 square metre boutique and a 60 square metre cafe are not the same job.
 
 Quotes are free, pricing stays competitive against other operators on the strip, and there is no published flat rate for that reason. Book a single deep clean before an opening, or set a regular schedule and change it whenever trade changes.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, which is why scoping conversations here tend to be practical rather than salesy. The team carries more than 20 years of combined experience and has worked for over 1,200 customers around Melbourne. Everything is covered by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned. Our Oneflare rating is 5 out of 5 from 16 reviews. Full credentials sit on the hub page.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 Desks and workstations, meeting rooms, reception and entry glass, kitchen surfaces and sinks, bathroom fixtures and touchpoints, bin emptying and liner replacement, vacuuming carpet to the edges, and mopping hard floors with colour-coded equipment. The written scope for your site lists exactly what is covered.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 It follows headcount and traffic more than square metres. A studio with four people and no visitors often runs well on a weekly clean. An office with twenty or more staff, or one where clients come in, usually needs three visits a week or nightly service to keep bathrooms and kitchens right. Starting at one frequency and adjusting later is fine.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes. Crews arrive with commercial vacuums, floor scrubbers and polishers, professional window-cleaning tools, colour-coded microfibre cloths and mops, and hospital-grade disinfectants chosen for your site. Consumables such as hand towel, toilet paper and bin liners can be supplied and restocked by us or left with you.
 
-**Can you clean a Centre Road shop before it opens?**
+### Can you clean a Centre Road shop before it opens?
 Yes. Early-morning starts are common on the strip, and so are late-evening cleans after close. Access is agreed in writing, whether that means keys, a code or a staff member letting the crew in.
 
-**Do you clean food premises on the strip?**
+### Do you clean food premises on the strip?
 We clean cafes, bakeries and takeaway shops to the site's own written cleaning procedure, using colour-coded equipment and hospital-grade disinfectants where the site calls for them. Anything specified in your own food safety documentation can be built into the checklist.
 
-**We have two shops in Bentleigh under one owner. Can they share a schedule?**
+### We have two shops in Bentleigh under one owner. Can they share a schedule?
 Yes, and it usually works out better. Sites close together run back to back on the same visit night, which keeps travel time out of the pricing.
+
+### Can you clean on Sunday night when the strip is quietest?
+Yes. Sunday evening suits plenty of Centre Road traders whose busiest trading day is Saturday, and we work weekends and public holidays at no extra charge, so a Sunday-night reset costs the same as any other night.
+
+### Do you clean fitting rooms and display areas for a boutique?
+Yes. Fitting rooms, display shelving and counter areas are named on the written checklist rather than left as a general sweep, which matters for a Centre Road boutique where customers handle stock all day.
 
 ## Get a price for your Bentleigh shop
 

@@ -14,6 +14,8 @@ We match the clean to the carpet rather than running one setting across the hous
 
 Where a set-in stain, a pet odour or a worn traffic lane needs more, we treat that spot on its own before the main clean, which is how marks a general pass tends to miss actually come up. For the full rundown of our equipment and how we work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to talk through the right method for your carpet.
+
 ## End of lease and bond-back carpet cleaning
 
 With family homes and rentals changing hands across Cheltenham, end-of-lease carpet cleaning is steady local work for us. Property managers look closely at carpet during a final inspection, and a weak result can hold up a bond. We clean to the standard those inspections expect and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, giving tenants the best chance of getting their deposit back.
@@ -26,10 +28,6 @@ Carpet cleaning in Cheltenham works best for:
 - Tenants and property managers needing an end-of-lease bond-back clean
 - Offices, shops and industrial premises needing commercial carpet care
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on start still shapes how our team reads a carpet and settles on a method. Between them our cleaners bring more than 20 years of combined industry experience. We have served over 1,200 customers across Melbourne, and every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
-
 ## Pricing and free quotes
 
 Carpet cleaning is priced on the job, so the fairest figure comes from the details:
@@ -40,25 +38,37 @@ Carpet cleaning is priced on the job, so the fairest figure comes from the detai
 
 We give free quotes, keep our pricing competitive and budget-friendly, and leave the choice of a one-off clean or a regular schedule with you, with the scope and price clear before any work starts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on start still shapes how our team reads a carpet and settles on a method. Between them our cleaners bring more than 20 years of combined industry experience. We have served over 1,200 customers across Melbourne, and every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**How often should carpets be professionally cleaned?**
+### How often should carpets be professionally cleaned?
 For most homes, once a year keeps carpet in good shape, while a busy household with children or pets tends to benefit from every six to nine months. Offices and other high-traffic floors usually need it more often again, and we are glad to suggest an interval for yours.
 
-**Can you get out old or set-in stains?**
+### Can you get out old or set-in stains?
 Often, yes. Plenty of stains that look permanent are still sitting in the fibre and respond well to a targeted pre-treatment followed by hot water extraction. Some, such as older dye or bleach marks, have genuinely changed the carpet, and we will tell you honestly what is likely to shift beforehand.
 
-**Do you clean rugs and upholstery too?**
+### Do you clean rugs and upholstery too?
 Yes. Alongside wall-to-wall carpet we clean rugs, including delicate and natural-fibre pieces, and we freshen sofas, chairs and mattresses through our upholstery cleaning, so a whole room can be done in one visit.
 
-**Do you clean commercial carpet as well as homes?**
+### Do you clean commercial carpet as well as homes?
 Yes. Cheltenham has a solid base of offices, shops and industrial premises, and we maintain their carpet alongside our residential work, fitting the clean around trading or office hours where that suits you.
 
-**Can you handle heavily used family-home carpet?**
+### Can you handle heavily used family-home carpet?
 Absolutely. Worn traffic lanes, ground-in grit and pet odours in a long-lived family home are among our most common Cheltenham jobs. We prespray and agitate the busy areas first, then extract with hot water so the clean reaches soil a lighter pass leaves behind.
 
-**Do you cover both the Bayside and Kingston sides of Cheltenham?**
+### Do you cover both the Bayside and Kingston sides of Cheltenham?
 Yes. Cheltenham is split between the City of Bayside and the City of Kingston, and our cleaners work right across the suburb whichever council a street falls under, along with the areas nearby.
+
+### Do you clean carpet in Cheltenham's industrial premises?
+Yes. Alongside homes and shops, we clean carpet in the offices attached to the industrial pockets on Cheltenham's eastern and western edges, scheduling around the working hours of the site.
+
+### How soon can you fit in an end-of-lease clean?
+Often within a few days, and we work seven days a week including weekends and public holidays at no extra charge. If you have a fixed inspection or handover date, tell us when you book and we will do our best to schedule ahead of it.
 
 ## Book your Cheltenham carpet clean
 

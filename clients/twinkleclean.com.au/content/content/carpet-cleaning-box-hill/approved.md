@@ -25,16 +25,14 @@ Every carpet gets a dedicated treatment step for:
 
 For the full rundown of our equipment and process, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to book a Box Hill carpet clean.
+
 ## The kinds of Box Hill homes we clean
 
 Twinkle Clean's Box Hill carpet cleaning suits a few clear groups:
 - Renters and tenants moving out, needing a bond-back clean timed to the final inspection
 - Property managers turning an apartment around quickly between leases
 - Owner-occupiers and residents in Box Hill's apartment towers, wanting a clean that fits lift access and building rules
-
-## About Twinkle Clean
-
-Twinkle Clean was started in 2019 by Tom Su, who worked as a cleaner by trade well before he ran a company, and that hands-on grounding still shapes how the team reads a carpet and settles on a method. Across our cleaners we bring more than 20 years of combined industry experience, and we have now served over 1,200 customers around Melbourne. Every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Pricing and free quotes
 
@@ -45,25 +43,37 @@ Carpet cleaning is quoted on the job, so the fairest figure comes from the speci
 
 We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the choice of a one-off clean or a regular schedule. You will have the scope and the price in hand before any work starts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was started in 2019 by Tom Su, who worked as a cleaner by trade well before he ran a company, and that hands-on grounding still shapes how the team reads a carpet and settles on a method. Across our cleaners we bring more than 20 years of combined industry experience, and we have now served over 1,200 customers around Melbourne. Every job carries a 100% satisfaction guarantee: if an area within the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Do you do bond-back carpet cleaning for apartments?**
+### Do you do bond-back carpet cleaning for apartments?
 Yes. End-of-lease work in Box Hill units is a big part of what we do, and we back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so your carpet meets what a final inspection is looking for.
 
-**Can you clean carpet in a high-rise unit?**
+### Can you clean carpet in a high-rise unit?
 Yes. Our equipment reaches upper floors in Box Hill's apartment towers, and we plan around lift access and building rules so the clean stays tidy and low-fuss for you and the neighbours.
 
-**How quickly can you turn around an end-of-lease clean?**
+### How quickly can you turn around an end-of-lease clean?
 Move-out timing is often tight, so we work to fit the handover date wherever the schedule allows. Ring us with your inspection date and we will let you know the earliest slot we can offer.
 
-**How much does carpet cleaning cost?**
+### How much does carpet cleaning cost?
 The figure comes down to how many rooms you have, the size and condition of the carpet, and whether stain or odour treatment is involved. A free quote gives you a price built around your carpet instead of a flat rate.
 
-**How much does carpet steam cleaning cost?**
+### How much does carpet steam cleaning cost?
 Steam cleaning, or hot water extraction, is our standard method, so it sits inside the quote for most jobs. Bigger areas and heavier stain treatment lift the total, which is why we price on the specifics rather than a fixed number.
 
-**Is professional carpet cleaning worth it?**
+### Is professional carpet cleaning worth it?
 Before a final inspection, it usually pays for itself. A proper steam clean pulls embedded grit and marks out of the pile that a rental vacuum cannot, and on a rental that is often the difference between a passed carpet check and a deducted bond.
+
+### Can you work around a building's lift access and parking rules?
+Yes. Box Hill's towers each have their own lift booking and loading arrangements, so we plan the job around building access rather than asking you to manage it. Tell us the building's rules when you book and the crew works to them.
+
+### Do you clean carpet for owner-occupiers, not just at the end of a lease?
+Yes. Alongside bond-back work, we clean for owners and long-term residents in Box Hill's apartment towers who simply want their carpet freshened, on a one-off basis or a regular schedule.
 
 ## Book a carpet clean in Box Hill
 

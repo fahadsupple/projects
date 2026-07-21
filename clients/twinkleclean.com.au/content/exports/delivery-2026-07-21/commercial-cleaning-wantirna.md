@@ -20,6 +20,8 @@ Behind the counter the work is less visible and just as important. Staff kitchen
 
 Clinics and consulting suites here get a scope written around their own requirements. Where your practice runs a documented cleaning procedure covering treatment rooms, waiting areas or waste handling, our cleaners work to that written procedure, and the schedule is built so rooms are ready before the first appointment of the day. Bayswater clinics after the same tailored approach can read about it on our [commercial cleaning in Bayswater](https://www.twinkleclean.com.au/commercial-cleaning-bayswater/) page.
 
+Call us now on 0498 182 989 to book a site visit.
+
 ## Cleaning that fits around opening hours
 
 Suburban trade in Wantirna spreads right across the week, so a Monday-to-Friday evening schedule suits very few businesses here. We work seven days a week including weekends and public holidays at no extra charge, so a Saturday evening or Sunday morning slot is priced the same as any other. After-hours commercial cleaning before opening or after close is what most shops and clinics choose, so nobody is working around a vacuum while customers are in the room.
@@ -34,10 +36,6 @@ Wantirna commercial cleaning suits:
 - Clinics and consulting suites working to their own documented cleaning procedures
 - Professional offices and services across the suburb
 
-## About Twinkle Clean
-
-Twinkle Clean was set up in 2019 by Tom Su, who worked as a cleaner by trade for years before starting the business. The team carries more than 20 years of combined experience and has served over 1,200 customers around Melbourne. Every clean comes with a 100% satisfaction guarantee backed by a quality control system, so anything within the agreed scope that falls short gets re-cleaned. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
-
 ## What a Wantirna clean costs
 
 We quote per site after seeing it, because a small salon and a six-room clinic have almost nothing in common on paper. The variables are:
@@ -50,25 +48,37 @@ We quote per site after seeing it, because a small salon and a six-room clinic h
 
 Quotes are free and nothing is owed if you go elsewhere. We operate without lock-in contracts, so a schedule can be lifted for a busy season or wound back for a quiet one. Our pricing is competitive against the other commercial cleaning services Wantirna operators will be getting numbers from, and each price is set individually.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was set up in 2019 by Tom Su, who worked as a cleaner by trade for years before starting the business. The team carries more than 20 years of combined experience and has served over 1,200 customers around Melbourne. Every clean comes with a 100% satisfaction guarantee backed by a quality control system, so anything within the agreed scope that falls short gets re-cleaned. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
+
 ## Frequently asked questions
 
-**Can you work around our staff and trading hours?**
+### Can you work around our staff and trading hours?
 Yes. For most retail and clinic clients here that means a fixed slot before you open or after the last customer leaves, so the space is ready and nobody is cleaning around people. If your business trades seven days, weekend and public holiday visits carry no surcharge. Where a site prefers a daytime clean, we work quietly in areas that are not in use and move as your day moves.
 
-**Do you offer one-off cleans as well as regular schedules?**
+### Do you offer one-off cleans as well as regular schedules?
 Yes. Single jobs are common in Wantirna: a shop handed over to a new tenant, a clinic reopening after a refurbishment, a storeroom that has been ignored, or a detail before a landlord inspection. Nothing ongoing is required, and a fair number of our regular clients here began with one job and asked us back.
 
-**Can we change the scope or frequency later?**
+### Can we change the scope or frequency later?
 Yes, and it takes a phone call rather than a contract variation. Add a room, drop a room, move from three visits to two, add a monthly floor machine cycle: we adjust the schedule and the quote accordingly. Because nothing is locked in, changing your mind costs nothing beyond the revised price.
 
-**Do you clean shops and salons as well as offices?**
+### Do you clean shops and salons as well as offices?
 Yes. Retail and shopfront cleaning is a core part of what we do in Wantirna, taking in entry glass, customer floors, counters, fitting or treatment areas, staff rooms and washrooms, timed around your trading hours.
 
-**Do you clean medical and consulting rooms in Wantirna?**
+### Do you clean medical and consulting rooms in Wantirna?
 We do clean clinics and consulting suites, working to the practice's own written cleaning procedure for treatment areas and waiting rooms, which keeps the clean aligned with the standards your practice is already accountable for.
 
-**Can you cover several tenancies in the same strip on one visit?**
+### Can you cover several tenancies in the same strip on one visit?
 Yes. Where neighbouring businesses in a Wantirna shopping strip want the same cleaner, we schedule them back to back on one run, which usually improves the price for everyone and means the same familiar team each time.
+
+### Do you clean consulting suites and allied health rooms near Knox Private Hospital?
+Yes. Consulting suites and allied health rooms of that kind are exactly the sort of premises we clean in Wantirna, scheduled so rooms are ready before the first appointment.
+
+### Do you clean businesses that benefit from Westfield Knox's passing trade?
+Yes. Independent operators working near Westfield Knox's pull of traffic, rather than inside the centre itself, are exactly the kind of premises this page is written for, and we schedule around their trading hours the same as any other Wantirna site.
 
 ## Ask us for a Wantirna quote
 

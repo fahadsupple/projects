@@ -29,6 +29,8 @@ We use commercial vacuum cleaners, floor scrubbers and polishers where the surfa
 
 Every site runs off a detailed cleaning checklist and site-specific procedures, so the standard holds when a different cleaner covers a shift. If something within the agreed scope falls short, our quality control process brings us back to re-clean it.
 
+Call us now on 0498 182 989 to book a site visit.
+
 ## After-hours work, weekends and the ground-floor tenancies
 
 Most of the office cleaning Box Hill tenants ask us for happens after the last person leaves. After-hours commercial cleaning keeps vacuums and floor machines out of the working day, so your team walks into a finished room rather than around a cleaning trolley. For businesses that want a visible daytime presence, a light daytime service covering washrooms, kitchens and bins can sit alongside it.
@@ -47,10 +49,6 @@ Box Hill commercial cleaning suits:
 - Consulting rooms, agencies, training providers and other ground-floor businesses trading at street level
 - Body corporates and building managers needing lift lobbies, corridors and shared amenities covered alongside individual tenancies
 
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019. He was a cleaner by trade for years before he ran a business, which is why the company still argues about mop technique more than it argues about marketing. The team brings 20+ years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee backed by a quality control system. We hold a 5 out of 5 rating on Oneflare from 16 reviews. Full details of our training, insurance and screening sit on the hub page above.
-
 ## What it costs
 
 Pricing is worked out per site. A few things move the number:
@@ -63,25 +61,37 @@ Pricing is worked out per site. A few things move the number:
 
 There is no published flat rate that would mean anything. Quotes are free, our rates stay competitive against other commercial cleaners Box Hill businesses will be comparing, and we work without lock-in contracts. Book a one-off clean, a weekly service or anything between, and adjust it as the business changes.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019. He was a cleaner by trade for years before he ran a business, which is why the company still argues about mop technique more than it argues about marketing. The team brings 20+ years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee backed by a quality control system. We hold a 5 out of 5 rating on Oneflare from 16 reviews. Full details of our training, insurance and screening sit on the hub page above.
+
 ## Frequently asked questions
 
-**Can you work around our staff and trading hours?**
+### Can you work around our staff and trading hours?
 Yes. Tell us the windows that work and we build the roster around them. Most office clients choose an evening start after the floor empties. Others prefer very early mornings so the space is fresh at nine. Because we operate seven days a week at standard rates, weekend cleans are a genuine option rather than a premium workaround.
 
-**Do you offer one-off cleans as well as regular schedules?**
+### Do you offer one-off cleans as well as regular schedules?
 Both. One-off work covers end-of-lease cleans, post-fitout cleans in newly completed tower tenancies, pre-inspection cleans and seasonal deep cleans. Regular schedules run daily, several times a week, weekly or fortnightly. Plenty of clients start with a single deep clean to reset the site, then move onto a routine.
 
-**Can we change the scope or frequency later?**
+### Can we change the scope or frequency later?
 Yes, and it happens often. Businesses take an extra floor, shrink a footprint, shift to hybrid attendance or add a boardroom. Contact us with the change and we revise the schedule and the quote. No lock-in contract holds you to an arrangement that stopped matching your site.
 
-**Do you handle high-rise office suites near Box Hill station?**
+### Do you handle high-rise office suites near Box Hill station?
 Yes. Tower tenancies around the station are a regular part of our work. We coordinate with building management on after-hours access, service lift use and security sign-in, and we work to whatever induction requirements the building sets.
 
-**Can you clean common areas as well as our tenancy?**
+### Can you clean common areas as well as our tenancy?
 If you control them or your building manager engages us for them, yes. Lift lobbies, shared corridors, stairwells and shared amenities can all be included. Where a body corporate holds that contract, we clean to your tenancy line and coordinate so the two standards match.
 
-**Do you clean shopfront and street-level premises in Box Hill?**
+### Do you clean shopfront and street-level premises in Box Hill?
 Yes. Street-level businesses get a lot of footpath dirt through the front door. Entry glass, mats, thresholds and hard floors need more frequent attention than an upper-floor office, and we set the frequency accordingly.
+
+### How do you manage loading docks and service lift bookings in a Box Hill tower?
+We work to whatever protocol building management has set. Loading dock windows, service lift bookings, after-hours building access and security sign-in are all treated as fixed constraints we plan the visit around, rather than something we ask a building manager to bend for us.
+
+### Do you clean businesses serving Box Hill's Chinese community at ground level?
+Yes. Consulting rooms, agencies, training providers and the many ground and podium-level businesses serving Box Hill's large Chinese community are regular work for us, usually cleaned early morning or late evening around trading hours.
 
 ## Talk to us about your Box Hill site
 

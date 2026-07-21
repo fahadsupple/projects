@@ -27,6 +27,8 @@ We treat stains and odours as their own step, using targeted stain, odour and ur
 
 Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to book a time that suits the household.
+
 ## End of lease carpet cleaning in Rowville
 
 Rowville is mostly owner-occupied family homes, but plenty of rentals sit among the estates too, and when a lease ends the carpet is one of the first things a property manager checks. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of getting their deposit back.
@@ -39,10 +41,6 @@ Rowville carpet cleaning is built around:
 - Renters and tenants preparing for a bond-back inspection at the end of a lease
 - Property managers checking carpet condition before handing back a tenancy
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on background still guides how our team reads a carpet and picks a method. Between them, our cleaners bring more than 20 years of combined experience to the work. We have served over 1,200 customers across Melbourne, and we back every job with a 100% satisfaction guarantee: if an area in the agreed scope is not right, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
-
 ## Pricing and free quotes
 
 Because a Rowville job might be a couple of bedrooms or a whole five-bedroom house, we price on the details rather than a flat rate:
@@ -53,25 +51,37 @@ Because a Rowville job might be a couple of bedrooms or a whole five-bedroom hou
 
 Our quotes are free and come with no obligation, our pricing stays competitive and budget-friendly, and you can choose a one-off refresh or a regular schedule. You will have the scope and the price before any work begins.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on background still guides how our team reads a carpet and picks a method. Between them, our cleaners bring more than 20 years of combined experience to the work. We have served over 1,200 customers across Melbourne, and we back every job with a 100% satisfaction guarantee: if an area in the agreed scope is not right, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Can you clean a whole house of carpet in one visit?**
+### Can you clean a whole house of carpet in one visit?
 Yes, and it is a big part of what we do in Rowville, where homes often carry carpet through several bedrooms, a lounge, a family room and the halls between them. Our team works room by room in the one appointment, so everything comes up fresh together.
 
-**Do you clean large open-plan living areas?**
+### Do you clean large open-plan living areas?
 Yes. Wide open-plan lounges and family rooms take most of the foot traffic, so they tend to show wear first. We steam clean the full area in one go, blending the traffic lanes back in with the rest of the carpet.
 
-**Do you cover the Rowville estates and nearby Knox suburbs?**
+### Do you cover the Rowville estates and nearby Knox suburbs?
 Yes. We clean carpets right across the Rowville estates, including Rowville Lakes and Park Ridge, and through the surrounding City of Knox and the wider south-east.
 
-**How long does carpet take to dry after cleaning?**
+### How long does carpet take to dry after cleaning?
 Most carpets are dry within a few hours of a steam clean. Heavier fabrics, cooler weather and low airflow can stretch that out, and we can advise on walk-on timing for your carpet.
 
-**Can you remove pet stains and odours?**
+### Can you remove pet stains and odours?
 Yes. Targeted stain, odour and urine treatment is a dedicated step, which is how we lift the marks and smells a household vacuum leaves behind.
 
-**Do you offer end-of-lease or bond-back carpet cleaning?**
+### Do you offer end-of-lease or bond-back carpet cleaning?
 Yes. We carry out end-of-tenancy carpet cleaning with a bond-back guarantee, subject to the agreed scope and inspection conditions, to help protect your deposit.
+
+### Can you set up a regular carpet cleaning schedule for a busy family home?
+Yes. Alongside a one-off refresh, Rowville households with kids and pets putting heavy traffic through open-plan living areas can book a regular schedule, so the carpet gets ahead of the wear instead of catching up on it.
+
+### How do you deal with a spot our pet keeps returning to?
+We treat it as its own targeted job. A patch beside the couch or a corner a pet has claimed as its own gets dedicated stain, odour and urine treatment rather than a single general pass over the whole room.
 
 ## Book your Rowville carpet clean
 

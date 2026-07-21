@@ -32,6 +32,8 @@ No trace is left that anyone was in the building.
 
 For treatment and consulting rooms we clean to the practice's own written procedure and use hospital-grade disinfectants selected for those surfaces. Our team is police-checked and trained in workplace and chemical safety, and the wider method is documented on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to book a Malvern site visit.
+
 ## Who books us across Malvern's strips
 
 Commercial cleaning in Malvern is best suited to:
@@ -40,10 +42,6 @@ Commercial cleaning in Malvern is best suited to:
 - Shops and food tenancies along Glenferrie Road
 - Legal, financial, allied health and design practices in upper-floor suites
 - Consulting and treatment rooms needing disinfection to a written procedure
-
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019, having spent years cleaning sites himself before running a company. Across the team there is 20+ years of combined experience, over 1,200 customers served around Melbourne, and a 5 out of 5 rating on Oneflare from 16 reviews. Every job carries a 100% satisfaction guarantee, so an area inside the agreed scope that falls short brings us back to re-clean it. Full credentials and equipment detail sit on the hub page above.
 
 ## Pricing and free quotes
 
@@ -57,25 +55,37 @@ Each Malvern site is priced individually. A narrow High Street shopfront with a 
 
 Quotes are free, our rates stay competitive with the other commercial cleaners Malvern businesses compare, and there is no published flat rate because the honest number only exists once we have seen the space. Regular schedules and one-off cleans are equally available, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019, having spent years cleaning sites himself before running a company. Across the team there is 20+ years of combined experience, over 1,200 customers served around Melbourne, and a 5 out of 5 rating on Oneflare from 16 reviews. Every job carries a 100% satisfaction guarantee, so an area inside the agreed scope that falls short brings us back to re-clean it. Full credentials and equipment detail sit on the hub page above.
+
 ## Frequently asked questions
 
-**Can you work around our staff and trading hours?**
+### Can you work around our staff and trading hours?
 Yes, and for most Malvern tenancies that is the default. We commonly clean after close or before opening so no part of the job overlaps with trade. For practices with late appointments, an early-morning start usually works better. The slot is agreed up front and held.
 
-**Do you offer one-off cleans as well as regular schedules?**
+### Do you offer one-off cleans as well as regular schedules?
 Both. One-off work covers a pre-opening clean after a shopfit, a post-event reset or a seasonal deep clean before a busy trading period. Regular schedules run daily, several times a week, weekly or fortnightly depending on foot traffic.
 
-**Can we change the scope or frequency later?**
+### Can we change the scope or frequency later?
 Yes, at any point. Retail volumes shift through the year and practices change their consulting days. Tell us what has changed and we adjust the scope, the frequency or both, then reissue the quote to match.
 
-**Do you clean heritage timber floors and original tiling?**
+### Do you clean heritage timber floors and original tiling?
 We do, using methods and product strengths matched to the material rather than a one-size approach. We will walk the floor with you first and tell you plainly what we would and would not use on it.
 
-**Can you cover a shopfront on High Street and an office on Glenferrie Road together?**
+### Can you cover a shopfront on High Street and an office on Glenferrie Road together?
 Yes. Several Malvern clients hold retail on one strip and administration on the other. Both go under one schedule, one contact and one combined quote, with separate scopes written per address.
 
-**How do you get in after the strip closes?**
+### How do you get in after the strip closes?
 By whatever arrangement suits your building: a key, a fob, a lockbox or a coded alarm procedure. It is documented before the first visit, held by named staff only, and the same cleaner attends so the routine stays familiar.
+
+### Do you clean consulting or treatment rooms to our own written procedure?
+Yes. For treatment and consulting rooms above Malvern's strips, we follow the practice's own written procedure and use hospital-grade disinfectants selected for those surfaces, rather than a generic office scope.
+
+### Do you do detail work like skirtings and door furniture, not just floors?
+Yes. Skirtings, sills, door furniture, stair nosings and the top edge of a display plinth are named on the checklist, because that is where dust shows first in the sort of natural light Malvern's period buildings get.
 
 ## Book a Malvern site visit
 

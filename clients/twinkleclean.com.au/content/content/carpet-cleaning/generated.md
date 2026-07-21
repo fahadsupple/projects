@@ -16,6 +16,8 @@ The full kit and method includes:
 
 Because we treat stains and odours as their own step rather than hoping a general clean lifts them, we handle the marks other cleans leave behind.
 
+Call us now on 0498 182 989 to talk through the right method for your carpet.
+
 ## What we clean
 
 Our carpet and upholstery work covers both homes and commercial sites, and it goes well beyond wall-to-wall carpet:
@@ -49,6 +51,18 @@ Our carpet cleaning covers a broad mix of customers across Melbourne:
 - Offices, retail spaces and other workplaces with commercial carpet
 - Households with rugs, stairs or upholstery that need attention alongside the carpet
 
+## Pricing and free quotes
+
+Carpet cleaning is priced on the job, so the fairest number comes from the details:
+
+- How many rooms
+- The size and condition of the carpet
+- Any stain or odour treatment involved
+
+We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the option of a one-off clean or regular scheduled cleaning. You will have the scope and the price before any work begins.
+
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
 ## About Twinkle Clean
 
 Twinkle Clean grew out of hands-on cleaning, not a boardroom. Founder Tom Su was a cleaner whose work was in high demand long before the business had a name, and that practical grounding still shapes how the team assesses a carpet and picks a method. Based in Ringwood, we clean carpets for homes and businesses right across Melbourne. Since starting in 2019, we have served more than 1,200 customers across Melbourne, held on to roughly 90% of our regular clients year to year, and earned about 40% of our new work through word of mouth.
@@ -61,16 +75,6 @@ What stands behind the work:
 - Seven-day availability, including weekends and public holidays, at no extra charge
 - No lock-in contracts
 - A 5 out of 5 rating from 16 reviews on Oneflare
-
-## Pricing and free quotes
-
-Carpet cleaning is priced on the job, so the fairest number comes from the details:
-
-- How many rooms
-- The size and condition of the carpet
-- Any stain or odour treatment involved
-
-We give free, no-obligation quotes and keep our pricing competitive and budget-friendly, with the option of a one-off clean or regular scheduled cleaning. You will have the scope and the price before any work begins.
 
 ## Suburbs we cover for carpet cleaning
 
@@ -99,28 +103,28 @@ We clean carpets across Melbourne, with strong coverage through the inner east, 
 
 ## Frequently asked questions
 
-**How much does carpet cleaning cost in Melbourne?**
+### How much does carpet cleaning cost in Melbourne?
 It depends on the number of rooms, the size and condition of the carpet, and any stain or odour treatment needed. We give free quotes so the price reflects your carpet rather than a flat rate.
 
-**How much is carpet steam cleaning?**
+### How much is carpet steam cleaning?
 Steam cleaning, or hot water extraction, is our standard method, so it is built into the quote for most jobs. Larger areas and heavy stain treatment add to the price, which is why we quote on the specifics.
 
-**Is professional carpet cleaning worth it?**
+### Is professional carpet cleaning worth it?
 For ground-in dirt, traffic lanes, stains and odours, yes. Professional hot water extraction reaches soil a domestic vacuum or hire machine leaves behind, and it lifts the moisture back out rather than leaving carpet soaked.
 
-**How long does carpet take to dry?**
+### How long does carpet take to dry?
 Most carpets are dry within a few hours after a steam clean. Heavier fabrics, cooler weather and poor airflow can lengthen that, and we can advise on timing for your carpet.
 
-**Do you remove pet stains and odours?**
+### Do you remove pet stains and odours?
 Yes. We use targeted stain, odour and urine treatments as a dedicated step, which is how we deal with marks and smells that a general clean does not shift.
 
-**Do you clean carpets for end of lease?**
+### Do you clean carpets for end of lease?
 Yes. We carry out end-of-tenancy carpet cleaning with a bond-back guarantee, subject to the agreed scope and inspection conditions, to help you protect your deposit.
 
-**Do you clean both homes and businesses?**
+### Do you clean both homes and businesses?
 Yes. We handle residential carpets as well as commercial carpet in offices, retail spaces and other workplaces, and we can clean upholstery and tile and grout at the same visit.
 
-**How do I get a quote?**
+### How do I get a quote?
 Call us on 0498 182 989 or email admin@twinkleclean.com.au with your rooms and any problem areas, and we will give you a free quote.
 
 ## Book a carpet clean

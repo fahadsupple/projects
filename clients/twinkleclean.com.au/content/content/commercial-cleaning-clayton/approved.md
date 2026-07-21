@@ -34,6 +34,8 @@ Research and technical sites often have people in the building at odd times, so 
 
 Every cleaner is police-checked, which matters where there is equipment, sample material or intellectual property in the building, and we carry $20 million public liability insurance plus WorkCover. Our full method and credentials sit on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to book a Clayton site visit.
+
 ## Sites we look after in Clayton
 
 Clayton's technical mix means we work with a wide range of site types:
@@ -42,10 +44,6 @@ Clayton's technical mix means we work with a wide range of site types:
 - Manufacturing buildings with an office wing kept separate from production dust
 - Professional suites over the shops on Clayton Road
 - Businesses vacating a tenancy, cleaned to match the lease make-good clause
-
-## About Twinkle Clean
-
-Twinkle Clean was started in 2019 by Tom Su, a cleaner by trade well before he was a business owner. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. We hold a 5 out of 5 rating on Oneflare from 16 reviews. Everything is backed by a 100% satisfaction guarantee, meaning any area inside the agreed scope that falls short gets re-cleaned. The hub page above has the rest.
 
 ## Pricing and free quotes
 
@@ -58,25 +56,37 @@ Every Clayton site gets priced on its own merits. The variables that move the nu
 
 We inspect, then quote in writing. Quotes are free. Take it as a one-off deep clean, a weekly or fortnightly visit, or a nightly service, and we work without lock-in contracts, so the arrangement can flex as your headcount does.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was started in 2019 by Tom Su, a cleaner by trade well before he was a business owner. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. We hold a 5 out of 5 rating on Oneflare from 16 reviews. Everything is backed by a 100% satisfaction guarantee, meaning any area inside the agreed scope that falls short gets re-cleaned. The hub page above has the rest.
+
 ## Frequently asked questions
 
-**Do you clean commercial carpet and hard floors?**
+### Do you clean commercial carpet and hard floors?
 Yes, both. Routine visits cover commercial vacuuming and mopping. Beyond that we run floor scrubbers and polishers on vinyl, tile and sealed concrete, and we offer periodic deep carpet cleaning for office carpet gone flat and grey in the traffic lanes. On sites with a workshop or production area feeding into a carpeted office, the transition zone needs a heavier frequency than the rest of the floor, and we build that into the schedule.
 
-**Do you clean internal windows and glass?**
+### Do you clean internal windows and glass?
 Yes. Internal glass is part of the standard scope: partitions, meeting room walls, glass doors and entry glass, done with professional window-cleaning tools rather than a spray and a cloth. Glass-walled meeting rooms in technical offices collect hand marks and whiteboard residue quickly, so they are worth doing every visit. External and above-ground-level work is quoted separately once we have seen the access.
 
-**Do you do end-of-lease cleaning for commercial premises?**
+### Do you do end-of-lease cleaning for commercial premises?
 Yes. Commercial vacates are a common job for us around Clayton, particularly where a business has outgrown a tenancy. We work from the make-good clause in your lease so the clean matches what the landlord will inspect against: floors, internal glass, kitchens and washrooms, fixture removal marks, and the areas behind and under whatever has just been taken out. Pricing is on inspection because the condition of the space is the whole variable.
 
-**Do you work around Monash University's Clayton campus?**
+### Do you work around Monash University's Clayton campus?
 Yes. We clean commercial premises across the suburb, including offices and businesses in the streets around the campus, and we schedule around teaching and research hours where a site needs it.
 
-**Can you clean the office side of a manufacturing building?**
+### Can you clean the office side of a manufacturing building?
 Yes, and it is one of our regular jobs here given Clayton's manufacturing history. We treat the admin wing as its own zone with its own equipment so production floor dust and residue are not carried through into the carpeted areas.
 
-**Do you service the shops and suites along Clayton Road?**
+### Do you service the shops and suites along Clayton Road?
 Yes. The strip near the station has plenty of small tenancies and upper-level professional suites, and those sites usually suit an early morning or after-close visit, which we arrange as standard.
+
+### Do you clean laboratories or other controlled areas?
+Yes, to the site's own written procedure. Where a laboratory, clean area, production floor or regulated store has its own signed-off process, we follow it exactly, including access, sequence and permitted chemicals, rather than substituting a generic scope.
+
+### Are your cleaners police-checked given the equipment and materials on site?
+Yes. Every cleaner is police-checked before working on a Clayton site, which matters where there is equipment, sample material or intellectual property in the building, and we carry $20 million public liability insurance plus WorkCover as well.
 
 ## Talk to us about your Clayton premises
 

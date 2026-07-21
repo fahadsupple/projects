@@ -1,12 +1,19 @@
 {
   "entry_id": "commercial-cleaning-rowville",
-  "gated_at": "2026-07-21T00:48:58.204Z",
+  "gated_at": "2026-07-21T03:09:30.989Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
       "line_number": 22,
+      "excerpt": "$20",
+      "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 81,
       "excerpt": "$20",
       "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

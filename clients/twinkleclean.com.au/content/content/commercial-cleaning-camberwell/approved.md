@@ -33,6 +33,8 @@ Parking and access shape scheduling here more than in most suburbs. Around the J
 
 Commercial cleaners Camberwell practices give keys to need to be trustworthy without supervision. Every cleaner is police-checked, trained in workplace and chemical safety, and communicates clearly in English, and we hold $20 million public liability insurance plus WorkCover. There is more on our method and quality control on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to book a Camberwell site visit.
+
 ## The Camberwell businesses we suit best
 
 Camberwell work usually comes from one of these groups:
@@ -40,10 +42,6 @@ Camberwell work usually comes from one of these groups:
 - Small offices above and behind the Burke Road strip, including converted terraces
 - Shops and cafes on the strip, cleaned to their own food safety procedure
 - Practices running Saturday clinics, scheduled around the appointment book
-
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019, having worked as a cleaner by trade long before running a business. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every job comes with a 100% satisfaction guarantee: anything inside the agreed scope that falls short is re-cleaned. We hold 5 out of 5 on Oneflare from 16 reviews, and the hub page has the rest.
 
 ## Pricing and free quotes
 
@@ -56,25 +54,37 @@ We price each site individually after seeing it. For a Camberwell suite the driv
 
 Quotes cost nothing, rates stay competitive with other operators working Boroondara, and there is no published flat rate because a rate card would misprice most tenancies around the Junction. Take a one-off clean before an inspection or set a standing schedule, with no lock-in contract either way.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019, having worked as a cleaner by trade long before running a business. The team carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every job comes with a 100% satisfaction guarantee: anything inside the agreed scope that falls short is re-cleaned. We hold 5 out of 5 on Oneflare from 16 reviews, and the hub page has the rest.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 The two biggest levers are frequency and the number of wet areas, not floor size. A five-room suite cleaned twice a week with one bathroom costs meaningfully less than the same suite cleaned five nights with two bathrooms and a shower. Consumables can be included or left to you. We put the whole thing in writing so you can see which parts of the number belong to which part of the job.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes, and around Camberwell Junction that is generally the sensible choice given traffic and parking near the strip. Evening work after close, early-morning work before opening and weekend visits all attract the same rate, and public holidays carry no surcharge.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. Arrangements run month to month and you can lift or reduce frequency, add a periodic deep clean, or pause over a quiet period without penalty. Scope changes are confirmed in writing so the invoice always matches what was agreed.
 
-**Do you clean shops and food premises on the Burke Road strip as well as offices?**
+### Do you clean shops and food premises on the Burke Road strip as well as offices?
 Yes, with food premises cleaned to the operator's own written procedure. Camberwell has essentially no industrial land, so the work here is offices, consulting suites, shops and cafes.
 
-**Can you work around a practice that runs Saturday clinics?**
+### Can you work around a practice that runs Saturday clinics?
 Yes. Practices near the Junction often trade Saturday mornings, so the clean moves to Saturday evening or Sunday. We set the day around your appointment book rather than ours.
 
-**Do you cover the rest of Boroondara?**
+### Do you cover the rest of Boroondara?
 Yes. We service sites across Melbourne from Ringwood, and Camberwell, Hawthorn East, Canterbury and the surrounding Boroondara suburbs are within easy reach on the same run.
+
+### Do you clean the stairwells leading up to first-floor suites?
+Yes. Stairwells and landings are on the checklist for any suite reached by stairs, since that is what a visitor climbs before they reach your door, and a dusty stairwell undercuts the impression before they arrive.
+
+### Can you schedule around the Sunday market near the Junction car park?
+Yes. We know to avoid Sunday mornings around the market car park, and we set your visit for whichever window actually works around the market and the strip's trading hours rather than a fixed default.
 
 ## Ask for a written scope and price
 

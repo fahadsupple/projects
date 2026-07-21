@@ -34,6 +34,8 @@ After-hours commercial cleaning is the norm here, most often starting once the f
 
 Cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when they hold building credentials for a secured floor. Twinkle Clean carries $20 million public liability insurance plus WorkCover. The full method and quality-control detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to book a Southbank site visit.
+
 ## Who typically books us in Southbank
 
 Southbank bookings usually come from one of these groups:
@@ -42,35 +44,43 @@ Southbank bookings usually come from one of these groups:
 - Hospitality and function spaces around the Promenade and Southgate precinct
 - Ground-floor and podium tenancies, needing a heavier frequency for street-level traffic
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he ran a business. The team brings over 20 years of combined experience and has served more than 1,200 customers across Melbourne. Work is covered by a 100% satisfaction guarantee and a quality control system, so if something in the agreed scope is not right we come back and re-clean it. The company holds a 5 out of 5 rating on Oneflare from 16 reviews.
-
 ## Pricing and free quotes
 
 Cost follows the floor plate, the fit-out and the frequency. A single-floor tenancy with 30 desks, two meeting rooms and a kitchen is a very different number from a multi-level occupier with reception, boardroom and end-of-trip facilities. We walk the tenancy, count what is actually there and quote from that.
 
 Quotes are free with nothing owed if you decide against it. There is no lock-in contract, so frequency moves up or down as your headcount does. Rates are competitive against other commercial cleaners Southbank tenants will be shortlisting.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he ran a business. The team brings over 20 years of combined experience and has served more than 1,200 customers across Melbourne. Work is covered by a 100% satisfaction guarantee and a quality control system, so if something in the agreed scope is not right we come back and re-clean it. The company holds a 5 out of 5 rating on Oneflare from 16 reviews.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 For a Southbank tenancy the standard run covers reception and lift lobby presentation, workstation bins and surfaces, meeting room resets, glass partitions and internal doors, kitchen and breakout areas, washrooms disinfected and restocked, and floors vacuumed or machined by surface. End-of-trip showers and lockers are included where your tenancy has them. Periodic hard-floor polishing and high-level glass are listed as scheduled extras so the recurring price stays predictable.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 Most corporate floors here run nightly, simply because the number of people using kitchens, washrooms and meeting rooms across a full plate leaves little room for skipping a day. Smaller tenancies with hybrid attendance often do well on three nights a week, with washrooms and kitchens the deciding factor. We look at your attendance pattern rather than assuming.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes, we supply everything, though in a tower it is worth checking what your building already provides. Some Southbank buildings supply washroom consumables centrally, in which case we use theirs and drop that from your quote. Our crews bring commercial vacuums, scrubbers, polishers, professional glass tools, colour-coded microfibre and the disinfectants suited to your site, sized to fit a service lift.
 
-**Do you clean tenancies in the Southbank office towers?**
+### Do you clean tenancies in the Southbank office towers?
 Yes, that is the bulk of our work in this postcode. Commercial cleaning services Southbank tower tenants engage us for typically cover a whole floor or several floors, coordinated with building management for after-hours lift and dock access.
 
-**Can you clean hospitality and function spaces in the precinct?**
+### Can you clean hospitality and function spaces in the precinct?
 We can. Front-of-house areas, function rooms and back-of-house staff facilities around the Southbank Promenade and Southgate precinct are cleaned outside trading, with floors, glass and washrooms carrying most of the scope.
 
-**Do you work with ground-floor and podium tenancies as well as upper floors?**
+### Do you work with ground-floor and podium tenancies as well as upper floors?
 Yes. Ground-level and podium businesses face far heavier foot traffic and street grime than a floor 20 storeys up, so entry glass, matting and hard floors get a much higher frequency in those scopes.
+
+### Do you clean end-of-trip facilities like showers and lockers?
+Yes. Staff lockers and showers get the same consistent attention as kitchens and washrooms, using colour-coded equipment so end-of-trip areas are never cleaned with the same gear as a kitchen bench.
+
+### How do you manage swipe access and security sign-in for a tower floor?
+We work it out with building management and your facilities contact before the first visit, covering swipe access, after-hours lift cards, loading dock bookings, security sign-in and any rules on when service lifts may be used, so the crew is never turned away at the door.
 
 ## Request a scope and price for your Southbank floor
 

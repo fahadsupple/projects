@@ -14,6 +14,8 @@ Our core method is hot water extraction, the deep steam clean, which flushes soi
 
 Set-in marks, pet odours and worn traffic lanes each get a targeted treatment instead of one hopeful pass. For the full detail on our equipment, presprays and stain work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to talk through the right method for your carpet or rug.
+
 ## Bond-back cleaning for Kew rentals
 
 Kew is far from only owner-occupied, and end-of-lease carpet cleaning near the tram routes is regular local work. We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants can hand back the keys with the floors already sorted.
@@ -26,10 +28,6 @@ Our Kew carpet cleaning suits:
 - Tenants needing a bond-back clean at the end of a Kew lease
 - Larger households with busy staircases and landings that take concentrated traffic
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on grounding still shapes how the team reads a carpet, backed by more than 20 years of combined experience across the team. We have served over 1,200 customers across Melbourne, and we back every job with a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit the [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
-
 ## Free quotes and competitive pricing
 
 Carpet cleaning is priced on the job, so the fairest figure comes from the details:
@@ -41,25 +39,37 @@ Carpet cleaning is priced on the job, so the fairest figure comes from the detai
 
 We give free quotes and keep our pricing competitive and budget-friendly, and you will have the scope and the price before any work begins.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on grounding still shapes how the team reads a carpet, backed by more than 20 years of combined experience across the team. We have served over 1,200 customers across Melbourne, and we back every job with a 100% satisfaction guarantee: if an area in the agreed scope falls short, we return and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit the [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Can you clean valuable or antique wool rugs?**
+### Can you clean valuable or antique wool rugs?
 Yes, and antique and hand-knotted rugs are among the pieces we most often handle in Kew. Each is checked for fibre, dye stability and backing first, then given a gentle, low-moisture clean rather than a heavy soak, so the colours stay true.
 
-**Is steam cleaning gentle enough for delicate carpet?**
+### Is steam cleaning gentle enough for delicate carpet?
 It is, once it is dialled in for the carpet in front of us. On delicate wool and natural fibres we lower the heat and keep moisture to a minimum, lifting the soil while leaving the pile its texture.
 
-**Do you clean carpeted stairs and landings?**
+### Do you clean carpeted stairs and landings?
 Yes. Staircases and landings in Kew's larger homes take concentrated traffic and trap grit in the edges and nosings, so we use dedicated stair tools to reach those tight spots and even out the worn look.
 
-**Do I need to move furniture before you arrive?**
+### Do I need to move furniture before you arrive?
 Clearing small and breakable items beforehand helps. We can gently shift sofas and chairs to reach the carpet beneath, while heavy pieces such as a full bookcase or bed are usually cleaned around.
 
-**How soon can you come out?**
+### How soon can you come out?
 Often within a few days, and we work seven days a week including weekends and public holidays at no extra charge. If you are working to a settlement or inspection date, tell us and we will do our best to fit you in ahead of it.
 
-**What is the difference between steam and dry carpet cleaning?**
+### What is the difference between steam and dry carpet cleaning?
 Steam cleaning is the deeper of the two. Hot water and solution are worked into the pile, then drawn back out under strong suction, which is what shifts embedded soil and leaves carpet damp for a few hours. Low-moisture or dry cleaning uses much less water and is ready to walk on sooner, so we prefer it for delicate wool and antique rugs in Kew homes.
+
+### Will cleaning affect the colour of a hand-knotted rug?
+We check dye stability before we start, and where a rug's colours are at risk of running or fading we adjust the method or advise you honestly if a professional specialist clean is the safer option instead.
+
+### Do you clean carpet in period homes near the Yarra?
+Yes. Kew's grand 19th-century homes and the streets closer to the river are regular work for us, and we treat the wool and natural-fibre carpet in them with the same low-moisture care regardless of the exact street.
 
 ## Book your Kew carpet clean
 

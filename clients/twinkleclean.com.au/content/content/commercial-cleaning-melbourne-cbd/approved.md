@@ -35,16 +35,14 @@ The district also carries retail, hospitality and cultural venues through its la
 
 The same variety of trade shows up on our [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page, written up separately. For the full method behind our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) programs, see the main service page.
 
+Call us now on 0498 182 989 to talk through your building's access and hours.
+
 ## The Melbourne CBD tenants we suit best
 
 CBD work tends to come from a few groups:
 - Office tenancies wanting desks, meeting rooms and kitchens ready before staff arrive
 - Building managers and multi-tenant towers, covering lobbies, lift cars and end-of-trip facilities
 - Retail, hospitality and cultural venues in the lanes and arcades, scheduled around trading hours
-
-## About Twinkle Clean
-
-Twinkle Clean was started in 2019 by Tom Su, who cleaned sites himself long before he ran a business. Since then the team has served over 1,200 customers across Melbourne and brings 20+ years of combined experience to the work. We hold a 100% satisfaction guarantee: if something inside the agreed scope falls short, we come back and re-clean it. Our Oneflare rating sits at 5 out of 5 from 16 reviews. Full credentials, insurance details and our cleaning method are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
 
 ## What it costs
 
@@ -56,25 +54,37 @@ There is no published flat rate, because a 200 square metre tenancy and a four-f
 
 Quotes are free and there is no charge for the site walk-through. You can book a one-off clean, a nightly service or anything between, and we work without lock-in contracts, so the schedule can flex if your headcount or hours change. Our pricing stays competitive against comparable operators in the city.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was started in 2019 by Tom Su, who cleaned sites himself long before he ran a business. Since then the team has served over 1,200 customers across Melbourne and brings 20+ years of combined experience to the work. We hold a 100% satisfaction guarantee: if something inside the agreed scope falls short, we come back and re-clean it. Our Oneflare rating sits at 5 out of 5 from 16 reviews. Full credentials, insurance details and our cleaning method are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Do you clean washrooms and staff kitchens?**
+### Do you clean washrooms and staff kitchens?
 Yes. Washrooms and kitchens are usually the first thing a visitor judges an office on, so they sit at the centre of the scope. That covers pans, basins, mirrors, fixtures, floors, consumable restocking, plus kitchen benches, sinks, fridge exteriors, microwaves and the bin area.
 
-**Do you disinfect high-touch surfaces?**
+### Do you disinfect high-touch surfaces?
 Yes, and in an office that list is long: door handles, lift buttons, light switches, hot-desk keyboards and phones, meeting room table edges, kitchen tap handles and shared appliance controls. These are wiped down on every scheduled visit.
 
-**Do you handle waste and recycling removal?**
+### Do you handle waste and recycling removal?
 Yes. We empty desk-side and communal bins, replace liners, separate general waste from paper and commingled recycling, and move everything to your building's bin room or waste chute as your facility manager requires.
 
-**Can you get access after hours if the building is locked?**
+### Can you get access after hours if the building is locked?
 Yes. We work with building security, access cards, sign-in registers and loading dock booking systems all over the CBD. Tell us the process at quoting stage and we register our cleaners under it before the first shift.
 
-**Can you clean common areas as well as our tenancy?**
+### Can you clean common areas as well as our tenancy?
 Yes. We service lobbies, lift cars, stairwells, shared kitchens and end-of-trip facilities, and we can bill the common areas separately from a single tenancy where a building manager needs that split.
 
-**Our floor trades seven days. Can you match that?**
+### Our floor trades seven days. Can you match that?
 Yes. Weekend and public holiday cleans attract no surcharge, so a retail or hospitality tenancy in the lanes can be serviced on the same standard as a Monday to Friday office.
+
+### Are your cleaners insured and police-checked?
+Yes. Every cleaner is police-checked and trained in workplace and chemical safety, and we hold $20 million public liability insurance plus WorkCover. In a CBD tower that is usually a condition of the building's contractor induction before access cards are issued.
+
+### Do you clean end-of-trip facilities such as showers and lockers?
+Yes. Basement end-of-trip areas get hammered by riders every morning, so showers, lockers, change benches and drying racks are set to a daily routine rather than an occasional wipe-down, sanitised with hospital-grade products.
 
 ## Book a walk-through of your CBD site
 

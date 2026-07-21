@@ -33,6 +33,8 @@ Timing is where retail and office work diverge. After-hours commercial cleaning 
 
 Broader service detail and our full credentials live on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
 
+Call us now on 0498 182 989 to book a Doncaster site visit.
+
 ## Who we clean for in Doncaster
 
 Our commercial cleaning in Doncaster suits:
@@ -40,10 +42,6 @@ Our commercial cleaning in Doncaster suits:
 - Retail shopfronts and specialty stores around Westfield Doncaster
 - Food outlets and late-trading businesses needing a pre-open or after-close clean
 - Professional suites, agencies and administrative offices
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company and still sets the standards the team is measured against. Across the team there is 20+ years of combined experience, and we have now worked with over 1,200 customers around Melbourne. Our work carries a 100% satisfaction guarantee supported by a quality control system, and our Oneflare rating sits at 5 out of 5 from 16 reviews. The hub page above sets out our full method, training and insurance position.
 
 ## Quoting and pricing
 
@@ -59,25 +57,37 @@ We price each site individually after looking at:
 
 Quotes cost nothing, our pricing stays competitive among commercial cleaners Doncaster businesses shortlist, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company and still sets the standards the team is measured against. Across the team there is 20+ years of combined experience, and we have now worked with over 1,200 customers around Melbourne. Our work carries a 100% satisfaction guarantee supported by a quality control system, and our Oneflare rating sits at 5 out of 5 from 16 reviews. The hub page above sets out our full method, training and insurance position.
+
 ## Frequently asked questions
 
-**Do you clean washrooms and staff kitchens?**
+### Do you clean washrooms and staff kitchens?
 Yes, and in retail these are usually the two rooms that decide whether staff are happy. Washroom work covers pans, urinals, basins, mirrors, partitions, floors, and restocking consumables where you supply them. Kitchens and staff rooms cover benches, sinks, splashbacks, exterior surfaces of appliances, tables, and bin changes. Colour-coded equipment keeps the two areas strictly separate.
 
-**Do you disinfect high-touch surfaces?**
+### Do you disinfect high-touch surfaces?
 Yes. In a shop that means door handles and push plates, counter edges, EFTPOS terminals, display case handles, fitting room hooks and stair rails. In offices it means shared desks, meeting room tables, kitchen taps and appliance handles, and switches. We apply hospital-grade disinfectants chosen for the site, written into the checklist rather than left to memory.
 
-**Do you handle waste and recycling removal?**
+### Do you handle waste and recycling removal?
 We empty bins throughout the site, replace liners and consolidate waste and recycling into your building's designated bins or bin room. Getting it from there to the kerb or into a collection contract is arranged with your building or your waste provider, and we will follow whatever separation system Manningham collection or your centre management requires.
 
-**Do you clean shops and tenancies near Westfield Doncaster?**
+### Do you clean shops and tenancies near Westfield Doncaster?
 Yes. Businesses in and around the Doncaster and Williamsons Roads retail area are a normal part of our schedule. Where a tenancy sits inside a managed centre we work to the centre's access hours, induction requirements and waste procedures.
 
-**Can you clean before opening rather than after closing?**
+### Can you clean before opening rather than after closing?
 Yes. Late-trading retail and food businesses often prefer an early-morning clean so the floor is dry and the glass is fresh at open. We will schedule whichever end of the day gives the better result for your site.
 
-**Do you take on end-of-lease and post-fitout cleans for Doncaster retail?**
+### Do you take on end-of-lease and post-fitout cleans for Doncaster retail?
 Yes. Shop fitouts leave dust in every track, seal and ceiling void, and end-of-lease cleans need to satisfy a landlord rather than a customer. Both are quoted as one-off jobs with a scope agreed in writing before we start.
+
+### Do you charge extra for weekend or public holiday cleaning?
+No. We run seven days a week including weekends and public holidays at no surcharge, so a Sunday-night reset before a Monday trading week costs the same as a Tuesday visit.
+
+### Do you clean professional suites and agencies as well as retail shopfronts?
+Yes. Professional suites, agencies and administrative offices around Doncaster are a steady part of what we do, following the same checklist approach of workstations, meeting rooms, kitchens, washrooms and floors tied to the specific site.
 
 ## Get a quote for your Doncaster premises
 

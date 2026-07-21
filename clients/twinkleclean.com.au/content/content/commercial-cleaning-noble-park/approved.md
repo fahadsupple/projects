@@ -28,6 +28,8 @@ Our cleaners communicate clearly in English, and if something needs to be explai
 
 There are no lock-in contracts, so nobody is signing away a year on the strength of a first impression. Our approach across the wider region is described on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your site in plain terms.
+
 ## The businesses that book us in Noble Park
 
 Noble Park's mixed zoning means our customers here vary:
@@ -35,10 +37,6 @@ Noble Park's mixed zoning means our customers here vary:
 - Workshops with a front counter, where the office side is kept separate from workshop grit
 - Suites in mixed-use buildings, cleaned quietly around residents living above
 - Office units attached to workshops or warehouses, with shared amenities quoted separately
-
-## About Twinkle Clean
-
-Tom Su founded Twinkle Clean in 2019, having spent years on the tools as a cleaner first. The team now holds 20+ years of combined experience and has worked for over 1,200 customers across Melbourne, with a 5 out of 5 Oneflare rating from 16 reviews. A 100% satisfaction guarantee sits behind every job: anything inside the agreed scope that misses the mark gets put right on a return visit. Full method, equipment and credential detail is on our hub page.
 
 ## How we quote
 
@@ -50,25 +48,37 @@ Pricing is worked out per site, never off a published rate card, because the hon
 
 We walk the premises, agree the scope, and give you a number in writing. Quotes cost nothing, our rates hold up against other operators in the south-east, and you can book us as a one-off or as a standing weekly, fortnightly or daily schedule.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su founded Twinkle Clean in 2019, having spent years on the tools as a cleaner first. The team now holds 20+ years of combined experience and has worked for over 1,200 customers across Melbourne, with a 5 out of 5 Oneflare rating from 16 reviews. A 100% satisfaction guarantee sits behind every job: anything inside the agreed scope that misses the mark gets put right on a return visit. Full method, equipment and credential detail is on our hub page.
+
 ## Frequently asked questions
 
-**Can you work around our staff and trading hours?**
+### Can you work around our staff and trading hours?
 Yes. Most of our commercial clients are cleaned before opening or after closing, and we run seven days a week including weekends and public holidays with no surcharge. If part of your site has to stay accessible during the shift, we split the clean so the occupied area is done last.
 
-**Do you offer one-off cleans as well as regular schedules?**
+### Do you offer one-off cleans as well as regular schedules?
 Both. Some clients book a single deep clean before an inspection, a lease handover or a busy season, then decide afterwards whether a routine is worth it. Others start on a regular roster straight away. There is no requirement to commit to ongoing work to get a one-off job done properly.
 
-**Can we change the scope or frequency later?**
+### Can we change the scope or frequency later?
 Yes, and it is a simple request rather than a renegotiation. Because we work without lock-in contracts, you can add a room, drop a visit, move from three days to five, or pause over a quiet period by telling us. We reissue the checklist and the price so the paperwork matches what is actually happening.
 
-**Do you clean office units attached to workshops or warehouses?**
+### Do you clean office units attached to workshops or warehouses?
 Regularly. The office portion gets the standard commercial scope, and the amenities and walkways shared with the workshop side are quoted separately because they wear differently and need a heavier floor treatment.
 
-**Will noise from the clean disturb residents in the building above?**
+### Will noise from the clean disturb residents in the building above?
 We schedule the loud work first and keep the later part of the shift quiet. If your body corporate has set noise hours, tell us at the walkthrough and the roster is built inside them.
 
-**Do you service smaller premises, or is there a minimum size?**
+### Do you service smaller premises, or is there a minimum size?
 Small tenancies are welcome. A two-room office with a kitchenette and a washroom is a perfectly normal job for us, and it is priced on the same per-site basis as anything larger.
+
+### Will the quote be easy to understand, not full of confusing line items?
+Yes. We walk the site with you and produce a written checklist of exactly what is covered and how often, then give you one clear price against that checklist rather than a list of line items that expand later.
+
+### Are your cleaners insured and police-checked?
+Yes. Every cleaner is police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover. That matters in a mixed-use building where our crew may be working late at night close to where residents live.
 
 ## Arrange a walkthrough
 

@@ -29,6 +29,8 @@ Around its period houses, Malvern keeps a steady turnover of tenants through apa
 
 We clean to the standard a final inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants move on with the deposit sorted. Carpet cleaning is priced on the job, quoted free, and kept competitive whether you want a one-off refresh or a regular schedule.
 
+Call us now on 0498 182 989 to book a Malvern carpet clean.
+
 ## The Malvern homes we look after
 
 This service suits a few different Malvern customers:
@@ -37,29 +39,43 @@ This service suits a few different Malvern customers:
 - Renters and tenants needing a bond-back clean before handover
 - Property managers across Stonnington coordinating turnovers between tenants
 
+## Pricing and free quotes
+
+Carpet cleaning is priced on the job rather than a flat rate, because the number of rooms, the size and condition of the carpet, and any stain or odour treatment all change what the work actually involves. A wool rug in a period hallway and a two-level Glenferrie Road office carpet are not the same quote.
+
+We give free, no-obligation quotes and keep our pricing competitive, with the choice of a one-off clean or a regular schedule and no lock-in contract either way.
+
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
 ## About Twinkle Clean
 
 Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he ran a company, and that hands-on background still shapes how the team reads a carpet and picks a method. We have served more than 1,200 customers across Melbourne, drawing on over 20 years of combined experience within our team, and every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method and credentials, visit the [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Frequently asked questions
 
-**Do you clean carpet for shops and offices on the retail strips?**
+### Do you clean carpet for shops and offices on the retail strips?
 Yes. We look after commercial carpet for the shops, offices and studios along Glenferrie Road, High Street and nearby, working evenings or weekends so your trading is never interrupted.
 
-**Can you clean heritage-home carpet gently?**
+### Can you clean heritage-home carpet gently?
 Yes. In Malvern's older Victorian and Edwardian homes we check the wool or natural fibre first, then hold back the heat and moisture so the carpet cleans up while the pile keeps its texture.
 
-**Do you clean rugs and runners?**
+### Do you clean rugs and runners?
 Yes. Loose rugs and hallway runners, including the delicate natural-fibre pieces common in the suburb's period homes, get a treatment matched to the material so they are never left over-wet.
 
-**How long does carpet take to dry after cleaning?**
+### How long does carpet take to dry after cleaning?
 Most carpets are walkable within a few hours of a steam clean, because we draw the moisture back out rather than leaving the pile saturated. Cooler weather, heavy fabrics and poor airflow can stretch that out, and we flag the timing first.
 
-**Can you remove pet stains and odours?**
+### Can you remove pet stains and odours?
 Usually, yes. Pet marks and smells get a dedicated stain and odour treatment rather than a single general pass, which is how we shift what a surface clean leaves sitting in the pile.
 
-**Do you offer end-of-lease or bond-back carpet cleaning?**
+### Do you offer end-of-lease or bond-back carpet cleaning?
 Yes. For tenants leaving a Malvern rental, we clean carpet to the standard a final inspection looks for and stand behind it with a bond-back guarantee, within the agreed scope and inspection terms, so your deposit is protected.
+
+### How much does carpet cleaning cost in Malvern?
+It is priced on the job rather than a flat rate, based on the number of rooms, the size and condition of the carpet, and any stain or odour treatment involved. A free quote gives you a figure built around your actual carpet, whether that is a period home or an office.
+
+### Do you clean carpet in a Glenferrie Road office as well as houses?
+Yes. Office and studio carpet along Glenferrie Road and High Street is regular work for us, scheduled around trading hours so a shop or practice is never disrupted, alongside the period-home carpet cleaning we do across the suburb.
 
 ## Book carpet cleaning in Malvern
 

@@ -20,6 +20,8 @@ We work through those sites with:
 
 Where a tenancy has its own food-safety documentation, we clean to that written procedure and record what was done, so your compliance folder and your cleaning log actually agree with one another.
 
+Call us now on 0498 182 989 to book a site visit.
+
 ## Offices, clinics and the smaller tenancies behind the strip
 
 Behind and above the retail frontage sit the suburb's smaller offices, allied health rooms and service businesses. Those jobs are quieter but no less exact:
@@ -40,10 +42,6 @@ Commercial cleaning in Mitcham suits a few kinds of premises:
 - Offices, allied health rooms and service businesses behind and above the strip, held to the same checklist-driven standard in a quieter setting
 - Shops and traders across the precinct generally, finished before the early commuter crowd arrives
 
-## About Twinkle Clean
-
-Twinkle Clean started in 2019 under Tom Su, a cleaner by trade well before he was a business owner. The team holds 20+ years of combined experience, has served over 1,200 customers across Melbourne, and carries a 5 out of 5 Oneflare rating from 16 reviews. A 100% satisfaction guarantee sits behind every visit: anything inside the agreed scope that falls short brings us back to put it right. The hub page above covers our equipment, credentials and quality-control process in full.
-
 ## What a Mitcham clean costs
 
 We price per site, not per suburb. A single-fronted cafe with a small back-of-house and a two-level office suite behind the strip involve completely different labour, so the quote is built from:
@@ -56,25 +54,37 @@ We price per site, not per suburb. A single-fronted cafe with a small back-of-ho
 
 Quotes are free, our rates stay competitive with the other commercial cleaners Mitcham operators call, and there is no published flat rate here because the number that matters is the one written after we have seen your premises. Both one-off cleans and standing schedules are available, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean started in 2019 under Tom Su, a cleaner by trade well before he was a business owner. The team holds 20+ years of combined experience, has served over 1,200 customers across Melbourne, and carries a 5 out of 5 Oneflare rating from 16 reviews. A 100% satisfaction guarantee sits behind every visit: anything inside the agreed scope that falls short brings us back to put it right. The hub page above covers our equipment, credentials and quality-control process in full.
+
 ## Frequently asked questions
 
-**Do you clean commercial carpet and hard floors?**
+### Do you clean commercial carpet and hard floors?
 Yes, both. Commercial carpet is vacuumed with proper commercial machines as part of a regular schedule, and periodic deeper carpet work can be booked on top of that. Hard floors, including vinyl, tile and polished concrete, are handled with floor scrubbers and polishers rather than mop-only cleaning, which is what keeps a high-traffic entry from going permanently dull.
 
-**Do you clean internal windows and glass?**
+### Do you clean internal windows and glass?
 We do. Internal windows, glass entry doors, partitions, display cabinets and mirrors are cleaned with professional window-cleaning tools so they dry without streaking. Any external or high-level glass gets assessed at the walkthrough and quoted separately so the scope is unambiguous.
 
-**Do you do end-of-lease cleaning for commercial premises?**
+### Do you do end-of-lease cleaning for commercial premises?
 Yes. We handle vacate cleans for offices, retail tenancies and other commercial spaces, working through the condition report and the outgoing obligations in your lease. Kitchens, amenities, floors, internal glass, fixtures and marks left by removed fitout are all part of it, and the satisfaction guarantee applies the same as any other job.
 
-**Can you clean before the morning commuter rush at Mitcham station?**
+### Can you clean before the morning commuter rush at Mitcham station?
 Yes. Early starts are common here precisely because of the station traffic. We can be finished well before the first wave comes through the Whitehorse Road and Mitcham Road intersection.
 
-**Can you service more than one tenancy in the same precinct?**
+### Can you service more than one tenancy in the same precinct?
 Yes, and it is efficient to do so. Several Mitcham sites within walking distance can share a visit window, keeping the per-site cost down while each address keeps its own written scope.
 
-**Do you handle grease build-up in a small back-of-house?**
+### Do you handle grease build-up in a small back-of-house?
 We do. Compact back-of-house areas are cleaned with degreasing routines suited to the surfaces, with the floor, the splashback zone and the equipment surrounds treated as separate tasks rather than one wipe-down.
+
+### Do you clean allied health rooms behind the Mitcham strip?
+Yes. The offices, allied health rooms and service businesses sitting behind and above the retail frontage get the same checklist-driven standard as the cafes and shops out front, just in a quieter setting.
+
+### Can you provide cleaning records for our food safety compliance folder?
+Yes. Where a tenancy runs its own food-safety documentation, we clean to that written procedure and record what was done at each visit, so your compliance folder and our cleaning log line up with each other.
 
 ## Ask us about your Mitcham premises
 

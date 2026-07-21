@@ -29,6 +29,8 @@ After-hours commercial cleaning suits both halves of the suburb. Venues get thei
 
 We operate seven days a week including weekends and public holidays with no extra charge for those slots, and our cleaners are police-checked and trained in workplace and chemical safety. Southbank tenants running similar after-hours arrangements are covered on a separate [commercial cleaning in Southbank](https://www.twinkleclean.com.au/commercial-cleaning-southbank/) page.
 
+Call us now on 0498 182 989 to talk through your venue or site.
+
 ## Who books us in Port Melbourne
 
 Port Melbourne work splits into two groups:
@@ -38,35 +40,43 @@ Port Melbourne work splits into two groups:
 - Office suites attached to an operational trade site
 - Venues preparing for a food-safety inspection
 
-## About Twinkle Clean
-
-Founded in 2019 by Tom Su, who came up through the trade as a cleaner before starting the business, Twinkle Clean now fields a team with 20 or more years of combined experience and has served over 1,200 Melbourne customers. A 100% satisfaction guarantee sits behind the work: anything within the agreed scope that misses the mark gets re-cleaned. The company is rated 5 out of 5 on Oneflare from 16 reviews. Full credentials and quality-control detail are on the hub page.
-
 ## What a Port Melbourne clean costs
 
 Each venue and each site gets its own quote. A 60 seat cafe with one bathroom prices differently to a 200 seat restaurant, and both price differently to a workshop with a lunchroom and amenities block.
 
 We look at area, surfaces, frequency and access hours, then give you a number in writing at no cost. Our rates stay competitive against comparable operators, and we run both one-off cleans and ongoing schedules without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Founded in 2019 by Tom Su, who came up through the trade as a cleaner before starting the business, Twinkle Clean now fields a team with 20 or more years of combined experience and has served over 1,200 Melbourne customers. A 100% satisfaction guarantee sits behind the work: anything within the agreed scope that misses the mark gets re-cleaned. The company is rated 5 out of 5 on Oneflare from 16 reviews. Full credentials and quality-control detail are on the hub page.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 There is no published flat rate, because a hospitality venue and a warehouse amenities block have almost nothing in common on cost. We price on floor area, surface types, frequency and access, and quoting is free.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes, and for hospitality it is usually the only sensible option. Late-night and early-morning slots are standard for us, seven days a week including public holidays, at no premium.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No lock-in contract applies. You can run a weekly schedule for as long as it works and change it when your trading pattern changes.
 
-**Do you clean before a food-safety inspection?**
+### Do you clean before a food-safety inspection?
 We can schedule a clean ahead of an expected inspection covering floors, surfaces, amenities and back-of-house areas. Certification and equipment servicing remain with your specialist providers.
 
-**Can you clean a Bay Street shopfront without disrupting trade?**
+### Can you clean a Bay Street shopfront without disrupting trade?
 Yes. We schedule outside your trading hours so the work is finished before doors open, including street-facing glass and entry areas.
 
-**Do you also service Fishermans Bend and Beacon Cove businesses?**
+### Do you also service Fishermans Bend and Beacon Cove businesses?
 Yes. Our commercial cleaners cover the whole of Port Melbourne, including the Fishermans Bend, Garden City and Beacon Cove localities alongside the Bay Street precinct.
+
+### Do you clean banquette seating and dining floors between services?
+Yes. Banquette seams, timber and tiled floors, and tables are worked through on a defined checklist between last service and the next opening, so crumbs and spills from the night before are gone by morning.
+
+### Can you clean an office attached to a working warehouse floor?
+Yes. We treat the office and the warehouse floor as separate zones with separate equipment, so the office side is cleaned to office standard rather than being swept through with the warehouse gear.
 
 ## Talk to us about your Port Melbourne premises
 

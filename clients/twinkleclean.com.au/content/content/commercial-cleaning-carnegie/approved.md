@@ -48,6 +48,8 @@ Away from the strip, office cleaning Carnegie clients ask for tends to sit above
 
 On medical or allied health sites we clean to the practice's own written procedure. Our full method, equipment list and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your trading hours.
+
 ## Who we clean for in Carnegie
 
 Commercial cleaning in Carnegie suits a mix of Koornang Road and side-street businesses:
@@ -55,10 +57,6 @@ Commercial cleaning in Carnegie suits a mix of Koornang Road and side-street bus
 - Cafes and restaurants along the strip, with degreasing, grout work and bin-area attention scheduled after service or before opening
 - Retail tenancies on the strip, with counters, display glass and fitting rooms kept to a customer-ready standard
 - Offices and professional suites above the shops or in the side streets, including medical and allied health sites cleaned to their own written procedure
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team now carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. We are rated 5 out of 5 on Oneflare from 16 reviews, and every job is covered by a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we come back and re-clean it. Full details of our insurance, checks and quality-control system are on the hub page above.
 
 ## What a Carnegie clean costs
 
@@ -74,25 +72,37 @@ We look at a few variables, then give you a written figure:
 
 Quotes are free. One-off cleans, weekly, or six nights a week are all available, and we work without lock-in contracts, so a schedule that stops suiting you can change.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team now carries more than 20 years of combined experience and has served over 1,200 customers across Melbourne. We are rated 5 out of 5 on Oneflare from 16 reviews, and every job is covered by a 100% satisfaction guarantee: if an area inside the agreed scope falls short, we come back and re-clean it. Full details of our insurance, checks and quality-control system are on the hub page above.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 Vacuuming carpets and mopping hard floors, emptying and relining bins, wiping desks and shared surfaces, disinfecting high-touch points such as handles and switches, cleaning and restocking washrooms, and resetting the kitchen. Internal glass, skirtings and vents are usually periodic tasks rather than every visit, and the exact list is written into your checklist before we start.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 It depends on headcount and how much of the public comes through. A quiet suite of five people is generally fine on one or two visits a week. Once you have a reception taking walk-ins, or more than about fifteen staff sharing a kitchen and washroom, daily becomes sensible, because washrooms and kitchens drive the complaints, not the carpet.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes. Our cleaners arrive with commercial vacuums, floor scrubbers and polishers, professional window-cleaning tools, colour-coded microfibre cloths and mops, and the disinfectants selected for your site. If you would rather we used a product already approved for your premises, we will use it.
 
-**Do you clean cafes and restaurants on Koornang Road after service?**
+### Do you clean cafes and restaurants on Koornang Road after service?
 Yes, and that is the most common request we get in Carnegie. We schedule after last service or before opening, whichever the venue prefers, and cover front-of-house floors, glass, counters, seating and the bin area.
 
-**Can you clean a shop that shares a rear laneway with other tenancies?**
+### Can you clean a shop that shares a rear laneway with other tenancies?
 Yes. Shared service areas around the strip are normal here, so we agree in advance exactly which part of the laneway and bin area falls inside your scope, then keep to it so there is never confusion with the neighbouring tenant.
 
-**Do you cover the streets around Carnegie station and the Caulfield end?**
+### Do you cover the streets around Carnegie station and the Caulfield end?
 Yes. We work across the whole of Carnegie and the surrounding Glen Eira suburbs, including the professional suites in the side streets and the businesses closer to the Caulfield campus end of Dandenong Road.
+
+### Are your cleaners insured and police-checked?
+Yes. Every cleaner is police-checked, and we carry $20 million public liability insurance plus WorkCover. On a food strip like Koornang Road that matters because our teams often hold keys or alarm codes to a kitchen and dining room after the last customer has left.
+
+### Do you clean medical or allied health practices in the side streets?
+Yes. On those sites we clean to the practice's own written procedure rather than a generic office scope, which matters for infection control and where particular products are required or restricted.
 
 ## Get a quote for your Carnegie site
 

@@ -32,6 +32,8 @@ Office cleaning Springvale clients typically want:
 
 We also handle periodic tasks that fall outside the weekly routine, such as internal glass, high dusting and hard floor machine work. Whether you need after-hours commercial cleaning at a warehouse or a mid-morning visit to a quiet consulting suite, the roster is set to suit the site.
 
+Call us now on 0498 182 989 to talk through your trading hours.
+
 ## Who Twinkle Clean serves in Springvale
 
 Commercial cleaning in Springvale suits a range of trading businesses:
@@ -40,37 +42,45 @@ Commercial cleaning in Springvale suits a range of trading businesses:
 - Food retail premises, with degreasing, bin areas and back-of-house prep zones covered as standard
 - Offices and light industrial units in the northwest and northeast pockets, with desks, amenities and hard floors kept to a fixed rhythm
 
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019 after years working as a cleaner by trade, and that background still shapes how the business runs: the standard is set by someone who has done the work himself. The team now numbers around 20 cleaners with more than 20 years of combined experience between them, and we have served over 1,200 customers across Melbourne. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
-
-Every job carries our 100% satisfaction guarantee. If an area inside the agreed scope falls short, we come back and re-clean it. For the full detail on our method, insurance and staff credentials, see the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
-
 ## What it costs
 
 Pricing is worked out site by site. A single shopfront cleaned twice a week and a light industrial unit with amenities are two very different jobs, so we quote against the actual floor area, the surfaces involved, your trading pattern and how often you want us there.
 
 Quotes are free and we keep our rates competitive against other commercial cleaners Springvale businesses will be comparing us with. One-off cleans, seasonal deep cleans and ongoing weekly or daily schedules are all available, and we operate without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019 after years working as a cleaner by trade, and that background still shapes how the business runs: the standard is set by someone who has done the work himself. The team now numbers around 20 cleaners with more than 20 years of combined experience between them, and we have served over 1,200 customers across Melbourne. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
+
+Every job carries our 100% satisfaction guarantee. If an area inside the agreed scope falls short, we come back and re-clean it. For the full detail on our method, insurance and staff credentials, see the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Are your cleaners insured and police-checked?**
+### Are your cleaners insured and police-checked?
 Yes. Every cleaner is police-checked before they attend a site, and the business carries $20 million public liability insurance plus WorkCover. That matters when someone is in your shop with the keys after you have gone home.
 
-**Are your staff trained in workplace safety?**
+### Are your staff trained in workplace safety?
 They are. All cleaners are trained in workplace safety and chemical safety before they work unsupervised, which covers safe use of equipment, correct signage on wet floors and safe handling of the products they carry.
 
-**Do you use OH&S-compliant cleaning products?**
+### Do you use OH&S-compliant cleaning products?
 Yes. Our cleaners work with OH&S-compliant products and are trained in how to store, dilute and apply them correctly, including in food retail areas where the wrong chemical in the wrong place is a real problem.
 
-**Can you clean my shop before opening or after closing?**
+### Can you clean my shop before opening or after closing?
 Yes. We schedule around your trading hours, including very early mornings and late nights, and weekend or public holiday attendance costs no extra.
 
-**Do you take on small single-shop premises?**
+### Do you take on small single-shop premises?
 We do. A lot of our work in the Springvale retail precinct is small tenancies, and there is no minimum site size.
 
-**Do you service the light industrial units around Springvale?**
+### Do you service the light industrial units around Springvale?
 Yes. The scattered industrial pockets in the northwest and northeast of Springvale are within our regular run, covering amenities, lunchrooms, office areas and hard floors.
+
+### Do you offer one-off cleans as well as regular schedules?
+Yes. Some Springvale traders book a single deep clean before a busy trading period or after a fit-out, others set up a standing weekly or daily schedule, and we work without lock-in contracts either way.
+
+### Can you handle degreasing and bin areas for food premises specifically?
+Yes. Food retail gets hard floor degreasing, splashback and bin-area attention, and back-of-house prep zones as standard, on top of the front-of-house scope every shopfront gets.
 
 ## Book a clean for your Springvale premises
 

@@ -30,6 +30,8 @@ Eateries get the extra work food premises need:
 
 Because Main Street has rear parking and shared service access behind many tenancies, we agree in writing which part of the rear area sits inside your scope before we start. A separate [commercial cleaning in Ringwood](https://www.twinkleclean.com.au/commercial-cleaning-ringwood/) page covers that centre in its own right, for anyone comparing the two.
 
+Call us now on 0498 182 989 to book a site visit.
+
 ## Sheds, workshops and urban services sites
 
 The light industrial stock around Tarralla Creek and Dorset Road is a different job. Large sheds need machine sweeping or scrubbing on a frequency the traffic justifies rather than a token pass.
@@ -57,10 +59,6 @@ Croydon's commercial cleaning spans several very different site types:
 - Sheds, workshops and auto servicing sites around Tarralla Creek and Dorset Road, with machine floor work and a presentable customer-facing area
 - Upper-level offices above the shops, given an evening pass that fits around trading hours
 
-## About Twinkle Clean
-
-Twinkle Clean began in 2019 under Tom Su, who spent years cleaning for a living before starting the company. The team brings more than 20 years of combined experience between them and has now worked for over 1,200 customers across Melbourne, with a 5 out of 5 rating on Oneflare from 16 reviews. A 100% satisfaction guarantee sits behind every job: anything inside the agreed scope that falls short gets re-cleaned. The hub page above sets out the rest of our credentials.
-
 ## What it costs
 
 Croydon prices land across a wide range for a reason. A single shopfront on Main Street, a 600 square metre workshop with an office and amenities, and a suite of upper-level consulting rooms are three unrelated jobs.
@@ -75,25 +73,37 @@ We inspect, then quote in writing against:
 
 Quotes are free, and we work without lock-in contracts so you can change the arrangement when your trade does.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean began in 2019 under Tom Su, who spent years cleaning for a living before starting the company. The team brings more than 20 years of combined experience between them and has now worked for over 1,200 customers across Melbourne, with a 5 out of 5 rating on Oneflare from 16 reviews. A 100% satisfaction guarantee sits behind every job: anything inside the agreed scope that falls short gets re-cleaned. The hub page above sets out the rest of our credentials.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 We build the inclusion list as a tiered checklist rather than a single list. Tier one runs every visit and covers floors, bins, desk and shared surfaces, washrooms, the kitchen and high-touch points. Tier two runs on a nominated cycle: internal glass, skirtings, vents, chair bases, inside the fridge and microwave. Tier three is periodic work such as deep carpet cleaning or a hard floor machine polish. You get that checklist in writing before the first clean, and our cleaners sign off against it, so what is included is never a matter of memory.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 Work backwards from what the space is used for rather than from headcount alone. Upper-level professional suites above Main Street with client appointments generally need daily or near-daily service, because a waiting room is a sales tool. Back-office space with no visitors often runs comfortably on two visits a week. Sites attached to a workshop or depot usually need the amenities daily and the desks less frequently, since the washroom and crib room degrade fastest. We will tell you honestly which of those you are, including when a lower frequency is enough.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 We arrive fully self-sufficient, so nothing needs to be provided or stored for us. Where a site prefers it, we will use products already on your chemical register instead of ours, and we can supply consumables such as hand towel, toilet paper and hand soap as part of the service or leave that with you. On shared-tenancy sites with nowhere to leave a cleaner's cupboard, our teams carry everything in and out each visit.
 
-**Do you clean tenancies inside Croydon Central, Civic Square or the Arndale Centre?**
-Yes. We clean individual tenancies inside all three centres, working within whatever access hours and loading dock rules the centre management sets.
+### Can you clean a tenancy inside a centre like Croydon Central, Civic Square or the Arndale Centre?
+Yes. Individual tenancy cleaning inside a shopping centre is standard work for us, scheduled around whatever access hours and loading dock rules the centre management sets.
 
-**Can you clean a large shed around Tarralla Creek?**
+### Can you clean a large shed around Tarralla Creek?
 Yes. Warehousing, self-storage, light engineering and electronics premises in that area are regular work for us. Large open floors are machine cleaned, and the attached office and amenities are treated as a separate zone with separate equipment.
 
-**Do you service premises near the Swinburne Norton Road campus?**
+### Do you service premises near the Swinburne Norton Road campus?
 Yes. We clean commercial premises throughout Croydon, including the businesses and offices in the streets near the Norton Road campus and Swinburne TAFE, and we can schedule around teaching timetables.
+
+### Do you clean auto sales, repair and trade supply premises around Precinct 5?
+Yes. Auto sales and repair, bus depot and trade supply premises of the kind found in Precinct 5 are the same site type we service around Tarralla Creek and Dorset Road, with the customer-facing reception given the same attention as the workshop or yard behind it.
+
+### Do you clean premises near the Croydon Library and Wyreena Community Arts Centre?
+Yes. We clean commercial and civic premises throughout Croydon, including businesses and offices near the Croydon Library and the Wyreena Community Arts Centre, and we can schedule around public opening hours and community events where needed.
 
 ## Arrange a Croydon site visit
 

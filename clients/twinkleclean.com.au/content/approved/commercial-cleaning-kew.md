@@ -21,6 +21,8 @@ Floors are done with commercial equipment suited to the surface, and internal gl
 
 Where a practice has its own infection control policy or an accrediting body's requirements to satisfy, we clean to the written procedure you give us and document what was done.
 
+Call us now on 0498 182 989 to talk through your practice's requirements.
+
 ## Kew Junction offices, Cotham Village and school campuses
 
 The suburb's business premises cluster at Kew Junction on High Street, which the council describes as an eclectic mix of specialty shops, neighbourhood cafes, restaurants, supermarkets, fresh produce stores and professional and health services. A second heritage retail node sits at Cotham Village, where Glenferrie and Cotham roads meet, and the former Kew railway station site now houses the VicRoads headquarters. The Junction's 1888 civic and bank buildings mean plenty of local offices occupy older stock with timber, tile and decorative plaster that wants a gentler hand than a modern fitout.
@@ -46,10 +48,6 @@ Our Kew work is concentrated among:
 - Professional offices around Kew Junction and Cotham Village, including older heritage stock
 - Schools and campuses working to term-time and holiday scheduling
 
-## About Twinkle Clean
-
-Founded in 2019 by Tom Su, a cleaner by trade well before he was a business owner, Twinkle Clean brings 20+ years of combined experience across the team and has served over 1,200 customers around Melbourne. Our work is covered by a 100% satisfaction guarantee backed by a quality control system, and our Oneflare rating is 5 out of 5 from 16 reviews. Training, screening and insurance details are on the hub page linked above.
-
 ## What a Kew clean costs
 
 Every quote is built from the site. A three-room allied health practice, a Junction office floor and a school building are three different scopes at three different frequencies, so a single advertised rate would be meaningless. We assess:
@@ -63,25 +61,37 @@ Every quote is built from the site. A three-room allied health practice, a Junct
 
 Then we quote. Quotes are free, our rates stay competitive among commercial cleaning services Kew businesses are comparing, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Founded in 2019 by Tom Su, a cleaner by trade well before he was a business owner, Twinkle Clean brings 20+ years of combined experience across the team and has served over 1,200 customers around Melbourne. Our work is covered by a 100% satisfaction guarantee backed by a quality control system, and our Oneflare rating is 5 out of 5 from 16 reviews. Training, screening and insurance details are on the hub page linked above.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 A standard office clean covers workstations and desk surfaces, meeting tables, reception, kitchen and staff areas, washrooms, internal glass and partitions, bins, and vacuuming or mopping depending on the floor. Periodic items such as detailed skirtings, vents, high dusting and floor machine work are scheduled at intervals rather than nightly, and everything sits on a written checklist for your site.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 It depends on headcount and how the space is used. Practices with patients through the door and offices with daily full attendance generally need a nightly or five-day service, because washrooms and kitchens will not hold up on less. Offices running two or three days of hybrid attendance often sit comfortably at two or three cleans a week. Small suites can work well on a weekly clean with a periodic deep clean layered in. We suggest a starting frequency after seeing the site, then adjust.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes. Our teams arrive with commercial vacuums, floor scrubbers and polishers, professional window-cleaning tools, colour-coded microfibre cloths and mops, and hospital-grade disinfectants chosen for the site. Consumables such as hand towel, toilet paper and soap are usually supplied by the client and restocked by us, though we can arrange supply instead. Where a site mandates specific products, we use yours.
 
-**Do you clean medical and allied health rooms in Kew?**
+### Do you clean medical and allied health rooms in Kew?
 Yes. Consulting rooms, treatment rooms, allied health suites and aged care premises are regular work for us. We follow the practice's own infection control procedure where one exists, keep equipment separated by area, and use disinfectants appropriate to the room.
 
-**Can you clean around Kew Junction trading and consulting hours?**
+### Can you clean around Kew Junction trading and consulting hours?
 Yes. Junction premises have narrow windows, with cafes and shops trading late and practices booking patients through the day. Early-morning and evening slots are both available, and weekend work carries no premium, so a Saturday or Sunday clean is often the cleanest fit.
 
-**Do you work with schools and campuses in Kew?**
+### Do you work with schools and campuses in Kew?
 Yes. Classrooms, staff rooms, offices, halls and amenities can all be scoped, with light routines during term and heavier work across holidays. All our cleaners are police-checked, which schools ask about first.
+
+### Do you clean aged care premises such as those provided by St George's Health Service?
+Yes. Aged care, rehabilitation and psychiatric premises like those St George's Health Service provides get the same infection-control approach as a medical practice, with colour-coded equipment and hospital-grade disinfectants, and cleaning documented against your accrediting body's requirements where one applies.
+
+### Do you clean older heritage office buildings around Kew Junction?
+Yes. Kew Junction's 1888 civic and bank buildings hold offices with timber, tile and decorative plaster finishes, and we match products and moisture levels to those older surfaces rather than treating them like a modern fitout.
 
 ## Book a walk-through of your Kew premises
 

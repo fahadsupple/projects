@@ -29,6 +29,8 @@ Colour-coded microfibre cloths and mops are standard across every site, which ke
 
 Where a site needs disinfection rather than surface tidying, we use hospital-grade disinfectants selected for that particular building, and environmentally conscious products wherever they suit the surface. If you're weighing us up against a quote for a different address, we keep a separate page for [commercial cleaning in Rowville](https://www.twinkleclean.com.au/commercial-cleaning-rowville/).
 
+Call us now on 0498 182 989 to talk through what your office needs.
+
 ## After-hours work around a shift pattern
 
 Plenty of Bayswater workplaces are not empty at six o'clock. Some run a second shift, some have a trade counter open late, some have staff who start at first light.
@@ -51,10 +53,6 @@ Commercial cleaning in Bayswater suits:
 - Businesses in mixed industrial and office premises where floors pick up outdoor dust and grit
 - Sites running a second shift or an early start that need cleaning scheduled around it
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he ran a business, and that shows in how the work is scoped. The team brings more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every clean carries a 100% satisfaction guarantee: an area inside the agreed scope that falls short gets re-cleaned. We are rated 5 out of 5 on Oneflare from 16 reviews. The hub page covers the rest of our credentials and equipment.
-
 ## What a Bayswater clean costs
 
 Pricing is worked out per site. Two offices of identical floor area can sit a long way apart on price if one has forty staff and a customer-facing reception and the other has eight people and no visitors.
@@ -69,25 +67,37 @@ We look at:
 
 Quotes are free and there is no published flat rate, because a flat rate either overcharges a small tenancy or shortchanges a busy one. One-off jobs are as welcome as nightly schedules, without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade long before he ran a business, and that shows in how the work is scoped. The team brings more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every clean carries a 100% satisfaction guarantee: an area inside the agreed scope that falls short gets re-cleaned. We are rated 5 out of 5 on Oneflare from 16 reviews. The hub page covers the rest of our credentials and equipment.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 It depends on the size of the space, how many amenities it has, the condition it is in and how frequently you want it cleaned. We quote per site after looking at the premises, so the number reflects your building rather than an average. Quotes cost nothing.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes. Most of our commercial work happens outside business hours, either late evening or before staff arrive. Weekends and public holidays are available at the same rate as any other day.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. Clients stay because the standard holds, not because a term is running. Book a single clean, set a recurring schedule, or change frequency as your workload shifts.
 
-**Do you cover the industrial side of Bayswater as well as the offices?**
+### Do you cover the industrial side of Bayswater as well as the offices?
 Yes. Bayswater has residential and industrial areas side by side, and we clean office and amenity areas within working premises as well as standalone suites. Scope is agreed in writing before we start.
 
-**How do you handle a Bayswater site where the car park brings in dust?**
+### How do you handle a Bayswater site where the car park brings in dust?
 Entry matting, hard floor edges and glass get more attention, and vacuuming extends to the room edges rather than the walkways. It is a normal adjustment to the site checklist, agreed at quoting.
 
-**Do you work across the rest of Knox, or Bayswater only?**
+### Do you work across the rest of Knox, or Bayswater only?
 We service sites right across Melbourne from our Ringwood base, which puts Bayswater and the surrounding Knox suburbs a short drive away. Several sites can run on one schedule.
+
+### Do you clean the shared amenities in a mixed industrial and office building?
+Yes. Where houses and working premises sit close together, a first-floor office suite often shares stairwells or entry areas with a workshop below. We agree in writing exactly which shared areas fall inside your scope.
+
+### Can you start cleaning a Bayswater site quickly after we book?
+Usually, yes. Once we have walked the site and agreed the scope, a first clean can typically be scheduled within days rather than weeks, and we work seven days a week including public holidays at no extra charge.
 
 ## Book a walkthrough of your Bayswater premises
 

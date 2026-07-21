@@ -32,6 +32,8 @@ Business-park tenancies come with conditions: swipe cards, loading-dock windows,
 
 Every cleaner is police-checked and trained in workplace and chemical safety, and the company carries $20 million public liability insurance plus WorkCover.
 
+Call us now on 0498 182 989 to talk through your tenancy or building.
+
 ## The Mount Waverley sites we suit best
 
 We look after a wide spread of Mount Waverley premises:
@@ -40,11 +42,7 @@ We look after a wide spread of Mount Waverley premises:
 - Converted-warehouse buildings with showroom-and-office layouts
 - Retail traders at Mount Waverley Village and Pinewood Shopping Centre
 - Schools and other education premises with their own cleaning requirements
-- Health premises such as Waverley Private Hospital, cleaned to their own written procedure
-
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, and that background still shapes how the business runs. The team brings 20+ years of combined experience and has served over 1,200 customers across Melbourne, with a 5 out of 5 rating on Oneflare from 16 reviews. Every clean sits behind a 100% satisfaction guarantee: if something inside the agreed scope falls short, we come back and re-clean it. Our full method, equipment list and credentials are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+- Health and allied health premises, cleaned to the site's own written procedure
 
 ## What a Mount Waverley clean costs
 
@@ -52,25 +50,37 @@ There is no published flat rate, because a 180 square metre suite on Centreway a
 
 Quotes are free, pricing stays competitive against other operators in the area, and we work without lock-in contracts. One-off cleans, weekly visits and daily schedules are all available.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, and that background still shapes how the business runs. The team brings 20+ years of combined experience and has served over 1,200 customers across Melbourne, with a 5 out of 5 rating on Oneflare from 16 reviews. Every clean sits behind a 100% satisfaction guarantee: if something inside the agreed scope falls short, we come back and re-clean it. Our full method, equipment list and credentials are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 A standard scope covers desks and reception surfaces, all bins emptied and relined, kitchens and staff amenities, washrooms cleaned and restocked, vacuuming of carpeted areas, mopping of hard floors, and spot-cleaning of internal glass and door handles. Meeting rooms are reset. Anything beyond that, such as periodic carpet extraction or full window work, is quoted separately so the routine price stays honest.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 It depends on headcount and foot traffic. A ten-person office with no external visitors often runs comfortably on two or three visits a week, while sites above twenty staff or with daily client visitors usually move to five days. Washrooms and kitchens set the frequency long before the desks do.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes. Our cleaners arrive with commercial vacuums, scrubbers, polishers, window tools, colour-coded microfibre cloths and mops, and the disinfectants suited to your site. If you would rather we use consumables you buy in bulk, such as your own hand towel or toilet paper stock, we are happy to work that way.
 
-**Can you clean around a business-park tenancy with restricted after-hours access?**
+### Can you clean around a business-park tenancy with restricted after-hours access?
 Yes. We work to whatever the building sets: nominated entry doors, sign-in registers, escorted access or a set finish time. Tell us the rules at the walkthrough and the roster is built to fit them.
 
-**Do you handle shopfront glass at Mount Waverley Village or Pinewood?**
+### Do you handle shopfront glass at Mount Waverley Village or Pinewood?
 Internal glass, entry doors and display frontage at ground level are part of a normal retail scope. Anything requiring height access is quoted on inspection.
 
-**Can one provider cover several tenancies we hold across the suburb?**
+### Can one provider cover several tenancies we hold across the suburb?
 Yes. If you hold space in more than one building around Ferntree Gully Road, Forster Road or the Village precinct, we can run them on a single schedule and a single invoice, with a separate checklist per address.
+
+### Do you clean to a hospital's own procedure rather than a standard scope?
+Yes. Health premises generally run to their own written cleaning procedure, and where a site has one we work to it rather than applying an office-style checklist to clinical areas.
+
+### Can you work around Deakin-adjacent school and college holiday periods?
+Yes. Schools and colleges commonly want heavier work concentrated in the holiday periods, and we set that pattern up front at the walkthrough.
 
 ## Talk to us about your site
 

@@ -23,6 +23,8 @@ So we build Mulgrave rosters around the trading day rather than around our own c
 
 Regular customers get a consistent crew rather than a different face each visit. People who have cleaned your site before know which display fixture is fragile, which floor finish marks, and where the mop water is allowed to go.
 
+Call us now on 0498 182 989 to book a Mulgrave site visit.
+
 ## Sites we look after around Mulgrave
 
 Commercial cleaning in Mulgrave suits:
@@ -31,35 +33,43 @@ Commercial cleaning in Mulgrave suits:
 - Hospitality venues with their own food-handling procedures
 - Businesses needing early-morning or after-hours cleaning around freeway traffic
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team carries 20+ years of combined experience and has now served over 1,200 customers around Melbourne, holding a 5 out of 5 rating on Oneflare from 16 reviews. Work is backed by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned at no charge. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
-
 ## Pricing and free quotes
 
 Each site is priced on its own merits. A compact specialty tenancy, a large-format showroom and a food-adjacent shop with heavy floor traffic all take different hours and different equipment, so we walk the site, agree a scope in writing and quote against that.
 
 Quotes are free, rates stay competitive locally, and there are no lock-in contracts to sign. One-off deep cleans, weekly visits and seven-day schedules are all on the table.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a company. The team carries 20+ years of combined experience and has now served over 1,200 customers around Melbourne, holding a 5 out of 5 rating on Oneflare from 16 reviews. Work is backed by a 100% satisfaction guarantee, so an area inside the agreed scope that falls short gets re-cleaned at no charge. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+
 ## Frequently asked questions
 
-**Are your cleaners insured and police-checked?**
+### Are your cleaners insured and police-checked?
 Yes to both. Every cleaner on our roster has passed a police check before being sent to a client site, and the business carries $20 million public liability insurance along with WorkCover coverage for the team. If your centre management or landlord asks for certificates of currency before we start, we can supply them.
 
-**Are your staff trained in workplace safety?**
+### Are your staff trained in workplace safety?
 They are. Training covers workplace safety and chemical safety, including correct dilution, storage and labelling, safe use of powered equipment such as scrubbers and polishers, and the placement of wet-floor signage in any area the public can reach. Our people also follow site-specific procedures where your business has its own, so a cleaner working in your stock room is working to your rules as well as ours.
 
-**Do you use OH&S-compliant cleaning products?**
+### Do you use OH&S-compliant cleaning products?
 Yes. We select products appropriate to the surface and the setting, including hospital-grade disinfectants where a site calls for them, and we take an environmentally conscious approach wherever it suits the job. Safety data sheets for anything used on your premises are available on request.
 
-**Can you clean a Waverley Gardens tenancy inside centre access hours?**
+### Can you clean a Waverley Gardens tenancy inside centre access hours?
 Yes. Tell us the centre's access and loading-dock windows at the quote stage and the shift is scheduled to sit inside them, including any sign-in requirements management imposes.
 
-**Do you cover hospitality venues as well as shops in Mulgrave?**
+### Do you cover hospitality venues as well as shops in Mulgrave?
 We do. Front-of-house floors, glass, tables and amenities are standard work for us. Where a venue has its own written food-handling procedure, we clean to that procedure rather than substituting a generic scope.
 
-**What happens if our trading hours change seasonally?**
+### What happens if our trading hours change seasonally?
 Give us the new hours and we adjust the roster. Because there is no lock-in contract, changing frequency or shift times is a conversation, not a variation negotiation.
+
+### Do you send the same cleaner to our site each visit?
+Yes, wherever possible. Regular customers get a consistent crew rather than a different face each time, and a cleaner who already knows your site knows which fixture is fragile and where the mop water is allowed to go.
+
+### Can you schedule around Monash Freeway peak-hour traffic?
+Yes. A crew scheduled before the morning peak gets in and out cleanly, while one scheduled into the afternoon rush spends its time on the Jacksons Road ramp, so we build the roster around the freeway traffic rather than a fixed time we would prefer.
 
 ## Get a price for your Mulgrave premises
 

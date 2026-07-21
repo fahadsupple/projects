@@ -1,6 +1,14 @@
 {
   "entry_id": "carpet-cleaning-burwood",
-  "gated_at": "2026-07-21T00:48:58.136Z",
+  "gated_at": "2026-07-21T03:09:31.002Z",
   "blocking_count": 0,
-  "findings": []
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 74,
+      "excerpt": "$20",
+      "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
 }

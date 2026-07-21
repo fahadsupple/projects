@@ -32,6 +32,8 @@ Plenty of units through the industrial pocket run a small carpeted office at the
 
 Lunchrooms, amenities and bathrooms follow a fixed checklist so nothing gets skipped on a busy night, and our approach across every site type is set out on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your shopfront or unit.
+
 ## Who we clean for in Keysborough
 
 Keysborough work generally falls into two groups:
@@ -41,35 +43,43 @@ Keysborough work generally falls into two groups:
 - Operators who need both a shopfront and an industrial unit covered under one arrangement
 - Food-handling tenancies with their own hygiene procedures to follow
 
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business. The team brings 20+ years of combined experience, has looked after over 1,200 customers across Melbourne, and is rated 5 out of 5 on Oneflare from 16 reviews. Everything is backed by a 100% satisfaction guarantee: an area inside the agreed scope that falls short gets a return visit and a re-clean. The hub page above carries the full detail on our credentials and method.
-
 ## How we quote
 
 Every Keysborough site gets its own number. A 60 square metre specialty shop and a 400 square metre unit with an office, a lunchroom and two bathrooms have almost nothing in common on cost, so pricing follows floor area, surface types, bin volume, frequency and access. Quotes are free and rates stay competitive against the other commercial cleaners Keysborough operators shortlist.
 
 There is no published flat rate here, for the simple reason it would be wrong for most readers. One-off cleans and standing weekly or nightly schedules are both fine, and we work without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, who worked as a cleaner long before he ran a business. The team brings 20+ years of combined experience, has looked after over 1,200 customers across Melbourne, and is rated 5 out of 5 on Oneflare from 16 reviews. Everything is backed by a 100% satisfaction guarantee: an area inside the agreed scope that falls short gets a return visit and a re-clean. The hub page above carries the full detail on our credentials and method.
+
 ## Frequently asked questions
 
-**Are your cleaners insured and police-checked?**
+### Are your cleaners insured and police-checked?
 Yes. Every cleaner on our team is police-checked before they attend a site. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and we can supply current certificates of currency to your landlord or centre management if they ask for them.
 
-**Are your staff trained in workplace safety?**
+### Are your staff trained in workplace safety?
 They are. Training covers workplace safety and chemical safety, and every cleaner works to detailed cleaning checklists and site-specific procedures rather than improvising. Wet-floor signage, safe handling and correct storage of product on your premises are all part of that.
 
-**Do you use OH&S-compliant cleaning products?**
+### Do you use OH&S-compliant cleaning products?
 Yes. Products are selected according to each site's requirements, including hospital-grade disinfectants where the surfaces call for them, and we use environmentally conscious products and methods wherever they are appropriate for the job.
 
-**Can you clean around Parkmore's trading hours?**
+### Can you clean around Parkmore's trading hours?
 Yes. Tenancies near the centre generally suit an early-morning or post-close slot, set to fit centre access rules. Once the slot is agreed it stays fixed, so your team knows when we are on site.
 
-**Do you cover both a shopfront and a separate unit under one arrangement?**
+### Do you cover both a shopfront and a separate unit under one arrangement?
 We do. A number of Keysborough operators run retail in one part of the suburb and storage or light manufacturing in the industrial belt. Both sites can sit under one schedule with one point of contact and one quote.
 
-**Can you handle a unit in the newer middle-belt developments?**
+### Can you handle a unit in the newer middle-belt developments?
 Yes. Those units are exactly what our warehouse work is built around: concrete floors, roller-door dust, a front office and amenities. We scope the office and the warehouse separately so you can see what each part costs.
+
+### Do you clean sites near the market gardens at the southern end?
+Yes. The southern semi-rural pocket of Keysborough has its own mix of sheds, offices and smaller commercial premises, and we cover them on the same terms as the rest of the suburb.
+
+### Can you cover a food-handling tenancy's own hygiene procedure?
+Yes. Where a tenancy already has a written food-safety or hygiene procedure, we clean to that document rather than a generic checklist, using hospital-grade disinfectants suited to food-contact areas.
 
 ## Get a price for your Keysborough site
 

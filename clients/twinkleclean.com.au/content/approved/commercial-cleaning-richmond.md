@@ -28,6 +28,8 @@ Access is the other Richmond constraint. Street parking is tight and many conver
 
 Our cleaners are police-checked and trained in workplace and chemical safety, which matters when they hold keys to your premises, and the business carries $20 million public liability insurance plus WorkCover. The full picture of our method and credentials sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to book a Richmond site visit.
+
 ## Who we clean for in Richmond's converted workspaces
 
 We're a good fit for:
@@ -35,10 +37,6 @@ We're a good fit for:
 - Studios and offices inside converted warehouse buildings
 - Small offices above shops on Bridge Road and Victoria Street
 - Businesses combining a working office with a customer-facing showroom
-
-## About Twinkle Clean
-
-Twinkle Clean was started in 2019 by Tom Su, who was a cleaner by trade well before he ran a business. The team brings more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee backed by a quality control system: if something inside the agreed scope falls short, we come back and re-clean it. The company holds a 5 out of 5 rating on Oneflare from 16 reviews.
 
 ## What a Richmond clean costs
 
@@ -51,25 +49,37 @@ Pricing is worked out per site, because a 60 square metre studio above a shop an
 
 Quotes are free with no obligation to proceed. We work without lock-in contracts, so you can run a weekly schedule, book a one-off detail before an event, or start with a trial clean. Our rates stay competitive against other commercial cleaners Richmond businesses will be quoting, and each site is priced individually rather than to a flat rate.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was started in 2019 by Tom Su, who was a cleaner by trade well before he ran a business. The team brings more than 20 years of combined experience and has served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee backed by a quality control system: if something inside the agreed scope falls short, we come back and re-clean it. The company holds a 5 out of 5 rating on Oneflare from 16 reviews.
+
 ## Frequently asked questions
 
-**What is included in a standard office clean?**
+### What is included in a standard office clean?
 Bins emptied and relined, desks and shared surfaces wiped, kitchen benches, sinks and appliance exteriors cleaned, washrooms disinfected and restocked, glass doors and partitions spot-cleaned, meeting rooms reset, and floors vacuumed or mopped to suit the surface. Anything beyond that, such as internal glass at height or periodic floor machine work, is listed separately in your quote.
 
-**How often should an office be cleaned?**
+### How often should an office be cleaned?
 Headcount and foot traffic matter more than floor area. A ten-person studio where clients rarely visit often runs well on two visits a week. A busier office with a reception and a shared kitchen usually wants daily attention on washrooms and kitchens, with a fuller clean two or three times weekly. We will tell you honestly if a lower frequency will hold up.
 
-**Do you bring your own equipment and supplies?**
+### Do you bring your own equipment and supplies?
 Yes. Our teams arrive with commercial vacuums, floor scrubbers, polishers, professional window-cleaning tools, microfibre cloths and mops, and the products the job calls for. If you would rather we used consumables you stock yourself, that works too and we will note it in the schedule.
 
-**Can you clean a converted warehouse office with exposed concrete floors?**
+### Can you clean a converted warehouse office with exposed concrete floors?
 Yes, and it is a common request here. Sealed concrete responds well to machine scrubbing and periodic polishing rather than repeated wet mopping, which tends to streak a large open floor. We check the sealer condition first and set a schedule that keeps the surface right without wearing the finish.
 
-**Do you clean small offices above shops on Bridge Road or Victoria Street?**
+### Do you clean small offices above shops on Bridge Road or Victoria Street?
 We do. Small upstairs tenancies are a large part of the commercial cleaning in Richmond that we handle, usually with a compact scope, a fixed evening time and quiet equipment so the business below is unaffected.
 
-**Can you handle both an office and a customer-facing showroom on one visit?**
+### Can you handle both an office and a customer-facing showroom on one visit?
 Yes. Plenty of Richmond addresses combine a working office with a showroom customers see. We split the scope so the customer-facing area gets glass, floors and presentation detail, while the office side gets the standard desk, kitchen and washroom routine.
+
+### How do you manage tight loading access or a shared freight lift?
+We sort it before the first clean rather than on the night. Narrow service entries, coded doors and a freight lift shared by every tenant in a converted building are all agreed with your building contact up front, so the crew arrives knowing exactly how to get in and out.
+
+### Do you clean mezzanine edges and exposed ductwork in a warehouse conversion?
+Yes. Mezzanine edges, steel balustrades, exposed ductwork and beam ledges shed dust onto the desks below, so we schedule that work and clean top down rather than starting at floor level and working up.
 
 ## Book a walkthrough of your Richmond premises
 

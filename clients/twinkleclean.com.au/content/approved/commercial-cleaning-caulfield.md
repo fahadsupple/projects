@@ -33,6 +33,8 @@ Just as important is behaviour. Our cleaners are briefed to:
 
 In aged care and rehabilitation settings the people in the building are living there, and that changes how a cleaner should move through a corridor. For a strip-retail brief rather than a clinical one, our [commercial cleaning in Bentleigh](https://www.twinkleclean.com.au/commercial-cleaning-bentleigh/) page sets out that side of the work.
 
+Call us now on 0498 182 989 and we will talk through what your site needs.
+
 Education and hospitality sites get the same discipline applied differently: classroom and staff amenity work on a school's calendar, or after-hours commercial cleaning for a venue that closes late. The broader method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Who we clean for in Caulfield
@@ -43,12 +45,6 @@ Caulfield's commercial cleaning brief covers:
 - Aged care and rehabilitation premises where residents live on site
 - Schools and other education premises working to term-time routines
 - Hospitality venues needing an after-hours clean once trade winds down
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade before he was a business owner. Across the team of roughly 20 cleaners there is more than 20 years of combined experience, and over 1,200 Melbourne customers have been through our books. Our Oneflare rating is 5 out of 5 across 16 reviews.
-
-We back the work with a 100% satisfaction guarantee: anything inside the agreed scope that misses the mark gets re-cleaned. Full credentials, insurance detail and our standard process are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
 
 ## How we price Caulfield sites
 
@@ -62,25 +58,39 @@ There is no published flat rate, because a four-room allied health suite and a r
 
 Quotes cost nothing, our pricing stays competitive among commercial cleaners Caulfield practices actually consider, and we take one-off cleans as readily as standing schedules. Arrangements run without lock-in contracts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade before he was a business owner. Across the team of roughly 20 cleaners there is more than 20 years of combined experience, and over 1,200 Melbourne customers have been through our books. Our Oneflare rating is 5 out of 5 across 16 reviews.
+
+We back the work with a 100% satisfaction guarantee: anything inside the agreed scope that misses the mark gets re-cleaned. Full credentials, insurance detail and our standard process are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+
 ## Frequently asked questions
 
-**Are your cleaners insured and police-checked?**
+### Are your cleaners insured and police-checked?
 Every cleaner holds a current police check, which is a baseline requirement for any site where patients, residents or students are present. The business is covered by $20 million public liability insurance and WorkCover, and we can confirm those details in writing for your compliance file.
 
-**Are your staff trained in workplace safety?**
+### Are your staff trained in workplace safety?
 Yes. Workplace safety training is completed before a cleaner attends site unsupervised, and in care settings it is applied practically: safe manual handling, correct signage around wet floors in corridors used by people with mobility aids, and keeping equipment out of walkways.
 
-**Do you use OH&S-compliant cleaning products?**
+### Do you use OH&S-compliant cleaning products?
 We do. Products are OH&S-compliant, and our chemical safety training covers dilution, storage and which product belongs on which surface, which matters where residents and patients are in close contact with the surfaces being treated.
 
-**Can you clean consulting and treatment rooms between sessions?**
+### Can you clean consulting and treatment rooms between sessions?
 Yes. We can work to a between-session turnover for treatment and consulting rooms, or attend before opening and after the last appointment, whichever suits your appointment book.
 
-**Do you clean aged care and rehabilitation settings?**
+### Do you clean aged care and rehabilitation settings?
 Yes. We service aged care and rehabilitation premises with high-touch disinfection and a set room-by-room routine, working to the facility's own protocols.
 
-**Will your cleaners work discreetly around patients and residents?**
+### Will your cleaners work discreetly around patients and residents?
 That is the expectation we set with every cleaner. They keep noise down, skip occupied rooms until staff give the go-ahead, and treat anything they see or overhear as confidential.
+
+### Do you clean schools like Caulfield Primary on a term-time schedule?
+Yes. Schools and other education premises in Caulfield are cleaned to term-time routines, so classrooms and shared amenities are ready for the start of the school day without disrupting timetables.
+
+### Do you clean hospitality venues near the Derby Road dining strip?
+Yes. Hospitality venues around Caulfield and the Derby Road dining strip in Caulfield East are regular work for us, cleaned after hours once trade has wound down for the night.
 
 ## Arrange a site visit
 

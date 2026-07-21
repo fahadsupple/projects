@@ -22,6 +22,8 @@ Alongside those we also handle:
 
 If you are not sure which one your job falls under, describe the site and we will tell you.
 
+Call us now on 0498 182 989 to talk through your site or your carpet.
+
 ## How we work
 
 We use commercial equipment rather than domestic gear: commercial vacuums, floor scrubbers and polishers matched to the surface, and professional window-cleaning tools. Colour-coded microfibre cloths and mops keep bathroom, kitchen and workspace equipment separate, and we use hospital-grade disinfectants selected according to what each site requires. Where they suit the surface and the setting, we choose environmentally conscious products.
@@ -41,31 +43,45 @@ Twinkle Clean works with:
 - Homeowners and families wanting a carpet steam clean
 - Renters and landlords needing an end-of-lease carpet clean
 
-## About Twinkle Clean
-
-Twinkle Clean was started in 2019 by Tom Su, who worked as a cleaner himself for years before there was a company name on the invoices. That background still shapes how the business runs: we know what can realistically be done on a site in the time available, how to train someone properly, and what to do when something unexpected turns up.
-
-The team brings more than 20 years of combined industry experience, and we have served over 1,200 customers across Melbourne. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
-
 ## Pricing and quotes
 
 We price each site individually. A one-room office, a retail tenancy with a glass shopfront and a warehouse with an amenities block have different surface mixes, access rules and time requirements, so a single published hourly rate would be wrong for almost everyone who reads it. Quotes are free and carry no obligation, and for larger or ongoing commercial work we look at the premises first so the number reflects the actual job.
 
 Schedules run daily, weekly, fortnightly or as a one-off clean before an inspection, a handover or an event. We work without lock-in contracts, so an arrangement continues because it is still working for you.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was started in 2019 by Tom Su, who worked as a cleaner himself for years before there was a company name on the invoices. That background still shapes how the business runs: we know what can realistically be done on a site in the time available, how to train someone properly, and what to do when something unexpected turns up.
+
+The team brings more than 20 years of combined industry experience, and we have served over 1,200 customers across Melbourne. Twinkle Clean is rated 5 out of 5 on Oneflare from 16 reviews.
+
 ## Frequently asked questions
 
-**Do you clean homes as well as businesses?**
+### Do you clean homes as well as businesses?
 Yes. Commercial and office work is the larger side of the business, but we also do domestic cleaning, regular household cleaning, carpet cleaning in homes and end of tenancy cleans for tenants and landlords.
 
-**Can you clean outside business hours?**
+### Can you clean outside business hours?
 Yes, and for most commercial clients that is the arrangement. Early mornings, evenings and overnight are all available, seven days a week including public holidays, with no surcharge for those slots.
 
-**Do I have to sign a contract?**
+### Do I have to sign a contract?
 No. We work without lock-in contracts. You can change the frequency, add or drop areas, or stop, without a contract variation.
 
-**What does a quote cost?**
+### What does a quote cost?
 Nothing. We quote free of charge, and for a larger site we would rather come and look at it than guess from a floor area.
+
+### Are your commercial cleaners police-checked and insured?
+Yes. Every cleaner is police-checked, trained in workplace and chemical safety, and communicates clearly in English. We carry $20 million public liability insurance plus WorkCover, which matters when our team holds keys or after-hours access to your building.
+
+### How does carpet steam cleaning work?
+Our core method is hot water extraction, often called steam cleaning. Heated water and solution are worked into the pile and then drawn straight back out under strong suction, so the carpet is left damp rather than soaked, with pet stains, worn traffic lanes and odours treated as their own targeted step.
+
+### Do you offer a bond-back guarantee for end-of-lease carpet cleaning?
+Yes. We clean to the standard a final rental inspection expects and back it with a bond-back guarantee, subject to the agreed scope and inspection conditions, so tenants have the best chance of a full deposit return.
+
+### What happens if part of the clean is not up to standard?
+We stand behind every job with a 100% satisfaction guarantee. If an area inside the agreed scope falls short, tell us and we will come back and re-clean it, backed by our quality control system of checklists, inspections and customer feedback reviews.
 
 ## Talk to us
 

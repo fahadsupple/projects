@@ -12,6 +12,8 @@ Our team matches the method to the carpet rather than running one setting over e
 
 Stubborn marks, pet odours and worn traffic lanes each get their own targeted treatment instead of a single hopeful pass. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
+Call us now on 0498 182 989 to talk through the right method for your carpet.
+
 ## The Oakleigh homes and rentals we service
 
 Carpet cleaning in Oakleigh suits:
@@ -19,10 +21,6 @@ Carpet cleaning in Oakleigh suits:
 - Established family homes with high-traffic lounges, hallways and pet marks
 - Households wanting anything from a single room to a whole-house refresh
 - Offices, shops and eateries along the Oakleigh dining and shopping strip
-
-## About Twinkle Clean
-
-Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on background still shapes how our team reads a carpet and chooses a method. Between us we bring more than 20 years of combined experience, and we have served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 ## Pricing and free quotes
 
@@ -34,25 +32,37 @@ Carpet cleaning is priced on the job, so the fairest figure comes from the detai
 
 We give free quotes with no obligation and keep our pricing competitive and budget-friendly, whether you want a one-off refresh at home or a regular schedule for a workplace. You will know the scope and the price before any work starts.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Twinkle Clean was founded in 2019 by Tom Su, a cleaner by trade well before he ran a business, and that hands-on background still shapes how our team reads a carpet and chooses a method. Between us we bring more than 20 years of combined experience, and we have served over 1,200 customers across Melbourne. Every job carries a 100% satisfaction guarantee: if an area in the agreed scope falls short, we come back and re-clean it. Our customers rate us 5 out of 5 on Oneflare. For our full method, equipment and credentials, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+
 ## Frequently asked questions
 
-**How much does carpet cleaning cost?**
+### How much does carpet cleaning cost?
 It depends on the number of rooms, the size and condition of the carpet, and any stain or odour treatment needed. We give free quotes so the price reflects your carpet rather than a flat rate.
 
-**How much does carpet steam cleaning cost?**
+### How much does carpet steam cleaning cost?
 Steam cleaning, or hot water extraction, is our standard method, so it is built into most quotes. Larger areas and heavier stain treatment add to the figure, which is why we quote on the specifics.
 
-**Is professional carpet cleaning worth it?**
+### Is professional carpet cleaning worth it?
 For carpet that gets daily use, it usually is. A proper clean restores flattened pile, clears the odours and traffic marks that build up over months, and can add years to carpet you might otherwise think about replacing. Set against the cost of new flooring, a professional clean is the cheaper way to keep a room looking its best.
 
-**Do you clean commercial carpet for the Oakleigh shops and eateries?**
+### Do you clean commercial carpet for the Oakleigh shops and eateries?
 Yes. We maintain carpet for offices, retail spaces and eateries around the Oakleigh commercial precinct, and we can schedule the work around your trading hours so it never gets in the way of customers.
 
-**Can you clean carpet in established family homes?**
+### Can you clean carpet in established family homes?
 Yes. Established family homes are much of our local work, from a worn lounge and hallway to a whole-house refresh, with targeted treatment for pet stains and the odours that come with a busy household.
 
-**Do you cover nearby Monash suburbs?**
+### Do you cover nearby Monash suburbs?
 Yes. As well as Oakleigh itself, our carpet team regularly works the neighbouring Monash suburbs, so a job in Chadstone, Clayton or Mulgrave is all part of the same local run. Further east, [carpet cleaning in Glen Waverley](https://www.twinkleclean.com.au/carpet-cleaning-glen-waverley/) is covered on its own page.
+
+### How soon can you come out?
+Often within a few days, and we work seven days a week including weekends and public holidays at no extra charge. Tell us if you are working to a settlement or inspection date and we will do our best to fit you in ahead of it.
+
+### Do you clean the carpet in old shopfronts around the historic precinct?
+Yes. The period shopfronts through Oakleigh's commercial precinct often have carpet in the office or fitting areas at the rear, and we clean that alongside the shopfront's hard floors on the same visit.
 
 ## Book your Oakleigh carpet clean
 

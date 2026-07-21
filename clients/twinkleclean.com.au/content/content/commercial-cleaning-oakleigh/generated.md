@@ -18,6 +18,8 @@ We agree all of this in writing at the walkthrough, area by area, so the price r
 
 That matters for the consulting and treatment rooms scattered through this precinct. Where a practice has its own written infection-control or clinical procedure, we clean to that document rather than substituting a generic office routine. Chadstone premises get the same building-by-building treatment, set out on its own [commercial cleaning in Chadstone](https://www.twinkleclean.com.au/commercial-cleaning-chadstone/) page.
 
+Call us now on 0498 182 989 to book a walkthrough of your Oakleigh building.
+
 ## The dining strip and after-hours access
 
 Oakleigh's Greek dining strip gives the centre a second working day. Venues here trade late, and the offices around them share footpaths, laneways, bins and car parking with hospitality that is still going at eleven at night. That has two consequences for anyone booking a cleaner.
@@ -36,35 +38,43 @@ We're best suited to:
 - Consulting and treatment rooms with their own infection-control procedures
 - Offices and shops sharing the precinct with the late-trading dining strip, needing after-hours timing that fits both
 
-## About Twinkle Clean
-
-The business was founded in 2019 by Tom Su, who cleaned professionally for years before starting it. Between them the team holds 20+ years of combined experience, has served over 1,200 customers across Melbourne, and is rated 5 out of 5 on Oneflare from 16 reviews. A 100% satisfaction guarantee applies to every job, so anything within the agreed scope that falls short is re-cleaned at no cost. Detail on our full method and credentials sits on the hub page.
-
 ## What an Oakleigh clean costs
 
 We price each building individually. A first-floor suite in a period block with a shared stair and original flooring is a different proposition from a modern ground-floor tenancy of the same square metreage, and pretending otherwise produces a quote that goes wrong in month two.
 
 After a walkthrough you get a written scope and a single price against it. Quotes are free, our rates are competitive for the Monash area, and you can book a one-off clean or a standing schedule at whatever frequency suits.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+The business was founded in 2019 by Tom Su, who cleaned professionally for years before starting it. Between them the team holds 20+ years of combined experience, has served over 1,200 customers across Melbourne, and is rated 5 out of 5 on Oneflare from 16 reviews. A 100% satisfaction guarantee applies to every job, so anything within the agreed scope that falls short is re-cleaned at no cost. Detail on our full method and credentials sits on the hub page.
+
 ## Frequently asked questions
 
-**Do you clean commercial carpet and hard floors?**
+### Do you clean commercial carpet and hard floors?
 Both, and they are treated as separate disciplines. Commercial carpet is vacuumed with machines built for it on every visit, with periodic deeper treatment scheduled according to traffic. Hard floors get scrubbing and polishing appropriate to the surface, which in this part of Oakleigh often means older sealed timber or tile that needs controlled moisture rather than a wet mop. Twinkle Clean also runs a dedicated carpet cleaning arm, so heavier carpet work can be booked alongside the routine clean.
 
-**Do you clean internal windows and glass?**
+### Do you clean internal windows and glass?
 Yes. Internal glazing, partition glass, glass doors, reception screens and display cabinets are part of a normal office scope, cleaned with professional window-cleaning tools rather than a spray bottle and paper towel. Tall period sashes and deep sills are included where they can be reached safely from the floor. External and upper-level glass is quoted separately after we look at the access.
 
-**Do you do end-of-lease cleaning for commercial premises?**
+### Do you do end-of-lease cleaning for commercial premises?
 We do, and it is one of the more common one-off jobs we take in older buildings. A commercial vacate clean covers full floor treatment, internal glass, kitchens and washrooms taken back to condition, cleaning inside cupboards and storage, wiping down walls and skirtings where marked, and removing the residue left behind by fit-out removal. Tell us what your lease or landlord's schedule requires and we will scope against that document.
 
-**Can you work around a first-floor suite with a shared stairwell?**
+### Can you work around a first-floor suite with a shared stairwell?
 Yes, and the stairwell is usually worth including. Where several tenants share the entry, we can clean the common area as part of your scope or quote it separately for the building owner.
 
-**Do you clean consulting and treatment rooms in the Oakleigh centre?**
+### Do you clean consulting and treatment rooms in the Oakleigh centre?
 Regularly. Those rooms are cleaned to the practice's own written procedure using hospital-grade disinfectants suited to the surfaces, with amenities and waiting areas handled on the same visit.
 
-**Can you start after the late-trading venues nearby have quietened down?**
+### Can you start after the late-trading venues nearby have quietened down?
 Timing is yours to set. If a very late finish suits your practice better than an early evening one, we roster to it, and the same applies to early-morning starts before the street wakes up.
+
+### Do you clean former bank premises and other heritage retail stock in the centre?
+Yes. Former bank premises and other early-era buildings through Oakleigh's nine-block centre often have original finishes and fittings, and we agree the approach for each surface at the walkthrough rather than assuming a standard modern fitout.
+
+### Can you settle keys and access arrangements for a building with several tenants?
+Yes. Buildings with a shared entry, older locks or alarm systems set up by different tenants over the years are common through this precinct, and we agree keys, codes and entry arrangements with you before the first shift rather than working it out on the night.
 
 ## Speak to us about your building
 

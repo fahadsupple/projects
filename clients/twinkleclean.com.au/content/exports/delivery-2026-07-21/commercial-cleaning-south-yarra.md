@@ -24,6 +24,8 @@ Our teams work from detailed cleaning checklists and site-specific procedures wi
 
 Because a lot of these sites cannot have cleaners on the floor during trade, after-hours commercial cleaning is the default rather than the exception. We work seven days including weekends and public holidays at no extra charge, so a Sunday night reset before Monday trade is priced the same as any other night. The full method, equipment and credential detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
+Call us now on 0498 182 989 to talk through your shopfront, venue or office.
+
 ## Who trusts us in South Yarra
 
 We're the right fit for:
@@ -32,10 +34,6 @@ We're the right fit for:
 - Restaurants, cafes and late-trading hospitality venues
 - Office tenancies above the strips and inside centres like Como
 - Tenancies inside The Jam Factory or Como needing centre access rules followed
-
-## About Twinkle Clean
-
-Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, which is the reason the business is fussy about finish rather than speed. The team carries 20 or more years of combined experience and has now worked for over 1,200 customers around Melbourne. Every clean is covered by a 100% satisfaction guarantee backed by a quality control system, so an area inside the agreed scope that falls short gets re-cleaned. Oneflare reviewers rate us 5 out of 5 across 16 reviews. Our main commercial cleaning page has the full credentials and method.
 
 ## How we price it
 
@@ -52,25 +50,37 @@ That is why there is no published flat rate anywhere on this site.
 
 Quotes are free and come after we have actually looked at the space. We stay competitive against the other commercial cleaners South Yarra businesses will be quoting, and we work without lock-in contracts, whether you want six nights a week, one morning a week, or a single clean before a launch or a lease handback.
 
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
+## About Twinkle Clean
+
+Tom Su started Twinkle Clean in 2019 after years working as a cleaner himself, which is the reason the business is fussy about finish rather than speed. The team carries 20 or more years of combined experience and has now worked for over 1,200 customers around Melbourne. Every clean is covered by a 100% satisfaction guarantee backed by a quality control system, so an area inside the agreed scope that falls short gets re-cleaned. Oneflare reviewers rate us 5 out of 5 across 16 reviews. Our main commercial cleaning page has the full credentials and method.
+
 ## Frequently asked questions
 
-**How much does commercial cleaning cost?**
+### How much does commercial cleaning cost?
 It depends on the site, so we quote rather than publish a rate. A small boutique with one bathroom and a glass frontage sits a long way from a full office floor with kitchens and meeting rooms. We look at size, surfaces, frequency and timing, then give you a written price with the scope attached so you can see exactly what is included.
 
-**Can you clean after hours or on weekends?**
+### Can you clean after hours or on weekends?
 Yes, and for most South Yarra sites that is the sensible option. We work seven days a week including weekends and public holidays at no extra charge, so late-night or early-morning slots carry no premium. Retail and hospitality clients usually book us after close or before opening so the space is ready the moment the doors go up.
 
-**Do you require a lock-in contract?**
+### Do you require a lock-in contract?
 No. We work without lock-in contracts and expect to keep the work by doing it well. You can start with a one-off clean, move to a regular schedule if it suits, and adjust frequency as your trading pattern changes through the year.
 
-**Do you clean street-facing shop windows in South Yarra?**
+### Do you clean street-facing shop windows in South Yarra?
 Yes. Entry glass and display windows on the Chapel Street and Toorak Road strips are part of the standard scope where access allows, using proper window-cleaning tools.
 
-**Can you work around late-trading venues?**
+### Can you work around late-trading venues?
 We can. Sites that close late are cleaned on an early-morning slot rather than a fixed evening one, so the venue is ready for the next service.
 
-**Do you take on tenancies inside centres like The Jam Factory or Como?**
+### Do you take on tenancies inside centres like The Jam Factory or Como?
 Yes, and we work to the centre's access and loading rules as part of the schedule.
+
+### Do you separate bathroom, bar and food-area cleaning in hospitality venues?
+Yes. Colour-coded microfibre cloths and mops keep bathroom, bar and food-preparation equipment apart on every visit, which matters most in the tight, high-turnover venues along Chapel Street.
+
+### Can you clean a boutique's fitting rooms and counters as well as the floor?
+Yes. A standard retail scope on the strips includes fitting areas and counters reset alongside the floor and entry glass, so the whole customer-facing space is covered in one visit.
 
 ## Book a walkthrough
 

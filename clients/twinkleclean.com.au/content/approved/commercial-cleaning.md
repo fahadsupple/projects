@@ -30,6 +30,8 @@ A regular commercial clean with us is thorough rather than rushed. Depending on 
 
 We also take on periodic and specialist work, including commercial carpet steam cleaning, hard-floor maintenance and after-build or one-off deep cleans. If your site needs something outside a standard scope, it goes into the quote rather than being quietly skipped.
 
+Call us now on 0498 182 989 to talk through what your site needs.
+
 ## How we keep the standard consistent
 
 Consistency is where most cleaning contracts fall down, so it is where we put the most structure. Wherever possible we assign the same cleaners to your site, so they learn your premises and your expectations instead of starting fresh each visit.
@@ -51,6 +53,14 @@ We clean for a wide range of Melbourne businesses, including:
 - Restaurants, cafes and hospitality venues
 - Warehouses and factories
 
+## How pricing and quotes work
+
+We price each site individually, because a fair quote depends on its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job.
+
+Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
+
+Call us now on 0498 182 989 for a free, no-obligation quote.
+
 ## About Twinkle Clean
 
 Twinkle Clean was started in 2019 by Tom Su, a former cleaner whose own work was in steady demand well before there was a company name on it. That hands-on background still shapes how we operate: we know what can realistically be achieved on site, how to train cleaners properly, and how to react when something unexpected comes up. Based in Ringwood, we service commercial sites right across Melbourne. Since then we have served more than 1,200 customers across Melbourne, keep around 90% of our regular commercial clients year to year, and earn close to 40% of our new work through referrals.
@@ -63,12 +73,6 @@ The practical trust points matter just as much:
 - We work seven days a week, including evenings, weekends and public holidays, at no extra charge
 - There are no lock-in contracts, so our service has to earn its place every month
 - Our clients rate us 5 out of 5 on Oneflare across 16 reviews
-
-## How pricing and quotes work
-
-We price each site individually, because a fair quote depends on its size, how often it needs cleaning, the type of work involved and how it is accessed. Instead we offer free, no-obligation quotes, and for larger or ongoing commercial work we inspect the premises first so the quote reflects the real job.
-
-Pricing is kept competitive and budget-friendly for workplaces big and small, and you can choose regular scheduled cleaning or a one-off clean with no obligation to continue. You will know the scope and the cost before we start.
 
 ## Areas we service across Melbourne
 
@@ -117,28 +121,28 @@ We clean commercial sites right across Melbourne, with a strong presence through
 
 ## Frequently asked questions
 
-**How much does commercial cleaning cost in Melbourne?**
+### How much does commercial cleaning cost in Melbourne?
 It depends on the size of your site, how often it is cleaned and the type of work involved. We give free quotes, and for larger sites we inspect first so the price matches the job rather than a generic hourly guess.
 
-**How do you charge, by the hour or by the job?**
+### How do you charge, by the hour or by the job?
 Either can work. For regular ongoing cleaning we usually quote per visit against an agreed scope, and for one-off or specialist work we scope and price the specific job. You approve the quote before we start.
 
-**What is included in a commercial cleaning service?**
+### What is included in a commercial cleaning service?
 A standard clean covers surfaces, floors, restrooms, bins, kitchens and high-touch points, with rotational detail tasks on a schedule. Specialist tasks such as carpet steam cleaning or deep cleans are quoted separately and added to the plan.
 
-**Do you offer after-hours and weekend cleaning?**
+### Do you offer after-hours and weekend cleaning?
 Yes. We work seven days a week, including evenings, weekends and public holidays, at no extra charge, so cleaning fits around your trading hours rather than interrupting them.
 
-**Are your cleaners police-checked and insured?**
+### Are your cleaners police-checked and insured?
 Yes. Every cleaner holds a current police check and workplace safety training, and we carry $20 million in public liability insurance plus WorkCover for our team.
 
-**Will I have the same cleaners each time?**
+### Will I have the same cleaners each time?
 Wherever possible, yes. We assign consistent cleaners to each site so they know your premises, which is a large part of how we keep quality steady.
 
-**Am I locked into a contract?**
+### Am I locked into a contract?
 No. We work without lock-in contracts. We rely on consistent service and a satisfaction guarantee to keep your business.
 
-**What happens if I am not happy with a clean?**
+### What happens if I am not happy with a clean?
 Tell us. Under our 100% satisfaction guarantee we review the issue promptly and return to re-clean any area within the agreed scope that fell short.
 
 ## Talk to us about your site
