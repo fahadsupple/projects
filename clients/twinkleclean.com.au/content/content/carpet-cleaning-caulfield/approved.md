@@ -6,7 +6,7 @@ Caulfield homes tend to hold their history in the floor. Grand old rooms, wool c
 
 Caulfield has long been known for its grand, established homes, and that older housing stock often comes with the kind of carpet and rugs that reward a careful hand. Wool and natural-fibre pile, delicate runners on staircases and heirloom rugs in formal rooms all respond better to controlled steam and, where a piece suits it, a low-moisture approach that avoids over-wetting.
 
-Our team reads the fibre and the condition first, then chooses the gentlest method that will still shift years of embedded grit, rather than running one aggressive setting across everything. Hot water extraction flushes soil out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked, and any set-in marks or lingering odours get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our team reads the fibre and the condition first, then chooses the gentlest method that will still shift years of embedded grit, rather than running one aggressive setting across everything. Hot water extraction flushes soil out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked, and any set-in marks or lingering odours get their own targeted treatment. Alongside these homes, we also clean commercial carpet for local offices, shops and consulting rooms, scheduling that work around trading hours so floors are ready when doors open. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 Call us now on 0498 182 989 to talk through the right method for your Caulfield carpet.
 
@@ -22,6 +22,7 @@ This page is written for:
 - Households with heirloom rugs in formal rooms
 - Students and tenants in sharehouses and investment flats near the campus
 - Property managers checking carpet before a bond is returned
+- Offices, shops and consulting rooms needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

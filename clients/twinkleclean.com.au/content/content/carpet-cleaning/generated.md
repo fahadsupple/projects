@@ -2,6 +2,8 @@
 
 A carpet holds onto far more than it shows. Ground-in traffic lanes, an old spill you have stopped noticing, the faint smell a pet left behind: most carpets look worse up close than their owners realise, and a good clean brings back colour people forgot the carpet had. Twinkle Clean offers carpet cleaning services Melbourne households and businesses call on when a vacuum is no longer enough. We use professional hot water extraction, treat stains and odours at the source, and back the result with a satisfaction guarantee, drawing on more than 20 years of combined experience across our cleaning team.
 
+Most of this work is residential. We clean carpet in houses, units and apartments right across Melbourne, for homeowners, families, renters and landlords. We also maintain commercial carpet in offices, retail spaces and other workplaces, scheduled outside trading hours where that suits the site.
+
 ## How we clean carpets
 
 We clean by method, not by guesswork. Our carpet team assesses the fibre, the surface and how soiled it is, then chooses the right approach for that carpet rather than running one setting over everything. Our core process uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt and residue out of the pile and lifts it away with powerful suction.

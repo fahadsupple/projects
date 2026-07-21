@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-21T04:42:28Z_
+_Rebuilt: 2026-07-21T06:08:39Z_
 
 ## carpet-cleaning-bayswater
 
@@ -44,7 +44,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning box hill
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1130
+- **Word count:** 1174
 - **Headings:**
   - Carpet Cleaning Box Hill
   - End-of-lease and bond-back carpet cleaning in Box Hill
@@ -62,7 +62,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning burwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1230
+- **Word count:** 1270
 - **Headings:**
   - Carpet Cleaning Burwood
   - End-of-lease cleaning for student rentals and share houses
@@ -80,7 +80,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning camberwell
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1159
+- **Word count:** 1199
 - **Headings:**
   - Carpet Cleaning Camberwell
   - Room by room through Camberwell's grand period homes
@@ -98,7 +98,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1133
+- **Word count:** 1172
 - **Headings:**
   - Carpet Cleaning Caulfield
   - Carpet care for Caulfield's established homes
@@ -133,7 +133,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1140
+- **Word count:** 1181
 - **Headings:**
   - Carpet Cleaning Croydon
   - Carpet cleaning for Croydon's established family homes
@@ -188,7 +188,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning hawthorn
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1168
+- **Word count:** 1212
 - **Headings:**
   - Carpet Cleaning Hawthorn
   - Caring for carpets and rugs in period Hawthorn homes
@@ -206,7 +206,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning kew
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1146
+- **Word count:** 1182
 - **Headings:**
   - Carpet Cleaning Kew
   - Wool carpets and fine rugs in Kew's established homes
@@ -243,7 +243,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1164
+- **Word count:** 1196
 - **Headings:**
   - Carpet Cleaning Moorabbin
   - Carpet cleaning for Moorabbin's established brick homes
@@ -261,7 +261,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning mount waverley
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1150
+- **Word count:** 1182
 - **Headings:**
   - Carpet Cleaning Mount Waverley
   - Carpet cleaning for Mount Waverley's long-settled family homes
@@ -277,7 +277,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1173
+- **Word count:** 1208
 - **Headings:**
   - Carpet Cleaning Noble Park
   - Bond-back carpet cleaning for Noble Park rentals
@@ -310,7 +310,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning richmond
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1157
+- **Word count:** 1197
 - **Headings:**
   - Carpet Cleaning Richmond
   - Apartment and rental carpets across Richmond
@@ -329,7 +329,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1248
+- **Word count:** 1288
 - **Headings:**
   - Carpet Cleaning Ringwood
   - Carpet cleaning close to home
@@ -341,14 +341,14 @@ _Rebuilt: 2026-07-21T04:42:28Z_
   - About Twinkle Clean
   - Frequently asked questions
   - Book your Ringwood carpet clean
-- **First paragraph:** When your carpet has lost the spring it had the day you moved in, no amount of vacuuming quite brings it back. The colour goes flat in the walkways and a spill you meant to deal with has set. This is 
+- **First paragraph:** When the carpet in your Ringwood home has lost the spring it had the day you moved in, no amount of vacuuming quite brings it back. The colour goes flat in the walkways and a spill you meant to deal w
 
 ## carpet-cleaning-rowville
 
 - **Primary keyword:** carpet cleaning rowville
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1160
+- **Word count:** 1194
 - **Headings:**
   - Carpet Cleaning Rowville
   - Carpet cleaning built for large Rowville homes
@@ -367,7 +367,7 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 - **Primary keyword:** carpet cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1396
+- **Word count:** 1440
 - **Headings:**
   - Carpet Cleaning Services Melbourne
   - How we clean carpets

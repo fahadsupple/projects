@@ -6,7 +6,7 @@ The wool carpet on a Hawthorn staircase, the natural-fibre runner down a wide Vi
 
 Hawthorn grew up during the 1880s land boom, and its tree-lined streets still hold a fine collection of grand Victorian and Edwardian houses, including the heritage-listed Grace Park Estate. Homes of that era were often laid with wool and other natural-fibre carpets and rugs, and those fibres behave differently to modern synthetics: they hold warmth and depth beautifully, yet they mark more easily and dislike being over-wet.
 
-That is why we assess the pile before we start rather than running one aggressive setting over everything. A period lounge with a delicate rug and a family entrance with hard-wearing carpet get treated as the two different jobs they are, and the leafy streets that make Hawthorn so pleasant also mean more pollen, grit and damp tracked indoors across the year.
+That is why we assess the pile before we start rather than running one aggressive setting over everything. A period lounge with a delicate rug and a family entrance with hard-wearing carpet get treated as the two different jobs they are, and the leafy streets that make Hawthorn so pleasant also mean more pollen, grit and damp tracked indoors across the year. Alongside these homes, we also clean commercial carpet for the offices, shops and consulting rooms around Glenferrie Road, working that carpet around trading hours so floors stay presentable for customers.
 
 ## Method matched to the fibre, not a generic pass
 
@@ -28,6 +28,7 @@ We're set up for:
 - Households with carpeted staircases in older houses
 - Tenants in apartments and share homes needing an end-of-lease clean
 - Property managers who inspect carpet closely before a bond is returned
+- Offices, shops and consulting rooms around Glenferrie Road needing commercial carpet kept presentable
 
 ## Free quotes and competitive pricing
 

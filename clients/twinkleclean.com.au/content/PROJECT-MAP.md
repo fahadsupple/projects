@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-21T04:42:28Z_
+_Rebuilt: 2026-07-21T06:08:39Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-21T04:42:28Z_
 
 ## Recent events (last 10)
 
-- 2026-07-21T03:05:18.793Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T03:05:21.220Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T03:05:23.052Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T03:06:27.150Z  `audit_gate_blocked`  entry:carpet-cleaning-bentleigh  (halted)
-- 2026-07-21T03:06:30.318Z  `audit_gate_blocked`  entry:carpet-cleaning-cheltenham  (halted)
-- 2026-07-21T03:07:33.443Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T03:08:43.111Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T03:09:17.367Z  `content_restructured`  project:twinkleclean.com.au  (success)
-- 2026-07-21T04:42:11.461Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
-- 2026-07-21T04:42:21.753Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:17.053Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:18.493Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:21.744Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:22.824Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:25.368Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:26.858Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:29.713Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:06:31.022Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:07:50.870Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:07:55.331Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 

@@ -8,7 +8,7 @@ Mount Waverley is an established suburb of detached family homes, its heritage s
 
 Our team reads the fibre and its condition before settling on an approach, rather than running one setting across the whole floor. Hot water extraction flushes grit and oils out of the pile and draws the moisture back out, so carpet is left damp rather than soaked, while a decades-old traffic lane or a set-in pet mark is treated separately with targeted stain and odour work before the main pass.
 
-On the older wool common in these homes, that measured touch brings back colour and texture without stressing the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+On the older wool common in these homes, that measured touch brings back colour and texture without stressing the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside these homes, we also clean commercial carpet in Mount Waverley's offices and shops, fitting workplace jobs around trading hours.
 
 Call us now on 0498 182 989 to talk through your carpet and book a time.
 
@@ -19,6 +19,7 @@ This page is written for:
 - Homeowners in Mount Waverley's long-settled family homes, where carpet has aged alongside the household
 - Households with older wool and natural-fibre carpet that needs a gentler, moisture-controlled clean
 - Multi-level homes wanting a whole house done in one visit, stairs and landings included
+- Offices and shops in Mount Waverley needing commercial carpet kept presentable
 
 ## Pricing and quotes
 

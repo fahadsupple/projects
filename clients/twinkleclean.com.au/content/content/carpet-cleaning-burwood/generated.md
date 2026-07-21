@@ -16,7 +16,7 @@ When several housemates are clearing out at once, we can get the whole floor ins
 
 ## Whole-house refreshes for established Burwood homes
 
-Established homes here carry a different kind of wear. Many were built out along Burwood Highway after the war, and years of family life leave lounges, hallways and stairs holding ground-in grit, spills and the odd pet accident the vacuum never reaches. A full steam clean draws that embedded soil back out and brings back colour the carpet quietly lost, making a whole-house refresh one of our most common local bookings.
+Established homes here carry a different kind of wear. Many were built out along Burwood Highway after the war, and years of family life leave lounges, hallways and stairs holding ground-in grit, spills and the odd pet accident the vacuum never reaches. A full steam clean draws that embedded soil back out and brings back colour the carpet quietly lost, making a whole-house refresh one of our most common local bookings. Alongside these homes, we also clean commercial carpet for offices and shops along Burwood Highway, scheduling that work around trading hours so floors are ready before customers arrive.
 
 ## Steam cleaning matched to your carpet
 
@@ -33,6 +33,7 @@ Carpet cleaning in Burwood suits a few clear groups:
 - Long-settled family homes across the suburb's brick housing, wanting a whole-house steam clean that lifts years of ground-in grit and wear
 - Students and share-house tenants near Deakin University, needing an end-of-lease clean timed to the handover and backed by a bond-back guarantee
 - Households on either side of the Monash and Whitehorse boundary, all served by the same crew and equipment
+- Offices and shops along Burwood Highway needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

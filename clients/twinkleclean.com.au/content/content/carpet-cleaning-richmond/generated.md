@@ -35,7 +35,7 @@ Rather than a single hopeful pass, each carpet gets a targeted treatment for:
 - Pet odours
 - Worn traffic lanes
 
-For the full rundown of our equipment and process, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Alongside these homes, we also clean commercial carpet in the offices and shops along Victoria Street, Bridge Road and Swan Street, booking that work around trading hours. For the full rundown of our equipment and process, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
 Call us now on 0498 182 989 to book a Richmond carpet clean.
 
@@ -46,6 +46,7 @@ Richmond's carpet work tends to fall into a few groups:
 - Share houses and renters needing a quick, walk-on-ready turnaround
 - Homeowners in period terraces with wool carpets and natural-fibre rugs
 - Property managers arranging bond-back cleans for end-of-lease inspections
+- Offices and shops on the retail strips needing commercial carpet kept presentable
 
 ## Free quotes and pricing
 

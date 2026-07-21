@@ -10,7 +10,7 @@ Camberwell is one of Melbourne's most prestigious inner-eastern suburbs, its lea
 - A softer pile in the bedrooms
 - Hard-wearing carpet on the stairs and main hallway
 
-Cleaning it well means reading each space on its own, so a treasured rug and a busy entrance are handled as the separate jobs they are, and allowing for the pollen and grit the suburb's tree-lined streets carry indoors year-round.
+Cleaning it well means reading each space on its own, so a treasured rug and a busy entrance are handled as the separate jobs they are, and allowing for the pollen and grit the suburb's tree-lined streets carry indoors year-round. Alongside these homes, we also clean commercial carpet for the offices and shops around Camberwell Junction, working that carpet around trading hours so floors stay presentable for customers.
 
 ## Gentle steam cleaning for wool and natural fibres
 
@@ -31,6 +31,7 @@ Our Camberwell carpet cleaning suits a few different callers:
 - Homeowners in the suburb's grand period homes, where wool broadloom and natural-fibre rugs need a gentler, moisture-controlled clean
 - Renters and tenants nearing the end of a lease who want a bond-back standard result
 - Property managers coordinating rental carpet inspections across Camberwell
+- Offices and shops around Camberwell Junction needing commercial carpet kept presentable
 
 ## Free quotes and competitive pricing
 

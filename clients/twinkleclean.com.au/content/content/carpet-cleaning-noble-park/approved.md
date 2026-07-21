@@ -12,7 +12,7 @@ We clean to the standard that inspection expects and back it with a bond-back gu
 
 About a third of homes in Noble Park are apartments, roughly twice the metro Melbourne rate, so many of our local jobs are in flats and units rather than freestanding houses. That brings its own considerations, from lift access and parking to keeping noise down for the neighbours, and we plan each clean around the building so the day runs smoothly.
 
-Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside homes and apartments, we also clean commercial carpet in Noble Park's shops and small offices, scheduling workplace jobs around trading hours.
 
 Noble Park is also one of Melbourne's most multicultural pockets, so we keep things plain and clear from the first call: straightforward advice, an honest quote, and no jargon. If English is a second language at home, you will still get a friendly cleaner who explains the job in simple terms before we start.
 
@@ -26,6 +26,7 @@ Most of our Noble Park work comes from:
 - Property managers and agents preparing a unit for the next lease
 - Owners and residents of apartments and units, including older walk-up blocks
 - Households where English is a second language, who want plain, jargon-free advice
+- Shops and small offices in Noble Park needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

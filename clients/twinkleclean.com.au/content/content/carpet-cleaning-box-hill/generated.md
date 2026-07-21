@@ -12,7 +12,7 @@ We clean to the standard that inspection expects and back it with a bond-back gu
 
 Cleaning carpet in an apartment or tower brings its own considerations, from lift access and parking through to keeping noise and disruption down for the neighbours. Box Hill holds some of the tallest residential buildings outside central Melbourne, and we are set up to work in them.
 
-Our equipment reaches upper-floor units, and we plan each job around building access so the clean runs smoothly from arrival to pack-down. Whether it is a single lounge in a one-bedder or carpet throughout a larger unit, the same method and care go into every job.
+Our equipment reaches upper-floor units, and we plan each job around building access so the clean runs smoothly from arrival to pack-down. Whether it is a single lounge in a one-bedder or carpet throughout a larger unit, the same method and care go into every job. Alongside home carpet, we also clean commercial carpet in the offices and shops around Box Hill's station precinct, booking that work around trading hours so floors are ready when doors open.
 
 ## Our carpet cleaning method
 
@@ -33,6 +33,7 @@ Twinkle Clean's Box Hill carpet cleaning suits a few clear groups:
 - Renters and tenants moving out, needing a bond-back clean timed to the final inspection
 - Property managers turning an apartment around quickly between leases
 - Owner-occupiers and residents in Box Hill's apartment towers, wanting a clean that fits lift access and building rules
+- Offices, shops and other Box Hill workplaces needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

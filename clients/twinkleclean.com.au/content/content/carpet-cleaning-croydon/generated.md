@@ -9,7 +9,7 @@ Croydon grew up as an orchard district before it settled into one of Melbourne's
 - The faded patch in front of the television
 - The darker stretch by the back door
 
-We refresh a whole house in a single visit, working room to room so bedrooms, lounge and hallways come up evenly instead of leaving one bright patch beside a tired one. High-traffic wear, pet odours and the marks a busy household leaves behind are ordinary work for us.
+We refresh a whole house in a single visit, working room to room so bedrooms, lounge and hallways come up evenly instead of leaving one bright patch beside a tired one. High-traffic wear, pet odours and the marks a busy household leaves behind are ordinary work for us. Alongside these homes, we also clean commercial carpet for Croydon's local offices, shops and light-industrial units, booking that work around trading hours so floors are ready for the next day.
 
 ## End-of-lease carpet cleaning for Croydon townhouses and units
 
@@ -34,6 +34,7 @@ Our Croydon carpet cleaning is built around a few household types:
 - Families in established homes, refreshing carpet worn by years of foot traffic and pets
 - Renters and tenants preparing for a final inspection
 - Property managers coordinating bond-back cleans across Croydon's townhouses and units
+- Offices, shops and light-industrial units needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

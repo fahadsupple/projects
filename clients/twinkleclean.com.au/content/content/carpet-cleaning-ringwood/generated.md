@@ -1,12 +1,12 @@
 # Carpet Cleaning Ringwood
 
-When your carpet has lost the spring it had the day you moved in, no amount of vacuuming quite brings it back. The colour goes flat in the walkways and a spill you meant to deal with has set. This is the sort of work Twinkle Clean handles every week, and the carpet cleaning Ringwood locals ask us for happens to be work on our own doorstep, because this is where the business is based. We lift ground-in dirt with hot water extraction, treat stains and odours as their own job, and stand behind every clean with a 100% satisfaction guarantee.
+When the carpet in your Ringwood home has lost the spring it had the day you moved in, no amount of vacuuming quite brings it back. The colour goes flat in the walkways and a spill you meant to deal with has set. This is the sort of work Twinkle Clean handles every week, and the carpet cleaning Ringwood households ask us for happens to be work on our own doorstep, because this is where the business is based. We lift ground-in dirt with hot water extraction, treat stains and odours as their own job, and stand behind every clean with a 100% satisfaction guarantee.
 
 ## Carpet cleaning close to home
 
 Ringwood is our home patch. Twinkle Clean is based right here in the outer east, so a call from a Ringwood street is one of the shortest runs our team makes.
 
-The suburb grew from a nineteenth-century railway town into a busy transport hub, with newer apartments now rising near the station, Ringwood Lake and Eastland. That mix means we see everything from long-settled family carpet to the fresh pile of a recent build.
+The suburb grew from a nineteenth-century railway town into a busy transport hub, with newer apartments now rising near the station, Ringwood Lake and Eastland. That mix means we see everything from long-settled family carpet to the fresh pile of a recent build. Alongside homes, we also clean commercial carpet in shops and offices near Eastland and the station, fitting workplace jobs around trading hours.
 
 ## The method we use
 
@@ -31,6 +31,7 @@ Carpet cleaning in Ringwood suits a range of local households:
 - Established post-war homes with wool carpet and natural-fibre rugs, given gentle steam or low-moisture care where the fibre calls for it
 - Owners of newer apartments near Eastland and the station, with synthetic carpet that takes a deeper flush
 - Tenants ending a lease, from station apartments to older-street rentals, cleaned to the standard a final inspection expects
+- Shops and offices near Eastland and the station needing commercial carpet kept presentable
 
 ## Pricing and free quotes
 

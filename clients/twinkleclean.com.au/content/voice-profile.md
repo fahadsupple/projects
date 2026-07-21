@@ -1,6 +1,6 @@
 # Voice Profile
 
-_Rebuilt: 2026-07-21T04:42:28Z_
+_Rebuilt: 2026-07-21T06:08:39Z_
 
 ## Brand voice (from intake)
 
@@ -12,25 +12,25 @@ The following pieces are treated as voice anchors. Generation prompts include th
 
 - **carpet-cleaning-bayswater** — 1219 words
 - **carpet-cleaning-bentleigh** — 1106 words
-- **carpet-cleaning-box-hill** — 1130 words
-- **carpet-cleaning-burwood** — 1230 words
-- **carpet-cleaning-camberwell** — 1159 words
-- **carpet-cleaning-caulfield** — 1133 words
+- **carpet-cleaning-box-hill** — 1174 words
+- **carpet-cleaning-burwood** — 1270 words
+- **carpet-cleaning-camberwell** — 1199 words
+- **carpet-cleaning-caulfield** — 1172 words
 - **carpet-cleaning-cheltenham** — 1146 words
-- **carpet-cleaning-croydon** — 1140 words
+- **carpet-cleaning-croydon** — 1181 words
 - **carpet-cleaning-dandenong** — 1063 words
 - **carpet-cleaning-glen-waverley** — 1184 words
-- **carpet-cleaning-hawthorn** — 1168 words
-- **carpet-cleaning-kew** — 1146 words
+- **carpet-cleaning-hawthorn** — 1212 words
+- **carpet-cleaning-kew** — 1182 words
 - **carpet-cleaning-malvern** — 1250 words
-- **carpet-cleaning-moorabbin** — 1164 words
-- **carpet-cleaning-mount-waverley** — 1150 words
-- **carpet-cleaning-noble-park** — 1173 words
+- **carpet-cleaning-moorabbin** — 1196 words
+- **carpet-cleaning-mount-waverley** — 1182 words
+- **carpet-cleaning-noble-park** — 1208 words
 - **carpet-cleaning-oakleigh** — 1041 words
-- **carpet-cleaning-richmond** — 1157 words
-- **carpet-cleaning-ringwood** — 1248 words
-- **carpet-cleaning-rowville** — 1160 words
-- **carpet-cleaning** — 1396 words
+- **carpet-cleaning-richmond** — 1197 words
+- **carpet-cleaning-ringwood** — 1288 words
+- **carpet-cleaning-rowville** — 1194 words
+- **carpet-cleaning** — 1440 words
 - **commercial-cleaning-bayswater** — 1243 words
 - **commercial-cleaning-bentleigh** — 1235 words
 - **commercial-cleaning-blackburn** — 1223 words

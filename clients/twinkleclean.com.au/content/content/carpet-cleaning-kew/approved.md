@@ -12,7 +12,7 @@ Those materials hold colour beautifully, yet they mark more readily than synthet
 
 Our core method is hot water extraction, the deep steam clean, which flushes soil out of the pile and draws the moisture back with strong suction, so the carpet is left damp rather than soaked. On wool and softer natural fibres we ease back the heat and moisture, often stepping down to a low-moisture treatment that guards the pile and shortens drying.
 
-Set-in marks, pet odours and worn traffic lanes each get a targeted treatment instead of one hopeful pass. For the full detail on our equipment, presprays and stain work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
+Set-in marks, pet odours and worn traffic lanes each get a targeted treatment instead of one hopeful pass. For the full detail on our equipment, presprays and stain work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside homes, we also clean commercial carpet in Kew's offices and shopfronts, scheduling workplace jobs around trading hours to keep disruption low.
 
 Call us now on 0498 182 989 to talk through the right method for your carpet or rug.
 
@@ -27,6 +27,7 @@ Our Kew carpet cleaning suits:
 - Owners of quality wool carpet and antique or hand-knotted rugs in period homes
 - Tenants needing a bond-back clean at the end of a Kew lease
 - Larger households with busy staircases and landings that take concentrated traffic
+- Offices and shopfronts in Kew needing commercial carpet cleaning scheduled around trading hours
 
 ## Free quotes and competitive pricing
 
