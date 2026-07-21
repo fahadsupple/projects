@@ -23,6 +23,9 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 BODY_PT = 11
+BODY_FONT = "Calibri"
+TITLE_PT = 18          # "Page N" title — larger than everything else
+TITLE_FONT = "Georgia"  # the only element in a different font, so it stands out
 GREY = RGBColor(0x59, 0x59, 0x59)    # heading TAG only
 BLACK = RGBColor(0x00, 0x00, 0x00)   # body + heading text
 LINK_BLUE = RGBColor(0x05, 0x63, 0xC1)  # standard Word hyperlink blue
@@ -118,10 +121,26 @@ def add_bullet(doc, text):
 
 
 def add_page_label(doc, n, first):
+    """Page N: a TITLE. Larger, and the only element in a different font, so it stands out.
+
+    Every page starts on a new page.
+    """
     p = doc.add_paragraph()
     if not first:
         p.add_run().add_break(WD_BREAK.PAGE)
-    _style_run(p.add_run(f"Page {n}"), bold=True, color=BLACK)
+    p.paragraph_format.space_after = Pt(8)
+    run = p.add_run(f"Page {n}")
+    run.font.name = TITLE_FONT
+    run.font.size = Pt(TITLE_PT)
+    run.font.bold = True
+    run.font.color.rgb = BLACK
+
+
+def add_blank(doc):
+    p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(0)
+    p.paragraph_format.space_after = Pt(0)
+    _style_run(p.add_run(""), color=BLACK)
 
 
 def add_meta_line(doc, label, value, *, as_link=False):
@@ -136,13 +155,23 @@ def add_meta_line(doc, label, value, *, as_link=False):
 
 
 def add_meta_block(doc, meta):
-    """Header block: URL -> keywords (primary first) -> supporting -> title -> description."""
+    """Header block, in order:
+    URL -> [blank] -> primary keyword -> secondary keywords -> [blank]
+        -> meta title -> meta description -> [blank]
+    Supporting keywords are deliberately not shown.
+    """
     add_meta_line(doc, "URL", meta["url"], as_link=True)
-    add_meta_line(doc, "Keywords", ", ".join(meta["keywords"]))
-    if meta.get("supporting_keywords"):
-        add_meta_line(doc, "Supporting Keywords", ", ".join(meta["supporting_keywords"]))
+    add_blank(doc)
+
+    kws = meta["keywords"]
+    add_meta_line(doc, "Primary Keyword", kws[0] if kws else "")
+    if len(kws) > 1:
+        add_meta_line(doc, "Secondary Keywords", ", ".join(kws[1:]))
+    add_blank(doc)
+
     add_meta_line(doc, "Meta Title", meta["meta_title"])
     add_meta_line(doc, "Meta Description", meta["meta_description"])
+    add_blank(doc)
 
 
 def render_markdown(doc, md, page_no, first, meta=None):
@@ -172,7 +201,7 @@ def build(entries, out_path):
     """
     doc = Document()
     normal = doc.styles["Normal"]
-    normal.font.name = "Calibri"
+    normal.font.name = BODY_FONT
     normal.font.size = Pt(BODY_PT)
     normal.font.color.rgb = BLACK
     for i, item in enumerate(entries):
