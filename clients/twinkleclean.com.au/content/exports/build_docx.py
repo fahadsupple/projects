@@ -121,19 +121,29 @@ def add_bullet(doc, text):
 
 
 def add_page_label(doc, n, first):
-    """Page N: a TITLE. Larger, and the only element in a different font, so it stands out.
+    """Page N: a real Word Heading 1.
+
+    Uses the built-in "Heading 1" STYLE (not just big text) so the document has a
+    navigable outline: Word's Navigation pane and Google Docs' outline / document
+    tabs both read heading styles. The Georgia look is layered on top of the style.
 
     Every page starts on a new page.
     """
-    p = doc.add_paragraph()
+    p = doc.add_paragraph(style="Heading 1")
     if not first:
-        p.add_run().add_break(WD_BREAK.PAGE)
+        p.paragraph_format.page_break_before = True
     p.paragraph_format.space_after = Pt(8)
     run = p.add_run(f"Page {n}")
     run.font.name = TITLE_FONT
     run.font.size = Pt(TITLE_PT)
     run.font.bold = True
     run.font.color.rgb = BLACK
+    # Heading styles carry a theme font; pin the East Asian/complex-script slots
+    # too so Word/Google Docs do not substitute the theme face back in.
+    rPr = run._element.get_or_add_rPr()
+    rFonts = rPr.get_or_add_rFonts()
+    for attr in ("w:ascii", "w:hAnsi", "w:cs", "w:eastAsia"):
+        rFonts.set(qn(attr), TITLE_FONT)
 
 
 def add_blank(doc):
