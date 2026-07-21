@@ -1,65 +1,128 @@
-"""House-style .docx builder for Twinkle Clean content deliverable.
+"""House-style .docx builder for the Twinkle Clean content deliverable.
 
 House style (per client spec):
-- "Page N" at the very beginning of each page's content.
-- Headings labelled H1:/H2:/H3: (with colon), bold, SAME font size as body, GREY.
+- "Page N" at the very beginning of each page's content. No table of contents.
+- Heading TAG ("H1:"/"H2:"/"H3:") is GREY; the heading TEXT itself is BLACK.
+  Both bold, same font size as body.
 - FAQ questions are H3.
-- All body content BLACK.
-Reads clean markdown (## / ### / - / **bold**); the H1:/H2:/H3: labels, Page N and
-colours are applied only here at render time, so the markdown source stays gate-valid.
+- All body content BLACK. Links render as real hyperlinks in standard blue,
+  underlined, NOT bold.
+
+Reads clean markdown (## / ### / - / **bold** / [text](url)). The H1:/H2:/H3:
+labels, Page N and colours are applied only here at render time, so the markdown
+source stays valid for the content audit gate.
 """
-import re, sys
+import re
+import sys
 from pathlib import Path
+
 from docx import Document
 from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_BREAK
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
 
 BODY_PT = 11
-GREY = RGBColor(0x59, 0x59, 0x59)   # heading grey
-BLACK = RGBColor(0x00, 0x00, 0x00)  # body black
+GREY = RGBColor(0x59, 0x59, 0x59)    # heading TAG only
+BLACK = RGBColor(0x00, 0x00, 0x00)   # body + heading text
+LINK_BLUE = RGBColor(0x05, 0x63, 0xC1)  # standard Word hyperlink blue
 
-def add_inline(paragraph, text, *, bold_all=False, color=BLACK, size=BODY_PT):
-    """Add text to a paragraph, honouring **bold** spans."""
-    parts = re.split(r"(\*\*[^*]+\*\*)", text)
-    for part in parts:
+# [text](url)
+LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+BOLD_RE = re.compile(r"(\*\*[^*]+\*\*)")
+
+
+def _style_run(run, *, bold=False, color=BLACK, size=BODY_PT):
+    run.font.size = Pt(size)
+    run.font.bold = bold
+    run.font.color.rgb = color
+    return run
+
+
+def _add_hyperlink(paragraph, text, url):
+    """Insert a real clickable hyperlink: standard blue, underlined, not bold."""
+    part = paragraph.part
+    r_id = part.relate_to(
+        url,
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+        is_external=True,
+    )
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+
+    new_run = OxmlElement("w:r")
+    rPr = OxmlElement("w:rPr")
+
+    color = OxmlElement("w:color")
+    color.set(qn("w:val"), "0563C1")
+    rPr.append(color)
+
+    underline = OxmlElement("w:u")
+    underline.set(qn("w:val"), "single")
+    rPr.append(underline)
+
+    sz = OxmlElement("w:sz")
+    sz.set(qn("w:val"), str(BODY_PT * 2))  # half-points
+    rPr.append(sz)
+
+    new_run.append(rPr)
+    t = OxmlElement("w:t")
+    t.text = text
+    t.set(qn("xml:space"), "preserve")
+    new_run.append(t)
+    hyperlink.append(new_run)
+    paragraph._p.append(hyperlink)
+
+
+def _add_text_with_bold(paragraph, text, *, color=BLACK, bold_all=False):
+    """Add text honouring **bold** spans."""
+    for part in BOLD_RE.split(text):
         if not part:
             continue
-        b = bold_all
-        t = part
         if part.startswith("**") and part.endswith("**"):
-            t = part[2:-2]
-            b = True
-        run = paragraph.add_run(t)
-        run.font.size = Pt(size)
-        run.font.bold = b
-        run.font.color.rgb = color
+            _style_run(paragraph.add_run(part[2:-2]), bold=True, color=color)
+        else:
+            _style_run(paragraph.add_run(part), bold=bold_all, color=color)
+
+
+def _add_inline(paragraph, text):
+    """Add text, rendering markdown links as real blue hyperlinks."""
+    pos = 0
+    for m in LINK_RE.finditer(text):
+        if m.start() > pos:
+            _add_text_with_bold(paragraph, text[pos:m.start()])
+        _add_hyperlink(paragraph, m.group(1), m.group(2))
+        pos = m.end()
+    if pos < len(text):
+        _add_text_with_bold(paragraph, text[pos:])
+
 
 def add_heading(doc, level, text):
+    """Grey 'HN:' tag + black heading text, both bold, body size."""
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(10)
     p.paragraph_format.space_after = Pt(4)
-    run = p.add_run(f"H{level}: {text}")
-    run.font.size = Pt(BODY_PT)   # same size as body
-    run.font.bold = True
-    run.font.color.rgb = GREY
+    _style_run(p.add_run(f"H{level}: "), bold=True, color=GREY)
+    _style_run(p.add_run(text), bold=True, color=BLACK)
+
 
 def add_body(doc, text):
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(6)
-    add_inline(p, text)
+    _add_inline(p, text)
+
 
 def add_bullet(doc, text):
     p = doc.add_paragraph(style="List Bullet")
-    add_inline(p, text)
+    _add_inline(p, text)
+
 
 def add_page_label(doc, n, first):
     p = doc.add_paragraph()
     if not first:
         p.add_run().add_break(WD_BREAK.PAGE)
-    run = p.add_run(f"Page {n}")
-    run.font.size = Pt(BODY_PT)
-    run.font.bold = True
-    run.font.color.rgb = BLACK
+    _style_run(p.add_run(f"Page {n}"), bold=True, color=BLACK)
+
 
 def render_markdown(doc, md, page_no, first):
     add_page_label(doc, page_no, first)
@@ -78,21 +141,21 @@ def render_markdown(doc, md, page_no, first):
         else:
             add_body(doc, line)
 
+
 def build(entries, out_path):
-    """entries: list of (page_no, markdown_text). Renders all into one docx."""
+    """entries: list of (page_no, markdown_text) -> one combined .docx. No TOC."""
     doc = Document()
-    style = doc.styles["Normal"]
-    style.font.name = "Calibri"
-    style.font.size = Pt(BODY_PT)
-    style.font.color.rgb = BLACK
+    normal = doc.styles["Normal"]
+    normal.font.name = "Calibri"
+    normal.font.size = Pt(BODY_PT)
+    normal.font.color.rgb = BLACK
     for i, (page_no, md) in enumerate(entries):
         render_markdown(doc, md, page_no, first=(i == 0))
     doc.save(out_path)
     return out_path
 
+
 if __name__ == "__main__":
-    # sample: single page
-    md_path = Path(sys.argv[1])
-    out = Path(sys.argv[2])
+    md_path, out = Path(sys.argv[1]), Path(sys.argv[2])
     build([(1, md_path.read_text())], out)
     print("wrote", out)
