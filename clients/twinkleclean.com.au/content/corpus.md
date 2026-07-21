@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-21T00:47:49Z_
+_Rebuilt: 2026-07-21T01:14:23Z_
 
 ## carpet-cleaning-bayswater
 
@@ -942,14 +942,14 @@ _Rebuilt: 2026-07-21T00:47:49Z_
 - **Primary keyword:** commercial cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1086
+- **Word count:** 1189
 - **Headings:**
   - Commercial Cleaning Ringwood Businesses Can Get To Quickly
   - Retail and shopfront cleaning around the activity centre
   - Office, civic and school sites along Maroondah Highway
   - The site types we look after in Ringwood
-  - About Twinkle Clean
   - Pricing
+  - About Twinkle Clean
   - Frequently asked questions
   - Talk to your local team
 - **First paragraph:** Retail and office tenants in a busy activity centre share one problem: the space has to look ready every single morning, and there is no slack in the schedule if something is missed. Twinkle Clean is 
