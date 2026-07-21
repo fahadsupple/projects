@@ -124,8 +124,31 @@ def add_page_label(doc, n, first):
     _style_run(p.add_run(f"Page {n}"), bold=True, color=BLACK)
 
 
-def render_markdown(doc, md, page_no, first):
+def add_meta_line(doc, label, value, *, as_link=False):
+    """Grey bold label + black value. URLs render as blue hyperlinks."""
+    p = doc.add_paragraph()
+    p.paragraph_format.space_after = Pt(2)
+    _style_run(p.add_run(f"{label}: "), bold=True, color=GREY)
+    if as_link:
+        _add_hyperlink(p, value, value)
+    else:
+        _style_run(p.add_run(value), color=BLACK)
+
+
+def add_meta_block(doc, meta):
+    """Header block: URL -> keywords (primary first) -> supporting -> title -> description."""
+    add_meta_line(doc, "URL", meta["url"], as_link=True)
+    add_meta_line(doc, "Keywords", ", ".join(meta["keywords"]))
+    if meta.get("supporting_keywords"):
+        add_meta_line(doc, "Supporting Keywords", ", ".join(meta["supporting_keywords"]))
+    add_meta_line(doc, "Meta Title", meta["meta_title"])
+    add_meta_line(doc, "Meta Description", meta["meta_description"])
+
+
+def render_markdown(doc, md, page_no, first, meta=None):
     add_page_label(doc, page_no, first)
+    if meta:
+        add_meta_block(doc, meta)
     for raw in md.splitlines():
         line = raw.rstrip()
         if not line.strip():
@@ -143,14 +166,19 @@ def render_markdown(doc, md, page_no, first):
 
 
 def build(entries, out_path):
-    """entries: list of (page_no, markdown_text) -> one combined .docx. No TOC."""
+    """entries: list of (page_no, markdown_text) or (page_no, markdown_text, meta).
+
+    Renders one combined .docx. No table of contents.
+    """
     doc = Document()
     normal = doc.styles["Normal"]
     normal.font.name = "Calibri"
     normal.font.size = Pt(BODY_PT)
     normal.font.color.rgb = BLACK
-    for i, (page_no, md) in enumerate(entries):
-        render_markdown(doc, md, page_no, first=(i == 0))
+    for i, item in enumerate(entries):
+        page_no, md = item[0], item[1]
+        meta = item[2] if len(item) > 2 else None
+        render_markdown(doc, md, page_no, first=(i == 0), meta=meta)
     doc.save(out_path)
     return out_path
 
