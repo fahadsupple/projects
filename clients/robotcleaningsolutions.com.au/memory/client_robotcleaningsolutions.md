@@ -243,3 +243,18 @@ mckinnon –/10 · gardenvale –/– · ormond –/–
   `commercial cleaning melbourne` (1,900, LOW, $33) are the highest-value terms found; client already has
   `/commercial-clean/` + `/corporate-clean/` pages. Diverges from stated large-luxury-house focus. In or out?
 - Scope confirmed by user: **keyword research only** — no URL/redirect planning needed.
+
+---
+
+## Content engagement — content:init complete (2026-07-22, UPGRADE mode)
+
+`/content:init` run for the content plugin. Client folder scaffolded at `content/`.
+- **Meta File:** `content/Robotcleaningsolutions.com.au-Meta-For-Content-Writing.xlsx` → 25 URLs parsed.
+- **22 working entries:** 20 `/cleaners-<suburb>/` (rewrite-existing, live 200, ~1650–1940 wc, currently OLD cleaners+end-of-lease copy → rewrite to `house cleaning [suburb]` + membership) + 2 NEW pages `/regular-house-cleaning/` & `/luxury-house-cleaning/` (both **404** → mode new-page; the house-cleaning/membership pivot).
+- **Meta File flagged 3 "not our SEO pages":** homepage `/` (live, 2664 wc) → **corpus** (voice ref); `/house-clean/` (live, 1017 wc) → **corpus**; `/areas-we-serve/` (live, area-hub) → **skip**.
+- **3 clusters:** `homepage`, `service-hubs` (regular + luxury + the 2 corpus/skip service pages), `service-location-house-cleaning` (all 20 suburbs; cluster-by-service).
+- **Vocabulary** derived from Meta File (NOT the form): services = [regular house cleaning, luxury house cleaning, house cleaning, cleaners]; locations = 20 suburbs. Form's service-area was only "Melbourne".
+- **Profile conflicts flagged for analyst** (`client-profile.json _conflicts` + `client-facts.json` needs_confirmation): Google review count 12 (Form1) vs 11 (Form2); year_established 2024 (Q3) vs a 2025 signal the fact-extractor caught; forms report domain as `.com` (no `.au`) — corrected to `.com.au`.
+- Site is behind a WAF: plain urllib/Playwright-chrome blocked; **curl with a real browser UA works** (use for any future live fetch here).
+- **business_type_tokens = []** (residential/commercial cleaning — not safety-critical/restricted).
+- Next content step: `/content:research` per cluster, then `/content:plan`.

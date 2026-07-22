@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "domain": "robotcleaningsolutions.com.au",
+  "client_slug": "robotcleaningsolutions",
+  "created_at": "2026-07-22T03:24:00Z",
+  "intake_mode": "upgrade",
+  "brand": {
+    "name": "Robot Cleaning Solutions",
+    "audience": "Busy professionals and dual-income couples who value their time; high-income families seeking a healthy and well-maintained home; homeowners in affluent suburbs who prioritise property care; health-conscious individuals wanting eco-friendly, non-toxic cleaning; local businesses and corporate offices needing reliable cleaning services; renters requiring a meticulous end-of-lease or bond-back clean; new residents wanting a professional clean before moving into a home; clients preparing for or cleaning up after hosting special events.",
+    "founder_name": "Zoe Brauer",
+    "year_established": 2024,
+    "ABN": "44 985 730 878",
+    "phone": "0421 633 370",
+    "usps": [
+      "Working in dedicated teams (in pairs) to complete jobs twice as fast with robot-like precision and systematic efficiency",
+      "Exclusive '24/7 Clean' membership: weekly cleaning, 4 seasonal deep cleaning upgrades per year, 1 yearly emergency clean, and a dedicated cleaning team for consistency",
+      "Only eco-friendly, premium-grade cleaning products specifically tailored for luxury finishes, fine furniture and delicate materials",
+      "White glove service with expertly trained professionals who respect privacy and deliver discretion",
+      "Fixed, transparent, all-inclusive pricing with no hidden fees and priority scheduling for members"
+    ]
+  },
+  "services": [
+    "Weekly Residential Clean",
+    "Fortnightly Residential Clean",
+    "Deep Clean",
+    "One-Off Standard Clean",
+    "End of Lease / Bond Back Clean",
+    "Move-In Clean",
+    "Corporate/Office Cleaning",
+    "Tile and Grout Cleaning"
+  ],
+  "locations": [
+    "Melbourne"
+  ],
+  "business_goals": "To help homeowners achieve a worry-free, pristine living environment through precise, efficient cleaning services and meticulous attention to detail.",
+  "why_started": "We started Robot Cleaning Solutions with one simple goal: to deliver spotless homes and happy clients. We saw that people's time is valuable, and we wanted to create a worry-free cleaning experience that would allow our clients to enjoy more quality time while having a home that shines from top to bottom. Our mission is more than just cleaning; it's about creating a hassle-free experience where customer satisfaction is our top priority. We wanted to redefine cleanliness with services that are efficient, reliable, and tailored to each client's needs, taking the hassle out of housework because we believe a clean home is priceless.",
+  "team_size": "3",
+  "years_of_combined_experience": "20 years",
+  "client_count": "100+",
+  "review_count": 12,
+  "review_average": 5,
+  "repeat_customer_rate_pct": 95,
+  "customer_process": [
+    "Initial contact by phone (0421 633 370) or email — free quote consultation offered",
+    "On-site assessment of the property to understand its size and specific cleaning needs for a tailored quote",
+    "Present the quote with transparent, all-inclusive pricing and explain membership options (24/7 Clean) or one-time options such as end-of-lease cleaning",
+    "Once approved, schedule the service with priority booking slots for members and assign a dedicated cleaning team for efficiency",
+    "After service completion, follow up to ensure satisfaction; for members, maintain ongoing communication as their dedicated team continues weekly or fortnightly sessions with seasonal deep-clean upgrades"
+  ],
+  "success_stories": [
+    "Our members enjoy the benefit of their own personal dedicated cleaning team who work in pairs with robot-like efficiency. We've designed our service to solve the challenge of maintaining a pristine home without sacrificing valuable personal time. Our solution combines advanced cleaning equipment, premium eco-friendly products, and highly trained professionals who work systematically to deliver spotless results. The outcome for our members is a stress-free living environment with consistent quality, reduced allergens and bacteria, and a home that's always guest-ready - all while they focus on what truly matters to them."
+  ],
+  "subject_matter_experts": [
+    "Zoe Brauer — founder; hospitality-industry background from age 14 across pubs, cafes and restaurants, and prior owner-operator of two South Australian pubs before founding the cleaning business in Melbourne."
+  ],
+  "guarantees": [
+    "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority",
+    "Transparent, all-inclusive membership pricing with no hidden fees (price certainty)",
+    "1 yearly emergency clean included in membership to address any concerns immediately"
+  ],
+  "insurance": "Public liability: $10 million",
+  "industry_vertical_focus": [
+    "residential",
+    "commercial"
+  ],
+  "_conflicts": [
+    {
+      "field": "review_count",
+      "form1_value": "5 stars from 12 (Google Business rating)",
+      "form2_value": "5/5 - 11 reviews on Google Business Profile",
+      "note": "Form1 (response K6QVktAp, 16/10/2025) states 12 Google reviews; Form2 (response Jvps5YA9, 20/10/2025) states 11 Google reviews. Used 12 (more recent form is Form2 at 11, but the two are within one review of each other — likely a review was added/removed between submissions). Analyst should confirm the current live Google review count before it is quoted in content."
+    },
+    {
+      "field": "domain",
+      "form1_value": "robotcleaningsolutions.com",
+      "form2_value": "robotcleaningsolutions.com",
+      "note": "Both forms report the domain as robotcleaningsolutions.com (no .au). The live site, client folder, and Meta File all use robotcleaningsolutions.com.au. Set domain to robotcleaningsolutions.com.au (the authoritative live domain). Likely a form-field truncation, not a real second domain."
+    }
+  ],
+  "notes": "referral_rate reported as '5-10%' (Form2 Q4) — omitted from referral_rate_pct because the schema field is a single integer and the source is a range. Operating hours not stated (Form2 Q15 explicitly says response time 'isn't detailed on our website'); '24/7 Clean' is the membership product name, not trading hours. No fixed public street address stated in either form (service-area business), so business_address is omitted. Pricing (Form1 Q11): membership $150 small / $200 medium / $250 large per week or fortnight; End of Lease from $310 for empty properties.",
+  "business_type_tokens": []
+}
