@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "robotcleaningsolutions.com.au",
-  "generated_at": "2026-07-22T06:10:10Z",
+  "generated_at": "2026-07-22T06:28:28Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -18,45 +18,6 @@
       "status": "extracted",
       "confidence": "low",
       "conflicts": []
-    },
-    {
-      "id": "company.founding-year",
-      "class": "scalar_year",
-      "label": "scalar year",
-      "unit": null,
-      "value": 2024,
-      "sources": [
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#year",
-          "value_seen": "2025"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#year",
-          "value_seen": "2024"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#year",
-          "value_seen": "2024"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#year",
-          "value_seen": "2025"
-        },
-        {
-          "origin": "client-profile",
-          "ref": "client-profile.json#/brand/year_established",
-          "value_seen": "2024"
-        }
-      ],
-      "status": "confirmed",
-      "confidence": "low",
-      "conflicts": [],
-      "confirmed_by": "analyst",
-      "confirmed_at": "2026-07-22T06:01:34.154Z"
     },
     {
       "id": "metrics.percentage",
@@ -271,6 +232,45 @@
       "confirmed_at": "2026-07-22T06:01:34.559Z"
     },
     {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2024,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2024"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.154Z"
+    },
+    {
       "id": "catalog.services",
       "class": "enum_set",
       "label": "services",
@@ -326,8 +326,9 @@
   "source_scan": {
     "origins": [
       "client-profile",
+      "existing-site",
       "intake-form"
     ],
-    "scanned_at": "2026-07-22T06:10:10Z"
+    "scanned_at": "2026-07-22T06:28:28Z"
   }
 }
