@@ -1,0 +1,24 @@
+{
+  "id": "07220832-1150-0541-0000-418e5136d1c0",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "keyword": "house cleaning caulfield",
+      "keyword_intent": {
+        "label": "commercial",
+        "probability": 0.382
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "informational",
+          "probability": 0.287
+        },
+        {
+          "label": "navigational",
+          "probability": 0.25
+        }
+      ]
+    }
+  ]
+}
