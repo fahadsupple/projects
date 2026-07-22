@@ -258,3 +258,21 @@ mckinnon –/10 · gardenvale –/– · ormond –/–
 - Site is behind a WAF: plain urllib/Playwright-chrome blocked; **curl with a real browser UA works** (use for any future live fetch here).
 - **business_type_tokens = []** (residential/commercial cleaning — not safety-critical/restricted).
 - Next content step: `/content:research` per cluster, then `/content:plan`.
+
+---
+
+## content:research COMPLETE (2026-07-22) — 22/22 working entries
+
+Ran per-cluster via general-purpose subagents (Sonnet, model override for cost/limit safety) with a shared fixture→synthesis contract (`content/research/_suburb_agent_instructions.md`). Deliverables:
+- **2 service-hubs bundles:** regular-house-cleaning (vol 10, commercial), luxury-house-cleaning (vol 0 exact term but real dedicated-luxury-page SERP: dustpanandbrush, cleanhousemelbourne, nycleaning, cleantoconcierge).
+- **20 suburb bundles** (`clusters/service-location-house-cleaning/research/keyword-cleaners-<suburb>.json`) + 20 suburb-data ground-truth. Volumes: **Brighton 110, Cheltenham 50, Caulfield 20**, most others 10, and 0 for black-rock/gardenvale/highett/mckinnon/murrumbeena/ormond (thin long-tail — recorded honestly, not estimated).
+- **179 raw fixtures** in `content/research/raw/`. Each bundle carries a fixture-grounded `synthesis` (content gaps, outline, competitor takeaways, PAA, differentiation angles).
+
+### Data-quality caveats (carried to planner/writer)
+- **No Brave Pro local plan** → `brave_local_search` falls back to web; suburb-data locale fields (climate_context/building_stock/council_notes/demographic_skew) are mostly "Insufficient local data" — differentiation must come from SERP competitor set + client USPs (membership, eco/white-glove, dedicated pairs, 13× 5★), not fabricated locale facts.
+- **on_page_content_parsing skipped for the 20 suburbs** to control cost (major aggregators — maidtoclean, innercitymaids, dustpanandbrush, cleanhousemelbourne — already parsed in the 2-page pilot).
+- Recurring competitor pattern: Jim's Cleaning (3,096 reviews) + directory/marketplace glut (Airtasker/Oneflare/hipages) dominate; beat on consistency (dedicated pair team) + fixed membership pricing + genuine 5★ trust.
+- **Internal-link/cannibalization notes:** client's existing End-of-Lease pages already rank for several suburbs (Moorabbin #13, Ormond #7, Mordialloc #8, Carnegie) — new house-cleaning pages should cross-link, not cannibalize. Mordialloc/Mentone already use a coastal/salt-air angle worth preserving.
+- International SERP noise flagged on Brighton/Cheltenham/Hampton (UK Cheltenham, Hampton VA) — excluded from competitor signal, not treated as AU data.
+
+Next: `/content:plan` per cluster → smoke → generate.
