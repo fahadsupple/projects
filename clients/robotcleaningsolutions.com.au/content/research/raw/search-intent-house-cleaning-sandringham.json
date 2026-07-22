@@ -1,0 +1,24 @@
+{
+  "id": "07220841-1150-0541-0000-7589e5e1b7e2",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "keyword": "house cleaning sandringham",
+      "keyword_intent": {
+        "label": "informational",
+        "probability": 0.332
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "navigational",
+          "probability": 0.288
+        },
+        {
+          "label": "commercial",
+          "probability": 0.252
+        }
+      ]
+    }
+  ]
+}
