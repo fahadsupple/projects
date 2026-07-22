@@ -37,7 +37,7 @@
   "team_size": "3",
   "years_of_combined_experience": "20 years",
   "client_count": "100+",
-  "review_count": 12,
+  "review_count": 13,
   "review_average": 5,
   "repeat_customer_rate_pct": 95,
   "customer_process": [
@@ -66,17 +66,11 @@
   "_conflicts": [
     {
       "field": "review_count",
-      "form1_value": "5 stars from 12 (Google Business rating)",
-      "form2_value": "5/5 - 11 reviews on Google Business Profile",
-      "note": "Form1 (response K6QVktAp, 16/10/2025) states 12 Google reviews; Form2 (response Jvps5YA9, 20/10/2025) states 11 Google reviews. Used 12 (more recent form is Form2 at 11, but the two are within one review of each other — likely a review was added/removed between submissions). Analyst should confirm the current live Google review count before it is quoted in content."
-    },
-    {
-      "field": "domain",
-      "form1_value": "robotcleaningsolutions.com",
-      "form2_value": "robotcleaningsolutions.com",
-      "note": "Both forms report the domain as robotcleaningsolutions.com (no .au). The live site, client folder, and Meta File all use robotcleaningsolutions.com.au. Set domain to robotcleaningsolutions.com.au (the authoritative live domain). Likely a form-field truncation, not a real second domain."
+      "resolved_value": 13,
+      "note": "RESOLVED 2026-07-22 by client: GBP shows 13 reviews at 5/5 and is growing day by day. Store 13 as current; prefer '5-star rated on Google' framing in copy over a hard count so it doesn't go stale. Re-confirm live count at publish."
     }
   ],
-  "notes": "referral_rate reported as '5-10%' (Form2 Q4) — omitted from referral_rate_pct because the schema field is a single integer and the source is a range. Operating hours not stated (Form2 Q15 explicitly says response time 'isn't detailed on our website'); '24/7 Clean' is the membership product name, not trading hours. No fixed public street address stated in either form (service-area business), so business_address is omitted. Pricing (Form1 Q11): membership $150 small / $200 medium / $250 large per week or fortnight; End of Lease from $310 for empty properties.",
-  "business_type_tokens": []
+  "notes": "year_established CONFIRMED 2024 by client (website: 'In late 2024, Robot Cleaning Solutions was born'); earlier 2025 fact-extractor signal was the form submission date — disregard. Domain CONFIRMED https://robotcleaningsolutions.com.au/. referral_rate reported as '5-10%' (Form2 Q4) — omitted from referral_rate_pct because the schema field is a single integer and the source is a range. Operating hours not stated (Form2 Q15 explicitly says response time 'isn't detailed on our website'); '24/7 Clean' is the membership product name, not trading hours. No fixed public street address stated in either form (service-area business), so business_address is omitted. Pricing (Form1 Q11): membership $150 small / $200 medium / $250 large per week or fortnight; End of Lease from $310 for empty properties.",
+  "business_type_tokens": [],
+  "year_established": 2024
 }
