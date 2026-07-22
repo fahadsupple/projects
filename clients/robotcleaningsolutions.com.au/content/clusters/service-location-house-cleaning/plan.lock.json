@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "cluster_id": "service-location-house-cleaning",
+  "member_entries": [
+    "cleaners-aspendale",
+    "cleaners-beaumaris",
+    "cleaners-bentleigh",
+    "cleaners-black-rock",
+    "cleaners-brighton",
+    "cleaners-carnegie",
+    "cleaners-caulfield",
+    "cleaners-cheltenham",
+    "cleaners-elsternwick",
+    "cleaners-gardenvale",
+    "cleaners-hampton",
+    "cleaners-highett",
+    "cleaners-mckinnon",
+    "cleaners-mentone",
+    "cleaners-moorabbin",
+    "cleaners-mordialloc",
+    "cleaners-murrumbeena",
+    "cleaners-ormond",
+    "cleaners-parkdale",
+    "cleaners-sandringham"
+  ],
+  "universal_required": [
+    "A suburb-specific lede in the first paragraph that names the suburb and its Bayside / South-East Melbourne setting alongside the core house-cleaning offer, and puts the primary fulfilment promise up front in the page's first half: a free, no-obligation on-site quote and priority booking, with the phone number 0421 633 370 as the call-to-action.",
+    "A LEAN credibility block: an H2 that names the business (e.g. \"About Robot Cleaning Solutions\") carrying only the trust_floor - founder Zoe Brauer, founded 2024, and 100+ clients served - plus a link through to the house-cleaning service hub / About page for the full credentials (insurance, guarantees and reviews). Positioned as section 2 or 3, worded differently on every suburb page, and NEVER titled \"Why Choose Us\".",
+    "The house-cleaning service offer as it applies to this suburb - weekly, fortnightly, deep, one-off and end-of-lease/bond-back cleaning - delivered by the dedicated two-person team that returns to the same home each visit, working in pairs with systematic 'robot-like efficiency'.",
+    "An explanation of the exclusive '24/7 Clean' membership: weekly or fortnightly cleaning, 4 seasonal deep-clean upgrades a year, 1 yearly emergency clean, a dedicated cleaning team for consistency, and fixed, transparent, all-inclusive pricing - always phrased as tailored to home size / on quote, never as a fixed price table.",
+    "The eco-friendly, premium-grade products used specifically for luxury finishes, fine furniture and delicate materials, plus the white-glove, discretion-first service by expertly trained professionals who respect client privacy.",
+    "A local FAQ section that answers this suburb's observed search intents (what's included, how pricing works, booking) with the suburb named and a clear contact prompt.",
+    "A clear conversion CTA to book a free on-site quote by phone (0421 633 370) or email, with priority scheduling for members."
+  ],
+  "cluster_specific_required": [
+    "The suburb name appears in the title tag, the H1 and the first paragraph; include the postcode where the suburb-data supplies one (e.g. Brighton 3186; Kingston-LGA suburbs 3195/3204) and explicitly disambiguate to VIC / Bayside Melbourne where the SERP is globally ambiguous (confirmed contamination with UK 'Brighton' results).",
+    "Address the price-transparency intent visible in every suburb SERP ('...prices', 'cheap...', 'best...' related searches and competitor $/hr, $/wk and end-of-lease $ bands) by anchoring the 24/7 Clean membership's fixed, all-inclusive pricing as certainty and no-surprises value - phrased as tailored to home size / on quote, NOT as a fixed price table (no confirmed price ladder exists).",
+    "Position against the dominant directory/marketplace and national-franchise pattern seen across these SERPs (Airtasker, Oneflare, hipages, ServiceSeeking, Jim's Cleaning, ELM Cleaning, MyHome) using the dedicated same-team consistency angle, and frame the client's growing 5-star Google rating against competitors' review-volume - lean on the rating, never compete on review count.",
+    "Where the client already ranks with an End-of-Lease/bond page for this suburb (Moorabbin, Ormond, Carnegie, Mordialloc - and Aspendale's separately-run bond sub-service), internally link to/from that page rather than duplicating bond-clean copy, to avoid self-cannibalisation.",
+    "Answer the specific PAA / community / local signals for the suburb only where the research states them (e.g. Elsternwick & Ormond Facebook 'reliable cleaner?' word-of-mouth asks; coastal salt/sand/foreshore grit for Mentone, Mordialloc and Hampton; heritage bungalows + road-traffic soot for Parkdale; 1930s bungalows and family/school-zone housing for McKinnon) - never invent local colour where the research is silent."
+  ],
+  "per_entry_unique_angle": {
+    "cleaners-brighton": "The cluster's highest-volume, most contested page (vol 110): speak to Brighton's larger executive homes and multi-bathroom properties (4+ bed, 2-3.5 bath, Airbnb turnovers evident on the local job board) with premium eco products for fine finishes, counter Jim's 3,096-review trust bar with the $10m public-liability figure and white-glove discretion for privacy-conscious affluent homeowners, and explicitly disambiguate the page to Brighton, VIC 3186 / Bayside Melbourne given confirmed UK-Brighton SERP contamination.",
+    "cleaners-cheltenham": "The cluster's second-highest-volume suburb (vol 50): lead with the dedicated pairs team as a single consistent point of contact for Cheltenham's mix of family homes and apartments, against an unusually directory-heavy SERP (Airtasker 62-234 listings, hipages, Oneflare, Yellow Pages), and state the $10m public-liability cover plainly as a professional-grade trust signal solo operators (Rina's, United Home Services) and gig marketplaces cannot match.",
+    "cleaners-caulfield": "Vol 20: differentiate on the paired-team 'robot-like efficiency' model and eco/premium products suited to Caulfield's mix of period and higher-end homes, positioned against a long-tenured local incumbent competing on years-in-market (Excel Cleaning 'since 2013') and national-franchise scale (Jim's, MyHome) - winning on white-glove discretion and consistency rather than tenure or franchise size.",
+    "cleaners-mordialloc": "Keep and extend the coastal identity the client's OWN Mordialloc page already ranks on (organic position 8: 'tackle salt, sand & coastal grime... reclaim your bayside weekends'), add Airbnb/short-stay turnover and pre/post-sale cleaning demand (Clean Space & More), and cross-link to the existing End-of-Lease Mordialloc content rather than cannibalising it (City of Kingston LGA 3195).",
+    "cleaners-mentone": "Own the coastal/foreshore salt-air angle almost no competitor uses - Whole Detail markets 'expert grit management for coastal living' and ELM cites 'foreshore homes, bayside apartments, holiday-rental turnovers' for Mentone - pairing sand/salt-grit and holiday-let turnover framing with the dedicated pairs team, against a local_pack of three review-led operators (Jim's, PG Cleaning, Euro Clean).",
+    "cleaners-hampton": "Use Hampton's genuine bayside/foreshore hook grounded in the SERP (ELM: 'homes near the foreshore, apartments along the bay, and turnovers between guest stays'), covering foreshore houses, bay apartments and holiday-rental turnover cleans, with a Hampton-branded page identity to match suburb-branded competitors ('MyHome Hampton', 'Local House Cleaners In Hampton') rather than a generic city page.",
+    "cleaners-parkdale": "Speak to Parkdale's older/heritage bungalow stock and road-traffic soot exposure - the one angle no marketplace competitor uses but Whole Detail does ('Bespoke home cleaning for Parkdale bungalows', 'traffic soot removal & heritage finish protection') - with eco/premium products for delicate heritage finishes; note NDIS/Support-at-Home is a competitor theme the client does not offer, so differentiate on premium ongoing care, not a funded-cleaning claim (City of Kingston LGA 3195).",
+    "cleaners-elsternwick": "Lead with fixed, all-inclusive membership pricing as certainty against the visible price uncertainty in this SERP (Airtasker $122-250, Carevo 'from $45/hr') and directly answer the live Elsternwick Facebook community 'who is a reliable cleaner?' word-of-mouth ask with visible proof (growing 5-star Google rating, $10m public liability), positioned premium against Inner City Maids' stale 2020 page for Elsternwick's character-home and family stock.",
+    "cleaners-moorabbin": "The client currently ranks only for 'End of Lease Cleaning Moorabbin' (position 13) with no general house-cleaning page - this page fills that gap and cross-links to the existing bond page rather than competing with it, positioning fixed transparent membership pricing and the accountable dedicated team against 'cheap house cleaning moorabbin' quote-shopping and Airtasker's $100-250 range.",
+    "cleaners-ormond": "The client's own 'End of Lease Cleaning Ormond' page already ranks position 7, so this general page must internally link to/from it rather than cannibalise it; differentiate on genuine Bayside/SE Melbourne locality against Clean N' Co, which ranks for Ormond from a South Yarra base, and speak directly to the active 'Ormond - our town' Facebook thread where residents ask for cleaner recommendations, with trust/guarantee and 5-star framing.",
+    "cleaners-carnegie": "The client's existing Carnegie page ranks only for 'End of Lease Cleaning Carnegie' (position 10), leaving 'house cleaning carnegie' uncontested by the client's own content - this new general page fills that gap and cross-links to the bond page; win against the hyperlocal local-pack leader (Simple & Clean, 4.8-star/85 reviews, based in Carnegie 7+ years) and Levens Cleaning's flat $60/hr anchor with the dedicated pairs team, membership and eco/premium positioning.",
+    "cleaners-beaumaris": "Position the dedicated two-person team assigned to the same Beaumaris home every visit against the rotating-cleaner marketplace/franchise model (Airtasker, Jim's), suited to Beaumaris's larger multi-bedroom bayside family homes, and use the 24/7 Clean membership's one predictable fixed fee to answer the pricing uncertainty visible in competitor listings (Move Clean 'from $300', Airtasker $131-242, mdhomecare $45-65/hr) - plus a white-glove positioning no ranking competitor in this SERP claims.",
+    "cleaners-sandringham": "Target Sandringham's Bayside affluent-homeowner audience with eco-friendly premium-grade products for luxury finishes and fine furniture plus white-glove discretion, differentiating from local operators competing on general residential/end-of-lease work (Upscale Cleaning & Maid Services, Jim's Cleaning Sandringham, Dust&Declutter) and positioning the membership + dedicated team as a single accountable, vetted contact rather than a rotating cast of directory gig cleaners.",
+    "cleaners-black-rock": "A vol-0 page won on differentiation, not search demand: against national franchises leaning on generic 'insured, police-checked' messaging (Jim's, MyHome, ELM) and the directory slots that fill the Black Rock SERP (Airtasker, Oneflare, ServiceSeeking), lead with the dedicated two-person team returning to the same Black Rock home clean after clean plus eco/premium-grade products suited to higher-end Bayside finishes.",
+    "cleaners-gardenvale": "Another vol-0 differentiation page: against an unusually dense field of directory/marketplace and templated franchise-microsite competitors (Airtasker, Oneflare, TrueLocal, Yelp, Clean Control, 24x7 Cleaning), position one dedicated team the household deals with every visit - not a rotating pool of quoted contractors - backed by the client's own genuine 5-star Google review base rather than a generic franchise trust badge, with eco/premium products for Bayside higher-end finishes.",
+    "cleaners-highett": "Vol-0 page: against Highett Cleaning's '25+ years in business' longevity claim and the anonymous quote-comparison marketplace model, position the dedicated pairs team as a consistent known-face alternative (same team every visit, no re-vetting a new cleaner), and step above standard bond/franchise cleaning with eco/premium products for fine finishes and white-glove discretion aimed at the affluent Bayside/SE homeowner (note goodhomecleaningco's dual Highett & Bayside framing).",
+    "cleaners-mckinnon": "Vol-0 page grounded in the suburb detail surfacing in search - McKinnon's 1930s bungalows and family/school-zone housing - paired with eco-friendly, premium-grade products suited to older character homes and family-safe, non-toxic cleaning for households with children, differentiated from competitors describing McKinnon only generically or by radius-from-CBD (Crystal Maids: 'within a 30-40km radius of the city of Melbourne').",
+    "cleaners-murrumbeena": "Vol-0 page: against directories connecting Murrumbeena residents with a rotating pool of individual cleaners (Airtasker, Yellow Pages, Oneflare, hipages), position the dedicated two-person team returning to the same home each visit as a consistency directories cannot offer, and against competitors pricing the suburb as basic hourly labour (ServiceSeeking '$20-30/hr') use eco/premium products and white-glove service to place the fixed membership in a different service tier.",
+    "cleaners-bentleigh": "Use the combined Bentleigh + Bentleigh East service-area framing competitors adopt (and that the related searches confirm) on one page rather than siloing the suburbs, and put founder Zoe Brauer forward as the named face of the local service - mirroring the named-operator credibility competitors use (Frank at Greenlight, Chad at United Home Services) - with membership price certainty answering the on-page price anchors (Mum and Me 'From $132', Inner City Maids 'with prices').",
+    "cleaners-aspendale": "Vol-10 page: competitors run separate End-of-Lease-specific Aspendale pages (Move Clean, Jim's) and ELM bundles NDIS/end-of-lease on one page, so differentiate with the dedicated ongoing team and fixed 24/7 Clean membership for regular cleaning while internally linking to the client's own bond/end-of-lease sub-service rather than folding it in; frame the growing 5-star Google reviews against competitors' volume, within the City of Kingston LGA (Aspendale 3195)."
+  },
+  "word_count_baseline": {
+    "floor": 1200,
+    "per_entry_targets": {
+      "cleaners-aspendale": 1200,
+      "cleaners-beaumaris": 1200,
+      "cleaners-bentleigh": 1200,
+      "cleaners-black-rock": 1200,
+      "cleaners-brighton": 1200,
+      "cleaners-carnegie": 1200,
+      "cleaners-caulfield": 1200,
+      "cleaners-cheltenham": 1200,
+      "cleaners-elsternwick": 1200,
+      "cleaners-gardenvale": 1200,
+      "cleaners-hampton": 1200,
+      "cleaners-highett": 1200,
+      "cleaners-mckinnon": 1200,
+      "cleaners-mentone": 1200,
+      "cleaners-moorabbin": 1200,
+      "cleaners-mordialloc": 1200,
+      "cleaners-murrumbeena": 1200,
+      "cleaners-ormond": 1200,
+      "cleaners-parkdale": 1200,
+      "cleaners-sandringham": 1200
+    }
+  },
+  "execution_order_within_cluster": [
+    "cleaners-brighton",
+    "cleaners-cheltenham",
+    "cleaners-caulfield",
+    "cleaners-mordialloc",
+    "cleaners-mentone",
+    "cleaners-hampton",
+    "cleaners-parkdale",
+    "cleaners-elsternwick",
+    "cleaners-moorabbin",
+    "cleaners-ormond",
+    "cleaners-carnegie",
+    "cleaners-beaumaris",
+    "cleaners-sandringham",
+    "cleaners-bentleigh",
+    "cleaners-aspendale",
+    "cleaners-black-rock",
+    "cleaners-gardenvale",
+    "cleaners-highett",
+    "cleaners-mckinnon",
+    "cleaners-murrumbeena"
+  ],
+  "research_sha": "7a12e912ef4bf163178ca0ea276af3adfd62d75e39d0f224b848ecf30c8eef52",
+  "generated_at": "2026-07-22T06:10:16Z",
+  "requires_facts": [
+    "company.founding-year",
+    "social-proof.clients",
+    "contact.phone",
+    "catalog.services"
+  ],
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2024,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2024"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.154Z"
+    },
+    "metrics.percentage": {
+      "id": "metrics.percentage",
+      "class": "percentage",
+      "label": "percentage",
+      "unit": "%",
+      "value": 95,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "95%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "10%"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.422Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": "100+",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "28"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "09"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "44"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "985"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "730"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "878"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "100"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "27"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "100+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.295Z"
+    },
+    "contact.phone": {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": "0421 633 370",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.559Z"
+    },
+    "catalog.services": {
+      "id": "catalog.services",
+      "class": "enum_set",
+      "label": "services",
+      "unit": null,
+      "value": [
+        "Weekly Residential Clean",
+        "Fortnightly Residential Clean",
+        "Deep Clean",
+        "One-Off Standard Clean",
+        "End of Lease / Bond Back Clean",
+        "Move-In Clean",
+        "Corporate/Office Cleaning",
+        "Tile and Grout Cleaning"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/services",
+          "value_seen": "Weekly Residential Clean, Fortnightly Residential Clean, Deep Clean, One-Off Standard Clean, End of Lease / Bond Back Clean, Move-In Clean, Corporate/Office Cleaning, Tile and Grout Cleaning"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.676Z"
+    },
+    "catalog.guarantees": {
+      "id": "catalog.guarantees",
+      "class": "enum_set",
+      "label": "guarantees",
+      "unit": null,
+      "value": [
+        "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority",
+        "Transparent, all-inclusive membership pricing with no hidden fees (price certainty)",
+        "1 yearly emergency clean included in membership to address any concerns immediately"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/guarantees",
+          "value_seen": "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority, Transparent, all-inclusive membership pricing with no hidden fees (price certainty), 1 yearly emergency clean included in membership to address any concerns immediately"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.797Z"
+    }
+  },
+  "client_data_signals": {
+    "founder_name": "Zoe Brauer",
+    "year_established": 2024,
+    "years_in_business": 2,
+    "ABN": "44 985 730 878",
+    "phone": "0421 633 370",
+    "team_size": "3",
+    "years_of_combined_experience": "20 years",
+    "client_count": "100+",
+    "repeat_customer_rate_pct": 95,
+    "review_average": 5,
+    "review_count": 13,
+    "review_framing": "5-star rated on Google (13 reviews and growing) - prefer the framing 'five-star rated on Google' over a hard review count so it does not go stale; re-confirm live count at publish.",
+    "insurance": "Public liability: $10 million",
+    "audience": "Busy professionals and dual-income couples who value their time; high-income families seeking a healthy, well-maintained home; homeowners in affluent suburbs who prioritise property care; health-conscious individuals wanting eco-friendly, non-toxic cleaning; renters needing a meticulous end-of-lease/bond-back clean; new residents wanting a professional clean before moving in; clients preparing for or cleaning up after special events.",
+    "locations": [
+      "Melbourne (Bayside and South-East)"
+    ],
+    "services": [
+      "Weekly Residential Clean",
+      "Fortnightly Residential Clean",
+      "Deep Clean",
+      "One-Off Standard Clean",
+      "End of Lease / Bond Back Clean",
+      "Move-In Clean",
+      "Corporate/Office Cleaning",
+      "Tile and Grout Cleaning"
+    ],
+    "membership": "24/7 Clean membership: weekly or fortnightly cleaning, 4 seasonal deep-clean upgrades per year, 1 yearly emergency clean, a dedicated cleaning team for consistency, fixed all-inclusive transparent pricing, and priority scheduling for members.",
+    "guarantees": [
+      "Satisfaction guarantee - mission to deliver spotless homes and happy clients, with client satisfaction as the top priority",
+      "Transparent, all-inclusive membership pricing with no hidden fees (price certainty)",
+      "1 yearly emergency clean included in membership to address any concerns immediately"
+    ],
+    "usps_verbatim": [
+      "Working in dedicated teams (in pairs) to complete jobs twice as fast with robot-like precision and systematic efficiency",
+      "Exclusive '24/7 Clean' membership: weekly cleaning, 4 seasonal deep cleaning upgrades per year, 1 yearly emergency clean, and a dedicated cleaning team for consistency",
+      "Only eco-friendly, premium-grade cleaning products specifically tailored for luxury finishes, fine furniture and delicate materials",
+      "White glove service with expertly trained professionals who respect privacy and deliver discretion",
+      "Fixed, transparent, all-inclusive pricing with no hidden fees and priority scheduling for members"
+    ],
+    "customer_process": [
+      "Initial contact by phone (0421 633 370) or email - free quote consultation offered",
+      "On-site assessment of the property to understand its size and specific cleaning needs for a tailored quote",
+      "Present the quote with transparent, all-inclusive pricing and explain membership options (24/7 Clean) or one-time options such as end-of-lease cleaning",
+      "Once approved, schedule the service with priority booking slots for members and assign a dedicated cleaning team for efficiency",
+      "After service completion, follow up to ensure satisfaction; for members, maintain ongoing communication as their dedicated team continues weekly or fortnightly sessions with seasonal deep-clean upgrades"
+    ],
+    "success_stories": [
+      "Members get their own personal dedicated cleaning team working in pairs with robot-like efficiency, combining advanced cleaning equipment, premium eco-friendly products and highly trained professionals working systematically - the outcome is a stress-free, consistently spotless, guest-ready home with reduced allergens and bacteria, while members focus on what matters to them."
+    ],
+    "subject_matter_experts": [
+      "Zoe Brauer - founder; hospitality-industry background from age 14 across pubs, cafes and restaurants, and prior owner-operator of two South Australian pubs before founding the cleaning business in Melbourne."
+    ],
+    "business_goals": "To help homeowners achieve a worry-free, pristine living environment through precise, efficient cleaning and meticulous attention to detail.",
+    "why_started": "Founded in late 2024 to deliver spotless homes and happy clients - giving busy people back their time with a worry-free, hassle-free cleaning experience tailored to each client's needs."
+  },
+  "generated_by_model": "opus",
+  "lock_status": "locked",
+  "lock_sha": "846524ec2a61aa13568239e128d38cd28b5a7c407999b56818b7b36aea9c04e9"
+}
