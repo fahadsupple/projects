@@ -276,3 +276,15 @@ Ran per-cluster via general-purpose subagents (Sonnet, model override for cost/l
 - International SERP noise flagged on Brighton/Cheltenham/Hampton (UK Cheltenham, Hampton VA) — excluded from competitor signal, not treated as AU data.
 
 Next: `/content:plan` per cluster → smoke → generate.
+
+---
+
+## content:plan COMPLETE (2026-07-22) — both clusters locked
+
+- **service-hubs** (2 working entries: regular-house-cleaning, luxury-house-cleaning): 8 universal_required incl. FULL business-identity credibility block ("About Robot Cleaning Solutions" H2, section 2/3 — founder Zoe Brauer, founded 2024, 100+ clients, 95% repeat, 5★ on Google, $10m PL, guarantee; phrased differently per page). 4 cluster-specific, distinct angles (regular = recurring-cadence + membership-vs-hourly; luxury = white-glove/delicate-material specialisation + discretion). requires_facts = 6 confirmed classes. Scoped plan (house-clean corpus + areas-we-serve skip excluded).
+- **service-location-house-cleaning** (20 suburbs): 7 universal_required incl. LEAN spoke credibility block (business-named H2 + trust_floor founder/2024/100+ clients + link to hub). 5 cluster-specific. 20 research-grounded unique angles, ZERO "insufficient research" fallbacks. requires_facts = 4 confirmed classes.
+- Both `plan.md` + `plan.lock.json` locked (sha verified), publishable_facts (6 confirmed) merged. Pricing kept on-quote everywhere (price-ladder unconfirmed).
+
+### ⚠️ OPEN ITEM before /content:generate — voice profile is EMPTY
+`voice-profile.md` is empty (neutral fallback) because this upgrade has no ingested corpus yet. Triage marked homepage + house-clean as **corpus** but `/content:ingest-approved` was never run, and brand.voice was not extracted from the forms. Before generating, build the voice profile from the two corpus pages (their live copy is the brand voice) via ingest, or extract a voice descriptor — otherwise the 22 pages generate in neutral tone, not Robot Cleaning Solutions' actual voice.
+### Scratchpad note: sibling planner agents shared the session scratchpad and collided on a `run_plan.py` filename (idempotent re-lock, no damage). Give concurrent agents unique scratch filenames.
