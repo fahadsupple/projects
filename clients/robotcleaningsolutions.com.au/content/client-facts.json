@@ -24,7 +24,7 @@
       "class": "scalar_year",
       "label": "scalar year",
       "unit": null,
-      "value": 2025,
+      "value": 2024,
       "sources": [
         {
           "origin": "intake-form",
@@ -52,40 +52,11 @@
           "value_seen": "2024"
         }
       ],
-      "status": "conflict",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "",
-          "candidates": [
-            {
-              "value": 2025,
-              "origin": "intake-form",
-              "ref": "intake-form#year"
-            },
-            {
-              "value": 2024,
-              "origin": "intake-form",
-              "ref": "intake-form#year"
-            },
-            {
-              "value": 2024,
-              "origin": "intake-form",
-              "ref": "intake-form#year"
-            },
-            {
-              "value": 2025,
-              "origin": "intake-form",
-              "ref": "intake-form#year"
-            },
-            {
-              "value": 2024,
-              "origin": "client-profile",
-              "ref": "client-profile.json#/brand/year_established"
-            }
-          ]
-        }
-      ]
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.154Z"
     },
     {
       "id": "metrics.percentage",
@@ -105,32 +76,18 @@
           "value_seen": "10%"
         }
       ],
-      "status": "conflict",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "",
-          "candidates": [
-            {
-              "value": 95,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 10,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            }
-          ]
-        }
-      ]
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.422Z"
     },
     {
       "id": "social-proof.clients",
       "class": "count",
       "label": "clients",
       "unit": null,
-      "value": 10,
+      "value": "100+",
       "sources": [
         {
           "origin": "intake-form",
@@ -278,167 +235,18 @@
           "value_seen": "100+"
         }
       ],
-      "status": "conflict",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "clients",
-          "candidates": [
-            {
-              "value": 10,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 16,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 28,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 9,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 11,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 44,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 985,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 730,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 878,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 633,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 370,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 14,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 10,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 20,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 27,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 12,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 24,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 633,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 370,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 24,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 24,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 633,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 370,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 24,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 12,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 11,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 24,
-              "origin": "intake-form",
-              "ref": "intake-form#count"
-            },
-            {
-              "value": 100,
-              "origin": "client-profile",
-              "ref": "client-profile.json#/client_count"
-            }
-          ]
-        }
-      ]
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.295Z"
     },
     {
       "id": "contact.phone",
       "class": "identifier",
       "label": "phone",
       "unit": null,
-      "value": null,
+      "value": "0421 633 370",
       "sources": [
         {
           "origin": "intake-form",
@@ -456,9 +264,11 @@
           "value_seen": "0421 633 370"
         }
       ],
-      "status": "extracted",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": []
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.559Z"
     },
     {
       "id": "catalog.services",
@@ -482,9 +292,11 @@
           "value_seen": "Weekly Residential Clean, Fortnightly Residential Clean, Deep Clean, One-Off Standard Clean, End of Lease / Bond Back Clean, Move-In Clean, Corporate/Office Cleaning, Tile and Grout Cleaning"
         }
       ],
-      "status": "extracted",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": []
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.676Z"
     },
     {
       "id": "catalog.guarantees",
@@ -503,16 +315,14 @@
           "value_seen": "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority, Transparent, all-inclusive membership pricing with no hidden fees (price certainty), 1 yearly emergency clean included in membership to address any concerns immediately"
         }
       ],
-      "status": "extracted",
+      "status": "confirmed",
       "confidence": "low",
-      "conflicts": []
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.797Z"
     }
   ],
-  "needs_confirmation": [
-    "company.founding-year",
-    "metrics.percentage",
-    "social-proof.clients"
-  ],
+  "needs_confirmation": [],
   "source_scan": {
     "origins": [
       "client-profile",
