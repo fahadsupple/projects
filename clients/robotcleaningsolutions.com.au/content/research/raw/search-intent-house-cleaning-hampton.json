@@ -1,0 +1,24 @@
+{
+  "id": "07220836-1150-0541-0000-72334d78f92f",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "keyword": "house cleaning hampton",
+      "keyword_intent": {
+        "label": "navigational",
+        "probability": 0.384
+      },
+      "secondary_keyword_intents": [
+        {
+          "label": "commercial",
+          "probability": 0.255
+        },
+        {
+          "label": "informational",
+          "probability": 0.214
+        }
+      ]
+    }
+  ]
+}
