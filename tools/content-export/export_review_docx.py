@@ -195,8 +195,16 @@ def main(argv: list[str]) -> int:
 
         add_meta_line(doc, "URL", entry.get("url", ""), link=True)
         add_blank(doc)
-        add_meta_line(doc, "Primary Keyword", entry.get("primary_keyword", ""))
-        secondaries = entry.get("secondary_keywords", []) or []
+        primary = entry.get("primary_keyword", "")
+        add_meta_line(doc, "Primary Keyword", primary)
+        # Drop the primary if the Meta File repeated it in the supporting column,
+        # and de-duplicate while preserving document order.
+        seen, secondaries = {primary.strip().lower()}, []
+        for kw in entry.get("secondary_keywords", []) or []:
+            key = kw.strip().lower()
+            if key and key not in seen:
+                seen.add(key)
+                secondaries.append(kw.strip())
         add_meta_line(doc, "Secondary Keywords", ", ".join(secondaries))
         add_blank(doc)
         add_meta_line(doc, "Meta Title", attrs.get("meta_title", ""))

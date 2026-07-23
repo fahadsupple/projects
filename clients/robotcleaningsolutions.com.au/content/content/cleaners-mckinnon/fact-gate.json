@@ -1,33 +1,33 @@
 {
   "entry_id": "cleaners-mckinnon",
-  "gated_at": "2026-07-23T05:18:42.874Z",
+  "gated_at": "2026-07-23T05:46:40.451Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 57,
+      "line_number": 71,
       "excerpt": "$90",
       "rationale": "Numeric specific '$90' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 57,
+      "line_number": 71,
       "excerpt": "$200",
       "rationale": "Numeric specific '$200' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 57,
+      "line_number": 71,
       "excerpt": "$60",
       "rationale": "Numeric specific '$60' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 59,
+      "line_number": 73,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

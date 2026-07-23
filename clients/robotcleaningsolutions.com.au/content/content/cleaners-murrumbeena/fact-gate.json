@@ -1,6 +1,6 @@
 {
   "entry_id": "cleaners-murrumbeena",
-  "gated_at": "2026-07-23T05:18:42.881Z",
+  "gated_at": "2026-07-23T05:46:40.508Z",
   "blocking_count": 0,
   "findings": [
     {
@@ -76,21 +76,21 @@
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 21,
+      "line_number": 27,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 67,
+      "line_number": 83,
       "excerpt": "$20",
       "rationale": "Numeric specific '$20' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 67,
+      "line_number": 83,
       "excerpt": "$30",
       "rationale": "Numeric specific '$30' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

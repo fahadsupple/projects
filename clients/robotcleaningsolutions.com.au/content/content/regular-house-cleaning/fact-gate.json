@@ -1,12 +1,12 @@
 {
   "entry_id": "regular-house-cleaning",
-  "gated_at": "2026-07-23T05:18:42.889Z",
+  "gated_at": "2026-07-23T05:46:40.521Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 26,
+      "line_number": 28,
       "excerpt": "$10",
       "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

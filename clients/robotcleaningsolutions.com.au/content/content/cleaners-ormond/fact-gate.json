@@ -1,40 +1,40 @@
 {
   "entry_id": "cleaners-ormond",
-  "gated_at": "2026-07-23T05:18:42.882Z",
+  "gated_at": "2026-07-23T05:46:40.512Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 51,
+      "line_number": 59,
       "excerpt": "$169",
       "rationale": "Numeric specific '$169' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 51,
+      "line_number": 61,
       "excerpt": "$135",
       "rationale": "Numeric specific '$135' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 53,
+      "line_number": 65,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 70,
+      "line_number": 88,
       "excerpt": "$10",
       "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 85,
+      "line_number": 105,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

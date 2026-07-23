@@ -1,26 +1,26 @@
 {
   "entry_id": "luxury-house-cleaning",
-  "gated_at": "2026-07-23T05:18:42.887Z",
+  "gated_at": "2026-07-23T05:46:40.519Z",
   "blocking_count": 0,
   "findings": [
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 17,
+      "line_number": 23,
       "excerpt": "$10",
       "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 65,
+      "line_number": 90,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 77,
+      "line_number": 104,
       "excerpt": "$10",
       "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }

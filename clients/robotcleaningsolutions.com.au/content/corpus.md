@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T05:43:58Z_
+_Rebuilt: 2026-07-23T05:46:27Z_
 
 ## cleaners-aspendale
 
@@ -119,7 +119,7 @@ _Rebuilt: 2026-07-23T05:43:58Z_
 - **Primary keyword:** house cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1659
+- **Word count:** 1661
 - **Headings:**
   - House Cleaning Caulfield, VIC 3162: Judge Us on the Clean, Not the Years on the Sign
   - Robot Cleaning Solutions: A Young Business, Built Deliberately

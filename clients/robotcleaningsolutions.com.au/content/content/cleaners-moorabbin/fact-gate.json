@@ -1,6 +1,6 @@
 {
   "entry_id": "cleaners-moorabbin",
-  "gated_at": "2026-07-23T05:18:42.877Z",
+  "gated_at": "2026-07-23T05:46:40.497Z",
   "blocking_count": 0,
   "findings": [
     {
@@ -13,63 +13,63 @@
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 32,
+      "line_number": 41,
       "excerpt": "$10",
       "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 47,
+      "line_number": 60,
       "excerpt": "$180",
       "rationale": "Numeric specific '$180' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 49,
+      "line_number": 62,
       "excerpt": "$180,",
       "rationale": "Numeric specific '$180,' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 49,
+      "line_number": 62,
       "excerpt": "$120",
       "rationale": "Numeric specific '$120' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 49,
+      "line_number": 62,
       "excerpt": "$272",
       "rationale": "Numeric specific '$272' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 49,
+      "line_number": 62,
       "excerpt": "$90",
       "rationale": "Numeric specific '$90' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 53,
+      "line_number": 66,
       "excerpt": "$150",
       "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 67,
+      "line_number": 88,
       "excerpt": "$120",
       "rationale": "Numeric specific '$120' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     },
     {
       "severity": "warning",
       "category": "unverified_specific",
-      "line_number": 67,
+      "line_number": 88,
       "excerpt": "$272",
       "rationale": "Numeric specific '$272' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
     }
