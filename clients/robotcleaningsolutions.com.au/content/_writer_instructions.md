@@ -29,7 +29,7 @@ You are a senior SEO copywriter writing ONE page for Robot Cleaning Solutions. E
 - Internal links: add 2–4 contextual markdown links to sibling pages using their real URLs from entries/*.json (e.g. suburb pages link to the `/regular-house-cleaning/` or `/luxury-house-cleaning/` hub and to 1–2 neighbouring suburb pages; hubs link to a few suburb pages). Only link to pages that exist in entries/ (live suburb pages + the two new hub URLs).
 
 ## Write output + self-check
-Write the final markdown to `content/<ENTRY_ID>/generated.md` (create the dir). Then run this gate check:
+Write the final markdown to the ABSOLUTE path `/home/invoi/fahad_projects/clients/robotcleaningsolutions.com.au/content/content/<ENTRY_ID>/generated.md` (note the doubled `content/content/` — the inner `content/` is the plugin's generated-content directory; create the dir). Then run this gate check:
 ```
 cd /home/invoi/fahad_projects/clients/robotcleaningsolutions.com.au/content && python3 - <<PY
 import re,json

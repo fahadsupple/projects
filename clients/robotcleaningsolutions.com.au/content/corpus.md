@@ -1,6 +1,27 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-22T06:40:57Z_
+_Rebuilt: 2026-07-23T00:22:50Z_
+
+## luxury-house-cleaning
+
+- **Primary keyword:** luxury house cleaning melbourne
+- **Page type:** service
+- **Cluster:** service-hubs
+- **Word count:** 1598
+- **Headings:**
+  - Luxury House Cleaning Melbourne: White-Glove Care for Your Finest Home
+  - What Is Luxury House Cleaning?
+  - About Robot Cleaning Solutions
+  - The Two-Person Team Behind Every Luxury Clean
+  - How We Care for Delicate Surfaces and Luxury Finishes
+  - What Each Clean Covers
+  - The 24/7 Clean Membership for Luxury Homeowners
+  - Discretion, Privacy and Confidentiality
+  - Transparent Pricing Without the Hourly Guesswork
+  - Areas We Serve Across Bayside and South East Melbourne
+  - Frequently Asked Questions
+  - Book Your Luxury Clean
+- **First paragraph:** For a home filled with marble, fine timber and pieces you have chosen with care, a standard clean is never enough. **Luxury house cleaning Melbourne** homeowners can genuinely trust means a small, ded
 
 ## regular-house-cleaning
 
