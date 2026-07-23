@@ -1,0 +1,28 @@
+{
+  "entry_id": "cleaners-highett",
+  "gated_at": "2026-07-23T05:18:42.873Z",
+  "blocking_count": 0,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 50,
+      "excerpt": "$150",
+      "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 56,
+      "excerpt": "$10",
+      "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 69,
+      "excerpt": "$150",
+      "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}

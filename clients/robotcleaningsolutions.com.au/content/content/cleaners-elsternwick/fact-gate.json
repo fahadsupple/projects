@@ -1,0 +1,49 @@
+{
+  "entry_id": "cleaners-elsternwick",
+  "gated_at": "2026-07-23T05:18:42.868Z",
+  "blocking_count": 0,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 3,
+      "excerpt": "$10",
+      "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 18,
+      "excerpt": "$10",
+      "rationale": "Numeric specific '$10' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 49,
+      "excerpt": "$150",
+      "rationale": "Numeric specific '$150' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 53,
+      "excerpt": "$122",
+      "rationale": "Numeric specific '$122' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 53,
+      "excerpt": "$250",
+      "rationale": "Numeric specific '$250' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    },
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 53,
+      "excerpt": "$45",
+      "rationale": "Numeric specific '$45' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}
