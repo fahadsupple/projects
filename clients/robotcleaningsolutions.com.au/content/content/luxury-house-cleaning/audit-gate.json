@@ -1,57 +1,8 @@
 {
   "entry_id": "luxury-house-cleaning",
-  "gated_at": "2026-07-23T01:31:46.801Z",
-  "blocking_count": 4,
+  "gated_at": "2026-07-23T01:38:14.959Z",
+  "blocking_count": 0,
   "waived_count": 0,
-  "findings": [
-    {
-      "code": "em_dash_page",
-      "severity": "blocking",
-      "category": "humanity",
-      "line_number": 0,
-      "excerpt": "",
-      "excerpt_hash": "sha256:6e0bd13ece4309326a89f0374117898d0b84dd689c98b3c4a468394195654148",
-      "rationale": "Em-dash present: 3 em-dash(es) across 1656 words. Em-dashes are banned from page copy ENTIRELY (v0.6.9 zero-tolerance, analyst-directed): they are the most recognised AI-content tell and clients flag them on review regardless of quality. Replace every one \u2014 full stop (usually best), comma, colon for label/value bullets ('2m\u00b3: from $250' or '2m\u00b3 from $250'), parentheses sparingly, 'to' for ranges. Count must be ZERO.",
-      "module": "punctuation_density_check",
-      "waived": false,
-      "waiver_reason": null
-    },
-    {
-      "code": "em_dash_paragraph",
-      "severity": "blocking",
-      "category": "humanity",
-      "line_number": 0,
-      "excerpt": "**One-Off Standard Clean** \u2014 a full reset: light tidy and cobweb removal, dusting of all reachable surfaces, skirting bo",
-      "excerpt_hash": "sha256:247b20865b3446cd93583db92df56e64d61881d4d431ba7b11220fbe13def190",
-      "rationale": "Em-dash in paragraph (1 found). Em-dashes are banned from page copy entirely (v0.6.9 zero-tolerance policy): replace with a full stop, comma, colon, or restructure.",
-      "module": "punctuation_density_check",
-      "waived": false,
-      "waiver_reason": null
-    },
-    {
-      "code": "em_dash_paragraph",
-      "severity": "blocking",
-      "category": "humanity",
-      "line_number": 0,
-      "excerpt": "**Weekly Residential Clean** and **Fortnightly Residential Clean** \u2014 the same thorough standard maintained on a recurrin",
-      "excerpt_hash": "sha256:11f1f5dec590d8be3c674761e540cc9d791d60fb8b0d5c4b643b024ec3085bd9",
-      "rationale": "Em-dash in paragraph (1 found). Em-dashes are banned from page copy entirely (v0.6.9 zero-tolerance policy): replace with a full stop, comma, colon, or restructure.",
-      "module": "punctuation_density_check",
-      "waived": false,
-      "waiver_reason": null
-    },
-    {
-      "code": "em_dash_paragraph",
-      "severity": "blocking",
-      "category": "humanity",
-      "line_number": 0,
-      "excerpt": "**Deep Clean** \u2014 everything in a standard clean, plus interior oven and dishwasher, inside the fridge, under and behind ",
-      "excerpt_hash": "sha256:9b73c71a6c37c680fe5ea85998c99964ca07f31b67b5c8e741065e226923ee17",
-      "rationale": "Em-dash in paragraph (1 found). Em-dashes are banned from page copy entirely (v0.6.9 zero-tolerance policy): replace with a full stop, comma, colon, or restructure.",
-      "module": "punctuation_density_check",
-      "waived": false,
-      "waiver_reason": null
-    }
-  ],
+  "findings": [],
   "systemic_fp_warnings": []
 }

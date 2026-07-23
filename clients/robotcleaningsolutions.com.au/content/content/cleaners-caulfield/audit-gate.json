@@ -1,33 +1,8 @@
 {
   "entry_id": "cleaners-caulfield",
-  "gated_at": "2026-07-23T01:31:45.996Z",
-  "blocking_count": 2,
+  "gated_at": "2026-07-23T01:38:14.153Z",
+  "blocking_count": 0,
   "waived_count": 0,
-  "findings": [
-    {
-      "code": "honesty_numerical",
-      "severity": "blocking",
-      "category": "honesty",
-      "line_number": 9,
-      "excerpt": "We won't pretend to be the oldest name in Caulfield. One local operator has cleaned here since 2013 and counts more than thirty years in the trade, which is fair to weigh. We would rather be measured ",
-      "excerpt_hash": "sha256:1411c4cce527413cf59881ef1d00f6da8570269d33f28ba500c9b352eb4c42c4",
-      "rationale": "Founding-year claim 'since 2013' does not match client-profile.json year_established=2024. Either content is wrong, or client-profile needs update.",
-      "module": "honesty_audit",
-      "waived": false,
-      "waiver_reason": null
-    },
-    {
-      "code": "honesty_numerical",
-      "severity": "blocking",
-      "category": "honesty",
-      "line_number": 68,
-      "excerpt": "Rates move constantly, and the Caulfield listings show how wide the spread runs: hourly advertising in one place, a $120 to $200 job band in another, a $350 posting in a third. Rather than add to that",
-      "excerpt_hash": "sha256:e59bcf0b4bd90f4b0dacf9670d6d2769f60895971c3539695f25599da97fd927",
-      "rationale": "Client-count overclaim: '200 job ' claims 200. Authoritative source shows client_count=100+. Match the cited figure.",
-      "module": "honesty_audit",
-      "waived": false,
-      "waiver_reason": null
-    }
-  ],
+  "findings": [],
   "systemic_fp_warnings": []
 }

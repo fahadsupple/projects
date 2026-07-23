@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T01:37:15Z_
+_Rebuilt: 2026-07-23T01:38:27Z_
 
 ## cleaners-aspendale
 
