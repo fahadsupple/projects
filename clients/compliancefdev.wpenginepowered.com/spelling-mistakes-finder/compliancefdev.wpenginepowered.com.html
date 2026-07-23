@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spelling &amp; Content Errors — compliancefdev.wpenginepowered.com</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 14px; background: #f4f6f9; color: #222; padding: 32px 24px;
+    }
+    header { max-width: 1500px; margin: 0 auto 28px; }
+    header h1 { font-size: 22px; font-weight: 700; color: #1a1a2e; }
+    header p { margin-top: 6px; color: #555; font-size: 13px; }
+    header a { color: #3b5bdb; text-decoration: none; }
+    header a:hover { text-decoration: underline; }
+
+    .stats { max-width: 1500px; margin: 0 auto 20px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .stat-card { background: #fff; border-radius: 8px; border: 1px solid #e0e0e0; padding: 14px 22px; min-width: 150px; }
+    .stat-card .num { font-size: 28px; font-weight: 700; color: #3b5bdb; }
+    .stat-card .lbl { font-size: 12px; color: #777; margin-top: 2px; }
+
+    .legend { max-width: 1500px; margin: 0 auto 18px; display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; align-items: center; }
+    .legend .filter { cursor: pointer; border: 1px solid transparent; }
+    .legend .filter:hover { border-color: #999; }
+    .legend .filter.off { opacity: .3; }
+    .badge { display: inline-block; padding: 3px 11px; border-radius: 12px; font-weight: 600; font-size: 11px; white-space: nowrap; }
+    .badge-typo        { background: #ffe3e3; color: #c92a2a; }
+    .badge-grammar     { background: #fff3bf; color: #7d5a00; }
+    .badge-us-en       { background: #d0ebff; color: #1864ab; }
+    .badge-content     { background: #f3d9fa; color: #6741d9; }
+    .badge-punctuation { background: #d3f9d8; color: #2b7a0b; }
+    .badge-company     { background: #ffe8cc; color: #d9480f; }
+
+    .tbl-wrap { max-width: 1500px; margin: 0 auto; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 1150px; }
+    th { background: #1a1a2e; color: #fff; text-align: left; font-size: 12px; font-weight: 600; padding: 11px 12px; position: sticky; top: 0; }
+    td { padding: 12px; border-top: 1px solid #eceef1; vertical-align: top; font-size: 13px; line-height: 1.5; }
+    tr:nth-child(even) td { background: #fbfcfd; }
+    td.num { color: #aaa; font-size: 12px; width: 34px; }
+    td.url { width: 190px; font-size: 12px; word-break: break-word; }
+    td.url a { color: #3b5bdb; text-decoration: none; }
+    td.url a:hover { text-decoration: underline; }
+    td.loc { width: 145px; font-size: 12px; color: #666; }
+    td.comment { width: 330px; font-size: 12.5px; color: #444; }
+    .wrong { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px;
+             background: #ffe3e3; color: #a61c00; padding: 3px 6px; border-radius: 3px; display: inline-block; }
+    .right { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px;
+             background: #d3f9d8; color: #17632b; padding: 3px 6px; border-radius: 3px; display: inline-block; }
+
+    .section-divider { max-width: 1500px; margin: 40px auto 18px; border-top: 2px solid #dee2e6; padding-top: 26px; }
+    .section-divider h2 { font-size: 18px; font-weight: 700; color: #1a1a2e; }
+    .section-divider p { margin-top: 6px; font-size: 13px; color: #555; }
+    td.obs-title { width: 330px; font-weight: 600; color: #1a1a2e; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px;
+           background: #f1f3f5; padding: 1px 5px; border-radius: 3px; }
+    footer { max-width: 1500px; margin: 34px auto 0; font-size: 12px; color: #888; }
+
+    @media print {
+      body { background: #fff; padding: 0; font-size: 10px; }
+      .tbl-wrap { overflow: visible; border: none; }
+      table { min-width: 0; }
+      th { position: static; }
+      tr { page-break-inside: avoid; }
+      .legend .filter { cursor: default; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Spelling &amp; Content Errors — compliancefdev.wpenginepowered.com</h1>
+  <p>
+    Full-site audit of <a href="https://compliancefdev.wpenginepowered.com" target="_blank" rel="noopener">https://compliancefdev.wpenginepowered.com</a> ·
+    23 July 2026 · Australian English ·
+    Checked: body text, H1–H6, button and anchor text, <code>&lt;title&gt;</code>,
+    meta description, meta keywords, Open Graph and Twitter card tags, and image alt text.
+  </p>
+</header>
+
+<div class="stats">
+  <div class="stat-card"><div class="num">72</div><div class="lbl">Total URLs crawled</div></div>
+  <div class="stat-card"><div class="num">99</div><div class="lbl">Issues found</div></div>
+  <div class="stat-card"><div class="num">30</div><div class="lbl">Wrong content</div></div>
+  <div class="stat-card"><div class="num">8</div><div class="lbl">Company name</div></div>
+  <div class="stat-card"><div class="num">12</div><div class="lbl">Typos</div></div>
+  <div class="stat-card"><div class="num">5</div><div class="lbl">US English</div></div>
+  <div class="stat-card"><div class="num">37</div><div class="lbl">Grammar</div></div>
+  <div class="stat-card"><div class="num">7</div><div class="lbl">Punctuation</div></div>
+</div>
+
+<div class="legend">
+  <span style="color:#666;">Click a badge to filter:</span>
+  <span class="badge badge-content filter" data-f="content">Wrong content</span>
+  <span class="badge badge-company filter" data-f="company">Company Name</span>
+  <span class="badge badge-typo filter" data-f="typo">Typo</span>
+  <span class="badge badge-us-en filter" data-f="us-en">US English</span>
+  <span class="badge badge-grammar filter" data-f="grammar">Grammar</span>
+  <span class="badge badge-punctuation filter" data-f="punctuation">Punctuation</span>
+</div>
+
+<div class="tbl-wrap">
+  <table id="main">
+    <thead>
+      <tr>
+        <th>#</th><th>Page URL</th><th>Location</th><th>Word / Phrase Found</th>
+        <th>Correct AU English</th><th>Comment</th><th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-type="content">
+        <td class="num">1</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/contact/" target="_blank" rel="noopener">/contact/</a></td>
+        <td class="loc">Meta description</td>
+        <td><span class="wrong">Ready for a concrete makeover in Melbourne? Contact us today to book your free on-site quote for resurfacing, epoxy flooring, and polished concrete.</span></td>
+        <td><span class="right">Contact Compliance Fixer for smoke alarm, gas and electrical safety checks across Melbourne. Fixed pricing, licensed and registered technicians. Call 1800 548 502.</span></td>
+        <td class="comment">CRITICAL — the meta description on the Contact page belongs to a concrete resurfacing business. Wrong industry entirely; it is a leftover from another site's template. This is the text Google shows in search results.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">2</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/" target="_blank" rel="noopener">/</a>, <a href="https://compliancefdev.wpenginepowered.com/testimonials/" target="_blank" rel="noopener">/testimonials/</a></td>
+        <td class="loc">Body text — testimonial quotes</td>
+        <td><span class="wrong">Our experience with <b>Appliance Fixer</b> has been brilliant… / Really happy with the service provided by Luke and team from <b>Appliance Fixer</b>… / Luke, on behalf of <b>Appliance Fixer</b>… / Luke &amp; Stacey from <b>Oven Fixer</b> are amazing…</span></td>
+        <td><span class="right">Compliance Fixer</span></td>
+        <td class="comment">CRITICAL — all four testimonials on the homepage and Testimonials page praise a different brand (Appliance Fixer ×3, Oven Fixer ×1). These read as sister Fixer Group companies. On the Compliance Fixer site this looks like copied reviews and undermines trust. Either re-source Compliance Fixer reviews or add a visible line explaining the Fixer Group relationship.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">3</td>
+        <td class="url">/ (homepage), 19 other pages</td>
+        <td class="loc">Body text — comparison table headers</td>
+        <td><span class="wrong">Competitor 1 &nbsp;|&nbsp; Competitor 2</span></td>
+        <td><span class="right">Named or described competitor types (e.g. "Single-trade contractors", "National compliance providers")</span></td>
+        <td class="comment">Placeholder column headings left in the live "How do we compare?" table on 20 pages. Reads as unfinished.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">4</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Plus energy efficiency components (coming in 2027 [INSERT LINK TO OTHER BLOG ON THIS).</span></td>
+        <td><span class="right">Plus energy efficiency components (coming in 2027 — see our guide to the 2027 energy efficiency standards).</span></td>
+        <td class="comment">CRITICAL — an editor's instruction has been published live, and the bracket is unmatched ( opened with "[", closed with ")" ).</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">5</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a></td>
+        <td class="loc">H3 heading + body list</td>
+        <td><span class="wrong">areas we serve → Portsea, Geelong</span></td>
+        <td><span class="right">The 34 suburbs actually served (Berwick, Box Hill, Brunswick, …)</span></td>
+        <td class="comment">The "areas we serve" block lists only Portsea and Geelong. Neither has a service page, neither appears in the nav, and Geelong is a separate city ~75 km from Melbourne. Looks like leftover test content.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">6</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rcd-safety-switch-replacements/" target="_blank" rel="noopener">/rcd-safety-switch-replacements/</a>, <a href="https://compliancefdev.wpenginepowered.com/hot-water-service-repairs/" target="_blank" rel="noopener">/hot-water-service-repairs/</a></td>
+        <td class="loc">Body text — CTA</td>
+        <td><span class="wrong">Contact Compliance Fixer on 04 0367 1657 / Call 04 0367 1657</span></td>
+        <td><span class="right">1800 548 502</span></td>
+        <td class="comment">CRITICAL — wrong phone number on two service pages. Every other page (and the header, footer and schema) uses 1800 548 502. The number is also malformed as an Australian mobile — 04 0367 1657 should be formatted 0403 671 657.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">7</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-relocations/" target="_blank" rel="noopener">/smoke-alarm-relocations/</a></td>
+        <td class="loc">Body text — CTA</td>
+        <td><span class="wrong">email service@compliancefixer.com .au</span></td>
+        <td><span class="right">service@compliancefixer.com.au</span></td>
+        <td class="comment">The email address is split by a space, so it renders and links as a broken address.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">8</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a></td>
+        <td class="loc">Body text — stat counters</td>
+        <td><span class="wrong">100k+ Safety checks completed</span></td>
+        <td><span class="right">50,000+ safety checks completed</span></td>
+        <td class="comment">CRITICAL — direct numerical contradiction. "More than 50,000" is used roughly 90 times across the site, including on the About page itself under the heading "The 50,000+ Inspection Milestone" and in the About meta description ("50,000+ inspections"). Two different figures on the same page.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">9</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — summary box</td>
+        <td><span class="wrong">From November 2025, properties must comply before being advertised for rent.</span></td>
+        <td><span class="right">From 1 December 2025, properties must comply before being advertised for rent.</span></td>
+        <td class="comment">The summary box says November 2025 while the same page states 1 December 2025 twice (intro and FAQ). Compliance dates must be consistent.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">10</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/home-owners/" target="_blank" rel="noopener">/home-owners/</a></td>
+        <td class="loc">Title, H1 and all body copy</td>
+        <td><span class="wrong">Title: "Homeowners" — body: "Does your <b>rental property</b> meet Victoria's strict safety standards? As a <b>rental provider</b>, you're legally required to…"</span></td>
+        <td><span class="right">Copy addressed to owner-occupiers, or retitle the page</span></td>
+        <td class="comment">The page is titled and linked as "Homeowners" but every sentence addresses landlords and rental providers. Owner-occupiers reading this page are told they have rental obligations they don't have.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">11</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">simple fixes, like dislodged light switches or gas in your switchboard</span></td>
+        <td><span class="right">gaps in your switchboard</span></td>
+        <td class="comment">"gas in your switchboard" is nonsense and alarming on an electrical safety page. The FAQ further down the same page uses the correct wording, "gaps in your switchboard".</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">12</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a></td>
+        <td class="loc">Body text — opening paragraph</td>
+        <td><span class="wrong">you'll find members of the Compliance Fixer time conducting detailed gas safety inspections</span></td>
+        <td><span class="right">the Compliance Fixer team</span></td>
+        <td class="comment">"time" should be "team" — in the first paragraph of the page.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">13</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">provide expert oversight that reduces landlord legal exposure and the risk of penalties all while being reasonable, practical and over the top.</span></td>
+        <td><span class="right">…all while being reasonable and practical, without going over the top.</span></td>
+        <td class="comment">"over the top" is presented as a selling point, which reverses the intended meaning. The Rental Safety Check page carries the correct version: "maintaining safety without going over the top".</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">14</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a></td>
+        <td class="loc">Body text — closing CTA</td>
+        <td><span class="wrong">With rental laws constantly updating and the End of Financial Year approaching…</span></td>
+        <td><span class="right">Remove the seasonal reference or make it evergreen</span></td>
+        <td class="comment">Stale seasonal content. EOFY (30 June) has passed — this is dated copy as at July 2026.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">15</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a>, <a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a>, <a href="https://compliancefdev.wpenginepowered.com/melbourne-cbd/" target="_blank" rel="noopener">/melbourne-cbd/</a></td>
+        <td class="loc">Body text — empty list blocks</td>
+        <td><span class="wrong">"The Gas Compliance Technician will perform a detailed assessment of:" / "Every gas safety check includes:" / "Our Gas Compliance Technician will carry out a detailed review of:" / "…conduct thorough inspections that include:"</span></td>
+        <td><span class="right">The bullet list of what is inspected</span></td>
+        <td class="comment">Four lead-in sentences end with a colon but no list follows — the bullet content is missing from the page. On /areas-we-serve/ two of these sit back to back.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">16</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-energy-efficiency-standards-2027/" target="_blank" rel="noopener">/rental-minimum-energy-efficiency-standards-2027/</a></td>
+        <td class="loc">Body text — summary table</td>
+        <td><span class="wrong">Hot Water System | <i>(Trigger cell empty)</i> | The hot water system will need to be upgraded to an electric heat pump system.</span></td>
+        <td><span class="right">State the trigger (e.g. "When the existing unit fails")</span></td>
+        <td class="comment">The "Trigger" cell for Hot Water System is blank while every other row in the table is filled in.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">17</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text (×3)</td>
+        <td><span class="wrong">Rental Tenancies Regulations (RTR) / the Rental Tenancies Act</span></td>
+        <td><span class="right">Residential Tenancies Regulations / Residential Tenancies Act</span></td>
+        <td class="comment">The Act is named incorrectly three times in this article. The rest of the site correctly uses "Residential Tenancies Act". On a legal-compliance blog this is a credibility problem.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">18</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">How do you handle properties with Body Corporate rules? … our technicians have great understanding of body corporate protocols</span></td>
+        <td><span class="right">Owners Corporation</span></td>
+        <td class="comment">"Body Corporate" is the NSW/QLD term. In Victoria the legal term is "Owners Corporation" — which this same page uses correctly higher up. Inconsistent within one page.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">19</td>
+        <td class="url">/rental-minimum-standards-for-heating-in-victoria/ vs /rental-minimum-energy-efficiency-standards-2027/</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">GEMS rating of <b>&gt;</b> 3.2 for heating &nbsp;vs&nbsp; GEMS rating of <b>≥</b> 3.2 for heating</span></td>
+        <td><span class="right">Use one operator consistently</span></td>
+        <td class="comment">The two blog posts state the same 2027 heating requirement with different operators (greater-than vs greater-than-or-equal). A unit rated exactly 3.2 would pass under one article and fail under the other.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">20</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/when-were-hardwired-smoke-alarms-required/" target="_blank" rel="noopener">/when-were-hardwired-smoke-alarms-required/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Quick Answer: "built <b>from 1 August 1997 onwards</b>" vs summary: "required if the property was built <b>after</b> 1st August, 1997"</span></td>
+        <td><span class="right">Use "from 1 August 1997 onwards" in both places</span></td>
+        <td class="comment">"From … onwards" includes 1 August 1997; "after" excludes it. On a page whose entire purpose is a date cut-off, the two statements contradict.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">21</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a>, <a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a>, <a href="https://compliancefdev.wpenginepowered.com/gas-leak-repair/" target="_blank" rel="noopener">/gas-leak-repair/</a>, 8 more</td>
+        <td class="loc">Body text — coverage claims</td>
+        <td><span class="wrong">From Mornington to Sunbury, and Point Cook to Ringwood</span></td>
+        <td><span class="right">Confirm coverage, or use suburbs that have service pages</span></td>
+        <td class="comment">Sunbury and Ringwood are used as the outer bounds of the service area on 11 pages, but neither appears in the 34-suburb nav list or has a location page. Either the coverage claim or the location list is wrong.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">22</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-standards-for-heating-in-victoria/" target="_blank" rel="noopener">/rental-minimum-standards-for-heating-in-victoria/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">the Victorian Energy Upgrade (VEU) scheme</span></td>
+        <td><span class="right">Victorian Energy Upgrades (VEU)</span></td>
+        <td class="comment">The scheme's official name is plural — "Victorian Energy Upgrades". The other blog post gets it right, so the site is inconsistent as well as incorrect.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">23</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/why-smoke-alarm-location-matters-more-than-most-people-think/" target="_blank" rel="noopener">/why-smoke-alarm-location-matters-more-than-most-people-think/</a></td>
+        <td class="loc">Body text vs FAQ</td>
+        <td><span class="wrong">Body: "any smoke alarms/buildings installed prior to this date are technically <b>compliant</b>" — FAQ: "Is dead air space a compliance issue? <b>Yes.</b>"</span></td>
+        <td><span class="right">Align the two answers</span></td>
+        <td class="comment">The article says pre-2018 installations are compliant because the rule is not retrospective; the FAQ on the same page answers a flat "Yes" to it being a compliance issue. Readers get opposite answers.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">24</td>
+        <td class="url">13 pages (/, <a href="https://compliancefdev.wpenginepowered.com/st-kilda/" target="_blank" rel="noopener">/st-kilda/</a>, <a href="https://compliancefdev.wpenginepowered.com/pakenham/" target="_blank" rel="noopener">/pakenham/</a>, <a href="https://compliancefdev.wpenginepowered.com/glen-waverley/" target="_blank" rel="noopener">/glen-waverley/</a>, <a href="https://compliancefdev.wpenginepowered.com/docklands/" target="_blank" rel="noopener">/docklands/</a>, <a href="https://compliancefdev.wpenginepowered.com/tarneit/" target="_blank" rel="noopener">/tarneit/</a>, <a href="https://compliancefdev.wpenginepowered.com/carnegie/" target="_blank" rel="noopener">/carnegie/</a>, <a href="https://compliancefdev.wpenginepowered.com/werribee/" target="_blank" rel="noopener">/werribee/</a>, <a href="https://compliancefdev.wpenginepowered.com/melbourne-cbd/" target="_blank" rel="noopener">/melbourne-cbd/</a>, <a href="https://compliancefdev.wpenginepowered.com/frankston/" target="_blank" rel="noopener">/frankston/</a>, <a href="https://compliancefdev.wpenginepowered.com/berwick/" target="_blank" rel="noopener">/berwick/</a>, <a href="https://compliancefdev.wpenginepowered.com/mornington/" target="_blank" rel="noopener">/mornington/</a>, <a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-check/)" target="_blank" rel="noopener">/smoke-alarm-check/)</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Our reports are very easy to read and clearly separate works.</span></td>
+        <td><span class="right">…clearly separate required works from recommended works.</span></td>
+        <td class="comment">The sentence is cut off mid-thought on 13 pages. The full version appears once on the homepage FAQ: "clearly separate works that are required from works that are recommended".</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">25</td>
+        <td class="url">/ (homepage), 53 pages with the process block</td>
+        <td class="loc">Body text — &quot;Simple Steps to Stay Compliant&quot;</td>
+        <td><span class="wrong">Step 01 "Schedule your gas, electrical, smoke alarm or minimum standards." · Step 02 "…identifies any non-compliance &amp; arranges." · Step 03 "…confirming your property meets all required." · Step 06 "…to track jobs, deadlines."</span></td>
+        <td><span class="right">"…or minimum standards <b>check</b>." · "…&amp; arranges <b>the repairs</b>." · "…meets all required <b>standards</b>." · "…to track jobs<b>, deadlines and renewals</b>."</span></td>
+        <td class="comment">Four of the six step descriptions are truncated mid-sentence. This block appears on 54 pages, so the same broken copy is repeated site-wide.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">26</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/solutions/" target="_blank" rel="noopener">/solutions/</a></td>
+        <td class="loc">Body text — solution cards</td>
+        <td><span class="wrong">Reliable compliance solutions for landlords &amp; their rental properties today... · Helping building managers stay compliant, confident and fully protected always... · Helping homeowners stay safe, compliant and confidently protected always... · Does your rental property meet Victorian safety standards? As a rental provider, you must make sure... · …the law requires you...</span></td>
+        <td><span class="right">Complete sentences, or a deliberate excerpt length</span></td>
+        <td class="comment">Five audience cards are cut off with a trailing ellipsis mid-sentence. The excerpt limit is clipping the copy rather than a written summary being used.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">27</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a></td>
+        <td class="loc">Body text — stat counter</td>
+        <td><span class="wrong">200+ Property management</span></td>
+        <td><span class="right">200+ property management partners (or agencies / clients)</span></td>
+        <td class="comment">The stat label is incomplete — 200+ of what is never stated.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">28</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-appliance-installations/" target="_blank" rel="noopener">/gas-appliance-installations/</a></td>
+        <td class="loc">Body text — service list</td>
+        <td><span class="wrong">Commercial kitchen equipment</span></td>
+        <td><span class="right">Remove, or add a commercial services page</span></td>
+        <td class="comment">Commercial kitchen equipment is listed as a service, but the entire site positions the business as residential rental compliance. Either out of scope or an unsupported claim.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">29</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/sunshine/" target="_blank" rel="noopener">/sunshine/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">our a gas compliance technician will provide: <i>(followed by a single bullet)</i></span></td>
+        <td><span class="right">our gas compliance technician will provide: <i>(full list)</i></span></td>
+        <td class="comment">Double article "our a", and the list that follows has only one item where comparable suburb pages have five to seven.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="content">
+        <td class="num">30</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/elwood/" target="_blank" rel="noopener">/elwood/</a></td>
+        <td class="loc">H2 section</td>
+        <td><span class="wrong">H2 "Gas Safety Checks in the Elwood Area" → "Compliance isn't a matter of choice… This is especially true when it comes to gas safety." → "If you have any questions about these obligations…"</span></td>
+        <td><span class="right">Add the gas safety check detail for Elwood</span></td>
+        <td class="comment">The gas section has a heading and an intro but no actual content about what the gas check covers — it jumps straight to the closing CTA. Every other suburb page has a full gas list here.</td>
+        <td><span class="badge badge-content">Wrong content</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">31</td>
+        <td class="url">All 72 pages</td>
+        <td class="loc">Footer</td>
+        <td><span class="wrong">© 2026 Compliance fixer | All Rights Reserved.</span></td>
+        <td><span class="right">© 2026 Compliance Fixer | All Rights Reserved.</span></td>
+        <td class="comment">Lowercase "fixer" in the copyright line on every page of the site.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">32</td>
+        <td class="url">All 72 pages</td>
+        <td class="loc">Image alt text — header logo (Logo-Comp.svg, Logo-Comp-1.svg)</td>
+        <td><span class="wrong">alt="Compliance fixer"</span></td>
+        <td><span class="right">alt="Compliance Fixer"</span></td>
+        <td class="comment">The logo alt text uses lowercase "fixer" on all 72 pages, in both header logo variants.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">33</td>
+        <td class="url">20 pages</td>
+        <td class="loc">Image alt text — footer logo (ft-logo.svg)</td>
+        <td><span class="wrong">alt="compliance fixer"</span></td>
+        <td><span class="right">alt="Compliance Fixer"</span></td>
+        <td class="comment">Footer logo alt text is fully lowercase.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">34</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">H3 heading</td>
+        <td><span class="wrong">compliance fixer</span></td>
+        <td><span class="right">Compliance Fixer</span></td>
+        <td class="comment">The eyebrow heading above "Questions We're Often Asked" is an H3 containing only the brand name in lowercase.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">35</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text — section heading</td>
+        <td><span class="wrong">Why Choose Compliance fixer</span></td>
+        <td><span class="right">Why Choose Compliance Fixer</span></td>
+        <td class="comment">Lowercase "fixer" in a prominent on-page section heading.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">36</td>
+        <td class="url">59 pages</td>
+        <td class="loc">Image alt text (expert-michael-baibley.jpg, expert-michael-baibley-1.jpg)</td>
+        <td><span class="wrong">alt="Expert Michael Baibley"</span></td>
+        <td><span class="right">alt="Michael Bailey, Compliance Fixer co-founder"</span></td>
+        <td class="comment">The co-founder's surname is misspelt in the alt text and in the image filename on 59 pages. Body copy across the site correctly says "Michael Bailey". Rename the media file as well as the alt text.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">37</td>
+        <td class="url">28 pages</td>
+        <td class="loc">Image alt text — real estate partner logos</td>
+        <td><span class="wrong">Hodger · Mc Grath · Lj Hooker · Dingle Partner · Kay Burton · Raine Horne · Little · Rte · Vicprop · Hockingstuart · A Real</span></td>
+        <td><span class="right">Hodges · McGrath · LJ Hooker · Dingle Partners · Kay &amp; Burton · Raine &amp; Horne · Little Real Estate · RT Edgar · VICPROP · hockingstuart · <i>(verify)</i></span></td>
+        <td class="comment">The partner-logo strip misnames 11 real estate agencies in its alt text. These are named third-party brands being displayed as clients — getting their names wrong is both a credibility and a courtesy issue. Please confirm each brand before correcting, particularly "A Real".</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="company">
+        <td class="num">38</td>
+        <td class="url">5 pages (/gas-safety-check/, <a href="https://compliancefdev.wpenginepowered.com/gas-leak-repair/" target="_blank" rel="noopener">/gas-leak-repair/</a>, <a href="https://compliancefdev.wpenginepowered.com/gas-appliance-installations/" target="_blank" rel="noopener">/gas-appliance-installations/</a>, <a href="https://compliancefdev.wpenginepowered.com/electrical-appliance-installations/" target="_blank" rel="noopener">/electrical-appliance-installations/</a>, <a href="https://compliancefdev.wpenginepowered.com/exhaust-fan-replacements/)" target="_blank" rel="noopener">/exhaust-fan-replacements/)</a></td>
+        <td class="loc">Image alt text</td>
+        <td><span class="wrong">alt="Fixer Group Up To K ( ) X"</span></td>
+        <td><span class="right">Descriptive alt text, e.g. "Compliance Fixer technician completing a gas safety inspection"</span></td>
+        <td class="comment">Alt text auto-generated from the filename "Fixer-Group-Up-to-4K-53_4096x2304.jpg", producing meaningless output with empty brackets. Affects five images.</td>
+        <td><span class="badge badge-company">Company Name</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">39</td>
+        <td class="url">All 72 pages</td>
+        <td class="loc">Main navigation menu (Services dropdown)</td>
+        <td><span class="wrong">Switchboard &amp; Main Earth Upgradesz</span></td>
+        <td><span class="right">Switchboard &amp; Main Earth Upgrades</span></td>
+        <td class="comment">CRITICAL — stray "z" on the end of a main navigation menu item, visible on every page of the site. The correct spelling appears in the footer menu on the same pages, so the two menus disagree.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">40</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-safety-rectification-works/" target="_blank" rel="noopener">/rental-safety-rectification-works/</a></td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="Switchboard Main Earth Upgradesz" (switchboard-main-earth-upgradesz.webp)</span></td>
+        <td><span class="right">Switchboard Main Earth Upgrades</span></td>
+        <td class="comment">Same "z" typo carried into the image alt text and the uploaded filename.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">41</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a></td>
+        <td class="loc">Body text — stat counter + image alt text</td>
+        <td><span class="wrong">5+ Fully licensed company divisons</span></td>
+        <td><span class="right">5+ fully licensed company divisions</span></td>
+        <td class="comment">"divisons" → "divisions". Appears in the visible stat counter and in the alt text of Fully-licensed-company-divisons.svg.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">42</td>
+        <td class="url">85 image instances across the site</td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="Satisfaction Gurantee" · alt="garantee-satisfaction" (satisfaction-gurantee.svg)</span></td>
+        <td><span class="right">Satisfaction Guarantee</span></td>
+        <td class="comment">"Gurantee"/"garantee" → "Guarantee". Wrong in the alt text and in the uploaded filename.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">43</td>
+        <td class="url">54 pages</td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="Step 5 Receive Compliacne Certificate" (step-5-receive-compliacne-certificate.svg)</span></td>
+        <td><span class="right">Step 5 Receive Compliance Certificate</span></td>
+        <td class="comment">"Compliacne" → "Compliance" — the brand's core keyword misspelt, on 54 pages.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">44</td>
+        <td class="url">53 pages</td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="Service Repairs Rectifaction" (service-repairs-rectifaction.svg)</span></td>
+        <td><span class="right">Service Repairs Rectification</span></td>
+        <td class="comment">"Rectifaction" → "Rectification", on 53 pages.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">45</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a></td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="Our Missinon Hero" (our-missinon-hero.webp)</span></td>
+        <td><span class="right">Our Mission</span></td>
+        <td class="comment">"Missinon" → "Mission".</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">46</td>
+        <td class="url">All 72 pages</td>
+        <td class="loc">Image filename (mobile nav icon)</td>
+        <td><span class="wrong">mobile-fix-servicess.svg</span></td>
+        <td><span class="right">mobile-fix-services.svg</span></td>
+        <td class="comment">Double "s" in the filename of the mobile navigation services icon.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">47</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-standards-for-heating-in-victoria/" target="_blank" rel="noopener">/rental-minimum-standards-for-heating-in-victoria/</a></td>
+        <td class="loc">Body text — non-compliant heaters list</td>
+        <td><span class="wrong">Portal heaters</span></td>
+        <td><span class="right">Portable heaters</span></td>
+        <td class="comment">"Portal" → "Portable", in the list of heaters that do not meet minimum standards. Also "Plug in panel heaters" / "Plug in oil heaters" should be hyphenated as "Plug-in".</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">48</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/why-smoke-alarm-location-matters-more-than-most-people-think/" target="_blank" rel="noopener">/why-smoke-alarm-location-matters-more-than-most-people-think/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">smoke alarms must be be installed at least 300mm away from wall junctions</span></td>
+        <td><span class="right">must be installed</span></td>
+        <td class="comment">Duplicated word "be be".</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">49</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/real-estate/" target="_blank" rel="noopener">/real-estate/</a></td>
+        <td class="loc">Body text — closing CTA</td>
+        <td><span class="wrong">protect your investment and meet all Victorian requirement s.</span></td>
+        <td><span class="right">requirements.</span></td>
+        <td class="comment">The word "requirements" is split by a space.</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="typo">
+        <td class="num">50</td>
+        <td class="url">20 pages</td>
+        <td class="loc">Image alt text + filename</td>
+        <td><span class="wrong">alt="calender" (calender.svg)</span></td>
+        <td><span class="right">calendar</span></td>
+        <td class="comment">"calender" → "calendar" (a calender is a machine for pressing paper).</td>
+        <td><span class="badge badge-typo">Typo</span></td>
+      </tr>
+      <tr data-type="us-en">
+        <td class="num">51</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — standards list</td>
+        <td><span class="wrong">Livable</span></td>
+        <td><span class="right">Liveable</span></td>
+        <td class="comment">US spelling. Australian English uses "liveable".</td>
+        <td><span class="badge badge-us-en">US English</span></td>
+      </tr>
+      <tr data-type="us-en">
+        <td class="num">52</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-standards-for-heating-in-victoria/" target="_blank" rel="noopener">/rental-minimum-standards-for-heating-in-victoria/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">currently in place to incentivize owners to replace gas systems</span></td>
+        <td><span class="right">incentivise</span></td>
+        <td class="comment">US -ize spelling. The rest of the site consistently uses -ise (specialise, minimise, organise).</td>
+        <td><span class="badge badge-us-en">US English</span></td>
+      </tr>
+      <tr data-type="us-en">
+        <td class="num">53</td>
+        <td class="url">/about/ (×2), <a href="https://compliancefdev.wpenginepowered.com/pakenham/" target="_blank" rel="noopener">/pakenham/</a>, <a href="https://compliancefdev.wpenginepowered.com/tarneit/" target="_blank" rel="noopener">/tarneit/</a>, <a href="https://compliancefdev.wpenginepowered.com/richmond/" target="_blank" rel="noopener">/richmond/</a>, <a href="https://compliancefdev.wpenginepowered.com/prahran/" target="_blank" rel="noopener">/prahran/</a>, 5 more suburb pages</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">We hold Building &amp; Plumbing Commission licenses, Energy Safe Victoria Electrical licenses / maintains all licenses through the Building and Plumbing Commission</span></td>
+        <td><span class="right">licences</span></td>
+        <td class="comment">In Australian English the noun is "licence" and only the verb is "license". 11 instances across 10 pages. Note the site uses the verb form "licensed" correctly elsewhere.</td>
+        <td><span class="badge badge-us-en">US English</span></td>
+      </tr>
+      <tr data-type="us-en">
+        <td class="num">54</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a>, <a href="https://compliancefdev.wpenginepowered.com/blog/" target="_blank" rel="noopener">/blog/</a>, 5 more</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Effective from March 29th, 2023 · came into effect from December 1, 2025 · As of December 1, 2025 · June 18, 2026</span></td>
+        <td><span class="right">29 March 2023 · 1 December 2025 · 18 June 2026</span></td>
+        <td class="comment">US month-day-year date format, used 25 times across 8 pages. Australian convention is day-month-year. The site also mixes in "1st of March, 2027" and "1st August, 1997" — pick one format and apply it everywhere.</td>
+        <td><span class="badge badge-us-en">US English</span></td>
+      </tr>
+      <tr data-type="us-en">
+        <td class="num">55</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/about/" target="_blank" rel="noopener">/about/</a></td>
+        <td class="loc">Body text — Our Core Values</td>
+        <td><span class="wrong">We aren't just inspectors; we are "Fixers."</span></td>
+        <td><span class="right">We aren't just inspectors; we are 'Fixers'.</span></td>
+        <td class="comment">US punctuation convention (full stop inside the closing quote). Australian style places it outside. This sentence also uses straight quotes while the rest of the site uses curly quotes.</td>
+        <td><span class="badge badge-us-en">US English</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">56</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-appliance-installations/" target="_blank" rel="noopener">/gas-appliance-installations/</a></td>
+        <td class="loc">Body text — closing CTA</td>
+        <td><span class="wrong">Ready to make sure safe, compliant gas appliance installation?</span></td>
+        <td><span class="right">Ready to arrange a safe, compliant gas appliance installation?</span></td>
+        <td class="comment">Broken sentence. This looks like a global find-and-replace of "ensure" → "make sure" that was not proofread — see the next four rows for the same fault.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">57</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/blind-cord-anchor-installations/" target="_blank" rel="noopener">/blind-cord-anchor-installations/</a></td>
+        <td class="loc">Body text — closing CTA</td>
+        <td><span class="wrong">Ready to make sure your property's blind cord compliance?</span></td>
+        <td><span class="right">Ready to sort out your property's blind cord compliance?</span></td>
+        <td class="comment">Same "ensure" → "make sure" replacement fault.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">58</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/carnegie/" target="_blank" rel="noopener">/carnegie/</a></td>
+        <td class="loc">Meta description</td>
+        <td><span class="wrong">Licensed and registered inspectors make sure rental compliance with Victorian standards.</span></td>
+        <td><span class="right">…ensure rental compliance with Victorian standards.</span></td>
+        <td class="comment">Broken grammar in a meta description — this is the text shown in Google search results.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">59</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/dandenong/" target="_blank" rel="noopener">/dandenong/</a></td>
+        <td class="loc">Meta description</td>
+        <td><span class="wrong">Licensed and registered inspectors make sure of Victorian compliance.</span></td>
+        <td><span class="right">…ensure Victorian compliance.</span></td>
+        <td class="comment">Broken grammar in a meta description.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">60</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/landlords/" target="_blank" rel="noopener">/landlords/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">saves landlords and property managers valuable time while making sure of complete compliance</span></td>
+        <td><span class="right">…while ensuring complete compliance</span></td>
+        <td class="comment">Same replacement fault.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">61</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/melbourne-cbd/" target="_blank" rel="noopener">/melbourne-cbd/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">When you partner Compliance Fixer, you're receiving:</span></td>
+        <td><span class="right">When you partner with Compliance Fixer, you'll receive:</span></td>
+        <td class="comment">Missing preposition "with".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">62</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/frankston/" target="_blank" rel="noopener">/frankston/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">over 100 years of combined industry experience and more than 50,000 inspections properties completed to date</span></td>
+        <td><span class="right">…and more than 50,000 property inspections completed to date</span></td>
+        <td class="comment">"inspections properties" — two nouns run together.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">63</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/sunshine/" target="_blank" rel="noopener">/sunshine/</a></td>
+        <td class="loc">Body text — why choose us list</td>
+        <td><span class="wrong">Safety inspections for more than 50,000 Melbourne properties across Melbourne</span></td>
+        <td><span class="right">Safety inspections for more than 50,000 Melbourne properties</span></td>
+        <td class="comment">"Melbourne" is repeated in the same clause.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">64</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/why-smoke-alarm-location-matters-more-than-most-people-think/" target="_blank" rel="noopener">/why-smoke-alarm-location-matters-more-than-most-people-think/</a></td>
+        <td class="loc">Body text + blog excerpt (og:description)</td>
+        <td><span class="wrong">After completing tens of thousands of smoke alarm inspections across Melbourne and Victoria, there a number of issues we find beyond an expired alarm.</span></td>
+        <td><span class="right">…there are a number of issues we find…</span></td>
+        <td class="comment">Missing verb "are". Because it is in the opening paragraph it also feeds the blog excerpt and the social sharing description.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">65</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-safety-check/" target="_blank" rel="noopener">/rental-safety-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">organising an annual inspection is a requirement for all rental providers in Victoria;</span></td>
+        <td><span class="right">…in Victoria.</span></td>
+        <td class="comment">Sentence terminated with a semicolon instead of a full stop.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">66</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-relocations/" target="_blank" rel="noopener">/smoke-alarm-relocations/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">our ESV-licensed electricians follow strict Australian Standards (AS 3786) and Victorian regulations ensure every alarm provides peak protection:</span></td>
+        <td><span class="right">…and Victorian regulations to ensure every alarm provides optimal protection:</span></td>
+        <td class="comment">Missing "to" creates a run-on. "Peak protection" / "peak detection" also read oddly — "optimal" or "maximum" is the natural wording.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">67</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a></td>
+        <td class="loc">Body text — inspection list</td>
+        <td><span class="wrong">We check every light, power point and appliance we can see and access leaving</span></td>
+        <td><span class="right">We check every light, power point and appliance we can see and access.</span></td>
+        <td class="comment">The sentence trails off with a stray "leaving".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">68</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">If there happens to be any minor problems, such as loose wiring…</span></td>
+        <td><span class="right">If there happen to be any minor problems…</span></td>
+        <td class="comment">Subject–verb disagreement ("problems" is plural).</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">69</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">combined packages that include smoke alarm, gas, and electrical, safety checks</span></td>
+        <td><span class="right">…smoke alarm, gas and electrical safety checks</span></td>
+        <td class="comment">Stray comma after "electrical" splits the noun phrase.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">70</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — standard 6, Heating</td>
+        <td><span class="wrong">it's mandatory that every rental property has fixed heating in the main living area that at least a 2-star energy efficiency</span></td>
+        <td><span class="right">…fixed heating in the main living area that is at least 2-star energy efficient</span></td>
+        <td class="comment">Missing verb — the clause has no predicate.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">71</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — standard 12, Electrical Safety</td>
+        <td><span class="wrong">although not mandatory to confirm with under the Rental Tenancies Act</span></td>
+        <td><span class="right">although not mandatory to comply with under the Residential Tenancies Act</span></td>
+        <td class="comment">"confirm" should be "comply" (and the Act is misnamed — see the Wrong content row above).</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">72</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — standard 2, Window Coverings</td>
+        <td><span class="wrong">Windows in rooms likely to be used as either bedrooms or living areas must be fit with coverings</span></td>
+        <td><span class="right">…must be fitted with coverings</span></td>
+        <td class="comment">Wrong verb form.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">73</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/minimum-rental-standards-in-victoria-2026/" target="_blank" rel="noopener">/minimum-rental-standards-in-victoria-2026/</a></td>
+        <td class="loc">Body text — standard 15, Bathrooms</td>
+        <td><span class="wrong">The shower head must be at least 3-star rated showerhead (moving to a 4-star rated unit in 2027).</span></td>
+        <td><span class="right">The showerhead must be at least a 3-star rated unit (moving to 4-star in 2027).</span></td>
+        <td class="comment">Missing article, and "shower head" and "showerhead" are spelt two different ways within a single sentence.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">74</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-standards-for-heating-in-victoria/" target="_blank" rel="noopener">/rental-minimum-standards-for-heating-in-victoria/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">To meet with the current heating standards, the heater must be:</span></td>
+        <td><span class="right">To meet the current heating standards…</span></td>
+        <td class="comment">"meet with" means to have a meeting. The correct phrase is "meet". The list that follows also mixes forms — "At least a 2-star…", "Fixed to the property…", "Have at least one outlet…" — and should be made parallel.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">75</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">You could be managing a portfolio of modern apartments or a single investment property, our technicians understand the specific risks…</span></td>
+        <td><span class="right">Whether you manage a portfolio of modern apartments or a single investment property, our technicians understand…</span></td>
+        <td class="comment">Comma splice — two independent clauses joined by a comma.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">76</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/areas-we-serve/" target="_blank" rel="noopener">/areas-we-serve/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">Our technicians have great understanding of body corporate protocols.</span></td>
+        <td><span class="right">Our technicians have a great understanding of Owners Corporation protocols.</span></td>
+        <td class="comment">Missing article "a".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">77</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-safety-check/" target="_blank" rel="noopener">/rental-safety-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Choosing the right partner for your rental compliance checks Victoria properties makes all the difference.</span></td>
+        <td><span class="right">Choosing the right partner for rental compliance checks on your Victorian properties makes all the difference.</span></td>
+        <td class="comment">The sentence is garbled — it reads as a keyword string rather than English.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">78</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-safety-check/" target="_blank" rel="noopener">/rental-safety-check/</a></td>
+        <td class="loc">H2 heading</td>
+        <td><span class="wrong">Why Choose Compliance Fixer for Your Rental Safety Inspections Victoria</span></td>
+        <td><span class="right">Why Choose Compliance Fixer for Your Rental Safety Inspections in Victoria</span></td>
+        <td class="comment">Missing preposition "in".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">79</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a></td>
+        <td class="loc">Body text — FAQ</td>
+        <td><span class="wrong">We can often turn urgent booking around in a few days!</span></td>
+        <td><span class="right">We can often turn urgent bookings around in a few days.</span></td>
+        <td class="comment">Should be plural "bookings".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">80</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a></td>
+        <td class="loc">Body text — closing CTA</td>
+        <td><span class="wrong">Our team operates every Monday to Friday between 8AM to 4PM, with office hours of 8AM to 5PM.</span></td>
+        <td><span class="right">Our team operates Monday to Friday from 8am to 4pm, with office hours of 8am to 5pm.</span></td>
+        <td class="comment">"between … to" is incorrect — use "between X and Y" or "from X to Y".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">81</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a></td>
+        <td class="loc">H2 heading</td>
+        <td><span class="wrong">Why We're the Go-to Team for Gas Safety Checks in Melbourne?</span></td>
+        <td><span class="right">Why We're the Go-To Team for Gas Safety Checks in Melbourne</span></td>
+        <td class="comment">A statement punctuated as a question. Either drop the question mark or rephrase as a question.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">82</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/when-are-interconnected-smoke-alarms-required/" target="_blank" rel="noopener">/when-are-interconnected-smoke-alarms-required/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">When alarms are installed and require to be interconnected, we usually interconnect with Bluetooth</span></td>
+        <td><span class="right">When alarms are installed and are required to be interconnected…</span></td>
+        <td class="comment">Wrong verb form. Also worth verifying the technical claim — smoke alarm interconnection is typically RF (e.g. 433 MHz) rather than Bluetooth.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">83</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Remember, there are no ifs, and or buts when it comes to compliance.</span></td>
+        <td><span class="right">…no ifs, ands or buts…</span></td>
+        <td class="comment">The idiom is mangled. The About page and Rental Safety Check page both use the correct "no ifs, ands, or buts".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">84</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-check/" target="_blank" rel="noopener">/smoke-alarm-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">getting your smoke alarm compliance certificate shouldn't have to be like pulling teeth out</span></td>
+        <td><span class="right">…shouldn't have to be like pulling teeth</span></td>
+        <td class="comment">The idiom is "pulling teeth" — "out" is redundant.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">85</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-check/" target="_blank" rel="noopener">/smoke-alarm-check/</a></td>
+        <td class="loc">Body text — opening paragraph</td>
+        <td><span class="wrong">Our Melbourne based inspectors are available…</span></td>
+        <td><span class="right">Our Melbourne-based inspectors…</span></td>
+        <td class="comment">Compound adjective before a noun needs a hyphen.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">86</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/rental-minimum-standard-checks/" target="_blank" rel="noopener">/rental-minimum-standard-checks/</a>, <a href="https://compliancefdev.wpenginepowered.com/rental-safety-rectification-works/" target="_blank" rel="noopener">/rental-safety-rectification-works/</a>, <a href="https://compliancefdev.wpenginepowered.com/electrical-appliance-installations/" target="_blank" rel="noopener">/electrical-appliance-installations/</a>, ~15 more</td>
+        <td class="loc">Body text — &quot;Why choose us&quot; cards</td>
+        <td><span class="wrong">95% client retention rate property managers trust us year after year · Expert team backed by the Fixer Group no subcontractors, ever · Fixed, Transparent Pricing No hidden costs or surprise charges</span></td>
+        <td><span class="right">95% client retention rate — property managers trust us year after year · Expert team backed by the Fixer Group — no subcontractors, ever · Fixed, transparent pricing: no hidden costs or surprise charges</span></td>
+        <td class="comment">Across the site the card label and its description are concatenated with no punctuation between them, so two separate ideas run together as one sentence. Add a colon, dash or line break in the template.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">87</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text — FAQ heading</td>
+        <td><span class="wrong">FAQ's</span></td>
+        <td><span class="right">FAQs</span></td>
+        <td class="comment">No apostrophe in a plural acronym.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">88</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text — comparison table</td>
+        <td><span class="wrong">Free Smoke Alarm Call-Outs (all year around)</span></td>
+        <td><span class="right">(all year round)</span></td>
+        <td class="comment">The phrase is "all year round". The Smoke Alarm Check page uses the correct "year-round".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">89</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/elwood/" target="_blank" rel="noopener">/elwood/</a></td>
+        <td class="loc">Body text — why choose us list</td>
+        <td><span class="wrong">fully licensed and registered technicians with no subcontractors</span></td>
+        <td><span class="right">Fully licensed and registered technicians with no subcontractors</span></td>
+        <td class="comment">This bullet starts in lowercase while every other bullet in the same list is capitalised.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">90</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/contact/" target="_blank" rel="noopener">/contact/</a></td>
+        <td class="loc">Body text — trust badge</td>
+        <td><span class="wrong">Licensed and Insured Electric</span></td>
+        <td><span class="right">Licensed and Insured Electrical</span></td>
+        <td class="comment">"Electric" should be "Electrical".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">91</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">over 2 million Victorian homes still have working gas connections in their homes and businesses</span></td>
+        <td><span class="right">over 2 million Victorian homes and businesses still have working gas connections</span></td>
+        <td class="comment">"homes" appears twice in the same sentence.</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="grammar">
+        <td class="num">92</td>
+        <td class="url">/ (homepage), <a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-check/" target="_blank" rel="noopener">/smoke-alarm-check/</a></td>
+        <td class="loc">Body text — why choose us list</td>
+        <td><span class="wrong">Over 100+ years of combined industry experience</span></td>
+        <td><span class="right">Over 100 years of combined industry experience</span></td>
+        <td class="comment">"Over" and "+" both mean "more than" — using both is redundant. The About page and most service pages already use the correct "Over 100 years".</td>
+        <td><span class="badge badge-grammar">Grammar</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">93</td>
+        <td class="url">54 pages (incl. /, <a href="https://compliancefdev.wpenginepowered.com/landlords/" target="_blank" rel="noopener">/landlords/</a>, <a href="https://compliancefdev.wpenginepowered.com/building-managers/" target="_blank" rel="noopener">/building-managers/</a>, <a href="https://compliancefdev.wpenginepowered.com/exhaust-fan-replacements/" target="_blank" rel="noopener">/exhaust-fan-replacements/</a>, <a href="https://compliancefdev.wpenginepowered.com/elwood/)" target="_blank" rel="noopener">/elwood/)</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">At Compliance Fixer , we specialise in… · built after 1 May 2014 . · Gas safety inspections : every 2 years · Services for landlords , property managers…</span></td>
+        <td><span class="right">At Compliance Fixer, we specialise in… · built after 1 May 2014. · Gas safety inspections: every 2 years · Services for landlords, property managers…</span></td>
+        <td class="comment">84 instances of a stray space before a comma, full stop or colon, across 54 pages. Almost all occur immediately after an inline link, so the fix is in how links are inserted rather than in the copy itself.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">94</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/sunshine/" target="_blank" rel="noopener">/sunshine/</a></td>
+        <td class="loc">Meta description</td>
+        <td><span class="wrong">Licensed and registered keeping your property compliant.. Fixed pricing and a fast turnaround.</span></td>
+        <td><span class="right">Licensed and registered technicians keep your property compliant. Fixed pricing and a fast turnaround.</span></td>
+        <td class="comment">Double full stop, plus a sentence with no subject ("Licensed and registered" what?). This is the text Google shows for the Sunshine page.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">95</td>
+        <td class="url">13 pages (incl. /, <a href="https://compliancefdev.wpenginepowered.com/gas-safety-check/" target="_blank" rel="noopener">/gas-safety-check/</a>, <a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/)" target="_blank" rel="noopener">/electrical-safety-check/)</a></td>
+        <td class="loc">Body text — source citations</td>
+        <td><span class="wrong">( Source: Consumer Affairs Victoria ) · ( Source: Energy Safe ) · ( Source )</span></td>
+        <td><span class="right">(Source: Consumer Affairs Victoria) · (Source: Energy Safe Victoria) · (Source)</span></td>
+        <td class="comment">Spaces inside the brackets on 22 citations. "Energy Safe" should also be "Energy Safe Victoria". "( Source )" alone is unhelpful link text — name the source.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">96</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/smoke-alarm-check/" target="_blank" rel="noopener">/smoke-alarm-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">Correct placement according to Australian Standards in the NCC(National Construction Code)</span></td>
+        <td><span class="right">…in the NCC (National Construction Code)</span></td>
+        <td class="comment">Missing space before the opening bracket. The same sentence is punctuated correctly on the suburb pages.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">97</td>
+        <td class="url"><a href="https://compliancefdev.wpenginepowered.com/electrical-safety-check/" target="_blank" rel="noopener">/electrical-safety-check/</a></td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">checks all installations against AS/NZS 3000 Electrical Installations".</span></td>
+        <td><span class="right">checks all installations against AS/NZS 3000 "Electrical Installations".</span></td>
+        <td class="comment">Closing quotation mark with no opening quotation mark. The preceding citation of AS/NZS 3019 in the same sentence is quoted correctly.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">98</td>
+        <td class="url">/ (homepage)</td>
+        <td class="loc">Body text</td>
+        <td><span class="wrong">We do this in accordance with the current standards found here .</span></td>
+        <td><span class="right">We do this in accordance with the current AS 4575 servicing standards.</span></td>
+        <td class="comment">Space before the full stop, and "here" is uninformative link text — name the standard or the source instead.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+      <tr data-type="punctuation">
+        <td class="num">99</td>
+        <td class="url">39 pages</td>
+        <td class="loc">Body text — opening hours</td>
+        <td><span class="wrong">8AM-5PM · 8AM–5PM · 8am-5pm · 8AM to 4PM</span></td>
+        <td><span class="right">8am–5pm</span></td>
+        <td class="comment">Opening hours are written four different ways across 49 instances on 39 pages, mixing capitalisation and hyphen/en-dash. Note the underlying hours also differ (8am–5pm office vs 8am–4pm on-site) — make sure the distinction is stated deliberately, not accidentally.</td>
+        <td><span class="badge badge-punctuation">Punctuation</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-divider">
+  <h2>Additional site-wide observations</h2>
+  <p>These are structural and consistency issues rather than spelling or grammar errors, but they affect how the site reads and how it will perform once live.</p>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <thead><tr><th>Observation</th><th>Detail</th></tr></thead>
+    <tbody>
+      <tr><td class="obs-title">Staging site is set to <code>noindex, nofollow</code></td><td>All 72 pages carry <code>&lt;meta name='robots' content='noindex, nofollow'&gt;</code>. That is correct for a development environment, but it must be removed at launch or the site will not rank. <code>robots.txt</code> is also empty (0 bytes).</td></tr>
+      <tr><td class="obs-title">No canonical tags anywhere</td><td>Not one of the 72 pages outputs a <code>rel="canonical"</code> link. Yoast is installed and normally emits these — they are being suppressed alongside the noindex. Re-check immediately after go-live.</td></tr>
+      <tr><td class="obs-title">10 pages have no meta description</td><td>All six blog posts plus <code>/blog/</code>, <code>/testimonials/</code>, <code>/services/</code> and <code>/solutions/</code>. Google will generate its own snippet for these.</td></tr>
+      <tr><td class="obs-title">53 meta descriptions exceed 160 characters</td><td>Longest are <code>/point-cook/</code> (202), <code>/carlton/</code> (194) and <code>/brunswick/</code> (195). These will be truncated in search results.</td></tr>
+      <tr><td class="obs-title">Six blog titles run 96–123 characters</td><td>For example <code>/minimum-rental-standards-in-victoria-2026/</code> at 123 characters. Title tags are cut off around 60.</td></tr>
+      <tr><td class="obs-title">The /services/ page is effectively empty</td><td>It contains only a breadcrumb and the generic tagline — no H1 body content, no service listing, no meta description. <code>/solutions/</code> and <code>/testimonials/</code> are similarly thin.</td></tr>
+      <tr><td class="obs-title">Blog posts contain no H2–H6 markup</td><td>In all six posts every sub-heading ("What Are the Minimum Rental Standards in Victoria?", "Why Does Dead Air Space Exist?" and so on) is styled body text rather than a real heading. This hurts both accessibility and how the articles are parsed.</td></tr>
+      <tr><td class="obs-title">Five audience pages share a near-identical H1</td><td><code>/landlords/</code>, <code>/property-managers/</code>, <code>/home-owners/</code>, <code>/building-managers/</code> and <code>/real-estate/</code> all use a variation of "Rental Safety Checks Melbourne – Gas, Electrical &amp; Smoke Alarm…", and the body copy is largely the same. These five pages compete with each other.</td></tr>
+      <tr><td class="obs-title">Two pairs of suburb pages are close to duplicates</td><td>With the suburb name removed, <code>/tarneit/</code> and <code>/werribee/</code> share 81% of their vocabulary, and <code>/bundoora/</code> and <code>/preston/</code> 80%. Median across all 34 suburb pages is 61%.</td></tr>
+      <tr><td class="obs-title">Homepage H3s render before the H1</td><td>The homepage opens with several H3 headings before the H1 appears, so the heading hierarchy does not reflect the visual order.</td></tr>
+      <tr><td class="obs-title">Decorative icons carry content alt text</td><td><code>alt="table-cross"</code> (620 uses), <code>alt="free Quote"</code> on <code>right-arrow-black.svg</code> (562), <code>alt="list-icon"</code> (340), and <code>alt="phone"</code> on the email icon <code>ft-email-icon.svg</code> (147). Decorative images should use <code>alt=""</code>; the email icon needs correcting either way.</td></tr>
+      <tr><td class="obs-title">"Comprehensive" appears to have been bulk-replaced</td><td>"Extensive" is used 129 times and "wide-ranging" 12 times in places where "comprehensive" is the natural word — for example "extensive reports", "wide-ranging reporting", "Carbon Monoxide testing included for wide-ranging safety". One page (<code>/sunshine/</code>) still says "Comprehensive", which suggests a partial find-and-replace.</td></tr>
+      <tr><td class="obs-title">Booking system described two different ways</td><td>"7-point booking system" on <code>/gas-safety-check/</code> and <code>/elwood/</code> versus "7-touchpoint system" on <code>/about/</code>, <code>/building-managers/</code> and <code>/areas-we-serve/</code>.</td></tr>
+      <tr><td class="obs-title">Report turnaround quoted inconsistently</td><td>"Report delivery within 24 hours" on <code>/smoke-alarm-check/</code> versus "within 24-48 hours" on <code>/areas-we-serve/</code>.</td></tr>
+      <tr><td class="obs-title">Technician headcount varies</td><td>"25+ licensed technicians" on most pages but "our 25 qualified technicians" on <code>/rcd-safety-switch-replacements/</code>.</td></tr>
+      <tr><td class="obs-title">Free minor gas leak repair claim sits oddly next to the paid service</td><td><code>/about/</code>, <code>/gas-leak-repair/</code> and the homepage all state that "minor gas leaks" are fixed free of charge during inspections, while <code>/gas-leak-repair/</code> sells gas leak repair as a service. Worth clarifying where the line falls.</td></tr>
+      <tr><td class="obs-title">Blog listing order is not chronological</td><td>The homepage "Latest Blogs" module lists 18 Jun, then 17 Jun, then 19 Jun 2026.</td></tr>
+      <tr><td class="obs-title">Building Code of Australia 2019 reference may be out of date</td><td><code>/minimum-rental-standards-in-victoria-2026/</code> cites "Building Code of Australia 2019" for ventilation. Worth confirming against the current NCC edition.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <p>All 72 URLs from <code>page-sitemap.xml</code> (66 pages) and
+  <code>post-sitemap.xml</code> (6 posts) were crawled and checked. Internal links on every
+  page were also collected — no pages were found outside the sitemap. All 72 URLs returned HTTP 200.</p>
+</footer>
+
+<script>
+  document.querySelectorAll('.filter').forEach(function (el) {
+    el.addEventListener('click', function () {
+      el.classList.toggle('off');
+      var off = Array.from(document.querySelectorAll('.filter.off')).map(function (x) { return x.dataset.f; });
+      document.querySelectorAll('#main tbody tr').forEach(function (tr) {
+        tr.style.display = off.indexOf(tr.dataset.type) === -1 ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
