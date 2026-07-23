@@ -288,3 +288,26 @@ Next: `/content:plan` per cluster → smoke → generate.
 ### ⚠️ OPEN ITEM before /content:generate — voice profile is EMPTY
 `voice-profile.md` is empty (neutral fallback) because this upgrade has no ingested corpus yet. Triage marked homepage + house-clean as **corpus** but `/content:ingest-approved` was never run, and brand.voice was not extracted from the forms. Before generating, build the voice profile from the two corpus pages (their live copy is the brand voice) via ingest, or extract a voice descriptor — otherwise the 22 pages generate in neutral tone, not Robot Cleaning Solutions' actual voice.
 ### Scratchpad note: sibling planner agents shared the session scratchpad and collided on a `run_plan.py` filename (idempotent re-lock, no damage). Give concurrent agents unique scratch filenames.
+
+---
+
+## content:generate + audit COMPLETE (2026-07-23) — 22/22 pages, 0 blocking findings
+
+All 22 pages written on **Opus** (2 hubs + 20 suburbs), 1,427–1,598 words each.
+- **Quality:** humanity 21×100 + 1×90 (threshold 70). Pairwise 3-gram Jaccard across all pages: **max 0.188, mean 0.067, ZERO pairs >0.30**. Hampton↔Mentone (both coastal) = 0.078.
+- **Audit gate: 22/22 clean, 0 blocking, 0 warnings.**
+
+### Model decision (2026-07-23)
+Analyst switched default to Opus mid-run and asked whether to restart from scratch. **Targeted redo, not restart** — research fixtures are raw API data (model-independent), and both plans + both hub pages were ALREADY Opus. Only the ~5 Sonnet suburb drafts were regenerated (archived to `content/<entry>/versions/sonnet-*.md`). Saved ~180 redundant paid API calls.
+
+### Audit defects found + fixed (worth remembering)
+1. **Em-dash = ZERO TOLERANCE** in this plugin (`punctuation_density_check.py`, analyst-directed v0.6.9). Any single em-dash blocks. The smoke page had 34.
+2. **`<!-- HTML comments -->` trigger a FALSE em-dash finding** — the `--` in comment syntax reads as an em-dash. Do NOT leave HTML comments in generated.md; put publish TODOs in `publish-notes.md` instead.
+3. **`honesty_numerical` fires on COMPETITOR figures**, even research-grounded ones (rival tenure "since 2013", price bands "$120–$291"). Keep the argument, drop the numbers — they go stale and read as a swipe.
+4. Two pages shared a closing FAQ pattern (`closing_pattern_overlap`) — vary closing question wording per suburb.
+
+### ⚠️ OPEN — needs client confirmation before publish
+**`cleaners-parkdale` leads on "Robot Cleaning Solutions is based in Parkdale".** This is NOT attested in the intake forms, client-profile.json (`business_address` omitted; forms say only "based in Melbourne, Victoria"), publishable_facts, or the research. It came from THIS memory file (prior kwr work recorded "based Parkdale VIC 3195") and was injected via the dispatch prompt — the writer caught it. **Lesson: do not inject facts from memory into generation prompts; memory is not a grounded source for publishable claims.** If confirmed, add to `client-profile.json > business_address` + the fact ledger; else re-cut that page on its heritage-finish/traffic-soot angle.
+
+### Also open
+- **EOL cross-links:** client has live End-of-Lease suburb pages (Ormond #7, Mordialloc #8, Moorabbin #13, Carnegie ranking) NOT in the Meta File/entries, so writers referenced them by name without guessing URLs. See `content/publish-notes.md` — hyperlink at publish.
