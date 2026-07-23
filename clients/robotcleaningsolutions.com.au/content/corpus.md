@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T00:41:38Z_
+_Rebuilt: 2026-07-23T00:56:02Z_
 
 ## cleaners-aspendale
 
@@ -62,17 +62,18 @@ _Rebuilt: 2026-07-23T00:41:38Z_
 - **Primary keyword:** house cleaning black rock
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1246
+- **Word count:** 1496
 - **Headings:**
-  - House Cleaning Black Rock, VIC 3193: A Dedicated Team, Not a Directory
-  - Robot Cleaning Solutions: Your Black Rock Cleaning Team
-  - A Dedicated Two-Person Team for Every Black Rock Home
-  - House Cleaning Services for Black Rock Homes
-  - The 24/7 Clean Membership: Fixed Pricing, Tailored to Your Home
-  - Eco-Friendly Products for Bayside's Finer Homes
-  - Black Rock House Cleaning: Frequently Asked Questions
-  - Book Your Free Quote for Black Rock
-- **First paragraph:** If you've searched for **house cleaning Black Rock** options recently, you've probably noticed the same handful of marketplace listings and national franchises on repeat, most promising the same gener
+  - House Cleaning Black Rock: A Two-Person Team Your Home Gets to Keep
+  - How Robot Cleaning Solutions Started
+  - Beyond "Insured and Police-Checked": Who Actually Walks In
+  - What We Clean in Black Rock, and How Often
+  - What the 24/7 Clean Membership Covers
+  - The Price Question Black Rock Searchers Keep Asking
+  - Premium-Grade Products, Chosen for What They Touch
+  - Black Rock Questions We Get Asked Most
+  - Talk to Us About Your Black Rock Home
+- **First paragraph:** Somewhere on a Bayside community group this month, a Black Rock resident is asking who to trust with a weekly clean, and the replies come back as first names. That thread tells you what **house cleani
 
 ## cleaners-brighton
 
@@ -112,6 +113,81 @@ _Rebuilt: 2026-07-23T00:41:38Z_
   - House Cleaning in Carnegie: Common Questions
   - Book Your Free Carnegie Quote
 - **First paragraph:** Plenty of Carnegie households first find us when a lease is ending. The ongoing **house cleaning Carnegie** homes need week to week is a different job altogether, and that is what this page covers: re
+
+## cleaners-caulfield
+
+- **Primary keyword:** house cleaning caulfield
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1538
+- **Headings:**
+  - House Cleaning Caulfield, VIC 3162: Judge Us on the Clean, Not the Years on the Sign
+  - Robot Cleaning Solutions: A Young Business, Built Deliberately
+  - Why We Send Two Cleaners to Every Caulfield Home
+  - What We Clean Across Caulfield, Caulfield North and Caulfield South
+  - 24/7 Clean: The Membership Most Caulfield Households Settle Into
+  - $120, $200, $350: Caulfield's Price Spread, and What It Leaves Out
+  - Premium Products, Vetted People, $10 Million in Cover
+  - Thirty Listings, Two Franchises and a Facebook Thread
+  - Caulfield House Cleaning, Question by Question
+  - Talk to Us About Your Caulfield Home
+- **First paragraph:** Ask a Caulfield community group who can clean a four-bedroom house and you will have a dozen names before dinner. It is a telling habit: search **house cleaning Caulfield** and the results are stacked
+
+## cleaners-cheltenham
+
+- **Primary keyword:** house cleaning cheltenham
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1525
+- **Headings:**
+  - House Cleaning Cheltenham, VIC 3192: One Insured Team, Booked Direct
+  - Robot Cleaning Solutions at a Glance
+  - What We Clean in Cheltenham, and How Often
+  - A Directory Full of Names, or One You Can Actually Call
+  - 24/7 Clean: The Membership That Keeps the Same Pair Coming Back
+  - Comparing Cheltenham Cleaning Prices Without the Guesswork
+  - Gentle on Your Home, Discreet in It
+  - What Cheltenham Households Ask Us Most
+  - Talk to Us About Your Cheltenham Home
+- **First paragraph:** Booking **house cleaning Cheltenham** households can rely on should take one phone call, not an afternoon spent gathering quotes. Robot Cleaning Solutions looks after houses, units and townhouses acro
+
+## cleaners-elsternwick
+
+- **Primary keyword:** house cleaning elsternwick
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1499
+- **Headings:**
+  - House Cleaning Elsternwick 3185: A Straight Answer on Trust, and on Price
+  - Robot Cleaning Solutions, in Brief
+  - The Question Elsternwick Keeps Asking Its Neighbours
+  - One Team for the Whole House, Not Four Separate Bookings
+  - 24/7 Clean: One Price, Agreed Before We Start
+  - Comparing Prices in 3185? Read the Unit, Not Just the Figure
+  - Gentle on Finishes, Safe for the People Who Live There
+  - Our Rounds Through Glen Eira and Bayside
+  - Elsternwick House Cleaning: What Locals Ask Before Booking
+  - Talk to Us About Your Elsternwick Home
+- **First paragraph:** Somewhere in a local community group this week, another Elsternwick resident is asking neighbours to recommend someone reliable to clean their house. That question keeps coming back because **house cl
+
+## cleaners-gardenvale
+
+- **Primary keyword:** house cleaning gardenvale
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1500
+- **Headings:**
+  - House Cleaning Gardenvale 3185: One Team Your Household Actually Knows
+  - Robot Cleaning Solutions: One Independent Bayside Business
+  - Why the Gardenvale Results Page Looks So Crowded
+  - Every Clean We Run in Gardenvale
+  - Bundling More Than the Weekly Clean
+  - Joining 24/7 Clean: What Members Get
+  - Gardenvale Cleaning Prices: One Figure, Agreed Before We Start
+  - Safe on Your Surfaces, Safe for Your Household
+  - What Gardenvale Households Ask Us
+  - Ready to Hand Over the Cleaning in Gardenvale?
+- **First paragraph:** What most Gardenvale households want from a cleaner is simple: one team that learns the house, arrives when it says it will, and leaves the place the way you would if you had a whole free afternoon. T
 
 ## luxury-house-cleaning
 
