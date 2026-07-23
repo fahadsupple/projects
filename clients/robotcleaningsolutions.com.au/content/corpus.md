@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T01:13:04Z_
+_Rebuilt: 2026-07-23T01:30:45Z_
 
 ## cleaners-aspendale
 
@@ -281,6 +281,101 @@ _Rebuilt: 2026-07-23T01:13:04Z_
   - Before You Book in Moorabbin
   - Start With a Free Walk-Through of Your Moorabbin Home
 - **First paragraph:** Ask around for **house cleaning Moorabbin** locals actually keep and you hear the same story: three quotes gathered, three strangers compared, one booked, the exercise repeated a few months later. Rob
+
+## cleaners-mordialloc
+
+- **Primary keyword:** house cleaning mordialloc
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1518
+- **Headings:**
+  - House Cleaning Mordialloc: We Take the Coastal Grime, You Take the Weekend
+  - Robot Cleaning Solutions: Where the Standard Comes From
+  - Salt, Sand and Coastal Grime in a Home You Actually Live In
+  - What Your Dedicated Pair Covers in Mordialloc
+  - 24/7 Clean: The Membership Built Around a Bayside Year
+  - A $45 Headline Rate and a $200 Median: Reading Mordialloc's Prices
+  - The Guarantee Behind Every Mordialloc Clean
+  - What Goes On Your Surfaces, and Who Is Holding the Cloth
+  - Where the End of Lease Cleaning Mordialloc Page Picks Up
+  - Mordialloc House Cleaning: The Questions We Answer on the Phone
+  - Get a Fixed Price for Your Mordialloc Home
+- **First paragraph:** A bayside address is worth the trade-off, and the trade-off is real. Sand comes home in beach towels, sports bags and dog paws, salt off the water dries onto window frames and flyscreens, and clearing
+
+## cleaners-murrumbeena
+
+- **Primary keyword:** house cleaning murrumbeena
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1517
+- **Headings:**
+  - House Cleaning Murrumbeena 3163: A Standard, Not an Hourly Rate
+  - Robot Cleaning Solutions: A Name, Not a Booking Reference
+  - Hourly Labour and a Maintained Home Are Two Different Purchases
+  - Three Bedrooms, Two Bathrooms and a Study: What Gets Cleaned
+  - 24/7 Clean: Everything the Fixed Price Includes
+  - Why the Kit Matters as Much as the Hours
+  - Bundled Into a Service Area, or Assigned a Team
+  - The Questions We Get Asked Around 3163
+  - Get a Real Price for Your Murrumbeena Home
+- **First paragraph:** A published rate card for cleaning in postcode 3163 opens at $20 to $30 an hour. It tells you what an hour of labour costs, and nothing about who arrives or whether they will be back in a fortnight. T
+
+## cleaners-ormond
+
+- **Primary keyword:** house cleaning ormond
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1515
+- **Headings:**
+  - House Cleaning Ormond, VIC 3204: How the Arrangement Works, Visit by Visit
+  - Robot Cleaning Solutions: The Short Version
+  - Visit One: The Walk-Through and the Fixed Quote
+  - From Visit Two: The Clean Your Ormond Home Runs On
+  - What a Year on 24/7 Clean Includes
+  - What's Inside the Price, and What Never Gets Added Later
+  - What We Bring Through the Door, and How We Work Once Inside
+  - What a Recommendation Is Really Asking For
+  - What Ormond Households Ask Before Handing Over a Key
+  - Set Up Your Ormond Clean This Week
+- **First paragraph:** Most households searching for **house cleaning Ormond** can genuinely rely on are not shopping for a single clean. They want to set something up properly, once, then stop thinking about it. So this pa
+
+## cleaners-parkdale
+
+- **Primary keyword:** house cleaning parkdale
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1500
+- **Headings:**
+  - House Cleaning Parkdale 3195: Our Own Suburb, Not a Service Area on a Map
+  - Robot Cleaning Solutions, a Parkdale Business
+  - What Parkdale's Older Homes Ask of a Cleaner
+  - Gentle Chemistry for Heritage Surfaces, and a Quiet Way of Working
+  - The Same Two Cleaners, Whichever Service You Book
+  - How Members Put a Parkdale Home on a Schedule
+  - Best or Cheapest? What Parkdale Actually Searches For
+  - Twenty-One Listings, or One Neighbour
+  - Parkdale House Cleaning: The Questions We Get on the Doorstep
+  - Your Free Parkdale Quote Starts With a Phone Call
+- **First paragraph:** Most companies that surface when you search **house cleaning Parkdale** are driving in from somewhere else. Robot Cleaning Solutions is not. Parkdale, VIC 3195, inside the City of Kingston, is the sub
+
+## cleaners-sandringham
+
+- **Primary keyword:** house cleaning sandringham
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1525
+- **Headings:**
+  - House Cleaning Sandringham: The Care of a Private Cleaner, the Backing of a Business
+  - Private Cleaner, or a Business That Sends One?
+  - Robot Cleaning Solutions: One Owner, One Point of Contact
+  - Everything a Sandringham Home Needs, From One Team
+  - Sandringham on a Membership: What 24/7 Clean Includes
+  - What a Sandringham Clean Costs, Once Everything Is Counted
+  - Judging "Best" When Every Listing Shows Five Stars
+  - Keys, Codes and Quiet: How We Work Inside Your Home
+  - Sandringham House Cleaning: The Questions Behind the Searches
+  - One Call, One Quote, One Team in Sandringham
+- **First paragraph:** Search **house cleaning Sandringham** and the searches beside it give the game away: locals want to know what a private cleaner really is, what a clean should cost, and how anyone picks the best from 
 
 ## luxury-house-cleaning
 
