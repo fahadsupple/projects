@@ -29,8 +29,6 @@ Our home cleaning services cover the whole house, so one team and one number han
 - **Tile and Grout Cleaning** as an add-on, useful in older bathrooms and busy entryways
 - **Bond and end of lease cleaning**, covered in full on our separate End of Lease Cleaning Ormond page
 
-<!-- PUBLISH: hyperlink "End of Lease Cleaning Ormond page" (here and in the FAQ answer below) to the live EOL Ormond URL. Do not guess the slug. -->
-
 Vacating a rental? Start on that page instead.
 
 Every visit is worked by a dedicated two-person team rather than one person moving down a list. Two trained cleaners get through a house in roughly half the elapsed time, with the robot-like precision the business is named for, and they are the same two next time. Apartment and townhouse cleaning works the same way, scaled to the property.

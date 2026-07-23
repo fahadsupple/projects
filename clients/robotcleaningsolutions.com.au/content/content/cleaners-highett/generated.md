@@ -12,7 +12,7 @@ This page stays on Highett. The full set of credentials, guarantees, cover and r
 
 ## Longevity Is One Kind of Proof. Consistency Is Another.
 
-Search this suburb and tenure is the loudest signal on the page. The operator holding the top local listings leads with 25+ years in business; a directory result advertises cleaning here since 1993. Years on the road prove a business can last. They answer a different question from the one households are asking, though: who is walking in on Thursday, and will it be the same two people in six months.
+Search this suburb and tenure is the loudest signal on the page. The operators holding the top local listings lead with decades in business; directory results advertise how far back their cleaning here goes. Years on the road prove a business can last. They answer a different question from the one households are asking, though: who is walking in on Thursday, and will it be the same two people in six months.
 
 Our answer is structural rather than historical. One dedicated two-person team takes on your Highett home, and the same pair returns visit after visit. They learn the house: which blind is temperamental, which bench wants the gentler product. You stop giving the tour, and you stop sizing up a stranger on the doorstep. Two cleaners working as a pair, in a set order, also finish a home in roughly half the time one person takes, with the robot-like precision the business is named for.
 
@@ -43,9 +43,9 @@ Most enquiries end here, because scheduled domestic home care removes a decision
 
 If you want a trusted maid service rather than a new name every few weeks, this is our version. Prefer flexibility? A one-off or deep clean is available without committing to a recurring house cleaner.
 
-## $175 for a Clean: What That Number Does and Doesn't Tell You
+## A Quoted Price for a Clean: What That Number Does and Doesn't Tell You
 
-One recent Highett job posted on a marketplace went through at $175 for a mop, vacuum, dust, two bathrooms, the stovetop, benches, laundry and bedrooms, in a house already tidy. Cleaning jobs here sit between $120 and $291 on the same platform. Those figures are real, and they explain why so many searches end in "prices", "cheap" and "best". What one number cannot tell you is what was included, or who did it.
+One recent Highett job posted on a marketplace went through at a single flat price for a mop, vacuum, dust, two bathrooms, the stovetop, benches, laundry and bedrooms, in a house already tidy. Quoted figures swing dramatically between listings on that same platform. Those prices are real, and they explain why so many searches end in "prices", "cheap" and "best". What one number cannot tell you is what was included, or who did it.
 
 So we quote the home instead of the hour. Membership pricing begins at $150 per week and is set against the size of your home, with products, equipment and your team built in and nothing added later. One-off, deep and end-of-lease cleans are quoted the same way, on site and free. If a visit misses the mark, tell us and we will come back to it. That is our satisfaction guarantee.
 
@@ -66,7 +66,7 @@ The service around those products is white glove home cleaning. Our professional
 ## Highett House Cleaning: The Questions That Come Up First
 
 **We keep being quoted by the hour. What should we actually be paying?**
-Local figures run from a $175 job to a $120 to $291 spread, none saying what was included. We price your home rather than the clock, so membership from $150 per week is the whole cost.
+Advertised rates vary widely across the local listings, and almost none of them say what was included. We price your home rather than the clock, so membership from $150 per week is the whole cost.
 
 **What do cleaners charge per hour in Australia, and why don't you?**
 Rates vary widely by provider and inclusions, which is why five quotes give five answers. An hour in a unit and an hour in a four-bedroom house are not the same purchase, and a meter rewards speed over finish.

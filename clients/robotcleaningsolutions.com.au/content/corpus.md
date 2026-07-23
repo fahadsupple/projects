@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T01:30:45Z_
+_Rebuilt: 2026-07-23T01:37:15Z_
 
 ## cleaners-aspendale
 
@@ -119,14 +119,14 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1538
+- **Word count:** 1541
 - **Headings:**
   - House Cleaning Caulfield, VIC 3162: Judge Us on the Clean, Not the Years on the Sign
   - Robot Cleaning Solutions: A Young Business, Built Deliberately
   - Why We Send Two Cleaners to Every Caulfield Home
   - What We Clean Across Caulfield, Caulfield North and Caulfield South
   - 24/7 Clean: The Membership Most Caulfield Households Settle Into
-  - $120, $200, $350: Caulfield's Price Spread, and What It Leaves Out
+  - Same Suburb, Wildly Different Quotes: Caulfield's Price Spread, and What It Leaves Out
   - Premium Products, Vetted People, $10 Million in Cover
   - Thirty Listings, Two Franchises and a Facebook Thread
   - Caulfield House Cleaning, Question by Question
@@ -156,7 +156,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning elsternwick
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1499
+- **Word count:** 1502
 - **Headings:**
   - House Cleaning Elsternwick 3185: A Straight Answer on Trust, and on Price
   - Robot Cleaning Solutions, in Brief
@@ -213,14 +213,14 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning highett
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1497
+- **Word count:** 1500
 - **Headings:**
   - House Cleaning Highett 3190: Two Cleaners Who Already Know Your Home
   - Robot Cleaning Solutions: Founded 2024, Still Owner-Run
   - Longevity Is One Kind of Proof. Consistency Is Another.
   - From the Weekly Visit to Bond Day: What We Cover in Highett
   - 24/7 Clean: Cleaning You Stop Having to Arrange
-  - $175 for a Clean: What That Number Does and Doesn't Tell You
+  - A Quoted Price for a Clean: What That Number Does and Doesn't Tell You
   - Vetted, Insured, and Easy to Check
   - A Step Above a Standard Clean: Products, Care and Discretion
   - Highett House Cleaning: The Questions That Come Up First
@@ -269,7 +269,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1523
+- **Word count:** 1502
 - **Headings:**
   - House Cleaning Moorabbin, VIC 3189: Booked Once, Not Re-Quoted Every Season
   - Robot Cleaning Solutions: 100+ Clients Since 2024
@@ -287,7 +287,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning mordialloc
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1518
+- **Word count:** 1493
 - **Headings:**
   - House Cleaning Mordialloc: We Take the Coastal Grime, You Take the Weekend
   - Robot Cleaning Solutions: Where the Standard Comes From
@@ -325,7 +325,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** house cleaning ormond
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1515
+- **Word count:** 1487
 - **Headings:**
   - House Cleaning Ormond, VIC 3204: How the Arrangement Works, Visit by Visit
   - Robot Cleaning Solutions: The Short Version
@@ -382,7 +382,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** luxury house cleaning melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1598
+- **Word count:** 1595
 - **Headings:**
   - Luxury House Cleaning Melbourne: White-Glove Care for Your Finest Home
   - What Is Luxury House Cleaning?
@@ -403,9 +403,9 @@ _Rebuilt: 2026-07-23T01:30:45Z_
 - **Primary keyword:** regular house cleaning melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1557
+- **Word count:** 1528
 - **Headings:**
-  - Regular House Cleaning Melbourne — The Same Dedicated Team, Every Week or Fortnight
+  - Regular House Cleaning Melbourne: The Same Dedicated Team, Every Week or Fortnight
   - Weekly or Fortnightly? Finding Your Home's Cleaning Rhythm
   - Your Same Dedicated Two-Person Team, Every Single Visit
   - About Robot Cleaning Solutions
@@ -414,7 +414,7 @@ _Rebuilt: 2026-07-23T01:30:45Z_
   - Eco-Friendly, Premium Products That Protect Your Home
   - Pricing Without the Per-Hour Guesswork
   - How Booking Works
-  - Regular House Cleaning — Your Questions Answered
+  - Regular House Cleaning: Your Questions Answered
   - Areas We Serve Across Bayside & South East Melbourne
   - Book Your Regular Clean
 - **First paragraph:** Reliable **regular house cleaning Melbourne** homeowners can count on shouldn't mean a different stranger at your door each visit and a meter running in the background. At Robot Cleaning Solutions, yo

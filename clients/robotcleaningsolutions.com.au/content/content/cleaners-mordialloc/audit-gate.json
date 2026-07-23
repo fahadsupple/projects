@@ -1,0 +1,21 @@
+{
+  "entry_id": "cleaners-mordialloc",
+  "gated_at": "2026-07-23T01:31:46.519Z",
+  "blocking_count": 1,
+  "waived_count": 0,
+  "findings": [
+    {
+      "code": "em_dash_page",
+      "severity": "blocking",
+      "category": "humanity",
+      "line_number": 0,
+      "excerpt": "",
+      "excerpt_hash": "sha256:65455386ff38b5ff2feb18778899d760e711f47799d8cb51249f7e3b91f798d2",
+      "rationale": "Em-dash present: 2 em-dash(es) across 1551 words. Em-dashes are banned from page copy ENTIRELY (v0.6.9 zero-tolerance, analyst-directed): they are the most recognised AI-content tell and clients flag them on review regardless of quality. Replace every one \u2014 full stop (usually best), comma, colon for label/value bullets ('2m\u00b3: from $250' or '2m\u00b3 from $250'), parentheses sparingly, 'to' for ranges. Count must be ZERO.",
+      "module": "punctuation_density_check",
+      "waived": false,
+      "waiver_reason": null
+    }
+  ],
+  "systemic_fp_warnings": []
+}

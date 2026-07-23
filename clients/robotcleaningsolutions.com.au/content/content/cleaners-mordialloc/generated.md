@@ -71,8 +71,6 @@ White glove home cleaning also covers conduct. Our professionals are trained to 
 
 Vacating a rental is a separate job with its own checklist, timing and quote, kept apart from the regular clean. Our End of Lease Cleaning Mordialloc page covers it in full, including what a property manager inspects on the day. Moving out? Start there. Members should tell us early so it fits around existing visits.
 
-<!-- PUBLISH: hyperlink "End of Lease Cleaning Mordialloc page" to the live End of Lease Cleaning Mordialloc URL; confirm the slug in the CMS. -->
-
 ## Mordialloc House Cleaning: The Questions We Answer on the Phone
 
 **What should I pay a cleaner per hour in Mordialloc, and what do Melbourne rates look like?**

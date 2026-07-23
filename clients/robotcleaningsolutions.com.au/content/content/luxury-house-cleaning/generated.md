@@ -36,11 +36,11 @@ Every one of these surfaces is cleaned with eco-friendly, premium-grade products
 
 Clarity matters as much as care. Every clean includes all products, equipment and our signature two-person team.
 
-**One-Off Standard Clean** — a full reset: light tidy and cobweb removal, dusting of all reachable surfaces, skirting boards, sills and doors, mirrors and switches; vacuum and mop throughout; full bathroom clean with tapware polished; and a complete kitchen wipe-down including stovetop, splashback, appliance exteriors and sink.
+**One-Off Standard Clean**: a full reset: light tidy and cobweb removal, dusting of all reachable surfaces, skirting boards, sills and doors, mirrors and switches; vacuum and mop throughout; full bathroom clean with tapware polished; and a complete kitchen wipe-down including stovetop, splashback, appliance exteriors and sink.
 
-**Weekly Residential Clean** and **Fortnightly Residential Clean** — the same thorough standard maintained on a recurring rhythm by your dedicated team, so the home stays consistently guest-ready.
+**Weekly Residential Clean** and **Fortnightly Residential Clean**: the same thorough standard maintained on a recurring rhythm by your dedicated team, so the home stays consistently guest-ready.
 
-**Deep Clean** — everything in a standard clean, plus interior oven and dishwasher, inside the fridge, under and behind the rangehood, shower and grout scrubbing, blind dusting, window tracks and sills, and internal cupboards.
+**Deep Clean**: everything in a standard clean, plus interior oven and dishwasher, inside the fridge, under and behind the rangehood, shower and grout scrubbing, blind dusting, window tracks and sills, and internal cupboards.
 
 What we do not do is worth stating plainly: we do not move heavy furniture, handle biohazards, or work at heights beyond safe reach. If your home has a specialist requirement, tell us at the quote stage and we will advise honestly on what we can take on.
 

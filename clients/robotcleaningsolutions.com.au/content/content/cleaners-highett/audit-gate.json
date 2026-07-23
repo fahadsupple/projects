@@ -1,0 +1,33 @@
+{
+  "entry_id": "cleaners-highett",
+  "gated_at": "2026-07-23T01:31:46.285Z",
+  "blocking_count": 2,
+  "waived_count": 0,
+  "findings": [
+    {
+      "code": "honesty_numerical",
+      "severity": "blocking",
+      "category": "honesty",
+      "line_number": 15,
+      "excerpt": "Search this suburb and tenure is the loudest signal on the page. The operator holding the top local listings leads with 25+ years in business; a directory result advertises cleaning here since 1993. Y",
+      "excerpt_hash": "sha256:03a31dbb7681cf95d41c7adb393992b0cdec3c46f8624ec5c8a425714bb23ca7",
+      "rationale": "Founding-year claim 'since 1993' does not match client-profile.json year_established=2024. Either content is wrong, or client-profile needs update.",
+      "module": "honesty_audit",
+      "waived": false,
+      "waiver_reason": null
+    },
+    {
+      "code": "honesty_numerical",
+      "severity": "blocking",
+      "category": "honesty",
+      "line_number": 69,
+      "excerpt": "Local figures run from a $175 job to a $120 to $291 spread, none saying what was included. We price your home rather than the clock, so membership from $150 per week is the whole cost.",
+      "excerpt_hash": "sha256:5ff9cf3ae985b1c37c2ded92b3a2e27846dcc2ce851a8a04ed8c4feb9d72611f",
+      "rationale": "Client-count overclaim: '175 job ' claims 175. Authoritative source shows client_count=100+. Match the cited figure.",
+      "module": "honesty_audit",
+      "waived": false,
+      "waiver_reason": null
+    }
+  ],
+  "systemic_fp_warnings": []
+}

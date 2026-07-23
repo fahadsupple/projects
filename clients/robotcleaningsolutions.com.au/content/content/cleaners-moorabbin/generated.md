@@ -23,8 +23,6 @@ Moorabbin is a core suburb on our regular round rather than the edge of a radius
 
 Bond and end of lease cleaning is a separate job with its own inspection checklist, timing and quote, and our dedicated End of Lease Cleaning Moorabbin page covers it in full. Vacating a rental? Start there. This page is about the home you are staying in.
 
-<!-- PUBLISH: link "End of Lease Cleaning Moorabbin page" (here and in the FAQ) to the live EOL Moorabbin URL. -->
-
 Every visit is delivered by a pair of trained cleaners working the house together, splitting rooms in a fixed order. That is the robot-like efficiency: two sets of hands finishing in half the elapsed time, the same way each visit. Apartment and townhouse cleaning runs on the same model, scaled to the property rather than to a stopwatch. Our rounds continue into [Highett](https://robotcleaningsolutions.com.au/cleaners-highett/) and [Cheltenham](https://robotcleaningsolutions.com.au/cleaners-cheltenham/) on the same schedule.
 
 ## If Something Goes Wrong, Who Do You Ring?

@@ -1,0 +1,21 @@
+{
+  "entry_id": "cleaners-elsternwick",
+  "gated_at": "2026-07-23T01:31:46.111Z",
+  "blocking_count": 1,
+  "waived_count": 0,
+  "findings": [
+    {
+      "code": "closing_pattern_overlap",
+      "severity": "blocking",
+      "category": "structural",
+      "line_number": 0,
+      "excerpt": "**How do I book a clean in Elsternwick?**",
+      "excerpt_hash": "sha256:6df7eb8425c309709c8f1cfcc362ed0bf4fd68b3e3a94b305fa3300b6388df88",
+      "rationale": "Closing tagline is 100% shared boilerplate with sibling 'cleaners-carnegie' \u2014 a slot-template closer. Write a closing specific to THIS entry.",
+      "module": "cluster_template_detection",
+      "waived": false,
+      "waiver_reason": null
+    }
+  ],
+  "systemic_fp_warnings": []
+}

@@ -6,7 +6,7 @@ Ask a Caulfield community group who can clean a four-bedroom house and you will 
 
 Zoe Brauer founded Robot Cleaning Solutions in 2024, arriving from a working life in hospitality that ended with her running two South Australian pubs. Since opening, the business has cleaned for 100+ clients across Bayside and South-East Melbourne. Our full credentials, guarantees and client feedback live on the [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) hub.
 
-We won't pretend to be the oldest name in Caulfield. One local operator has cleaned here since 2013 and counts more than thirty years in the trade, which is fair to weigh. We would rather be measured on what happens inside your home on a Tuesday morning.
+We won't pretend to be the oldest name in Caulfield. Long-established local names lead with decades in the trade, which is fair to weigh. We would rather be measured on what happens inside your home on a Tuesday morning.
 
 ## Why We Send Two Cleaners to Every Caulfield Home
 
@@ -39,9 +39,9 @@ Households who want a recurring house cleaner rather than a run of separate book
 
 It is closer to scheduled domestic home care than to housework you keep rebooking.
 
-## $120, $200, $350: Caulfield's Price Spread, and What It Leaves Out
+## Same Suburb, Wildly Different Quotes: Caulfield's Price Spread, and What It Leaves Out
 
-Caulfield searchers compare hard before booking, and the visible numbers explain the hesitation. One marketplace listing for Caulfield South displays house cleaning jobs in a $120 to $200 band. A regular clean posted in Caulfield North carried a $350 price, with the cleaner expected to bring their own equipment. Elsewhere the suburb is advertised on a flat hourly rate. None of those figures is comparable, because not one describes the same scope of work.
+Caulfield searchers compare hard before booking, and the advertised prices explain the hesitation. One marketplace listing for Caulfield South bands its house cleaning jobs inside a single range. A regular clean posted in Caulfield North sat well above that band, with the cleaner expected to bring their own equipment. Elsewhere the suburb is advertised on a flat hourly rate. None of those figures is comparable, because not one describes the same scope of work.
 
 We price the home instead of the hour. Membership pricing is fixed, all-inclusive and tailored to the size of your home, from $150 per week, with the exact figure confirmed once we have walked the place with you rather than estimated from a postcode. Products, equipment and the full team service sit inside it.
 
@@ -65,7 +65,7 @@ We cover the Glen Eira suburbs on either side of Caulfield too, including [Elste
 It is the wrong unit to buy in. An hourly rate sets your budget but never the standard, and it quietly rewards a slow clean. We quote a fixed, all-inclusive price against an agreed scope, so you pay for a finished home rather than elapsed time.
 
 **How much do house cleaners charge per hour in Melbourne?**
-Rates move constantly, and the Caulfield listings show how wide the spread runs: hourly advertising in one place, a $120 to $200 job band in another, a $350 posting in a third. Rather than add to that pile, we assess your home and give you one figure that holds.
+Rates move constantly, and the Caulfield listings show how wide the spread runs: hourly advertising in one place, a job band in another, a far dearer one-off posting in a third, and no way to tell what any of them covers. Rather than add to that pile, we assess your home and give you one figure that holds.
 
 **What should a cleaner do in 3 hours?**
 That depends entirely on the size of the home, which is why booking by time is risky. Two cleaners cover far more ground in the same window than one, and your quote defines what gets cleaned instead of how long anyone stays.

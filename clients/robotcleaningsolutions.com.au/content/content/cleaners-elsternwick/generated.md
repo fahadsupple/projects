@@ -84,7 +84,7 @@ A one-off standard clean is the smallest commitment we offer, quoted just as tra
 **Do you cover all of Elsternwick, 3185?**
 Yes, the whole suburb and the surrounding Glen Eira streets, as part of our work as Bayside Melbourne cleaners. Mention your street when you call and we will tell you the day we are nearby.
 
-**How do I book a clean in Elsternwick?**
+**What happens once I get in touch about my Elsternwick home?**
 Call 0421 633 370 or email us to arrange your free on-site quote. We walk the property with you, talk through weekly, fortnightly and one-off options, then give you a fixed price before anything is booked.
 
 ## Talk to Us About Your Elsternwick Home
