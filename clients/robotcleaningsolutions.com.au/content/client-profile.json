@@ -71,7 +71,14 @@
       "note": "RESOLVED 2026-07-22 by client: GBP shows 13 reviews at 5/5 and is growing day by day. Store 13 as current; prefer '5-star rated on Google' framing in copy over a hard count so it doesn't go stale. Re-confirm live count at publish."
     }
   ],
-  "notes": "year_established CONFIRMED 2024 by client (website: 'In late 2024, Robot Cleaning Solutions was born'); earlier 2025 fact-extractor signal was the form submission date — disregard. Domain CONFIRMED https://robotcleaningsolutions.com.au/. referral_rate reported as '5-10%' (Form2 Q4) — omitted from referral_rate_pct because the schema field is a single integer and the source is a range. Operating hours not stated (Form2 Q15 explicitly says response time 'isn't detailed on our website'); '24/7 Clean' is the membership product name, not trading hours. No fixed public street address stated in either form (service-area business), so business_address is omitted. Pricing (Form1 Q11): membership $150 small / $200 medium / $250 large per week or fortnight; End of Lease from $310 for empty properties.",
+  "notes": "Business based in Parkdale VIC 3195 (analyst-confirmed 2026-07-23); no public street address — suburb-level references only. year_established CONFIRMED 2024 by client (website: 'In late 2024, Robot Cleaning Solutions was born'); earlier 2025 fact-extractor signal was the form submission date — disregard. Domain CONFIRMED https://robotcleaningsolutions.com.au/. referral_rate reported as '5-10%' (Form2 Q4) — omitted from referral_rate_pct because the schema field is a single integer and the source is a range. Operating hours not stated (Form2 Q15 explicitly says response time 'isn't detailed on our website'); '24/7 Clean' is the membership product name, not trading hours. No fixed public street address stated in either form (service-area business), so business_address is omitted. Pricing (Form1 Q11): membership $150 small / $200 medium / $250 large per week or fortnight; End of Lease from $310 for empty properties.",
   "business_type_tokens": [],
-  "year_established": 2024
+  "year_established": 2024,
+  "business_address": {
+    "locality": "Parkdale",
+    "region": "VIC",
+    "postcode": "3195",
+    "country": "AU",
+    "_note": "CONFIRMED by analyst 2026-07-23: the business is based in Parkdale 3195. NO street address is public anywhere — street_address is intentionally omitted. Content may say the business is based in Parkdale (suburb level) but MUST NEVER state or invent a street number/name. 3195 is the BUSINESS's own postcode and must never be swapped for a target suburb's."
+  }
 }

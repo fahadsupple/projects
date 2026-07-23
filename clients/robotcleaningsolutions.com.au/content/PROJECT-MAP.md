@@ -1,6 +1,6 @@
 # robotcleaningsolutions.com.au — Project Map
 
-_Rebuilt: 2026-07-23T01:38:27Z_
+_Rebuilt: 2026-07-23T05:16:43Z_
 
 ## Snapshot
 
@@ -29,9 +29,6 @@ _Rebuilt: 2026-07-23T01:38:27Z_
 
 ## Recent events (last 10)
 
-- 2026-07-23T01:31:46.849Z  `audit_gate_blocked`  entry:regular-house-cleaning  (halted)
-- 2026-07-23T01:35:38.791Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T01:36:08.414Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-23T01:36:11.713Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-23T01:36:16.885Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-23T01:36:19.225Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
@@ -39,4 +36,7 @@ _Rebuilt: 2026-07-23T01:38:27Z_
 - 2026-07-23T01:36:29.713Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-23T01:37:14.115Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-23T01:37:15.390Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T01:38:27.487Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T01:38:27Z  `generation_and_audit_complete`  entry:?  ()
+- 2026-07-23T05:16:07.957Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 

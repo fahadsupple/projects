@@ -306,8 +306,15 @@ Analyst switched default to Opus mid-run and asked whether to restart from scrat
 3. **`honesty_numerical` fires on COMPETITOR figures**, even research-grounded ones (rival tenure "since 2013", price bands "$120–$291"). Keep the argument, drop the numbers — they go stale and read as a swipe.
 4. Two pages shared a closing FAQ pattern (`closing_pattern_overlap`) — vary closing question wording per suburb.
 
-### ⚠️ OPEN — needs client confirmation before publish
-**`cleaners-parkdale` leads on "Robot Cleaning Solutions is based in Parkdale".** This is NOT attested in the intake forms, client-profile.json (`business_address` omitted; forms say only "based in Melbourne, Victoria"), publishable_facts, or the research. It came from THIS memory file (prior kwr work recorded "based Parkdale VIC 3195") and was injected via the dispatch prompt — the writer caught it. **Lesson: do not inject facts from memory into generation prompts; memory is not a grounded source for publishable claims.** If confirmed, add to `client-profile.json > business_address` + the fact ledger; else re-cut that page on its heritage-finish/traffic-soot angle.
+### ✅ RESOLVED 2026-07-23 — Parkdale basing confirmed, SUBURB LEVEL ONLY
+Analyst confirmed: **the business IS based in Parkdale VIC 3195**, but the client has **never published a complete street address**. Recorded in `client-profile.json > business_address` as locality/region/postcode only — `street_address` intentionally OMITTED.
+**HARD RULE for all future content: reference Parkdale at suburb level only. Never state or invent a street number/name.** Verified zero street addresses across all 22 pages; `business_address_integrity` gate passes.
+**Lesson that still stands: do NOT inject facts from memory into generation prompts.** The claim happened to be true, but it was unattested in the engagement's grounded sources at the time and the writer correctly caught it. Memory is a prompt for verification, not a publishable source.
 
 ### Also open
 - **EOL cross-links:** client has live End-of-Lease suburb pages (Ormond #7, Mordialloc #8, Moorabbin #13, Carnegie ranking) NOT in the Meta File/entries, so writers referenced them by name without guessing URLs. See `content/publish-notes.md` — hyperlink at publish.
+
+
+## Campaign context — EOL keywords dropped, EOL PAGES STAY (analyst, 2026-07-23)
+End-of-lease keywords were part of the **initial** campaign and have now been **removed from targeting** (client doesn't want to target EOL). **The existing EOL suburb pages are NOT being removed — they stay live.**
+Implication for content: new house-cleaning pages must **complement, not cannibalise** them. Pages where the client's own EOL page already ranks for the house-cleaning query — **Ormond #7, Mordialloc #8, Moorabbin #13, Carnegie (EOL-only)** — treat bond/EOL as a separate job and cross-link to the live EOL page. Those EOL URLs are NOT in the Meta File/entries, so writers referenced them by name in prose without guessing slugs; see `content/publish-notes.md` for the hyperlink list.

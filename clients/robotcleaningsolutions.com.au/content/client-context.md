@@ -1,6 +1,6 @@
 # robotcleaningsolutions.com.au — Content Plugin Context
 
-_Rebuilt: 2026-07-23T01:38:27Z_
+_Rebuilt: 2026-07-23T05:16:43Z_
 
 ## 1. Who this client is
 
