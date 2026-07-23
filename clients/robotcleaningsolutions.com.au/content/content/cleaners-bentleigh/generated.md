@@ -26,6 +26,8 @@ Across Bentleigh and Bentleigh East we offer:
 
 House, townhouse or apartment, the scope is agreed at your quote so you know exactly what is covered before we start. Bentleigh sits within the City of Glen Eira, and we run it alongside our Bayside rounds, which is how we keep scheduling tight as genuinely local residential cleaners rather than a dispatch service sending someone across town.
 
+**Call us now on 0421 633 370** for a free, no-obligation quote on any of these services.
+
 ## Fixed, All-Inclusive Pricing With the 24/7 Clean Membership
 
 Search this suburb and you'll notice how much of the field advertises price in fragments: an hourly rate here, a "from" figure there, and still no real idea what your own home will cost. We work the other way around.
@@ -40,17 +42,23 @@ Our exclusive 24/7 Clean membership gives you one fixed, all-inclusive price, ta
 
 Membership starts from $150 per week, tailored to your home size, and that tailoring is exactly why we quote on site rather than guessing over the phone. We look at bedrooms and bathrooms, the surfaces involved and the level of care your home needs, then give you one number that doesn't move. If you'd like to understand the ongoing option in more depth first, our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page walks through how weekly and fortnightly cleaners work in practice.
 
+Want to know what your own home would cost? **Phone 0421 633 370** and we'll book your free on-site assessment.
+
 ## Eco-Friendly Products and White-Glove Care
 
 We use only eco-friendly, premium-grade products chosen for luxury finishes, fine furniture and delicate materials, so stone benchtops, timber floors and polished tapware are treated properly rather than scrubbed with whatever came off a supermarket shelf. Non-toxic, eco-friendly cleaning also means a home that's safe for children and pets from the moment we pack up.
 
 White-glove home cleaning is as much about conduct as it is about chemistry. Our team is expertly trained, works quietly around you, and respects your privacy whether you're home for the visit or leaving a key.
 
+Have a surface you're protective of? **Talk it through with us on 0421 633 370** before you book.
+
 ## One Team You Know, Not a Rotating List of Names
 
 A marketplace listing can put dozens of available cleaners in front of you within minutes. What it can't do is send the same two people back to your Bentleigh home next fortnight. Every new name means explaining the sunroom again, the dog, the alarm code, and the one surface you'd rather nobody sprayed.
 
 Our clients tell us consistency is the whole difference, and it shows: 95% of them stay on with us as regulars rather than going back to the search bar. Our team is fully vetted and insured, and we're proud of our five-star rating on Google, built from real homes in this part of Melbourne. We won't out-count a national franchise on review volume, and we don't try to. We'd rather you judged us on the rating and on the two people who turn up.
+
+Ready to meet the team who'll look after your home? **Ring 0421 633 370** and we'll arrange a time that suits.
 
 ## House Cleaning in Bentleigh: Your Questions Answered
 
@@ -64,7 +72,14 @@ Hourly rates vary widely between operators, and that uncertainty is exactly what
 The more useful question is what a clean should cost for your specific home. Book a free on-site assessment and we'll quote the whole job, with products and equipment included and nothing added afterwards.
 
 **What should a cleaner do in three hours?**
-With a pair working together, three hours on site is closer to six hours of labour. A standard clean covers kitchen benches, stovetop, splashback and sink; bathrooms scrubbed, disinfected and polished; dusting across reachable surfaces, skirting boards, sills and switches; and vacuuming and mopping throughout. Oven interiors, fridges and grout belong to the deep clean.
+With a pair working together, three hours on site is closer to six hours of labour. A standard clean covers:
+
+- **Kitchen:** benches, stovetop, splashback and sink
+- **Bathrooms:** scrubbed, disinfected and polished
+- **Dusting:** reachable surfaces, skirting boards, sills and switches
+- **Floors:** vacuumed and mopped throughout
+
+Oven interiors, fridges and grout belong to the deep clean.
 
 **What is the 20-minute rule of cleaning?**
 It's a popular household habit: set a timer for 20 minutes and tidy without stopping. Useful for daily upkeep, but it will never reach grout, oven interiors or window tracks. That's the work a scheduled professional clean is for.
@@ -72,9 +87,17 @@ It's a popular household habit: set a timer for 20 minutes and tidy without stop
 **Can you do an end of lease clean in Bentleigh?**
 Yes. Bond back and end of lease cleaning is one of our core services, quoted per property rather than folded into a membership. Call us with the address and we'll arrange an inspection.
 
+Still got a question about your own home? **Speak to us on 0421 633 370** and we'll answer it on the spot.
+
 ## Areas We Cover Near Bentleigh
 
-Bentleigh sits right in the middle of our patch. We clean regularly in [McKinnon](https://robotcleaningsolutions.com.au/cleaners-mckinnon/) and [Ormond](https://robotcleaningsolutions.com.au/cleaners-ormond/) just up the line, along with Moorabbin, Highett, Murrumbeena and Carnegie. If you've been searching for domestic cleaners near me, or for a trusted maid service in this pocket of Bayside Melbourne, you're already well inside our service area.
+Bentleigh sits right in the middle of our patch. Nearby suburbs we clean regularly include:
+
+- [McKinnon](https://robotcleaningsolutions.com.au/cleaners-mckinnon/) and [Ormond](https://robotcleaningsolutions.com.au/cleaners-ormond/), just up the line
+- Moorabbin and Highett
+- Murrumbeena and Carnegie
+
+If you've been searching for domestic cleaners near me, or for a trusted maid service in this pocket of Bayside Melbourne, you're already well inside our service area.
 
 ## Book Your Free Bentleigh House Clean Quote
 

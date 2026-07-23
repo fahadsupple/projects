@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T05:19:10Z_
+_Rebuilt: 2026-07-23T05:26:35Z_
 
 ## cleaners-aspendale
 
 - **Primary keyword:** house cleaning aspendale
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1482
+- **Word count:** 1586
 - **Headings:**
   - House Cleaning Aspendale: One Dedicated Team, Every Visit
   - About Robot Cleaning Solutions
@@ -26,7 +26,7 @@ _Rebuilt: 2026-07-23T05:19:10Z_
 - **Primary keyword:** house cleaning beaumaris
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1474
+- **Word count:** 1610
 - **Headings:**
   - House Cleaning Beaumaris VIC 3193: The Same Team at Your Door, Every Visit
   - The Robot Cleaning Solutions Team Behind Your Beaumaris Clean
@@ -44,7 +44,7 @@ _Rebuilt: 2026-07-23T05:19:10Z_
 - **Primary keyword:** house cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1427
+- **Word count:** 1532
 - **Headings:**
   - House Cleaning Bentleigh & Bentleigh East: One Dedicated Team, One Fixed Price
   - Zoe Brauer and the Robot Cleaning Solutions Team
@@ -62,7 +62,7 @@ _Rebuilt: 2026-07-23T05:19:10Z_
 - **Primary keyword:** house cleaning black rock
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1496
+- **Word count:** 1610
 - **Headings:**
   - House Cleaning Black Rock: A Two-Person Team Your Home Gets to Keep
   - How Robot Cleaning Solutions Started
@@ -382,7 +382,7 @@ _Rebuilt: 2026-07-23T05:19:10Z_
 - **Primary keyword:** luxury house cleaning melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1595
+- **Word count:** 1706
 - **Headings:**
   - Luxury House Cleaning Melbourne: White-Glove Care for Your Finest Home
   - What Is Luxury House Cleaning?
@@ -403,7 +403,7 @@ _Rebuilt: 2026-07-23T05:19:10Z_
 - **Primary keyword:** regular house cleaning melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1528
+- **Word count:** 1649
 - **Headings:**
   - Regular House Cleaning Melbourne: The Same Dedicated Team, Every Week or Fortnight
   - Weekly or Fortnightly? Finding Your Home's Cleaning Rhythm

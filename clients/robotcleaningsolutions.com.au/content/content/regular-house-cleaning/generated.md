@@ -11,6 +11,8 @@ The first decision in any recurring clean is cadence, and it's a practical one r
 
 Not sure which fits? During your free on-site assessment we'll look at your home's size, how it's lived in, and your budget, then recommend the cadence that keeps it looking its best, and you can adjust the rhythm any time as life changes.
 
+**Call us now on 0421 633 370** and we'll help you settle on the right rhythm, with a free, no-obligation quote.
+
 ## Your Same Dedicated Two-Person Team, Every Single Visit
 
 Here's where a Robot Cleaning Solutions regular clean works differently from the industry norm. Many Melbourne services send a single cleaner, often a different one each time, so every visit starts with re-explaining where things go and what you care about.
@@ -35,6 +37,8 @@ Our regular cleaning is delivered through **24/7 Clean**, an exclusive membershi
 - **A dedicated team for consistency**, so it's the same trusted pair every visit.
 - **Priority scheduling**, so members always get preferred booking slots, even in peak periods.
 
+Want the 24/7 Clean membership tailored to your home? **Phone 0421 633 370** and we'll walk you through the options.
+
 ## What's Included in Every Regular Clean
 
 We name exactly what we do, so there are no surprises. Every **Weekly Residential Clean**, **Fortnightly Residential Clean** and **One-Off Standard Clean** covers the surfaces and rooms you use most:
@@ -44,17 +48,38 @@ We name exactly what we do, so there are no surprises. Every **Weekly Residentia
 - **Bathrooms:** scrubbing bath, shower and sinks, wiping benches, cleaning mirrors, polishing tapware and chrome, and disinfecting the toilet.
 - **Kitchen:** cleaning the stovetop, rangehood exterior, bench tops, splashback and appliance exteriors, scrubbing the sink, and polishing stainless steel.
 
-**What sits outside a standard regular clean** (interior oven, fridge and dishwasher cleaning, shower-grout scrubbing, blind dusting and detailed window tracks) is exactly what a **Deep Clean** adds on top. Members receive these as their seasonal deep-clean upgrades, or you can book a Deep Clean as a one-off add-on any time.
+**What sits outside a standard regular clean** is exactly what a **Deep Clean** adds on top:
+
+- **Interior appliances:** inside the oven, fridge and dishwasher.
+- **Shower grout:** scrubbed back rather than surface-wiped.
+- **Blinds and window tracks:** dusted blinds and detailed tracks.
+
+Members receive these as their seasonal deep-clean upgrades, or you can book a Deep Clean as a one-off add-on any time.
+
+Not sure whether your home needs a regular clean, a Deep Clean, or both? **Call 0421 633 370** and we'll talk it through before you book anything.
 
 ## Eco-Friendly, Premium Products That Protect Your Home
 
-The products we bring matter as much as the effort. We use only **eco-friendly, premium-grade cleaning products**, specifically chosen to be safe on luxury finishes, fine furniture and delicate materials, and non-toxic and safe around children and pets. Because we're in your home week after week, that gentle-but-effective cleaning steadily reduces the dust, allergens and bacteria of a busy household, leaving a healthier home you can breathe easy in.
+The products we bring matter as much as the effort. We use only **eco-friendly, premium-grade cleaning products**, specifically chosen to be:
+
+- **Safe on premium surfaces:** suitable for luxury finishes, fine furniture and delicate materials.
+- **Non-toxic:** safe around children and pets.
+
+Because we're in your home week after week, that gentle-but-effective cleaning steadily reduces the dust, allergens and bacteria of a busy household, leaving a healthier home you can breathe easy in.
 
 ## Pricing Without the Per-Hour Guesswork
 
 Search "regular house cleaning Melbourne cost" and you'll find hourly rates and forum threads of people comparing what they paid, because pay-per-hour pricing leaves you doing mental maths and hoping the job doesn't run over.
 
-We do it differently. Your 24/7 Clean membership is **flat, transparent and all-inclusive**: cleaning products, equipment and our signature two-person team service all included, with no hidden fees and no watching the clock. The price is **tailored to your home's size and cleaning needs** and confirmed after a free on-site assessment, so you know exactly what you'll pay before we start. That's price certainty you can budget around.
+We do it differently. Your 24/7 Clean membership is **flat, transparent and all-inclusive**:
+
+- **Products and equipment:** included in the one price.
+- **Our signature two-person team service:** included as standard, not an optional extra.
+- **No hidden fees and no watching the clock:** the quoted price is the price.
+
+The price is **tailored to your home's size and cleaning needs** and confirmed after a free on-site assessment, so you know exactly what you'll pay before we start. That's price certainty you can budget around.
+
+Ready for a flat, all-inclusive price on your home? **Call 0421 633 370** to book your free on-site assessment.
 
 ## How Booking Works
 

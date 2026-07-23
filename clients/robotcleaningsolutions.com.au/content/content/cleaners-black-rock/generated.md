@@ -12,13 +12,18 @@ The full picture of how we work, including our guarantees, insurance cover and w
 
 ## Beyond "Insured and Police-Checked": Who Actually Walks In
 
-Search for domestic cleaners near me in Black Rock and the results split into two camps. National franchises, whose entire pitch is a credential badge: insured, police-checked, trained. And marketplaces, where you post a job, gather three quotes and take whoever answers first, one of which claims more than seventy available cleaners in the suburb.
+Search for domestic cleaners near me in Black Rock and the results split into two camps:
+
+- **National franchises**, whose entire pitch is a credential badge: insured, police-checked, trained
+- **Marketplaces**, where you post a job, gather three quotes and take whoever answers first, one of which claims more than seventy available cleaners in the suburb
 
 Vetting and insurance are the floor, not the difference, and our team is fully vetted and insured too. What a badge cannot tell you is who is coming on Thursday, or whether that person will still be doing your house in six weeks.
 
 Your Black Rock home is assigned one dedicated two-person team, and that pair comes back clean after clean. They learn which shower needs the extra minute, where the good glassware lives, that the hallway timber hates a wet mop, and which door is better left closed. Nothing gets re-explained. Nobody new needs re-vetting at your front door.
 
 We are five-star rated on Google. A national franchise will always carry more reviews than a business founded in 2024. What we point to instead is the rating itself, and the 95% of clients who book us again.
+
+Want to know exactly who would be looking after your home? **Call us on 0421 633 370** and ask us anything before you book a thing.
 
 ## What We Clean in Black Rock, and How Often
 
@@ -35,6 +40,8 @@ Our home cleaning services for Black Rock cover:
 
 Apartment and townhouse cleaning is handled exactly as a freestanding house is. As local residential cleaners working across Bayside, we would rather quote the actual rooms than a category.
 
+Not sure which of these your home actually needs? **Call us now on 0421 633 370** for a free, no-obligation quote.
+
 ## What the 24/7 Clean Membership Covers
 
 Most Black Rock enquiries end up here, because the appeal of scheduled domestic home care is that it stops being a decision you keep making. The 24/7 Clean membership includes:
@@ -48,13 +55,23 @@ Most Black Rock enquiries end up here, because the appeal of scheduled domestic 
 
 If what you want is a trusted maid service rather than a new name each fortnight, this is the version of it we built.
 
+To start the 24/7 Clean membership, or simply to hear what it would look like for your household, **phone 0421 633 370**.
+
 ## The Price Question Black Rock Searchers Keep Asking
 
 Quote-comparison sites covering Black Rock 3193 advertise cleaning from around $20 to $30 an hour, which is why so many locals arrive already holding numbers. The trouble with an hourly rate is that it prices time rather than a finished home. A cheap hour with a stopwatch running can still leave the oven untouched.
 
-Membership pricing runs the other way. One fixed, all-inclusive fee tailored to the size of your home, from $150 per week, with products, equipment and your dedicated team included and nothing added afterwards. The only number that really matters is the one for your house, so we quote it in person, on site, free and without obligation.
+Membership pricing runs the other way. One fixed, all-inclusive fee tailored to the size of your home, from $150 per week, which covers:
+
+- **Products and equipment**, included in the fee
+- **Your dedicated two-person team**, on every visit
+- **Nothing added afterwards**, no hidden fees and no meter running
+
+The only number that really matters is the one for your house, so we quote it in person, on site, free and without obligation.
 
 And if a clean is not right, say so. Client satisfaction is the point of the business, and we would rather come back and put it right than have you live with it.
+
+The quickest way to get the number for your house is to ask for it. **Ring 0421 633 370** and we will book your free on-site quote.
 
 ## Premium-Grade Products, Chosen for What They Touch
 

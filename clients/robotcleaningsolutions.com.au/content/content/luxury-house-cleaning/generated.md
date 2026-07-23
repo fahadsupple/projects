@@ -6,7 +6,13 @@ This is for the homeowner who already knows what they want: a discreet, consiste
 
 ## What Is Luxury House Cleaning?
 
-Luxury house cleaning is a service defined by three things a budget clean cannot offer: specialist knowledge of high-value materials, absolute discretion, and consistency you never have to re-explain. It is the difference between someone wiping a marble benchtop with whatever spray is in the caddy, and a trained professional who knows that stone is porous and easily etched, so they reach for a pH-neutral product instead.
+Luxury house cleaning is a service defined by three things a budget clean cannot offer:
+
+- **Specialist knowledge** of high-value materials.
+- **Absolute discretion** in your home.
+- **Consistency** you never have to re-explain.
+
+It is the difference between someone wiping a marble benchtop with whatever spray is in the caddy, and a trained professional who knows that stone is porous and easily etched, so they reach for a pH-neutral product instead.
 
 In practice, it means the same familiar faces each visit, a documented protocol applied to every room, and premium equipment that lifts allergens and dust rather than pushing them around. It also means white-glove attention to the details others skip: chandelier dusting, the tops of tall joinery, the grooves of ornate skirting, and the soft furnishings that make a house feel like home. For high-value properties across Melbourne's Bayside and South East, that standard is what we were built to deliver.
 
@@ -32,17 +38,34 @@ The fastest way to damage a beautiful home is to clean it with the wrong product
 
 Every one of these surfaces is cleaned with eco-friendly, premium-grade products chosen specifically for luxury finishes, fine furniture and delicate materials. Because they are non-toxic, they are also safer for your family: they reduce allergens, dust and bacteria without leaving harsh chemical residue on the surfaces you touch every day. A luxury home should be healthier to live in, not just better looking.
 
+**Call us now on 0421 633 370** for a free, no-obligation quote, and tell us which surfaces in your home need special care.
+
 ## What Each Clean Covers
 
 Clarity matters as much as care. Every clean includes all products, equipment and our signature two-person team.
 
-**One-Off Standard Clean**: a full reset: light tidy and cobweb removal, dusting of all reachable surfaces, skirting boards, sills and doors, mirrors and switches; vacuum and mop throughout; full bathroom clean with tapware polished; and a complete kitchen wipe-down including stovetop, splashback, appliance exteriors and sink.
+**One-Off Standard Clean**: a full reset of the home, covering:
+
+- **Throughout:** light tidy and cobweb removal, dusting of all reachable surfaces, skirting boards, sills and doors, mirrors and switches.
+- **Floors:** vacuum and mop throughout.
+- **Bathroom:** full clean with tapware polished.
+- **Kitchen:** complete wipe-down including stovetop, splashback, appliance exteriors and sink.
 
 **Weekly Residential Clean** and **Fortnightly Residential Clean**: the same thorough standard maintained on a recurring rhythm by your dedicated team, so the home stays consistently guest-ready.
 
-**Deep Clean**: everything in a standard clean, plus interior oven and dishwasher, inside the fridge, under and behind the rangehood, shower and grout scrubbing, blind dusting, window tracks and sills, and internal cupboards.
+**Deep Clean**: everything in a standard clean, plus:
+
+- Interior oven and dishwasher.
+- Inside the fridge.
+- Under and behind the rangehood.
+- Shower and grout scrubbing.
+- Blind dusting.
+- Window tracks and sills.
+- Internal cupboards.
 
 What we do not do is worth stating plainly: we do not move heavy furniture, handle biohazards, or work at heights beyond safe reach. If your home has a specialist requirement, tell us at the quote stage and we will advise honestly on what we can take on.
+
+Not sure which clean your home needs? **Call 0421 633 370** and we will talk it through with you, free and with no obligation.
 
 ## The 24/7 Clean Membership for Luxury Homeowners
 
@@ -56,6 +79,8 @@ For homeowners who want their standards maintained without a second thought, our
 
 No other luxury cleaner in Melbourne packages ongoing care this way. It is the closest thing to your own household cleaning team, without the overhead of employing one.
 
+To ask about joining the 24/7 Clean membership, **speak with us on 0421 633 370** and we will build it around your household.
+
 ## Discretion, Privacy and Confidentiality
 
 When you welcome a team into a high-value home, discretion is not a bonus, it is the baseline. Our professionals are trained to work quietly and respectfully, to be present only where needed, and to keep everything they see inside your home private. Many of our clients value their confidentiality as much as their finishes, and we treat both with equal seriousness. A consistent, vetted team is central to this: you are never introducing yourself to a stranger, and your home is never an open book.
@@ -67,6 +92,8 @@ Luxury homes are not one-size-fits-all, so we do not price them that way. Rather
 ## Areas We Serve Across Bayside and South East Melbourne
 
 We provide luxury house cleaning across Melbourne's Bayside and South East, including the leafy, high-value pockets of [Brighton](https://robotcleaningsolutions.com.au/cleaners-brighton/) and [Sandringham](https://robotcleaningsolutions.com.au/cleaners-sandringham/), and throughout the surrounding suburbs listed on our [areas we serve](https://robotcleaningsolutions.com.au/areas-we-serve/) page. If you prefer a straightforward recurring maintenance service, our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page covers weekly and fortnightly options in detail.
+
+Not certain we reach your street? **Ring 0421 633 370** and we will confirm your suburb and book your free on-site assessment.
 
 ## Frequently Asked Questions
 

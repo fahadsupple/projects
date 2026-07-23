@@ -24,6 +24,8 @@ Across Aspendale we handle:
 
 Our regular rounds run right along this stretch of the bay, so if family or neighbours are nearby we also cover [house cleaning in Mordialloc](https://robotcleaningsolutions.com.au/cleaners-mordialloc/) and [house cleaning in Parkdale](https://robotcleaningsolutions.com.au/cleaners-parkdale/) on the same schedule.
 
+Not sure which of these your home needs? **Call us now on 0421 633 370** and we will talk it through, no obligation.
+
 ## Inside the 24/7 Clean Membership
 
 Most Aspendale households who start with us end up on 24/7 Clean, our membership for people who would rather never think about cleaning again. It is scheduled domestic home care rather than a series of separate bookings, and it includes:
@@ -36,9 +38,18 @@ Most Aspendale households who start with us end up on 24/7 Clean, our membership
 
 Everything sits inside that one figure: products, equipment and the full team service. No add-on line for the oven, no travel surcharge, no bill that moves because the job ran long.
 
+**Ring 0421 633 370** to talk through which membership rhythm suits your household.
+
 ## Non-Toxic Products, Handled With Care
 
-We only use eco-friendly, premium-grade products chosen for luxury finishes, fine furniture and delicate materials. Stone benchtops, timber floors, polished tapware and painted joinery all get the right product rather than a single all-purpose spray, which matters if your home has surfaces you would not want stripped or dulled. Non-toxic, eco-friendly cleaning also means the house is safe for children and pets the moment we leave.
+We only use eco-friendly, premium-grade products chosen for luxury finishes, fine furniture and delicate materials. Each surface gets the product made for it rather than a single all-purpose spray, which matters if your home has finishes you would not want stripped or dulled:
+
+- **Stone benchtops**
+- **Timber floors**
+- **Polished tapware**
+- **Painted joinery**
+
+Non-toxic, eco-friendly cleaning also means the house is safe for children and pets the moment we leave.
 
 White glove home cleaning is as much about conduct as chemistry. Our team is expertly trained, works quietly, respects your privacy and keeps what they see in your home to themselves. Plenty of members hand over a key and are never home when we visit, which only works when discretion is the default.
 
@@ -46,11 +57,25 @@ White glove home cleaning is as much about conduct as chemistry. Our team is exp
 
 Local quote sites publish hourly bands for this part of Bayside, which is why so many people ask what they should be paying a cleaner per hour. Our answer is that an hourly rate is the wrong unit. Buy hours and you carry the risk: a slow day costs you more, a rushed one leaves the bathroom half-finished. We price the home instead. Membership cleaning starts from $150 per week and is tailored to your home size, with the exact figure set by the on-site quote once we have seen the bedrooms, bathrooms and finishes. One-off and end-of-lease work is quoted the same way, on the job in front of us.
 
-That is the point of the membership: certainty. You know the amount before we start, it does not move, and it covers everything.
+That is the point of the membership: certainty.
+
+- **Known upfront:** you have the amount before we start.
+- **Fixed:** it does not move.
+- **All-inclusive:** it covers everything.
+
+Want your figure? **Phone 0421 633 370** and we will book the free on-site quote at your Aspendale home.
 
 ## Moving Out of an Aspendale Rental?
 
-End-of-lease work is a different job with a different checklist, so we keep it separate rather than folding it into your regular clean. It is quoted on its own, priced on its own, and measured against what a property manager will actually inspect. The inclusions for bond back cleans, alongside the rest of our [home cleaning services](https://robotcleaningsolutions.com.au/house-clean/), are set out in full on our house cleaning page. If you are a member moving house, tell us early and we will schedule the vacate clean around your existing visits.
+End-of-lease work is a different job with a different checklist, so we keep it separate rather than folding it into your regular clean:
+
+- **Quoted on its own**, not bundled into a regular visit.
+- **Priced on its own**, against the scope of the vacate job.
+- **Measured against the outgoing-tenant checklist** a property manager will actually inspect.
+
+The inclusions for bond back cleans, alongside the rest of our [home cleaning services](https://robotcleaningsolutions.com.au/house-clean/), are set out in full on our house cleaning page. If you are a member moving house, tell us early and we will schedule the vacate clean around your existing visits.
+
+Moving soon? **Speak to us on 0421 633 370** and we will get the vacate clean in the diary before the inspection.
 
 ## One Team You Know, Not a Rotating Roster
 
