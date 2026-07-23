@@ -17,6 +17,8 @@ Everything starts with a free, no-obligation walk through your home: how many ba
 - The two cleaners assigned to your Ormond home
 - A start date, with priority slots reserved for 24/7 Clean members
 
+Ready for a real figure on your Ormond home? **Book the walk-through on 0421 633 370**, free and with nothing to sign.
+
 ## From Visit Two: The Clean Your Ormond Home Runs On
 
 Our home cleaning services cover the whole house, so one team and one number handles the lot:
@@ -33,6 +35,8 @@ Vacating a rental? Start on that page instead.
 
 Every visit is worked by a dedicated two-person team rather than one person moving down a list. Two trained cleaners get through a house in roughly half the elapsed time, with the robot-like precision the business is named for, and they are the same two next time. Apartment and townhouse cleaning works the same way, scaled to the property.
 
+Want one of these in the diary? **Start with a call to 0421 633 370** and the quote comes first, free and with no obligation.
+
 ## What a Year on 24/7 Clean Includes
 
 Most Ormond households who stay with us move onto 24/7 Clean, our exclusive membership: scheduled domestic home care for the year rather than separate bookings.
@@ -46,11 +50,25 @@ Most Ormond households who stay with us move onto 24/7 Clean, our exclusive memb
 
 That is the difference between hiring a cleaner and keeping a recurring house cleaner: nobody has to go looking again in March.
 
+Want the year handled rather than the next clean? **Ask about 24/7 Clean on 0421 633 370** and we will cost it for your household.
+
 ## What's Inside the Price, and What Never Gets Added Later
 
-Price is an open part of the Ormond search, and the figures make it confusing. One Melbourne operator advertises Ormond cleans from $169. Connector sites quote hourly rates. A public task listing for a three-bedroom, two-bathroom Ormond house went up at $135. Each is real; none tells you what your own home costs.
+Price is an open part of the Ormond search, and the figures make it confusing:
 
-Buy hours and the risk sits with you: a slow visit costs more, a rushed one costs you the bathroom. We quote the home instead. Membership pricing starts from $150 per week, tailored to your home's size, with the exact figure agreed at your free on-site quote. Products, equipment and both cleaners' time sit inside it. Nothing appears on the invoice afterwards, and the price holds visit to visit.
+- **One Melbourne operator** advertises Ormond cleans from $169
+- **Connector sites** quote hourly rates
+- **A public task listing** for a three-bedroom, two-bathroom Ormond house went up at $135
+
+Each is real; none tells you what your own home costs.
+
+Buy hours and the risk sits with you: a slow visit costs more, a rushed one costs you the bathroom. We quote the home instead. Membership pricing starts from $150 per week, tailored to your home's size, with the exact figure agreed at your free on-site quote. What sits inside that figure:
+
+- **Products and equipment**, ours to bring and ours to pay for
+- **Both cleaners' time**, since the pair is how an Ormond visit gets worked
+- **Nothing added later**, so the invoice matches the quote and the price holds visit to visit
+
+Your own figure takes one visit to establish. **Line up the free on-site quote on 0421 633 370** and you will have the number before anything is booked.
 
 ## What We Bring Through the Door, and How We Work Once Inside
 
@@ -72,6 +90,8 @@ The rest is checkable without asking anyone:
 - A satisfaction guarantee: tell us if something is not right and we will put it right
 
 Larger networks have collected reviews for years. We would rather be judged on the rating, and on the two people at your door.
+
+Rather than adding another name to the thread, **ring the team direct on 0421 633 370** and we will book the free on-site quote at your Ormond address.
 
 ## What Ormond Households Ask Before Handing Over a Key
 

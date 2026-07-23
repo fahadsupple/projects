@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T05:39:07Z_
+_Rebuilt: 2026-07-23T05:43:58Z_
 
 ## cleaners-aspendale
 
@@ -307,7 +307,7 @@ _Rebuilt: 2026-07-23T05:39:07Z_
 - **Primary keyword:** house cleaning murrumbeena
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1517
+- **Word count:** 1667
 - **Headings:**
   - House Cleaning Murrumbeena 3163: A Standard, Not an Hourly Rate
   - Robot Cleaning Solutions: A Name, Not a Booking Reference
@@ -325,7 +325,7 @@ _Rebuilt: 2026-07-23T05:39:07Z_
 - **Primary keyword:** house cleaning ormond
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1487
+- **Word count:** 1644
 - **Headings:**
   - House Cleaning Ormond, VIC 3204: How the Arrangement Works, Visit by Visit
   - Robot Cleaning Solutions: The Short Version
@@ -344,7 +344,7 @@ _Rebuilt: 2026-07-23T05:39:07Z_
 - **Primary keyword:** house cleaning parkdale
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1500
+- **Word count:** 1639
 - **Headings:**
   - House Cleaning Parkdale 3195: Our Own Suburb, Not a Service Area on a Map
   - Robot Cleaning Solutions, a Parkdale Business
@@ -363,7 +363,7 @@ _Rebuilt: 2026-07-23T05:39:07Z_
 - **Primary keyword:** house cleaning sandringham
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1525
+- **Word count:** 1683
 - **Headings:**
   - House Cleaning Sandringham: The Care of a Private Cleaner, the Backing of a Business
   - Private Cleaner, or a Business That Sends One?

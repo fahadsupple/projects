@@ -1,6 +1,6 @@
 # robotcleaningsolutions.com.au — Project Map
 
-_Rebuilt: 2026-07-23T05:39:07Z_
+_Rebuilt: 2026-07-23T05:43:58Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-23T05:39:07Z_
 
 ## Recent events (last 10)
 
-- 2026-07-23T05:36:39.123Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:36:57.976Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:01.563Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:07.959Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:15.578Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:18.722Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:27.239Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:30.881Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:42.042Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-23T05:37:45.859Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:27.336Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:27.569Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:27.603Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:30.913Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:31.520Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:32.832Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:36.132Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:37.286Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:41:39.578Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-23T05:42:04.320Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 
