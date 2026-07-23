@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T00:56:02Z_
+_Rebuilt: 2026-07-23T01:13:04Z_
 
 ## cleaners-aspendale
 
@@ -188,6 +188,99 @@ _Rebuilt: 2026-07-23T00:56:02Z_
   - What Gardenvale Households Ask Us
   - Ready to Hand Over the Cleaning in Gardenvale?
 - **First paragraph:** What most Gardenvale households want from a cleaner is simple: one team that learns the house, arrives when it says it will, and leaves the place the way you would if you had a whole free afternoon. T
+
+## cleaners-hampton
+
+- **Primary keyword:** house cleaning hampton
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1504
+- **Headings:**
+  - House Cleaning Hampton: Foreshore Houses, Bay Apartments and the Turnovers In Between
+  - Homes Near the Foreshore, Apartments Along the Bay
+  - Meet Robot Cleaning Solutions
+  - From Weekly Upkeep to Bond Cleans in Hampton
+  - 24/7 Clean: Booking the Year, Not the Visit
+  - The Numbers Hampton Locals Arrive With
+  - Same Two People Every Visit, and $10 Million Behind Them
+  - White-Glove Care for Finishes That Face the Bay
+  - Questions Worth Asking Any Hampton Cleaner
+  - Book a Free Walk-Through of Your Hampton Home
+- **First paragraph:** Living this close to the water means a little of the bay comes indoors with you. Sand up the hallway after a swim, a salt haze on glass and tapware, a spare room that becomes a guest suite for half th
+
+## cleaners-highett
+
+- **Primary keyword:** house cleaning highett
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1497
+- **Headings:**
+  - House Cleaning Highett 3190: Two Cleaners Who Already Know Your Home
+  - Robot Cleaning Solutions: Founded 2024, Still Owner-Run
+  - Longevity Is One Kind of Proof. Consistency Is Another.
+  - From the Weekly Visit to Bond Day: What We Cover in Highett
+  - 24/7 Clean: Cleaning You Stop Having to Arrange
+  - $175 for a Clean: What That Number Does and Doesn't Tell You
+  - Vetted, Insured, and Easy to Check
+  - A Step Above a Standard Clean: Products, Care and Discretion
+  - Highett House Cleaning: The Questions That Come Up First
+  - Start With a Free Walk-Through of Your Highett Home
+- **First paragraph:** Hiring a cleaner in Highett usually starts as a shortlist: a page of names, three quotes to weigh up, and no way of telling which will still be turning up in three months. Robot Cleaning Solutions rep
+
+## cleaners-mckinnon
+
+- **Primary keyword:** house cleaning mckinnon
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1502
+- **Headings:**
+  - House Cleaning McKinnon: Built for 1930s Bungalows and Busy Family Homes
+  - Robot Cleaning Solutions: Who You Are Actually Hiring
+  - Products Chosen for Older Homes and Younger Households
+  - Weekly, Fortnightly, Deep or One-Off: Choosing the Right Clean
+  - What 24/7 Clean Membership Adds for a McKinnon Household
+  - A 30 to 40 Kilometre Radius Is Not the Same as Knowing McKinnon
+  - Three Free Quotes, or One Real One
+  - Straight Answers on House Cleaning in McKinnon
+  - Start With a Free Walk-Through of Your McKinnon Home
+- **First paragraph:** Much of McKinnon still lives in the houses it was built with. The 1930s bungalows that give this pocket of Glen Eira its character went up long before spray-on finishes and engineered stone, and they 
+
+## cleaners-mentone
+
+- **Primary keyword:** house cleaning mentone
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1532
+- **Headings:**
+  - House Cleaning Mentone, VIC 3194: Sand, Salt Air and the Same Team Every Visit
+  - Behind the Name: Robot Cleaning Solutions
+  - Coastal Living Leaves Its Mark on a Mentone Home
+  - From Weekly Upkeep to Bond Cleans in Mentone
+  - Three Five-Star Names on the Map, and How to Choose Between Them
+  - Putting Your Mentone Clean on Autopilot with 24/7 Clean
+  - $20 an Hour, $300 a Job: Reading Mentone's Price Bands
+  - The Products We Use, and the Manner We Use Them In
+  - Before You Book in Mentone: Straight Answers
+  - Hand the Housework Over in Mentone 3194
+- **First paragraph:** Live a few streets back from the foreshore and you learn what the bay leaves behind: fine sand walked in from the beach, a salt film that dulls glass and tapware, grit in the door tracks. That is the 
+
+## cleaners-moorabbin
+
+- **Primary keyword:** house cleaning moorabbin
+- **Page type:** service-location
+- **Cluster:** service-location-house-cleaning
+- **Word count:** 1523
+- **Headings:**
+  - House Cleaning Moorabbin, VIC 3189: Booked Once, Not Re-Quoted Every Season
+  - Robot Cleaning Solutions: 100+ Clients Since 2024
+  - The Cleans Moorabbin Households Book Most
+  - If Something Goes Wrong, Who Do You Ring?
+  - 24/7 Clean: A Standing Booking Instead of a Standing Search
+  - What the $180 Median Actually Buys in Moorabbin
+  - Chosen for the Surface, Safe for the Household
+  - Before You Book in Moorabbin
+  - Start With a Free Walk-Through of Your Moorabbin Home
+- **First paragraph:** Ask around for **house cleaning Moorabbin** locals actually keep and you hear the same story: three quotes gathered, three strangers compared, one booked, the exercise repeated a few months later. Rob
 
 ## luxury-house-cleaning
 

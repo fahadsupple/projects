@@ -81,7 +81,7 @@ Regular visits cover kitchen, bathrooms, bedrooms and living areas: dusting, cob
 All of them. Apartments, townhouses and houses across Hampton and Hampton East get the same team and standard, with guest turnovers booked around your calendar.
 
 **What does booking a first clean in Hampton involve?**
-Call or email, we assess the property on site at no cost, then send a transparent all-inclusive quote with the options explained. Approve it and we schedule the clean and assign your team. If anything is ever not right, tell us and we will fix it.
+Call **0421 633 370** or email, we assess the property on site at no cost, then send a transparent all-inclusive quote with the options explained. Approve it and we schedule the clean and assign your team. If anything is ever not right, tell us and we will fix it.
 
 ## Book a Free Walk-Through of Your Hampton Home
 

@@ -4,7 +4,7 @@ Ask around for **house cleaning Moorabbin** locals actually keep and you hear th
 
 It begins with a free, no-obligation on-site quote. Call **0421 633 370** and we will walk your Moorabbin home, look at the rooms, bathrooms and finishes that decide the work, then put one fixed price in front of you. As a 24/7 Clean member, priority booking holds your slot when the calendar tightens.
 
-## Robot Cleaning Solutions: 100+ Homes Since 2024
+## Robot Cleaning Solutions: 100+ Clients Since 2024
 
 Zoe Brauer founded Robot Cleaning Solutions in 2024, after a hospitality career that began at 14 and included owning two South Australian pubs. A room is either right or it is not: that is the standard the business runs on. Since opening we have cleaned for 100+ clients across Bayside and the South-East, most settled into a weekly or fortnightly rhythm with the same faces at the door.
 
@@ -12,7 +12,7 @@ Our guarantees, insurance cover and client reviews are set out in full on the [r
 
 ## The Cleans Moorabbin Households Book Most
 
-Moorabbin sits in the core of our regular round, not at the edge of a radius, so the full range of home cleaning services is available here:
+Moorabbin is a core suburb on our regular round rather than the edge of a radius, so the full range of home cleaning services is available here:
 
 - **Weekly Residential Clean**, for households that want the place reset every week
 - **Fortnightly Residential Clean**, a lighter rhythm that keeps every room presentable
@@ -31,7 +31,7 @@ Every visit is delivered by a pair of trained cleaners working the house togethe
 
 Search domestic cleaners near me from a 3189 address and the answer is rarely a business. It is a shortlist: a marketplace listing 22 house cleaners for Moorabbin with 120-odd cleaning providers behind them, a directory carrying 35 more, two platforms offering three free quotes each, and the national franchises above them. Each route hands you a person rather than a company, and the person keeps changing. Hence the trust signals in those listings, police checks and insurance stated in the first line. Fair, and also the minimum.
 
-Booking direct gives you one accountable business instead: one number for a reschedule, one team who knows your home, one company behind the result. We carry $10 million in public liability cover, our cleaners are vetted and trained in-house, and the satisfaction guarantee is simple. Tell us if something is not right and we will put it right. On reviews we will be straight with you: the franchise ranking here holds a 4.8-star average from more than 3,000 votes gathered nationally over decades, and we are early in ours. Every rating earned since 2024 is a five. Robot Cleaning Solutions is 5-star rated on Google with a 95% repeat rate behind it, and that is the measure we would rather be judged on.
+Booking direct gives you one accountable business instead: one number for a reschedule, one team who knows your home, one company behind the result. We carry $10 million in public liability cover, our cleaners are vetted and trained in-house, and the satisfaction guarantee is simple. Tell us if something is not right and we will put it right. On reviews we will be straight with you: the franchise ranking here holds a 4.8-star average from more than 3,000 votes gathered across its national network, and we are early in ours. Every rating earned since 2024 is a five. Robot Cleaning Solutions is 5-star rated on Google with a 95% repeat rate behind it, and that is the measure we would rather be judged on.
 
 ## 24/7 Clean: A Standing Booking Instead of a Standing Search
 
