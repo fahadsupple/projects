@@ -30,6 +30,8 @@ Our home cleaning services span the whole life of a house, not just the tidy-up:
 
 Apartment and townhouse cleaning is treated no differently: unit or five-bedroom house, same sequence, same standard, and only the quote moves. As local residential cleaners working this pocket of the City of Kingston, we cover Highett alongside neighbouring [Cheltenham](https://robotcleaningsolutions.com.au/cleaners-cheltenham/) and [Moorabbin](https://robotcleaningsolutions.com.au/cleaners-moorabbin/).
 
+Want to know which of these your Highett place actually needs? **Talk to us on 0421 633 370** and we will tell you straight, free and with no obligation.
+
 ## 24/7 Clean: Cleaning You Stop Having to Arrange
 
 Most enquiries end here, because scheduled domestic home care removes a decision you keep making. The membership includes:
@@ -43,11 +45,21 @@ Most enquiries end here, because scheduled domestic home care removes a decision
 
 If you want a trusted maid service rather than a new name every few weeks, this is our version. Prefer flexibility? A one-off or deep clean is available without committing to a recurring house cleaner.
 
+**Call the team on 0421 633 370** and we will work out whether weekly or fortnightly suits your household better.
+
 ## A Quoted Price for a Clean: What That Number Does and Doesn't Tell You
 
 One recent Highett job posted on a marketplace went through at a single flat price for a mop, vacuum, dust, two bathrooms, the stovetop, benches, laundry and bedrooms, in a house already tidy. Quoted figures swing dramatically between listings on that same platform. Those prices are real, and they explain why so many searches end in "prices", "cheap" and "best". What one number cannot tell you is what was included, or who did it.
 
-So we quote the home instead of the hour. Membership pricing begins at $150 per week and is set against the size of your home, with products, equipment and your team built in and nothing added later. One-off, deep and end-of-lease cleans are quoted the same way, on site and free. If a visit misses the mark, tell us and we will come back to it. That is our satisfaction guarantee.
+So we quote the home instead of the hour. Membership pricing begins at $150 per week and is set against the size of your home, and the figure you agree to covers:
+
+- **Products and equipment:** premium and eco-friendly, built into the price
+- **Your two-person team:** the same pair on every scheduled visit
+- **Nothing added later:** no hidden fees once the number is set
+
+One-off, deep and end-of-lease cleans are quoted the same way, on site and free. If a visit misses the mark, tell us and we will come back to it. That is our satisfaction guarantee.
+
+Skip the guesswork on price. **Dial 0421 633 370** and we will put a real figure on your Highett home, on site and at no cost.
 
 ## Vetted, Insured, and Easy to Check
 
@@ -62,6 +74,8 @@ We are five-star rated on Google. A franchise with thousands of ratings will alw
 Plenty of cleaning sold around this suburb is priced as labour. Ours is built around caring for a home, and that starts with what we put on it. Only eco-friendly, premium-grade products are used, chosen for luxury finishes, fine furniture and delicate materials. Stone benchtops, polished timber and tapware that marks easily all behave better treated with something appropriate. Non toxic eco friendly cleaning carries a second benefit: nobody needs to air the place out afterwards, which matters with small children or pets.
 
 The service around those products is white glove home cleaning. Our professionals are trained to keep a low profile, guard your privacy, and leave no trace of the visit other than the result. For a home holding pieces that warrant more care again, [luxury house cleaning](https://robotcleaningsolutions.com.au/luxury-house-cleaning/) is the tier built for it.
+
+Got finishes you would rather nobody experimented on? **Reach us on 0421 633 370** and ask what we would use before you book anything.
 
 ## Highett House Cleaning: The Questions That Come Up First
 
@@ -78,7 +92,11 @@ Two of ours arrive together, so three hours on site is closer to six hours of so
 Twenty focused minutes a day on one zone holds clutter back. It will not reach grout, window tracks, skirtings or an oven interior, so treat it as upkeep between visits.
 
 **What does a regular Highett visit cover?**
-Living areas dusted, including skirtings, sills, switches and mirrors; floors vacuumed and mopped; kitchen benches, splashback, stovetop, sink, tapware and appliance exteriors cleaned; bathrooms scrubbed, disinfected and polished.
+
+- **Living areas:** dusted, including skirtings, sills, switches and mirrors
+- **Floors:** vacuumed and mopped
+- **Kitchen:** benches, splashback, stovetop, sink, tapware and appliance exteriors cleaned
+- **Bathrooms:** scrubbed, disinfected and polished
 
 **Is end of lease cleaning in Highett something you handle?**
 Yes, alongside move-in cleans, and both are quoted on site rather than from a template.

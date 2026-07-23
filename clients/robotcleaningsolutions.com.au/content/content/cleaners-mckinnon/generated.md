@@ -18,6 +18,8 @@ The same choice answers what parents here ask about most. Non toxic eco friendly
 
 Around all of it sits genuine white glove home cleaning: expertly trained professionals who work quietly, respect your privacy and leave no trace beyond the result. Most McKinnon clients are at work or on pick-up while we are there, so discretion matters. Where a home holds pieces needing more care, our [luxury house cleaning](https://robotcleaningsolutions.com.au/luxury-house-cleaning/) service is built for it.
 
+Unsure what we would put on ninety-year-old timber or original tiling? **Ask us first on 0421 633 370**, free and with no obligation.
+
 ## Weekly, Fortnightly, Deep or One-Off: Choosing the Right Clean
 
 Every visit is worked by two cleaners rather than one. A pair moving through a home in a fixed sequence finishes in roughly half the time, with the robot-like precision the business is named for, and every room gets the same treatment in the same order.
@@ -33,6 +35,8 @@ Our home cleaning services for McKinnon cover:
 
 Apartment and townhouse cleaning is handled exactly as a freestanding bungalow; only the quote changes. At the end of a tenancy, our dedicated End of Lease Cleaning McKinnon page covers bond work, so this page stays on the ongoing routine.
 
+Weighing up which of these your household actually needs? **Call us now on 0421 633 370** and we will match the service to the house before you commit to anything.
+
 ## What 24/7 Clean Membership Adds for a McKinnon Household
 
 The 24/7 Clean membership turns cleaning into scheduled domestic home care that simply happens, instead of a decision you keep remaking. Members receive:
@@ -44,19 +48,37 @@ The 24/7 Clean membership turns cleaning into scheduled domestic home care that 
 - Fixed, transparent, all-inclusive pricing with no hidden fees
 - Priority scheduling, ahead of casual bookings
 
+If a fixed cleaning day would take one thing off the family calendar, **phone 0421 633 370** and we will build the membership around your McKinnon home.
+
 ## A 30 to 40 Kilometre Radius Is Not the Same as Knowing McKinnon
 
-Search domestic cleaners near me from a McKinnon street and the results tell you almost nothing about McKinnon. One national provider describes its coverage as most suburbs within a 30 to 40 kilometre radius of the city of Melbourne. A marketplace lists roughly eighty cleaners here, a directory offers three free quotes, another ranks its thirty best, and franchise microsites publish the same page twice over for the suburb and its postcode.
+Search domestic cleaners near me from a McKinnon street and the results tell you almost nothing about McKinnon:
+
+- **A national provider**, describing its coverage as most suburbs within a 30 to 40 kilometre radius of the city of Melbourne
+- **A marketplace**, listing roughly eighty cleaners here
+- **A directory**, offering three free quotes
+- **Another directory**, ranking its thirty best
+- **Franchise microsites**, publishing the same page twice over, once for the suburb and once for its postcode
 
 Police-checked and insured appears in nearly all of it, and our team is vetted and insured too. That is the floor of this trade, not the difference: none of it tells you who will be at your door next Thursday, or still there in two months.
 
 Our answer is structural. As local residential cleaners working this side of town, we assign one two-person team to your household and send them back visit after visit. They learn which shower needs the extra minute, which floorboards hate a wet mop, and which door is better left shut. We will never out-count a franchise carrying thousands of reviews. We point instead to a five-star rating on Google, and to the 95% of clients who book us again.
 
+Would you rather know your cleaners by name than by badge? **Ring 0421 633 370** and start with a free, no-obligation quote.
+
 ## Three Free Quotes, or One Real One
 
 Price is the question McKinnon searchers ask loudest, and the local numbers explain why. Job listings for this postcode run from around $90 to $200 for a single clean, one local company advertises a flat $60 per hour, and the directories exist to hand you three quotes. Three scopes, three figures, no honest comparison.
 
-An hourly rate prices time, not a finished home. Two hours in a three-bedroom bungalow buys a very different result to two hours in a five-bedroom one, and neither is knowable by phone. So we quote the house instead. Someone walks the property with you, free and without obligation, then prices what it takes to keep clean. Membership starts from $150 per week, tailored to the size of your home, all-inclusive, with products, equipment and your dedicated team included and nothing added afterwards. If a clean ever misses the mark, tell us and we will put it right.
+An hourly rate prices time, not a finished home. Two hours in a three-bedroom bungalow buys a very different result to two hours in a five-bedroom one, and neither is knowable by phone. So we quote the house instead. Someone walks the property with you, free and without obligation, then prices what it takes to keep clean. Membership starts from $150 per week, tailored to the size of your home, and that figure covers:
+
+- **Products and equipment:** included, never billed on top
+- **Your dedicated team:** the same pair, on every scheduled visit
+- **Nothing added afterwards:** the price you agree is the whole price
+
+If a clean ever misses the mark, tell us and we will put it right.
+
+One honest figure beats three guesses. **Book your free on-site quote on 0421 633 370** and we will price your McKinnon home properly.
 
 ## Straight Answers on House Cleaning in McKinnon
 
@@ -70,7 +92,11 @@ With a pair on site, two hours is closer to four hours of one person's work. In 
 Giving one zone twenty focused minutes is a useful habit, and with children in the house it stops clutter compounding between visits. It maintains a home rather than resetting one, so it works alongside a professional clean, not in place of it.
 
 **What is on the checklist for a standard clean?**
-All living areas dusted, from skirting boards and sills to switches and mirrors; floors vacuumed and mopped throughout; kitchen bench, splashback, stovetop, sink, tapware and appliance exteriors cleaned and polished; bathrooms scrubbed, disinfected and left shining.
+
+- **Living areas:** dusted throughout, from skirting boards and sills to switches and mirrors
+- **Floors:** vacuumed and mopped throughout
+- **Kitchen:** bench, splashback, stovetop, sink, tapware and appliance exteriors cleaned and polished
+- **Bathrooms:** scrubbed, disinfected and left shining
 
 **Our house is from the 1930s. Will your products damage the original surfaces?**
 No. That is exactly why we use premium-grade products chosen for delicate materials. Original timber, older tiles and aged tapware all keep their finish better for it.
@@ -79,7 +105,11 @@ No. That is exactly why we use premium-grade products chosen for delicate materi
 Yes. The same teams look after neighbouring households in [Ormond](https://robotcleaningsolutions.com.au/cleaners-ormond/) and [Bentleigh](https://robotcleaningsolutions.com.au/cleaners-bentleigh/), so a street near a boundary is no problem.
 
 **How do we get a quote booked?**
-Call 0421 633 370 or email. We arrange the free on-site assessment, give you one all-inclusive price with membership and one-off options explained, then schedule the first visit and assign your team.
+Call 0421 633 370 or email. From there:
+
+- We arrange the free on-site assessment at a time that suits you
+- We give you one all-inclusive price, with membership and one-off options explained
+- We schedule the first visit and assign your team
 
 ## Start With a Free Walk-Through of Your McKinnon Home
 

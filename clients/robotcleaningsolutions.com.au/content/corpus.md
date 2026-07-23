@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-23T05:26:35Z_
+_Rebuilt: 2026-07-23T05:39:07Z_
 
 ## cleaners-aspendale
 
@@ -80,7 +80,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning brighton
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1514
+- **Word count:** 1669
 - **Headings:**
   - House Cleaning Brighton: White-Glove Care for Bayside's Larger Homes
   - Built for Brighton's Larger Homes and Multi-Bathroom Layouts
@@ -100,7 +100,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning carnegie
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1434
+- **Word count:** 1551
 - **Headings:**
   - House Cleaning Carnegie: Ongoing Home Cleaning, Not Just Bond Cleans
   - Your Bond Clean and Your Regular Clean Are Two Separate Jobs
@@ -119,7 +119,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning caulfield
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1541
+- **Word count:** 1659
 - **Headings:**
   - House Cleaning Caulfield, VIC 3162: Judge Us on the Clean, Not the Years on the Sign
   - Robot Cleaning Solutions: A Young Business, Built Deliberately
@@ -138,7 +138,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1525
+- **Word count:** 1651
 - **Headings:**
   - House Cleaning Cheltenham, VIC 3192: One Insured Team, Booked Direct
   - Robot Cleaning Solutions at a Glance
@@ -156,7 +156,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning elsternwick
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1502
+- **Word count:** 1635
 - **Headings:**
   - House Cleaning Elsternwick 3185: A Straight Answer on Trust, and on Price
   - Robot Cleaning Solutions, in Brief
@@ -175,7 +175,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning gardenvale
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1500
+- **Word count:** 1645
 - **Headings:**
   - House Cleaning Gardenvale 3185: One Team Your Household Actually Knows
   - Robot Cleaning Solutions: One Independent Bayside Business
@@ -194,7 +194,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning hampton
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1504
+- **Word count:** 1661
 - **Headings:**
   - House Cleaning Hampton: Foreshore Houses, Bay Apartments and the Turnovers In Between
   - Homes Near the Foreshore, Apartments Along the Bay
@@ -213,7 +213,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning highett
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1500
+- **Word count:** 1632
 - **Headings:**
   - House Cleaning Highett 3190: Two Cleaners Who Already Know Your Home
   - Robot Cleaning Solutions: Founded 2024, Still Owner-Run
@@ -232,7 +232,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning mckinnon
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1502
+- **Word count:** 1674
 - **Headings:**
   - House Cleaning McKinnon: Built for 1930s Bungalows and Busy Family Homes
   - Robot Cleaning Solutions: Who You Are Actually Hiring
@@ -250,7 +250,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning mentone
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1532
+- **Word count:** 1715
 - **Headings:**
   - House Cleaning Mentone, VIC 3194: Sand, Salt Air and the Same Team Every Visit
   - Behind the Name: Robot Cleaning Solutions
@@ -269,7 +269,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1502
+- **Word count:** 1677
 - **Headings:**
   - House Cleaning Moorabbin, VIC 3189: Booked Once, Not Re-Quoted Every Season
   - Robot Cleaning Solutions: 100+ Clients Since 2024
@@ -287,7 +287,7 @@ _Rebuilt: 2026-07-23T05:26:35Z_
 - **Primary keyword:** house cleaning mordialloc
 - **Page type:** service-location
 - **Cluster:** service-location-house-cleaning
-- **Word count:** 1493
+- **Word count:** 1601
 - **Headings:**
   - House Cleaning Mordialloc: We Take the Coastal Grime, You Take the Weekend
   - Robot Cleaning Solutions: Where the Standard Comes From
