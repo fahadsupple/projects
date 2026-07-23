@@ -10,7 +10,13 @@ Zoe Brauer founded Robot Cleaning Solutions in 2024, arriving from a hospitality
 
 ## The Question Elsternwick Keeps Asking Its Neighbours
 
-Search for a cleaner in 3185 and most results hand you a list rather than a name. A task marketplace offers 43 individual cleaners covering the suburb, franchise pages keyed to the postcode are answered by a call centre, and national brands lead on being affordable. Any can find you somebody by Thursday. None can promise the same somebody in a fortnight, which is why people here still ask neighbours.
+Search for a cleaner in 3185 and most results hand you a list rather than a name:
+
+- **A task marketplace** offering 43 individual cleaners covering the suburb
+- **Franchise pages** keyed to the postcode, answered by a call centre
+- **National brands** leading on being affordable
+
+Any can find you somebody by Thursday. None can promise the same somebody in a fortnight, which is why people here still ask neighbours.
 
 Instead of a shortlist, we offer:
 
@@ -21,6 +27,8 @@ Instead of a shortlist, we offer:
 - A satisfaction guarantee: if something is not right, tell us and we will put it right
 
 We are newer than the franchise networks and our review tally reflects that. Rather than compete on volume, we would rather be judged on the rating, and on the two people who turn up.
+
+Want to know who would be looking after your place? **Call us now on 0421 633 370** and ask us anything before you book.
 
 ## One Team for the Whole House, Not Four Separate Bookings
 
@@ -35,6 +43,8 @@ Households here often juggle specialists: someone for the weekly tidy, someone e
 
 Every visit is carried out by a pair, not one person working down a list. Two trained cleaners moving through a house systematically finish in roughly half the time, with the robot-like precision the business is named for. Apartment and townhouse cleaning is quoted just like a family home: the scope changes, the standard does not.
 
+Not sure which of these your household actually needs? **Phone 0421 633 370** for a free, no-obligation quote.
+
 ## 24/7 Clean: One Price, Agreed Before We Start
 
 Most Elsternwick households who stay with us move onto 24/7 Clean, our membership for people who would rather stop rebooking. It includes:
@@ -48,11 +58,20 @@ Most Elsternwick households who stay with us move onto 24/7 Clean, our membershi
 
 Treat it as scheduled domestic home care, not a run of separate jobs. Membership starts from $150 per week, tailored to the size of your home, with the exact figure set at your free on-site quote instead of guessed over the phone. Products, equipment and your team service sit inside that number.
 
+To hear what 24/7 Clean would look like for your household, **ring 0421 633 370** and we will book your free on-site quote.
+
 ## Comparing Prices in 3185? Read the Unit, Not Just the Figure
 
-Price is the other thing people weigh, and the local market makes it confusing. One marketplace displays a $122 to $250 band for cleaning jobs in Elsternwick; a care-services directory lists providers in the suburb from $45 an hour. Both figures are real, and neither tells you what your own house will cost, because one prices a job and the other prices time.
+Price is the other thing people weigh, and the local market makes it confusing. Two published figures for this suburb show why:
+
+- **A task marketplace:** a $122 to $250 band for cleaning jobs in Elsternwick
+- **A care-services directory:** providers in the suburb listed from $45 an hour
+
+Both figures are real, and neither tells you what your own house will cost, because one prices a job and the other prices time.
 
 Buy hours and the risk shifts to you. A slow visit costs more; a quick one costs you the bathroom. We price the home instead, so you get one all-inclusive figure before we start, it holds visit to visit, and nothing appears on the invoice afterwards. If the lowest hourly rate is the goal, you will find numbers below ours. If predictability matters more, this is built for that.
+
+The only figure that matters is the one for your house. **Call us on 0421 633 370** and we will quote it on site, free.
 
 ## Gentle on Finishes, Safe for the People Who Live There
 
@@ -64,6 +83,8 @@ White glove home cleaning is as much about conduct as chemistry. Our professiona
 
 Elsternwick sits on our established route, keeping scheduling tight and travel time off your invoice. We also clean neighbouring [Gardenvale](https://robotcleaningsolutions.com.au/cleaners-gardenvale/) and [Caulfield](https://robotcleaningsolutions.com.au/cleaners-caulfield/), plus the wider Glen Eira and Bayside area. Searching for domestic cleaners near me, or for local residential cleaners who actually work this pocket of Melbourne? You are inside our patch.
 
+If your street sits in 3185 or just over the boundary, we are already in the area. **Speak to us on 0421 633 370** for a free, no-obligation quote.
+
 ## Elsternwick House Cleaning: What Locals Ask Before Booking
 
 **How much do house cleaners charge per hour in Melbourne?**
@@ -73,7 +94,14 @@ Published rates for this suburb span a very wide band. An hourly number hides wh
 The real question underneath is usually whether you are being overcharged. A fixed quote settles that before the first visit: you agree scope and price on site, and the amount does not move because a room took longer than expected.
 
 **What should a cleaner do in 3 hours?**
-Time is the wrong measure. Your quote lists rooms and tasks: kitchen benches, stovetop, splashback, sink and appliance exteriors; bathrooms scrubbed, disinfected and polished; dusting across reachable surfaces, sills and switches; floors vacuumed and mopped. Because two of us work at once, far more gets covered in one visit than a solo cleaner manages.
+Time is the wrong measure. Your quote lists rooms and tasks:
+
+- **Kitchen:** benches, stovetop, splashback, sink and appliance exteriors
+- **Bathrooms:** scrubbed, disinfected and polished
+- **Dusting:** reachable surfaces, sills and switches
+- **Floors:** vacuumed and mopped
+
+Because two of us work at once, far more gets covered in one visit than a solo cleaner manages.
 
 **What is the 20 minute rule of cleaning?**
 A household habit rather than a professional method: give the house twenty focused minutes a day instead of surrendering a Saturday. Useful between visits, though grout, oven interiors and window tracks stay outside its reach.

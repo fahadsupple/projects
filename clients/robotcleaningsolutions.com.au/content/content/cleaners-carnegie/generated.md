@@ -24,6 +24,8 @@ Whatever your household runs on, there is a version of the service built for it:
 
 Apartment and townhouse cleaning works the same way as a family home: we scale the team's time to the property, not to a stopwatch. Every visit is delivered by a dedicated two-person team working in pairs, systematically, with the robot-like efficiency the business is named for. Two sets of hands, half the elapsed time, and the same two people back at your door next visit.
 
+**Call us now on 0421 633 370** for a free, no-obligation quote on the service that suits your Carnegie home.
+
 ## The 24/7 Clean Membership for Carnegie Households
 
 Most of our Carnegie work runs through 24/7 Clean, our membership for households who would rather stop thinking about it. It includes:
@@ -37,17 +39,29 @@ Most of our Carnegie work runs through 24/7 Clean, our membership for households
 
 Think of it as scheduled domestic home care: the upkeep of the place handled on a rhythm, rather than a job you keep rebooking. Members get the same weekly and fortnightly cleaners each time, which is rather the point of having a recurring house cleaner in the first place.
 
+Ready to hand the cleaning over for good? **Phone 0421 633 370** and we will walk you through 24/7 Clean for your household.
+
 ## Priced by the Home, Not by the Hour
 
 Carnegie searchers compare prices hard before they book, and the numbers circulating locally make that easy to understand. Quote platforms list house cleaning here from roughly $20 to $30 an hour, one local company advertises a flat $60 an hour, and weekly cleaning gets quoted anywhere from $60 to $100. The trouble with all of those figures is that they price time rather than outcome. A slower clean costs you more. A rushed one costs less and leaves the bathroom half done.
 
-We price the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, starting from $150 per week and confirmed at your free on-site quote rather than guessed over the phone. Products, equipment and the full team service sit inside that price. What you agree at the quote is what you pay, every visit, with nothing appearing on the invoice later.
+We price the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, starting from $150 per week and confirmed at your free on-site quote rather than guessed over the phone. Sitting inside that price:
+
+- **Products:** included, at no extra charge
+- **Equipment:** included, at no extra charge
+- **Your dedicated team:** the same two people, every visit
+
+What you agree at the quote is what you pay, every visit, with nothing appearing on the invoice later.
+
+**Speak to us on 0421 633 370** and we will book your free on-site quote at a time that suits you.
 
 ## Eco-Friendly Products and White-Glove Home Cleaning
 
 We use only eco-friendly, premium-grade products chosen for luxury finishes, fine furniture and delicate materials, so stone benchtops, timber floors and quality joinery are treated with the care they were paid for. Non-toxic, eco-friendly cleaning also means the surfaces your children and pets touch are safe the moment we leave.
 
 The service wrapped around it is white glove home cleaning in the literal sense: expertly trained professionals who work quietly, respect your privacy and leave no trace beyond the result. If your home carries particularly fine finishes, our [luxury house cleaning](https://robotcleaningsolutions.com.au/luxury-house-cleaning/) page goes further into how we handle them.
+
+Not sure what is safe on a particular surface? **Ring 0421 633 370** and ask us what we would use on it.
 
 ## Going Direct, Instead of Collecting Three Quotes
 
@@ -64,7 +78,14 @@ Membership pricing starts from $150 per week and is tailored to the size of your
 Yes. A one-off standard clean is available any time and is quoted the same transparent way. Cheap house cleaning priced by the hour often costs more than it first appears once the job runs long, which is why we quote the property rather than the clock.
 
 **What is included in a standard clean?**
-All living areas dusted top to bottom, floors vacuumed and mopped, kitchen benches, stovetop, splashback and appliance exteriors cleaned, plus bathrooms scrubbed, disinfected and polished. A deep clean adds oven and fridge interiors, grout scrubbing, blinds and window tracks.
+A standard visit covers:
+
+- **Living areas:** dusted top to bottom
+- **Floors:** vacuumed and mopped throughout
+- **Kitchen:** benches, stovetop, splashback and appliance exteriors
+- **Bathrooms:** scrubbed, disinfected and polished
+
+A deep clean adds oven and fridge interiors, grout scrubbing, blinds and window tracks.
 
 **Will the same cleaners come each time?**
 Yes. Your dedicated two-person team is assigned to your Carnegie home and returns for every visit, whether you book weekly, fortnightly or a seasonal deep clean.
@@ -73,7 +94,11 @@ Yes. Your dedicated two-person team is assigned to your Carnegie home and return
 We work right across Carnegie 3163 and neighbouring Glen Eira suburbs, including [Murrumbeena](https://robotcleaningsolutions.com.au/cleaners-murrumbeena/) and [Caulfield](https://robotcleaningsolutions.com.au/cleaners-caulfield/), as part of our wider Bayside Melbourne cleaners service area. If you sit close to a boundary, mention it when you call and we will confirm coverage.
 
 **How do I book a clean in Carnegie?**
-Call 0421 633 370 or email us to arrange your free on-site quote. We walk the property, talk through weekly, fortnightly or one-off options, and put a fixed price in front of you before anything is locked in.
+Call **0421 633 370** or email us to arrange your free on-site quote. From there:
+
+- We walk the property with you
+- We talk through weekly, fortnightly and one-off options
+- We put a fixed price in front of you before anything is locked in
 
 ## Book Your Free Carnegie Quote
 

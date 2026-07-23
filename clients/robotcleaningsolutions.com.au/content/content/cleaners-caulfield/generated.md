@@ -27,6 +27,8 @@ Our home cleaning services cover the whole rhythm of a household:
 
 Apartment and townhouse cleaning is quoted exactly as a freestanding house is: the scope follows the property, never a fixed hourly block. We also take on corporate and office cleaning for local businesses.
 
+**Call us now on 0421 633 370** for a free, no-obligation quote on any of these services.
+
 ## 24/7 Clean: The Membership Most Caulfield Households Settle Into
 
 Households who want a recurring house cleaner rather than a run of separate bookings join 24/7 Clean. It includes:
@@ -39,11 +41,19 @@ Households who want a recurring house cleaner rather than a run of separate book
 
 It is closer to scheduled domestic home care than to housework you keep rebooking.
 
+Ready to stop rebooking the cleaning? **Phone 0421 633 370** and we will walk you through what 24/7 Clean looks like for your household.
+
 ## Same Suburb, Wildly Different Quotes: Caulfield's Price Spread, and What It Leaves Out
 
 Caulfield searchers compare hard before booking, and the advertised prices explain the hesitation. One marketplace listing for Caulfield South bands its house cleaning jobs inside a single range. A regular clean posted in Caulfield North sat well above that band, with the cleaner expected to bring their own equipment. Elsewhere the suburb is advertised on a flat hourly rate. None of those figures is comparable, because not one describes the same scope of work.
 
-We price the home instead of the hour. Membership pricing is fixed, all-inclusive and tailored to the size of your home, from $150 per week, with the exact figure confirmed once we have walked the place with you rather than estimated from a postcode. Products, equipment and the full team service sit inside it.
+We price the home instead of the hour. Membership pricing is fixed, all-inclusive and tailored to the size of your home, from $150 per week, with the exact figure confirmed once we have walked the place with you rather than estimated from a postcode. Everything sits inside that figure:
+
+- **Products:** included, at no extra charge
+- **Equipment:** included, at no extra charge
+- **Your dedicated team:** the same pair, every visit
+
+**Speak to us on 0421 633 370** and we will book the on-site assessment that turns that into a real number for your address.
 
 ## Premium Products, Vetted People, $10 Million in Cover
 
@@ -58,6 +68,8 @@ Search for domestic cleaners near me from a Caulfield address and this is what c
 We sit closer to that thread than to the directories. One accountable team of local residential cleaners is assigned to your home and keeps coming back to it, so you deal with people who know the house rather than whoever bid first this week. We can't match a franchise on review volume, and won't pretend otherwise. We would rather be judged on the rating: 5-star rated on Google, and a 95% repeat rate.
 
 We cover the Glen Eira suburbs on either side of Caulfield too, including [Elsternwick](https://robotcleaningsolutions.com.au/cleaners-elsternwick/) and [Carnegie](https://robotcleaningsolutions.com.au/cleaners-carnegie/), as part of a wider Bayside Melbourne cleaners service area.
+
+**Ring 0421 633 370** with your street name, we will confirm we cover it and find a time that suits.
 
 ## Caulfield House Cleaning, Question by Question
 
@@ -74,13 +86,29 @@ That depends entirely on the size of the home, which is why booking by time is r
 Sydney pricing is a poor guide for Caulfield: different market, different labour costs, different property mix. A free on-site quote is the fastest way to get a figure that applies to your address.
 
 **What does a standard visit cover in a Caulfield home?**
-Living areas dusted throughout, including skirting boards, switches and mirrors, cobwebs removed, and every accessible floor vacuumed and mopped. Bathrooms scrubbed, disinfected and the tapware polished. Kitchens take in the stovetop, splashback, benchtops, sink and appliance exteriors.
+A standard visit covers:
+
+- **Living areas:** dusted throughout, including skirting boards, switches and mirrors, with cobwebs removed
+- **Bathrooms:** scrubbed, disinfected and the tapware polished
+- **Kitchen:** stovetop, splashback, benchtops, sink and appliance exteriors
+- **Floors:** every accessible floor vacuumed and mopped
 
 **Do you cover Caulfield North and Caulfield East as well?**
-Yes. We clean throughout Caulfield 3162 and the adjoining pockets of Caulfield North 3161, Caulfield South 3162 and Caulfield East 3145. Mention your street when you call and we will confirm coverage.
+Yes. We clean throughout Caulfield and its adjoining pockets:
+
+- Caulfield 3162
+- Caulfield North 3161
+- Caulfield South 3162
+- Caulfield East 3145
+
+Mention your street when you call and we will confirm coverage.
 
 **How do we get started?**
-Call **0421 633 370** or email for a free quote consultation. We assess the property on site, explain the membership and one-off options, then put an all-inclusive quote in front of you before anything is booked.
+Call **0421 633 370** or email for a free quote consultation. From there:
+
+- We assess the property on site
+- We explain the membership and one-off options
+- We put an all-inclusive quote in front of you before anything is booked
 
 ## Talk to Us About Your Caulfield Home
 

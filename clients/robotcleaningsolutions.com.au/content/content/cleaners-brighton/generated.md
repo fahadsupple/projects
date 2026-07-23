@@ -8,7 +8,11 @@ Getting started takes one phone call. Ring **0421 633 370** for a free, no-oblig
 
 ## Built for Brighton's Larger Homes and Multi-Bathroom Layouts
 
-Plenty of Brighton properties are generously sized. Four bedrooms and up, two to three-and-a-half bathrooms, and multi-storey layouts with staircases, landings and upstairs bathrooms that a package written for a compact unit was never designed to cover.
+Plenty of Brighton properties are generously sized, and a package written for a compact unit was never designed to cover them:
+
+- **Bedrooms:** four and up
+- **Bathrooms:** two to three-and-a-half
+- **Layouts:** multi-storey, with staircases, landings and upstairs bathrooms
 
 Our quoting works the other way around. Because we assess your home in person before we price it, the scope reflects what is actually there: how many bathrooms, which floor surfaces, and which rooms need attention every visit.
 
@@ -33,6 +37,8 @@ Every service below is delivered in Brighton by your own dedicated pair, so the 
 
 Brighton apartments and townhouses are just as welcome as the big houses, and apartment and townhouse cleaning is quoted exactly the same way.
 
+**Call us now on 0421 633 370** for a free, no-obligation quote on the service and rhythm that suit your Brighton home.
+
 ## The 24/7 Clean Membership for Brighton Homes
 
 Most people looking for a recurring house cleaner want two things: the same team every time, and a price they can plan around. That is what our exclusive 24/7 Clean membership delivers.
@@ -47,17 +53,33 @@ Membership includes:
 
 Think of it as scheduled domestic home care rather than a string of separate bookings. Your team learns your home once, then holds it to that standard.
 
+Ready to hand the cleaning over for good? **Phone 0421 633 370** and we will walk you through the 24/7 Clean membership for your household.
+
 ## What House Cleaning Costs in Brighton, and Why We Don't Charge by the Hour
 
 Comparing cleaners in Brighton usually comes down to an hourly rate, and that is where the surprises hide. Pay by the hour and you carry the risk: a slow clean costs more, a fast one costs you a worse result, and nobody agreed in writing what "done" looks like.
 
-We price the job instead of the clock. Membership starts from $150 per week, tailored to your home's size and confirmed after the free on-site assessment, so the figure you are quoted is the figure you pay. Every quote covers products, equipment and the full team.
+We price the job instead of the clock. Membership starts from $150 per week, tailored to your home's size and confirmed after the free on-site assessment, so the figure you are quoted is the figure you pay. Every quote covers:
+
+- **Products:** included, at no extra charge
+- **Equipment:** included, at no extra charge
+- **Your dedicated team:** the same pair, every visit
+
+**Speak to us on 0421 633 370** to book your free on-site assessment and get your fixed price in writing.
 
 ## Eco-Friendly Products Chosen for Fine Finishes
 
-We use only eco-friendly, premium-grade cleaning products, tailored for luxury finishes, fine furniture and delicate materials. Marble and engineered stone, timber floors, polished tapware, glass splashbacks and soft furnishings each get the product and cloth they should have, not one all-purpose spray for the whole house.
+We use only eco-friendly, premium-grade cleaning products, tailored for luxury finishes, fine furniture and delicate materials. Each surface gets the product and the cloth it should have, not one all-purpose spray for the whole house:
+
+- Marble and engineered stone
+- Timber floors
+- Polished tapware
+- Glass splashbacks
+- Soft furnishings
 
 Non-toxic, eco-friendly cleaning also means the home you return to is safe for children and pets. If your home has finishes you would rather not gamble on, our [luxury house cleaning service](https://robotcleaningsolutions.com.au/luxury-house-cleaning/) explains that level of care in more detail.
+
+**Ring 0421 633 370** to check how we would treat the finishes in your Brighton home.
 
 ## Discretion, Privacy and a Team You Recognise
 
@@ -69,7 +91,13 @@ That is the honest difference between a trusted maid service and a marketplace. 
 
 ## Suburbs We Cover Around Brighton
 
-We clean throughout Brighton (3186) and Brighton East (3187), and across the neighbouring Bayside suburbs. If a neighbour is searching for domestic cleaners near me, we also serve [Gardenvale](https://robotcleaningsolutions.com.au/cleaners-gardenvale/) and [Hampton](https://robotcleaningsolutions.com.au/cleaners-hampton/), plus the wider South-East Melbourne region.
+We clean throughout Brighton and across the neighbouring Bayside suburbs, so if a neighbour is searching for domestic cleaners near me, our coverage runs to:
+
+- **Brighton (3186) and Brighton East (3187)**, the centre of our Bayside run
+- **[Gardenvale](https://robotcleaningsolutions.com.au/cleaners-gardenvale/) and [Hampton](https://robotcleaningsolutions.com.au/cleaners-hampton/)**, immediately next door
+- **The wider South-East Melbourne region**, for households a little further out
+
+Not sure whether your street is covered? **Call 0421 633 370** and we will confirm it on the spot.
 
 ## House Cleaning Brighton: Your Questions Answered
 
@@ -86,10 +114,21 @@ That depends on the size of the home, which is the flaw in booking by time. Beca
 It is a popular habit of setting a timer and spending twenty focused minutes a day tidying, rather than saving everything for one exhausting session. It works nicely between visits: clear surfaces let your team spend their time on the deeper work.
 
 **What is included in a standard Brighton clean?**
-Living areas get dusting, cobweb removal, skirting boards, switches, mirrors, and vacuuming and mopping throughout. Bathrooms are scrubbed and disinfected with tapware polished. Kitchens cover the stovetop, splashback, benchtops, sink and appliance exteriors. Deep cleans add oven and fridge interiors, shower grout and blinds.
+
+- **Living areas:** dusting, cobweb removal, skirting boards, switches and mirrors
+- **Floors:** vacuuming and mopping throughout
+- **Bathrooms:** scrubbed and disinfected, with tapware polished
+- **Kitchen:** stovetop, splashback, benchtops, sink and appliance exteriors
+- **Deep cleans add:** oven and fridge interiors, shower grout and blinds
 
 **How do I book house cleaning in Brighton?**
-Call or email for a free quote consultation. We assess your home on site, then send a transparent, all-inclusive quote with membership and one-off options explained. Once you approve it we schedule your clean and assign your dedicated team, with priority slots for members.
+Call or email for a free quote consultation. From there:
+
+- We assess your home on site
+- We send a transparent, all-inclusive quote, with membership and one-off options explained
+- Once you approve it, we schedule your clean and assign your dedicated team
+
+Members choose from priority slots.
 
 ## Book Your Free Brighton Quote
 
