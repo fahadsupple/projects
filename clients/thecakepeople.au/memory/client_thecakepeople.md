@@ -134,3 +134,19 @@ clients/thecakepeople.au/
   memory/
     client_thecakepeople.md         ← this file
 ```
+
+## Replacement keywords for banned terms (2026-07-24)
+Deliverable: `clients/thecakepeople.au/keyword-research/replacement-keywords-2026-07-24.md`. Client dropping 5 kw (vegan cakes/cupcakes/birthday cakes melbourne, messi cakes, custom cakes melbourne); chose soccer cakes melbourne + football cakes melbourne for the football collection (covers messi + custom slots). Supplied replacements for the 3 vegan terms.
+
+**KEY FINDING — "eggless" >> "plant based" for search.** Live Google Ads AU: plant based cakes melbourne ~0, plant based cupcakes melbourne ~0, egg free cakes melbourne 10 — near-dead. But eggless cake/eggless cakes = 2,900 (MEDIUM comp, winnable), eggless cupcakes = 720 (MEDIUM), eggless cakes melbourne = 140, dairy free birthday cake = 260, dairy free cakes melbourne = 110. The pages were renamed to "plant-based" (good brand voice) but that phrase gets no search — recommend meta title/H1/target kw lead on **eggless + dairy-free**, keep plant-based as body voice. "Eggless" is on-brand (100% egg-free kitchen) and NOT a banned term.
+
+**SERP intent rule (validated live):** geo-qualified "…melbourne" = clean commercial (bakeries + local pack + "near me"); generic national eggless/dairy-free = recipe-contaminated. So target geo primary + big national term as secondary the page also ranks for.
+- eggless cakes melbourne (140) SERP = 100% Melbourne bakeries (Isher Eggless Bakers, Mahadeva's, Nanak, Mister Nice Guy's, Brunetti) — same SERP as "vegan cakes melbourne", clean.
+- eggless cupcakes (720) SERP = recipe blogs dominant (contaminated) — stretch secondary only.
+- dairy free birthday cake (260) SERP = mixed, strong Shopping/local layer.
+
+**Recommended 3 replacements:** (1) vegan cakes melbourne 720 → eggless cakes melbourne 140 P + eggless cake 2900 / dairy free cakes melbourne 110 S → /collections/plant-based-cakes. (2) vegan cupcakes melbourne 90 → eggless cupcakes melbourne P + dairy free cupcakes melbourne 10 S (thin category, honest caveat) → /collections/plant-based-cupcakes. (3) vegan birthday cakes melbourne 110 → dairy free birthday cake melbourne P + dairy free birthday cake 260 / eggless birthday cake 90 S → birthday/plant-based collection.
+
+**Football collection:** geo terms low (soccer cakes melbourne 40, football cakes melbourne 10) — add national secondaries soccer cake 1900, football cake 590, soccer birthday cake 390. messi cake (170) intent served by "upload your own player" format.
+
+Open confirmations: (a) client comfort leading on "eggless"; (b) accept dropping custom cakes melbourne 1000/mo (biggest volume given up, but on-strategy).
