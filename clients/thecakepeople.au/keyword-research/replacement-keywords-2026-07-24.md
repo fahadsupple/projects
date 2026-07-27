@@ -261,5 +261,43 @@ unicorn 6,600 · rainbow 6,600 · biscoff(flavour) 4,400 · smash 4,400 · dinos
 
 **Recommended additions:** `mermaid cake` (2,900), `heart cake` (1,900), `car cake` (1,600) — three clean, evergreen, non-licensed themes to sit alongside the client's chosen unicorn + dinosaur, all on the character-cakes collection.
 
+---
+
+## FIFTH REVISION (27 Jul 2026) — 6 replacements for the dietary terms + finalised set
+
+**FINALISED (client-confirmed) — replacing the vegan/custom/messi batch:**
+`soccer cakes melbourne` · `football cakes melbourne` · `unicorn cakes melbourne` · `dinosaur cakes melbourne` · `mermaid cakes` (+ **heart cake** — they have one product, optimise that page).
+**Dropped:** `car cake` — they don't make car cakes (no product to optimise). Rule reinforced: **every keyword must map to a product/collection they actually sell.**
+
+**NEW TASK — 6 replacements for these dietary-led terms (client now applying the no-dietary-lead rule to all of them):**
+gluten free cakes melbourne · gluten free birthday cakes melbourne · dairy free cakes melbourne · sugar free cakes melbourne · gluten free cupcakes melbourne · egg free cakes melbourne
+
+### ✅ Recommended 6 (all map to real, stocked collections; verified live AU volume)
+
+| # | Replacement keyword | AU vol/mo | Real product/collection (confirmed via products.json) |
+|---|---|---|---|
+| 1 | **18th birthday cake** | 2,400 | `/collections/18th-birthday-cakes` ✅ |
+| 2 | **21st birthday cake** | 2,400 | `/collections/21st-birthday-cakes` (21st Floral, 21st Birthday Cake products) ✅ |
+| 3 | **40th birthday cake** | 1,600 | `/collections/40th-birthday-cakes` ✅ |
+| 4 | **30th birthday cake** | 1,300 | `/collections/30th-birthday-cakes` ✅ |
+| 5 | **number cake** | 1,000 | milestone "Streaks & Spheres / Streaks & Flowers" number cakes ✅ |
+| 6 | **christening cake** | 880 | Baptism Cake product / `/collections/religious-cakes` ✅ |
+
+**Total: ~9,580/mo**, all non-dietary, non-delivery, non-licensed, non-custom, none already in the list. Milestones were **Tier-A selected keywords in the original KWR** (pre-validated commercial intent; clean because buyers search "[age] birthday cake" to buy, and HIGH advertiser competition confirms it).
+
+### Alternatives (swap any of the above)
+
+| Keyword | AU vol/mo | Real product? | Note |
+|---|---|---|---|
+| graduation cake | 1,300 | `/collections/graduation-cakes` ✅ | strong, seasonal spike Nov–Dec |
+| 60th birthday cake | 880 | `/collections/60th-birthday-cakes` ✅ | milestone |
+| 70th birthday cake | 720 | `/collections/70th-birthday-cakes` (70th Mum/Dad products) ✅ | milestone |
+| 16th birthday cake | 590 | `/collections/16th-birthday-cakes` ✅ | milestone |
+| teddy bear cake | 590 | 1st Birthday Teddy Bear Cake ✅ | generic theme, they make it |
+| biscoff cake | 4,400 | Choc Biscoff Cake ✅ | ⚠️ recipe-dominated organic; Shopping/secondary only |
+| engagement cake | 1,600 | ⚠️ no dedicated product | can make it, but no page to optimise yet |
+| rainbow cake | 6,600 | Rainbow Cake ✅ | ⚠️ recipe-dominated organic; secondary only |
+| jungle cake | 320 | Jungle / Jungle Animals cake ✅ | generic theme, low volume |
+
 ### Source data
-Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake` (Melbourne, Victoria) + `/collections.json` (60 live collections) + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
+Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake`, `biscoff cake` (Melbourne, Victoria) + `/collections.json` (60 collections) + products.json for character-cakes/all-cakes/milestone-cakes/special-occasions + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
