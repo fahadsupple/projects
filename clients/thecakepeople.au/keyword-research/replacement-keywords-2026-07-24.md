@@ -334,3 +334,35 @@ gluten free cakes melbourne · gluten free birthday cakes melbourne · dairy fre
 
 ### Source data
 Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake`, `biscoff cake`, `christening cake`, `graduation cake`, `teddy bear cake`, `cake toppers melbourne` (Melbourne, Victoria) + `/collections.json` (60 collections) + products.json for character-cakes/all-cakes/milestone-cakes/special-occasions/baby-shower/cake-toppers/1st-birthday/signature/corporate/religious/graduation + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
+
+---
+
+## SEVENTH REVISION (27 Jul 2026) — shortlist SERP validation (exact chosen phrasings)
+
+Client shortlist of 11 keywords, each SERP-checked live (Melbourne) to confirm buyer intent + right competitive set + product fit.
+
+| Keyword | Verdict | Evidence |
+|---|---|---|
+| soccer cakes melbourne | ✅ clean | Isher sports, Cupcake Queens "Soccer Cake Melbourne", Ferguson Plarre, local pack — all bakeries |
+| **football cakes melbourne** | ⚠️ **AFL intent mismatch** | SERP is 100% **AFL footy** cakes (Ferguson Plarre AFL, Footy Canteen, "AFL Cakes Melbourne"). AU "football" = AFL, not soccer; client products are soccer (Man City/United, GOATs, Bicycle Kick). Flag: term pulls AFL searchers. |
+| unicorn cakes melbourne | ✅ clean | Shopping block (Cupcake Queens "Unicorn Cakes Melbourne", Ferguson Plarre, Food Voyageur) + local pack |
+| dinosaur cakes melbourne | ✅ clean | Shopping block includes client's own **"T-Rex Dinosaur Birthday Cake"** already ranking |
+| mermaid cakes | ✅ clean | (earlier validation) Shopping block of real cake products |
+| heart cake melbourne | ✅ clean | (earlier validation) all product pages incl. iCake Melbourne; on-trend vintage heart |
+| number cakes melbourne | ✅ clean | Queen Baker, Food Voyageur, Galvinchi, Regnier — commercial buy-intent |
+| baptism cake melbourne | ✅ clean | Shopping block + client's own **Triple-Layer Baptism Cake ranks pos 10** ($330) |
+| teddy bear cake | ✅ clean | (earlier validation) client's teddy bear product ranks in Shopping |
+| **jungle cakes melbourne** | ❌ **REJECT** | SERP hijacked by **"Jungle Cakes" UK drum-&-bass act** (Ed Solo & Deekline) touring Melbourne — Moshtix, Triple R, Resident Advisor, gig listings. Wrong intent. |
+| **disney princesses cake** | ⚠️ usable, caveats | Client's own **Disney Princesses Edible Image cake ranks pos 6** + real competitors (Brunetti, Dulcet), BUT mixed with Pinterest/YouTube ideas + **licensed Disney trademark** |
+
+### Outcome
+- **8 clean + confirmed:** soccer cakes melbourne, unicorn cakes melbourne, dinosaur cakes melbourne, mermaid cakes, heart cake melbourne, number cakes melbourne, baptism cake melbourne, teddy bear cake.
+- **football cakes melbourne:** works commercially but pulls **AFL** intent (not soccer) — decide whether to keep, given the product range is soccer. Could add an AFL cake product, or lean on `soccer cakes melbourne` as the primary.
+- **disney princesses cake:** their product already ranks, so viable — but it's a licensed Disney term with some ideas contamination. Keep only if comfortable with the trademark.
+- **jungle cakes melbourne: drop** — dominated by the DJ act. Rephrase to `jungle birthday cake` / `jungle theme cake` (still their Jungle Animals product) or replace.
+
+### Count / gap
+Of the 6 dietary replacements, **4 are solid** (number cakes melbourne, baptism cake melbourne, teddy bear cake, disney princesses cake). With jungle dropped, **2 slots open**. Candidate fills (all real products, clean/near-clean intent): `jungle birthday cake` (rephrase — needs a quick SERP check), `graduation cake` (1,300, add a graduation product), `gender reveal cake` (5,400, reinforces existing gender-reveal page).
+
+### Source data
+Live organic SERP checks (Melbourne, Victoria) on all 11 shortlist keywords via DataForSEO, 27 Jul 2026.
