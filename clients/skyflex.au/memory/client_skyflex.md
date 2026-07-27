@@ -195,3 +195,18 @@ Reviewed the July 2026 upgrade build against the approved content docx + meta xl
 Client-side (not dev): confirm Delta Pro "100% waterproof when closed" claim (carried a "kindly confirm" comment); U6/U7 still in WooCommerce "Uncategorized" — associate with /smart-toilets/.
 
 **Method note:** review = approved docx + meta xlsx vs live scrape. skyflex.au 403s default UAs — used browser headers (per prior memory). Screenshots referenced in the Daily Tasks doc are NOT embedded (only 1 image = a Word design comment about the H1 sub-line); the approved-content docx is the text source of truth.
+
+## Upgrade re-check (2026-07-27)
+Second pass against the same approved docs. Deliverable: `clients/skyflex.au/review/recheck-skyflex-upgrade-2026-07-27.md`.
+
+**Fixed since 24 July:** FAQPage schema now on ALL 7 pages (was home+sydney only) and the stale home/Sydney FAQ markup was regenerated to match visible questions (8 on home, 11 on Sydney). Items 2 and 3 of the 24 July list cleared.
+
+**Still not done:** both HIGH H1 second-line fixes (folding-arm, TV — primary keywords still absent from H1; tagline text nowhere on page), BBQ H1 tagline, all US spellings, Delta Pro spec block.
+
+**New defects found on the re-check:**
+1. **Delta Pro closing CTA entirely missing** — approved H2 "Order your Delta Pro" + "add the Delta Pro to your cart… 03 9498 0505" sentence absent. Every other page kept its closing CTA; Delta Pro is the only drop.
+2. **Homepage FAQPage schema has a 9th `mainEntity` with empty `name` and empty answer** — blank accordion row leaking into JSON-LD; invalid Question object.
+3. **TV page closing CTA built as an H3 INSIDE the FAQ accordion** → emitted in FAQPage schema as a question with the CTA as its answer. Should be an H2 outside the block.
+4. **BBQ Woo Size dropdown still `2200w x 2300h x 770w` / `2850w x 2300h x 770w`** while the new copy on the same page says `720D` — same-page contradiction, long-standing dev item still open.
+
+**Pattern worth carrying:** when a dev adds FAQ schema in bulk, re-check for (a) empty accordion rows and (b) CTAs marked up inside the accordion — both silently become FAQ questions. Same family as the Flourish stale-FAQ-schema defect.
