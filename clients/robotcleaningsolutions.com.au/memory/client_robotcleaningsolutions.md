@@ -318,3 +318,15 @@ Analyst confirmed: **the business IS based in Parkdale VIC 3195**, but the clien
 ## Campaign context — EOL keywords dropped, EOL PAGES STAY (analyst, 2026-07-23)
 End-of-lease keywords were part of the **initial** campaign and have now been **removed from targeting** (client doesn't want to target EOL). **The existing EOL suburb pages are NOT being removed — they stay live.**
 Implication for content: new house-cleaning pages must **complement, not cannibalise** them. Pages where the client's own EOL page already ranks for the house-cleaning query — **Ormond #7, Mordialloc #8, Moorabbin #13, Carnegie (EOL-only)** — treat bond/EOL as a separate job and cross-link to the live EOL page. Those EOL URLs are NOT in the Meta File/entries, so writers referenced them by name in prose without guessing slugs; see `content/publish-notes.md` for the hyperlink list.
+
+## 2026-07-27 — 3 "not our SEO pages" added + FAQ-overlap gate learning
+Client flagged that the Meta File's 3 pages under **"These are not our SEO pages:"** (homepage `/`, `/house-clean/`, `/areas-we-serve/`) also need content. These had been used only as voice corpus (homepage, house-clean) or skipped (areas-we-serve). Built a new **`top-level-pages`** cluster (own locked plan, own SERP+PAA research), reassigned the 3 entries into it, and generated per the same writer→editor→audit flow.
+- Primaries: homepage = *professional house cleaning company melbourne* (vol ~0, use parent-term data); house-clean = *house cleaning services melbourne* (5,400); areas-we-serve = *house cleaners near me* (3,600). **Cost is the #1 unmet SERP demand on all three** — answer head-on with on-quote / "from $150/week tailored" framing, never a fabricated hourly rate.
+- **areas-we-serve** is the suburb DIRECTORY (all 20 suburbs + postcodes, grouped, linked). Its live page was mis-scoped to "Aspendale" and used a banned "Why Choose Us" heading — both fixed. Postcodes stored in the plan's `suburb_directory`.
+- Result: 3 pages, humanity 100 each, 0 blocking, max 3-gram sim to any page 0.089. Full export now **25 pages** (homepage = Page 1).
+
+### NEW audit-gate learning — `tmpl_faq_overlap` (blocking ≥50% Jaccard of FAQ questions across cluster siblings)
+Generic PAA ("what should a cleaner do in 2/3 hours", "20 minute rule", "what do housekeepers not clean") repeat across many keyword SERPs, so sibling pages in one cluster easily share ≥50% of FAQ questions and BLOCK. **Fix = make each sibling's FAQ question set disjoint** — assign each shared/generic question to the ONE page it best fits (e.g. "what a cleaner does in X hours" task-lists → the services page; decision/prep questions → homepage). Improves topical focus and kills cannibalisation too. `cluster_template_detection.py`: FAQ block ≥50, H2-sequence block ≥70, closing ≥45.
+
+### Export ordering
+`tools/content-export/export_review_docx.py` now has `PREFERRED_HUB_ORDER` = homepage, regular-house-cleaning, luxury-house-cleaning, house-clean, areas-we-serve → then suburbs alphabetically, so homepage renders as Page 1.
