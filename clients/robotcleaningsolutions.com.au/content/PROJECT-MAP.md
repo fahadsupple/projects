@@ -1,13 +1,13 @@
 # robotcleaningsolutions.com.au — Project Map
 
-_Rebuilt: 2026-07-27T00:57:47Z_
+_Rebuilt: 2026-07-27T01:02:25Z_
 
 ## Snapshot
 
 - **Domain:** robotcleaningsolutions.com.au
 - **Intake mode:** upgrade
 - **Entries:** 25 total | 22 generated | 0 audited | 0 approved
-- **Clusters:** 4 | 2 locked
+- **Clusters:** 4 | 3 locked
 - **Halt state:** none
 
 ## File map
@@ -29,7 +29,6 @@ _Rebuilt: 2026-07-27T00:57:47Z_
 
 ## Recent events (last 10)
 
-- 2026-07-27T00:55:04.319Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T00:55:06.806Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T00:55:07.387Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T00:55:10.075Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
@@ -39,4 +38,5 @@ _Rebuilt: 2026-07-27T00:57:47Z_
 - 2026-07-27T00:56:19.700Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T00:56:21.095Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T00:56:46.122Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-27T00:57:47.480Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 
