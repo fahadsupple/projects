@@ -1,0 +1,11 @@
+{
+  "endpoint": "dataforseo_labs_search_intent",
+  "language_code": "en",
+  "keywords": ["house cleaning services melbourne", "house cleaners melbourne"],
+  "response": {
+    "items": [
+      {"keyword": "house cleaning services melbourne", "keyword_intent": {"label": "commercial", "probability": 0.784}},
+      {"keyword": "house cleaners melbourne", "keyword_intent": {"label": "commercial", "probability": 0.53}}
+    ]
+  }
+}

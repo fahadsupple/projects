@@ -1,0 +1,30 @@
+{
+  "endpoint": "dataforseo_labs_google_keyword_suggestions",
+  "seed_keyword": "house cleaning services melbourne",
+  "location_name": "Australia",
+  "location_code": 2036,
+  "language_code": "en",
+  "note": "Ordered by search_volume desc. 'melbourne fl' / 'melbourne beach fl' entries are US Florida noise, excluded from synthesized expansion.",
+  "response": {
+    "items": [
+      {"keyword": "melbourne house cleaning services", "search_volume": 5400, "cpc": 9.07, "competition": 0.57, "competition_level": "MEDIUM", "keyword_difficulty": 22, "intent": "commercial"},
+      {"keyword": "house cleaning services melbourne", "search_volume": 5400, "cpc": 9.07, "competition": 0.57, "competition_level": "MEDIUM", "keyword_difficulty": 34, "intent": "commercial"},
+      {"keyword": "house cleaning services in melbourne", "search_volume": 5400, "cpc": 9.07, "competition": 0.57, "competition_level": "MEDIUM", "keyword_difficulty": 34, "intent": "commercial"},
+      {"keyword": "cheap house cleaning services melbourne", "search_volume": 50, "cpc": 6.71, "competition": 0.73, "competition_level": "HIGH", "keyword_difficulty": 33, "intent": "commercial"},
+      {"keyword": "house spring cleaning services melbourne", "search_volume": 10, "intent": "commercial"},
+      {"keyword": "best house cleaning services in melbourne", "search_volume": 10, "cpc": 8.4, "competition": 1, "competition_level": "HIGH", "intent": "commercial"},
+      {"keyword": "house cleaning services melbourne prices", "search_volume": 10, "cpc": 3.33, "competition": 0.36, "competition_level": "MEDIUM", "intent": "commercial"},
+      {"keyword": "house cleaning services in melbourne fl", "search_volume": 10, "competition": 0.86, "competition_level": "HIGH", "intent": "commercial", "note": "US Florida - noise"},
+      {"keyword": "house cleaning services melbourne fl", "search_volume": 10, "competition": 0.86, "competition_level": "HIGH", "intent": "commercial", "note": "US Florida - noise"},
+      {"keyword": "moving house cleaning services melbourne", "search_volume": 10, "keyword_difficulty": 22, "intent": "commercial"},
+      {"keyword": "deep cleaning house services melbourne", "search_volume": 10, "intent": "commercial"},
+      {"keyword": "professional house cleaning services melbourne", "search_volume": 10, "cpc": 3.52, "competition": 0.14, "competition_level": "LOW", "intent": "commercial"},
+      {"keyword": "end of lease house cleaning services melbourne", "search_volume": 10, "intent": "commercial"},
+      {"keyword": "covid house cleaning services melbourne", "search_volume": null, "intent": "commercial"},
+      {"keyword": "selling house cleaning services near melbourne vic", "search_volume": null, "intent": "transactional"},
+      {"keyword": "house proud cleaning services near melbourne vic", "search_volume": null, "intent": "commercial"},
+      {"keyword": "house cleaning services melbourne beach fl", "search_volume": null, "intent": "commercial", "note": "US Florida - noise"},
+      {"keyword": "best house cleaning services near melbourne vic", "search_volume": null, "intent": "commercial"}
+    ]
+  }
+}

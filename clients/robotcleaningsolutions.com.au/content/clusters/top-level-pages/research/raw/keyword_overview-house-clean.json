@@ -1,0 +1,23 @@
+{
+  "endpoint": "dataforseo_labs_google_keyword_overview",
+  "location_name": "Australia",
+  "location_code": 2036,
+  "language_code": "en",
+  "keywords": ["house cleaning services melbourne", "house cleaners melbourne"],
+  "response": {
+    "items": [
+      {
+        "keyword": "house cleaners melbourne",
+        "keyword_info": {"competition": 0.57, "competition_level": "MEDIUM", "cpc": 9.07, "search_volume": 5400, "search_volume_trend": {"monthly": -18, "quarterly": -18, "yearly": -45}},
+        "keyword_properties": {"core_keyword": "cleaner house melbourne", "keyword_difficulty": 22},
+        "search_intent_info": {"main_intent": "commercial"}
+      },
+      {
+        "keyword": "house cleaning services melbourne",
+        "keyword_info": {"competition": 0.57, "competition_level": "MEDIUM", "cpc": 9.07, "search_volume": 5400, "search_volume_trend": {"monthly": -18, "quarterly": -18, "yearly": -45}},
+        "keyword_properties": {"keyword_difficulty": 34},
+        "search_intent_info": {"main_intent": "commercial"}
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "endpoint": "dataforseo_labs_google_related_keywords",
+  "seed_keyword": "house cleaning services melbourne",
+  "location_name": "Australia",
+  "location_code": 2036,
+  "language_code": "en",
+  "depth": 1,
+  "response": {
+    "items": [
+      {
+        "keyword": "house cleaning services melbourne",
+        "keyword_info": {"search_volume": 5400, "cpc": 9.07, "competition": 0.57, "competition_level": "MEDIUM"},
+        "keyword_properties": {"keyword_difficulty": 34},
+        "related_keywords": ["private house cleaning services melbourne", "house cleaning services melbourne prices", "independent house cleaning services melbourne", "best house cleaning services melbourne", "deep cleaning services melbourne", "cheap cleaning services melbourne", "deep cleaning services melbourne prices", "end of lease cleaning melbourne"]
+      },
+      {
+        "keyword": "end of lease cleaning melbourne",
+        "keyword_info": {"search_volume": 3600, "cpc": 17.11, "competition": 0.73, "competition_level": "HIGH"},
+        "keyword_properties": {"keyword_difficulty": 9},
+        "related_keywords": ["end of lease cleaning melbourne cost", "end of lease cleaning melbourne reviews", "end of lease cleaning melbourne reddit", "end of lease cleaning melbourne cbd", "best end of lease cleaning melbourne", "end of lease cleaning near me", "end of lease cleaning price list", "end of lease cleaning port melbourne"]
+      },
+      {
+        "keyword": "deep cleaning services melbourne",
+        "keyword_info": {"search_volume": 390, "cpc": 6.01, "competition": 0.76, "competition_level": "HIGH"},
+        "related_keywords": ["deep cleaning services melbourne prices", "deep cleaning services melbourne cbd", "deep cleaning services melbourne reviews", "best deep cleaning services melbourne", "deep cleaning services melbourne cheap", "deep cleaning services melbourne reddit", "cheap cleaning services melbourne", "end of lease cleaning services melbourne"]
+      },
+      {
+        "keyword": "cheap cleaning services melbourne",
+        "keyword_info": {"search_volume": 50, "cpc": 6.71, "competition": 0.73, "competition_level": "HIGH"},
+        "keyword_properties": {"keyword_difficulty": 13},
+        "related_keywords": ["cheap cleaning services melbourne reviews", "cheap cleaning services melbourne prices", "cheap cleaning services melbourne cbd", "cleaning services melbourne prices", "deep cleaning services melbourne", "deep cleaning services melbourne prices", "house cleaning services melbourne", "best cleaning services melbourne"]
+      },
+      {"keyword": "house cleaning services melbourne prices", "keyword_info": {"search_volume": 10, "cpc": 3.33, "competition": 0.36, "competition_level": "MEDIUM"}},
+      {"keyword": "deep cleaning services melbourne prices", "keyword_info": {"search_volume": 10, "cpc": 4.57, "competition": 0.65, "competition_level": "MEDIUM"}}
+    ]
+  }
+}

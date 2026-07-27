@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "cluster_id": "top-level-pages",
+  "member_entries": [
+    "homepage",
+    "house-clean",
+    "areas-we-serve"
+  ],
+  "universal_required": [
+    "An opening H1 + lede that leads with the page's PRIMARY KEYWORD verbatim and, in the first half of the page, states the core fulfilment promise a searcher acts on: a dedicated two-person cleaning team, eco-friendly premium products, transparent all-inclusive pricing tailored to home size, and a clear call to book a free, no-obligation quote by phone on 0421 633 370. Conversion-critical detail sits above the fold.",
+    "A FULL business-identity H2 titled 'About Robot Cleaning Solutions' (or 'The Robot Cleaning Solutions Difference') — NEVER 'Why Choose Us' — carrying the complete trust picture: founder Zoe Brauer, founded 2024, 100+ clients served, a 95% repeat-customer rate, 5-star rated on Google (NEVER a hard review count), $10 million public liability insurance, and the satisfaction guarantee. Each page phrases this in its own words; no shared sentences across the three pages.",
+    "The dedicated two-person 'pairs' / 'Robot Standard' team model — two trained professionals per job working with robot-like precision and systematic efficiency, twice as fast, the same consistent team each visit — explained as a structural difference, framed from each page's own angle (not shared boilerplate).",
+    "The exclusive '24/7 Clean' membership explained in full: a weekly or fortnightly clean, 4 seasonal deep-clean upgrades per year, 1 yearly emergency clean, a dedicated team for consistency, and priority scheduling for members.",
+    "The eco-friendly, premium-grade, non-toxic cleaning products — safe on luxury finishes, fine furniture, delicate materials, children and pets — tied to the health/allergen benefit, not a generic 'eco-friendly' label.",
+    "Transparent, all-inclusive pricing framed as tailored to the home's size and cleaning needs and quoted after a free on-site assessment. You MAY reference membership as 'from $150 per week, tailored to your home size' (corpus-grounded). Do NOT publish a rigid multi-tier price table or invent other dollar figures. End every pricing/service/coverage section with a clear next-step CTA to call 0421 633 370 for a free quote.",
+    "An on-page FAQ block that answers the specific People-Also-Ask questions observed in THIS entry's own SERP research (listed in cluster_specific_required), written in the brand's own voice. The cost-related PAA must be answered with transparent, on-quote framing (never a fabricated per-hour rate).",
+    "A coverage section naming the Bayside / South East Melbourne service area and internal links that distribute link equity across the site (see cluster_specific_required for the per-entry linking rule)."
+  ],
+  "cluster_specific_required": [
+    "COST IS THE #1 UNMET SEARCH DEMAND on all three SERPs (price/cost PAA + related searches + Reddit threads). Every page must address the price question head-on and early, using transparent, all-inclusive, tailored-to-home-size framing (membership 'from $150 per week') and a free-quote CTA — turning the SERP's biggest gap into the lead conversion hook. Never publish a fixed price table or a fabricated hourly rate.",
+    "Answer the EXACT PAA questions returned for THIS entry's keyword: homepage — How much does a house cleaner cost in Melbourne?; What should a cleaner do in 2 hours?; How much do cleaners charge for 3 hours?; What is the 20 minute rule of cleaning?; What should a cleaner do in 3 hours?; Should I tidy before the cleaner arrives?; What do housekeepers not clean?. house-clean — How much do house cleaners charge per hour in Melbourne?; What should a cleaner do in 2 hours?; What is the best cleaning service in Melbourne?; How much do cleaners charge for 3 hours?; What should a cleaner do in 3 hours?; What is the 20 minute rule of cleaning?; What do housekeepers not clean?. areas-we-serve — How much do house cleaners charge per hour in Australia?; How much should I pay my cleaner per hour?; What is the going rate for house cleaners in my area?; What should a cleaner do in 2 hours?; What will a cleaner do in 3 hours?; What do housekeepers not clean?; What is the 20 minute rule of cleaning?. Answer the generic 'what should a cleaner do in 2/3 hours', '20 minute rule', and 'what do housekeepers not clean' questions from the client's OWN service definitions and inclusions/exclusions, not a competitor's copy.",
+    "Name the 'Robot Standard' / two-person systematised method as a concrete methodology (not just an adjective) — it is unclaimed by every ranking organic competitor (Inner City Maids explicitly sends ONE cleaner; Maid to Clean promises only a 'consistent team').",
+    "Per-entry internal linking: homepage links to BOTH service hubs (/regular-house-cleaning/, /luxury-house-cleaning/), to /house-clean/ and /areas-we-serve/, plus 2-3 flagship suburb pages. house-clean links to both hubs, to /areas-we-serve/, and to 3-4 suburb pages. areas-we-serve is a DIRECTORY: link to ALL 20 suburb pages grouped/scannable (use the suburb_directory list), plus both service hubs. Use only real URLs from entries/."
+  ],
+  "per_entry_unique_angle": {
+    "homepage": "The brand front door. Leads with 'professional house cleaning company melbourne' and positions Robot Cleaning Solutions as the systematised, human, local alternative to the faceless national brands and gig marketplaces above/around it in the SERP. Its three sharpest hooks, in order: (1) the 'Robot Standard' two-person method (twice as fast, same team every visit); (2) the productised '24/7 Clean' membership no top-10 competitor offers; (3) transparent, tailored pricing answering the cost-dominated SERP demand. Carries the full whole-business trust stack and routes visitors onward to the two service hubs, the house-cleaning services overview, and the areas-we-serve directory. Note: the local pack and 1,000-3,000-review incumbents mean on-page cannot close the visibility gap alone — the page should convert the searchers it does reach, hard.",
+    "house-clean": "The house-cleaning services OVERVIEW hub for 'house cleaning services melbourne'. Presents a complete, scannable menu of the client's actual services — Weekly Residential, Fortnightly Residential, Deep Clean, One-Off Standard, End of Lease / Bond Back, Move-In, Corporate/Office, and Tile & Grout — each with a short 'what's included' so the page earns the expectation-setting trust signal Inner City Maids wins on, but around the client's REAL service names. Owns the Bayside/South-East niche the national brands ignore, fronted by named founder Zoe. Links each recurring service to its deeper hub (/regular-house-cleaning/, /luxury-house-cleaning/) and out to suburb pages.",
+    "areas-we-serve": "The service-area DIRECTORY for 'house cleaners near me'. Its job is to resolve the searcher's location for them: a scannable, grouped directory of all 20 Bayside/South-East suburbs (with postcodes) linking straight to each suburb page — a structural role NO ranking competitor fills. Counters the Airtasker/gig 'pot-luck cleaner' SERP with the same vetted, insured two-person Robot Standard team in every suburb, and anchors hub-level trust (vetted, insured, satisfaction-backed, fixed-price membership) once so every linked suburb page inherits the authority. IMPORTANT: the current live page is mis-scoped to 'Aspendale' and uses a banned 'Why Choose Us' heading — the rewrite must be a genuine multi-suburb directory and must NOT use 'Why Choose Us'."
+  },
+  "word_count_baseline": {
+    "floor": 1000,
+    "per_entry_targets": {
+      "homepage": 1300,
+      "house-clean": 1300,
+      "areas-we-serve": 1100
+    }
+  },
+  "execution_order_within_cluster": [
+    "homepage",
+    "house-clean",
+    "areas-we-serve"
+  ],
+  "suburb_directory": [
+    {
+      "suburb": "Aspendale",
+      "postcode": "3195",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-aspendale/",
+      "entry_id": "cleaners-aspendale"
+    },
+    {
+      "suburb": "Beaumaris",
+      "postcode": "3193",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-beaumaris/",
+      "entry_id": "cleaners-beaumaris"
+    },
+    {
+      "suburb": "Bentleigh",
+      "postcode": "3204",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-bentleigh/",
+      "entry_id": "cleaners-bentleigh"
+    },
+    {
+      "suburb": "Black Rock",
+      "postcode": "3193",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-black-rock/",
+      "entry_id": "cleaners-black-rock"
+    },
+    {
+      "suburb": "Brighton",
+      "postcode": "3186",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-brighton/",
+      "entry_id": "cleaners-brighton"
+    },
+    {
+      "suburb": "Carnegie",
+      "postcode": "3163",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-carnegie/",
+      "entry_id": "cleaners-carnegie"
+    },
+    {
+      "suburb": "Caulfield",
+      "postcode": "3162",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-caulfield/",
+      "entry_id": "cleaners-caulfield"
+    },
+    {
+      "suburb": "Cheltenham",
+      "postcode": "3192",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-cheltenham/",
+      "entry_id": "cleaners-cheltenham"
+    },
+    {
+      "suburb": "Elsternwick",
+      "postcode": "3185",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-elsternwick/",
+      "entry_id": "cleaners-elsternwick"
+    },
+    {
+      "suburb": "Gardenvale",
+      "postcode": "3185",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-gardenvale/",
+      "entry_id": "cleaners-gardenvale"
+    },
+    {
+      "suburb": "Hampton",
+      "postcode": "3188",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-hampton/",
+      "entry_id": "cleaners-hampton"
+    },
+    {
+      "suburb": "Highett",
+      "postcode": "3190",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-highett/",
+      "entry_id": "cleaners-highett"
+    },
+    {
+      "suburb": "McKinnon",
+      "postcode": "3204",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-mckinnon/",
+      "entry_id": "cleaners-mckinnon"
+    },
+    {
+      "suburb": "Mentone",
+      "postcode": "3194",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-mentone/",
+      "entry_id": "cleaners-mentone"
+    },
+    {
+      "suburb": "Moorabbin",
+      "postcode": "3189",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-moorabbin/",
+      "entry_id": "cleaners-moorabbin"
+    },
+    {
+      "suburb": "Mordialloc",
+      "postcode": "3195",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-mordialloc/",
+      "entry_id": "cleaners-mordialloc"
+    },
+    {
+      "suburb": "Murrumbeena",
+      "postcode": "3163",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-murrumbeena/",
+      "entry_id": "cleaners-murrumbeena"
+    },
+    {
+      "suburb": "Ormond",
+      "postcode": "3204",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-ormond/",
+      "entry_id": "cleaners-ormond"
+    },
+    {
+      "suburb": "Parkdale",
+      "postcode": "3195",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-parkdale/",
+      "entry_id": "cleaners-parkdale"
+    },
+    {
+      "suburb": "Sandringham",
+      "postcode": "3191",
+      "url": "https://robotcleaningsolutions.com.au/cleaners-sandringham/",
+      "entry_id": "cleaners-sandringham"
+    }
+  ],
+  "generated_at": "2026-07-27T00:00:00Z",
+  "requires_facts": [
+    "company.founding-year",
+    "social-proof.clients",
+    "metrics.percentage",
+    "contact.phone",
+    "catalog.services",
+    "catalog.guarantees"
+  ],
+  "publishable_facts": {
+    "company.founding-year": {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2024,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2024"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#year",
+          "value_seen": "2025"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2024"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.154Z"
+    },
+    "metrics.percentage": {
+      "id": "metrics.percentage",
+      "class": "percentage",
+      "label": "percentage",
+      "unit": "%",
+      "value": 95,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "95%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "10%"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.422Z"
+    },
+    "social-proof.clients": {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": "100+",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "16"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "28"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "09"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "44"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "985"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "730"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "878"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "100"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "27"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "633"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/client_count",
+          "value_seen": "100+"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.295Z"
+    },
+    "contact.phone": {
+      "id": "contact.phone",
+      "class": "identifier",
+      "label": "phone",
+      "unit": null,
+      "value": "0421 633 370",
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#phone",
+          "value_seen": "0421 633 370"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.559Z"
+    },
+    "catalog.services": {
+      "id": "catalog.services",
+      "class": "enum_set",
+      "label": "services",
+      "unit": null,
+      "value": [
+        "Weekly Residential Clean",
+        "Fortnightly Residential Clean",
+        "Deep Clean",
+        "One-Off Standard Clean",
+        "End of Lease / Bond Back Clean",
+        "Move-In Clean",
+        "Corporate/Office Cleaning",
+        "Tile and Grout Cleaning"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/services",
+          "value_seen": "Weekly Residential Clean, Fortnightly Residential Clean, Deep Clean, One-Off Standard Clean, End of Lease / Bond Back Clean, Move-In Clean, Corporate/Office Cleaning, Tile and Grout Cleaning"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.676Z"
+    },
+    "catalog.guarantees": {
+      "id": "catalog.guarantees",
+      "class": "enum_set",
+      "label": "guarantees",
+      "unit": null,
+      "value": [
+        "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority",
+        "Transparent, all-inclusive membership pricing with no hidden fees (price certainty)",
+        "1 yearly emergency clean included in membership to address any concerns immediately"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/guarantees",
+          "value_seen": "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority, Transparent, all-inclusive membership pricing with no hidden fees (price certainty), 1 yearly emergency clean included in membership to address any concerns immediately"
+        }
+      ],
+      "status": "confirmed",
+      "confidence": "low",
+      "conflicts": [],
+      "confirmed_by": "analyst",
+      "confirmed_at": "2026-07-22T06:01:34.797Z"
+    }
+  },
+  "client_data_signals": {
+    "founder_name": "Zoe Brauer",
+    "year_established": 2024,
+    "years_in_business": 2,
+    "ABN": "44 985 730 878",
+    "phone": "0421 633 370",
+    "team_size": "3",
+    "client_count": "100+",
+    "review_count": 13,
+    "review_average": 5,
+    "repeat_customer_rate_pct": 95,
+    "years_of_combined_experience": "20 years",
+    "customer_process": [
+      "Initial contact by phone (0421 633 370) or email — free quote consultation offered",
+      "On-site assessment of the property to understand its size and specific cleaning needs for a tailored quote",
+      "Present the quote with transparent, all-inclusive pricing and explain membership options (24/7 Clean) or one-time options such as end-of-lease cleaning",
+      "Once approved, schedule the service with priority booking slots for members and assign a dedicated cleaning team for efficiency",
+      "After service completion, follow up to ensure satisfaction; for members, maintain ongoing communication as their dedicated team continues weekly or fortnightly sessions with seasonal deep-clean upgrades"
+    ],
+    "success_stories": [
+      "Our members enjoy the benefit of their own personal dedicated cleaning team who work in pairs with robot-like efficiency. We've designed our service to solve the challenge of maintaining a pristine home without sacrificing valuable personal time. Our solution combines advanced cleaning equipment, premium eco-friendly products, and highly trained professionals who work systematically to deliver spotless results. The outcome for our members is a stress-free living environment with consistent quality, reduced allergens and bacteria, and a home that's always guest-ready - all while they focus on what truly matters to them."
+    ],
+    "guarantees": [
+      "Satisfaction guarantee — mission to deliver spotless homes and happy clients, with client satisfaction as the top priority",
+      "Transparent, all-inclusive membership pricing with no hidden fees (price certainty)",
+      "1 yearly emergency clean included in membership to address any concerns immediately"
+    ],
+    "insurance": "Public liability: $10 million",
+    "services": [
+      "Weekly Residential Clean",
+      "Fortnightly Residential Clean",
+      "Deep Clean",
+      "One-Off Standard Clean",
+      "End of Lease / Bond Back Clean",
+      "Move-In Clean",
+      "Corporate/Office Cleaning",
+      "Tile and Grout Cleaning"
+    ],
+    "audience": "Busy professionals and dual-income couples who value their time; high-income families seeking a healthy and well-maintained home; homeowners in affluent suburbs who prioritise property care; health-conscious individuals wanting eco-friendly, non-toxic cleaning; renters requiring a meticulous end-of-lease or bond-back clean; new residents wanting a professional clean before moving in; clients preparing for or cleaning up after hosting special events.",
+    "subject_matter_experts": [
+      "Zoe Brauer — founder; hospitality-industry background from age 14 across pubs, cafes and restaurants, and prior owner-operator of two South Australian pubs before founding the cleaning business in Melbourne."
+    ],
+    "review_framing_note": "GBP shows 13 reviews at 5/5 and is growing. Prefer '5-star rated on Google' framing in copy over a hard review count so it does not go stale.",
+    "usps_verbatim": [
+      "Working in dedicated teams (in pairs) to complete jobs twice as fast with robot-like precision and systematic efficiency",
+      "Exclusive '24/7 Clean' membership: weekly cleaning, 4 seasonal deep cleaning upgrades per year, 1 yearly emergency clean, and a dedicated cleaning team for consistency",
+      "Only eco-friendly, premium-grade cleaning products specifically tailored for luxury finishes, fine furniture and delicate materials",
+      "White glove service with expertly trained professionals who respect privacy and deliver discretion",
+      "Fixed, transparent, all-inclusive pricing with no hidden fees and priority scheduling for members"
+    ]
+  },
+  "generated_by_model": "opus",
+  "research_sha": "0931582d26e796936d2fba45ad57e2d96643e80c717ff42b3e44abb11148cefa",
+  "lock_sha": "47610f07815c85828052e8ad67538176aed6aac8388a90bc8f0e76e4f770ee0b",
+  "lock_status": "locked"
+}
