@@ -228,5 +228,38 @@ The client shared the current 31-keyword list. Two corrections to the above:
 
 **Only genuinely weak slot:** cupcakes. Once dietary + delivery are removed and `cupcakes melbourne` (already owned) is set aside, cupcake volume is thin (mini cupcakes melbourne 90). Option: give the vegan-cupcakes slot to a 5th character term instead and let the cupcakes collection ride on the `cupcakes melbourne` keyword it already has.
 
+---
+
+## FOURTH REVISION (27 Jul 2026) — generic (non-licensed) theme cakes, client-vetted
+
+Client liked `unicorn cake` and `dinosaur cake` but rejected the licensed-IP characters (Spiderman, Paw Patrol, Pokémon, Sonic, Frozen). They want more **generic, evergreen theme cakes** in the unicorn/dinosaur vein. Pulled live AU volumes and SERP-validated intent (Melbourne) for the top candidates.
+
+### ✅ Confirmed clean commercial (SERP-validated) — recommended
+
+| Theme keyword | AU vol/mo | Comp | SERP verdict |
+|---|---|---|---|
+| **unicorn cake** | 6,600 | HIGH | client pick |
+| **dinosaur cake** | 4,400 | HIGH | client pick |
+| **mermaid cake** | 2,900 | HIGH | ✅ clean — pos-1 Shopping block + product pages; competitors Isher Eggless & Ruwi's rank |
+| **heart cake** | 1,900 | HIGH | ✅ clean — all product pages (Loveit, Cupcake Queens, iCake Melbourne); on-trend vintage/love-heart; ties to existing `vintage cakes melbourne` |
+| **car cake** | 1,600 | HIGH | ✅ clean — Shopping-dominated. Caveat: overlaps existing Lightning McQueen; generic race-car theme |
+
+All map to the existing `/collections/character-cakes` (and `boys-cakes`/`girls-cakes`) collections. National terms are the target (geo versions ≈40–70/mo), consistent with existing `barbie cakes`/`bluey cakes`.
+
+### ⚠️ Higher volume but NOT clean — ruled out (or secondary only)
+
+| Theme | AU vol/mo | Why not |
+|---|---|---|
+| rainbow cake | 6,600 | recipe-dominated SERP (recipes carousel + blogs); commercial layer thin |
+| princess cake | 3,600 | half Swedish princess-torte (recipes/Wikipedia) + several Disney Princess (licensed) |
+| construction cake | 1,000 | recipe/DIY-dominated (digger-cake recipes) |
+| butterfly cake / fairy cake | 2,900 / 2,400 | in AU/UK these mean a *cupcake/bun* — wrong intent |
+| space cake | 880 | cannabis-edible slang — do not use |
+
+### Full generic-theme volume list (live AU Google Ads, 27 Jul)
+unicorn 6,600 · rainbow 6,600 · biscoff(flavour) 4,400 · smash 4,400 · dinosaur 4,400 · princess 3,600 · mermaid 2,900 · butterfly 2,900 · fairy 2,400 · heart 1,900 · car 1,600 · train 1,000(MED) · construction 1,000 · flower 1,000 · space 880 · teddy bear 590 · castle 480(MED) · floral 480 · jungle 320 · pirate 320 · animal 320 · ballerina 260 · rocket 260 · safari 170
+
+**Recommended additions:** `mermaid cake` (2,900), `heart cake` (1,900), `car cake` (1,600) — three clean, evergreen, non-licensed themes to sit alongside the client's chosen unicorn + dinosaur, all on the character-cakes collection.
+
 ### Source data
-Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent check on `cupcakes melbourne` (Melbourne, Victoria) + `/collections.json` (60 live collections) + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
+Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake` (Melbourne, Victoria) + `/collections.json` (60 live collections) + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
