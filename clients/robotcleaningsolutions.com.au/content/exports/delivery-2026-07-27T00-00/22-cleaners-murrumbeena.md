@@ -10,7 +10,7 @@ A published rate card for cleaning in postcode 3163 opens at $20 to $30 an hour.
 
 Nothing here starts with a price guess. Call **0421 633 370** or email us for a free, no-obligation on-site quote. We walk the house with you and put a single fixed all-inclusive figure in front of you before anything is booked. Priority scheduling comes with 24/7 Clean membership.
 
-Murrumbeena is a leafy pocket, and its prolific plane trees settle a steady dusting of pollen and fine grit through the house each spring. The heritage Californian bungalows around Murrumbeena Station and Neerim Road hold surfaces that reward careful, consistent cleaning rather than a rushed pass, and that is the standard we bring to every home on these streets.
+Murrumbeena is a leafy pocket, and its prolific plane trees settle a steady dusting of pollen and fine grit through the house each spring. We vacuum with HEPA-filter machines that trap that pollen, fine dust and allergens rather than recirculating them into the air. The heritage Californian bungalows around Murrumbeena Station and Neerim Road hold surfaces that reward careful, consistent cleaning rather than a rushed pass, and that is the standard we bring to every home on these streets.
 
 ## Robot Cleaning Solutions: A Name, Not a Booking Reference
 

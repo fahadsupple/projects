@@ -4,7 +4,7 @@
 
 Brighton sits at the centre of our service area as Bayside Melbourne cleaners, alongside neighbouring Gardenvale, Elsternwick, Hampton and Brighton East (3187). If you want local residential cleaners who treat a four or five-bedroom Brighton home with the same care as the furniture inside it, you are in the right place.
 
-Brighton fronts Port Phillip Bay, so persistent salt spray leaves a hazy film on windows and metal fixtures, and beach sand finds its way indoors. Many Brighton homes also sit under Bayside Heritage Overlays, so their delicate and period features are treated with extra care on every visit. Staying ahead of the salt haze while looking after those older finishes is exactly the balance a dedicated team is built for.
+Brighton fronts Port Phillip Bay, so persistent salt spray leaves a hazy film on windows and metal fixtures, and beach sand finds its way indoors. Many Brighton homes also sit under Bayside Heritage Overlays, so their delicate and period features are treated with extra care on every visit. Those period homes often hold valuable artwork, antiques and delicate heirloom pieces too, and we clean around them with extra care and discretion. Staying ahead of the salt haze while looking after those older finishes is exactly the balance a dedicated team is built for.
 
 Getting started takes one phone call. Ring **0421 633 370** for a free, no-obligation on-site quote. We visit your Brighton home, walk through it with you, and give you one fixed, all-inclusive price, then priority booking for the day that suits your week.
 

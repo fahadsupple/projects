@@ -14,7 +14,7 @@ Hampton's housing runs from houses a few streets back from the foreshore to apar
 - **Salt-carrying air:** the quieter problem, leaving a film across windows, balcony glass and chrome tapware that lifts only with the right product and a methodical pass
 - **Guest turnovers:** where a place takes short-stay guests, the clean between bookings is a full reset against a deadline, every surface needing to look untouched before the next arrival pulls in
 
-We run those turnovers as one-off or deep cleans, timed around your calendar. Apartment and townhouse cleaning is quoted the way a house is, on the rooms in front of us.
+When we vacuum, HEPA-filter machines trap that fine dust, pollen and airborne grit rather than recirculating it back into the room. We run those turnovers as one-off or deep cleans, timed around your calendar. Apartment and townhouse cleaning is quoted the way a house is, on the rooms in front of us.
 
 Planning a changeover between bookings? **Get in touch on 0421 633 370** and we will work the clean around your calendar, starting with a free, no-obligation quote.
 

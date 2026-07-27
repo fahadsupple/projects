@@ -21,3 +21,21 @@ The live suburb pages assert these specifics, but they are not in the informatio
 ## C. Already handled correctly (no action needed — FYI)
 - The live pages said the 24/7 Clean membership includes **"2 yearly emergency cleans"**; you confirmed it is **1**, so the new pages say 1. Correct as-is.
 - We replaced the hard Google review count with **"5-star rated on Google"** (so it never goes stale), used **on-quote / "from $150 per week" pricing** instead of a fixed price table, and de-emphasised End-of-Lease targeting while keeping the cross-links — all per your brief.
+
+---
+
+# RESOLVED — client answers 2026-07-27 (applied)
+
+**A. Capability claims — client confirmed usable ("if live pages mention those things we can use them"):**
+- ✅ **Artwork & antiques care** — ADDED to Brighton and the luxury-house-cleaning hub (client: "important aspect of high end cleaning, add for sure").
+- ✅ **HEPA-filter vacuuming** — ADDED where it adds value: Hampton, McKinnon, Moorabbin, Murrumbeena (dust/pollen pages).
+- ✅ **Specialised sand-capture vacuum / microfibre** — ADDED to Aspendale and Sandringham (coastal-sand pages).
+- ⏭️ Salt-spray window cleaning & specific heritage surface protocols — left out (marginal value; client said optional).
+- Note: the luxury page's existing "pH-neutral" wording kept as-is (client confirmed product claims are accurate).
+
+**B. Commercial:**
+- ✅ **B1 — "$50 off your first clean"** — ADDED to homepage (lede + closing CTA). Client: promo is active.
+- ⛔ **B2 — Airbnb / short-stay / commercial / office / builders** — NOT added (client: "don't use all this").
+- ✅ **B3 — Exclusive member offers** — ADDED (homepage + regular-house-cleaning membership sections). ⛔ Carpet/upholstery shampooing — NOT added (client declined).
+
+Re-audited after all additions: **0 blocking across 25 pages**, 0 dashes, capability terms confined to their intended pages, the "$50" figure did not trip the honesty gate. Final docx/md re-exported.

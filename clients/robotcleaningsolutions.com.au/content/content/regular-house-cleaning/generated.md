@@ -37,6 +37,8 @@ Our regular cleaning is delivered through **24/7 Clean**, an exclusive membershi
 - **A dedicated team for consistency**, so it's the same trusted pair every visit.
 - **Priority scheduling**, so members always get preferred booking slots, even in peak periods.
 
+24/7 Clean members also enjoy exclusive member-only offers.
+
 Want the 24/7 Clean membership tailored to your home? **Phone 0421 633 370** and we'll walk you through the options.
 
 ## What's Included in Every Regular Clean

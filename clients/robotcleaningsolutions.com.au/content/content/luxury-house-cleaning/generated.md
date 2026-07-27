@@ -34,6 +34,7 @@ The fastest way to damage a beautiful home is to clean it with the wrong product
 - **Fine and engineered timber**, dusted and cleaned to protect the finish rather than strip it, from floorboards to bespoke joinery.
 - **Delicate fabrics and soft furnishings**, vacuumed and refreshed with a gentle, low-moisture approach that respects upholstery, drapery and rugs.
 - **Polished metals, glass and mirror**, brought to a high-end shine without abrasives or residue.
+- **Valuable artwork, antiques and delicate heirlooms**, cleaned around with extra care and discretion, never rushed and never treated as ordinary surfaces.
 - **Detail work** including cobweb removal from high ceilings, dusting of light fittings, and the reachable tops of tall furniture.
 
 Every one of these surfaces is cleaned with eco-friendly, premium-grade products chosen specifically for luxury finishes, fine furniture and delicate materials. Because they are non-toxic, they are also safer for your family: they reduce allergens, dust and bacteria without leaving harsh chemical residue on the surfaces you touch every day. A luxury home should be healthier to live in, not just better looking.

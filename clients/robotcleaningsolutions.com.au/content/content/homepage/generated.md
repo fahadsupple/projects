@@ -1,6 +1,6 @@
 # Professional House Cleaning Company Melbourne: The Robot Standard
 
-Robot Cleaning Solutions is the professional house cleaning company Melbourne homeowners call when they want their weekends back and their home kept to a genuinely high standard. Every clean is carried out by a dedicated two-person team using eco-friendly, non-toxic products, with transparent, all-inclusive pricing tailored to the size of your home and quoted after a free on-site assessment. There is no meter running and no surprise on the invoice. To book your free, no-obligation quote, call us on **0421 633 370**.
+Robot Cleaning Solutions is the professional house cleaning company Melbourne homeowners call when they want their weekends back and their home kept to a genuinely high standard. Every clean is carried out by a dedicated two-person team using eco-friendly, non-toxic products, with transparent, all-inclusive pricing tailored to the size of your home and quoted after a free on-site assessment. There is no meter running and no surprise on the invoice. To book your free, no-obligation quote, call us on **0421 633 370**. New clients receive $50 off their first clean.
 
 We are a local, owner-run business based in Parkdale, cleaning homes right across Bayside and South East Melbourne. What sets us apart is not a slogan. It is a method, a membership, and a price you can plan around, all of which we explain in plain terms below.
 
@@ -22,7 +22,7 @@ For households that want their home simply looked after rather than re-booked ev
 - **Priority scheduling**, so members hold preferred booking slots even in our busiest weeks
 - Fixed, all-inclusive pricing with no hidden fees
 
-No comparable Melbourne cleaner packages recurring cleaning this way. Membership turns housework from a recurring chore into a standing arrangement you rarely have to think about. You can read how the recurring service works in detail on our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page.
+No comparable Melbourne cleaner packages recurring cleaning this way. 24/7 Clean members also enjoy exclusive member-only offers. Membership turns housework from a recurring chore into a standing arrangement you rarely have to think about. You can read how the recurring service works in detail on our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page.
 
 Ready to stop re-booking every few weeks? **Call us now on 0421 633 370** to set up your 24/7 Clean membership.
 
@@ -68,4 +68,4 @@ Our standard clean focuses on the surfaces and areas you use every day, cleaning
 
 ## Ready for a Spotless Home?
 
-Reclaim your weekends and hand the housework to a team you can trust. Call Robot Cleaning Solutions on **0421 633 370** for your free, no-obligation quote, and let your dedicated two-person team keep your Melbourne home the way you love it.
+Reclaim your weekends and hand the housework to a team you can trust. Call Robot Cleaning Solutions on **0421 633 370** for your free, no-obligation quote, and let your dedicated two-person team keep your Melbourne home the way you love it. New clients receive $50 off their first clean.
