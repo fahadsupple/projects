@@ -299,5 +299,38 @@ gluten free cakes melbourne · gluten free birthday cakes melbourne · dairy fre
 | rainbow cake | 6,600 | Rainbow Cake ✅ | ⚠️ recipe-dominated organic; secondary only |
 | jungle cake | 320 | Jungle / Jungle Animals cake ✅ | generic theme, low volume |
 
+---
+
+## SIXTH REVISION (27 Jul 2026) — 6 dietary replacements, milestones rejected
+
+**Client rejected milestone age-terms** (18th/21st/30th/40th) — don't offer these. **`number cakes melbourne` LOCKED** as one of the 6. Client asked to SERP-check christening. Need 4 more beyond number cakes + christening.
+
+### ✅ Confirmed viable (SERP-validated, real product)
+
+| Keyword | AU vol/mo | Verdict | Their product |
+|---|---|---|---|
+| **christening cake** | 880 | ✅ clean commercial — Shopping block + product organic (Ferguson Plarre, Food Voyageur "Christening Cake Melbourne"). Minimal recipe. | Baptism Cake ✅ (optimise it for "christening cake" — higher-volume term than "baptism cake") |
+| **teddy bear cake** | 590 | ✅ clean commercial — Shopping-dominated; **The Cake People's own teddy bear product already ranks in the Shopping block.** Generic non-licensed theme like unicorn/dino | 1st Birthday Cute Teddy Bear Cake ✅ |
+| **graduation cake** | 1,300 | ✅ commercial (Cake Mail, Sugar Rush, Food Voyageur collections rank) but some Pinterest/ideas contamination | graduation-cakes collection exists but only 1 generic product — **add a dedicated graduation cake** |
+| **jungle cake** | 320 | likely clean (generic animal theme) — not separately SERP'd | Jungle / Jungle Animals cakes ✅ |
+
+### ❌ Ruled out / secondary only
+
+| Keyword | AU vol/mo | Why |
+|---|---|---|
+| cake toppers melbourne / cake toppers | 110 / 6,600 | SERP owned by topper *specialists* (Kelly's, Itty Bitty, Laser Edge) — $5–25 accessory sales, wrong competitive set for a bakery. Skip. |
+| gender reveal cake | 5,400 | real products + huge volume, BUT `gender reveal cakes melbourne` already in the list → national sibling on the *same page*, not new coverage. Add as a secondary, not a "6th replacement." |
+| princess cake | 3,600 | they make Princess Birthday Cake, but SERP split between Swedish princess-torte (recipes) + Disney Princess (licensed). Muddy. |
+| rainbow cake / biscoff cake | 6,600 / 4,400 | they sell both (hero flavours) but organic is recipe-dominated → Shopping/secondary only, not clean primaries |
+| baby shower cake | ~0 | real collection (11 products) but no trackable AU volume |
+| fault line cake | 90 | real collection, LOW competition (winnable) but niche |
+| christmas cake melbourne | 110 | real collection, seasonal (Dec spike to 880) |
+
+### Recommended final 6
+
+`number cakes melbourne` (locked) + **christening cake** (880) + **teddy bear cake** (590) + **graduation cake** (1,300) + **jungle cake** (320) + one higher-volume trade-off pick: **gender reveal cake** (5,400, strengthens existing page) *or* **princess cake** (3,600, muddy) *or* **biscoff cake** (4,400, Shopping-only). 
+
+**Honest note:** after removing dietary + milestones + licensed IP + delivery + custom + recipe-contaminated flavours, and requiring a real product with clean commercial intent, the clean high-volume pool is largely exhausted — hence teddy bear/jungle are lower volume. The client's move away from milestones (which had 1,300–2,400/mo each) is the main volume trade-off.
+
 ### Source data
-Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake`, `biscoff cake` (Melbourne, Victoria) + `/collections.json` (60 collections) + products.json for character-cakes/all-cakes/milestone-cakes/special-occasions + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
+Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent checks on `cupcakes melbourne`, `rainbow cake`, `mermaid cake`, `princess cake`, `construction cake`, `car cake`, `heart cake`, `biscoff cake`, `christening cake`, `graduation cake`, `teddy bear cake`, `cake toppers melbourne` (Melbourne, Victoria) + `/collections.json` (60 collections) + products.json for character-cakes/all-cakes/milestone-cakes/special-occasions/baby-shower/cake-toppers/1st-birthday/signature/corporate/religious/graduation + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
