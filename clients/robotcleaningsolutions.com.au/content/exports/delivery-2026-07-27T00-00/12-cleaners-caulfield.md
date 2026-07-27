@@ -16,7 +16,7 @@ We won't pretend to be the oldest name in Caulfield. Long-established local name
 
 ## Why We Send Two Cleaners to Every Caulfield Home
 
-The cleaning jobs posted around Caulfield show the local range honestly: a two-bedroom, two-bathroom regular clean on one street, a four-bedroom house with three bathrooms on the next. Caulfield, Caulfield North and Caulfield South are adjoining pockets rather than one uniform housing stock, and a package written for a compact apartment does not stretch to a large family home.
+The cleaning jobs posted around Caulfield show the local range honestly: a two-bedroom, two-bathroom regular clean on one street, a four-bedroom house with three bathrooms on the next. Caulfield, Caulfield North and Caulfield South are adjoining pockets rather than one uniform housing stock, and a package written for a compact apartment does not stretch to a large family home. The suburb is known too for its heritage Edwardian homes and the mature Plane trees around Caulfield Park, which shed heavy spring pollen that settles on sills, surfaces and floors, so both the housing stock and the seasons shape what a clean here has to keep on top of.
 
 So we don't send one person with a mop and a time limit. Every clean is delivered by a dedicated pair working in step, systematically, with the robot-like precision the business is named for. Two people finish roughly twice as fast, which counts most where a single cleaner would be watching the clock by the second bathroom. Because it is the same pair each visit, the second clean starts where the first one left off.
 
@@ -108,6 +108,9 @@ Yes. We clean throughout Caulfield and its adjoining pockets:
 - Caulfield East 3145
 
 Mention your street when you call and we will confirm coverage.
+
+**What if I am at work when your team arrives?**
+Plenty of our Caulfield clients are out at work when we clean, so simply tell us your preferred arrangement when you book, whether that is a key, a lockbox code or building access, and your dedicated, vetted and insured team will follow it to the letter.
 
 **How do we get started?**
 Call **0421 633 370** or email for a free quote consultation. From there:

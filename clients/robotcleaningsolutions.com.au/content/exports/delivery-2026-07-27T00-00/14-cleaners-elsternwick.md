@@ -10,6 +10,8 @@ Somewhere in a local community group this week, another Elsternwick resident is 
 
 We work across the City of Glen Eira and out through Bayside and South-East Melbourne, so Elsternwick sits inside our regular rounds, not at the edge of a 40-kilometre radius.
 
+Elsternwick is full of Heritage Overlay period homes, with features like leadlight windows that reward a careful, gentle clean, and its mature Plane and Elm trees around Elsternwick Park bring seasonal pollen indoors, while bay salt spray reaches the bay-facing windows on the streets closest to the water.
+
 ## Robot Cleaning Solutions, in Brief
 
 Zoe Brauer founded Robot Cleaning Solutions in 2024, arriving from a hospitality career that began at 14 and included running two South Australian pubs. Since opening, the business has cleaned for 100+ clients across Bayside and South-East Melbourne. The full detail on our insurance, guarantees and reviews sits on our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page.
@@ -114,6 +116,9 @@ A household habit rather than a professional method: give the house twenty focus
 
 **What is the cheapest way to get an Elsternwick house cleaned?**
 A one-off standard clean is the smallest commitment we offer, quoted just as transparently. Over a year membership usually works out better value, since the seasonal deep cleans and emergency clean sit inside the price.
+
+**We have a dog and a cat at home, how do you manage pets during a clean?**
+Just introduce us to them when you book and we will work around them, keep doors and gates secure so nobody slips out, and use eco-friendly, non-toxic products that are safe around animals.
 
 **Do you cover all of Elsternwick, 3185?**
 Yes, the whole suburb and the surrounding Glen Eira streets, as part of our work as Bayside Melbourne cleaners. Mention your street when you call and we will tell you the day we are nearby.

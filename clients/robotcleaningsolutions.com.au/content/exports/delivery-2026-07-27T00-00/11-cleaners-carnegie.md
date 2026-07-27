@@ -8,6 +8,8 @@ Meta Description: Ongoing house cleaning Carnegie homes rely on: the same dedica
 
 Plenty of Carnegie households first find us when a lease is ending. The ongoing **house cleaning Carnegie** homes need week to week is a different job altogether, and that is what this page covers: regular domestic cleaning for Carnegie, VIC 3163, in Glen Eira and part of the Bayside and South-East Melbourne patch we work across. Your home is looked after by the same dedicated two-person team every visit, and it starts with a free, no-obligation on-site quote plus priority booking once you are set up. Call **0421 633 370** and we will come and see your place properly before you commit to anything.
 
+Carnegie mixes modern apartments near the station with heritage Californian Bungalows around Koornang Road and Packer Park, so no two homes here ask for quite the same thing. Its mature street trees bring seasonal pollen and fine dust indoors through the warmer months, settling on sills, surfaces and floors. A steady weekly or fortnightly rhythm is what keeps it from building up.
+
 ## Your Bond Clean and Your Regular Clean Are Two Separate Jobs
 
 We already have a dedicated End of Lease Cleaning Carnegie page, and it stays exactly where it is. Bond and end of lease cleaning is a one-off, inspection-driven job with its own checklist, its own timing and its own pricing, usually on an empty property. Regular cleaning is the opposite: a lived-in home, a set rhythm, and a team who learns your layout over months rather than meeting it once. If you are moving out of a Carnegie rental, head to that page instead. If you want your home looked after on an ongoing basis, keep reading.
@@ -95,6 +97,9 @@ A deep clean adds oven and fridge interiors, grout scrubbing, blinds and window 
 
 **Will the same cleaners come each time?**
 Yes. Your dedicated two-person team is assigned to your Carnegie home and returns for every visit, whether you book weekly, fortnightly or a seasonal deep clean.
+
+**What if I am at work while you clean?**
+Plenty of our Carnegie clients are out at work when we visit, so just tell us your preferred arrangement when you book, whether that is a key, a lockbox code or building access, and your dedicated, vetted and insured team will follow it every time.
 
 **Which suburbs near Carnegie do you cover?**
 We work right across Carnegie 3163 and neighbouring Glen Eira suburbs, including [Murrumbeena](https://robotcleaningsolutions.com.au/cleaners-murrumbeena/) and [Caulfield](https://robotcleaningsolutions.com.au/cleaners-caulfield/), as part of our wider Bayside Melbourne cleaners service area. If you sit close to a boundary, mention it when you call and we will confirm coverage.

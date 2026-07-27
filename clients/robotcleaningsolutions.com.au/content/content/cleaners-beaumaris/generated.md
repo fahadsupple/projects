@@ -4,6 +4,8 @@
 
 Beaumaris homes are rarely small. Local job listings for the suburb describe four-bedroom houses, three-bathroom layouts and two-storey floorplans with a mix of carpet and hard floors, usually with a family living in them. That is a lot of house to hand to whoever a booking app happens to match you with this week.
 
+Beaumaris is defined by the coast, from Ricketts Point Marine Sanctuary and Table Rock Point to The Concourse and Beach Road. The suburb's mid-century-modern homes, with their large glass panels, show salt haze quickly, and beach sand and coastal humidity are constants here. Keeping that glass clear and those surfaces fresh is exactly the sort of ongoing job a regular team stays ahead of.
+
 ## The Robot Cleaning Solutions Team Behind Your Beaumaris Clean
 
 Robot Cleaning Solutions was founded in 2024 by Zoe Brauer, who came to cleaning from a hospitality career that started at 14 and included owning and running two South Australian pubs. That background shows in how the business operates: rosters that hold, standards that do not drift, and a preference for doing the small things properly. Since launching, the team has cleaned for 100+ clients across Bayside and South-East Melbourne. You can read the full picture, including our guarantees, insurance and customer reviews, on our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page.

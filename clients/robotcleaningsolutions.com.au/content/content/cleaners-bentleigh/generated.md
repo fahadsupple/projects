@@ -4,6 +4,8 @@ Reliable **house cleaning Bentleigh** households can count on shouldn't depend o
 
 We cover both sides of the Bentleigh line on one page for a reason. Households here rarely think in postcode boundaries, and neither do we. Whether you want a recurring house cleaner every week, a fortnightly reset, a one-off deep house cleaning service before guests arrive, or bond and end of lease cleaning when a tenancy wraps up, it's the same team and the same standard across both suburbs.
 
+Bentleigh's leafy streets are lined with mature Plane and Eucalyptus trees that drop fine dust and seasonal pollen, so surfaces and floors need staying on top of through the warmer months. The homes here range from Californian Bungalows near Allnutt Park to contemporary townhouses around Patterson Road and Bentleigh Reserve, and each needs a slightly different touch. A regular rhythm keeps the dust and pollen from settling in.
+
 ## Zoe Brauer and the Robot Cleaning Solutions Team
 
 Plenty of local cleaning listings put a first name on the page. We think you should know who is actually behind the business. Robot Cleaning Solutions was founded in late 2024 by Zoe Brauer, who came to cleaning after a lifetime in hospitality: front-of-house from the age of 14 across pubs, cafes and restaurants, then owner-operator of two South Australian pubs before starting the business here in Melbourne. That background is why the service feels closer to hospitality than housework, and why the standards don't drift once the novelty of a new client wears off.

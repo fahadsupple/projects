@@ -8,7 +8,7 @@ Zoe Brauer founded Robot Cleaning Solutions in 2024, bringing across a hospitali
 
 ## Coastal Living Leaves Its Mark on a Mentone Home
 
-Local specialists describe the job here as grit management for coastal living, which is fair. Sand travels indoors on shoes, towels and dog paws. Salt-laden air settles as a haze on windows, sills and chrome, so surfaces that looked fine last week read as tired this week.
+Local specialists describe the job here as grit management for coastal living, which is fair. Sand travels indoors on shoes, towels and dog paws. Salt-laden air settles as a haze on windows, sills and chrome, so surfaces that looked fine last week read as tired this week. Mentone also carries a good stock of heritage-protected homes, and their period features ask for a gentler hand, so we take extra care with delicate and period detail while keeping the beach sand and bay salt in check.
 
 Staying ahead of it is routine, not gimmickry. Every standard visit covers:
 

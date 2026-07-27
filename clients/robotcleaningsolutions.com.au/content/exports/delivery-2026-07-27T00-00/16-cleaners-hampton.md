@@ -14,7 +14,7 @@ Getting a price takes one call. Ring **0421 633 370** for a free, no-obligation 
 
 ## Homes Near the Foreshore, Apartments Along the Bay
 
-Hampton's housing runs from houses a few streets back from the foreshore to apartments looking out over the water, plus properties hosting paying guests between family stays. The bay shows up in the work in three ways:
+Hampton's housing runs from houses a few streets back from the foreshore to apartments looking out over the water, plus properties hosting paying guests between family stays. Among that stock sit classic Edwardian and period homes whose older features reward a careful, gentle clean, so the coastal grime and the age of the house both shape how we approach a place here. The bay shows up in the work in three ways:
 
 - **Sand:** arrives on towels, thongs and dog paws, then works into floor edges, entry mats and the tracks under sliding doors that a quick vacuum never reaches
 - **Salt-carrying air:** the quieter problem, leaving a film across windows, balcony glass and chrome tapware that lifts only with the right product and a methodical pass

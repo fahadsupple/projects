@@ -22,6 +22,8 @@ Parkdale still lives in much of its original housing. The bungalows through thes
 
 Then there is the traffic. Homes near the suburb's busier road frontages collect a fine film of soot on window glass, sills, flyscreens, blinds and the outer edges of door frames. It settles slowly enough that most households stop noticing it. Cleaning here means planning for both: heritage finishes to protect, soot to lift rather than smear.
 
+Parkdale is a bayside suburb as well, and the coast leaves its own marks. Salt spray settles on the seaward windows, and fine beach sand works its way into grout and floors, so homes near the foreshore need a team that stays on top of both.
+
 ## Gentle Chemistry for Heritage Surfaces, and a Quiet Way of Working
 
 We clean only with eco-friendly, premium-grade products chosen for luxury finishes, fine furniture and delicate materials, the chemistry an older Parkdale home wants. On the surfaces these streets are full of:

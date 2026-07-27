@@ -10,7 +10,7 @@ Our guarantees, insurance cover and reviews are set out in full on the [regular 
 
 ## Salt, Sand and Coastal Grime in a Home You Actually Live In
 
-Coastal grime is its own category of mess. Sand off the beach works into entry mats, hallway floorboards and the laundry, while salt-carrying air dulls glass, screens and outdoor furniture. Unlike ordinary dust it never stops arriving, so one booking buys a week before the work is waiting again.
+Mordialloc is all about the coast, from a coffee on Main Street to the boats moored along Mordialloc Creek, so beach sand and bay salt spray are part of every home near the foreshore. Coastal grime is its own category of mess. Sand off the beach works into entry mats, hallway floorboards and the laundry, while salt-carrying air dulls glass, screens and outdoor furniture. Unlike ordinary dust it never stops arriving, so one booking buys a week before the work is waiting again.
 
 That makes it maintenance, not a project, which is what regular domestic cleaning is for:
 
@@ -108,6 +108,9 @@ Close to six hours of one person's work: in a typical Mordialloc home, the kitch
 
 **Is the 20-minute rule of cleaning worth bothering with?**
 A short daily reset genuinely helps in a coastal household: shake the entry mats, sweep the hallway, clear the benches. Grout, ovens and floors still need proper time and products.
+
+**We are usually out when you clean. How do you get inside?**
+Plenty of our Mordialloc clients are at work when we visit, so just tell us your preferred arrangement when you book, whether that is a key, a lockbox code or building access, and your dedicated, vetted and insured team will follow it every time.
 
 **How do we book?**
 One call. Ring 0421 633 370 or email, and we will assess your Mordialloc home on site at no cost, then put a fixed price in front of you.

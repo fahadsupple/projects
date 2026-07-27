@@ -116,6 +116,12 @@ Our standard cleans focus on the accessible, everyday surfaces that keep a home 
 **What is the 20 minute rule of cleaning?**
 The "20 minute rule" is a popular habit of spending a focused 20 minutes a day tidying to stop mess accumulating. It helps day to day, but it will not replace a thorough, systematic clean. That is exactly what our dedicated team delivers, so your own time is freed for the things that matter more than housework.
 
+**Can I move or cancel a scheduled clean?**
+Yes, plans change. Just give us a ring on **0421 633 370** and we will reschedule your visit or adjust the booking to suit.
+
+**How often should I have my home cleaned?**
+Most homes settle comfortably into a weekly or fortnightly membership, and we will recommend the rhythm that fits your household at your free, no-obligation quote.
+
 ## Not Sure We Cover Your Street?
 
 If your suburb is on the list above, you are one call away from a spotless home and reclaimed weekends. If you are near the edge of an area and unsure, we will happily confirm. Call **0421 633 370** or request a free, no-obligation quote, and we will match you with the dedicated Robot Cleaning Solutions team for your part of Bayside and South-East Melbourne.

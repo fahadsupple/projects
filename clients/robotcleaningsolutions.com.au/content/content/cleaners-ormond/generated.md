@@ -2,7 +2,7 @@
 
 Most households searching for **house cleaning Ormond** can genuinely rely on are not shopping for a single clean. They want to set something up properly, once, then stop thinking about it. So this page walks through how the arrangement actually runs in Ormond, VIC 3204, from the first free on-site quote to the same two cleaners letting themselves in a year later. Nothing begins until a fixed price is in front of you, and getting one costs nothing: call **0421 633 370** and we will come and look at your home. Members also get priority booking, so your slot is held.
 
-Ormond sits in the City of Glen Eira, inside the Bayside and South-East Melbourne patch our teams work every week.
+Ormond sits in the City of Glen Eira, inside the Bayside and South-East Melbourne patch our teams work every week. It is a suburb of Federation homes and period cottages, many still carrying original detail like picture rails, set along leafy streets off North Road where mature trees bring seasonal pollen indoors. Those period surfaces and that steady drift of dust are exactly what our regular visits are built around.
 
 ## Robot Cleaning Solutions: The Short Version
 

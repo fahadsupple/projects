@@ -8,6 +8,8 @@ Meta Description: House cleaning Moorabbin, priced on the home and not the hour:
 
 Ask around for **house cleaning Moorabbin** locals actually keep and you hear the same story: three quotes gathered, three strangers compared, one booked, the exercise repeated a few months later. Robot Cleaning Solutions is built to end that loop. We are local residential cleaners working across Moorabbin, VIC 3189 in the City of Kingston, part of the Bayside and South-East Melbourne area we cover, and your home is looked after by the same dedicated two-person team every visit.
 
+Moorabbin sits close to the business district and its busy arterial roads, so airborne dust is the constant cleaning challenge here, settling onto surfaces and floors right through the home. Keeping ahead of it is steady, repeatable work, exactly what a dedicated team who already knows your home is built for.
+
 It begins with a free, no-obligation on-site quote. Call **0421 633 370** and we will walk your Moorabbin home, look at the rooms, bathrooms and finishes that decide the work, then put one fixed price in front of you. As a 24/7 Clean member, priority booking holds your slot when the calendar tightens.
 
 ## Robot Cleaning Solutions: 100+ Clients Since 2024

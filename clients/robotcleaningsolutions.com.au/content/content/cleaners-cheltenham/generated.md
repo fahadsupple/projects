@@ -8,7 +8,7 @@ Zoe Brauer started Robot Cleaning Solutions in 2024, carrying across a hospitali
 
 ## What We Clean in Cheltenham, and How Often
 
-Cheltenham runs on a mix of family houses and apartments, and the service flexes to whichever you are in. Our home cleaning services here cover:
+Cheltenham runs on a mix of family houses and apartments, and the service flexes to whichever you are in. The suburb sits on Melbourne's sandbelt, so fine soil dust settles into every corner, and its proximity to Port Phillip Bay adds a coastal salt spray that hazes windows and glass, both of which a steady cleaning rhythm keeps in check. Our home cleaning services here cover:
 
 - **Weekly Residential Clean**, for households that want the place reset every week
 - **Fortnightly Residential Clean**, a lighter rhythm that still keeps every room presentable
@@ -93,6 +93,9 @@ Dusting through all living areas, floors vacuumed and mopped, kitchen benches, s
 
 **Do you clean beyond Cheltenham itself?**
 Yes. As Bayside Melbourne cleaners we work throughout Kingston and the neighbouring Bayside suburbs, so if you sit near a boundary just mention your street when you call and we will confirm coverage.
+
+**How will you get inside if the house is empty when you come?**
+Most of our Cheltenham cleans happen while people are at work, so let us know how you would like us to get in when you book, whether that is a key, a lockbox code or building access, and your dedicated, vetted and insured team will stick to it every visit.
 
 **How do I get started?**
 One call. Ring 0421 633 370 or send us an email, and we will book a time to walk the home, talk through weekly, fortnightly, deep or one-off options, and put a fixed price in front of you.

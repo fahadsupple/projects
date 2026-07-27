@@ -2,6 +2,8 @@
 
 Search **house cleaning Sandringham** and the searches beside it give the game away: locals want to know what a private cleaner really is, what a clean should cost, and how anyone picks the best from a list running into the hundreds. Robot Cleaning Solutions answers all three at once. Homes across Sandringham, VIC 3191, in Melbourne's Bayside, are looked after by one dedicated two-person team, booked through one business, with one person accountable for the result. Start with a free, no-obligation on-site quote: call **0421 633 370**, we walk the house with you, and you have a fixed all-inclusive price before anything is locked in. Members also hold priority booking slots.
 
+Sandringham is a coastal suburb at heart, from Station Street down to the yacht club and the trails that follow the shore, and its streets hold a good stock of Heritage Overlay homes. That mix shapes the work here: salt haze and beach sand are kept in check on seaward glass and floors, while we take extra care with delicate and period features.
+
 ## Private Cleaner, or a Business That Sends One?
 
 "Private house cleaning" is one of the things Sandringham residents search alongside this page, and the appeal is obvious. A private cleaner is someone you know by name, who learns the house and turns up the same morning each week. The awkward parts arrive later: no cover the week they are unwell or overseas, no second pair of hands when a deep clean is due, no clear answer if a vanity is damaged.

@@ -2,6 +2,8 @@
 
 What most Gardenvale households want from a cleaner is simple: one team that learns the house, arrives when it says it will, and leaves the place the way you would if you had a whole free afternoon. That is what **house cleaning Gardenvale** looks like with Robot Cleaning Solutions. We look after Gardenvale, VIC 3185, the small Bayside pocket sitting between Brighton and Elsternwick, alongside the rest of Bayside and South-East Melbourne, with weekly, fortnightly, deep, one-off and end-of-lease cleaning delivered by the same dedicated two-person team every visit. It starts with a free, no-obligation on-site quote and a fixed price agreed before any work begins. Call **0421 633 370** to arrange yours, and ask about priority scheduling under the 24/7 Clean membership.
 
+Gardenvale centres on Martin Street Village and Gardenvale Park, and its western side faces the prevailing winds off Port Phillip Bay, so the bay-facing windows on those streets need cleaning more often to stay clear of salt haze.
+
 ## Robot Cleaning Solutions: One Independent Bayside Business
 
 Zoe Brauer started Robot Cleaning Solutions in 2024, after a working life spent in hospitality: front of house from the age of 14, then owner-operator of two South Australian pubs, before bringing that same standard to homes in Melbourne. It has stayed a small, hands-on operation on purpose, because that is the only way the same faces can keep returning to the same houses. Since opening, we have cleaned for 100+ clients across Bayside and South-East Melbourne.
@@ -97,6 +99,9 @@ More than you might expect when two people arrive together and work to a set seq
 
 **Is the 20 minute rule of cleaning worth following?**
 Setting a timer and giving one zone twenty focused minutes is a genuinely useful habit between visits, and it keeps clutter from building. It maintains a home; it does not deep clean one. The two work well together.
+
+**What do you do about our pets while you clean?**
+Let us know about them when you book and the team will fit in around them, keeping doors and gates shut so nothing gets out, and the eco-friendly, non-toxic products we use are safe to have around animals.
 
 **What is included in a standard clean?**
 
