@@ -117,5 +117,51 @@ If the rule is "no keyword leads with a dietary descriptor," these **already-sel
 
 ---
 
+---
+
+## SECOND REVISION (27 Jul 2026, pm) — after seeing the actual live keyword list
+
+The client shared the current 31-keyword list. Two corrections to the above:
+1. **My proposed heads were already in the list** — `cakes melbourne`, `celebration cakes melbourne`, `cupcakes melbourne`, `cake delivery melbourne` are all already keywords. They cannot be "replacements."
+2. **Delivery angles are not acceptable** — rules out `cupcake delivery melbourne`, `birthday cake delivery melbourne`, etc.
+
+**Hard reality:** every high-volume cake/cupcake/birthday head is either already owned or is dietary/custom/delivery. The pool of net-new + compliant (non-dietary-lead, non-custom, non-delivery, not-already-in-list) terms is entirely **low-volume long-tail (≤110/mo).**
+
+### Net-new + compliant candidate menu (live Google Ads AU, 27 Jul 2026)
+
+| Candidate | Vol/mo | Comp | Best-fit page |
+|---|---|---|---|
+| cake toppers melbourne | 110 | HIGH | accessories (new line) |
+| mini cupcakes melbourne | 90 | HIGH | cupcakes |
+| birthday cupcakes melbourne | 50 | HIGH | cupcakes |
+| engagement cakes melbourne | 50 | HIGH | occasion/cakes |
+| christening cakes melbourne | 50 | HIGH | occasion/cakes |
+| graduation cakes melbourne | 40 | HIGH | occasion/cakes |
+| buttercream cakes melbourne | 30 | HIGH | style/cakes |
+| novelty cakes melbourne | 30 | HIGH | design (custom replacement) |
+| 21st birthday cake melbourne | 30 | HIGH | birthday |
+| 1st birthday cake melbourne | 30 | HIGH | birthday |
+| designer cakes melbourne | 10 | HIGH | design |
+| occasion cakes melbourne | 10 | HIGH | cakes |
+| anniversary cakes melbourne | 10 | HIGH | occasion |
+| drip cakes melbourne | 10 | HIGH | style |
+| fondant cakes melbourne | 10 | HIGH | style |
+| cupcake tower melbourne | 10 | HIGH | cupcakes |
+| baby shower cakes melbourne | ~0 | — | — |
+| 30th / 40th birthday cake melbourne | ~0 | — | — |
+| adult birthday cakes melbourne | ~0 | — | — |
+
+### Recommended best-fit mapping (for the confirmed drops)
+
+| Dropped (banned) | Recommended net-new replacement | Vol | Page |
+|---|---|---|---|
+| vegan cupcakes melbourne (90) | **mini cupcakes melbourne** (90) | 90 | /collections/plant-based-cupcakes |
+| vegan cakes melbourne (720) | **novelty cakes melbourne** (30) or an occasion (engagement/christening 50) | 30–50 | /collections/plant-based-cakes |
+| vegan birthday cakes melbourne (110) | **21st birthday cake melbourne** (30) or 1st birthday cake melbourne (30) | 30 | birthday collection |
+| custom cakes melbourne (1,000) | **novelty cakes melbourne** (30) / buttercream cakes melbourne (30) | 30 | design/bespoke hub |
+| messi cakes (170) | soccer cakes melbourne + football cakes melbourne (client-chosen) | 40+10 | football collection |
+
+**Open decision (needs client):** the 9 dietary-led terms in the list (`gluten free cakes melbourne` 880, `gluten free birthday cakes melbourne`, `vegan cakes melbourne` 720, `vegan birthday cakes melbourne`, `dairy free cakes melbourne`, `sugar free cakes melbourne`, `gluten free cupcakes melbourne`, `egg free cakes melbourne`, `vegan cupcakes melbourne`). If the no-dietary-lead rule applies to all of them, ~1,900+/mo of targeted volume is being swapped for ≤110/mo long-tail terms. This is a material strategic loss and must be an explicit, informed client decision — not something to apply silently. Alternative: keep the dietary collection pages but let them rank on brand + body content (no dietary keyword as the meta/H1 lead), and spend the freed keyword slots on additional character/milestone terms (the proven conversion engine).
+
 ### Source data
 Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent check on `cupcakes melbourne` (location: Melbourne, Victoria) via DataForSEO, 27 Jul 2026.
