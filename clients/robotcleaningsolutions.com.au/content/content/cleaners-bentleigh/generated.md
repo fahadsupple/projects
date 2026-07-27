@@ -42,7 +42,7 @@ Our exclusive 24/7 Clean membership gives you one fixed, all-inclusive price, ta
 - The same cleaners at every visit, so your preferences are learned once
 - Priority scheduling, including through the busy periods
 
-Membership starts from $150 per week, tailored to your home size, and that tailoring is exactly why we quote on site rather than guessing over the phone. We look at bedrooms and bathrooms, the surfaces involved and the level of care your home needs, then give you one number that doesn't move. If you'd like to understand the ongoing option in more depth first, our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page walks through how weekly and fortnightly cleaners work in practice.
+Membership is tailored to your home size, and that tailoring is exactly why we quote on site rather than guessing over the phone. We look at bedrooms and bathrooms, the surfaces involved and the level of care your home needs, then give you one number that doesn't move. If you'd like to understand the ongoing option in more depth first, our [regular house cleaning](https://robotcleaningsolutions.com.au/regular-house-cleaning/) page walks through how weekly and fortnightly cleaners work in practice.
 
 Want to know what your own home would cost? **Phone 0421 633 370** and we'll book your free on-site assessment.
 
@@ -68,7 +68,7 @@ Ready to meet the team who'll look after your home? **Ring 0421 633 370** and we
 Yes. Bentleigh 3204 and Bentleigh East 3165 are a single service area for us, looked after by the same team on the same schedule. There's no difference in service, standard or pricing structure between them.
 
 **How much do house cleaners charge per hour in Australia?**
-Hourly rates vary widely between operators, and that uncertainty is exactly what we set out to remove. We don't sell hours. Membership is a fixed, all-inclusive weekly or fortnightly price from $150 per week, tailored to your home size, so the cost doesn't change because a job ran long.
+Hourly rates vary widely between operators, and that uncertainty is exactly what we set out to remove. We don't sell hours. Membership is a fixed, all-inclusive weekly or fortnightly price tailored to your home size, so the cost doesn't change because a job ran long.
 
 **How much should I pay my cleaner per hour in Bentleigh?**
 The more useful question is what a clean should cost for your specific home. Book a free on-site assessment and we'll quote the whole job, with products and equipment included and nothing added afterwards.

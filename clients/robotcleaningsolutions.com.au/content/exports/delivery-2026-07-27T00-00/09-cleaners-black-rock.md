@@ -65,9 +65,9 @@ To start the 24/7 Clean membership, or simply to hear what it would look like fo
 
 ## The Price Question Black Rock Searchers Keep Asking
 
-Quote-comparison sites covering Black Rock 3193 advertise cleaning from around $20 to $30 an hour, which is why so many locals arrive already holding numbers. The trouble with an hourly rate is that it prices time rather than a finished home. A cheap hour with a stopwatch running can still leave the oven untouched.
+Quote-comparison sites covering Black Rock 3193 advertise cleaning by the hour, which is why so many locals arrive already holding numbers. The trouble with an hourly rate is that it prices time rather than a finished home. A cheap hour with a stopwatch running can still leave the oven untouched.
 
-Membership pricing runs the other way. One fixed, all-inclusive fee tailored to the size of your home, from $150 per week, which covers:
+Membership pricing runs the other way. One fixed, all-inclusive fee tailored to the size of your home, which covers:
 
 - **Products and equipment**, included in the fee
 - **Your dedicated two-person team**, on every visit
@@ -88,7 +88,7 @@ The service wrapped around them is white glove home cleaning. Expertly trained p
 ## Black Rock Questions We Get Asked Most
 
 **How much do house cleaners charge per hour in Australia, and what should I be paying?**
-Listing sites covering Black Rock advertise roughly $20 to $30 an hour, and the figure shifts with whoever picks up the job. We price differently: one fixed, all-inclusive amount tailored to your home, quoted free on site, with no meter running and no surprise at the end.
+Listing sites covering Black Rock advertise a band of hourly rates, and the figure shifts with whoever picks up the job. We price differently: one fixed, all-inclusive amount tailored to your home, quoted free on site, with no meter running and no surprise at the end.
 
 **How far does a three-hour clean actually get in a Black Rock home?**
 With two cleaners working as a pair, three hours is closer to six hours of single-cleaner work. In a typical three-bedroom home that covers the kitchen, bathrooms, floors throughout, dusting and all accessible surfaces. Oven interiors, inside the fridge and shower grout belong to a deep clean, scheduled as its own visit.

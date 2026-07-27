@@ -63,7 +63,7 @@ White glove home cleaning is as much about conduct as chemistry. Our team is exp
 
 ## What House Cleaning Costs in Aspendale
 
-Local quote sites publish hourly bands for this part of Bayside, which is why so many people ask what they should be paying a cleaner per hour. Our answer is that an hourly rate is the wrong unit. Buy hours and you carry the risk: a slow day costs you more, a rushed one leaves the bathroom half-finished. We price the home instead. Membership cleaning starts from $150 per week and is tailored to your home size, with the exact figure set by the on-site quote once we have seen the bedrooms, bathrooms and finishes. One-off and end-of-lease work is quoted the same way, on the job in front of us.
+Local quote sites publish hourly bands for this part of Bayside, which is why so many people ask what they should be paying a cleaner per hour. Our answer is that an hourly rate is the wrong unit. Buy hours and you carry the risk: a slow day costs you more, a rushed one leaves the bathroom half-finished. We price the home instead. Membership cleaning is fixed, all-inclusive and tailored to your home size, with the exact figure set by the free on-site quote once we have seen the bedrooms, bathrooms and finishes. One-off and end-of-lease work is quoted the same way, on the job in front of us.
 
 That is the point of the membership: certainty.
 

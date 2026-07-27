@@ -10,7 +10,7 @@ You are editing ONE already-written page. **This is a surgical content pass, not
 
 ## HARD RULES (violating any of these fails the audit gate)
 - **NEVER use em-dashes (—), en-dashes (–), or double hyphens (--).** Zero tolerance. Use commas, colons, full stops or parentheses.
-- Publish as hard fact ONLY: founded **2024**, **100+ clients**, **95% repeat rate**, phone, the service list, guarantees, **$10m public liability**, **5-star rated on Google** (NEVER a review count). Membership "from $150 per week, tailored to your home size". No competitor names with figures, no invented numbers, no price tables.
+- Publish as hard fact ONLY: founded **2024**, **100+ clients**, **95% repeat rate**, phone, the service list, guarantees, **$10m public liability**, **5-star rated on Google** (NEVER a review count). **CLIENT MANDATE 2026-07-27: NO price figures for services/membership ("from $150 per week" is BANNED) and NO competitor prices.** Only $10m insurance and the homepage "$50 off first clean" promo may carry dollar figures. Pricing is described model-only: fixed, all-inclusive, tailored, free on-site quote.
 - Business location: may say based in **Parkdale** (suburb level). **NEVER a street address.**
 - Keep every existing internal link exactly as-is. Keep the single H1. Keep all headings' wording.
 

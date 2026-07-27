@@ -59,13 +59,13 @@ Think of it as scheduled domestic home care rather than a run of separate jobs: 
 
 Want the cleaning to become a standing arrangement rather than a recurring decision? **Ring 0421 633 370** and we will set the schedule up around your week.
 
-## What the $180 Median Actually Buys in Moorabbin
+## What the Median Job Price Actually Buys in Moorabbin
 
-Price is plainly on people's minds here. Searches for Moorabbin cleaning prices and cheap options run alongside the main term, two competing pages put pricing in their titles, and one marketplace puts the median cleaning job in the suburb at $180, inside a $120 to $272 band with listings as low as $90. That is the spread a fortnightly four-bedroom-plus-study job here gets quoted against.
+Price is plainly on people's minds here. Searches for Moorabbin cleaning prices and cheap options run alongside the main term, two competing pages put pricing in their titles, and one marketplace publishes a median job price for the suburb sitting inside a wide band, with listings running well below it. That is the spread a fortnightly four-bedroom-plus-study job here gets quoted against.
 
 Those figures price hours rather than homes, which leaves you carrying the risk. A slow visit costs more; a rushed one leaves the second bathroom half done.
 
-Our regular domestic cleaning is quoted on the property instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, starting from $150 per week and confirmed at the free on-site assessment rather than guessed over the phone. Everything sits inside that one figure:
+Our regular domestic cleaning is quoted on the property instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, confirmed at the free on-site assessment rather than guessed over the phone. Everything sits inside that one figure:
 
 - **Products and equipment**, carried in by the team and covered by the price
 - **Both cleaners**, because the pair is how every visit is worked
@@ -87,7 +87,7 @@ If there is a finish in your home you would want handled a particular way, tell 
 Core. Some operators describe coverage as a radius from the CBD, which leaves you guessing. Moorabbin 3189 sits inside the weekly round our Bayside Melbourne cleaners drive, and one call to 0421 633 370 books the free on-site visit.
 
 **Moorabbin listings quote by the hour. What should I be paying?**
-Hourly rates advertised around Melbourne sit across a wide band, and whole jobs here are commonly quoted between $120 and $272. No hourly figure tells you how many hours the job runs to, so the bill stays open until the team walks out. Quoting the property fixes it first, and a large house and a two-bedroom apartment are each priced for what they need.
+Hourly rates advertised around Melbourne sit across a wide band, and whole-job quotes here spread nearly as widely. No hourly figure tells you how many hours the job runs to, so the bill stays open until the team walks out. Quoting the property fixes it first, and a large house and a two-bedroom apartment are each priced for what they need.
 
 **We only need a short visit. What fits into three hours?**
 With one cleaner, roughly a compact two-bedroom home at a standard level: kitchen, one bathroom, floors and surfaces. Our teams work in pairs, so three hours on site is closer to six hours of labour.

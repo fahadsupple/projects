@@ -62,9 +62,9 @@ To hear what 24/7 Clean would look like for your household, **phone 0421 633 370
 
 ## Comparing Cheltenham Cleaning Prices Without the Guesswork
 
-Price is clearly on people's minds here. Searches for Cheltenham cleaning prices, cheap options and the best in the area all run alongside the main term, and one marketplace publishes a local band of roughly $120 to $300 a job with a median near $170. Those figures give a ballpark and little else, because they price hours rather than homes. A slower clean costs you more. A rushed one costs less and leaves the second bathroom half done.
+Price is clearly on people's minds here. Searches for Cheltenham cleaning prices, cheap options and the best in the area all run alongside the main term, and one marketplace publishes a broad local band of job prices with a median sitting inside it. Those figures give a ballpark and little else, because they price hours rather than homes. A slower clean costs you more. A rushed one costs less and leaves the second bathroom half done.
 
-We quote the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, starting from $150 per week, and it is confirmed at a free on-site assessment rather than guessed at over the phone. Sitting inside that one number:
+We quote the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, and it is confirmed at a free on-site assessment rather than guessed at over the phone. Sitting inside that one number:
 
 - **Products and equipment**, included in the fee
 - **The full team service**, your dedicated pair on every visit
@@ -83,7 +83,7 @@ The manner matters as much as the method. This is white glove home cleaning in t
 ## What Cheltenham Households Ask Us Most
 
 **Cheltenham cleaning prices are all over the place. Where do you sit?**
-Fixed and tailored, rather than variable. Membership pricing starts from $150 per week and is set to the size of your home after a free, no-obligation on-site quote. You will know the exact figure before you book, and it does not move afterwards.
+Fixed and tailored, rather than variable. Membership pricing is set to the size of your home after a free, no-obligation on-site quote. You will know the exact figure before you book, and it does not move afterwards.
 
 **Is an hourly rate ever the better deal?**
 Rarely. An hourly rate rewards a slow clean and leaves the final bill open until the team walks out. Quoting the property fixes both, so a large Cheltenham house and a two-bedroom apartment are each priced for what they genuinely need.

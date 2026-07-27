@@ -63,7 +63,7 @@ Have a surface you would rather nobody guessed at? **Ring 0421 633 370** and ask
 
 ## Pricing You Can Plan Around
 
-Hourly quoting punishes you for having a bigger home, and it turns every clean into a guess. Membership pricing is fixed and all-inclusive, tailored to the size of your home rather than to a stopwatch, starting from $150 per week. Nothing is added afterwards, because the price already covers:
+Hourly quoting punishes you for having a bigger home, and it turns every clean into a guess. Membership pricing is fixed and all-inclusive, tailored to the size of your home rather than to a stopwatch. Nothing is added afterwards, because the price already covers:
 
 - **Products:** included, at no extra charge
 - **Equipment:** included, at no extra charge

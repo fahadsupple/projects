@@ -6,7 +6,7 @@ Meta Description: House cleaning services Melbourne homeowners trust: the same d
 
 # House Cleaning Services Melbourne: One Menu, One Dedicated Team
 
-If you have been comparing house cleaning services Melbourne offers and still cannot tell them apart, here is the short version. Robot Cleaning Solutions sends the same dedicated two-person team to your home, works with premium eco-friendly products that are safe for children and pets, and prices every job as an all-inclusive figure tailored to your home's size, starting from $150 per week. No meter running, no hidden fees, no rotating strangers. To get a free, no-obligation quote, call founder Zoe Brauer's team on 0421 633 370, and this page walks you through exactly what we clean before you do.
+If you have been comparing house cleaning services Melbourne offers and still cannot tell them apart, here is the short version. Robot Cleaning Solutions sends the same dedicated two-person team to your home, works with premium eco-friendly products that are safe for children and pets, and prices every job as an all-inclusive figure tailored to your home's size, confirmed at a free on-site quote. No meter running, no hidden fees, no rotating strangers. To get a free, no-obligation quote, call founder Zoe Brauer's team on 0421 633 370, and this page walks you through exactly what we clean before you do.
 
 We are a local Bayside and South East Melbourne business, not a national franchise. Our cleaners know these homes, from the sand off the foreshore to the fine finishes in Brighton's larger houses.
 
@@ -47,7 +47,7 @@ Most of our regular clients settle into the exclusive 24/7 Clean membership, bec
 
 It is the reassurance stack other companies split across separate bookings, bundled into one predictable arrangement.
 
-Want the 24/7 Clean membership tailored to your home size? **Call us now on 0421 633 370** to get started from $150 per week.
+Want the 24/7 Clean membership tailored to your home size? **Call us now on 0421 633 370** to get started with a free, no-obligation quote.
 
 ## Eco-Friendly Products, Chosen for Your Home and the People In It
 
@@ -57,7 +57,7 @@ We use only premium-grade, non-toxic cleaning products, and we chose them delibe
 
 ## How Much Do House Cleaning Services Cost in Melbourne?
 
-This is the question every Melbourne searcher asks first, and most companies dodge it. We will not. Rather than an hourly rate that says nothing about who turns up or how long they stay, we quote a single all-inclusive price for the whole job, tailored to your home's size and needs. Membership cleans start from $150 per week and are confirmed after a free on-site assessment, with no hidden fees added later.
+This is the question every Melbourne searcher asks first, and most companies dodge it. We will not. Rather than an hourly rate that says nothing about who turns up or how long they stay, we quote a single all-inclusive price for the whole job, tailored to your home's size and needs. Membership pricing is confirmed after a free on-site assessment, with no hidden fees added later.
 
 Pricing by the home instead of the hour protects you two ways: a slow cleaner cannot inflate the bill, and you know the exact figure before we start. To get your tailored quote, call 0421 633 370.
 
@@ -76,7 +76,7 @@ Not sure if we cover your street? **Ring us on 0421 633 370** and we will confir
 ## Frequently Asked Questions
 
 **How much do house cleaners charge per hour in Melbourne?**
-Hourly figures around Melbourne vary widely, but an hourly rate tells you little about who arrives or how thoroughly they work. We price by the home, not the hour: one all-inclusive quote tailored to your property, with memberships from $150 per week, confirmed after a free assessment. Call 0421 633 370 for your figure.
+Hourly figures around Melbourne vary widely, but an hourly rate tells you little about who arrives or how thoroughly they work. We price by the home, not the hour: one all-inclusive quote tailored to your property, confirmed after a free assessment. Call 0421 633 370 for your figure.
 
 **How much do cleaners charge for 3 hours?**
 Because we quote the whole job rather than blocks of time, you are never buying "three hours" and hoping it is enough. You agree a fixed price for the result you want, and your two-person team stays until that standard is met. Ask us for a tailored quote on 0421 633 370.

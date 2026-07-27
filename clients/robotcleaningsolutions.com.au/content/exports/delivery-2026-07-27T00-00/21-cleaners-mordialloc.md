@@ -58,19 +58,13 @@ Those upgrades can be set against the calendar a bayside home actually runs on. 
 
 Want 24/7 Clean costed for your household? **Phone 0421 633 370** and we will set the visits and the seasonal upgrades against your year.
 
-## A $45 Headline Rate and a $200 Median: Reading Mordialloc's Prices
+## Headline Rates and Marketplace Medians: Reading Mordialloc's Prices
 
-Price hooks are a live tactic in this suburb, and the numbers put in front of Mordialloc households run like this:
-
-- **One local operator:** $45 for a regular clean, $60 for a one-off
-- **A comparison site:** $20 to $30 an hour, $60 to $100 a week for regular cleaning, $150 to $300 on an end of lease
-- **A marketplace:** a Mordialloc median near $200
-
-None of those figures tells you what state the house is in once the money is spent.
+Price hooks are a live tactic in this suburb. One local operator leads with a low headline rate for a regular clean, a comparison site publishes hourly and weekly bands with a wide spread on an end of lease, and a marketplace quotes a suburb median. None of those figures tells you what state the house is in once the money is spent.
 
 The problem is the unit: an hourly rate prices somebody's time, not the result. A slow clean costs you more, a rushed one leaves the second bathroom half done.
 
-We price the property. After a free on-site assessment you get one fixed, all-inclusive figure covering both cleaners, products and equipment, and that is what the invoice says every visit. Membership starts **from $150 per week, tailored to the size of your home**, confirmed once we have seen the bedrooms, bathrooms and finishes.
+We price the property. After a free on-site assessment you get one fixed, all-inclusive figure covering both cleaners, products and equipment, and that is what the invoice says every visit. Membership is **tailored to the size of your home**, confirmed once we have seen the bedrooms, bathrooms and finishes.
 
 One figure, no stopwatch. **Ring 0421 633 370** and we will book the free on-site assessment at your Mordialloc address.
 
@@ -97,7 +91,7 @@ Vacate date already locked in? **Give us a ring on 0421 633 370** and we will qu
 ## Mordialloc House Cleaning: The Questions We Answer on the Phone
 
 **What should I pay a cleaner per hour in Mordialloc, and what do Melbourne rates look like?**
-Local listings sit around $20 to $30 an hour, and rates advertised across Melbourne vary enormously, with the cheapest rarely carrying insurance, premium products, equipment or a second cleaner. We do not sell hours: membership starts from $150 per week, fixed at a free on-site quote.
+Local listings price the suburb by the hour, and rates advertised across Melbourne vary enormously, with the cheapest rarely carrying insurance, premium products, equipment or a second cleaner. We do not sell hours: membership is one fixed, all-inclusive figure, set at a free on-site quote.
 
 **What is included in a standard visit?**
 A standard visit covers:

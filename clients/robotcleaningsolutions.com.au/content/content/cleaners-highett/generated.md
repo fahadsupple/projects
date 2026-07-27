@@ -51,7 +51,7 @@ If you want a trusted maid service rather than a new name every few weeks, this 
 
 One recent Highett job posted on a marketplace went through at a single flat price for a mop, vacuum, dust, two bathrooms, the stovetop, benches, laundry and bedrooms, in a house already tidy. Quoted figures swing dramatically between listings on that same platform. Those prices are real, and they explain why so many searches end in "prices", "cheap" and "best". What one number cannot tell you is what was included, or who did it.
 
-So we quote the home instead of the hour. Membership pricing begins at $150 per week and is set against the size of your home, and the figure you agree to covers:
+So we quote the home instead of the hour. Membership pricing is fixed and all-inclusive, set against the size of your home, and the figure you agree to covers:
 
 - **Products and equipment:** premium and eco-friendly, built into the price
 - **Your two-person team:** the same pair on every scheduled visit
@@ -80,7 +80,7 @@ Got finishes you would rather nobody experimented on? **Reach us on 0421 633 370
 ## Highett House Cleaning: The Questions That Come Up First
 
 **We keep being quoted by the hour. What should we actually be paying?**
-Advertised rates vary widely across the local listings, and almost none of them say what was included. We price your home rather than the clock, so membership from $150 per week is the whole cost.
+Advertised rates vary widely across the local listings, and almost none of them say what was included. We price your home rather than the clock, so the fixed membership figure you are quoted is the whole cost.
 
 **What do cleaners charge per hour in Australia, and why don't you?**
 Rates vary widely by provider and inclusions, which is why five quotes give five answers. An hour in a unit and an hour in a four-bedroom house are not the same purchase, and a meter rewards speed over finish.

@@ -64,18 +64,13 @@ Most Elsternwick households who stay with us move onto 24/7 Clean, our membershi
 - Priority scheduling ahead of casual bookings
 - Fixed, transparent, all-inclusive pricing with no hidden fees
 
-Treat it as scheduled domestic home care, not a run of separate jobs. Membership starts from $150 per week, tailored to the size of your home, with the exact figure set at your free on-site quote instead of guessed over the phone. Products, equipment and your team service sit inside that number.
+Treat it as scheduled domestic home care, not a run of separate jobs. Membership is tailored to the size of your home, with the exact figure set at your free on-site quote instead of guessed over the phone. Products, equipment and your team service sit inside that number.
 
 To hear what 24/7 Clean would look like for your household, **ring 0421 633 370** and we will book your free on-site quote.
 
 ## Comparing Prices in 3185? Read the Unit, Not Just the Figure
 
-Price is the other thing people weigh, and the local market makes it confusing. Two published figures for this suburb show why:
-
-- **A task marketplace:** a $122 to $250 band for cleaning jobs in Elsternwick
-- **A care-services directory:** providers in the suburb listed from $45 an hour
-
-Both figures are real, and neither tells you what your own house will cost, because one prices a job and the other prices time.
+Price is the other thing people weigh, and the local market makes it confusing. A task marketplace bands its Elsternwick cleaning jobs by the job, while a care-services directory lists providers in the suburb by the hour. Both listings are real, and neither tells you what your own house will cost, because one prices a job and the other prices time.
 
 Buy hours and the risk shifts to you. A slow visit costs more; a quick one costs you the bathroom. We price the home instead, so you get one all-inclusive figure before we start, it holds visit to visit, and nothing appears on the invoice afterwards. If the lowest hourly rate is the goal, you will find numbers below ours. If predictability matters more, this is built for that.
 

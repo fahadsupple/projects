@@ -73,17 +73,11 @@ It is closer to scheduled domestic home care than a job you keep rebooking. Week
 
 Membership starts with the same free walk-through as everything else. **Phone 0421 633 370** and we will build the schedule around your household.
 
-## $20 an Hour, $300 a Job: Reading Mentone's Price Bands
+## Why Mentone's Hourly Rate Bands Tell You So Little
 
-Price expectations here are set by the quote boards. One lists Mentone house cleaning at:
+Price expectations here are set by the quote boards, which publish hourly bands for general cleaning, weekly rates for regular visits and a wide spread for an end-of-lease clean. Useful as a ballpark, misleading as a comparison, because those figures price hours rather than homes. A slow clean bills you more; a rushed one bills less and leaves the second bathroom half finished.
 
-- **$20 to $30 an hour**
-- **$60 to $100 a week** for regular visits
-- **$150 to $300** for an end-of-lease clean
-
-Useful as a ballpark, misleading as a comparison, because those figures price hours rather than homes. A slow clean bills you more; a rushed one bills less and leaves the second bathroom half finished.
-
-We quote the home instead. Membership pricing is fixed, all-inclusive and tailored to the size of your place, starting from $150 per week and confirmed at a free on-site assessment rather than guessed over the phone. Sitting inside that one number:
+We quote the home instead. Membership pricing is fixed, all-inclusive and tailored to the size of your place, confirmed at a free on-site assessment rather than guessed over the phone. Sitting inside that one number:
 
 - **Products and equipment**, all supplied by us
 - **The full team service**, your dedicated pair on the job
@@ -102,7 +96,7 @@ Every product question has a straight answer. **Call 0421 633 370** and ask what
 ## Before You Book in Mentone: Straight Answers
 
 **What should a cleaner cost per hour in Mentone?**
-Local quote boards put the suburb around $20 to $30 an hour, and Melbourne rates climb above that once insurance, products and equipment are covered. We price the property rather than the clock: membership starts from $150 per week, set to your home's size at a free on-site quote.
+Local quote boards publish hourly bands for the suburb, and Melbourne rates climb above them once insurance, products and equipment are covered. We price the property rather than the clock: membership is a fixed, all-inclusive figure, set to your home's size at a free on-site quote.
 
 **What does a standard clean include?**
 Dusting through all living areas, floors vacuumed and mopped, kitchen benches, stovetop, splashback, sink and appliance exteriors cleaned and polished, bathrooms scrubbed and disinfected. Cobwebs, bins, mirrors and skirting boards are routine rather than extras.

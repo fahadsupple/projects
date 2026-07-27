@@ -30,6 +30,10 @@ Do **not** guess slugs — confirm each in the CMS.
 
 Content deliberately says **"5-star rated on Google"** and never a hard review count, because the count is growing (13 at time of writing). Keep it that way so the copy does not go stale.
 
-## 4. Pricing
+## 4. Pricing — CLIENT MANDATE (email, 2026-07-27): NO PRICES ON THE WEBSITE
 
-Membership is referenced as **"from $150 per week, tailored to your home size"** with a free on-site quote. No rigid price table was published, and no competitor prices are quoted anywhere.
+The client asked to **remove every mention of their pricing** and any competitor prices. Applied across all 25 pages:
+- **Removed:** "from $150 per week" (all instances) and every competitor/marketplace figure (hourly bands, job bands, medians, operator prices), including headings and FAQ questions built around them.
+- **Kept (explicitly allowed):** **$10 million public liability** and the homepage **"$50 off your first clean"** promo.
+- Pricing is now described model-only: fixed, all-inclusive, tailored to home size, priced on the home not the hour, confirmed at a free on-site quote.
+- **At publish/QA:** if any dollar figure other than $10M or $50-off appears anywhere (page copy, meta, schema, CMS blocks), it is a defect. The client's own live pages still show price tables; those legacy blocks should be removed by the developer at publish.

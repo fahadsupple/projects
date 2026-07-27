@@ -83,14 +83,14 @@ Want a home that looks after itself? **Call us now on 0421 633 370** to join 24/
 
 ## What House Cleaning Costs in Melbourne
 
-Cost is the question almost every "near me" searcher really wants answered, and most competitors dodge it. We do not. Rather than an hourly meter that leaves you guessing at the final bill, our 24/7 Clean membership is fixed and all-inclusive, starting **from $150 per week, tailored to your home size** and cleaning needs. Every quote covers the products, the equipment and our signature two-person team, with no hidden fees or surprise charges.
+Cost is the question almost every "near me" searcher really wants answered, and most competitors dodge it. We do not. Rather than an hourly meter that leaves you guessing at the final bill, our 24/7 Clean membership is fixed and all-inclusive, **tailored to your home size** and cleaning needs, and confirmed at a free on-site quote. Every quote covers the products, the equipment and our signature two-person team, with no hidden fees or surprise charges.
 
 Because homes differ in size, layout and how often they are cleaned, we confirm your price after a quick, free on-site assessment, so the figure you agree is the figure you pay. To get yours, call **0421 633 370** for a free, no-obligation quote.
 
 ## Frequently Asked Questions
 
 **How much do house cleaners charge per hour in Australia?**
-Hourly rates advertised by cleaners vary widely, and an hourly figure tells you very little about the finished result or who is doing the work. We price by the home instead, with fixed, all-inclusive membership pricing from $150 per week tailored to your size and needs, so you know the full cost before we start.
+Hourly rates advertised by cleaners vary widely, and an hourly figure tells you very little about the finished result or who is doing the work. We price by the home instead, with fixed, all-inclusive membership pricing tailored to your size and needs, so you know the full cost before we start.
 
 **How much should I pay my cleaner per hour?**
 Paying by the hour rewards a slow clean and punishes a fast one. Our two-person team works to a set checklist and an agreed fixed price, so you are paying for a spotless home and a consistent standard rather than a ticking clock. We are happy to talk you through exactly what your quote includes.

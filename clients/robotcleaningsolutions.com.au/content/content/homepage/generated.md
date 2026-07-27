@@ -28,7 +28,7 @@ Ready to stop re-booking every few weeks? **Call us now on 0421 633 370** to set
 
 ## Transparent Pricing You Can Actually Plan Around
 
-The single most common question Melbourne searchers ask is what a cleaner costs, and most companies answer it with a quote form. We answer it plainly. Membership starts **from $150 per week, tailored to your home size**, and covers all cleaning products, equipment, and our signature two-person team service. Larger homes and homes with more bathrooms cost a little more, which is exactly why we assess your home first rather than guess.
+The single most common question Melbourne searchers ask is what a cleaner costs, and most companies answer it with a quote form. We answer it plainly. Membership is a fixed, all-inclusive price **tailored to your home size**, confirmed at a free on-site quote, and covers all cleaning products, equipment, and our signature two-person team service. Larger homes and homes with more bathrooms cost a little more, which is exactly why we assess your home first rather than guess.
 
 We price by the home, not by the hour, so you are never watching a clock or wondering why a job ran long. Every price is confirmed up front, in writing, before we start. There are no call-out surprises and no hidden extras.
 
@@ -55,7 +55,7 @@ Not sure if we reach your street? **Call us now on 0421 633 370** and we will co
 ## Frequently Asked Questions
 
 **How much does a house cleaner cost in Melbourne?**
-It depends on the size of your home and how often you want it cleaned, which is why we quote after a quick on-site assessment rather than guessing over the phone. Our 24/7 Clean membership starts from $150 per week, tailored to your home, and every price is fixed and all-inclusive with no hidden fees. Call 0421 633 370 for your free quote.
+It depends on the size of your home and how often you want it cleaned, which is why we quote after a quick on-site assessment rather than guessing over the phone. Our 24/7 Clean membership is tailored to your home, and every price is fixed and all-inclusive with no hidden fees. Call 0421 633 370 for your free quote.
 
 **What is the 20 minute rule of cleaning?**
 The 20 minute rule is a popular habit of spending twenty focused minutes a day tidying to stop mess building up. It helps between visits, but it is no substitute for a systematic deep clean of bathrooms, kitchens and floors. Our members use the daily tidy for surface order and leave the thorough work to their dedicated team.

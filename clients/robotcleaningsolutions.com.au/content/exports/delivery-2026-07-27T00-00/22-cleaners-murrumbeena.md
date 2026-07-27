@@ -6,7 +6,7 @@ Meta Description: Hourly rates buy time, not a finished house. House cleaning Mu
 
 # House Cleaning Murrumbeena 3163: A Standard, Not an Hourly Rate
 
-A published rate card for cleaning in postcode 3163 opens at $20 to $30 an hour. It tells you what an hour of labour costs, and nothing about who arrives or whether they will be back in a fortnight. The **house cleaning Murrumbeena** households actually settle into works the other way around: Robot Cleaning Solutions looks after homes throughout Murrumbeena, VIC 3163 in Glen Eira and across Melbourne's Bayside and South-East suburbs, with weekly, fortnightly, deep, one-off and end-of-lease cleaning delivered by one dedicated two-person team assigned to your address.
+A published rate card for cleaning in postcode 3163 prices the work by the hour. It tells you what an hour of labour costs, and nothing about who arrives or whether they will be back in a fortnight. The **house cleaning Murrumbeena** households actually settle into works the other way around: Robot Cleaning Solutions looks after homes throughout Murrumbeena, VIC 3163 in Glen Eira and across Melbourne's Bayside and South-East suburbs, with weekly, fortnightly, deep, one-off and end-of-lease cleaning delivered by one dedicated two-person team assigned to your address.
 
 Nothing here starts with a price guess. Call **0421 633 370** or email us for a free, no-obligation on-site quote. We walk the house with you and put a single fixed all-inclusive figure in front of you before anything is booked. Priority scheduling comes with 24/7 Clean membership.
 
@@ -20,7 +20,7 @@ Our full credentials, guarantees and client feedback sit on the [regular house c
 
 ## Hourly Labour and a Maintained Home Are Two Different Purchases
 
-Murrumbeena gets priced in public. One quote platform publishes rate bands for the suburb: roughly $20 to $30 an hour for general cleaning, $60 to $100 for a weekly clean, $150 to $300 for an end of lease. Another provider advertises regular cleans from $169.
+Murrumbeena gets priced in public. One quote platform publishes rate bands for the suburb, covering general cleaning by the hour, weekly cleans and end-of-lease jobs, and another provider advertises a set price for regular cleans.
 
 Those figures are honest about what they sell: a set of hands, for a block of time. For some households that is the right service.
 
@@ -32,7 +32,7 @@ What we do sits in a different tier:
 
 Buy hours and you carry the risk they run out before the second bathroom is done. Agree a scope at a fixed price and that risk moves to us.
 
-So you will not find a rate card here. Membership pricing is fixed, transparent and all-inclusive, tailored to the size of your home and starting from $150 per week, with the exact figure confirmed at your free on-site quote.
+So you will not find a rate card here. Membership pricing is fixed, transparent and all-inclusive, tailored to the size of your home, with the exact figure confirmed at your free on-site quote.
 
 Want the scope and the price agreed before anyone starts? **0421 633 370 gets you a free on-site quote** at your Murrumbeena address.
 
@@ -88,8 +88,8 @@ A coverage map never learns your house. A dedicated pair does: **start on 0421 6
 
 ## The Questions We Get Asked Around 3163
 
-**The 3163 rate card says $20 to $30 an hour. Is that what I should be paying?**
-It is a fair price for hourly labour and a poor way to buy a clean home: paying by the hour rewards a slow job and penalises a quick one. We agree a scope for your home and hold one all-inclusive price against it.
+**Is the 3163 rate card the right way to work out what I should be paying?**
+It is a fair guide to hourly labour and a poor way to buy a clean home: paying by the hour rewards a slow job and penalises a quick one. We agree a scope for your home and hold one all-inclusive price against it.
 
 **Every listing near me shows a different figure. Which one is real?**
 All of them, and none, because no two are quoting the same work. A price on a two-bedroom unit and a price on a four-bedroom house with a study were never comparable. The only number that applies to your address comes from walking through it, which we do free.

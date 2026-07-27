@@ -74,9 +74,9 @@ Would you rather know your cleaners by name than by badge? **Ring 0421 633 370**
 
 ## Three Free Quotes, or One Real One
 
-Price is the question McKinnon searchers ask loudest, and the local numbers explain why. Job listings for this postcode run from around $90 to $200 for a single clean, one local company advertises a flat $60 per hour, and the directories exist to hand you three quotes. Three scopes, three figures, no honest comparison.
+Price is the question McKinnon searchers ask loudest, and the local numbers explain why. Job listings for this postcode span a wide band for a single clean, one local company advertises a flat hourly rate, and the directories exist to hand you three quotes. Three scopes, three figures, no honest comparison.
 
-An hourly rate prices time, not a finished home. Two hours in a three-bedroom bungalow buys a very different result to two hours in a five-bedroom one, and neither is knowable by phone. So we quote the house instead. Someone walks the property with you, free and without obligation, then prices what it takes to keep clean. Membership starts from $150 per week, tailored to the size of your home, and that figure covers:
+An hourly rate prices time, not a finished home. Two hours in a three-bedroom bungalow buys a very different result to two hours in a five-bedroom one, and neither is knowable by phone. So we quote the house instead. Someone walks the property with you, free and without obligation, then prices what it takes to keep clean. Membership is fixed and tailored to the size of your home, and that one figure covers:
 
 - **Products and equipment:** included, never billed on top
 - **Your dedicated team:** the same pair, on every scheduled visit

@@ -88,7 +88,7 @@ When you welcome a team into a high-value home, discretion is not a bonus, it is
 
 ## Transparent Pricing Without the Hourly Guesswork
 
-Luxury homes are not one-size-fits-all, so we do not price them that way. Rather than an anonymous per-hour rate that leaves you watching the clock, we quote a flat, all-inclusive figure tailored to your home's size and needs after a free on-site assessment. That quote covers everything: products, equipment and our two-person team, with no hidden fees and no surprises at the end. Membership begins from $150 per week and is always tailored to your home, so you know your investment before we begin. To arrange your assessment, call **0421 633 370**.
+Luxury homes are not one-size-fits-all, so we do not price them that way. Rather than an anonymous per-hour rate that leaves you watching the clock, we quote a flat, all-inclusive figure tailored to your home's size and needs after a free on-site assessment. That quote covers everything: products, equipment and our two-person team, with no hidden fees and no surprises at the end. Membership is always tailored to your home, so you know your investment before we begin. To arrange your assessment, call **0421 633 370**.
 
 ## Areas We Serve Across Bayside and South East Melbourne
 

@@ -67,7 +67,7 @@ Ready to hand the cleaning over for good? **Phone 0421 633 370** and we will wal
 
 Comparing cleaners in Brighton usually comes down to an hourly rate, and that is where the surprises hide. Pay by the hour and you carry the risk: a slow clean costs more, a fast one costs you a worse result, and nobody agreed in writing what "done" looks like.
 
-We price the job instead of the clock. Membership starts from $150 per week, tailored to your home's size and confirmed after the free on-site assessment, so the figure you are quoted is the figure you pay. Every quote covers:
+We price the job instead of the clock. Membership is a fixed, all-inclusive price, tailored to your home's size and confirmed after the free on-site assessment, so the figure you are quoted is the figure you pay. Every quote covers:
 
 - **Products:** included, at no extra charge
 - **Equipment:** included, at no extra charge

@@ -47,7 +47,7 @@ Ready to stop rebooking the cleaning? **Phone 0421 633 370** and we will walk yo
 
 Caulfield searchers compare hard before booking, and the advertised prices explain the hesitation. One marketplace listing for Caulfield South bands its house cleaning jobs inside a single range. A regular clean posted in Caulfield North sat well above that band, with the cleaner expected to bring their own equipment. Elsewhere the suburb is advertised on a flat hourly rate. None of those figures is comparable, because not one describes the same scope of work.
 
-We price the home instead of the hour. Membership pricing is fixed, all-inclusive and tailored to the size of your home, from $150 per week, with the exact figure confirmed once we have walked the place with you rather than estimated from a postcode. Everything sits inside that figure:
+We price the home instead of the hour. Membership pricing is fixed, all-inclusive and tailored to the size of your home, with the exact figure confirmed once we have walked the place with you rather than estimated from a postcode. Everything sits inside that figure:
 
 - **Products:** included, at no extra charge
 - **Equipment:** included, at no extra charge

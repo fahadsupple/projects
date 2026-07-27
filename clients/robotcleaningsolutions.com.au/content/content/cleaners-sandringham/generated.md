@@ -54,9 +54,9 @@ Curious what 24/7 Clean would cost for a house your size? **Speak to us on 0421 
 
 ## What a Sandringham Clean Costs, Once Everything Is Counted
 
-Listings for the suburb put most cleaning jobs between $125 and $260, with a median around $180. Those figures give a bearing and little else, because they price a job whose scope nobody has agreed. Two homes cleaned for $180 can look nothing alike by the afternoon.
+Listings for the suburb put most cleaning jobs inside a broad band around a suburb-wide median. Those figures give a bearing and little else, because they price a job whose scope nobody has agreed. Two homes cleaned for the same figure can look nothing alike by the afternoon.
 
-Our quoting works on the home rather than the hour. Membership starts from **$150 per week**, tailored to the size of your house, and that single fee covers:
+Our quoting works on the home rather than the hour. Membership is a single fixed fee, tailored to the size of your house, and it covers:
 
 - **Both cleaners:** your two-person team on every scheduled visit
 - **Products and equipment:** carried in and included, never billed on top
@@ -86,14 +86,14 @@ Happier for us to work while the house is empty? **Call 0421 633 370** and we wi
 Usually it means hiring an individual directly rather than going through a company. You get the close, familiar part of that here, because the same two cleaners look after your Sandringham home and come to know it. What comes with it is a business: vetted and insured professionals, $10 million in public liability cover, an agreed scope, and cover when somebody is away.
 
 **How much is house cleaning in Sandringham, and what moves the price?**
-Local listings mostly land between $125 and $260 a job. What moves the number is:
+Local listings quote a wide spread of job prices. What moves the number is:
 
 - The size of the home
 - How many bathrooms it has
 - The condition it is in
 - How often it is cleaned
 
-Membership starts from $150 per week, tailored to your home, all-inclusive, quoted free on site.
+Membership is fixed, tailored to your home, all-inclusive, quoted free on site.
 
 **We have never used a cleaning service. What does a standard visit cover?**
 A standard visit covers:

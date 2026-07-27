@@ -68,7 +68,7 @@ Google's own related searches give the game away. People here look for the best 
 
 Both hit the same wall. An hourly rate prices time, not a finished house. Two hours in a two-bedroom unit and two hours in a four-bedroom bungalow are nothing like the same job, and nobody can tell you over the phone which you are buying.
 
-So we price the home instead. Someone comes out free, walks the property with you and quotes what it takes to keep clean. Membership starts from $150 per week, tailored to the size of your home, products, equipment and your dedicated team included, nothing added afterwards. You have the number before we start, and it does not move.
+So we price the home instead. Someone comes out free, walks the property with you and quotes what it takes to keep clean. Membership is a fixed price tailored to the size of your home, products, equipment and your dedicated team included, nothing added afterwards. You have the number before we start, and it does not move.
 
 Nobody can price your bungalow down a phone line. **Phone 0421 633 370** and we will come and see it, free and with no obligation.
 

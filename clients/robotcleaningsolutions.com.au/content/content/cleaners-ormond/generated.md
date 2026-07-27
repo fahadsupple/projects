@@ -56,13 +56,13 @@ Want the year handled rather than the next clean? **Ask about 24/7 Clean on 0421
 
 Price is an open part of the Ormond search, and the figures make it confusing:
 
-- **One Melbourne operator** advertises Ormond cleans from $169
+- **One Melbourne operator** advertises Ormond cleans from a flat starting figure
 - **Connector sites** quote hourly rates
-- **A public task listing** for a three-bedroom, two-bathroom Ormond house went up at $135
+- **A public task listing** for a three-bedroom, two-bathroom Ormond house went up at a lower figure again
 
 Each is real; none tells you what your own home costs.
 
-Buy hours and the risk sits with you: a slow visit costs more, a rushed one costs you the bathroom. We quote the home instead. Membership pricing starts from $150 per week, tailored to your home's size, with the exact figure agreed at your free on-site quote. What sits inside that figure:
+Buy hours and the risk sits with you: a slow visit costs more, a rushed one costs you the bathroom. We quote the home instead. Membership pricing is fixed and tailored to your home's size, with the exact figure agreed at your free on-site quote. What sits inside that figure:
 
 - **Products and equipment**, ours to bring and ours to pay for
 - **Both cleaners' time**, since the pair is how an Ormond visit gets worked
@@ -102,7 +102,7 @@ Published rates vary so widely that the figure alone means little. What matters 
 Three hours with a solo cleaner and three hours with a pair are not the same purchase. Two people cover roughly twice the ground, so more of the house is finished in one visit.
 
 **What will cleaning our Ormond house actually cost?**
-Membership pricing starts from $150 per week, tailored to your home's size, fixed and all-inclusive. The exact figure is confirmed at your free on-site quote, and that is the number that stays.
+Membership pricing is tailored to your home's size, fixed and all-inclusive. The exact figure is confirmed at your free on-site quote, and that is the number that stays.
 
 **What is the 20 minute rule of cleaning, and do you use it?**
 A household habit rather than a professional method: twenty focused minutes a day instead of surrendering a Saturday. Useful between visits, though grout, oven interiors and window tracks sit outside its reach. That is what the seasonal deep cleans are for.

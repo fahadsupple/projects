@@ -65,7 +65,7 @@ To hear which rhythm would suit your household, **phone 0421 633 370** and we wi
 
 Search around this suburb and the follow-up searches give the game away: prices, best, cheap. People here are comparing, and fairly, because an hourly rate tells you almost nothing about the final bill. Two hours in a three-bedroom house buys a very different result to two hours in a five-bedroom one, and neither figure is knowable over the phone.
 
-So we quote the home instead of the hour. Someone from the team walks through the property and prices it against what it actually takes to keep clean. Membership starts from $150 per week, tailored to the size of your home, and the figure you agree covers:
+So we quote the home instead of the hour. Someone from the team walks through the property and prices it against what it actually takes to keep clean. Membership is tailored to the size of your home, and the figure you agree covers:
 
 - **Products and equipment**, included rather than billed on top
 - **Your dedicated two-person team**, on every scheduled visit
@@ -92,7 +92,7 @@ Gardenvale 3185 is covered properly, along with [Brighton](https://robotcleaning
 Advertised rates vary widely by provider, home size and what is included, which is exactly why comparing five Gardenvale listings produces five different numbers. We price the property rather than the clock, so you know the figure before the first visit.
 
 **So what should I be paying for a clean in Gardenvale?**
-For ongoing cleaning, membership starts from $150 per week and is tailored to your home's size. The exact figure comes from the free on-site assessment, and it is the whole price.
+For ongoing cleaning, membership is a fixed, all-inclusive price tailored to your home's size. The exact figure comes from the free on-site assessment, and it is the whole price.
 
 **How much can a cleaner get through in three hours?**
 More than you might expect when two people arrive together and work to a set sequence rather than wandering room to room. Rather than selling a block of time, we agree the scope for your home upfront and the team completes it.

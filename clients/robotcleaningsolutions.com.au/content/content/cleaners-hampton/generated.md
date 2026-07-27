@@ -56,15 +56,9 @@ Curious what that would look like across your year? **Have a chat with us on 042
 
 ## The Numbers Hampton Locals Arrive With
 
-Plenty of people call already holding figures, because the comparison sites publish bands for 3188:
+Plenty of people call already holding figures, because the comparison sites publish bands for 3188: an hourly rate for general cleaning, a weekly band for regular visits and a wider spread for an end of lease. Those bands price an hour of somebody's time, and say nothing about what is finished when the hour is up.
 
-- **$20 to $30** an hour
-- **$60 to $100** for a weekly clean
-- **$150 to $300** for an end of lease
-
-Those bands price an hour of somebody's time, and say nothing about what is finished when the hour is up.
-
-We price the home instead of the clock. After the free on-site assessment you get one all-inclusive figure covering products, equipment and both cleaners, and the number quoted is the number you pay. Membership starts from $150 per week, tailored to your home's size. It sits above the cheapest hourly listing here, deliberately: two trained professionals, premium-grade products, four seasonal deep cleans and a yearly emergency clean all live inside that one fee.
+We price the home instead of the clock. After the free on-site assessment you get one all-inclusive figure covering products, equipment and both cleaners, and the number quoted is the number you pay. Membership is tailored to your home's size. It sits above the cheapest hourly listing here, deliberately: two trained professionals, premium-grade products, four seasonal deep cleans and a yearly emergency clean all live inside that one fee.
 
 Want the number for your address rather than a band? **Ask us for it on 0421 633 370** and the on-site assessment costs nothing.
 
@@ -93,7 +87,7 @@ Worried about the bay-facing glass or a stone benchtop? **Reach the team on 0421
 ## Questions Worth Asking Any Hampton Cleaner
 
 **What is the going rate for house cleaning near me, and what should I pay per hour?**
-Listing sites publish $20 to $30 an hour for Hampton 3188, $60 to $100 weekly and $150 to $300 for an end of lease. An hourly figure sets a budget but never a standard, which is why two quotes at the same rate produce very different homes. We quote a fixed, all-inclusive price instead, free and on site, from $150 per week and tailored to your home, with products, equipment and both cleaners included.
+Listing sites publish hourly bands for Hampton 3188, weekly rates and a spread for an end of lease. An hourly figure sets a budget but never a standard, which is why two quotes at the same rate produce very different homes. We quote a fixed, all-inclusive price instead, free and on site, tailored to your home, with products, equipment and both cleaners included.
 
 **Guests arrive in three hours. What can two cleaners get through?**
 Working in pairs, three hours with us is closer to six hours of one cleaner's work: kitchen, bathrooms, floors, dusting and accessible surfaces. Oven interiors and shower grout belong to a deep clean.

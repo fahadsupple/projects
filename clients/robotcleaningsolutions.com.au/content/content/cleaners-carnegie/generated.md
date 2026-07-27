@@ -45,9 +45,9 @@ Ready to hand the cleaning over for good? **Phone 0421 633 370** and we will wal
 
 ## Priced by the Home, Not by the Hour
 
-Carnegie searchers compare prices hard before they book, and the numbers circulating locally make that easy to understand. Quote platforms list house cleaning here from roughly $20 to $30 an hour, one local company advertises a flat $60 an hour, and weekly cleaning gets quoted anywhere from $60 to $100. The trouble with all of those figures is that they price time rather than outcome. A slower clean costs you more. A rushed one costs less and leaves the bathroom half done.
+Carnegie searchers compare prices hard before they book, and the way rates are advertised locally makes that easy to understand. Quote platforms list house cleaning here by the hour, one local company advertises a flat hourly rate, and weekly cleaning gets quoted across a wide band. The trouble with all of those figures is that they price time rather than outcome. A slower clean costs you more. A rushed one costs less and leaves the bathroom half done.
 
-We price the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, starting from $150 per week and confirmed at your free on-site quote rather than guessed over the phone. Sitting inside that price:
+We price the home instead. Membership pricing is fixed, all-inclusive and tailored to your home's size, confirmed at your free on-site quote rather than guessed over the phone. Sitting inside that price:
 
 - **Products:** included, at no extra charge
 - **Equipment:** included, at no extra charge
@@ -74,7 +74,7 @@ We are the other option: one accountable team of local residential cleaners, ass
 ## House Cleaning in Carnegie: Common Questions
 
 **How much does house cleaning in Carnegie cost?**
-Membership pricing starts from $150 per week and is tailored to the size of your home, fixed and all-inclusive. We confirm the exact figure at a free, no-obligation on-site quote, so the number you agree to is the number that stays.
+Membership pricing is tailored to the size of your home, fixed and all-inclusive. We confirm the exact figure at a free, no-obligation on-site quote, so the number you agree to is the number that stays.
 
 **Is there a cheaper option than joining the membership?**
 Yes. A one-off standard clean is available any time and is quoted the same transparent way. Cheap house cleaning priced by the hour often costs more than it first appears once the job runs long, which is why we quote the property rather than the clock.
