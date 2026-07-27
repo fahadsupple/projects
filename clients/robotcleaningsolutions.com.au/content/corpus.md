@@ -1,6 +1,24 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-27T01:02:25Z_
+_Rebuilt: 2026-07-27T01:03:14Z_
+
+## areas-we-serve
+
+- **Primary keyword:** house cleaners near me
+- **Page type:** service
+- **Cluster:** top-level-pages
+- **Word count:** 1517
+- **Headings:**
+  - House Cleaners Near Me Across Bayside and South-East Melbourne
+  - Find Your Suburb: Every Area We Serve
+  - The Same Vetted Team in Every Suburb We Serve
+  - About Robot Cleaning Solutions
+  - Our House Cleaning Services, Available Everywhere We Clean
+  - The 24/7 Clean Membership, Wherever You Are
+  - What House Cleaning Costs in Melbourne
+  - Frequently Asked Questions
+  - Not Sure We Cover Your Street?
+- **First paragraph:** Searching for **house cleaners near me** should end with a straight answer, not another afternoon spent comparing strangers on a marketplace. Robot Cleaning Solutions looks after homes right across Ba
 
 ## cleaners-aspendale
 
@@ -394,6 +412,25 @@ _Rebuilt: 2026-07-27T01:02:25Z_
   - Frequently Asked Questions
   - Ready for a Spotless Home?
 - **First paragraph:** Robot Cleaning Solutions is the professional house cleaning company Melbourne homeowners call when they want their weekends back and their home kept to a genuinely high standard. Every clean is carrie
+
+## house-clean
+
+- **Primary keyword:** house cleaning services melbourne
+- **Page type:** service
+- **Cluster:** top-level-pages
+- **Word count:** 1587
+- **Headings:**
+  - House Cleaning Services Melbourne: One Menu, One Dedicated Team
+  - The Robot Standard: How Two Cleaners Change the Job
+  - Our House Cleaning Services Melbourne Homeowners Actually Book
+  - Inside the 24/7 Clean Membership
+  - Eco-Friendly Products, Chosen for Your Home and the People In It
+  - How Much Do House Cleaning Services Cost in Melbourne?
+  - About Robot Cleaning Solutions
+  - Areas We Serve Across Melbourne's Bayside and South East
+  - Frequently Asked Questions
+  - Book Your Melbourne House Clean Today
+- **First paragraph:** If you have been comparing house cleaning services Melbourne offers and still cannot tell them apart, here is the short version. Robot Cleaning Solutions sends the same dedicated two-person team to yo
 
 ## luxury-house-cleaning
 
