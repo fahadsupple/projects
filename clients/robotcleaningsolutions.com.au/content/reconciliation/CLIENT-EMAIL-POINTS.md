@@ -15,16 +15,14 @@ Your new content is ready. Before handing it over, we cross-checked every servic
 **1. Emergency cleans: one per year, or two?**
 Your form says the 24/7 Clean membership includes **1 yearly emergency clean** (mentioned four times). Your website's membership list says **2 yearly emergency cleans**. We have gone with one across all pages. If it is actually two, we are advertising a smaller benefit than you deliver, and we will update it everywhere.
 
-**2. Is the membership available fortnightly, or weekly only?**
-Your website's membership list says only **"Weekly cleaning session"**. Your form describes **weekly or fortnightly** sessions and prices membership per week/fortnight. We have gone with weekly or fortnightly. Please confirm fortnightly is genuinely available, since it is usually the more popular entry point.
+**2. Membership: weekly only, or weekly and fortnightly?**
+Your form describes **weekly or fortnightly** sessions and prices the membership per week/fortnight. Your website's membership list says only **"Weekly cleaning session"**. We have gone with weekly or fortnightly across all pages. If fortnightly is not actually available we are advertising an option you do not sell, and we will take it out.
 
-**3. Do you offer monthly cleaning?**
-Monthly does not appear anywhere in your forms, and the service list you gave us has weekly and fortnightly only. But your Beaumaris page says you offer **"flexible weekly, fortnightly, or monthly services"**. We have included monthly on the regular cleaning page as a rhythm arranged and quoted at the on-site assessment, and kept the membership itself described as weekly or fortnightly. Two things to confirm:
-   a. Do you offer monthly cleaning?
-   b. If so, can it be taken as a membership, or is it booked outside the membership?
+**3. Monthly cleaning: do you offer it, and can it be a membership?**
+Your form does not mention monthly anywhere, and the service list you gave us has weekly and fortnightly only. Your Beaumaris page says you offer **"flexible weekly, fortnightly, or monthly services"**. We have gone with monthly being available, arranged and quoted at the on-site assessment, while keeping the membership itself described as weekly or fortnightly. If you do not offer monthly we will remove it, and if it can be taken as a membership we will say so.
 
-**4. Pricing still showing on your current site**
-We have removed all pricing from the new content as requested. Only the $10 million insurance and the $50 first-clean offer remain. Your existing live pages still display the membership price tiers and the End of Lease starting price, and those sit in your website rather than in our copy, so they will not disappear when the new content goes in. Please have whoever manages the site remove them at launch, otherwise the prices will still be visible.
+**4. Pricing: your live pages still show the old prices**
+You asked us to remove all pricing, and the new content has none, apart from the $10 million insurance and the $50 first-clean offer you approved. Your existing live pages still display the membership price tiers and the End of Lease starting price. Those sit in your website rather than in our copy, so they will not disappear when the new content goes in. Please have whoever manages the site remove them at launch, otherwise the prices you asked us to take down will still be visible.
 
 Happy to jump on a call if that is easier. Once we have answers on points 1 to 3, the updates are quick.
 
