@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-27T04:27:51Z_
+_Rebuilt: 2026-07-27T05:23:35Z_
 
 ## areas-we-serve
 
@@ -458,10 +458,10 @@ _Rebuilt: 2026-07-27T04:27:51Z_
 - **Primary keyword:** regular house cleaning melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1657
+- **Word count:** 1825
 - **Headings:**
-  - Regular House Cleaning Melbourne: The Same Dedicated Team, Every Week or Fortnight
-  - Weekly or Fortnightly? Finding Your Home's Cleaning Rhythm
+  - Regular House Cleaning Melbourne: The Same Dedicated Team, Every Visit
+  - Weekly, Fortnightly or Monthly? Finding Your Home's Cleaning Rhythm
   - Your Same Dedicated Two-Person Team, Every Single Visit
   - About Robot Cleaning Solutions
   - The 24/7 Clean Membership Explained

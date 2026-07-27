@@ -342,3 +342,13 @@ Client emailed after content delivery: **remove every mention of their pricing**
 Post-check: 0 disallowed figures (verified in markdown AND rendered docx), gate 0 blocking, humanity 100 all 25, max sim 0.166, 0 dashes.
 **Standing rule for ALL future robotcleaningsolutions content: never publish a dollar figure except $10M insurance and the $50-off promo.** Updated in `_writer_instructions.md`, `_editor_instructions.md`, `publish-notes.md` §4 (which also tells the dev to strip the legacy price tables still on the live site at publish).
 **Gotcha for verify snippets: make $-allowlist regexes case-insensitive** — "$10 Million" (title case in headings) tripped two agents' checks and they lowercased headings to pass; had to restore title case after.
+
+## 2026-07-27 — monthly cadence added + forms-vs-live-site conflict pattern
+**Analyst directive:** "monthly house cleaning melbourne" is a Meta File keyword we can't ignore → acknowledged monthly on `/regular-house-cleaning/` (cadence H2 + third bullet + dedicated FAQ + lede + meta description; H1 tail changed "Every Week or Fortnight" → "Every Visit" to remove the contradiction).
+**Grounding:** monthly is NOT in the confirmed service catalogue and NOT in the forms, but their live Beaumaris page says "We offer flexible weekly, fortnightly, or monthly services" — usable under the client's standing rule ("if live pages mention those things we can use them"). Membership bullet deliberately LEFT as "weekly or fortnightly" (forms price membership per week/fortnight; live membership list says "Weekly cleaning session"), and the new FAQ explicitly reconciles the two so the page doesn't contradict itself.
+**Volume note:** "monthly house cleaning melbourne" has NO measurable Melbourne volume — nor do "weekly/fortnightly house cleaning melbourne". Cadence-modified terms are all near-zero; this was a consistency/UX fix, not a traffic play.
+
+### PATTERN TO WATCH ON THIS CLIENT: intake forms vs live website disagree
+Recurring root cause, now seen 3x: **emergency cleans (form 1 vs site 2)**, **membership cadence (form weekly-or-fortnightly vs site "Weekly cleaning session")**, **monthly service (absent from forms, present on site)**. Always cross-check BOTH sources before publishing a service detail.
+**My error worth remembering:** I earlier filed the emergency-clean conflict under "already handled correctly, no action needed" citing client-profile.json as confirmation — but the profile was DERIVED FROM the same form, so it was circular, not independent corroboration. Never treat derived project data as a second source.
+Open questions drafted for client in `content/reconciliation/CLIENT-EMAIL-POINTS.md` (4 items incl. reminder to strip legacy price tables from live pages at launch).
