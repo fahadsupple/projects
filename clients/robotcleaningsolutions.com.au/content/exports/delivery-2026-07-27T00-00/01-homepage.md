@@ -1,3 +1,9 @@
+<!-- Page 1 -->
+URL: https://robotcleaningsolutions.com.au/
+Primary Keyword: professional house cleaning company melbourne
+Meta Title: Professional House Cleaning Company Melbourne | Robot Cleaning Solutions
+Meta Description: Robot Cleaning Solutions is the professional house cleaning company Melbourne trusts: eco-friendly, two-person teams and fixed pricing. Call for a free quote.
+
 # Professional House Cleaning Company Melbourne: The Robot Standard
 
 Robot Cleaning Solutions is the professional house cleaning company Melbourne homeowners call when they want their weekends back and their home kept to a genuinely high standard. Every clean is carried out by a dedicated two-person team using eco-friendly, non-toxic products, with transparent, all-inclusive pricing tailored to the size of your home and quoted after a free on-site assessment. There is no meter running and no surprise on the invoice. To book your free, no-obligation quote, call us on **0421 633 370**.

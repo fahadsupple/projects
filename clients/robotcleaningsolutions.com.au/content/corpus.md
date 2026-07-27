@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-27T01:03:14Z_
+_Rebuilt: 2026-07-27T01:11:06Z_
 
 ## areas-we-serve
 
 - **Primary keyword:** house cleaners near me
 - **Page type:** service
 - **Cluster:** top-level-pages
-- **Word count:** 1517
+- **Word count:** 1598
 - **Headings:**
   - House Cleaners Near Me Across Bayside and South-East Melbourne
   - Find Your Suburb: Every Area We Serve
@@ -400,7 +400,7 @@ _Rebuilt: 2026-07-27T01:03:14Z_
 - **Primary keyword:** professional house cleaning company melbourne
 - **Page type:** homepage
 - **Cluster:** top-level-pages
-- **Word count:** 1405
+- **Word count:** 1301
 - **Headings:**
   - Professional House Cleaning Company Melbourne: The Robot Standard
   - The Robot Standard: Two Cleaners, Twice as Fast
@@ -418,7 +418,7 @@ _Rebuilt: 2026-07-27T01:03:14Z_
 - **Primary keyword:** house cleaning services melbourne
 - **Page type:** service
 - **Cluster:** top-level-pages
-- **Word count:** 1587
+- **Word count:** 1583
 - **Headings:**
   - House Cleaning Services Melbourne: One Menu, One Dedicated Team
   - The Robot Standard: How Two Cleaners Change the Job

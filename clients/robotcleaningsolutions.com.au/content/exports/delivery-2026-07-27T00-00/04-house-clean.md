@@ -1,3 +1,9 @@
+<!-- Page 4 -->
+URL: https://robotcleaningsolutions.com.au/house-clean/
+Primary Keyword: house cleaning services melbourne
+Meta Title: House Cleaning Services Melbourne | Robot Cleaning Solutions
+Meta Description: House cleaning services Melbourne homeowners trust: the same dedicated two-person team, eco-friendly products and all-inclusive pricing. Call for a free quote.
+
 # House Cleaning Services Melbourne: One Menu, One Dedicated Team
 
 If you have been comparing house cleaning services Melbourne offers and still cannot tell them apart, here is the short version. Robot Cleaning Solutions sends the same dedicated two-person team to your home, works with premium eco-friendly products that are safe for children and pets, and prices every job as an all-inclusive figure tailored to your home's size, starting from $150 per week. No meter running, no hidden fees, no rotating strangers. To get a free, no-obligation quote, call founder Zoe Brauer's team on 0421 633 370, and this page walks you through exactly what we clean before you do.

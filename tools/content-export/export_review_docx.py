@@ -162,10 +162,23 @@ def render_body(doc, markdown: str) -> None:
             write_inline(p, line)
 
 
+# Preferred information-architecture order for the non-suburb "hub" pages so the
+# homepage renders as Page 1 and the site's top level reads top-down.
+PREFERRED_HUB_ORDER = [
+    "homepage",
+    "regular-house-cleaning",
+    "luxury-house-cleaning",
+    "house-clean",
+    "areas-we-serve",
+]
+
+
 def order_entries(content_dir: Path, ids: list[str]) -> list[str]:
     hubs = [e for e in ids if not e.startswith("cleaners-")]
     spokes = sorted(e for e in ids if e.startswith("cleaners-"))
-    return sorted(hubs) + spokes
+    hubs_sorted = [e for e in PREFERRED_HUB_ORDER if e in hubs]
+    hubs_sorted += sorted(e for e in hubs if e not in PREFERRED_HUB_ORDER)
+    return hubs_sorted + spokes
 
 
 def main(argv: list[str]) -> int:
