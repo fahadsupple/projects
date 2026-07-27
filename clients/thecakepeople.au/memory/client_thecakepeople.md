@@ -135,18 +135,20 @@ clients/thecakepeople.au/
     client_thecakepeople.md         ← this file
 ```
 
-## Replacement keywords for banned terms (2026-07-24)
+## Replacement keywords for banned terms (2026-07-24, REVISED 2026-07-27)
 Deliverable: `clients/thecakepeople.au/keyword-research/replacement-keywords-2026-07-24.md`. Client dropping 5 kw (vegan cakes/cupcakes/birthday cakes melbourne, messi cakes, custom cakes melbourne); chose soccer cakes melbourne + football cakes melbourne for the football collection (covers messi + custom slots). Supplied replacements for the 3 vegan terms.
 
-**KEY FINDING — "eggless" >> "plant based" for search.** Live Google Ads AU: plant based cakes melbourne ~0, plant based cupcakes melbourne ~0, egg free cakes melbourne 10 — near-dead. But eggless cake/eggless cakes = 2,900 (MEDIUM comp, winnable), eggless cupcakes = 720 (MEDIUM), eggless cakes melbourne = 140, dairy free birthday cake = 260, dairy free cakes melbourne = 110. The pages were renamed to "plant-based" (good brand voice) but that phrase gets no search — recommend meta title/H1/target kw lead on **eggless + dairy-free**, keep plant-based as body voice. "Eggless" is on-brand (100% egg-free kitchen) and NOT a banned term.
+**⚠️ HARD BRAND RULE (client, 27 Jul 2026): NO keyword may LEAD with a dietary descriptor** — not dairy free, dairy friendly, sugar free/friendly, plant based, egg free/eggless, gluten free/friendly, or vegan. Dietary strength lives in body copy/brand voice only, never the search target. **This withdrew the earlier "eggless" recommendation entirely.** Replacements must lead with a product or occasion.
 
-**SERP intent rule (validated live):** geo-qualified "…melbourne" = clean commercial (bakeries + local pack + "near me"); generic national eggless/dairy-free = recipe-contaminated. So target geo primary + big national term as secondary the page also ranks for.
-- eggless cakes melbourne (140) SERP = 100% Melbourne bakeries (Isher Eggless Bakers, Mahadeva's, Nanak, Mister Nice Guy's, Brunetti) — same SERP as "vegan cakes melbourne", clean.
-- eggless cupcakes (720) SERP = recipe blogs dominant (contaminated) — stretch secondary only.
-- dairy free birthday cake (260) SERP = mixed, strong Shopping/local layer.
+**REVISED 3 replacements (product/occasion-led):**
+- (1) vegan cupcakes melbourne 90 → **cupcakes melbourne 1,300** [P] + cupcake delivery melbourne 480 [S] → /collections/plant-based-cupcakes. SERP-validated 100% commercial (local pack + cupcake ecommerce incl. competitor The Cupcake Queens; Goldelucks ranks /collections/cupcakes). Big upgrade 90→1,300.
+- (2) vegan cakes melbourne 720 → **celebration cakes melbourne 170** [P] + cakes melbourne 5,400 / cake shop melbourne 3,600 (category head, stretch — homepage may be better owner) → /collections/plant-based-cakes. NOTE: celebration cakes melbourne is already a Silo 4 kw → consolidate onto one page.
+- (3) vegan birthday cakes melbourne 110 → **birthday cake delivery melbourne 480** [P recommended] OR number cakes melbourne 50 (clean, no-overlap, low vol) OR retire slot. Honest problem: every non-dietary birthday term already taken (birthday cakes melbourne 2900 Silo 4; kids birthday cakes melbourne + milestones Silo 2).
 
-**Recommended 3 replacements:** (1) vegan cakes melbourne 720 → eggless cakes melbourne 140 P + eggless cake 2900 / dairy free cakes melbourne 110 S → /collections/plant-based-cakes. (2) vegan cupcakes melbourne 90 → eggless cupcakes melbourne P + dairy free cupcakes melbourne 10 S (thin category, honest caveat) → /collections/plant-based-cupcakes. (3) vegan birthday cakes melbourne 110 → dairy free birthday cake melbourne P + dairy free birthday cake 260 / eggless birthday cake 90 S → birthday/plant-based collection.
+**Trade-off named:** rule strips dietary-specific search capture from these 3 pages (no owning keyword for "vegan/dairy-free/gluten-free cakes melbourne" demand). Net volume still rises via product heads. Client's call to accept.
 
-**Football collection:** geo terms low (soccer cakes melbourne 40, football cakes melbourne 10) — add national secondaries soccer cake 1900, football cake 590, soccer birthday cake 390. messi cake (170) intent served by "upload your own player" format.
+**⚠️ Consistency flag:** 4 EXISTING selected Silo 3 kw also break the rule — gluten free cakes melbourne (880), dairy free cakes melbourne (110), sugar free cakes melbourne (110), gluten free birthday cake melbourne. Need client decision whether rule applies retroactively (gluten free cakes melbourne 880 = biggest term at risk).
 
-Open confirmations: (a) client comfort leading on "eggless"; (b) accept dropping custom cakes melbourne 1000/mo (biggest volume given up, but on-strategy).
+**Football collection:** geo terms low (soccer cakes melbourne 40, football cakes melbourne 10) — add national secondaries soccer cake 1900, football cake 590, soccer birthday cake 390 (all compliant, no dietary lead). messi cake (170) intent served by "upload your own player" format.
+
+Open confirmations: (a) does no-dietary-lead rule apply to the 4 existing Silo 3 dietary kw; (b) slot-3 choice (birthday cake delivery 480 vs number cakes 50 vs retire); (c) accept dropping custom cakes melbourne 1000/mo.
