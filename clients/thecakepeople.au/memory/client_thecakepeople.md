@@ -151,4 +151,10 @@ Deliverable: `clients/thecakepeople.au/keyword-research/replacement-keywords-202
 
 **Football collection:** geo terms low (soccer cakes melbourne 40, football cakes melbourne 10) — add national secondaries soccer cake 1900, football cake 590, soccer birthday cake 390 (all compliant, no dietary lead). messi cake (170) intent served by "upload your own player" format.
 
-Open confirmations: (a) does no-dietary-lead rule apply to the 4 existing Silo 3 dietary kw; (b) slot-3 choice (birthday cake delivery 480 vs number cakes 50 vs retire); (c) accept dropping custom cakes melbourne 1000/mo.
+Open confirmations: (a) does no-dietary-lead rule apply to the 4 existing Silo 3 dietary kw; (b) accept dropping custom cakes melbourne 1000/mo.
+
+**CLIENT DECISION 27 Jul (pm):** scope = replace ONLY the 3 vegan + custom (keep gluten/dairy/sugar/egg-free terms as-is). Also DELIVERY terms are banned (no cake/cupcake/birthday-cake delivery melbourne). Client asked to mine the live site + existing research for additional category/product opportunities instead of low-vol long-tail.
+
+**KEY WIN — additional opportunities found (verified live AU Google Ads + /collections.json 60 collections + v1 407-candidate pool):** The winning replacements are CHARACTER cakes (matches Silo 1 conversion engine, /collections/character-cakes exists) — all net-new, compliant, national terms (geo ~70 so national is target, like existing barbie/bluey): unicorn cake 6600, spiderman cake 5400, dinosaur cake 4400, smash cake 4400, paw patrol cake 3600, pokemon cake 2400, sonic cake 1600, frozen cake 1600. Milestone (collections exist): 18th birthday cake 2400, 21st birthday cake 2400, number cake 1000. Accessories/occasion: cake toppers 6600 nat / 110 mel (/cake-toppers), engagement cake 1600. Cupcakes thin: mini cupcakes melbourne 90.
+
+**Recommended 4 replacements:** custom cakes melbourne 1000 → unicorn cake 6600; vegan cakes melbourne 720 → dinosaur cake 4400 (or smash cake); vegan birthday cakes melbourne 110 → 18th birthday cake 2400; vegan cupcakes melbourne 90 → mini cupcakes melbourne 90 (or a 5th character term). Net: ~1,920/mo dropped → ~13,500+/mo added. Deliverable 3rd revision in replacement-keywords-2026-07-24.md. Awaiting client pick of exact 4.

@@ -163,5 +163,70 @@ The client shared the current 31-keyword list. Two corrections to the above:
 
 **Open decision (needs client):** the 9 dietary-led terms in the list (`gluten free cakes melbourne` 880, `gluten free birthday cakes melbourne`, `vegan cakes melbourne` 720, `vegan birthday cakes melbourne`, `dairy free cakes melbourne`, `sugar free cakes melbourne`, `gluten free cupcakes melbourne`, `egg free cakes melbourne`, `vegan cupcakes melbourne`). If the no-dietary-lead rule applies to all of them, ~1,900+/mo of targeted volume is being swapped for ≤110/mo long-tail terms. This is a material strategic loss and must be an explicit, informed client decision — not something to apply silently. Alternative: keep the dietary collection pages but let them rank on brand + body content (no dietary keyword as the meta/H1 lead), and spend the freed keyword slots on additional character/milestone terms (the proven conversion engine).
 
+---
+
+## THIRD REVISION (27 Jul 2026, pm) — additional opportunities from the live site + existing research
+
+**Scope confirmed by client:** replace only the **3 vegan terms + custom cakes melbourne** (messi → football already chosen). The gluten-free / dairy-free / sugar-free / egg-free terms stay as-is for now.
+
+**Better approach (client-directed):** rather than fill the 4 slots with weak long-tail, mine the client's actual Shopify collections + the existing v1 research for high-value compliant terms. This works — and recovers far more volume than the terms being dropped.
+
+**Method:** pulled `/collections.json` (60 live collections) and filtered the 407-candidate v1 research pool for compliant terms (no dietary lead, no custom/bespoke/wedding, no delivery, not already in the 31-kw list). Verified every recommended term's **live AU Google Ads volume** (27 Jul 2026).
+
+### A. Character cakes — the standout (collection `/collections/character-cakes` exists; matches Silo 1, the proven conversion engine)
+
+| Keyword | AU vol/mo | Comp | In list? |
+|---|---|---|---|
+| **unicorn cake** | 6,600 | HIGH | new |
+| **spiderman cake** | 5,400 | HIGH | new |
+| **dinosaur cake** | 4,400 | HIGH | new |
+| **smash cake** (1st-birthday format) | 4,400 | HIGH | new |
+| **paw patrol cake** | 3,600 | HIGH | new |
+| **pokemon cake** | 2,400 | HIGH | new |
+| sonic cake | 1,600 | HIGH | new |
+| frozen cake | 1,600 | HIGH | new |
+
+*National terms are the target (geo versions ≈70/mo), exactly like the existing `barbie cakes` / `bluey cakes` keywords, which already rank pos 4–8 with thousands of GSC impressions. The client makes custom character cakes on any theme (edible-image + 3D), so all of these are in-range and each maps to its own character product page.*
+
+### B. Milestone cakes (collections exist: `/18th-birthday-cakes`, `/21st-birthday-cakes`, `/30th`, `/40th`, `/milestone-cakes`)
+
+| Keyword | AU vol/mo | Comp |
+|---|---|---|
+| **18th birthday cake** | 2,400 | HIGH |
+| **21st birthday cake** | 2,400 | HIGH |
+| number cake | 1,000 | HIGH |
+
+### C. Occasion / accessories (collections exist)
+
+| Keyword | AU vol/mo | Collection |
+|---|---|---|
+| **cake toppers** (national) | 6,600 | `/cake-toppers` |
+| engagement cake | 1,600 | `/special-occasions` |
+| cake toppers melbourne | 110 | `/cake-toppers` |
+| christening cakes melbourne | 50 | `/religious-cakes` |
+| corporate cupcakes melbourne | 50 | `/corporate-cakes` |
+| graduation cakes melbourne | 40 | `/graduation-cakes` |
+
+### D. Cupcakes (collection `/cupcakes` exists) — thin once dietary/delivery removed
+
+| Keyword | AU vol/mo |
+|---|---|
+| mini cupcakes melbourne | 90 |
+| birthday cupcakes melbourne | 50 |
+
+### ✅ Recommended 4 replacements (compliant, high-value, real collections)
+
+| Dropped (banned) | → Recommended replacement | Vol/mo | Maps to collection |
+|---|---|---|---|
+| custom cakes melbourne (1,000) | **unicorn cake** (6,600) or spiderman cake (5,400) | 6,600 | character-cakes |
+| vegan cakes melbourne (720) | **dinosaur cake** (4,400) or smash cake (4,400) | 4,400 | character-cakes |
+| vegan birthday cakes melbourne (110) | **18th birthday cake** (2,400) or 21st birthday cake (2,400) | 2,400 | 18th/21st-birthday-cakes |
+| vegan cupcakes melbourne (90) | **mini cupcakes melbourne** (90) or paw patrol cake (3,600) | 90–3,600 | cupcakes / character-cakes |
+| messi cakes (170) | soccer cakes melbourne + football cakes melbourne *(client-chosen)* | 40+10 | sports-cakes |
+
+**Net effect:** the 4 dropped terms totalled ~1,920/mo. These replacements add **~13,500+/mo** of targeted, on-brand, compliant volume — and they sit squarely on the character/milestone collections that are already the client's best converters. This is a net gain, not a compromise.
+
+**Only genuinely weak slot:** cupcakes. Once dietary + delivery are removed and `cupcakes melbourne` (already owned) is set aside, cupcake volume is thin (mini cupcakes melbourne 90). Option: give the vegan-cupcakes slot to a 5th character term instead and let the cupcakes collection ride on the `cupcakes melbourne` keyword it already has.
+
 ### Source data
-Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent check on `cupcakes melbourne` (location: Melbourne, Victoria) via DataForSEO, 27 Jul 2026.
+Live Google Ads search volume (location: Australia, 2036) + live organic SERP intent check on `cupcakes melbourne` (Melbourne, Victoria) + `/collections.json` (60 live collections) + v1 research candidate pool (407 keywords) via DataForSEO, 27 Jul 2026.
