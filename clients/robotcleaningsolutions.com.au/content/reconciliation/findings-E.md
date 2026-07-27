@@ -1,0 +1,24 @@
+# Reconciliation findings — Batch E (homepage, house-clean, areas-we-serve)
+
+### homepage
+- verdict: MINOR
+- dropped items (valuable):
+  - [severity: nice-to-have] Broader service range not mentioned in body — LIVE homepage listed and briefly described all six services (House Clean, Airbnb, End of Lease, Corporate, Commercial, Builders) — NEW homepage is repositioned purely around house cleaning and never signals that Airbnb / Commercial / Builders / Corporate cleans exist. Likely intentional given the house-cleaning campaign scope, but the site homepage is the one place that surfaced the full service menu; consider a single line/link acknowledging the other services so they are not orphaned.
+  - [severity: nice-to-have] "Exclusive member perks/offers" dropped — LIVE membership section listed "Exclusive members offers" with concrete examples (discounts on additional services, free add-ons like oven or fridge cleaning). NEW membership bullets keep weekly clean, 4 seasonal deep cleans, 1 emergency clean, priority scheduling, fixed pricing — but drop the perks/free-add-on angle. A real, specific benefit; worth restoring if still offered.
+  - [severity: nice-to-have] "$50 off your first cleaning session" promo dropped — prominent on LIVE homepage hero/banner — absent on NEW. Concrete lead offer; confirm with client whether it is still live (may be an expired promo) before restoring.
+- live unique angle: "The Art of a Spotless Melbourne Home" / white-glove luxury framing for busy professionals — carried over? yes (Robot Standard + eco premium-finish framing covers the substance)
+- notes: The granular room-by-room checklists on LIVE (standard clean / deep clean / EOL — e.g. cobweb removal, dust skirting/window sills, clean inside oven/fridge/dishwasher, window tracks, blinds, soft furnishings) are absent from the NEW homepage, but the substance is carried on the NEW house-clean page (deep-clean description) and areas-we-serve FAQ, and the new homepage deliberately links out to the house-clean overview — so not counted as dropped. LIVE membership said "2 yearly emergency cleans"; NEW says "one" — this is CORRECT: client-profile.json states 1 yearly emergency clean, so the NEW figure is authoritative, not a loss. Price tables, "Why Choose Robot" heading, review counts intentionally handled per IGNORE list.
+
+### house-clean
+- verdict: CLEAN
+- dropped items (valuable): none
+- live unique angle: "White Glove Service" step-by-step protocol / "top of the fridge to the grooves in your skirting boards" detail focus, plus "enjoy local beaches or cafes" Bayside lifestyle framing — carried over? yes (NEW keeps the exact "top of the fridge to the grooves in your skirting boards" detail line and adds "sand off the foreshore, fine finishes in Brighton's larger houses")
+- notes: The LIVE house-clean page was thin; the NEW page is substantially richer (full itemised service menu, dedicated pricing, eco, about, areas, 5 FAQs). Every LIVE element — regular/fortnightly/one-off deep clean, EOL bond-return support, eco safe for kids/pets, vetted-insured-trained-in-house team, same-team membership consistency, room-level inclusions (living/kitchen/bathroom) — is present in the NEW copy. Nothing valuable lost.
+
+### areas-we-serve
+- verdict: MINOR
+- dropped items (valuable):
+  - [severity: should-add] Booking flexibility / cancellation FAQ topic dropped — LIVE answered "Can I change or cancel my booking?" (flexible rescheduling and cancellation, contact us and we accommodate). NEW areas page has 7 FAQs but none covers rescheduling/cancellation policy. Genuinely useful reassurance topic for local searchers; recommend adding a short FAQ or line.
+  - [severity: nice-to-have] "How often should I book?" scheduling-recommendation FAQ dropped — LIVE recommended weekly/fortnightly and offered a consultation to set the ideal schedule. NEW FAQs skew to pricing; the cadence-recommendation angle is only implied. Minor; add if space allows.
+- live unique angle: "Cleaners Near Me" local-search hub with bin-emptying/home-freshening task list and bayside-precision positioning — carried over? yes (NEW is a proper 20-suburb directory with postcodes, groupings, and the same near-me / anti-gig-marketplace positioning; task substance covered in service menu + "what should a cleaner do" FAQs)
+- notes: Aspendale mis-scoping intentionally corrected — NEW hub covers all 20 suburbs with local geographic detail (foreshore salt/sand, Glen Eira bungalows, Brighton/Beaumaris larger homes), which is stronger than the LIVE Aspendale-only framing; per instructions, reduced Aspendale-specific framing is NOT flagged. Service list, seasonal deep cleans, EOL, one-off/emergency, eco safety, 5-star, membership perks all carried. Price table and "Why Choose Us" heading handled per IGNORE list.

@@ -1,6 +1,6 @@
 # robotcleaningsolutions.com.au — Project Map
 
-_Rebuilt: 2026-07-27T01:11:06Z_
+_Rebuilt: 2026-07-27T01:20:52Z_
 
 ## Snapshot
 
@@ -29,8 +29,6 @@ _Rebuilt: 2026-07-27T01:11:06Z_
 
 ## Recent events (last 10)
 
-- 2026-07-27T01:02:25.923Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
-- 2026-07-27T01:02:58.291Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T01:03:02.711Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T01:03:14.597Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T01:07:01.046Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
@@ -39,4 +37,6 @@ _Rebuilt: 2026-07-27T01:11:06Z_
 - 2026-07-27T01:09:45.029Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T01:09:51.615Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 - 2026-07-27T01:10:03.843Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-27T01:11:06.478Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
+- 2026-07-27T01:14:58.794Z  `client_facts_extracted`  client:robotcleaningsolutions.com.au  (success)
 
