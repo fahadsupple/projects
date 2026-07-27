@@ -366,3 +366,31 @@ Of the 6 dietary replacements, **4 are solid** (number cakes melbourne, baptism 
 
 ### Source data
 Live organic SERP checks (Melbourne, Victoria) on all 11 shortlist keywords via DataForSEO, 27 Jul 2026.
+
+---
+
+## EIGHTH REVISION (27 Jul 2026) — 2 replacements for the jungle slot + 6th
+
+Jungle rejected (DJ act) and one slot still open. Validated real-product, clean-intent fills.
+
+### 1. Jungle fix (rephrase dodges the DJ act — SERP-confirmed clean)
+`jungle birthday cake` SERP = commercial Shopping block with **TWO Cake People products ranking** ("Jungle Birthday Cake" + "Jungle Animals Birthday Cake"). No music-act contamination. Volume options:
+| Keyword | AU vol/mo | Note |
+|---|---|---|
+| **jungle theme cake** | 320 | ✅ recommended — highest clean volume, their products rank |
+| wild one cake | 320 | trendy 1st-birthday jungle/safari term; fits their Jungle Animals 1st-birthday product |
+| jungle birthday cake | 50 | cleanest intent, low volume |
+| safari birthday cake | 50 | same theme, low volume |
+
+### 2. Sixth slot
+| Keyword | AU vol/mo | Verdict |
+|---|---|---|
+| **gender reveal cake** | 5,400 | ✅ clean commercial (huge Shopping block: Cupcake Queens, Ferguson Plarre, Food Voyageur "Gender reveal cake Melbourne", local pack). Client makes several. ⚠️ national sibling of existing `gender reveal cakes melbourne` (260) — reinforces that page, not new coverage |
+| graduation cake (alt) | 1,300 | clean-enough commercial; genuinely NEW page but needs a dedicated graduation product |
+
+### Recommended final 6 dietary replacements
+number cakes melbourne · baptism cake melbourne · teddy bear cake · disney princesses cake* · **jungle theme cake (320)** · **gender reveal cake (5,400)**
+*disney princesses cake carries the licensed-Disney caveat; swap for graduation cake if not comfortable.
+
+### Source data
+Live Google Ads volume + organic SERP checks on `jungle birthday cake`, `gender reveal cake` (Melbourne) + jungle/wild-one/safari volume via DataForSEO, 27 Jul 2026.
