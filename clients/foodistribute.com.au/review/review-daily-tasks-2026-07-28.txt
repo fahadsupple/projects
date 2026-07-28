@@ -403,3 +403,112 @@ REVISED PRIORITY ORDER
      listed in products-to-assign-2026-07-28.txt)
   3. /uncategorized/ and /xmas-range/ — noindex or remove (dev)
 ================================================================================
+
+================================================================================
+ADDENDUM 2 — CONTENT ANOMALY AUDIT ON THE 30 COMPLETED PAGES (28 July 2026)
+================================================================================
+Scope: the 30 pages confirmed complete in Part 1. Checks run: encoding/mojibake,
+diacritic consistency, placeholder text, duplicated paragraphs within a page,
+near-duplicate copy across pages, FAQ schema vs visible text, FAQ markup,
+truncation/stray markup, heading hierarchy, broken internal links, broken
+images, factual/numeric consistency, breadcrumb schema.
+
+CLEAN — nothing found
+  - No mojibake or broken characters (no Ã©, â€™, Â, etc.) on any page.
+  - No placeholder or unresolved text (lorem, TBC, [insert], "coming soon").
+  - No duplicated paragraphs within any single page.
+  - No truncated sentences, raw HTML tags, or unrendered shortcodes in copy.
+  - No broken internal links. 70 unique non-product links checked, all 200.
+  - No broken images. 245 unique image URLs checked, all 200.
+  - FAQ schema matches visible copy on all 29 pages that carry FAQPage — every
+    schema question appears in the rendered text. No stale/orphaned FAQ schema.
+    (Worth noting: this is the exact defect that recurred on flourishelc, so it
+    was checked specifically. Clean here.)
+  - Exactly one H1 per page on all 30.
+  - Breadcrumb schema present and correct on all 30 (Home > parent > page).
+  - Factual claims consistent sitewide: "1998" x37, "5,000" customers x10,
+    "25-plus years" x2, "$200" free-delivery threshold. No contradictions.
+
+ANOMALIES FOUND — 5
+
+A1. BRAND NAME MISSPELLED IN THE H1 — Mariage Frères
+    https://foodistribute.com.au/product-category/coffee-tea/mariage-freres-tea/
+    Meta title, meta description and all 19 body mentions use the correct
+    "Mariage Frères". The H1 alone drops the accent: "Mariage Freres Tea
+    Australia: The French Luxury Tea House, Loose Leaf and Bags".
+    NOTE: this originated in the approved document (page 10, H1 line), not in
+    the upload — the dev published exactly what was signed off. It is still
+    wrong on the most visible element of a page built to rank for a French
+    luxury brand.
+    ACTION: correct the H1 to "Mariage Frères". Content-side fix, low effort.
+
+A2. NEAR-DUPLICATE COPY ACROSS THE LOCATION PAGES
+    Measured on the approved body copy only (template, product tiles and
+    sidebar excluded), 10-word shingle overlap:
+      42%  /areas-we-serve/brisbane/     <-> /areas-we-serve/newcastle/
+      28%  /areas-we-serve/adelaide/     <-> /areas-we-serve/melbourne/
+      24%  /areas-we-serve/gold-coast/   <-> /areas-we-serve/sunshine-coast/
+      22%  /areas-we-serve/newcastle/    <-> /areas-we-serve/sunshine-coast/
+      18%  /areas-we-serve/brisbane/     <-> /areas-we-serve/sunshine-coast/
+    Brisbane/Newcastle is the outlier. Shared passages run 54-100% identical,
+    including one FAQ answer that is word-for-word the same on both:
+      "Cheapest depends on what you are buying and how much of it. Rather than
+       chase the lowest sticker on a commodity line, Foodistribute focuses on
+       competitive wholesale pricing across a specialty range..."
+    Adelaide/Melbourne share a 100%-identical passage too:
+      "We handpick the goods we carry and aim for fresh, tasty produce on
+       delivery. If an item is out of stock when you order, we let you know and
+       offer alternatives or a credit rather than leaving you short."
+    Also 17% between /cheese-dairy/ and /tinned-seafood-wholesale/, and 12%
+    between /callebaut-chocolate-supplies/ and /wholesale-chocolate-supplies/.
+    ACTION: rewrite the shared "about us", "ordering", "pricing" and FAQ blocks
+    so each city page carries its own phrasing. The city-specific sections are
+    already distinct — it is the boilerplate paragraphs that repeat. Highest
+    value on Brisbane and Newcastle.
+
+A3. FAQ QUESTIONS CARRY NO HEADING SEMANTICS — all 29 FAQ pages
+    Questions render as <div class="acc_head"> inside the accordion, not as
+    H2/H3. Every page in the set has ZERO H3s; the only headings are the
+    section H2s. The FAQPage schema is present and correct, so rich-result
+    eligibility is not at risk, but the questions themselves have no heading
+    weight and the pages have a flat two-level structure (H1 > H2) with a
+    12-question block sitting under a single H2 on some pages.
+    ACTION: template change — output FAQ questions as H3 inside the accordion.
+    One fix, applies sitewide. Low priority, real upside for passage ranking
+    and AI-answer extraction.
+
+A4. EMPTY-STATE MESSAGE SITS BETWEEN THE H1 AND THE COPY
+    On all 10 new category pages, the render order is:
+      H1  >  "No products were found matching your selection."  >  body copy
+    So the first thing a visitor reads after the headline is the failure
+    message, with 900-1,250 words of good copy pushed below it.
+    ACTION: resolved automatically once products are assigned (see Addendum 1),
+    but worth knowing this is how it currently presents.
+
+A5. DOUBLE-ESCAPED AMPERSANDS IN JSON-LD — 13 pages
+    Breadcrumb and WebPage schema output the literal string "&amp;" instead of
+    "&" inside JSON values, e.g.
+      "name": "Chocolate &amp; Patisserie"
+      "name": "Oil &amp; Vinegar"
+      "name": "Meat &amp; Seafood"
+      "name": "Cheese &amp; Dairy"
+      "name": "Coffee &amp; Tea | Foodistribute"
+      "name": "Crackers &amp; Snacks"
+    JSON-LD is not HTML, so entities are not decoded — parsers read the
+    breadcrumb label literally as "Chocolate &amp; Patisserie".
+    ACTION: developer/template fix — decode entities before writing JSON-LD.
+    Cosmetic in SERP breadcrumbs, but it is malformed data.
+
+MINOR NOTE — not counted as an anomaly
+    /cafe-and-restaurant-food-suppliers/ says "Canberra" in its delivery list
+    while the other 21 pages say "the ACT". Both are in the approved copy and
+    both are accurate; flagging only for consistency if the client cares.
+
+REVISED PRIORITY (anomalies only)
+  1. A2 — rewrite duplicated boilerplate on Brisbane/Newcastle, then the other
+          location pairs (content, Supple)
+  2. A1 — fix the Mariage Frères H1 accent (content, Supple)
+  3. A5 — fix &amp; in JSON-LD (dev)
+  4. A3 — output FAQ questions as H3 (dev, template)
+  5. A4 — resolves with product assignment
+================================================================================
