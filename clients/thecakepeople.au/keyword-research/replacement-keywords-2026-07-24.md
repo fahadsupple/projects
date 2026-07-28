@@ -394,3 +394,30 @@ number cakes melbourne · baptism cake melbourne · teddy bear cake · disney pr
 
 ### Source data
 Live Google Ads volume + organic SERP checks on `jungle birthday cake`, `gender reveal cake` (Melbourne) + jungle/wild-one/safari volume via DataForSEO, 27 Jul 2026.
+
+---
+
+## NINTH REVISION (28 Jul 2026) — final shortlist SERP re-validation (12 kw)
+
+Updated shortlist with football→soccer theme cakes and jungle cakes melbourne→jungle theme cakes. All 12 SERP-checked.
+
+| Keyword | Vol/mo | Verdict |
+|---|---|---|
+| soccer cakes melbourne | 40 | ✅ clean |
+| soccer theme cakes | 320 | ⚠️ usable — products rank (Cupcake Queens, Ferguson Plarre, Sugar Rush) but more Pinterest/ideas mixed; weakest of set |
+| unicorn cakes melbourne | — | ✅ clean |
+| dinosaur cakes melbourne | — | ✅ clean (own T-Rex product ranks) |
+| mermaid cakes | — | ✅ clean |
+| heart cake melbourne | — | ✅ clean |
+| number cakes melbourne | — | ✅ clean |
+| teddy bear cake | — | ✅ clean (own product ranks) |
+| jungle theme cakes | 320 | ✅ FIXED — clean commercial, own "Jungle Birthday Cake" ranks in Shopping, DJ act gone |
+| disney princesses cake | — | ⚠️ usable — own product ranks + competitors, but licensed Disney + some ideas |
+| rainbow cakes melbourne | — | ✅ clean (geo fixes the recipe problem) |
+| baptism cake melbourne | — | ✅ clean (own Baptism Cake ranks pos 10) |
+
+**Outcome: 10 clean, 2 minor caveats (soccer theme cakes = ideas-heavy but products rank; disney princesses = licensed). No hard rejects.**
+Notes: soccer theme cakes (320) is distinct-but-ideas-contaminated; alternative `soccer cake` (1,900) is bigger + cleaner but reinforces soccer cakes melbourne (same page). disney princesses cake keep only if comfortable w/ Disney trademark.
+
+### Source data
+Live Google Ads volume + organic SERP checks on `soccer theme cakes`, `jungle theme cakes`, `rainbow cakes melbourne` (Melbourne) via DataForSEO, 28 Jul 2026. Other 9 validated 27 Jul at identical/geo-equivalent phrasings.
