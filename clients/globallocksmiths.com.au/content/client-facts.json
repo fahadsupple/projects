@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "client": "globallocksmiths.com.au",
+  "generated_at": "2026-07-28T02:05:57Z",
+  "extractor_version": "0.5.0",
+  "facts": [
+    {
+      "id": "social-proof.clients",
+      "class": "count",
+      "label": "clients",
+      "unit": null,
+      "value": 25,
+      "sources": [
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "60"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "21"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "02"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "07"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "10"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "56"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "11"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "43"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "969"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "968"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "576"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "02"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "07"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "14"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "54"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "05"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "25"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "60"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "1,000"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "60"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "60"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "00"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "00"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "20"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "12"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#count",
+          "value_seen": "60"
+        }
+      ],
+      "status": "conflict",
+      "confidence": "low",
+      "conflicts": [
+        {
+          "subject": "clients",
+          "candidates": [
+            {
+              "value": 25,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 20,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 30,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 60,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 21,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 2,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 7,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 10,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 56,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 11,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 11,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 43,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 969,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 968,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 576,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 1000,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 1000,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 2,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 7,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 14,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 54,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 5,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 25,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 1000,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 24,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 30,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 60,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 20,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 1000,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 30,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 60,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 24,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 30,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 60,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 0,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 0,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 24,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 20,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 24,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 30,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            },
+            {
+              "value": 60,
+              "origin": "intake-form",
+              "ref": "intake-form#count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metrics.percentage",
+      "class": "percentage",
+      "label": "percentage",
+      "unit": "%",
+      "value": 100,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "75%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "20%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        }
+      ],
+      "status": "conflict",
+      "confidence": "low",
+      "conflicts": [
+        {
+          "subject": "",
+          "candidates": [
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 75,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 20,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service.duration",
+      "class": "duration",
+      "label": "duration",
+      "unit": "month",
+      "value": 12,
+      "sources": [
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-Month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "company.founding-year",
+      "class": "scalar_year",
+      "label": "scalar year",
+      "unit": null,
+      "value": 2002,
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/brand/year_established",
+          "value_seen": "2002"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "catalog.services",
+      "class": "enum_set",
+      "label": "services",
+      "unit": null,
+      "value": [
+        "Advanced Locking Solutions",
+        "Commercial Door Locks",
+        "Deadlocks",
+        "Digital Locks",
+        "General Locks",
+        "Hardware",
+        "Key Replacement & Repair",
+        "Lock Bumping",
+        "Lock Change & Installation",
+        "Lock Fitting and Servicing",
+        "Lock Maintenance",
+        "Lock Repairs",
+        "Mobile Locksmith Services",
+        "Rekeying & Key Systems",
+        "Safe Installation",
+        "Safes & Security Solutions",
+        "Smart Lock Installation",
+        "Specialty Locks & Security"
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/services",
+          "value_seen": "Advanced Locking Solutions, Commercial Door Locks, Deadlocks, Digital Locks, General Locks, Hardware, Key Replacement & Repair, Lock Bumping, Lock Change & Installation, Lock Fitting and Servicing, Lock Maintenance, Lock Repairs, Mobile Locksmith Services, Rekeying & Key Systems, Safe Installation, Safes & Security Solutions, Smart Lock Installation, Specialty Locks & Security"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
+      "id": "catalog.guarantees",
+      "class": "enum_set",
+      "label": "guarantees",
+      "unit": null,
+      "value": [
+        "Standard 12-Month Warranty — we guarantee quality on all work completed, giving customers peace of mind that our workmanship is backed for a full year.",
+        "100% Satisfaction Guarantee — we stand by our work and are committed to ensuring our customers' complete satisfaction.",
+        "No-Obligation Free Quote — we offer a free, no-obligation quote so customers can understand costs upfront with no pressure.",
+        "Licensed & Insured assurance — all our locksmiths are fully licensed, insured, and accredited, providing customers with confidence in the safety and legality of our services."
+      ],
+      "sources": [
+        {
+          "origin": "client-profile",
+          "ref": "client-profile.json#/guarantees",
+          "value_seen": "Standard 12-Month Warranty — we guarantee quality on all work completed, giving customers peace of mind that our workmanship is backed for a full year., 100% Satisfaction Guarantee — we stand by our work and are committed to ensuring our customers' complete satisfaction., No-Obligation Free Quote — we offer a free, no-obligation quote so customers can understand costs upfront with no pressure., Licensed & Insured assurance — all our locksmiths are fully licensed, insured, and accredited, providing customers with confidence in the safety and legality of our services."
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    }
+  ],
+  "needs_confirmation": [
+    "social-proof.clients",
+    "metrics.percentage"
+  ],
+  "source_scan": {
+    "origins": [
+      "bdm-notes",
+      "client-profile",
+      "intake-form"
+    ],
+    "scanned_at": "2026-07-28T02:05:57Z"
+  }
+}

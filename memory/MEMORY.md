@@ -9,6 +9,8 @@
 - [Skill Command Scope](feedback_skill_commands.md) — skill commands are scoped; do not resume pending session tasks unless explicitly asked
 
 ## Infrastructure
+- [Content Plugin — corpus-contradiction verb trap](content_plugin_corpus_contradiction_verb_trap.md) — honesty gate false-positives on 'we do not <verb>' in approved copy; SEO literal secondary-kw trap; approved/ two-location gotcha
+
 - [DataForSEO MCP npx fix](infra_dataforseo_mcp_npx_fix.md) — all-plugin DataForSEO connect failure = corrupted npx cache, not creds; fix with global npm install
 
 ## Capabilities
@@ -62,3 +64,4 @@
 - [flourishelc.com.au](../clients/flourishelc.com.au/memory/client_flourishelc.md) — Flourish Early Learning Centre, childcare/preschool/kindergarten NSW (Oakville) + WA (Bull Creek), staging site hardyd21.sg-host.com; staging verification 2026-07-02 (all 37 council/region corrections across 20 pages + CTA/image tasks implemented correctly in visible content; FAQ JSON-LD schema left stale on 12 pages — recurring defect; note: watch for Word track-changes silently dropped by python-docx default extraction)
 - [skyflex.au](../clients/skyflex.au/memory/client_skyflex.md) — Skyflex, DIY pergola/outdoor-living product retailer (louvred pergolas, awnings, BBQ pods, outdoor TVs, smartoilets) Melbourne-based + Sydney, upgrade round v1 revised 2026-07-02 (10 general keywords, Sydney+Melbourne focus per client directive, QLD paused; rejected 'pergola builders' terms as installer-intent mismatch)
 - [compliancefdev.wpenginepowered.com](../clients/compliancefdev.wpenginepowered.com/memory/client_compliancefdev.md) — Compliance Fixer, Victorian rental safety compliance (smoke alarm/gas/electrical), Highett VIC, WP Engine dev site; full spelling + AU English + content anomaly audit complete 23 Jul 2026 (99 findings, 72 URLs)
+- [globallocksmiths.com.au](../clients/globallocksmiths.com.au/memory/client_globallocksmiths.md) — Global Locksmiths, mobile locksmith Melbourne/Geelong; content:init complete 28 Jul 2026 (greenfield, 41 smart-lock suburb pages, 1 cluster); watch the sole-operator vs plural-team claim conflict
