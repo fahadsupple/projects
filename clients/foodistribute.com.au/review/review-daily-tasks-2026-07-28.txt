@@ -340,3 +340,66 @@ Content replacement, new page creation, product page updates, the areas hub
 links and both new nav dropdowns are all complete and accurate. The approved
 document was uploaded verbatim — 30 pages, 713 body paragraphs, zero deviations.
 ================================================================================
+
+================================================================================
+ADDENDUM — SITE-WIDE COLLECTION PAGE SWEEP (28 July 2026)
+================================================================================
+Scope: every product-category (collection) page on the site — all 61 URLs in
+product_cat-sitemap.xml, cross-checked against every category linked from the
+main nav and /shop-by-category/. No orphaned categories found; the two lists
+matched exactly, so 61 is the complete set.
+
+Method: fetched each page, counted rendered product tiles, checked for the
+"No products were found matching your selection" empty state, and cross-checked
+against the "Shop by Brand" filter counts (a populated category always exposes
+brand facets with counts; a genuinely empty one exposes none).
+
+RESULT: 13 of 61 collection pages have no products showing, plus 1 that is
+broken. Beyond the 10 already reported, THREE more issues:
+
+11. https://foodistribute.com.au/product-category/uncategorized/
+    0 products, shows "No products were found matching your selection".
+    This is the WooCommerce default catch-all term. It is set to index,follow
+    and is included in the XML sitemap.
+    ACTION: delete the term, or at minimum noindex it and pull it from the
+    sitemap. It should never have been crawlable.
+
+12. https://foodistribute.com.au/product-category/xmas-range/
+    0 products, shows "No products were found matching your selection".
+    Seasonal category, presumably emptied after Christmas. Set to index,follow
+    and in the XML sitemap.
+    ACTION: if it will be repopulated each December, noindex it while empty
+    rather than leaving a dead commercial page live year-round. Note the site
+    also has a separate /product-category/christmas-deals/ which IS populated
+    (18 products) — worth confirming with the client whether both are needed
+    or one should be retired/redirected.
+
+13. https://foodistribute.com.au/product-category/pantry-grocery/frozen/
+    >> DIFFERENT PROBLEM — this one is BROKEN, not empty.
+    The category HAS products: the Shop by Brand filter lists 29 brands
+    totalling 246 products (Gelista 13, Sunnyside 12, Bone Roaster 9,
+    Mission 9, Lamb Weston 4, Amazonia 4, etc.).
+    But the page renders NO product grid at all — zero product tiles, no
+    pagination, and not even the "No products were found" message that a
+    genuinely empty category shows. Confirmed identical across repeat fetches,
+    so it is not a caching blip. By comparison the sibling category
+    /pantry-grocery/chilled/ renders its grid normally.
+    A customer landing on Frozen sees the filters and the sidebar and nothing
+    to buy.
+    ACTION: developer to investigate why the product loop fails to output on
+    this term. Highest-priority of the three — this is 246 sellable products
+    that cannot be reached from their own category page.
+
+CONFIRMED HEALTHY — the other 47 collection pages
+  All render products normally. Lowest counts are legitimately small niche
+  categories, not faults: vegan-cheese (1), squid-ink (4), artisan-cheese (4),
+  pistachio-paste (5), yuzu-juice-supplies (6), caramelised-balsamic-vinegar
+  (6), perello-olives (8), washed-rind (9), packaging-hygiene (12),
+  vegan-range (12), ice-cream (15).
+
+REVISED PRIORITY ORDER
+  1. /pantry-grocery/frozen/ — broken grid hiding 246 live products (dev)
+  2. The 10 new category pages — assign products (Australia team, 178 URLs
+     listed in products-to-assign-2026-07-28.txt)
+  3. /uncategorized/ and /xmas-range/ — noindex or remove (dev)
+================================================================================
