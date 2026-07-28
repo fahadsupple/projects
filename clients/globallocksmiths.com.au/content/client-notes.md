@@ -1,26 +1,30 @@
 ## Content Restrictions
 
-**Team-size language — UNRESOLVED, treat as restrictive until the client confirms.**
-Form 2 Q1 states "Only have 1 employee". Both forms elsewhere use plural-team
-language ("our team of expert locksmiths", "our entire expert team", "our
-locksmiths", "technical and management staff"). Until the analyst confirms actual
-headcount, do NOT write plural-staff claims — no "our team of locksmiths", no "our
-technicians", no "our staff". Attribute expertise to the named licensed Master
-Locksmith (Shane Tipping) or to the business, not to an unverified team.
-Source: client-profile.json `_conflicts[0]`.
+_All three items below were RESOLVED by the analyst on 2026-07-28. These are now
+binding instructions, not open questions. Full trail in `client-profile.json`
+`_conflicts[]`._
 
-**Tenure — use one figure only.** Three tenures appear across the forms: established
-2002 (form 1 Q3), "25+ years" (form 1 Q7, form 2 Q2), and "around 20 years" (form 2
-Q13, Q21). 2002 is the only hard date and is the retained value. Derive tenure from
-2002 alone; never let two different year counts appear across the 41 pages.
-Source: client-profile.json `_conflicts[1]`.
+**NO 24/7. NO emergency service. NO response-time claims.** The business operates
+**Monday to Friday, 9am to 5pm** — that is the whole offer. Form 2 (Q9, Q19, Q21)
+claimed 24/7 mobile availability and a 30–60 minute response; the analyst has
+confirmed that is wrong. Never write "24/7", "around the clock", "any time of day
+or night", "after hours", "emergency locksmith", "emergency callout", or any
+arrival-time promise. Lockout work itself is still a service the business
+performs — write it without urgency framing. The 24/7 USP was deleted from the
+profile and "emergency lockout assistance" was trimmed to "lockout assistance" in
+`brand.audience`, because that field arms the honesty gate's capability tokens.
 
-**Operating hours — never state the office hours alone.** "Monday to Friday 9am to
-5pm" is OFFICE hours. The mobile locksmith service runs 24/7 with a typical 30–60
-minute response (form 2 Q9, Q19). Any mention of the 9–5 window must be paired with
-the 24/7 mobile availability, or the page implies the business is unreachable after
-5pm — the exact defect flagged in the 21 May 2026 content-additions document.
-Source: client-profile.json `_conflicts[2]`.
+**Tenure — write "since 2002", never a year-count.** Established 2002 (form 1 Q3)
+is the single approved fact. Do NOT write "over 25 years", "around 20 years",
+"24 years of experience", or any other duration — a hardcoded year-count is correct
+the day it ships and wrong a year later. `years_of_combined_experience` was removed
+from the profile so it cannot be picked up.
+
+**Team language is APPROVED.** Form 2 Q1's "Only have 1 employee" counts staff
+besides the owner. The business is founder Shane Tipping plus 1 employee — two
+people, which is a team. Plural-team phrasing ("our team", "our locksmiths") is
+cleared for use. Do not inflate beyond that: no claims implying a large crew,
+multiple simultaneous jobs, or depth of staffing.
 
 ## Raw Notes
 

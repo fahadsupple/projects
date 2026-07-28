@@ -20,15 +20,26 @@ audience_tone audit adapters are armed, so ordinary security phrasing ("weak
 points", "easy access") will trip blocking findings during audit. Next phase:
 `/content:research`.
 
-## The thing that will bite — sole operator vs plural-team copy
-Form 2 Q1 says **"Only have 1 employee"**, but both forms are written throughout in
-plural-team voice ("our team of expert locksmiths", "our entire expert team"). This
-is unresolved with the client. Any generated page using plural-staff language is a
-credibility claim the business may not be able to support. Recorded in
-`client-profile.json _conflicts[0]` and in `client-notes.md` (which reaches
-`client-context.md`, the file every downstream agent loads). Same pattern for tenure
-(2002 vs "25+ years" vs "around 20 years") and hours (Mon–Fri 9–5 is OFFICE hours;
-the mobile service is 24/7 — never state one without the other).
+## The forms overstate the offer — analyst corrections, 2026-07-28
+All three intake conflicts are RESOLVED. The corrections matter more than the form
+text, because **form 2 makes claims the business cannot support**:
+
+- **No 24/7. No emergency service. No response-time promise.** Mon–Fri 9am–5pm is
+  the whole offer. Form 2 Q9/Q19/Q21 claimed 24/7 mobile availability and 30–60 min
+  arrival — wrong. The 24/7 USP was deleted and "emergency lockout assistance" was
+  trimmed to "lockout assistance" in `brand.audience`, because that field arms
+  `honesty_audit`'s capability-token pool: leaving the word there would have marked
+  "emergency" as a *supported* claim and let it through the gate. Lockout work
+  itself is still in scope, just without urgency framing.
+- **Tenure: write "since 2002", never a year-count.** A hardcoded "over 25 years"
+  ships correct and goes stale. `years_of_combined_experience` was removed from the
+  profile so the writer can't emit it.
+- **Team language is fine.** "Only have 1 employee" counts staff besides the owner,
+  so it's Shane + 1 = 2 people = a team.
+
+Trail lives in `client-profile.json _conflicts[]` (each with `resolution`) and in
+`client-notes.md`, which is what reaches `client-context.md` — the file every
+downstream agent loads. `_conflicts` itself is analyst-facing only; no agent reads it.
 
 ## Scope boundary
 Form 1 Q11 asked for three service roots (locksmiths, mobile locksmith, smart lock

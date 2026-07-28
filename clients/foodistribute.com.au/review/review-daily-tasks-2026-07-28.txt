@@ -1,0 +1,342 @@
+================================================================================
+FOODISTRIBUTE.COM.AU — DAILY TASKS COMPLETION REVIEW
+================================================================================
+Date reviewed  : 28 July 2026
+Reviewed by    : Fahad (Supple)
+Source docs    : clients/foodistribute.com.au/review/
+                 - Foodistribute.com.au - Daily Tasks.docx   (the dev task list)
+                 - Foodistribute.com.au_(Approved).docx      (30 pages of copy)
+                 - Fooddistribute.com.au-Keyword-URL-Meta (1).xlsx  (87 keywords)
+                 - content/keyword-coverage-check.md + keyword-coverage-fixes.md
+Method         : Every URL in the task doc fetched live and parsed. Meta title,
+                 meta description, H1, headings, full body copy, canonical,
+                 robots, OG tags and JSON-LD compared paragraph-by-paragraph
+                 against the approved document. Nav/footer menus, the areas hub,
+                 sitemaps and product assignment checked separately.
+
+================================================================================
+HEADLINE VERDICT
+================================================================================
+The CONTENT side of the job is done, and done accurately. All 30 approved pages
+are live at the correct URLs with the correct meta title, meta description and
+H1, and every single body paragraph from the approved document is present on the
+live page. Zero content discrepancies across 30 pages.
+
+The STRUCTURAL side is done except for two things:
+
+  1. BLOCKING — All 10 new product-category pages have ZERO products assigned.
+     Every one of them renders "No products were found which match your
+     selection" to the customer. 179 matching products already exist on the
+     site and just need to be tagged into the new categories. This is the
+     "Add products in categories - to be done by the Australia team" line in
+     the task doc, and it has not been done.
+
+  2. MINOR — The new nav sub-items were appended to the bottom of their
+     dropdowns rather than "inserted alphabetically" as the task doc specified.
+     On Pantry / Grocery this actually breaks an existing alphabetical list.
+
+================================================================================
+PART 1 — CONTENT MATCHING (approved doc vs live site)
+================================================================================
+
+TASK 1 — "Replace old SEO content with the new one on these pages" (10 URLs)
+--------------------------------------------------------------------------------
+  URL                                                     Status  Meta  H1  Body
+  /                                                        200     OK   OK   38/38
+  /cafe-and-restaurant-food-suppliers/                     200     OK   OK   29/29
+  /areas-we-serve/sydney/                                  200     OK   OK   34/34
+  /areas-we-serve/melbourne/                               200     OK   OK   30/30
+  /product-category/asian-grocery-wholesaler/              200     OK   OK   34/34
+  /product-category/oil-vinegar/olive-oil/                 200     OK   OK   30/30
+  /product-category/wholesale-bakery-supplies/             200     OK   OK   26/26
+  /product-category/chocolate-patisserie/wholesale-chocolate-supplies/
+                                                           200     OK   OK   34/34
+  /product-category/chocolate-patisserie/callebaut-chocolate-supplies/
+                                                           200     OK   OK   24/24
+  /product-category/meat-seafood/tinned-seafood-wholesale/ 200     OK   OK   28/28
+
+  RESULT: COMPLETE. 10/10 replaced correctly.
+
+TASK 2 — "Add these new pages and add content to the pages" (15 URLs)
+--------------------------------------------------------------------------------
+  /areas-we-serve/adelaide/                                200     OK   OK   30/30
+  /areas-we-serve/brisbane/                                200     OK   OK   27/27
+  /areas-we-serve/gold-coast/                              200     OK   OK   28/28
+  /areas-we-serve/sunshine-coast/                          200     OK   OK   26/26
+  /areas-we-serve/newcastle/                               200     OK   OK   27/27
+  /product-category/chocolate-patisserie/valrhona-chocolate-supplies/
+                                                           200     OK   OK   26/26
+  /product-category/chocolate-patisserie/belcolade-chocolate-supplies/
+                                                           200     OK   OK   20/20
+  /product-category/chocolate-patisserie/ewald-gelatine-sheets/
+                                                           200     OK   OK   19/19
+  /product-category/pantry-grocery/guindilla-peppers/      200     OK   OK   16/16
+  /product-category/chocolate-patisserie/heilala/          200     OK   OK   18/18
+  /product-category/japanese-asian/matcha-powder/          200     OK   OK   21/21
+  /product-category/coffee-tea/mariage-freres-tea/         200     OK   OK   21/21
+  /product-category/pantry-grocery/rustichella-pasta/      200     OK   OK   21/21
+  /product-category/crackers-snacks/lavosh/                200     OK   OK   13/13
+  /product-category/pantry-grocery/potato-rolls/           200     OK   OK   23/23
+
+  RESULT: COMPLETE for page creation + copy. 15/15 created at the exact URLs
+          specified, all 200, all carrying the approved copy verbatim.
+          BUT see Task 3 below — the 10 new CATEGORY pages have no products.
+
+TASK 3 — "Add products in categories - to be done by the Australia team"
+--------------------------------------------------------------------------------
+  NOT DONE. Every new product-category page shows 0 products and displays
+  "No products were found which match your selection" to the visitor.
+
+  Category page (all currently EMPTY)              Matching products already
+                                                    live on the site
+  --------------------------------------------------------------------------
+  /chocolate-patisserie/valrhona-chocolate-supplies/            45
+  /chocolate-patisserie/belcolade-chocolate-supplies/           32
+  /chocolate-patisserie/ewald-gelatine-sheets/                   3
+  /chocolate-patisserie/heilala/                                18
+  /pantry-grocery/guindilla-peppers/                             6
+  /pantry-grocery/rustichella-pasta/                            39
+  /pantry-grocery/potato-rolls/                                  5
+  /japanese-asian/matcha-powder/                                 4
+  /coffee-tea/mariage-freres-tea/                                8
+  /crackers-snacks/lavosh/                                      19
+                                                    ----------------
+                                                    179 products total
+
+  The products all exist and are indexed — e.g. /product/valrhona-abinao-85-
+  chocolate-bar-70g/, /product/martins-5-inch-potato-rolls-30-x-5-sydney-only/,
+  /product/ubidea-guindilla-peppers-15-x-180g/, /product/umami-matcha-powder-
+  500g/. They simply are not assigned to the new category terms.
+
+  Why this matters: these pages were built to rank for commercial "buy" intent
+  (valrhona chocolate australia, martins potato rolls australia, wholesale
+  lavosh crackers australia). A page that tells the buyer "no products were
+  found" cannot convert, and Google reads an empty commercial category as a
+  low-quality result regardless of the copy above it.
+
+TASK 4 — "Update these product pages with our content" (5 URLs)
+--------------------------------------------------------------------------------
+  /product-category/cheese-dairy/                           200    OK   OK  25/25
+  /product/fabbri-amarena-cherries-in-syrup-opaline-jar-600g/
+                                                            200    OK   OK  12/12
+  /product/murray-river-pink-salt-flakes-500g/              200    OK   OK   8/8
+  /product/olssons-smoked-salt-redgum-500g/                 200    OK   OK  11/11
+  /product/tabletop-muscatel-clusters-4kg/                  200    OK   OK  14/14
+
+  RESULT: COMPLETE. 5/5 updated correctly.
+
+TASK 5 — "Add these location pages to /areas-we-serve/"
+--------------------------------------------------------------------------------
+  All 5 new cities are linked from the Areas We Serve hub, alongside the 2
+  existing ones. Anchor text is descriptive and keyword-aligned:
+
+    Food Distributors Sydney         -> /areas-we-serve/sydney/
+    Food Distributors Melbourne      -> /areas-we-serve/melbourne/
+    Food Distributors Adelaide       -> /areas-we-serve/adelaide/
+    Food Distributors Brisbane       -> /areas-we-serve/brisbane/
+    Food Distributors Gold Coast     -> /areas-we-serve/gold-coast/
+    Food Distributors Sunshine Coast -> /areas-we-serve/sunshine-coast/
+    Food Distributors Newcastle      -> /areas-we-serve/newcastle/
+
+  RESULT: COMPLETE. 5/5 added.
+
+TASK 6 — Navigation changes under "Product Range"
+--------------------------------------------------------------------------------
+  6a. Chocolate & Patisserie — add 4 sub-items          ALL 4 PRESENT
+      Belcolade Chocolate      -> correct URL
+      Ewald Gelatine Sheets    -> correct URL
+      Heilala Vanilla          -> correct URL
+      Valrhona Chocolate       -> correct URL
+      >> Alphabetical order NOT applied. Live order is:
+         Wholesale Chocolate Supplies, Baking Chocolate, Callebaut, Valrhona,
+         Belcolade, Heilala, Ewald Gelatine Sheets.
+         The 4 new items were appended in task-doc order, not merged
+         alphabetically.
+
+  6b. Pantry / Grocery — add 3 sub-items                ALL 3 PRESENT
+      Guindilla Peppers, Potato Rolls, Rustichella Pasta -> all correct URLs
+      >> Alphabetical order NOT applied, and here it BREAKS an existing
+         alphabetical list. Live order runs Chilled, Flour, Frozen, Herbs,
+         Honey, Ice Cream, Molecular Gastronomy, Organic Range, Packaging &
+         Hygiene, Pasta, Perello Olives, Pistachio Paste, Preserved Vegetables,
+         Squid Ink, Vegan Range — then Rustichella Pasta, Guindilla Peppers,
+         Potato Rolls tacked on the end.
+
+  6c. Japanese / Asian — add Matcha Powder              PRESENT
+      >> Sits after "Yuzu Juice Supplies"; alphabetically it should sit before.
+
+  6d. Coffee & Tea — create dropdown + Mariage Frères Tea   DONE CORRECTLY
+      Dropdown created, "Mariage Frères Tea" added, and the parent "Coffee &
+      Tea" still links to /product-category/coffee-tea/ (not a label-only
+      toggle). A "View All Products" child link to the same category was also
+      added. This was the trickiest instruction in the doc and it was
+      implemented exactly as specified.
+
+  6e. Crackers & Snacks — create dropdown + Lavosh          DONE CORRECTLY
+      Same as above. Parent still clickable and pointing at
+      /product-category/crackers-snacks/. Correct.
+
+  RESULT: All 10 nav items added with correct URLs and both new dropdowns built
+          correctly. Only the "insert alphabetically" instruction was missed.
+
+================================================================================
+PART 2 — CONTENT ISSUES
+================================================================================
+
+SPELLING / AU ENGLISH — CLEAN
+  Full US-spelling sweep across all 33 pages (organise/organize, flavour,
+  colour, centre, catalogue, licence, enrol, analyse, fulfil, metre, litre,
+  practise, recognise, neighbourhood, traveling). Zero US spellings found.
+  "program" appears twice ("a baking program", "a serious tea program") — this
+  is correct Australian usage for a business/menu program and is not an error.
+
+WRONG-LOCATION CONTAMINATION — CLEAN
+  Each of the 7 location pages carries only its own city in its H1 and section
+  headings. The one cross-city mention, Newcastle's H2 "Foodistribute, the
+  Sydney supplier already on the Newcastle run", is intentional and matches the
+  approved copy word for word.
+
+DUPLICATE META — CLEAN
+  No duplicate meta titles and no duplicate meta descriptions across the 33
+  pages checked.
+
+KEYWORD COVERAGE — 86 of 87 COVERED
+  Every keyword in the Meta File was phrase-matched against its page's title,
+  description and body (allowing natural filler words such as "in"/"the").
+
+  One outstanding, and it was already flagged as OPTIONAL in
+  content/keyword-coverage-fixes.md before publishing:
+    /product-category/oil-vinegar/olive-oil/
+    "extra virgin olive oil wholesale" — page only carries the reversed form
+    "wholesale extra virgin olive oil". Word-order variants generally rank
+    interchangeably, so this is a nice-to-have, not a defect.
+
+  The 5 MUST-FIX items from the pre-publish check were all verified live:
+    1. Melbourne adjacency on /cafe-and-restaurant-food-suppliers/   APPLIED
+    2. "wholesale food suppliers Newcastle" H2                       APPLIED
+    3. "commercial food suppliers" on homepage FAQ                   APPLIED
+       (delivered as "Unlike most commercial food suppliers, we supply..."
+       — different wording to the fixes doc, same keyword adjacency, fine)
+    4. "foodservice distributors Australia" on homepage FAQ          APPLIED
+    5. "Callebaut chocolate in Australia" FAQ                        APPLIED
+
+UNVERIFIED FACTUAL CLAIMS — STILL OPEN WITH CLIENT
+  These are now live across many pages and were never confirmed by the client
+  (carried over from keyword-coverage-fixes.md):
+    - Dispatches/ships from Sydney
+    - Trading since 1998
+    - More than 5,000 foodservice and retail customers
+    - Registered with NSW Food Authority
+    - Free delivery on qualifying orders inside the Sydney metro
+  Recommend a one-line confirmation from Hardy so these stay defensible.
+
+================================================================================
+PART 3 — CODING / SEO ISSUES
+================================================================================
+
+HTTP STATUS         33/33 URLs return 200. No 404s, no redirect chains, no
+                    URL typos between the task doc and what was built.
+
+H1                  Exactly one H1 on every page. All 30 match the approved
+                    document verbatim.
+
+CANONICAL           Present and self-referencing on all 33 pages.
+
+ROBOTS              All pages "index, follow". No accidental noindex on any of
+                    the 15 new pages.
+
+OPEN GRAPH          og:title and og:description present on all 33 pages.
+
+SCHEMA              WebPage/CollectionPage + BreadcrumbList + WebSite on every
+                    page. FAQPage schema fired on 29 of 30 content pages.
+                    The one exception, /product/murray-river-pink-salt-flakes-
+                    500g/, is CORRECT — the approved copy for that page has no
+                    FAQ section, so there is nothing to mark up.
+                    The 4 product pages also carry Product + Offer +
+                    UnitPriceSpecification + Organization schema.
+
+SITEMAPS            All 15 new URLs are in the XML sitemaps —
+                    5 location pages in page-sitemap.xml,
+                    10 category pages in product_cat-sitemap.xml.
+
+INTERNAL LINKING    The chocolate hub page links out to Callebaut, Valrhona and
+                    Belcolade as the approved copy promised. All 10 new
+                    category pages are reachable from the main nav. No orphans.
+
+EMPTY CATEGORY UX   >> All 10 new category pages render "No products were found
+                    which match your selection". See Task 3 above. This is the
+                    single highest-priority fix on the site right now.
+
+FOOTER "AREAS"      >> The footer/Information menu "Areas" section still lists
+                    only Melbourne and Sydney. The 5 new cities are not there.
+                    Not a task-doc line item, but an obvious consistency gap now
+                    that 7 city pages exist.
+
+/areas-we-serve/    >> The hub page itself still carries its old meta:
+STALE META             Title: "Areas We Serve | Foodistribute"
+                       Desc : "Foodistribute serve various areas of Sydney and
+                               NSW. Check if your location is covered..."
+                    That description is now factually behind the site — the
+                    business is presented as national across 7 cities. The hub
+                    page was not part of the content deliverable, so this is a
+                    gap in the brief rather than a dev error, but it should be
+                    rewritten.
+
+IMAGE ALT           2 images per page are missing alt attributes. Identical
+                    count on every page including untouched ones, so this is a
+                    pre-existing theme/template issue, not something introduced
+                    by this upload. Low priority.
+
+ROBOTS.TXT          Clean. Sitemap declared. Nothing blocking the new pages.
+
+================================================================================
+SUMMARY — ACTION ITEMS
+================================================================================
+
+PRIORITY  OWNER            ACTION
+--------  ---------------  ------------------------------------------------------
+HIGH      Australia team   Assign products to the 10 new category pages. 179
+                           matching products already exist on the site. Until
+                           this is done all 10 pages show "No products were
+                           found" and cannot convert or rank properly.
+                           Counts: Valrhona 45, Rustichella 39, Belcolade 32,
+                           Lavosh 19, Heilala 18, Mariage Frères 8, Guindilla 6,
+                           Martins Potato Rolls 5, Matcha 4, Ewald 3.
+
+MEDIUM    Developer        Re-order the new nav sub-items alphabetically within
+                           their dropdowns, as the task doc specified:
+                           - Pantry / Grocery: merge Guindilla Peppers, Potato
+                             Rolls and Rustichella Pasta into the existing
+                             alphabetical list (this one currently looks broken).
+                           - Japanese / Asian: move Matcha Powder above Yuzu
+                             Juice Supplies.
+                           - Chocolate & Patisserie: merge the 4 new brands
+                             alphabetically.
+
+MEDIUM    Developer        Add the 5 new cities (Adelaide, Brisbane, Gold Coast,
+                           Sunshine Coast, Newcastle) to the footer "Areas"
+                           menu so it matches the Areas We Serve hub.
+
+MEDIUM    Supple / client  Confirm the factual claims now live sitewide: since
+                           1998, 5,000+ customers, NSW Food Authority
+                           registration, Sydney dispatch, free Sydney metro
+                           delivery on qualifying orders.
+
+LOW       Supple           Rewrite meta title + description for
+                           /areas-we-serve/ — currently still says "various
+                           areas of Sydney and NSW" while the site now covers 7
+                           cities nationally.
+
+LOW       Supple           Optional: add "extra virgin olive oil wholesale" in
+                           that word order once on the olive oil page.
+
+LOW       Developer        Template-level: 2 images per page have no alt
+                           attribute. Pre-existing, unrelated to this upload.
+
+================================================================================
+NOTHING ELSE OUTSTANDING
+================================================================================
+Content replacement, new page creation, product page updates, the areas hub
+links and both new nav dropdowns are all complete and accurate. The approved
+document was uploaded verbatim — 30 pages, 713 body paragraphs, zero deviations.
+================================================================================

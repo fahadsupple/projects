@@ -1,6 +1,6 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-28T02:05:57Z_
+_Rebuilt: 2026-07-28T04:24:47Z_
 
 ## Snapshot
 
@@ -36,4 +36,6 @@ _Rebuilt: 2026-07-28T02:05:57Z_
 - 2026-07-28T02:05:21.188Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 - 2026-07-28T02:05:21.189Z  `client_profile_updated`  client:globallocksmiths.com.au  (success)
 - 2026-07-28T02:05:46.043Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-28T02:05:57.452Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-28T04:20:22.553Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 

@@ -7,7 +7,7 @@
   "brand": {
     "name": "Global Locksmiths Pty Ltd",
     "display_name": "Global Locksmiths",
-    "audience": "Our ideal customers span a broad range of situations and needs. We serve residential homeowners who need lock installations, repairs, rekeying after moving into a new home, or emergency lockout assistance. We also work with commercial property owners and businesses — including office and corporate buildings, retail shops, supermarkets and shopping centres, medical centres and aged care facilities, schools and TAFE centres, and government buildings. Additionally, we work with architects, builders and trades professionals. Our customers are typically Melbourne and Geelong residents and businesses who value security, reliability, and quality workmanship, and who want a licensed, insured, and accredited locksmith they can trust.",
+    "audience": "Our ideal customers span a broad range of situations and needs. We serve residential homeowners who need lock installations, repairs, rekeying after moving into a new home, or lockout assistance. We also work with commercial property owners and businesses — including office and corporate buildings, retail shops, supermarkets and shopping centres, medical centres and aged care facilities, schools and TAFE centres, and government buildings. Additionally, we work with architects, builders and trades professionals. Our customers are typically Melbourne and Geelong residents and businesses who value security, reliability, and quality workmanship, and who want a licensed, insured, and accredited locksmith they can trust.",
     "usps": [
       "Previously trading as Newmans Locksmiths",
       "Proud members of both the Australian New Zealand Locksmiths Association (ANZLA) and the Master Locksmiths Association of Australasia (MLAA)",
@@ -16,7 +16,6 @@
       "Standard 12-month warranty on all work completed",
       "100% satisfaction guarantee",
       "Free, no-obligation quotes",
-      "Mobile locksmiths available 24/7, typically arriving within 30–60 minutes",
       "5-star rated service trusted by thousands of satisfied customers",
       "1,000's projects completed",
       "Three locations across Melbourne — Altona North, Camberwell, and Hoppers Crossing",
@@ -103,12 +102,11 @@
   ],
   "business_goals": "To help homes and businesses achieve complete security and peace of mind through quality locksmith solutions, outstanding service, and unparalleled workmanship.",
   "compliance_restrictions": "We comply with the standards set by the Master Locksmiths Association of Australasia and the Australian New Zealand Locksmiths Association. All our locksmiths are fully licensed and insured in Victoria, and our practices and workmanship are maintained in line with ever-changing industry standards within the locksmith trade.",
-  "team_size": "Only have 1 employee",
+  "team_size": "2 — founder Shane Tipping plus 1 employee (analyst-confirmed 2026-07-28)",
   "client_count": "over 1,000 projects completed",
   "review_average": 5,
   "referral_rate_pct": 20,
   "repeat_customer_rate_pct": 75,
-  "years_of_combined_experience": "over 25 years",
   "customer_process": [
     "The customer contacts us via phone on 1300 333 565 or through our online enquiry form to discuss their service needs — whether it's a lockout, key cutting, rekeying, or a full installation.",
     "We provide a clear, no-obligation quote based on the requested service, and the customer confirms and books the job.",
@@ -164,19 +162,28 @@
       "field": "team_size",
       "form1_value": "Our team of expert locksmiths are fully licensed, insured, and accredited (Q7); our technical and management staff are trained and qualified Master Locksmiths (Q7, Q16)",
       "form2_value": "Only have 1 employee (Q1)",
-      "note": "Form2 (WdPyZZY3, 02/07/2026 14:54) states one employee; both forms elsewhere describe 'our team' / 'our entire expert team' (form1 Q7/Q16, form2 Q12/Q21). BLOCKING for the writer until reconciled: plural-team language, 'our locksmiths', and 'technical and management staff' must not be used if the business is a sole operator. Analyst to confirm actual headcount with the client."
+      "note": "Form2 (WdPyZZY3, 02/07/2026 14:54) states one employee; both forms elsewhere describe 'our team' / 'our entire expert team' (form1 Q7/Q16, form2 Q12/Q21). BLOCKING for the writer until reconciled: plural-team language, 'our locksmiths', and 'technical and management staff' must not be used if the business is a sole operator. Analyst to confirm actual headcount with the client.",
+      "resolution": "RESOLVED 2026-07-28 by analyst: the client read 'employees' as staff besides the owner, so the business is founder Shane Tipping plus 1 employee = 2 people. Team language is APPROVED. team_size updated accordingly.",
+      "resolved_by": "analyst",
+      "resolved_at": "2026-07-28"
     },
     {
       "field": "years_in_business",
       "form1_value": "Year established 2002 (Q3); over 25 years of experience (Q7)",
       "form2_value": "over 25 years of combined industry experience, trading for around 25+ years (Q2); Our team has over 20 years of experience (Q13); trading for around 20 years (Q21)",
-      "note": "Three different tenures across the two forms: 2002 (= 24 years as at 2026), '25+ years', and 'around 20 years'. year_established=2002 is the only hard date and is retained. Writer must derive tenure from that single figure — do not repeat '25 years' and '20 years' on different pages."
+      "note": "Three different tenures across the two forms: 2002 (= 24 years as at 2026), '25+ years', and 'around 20 years'. year_established=2002 is the only hard date and is retained. Writer must derive tenure from that single figure — do not repeat '25 years' and '20 years' on different pages.",
+      "resolution": "RESOLVED 2026-07-28 by analyst: use the establishment date 2002 only. Do NOT write any derived year-count ('24 years', 'over 25 years', 'around 20 years') — a hardcoded duration goes stale. Write 'since 2002' / 'established 2002'. years_of_combined_experience ('over 25 years') removed from the profile so the writer cannot emit it.",
+      "resolved_by": "analyst",
+      "resolved_at": "2026-07-28"
     },
     {
       "field": "operating_hours",
       "form1_value": "Monday to Friday 9am to 5pm (Q5)",
       "form2_value": "Mobile locksmiths available 24/7, typically arriving within 30–60 minutes; standard business hours Monday to Friday 9:00 AM – 5:00 PM, Saturday and Sunday closed for office operations (Q9, Q19)",
-      "note": "Not contradictory but must always be paired: the Mon-Fri 9-5 figure is OFFICE hours only, while the mobile emergency service runs 24/7. Stating the office hours alone makes the business look unreachable after 5pm — the exact defect flagged in the 21 May 2026 content-additions document."
+      "note": "What the forms claimed, kept for provenance: form 1 gave office hours only, form 2 additionally claimed 24/7 mobile availability with a 30-60 minute response. Superseded by the analyst resolution below - the 24/7 and emergency claims were incorrect and are not to be used.",
+      "resolution": "RESOLVED 2026-07-28 by analyst: Monday to Friday 9am to 5pm is the WHOLE offer. The client does NOT provide 24/7 or emergency service — form 2 Q9/Q19/Q21 overstated it. The 24/7 USP was removed and 'emergency lockout assistance' was trimmed to 'lockout assistance' in brand.audience (that field arms the honesty gate's capability tokens). No 24/7, after-hours, emergency, or 30-60 minute response-time claims anywhere.",
+      "resolved_by": "analyst",
+      "resolved_at": "2026-07-28"
     }
   ],
   "business_type_tokens": [
