@@ -1,0 +1,234 @@
+================================================================================
+CLIFTONHILLCHIRO.COM.AU — APPROVED DOC vs LIVE SITE REVIEW
+================================================================================
+Date reviewed : 29 July 2026
+Reviewed by   : Fahad (Supple)
+Approved doc  : clients/cliftonhillchiro.com.au/cliftonhillchiro.com.au (Approved).docx
+                23 pages — 1 homepage, 19 location pages, 3 service pages
+Live site     : https://www.cliftonhillchiro.com.au/
+Trello card   : https://trello.com/c/tBryuXPN/6009-cliftonhillchirocomau
+                >> NOT ACCESSIBLE. The card returns 401 "unauthorized card
+                permission requested" on both the public card JSON and the
+                Trello API, and no Trello credentials are configured on this
+                machine. Its requirements are therefore NOT covered by this
+                review. To include them, either make the card public, add a
+                Trello API key/token, or paste the card contents in.
+Method        : all 23 URLs fetched live. Meta title, meta description, H1,
+                every H2/H3 and every body paragraph/bullet compared against
+                the approved document, both directions (doc-missing-on-live and
+                live-content-not-in-doc).
+
+================================================================================
+HEADLINE
+================================================================================
+All 23 pages are live and return 200. Meta titles and meta descriptions match
+the approved doc on 23/23 — zero mismatches. 21 of 23 H1s match.
+
+Of the 19 LOCATION pages, 16 are a clean match on every element. Three have
+differences, and only one of those is content genuinely missing.
+
+Note: the client memory records a April 2026 check that found
+/back-pain-treatment-fitzroy/ missing three "Why Choose" bullets. That page is
+now a 100% match — those bullets are live. Previously reported issue resolved.
+
+================================================================================
+PART 1 — LOCATION PAGES (19)   ** the focus of this review **
+================================================================================
+
+CLEAN — 16 of 19 (meta, H1, all headings, all body copy present)
+  /chiropractor-fitzroy/            /back-pain-treatment-fitzroy/
+  /chiropractor-carlton/            /back-pain-treatment-carlton/
+  /chiropractor-fairfield/          /back-pain-treatment-fairfield/
+  /chiropractor-northcote/          /back-pain-treatment-northcote/
+  /chiropractor-thornbury/          /back-pain-treatment-thornbury/
+  /chiropractor-preston/            /back-pain-treatment-preston/
+  /chiropractor-abbotsford/         /back-pain-treatment-abbotsford/
+  /chiropractor-brunswick/          /areas-we-serve/
+
+DIFFERENCES — 3 of 19
+
+L1. /chiropractor-collingwood/  —  H1 TRUNCATED
+    DOC : Chiropractor Collingwood - Expert Care for Your Active Lifestyle
+    LIVE: Chiropractor Collingwood
+    The descriptive half of the approved H1 was dropped. Every sibling page
+    kept its full H1 (e.g. Fitzroy North and Fairfield both retain theirs), so
+    this is a one-page omission rather than a template rule.
+    ACTION: restore the full approved H1.
+
+L2. /back-pain-treatment-collingwood/  —  ONE FAQ MISSING ENTIRELY
+    The following approved Q&A does not appear anywhere on the live page.
+    Confirmed by direct text search, not just structural comparison:
+      Q: "Can you help with back pain from working at home?"
+      A: "Absolutely. We don't just treat the immediate stiffness; we provide
+          practical ergonomic advice and specific stretches tailored to your
+          home setup. Our goal is to help you stay productive and pain-free,
+          even if your 'office' wasn't originally designed for an eight-hour
+          workday."
+    The phrase "working from home" appears nowhere on the page.
+    This is the only content on any location page that is genuinely absent.
+    ACTION: add the missing FAQ.
+
+L3. /back-pain-treatment-brunswick/  —  RE-PARAGRAPHED, NOTHING LOST
+    All approved copy is present, including the "manual adjustments, Gonstead
+    Technique, and Sacro Occipital Technique (SOT)" list. Two approved
+    paragraphs were split and internal-link sentences inserted mid-paragraph:
+      + "You can explore the full range of our chiropractic services for
+         Brunswick patients, covering everything from neck pain and headaches
+         to sports injuries and family health."
+      + "Abbotsford residents dealing with similar inner-city back pain
+         patterns will find the same evidence-based care through our back pain
+         treatment for Abbotsford program."
+    NO ACTION — this is the internal-linking work, applied after sign-off.
+
+IMPROVEMENTS ON LIVE (live differs from doc, and live is better)
+  /chiropractor-collingwood/ — doc says the practice has served the community
+    for "29 years"; live says "over 30 years", which matches the 30-year claim
+    used across the rest of the site. Keep the live version.
+  /chiropractor-brunswick/ — doc gives the phone as "9481 1933"; live gives
+    "03 9481 1933" with the area code, and "Robyn directly on 0421 068 543".
+    Keep the live version.
+  /chiropractor-collingwood/ — the doc wrote its FAQs with literal "Q:" and
+    "A:" prefixes; live renders them without. Correct call, the prefixes were
+    formatting notation, not copy.
+
+================================================================================
+PART 2 — NON-LOCATION PAGES (4)
+================================================================================
+
+S1. /services/  —  SUBURB LIST SHORTENED
+    DOC : "For 30 years, families across Clifton Hill, Fitzroy North, Carlton,
+           Collingwood, Fairfield, Northcote, Thornbury, Preston, Abbotsford,
+           and Brunswick trust us."
+    LIVE: "For 30 years, families across Fitzroy North, Carlton, Collingwood,
+           Fairfield, Northcote, Thornbury, Abbotsford, and Brunswick trust us."
+    >> CLIFTON HILL and PRESTON were dropped. Clifton Hill is the practice's
+       own suburb and its primary keyword; Preston has its own location page.
+    ACTION: restore both suburbs.
+
+S2. /services/  —  CLOSING CTA PARAGRAPH MISSING ENTIRELY
+    Not on the live page at all (confirmed by direct text search):
+      "Take the first step towards better health and find why families across
+       Melbourne's inner north trust Clifton Hill Chiropractic for nearly 30
+       years. Your journey to wellness starts here."
+    ACTION: add it, or confirm it was intentionally cut.
+
+S3. /services/  —  H1
+    The approved doc specifies no H1 for this page. Live uses "Services".
+    This is a gap in the document, not a site error, but "Services" is a weak
+    H1 for a page targeting service keywords.
+    ACTION: brief an H1 for this page.
+
+S4. /services/back-pain-treatment/  —  H2 SHORTENED, KEYWORD LOST
+    DOC : H2 "Frequently Asked Questions About Back Pain Treatment"
+    LIVE: H2 "Frequently Asked Questions"
+    ACTION: restore the full approved heading.
+
+S5. /services/back-pain-treatment/  —  SUBURB SWAPPED
+    DOC : "...easily accessible from Fitzroy North, Carlton, Northcote,
+           THORNBURY, Preston, and Brunswick."
+    LIVE: "...easily accessible from Fitzroy North, Carlton, Northcote,
+           FAIRFIELD, Preston, and Brunswick."
+    Thornbury was replaced with Fairfield. Both suburbs have their own pages,
+    so neither is wrong factually — but it is an unapproved change.
+    ACTION: confirm which is intended.
+
+S6. /areas-we-serve/  —  ALL APPROVED COPY PRESENT
+    One internal-link sentence added mid-paragraph:
+      + "We see patients from Carlton, Collingwood, and across the inner north
+         every day, bringing the same evidence-based, education-led care to
+         every patient regardless of where they live."
+    NO ACTION.
+
+================================================================================
+PART 3 — LIVE CONTENT NOT IN THE APPROVED DOC
+================================================================================
+Every page carries content beyond the approved doc. Three categories, all
+expected — flagging so it is not mistaken for drift:
+
+  a) INTERNAL-LINK SENTENCES — one to three per location page, each pointing to
+     a sibling suburb or the matching back-pain page. This matches the
+     internal-linking deliverable already in the client folder
+     (internal-linking/cliftonhillchiro.com.au.html). Examples:
+       /chiropractor-fitzroy/   -> Carlton, Collingwood, Clifton Hill
+       /chiropractor-carlton/   -> Fitzroy North, Collingwood, back pain Carlton
+       /chiropractor-northcote/ -> Thornbury, back pain Northcote
+       /chiropractor-fairfield/ -> Northcote, back pain Fairfield
+
+  b) TEMPLATE BLOCKS repeated sitewide, e.g.
+       "Call us today on 03 9481 1933 or 0421 068 543"
+       "All sessions are customised to accommodate individual patient needs."
+       "We are experienced in treating Athletes and Sports People."
+       "We accept claims from WORKSAFE, TAC & VETERAN AFFAIRS"
+
+  c) HOMEPAGE TESTIMONIALS — five patient reviews, none of which are in the
+     approved doc. Existing site content, untouched by this round.
+
+================================================================================
+PART 4 — CROSS-PAGE CONSISTENCY
+================================================================================
+
+C1. TENURE CLAIM INCONSISTENT ON /services/
+    The site says "30 years" (21 mentions) or "three decades" (14) almost
+    everywhere. /services/ says "over 29 years" TWICE:
+      "With over 29 years experience serving Clifton Hill, North Fitzroy and
+       the inner North..."
+      "With over 29 years of experience helping the inner north community..."
+    ACTION: change both to 30 years to match the rest of the site.
+
+CHECKED AND FINE — not inconsistencies
+    "over 35 years of combined experience" (two practitioners, /services/
+      chiropractor-care/) — correct, it is a combined figure.
+    "over 20 years of clinical experience" — refers to the naturopath, Cheryl
+      Penna, not the practice.
+    "10-25 years" and "15-20+ years" — patient retention figures.
+    "over 15 years" / "more than 20 years" on the homepage — inside patient
+      testimonials.
+
+OTHER CHECKS — all clean
+    HTTP status      23/23 return 200. No redirects, no 404s.
+    Meta titles      23/23 match the approved doc exactly.
+    Meta descriptions 23/23 match the approved doc exactly.
+    H1 count         exactly one H1 on all 23 pages.
+    Headings         only 1 of ~160 approved H2/H3s differs (S4 above).
+
+================================================================================
+SUMMARY — ACTION LIST
+================================================================================
+
+PRIORITY  PAGE                                ACTION
+--------  ----------------------------------  ----------------------------------
+HIGH      /back-pain-treatment-collingwood/   Add the missing FAQ: "Can you help
+                                              with back pain from working at
+                                              home?" + approved answer. (L2)
+
+HIGH      /services/                          Restore "Clifton Hill" and
+                                              "Preston" to the suburb list —
+                                              Clifton Hill is the practice's own
+                                              suburb and primary keyword. (S1)
+
+HIGH      /chiropractor-collingwood/          Restore the full approved H1:
+                                              "Chiropractor Collingwood - Expert
+                                              Care for Your Active Lifestyle"(L1)
+
+MEDIUM    /services/                          Add the missing closing CTA
+                                              paragraph, or confirm it was cut
+                                              deliberately. (S2)
+
+MEDIUM    /services/back-pain-treatment/      Restore H2 "Frequently Asked
+                                              Questions About Back Pain
+                                              Treatment". (S4)
+
+MEDIUM    /services/                          Change "over 29 years" to 30 years
+                                              in both places. (C1)
+
+LOW       /services/back-pain-treatment/      Confirm whether Thornbury or
+                                              Fairfield belongs in the "easily
+                                              accessible from" list. (S5)
+
+LOW       /services/                          Brief an H1 — the approved doc
+                                              never specified one. (S3)
+
+OPEN      Trello card tBryuXPN                Not reviewable — card is private
+                                              and no Trello credentials exist.
+                                              Its requirements are unchecked.
+================================================================================
