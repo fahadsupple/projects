@@ -140,3 +140,20 @@ No competitor has a dedicated Melbourne landing page — first-mover opportunity
 - [x] Melbourne SERP ranking check completed (Apr 2026)
 - [ ] HTML report — missing §0 yellow block, §1 entity structure, §2 supporting entities, §3 beyond the plan, Eligible Candidates section
 - [ ] Suburb-level (Phase 2) location keywords — not yet started
+
+## Homepage Review vs Approved Content + Daily Tasks — 29 July 2026
+Deliverable: `review/review-homepage-2026-07-29.txt`
+
+**Homepage SEO content deployed correctly.** Meta title, meta description and H1 match the approved doc (Page 11) exactly; all 94 approved blocks live verbatim including the full 4-row commission rate matrix. Nothing missing.
+
+**All verifiable Daily Tasks requirements done correctly:** 3/3 301 redirects (repoessession→repossession-agents-melbourne, investigations→skip-tracing, mip→mortgagee-in-possession, all true 301s); 4 content-replacement pages + 6 new pages all 200; full nav restructure (ADDITIONAL SERVICES→Services, Commercial Debt Collection first with a working second-level dropdown for Melbourne/Sydney/Brisbane, plus the 3 new service items); footer Links carries the 3 city pages as its first 3 items.
+
+**Issues found (4):**
+- HIGH — **No FAQPage schema anywhere on this project.** 94 approved FAQs across 11 pages, all marked up as H3 with answers, zero structured data. Template-level fix.
+- HIGH — Homepage contradicts itself on company age: body says "29 years" (from approved doc), legacy stats bar says "Over 30 Years In The Industry", footer CTA says "Celebrating 29 Years".
+- MEDIUM — Three legacy promo H2 sections still live alongside the new content ("Collect Your Overdue Accounts NOW!!!", "Why Should You Use a Debt Collector?", "HOW TO GET PAID FASTER!") + "FREE DOWNLOAD" H3. Whether they should have been removed is unknowable without the Trello screenshot.
+- LOW — empty `<h2 class=""></h2>` in the markup.
+
+**Approved doc has a copy-paste error the dev correctly cleaned up:** doc reads "The Australian Institute of Credit Management (The Australian Institute of Credit Management (AICM))"; live reads "(AICM)". Fix the source doc so it isn't re-introduced.
+
+**NOT VERIFIABLE — Trello screenshot.** The homepage task was "update as per this screenshot" (card 6a4c8d4b594cdc4adeadea96, attachment 6a4c8dd53291d108e9949003). Returns 401; no Trello credentials configured. The layout/visual instruction is unchecked. Same blocker hit on cliftonhillchiro card tBryuXPN — **Trello access is a recurring gap worth resolving once.**

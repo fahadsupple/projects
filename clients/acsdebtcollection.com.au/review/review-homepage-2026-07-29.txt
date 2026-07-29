@@ -1,0 +1,208 @@
+================================================================================
+ACSDEBTCOLLECTION.COM.AU — HOMEPAGE REVIEW
+================================================================================
+Date reviewed : 29 July 2026
+Reviewed by   : Fahad (Supple)
+Scope         : https://acsdebtcollection.com.au/ — approved SEO content vs live,
+                plus the Daily Tasks requirements that touch the homepage.
+Sources       : clients/acsdebtcollection.com.au/
+                - acsdebtcollection.com.au (Approved) (1).docx  (Page 11 = home)
+                - Acsdebtcollection - Daily Tasks.docx
+
+================================================================================
+VERDICT
+================================================================================
+The homepage SEO content is deployed CORRECTLY. Meta title, meta description
+and H1 match the approved document exactly, and all 94 approved content blocks
+(headings, paragraphs, bullets and the full commission rate matrix) are live and
+verbatim. Nothing from the approved copy is missing.
+
+Every Daily Tasks requirement that can be verified without the Trello screenshot
+has been done correctly — all three 301s, all ten pages, the full navigation
+restructure and the footer links.
+
+Four issues found, none of them "content wasn't uploaded":
+  1. The page contradicts itself on company age — 29 years vs 30 years.
+  2. No FAQPage schema on 8 marked-up FAQs (and this is sitewide, 94 FAQs).
+  3. An empty <h2></h2> in the markup.
+  4. Three legacy promo sections left in place alongside the new content.
+
+================================================================================
+PART 1 — APPROVED CONTENT vs LIVE HOMEPAGE
+================================================================================
+
+  ELEMENT              RESULT
+  -------------------  ----------------------------------------------------
+  HTTP status          200
+  Meta title           MATCH — "Debt Collection Agency Melbourne, Sydney &
+                       Brisbane | ACS"
+  Meta description     MATCH — "ACS Debt Collection is a trusted debt
+                       collection agency in Melbourne, Sydney & Brisbane. No
+                       Collection, No Fee policy. Call 02 9790 6877 today."
+  H1                   MATCH, exactly one — "Debt Collection Agency in
+                       Melbourne, Sydney & Brisbane: Helping Businesses Get
+                       Paid Faster"
+  Approved H2s         6/6 live
+  Approved H3s         12/12 live (incl. all 8 FAQ questions)
+  Body copy            94/94 approved blocks present, verbatim
+  Commission matrix    All 4 table rows live with correct rates
+  Canonical            Self-referencing, correct
+  Robots               index, follow — correct
+  Word count           2,102 (main content)
+
+APPROVED H2/H3 STRUCTURE — ALL PRESENT AND IN ORDER
+  H1  Debt Collection Agency in Melbourne, Sydney & Brisbane...
+  H2  Fast Debt Recovery Across Melbourne, Sydney and Brisbane
+    H3  End-to-End Debt Collection Management
+  H2  A Debt Collection Agency Melbourne, Sydney and Brisbane Businesses Trust
+    H3  Firm on Debts, Fair with People
+    H3  Trusted Across Multiple Industries
+  H2  No Collection, No Fee: Commission-Only Debt Recovery
+    H3  Option 1: Standard No Collection, No Fee Model
+    H3  Option 2: High-Volume Annual Subscription Tier
+    H3  Option 3: Private, Rental & International Specialist Tier
+    H3  Commission Rate Matrix
+  H2  Why Choose ACS Debt Collection
+  H2  FAQs About Our Debt Collection Services   (8 x H3 questions)
+  H2  Start Recovering Your Outstanding Accounts Today
+
+ONE PLACE WHERE LIVE IMPROVES ON THE DOC — keep the live version
+  The approved doc contains a copy-paste error in the memberships paragraph:
+    DOC : "...The Australian Institute of Credit Management (The Australian
+           Institute of Credit Management (AICM))..."
+    LIVE: "...The Australian Institute of Credit Management (AICM)..."
+  The developer cleaned up the duplicated phrase. Correct call. Worth fixing in
+  the source document so it does not get re-introduced.
+
+================================================================================
+PART 2 — DAILY TASKS REQUIREMENTS
+================================================================================
+
+TASK — Homepage update per the Trello screenshot
+  >> CANNOT BE VERIFIED. The screenshot at
+     trello.com/1/cards/6a4c8d4b594cdc4adeadea96/attachments/6a4c8dd53291d108e9949003/download/image.png
+     returns 401 "unauthorized permission requested", and no Trello credentials
+     are configured on this machine. Whatever layout/visual change that
+     screenshot specified is NOT covered by this review.
+     To close this out: make the attachment public, add a Trello API key/token,
+     or drop the image into the client folder.
+     What CAN be confirmed is that the approved homepage COPY is fully live
+     (Part 1). Only the visual/layout instruction is unverified.
+
+TASK — URL changes + 301 redirects (3)          ALL DONE, ALL CORRECT
+  /services/repoessession/   301 -> /repossession-agents-melbourne/   CORRECT
+  /services/investigations/  301 -> /skip-tracing/                    CORRECT
+  /mip/                      301 -> /mortgagee-in-possession/         CORRECT
+  All three are true 301s (not 302s) pointing at the right destinations.
+
+TASK — Replace content on 4 existing pages       ALL LIVE (200)
+  /repossession-agents-melbourne/   /skip-tracing/
+  /mortgagee-in-possession/         /commercial-debt-collection-services/
+
+TASK — Create 6 new pages                        ALL LIVE (200)
+  /debt-collection-melbourne/        /collection-agency-small-business/
+  /debt-collection-sydney/           /outsource-debt-collection/
+  /debt-collection-brisbane/         /commission-only-debt-collection/
+
+TASK — Navigation changes                        ALL DONE
+  "ADDITIONAL SERVICES" renamed to "Services"                          DONE
+     (label changed; the href still points at /additional-services/, which is
+      what the task asked for — it said rename, not re-URL)
+  "Commercial Debt Collection" is the FIRST item under Services        DONE
+  Second-level dropdown under Commercial Debt Collection with
+     Debt Collection Melbourne / Sydney / Brisbane                     DONE
+     (confirmed — the parent carries menu-item-has-children and the three
+      city pages are its children)
+  "Collection Agency for Small Business" under Services                DONE
+  "Outsource Debt Collection" under Services                           DONE
+  "Commission Only Debt Collection" under Services                     DONE
+
+TASK — Footer links                              DONE
+  Debt Collection Melbourne, Debt Collection Sydney and Debt Collection
+  Brisbane are the first three items under "Links", each pointing at its own
+  page, exactly as specified.
+
+================================================================================
+PART 3 — ISSUES FOUND ON THE HOMEPAGE
+================================================================================
+
+H1. COMPANY AGE CONTRADICTS ITSELF ON THE SAME PAGE          ** fix first **
+    Three different statements are live simultaneously:
+      Body copy   : "a specialist debt collection agency with 29 YEARS of
+                     industry experience"          <- from the approved doc
+      Stats bar   : "Over 30 YEARS In The Industry" <- legacy element
+      Footer/CTA  : "ACS Debt Collection Celebrating 29 YEARS"
+    A visitor scrolling the page sees 29, then 30, then 29.
+    ACTION: pick one figure and apply it in all three places. Note the approved
+    copy says 29, so if 30 is correct the source document needs updating too.
+
+H2. NO FAQPage SCHEMA — homepage and sitewide         ** biggest SEO gap **
+    The homepage has 8 FAQs correctly marked up as H3 with answers below, but
+    emits no FAQPage / Question / Answer structured data. Schema present is
+    only: WebPage, WebSite, Organization, BreadcrumbList, ImageObject,
+    SearchAction, ReadAction, EntryPoint, ListItem, QuantitativeValue.
+    This is not homepage-specific. Checked all 11 pages in this project:
+
+      PAGE                                    FAQs on page   FAQPage schema
+      /                                             8              NO
+      /debt-collection-melbourne/                  10              NO
+      /debt-collection-sydney/                     10              NO
+      /debt-collection-brisbane/                    9              NO
+      /commercial-debt-collection-services/         9              NO
+      /collection-agency-small-business/            8              NO
+      /outsource-debt-collection/                   8              NO
+      /commission-only-debt-collection/             7              NO
+      /skip-tracing/                                8              NO
+      /repossession-agents-melbourne/               8              NO
+      /mortgagee-in-possession/                     9              NO
+                                                  ---
+                                                   94 FAQs, zero schema
+
+    94 FAQs were written, approved and deployed, and none of them are eligible
+    for FAQ rich results or easily extractable for AI answer engines.
+    ACTION: add FAQPage JSON-LD. Template-level fix, applies to all 11 pages.
+
+H3. EMPTY H2 IN THE MARKUP
+    The page contains a literal `<h2 class=""></h2>` with no content. Harmless
+    to users, but it is an empty heading in the document outline.
+    ACTION: remove.
+
+H4. LEGACY PROMO SECTIONS LEFT ALONGSIDE THE NEW CONTENT
+    Three H2 sections that are not in the approved document remain live:
+      "Collect Your Overdue Accounts NOW!!!"
+      "Why Should You Use a Debt Collector?"
+      "HOW TO GET PAID FASTER!"
+    plus an H3 "FREE DOWNLOAD" and the "Over 30 Years In The Industry" stats
+    bar (see H1 above).
+    The Daily Tasks doc said to back up and replace content on four OTHER pages,
+    but for the homepage it only said "update as per this screenshot" — so
+    whether these blocks were meant to stay is exactly what that inaccessible
+    screenshot would tell us.
+    ACTION: confirm against the screenshot. If they were meant to be removed,
+    they are still live; if they were meant to stay, only the 29/30 conflict in
+    the stats bar needs fixing.
+
+================================================================================
+SUMMARY — ACTION LIST
+================================================================================
+
+PRIORITY  ACTION
+--------  ----------------------------------------------------------------
+HIGH      Add FAQPage JSON-LD across all 11 project pages — 94 approved FAQs
+          currently have no structured data. Template-level fix. (H2)
+
+HIGH      Resolve the 29 vs 30 years contradiction on the homepage. Appears
+          three times in three different values. Update the approved doc too
+          if 30 is the correct figure. (H1)
+
+MEDIUM    Get the Trello screenshot (card 6a4c8d4b594cdc4adeadea96) so the
+          homepage layout instruction can actually be checked, and so we can
+          confirm whether the three legacy promo sections were meant to be
+          removed. (H4 + the unverified homepage task)
+
+LOW       Remove the empty <h2 class=""></h2>. (H3)
+
+LOW       Fix the duplicated "The Australian Institute of Credit Management"
+          phrase in the approved source document so it is not re-introduced on
+          the next deployment. The live site already has it right.
+================================================================================

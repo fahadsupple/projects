@@ -1,82 +1,159 @@
 ---
-name: acsdebtcollection.com.au — Project Memory
-description: ACS Debt Collection — B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research pipeline initialized
+name: ACS Debt Collection — Client Memory
+description: Client context for acsdebtcollection.com.au — B2B debt recovery agency, Sydney/Melbourne/Brisbane, keyword research in progress
 type: project
 ---
 
 # ACS Debt Collection
 
-**Domain:** acsdebtcollection.com.au  
-**Owner:** Mark Mathews  
-**Phone:** 02 9790 6877  
-**Package:** SEO + Custom Website + GBP (Melbourne)
+**Domain:** acsdebtcollection.com.au
+**Business Name:** ACS Debt Collection (ABN: 84 688 310 625)
+**Owner:** Mark Mathews (+ ABC Debt Services Pty Ltd)
+**Phone:** 02 9790 6877
+**Email:** info@acsdebtcollection.com.au
+**Operating hours:** 0800–2100 Mon–Sat
+**Insurance:** Public Liability $20M, Professional Indemnity $10M
+
+## Addresses
+- Springvale VIC: 4/6 Bird St, Springvale VIC 3171
+- Bankstown NSW: Suite 8/39 Stanley St, Bankstown NSW 2200
 
 ## Business Type
-National B2B debt recovery agency. Two offices: Sydney (Bankstown NSW) and Melbourne (Springvale VIC). Commission-only pricing (No Collection, No Fee). 30+ years experience. IMA, ACIM, AMPIC member.
+National B2B debt recovery agency. Primarily commercial sector — SMEs, education, healthcare, banking, government. Two physical offices: Sydney (Bankstown NSW) and Melbourne (Springvale VIC). Commission-only pricing.
 
-## Geo Priority
-1. Sydney / NSW — maintain existing
-2. Melbourne / VIC — priority new expansion (office exists, no current listings)
-3. Brisbane / QLD — secondary new expansion
+**Origin:** Established 1997 as ABC Debt Services (repo firm). Mark purchased and rebranded as ACS Debt Collection in 2025 to expand into commercial collections with same ethical, relationship-preserving approach.
 
-## Service Priority for SEO
-1. Debt collection (core)
-2. Debt collection agency
-3. Business / commercial debt recovery
-4. Overdue invoice collection
-5. Repossession / asset recovery (VIC priority)
-6. Process serving (lowest priority)
+## SEO Package
+- Custom website design + SEO + Google Map Optimisation
+- Keyword research: Sydney (maintain), Melbourne (priority new), Brisbane (secondary new)
+- Mark is creating a GBP for Melbourne
 
-## Key USPs
-- No Collection, No Fee
-- 72%+ collection success rate
+## Services Offered (from onboarding form Q12)
+- Debt Collection
+- Invoice Collection
+- Skip Tracing (Debtor Location Service)
+- Repossession and Asset Recovery Services
+- Mortgagee Repossession (Mortgagee in Possession)
+- Mortgage in Possession Services
+- Occupancy Checks
+- Field Agent Assessments and Recovery Intelligence
+- Field Calls
+- Document Serving (as part of Mortgagee services)
+- Process Serving (legal documents)
+- Legal Action for Debt Recovery
+- Receivables Management
+
+## Priority Services for SEO (from BDM brief)
+1. debt collectors
+2. debt collection agency
+3. business debt recovery
+4. debt purchase ⚠️ (see note below)
+5. Commercial/Consumer debt collection services
+6. overdue invoice collection
+7. education/healthcare debt
+8. repossession and process serving agency (least priority)
+
+⚠️ **Debt purchase note:** BDM lists "debt purchase" as category 4, but ACS's model is commission-only (no debt purchasing). Needs clarification — either ACS does offer debt purchasing as an alternative model, or this was listed as a market category rather than a service.
+
+## Key Differentiators / USPs
+- No Collection, No Fee (commission-only)
+- 72%+ collection success rate (commercial + education sector)
 - 48-hour response guarantee
+- 30+ years experience (since 1997)
+- National media recognition (A Current Affair, Today Show, Today Tonight, SMH, accounting textbooks)
+- IMA, ACIM, AMPIC member
 - National field agent network
-- Media: A Current Affair, Today Show, Sydney Morning Herald
+- 2,245 clients (130 active)
+- 100% Service Guarantee
+- Balanced approach — preserves creditor-debtor relationships
+- Free consultation
+
+## Mission
+To help businesses who supply credit get their accounts paid in full through our award-winning, ethical, and results-driven debt collection process.
 
 ## Ideal Customer
-SMEs, education sector, healthcare, utilities, banking/finance, government — businesses that supply credit with unresponsive debtors. Debt values $1k–$100k+.
+Australian businesses supplying credit — time-poor business owners and finance managers in commercial sector, education (schools), healthcare, utilities, banking/finance, government. Debtors are unresponsive, hard to locate, or refusing to pay. Debt values $1,000–$100,000+. Commission-only model removes financial risk.
 
-## Notes
-- Client listed customer *types* not competitor agencies in Q16 — real competitors need SERP research during pipeline
-- GBP for Melbourne being created by client — factor into location page strategy
-- BDM brief confirms debt purchase as a separate category worth targeting
+## Location Strategy
+- Sydney / NSW — maintain existing rankings (Bankstown office)
+- Melbourne / VIC — priority expansion (Springvale office, GBP being created)
+- Brisbane / QLD — secondary expansion (no office; national field agent coverage positioning)
 
-## Keyword Plan — v5 (2026-04-16)
+## Confirmed Rankings (from GSC + SERP research)
+- debt collection sydney — pos 2
+- debt collection agency sydney — pos 3
+- commission only debt collection — pos 4 (no dedicated page)
+- debt collection agency nsw — pos 3.88 (GSC confirmed, 1,008 impressions/yr)
 
-**Deliverable:** `seo/clients/acsdebtcollection.com.au/keyword-research/keyword-plan.html`
+## Keyword Research Status (v6 — as of Apr 2026)
+- keyword-plan.html delivered (v6, 15 keywords finalized, 11 pages confirmed by client)
+- All 15 keywords confirmed — keyword research phase complete
 
-**15 keyword groups across 18 pages:**
+### Finalized keywords — 15 keywords / 11 pages
 
-| Group | Page | Primary Keyword | Vol/mo |
+| # | Page URL | Primary | Secondary |
 |---|---|---|---|
-| d0 cluster | /debt-collection-sydney/ | debt collection sydney | 1,340 |
-| d0 cluster | /debt-collection-melbourne/ | debt collection melbourne | 2,310 |
-| d0 cluster | /debt-collection-brisbane/ | debt collection brisbane | 920 |
-| d1 | /skip-tracing/ | skip tracing | 2,400 |
-| d4 | /small-business-debt-collection/ | small business debt collection | 530 |
-| d5 | / | debt collection services | 320 |
-| d7 | /areas-we-serve/ | debt collectors near me | 390 |
-| d8 | /commercial-debt-collection/ | commercial debt collection | 90 |
-| d9 | /no-collection-no-fee/ | commission only debt collection | 140 |
-| d11 | /debt-recovery-agency/ | debt recovery agency | 1,600 |
-| d12 cluster | /debt-recovery-sydney/ | debt recovery sydney | 210 |
-| d12 cluster | /debt-recovery-melbourne/ | debt recovery melbourne | 480 |
-| d12 cluster | /debt-recovery-brisbane/ | debt recovery brisbane | 260 |
-| d13 | /corporate-debt-collection/ | corporate debt collection | 140 |
-| d14 | /debt-recovery-company/ | debt recovery company | 140 |
-| d15 | /invoice-debt-collection/ | invoice debt collection | 10 ($41.43 CPC) |
-| d16 | /repossession-victoria/ | mortgagee in possession melbourne | 10 (strategic) |
-| d17 | /bad-debt-collection/ | bad debt collection | 20 |
+| 1 | /debt-collection-sydney/ | debt collection sydney | debt collection agency sydney |
+| 2 | /debt-collection-melbourne/ | debt collection melbourne | debt collection agency melbourne |
+| 3 | /debt-collection-brisbane/ | debt collection brisbane | debt collection agency brisbane |
+| 4 | /debt-recovery-sydney/ | debt recovery sydney | debt recovery agency sydney |
+| 5 | /debt-recovery-melbourne/ | debt recovery melbourne | debt recovery agency melbourne |
+| 6 | /debt-recovery-brisbane/ | debt recovery brisbane | debt recovery agency brisbane |
+| 7 | /commercial-debt-collection/ | commercial debt collection | commercial debt recovery |
+| 8 | /collection-agency-small-business/ | collection agency for small business | business debt collection |
+| 9 | /outsource-debt-collection/ | outsource debt collection | — |
+| 10 | /no-collection-no-fee/ | commission only debt collection | no win no fee debt collection |
+| 11 | /repossession-agents-melbourne/ | repossession agents melbourne | repossession agents victoria |
 
-**Total reach:** ~17,000/mo  
-**City modifier rule applied:** All city groups cover Sydney + Melbourne + Brisbane (3 cities or none).  
-**VIC repossession:** Added per client brief — "Repossession work for Victoria."
+### Key SERP notes (v6)
+- "small business debt collection" disqualified — government/debtor SERP. Replaced with "collection agency for small business" (same 480/mo, commercial SERP confirmed)
+- "mortgagee in possession" (all variants) disqualified — property-buyer SERP only. Replaced with "repossession agents melbourne" (70/mo, commercial SERP + local pack, ACS pos 5)
+- Debt recovery city page secondaries changed from "debt collection agency [city]" to "debt recovery agency [city]" — consistent recovery framing
+
+### Confirmed Rankings (Melbourne SERP, Apr 2026)
+- debt recovery agency sydney — pos 1 (homepage)
+- debt collection agency sydney — pos 3 (homepage)
+- repossession agents melbourne — pos 5 (no dedicated page)
+- commission only debt collection — pos 4 (no dedicated page)
+- All Melbourne/Brisbane/service keywords — not ranking
+
+## Competitors (SERP-identified)
+- prushka.com.au (DA 32, 420 ref domains)
+- collectionsgroup.com.au (DA 42, 890 ref domains) — strongest
+- armagroup.com.au (DA 29, 340 ref domains)
+- debtrecoveries.com.au (DA 27, 280 ref domains)
+- nationaldebtcollection.com.au (DA 18, 95 ref domains) — directly beatable
+
+No competitor has a dedicated Melbourne landing page — first-mover opportunity.
+
+## Raw Files
+- `onboarding-form.md` — full raw onboarding form (submitted 12 Apr 2026)
+- `gsc-export/` — GSC 12-month export (17 Apr 2026)
+- `keyword-research/keyword-plan.html` — v5 keyword plan
+- `keyword-research/seeds.json` — seed keywords
 
 ## Status
-- [x] Init complete — client brief + seeds.json created (2026-04-16)
-- [x] Keyword plan v5 complete — 15 groups, 18 pages, HTML deliverable (2026-04-16)
-- [ ] Client review + sign-off
+- [x] Client brief created (2026-04-16)
+- [x] Onboarding form saved (2026-04-17)
+- [x] Keyword plan v5 delivered (15 groups, 18 pages)
+- [x] All 15 keywords finalized by client — 11 pages confirmed (v6)
+- [x] Melbourne SERP ranking check completed (Apr 2026)
+- [ ] HTML report — missing §0 yellow block, §1 entity structure, §2 supporting entities, §3 beyond the plan, Eligible Candidates section
+- [ ] Suburb-level (Phase 2) location keywords — not yet started
 
-**Why:** National multi-city expansion for a specialist B2B agency. Three distinct geographic targets means separate page strategy per city per service root.  
-**How to apply:** When running the pipeline, generate keywords for all three cities. Melbourne gets priority suburb depth. Sydney gets maintenance coverage. Brisbane gets city-level only (no suburbs) unless volume justifies it.
+## Homepage Review vs Approved Content + Daily Tasks — 29 July 2026
+Deliverable: `review/review-homepage-2026-07-29.txt`
+
+**Homepage SEO content deployed correctly.** Meta title, meta description and H1 match the approved doc (Page 11) exactly; all 94 approved blocks live verbatim including the full 4-row commission rate matrix. Nothing missing.
+
+**All verifiable Daily Tasks requirements done correctly:** 3/3 301 redirects (repoessession→repossession-agents-melbourne, investigations→skip-tracing, mip→mortgagee-in-possession, all true 301s); 4 content-replacement pages + 6 new pages all 200; full nav restructure (ADDITIONAL SERVICES→Services, Commercial Debt Collection first with a working second-level dropdown for Melbourne/Sydney/Brisbane, plus the 3 new service items); footer Links carries the 3 city pages as its first 3 items.
+
+**Issues found (4):**
+- HIGH — **No FAQPage schema anywhere on this project.** 94 approved FAQs across 11 pages, all marked up as H3 with answers, zero structured data. Template-level fix.
+- HIGH — Homepage contradicts itself on company age: body says "29 years" (from approved doc), legacy stats bar says "Over 30 Years In The Industry", footer CTA says "Celebrating 29 Years".
+- MEDIUM — Three legacy promo H2 sections still live alongside the new content ("Collect Your Overdue Accounts NOW!!!", "Why Should You Use a Debt Collector?", "HOW TO GET PAID FASTER!") + "FREE DOWNLOAD" H3. Whether they should have been removed is unknowable without the Trello screenshot.
+- LOW — empty `<h2 class=""></h2>` in the markup.
+
+**Approved doc has a copy-paste error the dev correctly cleaned up:** doc reads "The Australian Institute of Credit Management (The Australian Institute of Credit Management (AICM))"; live reads "(AICM)". Fix the source doc so it isn't re-introduced.
+
+**NOT VERIFIABLE — Trello screenshot.** The homepage task was "update as per this screenshot" (card 6a4c8d4b594cdc4adeadea96, attachment 6a4c8dd53291d108e9949003). Returns 401; no Trello credentials configured. The layout/visual instruction is unchecked. Same blocker hit on cliftonhillchiro card tBryuXPN — **Trello access is a recurring gap worth resolving once.**
