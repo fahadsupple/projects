@@ -160,3 +160,19 @@ Deliverable: `review/review-homepage-2026-07-29.txt`
 **Process learning — unannotated = keep.** On an annotated-screenshot task, sections with no red box are meant to stay. Do not flag them as leftover legacy content; that reading was wrong on the first pass here and the screenshot settled it.
 
 **Trello access is a recurring gap** — card 6a4c8d4b594cdc4adeadea96 (and cliftonhillchiro tBryuXPN) both return 401 with no credentials configured. Worth setting up an API key/token once. Workaround that worked: ask the analyst for the file directly.
+
+## Anomaly Audit — All 11 SEO Pages, 29 July 2026
+Appended to `review/review-homepage-2026-07-29.txt` as an addendum.
+
+**Content deployment: 11/11 pages a 100% match** to the approved doc — meta title, meta description, H1, every H2/H3 and every body block, verbatim. Two false-positive categories worth remembering: (a) doc writes literal "1. / 2." numbering where the site renders `<ol>`; (b) on the three city pages the doc merged FAQ question + answer onto one H3 line, live correctly splits them.
+
+**Clean:** encoding, placeholders, intra-page duplication, duplicate meta, canonicals, robots, H1 count, city contamination, truncation, 30 links checked (0 broken), 7 images checked (0 broken).
+
+**Cross-page duplication is fine** — max 19% on approved copy only (home ↔ commercial), 16% Sydney↔Brisbane. A raw whole-page measure gave 20–34% but that is template inflation from the shared stats block/nav/FAQ furniture. **Always measure duplication on the written copy, not the rendered page.**
+
+**5 anomalies:**
+- A1 **Tenure inconsistent sitewide** — 4 phrasings live ("29 years", "nearly 30", "almost 30", "over 30"), and *every* page carries at least two that contradict. Sources: stats tile "Over 30 Years" (every page, the block the screenshot said keep), footer "Celebrating 29 Years" (every page), plus inconsistent body copy. **It's an 11-page fix + a source-doc fix, not a homepage fix.** Client confirming the figure. Note "150+ years" on the Sydney page is a legitimate *combined* team figure, not a contradiction.
+- A2 No FAQPage schema — 94 FAQs across 11 pages, zero JSON-LD. Biggest gap.
+- A3 Empty `<h2 class=""></h2>` on all 11 pages (2 on home) — template-level.
+- A4 **6 of 11 pages have zero in-content internal links.** Melbourne/Sydney/Brisbane only look linked because of the header dropdown + footer Links widget (template). commercial-debt-collection-services, collection-agency-small-business, outsource-debt-collection, commission-only-debt-collection, repossession-agents-melbourne, mortgagee-in-possession get nothing from sibling body copy.
+- A5/A6 Phone formatted two ways ("02 9790 6877" vs "(02) 9790 6877"); 2 template images missing alt on every page.
