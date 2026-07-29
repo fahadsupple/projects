@@ -123,3 +123,22 @@ Done correctly and worth noting: both new dropdowns (Coffee & Tea, Crackers & Sn
 **Other flags:** footer "Areas" menu still lists only Melbourne + Sydney (5 new cities missing); `/areas-we-serve/` hub still carries stale meta ("various areas of Sydney and NSW") while the site now covers 7 cities — hub page was never in the content brief; 2 images/page missing alt (pre-existing theme issue, site-wide).
 
 **Still unconfirmed with client** (now live sitewide): Sydney dispatch, since 1998, 5,000+ customers, NSW Food Authority registration, free Sydney metro delivery on qualifying orders.
+
+## Product Assignment List (browsed & verified) — 29 July 2026
+Deliverable: `review/products-to-assign-2026-07-29.txt` — **182 products** across the 10 empty categories.
+Supersedes the 29 Jul slug-only list (`products-to-assign-2026-07-28.txt`, 178).
+
+**Method that matters:** union of (a) all 2,611 sitemap product URLs and (b) paginated WooCommerce site search (`/?s=<term>&post_type=product`, which searches descriptions too) across 60+ terms, then **304 candidate product pages fetched individually and classified on their real on-page H1**. Slug-matching alone was not enough — see below.
+
+Counts: Valrhona 48, Belcolade 32, Rustichella 39, Lavosh 19, Heilala 18, Mariage Frères 8, Guindilla 7, Potato Rolls 5, Ewald 3, Matcha 3.
+
+**MAJOR NEW FINDING — the Frozen category is broken.** Every Frozen product 301-redirects to `/product-category/pantry-grocery/frozen/`, which itself renders no product grid. 12 of 160 randomly sampled sitemap products (7.5%) redirect this way; the Frozen brand filter reports 246 products — so **~246 products are unreachable and unsellable**. This includes all 5 Martins potato rolls, so **fix the redirect before assigning that category**. Also explains the earlier "Frozen shows no grid" finding.
+
+**Site data-quality issues found:**
+- `<title>` on Frozen products returns "Frozen | Foodistribute" instead of the product name (they resolve to the category).
+- Slug typo: `/product/varlhona-dulcey-32-chocolate-bar-70g/` ("varlhona") — name is correct.
+- Slug/name mismatch: `/product/agina-ibarra-peppers-guindillas-4kg/` has on-page name "Agina Eusko Peppers (Guindillas) – 1.85kg" (Ibarra/4kg vs Eusko/1.85kg).
+
+**Lesson — never classify products by slug alone on this site.** Three Valrhona products were only found by browsing: two Praline SKUs whose slugs start `praline-` with no brand, and the `varlhona` typo slug.
+
+**Judgement calls left for the client** (excluded from the lists, documented in the deliverable): Tsuboichi Funmatsu Ryokucha (stone-ground shade-grown = culinary matcha by another name), Caviaroli Green Olives Sauce with Piparra (sauce, not peppers), Martins Hoagie Roll (same potato dough, name doesn't say "potato roll"). Explicitly NOT recommended: Martins Butter Bread / Texas Toast Potato Loaf (breads not rolls), TGGH Hojicha (roasted, not matcha), Valrhona Matcha Inspiration (a chocolate — belongs in Valrhona, already listed there).
