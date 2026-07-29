@@ -17,15 +17,15 @@ and H1 match the approved document exactly, and all 94 approved content blocks
 (headings, paragraphs, bullets and the full commission rate matrix) are live and
 verbatim. Nothing from the approved copy is missing.
 
-Every Daily Tasks requirement that can be verified without the Trello screenshot
-has been done correctly — all three 301s, all ten pages, the full navigation
-restructure and the footer links.
+EVERY Daily Tasks requirement has been done correctly — all three 301s, all ten
+pages, the full navigation restructure, the footer links, and all seven
+annotations on the homepage screenshot (now supplied and verified).
 
-Four issues found, none of them "content wasn't uploaded":
-  1. The page contradicts itself on company age — 29 years vs 30 years.
+Three issues found, none of them "content wasn't uploaded":
+  1. The page contradicts itself on company age — 29 years vs 30 years. This
+     one is an instruction conflict, not a build error (see H1).
   2. No FAQPage schema on 8 marked-up FAQs (and this is sitewide, 94 FAQs).
   3. An empty <h2></h2> in the markup.
-  4. Three legacy promo sections left in place alongside the new content.
 
 ================================================================================
 PART 1 — APPROVED CONTENT vs LIVE HOMEPAGE
@@ -78,16 +78,54 @@ ONE PLACE WHERE LIVE IMPROVES ON THE DOC — keep the live version
 PART 2 — DAILY TASKS REQUIREMENTS
 ================================================================================
 
-TASK — Homepage update per the Trello screenshot
-  >> CANNOT BE VERIFIED. The screenshot at
-     trello.com/1/cards/6a4c8d4b594cdc4adeadea96/attachments/6a4c8dd53291d108e9949003/download/image.png
-     returns 401 "unauthorized permission requested", and no Trello credentials
-     are configured on this machine. Whatever layout/visual change that
-     screenshot specified is NOT covered by this review.
-     To close this out: make the attachment public, add a Trello API key/token,
-     or drop the image into the client folder.
-     What CAN be confirmed is that the approved homepage COPY is fully live
-     (Part 1). Only the visual/layout instruction is unverified.
+TASK — Homepage update per the annotated screenshot     ALL 7 DONE, CORRECT
+  Screenshot now supplied by the analyst and saved alongside this report as
+  review/acsdebtcollection-homepage-updates.png (1920x5175, 7 red annotations).
+  Every instruction on it has been implemented:
+
+   #  ANNOTATION                                    RESULT
+   -  --------------------------------------------  ----------------------------
+   1  Hero banner "COLLECTING DEBTS / JUST GOT       DONE. Old hero text removed
+      PERSONAL" -> "Replace with our H1"             entirely; the approved H1 is
+                                                     the first heading in the DOM.
+   2  Intro block under "Collect Your Overdue        DONE. Old copy ("We help
+      Accounts NOW!!!" -> "Replace with our H1       businesses who are time
+      content"                                       poor...") gone; replaced with
+                                                     the approved H1 intro
+                                                     paragraphs. The H2 heading
+                                                     itself sat outside the red
+                                                     box and was correctly kept.
+   3  "Why ACS Debt Collection Works" section ->     DONE. All six named sections
+      replace with 6 named sections from the doc     are live in the right order.
+                                                     The three old H3s inside that
+                                                     red box are all removed:
+                                                     "No Collection, No Fee.
+                                                     Commission Only.", "Why Our
+                                                     Clients Choose ACS",
+                                                     "Proven, Recognised &
+                                                     Trusted".
+   4  "Why Choose Us?" -> "H2: Why Choose ACS Debt   DONE.
+      Collection and corresponding content"
+   5  Stats icon block -> "Keep these"               DONE. All five tiles kept:
+                                                     No Collection No Commission,
+                                                     Over 30 Years In The
+                                                     Industry, 72% Collection
+                                                     Success Rate, 100% Service
+                                                     Guarantee, 48 Hour Response
+                                                     Guarantee.
+   6  Empty band before the dark CTA ->              DONE. All 8 approved FAQs sit
+      "Add FAQs here"                                exactly there, immediately
+                                                     after the stats block and
+                                                     before the CTA.
+   7  Dark CTA block -> "H2: Start Recovering Your   DONE.
+      Outstanding Accounts Today And corresponding
+      content"
+
+  SECTIONS LEFT UNANNOTATED = MEANT TO STAY. All correctly retained:
+    "How to get paid faster" / DOWNLOAD OUR FREE CHECKLIST band
+    Media logos (A Current Affair, Today, Today Tonight)
+    "Why Should You Use A Debt Collector?" purple band + Read This Now
+    "FREE DOWNLOAD / HOW TO GET PAID FASTER!" newsletter form
 
 TASK — URL changes + 301 redirects (3)          ALL DONE, ALL CORRECT
   /services/repoessession/   301 -> /repossession-agents-melbourne/   CORRECT
@@ -130,11 +168,19 @@ H1. COMPANY AGE CONTRADICTS ITSELF ON THE SAME PAGE          ** fix first **
     Three different statements are live simultaneously:
       Body copy   : "a specialist debt collection agency with 29 YEARS of
                      industry experience"          <- from the approved doc
-      Stats bar   : "Over 30 YEARS In The Industry" <- legacy element
-      Footer/CTA  : "ACS Debt Collection Celebrating 29 YEARS"
+      Stats tile  : "Over 30 YEARS In The Industry" <- the screenshot said KEEP
+      Footer      : "ACS Debt Collection Celebrating 29 YEARS"
     A visitor scrolling the page sees 29, then 30, then 29.
-    ACTION: pick one figure and apply it in all three places. Note the approved
-    copy says 29, so if 30 is correct the source document needs updating too.
+
+    IMPORTANT — this is NOT a developer error. Annotation 5 on the screenshot
+    explicitly said "Keep these" over the stats block containing the 30-years
+    tile, while the approved copy written for the same page says 29 years. The
+    two instructions conflict and nobody caught it before deployment. The
+    developer followed both correctly.
+
+    ACTION: decide the correct figure and apply it in all three places. If it is
+    30, the approved document needs correcting too; if it is 29, the stats tile
+    needs editing despite the "keep" instruction.
 
 H2. NO FAQPage SCHEMA — homepage and sitewide         ** biggest SEO gap **
     The homepage has 8 FAQs correctly marked up as H3 with answers below, but
@@ -167,20 +213,12 @@ H3. EMPTY H2 IN THE MARKUP
     to users, but it is an empty heading in the document outline.
     ACTION: remove.
 
-H4. LEGACY PROMO SECTIONS LEFT ALONGSIDE THE NEW CONTENT
-    Three H2 sections that are not in the approved document remain live:
-      "Collect Your Overdue Accounts NOW!!!"
-      "Why Should You Use a Debt Collector?"
-      "HOW TO GET PAID FASTER!"
-    plus an H3 "FREE DOWNLOAD" and the "Over 30 Years In The Industry" stats
-    bar (see H1 above).
-    The Daily Tasks doc said to back up and replace content on four OTHER pages,
-    but for the homepage it only said "update as per this screenshot" — so
-    whether these blocks were meant to stay is exactly what that inaccessible
-    screenshot would tell us.
-    ACTION: confirm against the screenshot. If they were meant to be removed,
-    they are still live; if they were meant to stay, only the 29/30 conflict in
-    the stats bar needs fixing.
+RESOLVED — "legacy promo sections" are NOT an issue
+    An earlier pass flagged three sections as possibly-unremoved legacy content
+    ("Collect Your Overdue Accounts NOW!!!", "Why Should You Use A Debt
+    Collector?", "HOW TO GET PAID FASTER!"). The screenshot settles it: none of
+    them carry an annotation, which means they were meant to stay. They are
+    correctly retained. No action.
 
 ================================================================================
 SUMMARY — ACTION LIST
@@ -191,14 +229,10 @@ PRIORITY  ACTION
 HIGH      Add FAQPage JSON-LD across all 11 project pages — 94 approved FAQs
           currently have no structured data. Template-level fix. (H2)
 
-HIGH      Resolve the 29 vs 30 years contradiction on the homepage. Appears
-          three times in three different values. Update the approved doc too
-          if 30 is the correct figure. (H1)
-
-MEDIUM    Get the Trello screenshot (card 6a4c8d4b594cdc4adeadea96) so the
-          homepage layout instruction can actually be checked, and so we can
-          confirm whether the three legacy promo sections were meant to be
-          removed. (H4 + the unverified homepage task)
+HIGH      Resolve the 29 vs 30 years contradiction on the homepage. Caused by
+          the screenshot saying "keep" the 30-years stats tile while the
+          approved copy says 29. Decide the figure, then fix either the tile or
+          the approved document. (H1)
 
 LOW       Remove the empty <h2 class=""></h2>. (H3)
 

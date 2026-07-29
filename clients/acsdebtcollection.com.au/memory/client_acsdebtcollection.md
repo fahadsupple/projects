@@ -150,10 +150,13 @@ Deliverable: `review/review-homepage-2026-07-29.txt`
 
 **Issues found (4):**
 - HIGH — **No FAQPage schema anywhere on this project.** 94 approved FAQs across 11 pages, all marked up as H3 with answers, zero structured data. Template-level fix.
-- HIGH — Homepage contradicts itself on company age: body says "29 years" (from approved doc), legacy stats bar says "Over 30 Years In The Industry", footer CTA says "Celebrating 29 Years".
-- MEDIUM — Three legacy promo H2 sections still live alongside the new content ("Collect Your Overdue Accounts NOW!!!", "Why Should You Use a Debt Collector?", "HOW TO GET PAID FASTER!") + "FREE DOWNLOAD" H3. Whether they should have been removed is unknowable without the Trello screenshot.
+- HIGH — Homepage contradicts itself on company age: body says "29 years" (from approved doc), stats tile says "Over 30 Years In The Industry", footer says "Celebrating 29 Years". **Root cause: an instruction conflict, not a dev error** — the homepage screenshot annotated the stats block "Keep these" while the approved copy for the same page says 29. Nobody caught the clash before deployment.
 - LOW — empty `<h2 class=""></h2>` in the markup.
 
 **Approved doc has a copy-paste error the dev correctly cleaned up:** doc reads "The Australian Institute of Credit Management (The Australian Institute of Credit Management (AICM))"; live reads "(AICM)". Fix the source doc so it isn't re-introduced.
 
-**NOT VERIFIABLE — Trello screenshot.** The homepage task was "update as per this screenshot" (card 6a4c8d4b594cdc4adeadea96, attachment 6a4c8dd53291d108e9949003). Returns 401; no Trello credentials configured. The layout/visual instruction is unchecked. Same blocker hit on cliftonhillchiro card tBryuXPN — **Trello access is a recurring gap worth resolving once.**
+**Homepage screenshot VERIFIED — all 7 annotations implemented correctly.** Analyst supplied it from Downloads after the Trello attachment 401'd; saved as `review/acsdebtcollection-homepage-updates.png` (1920x5175). Annotations: (1) hero → H1, (2) intro block → H1 content, (3) "Why ACS Debt Collection Works" → 6 named doc sections, (4) "Why Choose Us?" → "Why Choose ACS Debt Collection", (5) stats icon block → "Keep these", (6) empty band → "Add FAQs here", (7) dark CTA → "Start Recovering Your Outstanding Accounts Today". All 7 done, all old sections inside the red boxes removed, all unannotated sections correctly retained.
+
+**Process learning — unannotated = keep.** On an annotated-screenshot task, sections with no red box are meant to stay. Do not flag them as leftover legacy content; that reading was wrong on the first pass here and the screenshot settled it.
+
+**Trello access is a recurring gap** — card 6a4c8d4b594cdc4adeadea96 (and cliftonhillchiro tBryuXPN) both return 401 with no credentials configured. Worth setting up an API key/token once. Workaround that worked: ask the analyst for the file directly.
