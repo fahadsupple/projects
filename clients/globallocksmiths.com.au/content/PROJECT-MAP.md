@@ -1,14 +1,14 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-28T04:24:47Z_
+_Rebuilt: 2026-07-29T04:31:50Z_
 
 ## Snapshot
 
 - **Domain:** globallocksmiths.com.au
 - **Intake mode:** greenfield
 - **Entries:** 41 total | 0 generated | 0 audited | 0 approved
-- **Clusters:** 1 | 0 locked
-- **Halt state:** none
+- **Clusters:** 2 | 0 locked
+- **Halt state:** halted (RESUME-NEEDED.md present)
 
 ## File map
 
@@ -29,13 +29,14 @@ _Rebuilt: 2026-07-28T04:24:47Z_
 
 ## Recent events (last 10)
 
-- 2026-07-28T02:03:45.587Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:04:03.789Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:04:16.876Z  `intake_complete`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:05:16.140Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:05:21.188Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:05:21.189Z  `client_profile_updated`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:05:46.043Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-28T02:05:57.452Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 - 2026-07-28T04:20:22.553Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-28T04:24:47.926Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-28T04:24:47.926Z  `client_profile_updated`  client:globallocksmiths.com.au  (success)
+- 2026-07-28T23:56:39.958Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-29T04:29:29.168Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-29T04:30:44.722Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-29T04:30:44.732Z  `client_profile_updated`  client:globallocksmiths.com.au  (success)
+- 2026-07-29T04:30:44.732Z  `entry_reclassified`  entry:smart-lock-installation-melbourne  (success)
+- 2026-07-29T04:30:44.733Z  `phase_halted`  project:voice-corpus-ingest  (halted)
+- 2026-07-29T04:31:38.770Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 

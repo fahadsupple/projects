@@ -26,18 +26,35 @@ people, which is a team. Plural-team phrasing ("our team", "our locksmiths") is
 cleared for use. Do not inflate beyond that: no claims implying a large crew,
 multiple simultaneous jobs, or depth of staffing.
 
+**NO physical presence anywhere. No branch, depot, office, showroom or local base.**
+Analyst-confirmed 2026-07-29: the business is not physically present in Altona
+North, Camberwell, Hoppers Crossing, or any of the 41 target suburbs. Form 2 Q21's
+"three locations across Melbourne" does not mean premises — that USP was deleted
+and those three localities were removed from `signature_data_patterns`. This is a
+**mobile service** (`operating_model: mobile_service_area`): locksmiths travel to
+the customer. `business_address` is deliberately absent from the profile — it is
+not a data gap to be filled. Never write "our Brighton branch", "based in
+Richmond", "visit us in Werribee", "your local Toorak workshop", or any phrasing
+that implies a fixed presence in a target suburb. Proximity language must describe
+travel to the customer, not a location the business occupies.
+
+## Content Preferences
+
+**`smart lock installation melbourne` is the SERVICE HUB, not a suburb page.**
+Analyst decision 2026-07-29. That entry is now `page_type: service` in cluster
+`service-hubs`; the other 40 remain `service-location` in
+`service-location-smart-lock-installation`. Write it as the metro-wide pillar the
+40 suburb pages link up to — broader scope, covers the service end-to-end, not a
+41st near-identical local page.
+
 ## Raw Notes
 
 **Intake data gaps — 2026-07-28, recorded at `/content:init`.** Neither form supplied
 these; they were left empty rather than guessed (Cardinal rule):
 
-- **No street address or postcode.** `business_address` is omitted from
-  client-profile.json, so the `business_address_integrity` audit gate has no fixed
-  NAP to protect. Form 2 Q21 names three Melbourne locations — Altona North,
-  Camberwell, Hoppers Crossing — but with no street address or postcode for any of
-  them. Note that Altona North and Hoppers Crossing are themselves two of the 41
-  target suburbs; those two pages can legitimately claim a local base once the
-  addresses are confirmed.
+- ~~No street address or postcode.~~ **SUPERSEDED 2026-07-29 — see Content
+  Restrictions. `business_address` is deliberately absent, not a gap. Do not chase
+  an address; there isn't one to find.**
 - **No brand voice or tone.** Neither form asked. `brand.voice` and `brand.tone` are
   absent, so `voice-profile.md` stays thin until approved content is ingested via
   `/content:ingest-approved`.
@@ -47,6 +64,23 @@ these; they were left empty rather than guessed (Cardinal rule):
   customers" is not a countable review figure.
 - **Only 3 of 5 customer questions** supplied (form 2 Q17). Useful FAQ seed but short
   of the requested five.
+
+**The live site contradicts the client's own corrections — 2026-07-29.** Six pages
+were fetched for voice corpus. The homepage and both sampled suburb pages
+(`/brighton/`, `/richmond/`) advertise "24 hours a day, 7 days a week", "an
+emergency lockout in the middle of the night", "we typically arrive within 30 to 60
+minutes", and "over fifteen years" — every one of which the analyst has ruled out.
+Brighton's title tag is "Locksmith Brighton | Fast 24/7 Mobile", so the claim looks
+templated across the site's ~90 suburb pages (2 sampled, not verified site-wide).
+Voice ingest is HALTED — see `RESUME-NEEDED.md`. Nothing has entered `approved/`.
+Separately: the client is currently advertising a service they don't provide, on
+their live site. That is worth raising with them regardless of this project.
+
+**37 of the 41 target suburbs already have a root-level page** (`/brighton/`,
+`/richmond/`, …) targeting general locksmith intent. The 4 without one are
+`altona-north`, `sunshine-west`, `williams-landing` and `melbourne`. The new
+`/smart-lock-installation-<suburb>/` pages will sit alongside these, so the two
+sets need distinct angles and should interlink rather than compete.
 
 **Existing smart-lock article.** Form 2 Q5 supplies
 `https://globallocksmiths.com.au/are-smart-locks-worth-it-a-local-locksmiths-honest-take/`

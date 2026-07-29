@@ -18,7 +18,6 @@
       "Free, no-obligation quotes",
       "5-star rated service trusted by thousands of satisfied customers",
       "1,000's projects completed",
-      "Three locations across Melbourne — Altona North, Camberwell, and Hoppers Crossing",
       "Treating every customer, from domestic clients to high-profile individuals, with the same high standard of service"
     ],
     "founder_name": "Shane Tipping",
@@ -52,10 +51,7 @@
     "2002",
     "Newmans Locksmiths",
     "43 969 968 576",
-    "1300 333 565",
-    "Altona North",
-    "Camberwell",
-    "Hoppers Crossing"
+    "1300 333 565"
   ],
   "locations": [
     "Melbourne",
@@ -184,6 +180,15 @@
       "resolution": "RESOLVED 2026-07-28 by analyst: Monday to Friday 9am to 5pm is the WHOLE offer. The client does NOT provide 24/7 or emergency service — form 2 Q9/Q19/Q21 overstated it. The 24/7 USP was removed and 'emergency lockout assistance' was trimmed to 'lockout assistance' in brand.audience (that field arms the honesty gate's capability tokens). No 24/7, after-hours, emergency, or 30-60 minute response-time claims anywhere.",
       "resolved_by": "analyst",
       "resolved_at": "2026-07-28"
+    },
+    {
+      "field": "business_address",
+      "form1_value": "(not asked)",
+      "form2_value": "We have three locations across Melbourne — Altona North, Camberwell, and Hoppers Crossing (Q21)",
+      "note": "Form 2 Q21 reads as three premises. It is not.",
+      "resolution": "RESOLVED 2026-07-29 by analyst: the business is NOT physically present in Altona North, Camberwell, Hoppers Crossing, or any target suburb. It is a mobile service (operating_model: mobile_service_area) with no public premises. business_address is therefore DELIBERATELY ABSENT — not a data gap to be chased. The three-locations USP was deleted and those three localities were removed from signature_data_patterns (they had been seeded as 'primary locality', which is false). No page may claim a branch, depot, office, showroom, or local base in any suburb.",
+      "resolved_by": "analyst",
+      "resolved_at": "2026-07-29"
     }
   ],
   "business_type_tokens": [

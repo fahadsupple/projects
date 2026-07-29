@@ -41,6 +41,33 @@ Trail lives in `client-profile.json _conflicts[]` (each with `resolution`) and i
 `client-notes.md`, which is what reaches `client-context.md` — the file every
 downstream agent loads. `_conflicts` itself is analyst-facing only; no agent reads it.
 
+## The live site contradicts the client's own corrections
+Fetched 6 pages for voice corpus on 2026-07-29. The homepage and the suburb pages
+advertise "24 hours a day, 7 days a week", "emergency lockout in the middle of the
+night", "arrive within 30 to 60 minutes" and "over fifteen years" — all four ruled
+out by the analyst. Brighton's title tag is "Locksmith Brighton | Fast 24/7 Mobile",
+so it looks templated site-wide. **The client is advertising a service they don't
+provide.** Voice ingest halted (`RESUME-NEEDED.md`); nothing entered `approved/`.
+The trap: `approved/*.md` isn't just a style reference — `rebuild_corpus_operational_truth()`
+parses it into the writer's *operational ground truth*, so ingesting a site whose
+copy contradicts the profile silently re-arms the banned claims. Check any upgrade
+client's live copy against their corrections BEFORE ingesting voice.
+
+Also found: **37 of the 41 target suburbs already have a root-level page**
+(`/brighton/` etc.) on general locksmith intent. Only altona-north, sunshine-west,
+williams-landing and melbourne don't. New smart-lock pages sit alongside these.
+
+## No physical presence
+Analyst-confirmed 2026-07-29: no premises anywhere — not in Altona North,
+Camberwell or Hoppers Crossing (form 2 Q21's "three locations" is not premises),
+and not in any target suburb. `business_address` is deliberately absent, not a gap.
+Mobile service only. No branch/depot/showroom/"based in X" language on any page.
+
+## Cluster shape
+`smart lock installation melbourne` = `page_type: service`, cluster `service-hubs`
+(analyst decision 2026-07-29 — metro-wide pillar). The other 40 stay
+`service-location` in `service-location-smart-lock-installation` and link up to it.
+
 ## Scope boundary
 Form 1 Q11 asked for three service roots (locksmiths, mobile locksmith, smart lock
 installation) across Melbourne **and Geelong**. The Meta File covers only smart lock

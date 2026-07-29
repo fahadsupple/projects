@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "globallocksmiths.com.au",
-  "generated_at": "2026-07-28T04:24:47Z",
+  "generated_at": "2026-07-29T04:31:50Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -82,6 +82,51 @@
           "origin": "bdm-notes",
           "ref": "bdm-notes#count",
           "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "40"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "40"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "30"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "60"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "90"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "37"
         },
         {
           "origin": "bdm-notes",
@@ -391,6 +436,51 @@
               "ref": "bdm-notes#count"
             },
             {
+              "value": 40,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 40,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 30,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 60,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 90,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 37,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
               "value": 41,
               "origin": "bdm-notes",
               "ref": "bdm-notes#count"
@@ -640,6 +730,104 @@
       ]
     },
     {
+      "id": "service.duration",
+      "class": "duration",
+      "label": "duration",
+      "unit": "hours",
+      "value": 24,
+      "sources": [
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#dur",
+          "value_seen": "24 hours"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#dur",
+          "value_seen": "7 days"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-Month"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#dur",
+          "value_seen": "12-month"
+        }
+      ],
+      "status": "conflict",
+      "confidence": "low",
+      "conflicts": [
+        {
+          "subject": "",
+          "candidates": [
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#dur"
+            },
+            {
+              "value": 7,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            },
+            {
+              "value": 12,
+              "origin": "intake-form",
+              "ref": "intake-form#dur"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "metrics.percentage",
       "class": "percentage",
       "label": "percentage",
@@ -708,48 +896,6 @@
       ]
     },
     {
-      "id": "service.duration",
-      "class": "duration",
-      "label": "duration",
-      "unit": "month",
-      "value": 12,
-      "sources": [
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-month"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-month"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-month"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-month"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-Month"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#dur",
-          "value_seen": "12-month"
-        }
-      ],
-      "status": "extracted",
-      "confidence": "low",
-      "conflicts": []
-    },
-    {
       "id": "catalog.services",
       "class": "enum_set",
       "label": "services",
@@ -810,6 +956,7 @@
   ],
   "needs_confirmation": [
     "social-proof.clients",
+    "service.duration",
     "metrics.percentage"
   ],
   "source_scan": {
@@ -818,6 +965,6 @@
       "client-profile",
       "intake-form"
     ],
-    "scanned_at": "2026-07-28T04:24:47Z"
+    "scanned_at": "2026-07-29T04:31:50Z"
   }
 }
