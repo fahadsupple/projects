@@ -105,10 +105,97 @@ lookup. Reference points that do have volume: `smart lock installation` (nationa
 590/mo · `smart locks melbourne` 90/mo · `locksmith brighton` 320/mo (navigational — the
 general-locksmith intent the client's existing root-level suburb pages already target).
 
+## Suburb re-query — 7 bundles, 2026-07-30 (analyst-approved)
+
+The first suburb pass used the bare query `<suburb> smart lock installation`. On homonym
+suburbs it returned mostly the wrong place, agents correctly discarded those records, and
+the bundles came back honestly thin. Seven were re-queried with an explicit disambiguator
+(`smart lock installation <Suburb> Melbourne Victoria <postcode>`), `country: "AU"`.
+
+This is legitimate for *suburb* research and would not be for keyword research: a keyword
+must match what the page targets, but a suburb query is only an instrument for reaching
+ground truth about a place, so naming the state and city is a fix rather than a cheat.
+Every re-queried bundle carries `synthesis._requery` with the exact query, date, reason
+and discard count.
+
+### Geo integrity: 7 of 7 fixed
+
+| Suburb | Wrong-geo discards, pass 1 → pass 2 | What pass 1 resolved to |
+|---|---|---|
+| kensington | 10/10 → **0/10** | London borough + Kensington laptop-lock brand |
+| st-albans | 8/10 → **0/10** | Hertfordshire, incl. both Checkatrade listings + St Albans **Park** (Geelong) |
+| brighton | 7/10 → **0/10** | Sussex/Hove (`01273`), Brisbane, Brighton **Colorado** |
+| newport | 7/10 → **0/10** | Wales (`01633`, SA42), Oregon, NSW, QLD |
+| sunshine | 7/10 → **0/10** | Sunshine Coast QLD |
+| maidstone | 6/10 → **0/10** | Kent (LockRite ×3, Checkatrade ×2) |
+| richmond | 6/10 → **0/10** | Richmond BC Canada ×3, Richmond Virginia ×3 |
+
+The uPVC / anti-snap door vocabulary that contaminated st-albans is gone from the set.
+
+### Depth: mixed, and the trade-off is real
+
+**Disambiguation trades contamination for dilution.** Appending "Melbourne Victoria"
+reliably kills wrong-place records but also pulls Melbourne-wide vendor and directory
+pages that are geographically valid and locally useless.
+
+- **Gained integrity AND depth** — `kensington` (synthesis 401 → 5,841 bytes, 4 of 5 keys
+  now filled), `maidstone` (4 → 9 usable records), `st-albans` (4,993 → 9,241 bytes),
+  `richmond` (2 → 5 records with suburb-specific detail).
+- **Gained integrity, lost depth** — `brighton` (8 of 10 records are Melbourne-wide rolls;
+  3 keys still insufficient) and `newport` (8 of 10 diluted; still only 2 load-bearing
+  records, though both stronger and one states "Newport VIC 3015" outright).
+- **Net trade** — `sunshine` gained geo confidence but lost two pieces of first-pass
+  customer language (a pre-bored door needing the old cut-out filled; install-only demand
+  where the customer already owns the hardware).
+
+### Overwriting the fixtures cost some complementary evidence
+
+Re-queries overwrote `brave-local-<suburb>-…json` in place, because the Python loader
+derives that filename from the canonical `<suburb> <service>` string and will not find a
+renamed file. Brave returned *different excerpts of the same URLs* across the two passes,
+so some first-pass detail is no longer on disk for `sunshine`, `newport`, `brighton` and
+`maidstone`. It is preserved in the commit prior to the re-query and can be merged back if
+a page needs that depth. Agents dropped rather than carried those claims, which is correct
+under the traceability rule — an unsourced claim is worse than a missing one.
+
+### Brighton — one open judgement call
+
+Pass 1's Brighton texture came from **Brighton East** (3187), a separate suburb. Pass 2
+treated that as a wrong-suburb discard, so the bundle is now thinner but strictly sourced.
+Brighton East is arguably a fair proxy for bayside building stock *if labelled as
+adjacent*; the stricter reading was kept. Analyst may prefer to reinstate it as explicitly
+adjacent context.
+
+### Not re-queried, deliberately
+
+Seven further bundles are thin only on `demographic_skew`, and `climate_context` is
+insufficient in **all 40** — climate barely bears on indoor door hardware, so that is the
+honest answer, not a defect. No query disambiguation makes Brave return resident
+demographics, so re-running those would spend quota to reproduce the same result.
+
+### Two competitive facts surfaced, for the cluster plan
+
+- **Smart-lock specialists do not cover the west.** `smartlocksmelbourne.au` publishes ~45
+  serviced suburbs running Albert Park → Windsor — bayside and inner south-east, no
+  western suburb at all — while general north-west mobile locksmiths do cover 3021.
+  Specialisation clusters on the opposite side of the city from St Albans, Sunshine,
+  Braybrook, Maidstone and the rest of the western grid.
+- **Sunshine's incumbent competes on what this client lacks.** `auslock.com.au` runs a
+  "Local Sunshine North Base" leading with 24/7, 35 years and SCEC approval — exactly the
+  availability and tenure axes Global Locksmiths cannot claim. Do not meet them there.
+
+Admissible Australian door vocabulary to replace the rejected British terms, from
+`thesmartlockshop.com.au` and `smartlockinstallation.com.au`: smart **mortice** locks,
+**deadbolts**, fire-rated smart locks for unit doors, and the incumbent hardware brands a
+retrofit must mate with — **Lockwood, Lane, Lemaar**.
+
 ## Reproduce
 
 ```bash
 python3 qa_geo_contamination.py <client_dir> --json geo-qa.json
 ```
 
-Machine-readable output: `geo-qa.json` (per-entry signal counts and verdicts).
+Machine-readable output: `geo-qa.json` (per-entry signal counts and verdicts). Note this
+scanner reads the **keyword-research** fixtures (`serp-organic-*`, `ai-overview-*`); the
+suburb re-query above concerns the `brave-local-*` fixtures and is not reflected in its
+counts.

@@ -64,7 +64,49 @@ no volume signal at all and still look complete.** Written up in
 Also: **`deer-park` returned zero `local_pack`** (knowledge_graph instead) — a fact, not
 a collection failure; don't retry expecting a different shape.
 
-## Suburb research is legitimately thin on homonym suburbs
+## Suburb re-query fixed the geography — 2026-07-30, analyst-approved
+Seven geo-failed suburbs (kensington, st-albans, brighton, maidstone, newport, richmond,
+sunshine) were re-run with `smart lock installation <Suburb> Melbourne Victoria <postcode>`.
+**Wrong-geo discards went to 0/10 on all seven.** Each bundle records
+`synthesis._requery` with the exact query and reason. Contract:
+`content/research/_suburb_requery_instructions.md`.
+
+The principle worth keeping: **for suburb research the query is an instrument, not a
+ranking target**, so naming state/city/postcode is a legitimate fix. The same move in
+keyword research would be researching a keyword the page does not target.
+
+**But disambiguation trades contamination for dilution.** Appending "Melbourne Victoria"
+reliably kills wrong-place records and also pulls Melbourne-wide vendor rolls that are
+geo-valid and locally useless. kensington (401→5,841 bytes), maidstone (4→9 usable),
+st-albans (4,993→9,241), richmond (2→5 specific) gained both. brighton and newport gained
+integrity and *lost* depth (8 of 10 diluted). sunshine was a net trade.
+
+**Overwriting the brave-local fixture costs evidence.** The loader derives the filename
+from the canonical `<suburb> <service>` string, so a re-query must overwrite in place —
+and Brave returns *different excerpts of the same URLs* across passes. First-pass detail
+for sunshine, newport, brighton, maidstone is gone from disk but preserved in the commit
+before the re-query. Merge from there if a page needs the depth; do not let an agent carry
+those claims unsourced.
+
+Open call: pass 1's brighton texture came from **Brighton East (3187)**, a separate suburb,
+now treated as a wrong-suburb discard. Defensible, but Brighton East is a fair proxy for
+bayside stock *if labelled adjacent* — analyst may want it reinstated as such.
+
+## Two competitive facts for the cluster plan
+- **Smart-lock specialists do not serve the west.** `smartlocksmelbourne.au` publishes ~45
+  serviced suburbs, Albert Park→Windsor, all bayside/inner south-east, **no** western
+  suburb — while general north-west mobile locksmiths do cover 3021. Specialisation sits
+  on the opposite side of the city from most of this 40-suburb grid. That is the
+  positioning opening.
+- **Sunshine's incumbent competes on what this client lacks.** `auslock.com.au` runs a
+  "Local Sunshine North Base" leading with 24/7, 35 years, SCEC approval — precisely the
+  availability and tenure axes Global Locksmiths cannot claim. Do not compete there.
+
+Admissible AU door vocabulary (replaces the rejected British uPVC/anti-snap terms): smart
+**mortice** locks, **deadbolts**, fire-rated smart locks for unit doors; incumbent brands a
+retrofit must mate with — **Lockwood, Lane, Lemaar**.
+
+## Suburb research is legitimately thin on homonym suburbs (first pass — largely superseded above)
 The geo guard told agents to discard wrong-place records, so several bundles are honestly
 sparse rather than richly wrong. Worst: **kensington 10 of 10 discarded** (double
 homonym — London borough *and* the Kensington laptop-lock brand), all five keys

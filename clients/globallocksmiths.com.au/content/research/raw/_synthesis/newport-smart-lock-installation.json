@@ -1,12 +1,18 @@
 {
   "climate_context": "Insufficient local data — recommend manual research",
-  "building_stock": "The only Newport VIC job record returned describes door openings of roughly 2400 x 3100 mm with existing doors to be removed and replaced, plus a main entry door and three separate bedroom doors being fitted with locks — so smart lock work here cannot assume a standard-size single entry leaf, and interior bedroom doors are in scope alongside the front door (Airtasker Newport VIC).",
+  "building_stock": "Both Newport VIC records describe doors that are not a standard hinged single entry leaf. A Newport VIC 3015 job dated 14 Jan 2025 is a bifold door still carrying an old mortise lock, with the smart lock to go in as that mortise's replacement — a narrow folding leaf, not a solid entry door (Airtasker West Melbourne page, Newport VIC 3015 record). A second Newport VIC job pairs a front-door Eufy E110 install with a lockable door handle for a bathroom, so internal doors sit in scope beside the front door in the same visit (Airtasker Newport VIC). Beyond 'bifold', 'front door' and 'bathroom', the returned records establish nothing about Newport's dwelling construction — no heritage timber, apartment common entrances, new-estate composite or double-glazed sliders appear — so door substrate and thickness remain unestablished for this suburb.",
   "council_notes": "None identified",
-  "demographic_skew": "The single Newport VIC job record shows a Sunday/weekend-only install window, access that has to be coordinated between two parties rather than one occupant, an explicitly negotiable budget, and a self-selected consumer brand (eufy) — pointing to price-aware, brand-researched households where the person booking is not the only party controlling access to the door (Airtasker Newport VIC).",
+  "demographic_skew": "The two Newport VIC records show opposite buyer states in the same suburb. One householder has already settled on an exact model — the Eufy E110 — and wants only a fitter, and is looking for a 'skilled handyman' rather than a locksmith (Airtasker Newport VIC). The other had not bought a lock at all as at 14 Jan 2025 and asked for advice on which one to buy that would be 'easiest to replace' on their existing door (Airtasker West Melbourne page, Newport VIC 3015 record). Both routed the work through a general-task marketplace rather than approaching a locksmith directly. Nothing in the returned records establishes tenure, household composition or income for Newport, so renter/owner mix and turnover are not evidenced.",
   "common_concerns": [
-    "Whether a smart lock can be fitted to a non-standard door opening (~2400 x 3100 mm) and whether the existing doors have to be removed or replaced first (Airtasker Newport VIC).",
-    "Whether the specific consumer brand the homeowner has already picked — eufy in the returned record — can actually be supplied, installed and supported, rather than being swapped for the installer's preferred brand (Airtasker Newport VIC).",
-    "Getting the install done on a weekend, Sunday preferred, with access coordinated between two parties on the day (Airtasker Newport VIC).",
-    "What happens after install when the lock itself fails: the Newport VIC locksmith market advertises Smart Lock Repair, Bluetooth Locks and Wifi Locks as separate line items, so residents are shopping for ongoing repair capability and not just the initial fit (toplocksmithmelbourne.com.au Newport VIC)."
-  ]
+    "Whether a smart lock can replace an old mortise lock on a bifold door — the Newport VIC 3015 job dated 14 Jan 2025 is exactly that retrofit, not a standard entry-door swap (Airtasker West Melbourne page, Newport VIC 3015 record).",
+    "Which smart lock to buy in the first place: the same Newport VIC 3015 customer had not purchased one yet and wanted advice on the model 'easiest to replace' on their door, so product selection is part of the job rather than settled before it (Airtasker West Melbourne page, Newport VIC 3015 record).",
+    "Whether an already-chosen consumer model can be fitted as-is — a Newport VIC job names the Eufy E110 and specifies it goes on the front door (Airtasker Newport VIC).",
+    "Who supplies the hardware, and whether internal doors are covered in the same visit: the Newport VIC job instructs the tradesperson 'You must bring a door handle that locks for bathrooms' alongside the front-door smart lock (Airtasker Newport VIC)."
+  ],
+  "_requery": {
+    "date": "2026-07-30",
+    "query": "smart lock installation Newport Melbourne Victoria 3015",
+    "reason": "First pass used the bare query 'Newport smart lock installation' and returned mostly the wrong Newport — Newport Oregon (tidy.com), three Newport Wales pages (lockrite.org, an 01633 number, an SA42 postcode), two Newport NSW pages (a1locksmithsydney.com.au) and an Airtasker newport-qld — leaving only two VIC-confirmed records to carry every key.",
+    "records_discarded_wrong_geo": 0
+  }
 }
