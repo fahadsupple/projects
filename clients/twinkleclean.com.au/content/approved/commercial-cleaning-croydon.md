@@ -38,7 +38,7 @@ The light industrial stock around Tarralla Creek and Dorset Road is a different 
 
 Auto servicing premises need the reception and waiting area genuinely presentable, because it is the only part most customers see, while the workshop gets floors and amenities. Trade supply counters, self-storage offices and depot crib rooms follow the same pattern: a small customer-facing area that must look sharp and a working area that must be safe.
 
-Our cleaners are police-checked, trained in workplace and chemical safety and communicate clearly in English, which matters on a working site. Full method and credentials are on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Our cleaners are police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication, which matters on a working site. Full method and credentials are on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Hours that suit a trading strip or a depot
 

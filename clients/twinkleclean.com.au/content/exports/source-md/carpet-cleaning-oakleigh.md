@@ -8,7 +8,7 @@ Oakleigh is one of Melbourne's older south-eastern centres, with a large histori
 
 In established family homes it is the high-traffic lounges and hallways, the pet marks and the everyday wear that a vacuum stops touching. Along the Oakleigh shopping and dining strip it is commercial carpet in offices, shops and eateries that has to stay presentable through constant foot traffic. We bring the same equipment and the same care to a single lounge room as we do to a busy shopfront floor.
 
-Our team matches the method to the carpet rather than running one setting over everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked.
+Our team matches the method to the carpet rather than running one setting over everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Truck-mounted cleaning is available where access suits it.
 
 Stubborn marks, pet odours and worn traffic lanes each get their own targeted treatment instead of a single hopeful pass. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 

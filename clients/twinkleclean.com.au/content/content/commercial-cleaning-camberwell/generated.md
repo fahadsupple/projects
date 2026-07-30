@@ -31,7 +31,7 @@ Where disinfection is needed rather than surface cleaning, we use hospital-grade
 
 Parking and access shape scheduling here more than in most suburbs. Around the Junction the practical window is after the strip quietens or early before it wakes up, and Sunday mornings near the market car park are worth avoiding entirely. After-hours commercial cleaning is our normal mode, and we operate seven days a week including weekends and public holidays with no extra charge for the day chosen.
 
-Commercial cleaners Camberwell practices give keys to need to be trustworthy without supervision. Every cleaner is police-checked, trained in workplace and chemical safety, and communicates clearly in English, and we hold $20 million public liability insurance plus WorkCover. There is more on our method and quality control on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Commercial cleaners Camberwell practices give keys to need to be trustworthy without supervision. Every cleaner is police-checked and trained in workplace and chemical safety, our management team provides clear and responsive communication, and we hold $20 million public liability insurance plus WorkCover. There is more on our method and quality control on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 Call us now on 0498 182 989 to book a Camberwell site visit.
 

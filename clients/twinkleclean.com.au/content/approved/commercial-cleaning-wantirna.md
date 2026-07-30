@@ -26,7 +26,7 @@ Call us now on 0498 182 989 to book a site visit.
 
 Suburban trade in Wantirna spreads right across the week, so a Monday-to-Friday evening schedule suits very few businesses here. We work seven days a week including weekends and public holidays at no extra charge, so a Saturday evening or Sunday morning slot is priced the same as any other. After-hours commercial cleaning before opening or after close is what most shops and clinics choose, so nobody is working around a vacuum while customers are in the room.
 
-Because our cleaners often hold keys or an alarm code for premises holding stock or patient records, it matters who turns up. Every cleaner is police-checked and trained in workplace and chemical safety, with strong English communication, and the business carries $20 million public liability insurance plus WorkCover. Our full method and equipment list are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Because our cleaners often hold keys or an alarm code for premises holding stock or patient records, it matters who turns up. Every cleaner is police-checked and trained in workplace and chemical safety, our management team provides clear and responsive communication, and the business carries $20 million public liability insurance plus WorkCover. Our full method and equipment list are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## Sites we look after in Wantirna
 

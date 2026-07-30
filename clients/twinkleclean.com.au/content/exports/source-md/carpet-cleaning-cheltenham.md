@@ -10,7 +10,7 @@ Our week here often runs from a whole-house refresh in a family home to commerci
 
 ## Our carpet cleaning method
 
-We match the clean to the carpet rather than running one setting across the house. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which drives heated water and solution into the pile then draws it straight back out, so carpet is left damp rather than saturated.
+We match the clean to the carpet rather than running one setting across the house. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which drives heated water and solution into the pile then draws it straight back out, so carpet is left damp rather than saturated. Truck-mounted cleaning is available for sites with suitable access.
 
 Where a set-in stain, a pet odour or a worn traffic lane needs more, we treat that spot on its own before the main clean, which is how marks a general pass tends to miss actually come up. For the full rundown of our equipment and how we work, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 

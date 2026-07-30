@@ -41,9 +41,8 @@ Commercial cleaners Bayswater sites rely on need to be people you are comfortabl
 
 - Police-checked
 - Trained in workplace and chemical safety
-- Communicates clearly in English
 
-We also hold $20 million public liability insurance plus WorkCover. Our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page sets out the method in detail.
+Our management team provides clear and responsive communication, and we also hold $20 million public liability insurance plus WorkCover. Our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page sets out the method in detail.
 
 ## Who books us in Bayswater
 

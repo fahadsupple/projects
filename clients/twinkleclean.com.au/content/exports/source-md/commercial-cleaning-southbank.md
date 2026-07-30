@@ -32,7 +32,7 @@ We work all of that out with building management and your facilities contact bef
 
 After-hours commercial cleaning is the norm here, most often starting once the floor empties in the evening. Our teams work seven days a week including weekends and public holidays at no extra charge, which suits tenants whose floors are quietest on a Sunday.
 
-Cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when they hold building credentials for a secured floor. Twinkle Clean carries $20 million public liability insurance plus WorkCover. The full method and quality-control detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Cleaners are police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication, which matters when cleaners hold building credentials for a secured floor. Twinkle Clean carries $20 million public liability insurance plus WorkCover. The full method and quality-control detail sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 Call us now on 0498 182 989 to book a Southbank site visit.
 

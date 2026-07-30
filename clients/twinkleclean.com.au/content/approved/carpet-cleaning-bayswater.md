@@ -20,7 +20,7 @@ We work around your trading hours, cleaning after close or on weekends at no ext
 
 ## Hot water extraction that reaches the base of the pile
 
-Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet.
+Our core clean is truck-mounted hot water extraction, the method most people call steam cleaning. It drives hot water into the carpet, loosens the soil settled at the bottom of the pile, and draws the moisture back out, so the carpet is left damp rather than wet. Truck-mounted cleaning is available where site access suits it.
 
 Stubborn marks, pet odours and traffic lanes each get their own targeted treatment. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 

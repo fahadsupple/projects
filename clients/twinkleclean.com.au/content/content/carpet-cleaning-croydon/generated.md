@@ -17,7 +17,7 @@ Since the late 1990s, many of Croydon's large single-dwelling blocks have been s
 
 ## How we clean your carpet
 
-Our team matches the method to the carpet rather than running one setting across everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and pulls the moisture back out, so carpet is left damp rather than soaked.
+Our team matches the method to the carpet rather than running one setting across everything. The core clean is truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and pulls the moisture back out, so carpet is left damp rather than soaked. The truck-mounted setup is available where the site has suitable access.
 
 Rather than a single hopeful pass, each carpet gets its own targeted treatment for:
 - Stubborn stains

@@ -28,7 +28,7 @@ We clean to the standard a final inspection expects and stand behind it with a b
 
 ## How we clean your carpet
 
-Our core method is truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back with strong suction, so carpet is left damp rather than soaked.
+Our core method is truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back with strong suction, so carpet is left damp rather than soaked. Truck-mounted cleaning is available where building access suits it.
 
 Rather than a single hopeful pass, each carpet gets a targeted treatment for:
 - Stubborn marks

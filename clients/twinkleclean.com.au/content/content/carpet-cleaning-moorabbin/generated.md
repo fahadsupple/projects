@@ -10,7 +10,7 @@ The newer villa units and townhouses across the suburb bring their own carpet in
 
 ## How we clean carpet in Moorabbin homes
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so carpet is left damp rather than soaked.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so carpet is left damp rather than soaked. Truck-mounted cleaning is available where site access allows.
 
 Where a decades-old traffic lane or a set-in pet mark needs it, we treat that spot separately before the main clean, which is how we shift smells a general pass leaves behind. On the older wool and blended carpets common in Moorabbin's brick homes, that measured approach lifts the dulling without soaking the backing. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside homes, we also clean commercial carpet in Moorabbin's offices and light-industrial units nearby, fitting workplace jobs around trading hours.
 

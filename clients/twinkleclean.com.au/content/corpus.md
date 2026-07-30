@@ -1,13 +1,13 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-21T06:08:39Z_
+_Rebuilt: 2026-07-30T07:19:42Z_
 
 ## carpet-cleaning-bayswater
 
 - **Primary keyword:** carpet cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1219
+- **Word count:** 1228
 - **Headings:**
   - Carpet Cleaning Bayswater
   - Homes and workplaces under one suburb
@@ -26,7 +26,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning bentleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1106
+- **Word count:** 1116
 - **Headings:**
   - Carpet Cleaning Bentleigh
   - Family homes and Centre Road businesses
@@ -44,7 +44,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning box hill
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1174
+- **Word count:** 1196
 - **Headings:**
   - Carpet Cleaning Box Hill
   - End-of-lease and bond-back carpet cleaning in Box Hill
@@ -115,7 +115,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1146
+- **Word count:** 1155
 - **Headings:**
   - Carpet Cleaning Cheltenham
   - Carpet cleaning across Cheltenham's homes and businesses
@@ -133,7 +133,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1181
+- **Word count:** 1192
 - **Headings:**
   - Carpet Cleaning Croydon
   - Carpet cleaning for Croydon's established family homes
@@ -151,7 +151,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1063
+- **Word count:** 1073
 - **Headings:**
   - Carpet Cleaning Dandenong
   - Local carpet cleaning across Dandenong
@@ -169,7 +169,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning glen waverley
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1184
+- **Word count:** 1194
 - **Headings:**
   - Carpet Cleaning Glen Waverley
   - Carpet cleaning for established Glen Waverley homes
@@ -243,7 +243,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning moorabbin
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1196
+- **Word count:** 1204
 - **Headings:**
   - Carpet Cleaning Moorabbin
   - Carpet cleaning for Moorabbin's established brick homes
@@ -277,7 +277,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1208
+- **Word count:** 1214
 - **Headings:**
   - Carpet Cleaning Noble Park
   - Bond-back carpet cleaning for Noble Park rentals
@@ -294,7 +294,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning oakleigh
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1041
+- **Word count:** 1049
 - **Headings:**
   - Carpet Cleaning Oakleigh
   - Carpet cleaning for Oakleigh homes and businesses
@@ -310,7 +310,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning richmond
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1197
+- **Word count:** 1206
 - **Headings:**
   - Carpet Cleaning Richmond
   - Apartment and rental carpets across Richmond
@@ -329,7 +329,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1288
+- **Word count:** 1297
 - **Headings:**
   - Carpet Cleaning Ringwood
   - Carpet cleaning close to home
@@ -348,7 +348,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning rowville
 - **Page type:** service-location
 - **Cluster:** service-location-carpet-cleaning
-- **Word count:** 1194
+- **Word count:** 1202
 - **Headings:**
   - Carpet Cleaning Rowville
   - Carpet cleaning built for large Rowville homes
@@ -367,7 +367,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** carpet cleaning services melbourne
 - **Page type:** service
 - **Cluster:** service-hubs
-- **Word count:** 1440
+- **Word count:** 1456
 - **Headings:**
   - Carpet Cleaning Services Melbourne
   - How we clean carpets
@@ -387,7 +387,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning bayswater
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1243
+- **Word count:** 1247
 - **Headings:**
   - Commercial Cleaning Bayswater: Offices Kept to One Standard
   - Office suites near working premises
@@ -421,7 +421,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning blackburn
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1223
+- **Word count:** 1230
 - **Headings:**
   - Commercial Cleaning Blackburn for Village Shops and Small Premises
   - Retail and shopfront cleaning in a small-footprint village centre
@@ -489,7 +489,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning camberwell
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1245
+- **Word count:** 1249
 - **Headings:**
   - Commercial Cleaning Camberwell for Professional Offices and Suites
   - Office cleaning above and behind the Burke Road strip
@@ -558,7 +558,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning cheltenham
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1355
+- **Word count:** 1360
 - **Headings:**
   - Commercial Cleaning Cheltenham: Retail Tenancies and Industrial Sites
   - Retail floors, and the Southland end of the suburb
@@ -611,7 +611,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning croydon
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1538
+- **Word count:** 1543
 - **Headings:**
   - Commercial Cleaning Croydon: Main Street Shops to Tarralla Creek Sheds
   - A centre with nine different kinds of premises
@@ -630,7 +630,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning dandenong
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1190
+- **Word count:** 1193
 - **Headings:**
   - Commercial Cleaning Dandenong Factories and Offices Can Rely On
   - Warehouse and factory cleaning that respects how the site runs
@@ -647,7 +647,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning docklands
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1131
+- **Word count:** 1133
 - **Headings:**
   - Commercial Cleaning Docklands for Waterfront Offices and Tower Tenancies
   - Tower floors have their own rhythm
@@ -699,7 +699,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning hawthorn
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1274
+- **Word count:** 1279
 - **Headings:**
   - Commercial cleaning Hawthorn offices can book around a full working day
   - Hawthorn offices sit above and behind the shopping strips
@@ -859,7 +859,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning noble park
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1268
+- **Word count:** 1270
 - **Headings:**
   - Commercial cleaning Noble Park businesses can arrange without the runaround
   - A suburb where offices sit next to workshops and homes
@@ -944,7 +944,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning ringwood
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1189
+- **Word count:** 1193
 - **Headings:**
   - Commercial Cleaning Ringwood Businesses Can Get To Quickly
   - Retail and shopfront cleaning around the activity centre
@@ -978,7 +978,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning scoresby
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1284
+- **Word count:** 1289
 - **Headings:**
   - Commercial Cleaning Scoresby Shops, Counters and Corporate Sites Book Regularly
   - Shopfronts, floors and the customer path
@@ -1029,7 +1029,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning southbank
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1361
+- **Word count:** 1366
 - **Headings:**
   - Commercial Cleaning Southbank Tower Tenancies and Corporate Floors Trust
   - Floor plates, lobbies and meeting rooms
@@ -1063,7 +1063,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning wantirna
 - **Page type:** service-location
 - **Cluster:** service-location-commercial-cleaning
-- **Word count:** 1293
+- **Word count:** 1297
 - **Headings:**
   - Commercial Cleaning Wantirna Shops, Clinics and Small Business Premises Book
   - Front of house, back of house
@@ -1099,7 +1099,7 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - **Primary keyword:** commercial cleaning company melbourne
 - **Page type:** homepage
 - **Cluster:** homepage
-- **Word count:** 1114
+- **Word count:** 1124
 - **Headings:**
   - A Commercial Cleaning Company Melbourne Businesses Keep Calling Back
   - What we clean

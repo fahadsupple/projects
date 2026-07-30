@@ -37,7 +37,7 @@ Cheltenham sits across both the City of Bayside and the City of Kingston, and bu
 
 A warehouse wants it after the last shift clears the floor. We run after-hours commercial cleaning as standard and work seven days a week, including weekends and public holidays, at no extra charge, so the schedule is set by your operation rather than by our roster.
 
-Every cleaner is police-checked, trained in workplace and chemical safety and communicates clearly in English, which matters on an industrial site. We carry $20 million public liability insurance and WorkCover, and our full method and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
+Every cleaner is police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication, which matters on an industrial site. We carry $20 million public liability insurance and WorkCover, and our full method and credentials are on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) hub.
 
 Call us now on 0498 182 989 to talk through your retail or industrial site.
 

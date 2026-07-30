@@ -65,7 +65,7 @@ Twinkle Clean was founded in 2019 by Tom Su, who was a cleaner by trade long bef
 Yes. Every cleaner is police-checked before they set foot on a site, and we carry $20 million public liability insurance plus WorkCover. On industrial sites that matters practically, because our people are often on the floor unsupervised outside production hours and your insurer and your site induction process will both ask.
 
 ### Are your staff trained in workplace safety?
-Yes. Our cleaners are trained in workplace and chemical safety and in professional cleaning techniques, and they communicate clearly in English. On a factory or warehouse that means understanding exclusion zones, forklift traffic areas, wet-floor signage and where cleaning equipment can and cannot be parked while a shift is running.
+Yes. Our cleaners are trained in workplace and chemical safety and in professional cleaning techniques, and our management team provides clear and responsive communication. On a factory or warehouse that means understanding exclusion zones, forklift traffic areas, wet-floor signage and where cleaning equipment can and cannot be parked while a shift is running.
 
 ### Do you use OH&S-compliant cleaning products?
 We select products according to each site's requirements, including hospital-grade disinfectants where they are warranted, and our team is trained in safe chemical handling and dilution. On manufacturing sites we take direction from your own chemical register and site rules so what we bring in sits comfortably with what is already there.

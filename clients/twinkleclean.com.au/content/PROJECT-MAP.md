@@ -1,6 +1,6 @@
 # twinkleclean.com.au — Project Map
 
-_Rebuilt: 2026-07-21T06:08:39Z_
+_Rebuilt: 2026-07-30T07:19:42Z_
 
 ## Snapshot
 
@@ -29,7 +29,6 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 
 ## Recent events (last 10)
 
-- 2026-07-21T06:06:17.053Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-21T06:06:18.493Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-21T06:06:21.744Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-21T06:06:22.824Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
@@ -39,4 +38,5 @@ _Rebuilt: 2026-07-21T06:08:39Z_
 - 2026-07-21T06:06:31.022Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-21T06:07:50.870Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 - 2026-07-21T06:07:55.331Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
+- 2026-07-21T06:08:39.545Z  `client_facts_extracted`  client:twinkleclean.com.au  (success)
 

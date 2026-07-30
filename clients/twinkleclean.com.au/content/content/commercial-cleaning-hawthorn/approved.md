@@ -24,7 +24,7 @@ Most Hawthorn sites we quote want the work done from 6pm onwards, or early on a 
 - A written alarm procedure
 - A cleaner who already knows your site rather than a new face every week
 
-Our people are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which matters when a building manager wants a straight answer at 9pm. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Our people are police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication, which matters when a building manager wants a straight answer at 9pm. Twinkle Clean carries $20 million public liability insurance plus WorkCover, and the full method sits on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 ## The Hawthorn businesses we suit best
 

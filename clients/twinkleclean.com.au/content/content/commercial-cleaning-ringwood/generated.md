@@ -52,7 +52,7 @@ Twinkle Clean has run out of Ringwood since Tom Su founded it in 2019, after yea
 Yes. All cleaners are police-checked, and we hold $20 million public liability insurance plus WorkCover. In a retail and civic centre this is what centre management and building owners ask for first, because our people hold after-hours access to tenancies, common areas and back-of-house corridors while nobody else is in the building.
 
 ### Are your staff trained in workplace safety?
-Yes. Our team is trained in workplace and chemical safety as well as professional cleaning techniques, and communicates clearly in English. In a trading environment that shows up as wet-floor signage in public walkways, keeping equipment and leads out of customer paths, and finishing before doors open so the public and the work never share the same space.
+Yes. Our cleaners are trained in workplace and chemical safety as well as professional cleaning techniques, and our management team provides clear and responsive communication. In a trading environment that shows up as wet-floor signage in public walkways, keeping equipment and leads out of customer paths, and finishing before doors open so the public and the work never share the same space.
 
 ### Do you use OH&S-compliant cleaning products?
 We choose products according to each site's requirements, including hospital-grade disinfectants where the setting calls for them, and our cleaners are trained in safe handling and dilution. In retail and food tenancies that also means matching the product to the surface, because polished floors, glass, timber and stainless steel in a dining fitout each need different treatment.

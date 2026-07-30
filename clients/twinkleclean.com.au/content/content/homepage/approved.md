@@ -32,7 +32,7 @@ Every site runs to a written scope. Detailed checklists and site-specific proced
 
 ## Who turns up
 
-Our cleaners are police-checked, trained in workplace and chemical safety as well as cleaning technique, and communicate clearly in English. The business carries $20 million public liability insurance and WorkCover. For sites where our team holds keys, alarm codes or after-hours access to an empty building, that matters more than anything else on this page.
+Our cleaners are police-checked and trained in workplace and chemical safety as well as cleaning technique, and our management team provides clear and responsive communication. The business carries $20 million public liability insurance and WorkCover. For sites where our team holds keys, alarm codes or after-hours access to an empty building, that matters more than anything else on this page.
 
 ## Who we work with
 
@@ -72,7 +72,7 @@ No. We work without lock-in contracts. You can change the frequency, add or drop
 Nothing. We quote free of charge, and for a larger site we would rather come and look at it than guess from a floor area.
 
 ### Are your commercial cleaners police-checked and insured?
-Yes. Every cleaner is police-checked, trained in workplace and chemical safety, and communicates clearly in English. We carry $20 million public liability insurance plus WorkCover, which matters when our team holds keys or after-hours access to your building.
+Yes. Every cleaner is police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication. We carry $20 million public liability insurance plus WorkCover, which matters when our team holds keys or after-hours access to your building.
 
 ### How does carpet steam cleaning work?
 Our core method is hot water extraction, often called steam cleaning. Heated water and solution are worked into the pile and then drawn straight back out under strong suction, so the carpet is left damp rather than soaked, with pet stains, worn traffic lanes and odours treated as their own targeted step.

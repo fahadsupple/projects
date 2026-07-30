@@ -16,7 +16,7 @@ Our equipment reaches upper-floor units, and we plan each job around building ac
 
 ## Our carpet cleaning method
 
-We choose a method to suit each carpet instead of forcing one setting across the whole floor. The heart of the clean is truck-mounted hot water extraction, the process most people know as steam cleaning, which pushes hot water and solution deep into the pile and then vacuums the loosened dirt and moisture straight back out, so carpet is left damp rather than soaked.
+We choose a method to suit each carpet instead of forcing one setting across the whole floor. The heart of the clean is truck-mounted hot water extraction, the process most people know as steam cleaning, which pushes hot water and solution deep into the pile and then vacuums the loosened dirt and moisture straight back out, so carpet is left damp rather than soaked. Truck-mounted cleaning is available for sites with suitable access, though truck access may not be possible for every apartment or high-rise building.
 
 Every carpet gets a dedicated treatment step for:
 - Set-in marks

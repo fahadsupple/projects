@@ -25,7 +25,7 @@ We treat stains and odours as their own step, using targeted stain, odour and ur
 
 ## How we clean your carpet
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside these family homes, we also clean commercial carpet in Rowville's offices and shops, scheduling workplace jobs around trading hours to limit disruption.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. Truck-mounted cleaning is available where site access allows. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside these family homes, we also clean commercial carpet in Rowville's offices and shops, scheduling workplace jobs around trading hours to limit disruption.
 
 Call us now on 0498 182 989 to book a time that suits the household.
 

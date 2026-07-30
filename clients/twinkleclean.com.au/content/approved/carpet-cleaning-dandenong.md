@@ -10,7 +10,7 @@ We bring the same equipment and care to each of those jobs, and we also cover th
 
 ## How we clean your carpet
 
-Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked.
+Our carpet team matches the method to the carpet rather than running one setting over everything. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes dirt out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. The truck-mounted setup is available for sites with suitable access.
 
 Stubborn marks, pet odours and worn traffic lanes get their own targeted treatment instead of a single pass and hope. Where a room needs to be usable again quickly, we book the appointment for a time that gives the carpet room to dry before you need it, and we work seven days a week including public holidays at no extra charge.
 

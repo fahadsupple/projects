@@ -28,7 +28,7 @@ Call us now on 0498 182 989 to book a site visit.
 
 Shops cannot be cleaned properly with customers walking through, so most of our retail work here happens before opening or after close. After-hours commercial cleaning is the default rather than an add-on, and our teams work seven days a week including weekends and public holidays at no extra charge, which matters when your busiest trading day is Saturday.
 
-The corporate and industrial estate side of Scoresby runs differently, usually wanting an evening clean once staff have left, coordinated with building security, swipe access and after-hours alarm procedures. Our cleaners are police-checked, trained in workplace and chemical safety, and communicate clearly in English, which is what a facilities manager handing over access credentials wants to hear.
+The corporate and industrial estate side of Scoresby runs differently, usually wanting an evening clean once staff have left, coordinated with building security, swipe access and after-hours alarm procedures. Our cleaners are police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication, which is what a facilities manager handing over access credentials wants to hear.
 
 The business carries $20 million public liability insurance and WorkCover. Our full method and equipment list are set out on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 

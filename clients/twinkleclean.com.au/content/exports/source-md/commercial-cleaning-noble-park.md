@@ -24,7 +24,7 @@ Noble Park is one of the most multicultural pockets in Melbourne, with a majorit
 
 So we keep it plain. The walkthrough produces a written checklist of exactly which areas are covered and how often. The price is a single figure against that checklist rather than a set of line items that expand later.
 
-Our cleaners communicate clearly in English, and if something needs to be explained twice, it gets explained twice. Every cleaner is police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
+Our management team provides clear and responsive communication, and if something needs to be explained twice, it gets explained twice. Every cleaner is police-checked and trained in workplace and chemical safety, and the business carries $20 million public liability insurance plus WorkCover.
 
 There are no lock-in contracts, so nobody is signing away a year on the strength of a first impression. Our approach across the wider region is described on the [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 

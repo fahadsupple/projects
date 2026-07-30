@@ -10,7 +10,7 @@ The suburb grew from a nineteenth-century railway town into a busy transport hub
 
 ## The method we use
 
-Our core clean is truck-mounted hot water extraction, the deep method most people call steam cleaning. It flushes dirt and residue out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked.
+Our core clean is truck-mounted hot water extraction, the deep method most people call steam cleaning. It flushes dirt and residue out of the pile and draws the moisture back out, so the carpet is left damp rather than soaked. The truck-mounted setup is available where site access allows.
 
 Stains and odours get their own targeted step rather than relying on a single general pass. For the full run-down on our equipment and approach, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 

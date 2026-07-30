@@ -12,9 +12,9 @@ We clean to the standard that inspection expects and back it with a bond-back gu
 
 About a third of homes in Noble Park are apartments, roughly twice the metro Melbourne rate, so many of our local jobs are in flats and units rather than freestanding houses. That brings its own considerations, from lift access and parking to keeping noise down for the neighbours, and we plan each clean around the building so the day runs smoothly.
 
-Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside homes and apartments, we also clean commercial carpet in Noble Park's shops and small offices, scheduling workplace jobs around trading hours.
+Our core method is truck-mounted hot water extraction, the process most people know as steam cleaning, which drives hot water and solution into the pile then vacuums the loosened dirt and moisture straight back out, leaving the carpet damp rather than soaked. Truck-mounted cleaning is available for sites with suitable access. Set-in marks, pet odours and grey traffic lanes each get their own treatment step. For our full equipment and method, visit our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub. Alongside homes and apartments, we also clean commercial carpet in Noble Park's shops and small offices, scheduling workplace jobs around trading hours.
 
-Noble Park is also one of Melbourne's most multicultural pockets, so we keep things plain and clear from the first call: straightforward advice, an honest quote, and no jargon. If English is a second language at home, you will still get a friendly cleaner who explains the job in simple terms before we start.
+Noble Park is also one of Melbourne's most multicultural pockets, so we keep things plain and clear from the first call: straightforward advice, an honest quote, and no jargon. If English is a second language at home, you will still get plain, jargon-free advice with the job explained in simple terms before we start.
 
 Call us now on 0498 182 989 to talk through your Noble Park carpet.
 
@@ -65,7 +65,7 @@ Yes. Many Noble Park homes are apartments and units, and we are set up for them:
 Yes. A lot of Noble Park carpet sits in older units and walk-up blocks, and we clean it the same way we would a house, working around stairs and shared entrances so the job stays tidy for you and your neighbours.
 
 ### Can you give quotes and instructions in plain, simple English?
-Yes. Noble Park is one of Melbourne's most multicultural suburbs, so we keep every conversation straightforward: an honest quote, no jargon, and a cleaner who explains the job in simple terms before starting, whatever language is spoken at home.
+Yes. Noble Park is one of Melbourne's most multicultural suburbs, so we keep every conversation straightforward: an honest quote, no jargon, and the job explained in simple terms before starting, whatever language is spoken at home.
 
 ### Can you coordinate a carpet clean directly with a real estate agent for a lease changeover?
 Yes. We regularly work straight with property managers and agents preparing a unit for the next tenant, scheduling the clean to fit the gap between the outgoing and incoming leases and providing a receipt the agency can keep on file.

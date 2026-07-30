@@ -19,7 +19,7 @@ Because these tenancies are small, we build the checklist tightly. A five-item g
 
 Village-centre businesses often close earlier than a big centre and open earlier too, which leaves a genuinely narrow window. After-hours commercial cleaning here usually lands in the early evening or the hour before opening, and we are available seven days a week including weekends and public holidays with no loading for the day of the week. If your quietest day is a midweek afternoon rather than a night, we can work then instead.
 
-Commercial cleaners Blackburn businesses let into a shop after close should be people you have no reservations about. Ours are police-checked, trained in workplace and chemical safety, and communicate clearly. We hold $20 million public liability insurance plus WorkCover, and there is more on how sites are run and supervised on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
+Commercial cleaners Blackburn businesses let into a shop after close should be people you have no reservations about. Ours are police-checked and trained in workplace and chemical safety, and our management team provides clear and responsive communication. We hold $20 million public liability insurance plus WorkCover, and there is more on how sites are run and supervised on our [commercial cleaning Melbourne](https://www.twinkleclean.com.au/commercial-cleaning/) page.
 
 Call us now on 0498 182 989 to talk through your trading hours and access.
 

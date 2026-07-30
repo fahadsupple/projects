@@ -16,7 +16,7 @@ Glen Waverley has a busy commercial core around the station and The Glen shoppin
 
 ## Our carpet cleaning method
 
-We match the method to the carpet rather than running one setting across every floor. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back out, leaving the carpet damp instead of soaked.
+We match the method to the carpet rather than running one setting across every floor. The core clean uses truck-mounted hot water extraction, often called steam cleaning, which flushes soil out of the pile and draws the moisture back out, leaving the carpet damp instead of soaked. Truck-mounted cleaning is available where the property has suitable access.
 
 Delicate wool and natural-fibre rugs get a gentler, low-moisture approach where the fibre calls for it. For the full detail on our equipment and method, see our [carpet cleaning Melbourne](https://www.twinkleclean.com.au/carpet-cleaning/) hub.
 
