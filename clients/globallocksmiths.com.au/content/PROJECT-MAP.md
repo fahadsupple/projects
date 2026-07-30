@@ -1,6 +1,6 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-30T00:55:38Z_
+_Rebuilt: 2026-07-30T05:31:20Z_
 
 ## Snapshot
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-30T00:55:38Z_
 
 ## Recent events (last 10)
 
-- 2026-07-29T04:30:44.733Z  `phase_halted`  project:voice-corpus-ingest  (halted)
-- 2026-07-29T04:31:38.770Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-29T04:31:50.214Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-30T00:53:58.658Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-30T00:53:58.660Z  `upgrade_corpus_ingested`  project:voice-corpus  (success)
-- 2026-07-30T00:53:58.660Z  `phase_resumed`  project:voice-corpus-ingest  (success)
-- 2026-07-30T00:54:54.503Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-30T00:54:54.504Z  `client_profile_updated`  client:globallocksmiths.com.au  (success)
-- 2026-07-30T00:55:13.307Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-30T00:55:24.817Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-30T05:15:25.716Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-30T05:15:37.511Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-30T05:15:46.791Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-30T05:17:00.496Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-30T05:17:36.860Z  `serp_research_completed`  cluster:service-hubs  (success)
+- 2026-07-30T05:17:36.861Z  `serp_research_completed`  cluster:service-location-smart-lock-installation  (success)
+- 2026-07-30T05:17:36.861Z  `analyst_warning`  project:keyword-research  (success)
+- 2026-07-30T05:17:50.353Z  `analyst_warning`  project:keyword-research  (success)
+- 2026-07-30T05:31:20.304Z  `suburb_service_ground_truth_completed`  cluster:service-location-smart-lock-installation  (success)
+- 2026-07-30T05:31:20.447Z  `analyst_warning`  project:suburb-service-research  (success)
 

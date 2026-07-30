@@ -1,0 +1,23 @@
+{
+  "suburb": "Williamstown",
+  "service": "smart lock installation",
+  "climate_context": "Insufficient local data — recommend manual research",
+  "building_stock": "The returned Williamstown records point to two distinct door situations rather than one: Aus Lock's Williamstown/Williamstown North pages describe \"retrofitting modern keyless locks to older door hardware\" on \"Williamstown's historic properties without losing their charm\", while Airtasker's Williamstown VIC lock-installation listings show real jobs on non-standard openings — a Yale Assure SL going onto a door with \"an existing dead latch in place [that] needs to be replaced\", and two roller doors on a garage shed behind a Williamstown shop — so a writer should treat older/original door hardware compatibility and secondary openings (garage, outbuilding, shopfront) as the local installation reality, not a flush modern front door.",
+  "council_notes": "None identified — no returned record cites a heritage overlay, owners-corporation/body-corporate rule, or rental-provider obligation for Williamstown; the closest signal (Aus Lock, williamstown-north) frames older-property work as an appearance-preservation constraint on the retrofit rather than a stated planning control, so any regulatory claim would need manual verification.",
+  "demographic_skew": "Two segments are evidenced for Williamstown: a mixed-tenure residential base — 24h Melbourne Locksmith's Williamstown page addresses \"a homeowner, tenant or a landlord\" and their \"investment property\", with \"Changing the Keys of the existing locks when moving in\" as the trigger, which suggests move-in/turnover-driven demand alongside owner-occupiers — and a genuine non-residential segment, since Aus Lock names \"Williamstown and Williamstown North schools, health facilities, corporate and commercial customers\" for keyless entry and access control, and an Airtasker poster is a Williamstown shop owner; note the tenure triad is competitor page copy and may be boilerplate, whereas the institutional/commercial list and the shop-owner task are Williamstown-specific.",
+  "common_concerns": [
+    "Whether a smart lock can be retrofitted to older, original door hardware without changing how the door looks — Aus Lock's Williamstown North page sells exactly this (\"retrofitting modern keyless locks to older door hardware ... without losing their charm\"), which implies it is the objection local customers raise.",
+    "Whether the existing latch will accept the new lock, or has to be swapped out first — an Airtasker Williamstown VIC job reads \"Installation of Yale assure SL door lock (supplied) There is an existing dead latch in place needs to be replaced with the new smart lock\", i.e. the customer discovered the extra work only at install time.",
+    "Finding someone to fit hardware the customer has already bought themselves — the Williamstown Airtasker tasks are both supply-excluded (\"Yale assure SL door lock (supplied)\"; \"Liftaway universal Garage door locks from bunnings and backing plates\"), so labour-only fitting of owner-purchased smart locks is a live local ask.",
+    "Whether the installer will also handle openings beyond the main entry door — the same Williamstown Airtasker poster needs locks replaced on \"2 rolling doors\" of a \"Garage shed behind my shop in Williamstown\", and Aus Lock's Williamstown listing extends to access control across commercial and institutional premises."
+  ],
+  "provenance": {
+    "source": "brave-local-williamstown-smart-lock-installation.json (Brave local search fell back to web search)",
+    "records_returned": 10,
+    "records_discarded_wrong_geo": 0,
+    "geo_guard_notes": "Every returned record is verifiably Melbourne/Victorian Williamstown: Yellow Pages resolves to \"Williamstown, VIC 3016\"; Oneflare (/locksmith/vic/williamstown) and both Airtasker pages (/williamstown-vic/) are VIC-scoped; Aus Lock files Williamstown under \"Western Suburbs ... Melbourne\"; the remaining domains are .com.au Melbourne locksmiths. No Massachusetts, New Jersey or South Australian Williamstown records, no GBP/£ or US$ pricing, no (02)/(07)/(08) interstate numbers, and no Checkatrade-type UK directories appeared.",
+    "insufficient_keys": [
+      "climate_context"
+    ]
+  }
+}

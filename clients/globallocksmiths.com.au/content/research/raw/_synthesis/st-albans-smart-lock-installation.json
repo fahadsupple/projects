@@ -1,0 +1,31 @@
+{
+  "climate_context": "Insufficient local data — recommend manual research",
+  "building_stock": "Insufficient local data — recommend manual research — every returned record that actually described door stock was UK St Albans (Hertfordshire) and was discarded: Active Lock Centre (.co.uk) supplied the \"uPVC door repairs\" and \"anti-snap lock upgrades\" detail and Locksmiths St Albans 24/7 (.co.uk, self-described as serving \"St Albans & Hertfordshire\") supplied \"Antique & Vintage Lock Repair: Preserving the character of older properties\" plus the Yale/Ultion/Nuki fitting list, so none of that is admissible for St Albans VIC; the two geo-admissible Australian records say only \"residential\" and \"homes and businesses\" (locksmithstalbans.com.au) and \"repairs & installations\" (Airtasker St Albans VIC), which evidences no dominant dwelling type, door material or thickness — door type must be confirmed per job. Writer note: do not reuse the uPVC / anti-snap / antique-timber angles that dominate this SERP, they are Hertfordshire.",
+  "council_notes": "None identified — no geo-admissible St Albans VIC record references a heritage overlay, council permit, owners-corporation or body-corporate rule, or rental-provider obligation; the only landlord/tenant framing in the result set came from the two UK St Albans sites (Active Lock Centre's \"homeowners, landlords, tenants and businesses\" and Locksmiths St Albans 24/7) and was discarded as wrong-geo, so nothing regulatory can be claimed for St Albans VIC from this data.",
+  "demographic_skew": "Insufficient local data — recommend manual research — neither geo-admissible record carries a demographic signal: the Airtasker St Albans VIC page describes supply (\"15 local locksmith\", \"10+ Best Rated\") not residents, and locksmithstalbans.com.au says only \"residential\" and \"homes and businesses\"; no returned record evidences renter-vs-owner mix, age profile, family composition or short-stay turnover for St Albans VIC.",
+  "common_concerns": [
+    "Getting a firm price before committing, and being able to compare it — the geo-confirmed Airtasker St Albans VIC page is built entirely around \"Get FREE quotes in minutes\" with \"15 local locksmith\" competing for the same suburb, so residents here arrive expecting to collect several quotes rather than accept the first number.",
+    "Vetting who is allowed to work on their door — the St Albans VIC listing residents land on ranks tradespeople by \"reviewed, rated & trusted\" and is titled \"10+ Best Rated Locksmith in St Albans VIC\", indicating proof of review history matters more to this audience than lock brand names (no returned St Albans VIC record mentions a single smart lock brand).",
+    "Whether existing locks can be repaired or upgraded instead of replaced outright — locksmithstalbans.com.au sells \"lock installation, repairs, and upgrades\" as one offer and places smart locks on a menu beside safe installation (\"From smart locks to safe installations\"), so buyers are choosing between upgrade paths rather than arriving already decided on a smart lock."
+  ],
+  "_geo_guard_notes": {
+    "records_returned": 10,
+    "records_discarded": 8,
+    "records_used": 2,
+    "used": [
+      "https://www.airtasker.com/au/services/locksmith/st-albans-vic/ — geo-confirmed, states \"St Albans VIC\" explicitly",
+      "https://locksmithstalbans.com.au/ — .com.au, no UK or interstate markers, but state is NOT stated on the page; treated as admissible Australian, weakly anchored, used only for what it literally says about the service menu"
+    ],
+    "discarded": [
+      "https://locksmithsstalbans247.co.uk/smart-lock-installation/harpenden — UK (.co.uk, Harpenden is Hertfordshire)",
+      "https://locksmithsstalbans247.co.uk/smart-lock-installation — UK (.co.uk)",
+      "https://locksmithsstalbans247.co.uk/ — UK, self-described \"St Albans & Hertfordshire\"",
+      "https://www.activelockcentre.co.uk/locksmiths-in-st-albans/ — UK (.co.uk)",
+      "https://www.checkatrade.com/Search/Locksmith/in/St-Albans — UK Checkatrade (the known leak source for this project)",
+      "https://www.checkatrade.com/Search/Digital-Smart-Door-Lock-Installation/in/St-Albans — UK Checkatrade",
+      "https://stalbansrdlocksmith.com/ — geo-unverifiable: brand is a street name (St Albans Rd), no country, state or phone signal anywhere in the record",
+      "https://www.atozlocksmiths.com.au/service/locksmiths-st-albans-park — Victorian but the WRONG SUBURB: St Albans Park, explicitly \"this south-east Geelong suburb\", not St Albans in Melbourne's west"
+    ],
+    "verdict": "6 of 10 returned records were UK St Albans (Hertfordshire), confirming the homonym warning; 1 was geo-unverifiable and 1 was the adjacent-but-different Victorian suburb St Albans Park (Geelong). Only 2 records survived, and only 1 of those is explicitly Victorian, so 3 of the 5 physical-contract keys are honestly empty."
+  }
+}
