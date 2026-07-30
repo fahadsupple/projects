@@ -1,0 +1,307 @@
+{
+  "business_type": "local_service",
+  "general_budget": 4,
+  "location_budget": 36,
+  "business_context": {
+    "business_type": "local_service",
+    "client_da": 0,
+    "client_da_basis": "not yet measured \u2014 written as 0 at init; Phase 5 Step 5.1 copies metrics.json client_domain_authority into config.client_da. Domain registered 2026-04-29 (~3 months), expect a very low score.",
+    "business_name": "Gloss Studio Adelaide",
+    "domain": "glossstudioadl.com.au",
+    "jurisdiction": {
+      "country": "Australia",
+      "state": "SA",
+      "state_name": "South Australia",
+      "primary_city": "Adelaide",
+      "premises": "Unit 4, 13 Thames Avenue, Klemzig SA 5087",
+      "terminology_notes": "AU/SA market. Industry uses 'window tinting' (not 'window film') for the consumer-facing term; 'paint protection' outranks 'paint protection film' 4:1 at Adelaide level. SA-specific regulatory angle: window tint VLT limits (75% windscreen, 35% front side) are a genuine content differentiator with no equivalent in other states."
+    },
+    "operating_model": "Fixed-premises workshop, NOT mobile. All work performed indoors at Klemzig under controlled lighting and climate. This constrains realistic catchment radius \u2014 suburb selection should weight drive-time from Klemzig (inner-north / inner-east / north-east) above far-south metro.",
+    "competitive_landscape": {
+      "seed_competitors_count": 7,
+      "notes": "MEASURED (Phase 3b, corrected from the Phase 0 pre-data estimate): this is a WEAK-AUTHORITY market. Competitor Domain Authority: ceramicar.com.au 15, adelaidepaintprotection.com.au 13, elitefinish.com.au 12, adelaideautomotivedetailing.com.au 10, madcoupe.com.au 3, eyecandydetailing.com.au 2, svautosalon.com.au 1. No rival exceeds DA 15. Head-term difficulty is correspondingly low \u2014 'paint protection adelaide' and 'ceramic coating adelaide' both return KD 0, 'window tinting adelaide' KD 3, 'ppf adelaide' KD 7. The Phase 0 note that incumbents held 'years of accrued authority' and that head terms were a 12-month play was written before DA data existed and is WRONG. Head terms are genuinely contestable inside 12 months.",
+      "excluded_pending_escalation": "adelaidedetailinggarage.com.au \u2014 the owner's former employer and closest structural competitor. Warehouse shows status 'active' while the BDM brief calls them an ex-client. Excluded from seed_competitors by analyst decision until the conflict is resolved.",
+      "dominant_player": "adelaidepaintprotection.com.au (DA 13) holds a top-3 organic position on 3 of the 4 head terms (ceramic coating adelaide, paint protection adelaide, ppf adelaide) \u2014 the single most important organic rival, and one the client named in Q16 only as a bare phrase.",
+      "local_pack_finding": "Google shows a local pack on 31 of 42 probed SERPs (74%). For a DA-0 business with no GBP review base, the local pack is the fastest realistic route to visibility \u2014 this materially raises the value of the GMB deliverable relative to organic content."
+    },
+    "source_counts": {
+      "gsc_queries_90d": 0,
+      "gsc_top_pages_90d": 0,
+      "gsc_status": "DEGRADED \u2014 no GSC property exists for glossstudioadl.com.au. Analyst approved proceeding degraded at preflight. Quick-wins track is unavailable for this run.",
+      "sitemap_urls": 9,
+      "nav_categories": 4,
+      "client_declared_suburbs": 39,
+      "existing_tracked_keywords": 0,
+      "reference_portfolio_keywords": 22,
+      "dataforseo_volume_probes": 18,
+      "statement": "Allocation derived from 9 sitemap URLs + 4 nav service categories + 39 client-declared suburbs across 6 named rings (/areas.html) + 18 DataForSEO Adelaide-level volume probes + a 22-keyword structural reference portfolio recovered from Adelaide Detailing Garage. GSC contributed 0 queries and 0 pages \u2014 no property exists, so no demand signal from the client's own search history was available. Tier weights below reflect measured Adelaide search demand, not questionnaire emphasis."
+    },
+    "data_gaps": [
+      "GSC unavailable \u2014 no quick_wins track, no impression-based demand validation, no striking-distance detection.",
+      "Owner name missing from the questionnaire (Q3 and Q9 both returned ABN-lookup dumps) \u2014 blocks E-E-A-T reasoning on author/expertise signals.",
+      "No Google rating or review count \u2014 GBP appears new or unclaimed; review-vocabulary mining in Phase 1 will lean on competitor reviews instead.",
+      "NAP CONFLICT: questionnaire Q8 states Mon\u2013Fri 9:00am\u20135:00pm / Sat 9:00am\u20133:00pm; the live site footer and /areas.html state Mon\u2013Fri 8am\u20135pm / Sat 8am\u20133pm. Must be resolved before GBP and citation work."
+    ],
+    "correction_log": [
+      {
+        "field": "business_context.competitive_landscape.notes",
+        "corrected_on": "2026-07-27",
+        "reason": "Phase 0 asserted incumbents had years of accrued authority. Phase 3b measured DA 1-15 across all 7 competitors and Phase 3a returned head-term KD 0-7. The original claim would have wrongly pushed Phase 5 away from head terms."
+      }
+    ]
+  },
+  "package": {
+    "keyword_type": "fixed_split",
+    "general_keywords": 4,
+    "location_keywords": 36,
+    "total_keywords": 40,
+    "suburb_source": "data-driven (scored over the client's 39 declared suburbs \u2014 analyst decision at Phase 0)"
+  },
+  "service_tiering": [
+    {
+      "service": "Window Tinting",
+      "tier": "A",
+      "head_term": "window tinting adelaide",
+      "volume": 880,
+      "competition_index": 54,
+      "cpc": 2.2,
+      "rationale": "Highest measured volume inside the client's actual service set. MEDIUM competition. Also carries a genuine SA-regulatory content angle (VLT limits) that supports topical depth."
+    },
+    {
+      "service": "Paint Protection",
+      "tier": "A",
+      "head_term": "paint protection adelaide",
+      "volume": 720,
+      "competition_index": 15,
+      "cpc": 6.08,
+      "rationale": "Best opportunity ratio in the entire probe set \u2014 720/mo at competition index 15 with the highest CPC ($6.08). High commercial value against almost no paid competition. Independently matches the silo Adelaide Detailing Garage built its ranking portfolio on."
+    },
+    {
+      "service": "Ceramic Coating",
+      "tier": "B",
+      "head_term": "ceramic coating adelaide",
+      "volume": 590,
+      "competition_index": 71,
+      "cpc": 4.55,
+      "rationale": "The client's brand-anchor service \u2014 homepage title leads with it and GYEON authorised-partner status is the strongest credential they hold. Volume is solid but HIGH competition (71) makes the head term a 12-month play at DA 0; suburb-level entry is the realistic route."
+    },
+    {
+      "service": "PPF",
+      "tier": "B",
+      "head_term": "ppf adelaide",
+      "volume": 170,
+      "competition_index": 45,
+      "cpc": 6.12,
+      "rationale": "Distinct service with its own page, named first in the client's Q13 preference, and the highest CPC in the set ($6.12). Generic 'paint protection' outsells the film-specific term 4:1, so PPF earns a general slot but NOT a location silo."
+    },
+    {
+      "service": "Paint Correction",
+      "tier": "C",
+      "head_term": "paint correction adelaide",
+      "volume": 50,
+      "competition_index": 86,
+      "cpc": 2.16,
+      "rationale": "50/mo at competition index 86 \u2014 too thin for a general slot in a 40-keyword package and too thin for a location silo. Covered as a secondary keyword on the ceramic-coating and paint-protection pages, where it is a genuine upstream prerequisite service."
+    }
+  ],
+  "silos": [
+    {
+      "silo_id": "window_tinting",
+      "tier": "A",
+      "suburb_head_term": "window tinting",
+      "head_volume_adelaide": 880,
+      "suburbs": 12,
+      "location_keywords": 12,
+      "rationale": "Highest-volume suburb head term available. Chosen over 'car window tinting' (590) and 'window tint' (880, same competition profile but weaker modifier breadth)."
+    },
+    {
+      "silo_id": "paint_protection",
+      "tier": "A",
+      "suburb_head_term": "paint protection",
+      "head_volume_adelaide": 720,
+      "suburbs": 12,
+      "location_keywords": 12,
+      "rationale": "Chosen over 'paint protection film' (170) and 'car paint protection' (30) \u2014 the generic form carries 4x the volume at a quarter of the competition. Matches the ADG reference portfolio exactly."
+    },
+    {
+      "silo_id": "ceramic_coating",
+      "tier": "B",
+      "suburb_head_term": "ceramic coating",
+      "head_volume_adelaide": 590,
+      "suburbs": 12,
+      "location_keywords": 12,
+      "rationale": "Brand-anchor service and the second silo in the ADG reference portfolio, where 8 of 10 suburb pages held position 1. Suburb-level competition is far weaker than the head term's index of 71."
+    }
+  ],
+  "location_grid": {
+    "M_silos": 3,
+    "N_suburbs": 12,
+    "total": 36,
+    "uniform": true,
+    "grid_note": "Uniform grid \u2014 every selected suburb receives all 3 silos. 12 x 3 = 36 exactly, no bonus keywords needed and no two-pass scoring required.",
+    "suburb_pool_source": "client-declared /areas.html (39 suburbs, 6 named rings), scored data-driven in Phase 2",
+    "suburb_pool": {
+      "inner_north": [
+        "Prospect",
+        "Broadview",
+        "Enfield",
+        "Clearview",
+        "Blair Athol",
+        "Gepps Cross",
+        "Oakden",
+        "Lightsview"
+      ],
+      "inner_east": [
+        "Marden",
+        "Norwood",
+        "St Peters",
+        "Magill",
+        "Felixstow",
+        "Hectorville",
+        "Rostrevor",
+        "Campbelltown"
+      ],
+      "north_east": [
+        "Valley View",
+        "Windsor Gardens",
+        "Modbury",
+        "Tea Tree Gully",
+        "Holden Hill",
+        "Hillcrest"
+      ],
+      "city_and_inner": [
+        "Adelaide CBD",
+        "North Adelaide",
+        "Medindie",
+        "Gilberton",
+        "College Park",
+        "Payneham"
+      ],
+      "north_west": [
+        "Gilles Plains",
+        "Para Hills",
+        "Mawson Lakes",
+        "Pooraka",
+        "Salisbury",
+        "Elizabeth"
+      ],
+      "south_and_other": [
+        "Unley",
+        "Mitcham",
+        "Glenelg",
+        "Marion",
+        "Noarlunga"
+      ]
+    },
+    "priors": {
+      "q17_named": [
+        "Prospect",
+        "Marden",
+        "Valley View",
+        "Windsor Gardens",
+        "Broadview",
+        "Enfield",
+        "Clearview",
+        "Campbelltown",
+        "Norwood",
+        "Gepps Cross"
+      ],
+      "q17_coverage": "all 10 present in the declared pool",
+      "adg_proven": [
+        "Flagstaff Hill",
+        "Glenelg North",
+        "Magill",
+        "Mawson Lakes",
+        "Norwood",
+        "Prospect",
+        "Rostrevor",
+        "Seaton",
+        "North Adelaide",
+        "Campbelltown"
+      ],
+      "adg_coverage": "7 of 10 present (Magill, Mawson Lakes, Norwood, Prospect, Rostrevor, North Adelaide, Campbelltown). Absent from the client's declared pool: Flagstaff Hill, Glenelg North, Seaton \u2014 all far-south or west of the Klemzig workshop.",
+      "drive_time_note": "Fixed-premises operator. Phase 2 scoring should weight inner_north, inner_east and north_east above south_and_other, which sits 20-40 minutes from Klemzig."
+    }
+  },
+  "general_allocation": [
+    {
+      "keyword": "window tinting adelaide",
+      "silo": "window_tinting",
+      "tier": "A",
+      "volume": 880,
+      "track": "existing_page_optimisation",
+      "eligibility_evidence": "sitemap match \u2014 /window-tinting.html exists and already targets this term in its title tag; needs depth and SA VLT-regulation content rather than a new page."
+    },
+    {
+      "keyword": "paint protection adelaide",
+      "silo": "paint_protection",
+      "tier": "A",
+      "volume": 720,
+      "track": "existing_page_optimisation",
+      "eligibility_evidence": "sitemap match \u2014 /paint-protection-film.html exists but is titled to the film-specific term; retargeting it to the 4x-higher-volume generic is an optimisation, not new content."
+    },
+    {
+      "keyword": "ceramic coating adelaide",
+      "silo": "ceramic_coating",
+      "tier": "B",
+      "volume": 590,
+      "track": "existing_page_optimisation",
+      "eligibility_evidence": "sitemap match \u2014 /ceramic-coating.html exists and the homepage title also targets this term; a title-collision check is required in Phase 4."
+    },
+    {
+      "keyword": "ppf adelaide",
+      "silo": "paint_protection",
+      "tier": "B",
+      "volume": 170,
+      "track": "existing_page_optimisation",
+      "eligibility_evidence": "sitemap match \u2014 /paint-protection-film.html is the natural home for the film-specific term once the generic moves to the paint-protection head; resolves an internal title conflict rather than creating a page."
+    }
+  ],
+  "tracks": {
+    "quick_wins": {
+      "count": 0,
+      "reason": "Requires GSC. No property exists for this domain \u2014 unavailable for this run."
+    },
+    "existing_page_optimisation": {
+      "count": 4,
+      "reason": "All 4 general keywords map to service pages that already exist on the live site."
+    },
+    "category_gap_fill": {
+      "count": 36,
+      "reason": "The site has zero suburb pages. Every location keyword requires new content."
+    },
+    "geo_expansion": {
+      "count": 0,
+      "reason": "Requires a template_proven cluster with at least one ranking page. The client has no rankings \u2014 the domain is ~3 months old with DA 0."
+    },
+    "deviation_note": "The fresh-client default split is 45% existing_page_optimisation / 45% category_gap_fill / 10% geo_expansion, which on 40 keywords would be 18/18/4. Actual classification is 4/36/0 because track eligibility is a factual test against the sitemap, and only 4 optimisable pages exist. Classified on fact rather than forced to the default ratio."
+  },
+  "default_exclusions": {
+    "brand_defence": {
+      "excluded": true,
+      "generated": 0,
+      "reason": "config.include_brand_defence = false. Queries containing 'Gloss Studio' belong to the reputation / AI-overview monitoring track, not the organic keyword track."
+    },
+    "near_me": {
+      "excluded": true,
+      "generated": 0,
+      "reason": "config.include_near_me = false. 'Near me' variants belong to the GBP local-pack track. With only 4 general slots, a near-me variant would displace a service head term."
+    },
+    "summary_line": "Default-excluded: 0 brand-defence (tracked in reputation), 0 near-me (tracked in GBP local pack) \u2014 both suppressed at source by config flags rather than generated then stripped. Set include_brand_defence or include_near_me in config.json to opt these back in."
+  },
+  "third_party_brands": {
+    "enabled": true,
+    "authorised_partners": [
+      "GYEON",
+      "XPEL",
+      "SunTek",
+      "3M",
+      "LLumar"
+    ],
+    "phase_0_finding": "Adelaide-level volume probes returned NO measurable volume for 'xpel adelaide', 'gyeon ceramic coating adelaide' or 'tesla ceramic coating adelaide'. Brand-prefixed terms are zero-volume at this geography. Carriage is genuine and confirmed in questionnaire Q21, so they remain eligible as secondaries and as on-page trust signals, but none should win one of the 4 general slots."
+  },
+  "analyst_decisions": [
+    "4th general slot: 'ppf adelaide' (170/mo) chosen over 'paint correction adelaide' (50/mo) and 'car detailing adelaide' (1600/mo). Car detailing was rejected as off-service \u2014 questionnaire Q12 lists only the 4 protection services, so ranking for it would attract work the client does not sell.",
+    "Suburb pool: score the client's 39 declared suburbs data-driven rather than running open Adelaide-metro discovery. Respects the catchment the client has publicly committed to on /areas.html while keeping selection evidence-based."
+  ]
+}

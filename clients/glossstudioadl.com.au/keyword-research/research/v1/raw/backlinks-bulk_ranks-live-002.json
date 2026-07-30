@@ -1,0 +1,78 @@
+{
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0389 sec.",
+    "cost": 0.024288,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07270916-1150-0347-0000-4460ecd1de5c",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0103 sec.",
+            "cost": 0.024288,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "glossstudioadl.com.au",
+                    "ceramicar.com.au",
+                    "elitefinish.com.au",
+                    "eyecandydetailing.com.au",
+                    "madcoupe.com.au",
+                    "svautosalon.com.au",
+                    "adelaideautomotivedetailing.com.au",
+                    "adelaidepaintprotection.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 8,
+                    "items": [
+                        {
+                            "target": "glossstudioadl.com.au",
+                            "rank": 0
+                        },
+                        {
+                            "target": "ceramicar.com.au",
+                            "rank": 150
+                        },
+                        {
+                            "target": "elitefinish.com.au",
+                            "rank": 122
+                        },
+                        {
+                            "target": "eyecandydetailing.com.au",
+                            "rank": 17
+                        },
+                        {
+                            "target": "madcoupe.com.au",
+                            "rank": 33
+                        },
+                        {
+                            "target": "svautosalon.com.au",
+                            "rank": 10
+                        },
+                        {
+                            "target": "adelaideautomotivedetailing.com.au",
+                            "rank": 105
+                        },
+                        {
+                            "target": "adelaidepaintprotection.com.au",
+                            "rank": 127
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

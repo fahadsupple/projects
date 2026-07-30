@@ -1,0 +1,16 @@
+{
+  "gate": "selection",
+  "passed": true,
+  "errors": 0,
+  "warnings": 1,
+  "keywords_sha256": "5ecd9a10a275d773252cac9bb852f2aca70ba51756c4b3a2edaf32ceeae83709",
+  "validated_at_utc": "2026-07-27T07:14:03.563884+00:00",
+  "validator_version": "0.6.1",
+  "serp_grounding_waivers": [],
+  "issues_summary": [
+    {
+      "check": "missing_city_keywords",
+      "severity": "warning"
+    }
+  ]
+}

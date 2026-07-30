@@ -1,0 +1,1988 @@
+{
+  "metadata": {
+    "client": "glossstudioadl.com.au",
+    "version": "v1",
+    "generated_at": "",
+    "package": {
+      "general": 4,
+      "location": 36
+    },
+    "total_candidates_analysed": 166,
+    "effective_keyword_reach": 3730,
+    "strategic_narratives": [
+      {
+        "title": "The suburb grid is a deliberate zero-volume land grab, not a data failure",
+        "severity": "high",
+        "summary": "32 of the client's 39 declared suburbs return zero recorded search volume, and 29 of the 36 selected grid keywords are zero even at national scope. This is the correct strategy for this market, not a gap in the research: the recovered Adelaide Detailing Garage portfolio shows 16 of 20 suburb pages holding position 1 on exactly these zero-volume terms. Suburb pages here win local-intent and map-pack traffic that keyword tools do not record. Any downstream filter that drops zero-volume keywords would delete 29 of the 36 location deliverables."
+      },
+      {
+        "title": "Campbelltown volume is inflated 72x by interstate contamination",
+        "severity": "high",
+        "summary": "metrics.json was collected at AU-national scope (location_code 2036), where 'window tinting campbelltown' reads 720/mo and 'ceramic coating campbelltown' 110/mo. Adelaide-scoped probing (location_code 1000422) returns 10/mo for both — the national figure is Campbelltown NSW, a major Sydney centre 1,300km from the Klemzig workshop. Campbelltown SA remains correctly selected on ADG position-1 proof, Q17 naming and inner-east proximity, but forecasts must use 20/mo, not 830/mo. Headline reach of 3,730/mo therefore overstates by ~820/mo; the honest Adelaide-scoped figure is ~2,910/mo. Every other suburb in the grid is consistent across both scopes."
+      },
+      {
+        "title": "Local pack on 74% of SERPs while the client has no review base",
+        "severity": "high",
+        "summary": "Phase 3c found a local pack present on 31 of 42 probed SERPs. The client has no Google rating and no review count in the questionnaire, and the brand probe returned rank_position absent with 0% SERP control. For a DA-0 domain the map pack is the fastest realistic route to visibility, which makes the GMB deliverable in the BDM brief higher-leverage than the organic content in the first 90 days. The unresolved NAP conflict (questionnaire Q8 says 9am open, the live site says 8am) must be settled before citation building starts."
+      },
+      {
+        "title": "Weak-authority market — head terms are contestable, contrary to the initial read",
+        "severity": "medium",
+        "summary": "Phase 3b measured competitor Domain Authority at 15, 13, 12, 10, 3, 2 and 1 — no rival exceeds DA 15. Head-term difficulty is correspondingly low: 'paint protection adelaide' and 'ceramic coating adelaide' both KD 0, 'window tinting adelaide' KD 3, 'ppf adelaide' KD 7. A Facebook page currently holds position 3 for 'paint protection adelaide' (880/mo, $5.71 CPC). The Phase 0 assumption that head terms were a 12-month play against entrenched incumbents was written before DA data existed and has been corrected in allocation.json."
+      },
+      {
+        "title": "SERP probe coverage is partial",
+        "severity": "medium",
+        "summary": "Phase 3c probed 42 of 166 candidates at --per-silo-n 14 (reduced from 20 after the first 60-probe run was interrupted by a session restart at probe 23). All 4 general keywords and the highest-value location terms were probed; lower-ranked zero-volume suburb cells were not. No selected keyword relies on an unprobed SERP for its reasoning."
+      }
+    ],
+    "volume_note": "Headline 'primary volume' of 3,730/mo is computed from metrics.json at AU-national scope. The geographically honest Adelaide-scoped figure is ~2,910/mo — see the Campbelltown strategic narrative. National scope is CORRECT for the 4 general keywords (anyone in Australia searching '{service} adelaide' is a real prospect) and only distorts ambiguous bare suburb names."
+  },
+  "general_keywords": [
+    {
+      "rank": 1,
+      "keyword": "window tinting adelaide",
+      "silo": "window_tinting",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5968,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 1000,
+        "ai_adjusted": 1000,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 3,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 2.23,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/window-tinting.html",
+      "action": "create_new",
+      "content_type": "Service page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "Highest-volume term in the client's entire addressable service set (1000/mo, KD 3, CPC $2.23). Phase 3c SERP composition shows the top 3 as r1auto.com.au, tintbros.com.au and affordablewindowtintingadl.setmore.com — the #3 slot is a Setmore booking-page subdomain, not a real service page, which is a weak incumbent a proper page displaces. Local pack is present on this SERP, so the GMB deliverable compounds the organic win. Client USP: they are authorised LLumar and 3M film installers (questionnaire Q21) and questionnaire Q22 documents exact SA VLT compliance — 75% windscreen, 35% front side — which is a genuine SA-only content moat no interstate competitor replicates. gaps.json classes the existing /window-tinting.html as EXISTS_OPTIMISED and it already carries an 'SA Legal Limits' title, so this is a depth and schema play, not a new build. Phase 3c returned 3 cost-and-legality PAA questions ('What is the darkest legal tint in Adelaide?', 'How much does window tinting cost in Adelaide?', 'Is 35% or 20% tint darker?') that map directly to FAQ schema. Achievable: KD 3 against a DA-0 site is winnable inside 3-6 months.",
+      "secondaries": {
+        "keywords": [
+          "car window tinting",
+          "auto window tinting",
+          "ceramic window tint",
+          "carbon window tint",
+          "legal window tint limits",
+          "how much does window tinting cost",
+          "darkest legal tint"
+        ],
+        "long_tail": [
+          "car window tinting",
+          "auto window tinting",
+          "ceramic window tint",
+          "carbon window tint",
+          "legal window tint limits",
+          "how much does window tinting cost",
+          "darkest legal tint"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "selection_layer": "Layer 1 — Must-Have"
+    },
+    {
+      "rank": 2,
+      "keyword": "paint protection adelaide",
+      "silo": "paint_protection",
+      "service_tier": "A",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5376,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 880,
+        "ai_adjusted": 880,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 5.71,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/paint-protection.html",
+      "action": "create_new",
+      "content_type": "Service page (new hub — see reasoning)",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "The single best commercial opportunity in this study: 880/mo at KD 0 with a $5.71 CPC — the highest-value term measured anywhere in the account. Phase 3c shows the top 3 as adelaidepaintprotection.com.au (DA 13), elitefinish.com.au (DA 12) and a www.facebook.com page — a Facebook profile holding position 3 on an 880/mo commercial term is an unambiguous weakness a real service page takes. Competitor DA across all 7 profiled rivals tops out at 15 (Phase 3b), so this is a weak-authority market where a DA-0 entrant is not structurally excluded. Client USP: authorised XPEL, SunTek and GYEON partner status (Q21) plus written warranted products — credentials a Facebook page cannot present. Content gap: /paint-protection-film.html exists but is titled to the film-specific term, and 'paint protection' outsells 'paint protection film' 4:1 at Adelaide level — recommend a dedicated /paint-protection.html hub so the generic head and the PPF sub-service stop competing for one URL. Phase 3c PAA is entirely cost-led ('How much does paint protection cost?', 'Is it worth getting paint protection on a car?'), which the client's free-quote-within-24-hours and no-hidden-fees policy (Q19) answers directly.",
+      "secondaries": {
+        "keywords": [
+          "car paint protection",
+          "ceramic paint protection",
+          "vehicle paint protection",
+          "new car paint protection",
+          "automotive paint protection",
+          "is paint protection worth it"
+        ],
+        "long_tail": [
+          "car paint protection",
+          "ceramic paint protection",
+          "vehicle paint protection",
+          "new car paint protection",
+          "automotive paint protection",
+          "is paint protection worth it"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "selection_layer": "Layer 3 — Strategic Bet"
+    },
+    {
+      "rank": 3,
+      "keyword": "ceramic coating adelaide",
+      "silo": "ceramic_coating",
+      "service_tier": "B",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5152,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 720,
+        "ai_adjusted": 720,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 4.72,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/ceramic-coating.html",
+      "action": "create_new",
+      "content_type": "Service page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "The client's brand-anchor service and a must-have for the silo (720/mo, KD 0, CPC $4.72). Phase 3c top 3 is adelaidepaintprotection.com.au (DA 13), ceramicar.com.au (DA 15) and elitefinish.com.au (DA 12) — the strongest incumbent trio in the account, but still capped at DA 15 per Phase 3b. Local pack is present, adding a second route to visibility while domain authority accrues. Client USP: authorised GYEON partner (Q21) and — the sharper differentiator — a fully climate-controlled indoor Klemzig workshop, where Q11 makes the argument that application conditions matter as much as the product. No competitor in the top 3 makes a controlled-environment claim. Content gap: gaps.json classes /ceramic-coating.html as EXISTS_OPTIMISED, BUT the homepage title tag also leads with 'Ceramic Coating Adelaide' — a live internal title collision between / and /ceramic-coating.html that must be resolved or the two pages will keep splitting signals. Phase 3c PAA surfaces 'Is ceramic coating really worth the money?' and 'What is the downside of ceramic coating?' — objection-handling questions that suit an honest-pricing brand.",
+      "secondaries": {
+        "keywords": [
+          "car ceramic coating",
+          "ceramic paint protection",
+          "gyeon ceramic coating",
+          "how much does ceramic coating cost",
+          "is ceramic coating worth it",
+          "paint correction"
+        ],
+        "long_tail": [
+          "car ceramic coating",
+          "ceramic paint protection",
+          "gyeon ceramic coating",
+          "how much does ceramic coating cost",
+          "is ceramic coating worth it",
+          "paint correction"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "selection_layer": "Layer 1 — Must-Have"
+    },
+    {
+      "rank": 4,
+      "keyword": "ppf adelaide",
+      "silo": "paint_protection",
+      "service_tier": "B",
+      "track": "existing_page_optimisation",
+      "opportunity_score": 0.5657,
+      "score_confidence": "MEDIUM",
+      "volume": {
+        "raw": 210,
+        "ai_adjusted": 210,
+        "trend": "",
+        "seasonal_peak": "",
+        "cross_validation": "PASS",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 7,
+      "winnability": 0.5,
+      "current_position": null,
+      "cpc": 6.85,
+      "intent": "commercial_investigation",
+      "serp_features": [],
+      "ai_overview": {
+        "classification": "none",
+        "citation_opportunity": false
+      },
+      "timeline": "quick_win",
+      "defensibility": "medium",
+      "gap_status": "MISSING",
+      "target_url": "/paint-protection-film.html",
+      "action": "create_new",
+      "content_type": "Service page",
+      "content_investment": "medium",
+      "gbp_tag": "organic-only",
+      "reasoning": "Lowest volume of the four general slots (210/mo, KD 7) but the highest CPC in the account at $6.85 — the market prices PPF leads above every other service the client sells. Phase 3c top 3 is adelaidepaintprotection.com.au, eyecandydetailing.com.au and nextleveldetailing.com.au; eyecandydetailing carries DA 2 per Phase 3b, so two of the three incumbents sit at or below the authority a well-executed 3-month-old site can reach. Client USP: authorised XPEL and SunTek installer (Q21) — both are named, searchable brands that buyers verify, and the client can evidence the partnership where generalist detailers cannot. Demand is also moving: AU-level 'paint protection film car' shows +511% year-on-year and +83% quarterly growth (Phase 1 DataForSEO), so this slot buys a position in a rising category rather than a static one. Content gap: /paint-protection-film.html already exists and becomes the natural PPF home once the generic head term moves to the new /paint-protection.html hub, resolving the current two-terms-one-URL conflict. Phase 3c PAA 'What are the negatives of PPF?' is an honest-comparison angle that fits the client's stated no-shortcuts positioning.",
+      "secondaries": {
+        "keywords": [
+          "paint protection film",
+          "ppf wrap",
+          "xpel paint protection film",
+          "suntek ppf",
+          "self healing paint protection film",
+          "clear wrap car",
+          "what are the negatives of ppf"
+        ],
+        "long_tail": [
+          "paint protection film",
+          "ppf wrap",
+          "xpel paint protection film",
+          "suntek ppf",
+          "self healing paint protection film",
+          "clear wrap car",
+          "what are the negatives of ppf"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "selection_layer": "Layer 5 — Gap Exploit"
+    }
+  ],
+  "location_keywords": [
+    {
+      "rank": 1,
+      "keyword": "ceramic coating salisbury",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Salisbury",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.5497,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 10,
+        "ai_adjusted": 10,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-salisbury.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 10/mo at AU scope; ring 'north_west', scored 60 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. Strongest genuine local demand in the grid: 'window tinting salisbury' returns 40/mo at an $8.50 CPC on Adelaide-scoped probing — a higher CPC than any Adelaide head term measured in this study.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 60
+    },
+    {
+      "rank": 2,
+      "keyword": "paint protection salisbury",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Salisbury",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-salisbury.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; ring 'north_west', scored 60 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. Strongest genuine local demand in the grid: 'window tinting salisbury' returns 40/mo at an $8.50 CPC on Adelaide-scoped probing — a higher CPC than any Adelaide head term measured in this study.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 60
+    },
+    {
+      "rank": 3,
+      "keyword": "window tinting salisbury",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Salisbury",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.6713,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 50,
+        "ai_adjusted": 50,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 8.04,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-salisbury.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 50/mo at AU scope, KD 0; ring 'north_west', scored 60 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. Strongest genuine local demand in the grid: 'window tinting salisbury' returns 40/mo at an $8.50 CPC on Adelaide-scoped probing — a higher CPC than any Adelaide head term measured in this study.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 60
+    },
+    {
+      "rank": 4,
+      "keyword": "ceramic coating campbelltown",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Campbelltown",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.654,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 110,
+        "ai_adjusted": 110,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 3.82,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-campbelltown.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 110/mo at AU scope, KD 0; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 83 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. DATA CAVEAT: metrics.json records 720/mo for 'window tinting campbelltown' and 110/mo for 'ceramic coating campbelltown' at AU-national scope (location_code 2036), but an Adelaide-scoped probe (location_code 1000422) returns only 10/mo for each. The national figure is Campbelltown NSW — a major Sydney centre 1,300km away. Use the Adelaide figure for forecasting; the suburb is still selected on ADG proof, Q17 naming and inner-east proximity, not on the inflated number.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 83
+    },
+    {
+      "rank": 5,
+      "keyword": "paint protection campbelltown",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Campbelltown",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-campbelltown.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 83 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. DATA CAVEAT: metrics.json records 720/mo for 'window tinting campbelltown' and 110/mo for 'ceramic coating campbelltown' at AU-national scope (location_code 2036), but an Adelaide-scoped probe (location_code 1000422) returns only 10/mo for each. The national figure is Campbelltown NSW — a major Sydney centre 1,300km away. Use the Adelaide figure for forecasting; the suburb is still selected on ADG proof, Q17 naming and inner-east proximity, not on the inflated number.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 83
+    },
+    {
+      "rank": 6,
+      "keyword": "window tinting campbelltown",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Campbelltown",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.5304,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 720,
+        "ai_adjusted": 720,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 2.2,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-campbelltown.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 720/mo at AU scope, KD 0; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 83 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content. DATA CAVEAT: metrics.json records 720/mo for 'window tinting campbelltown' and 110/mo for 'ceramic coating campbelltown' at AU-national scope (location_code 2036), but an Adelaide-scoped probe (location_code 1000422) returns only 10/mo for each. The national figure is Campbelltown NSW — a major Sydney centre 1,300km away. Use the Adelaide figure for forecasting; the suburb is still selected on ADG proof, Q17 naming and inner-east proximity, not on the inflated number.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 83
+    },
+    {
+      "rank": 7,
+      "keyword": "ceramic coating norwood",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Norwood",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-norwood.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 68 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 68
+    },
+    {
+      "rank": 8,
+      "keyword": "paint protection norwood",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Norwood",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-norwood.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 68 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 68
+    },
+    {
+      "rank": 9,
+      "keyword": "window tinting norwood",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Norwood",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.6164,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 10,
+        "ai_adjusted": 10,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 5.13,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-norwood.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 10/mo at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_east', scored 68 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 68
+    },
+    {
+      "rank": 10,
+      "keyword": "ceramic coating broadview",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Broadview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.4655,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-broadview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 11,
+      "keyword": "paint protection broadview",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Broadview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.4805,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-broadview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 12,
+      "keyword": "window tinting broadview",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Broadview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-broadview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 13,
+      "keyword": "ceramic coating clearview",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Clearview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-clearview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 14,
+      "keyword": "paint protection clearview",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Clearview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-clearview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 15,
+      "keyword": "window tinting clearview",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Clearview",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-clearview.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 16,
+      "keyword": "ceramic coating gepps cross",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Gepps Cross",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-gepps-cross.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 17,
+      "keyword": "paint protection gepps cross",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Gepps Cross",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-gepps-cross.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 18,
+      "keyword": "window tinting gepps cross",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Gepps Cross",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-gepps-cross.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 19,
+      "keyword": "ceramic coating magill",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Magill",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-magill.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 20,
+      "keyword": "paint protection magill",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Magill",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-magill.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 21,
+      "keyword": "window tinting magill",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Magill",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-magill.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 22,
+      "keyword": "ceramic coating mawson lakes",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Mawson Lakes",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-mawson-lakes.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'north_west', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 23,
+      "keyword": "paint protection mawson lakes",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Mawson Lakes",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-mawson-lakes.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'north_west', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 24,
+      "keyword": "window tinting mawson lakes",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Mawson Lakes",
+      "ring": "north_west",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-mawson-lakes.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'north_west', scored 35 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 35
+    },
+    {
+      "rank": 25,
+      "keyword": "ceramic coating north adelaide",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "North Adelaide",
+      "ring": "city_and_inner",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-north-adelaide.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'city_and_inner', scored 37 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 37
+    },
+    {
+      "rank": 26,
+      "keyword": "paint protection north adelaide",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "North Adelaide",
+      "ring": "city_and_inner",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-north-adelaide.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'city_and_inner', scored 37 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 37
+    },
+    {
+      "rank": 27,
+      "keyword": "window tinting north adelaide",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "North Adelaide",
+      "ring": "city_and_inner",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-north-adelaide.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'city_and_inner', scored 37 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 37
+    },
+    {
+      "rank": 28,
+      "keyword": "ceramic coating rostrevor",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Rostrevor",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-rostrevor.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 29,
+      "keyword": "paint protection rostrevor",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Rostrevor",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-rostrevor.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 30,
+      "keyword": "window tinting rostrevor",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Rostrevor",
+      "ring": "inner_east",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/window-tinting-rostrevor.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; ring 'inner_east', scored 43 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 43
+    },
+    {
+      "rank": 31,
+      "keyword": "ceramic coating enfield",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Enfield",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-enfield.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 45 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 45
+    },
+    {
+      "rank": 32,
+      "keyword": "paint protection enfield",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Enfield",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-enfield.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 45 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 45
+    },
+    {
+      "rank": 33,
+      "keyword": "window tinting enfield",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Enfield",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.3204,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 10,
+        "ai_adjusted": 10,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 41,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "medium_term",
+      "target_url": "/window-tinting-enfield.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 10/mo at AU scope, KD 41; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 45 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 45
+    },
+    {
+      "rank": 34,
+      "keyword": "ceramic coating prospect",
+      "service": "ceramic coating",
+      "silo": "ceramic_coating",
+      "suburb": "Prospect",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/ceramic-coating-prospect.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 75 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "long_tail": [
+          "ceramic coating cost",
+          "mobile ceramic coating",
+          "best ceramic coating"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 75
+    },
+    {
+      "rank": 35,
+      "keyword": "paint protection prospect",
+      "service": "paint protection",
+      "silo": "paint_protection",
+      "suburb": "Prospect",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.453,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 0,
+        "ai_adjusted": 0,
+        "trend": "",
+        "volume_source": "inferred_null"
+      },
+      "difficulty": 0,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "quick_win",
+      "target_url": "/paint-protection-prospect.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Zero recorded volume at AU scope; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 75 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "long_tail": [
+          "paint protection cost",
+          "mobile paint protection",
+          "best paint protection"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 75
+    },
+    {
+      "rank": 36,
+      "keyword": "window tinting prospect",
+      "service": "window tinting",
+      "silo": "window_tinting",
+      "suburb": "Prospect",
+      "ring": "inner_north",
+      "distance_km": 0,
+      "opportunity_score": 0.2929,
+      "score_confidence": "MEDIUM",
+      "track": "category_gap_fill",
+      "volume": {
+        "raw": 10,
+        "ai_adjusted": 10,
+        "trend": "",
+        "volume_source": "dfs_primary"
+      },
+      "difficulty": 41,
+      "current_position": null,
+      "cpc": 0.0,
+      "intent": "local_service",
+      "local_pack": true,
+      "gbp_tag": "both",
+      "timeline": "medium_term",
+      "target_url": "/window-tinting-prospect.html",
+      "action": "create_new",
+      "recommended_url": "",
+      "reasoning": "Measured 10/mo at AU scope, KD 41; Adelaide Detailing Garage held position 1 on a suburb page for this exact service here (recovered portfolio, last check 2026-06-03) — direct proof the pattern ranks in this market; named by the client in Q17 as ideal-customer catchment; ring 'inner_north', scored 75 on drive time from the Klemzig workshop; gaps.json classes this MISSING_LOCATION — the site has zero suburb pages, so this is net-new content.",
+      "secondaries": {
+        "keywords": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "long_tail": [
+          "window tinting cost",
+          "mobile window tinting",
+          "best window tinting"
+        ],
+        "must_mention": [],
+        "paa_questions": [],
+        "effective_reach": 0
+      },
+      "content_type": "Location page",
+      "tier": 75
+    }
+  ],
+  "silos": [
+    {
+      "name": "window_tinting",
+      "display_name": "Window Tinting",
+      "pillar_keyword": "window tinting adelaide",
+      "total_silo_volume": 1000,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 1
+    },
+    {
+      "name": "paint_protection",
+      "display_name": "Paint Protection & PPF",
+      "pillar_keyword": "paint protection adelaide",
+      "total_silo_volume": 1090,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [
+        "ppf adelaide"
+      ],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 2
+    },
+    {
+      "name": "ceramic_coating",
+      "display_name": "Ceramic Coating",
+      "pillar_keyword": "ceramic coating adelaide",
+      "total_silo_volume": 720,
+      "topical_authority_score": 0,
+      "competitor_avg_score": 0,
+      "supporting_keywords": [],
+      "location_keywords": [],
+      "content_keywords": [],
+      "pages_existing": 0,
+      "pages_needed": 1
+    }
+  ],
+  "excluded_notable": [],
+  "client": "glossstudioadl.com.au",
+  "generated": "2026-07-27",
+  "package": {
+    "general_keywords": 4,
+    "location_keywords": 36,
+    "total": 40
+  }
+}

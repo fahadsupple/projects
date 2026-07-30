@@ -1,0 +1,187 @@
+{
+  "business": {
+    "name": "Gloss Studio Adelaide",
+    "abn": "22 697 583 270",
+    "acn": "697583270",
+    "entity_type": "Australian Private Company",
+    "gst_status": "Registered",
+    "year_established": 2026,
+    "year_established_note": "Q3 was auto-filled with an ABN-lookup dump instead of a year. Derived from 'Active Since: 2026-04-29' — the entity is ~3 months old at parse date. BDM brief says '1-month-old'; ABN record says 2026-04-29. Minor conflict — use the ABN date.",
+    "domain": "glossstudioadl.com.au",
+    "website": "https://glossstudioadl.com.au",
+    "phone": "0416 610 413",
+    "email": "info@glossstudioadl.com.au",
+    "address": "Unit 4, 13 Thames Avenue, Klemzig SA 5087, Australia",
+    "address_type": "workshop (single location)",
+    "directory_listing_consent": true,
+    "operating_hours": "Monday–Friday 9:00am–5:00pm; Saturday 9:00am–3:00pm; Sunday closed.",
+    "google_rating": null,
+    "google_reviews_count": null,
+    "google_reviews_note": "No Google rating or review count supplied. Business is ~3 months old and GMB optimisation is an in-scope deliverable — assume minimal or no review base at research time."
+  },
+  "owner_and_team": {
+    "owners": [],
+    "owners_note": "MISSING. Q9 (founder/owner full name) was auto-filled with the same ABN-lookup dump as Q3 — no human name was captured. Owner previously worked at Adelaide Detailing Garage per the BDM brief. Needs collection before any E-E-A-T or about-page content work.",
+    "owner_background": "5 years of car detailing experience.",
+    "why_started": "Founded on the belief that every car deserves proper protection rather than a quick wax that washes away. Identified a gap for a professional, controlled-environment car protection studio in Adelaide's inner north. The Klemzig workshop provides the controlled environment quality car protection demands — every vehicle is worked on indoors, under specialist lighting, with climate control — on the principle that application conditions matter as much as the product itself.",
+    "team_note": "No team size or staff credentials supplied. Owner-operator assumed until confirmed."
+  },
+  "services": [
+    "Ceramic Coating",
+    "Paint Protection Film (PPF)",
+    "Paint Correction",
+    "Window Tinting"
+  ],
+  "services_note": "4 services (Q12). All four have dedicated pages on the live site. Services can be booked standalone or combined (e.g. paint correction prior to ceramic coating, PPF combined with ceramic coating).",
+  "client_keyword_priorities": {
+    "source": "Welcome form Q13 (client SEO preference) + BDM brief (Kuldeep) + recovered Adelaide Detailing Garage portfolio.",
+    "q13_preferences": [
+      "ceramic coating",
+      "window tinting",
+      "car paint protection",
+      "PPF (paint protection film)"
+    ],
+    "bdm_brief": "SEO — 40 location keywords across the Adelaide metropolitan area, mirroring the keyword portfolio previously developed for Adelaide Detailing Garage, with the addition of one new keyword. BDM flagged the mirror instruction as requiring client confirmation.",
+    "reference_portfolio": {
+      "source": "Supple data warehouse — adelaidedetailinggarage-com-au SE Ranking project 9980456, last rank check 2026-06-03.",
+      "total_keywords": 22,
+      "silos": [
+        "ceramic coating",
+        "paint protection"
+      ],
+      "general_keywords": [
+        "ceramic coating adelaide",
+        "paint protection adelaide"
+      ],
+      "suburbs": [
+        "Flagstaff Hill",
+        "Glenelg North",
+        "Magill",
+        "Mawson Lakes",
+        "Norwood",
+        "Prospect",
+        "Rostrevor",
+        "Seaton",
+        "North Adelaide",
+        "Campbelltown"
+      ],
+      "performance_note": "16 of the 20 location keywords held position 1. Almost all location terms carry 0 recorded search volume in the SE Ranking record; 'ceramic coating campbelltown' is the exception at 70/mo. The proven model in this market is zero-volume suburb pages — expect low absolute volume on the GRID and score accordingly.",
+      "volume_vendor_conflict": "The SE Ranking record stores 'ceramic coating adelaide' at 10/mo and 'paint protection adelaide' at 20/mo. Google Ads Keyword Planner (preflight probe, 2026-07-27) returns 'ceramic coating adelaide' at 720/mo HIGH competition ($1.30–$10.25) and 'window tinting adelaide' at 1,000/mo MEDIUM — a ~72x disagreement on the same term. Treat the ADG stored volumes as stale or match-type-narrowed, NOT as evidence the head terms lack demand. The zero-volume pattern is real for suburb terms only. Phase 3a must cross-validate head-term volume against Google Ads and should not inherit SE Ranking's figures for the 4 general slots.",
+      "usage": "Structural reference only. ADG is EXCLUDED from seed_competitors pending commercial escalation — see meta.open_items."
+    },
+    "silo_split": {
+      "ceramic_coating": {
+        "keywords": 12,
+        "service_heads": [
+          "ceramic coating"
+        ]
+      },
+      "paint_protection": {
+        "keywords": 12,
+        "service_heads": [
+          "paint protection",
+          "paint protection film",
+          "ppf"
+        ]
+      },
+      "window_tinting": {
+        "keywords": 12,
+        "service_heads": [
+          "window tinting",
+          "car window tinting"
+        ]
+      }
+    },
+    "note": "36 location keywords across 3 uniform silos (12 suburbs each) + 4 general head terms = 40 total. Silo choice is ADG's two silos plus window tinting as the 'one new keyword' from the brief. Paint correction is NOT given a location silo — it is a lower-intent upstream service and is covered by the site's existing service page."
+  },
+  "differentiators_usps": [
+    "Authorised partner status with leading brands — GYEON (ceramic coatings), XPEL and SunTek (paint protection film), LLumar and 3M (window film)",
+    "Consistent quality standard regardless of vehicle — every job completed to the same 5-star standard, daily driver or prestige vehicle",
+    "Fully controlled indoor workshop environment — all work performed indoors at Klemzig with specialist lighting and climate control, eliminating dust, wind and weather variability",
+    "Professional-grade, warranted products only — industry-leading brands trusted by prestige car dealers, no shortcuts or inferior substitutes",
+    "Transparent, honest pricing — detailed quote before any work begins, no hidden fees"
+  ],
+  "usp_note": "Form Q14 asked for 10 USPs; client provided 5.",
+  "service_focus": "Klemzig SA 5087 workshop serving greater Adelaide, with stated emphasis on the inner-north suburbs. Fixed-premises operator (not mobile) — all work is performed on-site at the workshop, which constrains realistic catchment radius.",
+  "locations": {
+    "headquarters": "Klemzig SA 5087 (single workshop)",
+    "suburb_source": "data-driven",
+    "focus_areas": [
+      "Adelaide metropolitan area"
+    ],
+    "client_named_suburbs": [
+      "Prospect",
+      "Marden",
+      "Valley View",
+      "Windsor Gardens",
+      "Broadview",
+      "Enfield",
+      "Clearview",
+      "Campbelltown",
+      "Norwood",
+      "Gepps Cross"
+    ],
+    "prioritise": "Q15 states 'Adelaide' broadly; Q17 names 10 inner-north suburbs as the ideal-customer catchment. Phase 2 runs data-driven across Adelaide metro — treat the 10 client-named suburbs and the 10 ADG-proven suburbs as strong priors, not as a fixed list.",
+    "exclusions": [],
+    "targeting_note": "Q15: 'Adelaide'. Workshop is inner-north (Klemzig), so drive-time realism should weight inner-north and north-east suburbs above far-south/outer-north."
+  },
+  "competitors": [
+    {"name": "Ceramicar", "domain": "ceramicar.com.au", "source": "Q16", "note": "MTA Approved, RAA & RUPES Certified."},
+    {"name": "Elite Finish", "domain": "elitefinish.com.au", "source": "Q16", "note": "Somerton Park. Approved NXTZEN paint protection dealer."},
+    {"name": "Eye Candy Detailing", "domain": "eyecandydetailing.com.au", "source": "Q16", "note": "Norwood. Frequently recommended in local forums."},
+    {"name": "Mad Coupe", "domain": "madcoupe.com.au", "source": "Q16", "note": "Ceramic coating, paint protection, paint correction, PPF."},
+    {"name": "SV Auto Salon", "domain": "svautosalon.com.au", "source": "Q16", "note": "Client wrote 'Sv auto detailing'; resolved to SV Auto Salon. 20+ years, paint protection and PPF specialist."},
+    {"name": "Adelaide Automotive Detailing", "domain": "adelaideautomotivedetailing.com.au", "source": "Q16", "note": "Client wrote it as a phrase ('Adelaide automotive detailing'); it resolves to a real competing business."},
+    {"name": "Adelaide Paint Protection", "domain": "adelaidepaintprotection.com.au", "source": "Q16", "note": "Client wrote it as a phrase ('Adelaide paint protection'); resolved during preflight to a real business. Ranks #1 organically for 'ceramic coating Adelaide' — strongest organic rival identified so far. Covers cars, 4WDs and caravans."}
+  ],
+  "competitors_note": "Q16 returned 7 entries; all 7 resolved to live domains. Two were written as bare search phrases ('Adelaide automotive detailing', 'Adelaide paint protection') but both are real competing businesses — the second was resolved during preflight, not init. Adelaide Detailing Garage (adelaidedetailinggarage.com.au) is the closest structural competitor and the owner's former employer, but is EXCLUDED from seed_competitors pending commercial escalation.",
+  "ideal_customer": "Car owners across greater Adelaide — particularly the inner-north suburbs — who want to genuinely protect and preserve their vehicle's value. Range from everyday drivers tired of temporary solutions like wax, through to prestige and performance vehicle owners demanding the highest standard of paint protection. They value quality, transparency and honest pricing, and want the assurance of a professional, controlled environment using industry-leading products.",
+  "commercial": {
+    "projects_served": "Client answered '1000+' to Q18.",
+    "projects_served_note": "CONFLICT — do not publish as a business claim. The entity has been active since 2026-04-29 (~3 months) and the BDM brief describes it as newly established. '1000+' is almost certainly the owner's 5-year career total, not Gloss Studio Adelaide's. Must be reframed or verified before use in content, GMB or ads.",
+    "pricing_structure": "Free, no-obligation quotes for all services. Every vehicle assessed individually with a detailed quote before work begins — no hidden fees. Quotes typically returned within 24 hours. Services bookable standalone or as combined packages. No specific pricing figures published on the website — quoted per vehicle by size, condition and services required.",
+    "insurance": "Client answered 'Full covered insurance'. No policy types or sums insured supplied — insufficient detail for any trust-signal claim.",
+    "certifications": "Authorised partner of GYEON (ceramic coatings), XPEL (PPF), SunTek (PPF and window tint), 3M (PPF and window film) and LLumar (window film). Client explicitly states no trade licences, ISO certifications or other formal accreditations.",
+    "compliance": "Complies with South Australian road-legal window tinting regulations — front windscreen minimum 75% VLT, front side windows minimum 35% VLT, no legal minimum on rear side and rear windows. All tinting installations are SA road-legal. No other industry codes or safety standards claimed."
+  },
+  "mission": "To help Adelaide car owners protect and preserve their vehicle's value through professional-grade ceramic coating, paint protection film, paint correction and window tinting — applied in a controlled workshop environment with honest pricing and no shortcuts.",
+  "values": [
+    "Honest & transparent",
+    "Proudly local Adelaide",
+    "Quality without compromise"
+  ],
+  "site_snapshot": {
+    "checked_on": "2026-07-27",
+    "status": "live (HTTP 200, www and apex both resolve, sitemap.xml present)",
+    "homepage_title": "Ceramic Coating Adelaide | Gloss Studio | Klemzig SA 5087",
+    "pages": [
+      "/",
+      "/ceramic-coating.html",
+      "/paint-protection-film.html",
+      "/paint-correction.html",
+      "/window-tinting.html",
+      "/gallery.html",
+      "/about.html",
+      "/areas.html",
+      "/contact.html"
+    ],
+    "note": "Flat .html site with 9 pages — one per core service plus an /areas.html page. A new website build is an in-scope deliverable, so URL structure may change; Phase 4 content-gap mapping should be read as provisional against the current build."
+  },
+  "meta": {
+    "keywords_budget": "40 keywords — 4 general + 36 location",
+    "deadline": "2026-07-29",
+    "response_id": "XcxbcRqp",
+    "form_submitted": "2026-07-24",
+    "parsed_by": "kwr:init v0.9.2",
+    "parsed_on": "2026-07-27",
+    "project_scope": "SEO, Google My Business optimisation, Google Ads (minimum $1,000/mo starting budget recommended), new website development.",
+    "open_items": [
+      "OWNER NAME MISSING — Q9 returned an ABN dump. Required for E-E-A-T, about page and GMB.",
+      "ESCALATE — the BDM brief describes Adelaide Detailing Garage as 'Supple's Ex client', but the data warehouse shows adelaidedetailinggarage.com.au as status 'active' (SE Ranking project 9980456, GA4, GSC, Podio configured; last rank check 2026-06-03; health 'at_risk'). This engagement targets the same suburbs and the same silos. Confirm account status and internal position before Phase 3b.",
+      "CONFIRM WITH CLIENT — BDM flagged the 'mirror the ADG portfolio plus one new keyword' instruction as unconfirmed. Window tinting has been taken as the added silo; verify against the client's own Q13 ranking, which also names PPF.",
+      "VERIFY — Q18 '1000+ projects' conflicts with a ~3-month-old entity. Reframe as owner career experience or drop.",
+      "COLLECT — insurance detail (policy type and sum insured) is too vague to use as a trust signal.",
+      "NOTE — Deadline is 2026-07-29, two days from parse date."
+    ]
+  }
+}

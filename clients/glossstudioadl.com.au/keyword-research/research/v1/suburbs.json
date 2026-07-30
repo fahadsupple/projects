@@ -1,0 +1,1493 @@
+{
+  "metadata": {
+    "phase": "2_suburb_discovery",
+    "client": "glossstudioadl.com.au",
+    "generated": "2026-07-27",
+    "suburb_source": "data-driven, scored over the client's 39 declared suburbs (/areas.html) \u2014 analyst decision at Phase 0",
+    "run_mode": "inline",
+    "pool_size": 39,
+    "selected": 12,
+    "M_silos": 3,
+    "N_suburbs": 12,
+    "grid_total": 36,
+    "uniform_grid": true,
+    "target_states": [
+      "SA"
+    ],
+    "secondary_states": [],
+    "scoring_model": {
+      "measured_volume": "summed Google Ads monthly volume across sampled silos at Adelaide location (1000422)",
+      "adg_proven": "+25 \u2014 Adelaide Detailing Garage demonstrably ranked a suburb page here (position-1 evidence, identical market and service)",
+      "q17_named": "+15 \u2014 named by the client as ideal-customer catchment in questionnaire Q17",
+      "ring_proximity": "+4 to +20 by the client's own ring taxonomy, weighted on drive time from the fixed Klemzig workshop",
+      "low_competition": "+5 where the measured competition index is below 40",
+      "note": "No population or vehicle-density figures were used \u2014 every component traces to measured API data or a client-declared fact."
+    },
+    "volume_finding": "CRITICAL \u2014 only 7 of 39 suburbs return ANY measured Google Ads volume; the other 32 are flat zero. Highest is 'window tinting salisbury' at 40/mo (competition 51, CPC $8.50 \u2014 higher than any Adelaide head term measured in this study). This confirms the Adelaide Detailing Garage pattern: suburb pages in this market rank and convert on effectively zero recorded volume. Phase 5 scoring MUST NOT filter the location grid on volume or it will discard the entire deliverable.",
+    "convergence_note": "All 7 ADG-proven suburbs present in the client's declared pool scored independently into the top 12 \u2014 the composite model and the recovered reference portfolio agree without being forced to.",
+    "analyst_decision": "Accepted the scored top 12 with no override. Marden (33), Valley View (31) and Windsor Gardens (31) are client-named in Q17 but fell below the cut; the north_east ring therefore receives no coverage this cycle. Flagged as the natural first expansion set.",
+    "sampling_coverage": {
+      "window_tinting": "all 39 suburbs sampled",
+      "ceramic_coating": "10 suburbs sampled (largest and ADG-proven)",
+      "paint_protection": "10 suburbs sampled (inner north and inner east) \u2014 all zero",
+      "api_note": "the DataForSEO MCP wrapper caps responses at 10 items per call, so sampling was batched"
+    }
+  },
+  "scored_suburbs": [
+    {
+      "suburb": "Campbelltown",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 83,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 20,
+      "lowest_competition_index": 29,
+      "adg_proven": true,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 20,
+        "adg_proven": 25,
+        "q17_named": 15,
+        "ring_proximity": 18,
+        "low_competition": 5
+      },
+      "evidence": "measured volume: window tinting 10/mo (LOW 29) + ceramic coating 10/mo; ADG ranked a suburb page here (position 1 evidence, same market/service); named by client in Q17 ideal-customer catchment; low competition index (29); ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Prospect",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 75,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 10,
+      "lowest_competition_index": 38,
+      "adg_proven": true,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 10,
+        "adg_proven": 25,
+        "q17_named": 15,
+        "ring_proximity": 20,
+        "low_competition": 5
+      },
+      "evidence": "measured volume: window tinting 10/mo (MED 38); ADG ranked a suburb page here (position 1 evidence, same market/service); named by client in Q17 ideal-customer catchment; low competition index (38); ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Norwood",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 68,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 10,
+      "lowest_competition_index": 86,
+      "adg_proven": true,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 10,
+        "adg_proven": 25,
+        "q17_named": 15,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "measured volume: window tinting 10/mo (HIGH 86, CPC $5.13); ADG ranked a suburb page here (position 1 evidence, same market/service); named by client in Q17 ideal-customer catchment; ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Salisbury",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 60,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 50,
+      "lowest_competition_index": 51,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 50,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "measured volume: window tinting 40/mo (MED 51, CPC $8.50) + ceramic coating 10/mo (MED 64); ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Enfield",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 45,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 10,
+      "lowest_competition_index": 69,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 10,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "measured volume: window tinting 10/mo (HIGH 69); named by client in Q17 ideal-customer catchment; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Magill",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 43,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": true,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 25,
+        "q17_named": 0,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ADG ranked a suburb page here (position 1 evidence, same market/service); ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Rostrevor",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 43,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": true,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 25,
+        "q17_named": 0,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ADG ranked a suburb page here (position 1 evidence, same market/service); ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "North Adelaide",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 37,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": true,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 25,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ADG ranked a suburb page here (position 1 evidence, same market/service); ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Broadview",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 35,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Clearview",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 35,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Gepps Cross",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 35,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Mawson Lakes",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 35,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": true,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 25,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ADG ranked a suburb page here (position 1 evidence, same market/service); ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Marden",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 33,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Valley View",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 31,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Windsor Gardens",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 31,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": true,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 15,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; named by client in Q17 ideal-customer catchment; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Blair Athol",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 20,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Elizabeth",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 20,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 10,
+      "lowest_competition_index": 52,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 10,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "measured volume: window tinting 10/mo (MED 52); ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Lightsview",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 20,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Oakden",
+      "ring": "inner_north",
+      "state": "SA",
+      "score": 20,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 20,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_north' (+20 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Felixstow",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 18,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Hectorville",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 18,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "St Peters",
+      "ring": "inner_east",
+      "state": "SA",
+      "score": 18,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 18,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'inner_east' (+18 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Hillcrest",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 16,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Holden Hill",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 16,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Modbury",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 16,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Tea Tree Gully",
+      "ring": "north_east",
+      "state": "SA",
+      "score": 16,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 16,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_east' (+16 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Mitcham",
+      "ring": "south_and_other",
+      "state": "SA",
+      "score": 14,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 10,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 10,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 4,
+        "low_competition": 0
+      },
+      "evidence": "measured volume: window tinting 10/mo (sparse \u2014 2 months only); ring 'south_and_other' (+4 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Adelaide CBD",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 12,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "College Park",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 12,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Gilberton",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 12,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Medindie",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 12,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Payneham",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "score": 12,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 12,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'city_and_inner' (+12 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Gilles Plains",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 10,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Para Hills",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 10,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Pooraka",
+      "ring": "north_west",
+      "state": "SA",
+      "score": 10,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 10,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'north_west' (+10 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Glenelg",
+      "ring": "south_and_other",
+      "state": "SA",
+      "score": 4,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 4,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'south_and_other' (+4 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Marion",
+      "ring": "south_and_other",
+      "state": "SA",
+      "score": 4,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 4,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'south_and_other' (+4 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Noarlunga",
+      "ring": "south_and_other",
+      "state": "SA",
+      "score": 4,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 4,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'south_and_other' (+4 drive-time proximity to Klemzig workshop)"
+    },
+    {
+      "suburb": "Unley",
+      "ring": "south_and_other",
+      "state": "SA",
+      "score": 4,
+      "silos": [
+        "ceramic_coating",
+        "paint_protection",
+        "window_tinting"
+      ],
+      "measured_volume": 0,
+      "lowest_competition_index": null,
+      "adg_proven": false,
+      "client_q17_named": false,
+      "score_components": {
+        "volume": 0,
+        "adg_proven": 0,
+        "q17_named": 0,
+        "ring_proximity": 4,
+        "low_competition": 0
+      },
+      "evidence": "no measured Google Ads volume at Adelaide level; ring 'south_and_other' (+4 drive-time proximity to Klemzig workshop)"
+    }
+  ],
+  "recommended_suburbs": [
+    "Campbelltown",
+    "Prospect",
+    "Norwood",
+    "Salisbury",
+    "Enfield",
+    "Magill",
+    "Rostrevor",
+    "North Adelaide",
+    "Broadview",
+    "Clearview",
+    "Gepps Cross",
+    "Mawson Lakes"
+  ],
+  "grid_keywords": [
+    {
+      "keyword": "ceramic coating campbelltown",
+      "suburb": "Campbelltown",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection campbelltown",
+      "suburb": "Campbelltown",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting campbelltown",
+      "suburb": "Campbelltown",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating prospect",
+      "suburb": "Prospect",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection prospect",
+      "suburb": "Prospect",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting prospect",
+      "suburb": "Prospect",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating norwood",
+      "suburb": "Norwood",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection norwood",
+      "suburb": "Norwood",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting norwood",
+      "suburb": "Norwood",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating salisbury",
+      "suburb": "Salisbury",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection salisbury",
+      "suburb": "Salisbury",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting salisbury",
+      "suburb": "Salisbury",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating enfield",
+      "suburb": "Enfield",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection enfield",
+      "suburb": "Enfield",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting enfield",
+      "suburb": "Enfield",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating magill",
+      "suburb": "Magill",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection magill",
+      "suburb": "Magill",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting magill",
+      "suburb": "Magill",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating rostrevor",
+      "suburb": "Rostrevor",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection rostrevor",
+      "suburb": "Rostrevor",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting rostrevor",
+      "suburb": "Rostrevor",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_east",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating north adelaide",
+      "suburb": "North Adelaide",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection north adelaide",
+      "suburb": "North Adelaide",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting north adelaide",
+      "suburb": "North Adelaide",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "city_and_inner",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating broadview",
+      "suburb": "Broadview",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection broadview",
+      "suburb": "Broadview",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting broadview",
+      "suburb": "Broadview",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating clearview",
+      "suburb": "Clearview",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection clearview",
+      "suburb": "Clearview",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting clearview",
+      "suburb": "Clearview",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating gepps cross",
+      "suburb": "Gepps Cross",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection gepps cross",
+      "suburb": "Gepps Cross",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting gepps cross",
+      "suburb": "Gepps Cross",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "inner_north",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "ceramic coating mawson lakes",
+      "suburb": "Mawson Lakes",
+      "silo_id": "ceramic_coating",
+      "silo": "ceramic coating",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "paint protection mawson lakes",
+      "suburb": "Mawson Lakes",
+      "silo_id": "paint_protection",
+      "silo": "paint protection",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    },
+    {
+      "keyword": "window tinting mawson lakes",
+      "suburb": "Mawson Lakes",
+      "silo_id": "window_tinting",
+      "silo": "window tinting",
+      "ring": "north_west",
+      "state": "SA",
+      "candidate_type": "location"
+    }
+  ],
+  "excluded_suburbs": [
+    {
+      "suburb": "Marden",
+      "score": 33,
+      "ring": "inner_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": true,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Valley View",
+      "score": 31,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": true,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Windsor Gardens",
+      "score": 31,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": true,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Blair Athol",
+      "score": 20,
+      "ring": "inner_north",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Elizabeth",
+      "score": 20,
+      "ring": "north_west",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Lightsview",
+      "score": 20,
+      "ring": "inner_north",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Oakden",
+      "score": 20,
+      "ring": "inner_north",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Felixstow",
+      "score": 18,
+      "ring": "inner_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Hectorville",
+      "score": 18,
+      "ring": "inner_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "St Peters",
+      "score": 18,
+      "ring": "inner_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Hillcrest",
+      "score": 16,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Holden Hill",
+      "score": 16,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Modbury",
+      "score": 16,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Tea Tree Gully",
+      "score": 16,
+      "ring": "north_east",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Mitcham",
+      "score": 14,
+      "ring": "south_and_other",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Adelaide CBD",
+      "score": 12,
+      "ring": "city_and_inner",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "College Park",
+      "score": 12,
+      "ring": "city_and_inner",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Gilberton",
+      "score": 12,
+      "ring": "city_and_inner",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Medindie",
+      "score": 12,
+      "ring": "city_and_inner",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Payneham",
+      "score": 12,
+      "ring": "city_and_inner",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Gilles Plains",
+      "score": 10,
+      "ring": "north_west",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Para Hills",
+      "score": 10,
+      "ring": "north_west",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Pooraka",
+      "score": 10,
+      "ring": "north_west",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Glenelg",
+      "score": 4,
+      "ring": "south_and_other",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Marion",
+      "score": 4,
+      "ring": "south_and_other",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Noarlunga",
+      "score": 4,
+      "ring": "south_and_other",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    },
+    {
+      "suburb": "Unley",
+      "score": 4,
+      "ring": "south_and_other",
+      "reason": "scored below the top-12 cut",
+      "client_q17_named": false,
+      "adg_proven": false
+    }
+  ]
+}

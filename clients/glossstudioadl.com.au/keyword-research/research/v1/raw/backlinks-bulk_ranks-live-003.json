@@ -1,0 +1,43 @@
+{
+    "version": "0.1.20260717",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0788 sec.",
+    "cost": 0.024036,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "07270916-1150-0347-0000-1bf51ecdf9be",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0066 sec.",
+            "cost": 0.024036,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "bulk_ranks",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "bulk_ranks",
+                "targets": [
+                    "glossstudioadl.com.au"
+                ]
+            },
+            "result": [
+                {
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "target": "glossstudioadl.com.au",
+                            "rank": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
