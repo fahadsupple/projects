@@ -8,7 +8,10 @@ Method   : full catalogue browse. Union of (a) all 2,611 product URLs in the
            just names. 304 candidate product pages were then FETCHED
            INDIVIDUALLY and classified on their real on-page H1, because the
            <title> tag is unreliable on this site (see the WARNING below).
-Total    : 181 products across 10 categories
+Total    : 182 products across 10 categories
+           (Valrhona 48, Belcolade 32, Ewald 3, Heilala 18, Guindilla 7,
+            Rustichella 39, Potato Rolls 5, Matcha 3, Mariage Freres 8,
+            Lavosh 19)
 
 WARNING — READ BEFORE ASSIGNING THE POTATO ROLLS
   Every product in the Frozen category currently 301-redirects to
@@ -314,3 +317,90 @@ e) THREE VALRHONA PRODUCTS WOULD HAVE BEEN MISSED by name/slug matching alone,
        -> "Valrhona Hazelnut Praline 66% - 5kg"
      /product/varlhona-dulcey-32-chocolate-bar-70g/  (typo slug, see c)
 ================================================================================================
+
+
+================================================================================================
+ADDENDUM — 14 PRODUCTS CHECKED AGAINST THE 10 NEW CATEGORIES (30 July 2026)
+================================================================================================
+Analyst supplied 14 product URLs and asked which of the 10 new categories each
+one belongs to. All 14 pages were fetched and classified on their real on-page
+H1 and their live "Categories:" assignment (posted_in), not on the slug.
+
+RESULT: 1 of 14 belongs to a new category. 13 do not — they are correctly
+        housed in existing categories and need no change for this round.
+
+FITS A NEW CATEGORY — 1
+  Valrhona Guanaja 70% Chocolate Feves (H1 says "2 x 250g", slug says 500g)
+    https://foodistribute.com.au/product/valrhona-guanaja-70-chocolate-feves-500g/
+    Currently in : Chocolate & Patisserie, Wholesale Chocolate Supplies
+    ASSIGN TO    : chocolate-patisserie/valrhona-chocolate-supplies
+    Already item #30 in the Valrhona block above — no new work, just
+    confirmation the list is right.
+
+DOES NOT FIT ANY OF THE 10 — 13
+  Product                                    Live categories (correct as-is)
+  -----------------------------------------  ------------------------------------
+  Ortiz Anchovies in Olive Oil               Meat & Seafood, Tinned Seafood
+  Okabayashi Kochi Yuzu Juice                Japanese/Asian, Yuzu Juice Supplies,
+                                             Asian Grocery Wholesaler, Pantry
+  Callebaut Plein Arome Cocoa Powder         Chocolate & Patisserie, Wholesale
+                                             Chocolate Supplies  ** see GAP **
+  Callebaut 811 Dark Bittersweet Callets     Callebaut Chocolate Supplies + 2
+  Perello Spicy Gordal Pitted Olives 150g    Perello Olives, Preserved Veg, Pantry
+  Perello Spicy Gordal Pitted Olives 2kg     Perello Olives, Preserved Veg, Pantry
+  Sandhurst Cherry Red Maraschino Stem       Pantry / Grocery ONLY
+  Lesaffre Dry Yeast Gold                    Pantry / Grocery ONLY
+  Maestri Pastai Spaghetti Squid Ink         Pasta, Squid Ink, Pantry
+  Lorenzo No.1 EV Olive Oil Cerasuola        Oil, Oil & Vinegar, Olive Oil
+  Colognole EV Olive Oil Laudemio            Oil, Oil & Vinegar, Olive Oil
+  Cebesa Squid Ink                           Squid Ink, Pantry
+  Giusti Balsamic Vinegar of Modena 3 Gold   Oil & Vinegar, Vinegar
+
+  Reasoning on the near-misses, so these are not revisited:
+   - Callebaut cocoa powder / 811 callets are NOT Valrhona or Belcolade. The 10
+     new categories are brand-specific; Callebaut has its own category already.
+   - Maestri Pastai squid-ink spaghetti is pasta but NOT Rustichella. The new
+     category is a brand category, and the generic pantry-grocery/pasta
+     category already holds it.
+   - Perello Gordal olives are olives, not guindilla/piparra peppers. Different
+     product, and Perello Olives already exists as its own category.
+   - Okabayashi yuzu juice is Japanese but is juice, not matcha. It already sits
+     in japanese-asian/yuzu-juice-supplies.
+   - Giusti "3 Gold" balsamic is a traditional balsamic, so oil-vinegar/vinegar
+     is right — NOT oil-vinegar/caramelised-balsamic-vinegar, which is a
+     different product style.
+
+GAP FOUND — 3 CALLEBAUT PRODUCTS MISSING FROM THE EXISTING CALLEBAUT CATEGORY
+  chocolate-patisserie/callebaut-chocolate-supplies currently holds 49 products.
+  Three Callebaut products are not in it:
+    https://foodistribute.com.au/product/callebaut-plein-arome-cocoa-powder-1kg/
+    https://foodistribute.com.au/product/callebaut-extra-brute-cocoa-1kg/
+    https://foodistribute.com.au/product/callebaut-milk-gianduja-pale-block-5kg/
+  This is the SAME defect type as the empty new categories — brand products left
+  on the generic parent instead of the brand child. Not part of the Daily Tasks
+  brief, but it is a 3-click fix and worth adding while the client is in there.
+
+  Verification method: all Callebaut products found via sitemap slug match plus
+  paginated site search (46 union), compared against the 49 products actually
+  listed in the category across all its pages.
+
+THIN CATEGORISATION — 2 PRODUCTS ON THE PARENT ONLY
+  These sit on Pantry / Grocery and nothing else, so they are reachable only by
+  browsing a very large parent category or by search:
+    Sandhurst Cherry Red Maraschino Stem
+    Lesaffre Dry Yeast Gold
+  There is a wholesale-bakery-supplies category and a pantry-grocery/flour
+  category that would suit the yeast. Flagging for the client's call — no
+  existing category is an obvious fit for maraschino cherries.
+
+FURTHER DATA-QUALITY MISMATCHES (weight in slug vs weight on page)
+    /product/ortiz-anchovies-in-olive-oil-450g/
+       slug 450g  ->  H1 "Ortiz Anchovies in Olive Oil - 430g"
+    /product/sandhurst-cherry-red-maraschino-stem-2kg/
+       slug 2kg   ->  H1 "Sandhurst Cherry Red Maraschino Stem - 1.8kg"
+    /product/valrhona-guanaja-70-chocolate-feves-500g/
+       slug 500g  ->  H1 "Valrhona Guanaja 70% Chocolate Feves - 2 x 250g"
+       (500g total, so this one is consistent — just worded differently)
+  The first two are genuine contradictions between URL and product name. Same
+  class of defect as the valrhona/varlhona typo already reported. Worth a
+  catalogue-wide sweep of slug weight vs H1 weight at some point.

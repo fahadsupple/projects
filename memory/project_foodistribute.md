@@ -142,3 +142,16 @@ Counts: Valrhona 48, Belcolade 32, Rustichella 39, Lavosh 19, Heilala 18, Mariag
 **Lesson — never classify products by slug alone on this site.** Three Valrhona products were only found by browsing: two Praline SKUs whose slugs start `praline-` with no brand, and the `varlhona` typo slug.
 
 **Judgement calls left for the client** (excluded from the lists, documented in the deliverable): Tsuboichi Funmatsu Ryokucha (stone-ground shade-grown = culinary matcha by another name), Caviaroli Green Olives Sauce with Piparra (sauce, not peppers), Martins Hoagie Roll (same potato dough, name doesn't say "potato roll"). Explicitly NOT recommended: Martins Butter Bread / Texas Toast Potato Loaf (breads not rolls), TGGH Hojicha (roasted, not matcha), Valrhona Matcha Inspiration (a chocolate — belongs in Valrhona, already listed there).
+
+## 14-Product Category Fit Check — 30 July 2026
+Analyst supplied 14 product URLs asking which of the 10 new categories each belongs to. **1 of 14 fits** (Valrhona Guanaja 70% Feves — already item #30 on the 182 list). The other 13 are correctly housed in existing categories. Appended as an ADDENDUM to `review/products-to-assign-2026-07-29.txt`.
+
+**Key point on the 10 new categories: they are all BRAND categories, not product-type categories.** So Callebaut cocoa powder does not go in Valrhona/Belcolade, and Maestri Pastai squid-ink spaghetti does not go in Rustichella Pasta — even though the product type matches exactly. When asked "where does X fit", check brand first, type second.
+
+**NEW GAP — same defect, existing category.** `chocolate-patisserie/callebaut-chocolate-supplies` holds 49 products but 3 Callebaut products are missing from it: `callebaut-plein-arome-cocoa-powder-1kg`, `callebaut-extra-brute-cocoa-1kg`, `callebaut-milk-gianduja-pale-block-5kg`. Brand products left on the generic parent instead of the brand child — the same defect class as the 10 empty categories, just on a category that was already live. Not in the Daily Tasks brief; flagged as a 3-click add-on. Method: sitemap slug match + paginated site search (46 Callebaut products found) diffed against the 49 actually listed across the category's paginated pages.
+
+**Thin categorisation:** Sandhurst Cherry Red Maraschino Stem and Lesaffre Dry Yeast Gold sit on Pantry / Grocery and nothing else. A `wholesale-bakery-supplies` and `pantry-grocery/flour` category exist that would suit the yeast; nothing obvious fits maraschino cherries.
+
+**More slug-vs-H1 weight contradictions** (same class as the varlhona typo): `ortiz-anchovies-in-olive-oil-450g` → H1 says 430g; `sandhurst-cherry-red-maraschino-stem-2kg` → H1 says 1.8kg. Worth a catalogue-wide slug-weight vs H1-weight sweep.
+
+**Reusable check:** the live `<span class="posted_in">` block on a product page gives its real category assignments — more reliable than breadcrumbs (which on this site show only `Home > Product Name`) and far more reliable than `<title>`.
