@@ -24,7 +24,9 @@
     "year_established": 2002,
     "ABN": "43 969 968 576",
     "operating_hours": "Monday to Friday 9am to 5pm",
-    "phone": "1300 333 565"
+    "phone": "1300 333 565",
+    "voice": "CORPUS-DERIVED (not client-stated) — measured across the 6 approved pages, 7,295 words, 2026-07-30. Second person and direct: 'you/your' 33x per 1k words, outpacing 'we/our' at 24x — the copy talks to the customer about their property, not about the company. Plain-English explanatory register: defines the technology before selling it, benefit-led rather than spec-led, moderate 18-word average sentence. Contractions are normal (14x per 1k). Reassurance is the recurring note — 'peace of mind' appears 19 times, 'worry' 10 — paired with 'quality' (40) and 'trusted' (33). Occasional light exclamation on location pages. Practitioner authority is claimed by experience, not credentials-first ('As a trusted locksmith service in Melbourne, we've worked with countless homeowners'). Australian English. The free no-obligation quote is the standing CTA (25 mentions).",
+    "tone": "CORPUS-DERIVED (not client-stated) — reassuring and practical. Warm without being chatty, confident without hard-selling. Names the customer's worry, then resolves it."
   },
   "services": [
     "Advanced Locking Solutions",
@@ -189,6 +191,15 @@
       "resolution": "RESOLVED 2026-07-29 by analyst: the business is NOT physically present in Altona North, Camberwell, Hoppers Crossing, or any target suburb. It is a mobile service (operating_model: mobile_service_area) with no public premises. business_address is therefore DELIBERATELY ABSENT — not a data gap to be chased. The three-locations USP was deleted and those three localities were removed from signature_data_patterns (they had been seeded as 'primary locality', which is false). No page may claim a branch, depot, office, showroom, or local base in any suburb.",
       "resolved_by": "analyst",
       "resolved_at": "2026-07-29"
+    },
+    {
+      "field": "brand.voice",
+      "form1_value": "(neither form asked about brand voice or tone)",
+      "form2_value": "(neither form asked about brand voice or tone)",
+      "note": "brand.voice and brand.tone were absent after intake — no form question covered them.",
+      "resolution": "RESOLVED 2026-07-30 by analyst ('take voice from the website or whatever is best'). Both fields are DERIVED from the approved corpus (approved/*.md, 6 live pages, scrubbed) and are measured, not impressionistic — every figure cited is countable in those files. They are marked CORPUS-DERIVED so they are never mistaken for client statements. If the client later states a voice, theirs supersedes this.",
+      "resolved_by": "analyst",
+      "resolved_at": "2026-07-30"
     }
   ],
   "business_type_tokens": [

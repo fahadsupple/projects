@@ -47,11 +47,22 @@ advertise "24 hours a day, 7 days a week", "emergency lockout in the middle of t
 night", "arrive within 30 to 60 minutes" and "over fifteen years" — all four ruled
 out by the analyst. Brighton's title tag is "Locksmith Brighton | Fast 24/7 Mobile",
 so it looks templated site-wide. **The client is advertising a service they don't
-provide.** Voice ingest halted (`RESUME-NEEDED.md`); nothing entered `approved/`.
-The trap: `approved/*.md` isn't just a style reference — `rebuild_corpus_operational_truth()`
-parses it into the writer's *operational ground truth*, so ingesting a site whose
-copy contradicts the profile silently re-arms the banned claims. Check any upgrade
-client's live copy against their corrections BEFORE ingesting voice.
+provide** — they will fix it at the next website update, so the live pages stay wrong
+in the meantime while our 41 new pages must not repeat the claims.
+
+The trap worth remembering: `approved/*.md` isn't just a style reference —
+`rebuild_corpus_operational_truth()` parses it into the writer's *operational ground
+truth* and `rebuild_voice_profile()` builds the voice anchor from it. Ingesting a
+site whose copy contradicts the client's own corrections silently re-arms every
+banned claim across the whole run. **Always diff a client's live copy against their
+stated corrections before ingesting voice**, and re-check before any corpus refresh.
+
+Resolved 2026-07-30 by scrubbing then ingesting (analyst option 1): dropped 21 whole
+sentences/list-items carrying a banned claim, so all 7,295 surviving words stay
+verbatim. Zero residual hits. `brand.voice`/`brand.tone` were empty (no form question
+covered them), so both are now **corpus-derived and labelled CORPUS-DERIVED** with
+measured evidence — you/your 33x per 1k vs we/our 24x, "peace of mind" 19x, 18-word
+average sentence, free-quote CTA 25x. Client-stated voice, if ever given, supersedes.
 
 Also found: **37 of the 41 target suburbs already have a root-level page**
 (`/brighton/` etc.) on general locksmith intent. Only altona-north, sunshine-west,

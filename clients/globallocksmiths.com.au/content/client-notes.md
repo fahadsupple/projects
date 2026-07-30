@@ -72,9 +72,21 @@ emergency lockout in the middle of the night", "we typically arrive within 30 to
 minutes", and "over fifteen years" — every one of which the analyst has ruled out.
 Brighton's title tag is "Locksmith Brighton | Fast 24/7 Mobile", so the claim looks
 templated across the site's ~90 suburb pages (2 sampled, not verified site-wide).
-Voice ingest is HALTED — see `RESUME-NEEDED.md`. Nothing has entered `approved/`.
-Separately: the client is currently advertising a service they don't provide, on
-their live site. That is worth raising with them regardless of this project.
+
+**RESOLVED 2026-07-30 — scrubbed then ingested (analyst option 1).** 21 sentences
+and list items were dropped across the six pages: every unit asserting 24/7
+availability, emergency service, an arrival-time promise, or a tenure year-count.
+Whole units were removed rather than edited, so all 7,295 remaining words are
+verbatim client copy. Residual scan: zero hits. `corpus_operational_truth.json`
+carries no banned assertion. The scrub is recorded in the event log with per-file
+counts.
+
+**The live site is still wrong, by design of the client's timeline.** The 24/7 and
+emergency claims remain published; the client will correct them at the next website
+update. So: our 41 new pages must not carry those claims, while the existing ~90
+suburb pages still do. Expect a temporary inconsistency between old and new pages,
+and re-check the live copy before any future corpus refresh — a re-ingest from an
+uncorrected site would re-import the same claims.
 
 **37 of the 41 target suburbs already have a root-level page** (`/brighton/`,
 `/richmond/`, …) targeting general locksmith intent. The 4 without one are

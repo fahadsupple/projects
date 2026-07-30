@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "client": "globallocksmiths.com.au",
-  "generated_at": "2026-07-29T04:31:50Z",
+  "generated_at": "2026-07-30T00:55:38Z",
   "extractor_version": "0.5.0",
   "facts": [
     {
@@ -32,12 +32,155 @@
       "conflicts": []
     },
     {
+      "id": "metrics.percentage",
+      "class": "percentage",
+      "label": "percentage",
+      "unit": "%",
+      "value": 75,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "75%"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "75%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "20%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        },
+        {
+          "origin": "intake-form",
+          "ref": "intake-form#pct",
+          "value_seen": "100%"
+        }
+      ],
+      "status": "conflict",
+      "confidence": "low",
+      "conflicts": [
+        {
+          "subject": "",
+          "candidates": [
+            {
+              "value": 75,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "existing-site",
+              "ref": "existing-site#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 75,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 20,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            },
+            {
+              "value": 100,
+              "origin": "intake-form",
+              "ref": "intake-form#pct"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "social-proof.clients",
       "class": "count",
       "label": "clients",
       "unit": null,
       "value": 24,
       "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "15"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "57"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "67"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#count",
+          "value_seen": "24"
+        },
         {
           "origin": "bdm-notes",
           "ref": "bdm-notes#count",
@@ -117,6 +260,36 @@
           "origin": "bdm-notes",
           "ref": "bdm-notes#count",
           "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "90"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "21"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "7,295"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "24"
+        },
+        {
+          "origin": "bdm-notes",
+          "ref": "bdm-notes#count",
+          "value_seen": "41"
         },
         {
           "origin": "bdm-notes",
@@ -387,6 +560,61 @@
           "candidates": [
             {
               "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 15,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 15,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 15,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 57,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 67,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
+              "origin": "existing-site",
+              "ref": "existing-site#count"
+            },
+            {
+              "value": 24,
               "origin": "bdm-notes",
               "ref": "bdm-notes#count"
             },
@@ -462,6 +690,36 @@
             },
             {
               "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 90,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 21,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 7295,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 24,
+              "origin": "bdm-notes",
+              "ref": "bdm-notes#count"
+            },
+            {
+              "value": 41,
               "origin": "bdm-notes",
               "ref": "bdm-notes#count"
             },
@@ -730,6 +988,28 @@
       ]
     },
     {
+      "id": "dimensions.dimension",
+      "class": "dimension",
+      "label": "dimension",
+      "unit": null,
+      "value": null,
+      "sources": [
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#dim",
+          "value_seen": "1 in"
+        },
+        {
+          "origin": "existing-site",
+          "ref": "existing-site#dim",
+          "value_seen": "1 in"
+        }
+      ],
+      "status": "extracted",
+      "confidence": "low",
+      "conflicts": []
+    },
+    {
       "id": "service.duration",
       "class": "duration",
       "label": "duration",
@@ -828,74 +1108,6 @@
       ]
     },
     {
-      "id": "metrics.percentage",
-      "class": "percentage",
-      "label": "percentage",
-      "unit": "%",
-      "value": 100,
-      "sources": [
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "100%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "75%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "20%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "100%"
-        },
-        {
-          "origin": "intake-form",
-          "ref": "intake-form#pct",
-          "value_seen": "100%"
-        }
-      ],
-      "status": "conflict",
-      "confidence": "low",
-      "conflicts": [
-        {
-          "subject": "",
-          "candidates": [
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 75,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 20,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            },
-            {
-              "value": 100,
-              "origin": "intake-form",
-              "ref": "intake-form#pct"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "catalog.services",
       "class": "enum_set",
       "label": "services",
@@ -955,16 +1167,17 @@
     }
   ],
   "needs_confirmation": [
+    "metrics.percentage",
     "social-proof.clients",
-    "service.duration",
-    "metrics.percentage"
+    "service.duration"
   ],
   "source_scan": {
     "origins": [
       "bdm-notes",
       "client-profile",
+      "existing-site",
       "intake-form"
     ],
-    "scanned_at": "2026-07-29T04:31:50Z"
+    "scanned_at": "2026-07-30T00:55:38Z"
   }
 }

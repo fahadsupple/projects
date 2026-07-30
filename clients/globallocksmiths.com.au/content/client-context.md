@@ -1,10 +1,11 @@
 # globallocksmiths.com.au — Content Plugin Context
 
-_Rebuilt: 2026-07-29T04:31:50Z_
+_Rebuilt: 2026-07-30T00:55:38Z_
 
 ## 1. Who this client is
 
 - **Domain:** globallocksmiths.com.au
+- **Brand voice:** CORPUS-DERIVED (not client-stated) — measured across the 6 approved pages, 7,295 words, 2026-07-30. Second person and direct: 'you/your' 33x per 1k words, outpacing 'we/our' at 24x — the copy talks to the customer about their property, not about the company. Plain-English explanatory register: defines the technology before selling it, benefit-led rather than spec-led, moderate 18-word average sentence. Contractions are normal (14x per 1k). Reassurance is the recurring note — 'peace of mind' appears 19 times, 'worry' 10 — paired with 'quality' (40) and 'trusted' (33). Occasional light exclamation on location pages. Practitioner authority is claimed by experience, not credentials-first ('As a trusted locksmith service in Melbourne, we've worked with countless homeowners'). Australian English. The free no-obligation quote is the standing CTA (25 mentions).
 - **Audience:** Our ideal customers span a broad range of situations and needs. We serve residential homeowners who need lock installations, repairs, rekeying after moving into a new home, or lockout assistance. We also work with commercial property owners and businesses — including office and corporate buildings, retail shops, supermarkets and shopping centres, medical centres and aged care facilities, schools and TAFE centres, and government buildings. Additionally, we work with architects, builders and trades professionals. Our customers are typically Melbourne and Geelong residents and businesses who value security, reliability, and quality workmanship, and who want a licensed, insured, and accredited locksmith they can trust.
 - **Services:** Advanced Locking Solutions, Commercial Door Locks, Deadlocks, Digital Locks, General Locks, Hardware, Key Replacement & Repair, Lock Bumping, Lock Change & Installation, Lock Fitting and Servicing, Lock Maintenance, Lock Repairs, Mobile Locksmith Services, Rekeying & Key Systems, Safe Installation, Safes & Security Solutions, Smart Lock Installation, Specialty Locks & Security
 - **Locations served:** Melbourne, South Melbourne, South Yarra, Port Melbourne, Docklands, Richmond, Toorak, Prahran, St Kilda, Brighton, Hawthorn, Kew, Essendon, Moonee Ponds, Ascot Vale, Kensington, Flemington, Footscray, Yarraville, Seddon, Kingsville, Spotswood, Newport, Williamstown, Altona, Altona North, Maribyrnong, Maidstone, Braybrook, Sunshine, Sunshine West, Deer Park, St Albans, Caroline Springs, Point Cook, Williams Landing, Truganina, Tarneit, Hoppers Crossing, Werribee, Wyndham Vale
@@ -85,9 +86,21 @@ emergency lockout in the middle of the night", "we typically arrive within 30 to
 minutes", and "over fifteen years" — every one of which the analyst has ruled out.
 Brighton's title tag is "Locksmith Brighton | Fast 24/7 Mobile", so the claim looks
 templated across the site's ~90 suburb pages (2 sampled, not verified site-wide).
-Voice ingest is HALTED — see `RESUME-NEEDED.md`. Nothing has entered `approved/`.
-Separately: the client is currently advertising a service they don't provide, on
-their live site. That is worth raising with them regardless of this project.
+
+**RESOLVED 2026-07-30 — scrubbed then ingested (analyst option 1).** 21 sentences
+and list items were dropped across the six pages: every unit asserting 24/7
+availability, emergency service, an arrival-time promise, or a tenure year-count.
+Whole units were removed rather than edited, so all 7,295 remaining words are
+verbatim client copy. Residual scan: zero hits. `corpus_operational_truth.json`
+carries no banned assertion. The scrub is recorded in the event log with per-file
+counts.
+
+**The live site is still wrong, by design of the client's timeline.** The 24/7 and
+emergency claims remain published; the client will correct them at the next website
+update. So: our 41 new pages must not carry those claims, while the existing ~90
+suburb pages still do. Expect a temporary inconsistency between old and new pages,
+and re-check the live copy before any future corpus refresh — a re-ingest from an
+uncorrected site would re-import the same claims.
 
 **37 of the 41 target suburbs already have a root-level page** (`/brighton/`,
 `/richmond/`, …) targeting general locksmith intent. The 4 without one are
