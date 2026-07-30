@@ -1,6 +1,6 @@
 ---
 name: client-globallocksmiths
-description: Global Locksmiths — mobile locksmith Melbourne/Geelong; content research complete 30 Jul 2026 (41 entries, 40 suburb pairs); 40/41 keywords absent from volume DB, geo contamination on 10 entries, fetch_brave_local plugin defect
+description: Global Locksmiths — mobile locksmith Melbourne; content research + plan complete 30 Jul 2026, both clusters locked (41 entries); 40/41 keywords absent from volume DB, geo contamination, two plugin defects worked around
 metadata:
   type: project
 ---
@@ -31,6 +31,44 @@ bare `"Australia"`, which pulls UK businesses on the ~15 homonym suburbs. The La
 endpoints (`keyword_overview`, `keyword_suggestions`, `related_keywords`) and the
 ChatGPT scraper accept **country format only**, so those stay `"Australia"`; passing a
 city errors. Brave needs `country: "AU"` (it defaults to `US`).
+
+## `/content:plan` complete — both clusters locked, 2026-07-30
+`service-hubs` (1 entry, full credibility block) and
+`service-location-smart-lock-installation` (40 entries, **lean** block per v0.14.0 —
+business-named H2 with trust floor only, then link up to the hub). 40 per-entry angles,
+each grounded in that suburb's own `suburb-data` bundle. Builder kept at
+`content/clusters/build_plans.py`. Next phase: `/content:generate`.
+
+**Three guards that must survive any re-plan.**
+1. `requires_facts` is `["company.founding-year"]` and nothing else — it is the *only*
+   confirmed fact in the ledger. `metrics.percentage`, `social-proof.clients` and
+   `service.duration` are all `conflict` (`service.duration: 24` is the 24-hour claim
+   leaking in as a duration). Pricing is mandated **on-quote** everywhere: mandating a
+   price table with no confirmed prices is the structural pressure that fabricates one.
+2. **`generate_cluster_plan` silently drops `client_data_signals`** from the synthesis,
+   even though `render_plan_markdown`, `credibility_block_check`, `audit_gate_inputs` and
+   the writer-agent all read it. Inject it into the plan dict **before** `lock_plan`
+   hashes — `canonical_json_bytes` sorts keys so a new top-level key is hash-stable;
+   injecting after the hash breaks lock integrity.
+3. **Do not compute `years_in_business`, though the cluster-plan prompt tells you to**,
+   and do not copy `why_started` verbatim — its profile text carries an elapsed-tenure
+   phrase. Either would reintroduce exactly the claim the analyst removed at intake.
+
+**A trap I walked into and had to undo.** The first locked plan spelled the banned
+elapsed-tenure phrase verbatim inside `client_data_signals._tenure_note`, as a
+"do not write this" example. The writer-agent *reads that block* — so the example itself
+put the prohibited string in front of the writer. Same family as the corpus-contradiction
+verb trap. **Describe the shape of a banned claim; never instantiate it.** The phrasings
+are now in the builder's `BANNED` list passed to `validate_plan`, so a regression fails
+the build instead of needing a manual grep. `uPVC`/`anti-snap` DO stay named — they are
+research artefacts the writer must recognise, not claims about the client.
+
+**Angle strategy:** differentiate by the door situation and buying behaviour the local
+records actually evidence — aluminium-and-glazed frames (altona), permission-gated OC and
+fire-exit doors (kensington), doors that will not take a standard deadbolt (maidstone),
+bifold/mortise (newport), cut-and-drill on unprepared doors (tarneit), security-screen
+clearance (sunshine), coverage doubt where the specialists do not serve the west
+(st-albans, brighton). Never by topic exclusion, never by generic geography.
 
 ## The volume data does not exist, and the plugin says it does
 **40 of the 41 keywords are absent from the DataForSEO keyword database** — no record,
