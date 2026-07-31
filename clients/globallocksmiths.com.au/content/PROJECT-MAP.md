@@ -1,12 +1,12 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-31T02:52:23Z_
+_Rebuilt: 2026-07-31T04:57:46Z_
 
 ## Snapshot
 
 - **Domain:** globallocksmiths.com.au
 - **Intake mode:** greenfield
-- **Entries:** 41 total | 3 generated | 0 audited | 0 approved
+- **Entries:** 41 total | 7 generated | 0 audited | 0 approved
 - **Clusters:** 2 | 2 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-31T02:52:23Z_
 
 ## Recent events (last 10)
 
-- 2026-07-31T02:49:16.911Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:49:21.638Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:49:25.899Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:49:57.047Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:49:59.511Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:50:01.462Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:50:02.803Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T02:50:54.722Z  `audit_gate_blocked`  entry:smart-lock-installation-maidstone  (halted)
-- 2026-07-31T02:52:23.884Z  `audit_gate_clear`  entry:smart-lock-installation-maidstone  (success)
-- 2026-07-31T02:52:23.991Z  `entry_generated`  entry:smart-lock-installation-maidstone  (success)
+- 2026-07-31T03:03:56.711Z  `entry_generated`  entry:smart-lock-installation-richmond  (success)
+- 2026-07-31T03:03:56.803Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T03:19:22.758Z  `audit_gate_clear`  entry:smart-lock-installation-newport  (success)
+- 2026-07-31T03:19:22.867Z  `entry_generated`  entry:smart-lock-installation-newport  (success)
+- 2026-07-31T03:19:22.969Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T03:34:37.829Z  `audit_gate_clear`  entry:smart-lock-installation-tarneit  (success)
+- 2026-07-31T03:34:37.943Z  `entry_generated`  entry:smart-lock-installation-tarneit  (success)
+- 2026-07-31T03:34:38.042Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T04:57:45.950Z  `audit_gate_clear`  entry:smart-lock-installation-sunshine  (success)
+- 2026-07-31T04:57:46.205Z  `entry_generated`  entry:smart-lock-installation-sunshine  (success)
 

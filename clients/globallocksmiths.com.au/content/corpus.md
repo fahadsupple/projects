@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T02:52:23Z_
+_Rebuilt: 2026-07-31T04:57:46Z_
 
 ## smart-lock-installation-kensington
 
@@ -58,4 +58,76 @@ _Rebuilt: 2026-07-31T02:52:23Z_
   - Questions We Get Before a Smart Lock Goes On
   - Start With the Door You Have
 - **First paragraph:** You have chosen a smart lock, or narrowed it to two, and now you want to know whether it will go on your front door. On most Melbourne homes the answer comes down to the lockset already fitted rather 
+
+## smart-lock-installation-newport
+
+- **Primary keyword:** smart lock installation newport
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1397
+- **Headings:**
+  - Smart Lock Installation Newport, Bifold Doors Included
+  - What Changes When the Door Folds
+  - When You Have Not Picked a Lock Yet
+  - Who Global Locksmiths Sends to a Newport Door
+  - The Front Door, and the Doors Behind It
+  - If the Model Is Already Decided
+  - How Much It Costs, Door by Door
+  - Questions About Folding Doors and Choosing a Lock
+  - A Folding Door Is Still an Ordinary Job
+- **First paragraph:** A bifold door will take a smart lock, though not every model is built to go on one. In Newport that comes up as a folding front entry with an old mortice lock still in it, a narrower leaf than the sol
+
+## smart-lock-installation-richmond
+
+- **Primary keyword:** smart lock installation richmond
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1414
+- **Headings:**
+  - Smart Lock Installation Richmond for Apartment and Fire-Rated Entry Doors
+  - What Is Already Cut Into the Door
+  - If Your Entry Door Is Fire-Rated
+  - About Global Locksmiths, and How a Booking Works
+  - What the Door Looks Like Afterwards
+  - When You Already Have the Lock
+  - What It Costs, and How You Find Out
+  - Questions About Older Doors, Fire Ratings and Supplied Locks
+  - Older Entry Doors Take Smart Locks Well
+- **First paragraph:** You are replacing a lock that is already in the door. In Richmond it is often an apartment entry, and on an older block the door was cut for hardware that predates keypads. Global Locksmiths has been 
+
+## smart-lock-installation-sunshine
+
+- **Primary keyword:** smart lock installation sunshine
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1401
+- **Headings:**
+  - Smart Lock Installation Sunshine, With a Security Door in Front
+  - Getting to the Keypad Past the Security Door
+  - How Much Room Is Between the Screen and the Door
+  - Global Locksmiths, Licensed and On the Road Monday to Friday
+  - Fitting the Lock to the Door, Not the Other Way Round
+  - Buying the Lock Yourself, With a Screen in the Way
+  - One Keypad at the Front, One Key for the Rest
+  - How Much It Costs Once Both Doors Are Seen
+  - Screen Doors, Keypads and the Rest of the House
+  - The Sequence You Live With Every Day
+- **First paragraph:** A keypad still works behind a security screen, provided there is room for your hand and room for the lock body. That clearance rules smart lock models in and out on a Sunshine entry, and nobody can si
+
+## smart-lock-installation-tarneit
+
+- **Primary keyword:** smart lock installation tarneit
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1464
+- **Headings:**
+  - Smart Lock Installation Tarneit When the Door Needs Cutting First
+  - Cutting and Drilling a Door That Was Never Prepared
+  - A Lock You Bought Yourself Still Needs a Hole
+  - Booking Global Locksmiths to Cut a Front Door
+  - What You Pay For on a Tarneit Door
+  - Gates, Sheds and Garage Doors on the Same Visit
+  - What to Ask Before the Drill Comes Out
+  - The Cut Only Happens Once
+- **First paragraph:** Your front door may need a hole made in it before a smart lock can go on. In Tarneit that is a common ask. The work is cutting and drilling rather than swapping one lock for another. Global Locksmiths
 
