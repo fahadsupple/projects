@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T04:57:46Z_
+_Rebuilt: 2026-07-31T05:31:52Z_
 
 ## smart-lock-installation-kensington
 
@@ -77,6 +77,24 @@ _Rebuilt: 2026-07-31T04:57:46Z_
   - A Folding Door Is Still an Ordinary Job
 - **First paragraph:** A bifold door will take a smart lock, though not every model is built to go on one. In Newport that comes up as a folding front entry with an old mortice lock still in it, a narrower leaf than the sol
 
+## smart-lock-installation-port-melbourne
+
+- **Primary keyword:** smart lock installation port melbourne
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1469
+- **Headings:**
+  - Smart Lock Installation Port Melbourne When the Door Only Locks From the Inside
+  - Getting a Control on Both Sides of the Door
+  - When Someone Else Needs to Get In
+  - Deadbolt, Mortice or a Fire-Rated Unit Door Lock
+  - Letting Global Locksmiths Into the Flat
+  - A Lock You Have Already Ordered
+  - What the Quote Covers on an Apartment Entry
+  - The Questions That Come Before the Quote
+  - A Door That Locks From Both Sides
+- **First paragraph:** Locking up on your way out of a Port Melbourne flat should not need a hand on the inside of the door. Global Locksmiths has been licensed and trading since 2002, and a smart lock installation on an en
+
 ## smart-lock-installation-richmond
 
 - **Primary keyword:** smart lock installation richmond
@@ -94,6 +112,25 @@ _Rebuilt: 2026-07-31T04:57:46Z_
   - Questions About Older Doors, Fire Ratings and Supplied Locks
   - Older Entry Doors Take Smart Locks Well
 - **First paragraph:** You are replacing a lock that is already in the door. In Richmond it is often an apartment entry, and on an older block the door was cut for hardware that predates keypads. Global Locksmiths has been 
+
+## smart-lock-installation-st-kilda
+
+- **Primary keyword:** smart lock installation st kilda
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1458
+- **Headings:**
+  - Smart Lock Installation St Kilda for Complex Entrances and Master Keys
+  - The Door Everyone in the Block Comes Through
+  - What Happens to the Master Key When the Entrance Changes
+  - Global Locksmiths, and Who Comes Out to the Block
+  - Handing Over Access, and Taking It Back
+  - Whether the Entrance Door Will Take the Lock You Want
+  - If the Lock Has Already Been Bought
+  - Pricing an Entrance Door, and the Unit Doors Behind It
+  - Keys, Codes and Doors You Share
+  - Sort the Entrance and the Keying in One Visit
+- **First paragraph:** The key in your hand probably opens two doors: the building's front entrance and your own flat. That is a master key system, and a smart lock going onto a St Kilda complex entrance has to join it rath
 
 ## smart-lock-installation-sunshine
 
