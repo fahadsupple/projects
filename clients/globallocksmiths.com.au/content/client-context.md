@@ -1,6 +1,6 @@
 # globallocksmiths.com.au — Content Plugin Context
 
-_Rebuilt: 2026-07-31T07:04:35Z_
+_Rebuilt: 2026-07-31T07:16:15Z_
 
 ## 1. Who this client is
 

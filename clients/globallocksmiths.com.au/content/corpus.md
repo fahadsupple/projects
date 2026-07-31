@@ -1,6 +1,24 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T07:04:35Z_
+_Rebuilt: 2026-07-31T07:16:15Z_
+
+## smart-lock-installation-altona
+
+- **Primary keyword:** smart lock installation altona
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1465
+- **Headings:**
+  - Smart Lock Installation Altona Where the Door Is Aluminium and Glass
+  - How Much Lock an Aluminium Stile Will Carry
+  - Drilling Metal Next to a Pane of Glass
+  - Global Locksmiths and an Altona Door That Is Not Timber
+  - If You Have Already Chosen a Slim Model
+  - What an Aluminium Door Changes About the Price
+  - Codes for a Rental, and for the Weeks You Are Away
+  - What People Ask About Aluminium Doors and Slim Locks
+  - The Strip of Metal Beside the Glass
+- **First paragraph:** Yes, a smart lock will go on an aluminium-framed door with a glazed panel in it. Which model does is the narrower question. Global Locksmiths has been fitting hardware to Melbourne doors since 2002, a
 
 ## smart-lock-installation-ascot-vale
 
