@@ -1,12 +1,12 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-31T07:16:15Z_
+_Rebuilt: 2026-07-31T07:33:54Z_
 
 ## Snapshot
 
 - **Domain:** globallocksmiths.com.au
 - **Intake mode:** greenfield
-- **Entries:** 41 total | 16 generated | 0 audited | 0 approved
+- **Entries:** 41 total | 17 generated | 0 audited | 0 approved
 - **Clusters:** 2 | 2 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-31T07:16:15Z_
 
 ## Recent events (last 10)
 
-- 2026-07-31T06:49:50.143Z  `audit_gate_blocked`  entry:smart-lock-installation-ascot-vale  (halted)
-- 2026-07-31T06:50:55.926Z  `audit_gate_clear`  entry:smart-lock-installation-ascot-vale  (success)
-- 2026-07-31T06:50:56.086Z  `entry_generated`  entry:smart-lock-installation-ascot-vale  (success)
-- 2026-07-31T06:50:56.281Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T06:51:54.626Z  `analyst_warning`  cluster:service-location-smart-lock-installation  (success)
-- 2026-07-31T07:04:35.554Z  `audit_gate_clear`  entry:smart-lock-installation-prahran  (success)
-- 2026-07-31T07:04:35.674Z  `entry_generated`  entry:smart-lock-installation-prahran  (success)
 - 2026-07-31T07:04:35.771Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 - 2026-07-31T07:16:15.685Z  `audit_gate_clear`  entry:smart-lock-installation-altona  (success)
 - 2026-07-31T07:16:15.821Z  `entry_generated`  entry:smart-lock-installation-altona  (success)
+- 2026-07-31T07:16:15.947Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T07:31:38.293Z  `audit_gate_blocked`  entry:smart-lock-installation-truganina  (halted)
+- 2026-07-31T07:32:42.001Z  `audit_gate_clear`  entry:smart-lock-installation-truganina  (success)
+- 2026-07-31T07:32:42.107Z  `entry_generated`  entry:smart-lock-installation-truganina  (success)
+- 2026-07-31T07:32:42.204Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T07:33:54.006Z  `audit_gate_clear`  entry:smart-lock-installation-kensington  (success)
+- 2026-07-31T07:33:54.249Z  `audit_gate_clear`  entry:smart-lock-installation-richmond  (success)
 

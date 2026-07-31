@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T07:16:15Z_
+_Rebuilt: 2026-07-31T07:33:54Z_
 
 ## smart-lock-installation-altona
 
@@ -80,7 +80,7 @@ _Rebuilt: 2026-07-31T07:16:15Z_
 - **Primary keyword:** smart lock installation kensington
 - **Page type:** service-location
 - **Cluster:** service-location-smart-lock-installation
-- **Word count:** 1406
+- **Word count:** 1415
 - **Headings:**
   - Smart Lock Installation Kensington: Who Signs Off, and What Fits
   - Who Has to Say Yes Before the Lock Goes On
@@ -209,7 +209,7 @@ _Rebuilt: 2026-07-31T07:16:15Z_
 - **Primary keyword:** smart lock installation richmond
 - **Page type:** service-location
 - **Cluster:** service-location-smart-lock-installation
-- **Word count:** 1414
+- **Word count:** 1426
 - **Headings:**
   - Smart Lock Installation Richmond for Apartment and Fire-Rated Entry Doors
   - What Is Already Cut Into the Door
@@ -293,4 +293,22 @@ _Rebuilt: 2026-07-31T07:16:15Z_
   - What to Ask Before the Drill Comes Out
   - The Cut Only Happens Once
 - **First paragraph:** Your front door may need a hole made in it before a smart lock can go on. In Tarneit that is a common ask. The work is cutting and drilling rather than swapping one lock for another. Global Locksmiths
+
+## smart-lock-installation-truganina
+
+- **Primary keyword:** smart lock installation truganina
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1492
+- **Headings:**
+  - Smart Lock Installation Truganina, and What Decides the Price
+  - Four Things That Decide What Your Door Costs
+  - What Changes When the Door Belongs to a Business
+  - Global Locksmiths, and Who Writes the Quote
+  - Whether the Lock You Like Suits the Door You Have
+  - Supplying Your Own Lock, and What It Does to the Quote
+  - A Record of Who Came Through, and When
+  - Cost, Business Doors and Locks You Already Own
+  - Have Both Sorts of Door Looked At in One Visit
+- **First paragraph:** The price you pay for a smart lock installation in Truganina depends on the door it is going onto, and the doors here are not all house doors. Residential, commercial and industrial property sit side 
 

@@ -85,4 +85,4 @@ It is quoted per door and the quote is free. What moves it is what is in the doo
 
 Age is not what decides a Richmond retrofit. The shape already cut into the door decides it, along with whether the entry is fire-rated, and both are settled at your address before anything is ordered.
 
-Phone 1300 333 565 any weekday between 9am and 5pm, or describe the door in the online enquiry form.
+If there is a fire rating stamped on the edge of the door, that is the thing to read out on 1300 333 565, or to note in the enquiry form.

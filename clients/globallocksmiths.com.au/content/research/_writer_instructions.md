@@ -155,14 +155,32 @@ The trap is the **shape**, not the phone number. This construction is now used u
 Any closer that asks the reader to supply two pieces of information and then lists the
 phone and the form will read as a slot template no matter which two things you name.
 
-**Write a closer only THIS page could write.** Anchor it to the specific action this
-page's angle implies. Worked example from the page that was blocked: its subject was
-identifying an old lockset, so the fixed closer asks for a photo close enough to read the
-brand stamp on the faceplate. No sibling would write that sentence, because no sibling is
-about reading old hardware.
+**The single rule that matters: your LAST LINE must contain something only this page would
+say.** The gate measures the closing line. A final line made only of contact details is
+100% boilerplate by construction, because every one of the 41 pages carries the same phone
+number, the same hours and the same form. It does not matter how distinctive the paragraph
+above it is.
 
-The contact details still have to appear. Vary what surrounds them, lead with the thing
-that is true only here, and keep it to at most two sentences before the contact line.
+This exact final line was blocked against FOUR siblings at once (63%, 63%, 47%, 47%):
+
+> "Quotes get booked on 1300 333 565 between 9am and 5pm on weekdays, or through the
+> online enquiry form."
+
+Nothing in it belongs to any particular page, so it belongs to all of them.
+
+**The fix is to fold this page's specific thing INTO the contact line**, not to put it in
+the sentence before. Two worked examples from pages that were blocked and then cleared:
+
+- A page about identifying old hardware ends by asking for a photo close enough to read
+  the brand stamp on the faceplate, then gives the number.
+- A page about house doors versus business doors ends "Lead with that word on
+  1300 333 565, weekdays, or in the first line of the enquiry form", where "that word"
+  is the house/business distinction the whole page is built on.
+
+Both are contact lines. Neither could be moved to another page without breaking.
+
+Keep it to at most two sentences before the contact line, and make the contact line itself
+carry the page.
 
 Run the persona's self-tests: Questions 1 to 5 (quality), 6 to 9 (honesty), and the craft
 pass C1 to C7. The two that catch the most here are **Q2 the name-swap test** (if

@@ -94,4 +94,4 @@ Yes. Our coverage runs across Melbourne Metro and Geelong, and the locksmith tra
 
 Your two questions are what the door will take and who is entitled to change it. Both get answered at the quote, before anything is ordered or cut.
 
-Call 1300 333 565 on a weekday, or put the details in the online enquiry form.
+Whether the door is yours alone or the building's is the one detail worth leading with on 1300 333 565, or in the enquiry form.
