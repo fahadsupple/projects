@@ -1,6 +1,24 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T06:33:02Z_
+_Rebuilt: 2026-07-31T06:50:56Z_
+
+## smart-lock-installation-ascot-vale
+
+- **Primary keyword:** smart lock installation ascot vale
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1487
+- **Headings:**
+  - Smart Lock Installation Ascot Vale on Hardware That Came With the House
+  - Whether Your New Lock Uses the Hole That Is There
+  - The Three Old Locks That Turn Up on These Doors
+  - Old Hardware Is Familiar Ground for Global Locksmiths
+  - The Lock That Has Already Stopped Turning
+  - Measuring the Old Set Before You Order a New One
+  - What the Age of the Lockset Does to the Quote
+  - Bores, Backsets and Swapping Out an Old Set
+  - The Old Set Decides More Than the New One
+- **First paragraph:** The hardware coming off your door is probably older than the lock going on. On an Ascot Vale entry that usually means a Gainsborough-style knob set, or a Lockwood or Lane deadbolt of the same era. Glo
 
 ## smart-lock-installation-essendon
 

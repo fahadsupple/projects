@@ -1,0 +1,73 @@
+{
+  "client": "blacktruffle.net.au",
+  "version": "v1",
+  "mode": "expansion",
+  "keyword_type": "general_only",
+  "started": "2026-07-29",
+  "plugin_version": "0.9.2",
+  "phases": {
+    "phase_0_allocation": {
+      "status": "completed",
+      "output": "allocation.json",
+      "gate": "PASS",
+      "note": "analyst approved 10A/6B/4C, corporate 30%"
+    },
+    "phase_1_seeds": {
+      "status": "completed",
+      "output": "seeds.json",
+      "gate": "PASS",
+      "note": "232 candidates, 3/3 silos covered, 0 duplicates of tracked 50"
+    },
+    "phase_2_suburbs": {
+      "status": "skipped",
+      "output": null,
+      "note": "general_only \u2014 location_keywords = 0"
+    },
+    "phase_3a_metrics": {
+      "status": "completed",
+      "output": "metrics.json",
+      "gate": "PASS",
+      "note": "232 cands, 144 vol, 111 KD, DA=24"
+    },
+    "phase_3b_competitors": {
+      "status": "completed",
+      "output": "competitors.json",
+      "gate": "PASS",
+      "note": "7 competitors, 279 gaps; 2/3 seeds missed by auto-discovery"
+    },
+    "phase_3c_serp": {
+      "status": "completed",
+      "output": "serp.json",
+      "gate": "PASS",
+      "note": "60 probes, AIO 9/60, brand rank=1 control=14.3%"
+    },
+    "phase_4_gaps": {
+      "status": "completed",
+      "output": "gaps.json",
+      "gate": "PASS",
+      "note": "17-url inventory (homepage fallback); 17/17 fetched on retry; 9 EXISTS_NEEDS_OPTIMISATION, 174 MISSING_FOUNDATIONAL, 49 MISSING_INFORMATIONAL, 49 quick wins"
+    },
+    "phase_5_selection": {
+      "status": "completed",
+      "output": "keywords.json",
+      "gate": "PASS",
+      "note": "20 general selected; validate_selection 0 errors 0 warnings; canonicalized"
+    },
+    "phase_6_report": {
+      "status": "completed",
+      "output": "report.html",
+      "gate": "PASS",
+      "note": "21 sections, 210KB, self-contained, selection gate held without --allow-ungated"
+    }
+  },
+  "flagged_gaps": [
+    "Phase 0 source N5 (PROJECT_listKeywords) not callable via kwr namespace; captured out-of-band, complete 50/50 \u2014 see raw/seranking-existing-keywords.json",
+    "Phase 1: Brave Search 429 (Free plan = 1 req/sec) on 1 of 3 concurrent review-mining calls; retried serially and completed \u2014 no data lost",
+    "Phase 1: allocation candidate 'melbourne catering company' is a near-duplicate of tracked 'Catering Companies Melbourne' \u2014 excluded from seeds; Phase 5 needs a replacement for that slot",
+    "Phase 1: Brave Search 429 on concurrent review-mining (Free tier = 1 req/sec). Retried serially, no data lost. Future runs: Brave calls must be serial, not batched 3-wide.",
+    "Phase 1: initial GSC pull at rowLimit=2000 silently truncated inside the zero-click tier; re-pulled at 25000 for the complete 5,672-query set. The impressions>=10 subset is complete, not capped.",
+    "Phase 4: sitemap discovery FAILED \u2014 config domain is non-www and https://blacktruffle.net.au/sitemap.xml 404s; the real sitemap is https://www.blacktruffle.net.au/sitemap_index.xml. robots.txt 301s on BOTH hosts (WordPress trailing-slash quirk) and the collector does not follow redirects, so both fallbacks died. Inventory came from homepage links = 17 URLs vs 95 in the sitemap. The 78 unseen URLs are blog posts (post-sitemap=80), not service pages, so track classification is unaffected; but MISSING_* counts are inflated against blog content. First run also lost 5 page fetches transiently (recovered on retry, 17/17)."
+  ],
+  "client_da": 24,
+  "completed": "2026-07-29"
+}

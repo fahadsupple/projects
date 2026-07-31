@@ -1,0 +1,153 @@
+{
+  "_provenance": {
+    "source": "SE Ranking Project API — PROJECT_listKeywords(site_id=9255971)",
+    "namespace_used": "mcp__plugin_seoaudit_seranking__PROJECT_listKeywords",
+    "namespace_note": "Fetched via the seoaudit SER namespace because mcp__plugin_kwr_seranking__PROJECT_* was not registered in this session (the SER child booted before /kwr:init wrote KWR_DATA_ONLY=0). Same SE Ranking account, shared credentials. Fetched OUTSIDE the /kwr:run pipeline as an analyst action; kwr's run and preflight skills forbid cross-namespace substitution during their own execution.",
+    "fetched_on": "2026-07-29",
+    "site_id": 9255971,
+    "keyword_count": 50,
+    "group_id": "3088261",
+    "site_engine_id": 2606611,
+    "purpose": "Phase 0 Step 0a source #5 — existing tracked-keyword universe. Expansion mode: the 20 new general keywords must NOT duplicate these."
+  },
+  "silo_breakdown": {
+    "head_generic": [
+      "Best Catering Melbourne",
+      "Catering Companies Melbourne",
+      "Catering Melbourne",
+      "Catering Services Melbourne",
+      "Full Service Catering",
+      "Most Popular Catering Companies Melbourne",
+      "Top Catering Companies Melbourne"
+    ],
+    "corporate": [
+      "Best Corporate Catering Melbourne",
+      "Catering Corporate",
+      "Catering For Corporate",
+      "Corporate Catering",
+      "Corporate Catering Companies Melbourne",
+      "Corporate Catering Melbourne",
+      "Corporate Catering Menu",
+      "Corporate Catering Packages",
+      "Corporate Food Catering",
+      "Melbourne Corporate Catering",
+      "Corporate Function Catering Melbourne",
+      "Corporate Event Catering",
+      "Corporate Event Catering Melbourne",
+      "Corporate Lunch Catering Melbourne",
+      "Business Lunch Catering",
+      "Corporate Dinner Catering"
+    ],
+    "conference_meeting": [
+      "Conference Catering Melbourne",
+      "Conference Catering Packages",
+      "Catering Corporate Conference",
+      "Catering For Meetings",
+      "Meeting Catering Melbourne"
+    ],
+    "drop_off": [
+      "Corporate Drop Off Catering",
+      "Drop Off Catering",
+      "Drop Off Catering Services"
+    ],
+    "office": [
+      "Office Catering Melbourne",
+      "Office Catering",
+      "Office Party Catering",
+      "Office Meeting Catering",
+      "Office Lunch Catering Melbourne"
+    ],
+    "cocktail": [
+      "Cocktail Catering Company",
+      "Cocktail Catering Melbourne",
+      "Cocktail Catering Menu",
+      "Cocktail Catering Service",
+      "Cocktail Finger Food Catering",
+      "Cocktail Food Catering Melbourne",
+      "Cocktail Party Catering Melbourne",
+      "Cocktail Party Catering",
+      "Corporate Party Catering"
+    ],
+    "event_function": [
+      "Event Catering Company",
+      "Event Catering Melbourne",
+      "Event Catering Menu",
+      "Event Food Catering",
+      "Function Catering Melbourne"
+    ]
+  },
+  "analysis": {
+    "client_q11_preferences_already_covered": {
+      "note": "All four client-stated keyword preferences from Q11 are already tracked or near-duplicated. The 20 new keywords cannot simply restate these.",
+      "mapping": {
+        "Melbourne catering companies": "TRACKED as 'Catering Companies Melbourne'",
+        "Best caterers in Melbourne": "TRACKED as 'Best Catering Melbourne'",
+        "Lunch catering in Melbourne": "NEAR-DUPLICATE of 'Corporate Lunch Catering Melbourne' + 'Office Lunch Catering Melbourne'",
+        "cocktail function catering": "NEAR-DUPLICATE of 'Cocktail Catering Melbourne' + 'Corporate Function Catering Melbourne'"
+      }
+    },
+    "uncovered_service_lines": [
+      "At Home Meals / Re-heat Meals — ZERO coverage across all 50. Whole Q10 service line absent, and no matching page in site nav either.",
+      "Weddings — ZERO coverage, despite Q10 listing weddings under Functions & Event Catering.",
+      "Morning & Afternoon Teas — ZERO coverage, despite being a named Q10 service line.",
+      "Boardroom catering — ZERO coverage, despite Q10 naming 'Boardroom' and 'Multi-Course Plated Boardroom Meals'.",
+      "Individual Meal Boxes — ZERO coverage, named explicitly in Q10.",
+      "Platters / grazing / canapes — only 'Cocktail Finger Food Catering'; no platter or canape head terms.",
+      "Private celebrations (birthday, anniversary, retirement) — ZERO coverage, despite Q9 naming all three as ideal customers. Existing party terms are corporate-scoped.",
+      "University / government / council segments — ZERO coverage, despite Q9 describing these as a key customer group with specialist dispatch capability."
+    ],
+    "concentration_note": "The existing 50 are heavily concentrated in corporate/event/cocktail. 16 of 50 are corporate variants and 9 are cocktail variants. The residential and non-corporate service lines from Q10/Q9 are effectively untracked — that is where the 20 new general keywords have room."
+  },
+  "raw": [
+    {"id": "293724370", "name": "Best Catering Melbourne"},
+    {"id": "293724448", "name": "Catering Companies Melbourne"},
+    {"id": "293724538", "name": "Catering Melbourne"},
+    {"id": "293724640", "name": "Catering Services Melbourne"},
+    {"id": "293724742", "name": "Full Service Catering"},
+    {"id": "293724874", "name": "Most Popular Catering Companies Melbourne"},
+    {"id": "293724952", "name": "Top Catering Companies Melbourne"},
+    {"id": "293725039", "name": "Best Corporate Catering Melbourne"},
+    {"id": "293725183", "name": "Catering Corporate"},
+    {"id": "293725273", "name": "Catering For Corporate"},
+    {"id": "293725363", "name": "Corporate Catering"},
+    {"id": "293725447", "name": "Corporate Catering Companies Melbourne"},
+    {"id": "293725528", "name": "Corporate Catering Melbourne"},
+    {"id": "293725609", "name": "Corporate Catering Menu"},
+    {"id": "293725675", "name": "Corporate Catering Packages"},
+    {"id": "293725750", "name": "Corporate Food Catering"},
+    {"id": "293725840", "name": "Melbourne Corporate Catering"},
+    {"id": "293725918", "name": "Corporate Function Catering Melbourne"},
+    {"id": "293726002", "name": "Corporate Event Catering"},
+    {"id": "293726080", "name": "Corporate Event Catering Melbourne"},
+    {"id": "293726152", "name": "Corporate Lunch Catering Melbourne"},
+    {"id": "293726218", "name": "Business Lunch Catering"},
+    {"id": "293726308", "name": "Corporate Dinner Catering"},
+    {"id": "293726398", "name": "Conference Catering Melbourne"},
+    {"id": "293726485", "name": "Conference Catering Packages"},
+    {"id": "293726581", "name": "Catering Corporate Conference"},
+    {"id": "293726668", "name": "Catering For Meetings"},
+    {"id": "293726752", "name": "Meeting Catering Melbourne"},
+    {"id": "293726845", "name": "Corporate Drop Off Catering"},
+    {"id": "293726950", "name": "Drop Off Catering"},
+    {"id": "293727043", "name": "Drop Off Catering Services"},
+    {"id": "293727154", "name": "Office Catering Melbourne"},
+    {"id": "293727247", "name": "Office Catering"},
+    {"id": "293727382", "name": "Office Party Catering"},
+    {"id": "293727493", "name": "Office Meeting Catering"},
+    {"id": "293727616", "name": "Office Lunch Catering Melbourne"},
+    {"id": "293727691", "name": "Cocktail Catering Company"},
+    {"id": "293727799", "name": "Cocktail Catering Melbourne"},
+    {"id": "293727901", "name": "Cocktail Catering Menu"},
+    {"id": "293728033", "name": "Cocktail Catering Service"},
+    {"id": "293728099", "name": "Cocktail Finger Food Catering"},
+    {"id": "293728201", "name": "Cocktail Food Catering Melbourne"},
+    {"id": "293728285", "name": "Cocktail Party Catering Melbourne"},
+    {"id": "293728366", "name": "Cocktail Party Catering"},
+    {"id": "293728441", "name": "Corporate Party Catering"},
+    {"id": "293728507", "name": "Event Catering Company"},
+    {"id": "293728606", "name": "Event Catering Melbourne"},
+    {"id": "293728693", "name": "Event Catering Menu"},
+    {"id": "293728774", "name": "Event Food Catering"},
+    {"id": "293728852", "name": "Function Catering Melbourne"}
+  ]
+}

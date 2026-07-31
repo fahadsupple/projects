@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "phase": "0 — Business Context & Budget Allocation (Step 0a preliminary data pull)",
+    "client_mode": "expansion",
+    "collected_on": "2026-07-29",
+    "gsc_property": "https://www.blacktruffle.net.au/",
+    "gsc_window": "2026-04-30 to 2026-07-29 (90d)",
+    "caps_applied": {
+      "gsc_queries": "rowLimit=150 (top by clicks) — NOT the full query set; deeper mining happens in Phase 1 GSC seed source",
+      "gsc_pages": "rowLimit=40",
+      "dataforseo_volume": "20 keywords probed, 10 returned; 10 below DFS reporting threshold (absence != zero demand)"
+    }
+  },
+  "source_counts": {
+    "N1_gsc_queries": 150,
+    "N2_gsc_top_pages": 40,
+    "N3_sitemap_pages": 15,
+    "N4_nav_categories": 12,
+    "N5_existing_tracked_keywords": 50
+  },
+  "source_5_note": "PROJECT_listKeywords was NOT callable via mcp__plugin_kwr_seranking__PROJECT_* (namespace registered DATA_* only — SER child booted before /kwr:init wrote KWR_DATA_ONLY=0). Per run/SKILL.md line 144 this is a flagged gap, NOT a silent skip. The universe was captured out-of-band at analyst level and staged to raw/seranking-existing-keywords.json; it is complete (50/50, matches config.seranking_keyword_count).",
+  "critical_finding_site_structure": {
+    "headline": "Commercial service pages rank 20-53; informational blog posts rank 6-11. The structure is inverted.",
+    "homepage": {"impressions": 174106, "clicks": 2794, "position": 15.21, "note": "absorbs the overwhelming majority of all impressions"},
+    "service_pages": [
+      {"url": "/corporate-catering/", "impressions": 10912, "clicks": 14, "position": 52.58},
+      {"url": "/corporate-catering/cocktail-party/", "impressions": 14279, "clicks": 36, "position": 28.79},
+      {"url": "/event-catering/", "impressions": 8362, "clicks": 37, "position": 46.30},
+      {"url": "/corporate-catering/office/", "impressions": 2574, "clicks": 10, "position": 19.97},
+      {"url": "/corporate-catering/drop-off/", "impressions": 1301, "clicks": 1, "position": 39.86},
+      {"url": "/corporate-catering/conference-meeting/", "impressions": 850, "clicks": 1, "position": 49.21}
+    ],
+    "blog_posts_outranking_service_pages": [
+      {"url": "/menus-to-match-the-seasons.../", "impressions": 3279, "clicks": 50, "position": 5.90},
+      {"url": "/cold-vs-hot-finger-foods.../", "impressions": 1794, "clicks": 17, "position": 7.97},
+      {"url": "/buffet-vs-sit-down.../", "impressions": 5664, "clicks": 19, "position": 9.67},
+      {"url": "/wedding-menu-inspiration.../", "impressions": 4042, "clicks": 53, "position": 10.39},
+      {"url": "/how-to-create-a-memorable-cocktail-party-menu/", "impressions": 4731, "clicks": 14, "position": 11.07}
+    ],
+    "implication": "The 50 tracked keywords map to pages ranking 20-53. Adding 20 more keywords pointed at the same weak pages would repeat the pattern. The 20 new keywords should favour terms where GSC already proves position 4-15 traction."
+  },
+  "sitemap_index_flag": {
+    "post-sitemap.xml": {"submitted_web": 80, "indexed_web": 0},
+    "page-sitemap.xml": {"submitted_web": 15, "indexed_web": 11},
+    "sitemap_index.xml": {"submitted_web": 95, "indexed_web": 11},
+    "caution": "GSC Sitemaps API 'indexed' counts are widely unreliable and often report 0. The 80-submitted/0-indexed reading on post-sitemap is a SIGNAL TO VERIFY in Phase 4 via index_inspect, not a confirmed fact. page-sitemap reporting 11/15 suggests the field is populated for this property, which makes the contrast worth checking."
+  },
+  "untracked_gsc_demand": [
+    {"query": "caterers melbourne", "impressions": 688, "position": 6.01, "dfs_volume": 2900, "competition_index": 98, "cpc": 5.24},
+    {"query": "wedding catering melbourne", "impressions": 1727, "position": 7.57, "dfs_volume": 480, "competition_index": 75, "cpc": 4.39, "seasonal_peak": "Mar 880 / Sep 880"},
+    {"query": "party catering melbourne", "impressions": 1385, "position": 12.95, "dfs_volume": 260, "competition_index": 96, "cpc": 2.76},
+    {"query": "party catering", "impressions": 1883, "position": 32.73, "dfs_volume": null},
+    {"query": "small party catering melbourne", "impressions": 1138, "position": 11.55, "dfs_volume": null},
+    {"query": "finger food catering melbourne", "impressions": 927, "position": 11.71, "dfs_volume": 260, "competition_index": 93, "cpc": 4.22},
+    {"query": "home party catering melbourne", "impressions": 644, "position": 9.93, "dfs_volume": null},
+    {"query": "buffet catering melbourne", "impressions": 574, "position": 17.23, "dfs_volume": 140, "competition_index": 80},
+    {"query": "birthday party catering melbourne", "impressions": 555, "position": 17.07, "dfs_volume": null},
+    {"query": "lunch catering melbourne", "impressions": 553, "position": 5.10, "dfs_volume": 90, "competition_index": 84, "cpc": 11.13, "note": "highest CPC in the probed set — strongest commercial signal"},
+    {"query": "birthday catering melbourne", "impressions": 552, "position": 11.55, "dfs_volume": 70},
+    {"query": "canape catering melbourne", "impressions": 519, "position": 5.80, "dfs_volume": 110, "competition_index": 56, "cpc": 6.68, "note": "lowest competition index of the probed set"},
+    {"query": "catering melbourne cbd", "impressions": 465, "position": 7.72, "dfs_volume": 260, "competition_index": 95, "cpc": 8.31},
+    {"query": "food catering melbourne", "impressions": 461, "position": 14.49, "dfs_volume": null},
+    {"query": "catering delivery melbourne", "impressions": 416, "position": 5.38, "dfs_volume": null},
+    {"query": "catering cbd melbourne", "impressions": 317, "position": 5.22, "dfs_volume": null},
+    {"query": "home catering melbourne", "impressions": 272, "position": 4.75, "dfs_volume": 90, "competition_index": 88, "note": "the At-Home service line — zero tracked keywords AND no page"},
+    {"query": "private catering melbourne", "impressions": 271, "position": 15.60, "dfs_volume": null},
+    {"query": "melbourne caterers", "impressions": 267, "position": 7.38, "dfs_volume": null},
+    {"query": "melbourne catering company", "impressions": 259, "position": 6.87, "dfs_volume": null},
+    {"query": "baby shower catering", "impressions": 232, "position": 15.76, "dfs_volume": null},
+    {"query": "catering companies melbourne cbd", "impressions": 213, "position": 3.39, "dfs_volume": null},
+    {"query": "catering fitzroy", "impressions": 192, "position": 2.13, "dfs_volume": null},
+    {"query": "catering collingwood", "impressions": 99, "position": 1.57, "dfs_volume": null}
+  ],
+  "tracked_keywords_underperforming": [
+    {"query": "corporate catering melbourne", "impressions": 2792, "position": 16.79, "status": "TRACKED"},
+    {"query": "corporate catering", "impressions": 3081, "position": 22.78, "status": "TRACKED"},
+    {"query": "cocktail catering", "impressions": 2259, "position": 37.00, "status": "TRACKED"},
+    {"query": "office catering melbourne", "impressions": 1911, "position": 11.67, "status": "TRACKED"},
+    {"query": "office catering", "impressions": 1414, "position": 25.96, "status": "TRACKED"},
+    {"query": "cocktail party catering", "impressions": 1539, "position": 21.97, "status": "TRACKED"},
+    {"query": "event catering melbourne", "impressions": 1463, "position": 13.38, "status": "TRACKED"},
+    {"query": "corporate lunch catering", "impressions": 300, "position": 28.64, "status": "TRACKED"},
+    {"note": "These are ALREADY in the 50. They are an optimisation problem, not a coverage problem — out of scope for the 20 new keywords, but the single most important thing to tell the client."}
+  ],
+  "default_excluded_step_0b1": {
+    "brand_defence": {
+      "count_in_gsc_150": 16,
+      "examples": ["black truffle catering (1638 impr, pos 1.08)", "black truffle (1825 impr, pos 5.18)", "blacktruffle", "black truffle melbourne", "truffle catering", "+10 misspellings (black truffel, black turffle, blck truffle, black triffle, black truffke, black trufflw, black trufle, black truggle, black tryffle, black traffle)"],
+      "disposition": "STRIPPED — reputation / AI-overview monitoring track. config.include_brand_defence=false"
+    },
+    "near_me": {
+      "count_in_gsc_150": 8,
+      "examples": ["catering near me (1822 impr, pos 12.28)", "caterers near me (172)", "food catering near me (237)", "catering services near me (138)", "finger food catering near me (43)", "home catering near me (96)", "canapes near me (5)", "catering options near me (52)"],
+      "disposition": "STRIPPED — GBP local pack track. config.include_near_me=false",
+      "note": "catering near me at 1822 impressions is the single largest stripped term. Flagging so the analyst can consciously confirm it belongs to the GBP track and not this package."
+    }
+  }
+}

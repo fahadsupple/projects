@@ -1,0 +1,141 @@
+{
+  "business_type": "local_service",
+  "general_budget": 20,
+  "location_budget": 0,
+  "package": {
+    "keyword_type": "general_only",
+    "general_keywords": 20,
+    "location_keywords": 0,
+    "total_keywords": 20,
+    "mode": "expansion",
+    "existing_tracked_keywords": 50,
+    "delivered_total_after_expansion": 70,
+    "phase_2_status": "SKIPPED — general_only, location_keywords = 0"
+  },
+  "business_context": {
+    "business_type": "local_service",
+    "client_da": 0,
+    "client_da_note": "0 at Phase 0; the orchestrator copies metrics.json client_domain_authority into config.client_da at Phase 5 Step 5.1",
+    "business_name": "Black Truffle Catering",
+    "jurisdiction": "Melbourne, Victoria, Australia (VIC). Single-city service area — Melbourne CBD + 14 client-named inner suburbs. No interstate targeting.",
+    "terminology_note": "AU English throughout — 'caterers' not 'catering companies' is the higher-volume head form (2,900/mo vs 480/mo). 'Canape' searched without the accent. 'Morning tea' / 'afternoon tea' are AU-specific workplace-catering terms with no US equivalent.",
+    "source_counts": {
+      "N1_gsc_queries": 150,
+      "N2_gsc_top_pages": 40,
+      "N3_sitemap_pages": 15,
+      "N4_nav_categories": 12,
+      "N5_existing_tracked_keywords": 50
+    },
+    "allocation_basis_statement": "Allocation derived from N1=150 GSC queries (90d) + N2=40 GSC top pages + N3=15 sitemap pages + N4=12 nav categories + N5=50 existing tracked keywords. Tier weights reflect the demand signal across these sources, filtered to demand NOT already covered by the existing 50.",
+    "source_gaps_flagged": [
+      "N5 was NOT retrievable via mcp__plugin_kwr_seranking__PROJECT_* — that namespace registered DATA_* only because the SER MCP child booted before /kwr:init wrote KWR_DATA_ONLY=0. Per run/SKILL.md line 144 this is recorded as a flagged gap, not a silent skip. The universe was captured out-of-band at analyst level and is COMPLETE (50/50, reconciles with config.seranking_keyword_count). See raw/seranking-existing-keywords.json.",
+      "GSC query pull capped at rowLimit=150 by clicks — this is not the full query set. Phase 1's GSC seed source mines deeper (impressions >= 10).",
+      "DataForSEO returned volume for 10 of 20 probed keywords in batch 1 and 7 of 16 in batch 2. Absent keywords are below DFS reporting threshold — treated as unmeasured, NOT as zero demand."
+    ],
+    "competitive_landscape": {
+      "seed_competitors": ["elizabethandrews.com.au", "thecateringcompany.com.au", "devouritcatering.com.au"],
+      "seed_source": "Brave Search live SERP for 'catering Melbourne' during preflight; analyst-approved. Guaranteed into Phase 3b regardless of auto-discovery ranking.",
+      "vertical_note": "Melbourne catering SERPs are directory- and listicle-heavy. Auto-discovery alone risks surfacing content platforms above genuine caterers, which is why real competitors were seeded."
+    },
+    "critical_structural_finding": {
+      "headline": "This client has a RANKING problem, not a coverage problem.",
+      "evidence": "Homepage takes 174,106 impressions at position 15.2 while the commercial service pages sit at 20-53: /corporate-catering/ pos 52.6 (10,912 impr, 14 clicks), /event-catering/ pos 46.3 (8,362 impr), /corporate-catering/cocktail-party/ pos 28.8 (14,279 impr), /corporate-catering/drop-off/ pos 39.9, /corporate-catering/conference-meeting/ pos 49.2. Informational blog posts outrank all of them at positions 5.9-11.1.",
+      "consequence_for_this_package": "The existing 50 keywords point at those weak pages. Adding 20 more aimed at the same silos would repeat the pattern. This allocation therefore favours demand where GSC already proves position 4-15 traction, and service lines with no page at all (where a purpose-built page can be created rather than inheriting a position-50 one).",
+      "out_of_scope_but_report_to_client": "Fixing the corporate/event page rankings is the single highest-value action for this site and is NOT part of a keyword package. Flag at the Phase 5 checkpoint."
+    }
+  },
+  "tracks": {
+    "split_applied": {
+      "quick_wins": 9,
+      "existing_page_optimisation": 4,
+      "category_gap_fill": 7,
+      "geo_expansion": 0
+    },
+    "post_phase1_amendment": "Was 8/5/7/0 at the Phase 0 checkpoint. Phase 1 identified 'melbourne catering company' (existing_page_optimisation) as a word-order+plural duplicate of tracked 'Catering Companies Melbourne'. It was replaced by 'wedding caterers melbourne', which qualifies as quick_wins on GSC evidence (pos 3.75, 915 impr) — hence 9/4/7/0. Tier budgets are unchanged at 10/6/4.",
+    "split_rationale": "Plugin default for upgrade clients is 30/30/30/10. Two deviations, both deliberate: (1) geo_expansion = 0 because the client is single-city Melbourne with keyword_type=general_only and no suburb grid — the track's own eligibility rule (city in client.delivery_network) has no valid candidates. (2) The freed slots went to quick_wins and category_gap_fill. Final distribution drifted one slot from the 7/5/8 proposed at checkpoint: 'small party catering melbourne' genuinely satisfies quick_wins eligibility (GSC pos 11.55, 1,138 impressions), so it was classified on evidence rather than forced into gap_fill to hit a preset.",
+    "eligibility_rules_applied": {
+      "quick_wins": "gsc.position IN [4,15] AND gsc.impressions >= 50 — verified per candidate against the 90d GSC pull",
+      "existing_page_optimisation": "sitemap match — target page exists AND candidate not already in quick_wins",
+      "category_gap_fill": "not in the above AND demand validated by DFS volume or GSC impressions",
+      "geo_expansion": "not applicable — see split_rationale"
+    }
+  },
+  "silos": [
+    {
+      "silo_id": "tier_a_functions_events_head",
+      "tier": "A",
+      "budget": 10,
+      "weight_pct": 50,
+      "service_lines": [
+        "Functions & Event Catering (Private Parties, Weddings, Cocktail/Canape Events)",
+        "generic head terms"
+      ],
+      "rationale": "Largest pool of untracked demand. 'caterers melbourne' at 2,900/mo is the single biggest untracked term in the entire dataset and the site already ranks 6.0 for it. Weddings is an entire Q10 service line with ZERO tracked keywords, 480/mo, already ranking 7.6. Private celebrations (birthday, baby shower, engagement) are named in Q9 as ideal customers but every existing 'party' keyword in the tracked 50 is corporate-scoped.",
+      "candidates": [
+        {"keyword": "caterers melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 6.01, 688 impr/90d; DFS 2,900/mo, competition index 98, CPC $5.24. Largest untracked term in the dataset."},
+        {"keyword": "wedding catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 7.57, 1,727 impr/90d; DFS 480/mo, seasonal peaks 880 (Mar, Sep). Entire Q10 wedding line untracked."},
+        {"keyword": "party catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 12.95, 1,385 impr/90d; DFS 260/mo, competition index 96."},
+        {"keyword": "small party catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 11.55, 1,138 impr/90d. Matches Q9 'intimate gatherings' positioning."},
+        {"keyword": "wedding caterers melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 3.75, 915 impr/90d — the strongest untracked position in the dataset. Zero wedding keywords exist in the tracked 50, so the entire Q10 wedding line is additive. REPLACED 'melbourne catering company', which Phase 1 correctly rejected as a word-order+plural duplicate of tracked 'Catering Companies Melbourne'."},
+        {"keyword": "catering melbourne cbd", "track": "existing_page_optimisation", "eligibility_evidence": "GSC pos 7.72, 465 impr/90d; DFS 260/mo, CPC $8.31. Q9 names CBD buildings as a dispatch specialisation; homepage is the current ranking surface."},
+        {"keyword": "private catering melbourne", "track": "existing_page_optimisation", "eligibility_evidence": "GSC pos 15.60, 271 impr/90d; /event-catering/ exists as the target page."},
+        {"keyword": "buffet catering melbourne", "track": "existing_page_optimisation", "eligibility_evidence": "GSC pos 17.23, 574 impr/90d; DFS 140/mo. /event-catering/ exists; supporting blog /the-ultimate-guide-to-buffet-catering/ already ranks 15.7."},
+        {"keyword": "birthday party catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "GSC pos 17.07, 555 impr/90d; DFS 'birthday catering melbourne' 70/mo. Q9 names birthday parties as ideal customers; no dedicated page exists."},
+        {"keyword": "baby shower catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "GSC 'baby shower catering' pos 15.76, 232 impr/90d. Existing blog /from-weddings-to-baby-showers/ ranks 16.5, proving topical relevance with no commercial page behind it."}
+      ]
+    },
+    {
+      "silo_id": "tier_b_corporate_workplace",
+      "tier": "B",
+      "budget": 6,
+      "weight_pct": 30,
+      "service_lines": [
+        "Morning & Afternoon Teas, Lunches, and Multi-Course Plated Boardroom Meals",
+        "Corporate Catering (untracked sub-services only)"
+      ],
+      "rationale": "Analyst-directed corporate share, deliberately spent on UNTRACKED corporate sub-services rather than more generic corporate heads. 16 of the existing 50 are already corporate variants and their pages rank 20-53, so additional generic corporate keywords would compound an optimisation problem. Morning & Afternoon Teas is the standout: an explicit Q10 service line with zero tracked keywords and real demand.",
+      "candidates": [
+        {"keyword": "afternoon tea catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "DFS 'afternoon tea catering' 720/mo (competition 99, CPC $2.48); Melbourne-qualified form below DFS threshold. Explicit Q10 service line, zero tracked keywords, no landing page."},
+        {"keyword": "morning tea catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "DFS 50/mo Melbourne-qualified; 'morning tea catering' 390/mo national (competition 100, CPC $6.63). Explicit Q10 service line, zero tracked keywords, no landing page."},
+        {"keyword": "boardroom catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "DFS 'boardroom catering' 20/mo (competition 37 — low). GSC 43 impr at pos 35.7. Named TWICE in Q10. Thin volume, retained as the single boardroom slot on client-emphasis grounds — flagged as low-demand at Phase 5."},
+        {"keyword": "staff lunch catering melbourne", "track": "category_gap_fill", "eligibility_evidence": "Below DFS threshold; supported by GSC 'corporate lunch catering' 300 impr and 'office lunch catering melbourne' demand. Q10 lists Individual Meal Boxes; no page exists."},
+        {"keyword": "lunch catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 5.10, 553 impr/90d; DFS 90/mo but CPC $11.13 — the highest commercial signal in the entire probed set. Matches client Q11 preference 'Lunch catering in Melbourne', which is NOT in the tracked 50 in this unqualified form."},
+        {"keyword": "catering delivery melbourne", "track": "existing_page_optimisation", "eligibility_evidence": "GSC pos 5.38, 416 impr/90d. /order-online/ exists and already performs (2,425 impr, pos 4.20, 88 clicks) — strongest non-homepage page on the site."}
+      ]
+    },
+    {
+      "silo_id": "tier_c_food_packages_at_home",
+      "tier": "C",
+      "budget": 4,
+      "weight_pct": 20,
+      "service_lines": [
+        "Specific Food Packages (Canapes, Finger Food, Platters, & Beverages)",
+        "At Home Meals / Re-heat Meals"
+      ],
+      "rationale": "Two Q10 service lines with near-zero tracked coverage. Food packages has exactly one tracked keyword ('Cocktail Finger Food Catering') despite canape/finger-food/platter demand. At Home Meals has zero keywords AND no page — the most complete blind spot on the site, yet 'home catering melbourne' already ranks 4.75, indicating the homepage is picking up demand the business has never targeted.",
+      "candidates": [
+        {"keyword": "finger food catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 11.71, 927 impr/90d; DFS 260/mo, competition index 93. Supporting blog /cold-vs-hot-finger-foods/ ranks 7.97."},
+        {"keyword": "canape catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 5.80, 519 impr/90d; DFS 110/mo, competition index 56 — LOWEST of the probed set, CPC $6.68. A canape menu PDF already ranks 10.3 with 1,174 impr, proving demand with no HTML page behind it."},
+        {"keyword": "home catering melbourne", "track": "quick_wins", "eligibility_evidence": "GSC pos 4.75, 272 impr/90d; DFS 90/mo. The At-Home Meals service line — zero tracked keywords and no page, yet already ranking top-5."},
+        {"keyword": "catering platters melbourne", "track": "category_gap_fill", "eligibility_evidence": "Below DFS threshold; supported by GSC 'finger sandwich platter' and 'the perfect pairing wine and cheese platters' blog (112 impr, pos 17.7). Q10 lists Platters explicitly; no page exists."}
+      ]
+    }
+  ],
+  "default_exclusions": {
+    "summary_line": "Default-excluded: 16 brand-defence (tracked in reputation), 8 near-me (tracked in GBP local pack). Set include_brand_defence or include_near_me in config.json to opt these back in.",
+    "brand_defence": {
+      "count": 16,
+      "config_flag": "include_brand_defence = false",
+      "largest_stripped": "black truffle (1,825 impr, pos 5.18) and black truffle catering (1,638 impr, pos 1.08)",
+      "note": "Includes 10 misspelling variants. 'black truffle' is ambiguous against the truffle fungus, which explains pos 5.18 on a brand term the client otherwise owns at 1.08."
+    },
+    "near_me": {
+      "count": 8,
+      "config_flag": "include_near_me = false",
+      "largest_stripped": "catering near me (1,822 impr, pos 12.28)",
+      "note": "Surfaced at the Phase 0 checkpoint so the exclusion is a conscious analyst decision rather than a silent default. Belongs to the GBP local-pack track."
+    }
+  },
+  "phase_0_status": "completed — analyst approved 10A/6B/4C with corporate at 30% on 2026-07-29",
+  "candidate_status": "These 20 are Phase 0 CANDIDATE seeds carrying track + eligibility_evidence per Step 0d.1. Phase 1 expands the seed pool from 8 sources; Phases 3a/3b/3c attach metrics, competitor and SERP evidence; Phase 5 makes the final selection against this allocation."
+}

@@ -1,0 +1,169 @@
+{
+  "business": {
+    "name": "Black Truffle Catering",
+    "abn": "98146571379",
+    "acn": null,
+    "entity_type": null,
+    "gst_status": null,
+    "year_established": 2010,
+    "domain": "blacktruffle.net.au",
+    "website": "https://blacktruffle.net.au",
+    "canonical_host": "https://www.blacktruffle.net.au/",
+    "phone": "(03) 9419 9290",
+    "email": "catering@blacktruffle.net.au",
+    "email_source": "Q14 (no dedicated email field in this form)",
+    "address": null,
+    "address_note": "No street address supplied — this form has no address question. Q7 states the business operates from a fully equipped commercial catering facility. primary_location/city/state below are populated manually so validate_selection.detect_client_state and detect_client_city resolve correctly.",
+    "primary_location": "Melbourne, VIC",
+    "city": "Melbourne",
+    "state": "VIC",
+    "service_areas": [
+      "Melbourne CBD",
+      "East Melbourne",
+      "South Melbourne",
+      "North Melbourne",
+      "West Melbourne",
+      "Docklands",
+      "Richmond",
+      "South Yarra",
+      "Carlton",
+      "Collingwood",
+      "Abbotsford",
+      "St Kilda",
+      "Fitzroy",
+      "Parkville"
+    ],
+    "operating_hours": "Monday to Friday 7:30am–5:30pm (deliveries); Saturday and Sunday 7:30am–12:30pm. Delivery times and areas outside these parameters may incur additional fees.",
+    "operating_hours_note": "Q5 states weekends are available 'with conditions' without times; Q14 gives the specific 7:30am–12:30pm weekend window. Q14's specific times used.",
+    "google_rating": null,
+    "google_reviews_count": null,
+    "google_review_count": null,
+    "google_reviews_note": "Not supplied in the questionnaire — this form has no Google rating/review question. build_score_input reads business.google_rating and google_review(s)_count for rating signals; both are null, so those signals will be absent until GBP data is sourced directly in Phase 1."
+  },
+  "owner_and_team": {
+    "owners": ["Evonne Darakas", "Jason Darakas"],
+    "owners_note": "Q6 lists both founders/owners; individual roles not specified.",
+    "owner_background": "Black Truffle Catering is a full-service Melbourne catering company with extensive experience delivering professional catering services to corporate clients, government organisations, universities, councils, private businesses and major institutions. Leadership, culinary, operations and service teams bring many years of combined hospitality and catering experience. Professional chefs are experienced in high-volume commercial food production, premium event catering, dietary requirement management, menu development and onsite function service.",
+    "why_started": "Founded because Melbourne clients deserved more from their caterer than simply having food delivered. The founders saw a gap between restaurant-quality food and dependable, professional catering — clients were frustrated by inconsistent quality, late deliveries, limited service and the need to coordinate multiple suppliers for food, beverages, equipment and event staff. The goal was a bespoke, full-service catering company where one experienced team manages food, beverages, equipment, staffing and coordination, from a small corporate meeting to a large formal function.",
+    "team_note": "Chefs supported by trained kitchen, event, administrative, dispatch and delivery personnel. The dispatch and delivery team completes thousands of catering deliveries each year across metropolitan Melbourne, with detailed knowledge of Melbourne's CBD, university campuses, government buildings, council facilities, corporate offices and complex commercial sites — including loading docks, security procedures, goods lifts, restricted vehicle access, multiple reception areas and site-specific delivery instructions."
+  },
+  "services": [
+    "At Home Meals / Re-heat Meals",
+    "Corporate Catering (including Drop-off, Boardroom, & Individual Meal Boxes)",
+    "Full-Service Catering (On-site with staff and equipment)",
+    "Functions & Event Catering (Private Parties, Weddings, & Cocktail/Canapé Events)",
+    "Morning & Afternoon Teas, Lunches, and Multi-Course Plated Boardroom Meals",
+    "Specific Food Packages (Canapés, Finger Food, Platters, & Beverages)"
+  ],
+  "services_note": "Six service lines verbatim from Q10. Live nav confirms dedicated pages for corporate catering (with five children: drop-off, office, lunch-dinner, conference-meeting, cocktail-party) and event catering. No page found for 'At Home Meals / Re-heat Meals' — flagged as a content gap for Phase 4.",
+  "client_keyword_priorities": {
+    "source": "Q11 (client-stated SEO keyword preferences) + BDM package brief",
+    "q11_preferences": [
+      "Melbourne catering companies",
+      "Lunch catering in Melbourne",
+      "cocktail function catering",
+      "Best caterers in Melbourne"
+    ],
+    "bdm_brief": "Existing + 20 General",
+    "note": "All four client-stated preferences are city-level general keywords, not suburb-level. This corroborates the general_only package: three carry an explicit 'Melbourne' city modifier and one ('cocktail function catering') is an unmodified service head. None are suburb-scoped."
+  },
+  "differentiators_usps": [
+    "One team manages food, beverages, equipment, staffing and coordination — removes the need to coordinate multiple suppliers",
+    "Chef-prepared, restaurant-quality food combined with catering-grade reliability and punctuality",
+    "Dispatch team experienced with CBD loading docks, security procedures, goods lifts, restricted vehicle access and site-specific delivery instructions",
+    "Dedicated refrigerated delivery vehicles with documented temperature-control procedures",
+    "HACCP-based food safety procedures; complies with Food Standards Australia New Zealand (FSANZ) and Victorian regulatory obligations",
+    "$20 million public liability cover",
+    "Multiple deliveries throughout the day across Melbourne CBD and surrounding suburbs",
+    "Bespoke menus and service tailored per client, requirement and occasion",
+    "Established 2010; over 1000 companies and 1600 customers serviced, 6000 deliveries and functions completed each year"
+  ],
+  "usp_note": "Derived from Q7, Q8, Q13, Q15, Q16 and Q18 — the form has no dedicated USP question.",
+  "service_focus": "Full-service Melbourne catering — corporate/government/university drop-off and boardroom catering as the commercial core, plus on-site staffed functions, private events and at-home re-heat meals.",
+  "locations": {
+    "headquarters": "Melbourne, VIC (commercial catering facility; street address not supplied)",
+    "suburb_source": "client-provided",
+    "focus_areas": ["Melbourne CBD and inner-Melbourne suburbs"],
+    "client_named_suburbs": [
+      "Melbourne CBD",
+      "East Melbourne",
+      "South Melbourne",
+      "North Melbourne",
+      "West Melbourne",
+      "Docklands",
+      "Richmond",
+      "South Yarra",
+      "Carlton",
+      "Collingwood",
+      "Abbotsford",
+      "St Kilda",
+      "Fitzroy",
+      "Parkville"
+    ],
+    "prioritise": "Melbourne CBD (dispatch team specialises in CBD buildings, government councils and university campuses per Q9)",
+    "exclusions": [],
+    "targeting_note": "Fourteen client-named suburbs recorded from Q12 for reference and for Phase 1 seed context. This run is general_only (0 location keywords), so no suburb grid will be built — these suburbs are NOT targeted as location keywords in this package. Retained so a later location expansion has the client-provided list ready."
+  },
+  "competitors": [],
+  "competitors_note": "No competitor domains supplied in the questionnaire and none seeded by the analyst at init. Phase 3b relies entirely on DataForSEO auto-discovery. Melbourne catering SERPs are directory- and listicle-heavy, so auto-discovery may surface content platforms above genuine caterers — worth reviewing Phase 3b output and adding seed_competitors if real competitors are buried.",
+  "ideal_customer": "Melbourne businesses and corporate clients needing catering for meetings, conferences, boardroom lunches, cocktail events and all-day corporate functions. Also private individuals hosting intimate gatherings, birthday parties, anniversary celebrations and retirement parties. Organisations in CBD buildings, government councils and university campuses are a key group given dispatch familiarity. Plus residential customers wanting restaurant-quality chef-prepared meals to re-heat at home.",
+  "commercial": {
+    "projects_served": "Over 1000 companies serviced, 1600 customers serviced, and 6000 deliveries and functions completed each year",
+    "projects_served_note": "Q13 figures are annual for deliveries/functions; the company and customer counts are stated without an explicit period.",
+    "pricing_structure": "Competitive pricing; no fixed price list or specific pricing published on the website — customers are directed to request a tailored quote. Orders placed via the online ordering system, email (catering@blacktruffle.net.au), or phone (03 9419 9290). Multiple deliveries throughout the day across Melbourne CBD and surrounding suburbs, 7:30am–5:30pm Mon–Fri and 7:30am–12:30pm Sat–Sun. Delivery outside these times/areas may incur additional fees.",
+    "insurance": "Public Liability $20 million",
+    "certifications": "Team members complete training and certifications required for their roles, including food-safety and responsible-service requirements where applicable. Ongoing food safety training provided.",
+    "compliance": "Food Standards Australia New Zealand (FSANZ) guidelines and all relevant government regulatory authorities. HACCP-based food safety procedures covering hazard identification, temperature monitoring, safe food handling, allergen management, cleaning and sanitation, staff hygiene, traceability, storage controls and documented corrective actions. Dedicated refrigerated delivery vehicles with documented temperature-control procedures. Complies with applicable Victorian regulatory and local government food-safety obligations."
+  },
+  "mission": "To deliver exceptional-tasting food and outstanding service, creating a seamless and memorable catering experience for every client.",
+  "values": [
+    "Exceptional Quality — fresh, premium-quality, chef-prepared food using carefully selected ingredients and locally sourced produce wherever possible",
+    "Reliability and Consistency — the same high standard every time, from food preparation to delivery and presentation",
+    "Outstanding Service — seamless, professional and stress-free through responsive communication, attention to detail and genuine care",
+    "Customer Satisfaction — listening to client needs, welcoming feedback and continually striving to exceed expectations",
+    "Bespoke Solutions — menus, service and catering solutions tailored to each client's individual requirements, preferences and occasion"
+  ],
+  "community_involvement": "Provides opportunities and practical training to people without previous hospitality experience, building workplace skills and career pathways. Works with smaller organisations, community groups and charities on limited budgets to develop practical catering solutions within their constraints. Environmental focus on reducing food and packaging waste, improving ordering and production processes, using resources more efficiently and choosing more sustainable products and practices.",
+  "site_snapshot": {
+    "checked_on": "2026-07-29",
+    "status": "live — HTTP 200",
+    "canonical_note": "https://blacktruffle.net.au redirects to https://www.blacktruffle.net.au/ (www is canonical). Config domain stored unprefixed per plugin normalisation.",
+    "platform": "WordPress",
+    "homepage_title": "Catering Melbourne - Top Catering Company | Black Truffle",
+    "homepage_meta_description": "Black Truffle delivers the best full service catering in Melbourne. Call us on 03 9419 9290 for one of the city's most popular catering companies.",
+    "pages": [
+      "/corporate-catering",
+      "/corporate-catering/drop-off",
+      "/corporate-catering/office",
+      "/corporate-catering/lunch-dinner",
+      "/corporate-catering/conference-meeting",
+      "/corporate-catering/cocktail-party",
+      "/event-catering",
+      "/order-online",
+      "/about-us",
+      "/contact",
+      "/faqs",
+      "/blog"
+    ],
+    "note": "Paths extracted from homepage internal links at init — indicative only, not a full crawl. Phase 4 performs the authoritative site crawl and keyword-to-URL mapping. Homepage already targets the head term 'Catering Melbourne' in its title tag."
+  },
+  "meta": {
+    "keywords_budget": "Existing + 20 General",
+    "deadline": "Friday, 31 July 2026",
+    "response_id": "P4SJ9rz7",
+    "form_status_at_parse": "draft",
+    "form_submitted": "2026-07-27T10:22:01+10:00",
+    "parsed_by": "kwr:init (plugin v0.9.2)",
+    "parsed_on": "2026-07-29",
+    "project_scope": "Expansion — 20 new general keywords layered on top of the client's existing tracked package. No location keywords in this run.",
+    "open_items": [
+      "SE Ranking site_id not captured at init — PROJECT_* tools are not registered in this session. Requires KWR_DATA_ONLY=0 (written) plus a Claude Code session restart before Phase 0 can read the existing tracked-keyword universe.",
+      "No business street address in the questionnaire — business.address is null. primary_location/city/state populated manually so state and city detection resolve.",
+      "No Google rating or review count supplied — rating-based scoring signals will be absent; source GBP data directly during Phase 1 review mining.",
+      "No competitor domains supplied — seed_competitors is empty and Phase 3b depends on auto-discovery in a directory-heavy vertical.",
+      "Q10 lists 'At Home Meals / Re-heat Meals' as a service but no corresponding page appears in homepage navigation — likely content gap, confirm in Phase 4.",
+      "Form status at parse was 'draft', not submitted — fields could still change client-side.",
+      "Q5 and Q14 differ on weekend hours; Q14's specific 7:30am–12:30pm window was used."
+    ]
+  }
+}
