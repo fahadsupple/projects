@@ -1,0 +1,14 @@
+{
+  "entry_id": "smart-lock-installation-spotswood",
+  "gated_at": "2026-07-31T07:59:06.498Z",
+  "blocking_count": 0,
+  "findings": [
+    {
+      "severity": "warning",
+      "category": "unverified_specific",
+      "line_number": 58,
+      "excerpt": "5mm",
+      "rationale": "Numeric specific '5mm' could not be traced to any ingested source; auto-marked [UNVERIFIED]. Cite a source or confirm the figure in the client facts ledger before export."
+    }
+  ]
+}

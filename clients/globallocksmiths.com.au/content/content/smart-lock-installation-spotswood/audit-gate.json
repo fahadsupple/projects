@@ -1,0 +1,10 @@
+{
+  "entry_id": "smart-lock-installation-spotswood",
+  "gated_at": "2026-07-31T07:59:06.665Z",
+  "blocking_count": 0,
+  "waived_count": 0,
+  "findings": [],
+  "systemic_fp_warnings": [
+    "Banned-term gate enforcement is OFF \u2014 client-notes lists restricted competitors but client-profile.json brand.banned_terms is empty. Competitor names are only LLM-audited, not gate-enforced. Populate brand.banned_terms (structured) to enable deterministic blocking."
+  ]
+}

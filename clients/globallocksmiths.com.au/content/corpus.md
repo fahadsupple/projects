@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T07:33:54Z_
+_Rebuilt: 2026-07-31T07:59:06Z_
 
 ## smart-lock-installation-altona
 
@@ -238,6 +238,42 @@ _Rebuilt: 2026-07-31T07:33:54Z_
   - Handle Sets, New Deadlocks and Fit-Only Jobs
   - A Door Gains a Deadbolt It Never Had
 - **First paragraph:** The lock is bought, and the door it is going on has no deadbolt hole in it. Say that on the phone and the answer is still yes. Global Locksmiths has been cutting and fitting hardware into Melbourne do
+
+## smart-lock-installation-south-melbourne
+
+- **Primary keyword:** smart lock installation south melbourne
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1471
+- **Headings:**
+  - Smart Lock Installation South Melbourne When the Door Is Not Entirely Yours
+  - The One Door in the Flat That Is Not Only Yours
+  - Where the Answer Comes From, and What to Ask For
+  - Asking for a Licensed Locksmith, and Getting Global Locksmiths
+  - If the Building Says No, or Says Not That Model
+  - The Lock in the Box, and the Door It Has to Suit
+  - A Price in Hand Before the Answer Comes Back
+  - What Comes Up Between Deciding and Booking
+  - One Email to the Building, One Call to Us
+- **First paragraph:** Buying the lock is the easy half. On a South Melbourne apartment entry the harder half is confirming the door may be altered at all, because a flat's main entry usually opens onto common property. Glo
+
+## smart-lock-installation-spotswood
+
+- **Primary keyword:** smart lock installation spotswood
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1494
+- **Headings:**
+  - Smart Lock Installation Spotswood If You Would Rather Not Drill the Door
+  - Which Holes Are New and Which Were Already There
+  - If You Ever Take the Smart Lock Off Again
+  - Handing Your Front Door to Global Locksmiths
+  - Buying a Lock That Asks Less of the Door
+  - When the Door Is Already Wired for an Alarm
+  - How Much of the Quote Is Preparation
+  - Drilling, Wiring and Taking It Off Again
+  - Most of It Is Already in the Door
+- **First paragraph:** The hole a smart lock needs is often already in the door. Where a Spotswood front door carries a deadbolt above the handle, that opening is the one the new lock takes over. Global Locksmiths has been 
 
 ## smart-lock-installation-st-kilda
 
