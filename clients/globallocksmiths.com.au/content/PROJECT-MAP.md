@@ -1,12 +1,12 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-31T06:50:56Z_
+_Rebuilt: 2026-07-31T07:04:35Z_
 
 ## Snapshot
 
 - **Domain:** globallocksmiths.com.au
 - **Intake mode:** greenfield
-- **Entries:** 41 total | 14 generated | 0 audited | 0 approved
+- **Entries:** 41 total | 15 generated | 0 audited | 0 approved
 - **Clusters:** 2 | 2 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-31T06:50:56Z_
 
 ## Recent events (last 10)
 
-- 2026-07-31T06:04:41.939Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T06:20:16.741Z  `audit_gate_clear`  entry:smart-lock-installation-seddon  (success)
-- 2026-07-31T06:20:16.862Z  `entry_generated`  entry:smart-lock-installation-seddon  (success)
-- 2026-07-31T06:20:16.958Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 - 2026-07-31T06:33:01.963Z  `audit_gate_clear`  entry:smart-lock-installation-essendon  (success)
 - 2026-07-31T06:33:02.077Z  `entry_generated`  entry:smart-lock-installation-essendon  (success)
 - 2026-07-31T06:33:02.180Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
 - 2026-07-31T06:49:50.143Z  `audit_gate_blocked`  entry:smart-lock-installation-ascot-vale  (halted)
 - 2026-07-31T06:50:55.926Z  `audit_gate_clear`  entry:smart-lock-installation-ascot-vale  (success)
 - 2026-07-31T06:50:56.086Z  `entry_generated`  entry:smart-lock-installation-ascot-vale  (success)
+- 2026-07-31T06:50:56.281Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T06:51:54.626Z  `analyst_warning`  cluster:service-location-smart-lock-installation  (success)
+- 2026-07-31T07:04:35.554Z  `audit_gate_clear`  entry:smart-lock-installation-prahran  (success)
+- 2026-07-31T07:04:35.674Z  `entry_generated`  entry:smart-lock-installation-prahran  (success)
 

@@ -1,6 +1,6 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T06:50:56Z_
+_Rebuilt: 2026-07-31T07:04:35Z_
 
 ## smart-lock-installation-ascot-vale
 
@@ -167,6 +167,24 @@ _Rebuilt: 2026-07-31T06:50:56Z_
   - The Questions That Come Before the Quote
   - A Door That Locks From Both Sides
 - **First paragraph:** Locking up on your way out of a Port Melbourne flat should not need a hand on the inside of the door. Global Locksmiths has been licensed and trading since 2002, and a smart lock installation on an en
+
+## smart-lock-installation-prahran
+
+- **Primary keyword:** smart lock installation prahran
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1422
+- **Headings:**
+  - Smart Lock Installation Prahran on a Unit Door That Already Has a Deadlock
+  - What Comes Off the Door and What Stays On It
+  - What Still Holds the Door Once It Opens With a Code
+  - Renting, Letting and Putting the Door Back
+  - Global Locksmiths on a Prahran Unit Door
+  - Checking a Lock Against the Deadlock You Have
+  - How Much Hardware the Quote Has to Cover
+  - Rented Flats, Unit Entries and What It Costs
+  - The Deadlock Is the Only Part in Question
+- **First paragraph:** You want a code on the front door of your flat, and you would rather not replace the whole door's hardware to get one. On a Prahran unit door you often can: the deadlock already fitted is the part a s
 
 ## smart-lock-installation-richmond
 
