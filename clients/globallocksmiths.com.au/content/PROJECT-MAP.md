@@ -1,12 +1,12 @@
 # globallocksmiths.com.au — Project Map
 
-_Rebuilt: 2026-07-31T05:31:52Z_
+_Rebuilt: 2026-07-31T06:04:41Z_
 
 ## Snapshot
 
 - **Domain:** globallocksmiths.com.au
 - **Intake mode:** greenfield
-- **Entries:** 41 total | 9 generated | 0 audited | 0 approved
+- **Entries:** 41 total | 11 generated | 0 audited | 0 approved
 - **Clusters:** 2 | 2 locked
 - **Halt state:** none
 
@@ -29,14 +29,14 @@ _Rebuilt: 2026-07-31T05:31:52Z_
 
 ## Recent events (last 10)
 
-- 2026-07-31T04:57:45.950Z  `audit_gate_clear`  entry:smart-lock-installation-sunshine  (success)
-- 2026-07-31T04:57:46.205Z  `entry_generated`  entry:smart-lock-installation-sunshine  (success)
-- 2026-07-31T04:57:46.346Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T05:17:45.109Z  `audit_gate_clear`  entry:smart-lock-installation-port-melbourne  (success)
-- 2026-07-31T05:17:45.236Z  `entry_generated`  entry:smart-lock-installation-port-melbourne  (success)
-- 2026-07-31T05:17:45.344Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T05:19:02.604Z  `analyst_warning`  cluster:service-location-smart-lock-installation  (success)
-- 2026-07-31T05:19:27.026Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
-- 2026-07-31T05:31:51.979Z  `audit_gate_clear`  entry:smart-lock-installation-st-kilda  (success)
-- 2026-07-31T05:31:52.105Z  `entry_generated`  entry:smart-lock-installation-st-kilda  (success)
+- 2026-07-31T05:40:14.213Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T05:40:43.888Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T05:40:50.145Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T05:40:54.683Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T05:43:04.755Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T05:48:04.557Z  `audit_gate_clear`  entry:smart-lock-installation-kingsville  (success)
+- 2026-07-31T05:48:04.747Z  `entry_generated`  entry:smart-lock-installation-kingsville  (success)
+- 2026-07-31T05:48:04.922Z  `client_facts_extracted`  client:globallocksmiths.com.au  (success)
+- 2026-07-31T06:04:41.662Z  `audit_gate_clear`  entry:smart-lock-installation-flemington  (success)
+- 2026-07-31T06:04:41.833Z  `entry_generated`  entry:smart-lock-installation-flemington  (success)
 
