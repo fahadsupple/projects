@@ -1,6 +1,24 @@
 # Corpus Index — Cross-Entry Differentiation
 
-_Rebuilt: 2026-07-31T06:04:41Z_
+_Rebuilt: 2026-07-31T06:33:02Z_
+
+## smart-lock-installation-essendon
+
+- **Primary keyword:** smart lock installation essendon
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1459
+- **Headings:**
+  - Smart Lock Installation Essendon, and Whether a Key Still Opens It
+  - One Feature That Cannot Be Added Later
+  - Deciding for Everyone Who Comes Through the Door
+  - About Global Locksmiths
+  - What Has to Line Up on the Door
+  - Bringing Your Own Lock, and What to Check on the Box
+  - Getting a Price Without Committing to Anything
+  - Codes, Prints and the Key You Might Keep
+  - Order the Lock With the Fallback Already Decided
+- **First paragraph:** Fingerprint, code, card or phone: on an Essendon door you pick how it opens, and whether a metal key still opens it too. That second half is decided at purchase, because a lock built without a keyway 
 
 ## smart-lock-installation-flemington
 
@@ -149,6 +167,23 @@ _Rebuilt: 2026-07-31T06:04:41Z_
   - Questions About Older Doors, Fire Ratings and Supplied Locks
   - Older Entry Doors Take Smart Locks Well
 - **First paragraph:** You are replacing a lock that is already in the door. In Richmond it is often an apartment entry, and on an older block the door was cut for hardware that predates keypads. Global Locksmiths has been 
+
+## smart-lock-installation-seddon
+
+- **Primary keyword:** smart lock installation seddon
+- **Page type:** service-location
+- **Cluster:** service-location-smart-lock-installation
+- **Word count:** 1496
+- **Headings:**
+  - Smart Lock Installation Seddon on a Door With No Deadbolt in It
+  - Where the Deadbolt Goes on a Door That Never Had One
+  - Keeping a Deadbolt That Was Only Just Fitted
+  - Global Locksmiths Has Been at This Since 2002
+  - When You Have the Lock and Only Want the Fitting Done
+  - Two Doors in Seddon, Two Different Quotes
+  - Handle Sets, New Deadlocks and Fit-Only Jobs
+  - A Door Gains a Deadbolt It Never Had
+- **First paragraph:** The lock is bought, and the door it is going on has no deadbolt hole in it. Say that on the phone and the answer is still yes. Global Locksmiths has been cutting and fitting hardware into Melbourne do
 
 ## smart-lock-installation-st-kilda
 

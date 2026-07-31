@@ -1,0 +1,589 @@
+================================================================================
+NAZTECH.COM.AU — DAILY TASKS REVIEW
+Approved Copy + Daily Tasks doc + Trello annotated screenshots vs LIVE SITE
+Date: 31 July 2026
+Reviewed by: Supple SEO
+================================================================================
+
+SCOPE
+  Source documents reviewed (clients/naztech.com.au/review/):
+    - Naztech.com.au - Daily Tasks.docx          (original tasks + 16/07/2026 additions)
+    - Naztech.com.au_(Approved-Copy) (1).docx    (49 pages of approved copy)
+    - Naztech.com.au-Keyword-URL-Meta.xlsx       (URL / keyword / meta mapping)
+    - image (10).png  — homepage, annotated
+    - image (11).png  — /air-conditioning/, annotated
+    - image (12).png  — /mobile-auto-electrician-dandenong/, annotated
+    - image (13).png  — homepage, annotated (earlier pass)
+
+  Checks run:
+    - All 49 approved URLs fetched DESKTOP + MOBILE user-agent (all HTTP 200)
+    - 2,752 approved sentences matched against live page text
+    - Every meta title, meta description, H1 and subheading compared to the doc
+    - Full mobile-viewport render audit (390x844, iPhone) on all 49 pages
+    - HTML code audit: heading order, duplicate IDs, alt text, anchors, schema,
+      canonicals, robots, redirects, sitemap, internal links
+    - Every Daily Task line item and every Trello annotation checked individually
+
+  Verdict in one line:
+    Content accuracy is excellent — 2,749 of 2,752 approved sentences are live
+    verbatim, and all 44 new pages exist with correct titles, descriptions,
+    H1s and postcodes. The real problems are (1) the homepage H1 was never
+    swapped, (2) the sitewide "Melbourne & Victoria" rename was only half done,
+    and (3) the enquiry form is hidden on mobile across 46 pages.
+
+
+================================================================================
+PART 1 — CONTENT MATCHING
+================================================================================
+
+WHAT MATCHES (no action needed)
+
+  1.1  All 49 approved URLs are live and return HTTP 200.
+       - 14 x mobile-auto-electrician-[suburb]
+       - 14 x car-aircon-regas-[suburb]
+       - 14 x car-battery-replacement-[suburb]
+       - /car-aircon-regas/ and /car-battery-replacement/ hub pages
+       - /, /about/, /mobile-auto-electrician/, /air-conditioning/,
+         /areas-we-serve/
+
+  1.2  Meta titles — 49 of 49 match the approved doc character-for-character.
+       No duplicates across the set.
+
+  1.3  Meta descriptions — 49 of 49 match the approved doc exactly.
+       No duplicates. All within 160 characters.
+
+  1.4  H1s — 48 of 49 correct. Exactly one H1 per page on every page.
+       (The single exception is the homepage — see 3.1.)
+
+  1.5  Subheadings — every approved subheading is live on its page except one
+       (see 2.3). Where the doc used Heading 3, the build used H2 — correct.
+
+  1.6  Body copy — 2,749 of 2,752 approved sentences are present verbatim.
+       Three exceptions listed in Part 2. This is a 99.9% match rate.
+
+  1.7  Postcodes — all 42 suburb pages carry the correct VIC postcode in the
+       meta title (3175, 3805, 3806, 3809, 3810, 3978, 3977, 3199, 3931,
+       3140, 3820, 3844, 3953, 3995). No mismatches.
+
+  1.8  Suburb accuracy — no cross-suburb contamination. Every location page
+       talks about its own suburb. The two pages that mention Pakenham in a
+       heading (Clyde, Traralgon) do so because the approved copy says to.
+
+  1.9  Redirects — both renames done correctly with 301s:
+         /pakenham/  →  /mobile-auto-electrician-pakenham/   [301]
+         /cars/      →  /mobile-auto-electrician/            [301]
+
+  1.10 Sitemap — all 49 URLs present in page-sitemap.xml. No stale
+       /pakenham/ or /cars/ entries left behind.
+
+  1.11 Internal linking — no orphan pages, no broken internal links.
+       Every location page has 16-19 inbound in-body links.
+
+
+================================================================================
+PART 2 — CONTENT ISSUES
+================================================================================
+
+  2.1  MISSING PHONE NUMBER IN INTRO SENTENCE — /areas-we-serve/
+       Approved:  "Call 0449 992 695 or send an online enquiry, and the same
+                   ARC-licensed owner-operator comes to you..."
+       Live:      "Call or send an online enquiry, and the same ARC-licensed
+                   owner-operator comes to you..."
+       The number "0449 992 695" was dropped when "send an online enquiry" was
+       turned into a link. The word "Call" is now dangling and is not a link.
+       FIX: restore to "Call 0449 992 695 or send an online enquiry" and make
+       the number a tel: link.
+
+  2.2  FAQ QUESTION REWORDED — /car-battery-replacement-clyde/
+       Approved:  "Is a battery from a big-box hardware store any good?"
+       Live:      "Is a cheap battery off the shelf worth it?"
+       The answer underneath is word-for-word correct; only the question was
+       changed. This was not requested in any task.
+       FIX: restore the approved question text.
+
+  2.3  WRONG FAQ SECTION HEADING (duplicated) — /air-conditioning/
+       The page carries the H2 "Where We Come To Across South East Melbourne
+       and Gippsland" TWICE. The second instance should be the approved FAQ
+       heading: "Car A/C Questions We Hear Across the South East and Gippsland".
+       FIX: change the second H2 to the approved FAQ heading.
+
+  2.4  DUPLICATED HEADING — /car-battery-replacement-officer/
+       "Nearby Suburbs We Cover" renders twice, back to back, immediately
+       before the suburb list.
+       FIX: delete the duplicate.
+
+  2.5  LEGACY CONTENT BLOCKS LEFT IN PLACE — /air-conditioning/
+       The Trello annotation on image (11).png marked the two old cards for
+       replacement with our H1 content. Both are still live directly under
+       the new H1:
+         - "Professional Automotive Air Conditioning Services in South East
+            Melbourne"
+         - "Reliable Mobile Air Conditioning Services You Can Trust"
+       The approved content WAS added further down, so the page now opens with
+       two blocks of superseded copy.
+       FIX: remove both legacy cards.
+
+  2.6  LEGACY SECTION LEFT IN PLACE — homepage
+       Trello (image 10 + image 13) marked the "Reliable Mobile Auto
+       Electrician in Melbourne & Victoria" heading for deletion. The
+       "& Victoria" was trimmed but the heading itself is still live as
+       "Reliable Mobile Auto Electrician". The intro paragraph underneath WAS
+       correctly replaced with approved H1 content, and the "Mobile auto
+       electrician servicing Melbourne and all of Victoria" bullet WAS deleted.
+       FIX: delete the leftover heading.
+
+  2.7  COPY NOTE (our side, not the developer's)
+       /mobile-auto-electrician-clyde/ FAQ reads "Do you cover the Clyde in
+       Victoria, or only Pakenham?". This is in our approved doc but the
+       phrasing "the Clyde" is awkward. Suggest "Do you cover Clyde and Clyde
+       North, or only Pakenham?" if the client is open to a copy tweak.
+
+
+================================================================================
+PART 3 — CODING / SEO ISSUES
+================================================================================
+
+--- 3A. HIGH PRIORITY -----------------------------------------------------------
+
+  3.1  HOMEPAGE H1 WAS NEVER REPLACED                    [ CRITICAL ]
+       Live H1:     "Mobile Auto Electrical & Air Conditioning for Heavy
+                     Equipment, Fleet & Plant"
+       Approved H1: "Mobile Auto Electrical & Air Conditioning South East
+                     Melbourne & Gippsland: Cars, 4WDs and Fleets, Sorted
+                     Where You Park"
+       The Daily Tasks doc says: "On homepage, replace H1 with the H1 in our
+       content." The Trello annotation on image (10).png even shows the new H1
+       already in place with the note "H1 already added - copy this style" —
+       but the live homepage still carries the old one on both desktop and
+       mobile. The homepage is the single most important page on the site and
+       its H1 currently states the wrong service area and the wrong audience.
+       Everything else on the homepage (eyebrow, hero paragraph, all six
+       approved H2 sections, body copy) IS correct — only the H1 is wrong.
+
+  3.2  ENQUIRY FORM IS HIDDEN ON MOBILE — 46 PAGES        [ CRITICAL ]
+       The bottom "Get in Touch" enquiry form sits inside a container with the
+       Elementor class `elementor-hidden-mobile`. Measured:
+         Desktop (1440px):  form renders 410 x 378 px
+         Mobile  (390px):   form renders 0 x 0 px
+       There is no replacement mobile form. On a phone, visitors get the
+       "GET IN TOUCH" section with roughly 750px of empty black space where
+       the form should be, then the footer.
+       Affected: all 42 suburb pages, both service hub pages
+       (/car-aircon-regas/, /car-battery-replacement/), /areas-we-serve/, and
+       the two legacy service pages. NOT affected: /contact/ (form works, 288
+       x 467 on mobile).
+       For a mobile-locksmith-style trade business the majority of traffic is
+       on a phone, so this is removing the primary conversion path from almost
+       every landing page.
+       FIX: remove the `elementor-hidden-mobile` class from that section, or
+       add a mobile-visible duplicate.
+
+  3.3  "MELBOURNE & VICTORIA" RENAME ONLY HALF DONE       [ HIGH ]
+       Task (16/07/2026): "Across the website, make this update: Mobile Auto
+       Electrician Melbourne & Victoria → Mobile Auto Electrician South East
+       Melbourne & Gippsland".
+
+       STILL LIVE ON ALL 49 PAGES (footer, appears twice per page):
+         "Mobile Auto Electrician — Melbourne & Victoria · ARC Licensed"
+       STILL LIVE ON ALL 49 PAGES (footer contact block):
+         "Melbourne & Across Victoria"
+
+       ADDITIONALLY ON THE HOMEPAGE ONLY:
+         a) Services intro: "...general vehicle work — across Melbourne and
+            Victoria."
+         b) Brands intro: "...contractors, councils and industrial operators
+            across Melbourne and Victoria."
+         c) Card heading: "Melbourne & Across Victoria" with body "Based in
+            Melbourne, servicing metropolitan areas and regional Victoria —
+            including Geelong, Ballarat and beyond."
+            >> This one is the worst: Geelong and Ballarat are NOT in the
+               service area at all. Trello image (10).png explicitly marked
+               this card for replacement with "Mobile Auto Electrical & Air
+               Cons South East Melbourne & Gippsland".
+         d) "Commercial & Council Clients": "...fleet managers across Victoria."
+         e) Final CTA H2: "Need a Mobile Auto Electrician in Melbourne or
+            Victoria?"
+            >> Every other page correctly says "...in South East Melbourne or
+               Gippsland?". Only the homepage was missed.
+
+       CONSISTENCY GAP (not a literal task line, but same problem):
+         "Trusted by Commercial Operators Across Melbourne" — reviews heading
+         on 46 pages. Suggest "Across South East Melbourne & Gippsland".
+
+  3.4  REVIEW COUNT UPDATE ONLY HALF DONE                 [ HIGH ]
+       Task (16/07/2026): "Let's change reviews to latest figures across the
+       whole website: 5/5 Rated on Google (43+ Reviews)".
+       Done correctly on 46 pages. Still stale on the homepage, three places:
+         - H2 badge:        "34 Google Reviews"
+         - Reviews section: "Based on 34 Google Reviews"
+         - Reviews footnote:"Visit our Google Business Profile for all 34
+                             reviews."
+       Also: /mobile-auto-electrician/ has no review badge at all (see 3.5).
+       Note the client memory records 43+ reviews; the approved copy body text
+       says "44 five-star Google reviews" while the badge says "43+". Worth
+       aligning on one number before the next update.
+
+  3.5  /mobile-auto-electrician/ IS MISSING THE PAGE TEMPLATE   [ HIGH ]
+       This page (the renamed /cars/) received the approved copy correctly, but
+       it was never rebuilt on the location-page template. Compared with every
+       other service page it is missing:
+         - the "5/5 Rated on Google (43+ Reviews)" hero USP strip
+         - "Auto Electrical Services We Provide" service grid
+         - "Reliable. Mobile. Commercial-Grade." USP block
+         - "Vehicles & Equipment We Service" block
+         - the reviews section
+         - the "Need a Mobile Auto Electrician in South East Melbourne or
+           Gippsland?" closing CTA
+         - the enquiry form
+       It also still carries an old block, "Why Choose NAZTECH for Cars?", with
+       four superseded USP cards.
+       FIX: rebuild on the same template as /car-aircon-regas/ and remove the
+       old block.
+
+  3.6  BROKEN IMAGE (HTTP 404) ON 22 PAGES                [ HIGH ]
+       /wp-content/uploads/2026/05/elementor/thumbs/
+         4f016a652_IMG_3625-rn40r9zqb9j75bafak6nnu5jdbvi0skn4cibuqk59w.webp
+       Returns 404 (the server sends an HTML error page in its place). It is
+       referenced in the HTML of 31 pages and fails to render on 22, including
+       /areas-we-serve/, 7 mobile-auto-electrician pages and all 14
+       car-battery-replacement suburb pages.
+       FIX: regenerate the Elementor thumbnail or re-point the image.
+
+
+--- 3B. MOBILE ------------------------------------------------------------------
+
+  3.7  GOOD NEWS FIRST
+       - No horizontal scroll on any of the 49 pages at 390px. Zero overflow
+         elements detected sitewide.
+       - Viewport meta tag present on every page.
+       - Mobile HTML is byte-identical to desktop HTML — no cloaking, no
+         content hidden from mobile crawlers, no separate m. site.
+       - Exactly one visible H1 per page on mobile.
+       - Titles, descriptions and headings identical desktop vs mobile.
+
+  3.8  ENQUIRY FORM HIDDEN ON MOBILE — see 3.2 above.     [ CRITICAL ]
+
+  3.9  TAP TARGETS BELOW MINIMUM SIZE                     [ MEDIUM ]
+       Google's guidance is a 48x48px minimum touch target. Measured at 390px:
+         - "Request a Quote" links in the service-card grid: 14px tall.
+           360 instances across the site (8 per page on 45 pages). These are
+           the main in-content CTAs on every service block.
+         - Header phone icon: 30px  |  hamburger: 29px
+         - "NAZTECH" footer logo link: 20px
+         - In-copy links ("0449 992 695", "send an online enquiry", suburb
+           links): 20-21px
+       FIX: raise the service-card CTA to at least 44px tall (padding is
+       enough — no layout change needed), and increase line-height on in-copy
+       links.
+
+  3.10 FONT SIZES BELOW 12px ON MOBILE                    [ MEDIUM ]
+       - 10px: "Cars, SUVs & 4WD Specialists", "Fleet & Commercial Accounts",
+               "Purchase Orders Accepted", "Emergency Breakdown Support"
+               (the hero USP strip) — 46 pages
+       - 11px: "Licence No. AU066885" (footer ARC badge) — all 49 pages
+       - 10px: the four "Ongoing Account Work" card descriptions — homepage
+       FIX: minimum 12px, ideally 14px for the USP strip since it sits in the
+       hero above the fold.
+
+  3.11 LARGE EMPTY BLOCKS ON MOBILE                       [ LOW-MEDIUM ]
+       Measured vertical gaps with no content on the Berwick page at 390px:
+       758px (before "GET IN TOUCH" — this is the hidden form, see 3.2),
+       703px, 610px, 545px. Most are image blocks that render tall on mobile,
+       but the run of them makes the location pages roughly 19,900px tall on a
+       phone. Worth a design pass on image aspect ratios at mobile breakpoints.
+
+
+--- 3C. HEADINGS ----------------------------------------------------------------
+
+  3.12 HEADING LEVEL SKIP ON 48 OF 49 PAGES               [ MEDIUM ]
+       The hero USP strip uses H3 ("5/5 Rated on Google (43+ Reviews)",
+       "Mobile & On-Site", "12V & 24V Systems") directly after the H1, with no
+       H2 in between. Sequence is H1 → H3.
+       This is a template-level issue, not a per-page one. It weakens the
+       document outline for screen readers and for how Google parses page
+       structure.
+       FIX: change the hero USP labels from H3 to a non-heading element
+       (they are labels, not sections), or to H2.
+
+  3.13 DUPLICATE HEADING TEXT
+       - /air-conditioning/ — "Where We Come To Across South East Melbourne
+         and Gippsland" x2  (see 2.3, this is the real defect)
+       - /car-battery-replacement-officer/ — "Nearby Suburbs We Cover" x2
+         (see 2.4)
+       - homepage — "Auto Electrical" x2 (one service card, one equipment
+         card; low impact, cosmetic)
+
+  3.14 HEADING STRUCTURE OTHERWISE CORRECT
+       Exactly one H1 on all 49 pages. Doc Heading-3 subheadings correctly
+       rendered as H2. No empty headings anywhere. FAQ questions correctly
+       marked up as H3 under an H2 FAQ heading.
+
+
+--- 3D. HTML CODE ---------------------------------------------------------------
+
+  3.15 DUPLICATE ELEMENT IDs ON 45 PAGES                  [ MEDIUM ]
+       Every page carrying two enquiry forms (hero + footer) outputs the same
+       four IDs twice:
+         form-field-name, form-field-field_f5ff1b5, form-field-email,
+         form-field-message
+       Duplicate IDs are invalid HTML. Practical consequence: <label for=...>
+       resolves to the first field only, so tapping a label on the second form
+       focuses the wrong input, and screen readers announce it wrong.
+       FIX: Elementor lets you set a custom ID per form — give the second form
+       a distinct prefix.
+
+  3.16 FOUR DIFFERENT tel: LINK FORMATS SITEWIDE          [ MEDIUM ]
+         tel:0449%20992%20695   — 403 instances  (URL-encoded spaces)
+         tel:+61449992695       — 123 instances  (correct E.164 format)
+         tel:0449992695         — 110 instances
+         tel:0449 992 695       —  61 instances  (raw space — invalid URI)
+       The raw-space variant is malformed and can fail to dial on some Android
+       browsers and in-app webviews.
+       FIX: standardise everything on tel:+61449992695.
+
+  3.17 EMPTY ANCHOR WITH NO ACCESSIBLE NAME — 49 PAGES    [ MEDIUM ]
+       The header phone-icon link (<a href="tel:0449992695">) has no link text
+       and no aria-label. Screen readers announce it as "link" with no target.
+       FIX: add aria-label="Call NAZTECH on 0449 992 695".
+
+  3.18 MISSING IMAGE ALT TEXT — 14 PAGES                  [ MEDIUM ]
+       One image, Refrigerant-Regas-Leak-Detection_1200h.jpg, has no alt
+       attribute on:
+         /car-aircon-regas/ and all 13 car-aircon-regas-[suburb] pages
+         (Dandenong, Narre Warren, Berwick, Officer, Pakenham, Clyde,
+          Cranbourne, Frankston, Mornington, Lilydale, Warragul, Traralgon,
+          Leongatha)
+       Note the same file is 836 KB — see 3.19.
+       FIX: add alt text, e.g. "ARC-licensed technician leak-testing a car
+       air conditioning system before a regas".
+
+  3.19 OVERSIZED IMAGE                                    [ LOW ]
+       Refrigerant-Regas-Leak-Detection_1200h.jpg is 836 KB and is served on
+       14 pages. A 1536px WebP variant already exists at 143 KB.
+       FIX: serve the smaller variant / convert to WebP.
+
+  3.20 INTERNAL LINK OPENING IN A NEW TAB                 [ LOW ]
+       /car-aircon-regas-wonthaggi/ links to /car-battery-replacement-wonthaggi/
+       with target="_blank" and no rel="noopener". The equivalent link on all
+       13 other regas pages opens in the same tab.
+       FIX: remove target="_blank" for consistency.
+
+  3.21 HOMEPAGE LINK TARGETS                              [ LOW-MEDIUM ]
+       - "Learn More About Us" (under the About block) points to /contact/.
+         It should point to /about/.
+       - Two "Learn More" buttons in the services grid point to the generic
+         /services/ page instead of the specific service page. The card titles
+         above them link correctly (Auto Electrical → /mobile-auto-electrician/,
+         Aircon Regas → /car-aircon-regas/), so the buttons are inconsistent
+         with their own cards.
+
+  3.22 FOOTER MENU NOT UPDATED                            [ MEDIUM ]
+       The main navigation was updated correctly, but the footer was not:
+         - Footer "Services" list still reads Auto Electrical / Air
+           Conditioning / Installation & Repairs — the OLD service names. The
+           four new service pages (Mobile Electrical Repairs, Mobile AC Regas,
+           Mobile AC Service & Repair, Mobile Battery Replacement) are absent.
+         - "Auto Electrical" and "Installation & Repairs" are not even links —
+           they are plain text.
+         - Footer "Quick Links" has Home / About / Services / Contact but not
+           Areas or Gallery, both of which are now in the main nav.
+       FIX: mirror the new nav structure in the footer.
+
+  3.23 SCHEMA                                             [ INFO / OPPORTUNITY ]
+       Present and valid on all pages: Organization, WebSite, WebPage,
+       BreadcrumbList, ImageObject, SearchAction.
+       FAQPage + Question + Answer present on 47 of 49 pages — correct, since
+       the two without it (/about/, /mobile-auto-electrician/) have no FAQs in
+       the approved copy.
+       GAP: there is no LocalBusiness / AutoRepair schema anywhere on the site,
+       and no areaServed markup on any of the 42 suburb pages. For a mobile
+       service business built around 14 suburbs, this is the biggest structured
+       data opportunity on the site. Recommend AutoRepair schema with
+       areaServed, ARC licence as a credential, opening hours and aggregate
+       rating. Not a developer error — this was not in the task doc — so
+       raising it as a next-step recommendation.
+
+  3.24 TECHNICAL BASELINE — ALL CLEAN
+       - No noindex on any page
+       - Self-referencing canonical on all 49 pages
+       - og:title / og:description / og:image present on all 49 pages
+       - charset and lang attributes present
+       - robots.txt and sitemap_index.xml both return 200
+       - No broken internal links anywhere
+       - No orphan pages
+
+  3.25 META TITLE LENGTH                                  [ INFO ]
+       All 49 titles exceed 65 characters (range 66-89). They match the
+       approved doc exactly, so this is not a developer issue — but they will
+       truncate in Google results. Flagging for our own next revision, not for
+       the developer.
+
+
+================================================================================
+PART 4 — DAILY TASK COMPLIANCE CHECKLIST
+================================================================================
+
+FROM "Naztech.com.au - Daily Tasks.docx"
+
+  #   TASK                                                          STATUS
+  --- ------------------------------------------------------------- ---------
+  1   Create 44 new pages (14+14+14 suburb + 2 hub)                  DONE
+  2   Rename /pakenham/ → /mobile-auto-electrician-pakenham/ + 301   DONE
+  3   /about/ — replace top section H1 + add content                 DONE
+  4   Homepage — replace H1 with approved H1                         NOT DONE
+  5   Rename /cars/ → /mobile-auto-electrician/ + 301                DONE
+  5b  /mobile-auto-electrician/ — H1 + content                       DONE
+  5c  /mobile-auto-electrician/ — built on right template            NOT DONE
+  6   /air-conditioning/ — add content, replace H1                   DONE
+  6b  /air-conditioning/ — remove superseded blocks                  NOT DONE
+  7   /areas-we-serve/ — location-page style + content               DONE
+  7b  /areas-we-serve/ — Google map + links                          DONE
+  8   Nav: replace "Pakenham" with "Areas"                           DONE
+  8b  Nav: remove Areas We Serve from Services dropdown              DONE
+  9   Nav: add 4 service pages under Services                        DONE
+  10  Nav: replace "Cars" with "Gallery"                             DONE
+  10b Nav: remove Gallery from About dropdown                        DONE
+  11  Reviews → "5/5 Rated on Google (43+ Reviews)" sitewide         PARTIAL
+  12  "Melbourne & Victoria" → "South East Melbourne & Gippsland"    PARTIAL
+      sitewide
+
+FROM TRELLO ANNOTATED SCREENSHOTS
+
+  image (13).png + image (10).png — HOMEPAGE
+  --- ------------------------------------------------------------- ---------
+  Eyebrow → "South East Melbourne & Gippsland"                       DONE
+  Hero paragraph → "South East Melbourne & Gippsland"                DONE
+  Hero: use same 3 USPs as the Berwick page                          DONE
+  Replace intro paragraph with H1 content                            DONE
+  Delete "Mobile auto electrician servicing Melbourne and all of     DONE
+    Victoria" bullet
+  Delete "Reliable Mobile Auto Electrician in Melbourne &            PARTIAL
+    Victoria" heading                                                (only
+                                                                     "& Victoria"
+                                                                     removed)
+  Stats card "Melbourne & All of Victoria" → replace                 NOT DONE
+  Services box 1 → link to /mobile-auto-electrician/                 DONE
+  Services box 3 "Installation & Repairs" → "Aircon Regas" + link    DONE
+  Use car images in all 3 service boxes                              DONE
+  Equipment lists → copy from the Berwick page                       DONE
+  Add section with remaining H2 content (image RHS, scrolling)       DONE
+  "Industries & Equipment": make General Vehicles the first item     DONE
+  FAQ: remove "How far do you travel?"                               DONE
+
+  image (11).png — /air-conditioning/
+  --- ------------------------------------------------------------- ---------
+  Replace "Air Conditioning" H1 with our H1                          DONE
+  Add H1 content                                                     DONE
+  Add remaining content in two LHS/RHS image sections                DONE
+  Replace the two legacy cards                                       NOT DONE
+
+  image (12).png — /mobile-auto-electrician-dandenong/
+  --- ------------------------------------------------------------- ---------
+  Delete "MELBOURNE & VICTORIA" from eyebrow                         DONE
+  Remove old hero paragraph                                          DONE
+  USP → "Cars, SUVs, 4WDs, heavy machinery & fleet"                  DONE
+  Add "Cars, SUVs & 4WDs Specialists" as first USP                   DONE
+  Remove "Melbourne & Victoria-Wide" USP                             DONE
+  "Heavy Machinery Specialists" → "All Vehicles Large & Small"       DONE
+  "Melbourne & All of Victoria" → "South East Melbourne &            DONE
+    Gippsland"
+  H2 "Equipment We Service" → "Vehicles & Equipment We Service"      DONE
+  Move "Commercial Vehicles & Fleet" box first + rename to           DONE
+    "CARS, FLEETS & COMMERCIALS" with new list
+  Footer CTA → "South East Melbourne or Gippsland"                   DONE
+  Replace heavy-vehicle images with car images (3 spots)             SEE NOTE
+
+  NOTE on images: the annotations asked for car images in place of truck and
+  heavy-equipment photos in three spots on the Dandenong page. Car images are
+  now in place across the service grid and the page reads correctly. Because
+  the annotations did not specify which file to use, this cannot be verified
+  automatically — recommend a quick visual sign-off by the analyst.
+
+  The Dandenong template changes were correctly rolled out to all 42 suburb
+  pages, not just Dandenong. Good work by the developer there.
+
+
+================================================================================
+SUMMARY — ACTION ITEMS
+================================================================================
+
+ #   PRIORITY  OWNER      ACTION
+ --- --------- ---------- --------------------------------------------------
+ 1   CRITICAL  Developer  Replace the homepage H1 with the approved H1:
+                          "Mobile Auto Electrical & Air Conditioning South
+                          East Melbourne & Gippsland: Cars, 4WDs and Fleets,
+                          Sorted Where You Park"                     [3.1]
+ 2   CRITICAL  Developer  Remove `elementor-hidden-mobile` from the enquiry
+                          form section — form is invisible on mobile across
+                          46 pages                                   [3.2]
+ 3   HIGH      Developer  Finish the "Melbourne & Victoria" rename: footer
+                          copyright + footer contact block on all 49 pages,
+                          plus 5 more instances on the homepage      [3.3]
+ 4   HIGH      Developer  Delete the homepage card "Melbourne & Across
+                          Victoria / ...including Geelong, Ballarat and
+                          beyond" — wrong service area entirely      [3.3c]
+ 5   HIGH      Developer  Change the homepage closing CTA to "Need a Mobile
+                          Auto Electrician in South East Melbourne or
+                          Gippsland?"                                [3.3e]
+ 6   HIGH      Developer  Update the 3 remaining "34 Google Reviews"
+                          references on the homepage to
+                          "5/5 Rated on Google (43+ Reviews)"        [3.4]
+ 7   HIGH      Developer  Rebuild /mobile-auto-electrician/ on the standard
+                          service-page template and delete the old
+                          "Why Choose NAZTECH for Cars?" block       [3.5]
+ 8   HIGH      Developer  Fix the 404 Elementor thumbnail affecting 22 pages
+                                                                     [3.6]
+ 9   MEDIUM    Developer  /air-conditioning/: fix the duplicated H2 — the
+                          second one should be "Car A/C Questions We Hear
+                          Across the South East and Gippsland"       [2.3]
+ 10  MEDIUM    Developer  /air-conditioning/: remove the two legacy cards
+                          under the H1                               [2.5]
+ 11  MEDIUM    Developer  /areas-we-serve/: restore "Call 0449 992 695 or
+                          send an online enquiry" in the intro       [2.1]
+ 12  MEDIUM    Developer  /car-battery-replacement-clyde/: restore the
+                          approved FAQ question wording              [2.2]
+ 13  MEDIUM    Developer  /car-battery-replacement-officer/: delete the
+                          duplicate "Nearby Suburbs We Cover"        [2.4]
+ 14  MEDIUM    Developer  Homepage: delete the leftover "Reliable Mobile
+                          Auto Electrician" heading                  [2.6]
+ 15  MEDIUM    Developer  Update the footer menu — new service pages, Areas
+                          and Gallery links, make plain-text items links
+                                                                     [3.22]
+ 16  MEDIUM    Developer  Give the second enquiry form unique field IDs
+                                                                     [3.15]
+ 17  MEDIUM    Developer  Standardise all tel: links on tel:+61449992695
+                          (403 + 61 instances currently malformed)   [3.16]
+ 18  MEDIUM    Developer  Raise mobile tap targets: service-card "Request a
+                          Quote" links are 14px tall (360 instances) [3.9]
+ 19  MEDIUM    Developer  Raise mobile font sizes from 10-11px to 12px+ on
+                          the hero USP strip and footer ARC badge    [3.10]
+ 20  MEDIUM    Developer  Add aria-label to the header phone icon link
+                                                                     [3.17]
+ 21  MEDIUM    Developer  Add alt text to Refrigerant-Regas-Leak-Detection
+                          image on 14 pages, and serve the 143 KB variant
+                          instead of the 836 KB original             [3.18/3.19]
+ 22  MEDIUM    Developer  Change hero USP labels from H3 to non-heading /
+                          H2 — fixes H1→H3 skip on 48 pages          [3.12]
+ 23  LOW       Developer  Homepage: "Learn More About Us" should link to
+                          /about/, and the two "Learn More" buttons should
+                          link to their own service pages            [3.21]
+ 24  LOW       Developer  /car-aircon-regas-wonthaggi/: remove target="_blank"
+                          on the internal link                       [3.20]
+ 25  LOW       SEO        Change "Trusted by Commercial Operators Across
+                          Melbourne" to "...Across South East Melbourne &
+                          Gippsland" on 46 pages                     [3.3]
+ 26  LOW       SEO        Align the review number — badge says 43+, body copy
+                          says 44                                    [3.4]
+ 27  LOW       SEO        Consider tightening meta titles to under 65 chars
+                          in the next revision (all 49 currently 66-89) [3.25]
+ 28  LOW       SEO        Consider rewording the Clyde FAQ "Do you cover the
+                          Clyde in Victoria..."                      [2.7]
+ 29  NEXT STEP SEO        Propose AutoRepair / LocalBusiness schema with
+                          areaServed for the 42 suburb pages — biggest
+                          structured-data opportunity on the site    [3.23]
+ 30  SIGN-OFF  Analyst    Visual check of the car-vs-heavy-equipment image
+                          swaps requested in the Trello annotations
+
+================================================================================
+END OF REPORT
+================================================================================

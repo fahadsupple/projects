@@ -125,3 +125,20 @@ Client requested two changes after initial doc was built:
 2. **Homepage neutrality fix:** homepage was found to be heavily industrial/commercial-skewed — hero image (truck/toolbox scene), "Brands & Equipment We Work On" 20-tile grid (completely empty, no logos loading), 6 equipment-list columns (Heavy Equipment x3, Trucks, Farming, Mining — zero Light Automotive column), "Industries & Equipment We Service" grid (7/8 tiles industrial, only "General Vehicles" for light auto), and reviews heading "Trusted by Commercial Operators Across Melbourne" (excludes private/light-vehicle customers). New Section 4 added to the daily task doc with 4 annotated screenshots (hero, brands grid, equipment lists, industries grid) specifying what needs to change to represent all 3 service sectors (Light Automotive / Heavy Transport / Heavy Equipment) neutrally.
 
 Updated deliverable still at: `clients/naztech.com.au/daily-task/Naztech.com.au - Daily Tasks.docx` (now 11 sections, 6 embedded screenshots).
+
+## Review Work — Daily Tasks verification (31 Jul 2026)
+Full review of the built site against the approved copy (49 pages), the Daily Tasks doc (incl. 16/07/2026 additions) and 4 annotated Trello screenshots (homepage x2, /air-conditioning/, /mobile-auto-electrician-dandenong/).
+
+**Report:** `clients/naztech.com.au/review/review-daily-tasks-31-jul-2026.txt`
+
+**Result:** content accuracy excellent — 2,749 of 2,752 approved sentences live verbatim; all 49 meta titles and descriptions exact; 48/49 H1s correct; all 44 new pages live and in the sitemap; both 301s in place; nav rebuilt correctly; no orphans or broken internal links; no cross-suburb contamination; all postcodes correct.
+
+**Critical defects found (all outside the body copy):**
+1. Homepage H1 never replaced — still "…for Heavy Equipment, Fleet & Plant" instead of the approved "…South East Melbourne & Gippsland: Cars, 4WDs and Fleets, Sorted Where You Park".
+2. Enquiry form hidden on mobile on 46 pages — sits inside `elementor-hidden-mobile`; renders 410x378 on desktop, 0x0 at 390px. No mobile fallback. /contact/ unaffected.
+3. "Melbourne & Victoria" → "South East Melbourne & Gippsland" rename missed in the footer on all 49 pages (twice each), plus 5 more homepage-only instances — including a card claiming Geelong and Ballarat coverage.
+4. Review count update missed on the homepage only (3 x "34 Google Reviews").
+5. `/mobile-auto-electrician/` (renamed `/cars/`) got the copy but was never rebuilt on the service-page template — no USP strip, no reviews, no CTA, no form; old "Why Choose NAZTECH for Cars?" block still live.
+6. 404 Elementor thumbnail on 22 pages.
+
+**Pattern to remember for this client:** the templated pages are near-perfect; every miss is on the homepage (built differently) or in the footer. Check both explicitly on the next round.
